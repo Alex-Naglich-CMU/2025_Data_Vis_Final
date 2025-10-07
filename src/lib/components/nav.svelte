@@ -42,7 +42,7 @@
 </script>
 
 <div
-	class="flex items-center justify-between bg-fuchsia-600 shadow-xl/30 dark:bg-fuchsia-500"
+	class="flex items-center justify-between bg-fuchsia-400 shadow-xl/30 dark:bg-fuchsia-500"
 >
 	<nav class="flex-grow m-2">
 		<ul class="flex space-x-1">
@@ -87,5 +87,3 @@
 		<option value="dark">Dark</option>
 	</select>
 </div>
-
-<hr class="border-2 border-black/10 dark:border-white/10" />
