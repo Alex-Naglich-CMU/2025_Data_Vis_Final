@@ -1,8 +1,0 @@
-[
-	{ "name": "Good", "min": 0, "max": 50, "color": "#9cd84e" },
-	{ "name": "Moderate", "min": 51, "max": 100, "color": "#facf39" },
-	{ "name": "Unhealthy for Sensitive Groups", "min": 101, "max": 150, "color": "#f99049" },
-	{ "name": "Unhealthy", "min": 151, "max": 200, "color": "#f65e5f" },
-	{ "name": "Very Unhealthy", "min": 201, "max": 300, "color": "#a070b6" },
-	{ "name": "Hazardous", "min": 301, "color": "#a06a7b" }
-]

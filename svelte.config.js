@@ -7,7 +7,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : '/2025_VIS_CLASS'
+			base: process.argv.includes('dev') ? '' : '/2025_VIS_CLASS_FINAL'
 		}
 	}
 };
