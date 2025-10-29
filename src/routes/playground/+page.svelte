@@ -2,8 +2,8 @@
 	import { resolve } from '$app/paths';
 
 	const navRoutes: { path: string; name: string }[] = [
-		{ path: '/playground/toggle_fetching', name: 'Toggle between fetching one url vs another, reload the variable without race conditions' },
-		{ path: '/playground/smart_fetch', name: 'Properly use the Medicare api to get the id from the metadata of the main page and use that to grab data about the later ones' }
+		{ path: '/playground/toggle_fetching', name: 'Example where I re-fetch and override a value without race condition issues.' },
+		{ path: '/playground/smart_fetch', name: 'Medicare Api calls to get all of the necessary data. Use for exploring the JSON' }
 	];
 </script>
 
