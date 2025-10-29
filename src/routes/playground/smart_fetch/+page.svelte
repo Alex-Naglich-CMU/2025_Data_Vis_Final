@@ -2,6 +2,8 @@
 	// The core identifier for the NADAC Comparisons dataset
 	const datasetId = 'a217613c-12bc-5137-8b3a-ada0e4dad1ff';
 	// API reference: https://data.medicaid.gov/dataset/a217613c-12bc-5137-8b3a-ada0e4dad1ff#api
+	// NDC code to filter data points
+	const ndcFilterValue = $state('65862069030');
 
 	///////////////// State and Utility Initialization //////////////////
 
@@ -23,19 +25,30 @@
 	///////////////// Utility Functions //////////////////
 
 	// Helper function for fetching from APIs.
-	const fetchData = async (url: string, signal: AbortSignal) => {
+	const fetchData = async (
+		url: string,
+		signal: AbortSignal,
+		method: string = 'GET',
+		body: any = null
+	) => {
+		const options: RequestInit = {
+			signal,
+			method: method
+		};
+
+		if (body) {
+			options.headers = { 'Content-Type': 'application/json' };
+			options.body = JSON.stringify(body);
+		}
+
 		try {
-			const res = await fetch(url, { signal });
+			const res = await fetch(url, options);
 			if (!res.ok) {
 				throw new Error(`HTTP error! status: ${res.status} from ${url}`);
 			}
 			return await res.json();
 		} catch (error) {
-			if (error instanceof Error && error.name === 'AbortError') {
-				// Don't log aborts as errors
-			} else {
-				console.error('Error fetching data from:', url, error);
-			}
+			// ... (error handling remains the same) ...
 			return null;
 		}
 	};
@@ -87,24 +100,33 @@
 		const dataController = new AbortController();
 		const dataSignal = dataController.signal;
 
-		data = await fetchData(
-			`https://data.medicaid.gov/api/1/datastore/query/${distributionID}`,
-			dataSignal
+		// Use the confirmed URL structure: /datastore/query/{datasetId}/{index}
+		const url = `https://data.medicaid.gov/api/1/datastore/query/${datasetId}/0`;
+
+		// Use the JSON request body structure for filtering and limiting
+		const requestBody = {
+			conditions: [
+				{
+					property: 'ndc',
+					value: ndcFilterValue,
+					operator: '=' // Exact match
+				}
+			]
+		};
+
+		const responseData = await fetchData(
+			url,
+			dataSignal,
+			'POST', // Specify POST method
+			requestBody
 		);
 
-		// // Calculate the size of the JSON response string
-		// if (data) {
-		// 	const jsonString = JSON.stringify(data, null, 2);
-
-		// 	// Use TextEncoder for a proper byte count (handles multi-byte characters)
-		// 	const estimatedSizeInBytes = new TextEncoder().encode(jsonString).length;
-
-		// 	console.log(
-		// 		`Fetched Data Size: ${estimatedSizeInBytes} bytes (${(
-		// 			estimatedSizeInBytes / 1024
-		// 		).toFixed(2)} KB)`
-		// 	);
-		// }
+		// Extract the array from the confirmed "results" wrapper
+		if (responseData && responseData.results && Array.isArray(responseData.results)) {
+			data = responseData.results;
+		} else {
+			data = responseData || null;
+		}
 	};
 
 	///////////////// Effects for Reactivity //////////////////
@@ -122,9 +144,31 @@
 		}
 	});
 
+	let docTitles = {
+		metaData: { name: 'Metadata', file: 'metadata' },
+		metadataDoc: { name: 'Metadata Document', file: 'metadataDoc' },
+		description: { name: 'Description', file: 'description' },
+		data: { name: 'Data Points', file: 'data' }
+	};
+	let currentDoc = $state('data');
 
-	let docTitles = {"metaData": {"name":'Metadata',"file": "metadata"}, "metadataDoc": {"name":'Metadata Document',"file": "metadataDoc"}, "description": {"name":'Description',"file": "description"}, "data": {"name":'Data Points',"file": "data"}};
-	let currentDoc = $state('metaData');
+	function getCurrentDocData() {
+		// Use the val stored in currentDoc to determine which variable to return
+		switch (currentDoc) {
+			case 'metaData':
+				return metadata;
+			case 'metadataDoc':
+				return metadataDoc;
+			case 'description':
+				return description;
+			case 'data':
+				return data;
+			default:
+				return null;
+		}
+	}
+
+
 
 </script>
 
@@ -135,12 +179,14 @@
 	<p><strong>Distribution ID:</strong> {distributionID || 'Loading...'}</p>
 </div>
 
-<select name="documents" id="documents" bind:value={currentDoc} class="mb-4 select select-bordered">
+<select name="documents" id="documents" bind:value={currentDoc} class="select-bordered select mb-4">
 	{#each Object.entries(docTitles) as [key, store]}
 		<option value={key}>{store.name}</option>
 	{/each}
 </select>
 
 <div class="flex space-x-4">
-	// Placeholder for filling data
+	<pre class="max-h-[500px] w-full overflow-auto rounded border bg-white p-4">
+		{JSON.stringify(getCurrentDocData(), null, 2)}
+	</pre>
 </div>
