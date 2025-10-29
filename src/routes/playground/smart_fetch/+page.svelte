@@ -1,4 +1,6 @@
 <script lang="ts">
+	import * as d3 from 'd3';
+
 	// The core identifier for the NADAC Comparisons dataset
 	const datasetId = 'a217613c-12bc-5137-8b3a-ada0e4dad1ff';
 	// API reference: https://data.medicaid.gov/dataset/a217613c-12bc-5137-8b3a-ada0e4dad1ff#api
@@ -167,9 +169,6 @@
 				return null;
 		}
 	}
-
-
-
 </script>
 
 <h1 class="mb-4 text-3xl font-bold">Fetch Data from Medicaid using API</h1>
@@ -185,8 +184,17 @@
 	{/each}
 </select>
 
-<div class="flex space-x-4">
-	<pre class="max-h-[500px] w-full overflow-auto rounded border bg-white p-4">
-		{JSON.stringify(getCurrentDocData(), null, 2)}
-	</pre>
+<div class="flex space-x-2">
+	<div class="flex flex-1 space-x-4">
+		<pre class="max-h-[500px] w-full overflow-auto rounded border bg-white p-4">
+			{JSON.stringify(getCurrentDocData(), null, 2)}
+		</pre>
+	</div>
+
+	<div class="flex-1">
+		These are the price values for the NDC code {ndcFilterValue}:
+		{#each data as item}
+			<pre>{item?.new_nadac_per_unit}</pre>
+		{/each}
+	</div>
 </div>
