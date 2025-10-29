@@ -82,10 +82,15 @@
 		}
 	};
 
-	
-	//Fetches the actual data points for a given distribution ID 
+	//Fetches the actual data points for a given distribution ID
 	const loadDataPoints = async (distributionID: string) => {
-		data = await fetchData(`https://data.medicaid.gov/api/1/datastore/query/${distributionID}`, signal);
+		const dataController = new AbortController();
+		const dataSignal = dataController.signal;
+
+		data = await fetchData(
+			`https://data.medicaid.gov/api/1/datastore/query/${distributionID}`,
+			dataSignal
+		);
 
 		// // Calculate the size of the JSON response string
 		// if (data) {
@@ -116,6 +121,11 @@
 			loadDataPoints(distributionID);
 		}
 	});
+
+
+	let docTitles = {"metaData": {"name":'Metadata',"file": "metadata"}, "metadataDoc": {"name":'Metadata Document',"file": "metadataDoc"}, "description": {"name":'Description',"file": "description"}, "data": {"name":'Data Points',"file": "data"}};
+	let currentDoc = $state('metaData');
+
 </script>
 
 <h1 class="mb-4 text-3xl font-bold">Fetch Data from Medicaid using API</h1>
@@ -125,28 +135,12 @@
 	<p><strong>Distribution ID:</strong> {distributionID || 'Loading...'}</p>
 </div>
 
-<div class="flex space-x-4">
-	{#each [metadataDoc, metadata, description, data] as doc}
-		{#if doc === null}
-			<p>Loading...</p>
-		{/if}
-		{#if doc !== null}
-			<div class="flex-1 min-w-0">
-				<h2 class="mb-2 text-xl font-semibold">
-					{#if doc === metadataDoc}
-						Metadata Document
-					{:else if doc === metadata}
-						Metadata
-					{:else if doc === description}
-						Description
-					{:else if doc === data}
-						Data Points
-					{/if}
-				</h2>
-				<pre class="max-h-96 overflow-auto rounded border bg-white p-2">
-					{JSON.stringify(doc, null, 2)}
-				</pre>
-			</div>
-		{/if}		
+<select name="documents" id="documents" bind:value={currentDoc} class="mb-4 select select-bordered">
+	{#each Object.entries(docTitles) as [key, store]}
+		<option value={key}>{store.name}</option>
 	{/each}
+</select>
+
+<div class="flex space-x-4">
+	// Placeholder for filling data
 </div>
