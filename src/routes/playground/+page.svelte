@@ -3,7 +3,8 @@
 
 	const navRoutes: { path: string; name: string }[] = [
 		{ path: '/playground/toggle_fetching', name: 'Example where I re-fetch and override a value without race condition issues.' },
-		{ path: '/playground/smart_fetch', name: 'Medicare Api calls to get all of the necessary data. Use for exploring the JSON' }
+		{ path: '/playground/smart_fetch', name: 'Medicare Api calls to get all of the necessary data. Use for exploring the JSON' },
+		{ path: '/playground/local_fetch', name: 'Example of fetching local JSON files w/in SvelteKit' }
 	];
 </script>
 
