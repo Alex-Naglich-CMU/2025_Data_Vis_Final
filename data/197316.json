@@ -1,0 +1,16 @@
+[
+  {
+    "RXCUI": "197316",
+    "NDC": "00093410001",
+    "NADAC_Per_Unit": 1.55,
+    "Effective_Date": "2025-10-01",
+    "Pricing_Unit": "EA"
+  },
+  {
+    "RXCUI": "197316",
+    "NDC": "50111042201",
+    "NADAC_Per_Unit": 0.92,
+    "Effective_Date": "2025-10-01",
+    "Pricing_Unit": "ML"
+  }
+]
