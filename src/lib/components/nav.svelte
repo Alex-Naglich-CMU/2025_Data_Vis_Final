@@ -21,7 +21,8 @@
 		{ path: '/internal', name: 'Internal Docs' },
 		{ path: 'https://dig.cmu.edu/datavis-fall-2025/final-project/', name: 'Final Info' },
 		{ path: '/team', name: 'Team' },
-		{ path: '/playground', name: 'Playground' }
+		{ path: '/playground', name: 'Playground' },
+		{ path: '/kim', name: 'Kim' }
 	];
 
 	$effect(() => {
