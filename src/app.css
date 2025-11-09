@@ -3,10 +3,18 @@
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
-@theme {
+
+/* @theme {
 	--color-scheme: dark;
 	--font-sans: 'Inter', system-ui, sans-serif;
 	--font-display: 'Poppins', system-ui, sans-serif;
-}
+} */
 
-@variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+/* @variant dark (&:where([data-theme="dark"], [data-theme="dark"] *)); */
+
+body {
+	background-color: #FCFBF5;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}

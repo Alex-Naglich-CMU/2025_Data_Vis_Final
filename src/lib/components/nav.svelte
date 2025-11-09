@@ -44,7 +44,7 @@
 </script>
 
 <div
-	class="flex items-center justify-between bg-fuchsia-400 shadow-xl/30 dark:bg-fuchsia-500"
+	class="flex items-center justify-between bg-#F6F5EC"
 >
 	<nav class="flex-grow m-2">
 		<ul class="flex space-x-1">
@@ -79,13 +79,4 @@
 			<div class="absolute inset-0 rounded-full transition-all duration-200 hover:bg-white/10"></div>
 		</div>
 	</a>
-
-	<select
-		class="select ml-2 h-auto w-20 select-sm py-0 select-secondary"
-		aria-label="Select Theme"
-		bind:value={colorScheme}
-	>
-		<option value="light">Light</option>
-		<option value="dark">Dark</option>
-	</select>
 </div>

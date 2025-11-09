@@ -11,8 +11,11 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 <Nav />
-<div class="container mx-auto">
+<div class="container">
 	<div class="content">
 		{@render children?.()}
 	</div>
 </div>
+
+<style>
+</style>

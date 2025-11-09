@@ -18,5 +18,13 @@
 	</div>
 </div>
 
+<style>
+	* {
+		font-family: Antonio;
+		background-color: #FCFBF5;
+		margin: 0;
+		padding: 0;
+	}
+</style>
 
 <Graphic />
