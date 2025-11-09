@@ -21,3 +21,9 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# The Data
+nadac-comparison.csv
+RXNCONSO.RRF
+RXNREL.RRF
+RXNSAT.RRF
