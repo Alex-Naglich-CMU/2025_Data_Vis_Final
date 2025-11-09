@@ -24,6 +24,7 @@ vite.config.ts.timestamp-*
 
 # The Data
 nadac-comparison.csv
+nadac-comparison-11-05-2025.csv
 RXNCONSO.RRF
 RXNREL.RRF
 RXNSAT.RRF

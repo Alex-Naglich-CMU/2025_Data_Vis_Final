@@ -117,15 +117,15 @@ def find_related_rxcui(rxcui, is_brand):
         # This is a brand, find its generic
         generic = brand_to_generic.get(rxcui)
         if generic is None:
-            # No generic found - use same rxcui for both
-            return rxcui, rxcui
+            # No generic found - leave null
+            return rxcui, None
         return generic, rxcui
     else:
         # This is a generic, find its brand
         brand = generic_to_brand.get(rxcui)
         if brand is None:
-            # No brand found - use same rxcui for both
-            return rxcui, rxcui
+            # No brand found - leave null
+            return rxcui, None
         return rxcui, brand
 
 # --- STEP 4: Process NADAC Row by Row ---
