@@ -52,11 +52,11 @@ del df_rxnsat, df_ndc_map
 # --- STEP 2: Load RxNorm RXNREL (Brand/Generic relationships) ---
 print("\n[2/4] Loading RXNREL.RRF...")
 
-# RXNREL: HAS EMPTY COLUMN!
+# RXNREL: Corrected column definition
 rxnrel_columns = [
-    'EMPTY', 'RXCUI1', 'RXAUI1', 'STYPE1', 'REL', 'RXCUI2', 'RXAUI2', 
-    'STYPE2', 'RELA', 'RUI', 'SRUI', 'SAB', 'SL', 'RG', 
-    'DIR', 'SUPPRESS', 'CVF'
+    'RXCUI1', 'RXAUI1', 'STYPE1', 'REL', 'RXCUI2', 'RXAUI2', 
+    'STYPE2', 'RELA', 'RUI', 'SRUI', 'SAB', 'SL', 'DIR', 
+    'RG', 'SUPPRESS', 'CVF'
 ]
 
 df_rxnrel = pd.read_csv(
@@ -64,12 +64,14 @@ df_rxnrel = pd.read_csv(
     sep='|',
     header=None,
     names=rxnrel_columns,
+    usecols=range(len(rxnrel_columns)), # Ignore the trailing empty column
     dtype=str,
     low_memory=False
 )
 
 df_relationships = df_rxnrel[
-    df_rxnrel['RELA'].isin(['has_tradename', 'tradename_of'])
+    (df_rxnrel['SAB'] == 'RXNORM') &
+    (df_rxnrel['RELA'].isin(['has_tradename', 'tradename_of', 'has_brand_name', 'brand_name_of']))
 ].copy()
 
 print(f"   ✓ Loaded {len(df_rxnrel):,} rows from RXNREL")
@@ -84,12 +86,16 @@ for _, row in df_relationships.iterrows():
     rxcui2 = str(row['RXCUI2']).strip()
     rela = str(row['RELA']).strip()
     
-    if rela == 'tradename_of':
+    # tradename_of or brand_name_of: RXCUI1 is brand, RXCUI2 is generic
+    if rela in ['tradename_of', 'brand_name_of']:
         brand_to_generic[rxcui1] = rxcui2
-        generic_to_brand[rxcui2] = rxcui1
-    elif rela == 'has_tradename':
+        if rxcui2 not in generic_to_brand: # Avoid overwriting
+            generic_to_brand[rxcui2] = rxcui1
+    # has_tradename or has_brand_name: RXCUI1 is generic, RXCUI2 is brand
+    elif rela in ['has_tradename', 'has_brand_name']:
         generic_to_brand[rxcui1] = rxcui2
-        brand_to_generic[rxcui2] = rxcui1
+        if rxcui2 not in brand_to_generic: # Avoid overwriting
+            brand_to_generic[rxcui2] = rxcui1
 
 print(f"   ✓ Built lookup tables:")
 print(f"      - {len(brand_to_generic):,} brand → generic mappings")
@@ -110,23 +116,30 @@ def lookup_rxcui_from_ndc(ndc):
     return ndc_to_rxcui.get(clean_ndc)
 
 def find_related_rxcui(rxcui, is_brand):
-    """Find the related brand or generic RxCUI"""
+    """Find the related brand or generic RxCUI."""
     rxcui = str(rxcui).strip()
     
+    brand_rxcui = None
+    generic_rxcui = None
+
     if is_brand:
-        # This is a brand, find its generic
-        generic = brand_to_generic.get(rxcui)
-        if generic is None:
-            # No generic found - leave null
-            return rxcui, None
-        return generic, rxcui
-    else:
-        # This is a generic, find its brand
-        brand = generic_to_brand.get(rxcui)
-        if brand is None:
-            # No brand found - leave null
-            return rxcui, None
-        return rxcui, brand
+        brand_rxcui = rxcui
+        generic_rxcui = brand_to_generic.get(rxcui)
+        # If not found, maybe this "brand" is a generic with a brand name
+        if not generic_rxcui:
+            if generic_to_brand.get(rxcui):
+                generic_rxcui = rxcui
+                brand_rxcui = generic_to_brand.get(rxcui)
+    else: # is_generic
+        generic_rxcui = rxcui
+        brand_rxcui = generic_to_brand.get(rxcui)
+        # If not found, maybe this "generic" is a brand with a generic name
+        if not brand_rxcui:
+            if brand_to_generic.get(rxcui):
+                brand_rxcui = rxcui
+                generic_rxcui = brand_to_generic.get(rxcui)
+
+    return generic_rxcui, brand_rxcui
 
 # --- STEP 4: Process NADAC Row by Row ---
 print("\n[4/4] Processing NADAC data row-by-row...")
@@ -205,6 +218,12 @@ for index, row in tqdm(df_nadac.iterrows(), total=len(df_nadac), desc="Processin
             with open(filename, 'r') as f:
                 data = json.load(f)
         
+        # Always ensure both brand and generic RxCUIs are populated if found
+        if brand_rxcui and not data.get('Brand_RxCUI'):
+            data['Brand_RxCUI'] = brand_rxcui
+        if generic_rxcui and not data.get('Generic_RxCUI'):
+            data['Generic_RxCUI'] = generic_rxcui
+
         if ndc not in data['prices']:
             data['prices'][ndc] = {}
         
