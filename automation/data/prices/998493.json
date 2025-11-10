@@ -1,0 +1,13 @@
+{
+  "RxCUI": "998493",
+  "Name": "BAZA ANTIFUNGAL 2% CREAM",
+  "IsBrand": false,
+  "Brand_RxCUI": "998483",
+  "Generic_RxCUI": "998493",
+  "prices": {
+    "11701004514": {
+      "06/21/2017": 0.05796,
+      "07/19/2017": 0.06168
+    }
+  }
+}

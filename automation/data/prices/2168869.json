@@ -1,0 +1,13 @@
+{
+  "RxCUI": "2168869",
+  "Name": "JORNAY PM 40 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "2168868",
+  "Generic_RxCUI": "2168869",
+  "prices": {
+    "71376020203": {
+      "06/23/2021": 12.48926,
+      "07/01/2021": 12.86394
+    }
+  }
+}

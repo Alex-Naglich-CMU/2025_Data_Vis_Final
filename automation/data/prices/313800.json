@@ -1,0 +1,12 @@
+{
+  "RxCUI": "313800",
+  "Name": "AMPICILLIN 250 MG CAPSULE",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "313800",
+  "prices": {
+    "00781214401": {
+      "06/21/2017": 0.08894
+    }
+  }
+}

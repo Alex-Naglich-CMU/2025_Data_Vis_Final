@@ -1,0 +1,12 @@
+{
+  "RxCUI": "212233",
+  "Name": "ZOLOFT 25 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "312940",
+  "Generic_RxCUI": "212233",
+  "prices": {
+    "00049496030": {
+      "06/01/2017": 9.43519
+    }
+  }
+}

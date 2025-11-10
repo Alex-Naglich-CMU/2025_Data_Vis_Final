@@ -1,0 +1,12 @@
+{
+  "RxCUI": "351761",
+  "Name": "DIOVAN 80 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "349199",
+  "Generic_RxCUI": "351761",
+  "prices": {
+    "00078035834": {
+      "07/21/2021": 7.49625
+    }
+  }
+}

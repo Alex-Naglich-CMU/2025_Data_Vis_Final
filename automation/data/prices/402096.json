@@ -1,0 +1,12 @@
+{
+  "RxCUI": "402096",
+  "Name": "CIALIS 10 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "484814",
+  "Generic_RxCUI": "402096",
+  "prices": {
+    "00002446330": {
+      "06/21/2017": 58.33192
+    }
+  }
+}

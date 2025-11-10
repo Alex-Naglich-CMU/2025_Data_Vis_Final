@@ -1,0 +1,12 @@
+{
+  "RxCUI": "308749",
+  "Name": "FLEET BISACODYL 10 MG ENEMA",
+  "IsBrand": true,
+  "Brand_RxCUI": "308749",
+  "Generic_RxCUI": null,
+  "prices": {
+    "00132070336": {
+      "06/21/2017": 0.05631
+    }
+  }
+}

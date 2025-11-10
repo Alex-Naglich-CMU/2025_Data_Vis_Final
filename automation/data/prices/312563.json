@@ -1,0 +1,13 @@
+{
+  "RxCUI": "312563",
+  "Name": "POVIDONE-IODINE 10% OINTMENT",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "312563",
+  "prices": {
+    "00904110231": {
+      "06/21/2017": 0.05608,
+      "07/19/2017": 0.05215
+    }
+  }
+}

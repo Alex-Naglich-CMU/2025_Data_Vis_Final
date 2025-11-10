@@ -1,0 +1,15 @@
+{
+  "RxCUI": "884522",
+  "Name": "DEXTROAMPHETAMINE 5 MG/5 ML",
+  "IsBrand": false,
+  "Brand_RxCUI": "884522",
+  "Generic_RxCUI": "884526",
+  "prices": {
+    "66993035957": {
+      "07/21/2021": 1.29757
+    },
+    "27808008501": {
+      "07/21/2021": 1.29757
+    }
+  }
+}

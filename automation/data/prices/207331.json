@@ -1,0 +1,12 @@
+{
+  "RxCUI": "207331",
+  "Name": "NITROSTAT 0.3 MG TABLET SL",
+  "IsBrand": true,
+  "Brand_RxCUI": "198038",
+  "Generic_RxCUI": "207331",
+  "prices": {
+    "00071041724": {
+      "06/01/2017": 0.5037
+    }
+  }
+}

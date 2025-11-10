@@ -1,0 +1,12 @@
+{
+  "RxCUI": "706825",
+  "Name": "RISPERDAL CONSTA 12.5 MG SYR",
+  "IsBrand": true,
+  "Brand_RxCUI": "706822",
+  "Generic_RxCUI": "706825",
+  "prices": {
+    "50458030911": {
+      "07/06/2017": 210.86334
+    }
+  }
+}

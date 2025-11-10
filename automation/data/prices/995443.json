@@ -1,0 +1,12 @@
+{
+  "RxCUI": "995443",
+  "Name": "MAR-COF CG LIQUID",
+  "IsBrand": false,
+  "Brand_RxCUI": "995441",
+  "Generic_RxCUI": "995443",
+  "prices": {
+    "00682047516": {
+      "06/21/2017": 0.14381
+    }
+  }
+}

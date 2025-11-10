@@ -1,0 +1,12 @@
+{
+  "RxCUI": "207108",
+  "Name": "DIFLUCAN 150 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "197699",
+  "Generic_RxCUI": "207108",
+  "prices": {
+    "00049350079": {
+      "06/01/2017": 53.44229
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "RxCUI": "992733",
+  "Name": "TUSSIGON 5-1.5 MG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": "992656",
+  "Generic_RxCUI": "992733",
+  "prices": {
+    "61570010201": {
+      "06/21/2017": 0.79603,
+      "07/19/2017": 0.73801
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "RxCUI": "312347",
+  "Name": "PHENELZINE SULFATE 15 MG TAB",
+  "IsBrand": false,
+  "Brand_RxCUI": "312347",
+  "Generic_RxCUI": "104836",
+  "prices": {
+    "59762011901": {
+      "06/21/2017": 0.55665
+    },
+    "43386036021": {
+      "06/21/2017": 0.55665
+    }
+  }
+}

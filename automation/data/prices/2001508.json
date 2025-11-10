@@ -1,0 +1,13 @@
+{
+  "RxCUI": "2001508",
+  "Name": "SUBVENITE 25 MG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": "282401",
+  "Generic_RxCUI": "2001508",
+  "prices": {
+    "69102030101": {
+      "06/23/2021": 0.03748,
+      "07/21/2021": 0.04035
+    }
+  }
+}

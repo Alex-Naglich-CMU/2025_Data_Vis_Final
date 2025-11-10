@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1487076",
+  "Name": "PENNSAID 2% PUMP",
+  "IsBrand": true,
+  "Brand_RxCUI": "1487074",
+  "Generic_RxCUI": "1487076",
+  "prices": {
+    "75987004005": {
+      "07/21/2021": 21.30089
+    }
+  }
+}

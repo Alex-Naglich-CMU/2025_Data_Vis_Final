@@ -1,0 +1,13 @@
+{
+  "RxCUI": "795925",
+  "Name": "NO DOZ 200 MG CAPLET",
+  "IsBrand": false,
+  "Brand_RxCUI": "198520",
+  "Generic_RxCUI": "795925",
+  "prices": {
+    "00067207060": {
+      "06/21/2017": 0.07747,
+      "07/19/2017": 0.08002
+    }
+  }
+}

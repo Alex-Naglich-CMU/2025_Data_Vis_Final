@@ -1,0 +1,15 @@
+{
+  "RxCUI": "310404",
+  "Name": "FLUVASTATIN SODIUM 20 MG CAP",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "310404",
+  "prices": {
+    "00378802077": {
+      "07/19/2017": 3.6906
+    },
+    "00093744201": {
+      "07/19/2017": 3.6906
+    }
+  }
+}

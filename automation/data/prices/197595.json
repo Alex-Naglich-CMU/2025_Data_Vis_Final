@@ -1,0 +1,15 @@
+{
+  "RxCUI": "197595",
+  "Name": "DICLOXACILLIN 250 MG CAPSULE",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "197595",
+  "prices": {
+    "00781224801": {
+      "06/21/2017": 0.50562
+    },
+    "00093312301": {
+      "06/21/2017": 0.50562
+    }
+  }
+}

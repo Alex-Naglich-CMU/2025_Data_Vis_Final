@@ -1,0 +1,12 @@
+{
+  "RxCUI": "206201",
+  "Name": "LAMICTAL 150 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "198428",
+  "Generic_RxCUI": "206201",
+  "prices": {
+    "00173064360": {
+      "05/19/2021": 16.45915
+    }
+  }
+}

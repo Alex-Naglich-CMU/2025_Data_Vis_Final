@@ -1,0 +1,13 @@
+{
+  "RxCUI": "142004",
+  "Name": "ARTIFICIAL TEARS 1.4% DROPS",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "142004",
+  "prices": {
+    "17478006012": {
+      "06/21/2017": 0.12527,
+      "07/19/2017": 0.13602
+    }
+  }
+}

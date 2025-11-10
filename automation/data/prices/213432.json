@@ -1,0 +1,12 @@
+{
+  "RxCUI": "213432",
+  "Name": "MICARDIS 80 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "205305",
+  "Generic_RxCUI": "213432",
+  "prices": {
+    "00597004137": {
+      "05/19/2021": 6.89867
+    }
+  }
+}

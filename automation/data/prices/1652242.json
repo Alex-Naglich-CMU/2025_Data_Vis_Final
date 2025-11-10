@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1652242",
+  "Name": "HUMALOG 200 UNIT/ML KWIKPEN",
+  "IsBrand": true,
+  "Brand_RxCUI": "1652239",
+  "Generic_RxCUI": "1652242",
+  "prices": {
+    "00002771227": {
+      "07/21/2021": 67.84838,
+      "06/21/2017": 67.89884
+    }
+  }
+}

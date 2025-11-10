@@ -1,0 +1,13 @@
+{
+  "RxCUI": "596936",
+  "Name": "FLEET GLYCERIN LIQUID SUPP",
+  "IsBrand": true,
+  "Brand_RxCUI": "596936",
+  "Generic_RxCUI": null,
+  "prices": {
+    "00132018582": {
+      "06/21/2017": 0.11356,
+      "07/19/2017": 0.11689
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "RxCUI": "797544",
+  "Name": "HM ALCOHOL 70% PREP PADS",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "797544",
+  "prices": {
+    "62011004501": {
+      "05/19/2021": 0.01244,
+      "06/23/2021": 0.012,
+      "07/21/2021": 0.0122
+    }
+  }
+}

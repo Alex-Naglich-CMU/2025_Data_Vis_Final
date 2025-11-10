@@ -1,0 +1,15 @@
+{
+  "RxCUI": "1095725",
+  "Name": "DAYHIST ALLERGY 1.34 MG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": "857416",
+  "Generic_RxCUI": "1095725",
+  "prices": {
+    "24385018351": {
+      "06/21/2017": 0.26317
+    },
+    "36800028251": {
+      "06/21/2017": 0.26317
+    }
+  }
+}

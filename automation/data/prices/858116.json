@@ -1,0 +1,13 @@
+{
+  "RxCUI": "858116",
+  "Name": "FENOPROFEN 400 MG CAPSULE",
+  "IsBrand": false,
+  "Brand_RxCUI": "858116",
+  "Generic_RxCUI": "858118",
+  "prices": {
+    "42195010090": {
+      "06/21/2017": 3.12962,
+      "07/19/2017": 3.04467
+    }
+  }
+}

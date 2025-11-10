@@ -1,0 +1,12 @@
+{
+  "RxCUI": "596918",
+  "Name": "PREVACID 24HR DR 15 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "596843",
+  "Generic_RxCUI": "596918",
+  "prices": {
+    "00067628642": {
+      "07/19/2017": 0.67478
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1653243",
+  "Name": "COSENTYX (150 MG/ML) 300 MG DOSE-2 PENS",
+  "IsBrand": true,
+  "Brand_RxCUI": "1653241",
+  "Generic_RxCUI": "1653243",
+  "prices": {
+    "00078063941": {
+      "07/21/2021": 2837.55625
+    }
+  }
+}

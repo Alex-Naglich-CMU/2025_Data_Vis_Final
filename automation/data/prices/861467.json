@@ -1,0 +1,13 @@
+{
+  "RxCUI": "861467",
+  "Name": "MEPERIDINE 50 MG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": "861467",
+  "Generic_RxCUI": "861525",
+  "prices": {
+    "42806005001": {
+      "06/21/2017": 0.48879,
+      "07/19/2017": 0.67218
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "RxCUI": "578803",
+  "Name": "BETAMETHASONE AC-SP 6 MG/ML VL",
+  "IsBrand": false,
+  "Brand_RxCUI": "578803",
+  "Generic_RxCUI": "578806",
+  "prices": {
+    "00517072001": {
+      "06/21/2017": 8.28933
+    }
+  }
+}

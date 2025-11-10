@@ -1,0 +1,12 @@
+{
+  "RxCUI": "206417",
+  "Name": "DEPO-ESTRADIOL 5 MG/ML VIAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "310187",
+  "Generic_RxCUI": "206417",
+  "prices": {
+    "00009027101": {
+      "06/01/2017": 18.54642
+    }
+  }
+}

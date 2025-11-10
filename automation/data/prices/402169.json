@@ -1,0 +1,12 @@
+{
+  "RxCUI": "402169",
+  "Name": "ZOMIG 5 MG NASAL SPRAY",
+  "IsBrand": true,
+  "Brand_RxCUI": "402000",
+  "Generic_RxCUI": "402169",
+  "prices": {
+    "64896068151": {
+      "07/03/2017": 64.43795
+    }
+  }
+}

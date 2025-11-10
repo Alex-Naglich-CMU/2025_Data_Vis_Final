@@ -1,0 +1,14 @@
+{
+  "RxCUI": "598025",
+  "Name": "AMOXICILLIN 250 MG TAB CHEW",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "598025",
+  "prices": {
+    "00093226801": {
+      "07/21/2021": 0.26498,
+      "06/21/2017": 0.29316,
+      "07/19/2017": 0.2907
+    }
+  }
+}

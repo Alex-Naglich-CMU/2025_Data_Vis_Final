@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1091379",
+  "Name": "RITALIN 10 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "1091150",
+  "Generic_RxCUI": "1091379",
+  "prices": {
+    "00078044005": {
+      "07/21/2021": 0.90224
+    }
+  }
+}

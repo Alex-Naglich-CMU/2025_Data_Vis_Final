@@ -1,0 +1,16 @@
+{
+  "RxCUI": "2665161",
+  "Name": "TACROLIMUS 0.5 MG CAPSULE (IMMEDIATE RELEASE)",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "2665161",
+  "prices": {
+    "16729004101": {
+      "05/19/2021": 0.32848,
+      "06/23/2021": 0.29957,
+      "07/21/2021": 0.37217,
+      "06/21/2017": 0.28228,
+      "07/19/2017": 0.22829
+    }
+  }
+}

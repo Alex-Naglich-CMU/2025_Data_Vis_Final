@@ -1,0 +1,13 @@
+{
+  "RxCUI": "746466",
+  "Name": "XOPENEX HFA 45 MCG INHALER",
+  "IsBrand": true,
+  "Brand_RxCUI": "745791",
+  "Generic_RxCUI": "746466",
+  "prices": {
+    "63402051001": {
+      "07/21/2021": 4.35856,
+      "07/19/2017": 4.37017
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "RxCUI": "866307",
+  "Name": "TEGRETOL XR 400 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "402506",
+  "Generic_RxCUI": "866307",
+  "prices": {
+    "00078051205": {
+      "06/23/2021": 5.19073,
+      "07/11/2017": 4.66304
+    }
+  }
+}

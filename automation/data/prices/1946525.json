@@ -1,0 +1,15 @@
+{
+  "RxCUI": "1946525",
+  "Name": "TRAMADOL ER 300 MG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "1946525",
+  "prices": {
+    "47335053783": {
+      "06/21/2017": 3.4014
+    },
+    "47335053788": {
+      "06/21/2017": 3.4014
+    }
+  }
+}

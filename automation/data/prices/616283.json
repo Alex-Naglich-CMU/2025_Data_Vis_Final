@@ -1,0 +1,12 @@
+{
+  "RxCUI": "616283",
+  "Name": "SUTENT 12.5 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "616279",
+  "Generic_RxCUI": "616283",
+  "prices": {
+    "00069055038": {
+      "06/01/2017": 160.3652
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1659814",
+  "Name": "ABILIFY MAINTENA ER 400 MG VL",
+  "IsBrand": true,
+  "Brand_RxCUI": "1659812",
+  "Generic_RxCUI": "1659814",
+  "prices": {
+    "59148001971": {
+      "07/01/2017": 1889.3837
+    }
+  }
+}

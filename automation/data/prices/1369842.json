@@ -1,0 +1,15 @@
+{
+  "RxCUI": "1369842",
+  "Name": "GS SEVERE DAYTIME COLD-FLU LIQ",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "1369842",
+  "prices": {
+    "00113060334": {
+      "05/19/2021": 0.01831
+    },
+    "70000019201": {
+      "05/19/2021": 0.01831
+    }
+  }
+}

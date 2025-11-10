@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1298088",
+  "Name": "FLURAZEPAM 15 MG CAPSULE",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "1298088",
+  "prices": {
+    "00378441501": {
+      "06/21/2017": 0.40871,
+      "07/19/2017": 0.42878
+    }
+  }
+}

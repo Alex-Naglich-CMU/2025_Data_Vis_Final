@@ -1,0 +1,15 @@
+{
+  "RxCUI": "308345",
+  "Name": "APRACLONIDINE HCL 0.5% DROPS",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "308345",
+  "prices": {
+    "61314066505": {
+      "07/21/2021": 12.2696
+    },
+    "17478071610": {
+      "07/21/2021": 12.2696
+    }
+  }
+}

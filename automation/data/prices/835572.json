@@ -1,0 +1,15 @@
+{
+  "RxCUI": "835572",
+  "Name": "IMIPRAMINE PAMOATE 75 MG CAP",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "835572",
+  "prices": {
+    "00054027313": {
+      "05/19/2021": 5.75067
+    },
+    "68180031406": {
+      "05/19/2021": 5.75067
+    }
+  }
+}

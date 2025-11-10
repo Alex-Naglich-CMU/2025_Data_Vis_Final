@@ -1,0 +1,13 @@
+{
+  "RxCUI": "865098",
+  "Name": "HUMALOG 100 UNIT/ML VIAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "242120",
+  "Generic_RxCUI": "865098",
+  "prices": {
+    "00002751001": {
+      "06/23/2021": 26.37712,
+      "06/21/2017": 26.3385
+    }
+  }
+}

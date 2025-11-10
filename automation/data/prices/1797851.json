@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1797851",
+  "Name": "CROMOLYN SODIUM NASAL SPRAY",
+  "IsBrand": false,
+  "Brand_RxCUI": "1797851",
+  "Generic_RxCUI": "1797853",
+  "prices": {
+    "57782039726": {
+      "07/19/2017": 0.25926
+    }
+  }
+}

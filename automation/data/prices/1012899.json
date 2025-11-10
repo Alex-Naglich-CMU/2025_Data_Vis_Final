@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1012899",
+  "Name": "GILENYA 0.5 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "1012895",
+  "Generic_RxCUI": "1012899",
+  "prices": {
+    "00078060715": {
+      "06/21/2017": 228.8585,
+      "07/11/2017": 235.55144
+    }
+  }
+}

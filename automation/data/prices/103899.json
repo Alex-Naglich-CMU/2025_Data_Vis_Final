@@ -1,0 +1,12 @@
+{
+  "RxCUI": "103899",
+  "Name": "MYCOBUTIN 150 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "198200",
+  "Generic_RxCUI": "103899",
+  "prices": {
+    "00013530117": {
+      "06/01/2017": 27.89072
+    }
+  }
+}

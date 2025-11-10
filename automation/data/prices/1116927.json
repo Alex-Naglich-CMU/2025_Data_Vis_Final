@@ -1,0 +1,15 @@
+{
+  "RxCUI": "1116927",
+  "Name": "DEXAMETHASONE 120 MG/30 ML VL",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "1116927",
+  "prices": {
+    "55150023930": {
+      "07/19/2017": 0.90667
+    },
+    "67457042100": {
+      "07/19/2017": 0.90667
+    }
+  }
+}

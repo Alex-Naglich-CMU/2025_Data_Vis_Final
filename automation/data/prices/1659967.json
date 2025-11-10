@@ -1,0 +1,15 @@
+{
+  "RxCUI": "1659967",
+  "Name": "FLU-SEVERE COLD-COUGH DAY PKT",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "1659967",
+  "prices": {
+    "36800009691": {
+      "06/23/2021": 0.53267
+    },
+    "00113009691": {
+      "06/23/2021": 0.53267
+    }
+  }
+}

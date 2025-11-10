@@ -1,0 +1,12 @@
+{
+  "RxCUI": "207191",
+  "Name": "SOLU-MEDROL 40 MG VIAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "311659",
+  "Generic_RxCUI": "207191",
+  "prices": {
+    "00009003928": {
+      "06/01/2017": 3.95577
+    }
+  }
+}

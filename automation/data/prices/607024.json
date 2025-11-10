@@ -1,0 +1,12 @@
+{
+  "RxCUI": "607024",
+  "Name": "LYRICA 225 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "577127",
+  "Generic_RxCUI": "607024",
+  "prices": {
+    "00071101968": {
+      "06/01/2017": 6.61876
+    }
+  }
+}

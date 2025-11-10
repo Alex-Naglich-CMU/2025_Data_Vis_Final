@@ -1,0 +1,12 @@
+{
+  "RxCUI": "359144",
+  "Name": "ALBUTEROL SULFATE ER 4 MG TAB",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "359144",
+  "prices": {
+    "00378412201": {
+      "07/19/2017": 1.3342
+    }
+  }
+}

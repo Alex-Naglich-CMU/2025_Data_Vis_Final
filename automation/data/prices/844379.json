@@ -1,0 +1,15 @@
+{
+  "RxCUI": "844379",
+  "Name": "HEMORRHOIDAL MEDICATED 50% PAD",
+  "IsBrand": false,
+  "Brand_RxCUI": "844379",
+  "Generic_RxCUI": "1247719",
+  "prices": {
+    "70000036401": {
+      "07/21/2021": 0.03725
+    },
+    "00904682960": {
+      "07/21/2021": 0.03725
+    }
+  }
+}

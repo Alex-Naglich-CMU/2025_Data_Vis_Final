@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1313884",
+  "Name": "DILANTIN 125 MG/5 ML SUSP",
+  "IsBrand": true,
+  "Brand_RxCUI": "1313112",
+  "Generic_RxCUI": "1313884",
+  "prices": {
+    "00071221420": {
+      "06/01/2017": 0.58159
+    }
+  }
+}

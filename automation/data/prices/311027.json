@@ -1,0 +1,12 @@
+{
+  "RxCUI": "311027",
+  "Name": "NOVOLIN N 100 UNIT/ML VIAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "311028",
+  "Generic_RxCUI": "311027",
+  "prices": {
+    "00169183411": {
+      "06/23/2021": 13.22853
+    }
+  }
+}

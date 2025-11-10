@@ -1,0 +1,13 @@
+{
+  "RxCUI": "637190",
+  "Name": "CHANTIX 1 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "636676",
+  "Generic_RxCUI": "637190",
+  "prices": {
+    "00069046956": {
+      "06/01/2017": 6.29093,
+      "07/19/2017": 6.29358
+    }
+  }
+}

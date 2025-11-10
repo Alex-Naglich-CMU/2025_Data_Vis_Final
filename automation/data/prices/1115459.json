@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1115459",
+  "Name": "LUPRON DEPOT 3.75 MG KIT",
+  "IsBrand": true,
+  "Brand_RxCUI": "1115457",
+  "Generic_RxCUI": "1115459",
+  "prices": {
+    "00074364103": {
+      "07/19/2017": 1060.928
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "RxCUI": "616238",
+  "Name": "LEVEMIR 100 UNIT/ML VIAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "484322",
+  "Generic_RxCUI": "616238",
+  "prices": {
+    "00169368712": {
+      "06/23/2021": 29.55227
+    }
+  }
+}

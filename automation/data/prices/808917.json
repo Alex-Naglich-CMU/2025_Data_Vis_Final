@@ -1,0 +1,14 @@
+{
+  "RxCUI": "808917",
+  "Name": "FOSFOMYCIN 3 GM SACHET",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "808917",
+  "prices": {
+    "70700026894": {
+      "05/19/2021": 71.25813,
+      "06/23/2021": 66.18944,
+      "07/21/2021": 68.82611
+    }
+  }
+}

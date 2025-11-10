@@ -1,0 +1,13 @@
+{
+  "RxCUI": "607026",
+  "Name": "LYRICA 25 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "483442",
+  "Generic_RxCUI": "607026",
+  "prices": {
+    "00071101268": {
+      "06/01/2017": 6.61984,
+      "07/19/2017": 6.59851
+    }
+  }
+}

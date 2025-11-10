@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1000158",
+  "Name": "DEPO-SUBQ PROVERA 104 SYRINGE",
+  "IsBrand": true,
+  "Brand_RxCUI": "1000156",
+  "Generic_RxCUI": "1000158",
+  "prices": {
+    "00009470913": {
+      "06/01/2017": 319.28871
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "RxCUI": "855195",
+  "Name": "DETROL 2 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "855194",
+  "Generic_RxCUI": "855195",
+  "prices": {
+    "00009454402": {
+      "06/01/2017": 6.83685
+    }
+  }
+}

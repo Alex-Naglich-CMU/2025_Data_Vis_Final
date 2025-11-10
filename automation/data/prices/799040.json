@@ -1,0 +1,12 @@
+{
+  "RxCUI": "799040",
+  "Name": "ALVESCO 80 MCG INHALER",
+  "IsBrand": true,
+  "Brand_RxCUI": "799038",
+  "Generic_RxCUI": "799040",
+  "prices": {
+    "70515071101": {
+      "05/19/2021": 42.77705
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "RxCUI": "999990",
+  "Name": "TRIBENZOR 40-10-12.5 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "999986",
+  "Generic_RxCUI": "999990",
+  "prices": {
+    "65597011790": {
+      "07/12/2017": 9.74033,
+      "07/19/2017": 10.39573
+    }
+  }
+}

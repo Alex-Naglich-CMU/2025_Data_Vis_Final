@@ -1,0 +1,13 @@
+{
+  "RxCUI": "308972",
+  "Name": "TEGRETOL 200 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "308979",
+  "Generic_RxCUI": "308972",
+  "prices": {
+    "00078050905": {
+      "06/23/2021": 2.43591,
+      "07/11/2017": 2.17796
+    }
+  }
+}

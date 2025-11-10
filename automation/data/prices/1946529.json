@@ -1,0 +1,15 @@
+{
+  "RxCUI": "1946529",
+  "Name": "TRAMADOL ER 100 MG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "1946529",
+  "prices": {
+    "47335053188": {
+      "06/21/2017": 2.09354
+    },
+    "47335053183": {
+      "06/21/2017": 2.09354
+    }
+  }
+}

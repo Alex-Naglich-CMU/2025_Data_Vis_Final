@@ -1,0 +1,15 @@
+{
+  "RxCUI": "645037",
+  "Name": "RISPERIDONE 0.25 MG ODT",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "645037",
+  "prices": {
+    "49884021252": {
+      "07/21/2021": 1.93
+    },
+    "49884021255": {
+      "07/21/2021": 1.93
+    }
+  }
+}

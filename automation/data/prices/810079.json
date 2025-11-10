@@ -1,0 +1,13 @@
+{
+  "RxCUI": "810079",
+  "Name": "TOVIAZ ER 8 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "810077",
+  "Generic_RxCUI": "810079",
+  "prices": {
+    "00069024430": {
+      "06/01/2017": 9.55336,
+      "07/19/2017": 9.55383
+    }
+  }
+}

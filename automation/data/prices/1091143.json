@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1091143",
+  "Name": "RITALIN LA 10 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "1806195",
+  "Generic_RxCUI": "1091143",
+  "prices": {
+    "00078042405": {
+      "07/11/2017": 9.11749
+    }
+  }
+}

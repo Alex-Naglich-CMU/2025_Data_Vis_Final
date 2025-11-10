@@ -1,0 +1,12 @@
+{
+  "RxCUI": "208712",
+  "Name": "CORTEF 10 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "197782",
+  "Generic_RxCUI": "208712",
+  "prices": {
+    "00009003101": {
+      "06/01/2017": 1.46798
+    }
+  }
+}

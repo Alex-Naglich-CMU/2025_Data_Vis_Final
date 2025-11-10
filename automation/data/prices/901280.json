@@ -1,0 +1,13 @@
+{
+  "RxCUI": "901280",
+  "Name": "LUDENT FLUORIDE 0.25 MG TB CHW",
+  "IsBrand": false,
+  "Brand_RxCUI": "198215",
+  "Generic_RxCUI": "901280",
+  "prices": {
+    "44946100803": {
+      "06/21/2017": 0.03891,
+      "07/19/2017": 0.03774
+    }
+  }
+}

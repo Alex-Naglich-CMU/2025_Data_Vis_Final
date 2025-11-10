@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1358619",
+  "Name": "DEPO-MEDROL 80 MG/ML VIAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "1358617",
+  "Generic_RxCUI": "1358619",
+  "prices": {
+    "00009030602": {
+      "06/01/2017": 14.96939
+    }
+  }
+}

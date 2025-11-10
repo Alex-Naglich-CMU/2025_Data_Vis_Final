@@ -1,0 +1,12 @@
+{
+  "RxCUI": "607022",
+  "Name": "LYRICA 200 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "483446",
+  "Generic_RxCUI": "607022",
+  "prices": {
+    "00071101768": {
+      "06/01/2017": 6.6159
+    }
+  }
+}

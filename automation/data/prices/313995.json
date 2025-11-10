@@ -1,0 +1,12 @@
+{
+  "RxCUI": "313995",
+  "Name": "FLUOXETINE DR 90 MG CAPSULE",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "313995",
+  "prices": {
+    "55111028448": {
+      "06/21/2017": 30.85571
+    }
+  }
+}

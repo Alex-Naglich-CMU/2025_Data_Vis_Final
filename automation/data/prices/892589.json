@@ -1,0 +1,12 @@
+{
+  "RxCUI": "892589",
+  "Name": "MORPHINE SULF 10 MG/5 ML SOLN",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "892589",
+  "prices": {
+    "66689003216": {
+      "07/19/2017": 0.03965
+    }
+  }
+}

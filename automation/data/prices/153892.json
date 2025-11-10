@@ -1,0 +1,13 @@
+{
+  "RxCUI": "153892",
+  "Name": "SINGULAIR 10 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "200224",
+  "Generic_RxCUI": "153892",
+  "prices": {
+    "00006911731": {
+      "06/08/2017": 7.29594,
+      "07/19/2017": 7.30425
+    }
+  }
+}

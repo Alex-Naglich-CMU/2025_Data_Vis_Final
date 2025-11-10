@@ -1,0 +1,13 @@
+{
+  "RxCUI": "311194",
+  "Name": "ISOSORBIDE DN ER 40 MG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": "311194",
+  "Generic_RxCUI": "979541",
+  "prices": {
+    "57664060088": {
+      "06/21/2017": 1.49074,
+      "07/19/2017": 1.30041
+    }
+  }
+}

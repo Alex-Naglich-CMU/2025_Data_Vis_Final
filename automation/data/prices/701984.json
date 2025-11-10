@@ -1,0 +1,12 @@
+{
+  "RxCUI": "701984",
+  "Name": "REFRESH LACRI-LUBE OINTMENT",
+  "IsBrand": true,
+  "Brand_RxCUI": "701984",
+  "Generic_RxCUI": null,
+  "prices": {
+    "00023031207": {
+      "06/21/2017": 2.46982
+    }
+  }
+}

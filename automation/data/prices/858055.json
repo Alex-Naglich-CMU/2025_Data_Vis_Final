@@ -1,0 +1,13 @@
+{
+  "RxCUI": "858055",
+  "Name": "INVEGA SUSTENNA 156 MG/ML SYRG",
+  "IsBrand": true,
+  "Brand_RxCUI": "858054",
+  "Generic_RxCUI": "858055",
+  "prices": {
+    "50458056301": {
+      "06/21/2017": 1472.5332,
+      "07/06/2017": 1528.48946
+    }
+  }
+}

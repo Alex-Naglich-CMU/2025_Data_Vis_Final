@@ -1,0 +1,12 @@
+{
+  "RxCUI": "204119",
+  "Name": "MALATHION 0.5% LOTION",
+  "IsBrand": false,
+  "Brand_RxCUI": "204119",
+  "Generic_RxCUI": "261249",
+  "prices": {
+    "51672529404": {
+      "06/21/2017": 3.70167
+    }
+  }
+}

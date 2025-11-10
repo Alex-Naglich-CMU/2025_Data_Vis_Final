@@ -1,0 +1,13 @@
+{
+  "RxCUI": "706827",
+  "Name": "RISPERDAL CONSTA 37.5 MG VIAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "402011",
+  "Generic_RxCUI": "706827",
+  "prices": {
+    "50458030711": {
+      "05/19/2021": 770.395,
+      "07/06/2017": 622.91863
+    }
+  }
+}

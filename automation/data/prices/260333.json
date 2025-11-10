@@ -1,0 +1,12 @@
+{
+  "RxCUI": "260333",
+  "Name": "ALTACE 10 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "261962",
+  "Generic_RxCUI": "260333",
+  "prices": {
+    "61570012001": {
+      "06/01/2017": 6.42784
+    }
+  }
+}

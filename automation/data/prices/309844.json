@@ -1,0 +1,15 @@
+{
+  "RxCUI": "309844",
+  "Name": "DIAZEPAM 5 MG/ML ORAL CONC",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "309844",
+  "prices": {
+    "00054318544": {
+      "06/21/2017": 0.92219
+    },
+    "00527176836": {
+      "06/21/2017": 0.92219
+    }
+  }
+}

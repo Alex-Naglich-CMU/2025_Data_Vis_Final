@@ -1,0 +1,15 @@
+{
+  "RxCUI": "310155",
+  "Name": "ERYTHROMYCIN DR 250 MG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": "310155",
+  "Generic_RxCUI": "206075",
+  "prices": {
+    "69238147101": {
+      "06/23/2021": 4.71133
+    },
+    "52536018003": {
+      "06/23/2021": 4.71133
+    }
+  }
+}

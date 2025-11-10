@@ -1,0 +1,12 @@
+{
+  "RxCUI": "728111",
+  "Name": "TAMIFLU 30 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "728109",
+  "Generic_RxCUI": "728111",
+  "prices": {
+    "00004080285": {
+      "07/01/2017": 13.37762
+    }
+  }
+}

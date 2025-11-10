@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1235389",
+  "Name": "MULTIVIT-FLUOR 0.25 MG TAB CHW",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "1235389",
+  "prices": {
+    "58657016301": {
+      "05/19/2021": 0.10031,
+      "07/21/2021": 0.1004
+    }
+  }
+}

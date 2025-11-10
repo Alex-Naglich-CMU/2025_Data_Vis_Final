@@ -1,0 +1,16 @@
+{
+  "RxCUI": "312289",
+  "Name": "PENTAZOCINE-NALOXONE TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "312289",
+  "prices": {
+    "43386068001": {
+      "07/21/2021": 1.82312
+    },
+    "00591039501": {
+      "07/21/2021": 1.82312,
+      "07/19/2017": 1.96226
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "RxCUI": "311026",
+  "Name": "HUMULIN N 100 UNIT/ML VIAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "311028",
+  "Generic_RxCUI": "311026",
+  "prices": {
+    "00002831501": {
+      "05/19/2021": 14.31759,
+      "06/21/2017": 14.54039
+    }
+  }
+}

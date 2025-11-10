@@ -1,0 +1,15 @@
+{
+  "RxCUI": "1053429",
+  "Name": "EYE WASH SOLUTION",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "1053429",
+  "prices": {
+    "00536122497": {
+      "05/19/2021": 0.02249
+    },
+    "70000001801": {
+      "05/19/2021": 0.02249
+    }
+  }
+}

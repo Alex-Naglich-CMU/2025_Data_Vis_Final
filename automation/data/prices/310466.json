@@ -1,0 +1,13 @@
+{
+  "RxCUI": "310466",
+  "Name": "GENTAMICIN 0.3% EYE OINTMENT",
+  "IsBrand": false,
+  "Brand_RxCUI": "310466",
+  "Generic_RxCUI": "545236",
+  "prices": {
+    "00574410235": {
+      "06/21/2017": 3.97383,
+      "07/19/2017": 3.84974
+    }
+  }
+}

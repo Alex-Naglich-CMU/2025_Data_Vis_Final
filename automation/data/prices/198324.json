@@ -1,0 +1,15 @@
+{
+  "RxCUI": "198324",
+  "Name": "TRIFLUOPERAZINE 2 MG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "198324",
+  "prices": {
+    "00378240201": {
+      "07/19/2017": 0.81497
+    },
+    "00781103201": {
+      "07/19/2017": 0.81497
+    }
+  }
+}

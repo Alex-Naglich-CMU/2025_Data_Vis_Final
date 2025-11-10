@@ -1,0 +1,12 @@
+{
+  "RxCUI": "847199",
+  "Name": "HUMULIN N 100 UNITS/ML KWIKPEN",
+  "IsBrand": true,
+  "Brand_RxCUI": "1654862",
+  "Generic_RxCUI": "847199",
+  "prices": {
+    "00002880559": {
+      "06/21/2017": 30.54451
+    }
+  }
+}

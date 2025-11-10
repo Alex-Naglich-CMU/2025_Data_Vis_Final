@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1602604",
+  "Name": "ABILIFY MAINTENA ER 300 MG SYR",
+  "IsBrand": true,
+  "Brand_RxCUI": "1602163",
+  "Generic_RxCUI": "1602604",
+  "prices": {
+    "59148004580": {
+      "07/01/2017": 1415.43357
+    }
+  }
+}

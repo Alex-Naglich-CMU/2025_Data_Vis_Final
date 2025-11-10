@@ -1,0 +1,14 @@
+{
+  "RxCUI": "692576",
+  "Name": "ESOMEPRAZOLE DR 20 MG PACKET",
+  "IsBrand": false,
+  "Brand_RxCUI": "692576",
+  "Generic_RxCUI": "861576",
+  "prices": {
+    "69097052834": {
+      "05/19/2021": 7.2242,
+      "06/23/2021": 6.87838,
+      "07/21/2021": 7.33286
+    }
+  }
+}

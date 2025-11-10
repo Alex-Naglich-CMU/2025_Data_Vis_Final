@@ -1,0 +1,12 @@
+{
+  "RxCUI": "207088",
+  "Name": "CELONTIN 300 MG KAPSEAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "197949",
+  "Generic_RxCUI": "207088",
+  "prices": {
+    "00071052524": {
+      "06/01/2017": 3.75288
+    }
+  }
+}

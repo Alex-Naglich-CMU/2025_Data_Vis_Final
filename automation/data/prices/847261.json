@@ -1,0 +1,12 @@
+{
+  "RxCUI": "847261",
+  "Name": "APIDRA SOLOSTAR 100 UNITS/ML",
+  "IsBrand": true,
+  "Brand_RxCUI": "847259",
+  "Generic_RxCUI": "847261",
+  "prices": {
+    "00088250205": {
+      "07/19/2017": 31.53935
+    }
+  }
+}

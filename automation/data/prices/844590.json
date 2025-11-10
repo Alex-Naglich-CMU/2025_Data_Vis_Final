@@ -1,0 +1,12 @@
+{
+  "RxCUI": "844590",
+  "Name": "THEO-24 ER 100 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "701712",
+  "Generic_RxCUI": "844590",
+  "prices": {
+    "52244010010": {
+      "07/01/2017": 1.73803
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "RxCUI": "996572",
+  "Name": "MEMANTINE 5-10 MG TITRATION PK",
+  "IsBrand": false,
+  "Brand_RxCUI": "996572",
+  "Generic_RxCUI": "996634",
+  "prices": {
+    "00591390087": {
+      "05/19/2021": 0.39136,
+      "07/21/2021": 0.41053
+    }
+  }
+}

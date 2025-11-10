@@ -1,0 +1,15 @@
+{
+  "RxCUI": "1870650",
+  "Name": "GENTAMICIN 80 MG/2 ML VIAL",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "1870650",
+  "prices": {
+    "00409120725": {
+      "06/23/2021": 0.52647
+    },
+    "00409120703": {
+      "06/23/2021": 0.52647
+    }
+  }
+}

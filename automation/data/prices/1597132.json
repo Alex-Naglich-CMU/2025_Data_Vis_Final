@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1597132",
+  "Name": "TESTIM 1% (50 MG) GEL",
+  "IsBrand": true,
+  "Brand_RxCUI": "1597129",
+  "Generic_RxCUI": "1597132",
+  "prices": {
+    "66887000105": {
+      "07/21/2021": 3.81354
+    }
+  }
+}

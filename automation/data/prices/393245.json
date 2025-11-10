@@ -1,0 +1,13 @@
+{
+  "RxCUI": "393245",
+  "Name": "DIGOXIN 0.05 MG/ML SOLUTION",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "393245",
+  "prices": {
+    "00054005746": {
+      "06/21/2017": 0.62012,
+      "07/19/2017": 0.62314
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1361538",
+  "Name": "BENZEDREX INHALER",
+  "IsBrand": true,
+  "Brand_RxCUI": "1361536",
+  "Generic_RxCUI": "1361538",
+  "prices": {
+    "00225061023": {
+      "07/19/2017": 3.32591
+    }
+  }
+}

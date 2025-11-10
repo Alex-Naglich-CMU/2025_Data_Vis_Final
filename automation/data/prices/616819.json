@@ -1,0 +1,12 @@
+{
+  "RxCUI": "616819",
+  "Name": "PULMICORT 1 MG/2 ML RESPULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "252559",
+  "Generic_RxCUI": "616819",
+  "prices": {
+    "00186199004": {
+      "06/21/2017": 9.85587
+    }
+  }
+}

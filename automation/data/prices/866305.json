@@ -1,0 +1,12 @@
+{
+  "RxCUI": "866305",
+  "Name": "TEGRETOL XR 200 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "402505",
+  "Generic_RxCUI": "866305",
+  "prices": {
+    "00078051105": {
+      "07/11/2017": 2.32573
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "RxCUI": "197929",
+  "Name": "MEPROBAMATE 400 MG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "197929",
+  "prices": {
+    "62332002031": {
+      "06/21/2017": 3.20994
+    },
+    "55111064101": {
+      "06/21/2017": 3.20994
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "RxCUI": "1793916",
+  "Name": "SUMATRIPTAN 4 MG/0.5 ML INJECT",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "1793916",
+  "prices": {
+    "00781316907": {
+      "07/21/2021": 158.20143
+    },
+    "00093201312": {
+      "07/21/2021": 158.20143
+    }
+  }
+}

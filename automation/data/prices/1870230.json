@@ -1,0 +1,14 @@
+{
+  "RxCUI": "1870230",
+  "Name": "EPINEPHRINE 0.3 MG AUTO-INJECT",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "1870230",
+  "prices": {
+    "00115169449": {
+      "05/19/2021": 120.51442,
+      "06/23/2021": 119.48484,
+      "07/21/2021": 125.11844
+    }
+  }
+}
