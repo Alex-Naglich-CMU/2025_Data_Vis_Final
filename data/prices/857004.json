@@ -1,0 +1,12 @@
+{
+  "RxCUI": "857004",
+  "Name": "NORCO 5-325 TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "857002",
+  "Generic_RxCUI": "857004",
+  "prices": {
+    "52544007101": {
+      "01/01/2018": 2.83974
+    }
+  }
+}

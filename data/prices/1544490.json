@@ -1,0 +1,14 @@
+{
+  "RxCUI": "1544490",
+  "Name": "AFREZZA ((REGULAR INSULIN) 8 UNIT CARTRIDGE",
+  "IsBrand": true,
+  "Brand_RxCUI": "1544488",
+  "Generic_RxCUI": "1544490",
+  "prices": {
+    "47918087890": {
+      "11/20/2024": 9.62449,
+      "12/16/2024": 10.10571,
+      "10/22/2025": 10.06305
+    }
+  }
+}

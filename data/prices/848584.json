@@ -1,0 +1,12 @@
+{
+  "RxCUI": "848584",
+  "Name": "REQUIP XL 6 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "848582",
+  "Generic_RxCUI": "848584",
+  "prices": {
+    "00007488313": {
+      "01/01/2018": 14.44497
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "RxCUI": "860656",
+  "Name": "ELESTAT 0.05% EYE DROPS",
+  "IsBrand": true,
+  "Brand_RxCUI": "860654",
+  "Generic_RxCUI": "860656",
+  "prices": {
+    "00023920105": {
+      "01/01/2018": 44.05737
+    }
+  }
+}

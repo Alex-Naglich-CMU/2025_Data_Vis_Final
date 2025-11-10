@@ -1,0 +1,13 @@
+{
+  "RxCUI": "646352",
+  "Name": "ZEGERID 40 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "616541",
+  "Generic_RxCUI": "646352",
+  "prices": {
+    "68012010430": {
+      "05/22/2024": 106.06811,
+      "07/17/2024": 105.86453
+    }
+  }
+}

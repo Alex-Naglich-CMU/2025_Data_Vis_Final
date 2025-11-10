@@ -1,0 +1,12 @@
+{
+  "RxCUI": "284520",
+  "Name": "PROTOPIC 0.1% OINTMENT",
+  "IsBrand": true,
+  "Brand_RxCUI": "314266",
+  "Generic_RxCUI": "284520",
+  "prices": {
+    "50222021130": {
+      "01/01/2021": 9.30953
+    }
+  }
+}

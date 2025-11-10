@@ -1,0 +1,13 @@
+{
+  "RxCUI": "667904",
+  "Name": "SALICYLIC ACID 6% SHAMPOO",
+  "IsBrand": false,
+  "Brand_RxCUI": "667904",
+  "Generic_RxCUI": "999618",
+  "prices": {
+    "42546027906": {
+      "06/21/2017": 0.14217,
+      "09/20/2017": 0.1591
+    }
+  }
+}

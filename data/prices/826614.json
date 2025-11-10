@@ -1,0 +1,13 @@
+{
+  "RxCUI": "826614",
+  "Name": "RAPAFLO 4 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "826612",
+  "Generic_RxCUI": "826614",
+  "prices": {
+    "00023614730": {
+      "11/21/2018": 7.98275,
+      "01/01/2019": 8.37375
+    }
+  }
+}

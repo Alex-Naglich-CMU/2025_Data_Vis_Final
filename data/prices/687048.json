@@ -1,0 +1,13 @@
+{
+  "RxCUI": "687048",
+  "Name": "LESCOL XL 80 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "360507",
+  "Generic_RxCUI": "687048",
+  "prices": {
+    "00078035415": {
+      "07/11/2017": 9.96264,
+      "01/03/2018": 10.45088
+    }
+  }
+}

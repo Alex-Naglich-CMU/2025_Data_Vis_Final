@@ -1,0 +1,12 @@
+{
+  "RxCUI": "2570421",
+  "Name": "INVEGA HAFYERA 1,560 MG/5 ML",
+  "IsBrand": true,
+  "Brand_RxCUI": "2570420",
+  "Generic_RxCUI": "2570421",
+  "prices": {
+    "50458061201": {
+      "01/03/2025": 4134.18116
+    }
+  }
+}

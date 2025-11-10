@@ -1,0 +1,13 @@
+{
+  "RxCUI": "207895",
+  "Name": "ACCUPRIL 40 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "314203",
+  "Generic_RxCUI": "207895",
+  "prices": {
+    "00071053523": {
+      "06/01/2017": 4.31737,
+      "01/01/2018": 4.72497
+    }
+  }
+}

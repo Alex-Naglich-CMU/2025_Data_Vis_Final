@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1873989",
+  "Name": "KISQALI 600 MG DAILY DOSE",
+  "IsBrand": true,
+  "Brand_RxCUI": "1873983",
+  "Generic_RxCUI": "1873989",
+  "prices": {
+    "00078090221": {
+      "01/14/2025": 292.67615
+    }
+  }
+}

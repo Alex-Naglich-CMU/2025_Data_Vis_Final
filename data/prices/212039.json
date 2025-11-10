@@ -1,0 +1,13 @@
+{
+  "RxCUI": "212039",
+  "Name": "MENEST 0.3 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "197666",
+  "Generic_RxCUI": "212039",
+  "prices": {
+    "61570007201": {
+      "06/01/2017": 1.56792,
+      "01/01/2018": 1.71596
+    }
+  }
+}

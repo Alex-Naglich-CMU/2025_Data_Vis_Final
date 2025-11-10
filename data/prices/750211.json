@@ -1,0 +1,13 @@
+{
+  "RxCUI": "750211",
+  "Name": "CADUET 10 MG-80 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "404013",
+  "Generic_RxCUI": "750211",
+  "prices": {
+    "00069227030": {
+      "06/01/2017": 17.35805,
+      "01/01/2018": 18.99648
+    }
+  }
+}

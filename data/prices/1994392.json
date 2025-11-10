@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1994392",
+  "Name": "LYRICA CR 330 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "1988977",
+  "Generic_RxCUI": "1994392",
+  "prices": {
+    "00071102901": {
+      "01/01/2021": 14.11618
+    }
+  }
+}

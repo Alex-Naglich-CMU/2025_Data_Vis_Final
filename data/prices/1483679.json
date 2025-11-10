@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1483679",
+  "Name": "ZOMIG 2.5 MG NASAL SPRAY",
+  "IsBrand": true,
+  "Brand_RxCUI": "1483677",
+  "Generic_RxCUI": "1483679",
+  "prices": {
+    "64896068251": {
+      "08/01/2018": 70.5678,
+      "12/05/2018": 77.55401
+    }
+  }
+}

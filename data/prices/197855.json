@@ -1,0 +1,14 @@
+{
+  "RxCUI": "197855",
+  "Name": "KETOPROFEN 50 MG CAPSULE",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "197855",
+  "prices": {
+    "00378407001": {
+      "07/19/2017": 0.40834,
+      "09/20/2017": 0.4531,
+      "11/22/2017": 0.47738
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1594680",
+  "Name": "FERRIC CITRATE 210 MG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": "1594680",
+  "Generic_RxCUI": "1596023",
+  "prices": {
+    "00378289520": {
+      "09/17/2025": 5.8943,
+      "10/22/2025": 5.959
+    }
+  }
+}

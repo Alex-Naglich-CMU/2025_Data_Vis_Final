@@ -1,0 +1,15 @@
+{
+  "RxCUI": "1487527",
+  "Name": "UMECLIDINIUM-VILANTEROL ELLIPTA 62.5-25 MCG INH",
+  "IsBrand": false,
+  "Brand_RxCUI": "1487527",
+  "Generic_RxCUI": "1487528",
+  "prices": {
+    "66993013497": {
+      "07/23/2025": 4.7088,
+      "08/20/2025": 4.73597,
+      "09/17/2025": 4.87007,
+      "10/22/2025": 4.93872
+    }
+  }
+}

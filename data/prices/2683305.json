@@ -1,0 +1,13 @@
+{
+  "RxCUI": "2683305",
+  "Name": "FUROSEMIDE 500 MG/50 ML VIAL",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "2683305",
+  "prices": {
+    "00143915801": {
+      "08/20/2025": 0.37456,
+      "10/22/2025": 0.36648
+    }
+  }
+}

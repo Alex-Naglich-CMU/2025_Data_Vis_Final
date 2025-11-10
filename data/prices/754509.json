@@ -1,0 +1,12 @@
+{
+  "RxCUI": "754509",
+  "Name": "EMEND TRIPACK",
+  "IsBrand": true,
+  "Brand_RxCUI": "754508",
+  "Generic_RxCUI": "754509",
+  "prices": {
+    "00006386203": {
+      "01/05/2018": 246.01901
+    }
+  }
+}

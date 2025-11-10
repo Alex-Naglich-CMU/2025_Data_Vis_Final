@@ -1,0 +1,13 @@
+{
+  "RxCUI": "804973",
+  "Name": "CLEOCIN T 1% LOTION",
+  "IsBrand": true,
+  "Brand_RxCUI": "197519",
+  "Generic_RxCUI": "804973",
+  "prices": {
+    "00009332901": {
+      "01/01/2022": 0.46999,
+      "3/23/2022": 0.46517
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "RxCUI": "967021",
+  "Name": "ZYCLARA 3.75% CREAM PUMP",
+  "IsBrand": true,
+  "Brand_RxCUI": "967017",
+  "Generic_RxCUI": "967021",
+  "prices": {
+    "99207027175": {
+      "01/05/2018": 159.0134,
+      "02/21/2018": 158.17324
+    }
+  }
+}

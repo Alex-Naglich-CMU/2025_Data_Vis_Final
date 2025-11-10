@@ -1,0 +1,15 @@
+{
+  "RxCUI": "792582",
+  "Name": "SODIUM BICARB 8.4% ABBOJECT",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "792582",
+  "prices": {
+    "00409663714": {
+      "10/23/2024": 0.32883
+    },
+    "76329335201": {
+      "10/23/2024": 0.32883
+    }
+  }
+}

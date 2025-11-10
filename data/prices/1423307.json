@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1423307",
+  "Name": "CAPRON DM LIQUID",
+  "IsBrand": true,
+  "Brand_RxCUI": "1423307",
+  "Generic_RxCUI": null,
+  "prices": {
+    "29978012716": {
+      "06/18/2025": 0.06914,
+      "08/20/2025": 0.06925
+    }
+  }
+}

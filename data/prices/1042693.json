@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1042693",
+  "Name": "CAPCOF LIQUID",
+  "IsBrand": true,
+  "Brand_RxCUI": "1042693",
+  "Generic_RxCUI": null,
+  "prices": {
+    "29978042016": {
+      "01/17/2018": 0.07525,
+      "03/21/2018": 0.07216
+    }
+  }
+}

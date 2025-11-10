@@ -1,0 +1,13 @@
+{
+  "RxCUI": "206241",
+  "Name": "ESTRACE 2 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "197659",
+  "Generic_RxCUI": "206241",
+  "prices": {
+    "00430072224": {
+      "01/01/2018": 6.46704,
+      "01/01/2019": 6.78386
+    }
+  }
+}

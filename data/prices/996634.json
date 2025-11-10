@@ -1,0 +1,12 @@
+{
+  "RxCUI": "996634",
+  "Name": "NAMENDA 5-10 MG TITRATION PK",
+  "IsBrand": true,
+  "Brand_RxCUI": "996572",
+  "Generic_RxCUI": "996634",
+  "prices": {
+    "00456320014": {
+      "01/01/2018": 7.25988
+    }
+  }
+}

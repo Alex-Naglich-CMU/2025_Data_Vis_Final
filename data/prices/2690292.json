@@ -1,0 +1,13 @@
+{
+  "RxCUI": "2690292",
+  "Name": "CREXONT ER 87.5 MG-350 MG CAP",
+  "IsBrand": true,
+  "Brand_RxCUI": "2690290",
+  "Generic_RxCUI": "2690292",
+  "prices": {
+    "64896097016": {
+      "05/21/2025": 4.13556,
+      "07/01/2025": 4.3423
+    }
+  }
+}

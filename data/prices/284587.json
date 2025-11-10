@@ -1,0 +1,13 @@
+{
+  "RxCUI": "284587",
+  "Name": "VALCYTE 450 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "313566",
+  "Generic_RxCUI": "284587",
+  "prices": {
+    "00004003822": {
+      "07/12/2017": 80.43687,
+      "01/01/2018": 85.26308
+    }
+  }
+}

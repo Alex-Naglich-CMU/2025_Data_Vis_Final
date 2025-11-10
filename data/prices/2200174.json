@@ -1,0 +1,13 @@
+{
+  "RxCUI": "2200174",
+  "Name": "DRIZALMA SPRINKLE DR 20 MG CAP",
+  "IsBrand": true,
+  "Brand_RxCUI": "2200168",
+  "Generic_RxCUI": "2200174",
+  "prices": {
+    "47335061630": {
+      "04/01/2025": 7.16399,
+      "10/22/2025": 7.20627
+    }
+  }
+}

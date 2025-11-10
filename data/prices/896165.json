@@ -1,0 +1,12 @@
+{
+  "RxCUI": "896165",
+  "Name": "ADVAIR 100-50 DISKUS",
+  "IsBrand": true,
+  "Brand_RxCUI": "896161",
+  "Generic_RxCUI": "896165",
+  "prices": {
+    "00173069504": {
+      "01/01/2018": 10.378
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "RxCUI": "897712",
+  "Name": "DILAUDID 8 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "897710",
+  "Generic_RxCUI": "897712",
+  "prices": {
+    "42858033801": {
+      "05/22/2024": 6.64048,
+      "06/03/2024": 7.23812
+    }
+  }
+}

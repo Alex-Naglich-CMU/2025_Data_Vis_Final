@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1246075",
+  "Name": "SARNA SENSITIVE 1% LOTION",
+  "IsBrand": true,
+  "Brand_RxCUI": "1246075",
+  "Generic_RxCUI": "1246076",
+  "prices": {
+    "00316023075": {
+      "11/20/2019": 0.03185,
+      "01/22/2020": 0.03015
+    }
+  }
+}

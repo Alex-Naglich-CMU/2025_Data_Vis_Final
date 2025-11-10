@@ -1,0 +1,13 @@
+{
+  "RxCUI": "2395836",
+  "Name": "ARMONAIR DIGIHALER 113 MCG",
+  "IsBrand": true,
+  "Brand_RxCUI": "2395835",
+  "Generic_RxCUI": "2395836",
+  "prices": {
+    "59310020006": {
+      "05/22/2024": 252.29889,
+      "06/19/2024": 252.395
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1860502",
+  "Name": "ZOHYDRO ER 50 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "1860501",
+  "Generic_RxCUI": "1860502",
+  "prices": {
+    "65224035060": {
+      "01/02/2018": 10.04291,
+      "01/03/2019": 10.84644
+    }
+  }
+}

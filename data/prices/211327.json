@@ -1,0 +1,13 @@
+{
+  "RxCUI": "211327",
+  "Name": "VIRAMUNE 200 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "199422",
+  "Generic_RxCUI": "211327",
+  "prices": {
+    "00597004646": {
+      "01/03/2018": 13.86934,
+      "01/01/2019": 14.7015
+    }
+  }
+}

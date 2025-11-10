@@ -1,0 +1,14 @@
+{
+  "RxCUI": "1724644",
+  "Name": "HYDROMORPHONE 2 MG/ML CARPUJCT",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "1724644",
+  "prices": {
+    "00409131230": {
+      "05/21/2025": 3.01927,
+      "06/18/2025": 3.13193,
+      "07/23/2025": 3.2446
+    }
+  }
+}

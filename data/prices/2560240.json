@@ -1,0 +1,13 @@
+{
+  "RxCUI": "2560240",
+  "Name": "MUCINEX INSTASOOTHE 7%-1% SPRY",
+  "IsBrand": true,
+  "Brand_RxCUI": "2560240",
+  "Generic_RxCUI": null,
+  "prices": {
+    "72854026504": {
+      "05/22/2024": 0.05512,
+      "06/19/2024": 0.0544
+    }
+  }
+}

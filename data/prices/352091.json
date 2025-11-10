@@ -1,0 +1,12 @@
+{
+  "RxCUI": "352091",
+  "Name": "PHAZYME 180 MG SOFTGEL",
+  "IsBrand": true,
+  "Brand_RxCUI": "252294",
+  "Generic_RxCUI": "352091",
+  "prices": {
+    "00132020812": {
+      "07/22/2020": 0.26058
+    }
+  }
+}

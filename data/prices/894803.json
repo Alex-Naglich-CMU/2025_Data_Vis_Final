@@ -1,0 +1,12 @@
+{
+  "RxCUI": "894803",
+  "Name": "KADIAN ER 50 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "894801",
+  "Generic_RxCUI": "894803",
+  "prices": {
+    "52544005260": {
+      "01/01/2018": 18.79276
+    }
+  }
+}

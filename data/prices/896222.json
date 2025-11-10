@@ -1,0 +1,12 @@
+{
+  "RxCUI": "896222",
+  "Name": "ADVAIR 500-50 DISKUS",
+  "IsBrand": true,
+  "Brand_RxCUI": "896218",
+  "Generic_RxCUI": "896222",
+  "prices": {
+    "00173069704": {
+      "01/01/2018": 16.91716
+    }
+  }
+}

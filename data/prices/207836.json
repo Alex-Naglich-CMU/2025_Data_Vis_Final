@@ -1,0 +1,12 @@
+{
+  "RxCUI": "207836",
+  "Name": "SAIZEN 5 MG VIAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "241975",
+  "Generic_RxCUI": "207836",
+  "prices": {
+    "44087100502": {
+      "08/21/2024": 280.85
+    }
+  }
+}

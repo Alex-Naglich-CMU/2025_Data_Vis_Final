@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1792398",
+  "Name": "RENACIDIN IRRIGATION SOLUTION",
+  "IsBrand": true,
+  "Brand_RxCUI": "1792396",
+  "Generic_RxCUI": "1792398",
+  "prices": {
+    "00327001230": {
+      "12/01/2019": 0.17542,
+      "12/23/2020": 0.17714
+    }
+  }
+}

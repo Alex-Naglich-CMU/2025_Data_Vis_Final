@@ -1,0 +1,12 @@
+{
+  "RxCUI": "861167",
+  "Name": "RYTHMOL SR 325 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "861164",
+  "Generic_RxCUI": "861167",
+  "prices": {
+    "00173082418": {
+      "01/01/2018": 14.8711
+    }
+  }
+}

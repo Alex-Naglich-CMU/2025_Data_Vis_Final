@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1485599",
+  "Name": "CHILD MUCINEX STUFFY NOSE-CHST",
+  "IsBrand": true,
+  "Brand_RxCUI": "1485599",
+  "Generic_RxCUI": null,
+  "prices": {
+    "63824095107": {
+      "05/22/2024": 0.07156,
+      "06/19/2024": 0.07101
+    }
+  }
+}

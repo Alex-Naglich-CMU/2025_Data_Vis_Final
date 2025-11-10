@@ -1,0 +1,13 @@
+{
+  "RxCUI": "2709209",
+  "Name": "NEFFY 1 MG/0.1 ML NASAL SPRAY",
+  "IsBrand": true,
+  "Brand_RxCUI": "2709207",
+  "Generic_RxCUI": "2709209",
+  "prices": {
+    "82580001002": {
+      "09/17/2025": 339.82417,
+      "10/22/2025": 340.093
+    }
+  }
+}

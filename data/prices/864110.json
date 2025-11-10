@@ -1,0 +1,12 @@
+{
+  "RxCUI": "864110",
+  "Name": "OMNITROPE 5 MG/1.5 ML CRTG",
+  "IsBrand": true,
+  "Brand_RxCUI": "1736267",
+  "Generic_RxCUI": "864110",
+  "prices": {
+    "00781300107": {
+      "01/01/2025": 417.83667
+    }
+  }
+}

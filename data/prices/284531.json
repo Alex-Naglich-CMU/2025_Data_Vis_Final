@@ -1,0 +1,13 @@
+{
+  "RxCUI": "284531",
+  "Name": "MICARDIS 20 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "282755",
+  "Generic_RxCUI": "284531",
+  "prices": {
+    "00597003937": {
+      "01/03/2018": 6.42405,
+      "01/01/2019": 6.93785
+    }
+  }
+}

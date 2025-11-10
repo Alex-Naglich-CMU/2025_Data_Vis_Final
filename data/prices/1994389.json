@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1994389",
+  "Name": "LYRICA CR 165 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "1988974",
+  "Generic_RxCUI": "1994389",
+  "prices": {
+    "00071102701": {
+      "01/01/2020": 13.43132,
+      "01/01/2021": 14.08959
+    }
+  }
+}

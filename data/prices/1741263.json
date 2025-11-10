@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1741263",
+  "Name": "VENOFER 200 MG/10 ML VIAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "1741261",
+  "Generic_RxCUI": "1741263",
+  "prices": {
+    "00517231005": {
+      "08/01/2025": 12.53048
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "RxCUI": "1665188",
+  "Name": "LORAZEPAM 2 MG/ML VIAL",
+  "IsBrand": false,
+  "Brand_RxCUI": "1665188",
+  "Generic_RxCUI": "1665190",
+  "prices": {
+    "00641604425": {
+      "11/22/2017": 0.65736
+    }
+  }
+}

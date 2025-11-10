@@ -1,0 +1,13 @@
+{
+  "RxCUI": "352086",
+  "Name": "CLARINEX 5 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "349420",
+  "Generic_RxCUI": "352086",
+  "prices": {
+    "78206018801": {
+      "09/18/2024": 8.058,
+      "01/01/2025": 8.46098
+    }
+  }
+}

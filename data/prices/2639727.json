@@ -1,0 +1,13 @@
+{
+  "RxCUI": "2639727",
+  "Name": "OPVEE 2.7 MG NASAL SPRAY",
+  "IsBrand": true,
+  "Brand_RxCUI": "2639721",
+  "Generic_RxCUI": "2639727",
+  "prices": {
+    "12496000302": {
+      "09/17/2025": 46.80333,
+      "10/22/2025": 46.73214
+    }
+  }
+}

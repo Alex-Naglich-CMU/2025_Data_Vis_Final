@@ -1,0 +1,13 @@
+{
+  "RxCUI": "904783",
+  "Name": "EPIFOAM FOAM",
+  "IsBrand": true,
+  "Brand_RxCUI": "904782",
+  "Generic_RxCUI": "904783",
+  "prices": {
+    "00037682410": {
+      "12/18/2024": 9.064,
+      "01/07/2025": 9.51747
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "RxCUI": "314000",
+  "Name": "GLYBURIDE MICRO 1.5 MG TAB",
+  "IsBrand": false,
+  "Brand_RxCUI": "314000",
+  "Generic_RxCUI": "881407",
+  "prices": {
+    "00093803401": {
+      "11/20/2024": 0.15996
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "RxCUI": "861159",
+  "Name": "RYTHMOL SR 225 MG CAPSULE",
+  "IsBrand": true,
+  "Brand_RxCUI": "861156",
+  "Generic_RxCUI": "861159",
+  "prices": {
+    "00173082318": {
+      "01/01/2018": 11.68879
+    }
+  }
+}

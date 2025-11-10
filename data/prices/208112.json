@@ -1,0 +1,13 @@
+{
+  "RxCUI": "208112",
+  "Name": "ALDACTAZIDE 25-25 TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "198224",
+  "Generic_RxCUI": "208112",
+  "prices": {
+    "00025101131": {
+      "06/01/2017": 2.32937,
+      "01/01/2018": 2.54924
+    }
+  }
+}

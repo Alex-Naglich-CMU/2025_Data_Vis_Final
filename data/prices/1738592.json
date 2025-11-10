@@ -1,0 +1,13 @@
+{
+  "RxCUI": "1738592",
+  "Name": "SOLU-CORTEF 250 MG ACT-O-VIAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "1738590",
+  "Generic_RxCUI": "1738592",
+  "prices": {
+    "00009001305": {
+      "01/01/2025": 40.56557,
+      "05/15/2025": 42.59385
+    }
+  }
+}

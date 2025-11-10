@@ -1,0 +1,13 @@
+{
+  "RxCUI": "692869",
+  "Name": "THERAPEUTIC MINERAL ICE 2% GEL",
+  "IsBrand": false,
+  "Brand_RxCUI": "311502",
+  "Generic_RxCUI": "692869",
+  "prices": {
+    "00316022608": {
+      "02/19/2020": 0.01797,
+      "03/18/2020": 0.01613
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "RxCUI": "861008",
+  "Name": "GLUCOPHAGE 500 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "861007",
+  "Generic_RxCUI": "861008",
+  "prices": {
+    "00087606005": {
+      "08/23/2017": 0.94655
+    }
+  }
+}

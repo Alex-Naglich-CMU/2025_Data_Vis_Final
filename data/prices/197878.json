@@ -1,0 +1,13 @@
+{
+  "RxCUI": "197878",
+  "Name": "LINDANE 1% SHAMPOO",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "197878",
+  "prices": {
+    "60432083460": {
+      "09/20/2017": 1.7718,
+      "03/21/2018": 1.75303
+    }
+  }
+}

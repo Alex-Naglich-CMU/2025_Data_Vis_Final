@@ -1,0 +1,13 @@
+{
+  "RxCUI": "103956",
+  "Name": "CAVERJECT 20 MCG VIAL",
+  "IsBrand": true,
+  "Brand_RxCUI": "242691",
+  "Generic_RxCUI": "103956",
+  "prices": {
+    "00009370105": {
+      "06/01/2017": 87.45977,
+      "01/01/2018": 95.71509
+    }
+  }
+}

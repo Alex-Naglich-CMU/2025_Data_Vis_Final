@@ -1,0 +1,13 @@
+{
+  "RxCUI": "861455",
+  "Name": "MEPERIDINE 100 MG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": "861455",
+  "Generic_RxCUI": "861517",
+  "prices": {
+    "42806005101": {
+      "09/20/2017": 1.03518,
+      "12/20/2017": 1.0219
+    }
+  }
+}

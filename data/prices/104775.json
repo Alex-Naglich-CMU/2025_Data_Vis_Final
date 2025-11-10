@@ -1,0 +1,13 @@
+{
+  "RxCUI": "104775",
+  "Name": "CLOZARIL 25 MG TABLET",
+  "IsBrand": true,
+  "Brand_RxCUI": "197536",
+  "Generic_RxCUI": "104775",
+  "prices": {
+    "69809012605": {
+      "06/01/2024": 6.10525,
+      "06/01/2025": 6.33413
+    }
+  }
+}

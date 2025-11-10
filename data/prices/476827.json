@@ -1,0 +1,13 @@
+{
+  "RxCUI": "476827",
+  "Name": "SENNA 8.6 MG SOFTGEL",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "476827",
+  "prices": {
+    "70000044101": {
+      "04/17/2024": 0.06692,
+      "07/17/2024": 0.067
+    }
+  }
+}

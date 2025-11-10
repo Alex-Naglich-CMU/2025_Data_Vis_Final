@@ -1,0 +1,13 @@
+{
+  "RxCUI": "2360903",
+  "Name": "GNP MULTI-SYMPTOM RLF EYE DROP",
+  "IsBrand": false,
+  "Brand_RxCUI": null,
+  "Generic_RxCUI": "2360903",
+  "prices": {
+    "46122075829": {
+      "12/18/2024": 0.19565,
+      "02/19/2025": 0.19681
+    }
+  }
+}
