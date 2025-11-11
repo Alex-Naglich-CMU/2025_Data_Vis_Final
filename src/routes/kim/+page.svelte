@@ -2,6 +2,8 @@
 	import type { PageProps } from './$types';
 	import { asset } from '$app/paths';
 	import { onMount } from 'svelte';
+	import TimeSeriesComparison from '$lib/Time-Series-Comparison.svelte';
+
 
 	// Type definitions
 	interface DrugPrices {
@@ -259,8 +261,8 @@
 	   - prices are in dollars (already decimal numbers)
 	*/
 
-
 </script>
+
 
 <div class="title-holder">
 	<div class="title">
@@ -309,6 +311,10 @@
 			</div>
 		{/if}
 	</div>
+{/if}
+
+{#if !loading && !error && drugsData.length > 0}
+  <TimeSeriesComparison {drugsData} />
 {/if}
 
 <style>
