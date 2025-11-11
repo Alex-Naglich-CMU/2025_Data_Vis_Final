@@ -2,6 +2,15 @@
 	import type { PageProps } from './$types';
 	import {asset } from '$app/paths';
 
+	// lipitor (atorvastatin) - cholesterol 
+	// insulin - Diabetes
+	// synthroid (levothyroxine) - thyroid issues 
+	// metformin - diabetes
+	// Lisdexamfetamine (Vyvanse) - adhd 
+	// Fluoxetine (Prozac) - depression / anxiety
+	// isoretinoin (acutane) - skin 
+	// amlodipine - blood pressure
+
 
 	let { data }: PageProps = $props();
 </script>
