@@ -167,6 +167,99 @@
 	}
 
 	let { data }: PageProps = $props();
+
+
+
+	/* 
+	    SOME DATA DOCUMENTATION FOR US!!!  :) 
+		
+		MAIN DATA ARRAY
+	   `drugsData` is an array of drug objects. Each drug has:
+	   
+	   {
+	     searchName: "lipitor",                  // what we searched for
+	     RxCUI: "123456",                        // unique drug ID
+	     Name: "LIPITOR 10MG TABLET",            // full drug name
+	     IsBrand: true,                          // true = brand, false = generic
+	     Brand_RxCUI: "123456",                  // RxCUI of brand version
+	     Generic_RxCUI: "789012",                // RxCUI of generic version
+	     prices: {                               // Price data by NDC and date
+	       "00071015623": {
+	         "2024-01-15": 125.50,
+	         "2024-02-15": 127.00
+	       }
+	     }
+	   } 
+	   
+	   HELPER FUNCTIONS FOR VISUALIZATIONS
+	   1. getPricesArray(drug: DrugData): PricePoint[]
+	      Returns ALL individual price points as a flat array
+	      Good for scatter plots, line charts showing each NDC
+	      
+	      example:
+	      {#each drugsData as drug}
+	        <ScatterChart data={getPricesArray(drug)} />
+	      {/each}
+	      
+	      returns array of...
+	      [
+	        { ndc: "00071015623", date: "2024-01-15", price: 125.50, drugName: "...", rxcui: "...", isBrand: true },
+	        { ndc: "00071015623", date: "2024-02-15", price: 127.00, drugName: "...", rxcui: "...", isBrand: true },
+	        ...
+	      ]
+	   
+	   2. getAveragePrices(drug: DrugData): AveragePrice[]
+	      Returns AVERAGE price per date (averaging all NDCs on that date)
+	      Good for clean line charts showing overall trend
+	      
+	      example:
+	      {#each drugsData as drug}
+	        <LineChart data={getAveragePrices(drug)} title={drug.Name} />
+	      {/each}
+	      
+	      returns array of...
+	      [
+	        { date: "2024-01-15", averagePrice: 125.50, count: 3 },
+	        { date: "2024-02-15", averagePrice: 127.00, count: 3 },
+	        ...
+	      ]
+	   
+	   
+	   EXAMPLE VISUALIZATION COMPONENTS
+	   // line chart showing average price over time
+	   <LineChart 
+	     data={getAveragePrices(drugsData[0])} 
+	     xKey="date" 
+	     yKey="averagePrice"
+	     title={drugsData[0].Name}
+	   />
+	   
+	   // compare brand vs generic for a specific drug
+	   {#each drugsData as drug}
+	     {#if drug.Brand_RxCUI !== drug.Generic_RxCUI}
+	       <ComparisonChart 
+	         brandData={getAveragePrices(drug)}
+	         genericRxcui={drug.Generic_RxCUI}
+	       />
+	     {/if}
+	   {/each}
+	   
+	   // show all drugs on one chart
+	   <MultiLineChart 
+	     datasets={drugsData.map(drug => ({
+	       name: drug.Name,
+	       data: getAveragePrices(drug)
+	     }))}
+	   />
+	   
+	   other notes
+	   - drugsData is already sorted by date within each helper function
+	   - all dates are strings in format "MM/DD/YYYY" or "YYYY-MM-DD"
+	   - convert to Date objects for D3: new Date(dataPoint.date)
+	   - prices are in dollars (already decimal numbers)
+	*/
+
+
 </script>
 
 <div class="title-holder">
