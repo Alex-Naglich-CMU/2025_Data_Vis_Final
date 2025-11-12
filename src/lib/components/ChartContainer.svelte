@@ -28,6 +28,15 @@
 		}))
 	);
 	// CONSTANTS AND CONFIGURATION
+
+	const colors : object = {
+		red: '#9A2F1F',
+		blue: '#54707C',
+		orange: '#DF7C39',
+		tan: '#BFA97F',
+		cream: '#F6F5EC'
+	}
+
 	// chart Dimensions
 	let containerWidth = $state(0);
 	const height = $derived(containerWidth * 0.6);
