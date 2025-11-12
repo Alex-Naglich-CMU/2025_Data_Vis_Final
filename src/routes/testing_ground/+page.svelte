@@ -3,14 +3,13 @@
 
 	const navRoutes: { path: string; name: string }[] = [
 		{
-			path: '/playground/toggle_fetching',
+			path: '/testing_ground/toggle_fetching',
 			name: 'Example where I re-fetch and override a value without race condition issues.'
 		},
 		{
-			path: '/playground/smart_fetch',
+			path: '/testing_ground/smart_fetch',
 			name: 'Medicare Api calls to get all of the necessary data. Use for exploring the JSON'
-		},
-		{ path: '/playground/alex', name: 'Alex Testing Ground' }
+		}
 	];
 </script>
 

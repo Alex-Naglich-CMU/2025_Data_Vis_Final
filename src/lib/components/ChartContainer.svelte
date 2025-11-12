@@ -2,7 +2,7 @@
 	import * as d3 from 'd3';
 	import type { PricePoint } from '$lib/scripts/drug-types';
 	import { getAveragePrices } from '$lib/scripts/helper-functions';
-    import DataLine from '$lib/components/TimeSeriesComparison.svelte';
+    import DataLine from '$lib/components/DataLine.svelte';
 
 	// PROPS
 	const { priceData = [] }: { priceData: PricePoint[] } = $props();
@@ -17,8 +17,8 @@
 
 	// CONSTANTS AND CONFIGURATION
 	// chart Dimensions
-	const width = $state(800);
-	const height = $state(400);
+	const width = $state(400);
+	const height = $state(200);
 	let margin = $state({ top: 40, right: 40, bottom: 80, left: 80 });
 
 	// SCALES
@@ -64,9 +64,8 @@
 	});
 </script>
 
-{/* Commented out controls for future use
 <!-- CONTROLS -->
-<div class="controls">
+<!-- <div class="controls">
 	<select bind:value={selectedDrugIndex}>
 		{#each drugsData as drug, i}
 			<option value={i}>
@@ -78,18 +77,15 @@
 	<br />
 
 	{#if selectedDrug}
-		<!-- svelte-ignore a11y_label_has_associated_control -->
 		<label>
 			Selected: {selectedDrug.Name}
 		</label>
 		<br />
-		<!-- svelte-ignore a11y_label_has_associated_control -->
 		<label>
 			Data Points: {priceData.length}
 		</label>
 	{/if}
-</div>
-*/}
+</div> -->
 
 <br />
 
