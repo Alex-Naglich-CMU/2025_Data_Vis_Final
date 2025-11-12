@@ -18,11 +18,8 @@
 
 	const navRoutes: NavRoute[] = [
 		{ path: '/', name: 'Home' },
-		{ path: '/internal', name: 'Internal Docs' },
-		{ path: 'https://dig.cmu.edu/datavis-fall-2025/final-project/', name: 'Final Info' },
 		{ path: '/team', name: 'Team' },
-		{ path: '/playground', name: 'Playground' },
-		{ path: '/kim', name: 'Kim' }
+		{ path: '/testing_ground', name: 'Testing Ground' }
 	];
 
 	$effect(() => {
@@ -43,10 +40,8 @@
 	});
 </script>
 
-<div
-	class="flex items-center justify-between bg-#F6F5EC"
->
-	<nav class="flex-grow m-2">
+<div class="bg-#F6F5EC flex items-center justify-between">
+	<nav class="m-2 flex-grow">
 		<ul class="flex space-x-1">
 			{#each navRoutes as { path, name }}
 				<li class="font-mono font-bold hover:underline">
@@ -65,18 +60,16 @@
 		</ul>
 	</nav>
 
-	<a
-		href={resolve('/')}
-		class="rounded-full bg-black m-1 p-0.5"
-		aria-label="Go to Homepage"
-	>
+	<a href={resolve('/')} class="m-1 rounded-full bg-black p-0.5" aria-label="Go to Homepage">
 		<div class="relative h-10 overflow-hidden rounded-full">
 			<img
 				src={asset('/images/axolotl.jpg')}
 				alt="Home"
 				class="h-full w-full object-cover object-center"
 			/>
-			<div class="absolute inset-0 rounded-full transition-all duration-200 hover:bg-white/10"></div>
+			<div
+				class="absolute inset-0 rounded-full transition-all duration-200 hover:bg-white/10"
+			></div>
 		</div>
 	</a>
 </div>
