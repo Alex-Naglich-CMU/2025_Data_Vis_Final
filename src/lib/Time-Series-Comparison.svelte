@@ -47,6 +47,14 @@
 	const height = 400;
 	const margin = { top: 40, right: 40, bottom: 80, left: 80 };
 
+	const colors: object = {
+		red: '#9A2F1F',
+		blue: '#54707C',
+		orange: '#DF7C39',
+		tan: '#BFA97F',
+		cream: '#F6F5EC'
+	};
+
 	// DERIVED DATA
 	let selectedDrug = $derived(drugsData[selectedDrugIndex]);
 
