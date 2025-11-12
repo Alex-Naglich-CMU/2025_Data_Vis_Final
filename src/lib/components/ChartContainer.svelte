@@ -1,39 +1,36 @@
 <script lang="ts">
 	import * as d3 from 'd3';
-	import type { PricePoint } from '$lib/scripts/drug-types';
+	import type { PricePoint, AveragePrice } from '$lib/scripts/drug-types';
 	import { getAveragePrices } from '$lib/scripts/helper-functions';
-    import DataLine from '$lib/components/DataLine.svelte';
+	import DataLine from '$lib/components/DataLine.svelte';
 
 	// PROPS
 	const { priceData = [] }: { priceData: PricePoint[] } = $props();
+	const averageData: AveragePrice[] = $derived(getAveragePrices(priceData || []));
 
-    // Prepare data with Date objects for D3
-	const individualData = $derived(
-        priceData.map(d => ({ ...d, date: new Date(d.date) }))
-    );
-    const averageData = $derived(
-        getAveragePrices(priceData).map(d => ({ ...d, date: new Date(d.date) }))
-    );
+	// Prepare data with Date objects for D3
+	const individualPlottable = $derived(priceData.map((d) => ({ ...d, date: new Date(d.date) })));
+	const averagePlottable = $derived(averageData.map((d) => ({ ...d, date: new Date(d.date) })));
 
 	// CONSTANTS AND CONFIGURATION
 	// chart Dimensions
-	const width = $state(400);
-	const height = $state(200);
+	let containerWidth = $state(0);
+	const height = $derived(containerWidth * 0.6);
 	let margin = $state({ top: 40, right: 40, bottom: 80, left: 80 });
 
 	// SCALES
 	let xScale = $derived(
 		d3
 			.scaleTime()
-			.range([margin.left, width - margin.right])
-			.domain(d3.extent(individualData, (d) => d.date) as [Date, Date])
+			.range([margin.left, containerWidth - margin.right])
+			.domain(d3.extent(individualPlottable, (d) => d.date) as [Date, Date])
 	);
 
 	let yScale = $derived(
 		d3
 			.scaleLinear()
 			.range([height - margin.bottom, margin.top])
-			.domain([0, d3.max(individualData, (d) => d.price) ?? 100])
+			.domain([0, d3.max(individualPlottable, (d) => d.price) ?? 100])
 			.nice()
 	);
 
@@ -46,7 +43,7 @@
 
 	// render axes when data loads
 	$effect(() => {
-		if (xAxisRef && individualData.length > 0) {
+		if (xAxisRef && individualPlottable.length > 0) {
 			d3.select(xAxisRef)
 				.call(xAxis)
 				.selectAll('text')
@@ -58,7 +55,7 @@
 	});
 
 	$effect(() => {
-		if (yAxisRef && individualData.length > 0) {
+		if (yAxisRef && individualPlottable.length > 0) {
 			d3.select(yAxisRef).call(yAxis);
 		}
 	});
@@ -87,10 +84,8 @@
 	{/if}
 </div> -->
 
-<br />
-
-<div class="chart-wrapper">
-	<svg {width} {height}>
+<div class="chart-wrapper" bind:clientWidth={containerWidth}>
+	<svg width={containerWidth} {height}>
 		<!-- Axes -->
 		<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}></g>
 		<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
@@ -99,7 +94,7 @@
 		<text
 			class="axis-label"
 			text-anchor="middle"
-			x={width / 2}
+			x={containerWidth / 2}
 			y={height - 10}
 			font-family="fustat, sans-serif"
 			font-size="14px"
@@ -121,23 +116,12 @@
 			Price Per Pill (USD)
 		</text>
 
-        <!-- Individual Drug Price Lines -->
-        {#each d3.groups(individualData, d => d.ndc) as [ndc, pricesForNdc] (ndc)}
-            <DataLine 
-                data={pricesForNdc} 
-                dataType="individual" 
-                {xScale} 
-                {yScale} 
-            />
-        {/each}
+		<!-- Individual Drug Price Lines -->
+		{#each d3.groups(individualPlottable, (d) => d.ndc) as [ndc, pricesForNdc] (ndc)}
+			<DataLine data={pricesForNdc} dataType="individual" {xScale} {yScale} />
+		{/each}
 
-        <!-- Average Drug Price Line -->
-        <DataLine 
-            data={averageData} 
-            dataType="average" 
-            {xScale} 
-            {yScale} 
-        />
-
+		<!-- Average Drug Price Line -->
+		<DataLine data={averagePlottable} dataType="average" {xScale} {yScale} />
 	</svg>
 </div>

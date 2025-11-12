@@ -26,9 +26,9 @@
 	const pathD = $derived(data.length > 0 ? lineGenerator(data) : '');
 
 	// Styling Placeholder
-	const strokeColor = $derived(dataType === 'average' ? 'red' : '#888888');
-	const strokeWidth = $derived(dataType === 'average' ? 3 : 1.5);
-	const opacity = $derived(dataType === 'average' ? 1.0 : 0.3);
+	const strokeColor = $derived(dataType === 'average' ? 'red' : 'blue');
+	const strokeWidth = $derived(dataType === 'average' ? 3 : 5);
+	const opacity = $derived(dataType === 'average' ? 1.0 : 1.0);
 </script>
 
 {#if pathD}
