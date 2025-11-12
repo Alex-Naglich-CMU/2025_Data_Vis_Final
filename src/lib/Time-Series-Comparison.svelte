@@ -47,7 +47,7 @@
 	const height = 400;
 	const margin = { top: 40, right: 40, bottom: 80, left: 80 };
 
-	const colors: object = {
+	const colors = {
 		red: '#9A2F1F',
 		blue: '#54707C',
 		orange: '#DF7C39',
@@ -321,13 +321,13 @@
 		<h4>Legend</h4>
 		{#if brandDrug}
 			<div class="legend-item">
-				<div class="legend-line" style="background-color: #E53935;"></div>
+				<div class="legend-line" style={colors.red}></div>
 				<span>{brandDrug.friendlyName} (Brand)</span>
 			</div>
 		{/if}
 		{#if genericDrug}
 			<div class="legend-item">
-				<div class="legend-line" style="background-color: #2563eb;"></div>
+				<div class="legend-line" style={colors.blue}></div>
 				<span>{genericDrug.friendlyName} (Generic)</span>
 			</div>
 		{/if}
