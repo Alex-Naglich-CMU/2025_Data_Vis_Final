@@ -1,7 +1,7 @@
 <script lang="ts">
 	import * as d3 from 'd3';
 	import type { ScaleTime, ScaleLinear } from 'd3';
-	import type { PricePoint, AveragePrice } from '$lib/scripts/drug-types';
+	import type { PlottableAveragePrice, PlottablePricePoint } from '$lib/scripts/drug-types';
 
 	const {
 		data = [],
@@ -9,8 +9,8 @@
 		xScale,
 		yScale
 	} = $props<{
-		data: PricePoint[] | AveragePrice[]; // Can be either type
-		dataType: 'individual' | 'average';
+		data: PlottablePricePoint[] | PlottableAveragePrice[]; // Can be either type
+		dataType: 'generic' | 'mean' | 'brand';
 		xScale: ScaleTime<number, number>;
 		yScale: ScaleLinear<number, number>;
 	}>();
@@ -20,15 +20,17 @@
 			.line<any>() // Use 'any' here due to the mixed input types
 			.curve(d3.curveStepAfter)
 			.x((d) => xScale(d.date))
-			.y((d) => yScale(dataType === 'average' ? d.averagePrice : d.price))
+			.y((d) => yScale(dataType === 'mean' ? d.averagePrice : d.price))
 	);
 
 	const pathD = $derived(data.length > 0 ? lineGenerator(data) : '');
 
 	// Styling Placeholder
-	const strokeColor = $derived(dataType === 'average' ? 'red' : 'blue');
-	const strokeWidth = $derived(dataType === 'average' ? 3 : 5);
-	const opacity = $derived(dataType === 'average' ? 1.0 : 1.0);
+	const strokeColor = $derived(
+		dataType === 'mean' ? 'red' : dataType === 'brand' ? 'blue' : 'green'
+	);
+	const strokeWidth = $derived(dataType === 'mean' ? 3 : dataType === 'brand' ? 5 : 2);
+	const opacity = $derived(dataType === 'mean' ? 1.0 : dataType === 'brand' ? 0.7 : 0.5);
 </script>
 
 {#if pathD}

@@ -1,5 +1,3 @@
-
-
 // Type definitions
 export interface DrugPrices {
 	[ndc: string]: {
@@ -25,8 +23,23 @@ export interface PricePoint {
 	isBrand: boolean;
 }
 
+export interface PlottablePricePoint {
+	ndc: string;
+	date: Date;
+	price: number;
+	drugName: string;
+	rxcui: string;
+	isBrand: boolean;
+}
+
 export interface AveragePrice {
 	date: string;
+	averagePrice: number;
+	count: number;
+}
+
+export interface PlottableAveragePrice {
+	date: Date;
 	averagePrice: number;
 	count: number;
 }

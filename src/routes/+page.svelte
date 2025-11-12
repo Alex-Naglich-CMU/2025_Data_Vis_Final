@@ -1,25 +1,30 @@
 <script lang="ts">
 	import { asset } from '$app/paths';
 	import ChartContainer from '$lib/components/ChartContainer.svelte';
-	import type { DrugData } from '$lib/scripts/drug-types';
+	import type { DrugData, PricePoint } from '$lib/scripts/drug-types';
 	import { getPricesArray } from '$lib/scripts/helper-functions';
 
 	// List of drugs we want to visualize (partial names)
 	const curatedList: { [key: string]: string } = {
 		lipitor: '617320',
-		insulin: '2563971',
-		synthroid: '892246',
-		metformin: '861731',
-		lisdexamfetamine: '1871466',
-		fluoxetine: '104849',
-		isotretinoin: '1242613',
-		amlodipine: '1000000'
+		lantus: '285018',
+		synthroid: '966201',
+		glucophage: '861008',
+		vyvanse: '854832',
+		prozac: '104849',
+		isotretinoin: '643488',
+		norvasc: '212549'
 	};
 
 	let loadedDrugs = $state<{ [rxcui: string]: DrugData }>({});
 	let isLoading = $state<boolean>(true);
 	let errorMessage = $state<string | null>(null);
 	let loadingRxcui = $state<string | null>(null);
+
+	// Combine all loaded drug prices into one array for plotting
+	const allPlottablePrices: PricePoint[] = $derived(
+		Object.values(loadedDrugs).flatMap((drug) => getPricesArray(drug))
+	);
 
 	async function fetchAndStoreDrug(rxcui: string) {
 		// Check if already loaded
@@ -52,6 +57,16 @@
 				...loadedDrugs,
 				[rxcui]: newDrugData
 			};
+
+			const companionRxcui = newDrugData.IsBrand
+				? newDrugData.Generic_RxCUI
+				: newDrugData.Brand_RxCUI;
+
+			// Ensure companionRxcui is a non-null string and not the current RxCUI
+			if (companionRxcui && companionRxcui !== rxcui) {
+				console.log(`Fetching companion drug: ${companionRxcui}`);
+				await fetchAndStoreDrug(companionRxcui);
+			}
 		} catch (e) {
 			errorMessage = e instanceof Error ? e.message : 'An unknown error occurred.';
 			console.error(`Error loading drug ${rxcui}:`, e);
@@ -106,23 +121,29 @@
 	</div>
 {:else}
 	<div class="drug-section">
-		<h3>Loaded {Object.keys(loadedDrugs).length} Medications</h3>
+		<h3>Loaded {Object.keys(curatedList).length} Brands</h3>
+		<h3>Loaded {Object.keys(loadedDrugs).length} Total</h3>
 
-		{#if Object.keys(loadedDrugs).length === 0}
-			<p class="no-data">No drugs found. Check console for details.</p>
-		{:else}
-			<div class="drug-grid">
-				{#if !isLoading && !errorMessage && Object.keys(loadedDrugs).length > 0}
-					{#each Object.values(loadedDrugs) as drug (drug.RxCUI)}
-						<div class="drug-card">
-							<h4>{drug.Name}</h4>
-							<p><strong>Type:</strong> {drug.IsBrand ? 'Brand' : 'Generic'}</p>
-							<ChartContainer priceData={getPricesArray(drug)} />
-						</div>
-					{/each}
+		<div class="drug-grid">
+			{#each Object.values(curatedList) as curatedRxcui}
+				{@const drug = loadedDrugs[curatedRxcui]}
+				{#if drug}
+					<div class="drug-card">
+						<h4>{drug.Name}</h4>
+						<p><strong>Type:</strong> {drug.IsBrand ? 'Brand' : 'Generic'}</p>
+						<ChartContainer
+							plottableData={[
+								getPricesArray(loadedDrugs[drug.Brand_RxCUI]),
+								getPricesArray(loadedDrugs[drug.Generic_RxCUI])
+							]
+								.flat()
+								.filter(Boolean)}
+						/>
+					</div>
 				{/if}
-			</div>
-		{/if}
+			{/each}
+		</div>
+		<ChartContainer plottableData={allPlottablePrices} />
 	</div>
 {/if}
 
