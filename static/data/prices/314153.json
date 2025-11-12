@@ -2,8 +2,8 @@
   "RxCUI": "314153",
   "Name": "ORLISTAT 120 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "314153",
-  "Generic_RxCUI": "226917",
+  "Brand_RxCUI": "226917",
+  "Generic_RxCUI": "314153",
   "prices": {
     "61269056590": {
       "04/17/2024": 6.98521,

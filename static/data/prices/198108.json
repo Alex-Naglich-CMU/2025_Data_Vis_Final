@@ -2,8 +2,8 @@
   "RxCUI": "198108",
   "Name": "PIROXICAM 20 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "198108",
-  "Generic_RxCUI": "105930",
+  "Brand_RxCUI": "105930",
+  "Generic_RxCUI": "198108",
   "prices": {
     "00093075701": {
       "05/19/2021": 0.59047,

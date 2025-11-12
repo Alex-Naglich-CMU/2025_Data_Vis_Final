@@ -2,8 +2,8 @@
   "RxCUI": "351901",
   "Name": "RAPAMUNE 1 MG/ML ORAL SOLN",
   "IsBrand": true,
-  "Brand_RxCUI": "314230",
-  "Generic_RxCUI": "351901",
+  "Brand_RxCUI": "351901",
+  "Generic_RxCUI": "314230",
   "prices": {
     "00008103004": {
       "06/01/2017": 27.19661,

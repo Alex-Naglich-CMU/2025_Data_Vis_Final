@@ -2,8 +2,8 @@
   "RxCUI": "308689",
   "Name": "BENZOYL PEROXIDE 2.5% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "308689",
-  "Generic_RxCUI": "992485",
+  "Brand_RxCUI": "992485",
+  "Generic_RxCUI": "308689",
   "prices": {
     "45802010196": {
       "05/19/2021": 0.20095,

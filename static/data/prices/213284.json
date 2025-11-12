@@ -2,8 +2,8 @@
   "RxCUI": "213284",
   "Name": "DROXIA 400 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "200344",
-  "Generic_RxCUI": "213284",
+  "Brand_RxCUI": "213284",
+  "Generic_RxCUI": "200344",
   "prices": {
     "00003633717": {
       "05/22/2024": 0.7767,

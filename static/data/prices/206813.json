@@ -2,8 +2,8 @@
   "RxCUI": "206813",
   "Name": "DELESTROGEN 200 MG/5 ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "310191",
-  "Generic_RxCUI": "206813",
+  "Brand_RxCUI": "206813",
+  "Generic_RxCUI": "310191",
   "prices": {
     "42023011201": {
       "05/22/2024": 59.85829,

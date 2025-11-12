@@ -2,8 +2,8 @@
   "RxCUI": "855871",
   "Name": "DILANTIN 30 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "855869",
-  "Generic_RxCUI": "855871",
+  "Brand_RxCUI": "855871",
+  "Generic_RxCUI": "855869",
   "prices": {
     "00071374066": {
       "06/01/2017": 0.93645,

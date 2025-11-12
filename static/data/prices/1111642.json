@@ -2,8 +2,8 @@
   "RxCUI": "1111642",
   "Name": "COPAXONE 20 MG/ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "1111641",
-  "Generic_RxCUI": "1111642",
+  "Brand_RxCUI": "1111642",
+  "Generic_RxCUI": "1111641",
   "prices": {
     "68546031730": {
       "08/23/2017": 225.07511,

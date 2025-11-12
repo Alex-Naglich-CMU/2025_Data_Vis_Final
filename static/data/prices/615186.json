@@ -2,8 +2,8 @@
   "RxCUI": "615186",
   "Name": "CYMBALTA 60 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "596934",
-  "Generic_RxCUI": "615186",
+  "Brand_RxCUI": "615186",
+  "Generic_RxCUI": "596934",
   "prices": {
     "00002327030": {
       "09/20/2017": 6.97172,

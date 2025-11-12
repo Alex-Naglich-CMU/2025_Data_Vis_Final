@@ -2,8 +2,8 @@
   "RxCUI": "2100099",
   "Name": "XOFLUZA 20 MG TAB (40 MG DOSE)",
   "IsBrand": true,
-  "Brand_RxCUI": "2100024",
-  "Generic_RxCUI": "2100099",
+  "Brand_RxCUI": "2100099",
+  "Generic_RxCUI": "2100024",
   "prices": {
     "50242082802": {
       "11/20/2019": 72.259,

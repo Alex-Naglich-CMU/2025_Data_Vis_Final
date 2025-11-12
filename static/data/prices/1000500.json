@@ -2,8 +2,8 @@
   "RxCUI": "1000500",
   "Name": "PREMPRO 0.625-5 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1000398",
-  "Generic_RxCUI": "1000500",
+  "Brand_RxCUI": "1000500",
+  "Generic_RxCUI": "1000398",
   "prices": {
     "00046110811": {
       "11/22/2017": 6.09291,

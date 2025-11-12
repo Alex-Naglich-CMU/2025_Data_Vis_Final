@@ -2,8 +2,8 @@
   "RxCUI": "284460",
   "Name": "IMITREX 100 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "313160",
-  "Generic_RxCUI": "284460",
+  "Brand_RxCUI": "284460",
+  "Generic_RxCUI": "313160",
   "prices": {
     "00173073701": {
       "09/20/2017": 57.2337,

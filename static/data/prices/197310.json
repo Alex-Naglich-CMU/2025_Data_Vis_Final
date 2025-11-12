@@ -2,8 +2,8 @@
   "RxCUI": "197310",
   "Name": "ACYCLOVIR 200 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "197310",
-  "Generic_RxCUI": "213694",
+  "Brand_RxCUI": "213694",
+  "Generic_RxCUI": "197310",
   "prices": {
     "72578000201": {
       "05/19/2021": 0.12476,

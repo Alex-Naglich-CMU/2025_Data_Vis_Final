@@ -2,8 +2,8 @@
   "RxCUI": "402092",
   "Name": "RESTASIS MULTIDOSE 0.05% EYE",
   "IsBrand": true,
-  "Brand_RxCUI": "351291",
-  "Generic_RxCUI": "402092",
+  "Brand_RxCUI": "402092",
+  "Generic_RxCUI": "351291",
   "prices": {
     "00023530105": {
       "01/01/2018": 88.1225,

@@ -2,8 +2,8 @@
   "RxCUI": "237870",
   "Name": "GS ANTACID-SIMETHICONE LIQUID",
   "IsBrand": false,
-  "Brand_RxCUI": "237870",
-  "Generic_RxCUI": "708127",
+  "Brand_RxCUI": "708127",
+  "Generic_RxCUI": "237870",
   "prices": {
     "00113034040": {
       "05/19/2021": 0.00839,

@@ -2,8 +2,8 @@
   "RxCUI": "855863",
   "Name": "PHENYTEK 200 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "855861",
-  "Generic_RxCUI": "855863",
+  "Brand_RxCUI": "855863",
+  "Generic_RxCUI": "855861",
   "prices": {
     "00378267093": {
       "12/20/2017": 1.28369,

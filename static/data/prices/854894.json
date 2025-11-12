@@ -2,8 +2,8 @@
   "RxCUI": "854894",
   "Name": "ZOLPIDEM TART ER 6.25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "854894",
-  "Generic_RxCUI": "854896",
+  "Brand_RxCUI": "854896",
+  "Generic_RxCUI": "854894",
   "prices": {
     "00781531501": {
       "05/19/2021": 0.29996,

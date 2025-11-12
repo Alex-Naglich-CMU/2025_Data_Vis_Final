@@ -2,8 +2,8 @@
   "RxCUI": "309058",
   "Name": "CEFIXIME 100 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "309058",
-  "Generic_RxCUI": "581574",
+  "Brand_RxCUI": "581574",
+  "Generic_RxCUI": "309058",
   "prices": {
     "68180040501": {
       "12/06/2017": 3.00664

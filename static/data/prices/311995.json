@@ -2,8 +2,8 @@
   "RxCUI": "311995",
   "Name": "NITROFURANTOIN MCR 50 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "311995",
-  "Generic_RxCUI": "201882",
+  "Brand_RxCUI": "201882",
+  "Generic_RxCUI": "311995",
   "prices": {
     "60687047201": {
       "05/19/2021": 0.534,

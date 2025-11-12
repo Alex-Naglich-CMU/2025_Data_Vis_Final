@@ -2,8 +2,8 @@
   "RxCUI": "1487361",
   "Name": "GLATIRAMER 40 MG/ML SYRINGE",
   "IsBrand": false,
-  "Brand_RxCUI": "1487361",
-  "Generic_RxCUI": "2000007",
+  "Brand_RxCUI": "2000007",
+  "Generic_RxCUI": "1487361",
   "prices": {
     "00378696112": {
       "11/20/2019": 138.43488,

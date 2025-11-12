@@ -2,8 +2,8 @@
   "RxCUI": "311345",
   "Name": "LINEZOLID 100 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "311345",
-  "Generic_RxCUI": "581614",
+  "Brand_RxCUI": "581614",
+  "Generic_RxCUI": "311345",
   "prices": {
     "00054031950": {
       "09/18/2024": 1.86166,

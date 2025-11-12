@@ -2,8 +2,8 @@
   "RxCUI": "141859",
   "Name": "ACYCLOVIR 5% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "141859",
-  "Generic_RxCUI": "825321",
+  "Brand_RxCUI": "825321",
+  "Generic_RxCUI": "141859",
   "prices": {
     "65162083614": {
       "05/19/2021": 90.63575,

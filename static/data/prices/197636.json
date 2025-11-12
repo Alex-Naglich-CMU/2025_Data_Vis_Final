@@ -2,8 +2,8 @@
   "RxCUI": "197636",
   "Name": "DRONABINOL 5 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "197636",
-  "Generic_RxCUI": "205642",
+  "Brand_RxCUI": "205642",
+  "Generic_RxCUI": "197636",
   "prices": {
     "00527145106": {
       "05/19/2021": 2.62789,

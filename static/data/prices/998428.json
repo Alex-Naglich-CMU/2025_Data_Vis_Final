@@ -2,8 +2,8 @@
   "RxCUI": "998428",
   "Name": "ATHLETE'S FOOT 2% POWDER SPRAY",
   "IsBrand": false,
-  "Brand_RxCUI": "998428",
-  "Generic_RxCUI": "998530",
+  "Brand_RxCUI": "998530",
+  "Generic_RxCUI": "998428",
   "prices": {
     "70000032101": {
       "02/20/2019": 0.0244,

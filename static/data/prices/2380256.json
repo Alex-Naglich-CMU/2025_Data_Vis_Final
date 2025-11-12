@@ -2,8 +2,8 @@
   "RxCUI": "2380256",
   "Name": "LYUMJEV 200 UNIT/ML KWIKPEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2380254",
-  "Generic_RxCUI": "2380256",
+  "Brand_RxCUI": "2380256",
+  "Generic_RxCUI": "2380254",
   "prices": {
     "00002822827": {
       "05/22/2024": 67.86042,

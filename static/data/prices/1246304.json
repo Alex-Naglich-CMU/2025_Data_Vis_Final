@@ -2,8 +2,8 @@
   "RxCUI": "1246304",
   "Name": "BUDESONIDE-FORMOTEROL 160-4.5",
   "IsBrand": false,
-  "Brand_RxCUI": "1246304",
-  "Generic_RxCUI": "2597670",
+  "Brand_RxCUI": "2597670",
+  "Generic_RxCUI": "1246304",
   "prices": {
     "00310737020": {
       "05/19/2021": 23.29847,

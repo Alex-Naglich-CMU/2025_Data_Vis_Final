@@ -2,8 +2,8 @@
   "RxCUI": "1806193",
   "Name": "METHYLPHENIDATE ER(CD) 50 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "1806193",
-  "Generic_RxCUI": "1091204",
+  "Brand_RxCUI": "1091204",
+  "Generic_RxCUI": "1806193",
   "prices": {
     "64720040510": {
       "05/19/2021": 2.37515,

@@ -2,8 +2,8 @@
   "RxCUI": "261361",
   "Name": "EVOXAC 30 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "309140",
-  "Generic_RxCUI": "261361",
+  "Brand_RxCUI": "261361",
+  "Generic_RxCUI": "309140",
   "prices": {
     "00713088301": {
       "04/23/2025": 7.80357,

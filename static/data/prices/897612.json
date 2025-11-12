@@ -2,8 +2,8 @@
   "RxCUI": "897612",
   "Name": "VERAPAMIL SR 120 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "897612",
-  "Generic_RxCUI": "897614",
+  "Brand_RxCUI": "897614",
+  "Generic_RxCUI": "897612",
   "prices": {
     "00591288001": {
       "05/19/2021": 1.1648,

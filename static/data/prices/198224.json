@@ -2,8 +2,8 @@
   "RxCUI": "198224",
   "Name": "SPIRONOLACTONE-HYDROCHLOROTHIAZIDE 25-25 TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "198224",
-  "Generic_RxCUI": "208112",
+  "Brand_RxCUI": "208112",
+  "Generic_RxCUI": "198224",
   "prices": {
     "59762501401": {
       "05/19/2021": 0.69847,

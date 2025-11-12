@@ -2,8 +2,8 @@
   "RxCUI": "577776",
   "Name": "CANDESARTAN CILEXETIL 16 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "577776",
-  "Generic_RxCUI": "639539",
+  "Brand_RxCUI": "639539",
+  "Generic_RxCUI": "577776",
   "prices": {
     "00378323193": {
       "05/19/2021": 0.79203,

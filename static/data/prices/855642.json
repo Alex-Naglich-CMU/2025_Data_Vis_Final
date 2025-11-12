@@ -2,8 +2,8 @@
   "RxCUI": "855642",
   "Name": "DICLOFENAC SODIUM 3% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "855642",
-  "Generic_RxCUI": "855644",
+  "Brand_RxCUI": "855644",
+  "Generic_RxCUI": "855642",
   "prices": {
     "00472178310": {
       "05/19/2021": 0.42313,

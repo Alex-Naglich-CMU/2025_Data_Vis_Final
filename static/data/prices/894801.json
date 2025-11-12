@@ -2,8 +2,8 @@
   "RxCUI": "894801",
   "Name": "MORPHINE SULFATE ER 50 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "894801",
-  "Generic_RxCUI": "894803",
+  "Brand_RxCUI": "894803",
+  "Generic_RxCUI": "894801",
   "prices": {
     "00115127901": {
       "09/20/2017": 6.40267,

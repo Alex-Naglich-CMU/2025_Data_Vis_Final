@@ -2,8 +2,8 @@
   "RxCUI": "205305",
   "Name": "TELMISARTAN 80 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "205305",
-  "Generic_RxCUI": "213432",
+  "Brand_RxCUI": "213432",
+  "Generic_RxCUI": "205305",
   "prices": {
     "13668015830": {
       "05/19/2021": 0.39152,

@@ -2,8 +2,8 @@
   "RxCUI": "1091197",
   "Name": "RITALIN LA 40 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "1806183",
-  "Generic_RxCUI": "1091197",
+  "Brand_RxCUI": "1091197",
+  "Generic_RxCUI": "1806183",
   "prices": {
     "00078037205": {
       "07/11/2017": 9.81068,

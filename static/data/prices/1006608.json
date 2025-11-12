@@ -2,8 +2,8 @@
   "RxCUI": "1006608",
   "Name": "DEXMETHYLPHENIDATE ER 40 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "1006608",
-  "Generic_RxCUI": "1006610",
+  "Brand_RxCUI": "1006610",
+  "Generic_RxCUI": "1006608",
   "prices": {
     "49884054601": {
       "05/19/2021": 2.18992,

@@ -2,8 +2,8 @@
   "RxCUI": "312744",
   "Name": "QUETIAPINE FUMARATE 25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "312744",
-  "Generic_RxCUI": "153638",
+  "Brand_RxCUI": "153638",
+  "Generic_RxCUI": "312744",
   "prices": {
     "68180044501": {
       "05/19/2021": 0.03331,

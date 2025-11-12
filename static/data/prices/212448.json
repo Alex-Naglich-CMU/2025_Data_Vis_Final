@@ -2,8 +2,8 @@
   "RxCUI": "212448",
   "Name": "VALTREX 1 GM CAPLET",
   "IsBrand": true,
-  "Brand_RxCUI": "313564",
-  "Generic_RxCUI": "212448",
+  "Brand_RxCUI": "212448",
+  "Generic_RxCUI": "313564",
   "prices": {
     "00173056510": {
       "01/01/2018": 19.96778,

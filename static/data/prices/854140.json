@@ -2,8 +2,8 @@
   "RxCUI": "854140",
   "Name": "NUCYNTA 100 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "825409",
-  "Generic_RxCUI": "854140",
+  "Brand_RxCUI": "854140",
+  "Generic_RxCUI": "825409",
   "prices": {
     "24510010010": {
       "10/23/2019": 9.49248,

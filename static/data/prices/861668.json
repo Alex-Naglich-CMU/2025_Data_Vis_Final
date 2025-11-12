@@ -2,8 +2,8 @@
   "RxCUI": "861668",
   "Name": "DIHYDROERGOTAMINE MESYLATE 4 MG/ML NASAL SPRAY",
   "IsBrand": false,
-  "Brand_RxCUI": "861668",
-  "Generic_RxCUI": "861670",
+  "Brand_RxCUI": "861670",
+  "Generic_RxCUI": "861668",
   "prices": {
     "68682035710": {
       "08/23/2017": 376.213,

@@ -2,8 +2,8 @@
   "RxCUI": "360110",
   "Name": "SIROLIMUS 2 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "360110",
-  "Generic_RxCUI": "404432",
+  "Brand_RxCUI": "404432",
+  "Generic_RxCUI": "360110",
   "prices": {
     "16714018901": {
       "12/13/2023": 4.93835,

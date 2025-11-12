@@ -2,8 +2,8 @@
   "RxCUI": "198428",
   "Name": "LAMOTRIGINE 150 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198428",
-  "Generic_RxCUI": "2001506",
+  "Brand_RxCUI": "2001506",
+  "Generic_RxCUI": "198428",
   "prices": {
     "59746024760": {
       "05/19/2021": 0.0874,

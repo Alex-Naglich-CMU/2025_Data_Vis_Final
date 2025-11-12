@@ -2,8 +2,8 @@
   "RxCUI": "861015",
   "Name": "GLUMETZA ER 1,000 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1807888",
-  "Generic_RxCUI": "861015",
+  "Brand_RxCUI": "861015",
+  "Generic_RxCUI": "1807888",
   "prices": {
     "68012000316": {
       "05/22/2024": 106.98257,

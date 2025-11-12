@@ -2,8 +2,8 @@
   "RxCUI": "835956",
   "Name": "AMIODARONE HCL 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "835956",
-  "Generic_RxCUI": "835958",
+  "Brand_RxCUI": "835958",
+  "Generic_RxCUI": "835956",
   "prices": {
     "42494030703": {
       "05/19/2021": 1.5699,

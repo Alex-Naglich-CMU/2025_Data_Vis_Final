@@ -2,8 +2,8 @@
   "RxCUI": "835829",
   "Name": "TESTOSTERON CYP 1,000 MG/10 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "835829",
-  "Generic_RxCUI": "835831",
+  "Brand_RxCUI": "835831",
+  "Generic_RxCUI": "835829",
   "prices": {
     "62756001740": {
       "05/19/2021": 3.72486,

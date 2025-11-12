@@ -2,8 +2,8 @@
   "RxCUI": "835894",
   "Name": "CYCLOSPORINE MODIFIED 25 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "835894",
-  "Generic_RxCUI": "835909",
+  "Brand_RxCUI": "835909",
+  "Generic_RxCUI": "835894",
   "prices": {
     "51862045847": {
       "05/19/2021": 0.54361,

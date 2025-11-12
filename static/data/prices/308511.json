@@ -2,8 +2,8 @@
   "RxCUI": "308511",
   "Name": "AK-POLY-BAC EYE OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "308511",
-  "Generic_RxCUI": "213621",
+  "Brand_RxCUI": "213621",
+  "Generic_RxCUI": "308511",
   "prices": {
     "17478023835": {
       "05/19/2021": 3.39937,

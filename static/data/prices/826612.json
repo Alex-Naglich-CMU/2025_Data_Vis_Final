@@ -2,8 +2,8 @@
   "RxCUI": "826612",
   "Name": "SILODOSIN 4 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "826612",
-  "Generic_RxCUI": "826614",
+  "Brand_RxCUI": "826614",
+  "Generic_RxCUI": "826612",
   "prices": {
     "68180074006": {
       "05/19/2021": 1.04077,

@@ -2,8 +2,8 @@
   "RxCUI": "892345",
   "Name": "MORPHINE SULFATE ER 30 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "892345",
-  "Generic_RxCUI": "892658",
+  "Brand_RxCUI": "892658",
+  "Generic_RxCUI": "892345",
   "prices": {
     "00115127801": {
       "05/19/2021": 2.81772,

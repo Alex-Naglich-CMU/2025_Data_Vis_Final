@@ -2,8 +2,8 @@
   "RxCUI": "1374770",
   "Name": "CARBINOXAMINE ER 4 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "1374770",
-  "Generic_RxCUI": "1374776",
+  "Brand_RxCUI": "1374776",
+  "Generic_RxCUI": "1374770",
   "prices": {
     "62542010105": {
       "01/22/2025": 1.04537,

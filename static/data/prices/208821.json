@@ -2,8 +2,8 @@
   "RxCUI": "208821",
   "Name": "TOBRADEX EYE OINTMENT",
   "IsBrand": true,
-  "Brand_RxCUI": "309682",
-  "Generic_RxCUI": "208821",
+  "Brand_RxCUI": "208821",
+  "Generic_RxCUI": "309682",
   "prices": {
     "00065064835": {
       "07/11/2017": 59.07933,

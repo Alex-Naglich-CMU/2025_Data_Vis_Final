@@ -2,8 +2,8 @@
   "RxCUI": "992150",
   "Name": "METHENAMINE HIPP 1 GM TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "992150",
-  "Generic_RxCUI": "992164",
+  "Brand_RxCUI": "992164",
+  "Generic_RxCUI": "992150",
   "prices": {
     "50268054915": {
       "05/19/2021": 1.05843,

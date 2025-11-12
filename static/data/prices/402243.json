@@ -2,8 +2,8 @@
   "RxCUI": "402243",
   "Name": "BORTEZOMIB 3.5 MG VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "402243",
-  "Generic_RxCUI": "402244",
+  "Brand_RxCUI": "402244",
+  "Generic_RxCUI": "402243",
   "prices": {
     "00143909801": {
       "08/21/2024": 34.71,

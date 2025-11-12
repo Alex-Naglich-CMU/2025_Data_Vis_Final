@@ -2,8 +2,8 @@
   "RxCUI": "208680",
   "Name": "CORTEF 5 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "197787",
-  "Generic_RxCUI": "208680",
+  "Brand_RxCUI": "208680",
+  "Generic_RxCUI": "197787",
   "prices": {
     "00009001201": {
       "06/01/2017": 0.87114,

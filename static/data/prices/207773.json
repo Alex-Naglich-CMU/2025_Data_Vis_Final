@@ -2,8 +2,8 @@
   "RxCUI": "207773",
   "Name": "PROCARDIA XL 60 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1812013",
-  "Generic_RxCUI": "207773",
+  "Brand_RxCUI": "207773",
+  "Generic_RxCUI": "1812013",
   "prices": {
     "00069266072": {
       "06/01/2017": 9.48436,

@@ -2,8 +2,8 @@
   "RxCUI": "1597120",
   "Name": "TESTOSTERONE 1.62%(1.25 G) PKT",
   "IsBrand": false,
-  "Brand_RxCUI": "1597120",
-  "Generic_RxCUI": "1597121",
+  "Brand_RxCUI": "1597121",
+  "Generic_RxCUI": "1597120",
   "prices": {
     "45802028139": {
       "05/19/2021": 6.30349,

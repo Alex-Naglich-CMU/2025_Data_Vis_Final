@@ -2,8 +2,8 @@
   "RxCUI": "1091155",
   "Name": "METHYLPHENIDATE ER 18 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1091155",
-  "Generic_RxCUI": "2668496",
+  "Brand_RxCUI": "2668496",
+  "Generic_RxCUI": "1091155",
   "prices": {
     "60687053211": {
       "05/19/2021": 1.23767,

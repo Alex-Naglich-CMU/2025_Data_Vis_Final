@@ -2,8 +2,8 @@
   "RxCUI": "2047882",
   "Name": "TESTOSTERONE CYP 200 MG/ML",
   "IsBrand": false,
-  "Brand_RxCUI": "2047882",
-  "Generic_RxCUI": "2694320",
+  "Brand_RxCUI": "2694320",
+  "Generic_RxCUI": "2047882",
   "prices": {
     "00574082701": {
       "05/19/2021": 14.6664,

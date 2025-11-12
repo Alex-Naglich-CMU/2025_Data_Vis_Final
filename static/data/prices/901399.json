@@ -2,8 +2,8 @@
   "RxCUI": "901399",
   "Name": "DOXYCYCLINE IR-DR 40 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "901399",
-  "Generic_RxCUI": "901401",
+  "Brand_RxCUI": "901401",
+  "Generic_RxCUI": "901399",
   "prices": {
     "66993081530": {
       "05/19/2021": 13.34039,

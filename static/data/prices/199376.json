@@ -2,8 +2,8 @@
   "RxCUI": "199376",
   "Name": "POTASSIUM CITRATE ER 5 MEQ TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "199376",
-  "Generic_RxCUI": "603282",
+  "Brand_RxCUI": "603282",
+  "Generic_RxCUI": "199376",
   "prices": {
     "00591268201": {
       "05/19/2021": 0.52191,

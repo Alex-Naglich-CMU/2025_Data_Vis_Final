@@ -2,8 +2,8 @@
   "RxCUI": "205315",
   "Name": "TOPIRAMATE 25 MG SPRINKLE CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "205315",
-  "Generic_RxCUI": "845479",
+  "Brand_RxCUI": "845479",
+  "Generic_RxCUI": "205315",
   "prices": {
     "68382000514": {
       "05/19/2021": 0.65813,

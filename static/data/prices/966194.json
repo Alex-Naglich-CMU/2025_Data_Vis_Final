@@ -2,8 +2,8 @@
   "RxCUI": "966194",
   "Name": "LEVOXYL 137 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "966270",
-  "Generic_RxCUI": "966194",
+  "Brand_RxCUI": "966194",
+  "Generic_RxCUI": "966270",
   "prices": {
     "60793085701": {
       "06/01/2017": 0.89771,

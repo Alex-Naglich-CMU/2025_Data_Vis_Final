@@ -2,8 +2,8 @@
   "RxCUI": "854838",
   "Name": "LISDEXAMFETAMINE 40 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "854838",
-  "Generic_RxCUI": "854840",
+  "Brand_RxCUI": "854840",
+  "Generic_RxCUI": "854838",
   "prices": {
     "00054037225": {
       "11/22/2023": 4.28993,

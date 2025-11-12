@@ -2,8 +2,8 @@
   "RxCUI": "1101926",
   "Name": "DEXMETHYLPHENIDATE ER 25 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "1101926",
-  "Generic_RxCUI": "1101928",
+  "Brand_RxCUI": "1101928",
+  "Generic_RxCUI": "1101926",
   "prices": {
     "00527811037": {
       "05/19/2021": 2.42847,

@@ -2,8 +2,8 @@
   "RxCUI": "310621",
   "Name": "HM MUCUS RELIEF ER 1,200 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "310621",
-  "Generic_RxCUI": "891297",
+  "Brand_RxCUI": "891297",
+  "Generic_RxCUI": "310621",
   "prices": {
     "62011037801": {
       "05/19/2021": 0.45642,

@@ -2,8 +2,8 @@
   "RxCUI": "687024",
   "Name": "XANAX XR 1 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "433800",
-  "Generic_RxCUI": "687024",
+  "Brand_RxCUI": "687024",
+  "Generic_RxCUI": "433800",
   "prices": {
     "00009005907": {
       "06/01/2017": 8.59613,

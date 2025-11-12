@@ -2,8 +2,8 @@
   "RxCUI": "854846",
   "Name": "LISDEXAMFETAMINE 60 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "854846",
-  "Generic_RxCUI": "854848",
+  "Brand_RxCUI": "854848",
+  "Generic_RxCUI": "854846",
   "prices": {
     "00054037425": {
       "10/18/2023": 3.16068,

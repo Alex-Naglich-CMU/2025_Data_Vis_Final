@@ -2,8 +2,8 @@
   "RxCUI": "310497",
   "Name": "GLUCAGON 1 MG EMERGENCY KIT",
   "IsBrand": false,
-  "Brand_RxCUI": "310497",
-  "Generic_RxCUI": "153095",
+  "Brand_RxCUI": "153095",
+  "Generic_RxCUI": "310497",
   "prices": {
     "00548585000": {
       "06/23/2021": 213.79688,

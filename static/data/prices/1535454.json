@@ -2,8 +2,8 @@
   "RxCUI": "1535454",
   "Name": "DEXTROAMPHETAMINE 20 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1535454",
-  "Generic_RxCUI": "1535456",
+  "Brand_RxCUI": "1535456",
+  "Generic_RxCUI": "1535454",
   "prices": {
     "52536052003": {
       "04/17/2024": 4.61172,

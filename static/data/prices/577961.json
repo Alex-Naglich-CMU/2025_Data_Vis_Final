@@ -2,8 +2,8 @@
   "RxCUI": "577961",
   "Name": "DEXTROAMP-AMPHETAMIN 20 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "577961",
-  "Generic_RxCUI": "577962",
+  "Brand_RxCUI": "577962",
+  "Generic_RxCUI": "577961",
   "prices": {
     "00527150537": {
       "05/19/2021": 0.36642,

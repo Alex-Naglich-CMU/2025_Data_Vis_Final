@@ -2,8 +2,8 @@
   "RxCUI": "199206",
   "Name": "RILUZOLE 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199206",
-  "Generic_RxCUI": "152915",
+  "Brand_RxCUI": "152915",
+  "Generic_RxCUI": "199206",
   "prices": {
     "00378414591": {
       "06/23/2021": 0.36104,

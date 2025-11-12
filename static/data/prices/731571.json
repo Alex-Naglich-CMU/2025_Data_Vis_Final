@@ -2,8 +2,8 @@
   "RxCUI": "731571",
   "Name": "BICILLIN L-A 2,400,000 UNITS",
   "IsBrand": true,
-  "Brand_RxCUI": "731570",
-  "Generic_RxCUI": "731571",
+  "Brand_RxCUI": "731571",
+  "Generic_RxCUI": "731570",
   "prices": {
     "60793070210": {
       "06/01/2017": 70.82398,

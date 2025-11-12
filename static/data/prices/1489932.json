@@ -2,8 +2,8 @@
   "RxCUI": "1489932",
   "Name": "GNP ANTIBACTRL-URINARY PAIN TB",
   "IsBrand": false,
-  "Brand_RxCUI": "1489932",
-  "Generic_RxCUI": "1721434",
+  "Brand_RxCUI": "1721434",
+  "Generic_RxCUI": "1489932",
   "prices": {
     "46122062262": {
       "04/17/2024": 0.1481,

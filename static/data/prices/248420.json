@@ -2,8 +2,8 @@
   "RxCUI": "248420",
   "Name": "MESALAMINE 1,000 MG SUPP",
   "IsBrand": false,
-  "Brand_RxCUI": "248420",
-  "Generic_RxCUI": "583257",
+  "Brand_RxCUI": "583257",
+  "Generic_RxCUI": "248420",
   "prices": {
     "64980028203": {
       "05/19/2021": 3.92138,

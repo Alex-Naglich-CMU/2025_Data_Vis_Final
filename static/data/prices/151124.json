@@ -2,8 +2,8 @@
   "RxCUI": "151124",
   "Name": "ARIMIDEX 1 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "199224",
-  "Generic_RxCUI": "151124",
+  "Brand_RxCUI": "151124",
+  "Generic_RxCUI": "199224",
   "prices": {
     "00310020130": {
       "01/10/2018": 16.79115,

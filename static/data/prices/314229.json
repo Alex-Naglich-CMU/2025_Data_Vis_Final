@@ -2,8 +2,8 @@
   "RxCUI": "314229",
   "Name": "SILDENAFIL 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "314229",
-  "Generic_RxCUI": "213271",
+  "Brand_RxCUI": "213271",
+  "Generic_RxCUI": "314229",
   "prices": {
     "00093534356": {
       "05/19/2021": 0.31164,

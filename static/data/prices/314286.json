@@ -2,8 +2,8 @@
   "RxCUI": "314286",
   "Name": "ZIPRASIDONE HCL 20 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "314286",
-  "Generic_RxCUI": "285127",
+  "Brand_RxCUI": "285127",
+  "Generic_RxCUI": "314286",
   "prices": {
     "68084010309": {
       "05/19/2021": 0.37083,

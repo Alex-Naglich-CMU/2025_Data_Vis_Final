@@ -2,8 +2,8 @@
   "RxCUI": "308135",
   "Name": "AMLODIPINE BESYLATE 10 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "308135",
-  "Generic_RxCUI": "212575",
+  "Brand_RxCUI": "212575",
+  "Generic_RxCUI": "308135",
   "prices": {
     "57664005718": {
       "05/19/2021": 0.01623,

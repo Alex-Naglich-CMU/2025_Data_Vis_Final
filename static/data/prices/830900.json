@@ -2,8 +2,8 @@
   "RxCUI": "830900",
   "Name": "DILTIAZEM 24HR ER 420 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "830900",
-  "Generic_RxCUI": "1091623",
+  "Brand_RxCUI": "1091623",
+  "Generic_RxCUI": "830900",
   "prices": {
     "68682070990": {
       "10/18/2017": 3.45754,

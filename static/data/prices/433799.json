@@ -2,8 +2,8 @@
   "RxCUI": "433799",
   "Name": "ALPRAZOLAM ER 2 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "433799",
-  "Generic_RxCUI": "687023",
+  "Brand_RxCUI": "687023",
+  "Generic_RxCUI": "433799",
   "prices": {
     "65862045660": {
       "05/19/2021": 0.28268,

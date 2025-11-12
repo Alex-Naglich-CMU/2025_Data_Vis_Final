@@ -2,8 +2,8 @@
   "RxCUI": "310004",
   "Name": "DOFETILIDE 250 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "310004",
-  "Generic_RxCUI": "284405",
+  "Brand_RxCUI": "284405",
+  "Generic_RxCUI": "310004",
   "prices": {
     "16729049112": {
       "05/19/2021": 1.43822,

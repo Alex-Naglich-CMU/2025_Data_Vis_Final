@@ -2,8 +2,8 @@
   "RxCUI": "1659283",
   "Name": "CEFTAZIDIME 1 GM VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "1659283",
-  "Generic_RxCUI": "1659292",
+  "Brand_RxCUI": "1659292",
+  "Generic_RxCUI": "1659283",
   "prices": {
     "25021012720": {
       "10/22/2025": 3.70448

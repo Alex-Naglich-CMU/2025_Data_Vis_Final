@@ -2,8 +2,8 @@
   "RxCUI": "993518",
   "Name": "BUPROPION HCL SR 150 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "993518",
-  "Generic_RxCUI": "993528",
+  "Brand_RxCUI": "993528",
+  "Generic_RxCUI": "993518",
   "prices": {
     "00185041560": {
       "05/19/2021": 0.11663,

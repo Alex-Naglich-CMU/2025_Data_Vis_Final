@@ -2,8 +2,8 @@
   "RxCUI": "2669712",
   "Name": "ZEPBOUND 7.5 MG/0.5 ML PEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2601784",
-  "Generic_RxCUI": "2669712",
+  "Brand_RxCUI": "2669712",
+  "Generic_RxCUI": "2601784",
   "prices": {
     "00002248480": {
       "04/17/2024": 510.34766,

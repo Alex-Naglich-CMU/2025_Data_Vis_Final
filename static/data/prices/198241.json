@@ -2,8 +2,8 @@
   "RxCUI": "198241",
   "Name": "TEMAZEPAM 15 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "198241",
-  "Generic_RxCUI": "208464",
+  "Brand_RxCUI": "208464",
+  "Generic_RxCUI": "198241",
   "prices": {
     "00228207650": {
       "05/19/2021": 0.08173,

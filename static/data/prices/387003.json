@@ -2,8 +2,8 @@
   "RxCUI": "387003",
   "Name": "LEVETIRACETAM 1,000 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "387003",
-  "Generic_RxCUI": "1875866",
+  "Brand_RxCUI": "1875866",
+  "Generic_RxCUI": "387003",
   "prices": {
     "43547022406": {
       "05/19/2021": 0.24182,

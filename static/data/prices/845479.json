@@ -2,8 +2,8 @@
   "RxCUI": "845479",
   "Name": "TOPAMAX 25 MG SPRINKLE CAP",
   "IsBrand": true,
-  "Brand_RxCUI": "205315",
-  "Generic_RxCUI": "845479",
+  "Brand_RxCUI": "845479",
+  "Generic_RxCUI": "205315",
   "prices": {
     "50458064565": {
       "01/03/2018": 6.33101,

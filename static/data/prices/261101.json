@@ -2,8 +2,8 @@
   "RxCUI": "261101",
   "Name": "PRIFTIN 150 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "242671",
-  "Generic_RxCUI": "261101",
+  "Brand_RxCUI": "261101",
+  "Generic_RxCUI": "242671",
   "prices": {
     "00088210224": {
       "01/03/2020": 3.84365,

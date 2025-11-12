@@ -2,8 +2,8 @@
   "RxCUI": "1998772",
   "Name": "QVAR REDIHALER 80 MCG",
   "IsBrand": true,
-  "Brand_RxCUI": "1998771",
-  "Generic_RxCUI": "1998772",
+  "Brand_RxCUI": "1998772",
+  "Generic_RxCUI": "1998771",
   "prices": {
     "59310030480": {
       "01/01/2019": 21.68488,

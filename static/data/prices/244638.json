@@ -2,8 +2,8 @@
   "RxCUI": "244638",
   "Name": "DIAPER RASH 40% OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "244638",
-  "Generic_RxCUI": "260502",
+  "Brand_RxCUI": "260502",
+  "Generic_RxCUI": "244638",
   "prices": {
     "70000046901": {
       "04/17/2024": 0.03005,

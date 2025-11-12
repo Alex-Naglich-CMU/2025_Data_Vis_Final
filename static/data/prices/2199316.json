@@ -2,8 +2,8 @@
   "RxCUI": "2199316",
   "Name": "GVOKE PFS 1-PK 1 MG/0.2 ML SYR",
   "IsBrand": true,
-  "Brand_RxCUI": "2199315",
-  "Generic_RxCUI": "2199316",
+  "Brand_RxCUI": "2199316",
+  "Generic_RxCUI": "2199315",
   "prices": {
     "72065013111": {
       "01/20/2021": 1349.78,

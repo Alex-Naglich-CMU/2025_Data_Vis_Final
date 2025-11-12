@@ -2,8 +2,8 @@
   "RxCUI": "1376336",
   "Name": "PREDNISOLONE AC 1% EYE DROP",
   "IsBrand": false,
-  "Brand_RxCUI": "1376336",
-  "Generic_RxCUI": "1548724",
+  "Brand_RxCUI": "1548724",
+  "Generic_RxCUI": "1376336",
   "prices": {
     "60758011915": {
       "05/19/2021": 5.31874,

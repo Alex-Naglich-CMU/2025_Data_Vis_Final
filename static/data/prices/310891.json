@@ -2,8 +2,8 @@
   "RxCUI": "310891",
   "Name": "HYDROCORTISONE 2.5% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "310891",
-  "Generic_RxCUI": "1790684",
+  "Brand_RxCUI": "1790684",
+  "Generic_RxCUI": "310891",
   "prices": {
     "00472033730": {
       "05/19/2021": 0.08482,

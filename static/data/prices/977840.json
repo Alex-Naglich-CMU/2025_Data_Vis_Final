@@ -2,8 +2,8 @@
   "RxCUI": "977840",
   "Name": "NOVOLOG MIX 70-30 FLEXPEN SYRN",
   "IsBrand": true,
-  "Brand_RxCUI": "847191",
-  "Generic_RxCUI": "977840",
+  "Brand_RxCUI": "977840",
+  "Generic_RxCUI": "847191",
   "prices": {
     "00169369619": {
       "02/21/2018": 34.11223,

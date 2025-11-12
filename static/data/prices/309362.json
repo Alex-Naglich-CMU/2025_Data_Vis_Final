@@ -2,8 +2,8 @@
   "RxCUI": "309362",
   "Name": "CLOPIDOGREL 75 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "309362",
-  "Generic_RxCUI": "213169",
+  "Brand_RxCUI": "213169",
+  "Generic_RxCUI": "309362",
   "prices": {
     "60505025302": {
       "05/19/2021": 0.06748,

@@ -2,8 +2,8 @@
   "RxCUI": "1653196",
   "Name": "INSULIN ASPART PENFILL 100 UNIT/ML CARTRIDGE",
   "IsBrand": false,
-  "Brand_RxCUI": "1653196",
-  "Generic_RxCUI": "2205454",
+  "Brand_RxCUI": "2205454",
+  "Generic_RxCUI": "1653196",
   "prices": {
     "73070010215": {
       "12/23/2020": 17.1408,

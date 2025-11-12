@@ -2,8 +2,8 @@
   "RxCUI": "199450",
   "Name": "CLOBAZAM 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199450",
-  "Generic_RxCUI": "1191056",
+  "Brand_RxCUI": "1191056",
+  "Generic_RxCUI": "199450",
   "prices": {
     "70710132501": {
       "05/19/2021": 0.39847,

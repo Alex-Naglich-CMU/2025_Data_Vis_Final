@@ -2,8 +2,8 @@
   "RxCUI": "198200",
   "Name": "RIFABUTIN 150 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "198200",
-  "Generic_RxCUI": "103899",
+  "Brand_RxCUI": "103899",
+  "Generic_RxCUI": "198200",
   "prices": {
     "59762135001": {
       "06/21/2023": 10.12736,

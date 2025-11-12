@@ -2,8 +2,8 @@
   "RxCUI": "898490",
   "Name": "POTASSIUM CITRATE ER 15 MEQ TB",
   "IsBrand": false,
-  "Brand_RxCUI": "898490",
-  "Generic_RxCUI": "898517",
+  "Brand_RxCUI": "898517",
+  "Generic_RxCUI": "898490",
   "prices": {
     "68382053801": {
       "05/19/2021": 1.05954,

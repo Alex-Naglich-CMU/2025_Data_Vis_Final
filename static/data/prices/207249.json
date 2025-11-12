@@ -2,8 +2,8 @@
   "RxCUI": "207249",
   "Name": "OXISTAT 1% LOTION",
   "IsBrand": true,
-  "Brand_RxCUI": "312140",
-  "Generic_RxCUI": "207249",
+  "Brand_RxCUI": "207249",
+  "Generic_RxCUI": "312140",
   "prices": {
     "10337035960": {
       "12/31/2017": 10.69561

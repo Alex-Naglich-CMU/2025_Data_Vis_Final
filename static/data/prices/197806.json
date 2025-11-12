@@ -2,8 +2,8 @@
   "RxCUI": "197806",
   "Name": "IBUPROFEN 600 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197806",
-  "Generic_RxCUI": "206913",
+  "Brand_RxCUI": "206913",
+  "Generic_RxCUI": "197806",
   "prices": {
     "59651036105": {
       "05/19/2021": 0.06225,

@@ -2,8 +2,8 @@
   "RxCUI": "2395779",
   "Name": "TRULICITY 3 MG/0.5 ML PEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2395777",
-  "Generic_RxCUI": "2395779",
+  "Brand_RxCUI": "2395779",
+  "Generic_RxCUI": "2395777",
   "prices": {
     "00002223680": {
       "01/01/2021": 404.85135,

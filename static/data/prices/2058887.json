@@ -2,8 +2,8 @@
   "RxCUI": "2058887",
   "Name": "EMGALITY 120 MG/ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "2058885",
-  "Generic_RxCUI": "2058887",
+  "Brand_RxCUI": "2058887",
+  "Generic_RxCUI": "2058885",
   "prices": {
     "00002237711": {
       "08/21/2019": 553.74111,

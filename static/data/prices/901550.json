@@ -2,8 +2,8 @@
   "RxCUI": "901550",
   "Name": "PRAMIPEXOLE ER 1.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "901550",
-  "Generic_RxCUI": "901551",
+  "Brand_RxCUI": "901551",
+  "Generic_RxCUI": "901550",
   "prices": {
     "55111061330": {
       "07/21/2021": 7.44839,

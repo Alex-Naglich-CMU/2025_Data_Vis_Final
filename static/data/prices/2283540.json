@@ -2,8 +2,8 @@
   "RxCUI": "2283540",
   "Name": "XCOPRI 150-200 MG TITRATION PK",
   "IsBrand": true,
-  "Brand_RxCUI": "2283539",
-  "Generic_RxCUI": "2283540",
+  "Brand_RxCUI": "2283540",
+  "Generic_RxCUI": "2283539",
   "prices": {
     "71699020328": {
       "05/22/2024": 40.70198,

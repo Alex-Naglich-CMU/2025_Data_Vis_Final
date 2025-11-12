@@ -2,8 +2,8 @@
   "RxCUI": "351260",
   "Name": "LANSOPRAZOLE ODT 30 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "351260",
-  "Generic_RxCUI": "866152",
+  "Brand_RxCUI": "866152",
+  "Generic_RxCUI": "351260",
   "prices": {
     "43598056178": {
       "05/19/2021": 6.99664,

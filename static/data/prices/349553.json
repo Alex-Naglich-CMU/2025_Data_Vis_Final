@@ -2,8 +2,8 @@
   "RxCUI": "349553",
   "Name": "ARIPIPRAZOLE 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "349553",
-  "Generic_RxCUI": "352309",
+  "Brand_RxCUI": "352309",
+  "Generic_RxCUI": "349553",
   "prices": {
     "67877043405": {
       "05/19/2021": 0.24317,

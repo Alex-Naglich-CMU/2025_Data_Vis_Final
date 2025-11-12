@@ -2,8 +2,8 @@
   "RxCUI": "1099446",
   "Name": "APRODINE TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1099446",
-  "Generic_RxCUI": "1099774",
+  "Brand_RxCUI": "1099774",
+  "Generic_RxCUI": "1099446",
   "prices": {
     "00904025059": {
       "06/21/2017": 0.05888,

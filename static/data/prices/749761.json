@@ -2,8 +2,8 @@
   "RxCUI": "749761",
   "Name": "LEVONO-E ESTRAD 0.15-0.03-0.01",
   "IsBrand": false,
-  "Brand_RxCUI": "749761",
-  "Generic_RxCUI": "2001751",
+  "Brand_RxCUI": "2001751",
+  "Generic_RxCUI": "749761",
   "prices": {
     "00378728590": {
       "05/19/2021": 0.53259,

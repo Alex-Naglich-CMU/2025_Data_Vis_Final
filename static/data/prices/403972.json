@@ -2,8 +2,8 @@
   "RxCUI": "403972",
   "Name": "OLANZAPINE-FLUOXETINE 6-50 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "403972",
-  "Generic_RxCUI": "725072",
+  "Brand_RxCUI": "725072",
+  "Generic_RxCUI": "403972",
   "prices": {
     "00093550556": {
       "02/06/2019": 7.83104,

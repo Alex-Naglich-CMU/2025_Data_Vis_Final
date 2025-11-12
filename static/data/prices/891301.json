@@ -2,8 +2,8 @@
   "RxCUI": "891301",
   "Name": "MUCINEX ER 600 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "636522",
-  "Generic_RxCUI": "891301",
+  "Brand_RxCUI": "891301",
+  "Generic_RxCUI": "636522",
   "prices": {
     "63824000815": {
       "06/23/2021": 0.47455,

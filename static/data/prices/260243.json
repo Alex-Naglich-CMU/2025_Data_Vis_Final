@@ -2,8 +2,8 @@
   "RxCUI": "260243",
   "Name": "PROGESTERONE 100 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "260243",
-  "Generic_RxCUI": "262080",
+  "Brand_RxCUI": "262080",
+  "Generic_RxCUI": "260243",
   "prices": {
     "65162080710": {
       "05/19/2021": 0.31431,

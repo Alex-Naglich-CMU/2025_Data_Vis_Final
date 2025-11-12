@@ -2,8 +2,8 @@
   "RxCUI": "311880",
   "Name": "MYCOPHENOLATE 200 MG/ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "311880",
-  "Generic_RxCUI": "2684851",
+  "Brand_RxCUI": "2684851",
+  "Generic_RxCUI": "311880",
   "prices": {
     "66689030708": {
       "06/23/2021": 5.80813,

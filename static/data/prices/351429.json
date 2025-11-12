@@ -2,8 +2,8 @@
   "RxCUI": "351429",
   "Name": "NICODERM CQ 21 MG/24HR PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "198030",
-  "Generic_RxCUI": "351429",
+  "Brand_RxCUI": "351429",
+  "Generic_RxCUI": "198030",
   "prices": {
     "00135019402": {
       "07/19/2017": 2.94486,

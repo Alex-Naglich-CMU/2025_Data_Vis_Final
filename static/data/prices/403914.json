@@ -2,8 +2,8 @@
   "RxCUI": "403914",
   "Name": "METHSCOPOLAMINE BROM 5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "403914",
-  "Generic_RxCUI": "404640",
+  "Brand_RxCUI": "404640",
+  "Generic_RxCUI": "403914",
   "prices": {
     "51991019206": {
       "10/18/2017": 1.60686,

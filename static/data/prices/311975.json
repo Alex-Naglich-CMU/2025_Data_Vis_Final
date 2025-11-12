@@ -2,8 +2,8 @@
   "RxCUI": "311975",
   "Name": "HM NICOTINE 4 MG CHEWING GUM",
   "IsBrand": false,
-  "Brand_RxCUI": "311975",
-  "Generic_RxCUI": "105071",
+  "Brand_RxCUI": "105071",
+  "Generic_RxCUI": "311975",
   "prices": {
     "62011042601": {
       "05/19/2021": 0.22533,

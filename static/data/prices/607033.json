@@ -2,8 +2,8 @@
   "RxCUI": "607033",
   "Name": "LYRICA 50 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "483448",
-  "Generic_RxCUI": "607033",
+  "Brand_RxCUI": "607033",
+  "Generic_RxCUI": "483448",
   "prices": {
     "00071101341": {
       "06/01/2017": 6.62217,

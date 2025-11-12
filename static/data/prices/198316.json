@@ -2,8 +2,8 @@
   "RxCUI": "198316",
   "Name": "TRIAMTERENE-HYDROCHLOROTHIAZIDE 37.5-25 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "198316",
-  "Generic_RxCUI": "208124",
+  "Brand_RxCUI": "208124",
+  "Generic_RxCUI": "198316",
   "prices": {
     "00378253710": {
       "05/19/2021": 0.15122,

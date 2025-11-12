@@ -2,8 +2,8 @@
   "RxCUI": "197984",
   "Name": "MINOCYCLINE 100 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "197984",
-  "Generic_RxCUI": "207356",
+  "Brand_RxCUI": "207356",
+  "Generic_RxCUI": "197984",
   "prices": {
     "65862021105": {
       "05/19/2021": 0.39475,

@@ -2,8 +2,8 @@
   "RxCUI": "198045",
   "Name": "NORTRIPTYLINE HCL 10 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "198045",
-  "Generic_RxCUI": "209329",
+  "Brand_RxCUI": "209329",
+  "Generic_RxCUI": "198045",
   "prices": {
     "51672400105": {
       "05/19/2021": 0.08702,

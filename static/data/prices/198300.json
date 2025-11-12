@@ -2,8 +2,8 @@
   "RxCUI": "198300",
   "Name": "TRETINOIN 0.1% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "198300",
-  "Generic_RxCUI": "208331",
+  "Brand_RxCUI": "208331",
+  "Generic_RxCUI": "198300",
   "prices": {
     "51672139500": {
       "05/19/2021": 3.93852,

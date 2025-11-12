@@ -2,8 +2,8 @@
   "RxCUI": "1307427",
   "Name": "SILDENAFIL 10 MG/ML ORAL SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "1307427",
-  "Generic_RxCUI": "1307431",
+  "Brand_RxCUI": "1307431",
+  "Generic_RxCUI": "1307427",
   "prices": {
     "00591405094": {
       "05/22/2024": 0.74024,

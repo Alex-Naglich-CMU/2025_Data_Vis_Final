@@ -2,8 +2,8 @@
   "RxCUI": "105398",
   "Name": "SOLU-CORTEF 100 MG VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "238755",
-  "Generic_RxCUI": "105398",
+  "Brand_RxCUI": "105398",
+  "Generic_RxCUI": "238755",
   "prices": {
     "00009082501": {
       "06/01/2017": 8.73258,

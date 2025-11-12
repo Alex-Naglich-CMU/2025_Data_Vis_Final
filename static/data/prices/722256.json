@@ -2,8 +2,8 @@
   "RxCUI": "722256",
   "Name": "NEUPRO 2 MG/24 HR PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "722253",
-  "Generic_RxCUI": "722256",
+  "Brand_RxCUI": "722256",
+  "Generic_RxCUI": "722253",
   "prices": {
     "50474080203": {
       "11/22/2017": 19.85013,

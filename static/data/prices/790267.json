@@ -2,8 +2,8 @@
   "RxCUI": "790267",
   "Name": "PRISTIQ ER 100 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1874553",
-  "Generic_RxCUI": "790267",
+  "Brand_RxCUI": "790267",
+  "Generic_RxCUI": "1874553",
   "prices": {
     "00008122201": {
       "06/23/2021": 13.56961,

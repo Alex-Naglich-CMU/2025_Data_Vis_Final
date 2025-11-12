@@ -2,8 +2,8 @@
   "RxCUI": "866427",
   "Name": "METOPROLOL SUCC ER 25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "866427",
-  "Generic_RxCUI": "866429",
+  "Brand_RxCUI": "866429",
+  "Generic_RxCUI": "866427",
   "prices": {
     "68645047754": {
       "05/19/2021": 0.10497,

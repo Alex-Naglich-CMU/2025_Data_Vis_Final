@@ -2,8 +2,8 @@
   "RxCUI": "209884",
   "Name": "DANDRUFF 1% SHAMPOO",
   "IsBrand": false,
-  "Brand_RxCUI": "209884",
-  "Generic_RxCUI": "1367375",
+  "Brand_RxCUI": "1367375",
+  "Generic_RxCUI": "209884",
   "prices": {
     "70000053301": {
       "05/22/2024": 0.00758,

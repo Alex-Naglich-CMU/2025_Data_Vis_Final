@@ -2,8 +2,8 @@
   "RxCUI": "483444",
   "Name": "PREGABALIN 300 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "483444",
-  "Generic_RxCUI": "607028",
+  "Brand_RxCUI": "607028",
+  "Generic_RxCUI": "483444",
   "prices": {
     "47335069388": {
       "05/19/2021": 0.1393,

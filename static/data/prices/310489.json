@@ -2,8 +2,8 @@
   "RxCUI": "310489",
   "Name": "GLIPIZIDE ER 2.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "310489",
-  "Generic_RxCUI": "865571",
+  "Brand_RxCUI": "865571",
+  "Generic_RxCUI": "310489",
   "prices": {
     "16714089401": {
       "05/19/2021": 0.15187,

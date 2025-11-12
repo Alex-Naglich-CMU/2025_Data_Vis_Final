@@ -2,8 +2,8 @@
   "RxCUI": "213468",
   "Name": "CELEBREX 100 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "205322",
-  "Generic_RxCUI": "213468",
+  "Brand_RxCUI": "213468",
+  "Generic_RxCUI": "205322",
   "prices": {
     "00025152051": {
       "01/01/2018": 7.04749,

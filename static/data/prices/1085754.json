@@ -2,8 +2,8 @@
   "RxCUI": "1085754",
   "Name": "TRIAMCINOLONE ACET 400 MG/10 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "1085754",
-  "Generic_RxCUI": "1085756",
+  "Brand_RxCUI": "1085756",
+  "Generic_RxCUI": "1085754",
   "prices": {
     "00703024501": {
       "06/21/2023": 3.6362,

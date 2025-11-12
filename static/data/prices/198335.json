@@ -2,8 +2,8 @@
   "RxCUI": "198335",
   "Name": "SULFAMETHOXAZOLE-TMP DS TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198335",
-  "Generic_RxCUI": "849580",
+  "Brand_RxCUI": "849580",
+  "Generic_RxCUI": "198335",
   "prices": {
     "60687053101": {
       "05/19/2021": 0.06434,

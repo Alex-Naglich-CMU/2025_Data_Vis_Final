@@ -2,8 +2,8 @@
   "RxCUI": "861771",
   "Name": "JANUMET 50-1,000 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "2709488",
-  "Generic_RxCUI": "861771",
+  "Brand_RxCUI": "861771",
+  "Generic_RxCUI": "2709488",
   "prices": {
     "00006057782": {
       "06/08/2017": 6.37516,

@@ -2,8 +2,8 @@
   "RxCUI": "1011712",
   "Name": "TEKTURNA HCT 150-12.5 MG TAB",
   "IsBrand": true,
-  "Brand_RxCUI": "1011710",
-  "Generic_RxCUI": "1011712",
+  "Brand_RxCUI": "1011712",
+  "Generic_RxCUI": "1011710",
   "prices": {
     "70839011230": {
       "08/22/2018": 5.7488,

@@ -2,8 +2,8 @@
   "RxCUI": "259203",
   "Name": "PAIN RELIEVING 1%-15% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "259203",
-  "Generic_RxCUI": "724160",
+  "Brand_RxCUI": "724160",
+  "Generic_RxCUI": "259203",
   "prices": {
     "00536110145": {
       "5/18/2022": 0.04588,

@@ -2,8 +2,8 @@
   "RxCUI": "1049635",
   "Name": "OXYCODONE-ACETAMINOPHEN 2.5-325 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1049635",
-  "Generic_RxCUI": "1487288",
+  "Brand_RxCUI": "1487288",
+  "Generic_RxCUI": "1049635",
   "prices": {
     "31722019101": {
       "06/23/2021": 0.6565,

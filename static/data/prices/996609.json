@@ -2,8 +2,8 @@
   "RxCUI": "996609",
   "Name": "MEMANTINE HCL ER 28 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "996609",
-  "Generic_RxCUI": "996611",
+  "Brand_RxCUI": "996611",
+  "Generic_RxCUI": "996609",
   "prices": {
     "68180024902": {
       "05/19/2021": 1.52541,

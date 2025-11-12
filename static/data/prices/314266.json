@@ -2,8 +2,8 @@
   "RxCUI": "314266",
   "Name": "TACROLIMUS 0.1% OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "314266",
-  "Generic_RxCUI": "284520",
+  "Brand_RxCUI": "284520",
+  "Generic_RxCUI": "314266",
   "prices": {
     "68462053465": {
       "05/19/2021": 2.45427,

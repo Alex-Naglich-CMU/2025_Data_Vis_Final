@@ -2,8 +2,8 @@
   "RxCUI": "751302",
   "Name": "EXELON 4.6 MG/24HR PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "725021",
-  "Generic_RxCUI": "751302",
+  "Brand_RxCUI": "751302",
+  "Generic_RxCUI": "725021",
   "prices": {
     "00078050161": {
       "11/22/2017": 19.02283,

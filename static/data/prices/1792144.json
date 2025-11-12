@@ -2,8 +2,8 @@
   "RxCUI": "1792144",
   "Name": "TRIAMCINOLONE ACET 40 MG/ML VL",
   "IsBrand": false,
-  "Brand_RxCUI": "1792144",
-  "Generic_RxCUI": "2480108",
+  "Brand_RxCUI": "2480108",
+  "Generic_RxCUI": "1792144",
   "prices": {
     "16714013001": {
       "06/23/2021": 6.84375,

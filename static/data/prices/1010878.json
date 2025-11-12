@@ -2,8 +2,8 @@
   "RxCUI": "1010878",
   "Name": "LIDOCAINE HCL 4% SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "1010878",
-  "Generic_RxCUI": "1246113",
+  "Brand_RxCUI": "1246113",
+  "Generic_RxCUI": "1010878",
   "prices": {
     "52565000950": {
       "06/23/2021": 0.4874,

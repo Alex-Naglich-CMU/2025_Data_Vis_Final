@@ -2,8 +2,8 @@
   "RxCUI": "830861",
   "Name": "DILTIAZEM 24H ER(CD) 120 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "830861",
-  "Generic_RxCUI": "1988308",
+  "Brand_RxCUI": "1988308",
+  "Generic_RxCUI": "830861",
   "prices": {
     "60687019511": {
       "05/19/2021": 0.20699,

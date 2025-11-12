@@ -2,8 +2,8 @@
   "RxCUI": "1731582",
   "Name": "GLYCOPYRROLATE 0.2 MG/ML VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "1731582",
-  "Generic_RxCUI": "2371718",
+  "Brand_RxCUI": "2371718",
+  "Generic_RxCUI": "1731582",
   "prices": {
     "00143968225": {
       "01/22/2025": 1.4761,

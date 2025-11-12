@@ -2,8 +2,8 @@
   "RxCUI": "351261",
   "Name": "LANSOPRAZOLE ODT 15 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "351261",
-  "Generic_RxCUI": "206205",
+  "Brand_RxCUI": "206205",
+  "Generic_RxCUI": "351261",
   "prices": {
     "00378698188": {
       "05/19/2021": 7.63608,

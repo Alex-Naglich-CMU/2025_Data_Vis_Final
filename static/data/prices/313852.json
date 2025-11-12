@@ -2,8 +2,8 @@
   "RxCUI": "313852",
   "Name": "ADAPALENE 0.1% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "313852",
-  "Generic_RxCUI": "284420",
+  "Brand_RxCUI": "284420",
+  "Generic_RxCUI": "313852",
   "prices": {
     "45802045384": {
       "05/19/2021": 3.42348,

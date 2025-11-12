@@ -2,8 +2,8 @@
   "RxCUI": "307668",
   "Name": "CHILD PAIN-FEVER 160 MG/5 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "307668",
-  "Generic_RxCUI": "828555",
+  "Brand_RxCUI": "828555",
+  "Generic_RxCUI": "307668",
   "prices": {
     "46122021126": {
       "05/19/2021": 0.0197,

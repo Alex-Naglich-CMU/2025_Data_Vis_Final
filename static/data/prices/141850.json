@@ -2,8 +2,8 @@
   "RxCUI": "141850",
   "Name": "DESOXIMETASONE 0.05% OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "141850",
-  "Generic_RxCUI": "1050394",
+  "Brand_RxCUI": "1050394",
+  "Generic_RxCUI": "141850",
   "prices": {
     "51672135203": {
       "01/22/2020": 2.98027,

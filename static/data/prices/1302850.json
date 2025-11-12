@@ -2,8 +2,8 @@
   "RxCUI": "1302850",
   "Name": "PHENTERMINE-TOPIRAMATE ER 15-92 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "1302850",
-  "Generic_RxCUI": "1302856",
+  "Brand_RxCUI": "1302856",
+  "Generic_RxCUI": "1302850",
   "prices": {
     "00480329556": {
       "10/22/2025": 3.20891

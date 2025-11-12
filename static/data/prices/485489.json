@@ -2,8 +2,8 @@
   "RxCUI": "485489",
   "Name": "TEMAZEPAM 22.5 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "485489",
-  "Generic_RxCUI": "539384",
+  "Brand_RxCUI": "539384",
+  "Generic_RxCUI": "485489",
   "prices": {
     "00378312093": {
       "05/19/2021": 2.62888,

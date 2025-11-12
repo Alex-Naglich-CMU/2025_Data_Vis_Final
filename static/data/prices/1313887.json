@@ -2,8 +2,8 @@
   "RxCUI": "1313887",
   "Name": "DILANTIN 50 MG INFATAB",
   "IsBrand": true,
-  "Brand_RxCUI": "1313885",
-  "Generic_RxCUI": "1313887",
+  "Brand_RxCUI": "1313887",
+  "Generic_RxCUI": "1313885",
   "prices": {
     "00071000724": {
       "06/01/2017": 1.01319,

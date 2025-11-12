@@ -2,8 +2,8 @@
   "RxCUI": "617318",
   "Name": "LIPITOR 20 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "617310",
-  "Generic_RxCUI": "617318",
+  "Brand_RxCUI": "617318",
+  "Generic_RxCUI": "617310",
   "prices": {
     "00071015640": {
       "06/01/2017": 12.48513,

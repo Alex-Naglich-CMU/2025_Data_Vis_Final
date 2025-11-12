@@ -2,8 +2,8 @@
   "RxCUI": "238151",
   "Name": "MESALAMINE 4 GM/60 ML ENEMA",
   "IsBrand": false,
-  "Brand_RxCUI": "238151",
-  "Generic_RxCUI": "206798",
+  "Brand_RxCUI": "206798",
+  "Generic_RxCUI": "238151",
   "prices": {
     "45802009851": {
       "05/19/2021": 0.15808,

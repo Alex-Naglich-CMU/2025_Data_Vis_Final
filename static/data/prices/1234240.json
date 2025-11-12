@@ -2,8 +2,8 @@
   "RxCUI": "1234240",
   "Name": "EDEX 20 MCG CARTRIDGE 2-PK KIT",
   "IsBrand": true,
-  "Brand_RxCUI": "1234239",
-  "Generic_RxCUI": "1234240",
+  "Brand_RxCUI": "1234240",
+  "Generic_RxCUI": "1234239",
   "prices": {
     "52244002002": {
       "10/23/2024": 211.10864,

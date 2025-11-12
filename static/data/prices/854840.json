@@ -2,8 +2,8 @@
   "RxCUI": "854840",
   "Name": "VYVANSE 40 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "854838",
-  "Generic_RxCUI": "854840",
+  "Brand_RxCUI": "854840",
+  "Generic_RxCUI": "854838",
   "prices": {
     "59417010410": {
       "11/22/2017": 8.65482,

@@ -2,8 +2,8 @@
   "RxCUI": "721787",
   "Name": "OLANZAPINE-FLUOXETINE 3-25 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "721787",
-  "Generic_RxCUI": "725080",
+  "Brand_RxCUI": "725080",
+  "Generic_RxCUI": "721787",
   "prices": {
     "00093550356": {
       "11/21/2018": 4.7505,

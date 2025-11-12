@@ -2,8 +2,8 @@
   "RxCUI": "308979",
   "Name": "CARBAMAZEPINE 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "308979",
-  "Generic_RxCUI": "308972",
+  "Brand_RxCUI": "308972",
+  "Generic_RxCUI": "308979",
   "prices": {
     "13668026805": {
       "05/19/2021": 0.26565,

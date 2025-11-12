@@ -2,8 +2,8 @@
   "RxCUI": "206828",
   "Name": "ATIVAN 2 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "197902",
-  "Generic_RxCUI": "206828",
+  "Brand_RxCUI": "206828",
+  "Generic_RxCUI": "197902",
   "prices": {
     "00187006501": {
       "07/17/2024": 70.27211,

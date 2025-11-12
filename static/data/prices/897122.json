@@ -2,8 +2,8 @@
   "RxCUI": "897122",
   "Name": "LIRAGLUTIDE 2-PAK 18 MG/3 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "897122",
-  "Generic_RxCUI": "1598268",
+  "Brand_RxCUI": "1598268",
+  "Generic_RxCUI": "897122",
   "prices": {
     "00480366720": {
       "10/23/2024": 73.97703,

@@ -2,8 +2,8 @@
   "RxCUI": "1536144",
   "Name": "ASMANEX HFA 100 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "1536142",
-  "Generic_RxCUI": "1536144",
+  "Brand_RxCUI": "1536144",
+  "Generic_RxCUI": "1536142",
   "prices": {
     "00085433301": {
       "07/21/2021": 14.1372,

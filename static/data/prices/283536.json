@@ -2,8 +2,8 @@
   "RxCUI": "283536",
   "Name": "OXCARBAZEPINE 300 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "283536",
-  "Generic_RxCUI": "351992",
+  "Brand_RxCUI": "351992",
+  "Generic_RxCUI": "283536",
   "prices": {
     "00054019959": {
       "05/19/2021": 0.38249,

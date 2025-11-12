@@ -2,8 +2,8 @@
   "RxCUI": "2395771",
   "Name": "TRELEGY ELLIPTA 200-62.5-25",
   "IsBrand": true,
-  "Brand_RxCUI": "2395769",
-  "Generic_RxCUI": "2395771",
+  "Brand_RxCUI": "2395771",
+  "Generic_RxCUI": "2395769",
   "prices": {
     "00173089314": {
       "04/21/2021": 9.56415,

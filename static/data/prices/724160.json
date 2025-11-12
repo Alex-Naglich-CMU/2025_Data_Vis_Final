@@ -2,8 +2,8 @@
   "RxCUI": "724160",
   "Name": "THERA-GESIC CREME",
   "IsBrand": true,
-  "Brand_RxCUI": "259203",
-  "Generic_RxCUI": "724160",
+  "Brand_RxCUI": "724160",
+  "Generic_RxCUI": "259203",
   "prices": {
     "00178032003": {
       "07/19/2017": 0.03758,

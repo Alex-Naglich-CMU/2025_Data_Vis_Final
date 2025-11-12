@@ -2,8 +2,8 @@
   "RxCUI": "312950",
   "Name": "SILDENAFIL 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312950",
-  "Generic_RxCUI": "213270",
+  "Brand_RxCUI": "213270",
+  "Generic_RxCUI": "312950",
   "prices": {
     "65862069030": {
       "05/19/2021": 0.29731,

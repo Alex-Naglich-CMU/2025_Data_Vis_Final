@@ -2,8 +2,8 @@
   "RxCUI": "858813",
   "Name": "ENALAPRIL MALEATE 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "858813",
-  "Generic_RxCUI": "858815",
+  "Brand_RxCUI": "858815",
+  "Generic_RxCUI": "858813",
   "prices": {
     "64679092403": {
       "05/19/2021": 0.1763,

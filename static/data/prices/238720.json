@@ -2,8 +2,8 @@
   "RxCUI": "238720",
   "Name": "TRANEXAMIC ACID 1,000 MG/10 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "238720",
-  "Generic_RxCUI": "208104",
+  "Brand_RxCUI": "208104",
+  "Generic_RxCUI": "238720",
   "prices": {
     "23155016641": {
       "07/17/2024": 0.31245,

@@ -2,8 +2,8 @@
   "RxCUI": "896110",
   "Name": "NAFTIFINE HCL 1% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "896110",
-  "Generic_RxCUI": "896112",
+  "Brand_RxCUI": "896112",
+  "Generic_RxCUI": "896110",
   "prices": {
     "51672136203": {
       "05/22/2024": 4.47283,

@@ -2,8 +2,8 @@
   "RxCUI": "686924",
   "Name": "CARVEDILOL 3.125 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "686924",
-  "Generic_RxCUI": "686926",
+  "Brand_RxCUI": "686926",
+  "Generic_RxCUI": "686924",
   "prices": {
     "13107014201": {
       "05/19/2021": 0.02329,

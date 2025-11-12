@@ -2,8 +2,8 @@
   "RxCUI": "314214",
   "Name": "RIVASTIGMINE 1.5 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "314214",
-  "Generic_RxCUI": "226665",
+  "Brand_RxCUI": "226665",
+  "Generic_RxCUI": "314214",
   "prices": {
     "51991079306": {
       "05/19/2021": 0.35749,

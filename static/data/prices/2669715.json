@@ -2,8 +2,8 @@
   "RxCUI": "2669715",
   "Name": "ZEPBOUND 10 MG/0.5 ML PEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2601767",
-  "Generic_RxCUI": "2669715",
+  "Brand_RxCUI": "2669715",
+  "Generic_RxCUI": "2601767",
   "prices": {
     "00002247180": {
       "04/17/2024": 510.43803,

@@ -2,8 +2,8 @@
   "RxCUI": "849431",
   "Name": "NAPROXEN SODIUM 550 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "849431",
-  "Generic_RxCUI": "849438",
+  "Brand_RxCUI": "849438",
+  "Generic_RxCUI": "849431",
   "prices": {
     "43598049505": {
       "05/19/2021": 0.46637,

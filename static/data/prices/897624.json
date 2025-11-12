@@ -2,8 +2,8 @@
   "RxCUI": "897624",
   "Name": "VERAPAMIL SR 240 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "897624",
-  "Generic_RxCUI": "897626",
+  "Brand_RxCUI": "897626",
+  "Generic_RxCUI": "897624",
   "prices": {
     "00591288401": {
       "05/19/2021": 1.52271,

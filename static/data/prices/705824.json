@@ -2,8 +2,8 @@
   "RxCUI": "705824",
   "Name": "ZOLEDRONIC ACID 5 MG/100 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "705824",
-  "Generic_RxCUI": "705875",
+  "Brand_RxCUI": "705875",
+  "Generic_RxCUI": "705824",
   "prices": {
     "55111068852": {
       "07/17/2024": 0.46026,

@@ -2,8 +2,8 @@
   "RxCUI": "866105",
   "Name": "INVEGA ER 1.5 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "866103",
-  "Generic_RxCUI": "866105",
+  "Brand_RxCUI": "866105",
+  "Generic_RxCUI": "866103",
   "prices": {
     "50458055401": {
       "01/03/2018": 35.22073,

@@ -2,8 +2,8 @@
   "RxCUI": "834127",
   "Name": "CHLORHEXIDINE 0.12% RINSE",
   "IsBrand": false,
-  "Brand_RxCUI": "834127",
-  "Generic_RxCUI": "1869723",
+  "Brand_RxCUI": "1869723",
+  "Generic_RxCUI": "834127",
   "prices": {
     "00116200116": {
       "05/19/2021": 0.00551,

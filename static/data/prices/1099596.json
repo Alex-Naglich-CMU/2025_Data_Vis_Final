@@ -2,8 +2,8 @@
   "RxCUI": "1099596",
   "Name": "DIVALPROEX DR 125 MG CAP SPRNK",
   "IsBrand": false,
-  "Brand_RxCUI": "1099596",
-  "Generic_RxCUI": "1099598",
+  "Brand_RxCUI": "1099598",
+  "Generic_RxCUI": "1099596",
   "prices": {
     "27241011510": {
       "05/19/2021": 0.34051,

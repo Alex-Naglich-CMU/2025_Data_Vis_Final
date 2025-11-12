@@ -2,8 +2,8 @@
   "RxCUI": "858778",
   "Name": "HYDROCODONE-IBUPROFEN 5-200 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "858778",
-  "Generic_RxCUI": "858780",
+  "Brand_RxCUI": "858780",
+  "Generic_RxCUI": "858778",
   "prices": {
     "53746014601": {
       "05/22/2024": 2.22063,

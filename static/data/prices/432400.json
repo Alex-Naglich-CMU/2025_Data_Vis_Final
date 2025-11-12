@@ -2,8 +2,8 @@
   "RxCUI": "432400",
   "Name": "CINACALCET HCL 90 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "432400",
-  "Generic_RxCUI": "706960",
+  "Brand_RxCUI": "706960",
+  "Generic_RxCUI": "432400",
   "prices": {
     "00378619593": {
       "11/20/2019": 43.94676,

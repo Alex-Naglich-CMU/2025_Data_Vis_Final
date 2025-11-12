@@ -2,8 +2,8 @@
   "RxCUI": "197701",
   "Name": "FLUCONAZOLE 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197701",
-  "Generic_RxCUI": "207106",
+  "Brand_RxCUI": "207106",
+  "Generic_RxCUI": "197701",
   "prices": {
     "00172541060": {
       "08/23/2017": 0.81217,

@@ -2,8 +2,8 @@
   "RxCUI": "831054",
   "Name": "DILTIAZEM 120 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "831054",
-  "Generic_RxCUI": "831055",
+  "Brand_RxCUI": "831055",
+  "Generic_RxCUI": "831054",
   "prices": {
     "00093032101": {
       "05/19/2021": 0.33535,

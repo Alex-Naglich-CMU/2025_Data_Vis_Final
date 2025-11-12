@@ -2,8 +2,8 @@
   "RxCUI": "310190",
   "Name": "ESTRADIOL VALERATE 100 MG/5 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "310190",
-  "Generic_RxCUI": "206715",
+  "Brand_RxCUI": "206715",
+  "Generic_RxCUI": "310190",
   "prices": {
     "00517042001": {
       "08/19/2020": 19.0885,

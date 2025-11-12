@@ -2,8 +2,8 @@
   "RxCUI": "311290",
   "Name": "LEVETIRACETAM 750 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311290",
-  "Generic_RxCUI": "1875870",
+  "Brand_RxCUI": "1875870",
+  "Generic_RxCUI": "311290",
   "prices": {
     "68180011409": {
       "05/19/2021": 0.18025,

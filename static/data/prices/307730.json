@@ -2,8 +2,8 @@
   "RxCUI": "307730",
   "Name": "ACYCLOVIR 200 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "307730",
-  "Generic_RxCUI": "201903",
+  "Brand_RxCUI": "201903",
+  "Generic_RxCUI": "307730",
   "prices": {
     "00378871273": {
       "05/19/2021": 0.3056,

@@ -2,8 +2,8 @@
   "RxCUI": "308493",
   "Name": "NEOMYC-BACIT-POLYMIX EYE OINT",
   "IsBrand": false,
-  "Brand_RxCUI": "308493",
-  "Generic_RxCUI": "1117090",
+  "Brand_RxCUI": "1117090",
+  "Generic_RxCUI": "308493",
   "prices": {
     "17478023535": {
       "05/19/2021": 8.18857,

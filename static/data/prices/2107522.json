@@ -2,8 +2,8 @@
   "RxCUI": "2107522",
   "Name": "TRESIBA 100 UNIT/ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "2107520",
-  "Generic_RxCUI": "2107522",
+  "Brand_RxCUI": "2107522",
+  "Generic_RxCUI": "2107520",
   "prices": {
     "00169266211": {
       "05/20/2020": 32.53544,

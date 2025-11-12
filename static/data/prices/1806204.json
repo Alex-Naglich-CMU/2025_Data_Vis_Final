@@ -2,8 +2,8 @@
   "RxCUI": "1806204",
   "Name": "METHYLPHENIDATE ER 50 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1806204",
-  "Generic_RxCUI": "1648198",
+  "Brand_RxCUI": "1648198",
+  "Generic_RxCUI": "1806204",
   "prices": {
     "00591389519": {
       "06/19/2024": 5.79282,

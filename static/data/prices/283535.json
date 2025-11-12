@@ -2,8 +2,8 @@
   "RxCUI": "283535",
   "Name": "DOXYCYCLINE HYCLATE 20 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "283535",
-  "Generic_RxCUI": "762390",
+  "Brand_RxCUI": "762390",
+  "Generic_RxCUI": "283535",
   "prices": {
     "00527133601": {
       "05/19/2021": 0.19852,

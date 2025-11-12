@@ -2,8 +2,8 @@
   "RxCUI": "1807915",
   "Name": "METFORMIN ER 500 MG GASTRC-TB",
   "IsBrand": false,
-  "Brand_RxCUI": "1807915",
-  "Generic_RxCUI": "861018",
+  "Brand_RxCUI": "861018",
+  "Generic_RxCUI": "1807915",
   "prices": {
     "70010049601": {
       "05/19/2021": 2.59026,

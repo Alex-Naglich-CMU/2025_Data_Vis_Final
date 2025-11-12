@@ -2,8 +2,8 @@
   "RxCUI": "1593110",
   "Name": "GNP PAIN RLF PM 250-250-38 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "1593110",
-  "Generic_RxCUI": "1593116",
+  "Brand_RxCUI": "1593116",
+  "Generic_RxCUI": "1593110",
   "prices": {
     "46122045671": {
       "05/22/2024": 0.0598,

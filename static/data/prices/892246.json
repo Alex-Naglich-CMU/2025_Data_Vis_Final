@@ -2,8 +2,8 @@
   "RxCUI": "892246",
   "Name": "LEVOTHYROXINE 100 MCG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "892246",
-  "Generic_RxCUI": "966283",
+  "Brand_RxCUI": "966283",
+  "Generic_RxCUI": "892246",
   "prices": {
     "00378180904": {
       "05/19/2021": 0.28389,

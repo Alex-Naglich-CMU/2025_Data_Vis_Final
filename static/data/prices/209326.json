@@ -2,8 +2,8 @@
   "RxCUI": "209326",
   "Name": "NICORETTE 2 MG CHEWING GUM",
   "IsBrand": true,
-  "Brand_RxCUI": "314119",
-  "Generic_RxCUI": "209326",
+  "Brand_RxCUI": "209326",
+  "Generic_RxCUI": "314119",
   "prices": {
     "00135022502": {
       "06/21/2017": 0.42304,

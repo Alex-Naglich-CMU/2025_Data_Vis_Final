@@ -2,8 +2,8 @@
   "RxCUI": "283407",
   "Name": "MIRTAZAPINE 30 MG ODT",
   "IsBrand": false,
-  "Brand_RxCUI": "283407",
-  "Generic_RxCUI": "752870",
+  "Brand_RxCUI": "752870",
+  "Generic_RxCUI": "283407",
   "prices": {
     "65862002206": {
       "05/19/2021": 0.67979,

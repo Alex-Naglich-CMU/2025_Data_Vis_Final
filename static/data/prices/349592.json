@@ -2,8 +2,8 @@
   "RxCUI": "349592",
   "Name": "ATOMOXETINE HCL 18 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "349592",
-  "Generic_RxCUI": "352318",
+  "Brand_RxCUI": "352318",
+  "Generic_RxCUI": "349592",
   "prices": {
     "64980037403": {
       "05/19/2021": 1.3437,

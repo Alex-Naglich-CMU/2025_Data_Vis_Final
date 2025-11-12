@@ -2,8 +2,8 @@
   "RxCUI": "834241",
   "Name": "FEBUXOSTAT 80 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "834241",
-  "Generic_RxCUI": "834243",
+  "Brand_RxCUI": "834243",
+  "Generic_RxCUI": "834241",
   "prices": {
     "27808020701": {
       "05/19/2021": 1.57588,

@@ -2,8 +2,8 @@
   "RxCUI": "855942",
   "Name": "DICLOFENAC POT 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "855942",
-  "Generic_RxCUI": "855944",
+  "Brand_RxCUI": "855944",
+  "Generic_RxCUI": "855942",
   "prices": {
     "00093094801": {
       "05/19/2021": 0.53042,

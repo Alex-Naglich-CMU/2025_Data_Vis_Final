@@ -2,8 +2,8 @@
   "RxCUI": "1649990",
   "Name": "DOXYCYCLINE MONO 100 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1649990",
-  "Generic_RxCUI": "1666542",
+  "Brand_RxCUI": "1666542",
+  "Generic_RxCUI": "1649990",
   "prices": {
     "63304061650": {
       "05/19/2021": 0.26551,

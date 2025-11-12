@@ -2,8 +2,8 @@
   "RxCUI": "861164",
   "Name": "PROPAFENONE HCL ER 325 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "861164",
-  "Generic_RxCUI": "861167",
+  "Brand_RxCUI": "861167",
+  "Generic_RxCUI": "861164",
   "prices": {
     "68462040960": {
       "05/19/2021": 1.03968,

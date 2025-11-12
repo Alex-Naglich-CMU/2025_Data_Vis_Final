@@ -2,8 +2,8 @@
   "RxCUI": "1923050",
   "Name": "LEVOTHYROXINE 200 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "1923050",
-  "Generic_RxCUI": "1923052",
+  "Brand_RxCUI": "1923052",
+  "Generic_RxCUI": "1923050",
   "prices": {
     "00527496232": {
       "05/22/2024": 2.33539,

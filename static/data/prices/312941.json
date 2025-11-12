@@ -2,8 +2,8 @@
   "RxCUI": "312941",
   "Name": "SERTRALINE HCL 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312941",
-  "Generic_RxCUI": "208161",
+  "Brand_RxCUI": "208161",
+  "Generic_RxCUI": "312941",
   "prices": {
     "65862001230": {
       "05/19/2021": 0.04807,

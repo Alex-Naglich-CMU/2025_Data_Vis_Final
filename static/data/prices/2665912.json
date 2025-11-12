@@ -2,8 +2,8 @@
   "RxCUI": "2665912",
   "Name": "AIRSUPRA 90-80 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "2665906",
-  "Generic_RxCUI": "2665912",
+  "Brand_RxCUI": "2665912",
+  "Generic_RxCUI": "2665906",
   "prices": {
     "00310908012": {
       "04/17/2024": 42.7308,

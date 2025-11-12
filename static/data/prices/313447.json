@@ -2,8 +2,8 @@
   "RxCUI": "313447",
   "Name": "TRANYLCYPROMINE SULF 10 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "313447",
-  "Generic_RxCUI": "104838",
+  "Brand_RxCUI": "104838",
+  "Generic_RxCUI": "313447",
   "prices": {
     "00591559001": {
       "06/23/2021": 1.46957,

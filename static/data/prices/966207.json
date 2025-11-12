@@ -2,8 +2,8 @@
   "RxCUI": "966207",
   "Name": "EUTHYROX 200 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "892251",
-  "Generic_RxCUI": "966207",
+  "Brand_RxCUI": "966207",
+  "Generic_RxCUI": "892251",
   "prices": {
     "72305020030": {
       "08/21/2024": 0.2314,

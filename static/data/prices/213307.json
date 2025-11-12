@@ -2,8 +2,8 @@
   "RxCUI": "213307",
   "Name": "CILOXAN 0.3% OINTMENT",
   "IsBrand": true,
-  "Brand_RxCUI": "309306",
-  "Generic_RxCUI": "213307",
+  "Brand_RxCUI": "213307",
+  "Generic_RxCUI": "309306",
   "prices": {
     "00065065435": {
       "06/23/2021": 58.93143,

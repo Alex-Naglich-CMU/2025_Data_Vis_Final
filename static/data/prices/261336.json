@@ -2,8 +2,8 @@
   "RxCUI": "261336",
   "Name": "KEPPRA 500 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "311289",
-  "Generic_RxCUI": "261336",
+  "Brand_RxCUI": "261336",
+  "Generic_RxCUI": "311289",
   "prices": {
     "50474059540": {
       "05/19/2021": 8.04308,

@@ -2,8 +2,8 @@
   "RxCUI": "199123",
   "Name": "BICALUTAMIDE 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199123",
-  "Generic_RxCUI": "108828",
+  "Brand_RxCUI": "108828",
+  "Generic_RxCUI": "199123",
   "prices": {
     "47335048583": {
       "05/19/2021": 0.35143,

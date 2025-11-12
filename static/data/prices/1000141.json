@@ -2,8 +2,8 @@
   "RxCUI": "1000141",
   "Name": "MEDROXYPROGESTERONE 5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1000141",
-  "Generic_RxCUI": "1000145",
+  "Brand_RxCUI": "1000145",
+  "Generic_RxCUI": "1000141",
   "prices": {
     "00555087302": {
       "05/19/2021": 0.14341,

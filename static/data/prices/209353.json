@@ -2,8 +2,8 @@
   "RxCUI": "209353",
   "Name": "FEVERALL 120 MG SUPPOSITORY",
   "IsBrand": true,
-  "Brand_RxCUI": "198434",
-  "Generic_RxCUI": "209353",
+  "Brand_RxCUI": "209353",
+  "Generic_RxCUI": "198434",
   "prices": {
     "51672211504": {
       "06/21/2017": 0.73071,

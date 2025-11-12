@@ -2,8 +2,8 @@
   "RxCUI": "1435115",
   "Name": "TERIPARATIDE 620 MCG/2.48 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "1435115",
-  "Generic_RxCUI": "2716408",
+  "Brand_RxCUI": "2716408",
+  "Generic_RxCUI": "1435115",
   "prices": {
     "47781065289": {
       "11/23/2022": 996.59597,

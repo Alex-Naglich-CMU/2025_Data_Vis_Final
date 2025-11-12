@@ -2,8 +2,8 @@
   "RxCUI": "403884",
   "Name": "LEVETIRACETAM 100 MG/ML SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "403884",
-  "Generic_RxCUI": "404595",
+  "Brand_RxCUI": "404595",
+  "Generic_RxCUI": "403884",
   "prices": {
     "60432083116": {
       "05/19/2021": 0.03451,

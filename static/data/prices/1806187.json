@@ -2,8 +2,8 @@
   "RxCUI": "1806187",
   "Name": "METHYLPHENIDATE CD 20 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1806187",
-  "Generic_RxCUI": "1091163",
+  "Brand_RxCUI": "1091163",
+  "Generic_RxCUI": "1806187",
   "prices": {
     "00527458037": {
       "05/19/2021": 1.41413,

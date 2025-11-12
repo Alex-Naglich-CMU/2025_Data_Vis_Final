@@ -2,8 +2,8 @@
   "RxCUI": "1010895",
   "Name": "LIDOCAINE HCL 4% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "1010895",
-  "Generic_RxCUI": "2716403",
+  "Brand_RxCUI": "2716403",
+  "Generic_RxCUI": "1010895",
   "prices": {
     "00536113920": {
       "08/19/2020": 0.77943

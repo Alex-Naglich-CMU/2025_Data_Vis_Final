@@ -2,8 +2,8 @@
   "RxCUI": "1366550",
   "Name": "BUDESONIDE ER 9 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1366550",
-  "Generic_RxCUI": "1366556",
+  "Brand_RxCUI": "1366556",
+  "Generic_RxCUI": "1366550",
   "prices": {
     "00378450093": {
       "05/19/2021": 32.16551,

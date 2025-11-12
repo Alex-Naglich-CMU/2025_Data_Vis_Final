@@ -2,8 +2,8 @@
   "RxCUI": "1307056",
   "Name": "BUPRENORPHINE-NALOXONE 4-1 MG SL FILM",
   "IsBrand": false,
-  "Brand_RxCUI": "1307056",
-  "Generic_RxCUI": "1307058",
+  "Brand_RxCUI": "1307058",
+  "Generic_RxCUI": "1307056",
   "prices": {
     "52427069403": {
       "05/19/2021": 5.13601,

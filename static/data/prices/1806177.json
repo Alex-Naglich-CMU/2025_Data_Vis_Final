@@ -2,8 +2,8 @@
   "RxCUI": "1806177",
   "Name": "METHYLPHENIDATE LA 20 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1806177",
-  "Generic_RxCUI": "1091167",
+  "Brand_RxCUI": "1091167",
+  "Generic_RxCUI": "1806177",
   "prices": {
     "51862061001": {
       "05/19/2021": 1.46308,

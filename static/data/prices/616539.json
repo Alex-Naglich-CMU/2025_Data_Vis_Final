@@ -2,8 +2,8 @@
   "RxCUI": "616539",
   "Name": "OMEPRAZOLE-BICARB 20-1,100 CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "616539",
-  "Generic_RxCUI": "646344",
+  "Brand_RxCUI": "646344",
+  "Generic_RxCUI": "616539",
   "prices": {
     "68682010230": {
       "06/21/2017": 10.02342,

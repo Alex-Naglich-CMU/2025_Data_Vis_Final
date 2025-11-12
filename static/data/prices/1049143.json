@@ -2,8 +2,8 @@
   "RxCUI": "1049143",
   "Name": "CHILDREN'S SILFEDRINE LIQ",
   "IsBrand": false,
-  "Brand_RxCUI": "1049143",
-  "Generic_RxCUI": "1049770",
+  "Brand_RxCUI": "1049770",
+  "Generic_RxCUI": "1049143",
   "prices": {
     "54838010440": {
       "06/21/2017": 0.01676,

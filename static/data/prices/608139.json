@@ -2,8 +2,8 @@
   "RxCUI": "608139",
   "Name": "ATOMOXETINE HCL 100 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "608139",
-  "Generic_RxCUI": "617945",
+  "Brand_RxCUI": "617945",
+  "Generic_RxCUI": "608139",
   "prices": {
     "60505283603": {
       "05/19/2021": 1.81686,

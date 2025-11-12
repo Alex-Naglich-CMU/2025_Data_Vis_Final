@@ -2,8 +2,8 @@
   "RxCUI": "831103",
   "Name": "DILTIAZEM 60 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "831103",
-  "Generic_RxCUI": "834393",
+  "Brand_RxCUI": "834393",
+  "Generic_RxCUI": "831103",
   "prices": {
     "68682000750": {
       "05/19/2021": 0.17861,

@@ -2,8 +2,8 @@
   "RxCUI": "198603",
   "Name": "MOTION SICKNESS 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198603",
-  "Generic_RxCUI": "1086954",
+  "Brand_RxCUI": "1086954",
+  "Generic_RxCUI": "198603",
   "prices": {
     "70000040401": {
       "05/19/2021": 0.05141,

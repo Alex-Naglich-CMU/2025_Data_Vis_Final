@@ -2,8 +2,8 @@
   "RxCUI": "994008",
   "Name": "NAPROXEN-ESOMEPRAZ DR 500-20 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "994008",
-  "Generic_RxCUI": "994010",
+  "Brand_RxCUI": "994010",
+  "Generic_RxCUI": "994008",
   "prices": {
     "70748021607": {
       "08/19/2020": 25.17931,

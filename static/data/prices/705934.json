@@ -2,8 +2,8 @@
   "RxCUI": "705934",
   "Name": "JOCK ITCH 1% POWDER SPRAY",
   "IsBrand": false,
-  "Brand_RxCUI": "705934",
-  "Generic_RxCUI": "1037248",
+  "Brand_RxCUI": "1037248",
+  "Generic_RxCUI": "705934",
   "prices": {
     "00113069590": {
       "06/21/2017": 0.02529,

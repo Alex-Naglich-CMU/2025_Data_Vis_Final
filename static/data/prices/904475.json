@@ -2,8 +2,8 @@
   "RxCUI": "904475",
   "Name": "PRAVASTATIN SODIUM 40 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "904475",
-  "Generic_RxCUI": "904477",
+  "Brand_RxCUI": "904477",
+  "Generic_RxCUI": "904475",
   "prices": {
     "60687019011": {
       "05/19/2021": 0.09273,

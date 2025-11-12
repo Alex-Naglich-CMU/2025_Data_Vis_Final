@@ -2,8 +2,8 @@
   "RxCUI": "899495",
   "Name": "DEXMETHYLPHENIDATE ER 30 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "899495",
-  "Generic_RxCUI": "899497",
+  "Brand_RxCUI": "899497",
+  "Generic_RxCUI": "899495",
   "prices": {
     "00093555401": {
       "05/19/2021": 2.15471,

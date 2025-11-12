@@ -2,8 +2,8 @@
   "RxCUI": "204642",
   "Name": "MEDICATED DANDRUFF 1% SHAMPOO",
   "IsBrand": false,
-  "Brand_RxCUI": "204642",
-  "Generic_RxCUI": "210208",
+  "Brand_RxCUI": "210208",
+  "Generic_RxCUI": "204642",
   "prices": {
     "70000053101": {
       "07/21/2021": 0.01415,

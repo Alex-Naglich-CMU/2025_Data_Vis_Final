@@ -2,8 +2,8 @@
   "RxCUI": "616749",
   "Name": "RANOLAZINE ER 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "616749",
-  "Generic_RxCUI": "860738",
+  "Brand_RxCUI": "860738",
+  "Generic_RxCUI": "616749",
   "prices": {
     "45963041806": {
       "05/19/2021": 0.36355,

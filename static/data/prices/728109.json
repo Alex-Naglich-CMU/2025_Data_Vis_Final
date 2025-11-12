@@ -2,8 +2,8 @@
   "RxCUI": "728109",
   "Name": "OSELTAMIVIR PHOS 30 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "728109",
-  "Generic_RxCUI": "728111",
+  "Brand_RxCUI": "728111",
+  "Generic_RxCUI": "728109",
   "prices": {
     "70710100802": {
       "06/21/2017": 8.34306,

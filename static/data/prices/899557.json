@@ -2,8 +2,8 @@
   "RxCUI": "899557",
   "Name": "DEXMETHYLPHENIDATE 2.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "899557",
-  "Generic_RxCUI": "899559",
+  "Brand_RxCUI": "899559",
+  "Generic_RxCUI": "899557",
   "prices": {
     "43386086201": {
       "05/19/2021": 0.11774,

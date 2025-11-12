@@ -2,8 +2,8 @@
   "RxCUI": "199055",
   "Name": "METRONIDAZOLE 375 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "199055",
-  "Generic_RxCUI": "687211",
+  "Brand_RxCUI": "687211",
+  "Generic_RxCUI": "199055",
   "prices": {
     "62332001850": {
       "05/22/2024": 6.41736,

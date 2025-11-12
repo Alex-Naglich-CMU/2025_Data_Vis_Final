@@ -2,8 +2,8 @@
   "RxCUI": "310459",
   "Name": "GEMFIBROZIL 600 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "310459",
-  "Generic_RxCUI": "205751",
+  "Brand_RxCUI": "205751",
+  "Generic_RxCUI": "310459",
   "prices": {
     "24658026018": {
       "05/19/2021": 0.1082,

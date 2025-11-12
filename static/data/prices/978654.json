@@ -2,8 +2,8 @@
   "RxCUI": "978654",
   "Name": "DIETHYLPROPION 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "978654",
-  "Generic_RxCUI": "978662",
+  "Brand_RxCUI": "978662",
+  "Generic_RxCUI": "978654",
   "prices": {
     "10702004406": {
       "05/19/2021": 0.19259,

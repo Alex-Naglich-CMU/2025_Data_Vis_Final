@@ -2,8 +2,8 @@
   "RxCUI": "199378",
   "Name": "CARBAMAZEPINE ER 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199378",
-  "Generic_RxCUI": "866303",
+  "Brand_RxCUI": "866303",
+  "Generic_RxCUI": "199378",
   "prices": {
     "16571068001": {
       "05/19/2021": 0.61824,

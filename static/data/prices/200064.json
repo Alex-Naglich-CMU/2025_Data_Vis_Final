@@ -2,8 +2,8 @@
   "RxCUI": "200064",
   "Name": "LETROZOLE 2.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200064",
-  "Generic_RxCUI": "153124",
+  "Brand_RxCUI": "153124",
+  "Generic_RxCUI": "200064",
   "prices": {
     "69117000401": {
       "05/19/2021": 0.14737,

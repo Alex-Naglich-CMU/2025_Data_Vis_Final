@@ -2,8 +2,8 @@
   "RxCUI": "865568",
   "Name": "GLUCOTROL XL 10 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "315107",
-  "Generic_RxCUI": "865568",
+  "Brand_RxCUI": "865568",
+  "Generic_RxCUI": "315107",
   "prices": {
     "00049017807": {
       "06/01/2017": 2.83051,

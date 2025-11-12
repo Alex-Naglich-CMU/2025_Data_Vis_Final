@@ -2,8 +2,8 @@
   "RxCUI": "1242399",
   "Name": "HM ALLERGY-CONGESTION 12HR TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1242399",
-  "Generic_RxCUI": "1369753",
+  "Brand_RxCUI": "1369753",
+  "Generic_RxCUI": "1242399",
   "prices": {
     "62011035401": {
       "05/19/2021": 0.78555,

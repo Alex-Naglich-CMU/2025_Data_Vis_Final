@@ -2,8 +2,8 @@
   "RxCUI": "966412",
   "Name": "LEVOTHYROXINE 13 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "966412",
-  "Generic_RxCUI": "966434",
+  "Brand_RxCUI": "966434",
+  "Generic_RxCUI": "966412",
   "prices": {
     "00527495132": {
       "05/22/2024": 2.8116,

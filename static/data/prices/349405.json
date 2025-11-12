@@ -2,8 +2,8 @@
   "RxCUI": "349405",
   "Name": "OLMESARTAN MEDOXOMIL 40 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "349405",
-  "Generic_RxCUI": "352201",
+  "Brand_RxCUI": "352201",
+  "Generic_RxCUI": "349405",
   "prices": {
     "67877044790": {
       "05/19/2021": 0.17284,

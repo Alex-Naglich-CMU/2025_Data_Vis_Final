@@ -2,8 +2,8 @@
   "RxCUI": "1049167",
   "Name": "PSEUDOEPHEDRINE 60 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1049167",
-  "Generic_RxCUI": "1049169",
+  "Brand_RxCUI": "1049169",
+  "Generic_RxCUI": "1049167",
   "prices": {
     "00904690706": {
       "05/19/2021": 0.03638,

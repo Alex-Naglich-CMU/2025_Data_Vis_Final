@@ -2,8 +2,8 @@
   "RxCUI": "896190",
   "Name": "ADVAIR 250-50 DISKUS",
   "IsBrand": true,
-  "Brand_RxCUI": "896186",
-  "Generic_RxCUI": "896190",
+  "Brand_RxCUI": "896190",
+  "Generic_RxCUI": "896186",
   "prices": {
     "00173069604": {
       "01/01/2018": 10.42096,

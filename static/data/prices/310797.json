@@ -2,8 +2,8 @@
   "RxCUI": "310797",
   "Name": "QUINAPRIL-HYDROCHLOROTHIAZIDE 20-12.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "310797",
-  "Generic_RxCUI": "809858",
+  "Brand_RxCUI": "809858",
+  "Generic_RxCUI": "310797",
   "prices": {
     "43386071105": {
       "05/19/2021": 0.47713,

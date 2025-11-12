@@ -2,8 +2,8 @@
   "RxCUI": "1991509",
   "Name": "CLENPIQ SOLUTION",
   "IsBrand": true,
-  "Brand_RxCUI": "1994540",
-  "Generic_RxCUI": "1991509",
+  "Brand_RxCUI": "1991509",
+  "Generic_RxCUI": "1994540",
   "prices": {
     "55566670001": {
       "09/05/2018": 0.40964,

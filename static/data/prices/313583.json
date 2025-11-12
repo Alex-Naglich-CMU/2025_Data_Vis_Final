@@ -2,8 +2,8 @@
   "RxCUI": "313583",
   "Name": "VENLAFAXINE HCL ER 37.5 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "313583",
-  "Generic_RxCUI": "729932",
+  "Brand_RxCUI": "729932",
+  "Generic_RxCUI": "313583",
   "prices": {
     "65862052790": {
       "05/19/2021": 0.12937,

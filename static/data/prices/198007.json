@@ -2,8 +2,8 @@
   "RxCUI": "198007",
   "Name": "NADOLOL 40 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198007",
-  "Generic_RxCUI": "201337",
+  "Brand_RxCUI": "201337",
+  "Generic_RxCUI": "198007",
   "prices": {
     "00904707107": {
       "05/19/2021": 0.52152,

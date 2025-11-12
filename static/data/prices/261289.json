@@ -2,8 +2,8 @@
   "RxCUI": "261289",
   "Name": "TEMODAR 20 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "313209",
-  "Generic_RxCUI": "261289",
+  "Brand_RxCUI": "261289",
+  "Generic_RxCUI": "313209",
   "prices": {
     "00085151904": {
       "01/05/2018": 89.91774

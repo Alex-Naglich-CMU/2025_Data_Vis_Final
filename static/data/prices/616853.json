@@ -2,8 +2,8 @@
   "RxCUI": "616853",
   "Name": "FENOFIBRATE 50 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "616853",
-  "Generic_RxCUI": "702169",
+  "Brand_RxCUI": "702169",
+  "Generic_RxCUI": "616853",
   "prices": {
     "62559046090": {
       "05/22/2024": 2.49484,

@@ -2,8 +2,8 @@
   "RxCUI": "311994",
   "Name": "NITROFURANTOIN MCR 25 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "311994",
-  "Generic_RxCUI": "207791",
+  "Brand_RxCUI": "207791",
+  "Generic_RxCUI": "311994",
   "prices": {
     "57664023188": {
       "05/19/2021": 3.40641,

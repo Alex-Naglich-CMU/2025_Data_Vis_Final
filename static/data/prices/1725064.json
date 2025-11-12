@@ -2,8 +2,8 @@
   "RxCUI": "1725064",
   "Name": "NARCAN 4 MG NASAL SPRAY",
   "IsBrand": true,
-  "Brand_RxCUI": "1725059",
-  "Generic_RxCUI": "1725064",
+  "Brand_RxCUI": "1725064",
+  "Generic_RxCUI": "1725059",
   "prices": {
     "69547035302": {
       "11/22/2017": 59.796,

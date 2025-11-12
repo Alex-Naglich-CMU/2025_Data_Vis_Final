@@ -2,8 +2,8 @@
   "RxCUI": "730794",
   "Name": "CARISOPRODOL 250 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "730794",
-  "Generic_RxCUI": "730918",
+  "Brand_RxCUI": "730918",
+  "Generic_RxCUI": "730794",
   "prices": {
     "42543043401": {
       "05/19/2021": 1.34634,

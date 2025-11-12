@@ -2,8 +2,8 @@
   "RxCUI": "198223",
   "Name": "SPIRONOLACTONE 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198223",
-  "Generic_RxCUI": "200817",
+  "Brand_RxCUI": "200817",
+  "Generic_RxCUI": "198223",
   "prices": {
     "16714008501": {
       "05/19/2021": 0.13754,

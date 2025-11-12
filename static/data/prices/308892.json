@@ -2,8 +2,8 @@
   "RxCUI": "308892",
   "Name": "ANTACID ULTRA STR 1,000 MG CHW",
   "IsBrand": false,
-  "Brand_RxCUI": "308892",
-  "Generic_RxCUI": "1044524",
+  "Brand_RxCUI": "1044524",
+  "Generic_RxCUI": "308892",
   "prices": {
     "70000045901": {
       "05/19/2021": 0.02514,

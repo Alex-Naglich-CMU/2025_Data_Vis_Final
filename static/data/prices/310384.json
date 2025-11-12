@@ -2,8 +2,8 @@
   "RxCUI": "310384",
   "Name": "FLUOXETINE HCL 10 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "310384",
-  "Generic_RxCUI": "205535",
+  "Brand_RxCUI": "205535",
+  "Generic_RxCUI": "310384",
   "prices": {
     "62332002231": {
       "05/19/2021": 0.03701,

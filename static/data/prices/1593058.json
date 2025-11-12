@@ -2,8 +2,8 @@
   "RxCUI": "1593058",
   "Name": "DAPAGLIFLOZIN-METFORMIN ER 10-1,000 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1593058",
-  "Generic_RxCUI": "1593775",
+  "Brand_RxCUI": "1593775",
+  "Generic_RxCUI": "1593058",
   "prices": {
     "66993036230": {
       "05/22/2024": 11.08562,

@@ -2,8 +2,8 @@
   "RxCUI": "1428927",
   "Name": "M-HIST PD 0.625 MG/ML DROPS",
   "IsBrand": false,
-  "Brand_RxCUI": "1428927",
-  "Generic_RxCUI": "2179647",
+  "Brand_RxCUI": "2179647",
+  "Generic_RxCUI": "1428927",
   "prices": {
     "58657053530": {
       "06/21/2017": 1.52467,

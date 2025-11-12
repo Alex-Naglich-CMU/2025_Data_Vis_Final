@@ -2,8 +2,8 @@
   "RxCUI": "643175",
   "Name": "SPRYCEL 50 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "643107",
-  "Generic_RxCUI": "643175",
+  "Brand_RxCUI": "643175",
+  "Generic_RxCUI": "643107",
   "prices": {
     "00003052811": {
       "01/01/2018": 230.72631,

@@ -2,8 +2,8 @@
   "RxCUI": "1807888",
   "Name": "METFORMIN ER 1,000 MG GASTR-TB",
   "IsBrand": false,
-  "Brand_RxCUI": "1807888",
-  "Generic_RxCUI": "861015",
+  "Brand_RxCUI": "861015",
+  "Generic_RxCUI": "1807888",
   "prices": {
     "16714093901": {
       "05/19/2021": 6.90675,

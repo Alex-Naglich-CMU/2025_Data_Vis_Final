@@ -2,8 +2,8 @@
   "RxCUI": "807832",
   "Name": "LEVETIRACETAM ER 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "807832",
-  "Generic_RxCUI": "1876014",
+  "Brand_RxCUI": "1876014",
+  "Generic_RxCUI": "807832",
   "prices": {
     "75834024560": {
       "05/19/2021": 0.28324,

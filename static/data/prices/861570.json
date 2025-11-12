@@ -2,8 +2,8 @@
   "RxCUI": "861570",
   "Name": "NEXIUM DR 10 MG PACKET",
   "IsBrand": true,
-  "Brand_RxCUI": "861568",
-  "Generic_RxCUI": "861570",
+  "Brand_RxCUI": "861570",
+  "Generic_RxCUI": "861568",
   "prices": {
     "00186401001": {
       "08/23/2017": 8.718,

@@ -2,8 +2,8 @@
   "RxCUI": "630939",
   "Name": "HYLENEX 150 UNITS/ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "630936",
-  "Generic_RxCUI": "630939",
+  "Brand_RxCUI": "630939",
+  "Generic_RxCUI": "630936",
   "prices": {
     "18657011704": {
       "05/22/2024": 53.30565,

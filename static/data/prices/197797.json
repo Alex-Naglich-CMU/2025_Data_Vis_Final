@@ -2,8 +2,8 @@
   "RxCUI": "197797",
   "Name": "HYDROXYUREA 500 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "197797",
-  "Generic_RxCUI": "105602",
+  "Brand_RxCUI": "105602",
+  "Generic_RxCUI": "197797",
   "prices": {
     "49884072401": {
       "05/19/2021": 0.30056,

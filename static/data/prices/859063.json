@@ -2,8 +2,8 @@
   "RxCUI": "859063",
   "Name": "DICLOFENAC POT 50 MG POWDR PKT",
   "IsBrand": false,
-  "Brand_RxCUI": "859063",
-  "Generic_RxCUI": "859066",
+  "Brand_RxCUI": "859066",
+  "Generic_RxCUI": "859063",
   "prices": {
     "31722004631": {
       "09/20/2023": 20.70733,

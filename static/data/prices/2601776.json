@@ -2,8 +2,8 @@
   "RxCUI": "2601776",
   "Name": "MOUNJARO 12.5 MG/0.5 ML PEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2601773",
-  "Generic_RxCUI": "2601776",
+  "Brand_RxCUI": "2601776",
+  "Generic_RxCUI": "2601773",
   "prices": {
     "00002146080": {
       "01/01/2023": 491.65476,

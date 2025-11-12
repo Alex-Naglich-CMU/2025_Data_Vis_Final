@@ -2,8 +2,8 @@
   "RxCUI": "889520",
   "Name": "BUTALBITAL-ACETAMINOPHEN-CAFFEINE 50-300-40 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "889520",
-  "Generic_RxCUI": "1432261",
+  "Brand_RxCUI": "1432261",
+  "Generic_RxCUI": "889520",
   "prices": {
     "16714017001": {
       "05/19/2021": 0.77532,

@@ -2,8 +2,8 @@
   "RxCUI": "1099563",
   "Name": "DIVALPROEX SOD ER 250 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1099563",
-  "Generic_RxCUI": "1099565",
+  "Brand_RxCUI": "1099565",
+  "Generic_RxCUI": "1099563",
   "prices": {
     "16714048401": {
       "05/19/2021": 0.22743,

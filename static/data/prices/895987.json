@@ -2,8 +2,8 @@
   "RxCUI": "895987",
   "Name": "FLUTICASONE PROP 0.05% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "895987",
-  "Generic_RxCUI": "895989",
+  "Brand_RxCUI": "895989",
+  "Generic_RxCUI": "895987",
   "prices": {
     "00713063131": {
       "05/19/2021": 0.31844,

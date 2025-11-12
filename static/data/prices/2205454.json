@@ -2,8 +2,8 @@
   "RxCUI": "2205454",
   "Name": "FIASP PENFILL 100 UNIT/ML CART",
   "IsBrand": true,
-  "Brand_RxCUI": "1653196",
-  "Generic_RxCUI": "2205454",
+  "Brand_RxCUI": "2205454",
+  "Generic_RxCUI": "1653196",
   "prices": {
     "00169320515": {
       "05/22/2024": 34.40323,

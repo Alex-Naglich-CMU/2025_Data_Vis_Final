@@ -2,8 +2,8 @@
   "RxCUI": "141927",
   "Name": "XANAX 0.25 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "308047",
-  "Generic_RxCUI": "141927",
+  "Brand_RxCUI": "141927",
+  "Generic_RxCUI": "308047",
   "prices": {
     "00009002901": {
       "06/01/2017": 3.51827,

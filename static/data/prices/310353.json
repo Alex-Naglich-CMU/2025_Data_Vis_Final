@@ -2,8 +2,8 @@
   "RxCUI": "310353",
   "Name": "FLUCONAZOLE 40 MG/ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "310353",
-  "Generic_RxCUI": "201901",
+  "Brand_RxCUI": "201901",
+  "Generic_RxCUI": "310353",
   "prices": {
     "57237015035": {
       "05/19/2021": 0.64835,

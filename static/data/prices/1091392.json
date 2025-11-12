@@ -2,8 +2,8 @@
   "RxCUI": "1091392",
   "Name": "METHYLPHENIDATE 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1091392",
-  "Generic_RxCUI": "1091395",
+  "Brand_RxCUI": "1091395",
+  "Generic_RxCUI": "1091392",
   "prices": {
     "16714082301": {
       "05/19/2021": 0.26809,

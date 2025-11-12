@@ -2,8 +2,8 @@
   "RxCUI": "830882",
   "Name": "DILTIAZEM 24HR ER 300 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "830882",
-  "Generic_RxCUI": "1091635",
+  "Brand_RxCUI": "1091635",
+  "Generic_RxCUI": "830882",
   "prices": {
     "68682070790": {
       "07/19/2017": 3.29117,

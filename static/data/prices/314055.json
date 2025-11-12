@@ -2,8 +2,8 @@
   "RxCUI": "314055",
   "Name": "ISOSORBIDE DINITRATE 5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "314055",
-  "Generic_RxCUI": "793873",
+  "Brand_RxCUI": "793873",
+  "Generic_RxCUI": "314055",
   "prices": {
     "00781163510": {
       "05/19/2021": 0.36005,

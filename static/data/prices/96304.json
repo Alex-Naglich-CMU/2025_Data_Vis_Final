@@ -2,8 +2,8 @@
   "RxCUI": "96304",
   "Name": "PRIMIDONE 250 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "96304",
-  "Generic_RxCUI": "201747",
+  "Brand_RxCUI": "201747",
+  "Generic_RxCUI": "96304",
   "prices": {
     "68084020301": {
       "05/19/2021": 0.31013,

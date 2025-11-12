@@ -2,8 +2,8 @@
   "RxCUI": "153823",
   "Name": "CANDESARTAN CILEXETIL 8 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "153823",
-  "Generic_RxCUI": "577787",
+  "Brand_RxCUI": "577787",
+  "Generic_RxCUI": "153823",
   "prices": {
     "62332034290": {
       "05/19/2021": 0.97844,

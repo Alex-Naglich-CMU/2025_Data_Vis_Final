@@ -2,8 +2,8 @@
   "RxCUI": "314209",
   "Name": "RIZATRIPTAN 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "314209",
-  "Generic_RxCUI": "213322",
+  "Brand_RxCUI": "213322",
+  "Generic_RxCUI": "314209",
   "prices": {
     "33342008845": {
       "05/19/2021": 0.61643,

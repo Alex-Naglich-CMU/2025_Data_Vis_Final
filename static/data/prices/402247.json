@@ -2,8 +2,8 @@
   "RxCUI": "402247",
   "Name": "ATAZANAVIR SULFATE 200 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "402247",
-  "Generic_RxCUI": "402093",
+  "Brand_RxCUI": "402093",
+  "Generic_RxCUI": "402247",
   "prices": {
     "69097044503": {
       "03/20/2019": 5.00694,

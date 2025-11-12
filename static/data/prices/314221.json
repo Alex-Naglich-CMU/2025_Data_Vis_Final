@@ -2,8 +2,8 @@
   "RxCUI": "314221",
   "Name": "GAS RELIEF 125 MG CHEW TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "314221",
-  "Generic_RxCUI": "210295",
+  "Brand_RxCUI": "210295",
+  "Generic_RxCUI": "314221",
   "prices": {
     "24385030789": {
       "05/19/2021": 0.10502,

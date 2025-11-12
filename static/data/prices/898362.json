@@ -2,8 +2,8 @@
   "RxCUI": "898362",
   "Name": "BENAZEPRIL-HYDROCHLOROTHIAZIDE 10-12.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "898362",
-  "Generic_RxCUI": "898366",
+  "Brand_RxCUI": "898366",
+  "Generic_RxCUI": "898362",
   "prices": {
     "00574022701": {
       "05/19/2021": 0.43765,

@@ -2,8 +2,8 @@
   "RxCUI": "359494",
   "Name": "ELETRIPTAN HBR 40 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "359494",
-  "Generic_RxCUI": "404444",
+  "Brand_RxCUI": "404444",
+  "Generic_RxCUI": "359494",
   "prices": {
     "00378428808": {
       "05/19/2021": 5.97318,

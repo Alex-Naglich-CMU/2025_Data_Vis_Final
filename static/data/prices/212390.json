@@ -2,8 +2,8 @@
   "RxCUI": "212390",
   "Name": "COREG 25 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "200033",
-  "Generic_RxCUI": "212390",
+  "Brand_RxCUI": "212390",
+  "Generic_RxCUI": "200033",
   "prices": {
     "00007414220": {
       "01/01/2018": 4.60648,

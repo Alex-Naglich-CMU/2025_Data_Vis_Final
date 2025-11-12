@@ -2,8 +2,8 @@
   "RxCUI": "1091210",
   "Name": "METHYLPHENIDATE ER 54 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1091210",
-  "Generic_RxCUI": "2668505",
+  "Brand_RxCUI": "2668505",
+  "Generic_RxCUI": "1091210",
   "prices": {
     "62037072701": {
       "05/19/2021": 1.47751,

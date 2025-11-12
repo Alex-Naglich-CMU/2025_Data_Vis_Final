@@ -2,8 +2,8 @@
   "RxCUI": "1006120",
   "Name": "SULFACETAMIDE 10% EYE DROPS",
   "IsBrand": false,
-  "Brand_RxCUI": "1006120",
-  "Generic_RxCUI": "1006122",
+  "Brand_RxCUI": "1006122",
+  "Generic_RxCUI": "1006120",
   "prices": {
     "24208067004": {
       "05/19/2021": 2.065,

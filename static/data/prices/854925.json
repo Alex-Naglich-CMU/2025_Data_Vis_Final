@@ -2,8 +2,8 @@
   "RxCUI": "854925",
   "Name": "PERINDOPRIL ERBUMINE 8 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "854925",
-  "Generic_RxCUI": "854927",
+  "Brand_RxCUI": "854927",
+  "Generic_RxCUI": "854925",
   "prices": {
     "00054011225": {
       "05/19/2021": 0.57026,

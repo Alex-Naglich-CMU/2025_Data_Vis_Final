@@ -2,8 +2,8 @@
   "RxCUI": "197380",
   "Name": "ATENOLOL 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197380",
-  "Generic_RxCUI": "150750",
+  "Brand_RxCUI": "150750",
+  "Generic_RxCUI": "197380",
   "prices": {
     "29300041001": {
       "05/19/2021": 0.02816,

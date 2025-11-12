@@ -2,8 +2,8 @@
   "RxCUI": "865208",
   "Name": "EMSAM 6 MG/24 HOURS PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "865206",
-  "Generic_RxCUI": "865208",
+  "Brand_RxCUI": "865208",
+  "Generic_RxCUI": "865206",
   "prices": {
     "49502090001": {
       "01/30/2024": 68.1933,

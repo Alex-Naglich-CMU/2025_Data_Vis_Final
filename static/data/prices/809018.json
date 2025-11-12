@@ -2,8 +2,8 @@
   "RxCUI": "809018",
   "Name": "DIOVAN HCT 160-12.5 MG TAB",
   "IsBrand": true,
-  "Brand_RxCUI": "200285",
-  "Generic_RxCUI": "809018",
+  "Brand_RxCUI": "809018",
+  "Generic_RxCUI": "200285",
   "prices": {
     "00078031534": {
       "11/22/2017": 7.90095,

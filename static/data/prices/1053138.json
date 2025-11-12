@@ -2,8 +2,8 @@
   "RxCUI": "1053138",
   "Name": "ITCH RELIEF 2%-0.1% SPRAY",
   "IsBrand": false,
-  "Brand_RxCUI": "1053138",
-  "Generic_RxCUI": "1294592",
+  "Brand_RxCUI": "1294592",
+  "Generic_RxCUI": "1053138",
   "prices": {
     "70000002301": {
       "11/18/2020": 0.04868,

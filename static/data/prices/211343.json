@@ -2,8 +2,8 @@
   "RxCUI": "211343",
   "Name": "DENAVIR 1% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "312255",
-  "Generic_RxCUI": "211343",
+  "Brand_RxCUI": "211343",
+  "Generic_RxCUI": "312255",
   "prices": {
     "00378972055": {
       "06/23/2021": 155.8212,

@@ -2,8 +2,8 @@
   "RxCUI": "876524",
   "Name": "TELMISARTAN-AMLODIPINE 40-5 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "876524",
-  "Generic_RxCUI": "876528",
+  "Brand_RxCUI": "876528",
+  "Generic_RxCUI": "876524",
   "prices": {
     "00378107593": {
       "06/21/2023": 2.64987,

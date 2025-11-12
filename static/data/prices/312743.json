@@ -2,8 +2,8 @@
   "RxCUI": "312743",
   "Name": "QUETIAPINE FUMARATE 100 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "312743",
-  "Generic_RxCUI": "153639",
+  "Brand_RxCUI": "153639",
+  "Generic_RxCUI": "312743",
   "prices": {
     "33342010111": {
       "05/19/2021": 0.05804,

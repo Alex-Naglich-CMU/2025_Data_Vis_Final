@@ -2,8 +2,8 @@
   "RxCUI": "1552004",
   "Name": "SPIRIVA RESPIMAT 2.5 MCG INH",
   "IsBrand": true,
-  "Brand_RxCUI": "1552002",
-  "Generic_RxCUI": "1552004",
+  "Brand_RxCUI": "1552004",
+  "Generic_RxCUI": "1552002",
   "prices": {
     "00597010061": {
       "11/22/2017": 88.34107,

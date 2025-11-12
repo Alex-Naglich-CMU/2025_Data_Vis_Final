@@ -2,8 +2,8 @@
   "RxCUI": "672910",
   "Name": "EQUETRO 200 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "200133",
-  "Generic_RxCUI": "672910",
+  "Brand_RxCUI": "672910",
+  "Generic_RxCUI": "200133",
   "prices": {
     "30698042112": {
       "05/22/2024": 4.1841,

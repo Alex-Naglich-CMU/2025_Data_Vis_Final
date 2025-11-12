@@ -2,8 +2,8 @@
   "RxCUI": "855205",
   "Name": "ABREVA 10% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "797534",
-  "Generic_RxCUI": "855205",
+  "Brand_RxCUI": "855205",
+  "Generic_RxCUI": "797534",
   "prices": {
     "00135020001": {
       "02/21/2018": 7.81043,

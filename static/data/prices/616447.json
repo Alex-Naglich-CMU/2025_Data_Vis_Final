@@ -2,8 +2,8 @@
   "RxCUI": "616447",
   "Name": "CELLCEPT 250 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "199058",
-  "Generic_RxCUI": "616447",
+  "Brand_RxCUI": "616447",
+  "Generic_RxCUI": "199058",
   "prices": {
     "00004025901": {
       "01/01/2018": 8.63943,

@@ -2,8 +2,8 @@
   "RxCUI": "727537",
   "Name": "NEUPOGEN 300 MCG/0.5 ML SYR",
   "IsBrand": true,
-  "Brand_RxCUI": "727535",
-  "Generic_RxCUI": "727537",
+  "Brand_RxCUI": "727537",
+  "Generic_RxCUI": "727535",
   "prices": {
     "55513092401": {
       "05/22/2024": 648.66333,

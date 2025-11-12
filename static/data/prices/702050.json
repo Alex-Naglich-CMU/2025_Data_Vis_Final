@@ -2,8 +2,8 @@
   "RxCUI": "702050",
   "Name": "EAR WAX REMOVAL 6.5% KIT",
   "IsBrand": false,
-  "Brand_RxCUI": "702050",
-  "Generic_RxCUI": "1245627",
+  "Brand_RxCUI": "1245627",
+  "Generic_RxCUI": "702050",
   "prices": {
     "36800083533": {
       "05/19/2021": 0.11768,

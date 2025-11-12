@@ -2,8 +2,8 @@
   "RxCUI": "199889",
   "Name": "TOPIRAMATE 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199889",
-  "Generic_RxCUI": "151228",
+  "Brand_RxCUI": "151228",
+  "Generic_RxCUI": "199889",
   "prices": {
     "69097081815": {
       "05/19/2021": 0.07026,

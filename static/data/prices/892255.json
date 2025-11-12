@@ -2,8 +2,8 @@
   "RxCUI": "892255",
   "Name": "LEVOTHYROXINE 300 MCG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "892255",
-  "Generic_RxCUI": "966243",
+  "Brand_RxCUI": "966243",
+  "Generic_RxCUI": "892255",
   "prices": {
     "69238184101": {
       "05/19/2021": 0.49158,

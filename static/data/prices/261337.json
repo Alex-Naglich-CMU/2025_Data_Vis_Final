@@ -2,8 +2,8 @@
   "RxCUI": "261337",
   "Name": "ZYPREXA 15 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "312077",
-  "Generic_RxCUI": "261337",
+  "Brand_RxCUI": "261337",
+  "Generic_RxCUI": "312077",
   "prices": {
     "00002441530": {
       "01/31/2020": 31.2638,

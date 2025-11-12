@@ -2,8 +2,8 @@
   "RxCUI": "898719",
   "Name": "BENAZEPRIL HCL 40 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "898719",
-  "Generic_RxCUI": "898721",
+  "Brand_RxCUI": "898721",
+  "Generic_RxCUI": "898719",
   "prices": {
     "50268011215": {
       "05/19/2021": 0.11909,

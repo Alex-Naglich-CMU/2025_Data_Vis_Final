@@ -2,8 +2,8 @@
   "RxCUI": "197411",
   "Name": "BROMOCRIPTINE 2.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197411",
-  "Generic_RxCUI": "105446",
+  "Brand_RxCUI": "105446",
+  "Generic_RxCUI": "197411",
   "prices": {
     "60687028611": {
       "05/19/2021": 1.76074,

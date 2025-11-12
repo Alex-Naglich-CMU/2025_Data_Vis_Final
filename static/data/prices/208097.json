@@ -2,8 +2,8 @@
   "RxCUI": "208097",
   "Name": "CARAFATE 1 GM TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "314234",
-  "Generic_RxCUI": "208097",
+  "Brand_RxCUI": "208097",
+  "Generic_RxCUI": "314234",
   "prices": {
     "58914017110": {
       "01/03/2023": 4.51723,

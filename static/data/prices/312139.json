@@ -2,8 +2,8 @@
   "RxCUI": "312139",
   "Name": "OXICONAZOLE NITRATE 1% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "312139",
-  "Generic_RxCUI": "207248",
+  "Brand_RxCUI": "207248",
+  "Generic_RxCUI": "312139",
   "prices": {
     "00168035860": {
       "08/23/2017": 7.706,

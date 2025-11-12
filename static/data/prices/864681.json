@@ -2,8 +2,8 @@
   "RxCUI": "864681",
   "Name": "ATOVAQUONE-PROGUANIL 62.5-25",
   "IsBrand": false,
-  "Brand_RxCUI": "864681",
-  "Generic_RxCUI": "864685",
+  "Brand_RxCUI": "864685",
+  "Generic_RxCUI": "864681",
   "prices": {
     "68462040201": {
       "08/21/2019": 1.58169,

@@ -2,8 +2,8 @@
   "RxCUI": "311989",
   "Name": "NITROFURANTOIN 25 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "311989",
-  "Generic_RxCUI": "207790",
+  "Brand_RxCUI": "207790",
+  "Generic_RxCUI": "311989",
   "prices": {
     "43386045011": {
       "06/21/2017": 1.3135,

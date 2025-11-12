@@ -2,8 +2,8 @@
   "RxCUI": "402131",
   "Name": "ARIPIPRAZOLE 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "402131",
-  "Generic_RxCUI": "404602",
+  "Brand_RxCUI": "404602",
+  "Generic_RxCUI": "402131",
   "prices": {
     "63739041310": {
       "05/19/2021": 0.17023,

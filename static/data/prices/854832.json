@@ -2,8 +2,8 @@
   "RxCUI": "854832",
   "Name": "VYVANSE 20 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "854830",
-  "Generic_RxCUI": "854832",
+  "Brand_RxCUI": "854832",
+  "Generic_RxCUI": "854830",
   "prices": {
     "59417010210": {
       "11/22/2017": 8.6615,

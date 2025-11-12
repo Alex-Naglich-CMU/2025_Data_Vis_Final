@@ -2,8 +2,8 @@
   "RxCUI": "2196592",
   "Name": "DULERA 50 MCG-5 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "2196590",
-  "Generic_RxCUI": "2196592",
+  "Brand_RxCUI": "2196592",
+  "Generic_RxCUI": "2196590",
   "prices": {
     "00085222301": {
       "12/22/2021": 23.03013,

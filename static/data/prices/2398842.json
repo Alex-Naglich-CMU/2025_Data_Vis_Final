@@ -2,8 +2,8 @@
   "RxCUI": "2398842",
   "Name": "OZEMPIC 1 MG/DOSE (4 MG/3 ML) PEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2398841",
-  "Generic_RxCUI": "2398842",
+  "Brand_RxCUI": "2398842",
+  "Generic_RxCUI": "2398841",
   "prices": {
     "169413001": {
       "1/6/2022": 287.00972

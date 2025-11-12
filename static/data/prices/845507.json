@@ -2,8 +2,8 @@
   "RxCUI": "845507",
   "Name": "EVEROLIMUS 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "845507",
-  "Generic_RxCUI": "2685204",
+  "Brand_RxCUI": "2685204",
+  "Generic_RxCUI": "845507",
   "prices": {
     "00054048213": {
       "09/18/2024": 28.82453,

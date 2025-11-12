@@ -2,8 +2,8 @@
   "RxCUI": "351926",
   "Name": "NOVOLOG 100 UNIT/ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "311040",
-  "Generic_RxCUI": "351926",
+  "Brand_RxCUI": "351926",
+  "Generic_RxCUI": "311040",
   "prices": {
     "00169750111": {
       "02/21/2018": 26.4766,

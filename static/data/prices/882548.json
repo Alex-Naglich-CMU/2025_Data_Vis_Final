@@ -2,8 +2,8 @@
   "RxCUI": "882548",
   "Name": "CLINDA-TRETINOIN 1.2%-0.025%",
   "IsBrand": false,
-  "Brand_RxCUI": "882548",
-  "Generic_RxCUI": "999927",
+  "Brand_RxCUI": "999927",
+  "Generic_RxCUI": "882548",
   "prices": {
     "00472179030": {
       "10/17/2018": 10.08894,

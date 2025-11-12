@@ -2,8 +2,8 @@
   "RxCUI": "310157",
   "Name": "ERYTHROMYCIN DR 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "310157",
-  "Generic_RxCUI": "206080",
+  "Brand_RxCUI": "206080",
+  "Generic_RxCUI": "310157",
   "prices": {
     "13668058801": {
       "12/21/2022": 4.84655,

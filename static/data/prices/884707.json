@@ -2,8 +2,8 @@
   "RxCUI": "884707",
   "Name": "ESTRADIOL 10 MCG VAGINAL INSRT",
   "IsBrand": false,
-  "Brand_RxCUI": "884707",
-  "Generic_RxCUI": "2048916",
+  "Brand_RxCUI": "2048916",
+  "Generic_RxCUI": "884707",
   "prices": {
     "00093322308": {
       "05/19/2021": 10.61933,

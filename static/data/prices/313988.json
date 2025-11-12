@@ -2,8 +2,8 @@
   "RxCUI": "313988",
   "Name": "FUROSEMIDE 40 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "313988",
-  "Generic_RxCUI": "200809",
+  "Brand_RxCUI": "200809",
+  "Generic_RxCUI": "313988",
   "prices": {
     "63304062501": {
       "05/19/2021": 0.03509,

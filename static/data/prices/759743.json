@@ -2,8 +2,8 @@
   "RxCUI": "759743",
   "Name": "DESOGESTR-ETH ESTRAD ETH ESTRA",
   "IsBrand": false,
-  "Brand_RxCUI": "759743",
-  "Generic_RxCUI": "2001756",
+  "Brand_RxCUI": "2001756",
+  "Generic_RxCUI": "759743",
   "prices": {
     "00378729653": {
       "05/19/2021": 0.26169,

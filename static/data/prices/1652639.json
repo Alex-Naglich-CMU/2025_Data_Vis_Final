@@ -2,8 +2,8 @@
   "RxCUI": "1652639",
   "Name": "INSULIN LISPRO 100 UNIT/ML KWIKPEN",
   "IsBrand": false,
-  "Brand_RxCUI": "1652639",
-  "Generic_RxCUI": "1992171",
+  "Brand_RxCUI": "1992171",
+  "Generic_RxCUI": "1652639",
   "prices": {
     "00002822259": {
       "05/19/2021": 16.98794,

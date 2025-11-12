@@ -2,8 +2,8 @@
   "RxCUI": "562510",
   "Name": "SODIUM FLUORIDE 0.2% RINSE",
   "IsBrand": false,
-  "Brand_RxCUI": "562510",
-  "Generic_RxCUI": "1488074",
+  "Brand_RxCUI": "1488074",
+  "Generic_RxCUI": "562510",
   "prices": {
     "11527073516": {
       "2/22/2023": 0.02187,

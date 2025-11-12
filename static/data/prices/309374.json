@@ -2,8 +2,8 @@
   "RxCUI": "309374",
   "Name": "CLOZAPINE 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "309374",
-  "Generic_RxCUI": "2269079",
+  "Brand_RxCUI": "2269079",
+  "Generic_RxCUI": "309374",
   "prices": {
     "72721177005": {
       "05/19/2021": 1.45187,

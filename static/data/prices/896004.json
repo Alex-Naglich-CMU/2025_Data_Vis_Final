@@ -2,8 +2,8 @@
   "RxCUI": "896004",
   "Name": "FLUTICASONE PROPIONATE HFA 220 MCG INHALER",
   "IsBrand": false,
-  "Brand_RxCUI": "896004",
-  "Generic_RxCUI": "896006",
+  "Brand_RxCUI": "896006",
+  "Generic_RxCUI": "896004",
   "prices": {
     "66993008096": {
       "9/21/2022": 21.54625,

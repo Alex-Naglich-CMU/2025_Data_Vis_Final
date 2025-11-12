@@ -2,8 +2,8 @@
   "RxCUI": "1115700",
   "Name": "TAMIFLU 6 MG/ML SUSPENSION",
   "IsBrand": true,
-  "Brand_RxCUI": "1115698",
-  "Generic_RxCUI": "1115700",
+  "Brand_RxCUI": "1115700",
+  "Generic_RxCUI": "1115698",
   "prices": {
     "00004082205": {
       "07/01/2017": 2.43594,

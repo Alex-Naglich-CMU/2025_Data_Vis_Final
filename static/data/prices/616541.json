@@ -2,8 +2,8 @@
   "RxCUI": "616541",
   "Name": "OMEPRAZOLE-BICARB 40-1,100 CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "616541",
-  "Generic_RxCUI": "646352",
+  "Brand_RxCUI": "646352",
+  "Generic_RxCUI": "616541",
   "prices": {
     "27241003203": {
       "05/19/2021": 1.2891,

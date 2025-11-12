@@ -2,8 +2,8 @@
   "RxCUI": "1992273",
   "Name": "CLOBETASOL EMOLLNT 0.05% FOAM",
   "IsBrand": false,
-  "Brand_RxCUI": "1992273",
-  "Generic_RxCUI": "2180345",
+  "Brand_RxCUI": "2180345",
+  "Generic_RxCUI": "1992273",
   "prices": {
     "45802063732": {
       "07/19/2017": 4.0704,

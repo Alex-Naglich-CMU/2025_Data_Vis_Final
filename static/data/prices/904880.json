@@ -2,8 +2,8 @@
   "RxCUI": "904880",
   "Name": "BUPRENORPHINE 5 MCG/HR PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "904880",
-  "Generic_RxCUI": "904882",
+  "Brand_RxCUI": "904882",
+  "Generic_RxCUI": "904880",
   "prices": {
     "42858075040": {
       "05/19/2021": 42.89764,

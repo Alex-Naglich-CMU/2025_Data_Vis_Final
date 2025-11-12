@@ -2,8 +2,8 @@
   "RxCUI": "727507",
   "Name": "OVIDREL 250 MCG/0.5 ML SYRG",
   "IsBrand": true,
-  "Brand_RxCUI": "727505",
-  "Generic_RxCUI": "727507",
+  "Brand_RxCUI": "727507",
+  "Generic_RxCUI": "727505",
   "prices": {
     "44087115001": {
       "06/30/2017": 282.72435,

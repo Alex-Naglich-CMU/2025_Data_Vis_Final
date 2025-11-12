@@ -2,8 +2,8 @@
   "RxCUI": "1869712",
   "Name": "FLONASE SENSIMIST 27.5 MCG SPR",
   "IsBrand": true,
-  "Brand_RxCUI": "1797890",
-  "Generic_RxCUI": "1869712",
+  "Brand_RxCUI": "1869712",
+  "Generic_RxCUI": "1797890",
   "prices": {
     "00135061502": {
       "08/23/2017": 1.36299,

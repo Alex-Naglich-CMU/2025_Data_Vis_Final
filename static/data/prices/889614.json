@@ -2,8 +2,8 @@
   "RxCUI": "889614",
   "Name": "CHLORDIAZEPOXIDE-CLIDINIUM CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "889614",
-  "Generic_RxCUI": "889616",
+  "Brand_RxCUI": "889616",
+  "Generic_RxCUI": "889614",
   "prices": {
     "11534019701": {
       "06/23/2021": 6.47214,

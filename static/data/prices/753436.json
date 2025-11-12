@@ -2,8 +2,8 @@
   "RxCUI": "753436",
   "Name": "METHYLPHENIDATE 10 MG/9 HR PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "753436",
-  "Generic_RxCUI": "753437",
+  "Brand_RxCUI": "753437",
+  "Generic_RxCUI": "753436",
   "prices": {
     "00378826016": {
       "04/17/2024": 11.47482,

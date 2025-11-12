@@ -2,8 +2,8 @@
   "RxCUI": "892251",
   "Name": "LEVOTHYROXINE 200 MCG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "892251",
-  "Generic_RxCUI": "966251",
+  "Brand_RxCUI": "966251",
+  "Generic_RxCUI": "892251",
   "prices": {
     "00378181977": {
       "05/19/2021": 0.39095,

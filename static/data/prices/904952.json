@@ -2,8 +2,8 @@
   "RxCUI": "904952",
   "Name": "IBANDRONATE 3 MG/3 ML SYRINGE",
   "IsBrand": false,
-  "Brand_RxCUI": "904952",
-  "Generic_RxCUI": "904954",
+  "Brand_RxCUI": "904954",
+  "Generic_RxCUI": "904952",
   "prices": {
     "25021082761": {
       "12/18/2024": 52.87722,

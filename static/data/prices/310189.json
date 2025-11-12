@@ -2,8 +2,8 @@
   "RxCUI": "310189",
   "Name": "ESTRADIOL VALERATE 50 MG/5 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "310189",
-  "Generic_RxCUI": "206620",
+  "Brand_RxCUI": "206620",
+  "Generic_RxCUI": "310189",
   "prices": {
     "00143928901": {
       "05/22/2024": 16.26086,

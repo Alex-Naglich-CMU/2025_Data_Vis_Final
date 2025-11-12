@@ -2,8 +2,8 @@
   "RxCUI": "477130",
   "Name": "TELMISARTAN-HYDROCHLOROTHIAZIDE 80-25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "477130",
-  "Generic_RxCUI": "749841",
+  "Brand_RxCUI": "749841",
+  "Generic_RxCUI": "477130",
   "prices": {
     "00054054718": {
       "05/19/2021": 2.05048,

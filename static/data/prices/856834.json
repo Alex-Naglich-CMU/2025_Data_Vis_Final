@@ -2,8 +2,8 @@
   "RxCUI": "856834",
   "Name": "AMITRIPTYLINE HCL 25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "856834",
-  "Generic_RxCUI": "856836",
+  "Brand_RxCUI": "856836",
+  "Generic_RxCUI": "856834",
   "prices": {
     "00378262501": {
       "05/19/2021": 0.09534,

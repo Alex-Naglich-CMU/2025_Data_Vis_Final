@@ -2,8 +2,8 @@
   "RxCUI": "313585",
   "Name": "VENLAFAXINE HCL ER 75 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "313585",
-  "Generic_RxCUI": "729929",
+  "Brand_RxCUI": "729929",
+  "Generic_RxCUI": "313585",
   "prices": {
     "00093738505": {
       "05/19/2021": 0.1327,

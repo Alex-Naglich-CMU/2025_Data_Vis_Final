@@ -2,8 +2,8 @@
   "RxCUI": "328161",
   "Name": "METHYLPREDNISOLONE 16 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "328161",
-  "Generic_RxCUI": "207138",
+  "Brand_RxCUI": "207138",
+  "Generic_RxCUI": "328161",
   "prices": {
     "59762005001": {
       "06/19/2019": 1.75672,

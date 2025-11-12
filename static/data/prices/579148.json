@@ -2,8 +2,8 @@
   "RxCUI": "579148",
   "Name": "GALANTAMINE HBR 12 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "579148",
-  "Generic_RxCUI": "602734",
+  "Brand_RxCUI": "602734",
+  "Generic_RxCUI": "579148",
   "prices": {
     "00378272391": {
       "10/18/2017": 0.754,

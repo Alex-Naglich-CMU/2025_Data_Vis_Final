@@ -2,8 +2,8 @@
   "RxCUI": "315213",
   "Name": "FLUORIDE 1 MG TABLET CHEWABLE",
   "IsBrand": false,
-  "Brand_RxCUI": "315213",
-  "Generic_RxCUI": "1302475",
+  "Brand_RxCUI": "1302475",
+  "Generic_RxCUI": "315213",
   "prices": {
     "59088010673": {
       "05/19/2021": 0.05974,

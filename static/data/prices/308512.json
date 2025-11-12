@@ -2,8 +2,8 @@
   "RxCUI": "308512",
   "Name": "SM DOUBLE ANTIBIOTIC OINT",
   "IsBrand": false,
-  "Brand_RxCUI": "308512",
-  "Generic_RxCUI": "213626",
+  "Brand_RxCUI": "213626",
+  "Generic_RxCUI": "308512",
   "prices": {
     "49348027472": {
       "06/23/2021": 0.08384,

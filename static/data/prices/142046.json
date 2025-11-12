@@ -2,8 +2,8 @@
   "RxCUI": "142046",
   "Name": "METRONIDAZOLE VAGINAL 0.75% GL",
   "IsBrand": false,
-  "Brand_RxCUI": "142046",
-  "Generic_RxCUI": "608934",
+  "Brand_RxCUI": "608934",
+  "Generic_RxCUI": "142046",
   "prices": {
     "45802013970": {
       "05/19/2021": 0.86024,

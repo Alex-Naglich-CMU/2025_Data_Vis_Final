@@ -2,8 +2,8 @@
   "RxCUI": "884385",
   "Name": "DEXTROAMPHETAMINE 10 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "884385",
-  "Generic_RxCUI": "1541609",
+  "Brand_RxCUI": "1541609",
+  "Generic_RxCUI": "884385",
   "prices": {
     "13107003601": {
       "05/19/2021": 0.4698,

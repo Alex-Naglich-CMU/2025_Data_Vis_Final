@@ -2,8 +2,8 @@
   "RxCUI": "966200",
   "Name": "LEVOXYL 150 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "966225",
-  "Generic_RxCUI": "966200",
+  "Brand_RxCUI": "966200",
+  "Generic_RxCUI": "966225",
   "prices": {
     "60793085810": {
       "06/01/2017": 0.90135,

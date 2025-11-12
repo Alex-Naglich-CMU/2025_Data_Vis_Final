@@ -2,8 +2,8 @@
   "RxCUI": "861064",
   "Name": "SERTRALINE 20 MG/ML ORAL CONC",
   "IsBrand": false,
-  "Brand_RxCUI": "861064",
-  "Generic_RxCUI": "861066",
+  "Brand_RxCUI": "861066",
+  "Generic_RxCUI": "861064",
   "prices": {
     "64980040906": {
       "05/19/2021": 0.42501,

@@ -2,8 +2,8 @@
   "RxCUI": "996561",
   "Name": "MEMANTINE HCL 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "996561",
-  "Generic_RxCUI": "996563",
+  "Brand_RxCUI": "996563",
+  "Generic_RxCUI": "996561",
   "prices": {
     "60687018411": {
       "05/19/2021": 0.08491,

@@ -2,8 +2,8 @@
   "RxCUI": "542370",
   "Name": "VIRACEPT 625 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "403978",
-  "Generic_RxCUI": "542370",
+  "Brand_RxCUI": "542370",
+  "Generic_RxCUI": "403978",
   "prices": {
     "63010002770": {
       "11/15/2017": 9.08655,

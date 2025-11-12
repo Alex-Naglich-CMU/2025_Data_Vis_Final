@@ -2,8 +2,8 @@
   "RxCUI": "309309",
   "Name": "CIPROFLOXACIN HCL 500 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "309309",
-  "Generic_RxCUI": "205770",
+  "Brand_RxCUI": "205770",
+  "Generic_RxCUI": "309309",
   "prices": {
     "65862007701": {
       "05/19/2021": 0.14001,

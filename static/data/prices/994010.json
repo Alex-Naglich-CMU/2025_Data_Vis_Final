@@ -2,8 +2,8 @@
   "RxCUI": "994010",
   "Name": "VIMOVO DR 500-20 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "994008",
-  "Generic_RxCUI": "994010",
+  "Brand_RxCUI": "994010",
+  "Generic_RxCUI": "994008",
   "prices": {
     "75987003004": {
       "09/20/2017": 35.90243,

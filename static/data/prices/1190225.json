@@ -2,8 +2,8 @@
   "RxCUI": "1190225",
   "Name": "COMBIVENT RESPIMAT INHAL SPRAY",
   "IsBrand": true,
-  "Brand_RxCUI": "1190220",
-  "Generic_RxCUI": "1190225",
+  "Brand_RxCUI": "1190225",
+  "Generic_RxCUI": "1190220",
   "prices": {
     "00597002402": {
       "11/22/2017": 82.78107,

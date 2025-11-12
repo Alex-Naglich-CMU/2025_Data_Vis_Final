@@ -2,8 +2,8 @@
   "RxCUI": "313571",
   "Name": "VANCOMYCIN HCL 250 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "313571",
-  "Generic_RxCUI": "201849",
+  "Brand_RxCUI": "201849",
+  "Generic_RxCUI": "313571",
   "prices": {
     "62559039120": {
       "05/19/2021": 4.08635,

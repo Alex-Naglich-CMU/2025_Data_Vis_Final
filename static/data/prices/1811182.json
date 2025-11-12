@@ -2,8 +2,8 @@
   "RxCUI": "1811182",
   "Name": "VASCEPA 0.5 GM CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "1811180",
-  "Generic_RxCUI": "1811182",
+  "Brand_RxCUI": "1811182",
+  "Generic_RxCUI": "1811180",
   "prices": {
     "52937000340": {
       "12/31/2017": 1.30536,

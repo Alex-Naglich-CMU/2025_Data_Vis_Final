@@ -2,8 +2,8 @@
   "RxCUI": "313570",
   "Name": "VANCOMYCIN HCL 125 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "313570",
-  "Generic_RxCUI": "201848",
+  "Brand_RxCUI": "201848",
+  "Generic_RxCUI": "313570",
   "prices": {
     "47781072950": {
       "05/19/2021": 2.09777,

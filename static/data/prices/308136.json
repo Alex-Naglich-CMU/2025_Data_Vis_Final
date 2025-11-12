@@ -2,8 +2,8 @@
   "RxCUI": "308136",
   "Name": "AMLODIPINE BESYLATE 2.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "308136",
-  "Generic_RxCUI": "212542",
+  "Brand_RxCUI": "212542",
+  "Generic_RxCUI": "308136",
   "prices": {
     "68180071909": {
       "05/19/2021": 0.01282,

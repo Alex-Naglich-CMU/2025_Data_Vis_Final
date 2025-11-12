@@ -2,8 +2,8 @@
   "RxCUI": "996101",
   "Name": "JALYN 0.5-0.4 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "996097",
-  "Generic_RxCUI": "996101",
+  "Brand_RxCUI": "996101",
+  "Generic_RxCUI": "996097",
   "prices": {
     "00173080959": {
       "08/23/2017": 5.94072,

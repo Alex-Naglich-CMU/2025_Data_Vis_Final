@@ -2,8 +2,8 @@
   "RxCUI": "636522",
   "Name": "MUCUS ER 600 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "636522",
-  "Generic_RxCUI": "891301",
+  "Brand_RxCUI": "891301",
+  "Generic_RxCUI": "636522",
   "prices": {
     "46122041660": {
       "05/19/2021": 0.34389,

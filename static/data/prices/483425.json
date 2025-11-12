@@ -2,8 +2,8 @@
   "RxCUI": "483425",
   "Name": "FENOFIBRATE 130 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "483425",
-  "Generic_RxCUI": "578797",
+  "Brand_RxCUI": "578797",
+  "Generic_RxCUI": "483425",
   "prices": {
     "63304044490": {
       "05/19/2021": 2.04566,

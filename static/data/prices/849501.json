@@ -2,8 +2,8 @@
   "RxCUI": "849501",
   "Name": "DESMOPRESSIN 40 MCG/10 ML VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "849501",
-  "Generic_RxCUI": "849503",
+  "Brand_RxCUI": "849503",
+  "Generic_RxCUI": "849501",
   "prices": {
     "16714001501": {
       "05/22/2024": 32.33688

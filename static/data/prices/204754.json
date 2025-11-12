@@ -2,8 +2,8 @@
   "RxCUI": "204754",
   "Name": "PETROLEUM JELLY",
   "IsBrand": false,
-  "Brand_RxCUI": "204754",
-  "Generic_RxCUI": "827700",
+  "Brand_RxCUI": "827700",
+  "Generic_RxCUI": "204754",
   "prices": {
     "70000048701": {
       "11/17/2021": 0.00639,

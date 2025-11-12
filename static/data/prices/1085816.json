@@ -2,8 +2,8 @@
   "RxCUI": "1085816",
   "Name": "SPINOSAD 0.9% TOPICAL SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "1085816",
-  "Generic_RxCUI": "1085820",
+  "Brand_RxCUI": "1085820",
+  "Generic_RxCUI": "1085816",
   "prices": {
     "28595057004": {
       "08/23/2017": 1.58492,

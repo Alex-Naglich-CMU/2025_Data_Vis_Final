@@ -2,8 +2,8 @@
   "RxCUI": "197606",
   "Name": "DIGOXIN 250 MCG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197606",
-  "Generic_RxCUI": "1245373",
+  "Brand_RxCUI": "1245373",
+  "Generic_RxCUI": "197606",
   "prices": {
     "00115982203": {
       "05/19/2021": 0.31834,

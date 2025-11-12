@@ -2,8 +2,8 @@
   "RxCUI": "310433",
   "Name": "GABAPENTIN 600 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "310433",
-  "Generic_RxCUI": "261280",
+  "Brand_RxCUI": "261280",
+  "Generic_RxCUI": "310433",
   "prices": {
     "00228263650": {
       "05/19/2021": 0.10759,

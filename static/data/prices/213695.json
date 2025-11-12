@@ -2,8 +2,8 @@
   "RxCUI": "213695",
   "Name": "SOMA 350 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "197446",
-  "Generic_RxCUI": "213695",
+  "Brand_RxCUI": "213695",
+  "Generic_RxCUI": "197446",
   "prices": {
     "00037200101": {
       "07/17/2024": 10.36922,

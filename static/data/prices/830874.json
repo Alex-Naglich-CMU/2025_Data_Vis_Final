@@ -2,8 +2,8 @@
   "RxCUI": "830874",
   "Name": "DILTIAZEM 24H ER(LA) 120 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "830874",
-  "Generic_RxCUI": "830876",
+  "Brand_RxCUI": "830876",
+  "Generic_RxCUI": "830874",
   "prices": {
     "68682070430": {
       "10/18/2023": 1.65838,

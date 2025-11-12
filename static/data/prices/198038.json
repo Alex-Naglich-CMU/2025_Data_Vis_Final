@@ -2,8 +2,8 @@
   "RxCUI": "198038",
   "Name": "NITROGLYCERIN 0.3 MG TABLET SL",
   "IsBrand": false,
-  "Brand_RxCUI": "198038",
-  "Generic_RxCUI": "207331",
+  "Brand_RxCUI": "207331",
+  "Generic_RxCUI": "198038",
   "prices": {
     "68462063801": {
       "05/19/2021": 0.26212,

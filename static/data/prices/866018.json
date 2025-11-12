@@ -2,8 +2,8 @@
   "RxCUI": "866018",
   "Name": "BUSPIRONE HCL 15 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "866018",
-  "Generic_RxCUI": "866088",
+  "Brand_RxCUI": "866088",
+  "Generic_RxCUI": "866018",
   "prices": {
     "51079096020": {
       "05/19/2021": 0.05791,

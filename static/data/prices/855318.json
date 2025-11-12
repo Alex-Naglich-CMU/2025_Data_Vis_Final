@@ -2,8 +2,8 @@
   "RxCUI": "855318",
   "Name": "WARFARIN SODIUM 3 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "855318",
-  "Generic_RxCUI": "855322",
+  "Brand_RxCUI": "855322",
+  "Generic_RxCUI": "855318",
   "prices": {
     "65162076410": {
       "05/19/2021": 0.11866,

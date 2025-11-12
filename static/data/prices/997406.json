@@ -2,8 +2,8 @@
   "RxCUI": "997406",
   "Name": "FEXOFENADINE-PSE ER 60-120 TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "997406",
-  "Generic_RxCUI": "1190331",
+  "Brand_RxCUI": "1190331",
+  "Generic_RxCUI": "997406",
   "prices": {
     "43598082335": {
       "05/19/2021": 0.61082,

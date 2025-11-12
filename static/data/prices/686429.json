@@ -2,8 +2,8 @@
   "RxCUI": "686429",
   "Name": "MESALAMINE DR 1.2 GM TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "686429",
-  "Generic_RxCUI": "686433",
+  "Brand_RxCUI": "686433",
+  "Generic_RxCUI": "686429",
   "prices": {
     "60687039725": {
       "05/19/2021": 3.31611,

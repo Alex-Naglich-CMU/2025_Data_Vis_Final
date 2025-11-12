@@ -2,8 +2,8 @@
   "RxCUI": "854302",
   "Name": "OMNITROPE 10 MG/1.5 ML CRTG",
   "IsBrand": true,
-  "Brand_RxCUI": "1736337",
-  "Generic_RxCUI": "854302",
+  "Brand_RxCUI": "854302",
+  "Generic_RxCUI": "1736337",
   "prices": {
     "00781300407": {
       "05/22/2024": 801.00167,

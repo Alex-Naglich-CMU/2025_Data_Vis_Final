@@ -2,8 +2,8 @@
   "RxCUI": "647237",
   "Name": "PIOGLITAZONE-GLIMEPIRIDE 30-2",
   "IsBrand": false,
-  "Brand_RxCUI": "647237",
-  "Generic_RxCUI": "731463",
+  "Brand_RxCUI": "731463",
+  "Generic_RxCUI": "647237",
   "prices": {
     "66993082130": {
       "11/20/2024": 7.69783,

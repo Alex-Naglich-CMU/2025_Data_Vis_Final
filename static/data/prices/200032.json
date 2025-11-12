@@ -2,8 +2,8 @@
   "RxCUI": "200032",
   "Name": "CARVEDILOL 12.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200032",
-  "Generic_RxCUI": "212389",
+  "Brand_RxCUI": "212389",
+  "Generic_RxCUI": "200032",
   "prices": {
     "13107014401": {
       "05/19/2021": 0.02752,

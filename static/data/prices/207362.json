@@ -2,8 +2,8 @@
   "RxCUI": "207362",
   "Name": "MINOCYCLINE HCL 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "207362",
-  "Generic_RxCUI": "762420",
+  "Brand_RxCUI": "762420",
+  "Generic_RxCUI": "207362",
   "prices": {
     "49884051101": {
       "10/18/2017": 1.07262,

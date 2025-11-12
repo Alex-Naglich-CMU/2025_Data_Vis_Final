@@ -2,8 +2,8 @@
   "RxCUI": "351249",
   "Name": "ESCITALOPRAM 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "351249",
-  "Generic_RxCUI": "404408",
+  "Brand_RxCUI": "404408",
+  "Generic_RxCUI": "351249",
   "prices": {
     "33342003611": {
       "05/19/2021": 0.05752,

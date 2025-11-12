@@ -2,8 +2,8 @@
   "RxCUI": "995666",
   "Name": "MECLIZINE 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "995666",
-  "Generic_RxCUI": "2110527",
+  "Brand_RxCUI": "2110527",
+  "Generic_RxCUI": "995666",
   "prices": {
     "42806001410": {
       "05/19/2021": 0.13699,

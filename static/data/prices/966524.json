@@ -2,8 +2,8 @@
   "RxCUI": "966524",
   "Name": "PULMICORT 180 MCG FLEXHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "966522",
-  "Generic_RxCUI": "966524",
+  "Brand_RxCUI": "966524",
+  "Generic_RxCUI": "966522",
   "prices": {
     "00186091612": {
       "11/22/2017": 207.53891,

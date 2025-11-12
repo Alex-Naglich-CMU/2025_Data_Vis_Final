@@ -2,8 +2,8 @@
   "RxCUI": "751553",
   "Name": "LEVONOR-ETH ESTRA 0.09-0.02 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "751553",
-  "Generic_RxCUI": "2472307",
+  "Brand_RxCUI": "2472307",
+  "Generic_RxCUI": "751553",
   "prices": {
     "68462063729": {
       "05/19/2021": 1.21031,

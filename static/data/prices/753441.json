@@ -2,8 +2,8 @@
   "RxCUI": "753441",
   "Name": "METHYLPHENIDATE 30 MG/9 HR PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "753441",
-  "Generic_RxCUI": "753443",
+  "Brand_RxCUI": "753443",
+  "Generic_RxCUI": "753441",
   "prices": {
     "00378826316": {
       "05/17/2023": 12.61733,

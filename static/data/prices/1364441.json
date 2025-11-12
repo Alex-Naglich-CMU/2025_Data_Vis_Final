@@ -2,8 +2,8 @@
   "RxCUI": "1364441",
   "Name": "ELIQUIS 2.5 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1364435",
-  "Generic_RxCUI": "1364441",
+  "Brand_RxCUI": "1364441",
+  "Generic_RxCUI": "1364435",
   "prices": {
     "00003089331": {
       "01/01/2018": 6.70256,

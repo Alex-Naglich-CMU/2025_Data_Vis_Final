@@ -2,8 +2,8 @@
   "RxCUI": "597980",
   "Name": "AMLODIPINE-ATORVAST 5-20 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "597980",
-  "Generic_RxCUI": "750231",
+  "Brand_RxCUI": "750231",
+  "Generic_RxCUI": "597980",
   "prices": {
     "60505348303": {
       "06/23/2021": 1.54267,

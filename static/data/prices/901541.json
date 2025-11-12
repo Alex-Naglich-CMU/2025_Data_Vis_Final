@@ -2,8 +2,8 @@
   "RxCUI": "901541",
   "Name": "PRAMIPEXOLE ER 0.375 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "901541",
-  "Generic_RxCUI": "901543",
+  "Brand_RxCUI": "901543",
+  "Generic_RxCUI": "901541",
   "prices": {
     "55111061130": {
       "03/20/2019": 9.43194,

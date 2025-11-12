@@ -2,8 +2,8 @@
   "RxCUI": "141963",
   "Name": "AZITHROMYCIN 200 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "141963",
-  "Generic_RxCUI": "105260",
+  "Brand_RxCUI": "105260",
+  "Generic_RxCUI": "141963",
   "prices": {
     "00093202623": {
       "05/19/2021": 0.52936,

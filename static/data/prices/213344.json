@@ -2,8 +2,8 @@
   "RxCUI": "213344",
   "Name": "CELEXA 20 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "200371",
-  "Generic_RxCUI": "213344",
+  "Brand_RxCUI": "213344",
+  "Generic_RxCUI": "200371",
   "prices": {
     "00456402001": {
       "01/01/2018": 8.76451,

@@ -2,8 +2,8 @@
   "RxCUI": "884520",
   "Name": "DEXTROAMPHETAMINE ER 10 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "884520",
-  "Generic_RxCUI": "884528",
+  "Brand_RxCUI": "884528",
+  "Generic_RxCUI": "884520",
   "prices": {
     "00115992810": {
       "05/19/2021": 1.37825,

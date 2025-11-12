@@ -2,8 +2,8 @@
   "RxCUI": "197901",
   "Name": "LORAZEPAM 1 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197901",
-  "Generic_RxCUI": "104719",
+  "Brand_RxCUI": "104719",
+  "Generic_RxCUI": "197901",
   "prices": {
     "60687035501": {
       "05/19/2021": 0.04082,

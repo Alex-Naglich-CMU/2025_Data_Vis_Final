@@ -2,8 +2,8 @@
   "RxCUI": "238154",
   "Name": "BUTALB-ACETAMINOPHEN-CAFF 50-325-40 TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "238154",
-  "Generic_RxCUI": "211194",
+  "Brand_RxCUI": "211194",
+  "Generic_RxCUI": "238154",
   "prices": {
     "00527169505": {
       "05/19/2021": 0.17693,

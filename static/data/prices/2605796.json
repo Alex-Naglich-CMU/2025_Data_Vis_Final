@@ -2,8 +2,8 @@
   "RxCUI": "2605796",
   "Name": "METHYLPHENIDATE ER 63 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "2605796",
-  "Generic_RxCUI": "2605946",
+  "Brand_RxCUI": "2605946",
+  "Generic_RxCUI": "2605796",
   "prices": {
     "13811070030": {
       "05/22/2024": 16.72184,

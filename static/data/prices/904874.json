@@ -2,8 +2,8 @@
   "RxCUI": "904874",
   "Name": "BUTRANS 10 MCG/HR PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "904870",
-  "Generic_RxCUI": "904874",
+  "Brand_RxCUI": "904874",
+  "Generic_RxCUI": "904870",
   "prices": {
     "59011075104": {
       "11/22/2017": 88.22903,

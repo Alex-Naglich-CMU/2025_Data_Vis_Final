@@ -2,8 +2,8 @@
   "RxCUI": "282401",
   "Name": "LAMOTRIGINE 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "282401",
-  "Generic_RxCUI": "2001508",
+  "Brand_RxCUI": "2001508",
+  "Generic_RxCUI": "282401",
   "prices": {
     "65862022701": {
       "06/23/2021": 0.03748,

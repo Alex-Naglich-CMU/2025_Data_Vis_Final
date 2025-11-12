@@ -2,8 +2,8 @@
   "RxCUI": "855861",
   "Name": "PHENYTOIN SOD EXT 200 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "855861",
-  "Generic_RxCUI": "855863",
+  "Brand_RxCUI": "855863",
+  "Generic_RxCUI": "855861",
   "prices": {
     "62756029983": {
       "07/21/2021": 1.12595,

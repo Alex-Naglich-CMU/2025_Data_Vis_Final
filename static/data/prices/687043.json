@@ -2,8 +2,8 @@
   "RxCUI": "687043",
   "Name": "DEXTROAMP-AMPHETAM 12.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "687043",
-  "Generic_RxCUI": "687045",
+  "Brand_RxCUI": "687045",
+  "Generic_RxCUI": "687043",
   "prices": {
     "11534019301": {
       "05/19/2021": 0.80574,

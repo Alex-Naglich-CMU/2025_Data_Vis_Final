@@ -2,8 +2,8 @@
   "RxCUI": "200094",
   "Name": "IRBESARTAN 75 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200094",
-  "Generic_RxCUI": "153665",
+  "Brand_RxCUI": "153665",
+  "Generic_RxCUI": "200094",
   "prices": {
     "43547027709": {
       "05/19/2021": 0.20898,

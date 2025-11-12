@@ -2,8 +2,8 @@
   "RxCUI": "857702",
   "Name": "DICLOFENAC POT 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "857702",
-  "Generic_RxCUI": "2584350",
+  "Brand_RxCUI": "2584350",
+  "Generic_RxCUI": "857702",
   "prices": {
     "15370018530": {
       "05/22/2024": 19.25735,

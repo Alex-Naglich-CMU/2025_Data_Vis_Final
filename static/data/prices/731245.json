@@ -2,8 +2,8 @@
   "RxCUI": "731245",
   "Name": "ARANESP 25 MCG/0.42 ML SYRING",
   "IsBrand": true,
-  "Brand_RxCUI": "731176",
-  "Generic_RxCUI": "731245",
+  "Brand_RxCUI": "731245",
+  "Generic_RxCUI": "731176",
   "prices": {
     "55513005704": {
       "05/22/2024": 446.81746,

@@ -2,8 +2,8 @@
   "RxCUI": "797065",
   "Name": "PRILOSEC DR 2.5 MG SUSPENSION",
   "IsBrand": true,
-  "Brand_RxCUI": "797063",
-  "Generic_RxCUI": "797065",
+  "Brand_RxCUI": "797065",
+  "Generic_RxCUI": "797063",
   "prices": {
     "70515062501": {
       "01/04/2021": 11.97468,

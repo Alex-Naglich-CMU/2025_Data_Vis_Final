@@ -2,8 +2,8 @@
   "RxCUI": "810077",
   "Name": "FESOTERODINE ER 8 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "810077",
-  "Generic_RxCUI": "810079",
+  "Brand_RxCUI": "810079",
+  "Generic_RxCUI": "810077",
   "prices": {
     "43598024830": {
       "11/23/2022": 1.04033,

@@ -2,8 +2,8 @@
   "RxCUI": "197590",
   "Name": "DIAZEPAM 2 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197590",
-  "Generic_RxCUI": "104699",
+  "Brand_RxCUI": "104699",
+  "Generic_RxCUI": "197590",
   "prices": {
     "51862094105": {
       "05/19/2021": 0.02339,

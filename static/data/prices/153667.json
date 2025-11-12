@@ -2,8 +2,8 @@
   "RxCUI": "153667",
   "Name": "AVAPRO 300 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "200096",
-  "Generic_RxCUI": "153667",
+  "Brand_RxCUI": "153667",
+  "Generic_RxCUI": "200096",
   "prices": {
     "00024585230": {
       "09/19/2018": 6.87633,

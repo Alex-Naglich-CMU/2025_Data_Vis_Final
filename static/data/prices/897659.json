@@ -2,8 +2,8 @@
   "RxCUI": "897659",
   "Name": "VERAPAMIL ER 120 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "897659",
-  "Generic_RxCUI": "897693",
+  "Brand_RxCUI": "897693",
+  "Generic_RxCUI": "897659",
   "prices": {
     "60687049311": {
       "05/19/2021": 0.36472,

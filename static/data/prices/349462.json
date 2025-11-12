@@ -2,8 +2,8 @@
   "RxCUI": "349462",
   "Name": "FROVATRIPTAN SUCC 2.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "349462",
-  "Generic_RxCUI": "352058",
+  "Brand_RxCUI": "352058",
+  "Generic_RxCUI": "349462",
   "prices": {
     "00603371834": {
       "05/19/2021": 21.3232,

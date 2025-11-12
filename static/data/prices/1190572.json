@@ -2,8 +2,8 @@
   "RxCUI": "1190572",
   "Name": "DIPHENOXYLATE-ATROPINE 2.5-0.025 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1190572",
-  "Generic_RxCUI": "1190641",
+  "Brand_RxCUI": "1190641",
+  "Generic_RxCUI": "1190572",
   "prices": {
     "62559049001": {
       "05/19/2021": 0.21911,

@@ -2,8 +2,8 @@
   "RxCUI": "198434",
   "Name": "ACETAMINOPHEN 120 MG SUPPOS",
   "IsBrand": false,
-  "Brand_RxCUI": "198434",
-  "Generic_RxCUI": "209353",
+  "Brand_RxCUI": "209353",
+  "Generic_RxCUI": "198434",
   "prices": {
     "45802073200": {
       "05/19/2021": 0.29643,

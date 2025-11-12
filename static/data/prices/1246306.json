@@ -2,8 +2,8 @@
   "RxCUI": "1246306",
   "Name": "SYMBICORT 160-4.5 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "1246304",
-  "Generic_RxCUI": "1246306",
+  "Brand_RxCUI": "1246306",
+  "Generic_RxCUI": "1246304",
   "prices": {
     "00186037020": {
       "11/22/2017": 28.84617,

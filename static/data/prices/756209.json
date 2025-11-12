@@ -2,8 +2,8 @@
   "RxCUI": "756209",
   "Name": "ZIDOVUDINE 50 MG/5 ML SYRUP",
   "IsBrand": false,
-  "Brand_RxCUI": "756209",
-  "Generic_RxCUI": "755298",
+  "Brand_RxCUI": "755298",
+  "Generic_RxCUI": "756209",
   "prices": {
     "65862004824": {
       "09/17/2025": 0.14993

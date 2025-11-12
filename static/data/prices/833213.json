@@ -2,8 +2,8 @@
   "RxCUI": "833213",
   "Name": "DEXLANSOPRAZOLE DR 60 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "833213",
-  "Generic_RxCUI": "902626",
+  "Brand_RxCUI": "902626",
+  "Generic_RxCUI": "833213",
   "prices": {
     "24979070406": {
       "4/20/2022": 8.33907,

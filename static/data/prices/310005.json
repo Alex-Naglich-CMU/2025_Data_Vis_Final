@@ -2,8 +2,8 @@
   "RxCUI": "310005",
   "Name": "DOFETILIDE 500 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "310005",
-  "Generic_RxCUI": "285016",
+  "Brand_RxCUI": "285016",
+  "Generic_RxCUI": "310005",
   "prices": {
     "72205004160": {
       "05/19/2021": 1.06488,

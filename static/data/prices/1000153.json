@@ -2,8 +2,8 @@
   "RxCUI": "1000153",
   "Name": "MEDROXYPROGESTERONE 150 MG/ML",
   "IsBrand": false,
-  "Brand_RxCUI": "1000153",
-  "Generic_RxCUI": "1000154",
+  "Brand_RxCUI": "1000154",
+  "Generic_RxCUI": "1000153",
   "prices": {
     "00548570100": {
       "05/19/2021": 47.84489,

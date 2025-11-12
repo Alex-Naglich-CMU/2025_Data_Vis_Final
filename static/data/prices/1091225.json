@@ -2,8 +2,8 @@
   "RxCUI": "1091225",
   "Name": "METHYLPHENIDATE ER 20 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1091225",
-  "Generic_RxCUI": "1091488",
+  "Brand_RxCUI": "1091488",
+  "Generic_RxCUI": "1091225",
   "prices": {
     "10702007601": {
       "05/19/2021": 0.7871,

@@ -2,8 +2,8 @@
   "RxCUI": "749206",
   "Name": "SEVELAMER CARBONATE 800 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "749206",
-  "Generic_RxCUI": "749210",
+  "Brand_RxCUI": "749210",
+  "Generic_RxCUI": "749206",
   "prices": {
     "55111078911": {
       "05/19/2021": 0.32867,

@@ -2,8 +2,8 @@
   "RxCUI": "577315",
   "Name": "PARICALCITOL 1 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "577315",
-  "Generic_RxCUI": "606854",
+  "Brand_RxCUI": "606854",
+  "Generic_RxCUI": "577315",
   "prices": {
     "68382033006": {
       "06/23/2021": 1.03059,

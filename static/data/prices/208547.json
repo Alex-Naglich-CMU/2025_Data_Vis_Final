@@ -2,8 +2,8 @@
   "RxCUI": "208547",
   "Name": "ARMOUR THYROID 180 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "198278",
-  "Generic_RxCUI": "208547",
+  "Brand_RxCUI": "208547",
+  "Generic_RxCUI": "198278",
   "prices": {
     "00456046201": {
       "11/22/2017": 1.00653,

@@ -2,8 +2,8 @@
   "RxCUI": "311725",
   "Name": "MIRTAZAPINE 15 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311725",
-  "Generic_RxCUI": "211322",
+  "Brand_RxCUI": "211322",
+  "Generic_RxCUI": "311725",
   "prices": {
     "00378351501": {
       "05/19/2021": 0.0855,

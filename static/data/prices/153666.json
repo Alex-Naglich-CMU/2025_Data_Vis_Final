@@ -2,8 +2,8 @@
   "RxCUI": "153666",
   "Name": "AVAPRO 150 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "200095",
-  "Generic_RxCUI": "153666",
+  "Brand_RxCUI": "153666",
+  "Generic_RxCUI": "200095",
   "prices": {
     "00024585130": {
       "05/24/2019": 6.04248,

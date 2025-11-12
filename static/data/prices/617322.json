@@ -2,8 +2,8 @@
   "RxCUI": "617322",
   "Name": "AMOX-CLAV 250-62.5 MG/5 ML SUS",
   "IsBrand": false,
-  "Brand_RxCUI": "617322",
-  "Generic_RxCUI": "617339",
+  "Brand_RxCUI": "617339",
+  "Generic_RxCUI": "617322",
   "prices": {
     "59651002675": {
       "05/19/2021": 0.48309,

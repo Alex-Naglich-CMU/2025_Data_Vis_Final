@@ -2,8 +2,8 @@
   "RxCUI": "853354",
   "Name": "STELARA 45 MG/0.5 ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "853350",
-  "Generic_RxCUI": "853354",
+  "Brand_RxCUI": "853354",
+  "Generic_RxCUI": "853350",
   "prices": {
     "57894006003": {
       "10/25/2017": 18420.73778,

@@ -2,8 +2,8 @@
   "RxCUI": "562508",
   "Name": "AMOX-CLAV 875-125 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "562508",
-  "Generic_RxCUI": "824194",
+  "Brand_RxCUI": "824194",
+  "Generic_RxCUI": "562508",
   "prices": {
     "65862050320": {
       "05/19/2021": 0.29911,

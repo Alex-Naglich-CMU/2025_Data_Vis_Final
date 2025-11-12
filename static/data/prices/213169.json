@@ -2,8 +2,8 @@
   "RxCUI": "213169",
   "Name": "PLAVIX 75 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "309362",
-  "Generic_RxCUI": "213169",
+  "Brand_RxCUI": "213169",
+  "Generic_RxCUI": "309362",
   "prices": {
     "00024117190": {
       "11/18/2020": 6.50578,

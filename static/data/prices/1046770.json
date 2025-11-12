@@ -2,8 +2,8 @@
   "RxCUI": "1046770",
   "Name": "HYOSCYAMINE ER 0.375 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1046770",
-  "Generic_RxCUI": "1149364",
+  "Brand_RxCUI": "1149364",
+  "Generic_RxCUI": "1046770",
   "prices": {
     "62559042301": {
       "07/17/2024": 0.86264,

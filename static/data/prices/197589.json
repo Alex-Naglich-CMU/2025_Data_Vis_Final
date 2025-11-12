@@ -2,8 +2,8 @@
   "RxCUI": "197589",
   "Name": "DIAZEPAM 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197589",
-  "Generic_RxCUI": "104701",
+  "Brand_RxCUI": "104701",
+  "Generic_RxCUI": "197589",
   "prices": {
     "00378047705": {
       "05/19/2021": 0.0307,

@@ -2,8 +2,8 @@
   "RxCUI": "1049565",
   "Name": "OXYCONTIN 20 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1860129",
-  "Generic_RxCUI": "1049565",
+  "Brand_RxCUI": "1049565",
+  "Generic_RxCUI": "1860129",
   "prices": {
     "59011042020": {
       "11/22/2017": 6.00034,

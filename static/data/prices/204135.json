@@ -2,8 +2,8 @@
   "RxCUI": "204135",
   "Name": "DESONIDE 0.05% OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "204135",
-  "Generic_RxCUI": "205530",
+  "Brand_RxCUI": "205530",
+  "Generic_RxCUI": "204135",
   "prices": {
     "21922000407": {
       "05/19/2021": 0.96238,

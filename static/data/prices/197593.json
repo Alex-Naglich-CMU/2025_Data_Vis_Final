@@ -2,8 +2,8 @@
   "RxCUI": "197593",
   "Name": "DIAZOXIDE 50 MG/ML ORAL SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "197593",
-  "Generic_RxCUI": "207634",
+  "Brand_RxCUI": "207634",
+  "Generic_RxCUI": "197593",
   "prices": {
     "00254101019": {
       "3/2/2022": 8.55475,

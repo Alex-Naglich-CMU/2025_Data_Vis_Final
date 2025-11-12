@@ -2,8 +2,8 @@
   "RxCUI": "859128",
   "Name": "MUSE 1,000 MCG URETHRAL SUPP",
   "IsBrand": true,
-  "Brand_RxCUI": "308051",
-  "Generic_RxCUI": "859128",
+  "Brand_RxCUI": "859128",
+  "Generic_RxCUI": "308051",
   "prices": {
     "00037814006": {
       "05/15/2019": 71.59565

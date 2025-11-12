@@ -2,8 +2,8 @@
   "RxCUI": "2641655",
   "Name": "ADALIMUMAB-ADAZ(CF) PEN 40 MG/0.4 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "2641655",
-  "Generic_RxCUI": "2641658",
+  "Brand_RxCUI": "2641658",
+  "Generic_RxCUI": "2641655",
   "prices": {
     "61314032720": {
       "08/21/2024": 1590.04643,

@@ -2,8 +2,8 @@
   "RxCUI": "262222",
   "Name": "RISPERDAL 0.5 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "312829",
-  "Generic_RxCUI": "262222",
+  "Brand_RxCUI": "262222",
+  "Generic_RxCUI": "312829",
   "prices": {
     "50458030201": {
       "06/19/2024": 4.41,

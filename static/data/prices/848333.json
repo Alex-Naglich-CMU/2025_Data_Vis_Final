@@ -2,8 +2,8 @@
   "RxCUI": "848333",
   "Name": "FEMRING 0.05 MG/DAY VAG RING",
   "IsBrand": true,
-  "Brand_RxCUI": "848331",
-  "Generic_RxCUI": "848333",
+  "Brand_RxCUI": "848333",
+  "Generic_RxCUI": "848331",
   "prices": {
     "72495020105": {
       "04/24/2019": 462.53069,

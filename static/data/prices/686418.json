@@ -2,8 +2,8 @@
   "RxCUI": "686418",
   "Name": "ERYTHROMYCIN 400 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "686418",
-  "Generic_RxCUI": "686420",
+  "Brand_RxCUI": "686420",
+  "Generic_RxCUI": "686418",
   "prices": {
     "52536013013": {
       "8/17/2022": 2.55412,

@@ -2,8 +2,8 @@
   "RxCUI": "863559",
   "Name": "VALGANCICLOVIR HCL 50 MG/ML",
   "IsBrand": false,
-  "Brand_RxCUI": "863559",
-  "Generic_RxCUI": "863562",
+  "Brand_RxCUI": "863562",
+  "Generic_RxCUI": "863559",
   "prices": {
     "00591257920": {
       "05/22/2024": 3.2883,

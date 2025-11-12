@@ -2,8 +2,8 @@
   "RxCUI": "606728",
   "Name": "NEXIUM DR 20 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "606726",
-  "Generic_RxCUI": "606728",
+  "Brand_RxCUI": "606728",
+  "Generic_RxCUI": "606726",
   "prices": {
     "00186502031": {
       "09/20/2017": 8.04286,

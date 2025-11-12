@@ -2,8 +2,8 @@
   "RxCUI": "836395",
   "Name": "TRAMADOL-ACETAMINOPHEN 37.5-325 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "836395",
-  "Generic_RxCUI": "836397",
+  "Brand_RxCUI": "836397",
+  "Generic_RxCUI": "836395",
   "prices": {
     "00378808801": {
       "05/19/2021": 0.11708,

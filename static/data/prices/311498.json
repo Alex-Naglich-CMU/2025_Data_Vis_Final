@@ -2,8 +2,8 @@
   "RxCUI": "311498",
   "Name": "MUSCLE RUB CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "311498",
-  "Generic_RxCUI": "2105947",
+  "Brand_RxCUI": "2105947",
+  "Generic_RxCUI": "311498",
   "prices": {
     "45802017453": {
       "07/21/2021": 0.03232,

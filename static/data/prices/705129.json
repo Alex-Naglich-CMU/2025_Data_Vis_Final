@@ -2,8 +2,8 @@
   "RxCUI": "705129",
   "Name": "NITROGLYCERIN 400 MCG SPRAY",
   "IsBrand": false,
-  "Brand_RxCUI": "705129",
-  "Generic_RxCUI": "995019",
+  "Brand_RxCUI": "995019",
+  "Generic_RxCUI": "705129",
   "prices": {
     "28595012049": {
       "05/19/2021": 25.14541,

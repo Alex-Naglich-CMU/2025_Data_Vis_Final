@@ -2,8 +2,8 @@
   "RxCUI": "861643",
   "Name": "PITAVASTATIN 1 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "861643",
-  "Generic_RxCUI": "861646",
+  "Brand_RxCUI": "861646",
+  "Generic_RxCUI": "861643",
   "prices": {
     "00378505577": {
       "03/20/2024": 2.38619,

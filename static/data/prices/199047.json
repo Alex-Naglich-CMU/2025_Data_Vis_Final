@@ -2,8 +2,8 @@
   "RxCUI": "199047",
   "Name": "ACID REDUCER 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199047",
-  "Generic_RxCUI": "2607015",
+  "Brand_RxCUI": "2607015",
+  "Generic_RxCUI": "199047",
   "prices": {
     "36800014172": {
       "05/19/2021": 0.09324,

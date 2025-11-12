@@ -2,8 +2,8 @@
   "RxCUI": "213320",
   "Name": "CIPRO HC OTIC SUSPENSION",
   "IsBrand": true,
-  "Brand_RxCUI": "309305",
-  "Generic_RxCUI": "213320",
+  "Brand_RxCUI": "213320",
+  "Generic_RxCUI": "309305",
   "prices": {
     "00078085526": {
       "7/27/2022": 31.641,

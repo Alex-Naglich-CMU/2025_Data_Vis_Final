@@ -2,8 +2,8 @@
   "RxCUI": "1373045",
   "Name": "HM COUGH DM ER 30 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "1373045",
-  "Generic_RxCUI": "1373128",
+  "Brand_RxCUI": "1373128",
+  "Generic_RxCUI": "1373045",
   "prices": {
     "62011017601": {
       "05/19/2021": 0.05931,

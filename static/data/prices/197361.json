@@ -2,8 +2,8 @@
   "RxCUI": "197361",
   "Name": "AMLODIPINE BESYLATE 5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "197361",
-  "Generic_RxCUI": "212549",
+  "Brand_RxCUI": "212549",
+  "Generic_RxCUI": "197361",
   "prices": {
     "71093014706": {
       "05/19/2021": 0.01207,

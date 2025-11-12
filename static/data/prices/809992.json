@@ -2,8 +2,8 @@
   "RxCUI": "809992",
   "Name": "LACOSAMIDE 150 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "809992",
-  "Generic_RxCUI": "809994",
+  "Brand_RxCUI": "809994",
+  "Generic_RxCUI": "809992",
   "prices": {
     "00904724668": {
       "7/20/2022": 0.3743,

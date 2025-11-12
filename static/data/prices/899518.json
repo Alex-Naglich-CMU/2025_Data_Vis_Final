@@ -2,8 +2,8 @@
   "RxCUI": "899518",
   "Name": "DEXMETHYLPHENIDATE 5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "899518",
-  "Generic_RxCUI": "899519",
+  "Brand_RxCUI": "899519",
+  "Generic_RxCUI": "899518",
   "prices": {
     "42858022501": {
       "05/19/2021": 0.17918,

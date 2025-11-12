@@ -2,8 +2,8 @@
   "RxCUI": "728231",
   "Name": "RANOLAZINE ER 1,000 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "728231",
-  "Generic_RxCUI": "860737",
+  "Brand_RxCUI": "860737",
+  "Generic_RxCUI": "728231",
   "prices": {
     "45963041906": {
       "05/19/2021": 0.67209,

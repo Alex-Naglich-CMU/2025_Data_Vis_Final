@@ -2,8 +2,8 @@
   "RxCUI": "995868",
   "Name": "GUAIFEN-CODEINE 100-10 MG/5 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "995868",
-  "Generic_RxCUI": "995956",
+  "Brand_RxCUI": "995956",
+  "Generic_RxCUI": "995868",
   "prices": {
     "54932020885": {
       "05/19/2021": 0.05791,

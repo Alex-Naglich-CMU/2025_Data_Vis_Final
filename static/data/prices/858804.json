@@ -2,8 +2,8 @@
   "RxCUI": "858804",
   "Name": "ENALAPRIL MALEATE 2.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "858804",
-  "Generic_RxCUI": "858806",
+  "Brand_RxCUI": "858806",
+  "Generic_RxCUI": "858804",
   "prices": {
     "00904560961": {
       "05/19/2021": 0.12325,

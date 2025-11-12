@@ -2,8 +2,8 @@
   "RxCUI": "992530",
   "Name": "LAMISIL AT 1% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "992528",
-  "Generic_RxCUI": "992530",
+  "Brand_RxCUI": "992530",
+  "Generic_RxCUI": "992528",
   "prices": {
     "00067810030": {
       "06/21/2017": 0.37227,

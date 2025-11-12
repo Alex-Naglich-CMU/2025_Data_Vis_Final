@@ -2,8 +2,8 @@
   "RxCUI": "284391",
   "Name": "KEPPRA 750 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "311290",
-  "Generic_RxCUI": "284391",
+  "Brand_RxCUI": "284391",
+  "Generic_RxCUI": "311290",
   "prices": {
     "50474059640": {
       "06/21/2017": 9.56443,

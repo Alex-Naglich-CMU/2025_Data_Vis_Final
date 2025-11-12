@@ -2,8 +2,8 @@
   "RxCUI": "896021",
   "Name": "FLUTICASONE PROP 100 MCG DISKUS",
   "IsBrand": false,
-  "Brand_RxCUI": "896021",
-  "Generic_RxCUI": "896023",
+  "Brand_RxCUI": "896023",
+  "Generic_RxCUI": "896021",
   "prices": {
     "66993079197": {
       "04/17/2024": 1.9866,

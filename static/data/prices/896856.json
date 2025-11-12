@@ -2,8 +2,8 @@
   "RxCUI": "896856",
   "Name": "PREGNYL 10,000 UNITS VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "896854",
-  "Generic_RxCUI": "896856",
+  "Brand_RxCUI": "896856",
+  "Generic_RxCUI": "896854",
   "prices": {
     "00052031510": {
       "05/19/2021": 97.599,

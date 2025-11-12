@@ -2,8 +2,8 @@
   "RxCUI": "1806380",
   "Name": "GABAPENTIN ER 300 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1806380",
-  "Generic_RxCUI": "1115012",
+  "Brand_RxCUI": "1115012",
+  "Generic_RxCUI": "1806380",
   "prices": {
     "31722009190": {
       "08/21/2024": 2.2261,

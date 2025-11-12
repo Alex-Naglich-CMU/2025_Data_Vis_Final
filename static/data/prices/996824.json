@@ -2,8 +2,8 @@
   "RxCUI": "996824",
   "Name": "METHYLERGONOVINE 0.2 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "996824",
-  "Generic_RxCUI": "996826",
+  "Brand_RxCUI": "996826",
+  "Generic_RxCUI": "996824",
   "prices": {
     "69238160502": {
       "05/19/2021": 13.46155,

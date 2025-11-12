@@ -2,8 +2,8 @@
   "RxCUI": "1094107",
   "Name": "PHENAZOPYRIDINE 100 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1094107",
-  "Generic_RxCUI": "1094109",
+  "Brand_RxCUI": "1094109",
+  "Generic_RxCUI": "1094107",
   "prices": {
     "58657045001": {
       "05/19/2021": 0.38586,

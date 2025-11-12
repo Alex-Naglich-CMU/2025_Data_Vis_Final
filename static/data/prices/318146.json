@@ -2,8 +2,8 @@
   "RxCUI": "318146",
   "Name": "SM ANTI-NAUSEA LIQUID",
   "IsBrand": false,
-  "Brand_RxCUI": "318146",
-  "Generic_RxCUI": "809602",
+  "Brand_RxCUI": "809602",
+  "Generic_RxCUI": "318146",
   "prices": {
     "49348057627": {
       "05/19/2021": 0.01748,

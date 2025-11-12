@@ -2,8 +2,8 @@
   "RxCUI": "895994",
   "Name": "FLUTICASONE PROPIONATE HFA 44 MCG INHALER",
   "IsBrand": false,
-  "Brand_RxCUI": "895994",
-  "Generic_RxCUI": "895996",
+  "Brand_RxCUI": "895996",
+  "Generic_RxCUI": "895994",
   "prices": {
     "66993007896": {
       "9/21/2022": 11.63703,

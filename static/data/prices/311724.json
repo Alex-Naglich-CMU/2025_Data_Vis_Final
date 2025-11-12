@@ -2,8 +2,8 @@
   "RxCUI": "311724",
   "Name": "MINOXIDIL 5% SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "311724",
-  "Generic_RxCUI": "809031",
+  "Brand_RxCUI": "809031",
+  "Generic_RxCUI": "311724",
   "prices": {
     "00472009475": {
       "08/23/2017": 0.16253,

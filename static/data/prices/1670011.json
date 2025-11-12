@@ -2,8 +2,8 @@
   "RxCUI": "1670011",
   "Name": "INSULIN DEGLUDEC FLEXTOUCH 100 UNIT/ML PEN",
   "IsBrand": false,
-  "Brand_RxCUI": "1670011",
-  "Generic_RxCUI": "1670016",
+  "Brand_RxCUI": "1670016",
+  "Generic_RxCUI": "1670011",
   "prices": {
     "73070040315": {
       "2/22/2023": 11.36233,

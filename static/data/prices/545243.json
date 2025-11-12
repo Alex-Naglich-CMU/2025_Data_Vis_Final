@@ -2,8 +2,8 @@
   "RxCUI": "545243",
   "Name": "FML LIQUIFILM 0.1% EYE DROP",
   "IsBrand": true,
-  "Brand_RxCUI": "310377",
-  "Generic_RxCUI": "545243",
+  "Brand_RxCUI": "545243",
+  "Generic_RxCUI": "310377",
   "prices": {
     "11980021105": {
       "01/01/2018": 28.30632,

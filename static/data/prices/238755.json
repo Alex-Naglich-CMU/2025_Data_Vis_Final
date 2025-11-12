@@ -2,8 +2,8 @@
   "RxCUI": "238755",
   "Name": "HYDROCORTISONE SS 100 MG VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "238755",
-  "Generic_RxCUI": "105398",
+  "Brand_RxCUI": "105398",
+  "Generic_RxCUI": "238755",
   "prices": {
     "69097000467": {
       "05/21/2025": 15.17521,

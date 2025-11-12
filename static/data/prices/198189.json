@@ -2,8 +2,8 @@
   "RxCUI": "198189",
   "Name": "RAMIPRIL 5 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "198189",
-  "Generic_RxCUI": "104385",
+  "Brand_RxCUI": "104385",
+  "Generic_RxCUI": "198189",
   "prices": {
     "68382014601": {
       "05/19/2021": 0.06102,

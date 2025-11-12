@@ -2,8 +2,8 @@
   "RxCUI": "2052609",
   "Name": "PROGRAF 0.2 MG GRANULE PACKET",
   "IsBrand": true,
-  "Brand_RxCUI": "2052605",
-  "Generic_RxCUI": "2052609",
+  "Brand_RxCUI": "2052609",
+  "Generic_RxCUI": "2052605",
   "prices": {
     "00469123050": {
       "08/20/2025": 5.00532

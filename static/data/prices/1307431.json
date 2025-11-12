@@ -2,8 +2,8 @@
   "RxCUI": "1307431",
   "Name": "REVATIO 10 MG/ML ORAL SUSP",
   "IsBrand": true,
-  "Brand_RxCUI": "1307427",
-  "Generic_RxCUI": "1307431",
+  "Brand_RxCUI": "1307431",
+  "Generic_RxCUI": "1307427",
   "prices": {
     "00069033621": {
       "06/01/2017": 64.28826,

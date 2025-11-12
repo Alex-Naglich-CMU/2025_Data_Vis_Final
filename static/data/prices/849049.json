@@ -2,8 +2,8 @@
   "RxCUI": "849049",
   "Name": "LAMICTAL ODT 100 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "103968",
-  "Generic_RxCUI": "849049",
+  "Brand_RxCUI": "849049",
+  "Generic_RxCUI": "103968",
   "prices": {
     "00173077602": {
       "01/01/2018": 11.4868,

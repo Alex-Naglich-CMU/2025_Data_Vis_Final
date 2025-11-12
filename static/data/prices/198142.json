@@ -2,8 +2,8 @@
   "RxCUI": "198142",
   "Name": "PREDNISOLONE 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198142",
-  "Generic_RxCUI": "808118",
+  "Brand_RxCUI": "808118",
+  "Generic_RxCUI": "198142",
   "prices": {
     "42658016005": {
       "03/19/2025": 8.12342,

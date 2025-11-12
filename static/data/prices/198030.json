@@ -2,8 +2,8 @@
   "RxCUI": "198030",
   "Name": "NICOTINE 21 MG/24HR PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "198030",
-  "Generic_RxCUI": "351429",
+  "Brand_RxCUI": "351429",
+  "Generic_RxCUI": "198030",
   "prices": {
     "00536589688": {
       "05/19/2021": 1.69268,

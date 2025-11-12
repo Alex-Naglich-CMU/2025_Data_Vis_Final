@@ -2,8 +2,8 @@
   "RxCUI": "1745114",
   "Name": "TALTZ 80 MG/ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "1745112",
-  "Generic_RxCUI": "1745114",
+  "Brand_RxCUI": "1745114",
+  "Generic_RxCUI": "1745112",
   "prices": {
     "00002772401": {
       "08/21/2024": 6704.09833,

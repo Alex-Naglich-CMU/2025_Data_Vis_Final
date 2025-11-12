@@ -2,8 +2,8 @@
   "RxCUI": "904589",
   "Name": "SOTALOL 240 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "904589",
-  "Generic_RxCUI": "904593",
+  "Brand_RxCUI": "904593",
+  "Generic_RxCUI": "904589",
   "prices": {
     "00093106301": {
       "10/23/2024": 0.28817,

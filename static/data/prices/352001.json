@@ -2,8 +2,8 @@
   "RxCUI": "352001",
   "Name": "DIOVAN 320 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "349200",
-  "Generic_RxCUI": "352001",
+  "Brand_RxCUI": "352001",
+  "Generic_RxCUI": "349200",
   "prices": {
     "00078036034": {
       "09/20/2017": 8.86911,

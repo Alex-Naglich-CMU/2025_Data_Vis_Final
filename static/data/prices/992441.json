@@ -2,8 +2,8 @@
   "RxCUI": "992441",
   "Name": "PROMETHAZINE 12.5 MG SUPPOS",
   "IsBrand": false,
-  "Brand_RxCUI": "992441",
-  "Generic_RxCUI": "992446",
+  "Brand_RxCUI": "992446",
+  "Generic_RxCUI": "992441",
   "prices": {
     "45802075830": {
       "05/19/2021": 4.80229,

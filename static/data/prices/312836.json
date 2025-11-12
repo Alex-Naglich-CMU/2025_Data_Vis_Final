@@ -2,8 +2,8 @@
   "RxCUI": "312836",
   "Name": "RIVASTIGMINE 6 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "312836",
-  "Generic_RxCUI": "226668",
+  "Brand_RxCUI": "226668",
+  "Generic_RxCUI": "312836",
   "prices": {
     "62756014886": {
       "05/19/2021": 0.3018,

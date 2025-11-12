@@ -2,8 +2,8 @@
   "RxCUI": "391937",
   "Name": "LACTULOSE 10 GM/15 ML SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "391937",
-  "Generic_RxCUI": "755470",
+  "Brand_RxCUI": "755470",
+  "Generic_RxCUI": "391937",
   "prices": {
     "60432003732": {
       "05/19/2021": 0.01531,

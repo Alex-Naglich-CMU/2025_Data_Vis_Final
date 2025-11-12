@@ -2,8 +2,8 @@
   "RxCUI": "313415",
   "Name": "TOBRAMYCIN 0.3% EYE DROP",
   "IsBrand": false,
-  "Brand_RxCUI": "313415",
-  "Generic_RxCUI": "207846",
+  "Brand_RxCUI": "207846",
+  "Generic_RxCUI": "313415",
   "prices": {
     "24208029005": {
       "05/19/2021": 1.38732,

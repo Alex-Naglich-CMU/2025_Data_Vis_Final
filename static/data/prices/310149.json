@@ -2,8 +2,8 @@
   "RxCUI": "310149",
   "Name": "ERYTHROMYCIN 0.5% EYE OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "310149",
-  "Generic_RxCUI": "584534",
+  "Brand_RxCUI": "584534",
+  "Generic_RxCUI": "310149",
   "prices": {
     "17478007035": {
       "05/19/2021": 3.2599,

@@ -2,8 +2,8 @@
   "RxCUI": "284215",
   "Name": "CLINDAMYCIN HCL 300 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "284215",
-  "Generic_RxCUI": "748748",
+  "Brand_RxCUI": "748748",
+  "Generic_RxCUI": "284215",
   "prices": {
     "59762501001": {
       "05/19/2021": 0.29128,

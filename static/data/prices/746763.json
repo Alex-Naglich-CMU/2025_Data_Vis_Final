@@ -2,8 +2,8 @@
   "RxCUI": "746763",
   "Name": "PROVENTIL HFA 90 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "2123111",
-  "Generic_RxCUI": "746763",
+  "Brand_RxCUI": "746763",
+  "Generic_RxCUI": "2123111",
   "prices": {
     "66758095985": {
       "5/18/2022": 11.37593,

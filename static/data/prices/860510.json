@@ -2,8 +2,8 @@
   "RxCUI": "860510",
   "Name": "CARVEDILOL ER 10 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "860510",
-  "Generic_RxCUI": "860512",
+  "Brand_RxCUI": "860512",
+  "Generic_RxCUI": "860510",
   "prices": {
     "57664066383": {
       "05/19/2021": 5.74389,

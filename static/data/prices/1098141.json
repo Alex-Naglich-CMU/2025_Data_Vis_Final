@@ -2,8 +2,8 @@
   "RxCUI": "1098141",
   "Name": "NIACIN ER 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1098141",
-  "Generic_RxCUI": "1098142",
+  "Brand_RxCUI": "1098142",
+  "Generic_RxCUI": "1098141",
   "prices": {
     "62175032046": {
       "05/19/2021": 0.25538,

@@ -2,8 +2,8 @@
   "RxCUI": "1536833",
   "Name": "EFFERVESCENT ANTACID-PAIN RLF",
   "IsBrand": false,
-  "Brand_RxCUI": "1536833",
-  "Generic_RxCUI": "1536835",
+  "Brand_RxCUI": "1536835",
+  "Generic_RxCUI": "1536833",
   "prices": {
     "70000057401": {
       "12/18/2024": 0.08373,

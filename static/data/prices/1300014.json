@@ -2,8 +2,8 @@
   "RxCUI": "1300014",
   "Name": "ABSORICA 30 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "403930",
-  "Generic_RxCUI": "1300014",
+  "Brand_RxCUI": "1300014",
+  "Generic_RxCUI": "403930",
   "prices": {
     "10631011731": {
       "11/22/2017": 32.23063,

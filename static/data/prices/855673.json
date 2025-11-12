@@ -2,8 +2,8 @@
   "RxCUI": "855673",
   "Name": "DILANTIN 100 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "855671",
-  "Generic_RxCUI": "855673",
+  "Brand_RxCUI": "855673",
+  "Generic_RxCUI": "855671",
   "prices": {
     "00071036924": {
       "06/01/2017": 1.08607,

@@ -2,8 +2,8 @@
   "RxCUI": "200224",
   "Name": "MONTELUKAST SOD 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200224",
-  "Generic_RxCUI": "153892",
+  "Brand_RxCUI": "153892",
+  "Generic_RxCUI": "200224",
   "prices": {
     "33342010210": {
       "05/19/2021": 0.07423,

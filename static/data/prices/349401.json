@@ -2,8 +2,8 @@
   "RxCUI": "349401",
   "Name": "OLMESARTAN MEDOXOMIL 20 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "349401",
-  "Generic_RxCUI": "352200",
+  "Brand_RxCUI": "352200",
+  "Generic_RxCUI": "349401",
   "prices": {
     "62332013230": {
       "05/19/2021": 0.12801,

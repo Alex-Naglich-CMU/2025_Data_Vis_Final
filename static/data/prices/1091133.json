@@ -2,8 +2,8 @@
   "RxCUI": "1091133",
   "Name": "METHYLPHENIDATE 10 MG/5 ML SOL",
   "IsBrand": false,
-  "Brand_RxCUI": "1091133",
-  "Generic_RxCUI": "1091135",
+  "Brand_RxCUI": "1091135",
+  "Generic_RxCUI": "1091133",
   "prices": {
     "10702016450": {
       "05/19/2021": 0.18016,

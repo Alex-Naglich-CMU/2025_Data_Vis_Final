@@ -2,8 +2,8 @@
   "RxCUI": "727316",
   "Name": "EPINEPHRINE 0.15 MG AUTO-INJCT",
   "IsBrand": false,
-  "Brand_RxCUI": "727316",
-  "Generic_RxCUI": "727386",
+  "Brand_RxCUI": "727386",
+  "Generic_RxCUI": "727316",
   "prices": {
     "49502010101": {
       "05/19/2021": 143.77183,

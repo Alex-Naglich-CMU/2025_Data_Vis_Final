@@ -2,8 +2,8 @@
   "RxCUI": "543014",
   "Name": "SOD CITRATE-CITRIC ACID SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "543014",
-  "Generic_RxCUI": "543018",
+  "Brand_RxCUI": "543018",
+  "Generic_RxCUI": "543014",
   "prices": {
     "58657031016": {
       "05/19/2021": 0.0275,

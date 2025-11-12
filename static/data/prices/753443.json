@@ -2,8 +2,8 @@
   "RxCUI": "753443",
   "Name": "DAYTRANA 30 MG/9 HOUR PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "753441",
-  "Generic_RxCUI": "753443",
+  "Brand_RxCUI": "753443",
+  "Generic_RxCUI": "753441",
   "prices": {
     "68968555503": {
       "11/22/2017": 9.69549,

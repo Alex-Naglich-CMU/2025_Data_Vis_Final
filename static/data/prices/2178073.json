@@ -2,8 +2,8 @@
   "RxCUI": "2178073",
   "Name": "TOSYMRA 10 MG NASAL SPRAY",
   "IsBrand": true,
-  "Brand_RxCUI": "401978",
-  "Generic_RxCUI": "2178073",
+  "Brand_RxCUI": "2178073",
+  "Generic_RxCUI": "401978",
   "prices": {
     "00245081261": {
       "05/22/2024": 101.74333,

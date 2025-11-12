@@ -2,8 +2,8 @@
   "RxCUI": "859066",
   "Name": "CAMBIA 50 MG POWDER PACKET",
   "IsBrand": true,
-  "Brand_RxCUI": "859063",
-  "Generic_RxCUI": "859066",
+  "Brand_RxCUI": "859066",
+  "Generic_RxCUI": "859063",
   "prices": {
     "13913001203": {
       "01/04/2018": 60.0016,

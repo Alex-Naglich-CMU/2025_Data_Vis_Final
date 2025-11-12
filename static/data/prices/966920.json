@@ -2,8 +2,8 @@
   "RxCUI": "966920",
   "Name": "PEG-3350 AND ELECTROLYTES SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "966920",
-  "Generic_RxCUI": "967012",
+  "Brand_RxCUI": "967012",
+  "Generic_RxCUI": "966920",
   "prices": {
     "10572010001": {
       "05/19/2021": 0.00321,

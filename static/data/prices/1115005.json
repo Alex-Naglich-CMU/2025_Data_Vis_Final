@@ -2,8 +2,8 @@
   "RxCUI": "1115005",
   "Name": "STOOL SOFTENER 100 MG SOFTGEL",
   "IsBrand": false,
-  "Brand_RxCUI": "1115005",
-  "Generic_RxCUI": "1483571",
+  "Brand_RxCUI": "1483571",
+  "Generic_RxCUI": "1115005",
   "prices": {
     "36800048678": {
       "05/19/2021": 0.02649,

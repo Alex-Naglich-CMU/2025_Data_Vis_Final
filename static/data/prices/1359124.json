@@ -2,8 +2,8 @@
   "RxCUI": "1359124",
   "Name": "ESTRADIOL-NORETH 0.5-0.1 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "1359124",
-  "Generic_RxCUI": "2706647",
+  "Brand_RxCUI": "2706647",
+  "Generic_RxCUI": "1359124",
   "prices": {
     "50742065884": {
       "05/19/2021": 2.13888,

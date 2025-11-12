@@ -2,8 +2,8 @@
   "RxCUI": "284420",
   "Name": "DIFFERIN 0.1% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "313852",
-  "Generic_RxCUI": "284420",
+  "Brand_RxCUI": "284420",
+  "Generic_RxCUI": "313852",
   "prices": {
     "00299591545": {
       "08/23/2017": 11.21034,

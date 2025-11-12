@@ -2,8 +2,8 @@
   "RxCUI": "104385",
   "Name": "ALTACE 5 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "198189",
-  "Generic_RxCUI": "104385",
+  "Brand_RxCUI": "104385",
+  "Generic_RxCUI": "198189",
   "prices": {
     "61570011201": {
       "06/01/2017": 5.56027,

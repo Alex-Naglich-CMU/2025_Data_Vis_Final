@@ -2,8 +2,8 @@
   "RxCUI": "608143",
   "Name": "ATOMOXETINE HCL 80 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "608143",
-  "Generic_RxCUI": "617947",
+  "Brand_RxCUI": "617947",
+  "Generic_RxCUI": "608143",
   "prices": {
     "64980037803": {
       "05/19/2021": 1.77406,

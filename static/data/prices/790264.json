@@ -2,8 +2,8 @@
   "RxCUI": "790264",
   "Name": "DESVENLAFAXINE ER 100 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "790264",
-  "Generic_RxCUI": "1435480",
+  "Brand_RxCUI": "1435480",
+  "Generic_RxCUI": "790264",
   "prices": {
     "63304019230": {
       "06/21/2017": 4.11564,

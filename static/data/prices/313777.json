@@ -2,8 +2,8 @@
   "RxCUI": "313777",
   "Name": "ZIPRASIDONE HCL 60 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "313777",
-  "Generic_RxCUI": "284549",
+  "Brand_RxCUI": "284549",
+  "Generic_RxCUI": "313777",
   "prices": {
     "68084010509": {
       "05/19/2021": 0.37476,

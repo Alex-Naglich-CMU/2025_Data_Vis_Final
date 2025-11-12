@@ -2,8 +2,8 @@
   "RxCUI": "1305269",
   "Name": "AUVI-Q 0.3 MG AUTO-INJECTOR",
   "IsBrand": true,
-  "Brand_RxCUI": "1870205",
-  "Generic_RxCUI": "1305269",
+  "Brand_RxCUI": "1305269",
+  "Generic_RxCUI": "1870205",
   "prices": {
     "60842002301": {
       "04/17/2024": 298.09614,

@@ -2,8 +2,8 @@
   "RxCUI": "1312625",
   "Name": "LOTEPREDNOL 0.5% OPHTHALMC GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "1312625",
-  "Generic_RxCUI": "1312627",
+  "Brand_RxCUI": "1312627",
+  "Generic_RxCUI": "1312625",
   "prices": {
     "24208050801": {
       "06/23/2021": 28.5156,

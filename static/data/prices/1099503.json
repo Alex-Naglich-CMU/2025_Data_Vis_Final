@@ -2,8 +2,8 @@
   "RxCUI": "1099503",
   "Name": "LOTEMAX 0.5% EYE OINTMENT",
   "IsBrand": true,
-  "Brand_RxCUI": "1099500",
-  "Generic_RxCUI": "1099503",
+  "Brand_RxCUI": "1099503",
+  "Generic_RxCUI": "1099500",
   "prices": {
     "24208044335": {
       "11/22/2017": 63.52714,

@@ -2,8 +2,8 @@
   "RxCUI": "1868843",
   "Name": "FIBER THERAPY POWDER",
   "IsBrand": false,
-  "Brand_RxCUI": "1868843",
-  "Generic_RxCUI": "1868847",
+  "Brand_RxCUI": "1868847",
+  "Generic_RxCUI": "1868843",
   "prices": {
     "00904567516": {
       "02/20/2019": 0.01285,

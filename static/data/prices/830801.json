@@ -2,8 +2,8 @@
   "RxCUI": "830801",
   "Name": "DILTIAZEM 24H ER(CD) 300 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "830801",
-  "Generic_RxCUI": "1988319",
+  "Brand_RxCUI": "1988319",
+  "Generic_RxCUI": "830801",
   "prices": {
     "10370083211": {
       "05/19/2021": 0.45209,

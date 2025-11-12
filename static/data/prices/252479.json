@@ -2,8 +2,8 @@
   "RxCUI": "252479",
   "Name": "LAMOTRIGINE ODT 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "252479",
-  "Generic_RxCUI": "849050",
+  "Brand_RxCUI": "849050",
+  "Generic_RxCUI": "252479",
   "prices": {
     "49884048711": {
       "01/17/2018": 7.56133,

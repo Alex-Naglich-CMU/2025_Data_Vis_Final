@@ -2,8 +2,8 @@
   "RxCUI": "261105",
   "Name": "ENBREL 25 MG KIT",
   "IsBrand": true,
-  "Brand_RxCUI": "253014",
-  "Generic_RxCUI": "261105",
+  "Brand_RxCUI": "261105",
+  "Generic_RxCUI": "253014",
   "prices": {
     "58406042534": {
       "09/20/2017": 537.08643,

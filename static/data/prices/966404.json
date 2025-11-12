@@ -2,8 +2,8 @@
   "RxCUI": "966404",
   "Name": "LEVOTHYROXINE 100 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "966404",
-  "Generic_RxCUI": "966415",
+  "Brand_RxCUI": "966415",
+  "Generic_RxCUI": "966404",
   "prices": {
     "00527495632": {
       "2/22/2023": 4.07527,

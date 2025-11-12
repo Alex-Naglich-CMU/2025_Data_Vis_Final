@@ -2,8 +2,8 @@
   "RxCUI": "1246313",
   "Name": "DULERA 200 MCG-5 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "1246311",
-  "Generic_RxCUI": "1246313",
+  "Brand_RxCUI": "1246313",
+  "Generic_RxCUI": "1246311",
   "prices": {
     "78206012601": {
       "12/22/2021": 22.98974,

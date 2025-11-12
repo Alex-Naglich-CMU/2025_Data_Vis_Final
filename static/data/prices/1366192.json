@@ -2,8 +2,8 @@
   "RxCUI": "1366192",
   "Name": "CLOBAZAM 2.5 MG/ML SUSPENSION",
   "IsBrand": false,
-  "Brand_RxCUI": "1366192",
-  "Generic_RxCUI": "1366196",
+  "Brand_RxCUI": "1366196",
+  "Generic_RxCUI": "1366192",
   "prices": {
     "69238153502": {
       "05/19/2021": 0.54594,

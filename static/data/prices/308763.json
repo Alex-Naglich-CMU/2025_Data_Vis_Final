@@ -2,8 +2,8 @@
   "RxCUI": "308763",
   "Name": "STOMACH RELIEF 525 MG/15 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "308763",
-  "Generic_RxCUI": "1043048",
+  "Brand_RxCUI": "1043048",
+  "Generic_RxCUI": "308763",
   "prices": {
     "00536128736": {
       "07/21/2021": 0.00982,

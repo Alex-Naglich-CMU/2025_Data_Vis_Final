@@ -2,8 +2,8 @@
   "RxCUI": "607295",
   "Name": "DAPSONE 5% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "607295",
-  "Generic_RxCUI": "701858",
+  "Brand_RxCUI": "701858",
+  "Generic_RxCUI": "607295",
   "prices": {
     "51672138703": {
       "05/19/2021": 3.61496,

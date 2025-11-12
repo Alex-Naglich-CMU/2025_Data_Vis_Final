@@ -2,8 +2,8 @@
   "RxCUI": "311668",
   "Name": "METOCLOPRAMIDE 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311668",
-  "Generic_RxCUI": "207265",
+  "Brand_RxCUI": "207265",
+  "Generic_RxCUI": "311668",
   "prices": {
     "51079088620": {
       "05/19/2021": 0.03976,

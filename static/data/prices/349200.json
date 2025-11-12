@@ -2,8 +2,8 @@
   "RxCUI": "349200",
   "Name": "VALSARTAN 320 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "349200",
-  "Generic_RxCUI": "352001",
+  "Brand_RxCUI": "352001",
+  "Generic_RxCUI": "349200",
   "prices": {
     "51660014390": {
       "05/19/2021": 0.41639,

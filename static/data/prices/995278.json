@@ -2,8 +2,8 @@
   "RxCUI": "995278",
   "Name": "HYDROXYZINE PAM 50 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "995278",
-  "Generic_RxCUI": "995280",
+  "Brand_RxCUI": "995280",
+  "Generic_RxCUI": "995278",
   "prices": {
     "59762542001": {
       "05/19/2021": 0.07785,

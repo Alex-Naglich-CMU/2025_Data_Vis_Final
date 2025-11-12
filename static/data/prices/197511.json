@@ -2,8 +2,8 @@
   "RxCUI": "197511",
   "Name": "CIPROFLOXACIN HCL 250 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "197511",
-  "Generic_RxCUI": "205769",
+  "Brand_RxCUI": "205769",
+  "Generic_RxCUI": "197511",
   "prices": {
     "16714065102": {
       "05/19/2021": 0.10459,

@@ -2,8 +2,8 @@
   "RxCUI": "831359",
   "Name": "DILTIAZEM 24HR ER 420 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "831359",
-  "Generic_RxCUI": "1988330",
+  "Brand_RxCUI": "1988330",
+  "Generic_RxCUI": "831359",
   "prices": {
     "24658034690": {
       "05/19/2021": 1.12853,

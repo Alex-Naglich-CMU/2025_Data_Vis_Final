@@ -2,8 +2,8 @@
   "RxCUI": "830845",
   "Name": "DILTIAZEM 24HR ER 180 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "830845",
-  "Generic_RxCUI": "1988311",
+  "Brand_RxCUI": "1988311",
+  "Generic_RxCUI": "830845",
   "prices": {
     "68682036890": {
       "05/19/2021": 0.29388,

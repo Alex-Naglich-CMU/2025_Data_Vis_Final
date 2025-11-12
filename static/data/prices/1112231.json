@@ -2,8 +2,8 @@
   "RxCUI": "1112231",
   "Name": "NAPROXEN SODIUM 220 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "1112231",
-  "Generic_RxCUI": "1112233",
+  "Brand_RxCUI": "1112233",
+  "Generic_RxCUI": "1112231",
   "prices": {
     "36800074227": {
       "05/19/2021": 0.1377,

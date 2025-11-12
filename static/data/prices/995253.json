@@ -2,8 +2,8 @@
   "RxCUI": "995253",
   "Name": "HYDROXYZINE PAM 25 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "995253",
-  "Generic_RxCUI": "995255",
+  "Brand_RxCUI": "995255",
+  "Generic_RxCUI": "995253",
   "prices": {
     "00115180302": {
       "05/19/2021": 0.07413,

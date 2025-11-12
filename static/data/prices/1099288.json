@@ -2,8 +2,8 @@
   "RxCUI": "1099288",
   "Name": "DESIPRAMINE 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1099288",
-  "Generic_RxCUI": "1099290",
+  "Brand_RxCUI": "1099290",
+  "Generic_RxCUI": "1099288",
   "prices": {
     "23155057801": {
       "10/18/2017": 0.6619,

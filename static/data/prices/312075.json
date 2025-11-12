@@ -2,8 +2,8 @@
   "RxCUI": "312075",
   "Name": "OFLOXACIN 0.3% EYE DROPS",
   "IsBrand": false,
-  "Brand_RxCUI": "312075",
-  "Generic_RxCUI": "207202",
+  "Brand_RxCUI": "207202",
+  "Generic_RxCUI": "312075",
   "prices": {
     "60505056000": {
       "05/19/2021": 1.87245,

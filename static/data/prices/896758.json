@@ -2,8 +2,8 @@
   "RxCUI": "896758",
   "Name": "LABETALOL HCL 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "896758",
-  "Generic_RxCUI": "896777",
+  "Brand_RxCUI": "896777",
+  "Generic_RxCUI": "896758",
   "prices": {
     "58657060250": {
       "05/19/2021": 0.14854,

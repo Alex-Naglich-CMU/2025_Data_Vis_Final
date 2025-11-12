@@ -2,8 +2,8 @@
   "RxCUI": "198382",
   "Name": "FAMCICLOVIR 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198382",
-  "Generic_RxCUI": "206853",
+  "Brand_RxCUI": "206853",
+  "Generic_RxCUI": "198382",
   "prices": {
     "00093811956": {
       "05/19/2021": 0.87542,

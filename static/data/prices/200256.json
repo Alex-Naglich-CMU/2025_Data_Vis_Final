@@ -2,8 +2,8 @@
   "RxCUI": "200256",
   "Name": "REPAGLINIDE 1 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200256",
-  "Generic_RxCUI": "213219",
+  "Brand_RxCUI": "213219",
+  "Generic_RxCUI": "200256",
   "prices": {
     "57664074588": {
       "05/19/2021": 0.17987,

@@ -2,8 +2,8 @@
   "RxCUI": "1087043",
   "Name": "NASAL FOUR 1% NASAL SPRAY",
   "IsBrand": false,
-  "Brand_RxCUI": "1087043",
-  "Generic_RxCUI": "1234569",
+  "Brand_RxCUI": "1234569",
+  "Generic_RxCUI": "1087043",
   "prices": {
     "36800064810": {
       "05/19/2021": 0.06071,

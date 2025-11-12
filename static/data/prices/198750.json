@@ -2,8 +2,8 @@
   "RxCUI": "198750",
   "Name": "HM FIBER 500 MG CAPLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198750",
-  "Generic_RxCUI": "352178",
+  "Brand_RxCUI": "352178",
+  "Generic_RxCUI": "198750",
   "prices": {
     "62011013401": {
       "05/19/2021": 0.05877,

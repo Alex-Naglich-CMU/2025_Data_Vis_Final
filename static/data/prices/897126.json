@@ -2,8 +2,8 @@
   "RxCUI": "897126",
   "Name": "VICTOZA 2-PAK 18 MG/3 ML PEN",
   "IsBrand": true,
-  "Brand_RxCUI": "897122",
-  "Generic_RxCUI": "897126",
+  "Brand_RxCUI": "897126",
+  "Generic_RxCUI": "897122",
   "prices": {
     "00169406012": {
       "06/15/2017": 86.09731,

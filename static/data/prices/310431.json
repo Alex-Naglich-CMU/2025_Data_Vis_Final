@@ -2,8 +2,8 @@
   "RxCUI": "310431",
   "Name": "GABAPENTIN 300 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "310431",
-  "Generic_RxCUI": "105029",
+  "Brand_RxCUI": "105029",
+  "Generic_RxCUI": "310431",
   "prices": {
     "71093012104": {
       "05/19/2021": 0.05179,

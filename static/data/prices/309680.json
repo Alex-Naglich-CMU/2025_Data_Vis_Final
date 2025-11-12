@@ -2,8 +2,8 @@
   "RxCUI": "309680",
   "Name": "NEOMYC-POLYM-DEXAMETH EYE DROP",
   "IsBrand": false,
-  "Brand_RxCUI": "309680",
-  "Generic_RxCUI": "208591",
+  "Brand_RxCUI": "208591",
+  "Generic_RxCUI": "309680",
   "prices": {
     "24208083060": {
       "05/19/2021": 2.69566,

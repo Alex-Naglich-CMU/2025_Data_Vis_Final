@@ -2,8 +2,8 @@
   "RxCUI": "198377",
   "Name": "TACROLIMUS 1 MG CAPSULE (IMMEDIATE RELEASE)",
   "IsBrand": false,
-  "Brand_RxCUI": "198377",
-  "Generic_RxCUI": "108513",
+  "Brand_RxCUI": "108513",
+  "Generic_RxCUI": "198377",
   "prices": {
     "51079081820": {
       "05/19/2021": 0.54469,

@@ -2,8 +2,8 @@
   "RxCUI": "315090",
   "Name": "ERYTHROMYCIN DR 333 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "315090",
-  "Generic_RxCUI": "206078",
+  "Brand_RxCUI": "206078",
+  "Generic_RxCUI": "315090",
   "prices": {
     "52536018303": {
       "05/22/2024": 3.18576,

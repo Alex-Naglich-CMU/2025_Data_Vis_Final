@@ -2,8 +2,8 @@
   "RxCUI": "999640",
   "Name": "TRIMO-SAN JELLY",
   "IsBrand": true,
-  "Brand_RxCUI": "999638",
-  "Generic_RxCUI": "999640",
+  "Brand_RxCUI": "999640",
+  "Generic_RxCUI": "999638",
   "prices": {
     "59365503000": {
       "10/17/2018": 0.16852,

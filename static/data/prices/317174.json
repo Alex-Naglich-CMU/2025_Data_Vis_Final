@@ -2,8 +2,8 @@
   "RxCUI": "317174",
   "Name": "QUETIAPINE FUMARATE 200 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "317174",
-  "Generic_RxCUI": "153640",
+  "Brand_RxCUI": "153640",
+  "Generic_RxCUI": "317174",
   "prices": {
     "68001018203": {
       "05/19/2021": 0.12685,

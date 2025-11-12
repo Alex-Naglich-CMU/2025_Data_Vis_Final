@@ -2,8 +2,8 @@
   "RxCUI": "749860",
   "Name": "NORG-ETHIN ESTRA 0.25-0.035 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "749860",
-  "Generic_RxCUI": "2468058",
+  "Brand_RxCUI": "2468058",
+  "Generic_RxCUI": "749860",
   "prices": {
     "00378728685": {
       "05/19/2021": 0.20724,

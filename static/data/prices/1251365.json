@@ -2,8 +2,8 @@
   "RxCUI": "1251365",
   "Name": "GAVISCON LIQUID",
   "IsBrand": true,
-  "Brand_RxCUI": "252203",
-  "Generic_RxCUI": "1251365",
+  "Brand_RxCUI": "1251365",
+  "Generic_RxCUI": "252203",
   "prices": {
     "00135009441": {
       "09/20/2017": 0.01707,

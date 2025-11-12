@@ -2,8 +2,8 @@
   "RxCUI": "1049909",
   "Name": "QC COMPLETE ALLERGY 25 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1049909",
-  "Generic_RxCUI": "1919073",
+  "Brand_RxCUI": "1919073",
+  "Generic_RxCUI": "1049909",
   "prices": {
     "63868008701": {
       "05/19/2021": 0.03376,

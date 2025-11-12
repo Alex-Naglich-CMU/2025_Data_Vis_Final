@@ -2,8 +2,8 @@
   "RxCUI": "197659",
   "Name": "ESTRADIOL 2 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197659",
-  "Generic_RxCUI": "206241",
+  "Brand_RxCUI": "206241",
+  "Generic_RxCUI": "197659",
   "prices": {
     "42806008905": {
       "05/19/2021": 0.1429,

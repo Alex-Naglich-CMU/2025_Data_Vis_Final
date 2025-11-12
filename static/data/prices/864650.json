@@ -2,8 +2,8 @@
   "RxCUI": "864650",
   "Name": "ZIRGAN 0.15% OPHTHALMIC GEL",
   "IsBrand": true,
-  "Brand_RxCUI": "388052",
-  "Generic_RxCUI": "864650",
+  "Brand_RxCUI": "864650",
+  "Generic_RxCUI": "388052",
   "prices": {
     "24208053535": {
       "01/05/2018": 63.28864,

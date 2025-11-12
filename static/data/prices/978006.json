@@ -2,8 +2,8 @@
   "RxCUI": "978006",
   "Name": "QC ANTI-DIARRHEAL 2 MG SOFTGEL",
   "IsBrand": false,
-  "Brand_RxCUI": "978006",
-  "Generic_RxCUI": "978009",
+  "Brand_RxCUI": "978009",
+  "Generic_RxCUI": "978006",
   "prices": {
     "63868087612": {
       "05/19/2021": 0.14224,

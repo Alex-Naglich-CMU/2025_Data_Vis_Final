@@ -2,8 +2,8 @@
   "RxCUI": "636141",
   "Name": "OSMOPREP TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "603011",
-  "Generic_RxCUI": "636141",
+  "Brand_RxCUI": "636141",
+  "Generic_RxCUI": "603011",
   "prices": {
     "65649070141": {
       "09/20/2017": 5.85078,

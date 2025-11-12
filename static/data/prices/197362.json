@@ -2,8 +2,8 @@
   "RxCUI": "197362",
   "Name": "AMMONIUM LACTATE 12% LOTION",
   "IsBrand": false,
-  "Brand_RxCUI": "197362",
-  "Generic_RxCUI": "864010",
+  "Brand_RxCUI": "864010",
+  "Generic_RxCUI": "197362",
   "prices": {
     "51672130009": {
       "05/19/2021": 0.07903,

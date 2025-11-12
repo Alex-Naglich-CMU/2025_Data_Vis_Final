@@ -2,8 +2,8 @@
   "RxCUI": "861010",
   "Name": "METFORMIN HCL 850 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "861010",
-  "Generic_RxCUI": "861012",
+  "Brand_RxCUI": "861012",
+  "Generic_RxCUI": "861010",
   "prices": {
     "51224012070": {
       "05/19/2021": 0.02979,

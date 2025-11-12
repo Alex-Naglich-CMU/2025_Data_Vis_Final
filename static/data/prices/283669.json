@@ -2,8 +2,8 @@
   "RxCUI": "283669",
   "Name": "PANTOPRAZOLE SODIUM 40 MG VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "283669",
-  "Generic_RxCUI": "885257",
+  "Brand_RxCUI": "885257",
+  "Generic_RxCUI": "283669",
   "prices": {
     "00143928410": {
       "05/22/2024": 2.8485,

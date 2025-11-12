@@ -2,8 +2,8 @@
   "RxCUI": "753990",
   "Name": "MENOPUR 75 UNIT VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "314097",
-  "Generic_RxCUI": "753990",
+  "Brand_RxCUI": "753990",
+  "Generic_RxCUI": "314097",
   "prices": {
     "55566750102": {
       "07/03/2024": 233.95042,

@@ -2,8 +2,8 @@
   "RxCUI": "725021",
   "Name": "RIVASTIGMINE 4.6 MG/24HR PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "725021",
-  "Generic_RxCUI": "751302",
+  "Brand_RxCUI": "751302",
+  "Generic_RxCUI": "725021",
   "prices": {
     "47781030403": {
       "05/19/2021": 3.88477,

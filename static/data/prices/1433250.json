@@ -2,8 +2,8 @@
   "RxCUI": "1433250",
   "Name": "FETZIMA 20-40 MG TITRATION PAK",
   "IsBrand": true,
-  "Brand_RxCUI": "1433249",
-  "Generic_RxCUI": "1433250",
+  "Brand_RxCUI": "1433250",
+  "Generic_RxCUI": "1433249",
   "prices": {
     "00456220228": {
       "01/01/2018": 11.53915,

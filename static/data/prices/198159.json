@@ -2,8 +2,8 @@
   "RxCUI": "198159",
   "Name": "PROCHLORPERAZINE 25 MG SUPP",
   "IsBrand": false,
-  "Brand_RxCUI": "198159",
-  "Generic_RxCUI": "284254",
+  "Brand_RxCUI": "284254",
+  "Generic_RxCUI": "198159",
   "prices": {
     "00713013506": {
       "05/19/2021": 6.789,

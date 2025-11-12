@@ -2,8 +2,8 @@
   "RxCUI": "486152",
   "Name": "NITROGLYCERIN 0.4 MG/HR PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "486152",
-  "Generic_RxCUI": "899607",
+  "Brand_RxCUI": "899607",
+  "Generic_RxCUI": "486152",
   "prices": {
     "00378911216": {
       "05/19/2021": 0.57843,

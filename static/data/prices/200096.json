@@ -2,8 +2,8 @@
   "RxCUI": "200096",
   "Name": "IRBESARTAN 300 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200096",
-  "Generic_RxCUI": "153667",
+  "Brand_RxCUI": "153667",
+  "Generic_RxCUI": "200096",
   "prices": {
     "31722073130": {
       "05/19/2021": 0.33007,

@@ -2,8 +2,8 @@
   "RxCUI": "1052637",
   "Name": "MENSTRUAL RELIEF CAPLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1052637",
-  "Generic_RxCUI": "1053852",
+  "Brand_RxCUI": "1053852",
+  "Generic_RxCUI": "1052637",
   "prices": {
     "70000014501": {
       "03/17/2021": 0.0876,

@@ -2,8 +2,8 @@
   "RxCUI": "1052760",
   "Name": "HM MAGNESIUM CITRATE SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "1052760",
-  "Generic_RxCUI": "1245168",
+  "Brand_RxCUI": "1245168",
+  "Generic_RxCUI": "1052760",
   "prices": {
     "62011038101": {
       "05/19/2021": 0.0047,

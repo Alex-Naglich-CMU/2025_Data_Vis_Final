@@ -2,8 +2,8 @@
   "RxCUI": "213322",
   "Name": "MAXALT 10 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "314209",
-  "Generic_RxCUI": "213322",
+  "Brand_RxCUI": "213322",
+  "Generic_RxCUI": "314209",
   "prices": {
     "00006026701": {
       "11/21/2018": 35.03989

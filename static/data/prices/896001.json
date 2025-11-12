@@ -2,8 +2,8 @@
   "RxCUI": "896001",
   "Name": "FLOVENT HFA 110 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "895999",
-  "Generic_RxCUI": "896001",
+  "Brand_RxCUI": "896001",
+  "Generic_RxCUI": "895999",
   "prices": {
     "00173071920": {
       "11/22/2017": 18.35436,

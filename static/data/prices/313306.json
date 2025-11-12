@@ -2,8 +2,8 @@
   "RxCUI": "313306",
   "Name": "THEOPHYLLINE 80 MG/15 ML SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "313306",
-  "Generic_RxCUI": "756226",
+  "Brand_RxCUI": "756226",
+  "Generic_RxCUI": "313306",
   "prices": {
     "27808003301": {
       "05/22/2024": 0.10224,

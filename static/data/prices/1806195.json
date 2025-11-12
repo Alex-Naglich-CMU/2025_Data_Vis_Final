@@ -2,8 +2,8 @@
   "RxCUI": "1806195",
   "Name": "METHYLPHENIDATE LA 10 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1806195",
-  "Generic_RxCUI": "1091143",
+  "Brand_RxCUI": "1091143",
+  "Generic_RxCUI": "1806195",
   "prices": {
     "70010001201": {
       "05/19/2021": 2.66736,

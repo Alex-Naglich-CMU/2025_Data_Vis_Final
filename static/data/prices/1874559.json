@@ -2,8 +2,8 @@
   "RxCUI": "1874559",
   "Name": "DESVENLAFAXINE SUCCNT ER 50 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "1874559",
-  "Generic_RxCUI": "790290",
+  "Brand_RxCUI": "790290",
+  "Generic_RxCUI": "1874559",
   "prices": {
     "51991031133": {
       "05/19/2021": 0.70851,

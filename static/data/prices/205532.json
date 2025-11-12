@@ -2,8 +2,8 @@
   "RxCUI": "205532",
   "Name": "PULMOZYME 1 MG/ML AMPUL",
   "IsBrand": true,
-  "Brand_RxCUI": "310014",
-  "Generic_RxCUI": "205532",
+  "Brand_RxCUI": "205532",
+  "Generic_RxCUI": "310014",
   "prices": {
     "50242010040": {
       "07/21/2021": 44.5801,

@@ -2,8 +2,8 @@
   "RxCUI": "1014571",
   "Name": "CETIRIZINE-PSE ER 5-120 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1014571",
-  "Generic_RxCUI": "1014583",
+  "Brand_RxCUI": "1014583",
+  "Generic_RxCUI": "1014571",
   "prices": {
     "00536127912": {
       "05/19/2021": 0.67431,

@@ -2,8 +2,8 @@
   "RxCUI": "313391",
   "Name": "THYROID 60 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "313391",
-  "Generic_RxCUI": "2706323",
+  "Brand_RxCUI": "2706323",
+  "Generic_RxCUI": "313391",
   "prices": {
     "62559074201": {
       "06/19/2024": 0.69849,

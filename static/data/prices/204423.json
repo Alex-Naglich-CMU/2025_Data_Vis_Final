@@ -2,8 +2,8 @@
   "RxCUI": "204423",
   "Name": "NEOMYCIN-POLYMYXIN-HC EAR SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "204423",
-  "Generic_RxCUI": "206511",
+  "Brand_RxCUI": "206511",
+  "Generic_RxCUI": "204423",
   "prices": {
     "61314064610": {
       "05/19/2021": 5.96367,

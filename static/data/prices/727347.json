@@ -2,8 +2,8 @@
   "RxCUI": "727347",
   "Name": "EPIPEN 2-PAK 0.3 MG AUTO-INJCT",
   "IsBrand": true,
-  "Brand_RxCUI": "1870207",
-  "Generic_RxCUI": "727347",
+  "Brand_RxCUI": "727347",
+  "Generic_RxCUI": "1870207",
   "prices": {
     "49502050002": {
       "02/21/2018": 291.61034,

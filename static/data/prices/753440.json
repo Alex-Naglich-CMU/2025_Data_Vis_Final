@@ -2,8 +2,8 @@
   "RxCUI": "753440",
   "Name": "METHYLPHENIDATE 20 MG/9 HR PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "753440",
-  "Generic_RxCUI": "753442",
+  "Brand_RxCUI": "753442",
+  "Generic_RxCUI": "753440",
   "prices": {
     "00378826216": {
       "09/20/2023": 12.48433,

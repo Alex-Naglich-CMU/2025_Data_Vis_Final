@@ -2,8 +2,8 @@
   "RxCUI": "2395834",
   "Name": "AIRDUO DIGIHALER 232-14 MCG",
   "IsBrand": true,
-  "Brand_RxCUI": "2395832",
-  "Generic_RxCUI": "2395834",
+  "Brand_RxCUI": "2395834",
+  "Generic_RxCUI": "2395832",
   "prices": {
     "59310013606": {
       "01/01/2023": 476.13061,

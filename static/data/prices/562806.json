@@ -2,8 +2,8 @@
   "RxCUI": "562806",
   "Name": "PIMECROLIMUS 1% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "562806",
-  "Generic_RxCUI": "352085",
+  "Brand_RxCUI": "352085",
+  "Generic_RxCUI": "562806",
   "prices": {
     "00591294487": {
       "05/19/2021": 4.95582,

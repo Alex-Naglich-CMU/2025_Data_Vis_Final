@@ -2,8 +2,8 @@
   "RxCUI": "403810",
   "Name": "APREPITANT 80 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "403810",
-  "Generic_RxCUI": "404465",
+  "Brand_RxCUI": "404465",
+  "Generic_RxCUI": "403810",
   "prices": {
     "00781232246": {
       "02/21/2024": 93.00375,

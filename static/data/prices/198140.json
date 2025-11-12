@@ -2,8 +2,8 @@
   "RxCUI": "198140",
   "Name": "PRAZIQUANTEL 600 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198140",
-  "Generic_RxCUI": "208975",
+  "Brand_RxCUI": "208975",
+  "Generic_RxCUI": "198140",
   "prices": {
     "49884023183": {
       "05/22/2024": 49.76533,

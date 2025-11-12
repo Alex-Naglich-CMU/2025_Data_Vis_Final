@@ -2,8 +2,8 @@
   "RxCUI": "200082",
   "Name": "LAMIVUDINE-ZIDOVUDINE TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200082",
-  "Generic_RxCUI": "213088",
+  "Brand_RxCUI": "213088",
+  "Generic_RxCUI": "200082",
   "prices": {
     "65862059760": {
       "06/21/2017": 1.55911,

@@ -2,8 +2,8 @@
   "RxCUI": "311679",
   "Name": "METRONIDAZOLE TOPICAL 0.75% GL",
   "IsBrand": false,
-  "Brand_RxCUI": "311679",
-  "Generic_RxCUI": "1251688",
+  "Brand_RxCUI": "1251688",
+  "Generic_RxCUI": "311679",
   "prices": {
     "00713063737": {
       "05/19/2021": 0.73889,

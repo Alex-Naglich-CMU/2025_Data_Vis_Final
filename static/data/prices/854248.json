@@ -2,8 +2,8 @@
   "RxCUI": "854248",
   "Name": "ENOXAPARIN 100 MG/ML SYRINGE",
   "IsBrand": false,
-  "Brand_RxCUI": "854248",
-  "Generic_RxCUI": "854249",
+  "Brand_RxCUI": "854249",
+  "Generic_RxCUI": "854248",
   "prices": {
     "00955101010": {
       "05/19/2021": 10.40545,

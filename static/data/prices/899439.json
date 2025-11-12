@@ -2,8 +2,8 @@
   "RxCUI": "899439",
   "Name": "DEXMETHYLPHENIDATE ER 10 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "899439",
-  "Generic_RxCUI": "899441",
+  "Brand_RxCUI": "899441",
+  "Generic_RxCUI": "899439",
   "prices": {
     "00378408101": {
       "05/19/2021": 1.4765,

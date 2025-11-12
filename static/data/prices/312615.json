@@ -2,8 +2,8 @@
   "RxCUI": "312615",
   "Name": "PREDNISONE 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312615",
-  "Generic_RxCUI": "206997",
+  "Brand_RxCUI": "206997",
+  "Generic_RxCUI": "312615",
   "prices": {
     "60687014501": {
       "05/19/2021": 0.1135,

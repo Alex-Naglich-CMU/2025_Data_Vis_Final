@@ -2,8 +2,8 @@
   "RxCUI": "212575",
   "Name": "NORVASC 10 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "308135",
-  "Generic_RxCUI": "212575",
+  "Brand_RxCUI": "212575",
+  "Generic_RxCUI": "308135",
   "prices": {
     "00069154041": {
       "06/01/2017": 7.4975,

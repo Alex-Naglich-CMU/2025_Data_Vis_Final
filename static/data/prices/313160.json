@@ -2,8 +2,8 @@
   "RxCUI": "313160",
   "Name": "SUMATRIPTAN SUCC 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "313160",
-  "Generic_RxCUI": "284460",
+  "Brand_RxCUI": "284460",
+  "Generic_RxCUI": "313160",
   "prices": {
     "00378563259": {
       "05/19/2021": 0.60106,

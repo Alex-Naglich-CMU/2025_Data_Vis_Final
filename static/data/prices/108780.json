@@ -2,8 +2,8 @@
   "RxCUI": "108780",
   "Name": "VALTREX 500 MG CAPLET",
   "IsBrand": true,
-  "Brand_RxCUI": "313565",
-  "Generic_RxCUI": "108780",
+  "Brand_RxCUI": "108780",
+  "Generic_RxCUI": "313565",
   "prices": {
     "00173093308": {
       "09/20/2017": 10.9464,

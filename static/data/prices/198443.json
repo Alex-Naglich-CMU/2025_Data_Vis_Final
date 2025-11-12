@@ -2,8 +2,8 @@
   "RxCUI": "198443",
   "Name": "ACETAMINOPHEN 650 MG SUPPOS",
   "IsBrand": false,
-  "Brand_RxCUI": "198443",
-  "Generic_RxCUI": "209364",
+  "Brand_RxCUI": "209364",
+  "Generic_RxCUI": "198443",
   "prices": {
     "45802073030": {
       "05/19/2021": 0.32161,

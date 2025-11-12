@@ -2,8 +2,8 @@
   "RxCUI": "825005",
   "Name": "SANCUSO 3.1 MG/24 HR PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "825003",
-  "Generic_RxCUI": "825005",
+  "Brand_RxCUI": "825005",
+  "Generic_RxCUI": "825003",
   "prices": {
     "42747072601": {
       "02/01/2018": 506.28699,

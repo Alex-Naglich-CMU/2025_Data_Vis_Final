@@ -2,8 +2,8 @@
   "RxCUI": "485465",
   "Name": "ESZOPICLONE 3 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "485465",
-  "Generic_RxCUI": "540411",
+  "Brand_RxCUI": "540411",
+  "Generic_RxCUI": "485465",
   "prices": {
     "65862096901": {
       "05/19/2021": 0.18928,

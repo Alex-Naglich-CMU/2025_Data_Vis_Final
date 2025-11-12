@@ -2,8 +2,8 @@
   "RxCUI": "105029",
   "Name": "NEURONTIN 300 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "310431",
-  "Generic_RxCUI": "105029",
+  "Brand_RxCUI": "105029",
+  "Generic_RxCUI": "310431",
   "prices": {
     "00071080540": {
       "06/01/2017": 4.668,

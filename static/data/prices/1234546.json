@@ -2,8 +2,8 @@
   "RxCUI": "1234546",
   "Name": "CALDYPHEN CLEAR LOTION",
   "IsBrand": false,
-  "Brand_RxCUI": "1234546",
-  "Generic_RxCUI": "1248193",
+  "Brand_RxCUI": "1248193",
+  "Generic_RxCUI": "1234546",
   "prices": {
     "24385043930": {
       "05/19/2021": 0.0138,

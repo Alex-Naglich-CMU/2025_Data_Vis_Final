@@ -2,8 +2,8 @@
   "RxCUI": "352050",
   "Name": "VIREAD 300 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "349251",
-  "Generic_RxCUI": "352050",
+  "Brand_RxCUI": "352050",
+  "Generic_RxCUI": "349251",
   "prices": {
     "61958040101": {
       "01/01/2018": 36.64468,

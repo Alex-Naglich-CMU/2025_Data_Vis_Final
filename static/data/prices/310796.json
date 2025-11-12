@@ -2,8 +2,8 @@
   "RxCUI": "310796",
   "Name": "QUINAPRIL-HYDROCHLOROTHIAZIDE 10-12.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "310796",
-  "Generic_RxCUI": "809854",
+  "Brand_RxCUI": "809854",
+  "Generic_RxCUI": "310796",
   "prices": {
     "65862016190": {
       "06/23/2021": 0.37346,

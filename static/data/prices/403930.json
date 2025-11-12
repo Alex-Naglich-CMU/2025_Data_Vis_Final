@@ -2,8 +2,8 @@
   "RxCUI": "403930",
   "Name": "ISOTRETINOIN 30 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "403930",
-  "Generic_RxCUI": "2711694",
+  "Brand_RxCUI": "2711694",
+  "Generic_RxCUI": "403930",
   "prices": {
     "69238101703": {
       "05/19/2021": 3.70893,

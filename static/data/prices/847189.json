@@ -2,8 +2,8 @@
   "RxCUI": "847189",
   "Name": "HUMULIN 70/30 KWIKPEN",
   "IsBrand": true,
-  "Brand_RxCUI": "847187",
-  "Generic_RxCUI": "847189",
+  "Brand_RxCUI": "847189",
+  "Generic_RxCUI": "847187",
   "prices": {
     "00002880359": {
       "05/19/2021": 30.15467,

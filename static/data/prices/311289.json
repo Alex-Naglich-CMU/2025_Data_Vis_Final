@@ -2,8 +2,8 @@
   "RxCUI": "311289",
   "Name": "LEVETIRACETAM 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311289",
-  "Generic_RxCUI": "1731020",
+  "Brand_RxCUI": "1731020",
+  "Generic_RxCUI": "311289",
   "prices": {
     "13668001505": {
       "05/19/2021": 0.11354,

@@ -2,8 +2,8 @@
   "RxCUI": "313932",
   "Name": "CALCITRIOL 1 MCG/ML SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "313932",
-  "Generic_RxCUI": "261283",
+  "Brand_RxCUI": "261283",
+  "Generic_RxCUI": "313932",
   "prices": {
     "00054312041": {
       "06/23/2021": 5.4764,

@@ -2,8 +2,8 @@
   "RxCUI": "311373",
   "Name": "LORATADINE 10 MG ODT",
   "IsBrand": false,
-  "Brand_RxCUI": "311373",
-  "Generic_RxCUI": "1358471",
+  "Brand_RxCUI": "1358471",
+  "Generic_RxCUI": "311373",
   "prices": {
     "46122053952": {
       "6/22/2022": 0.35217,

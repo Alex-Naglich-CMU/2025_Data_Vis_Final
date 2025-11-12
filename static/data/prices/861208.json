@@ -2,8 +2,8 @@
   "RxCUI": "861208",
   "Name": "BRIMONIDINE TARTRATE 0.15% DRP",
   "IsBrand": false,
-  "Brand_RxCUI": "861208",
-  "Generic_RxCUI": "861210",
+  "Brand_RxCUI": "861210",
+  "Generic_RxCUI": "861208",
   "prices": {
     "61314014405": {
       "05/19/2021": 24.38359,

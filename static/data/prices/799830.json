@@ -2,8 +2,8 @@
   "RxCUI": "799830",
   "Name": "SPRYCEL 100 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "799047",
-  "Generic_RxCUI": "799830",
+  "Brand_RxCUI": "799830",
+  "Generic_RxCUI": "799047",
   "prices": {
     "00003085222": {
       "09/06/2017": 387.20388,

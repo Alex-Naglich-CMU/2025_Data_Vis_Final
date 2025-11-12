@@ -2,8 +2,8 @@
   "RxCUI": "724861",
   "Name": "ARMODAFINIL 250 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "724861",
-  "Generic_RxCUI": "805661",
+  "Brand_RxCUI": "805661",
+  "Generic_RxCUI": "724861",
   "prices": {
     "00781805331": {
       "05/19/2021": 1.23886,

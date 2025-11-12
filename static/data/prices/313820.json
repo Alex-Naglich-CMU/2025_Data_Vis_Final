@@ -2,8 +2,8 @@
   "RxCUI": "313820",
   "Name": "CHILD ACETAMINOPHEN 160 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "313820",
-  "Generic_RxCUI": "828557",
+  "Brand_RxCUI": "828557",
+  "Generic_RxCUI": "313820",
   "prices": {
     "70000031001": {
       "05/19/2021": 0.12398,

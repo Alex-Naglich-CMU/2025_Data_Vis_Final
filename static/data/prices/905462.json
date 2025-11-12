@@ -2,8 +2,8 @@
   "RxCUI": "905462",
   "Name": "LEVOTHYROXINE 88 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "905462",
-  "Generic_RxCUI": "905464",
+  "Brand_RxCUI": "905464",
+  "Generic_RxCUI": "905462",
   "prices": {
     "00527495532": {
       "10/18/2023": 3.75234,

@@ -2,8 +2,8 @@
   "RxCUI": "731227",
   "Name": "ARANESP 40 MCG/0.4 ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "731181",
-  "Generic_RxCUI": "731227",
+  "Brand_RxCUI": "731227",
+  "Generic_RxCUI": "731181",
   "prices": {
     "55513002104": {
       "05/22/2024": 753.64375,

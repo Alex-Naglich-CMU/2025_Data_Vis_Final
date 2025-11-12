@@ -2,8 +2,8 @@
   "RxCUI": "855168",
   "Name": "LEVOCETIRIZINE 2.5 MG/5 ML SOL",
   "IsBrand": false,
-  "Brand_RxCUI": "855168",
-  "Generic_RxCUI": "855170",
+  "Brand_RxCUI": "855170",
+  "Generic_RxCUI": "855168",
   "prices": {
     "00527191769": {
       "05/19/2021": 0.24192,

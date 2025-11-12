@@ -2,8 +2,8 @@
   "RxCUI": "847232",
   "Name": "LANTUS SOLOSTAR 100 UNIT/ML",
   "IsBrand": true,
-  "Brand_RxCUI": "847230",
-  "Generic_RxCUI": "847232",
+  "Brand_RxCUI": "847232",
+  "Generic_RxCUI": "847230",
   "prices": {
     "00088502005": {
       "06/23/2021": 27.23698,

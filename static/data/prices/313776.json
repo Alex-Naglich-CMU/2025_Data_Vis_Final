@@ -2,8 +2,8 @@
   "RxCUI": "313776",
   "Name": "ZIPRASIDONE HCL 40 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "313776",
-  "Generic_RxCUI": "284548",
+  "Brand_RxCUI": "284548",
+  "Generic_RxCUI": "313776",
   "prices": {
     "68084010411": {
       "05/19/2021": 0.38019,

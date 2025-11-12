@@ -2,8 +2,8 @@
   "RxCUI": "861783",
   "Name": "PIOGLITAZONE-METFORMIN 15-500",
   "IsBrand": false,
-  "Brand_RxCUI": "861783",
-  "Generic_RxCUI": "861785",
+  "Brand_RxCUI": "861785",
+  "Generic_RxCUI": "861783",
   "prices": {
     "33342017609": {
       "06/23/2021": 0.79982,

@@ -2,8 +2,8 @@
   "RxCUI": "310181",
   "Name": "CLIMARA 0.1 MG/DAY PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "238004",
-  "Generic_RxCUI": "310181",
+  "Brand_RxCUI": "310181",
+  "Generic_RxCUI": "238004",
   "prices": {
     "50419045201": {
       "11/22/2017": 30.16535,

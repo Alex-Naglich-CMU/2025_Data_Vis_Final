@@ -2,8 +2,8 @@
   "RxCUI": "849574",
   "Name": "GNP NAPROXEN SOD 220 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "849574",
-  "Generic_RxCUI": "849737",
+  "Brand_RxCUI": "849737",
+  "Generic_RxCUI": "849574",
   "prices": {
     "46122056271": {
       "05/19/2021": 0.05342,

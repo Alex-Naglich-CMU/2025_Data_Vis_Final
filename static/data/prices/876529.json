@@ -2,8 +2,8 @@
   "RxCUI": "876529",
   "Name": "TELMISARTAN-AMLODIPINE 80-5 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "876529",
-  "Generic_RxCUI": "876533",
+  "Brand_RxCUI": "876533",
+  "Generic_RxCUI": "876529",
   "prices": {
     "00378107793": {
       "04/19/2023": 3.2841,

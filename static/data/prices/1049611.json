@@ -2,8 +2,8 @@
   "RxCUI": "1049611",
   "Name": "OXYCODONE HCL 15 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1049611",
-  "Generic_RxCUI": "1049613",
+  "Brand_RxCUI": "1049613",
+  "Generic_RxCUI": "1049611",
   "prices": {
     "00406851562": {
       "05/19/2021": 0.12088,

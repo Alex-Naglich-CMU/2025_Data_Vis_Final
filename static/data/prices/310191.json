@@ -2,8 +2,8 @@
   "RxCUI": "310191",
   "Name": "ESTRADIOL VALERATE 200 MG/5 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "310191",
-  "Generic_RxCUI": "206813",
+  "Brand_RxCUI": "206813",
+  "Generic_RxCUI": "310191",
   "prices": {
     "00517044001": {
       "09/23/2020": 33.12333,

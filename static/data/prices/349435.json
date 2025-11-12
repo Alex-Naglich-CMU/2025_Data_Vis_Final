@@ -2,8 +2,8 @@
   "RxCUI": "349435",
   "Name": "VORICONAZOLE 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "349435",
-  "Generic_RxCUI": "352218",
+  "Brand_RxCUI": "352218",
+  "Generic_RxCUI": "349435",
   "prices": {
     "00378162693": {
       "05/22/2024": 0.51155,

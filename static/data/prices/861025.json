@@ -2,8 +2,8 @@
   "RxCUI": "861025",
   "Name": "METFORMIN HCL 500 MG/5 ML SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "861025",
-  "Generic_RxCUI": "861027",
+  "Brand_RxCUI": "861027",
+  "Generic_RxCUI": "861025",
   "prices": {
     "42571036007": {
       "11/17/2021": 0.91775,

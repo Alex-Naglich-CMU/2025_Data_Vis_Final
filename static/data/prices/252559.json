@@ -2,8 +2,8 @@
   "RxCUI": "252559",
   "Name": "BUDESONIDE 1 MG/2 ML INH SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "252559",
-  "Generic_RxCUI": "616819",
+  "Brand_RxCUI": "616819",
+  "Generic_RxCUI": "252559",
   "prices": {
     "69097032153": {
       "05/19/2021": 4.36608,

@@ -2,8 +2,8 @@
   "RxCUI": "1797907",
   "Name": "FLUTICASONE PROP 50 MCG SPRAY",
   "IsBrand": false,
-  "Brand_RxCUI": "1797907",
-  "Generic_RxCUI": "1996212",
+  "Brand_RxCUI": "1996212",
+  "Generic_RxCUI": "1797907",
   "prices": {
     "60505082901": {
       "05/19/2021": 0.28618,

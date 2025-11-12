@@ -2,8 +2,8 @@
   "RxCUI": "810083",
   "Name": "CARBIDOPA-LEVODOPA-ENTACAPONE 31.25-125-200 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "810083",
-  "Generic_RxCUI": "810087",
+  "Brand_RxCUI": "810087",
+  "Generic_RxCUI": "810083",
   "prices": {
     "47335000488": {
       "07/21/2021": 0.9119,

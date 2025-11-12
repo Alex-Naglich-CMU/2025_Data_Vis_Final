@@ -2,8 +2,8 @@
   "RxCUI": "862025",
   "Name": "GUANFACINE HCL ER 4 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "862025",
-  "Generic_RxCUI": "862027",
+  "Brand_RxCUI": "862027",
+  "Generic_RxCUI": "862025",
   "prices": {
     "00093596401": {
       "05/19/2021": 0.28932,

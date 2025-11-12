@@ -2,8 +2,8 @@
   "RxCUI": "311502",
   "Name": "BLUE 2% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "311502",
-  "Generic_RxCUI": "692869",
+  "Brand_RxCUI": "692869",
+  "Generic_RxCUI": "311502",
   "prices": {
     "00536106139": {
       "05/19/2021": 0.01446,

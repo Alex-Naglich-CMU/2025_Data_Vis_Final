@@ -2,8 +2,8 @@
   "RxCUI": "1542999",
   "Name": "BUTRANS 7.5 MCG/HR PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "1542997",
-  "Generic_RxCUI": "1542999",
+  "Brand_RxCUI": "1542999",
+  "Generic_RxCUI": "1542997",
   "prices": {
     "59011075704": {
       "11/22/2017": 82.305,

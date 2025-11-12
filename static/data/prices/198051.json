@@ -2,8 +2,8 @@
   "RxCUI": "198051",
   "Name": "OMEPRAZOLE DR 20 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "198051",
-  "Generic_RxCUI": "207212",
+  "Brand_RxCUI": "207212",
+  "Generic_RxCUI": "198051",
   "prices": {
     "55111015801": {
       "05/19/2021": 0.03951,

@@ -2,8 +2,8 @@
   "RxCUI": "314216",
   "Name": "SM GAS RELIEF(SIMETH) 80 MG CHW",
   "IsBrand": false,
-  "Brand_RxCUI": "314216",
-  "Generic_RxCUI": "1117570",
+  "Brand_RxCUI": "1117570",
+  "Generic_RxCUI": "314216",
   "prices": {
     "49348018810": {
       "05/19/2021": 0.02348,

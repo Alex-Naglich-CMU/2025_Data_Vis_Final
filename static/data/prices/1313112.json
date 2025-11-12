@@ -2,8 +2,8 @@
   "RxCUI": "1313112",
   "Name": "PHENYTOIN 125 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "1313112",
-  "Generic_RxCUI": "1313884",
+  "Brand_RxCUI": "1313884",
+  "Generic_RxCUI": "1313112",
   "prices": {
     "51672406901": {
       "07/21/2021": 0.06609,

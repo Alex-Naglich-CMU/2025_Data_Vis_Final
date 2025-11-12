@@ -2,8 +2,8 @@
   "RxCUI": "244374",
   "Name": "ERYTHROMYCIN-BENZOYL GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "244374",
-  "Generic_RxCUI": "213082",
+  "Brand_RxCUI": "213082",
+  "Generic_RxCUI": "244374",
   "prices": {
     "00781709459": {
       "05/19/2021": 1.97616,

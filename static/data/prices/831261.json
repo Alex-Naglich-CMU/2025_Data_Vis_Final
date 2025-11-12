@@ -2,8 +2,8 @@
   "RxCUI": "831261",
   "Name": "CROMOLYN 100 MG/5 ML ORAL CONC",
   "IsBrand": false,
-  "Brand_RxCUI": "831261",
-  "Generic_RxCUI": "831269",
+  "Brand_RxCUI": "831269",
+  "Generic_RxCUI": "831261",
   "prices": {
     "69784020096": {
       "05/19/2021": 0.42688,

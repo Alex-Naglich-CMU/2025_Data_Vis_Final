@@ -2,8 +2,8 @@
   "RxCUI": "312961",
   "Name": "SIMVASTATIN 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312961",
-  "Generic_RxCUI": "104491",
+  "Brand_RxCUI": "104491",
+  "Generic_RxCUI": "312961",
   "prices": {
     "68645047054": {
       "05/19/2021": 0.02882,

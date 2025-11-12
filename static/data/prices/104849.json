@@ -2,8 +2,8 @@
   "RxCUI": "104849",
   "Name": "PROZAC 20 MG PULVULE",
   "IsBrand": true,
-  "Brand_RxCUI": "310385",
-  "Generic_RxCUI": "104849",
+  "Brand_RxCUI": "104849",
+  "Generic_RxCUI": "310385",
   "prices": {
     "00777310530": {
       "06/21/2017": 13.21656,

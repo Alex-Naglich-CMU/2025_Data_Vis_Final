@@ -2,8 +2,8 @@
   "RxCUI": "1368954",
   "Name": "MESALAMINE DR 400 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "1368954",
-  "Generic_RxCUI": "1368960",
+  "Brand_RxCUI": "1368960",
+  "Generic_RxCUI": "1368954",
   "prices": {
     "00093590786": {
       "05/19/2021": 1.94928,

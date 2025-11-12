@@ -2,8 +2,8 @@
   "RxCUI": "153124",
   "Name": "FEMARA 2.5 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "200064",
-  "Generic_RxCUI": "153124",
+  "Brand_RxCUI": "153124",
+  "Generic_RxCUI": "200064",
   "prices": {
     "00078024915": {
       "10/23/2024": 25.6705,

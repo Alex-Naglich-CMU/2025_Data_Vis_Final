@@ -2,8 +2,8 @@
   "RxCUI": "847042",
   "Name": "BENICAR HCT 40-25 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "403855",
-  "Generic_RxCUI": "847042",
+  "Brand_RxCUI": "847042",
+  "Generic_RxCUI": "403855",
   "prices": {
     "00713086530": {
       "09/01/2023": 13.04062,

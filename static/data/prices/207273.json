@@ -2,8 +2,8 @@
   "RxCUI": "207273",
   "Name": "NITRO-BID 2% OINTMENT",
   "IsBrand": true,
-  "Brand_RxCUI": "242946",
-  "Generic_RxCUI": "207273",
+  "Brand_RxCUI": "207273",
+  "Generic_RxCUI": "242946",
   "prices": {
     "00281032630": {
       "07/21/2021": 1.12708,

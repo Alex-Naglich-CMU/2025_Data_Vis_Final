@@ -2,8 +2,8 @@
   "RxCUI": "198555",
   "Name": "CAPSAICIN 0.025% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "198555",
-  "Generic_RxCUI": "2675290",
+  "Brand_RxCUI": "2675290",
+  "Generic_RxCUI": "198555",
   "prices": {
     "00536252525": {
       "05/19/2021": 0.09588,

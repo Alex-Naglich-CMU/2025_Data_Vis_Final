@@ -2,8 +2,8 @@
   "RxCUI": "730869",
   "Name": "AMLODIPINE-OLMESARTAN 5-20 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "730869",
-  "Generic_RxCUI": "744632",
+  "Brand_RxCUI": "744632",
+  "Generic_RxCUI": "730869",
   "prices": {
     "67877049990": {
       "05/19/2021": 0.54732,

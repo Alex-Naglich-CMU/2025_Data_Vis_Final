@@ -2,8 +2,8 @@
   "RxCUI": "861221",
   "Name": "DEXTROAMP-AMPHET ER 10 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "861221",
-  "Generic_RxCUI": "861222",
+  "Brand_RxCUI": "861222",
+  "Generic_RxCUI": "861221",
   "prices": {
     "00228305911": {
       "05/19/2021": 0.68959,

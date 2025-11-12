@@ -2,8 +2,8 @@
   "RxCUI": "728113",
   "Name": "OSELTAMIVIR PHOS 45 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "728113",
-  "Generic_RxCUI": "728115",
+  "Brand_RxCUI": "728115",
+  "Generic_RxCUI": "728113",
   "prices": {
     "70710100902": {
       "06/21/2017": 8.37538,

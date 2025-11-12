@@ -2,8 +2,8 @@
   "RxCUI": "308416",
   "Name": "ASPIRIN EC 81 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "308416",
-  "Generic_RxCUI": "1600991",
+  "Brand_RxCUI": "1600991",
+  "Generic_RxCUI": "308416",
   "prices": {
     "49483048110": {
       "06/23/2021": 0.01458,

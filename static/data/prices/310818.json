@@ -2,8 +2,8 @@
   "RxCUI": "310818",
   "Name": "TRIAMTERENE-HYDROCHLOROTHIAZIDE 75-50 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "310818",
-  "Generic_RxCUI": "93252",
+  "Brand_RxCUI": "93252",
+  "Generic_RxCUI": "310818",
   "prices": {
     "00378135501": {
       "05/19/2021": 0.13088,

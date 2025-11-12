@@ -2,8 +2,8 @@
   "RxCUI": "1111641",
   "Name": "GLATIRAMER 20 MG/ML SYRINGE",
   "IsBrand": false,
-  "Brand_RxCUI": "1111641",
-  "Generic_RxCUI": "1654630",
+  "Brand_RxCUI": "1654630",
+  "Generic_RxCUI": "1111641",
   "prices": {
     "00378696093": {
       "07/17/2024": 47.24879,

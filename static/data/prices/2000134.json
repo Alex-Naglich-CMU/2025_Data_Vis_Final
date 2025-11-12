@@ -2,8 +2,8 @@
   "RxCUI": "2000134",
   "Name": "VANCOMYCIN 250 MG/5 ML ORAL SOL",
   "IsBrand": false,
-  "Brand_RxCUI": "2000134",
-  "Generic_RxCUI": "2000136",
+  "Brand_RxCUI": "2000136",
+  "Generic_RxCUI": "2000134",
   "prices": {
     "62559083055": {
       "02/21/2024": 0.76564,

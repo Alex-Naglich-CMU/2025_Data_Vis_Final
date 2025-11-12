@@ -2,8 +2,8 @@
   "RxCUI": "800918",
   "Name": "MOVIPREP POWDER PACKET",
   "IsBrand": true,
-  "Brand_RxCUI": "800915",
-  "Generic_RxCUI": "800918",
+  "Brand_RxCUI": "800918",
+  "Generic_RxCUI": "800915",
   "prices": {
     "65649020175": {
       "11/22/2017": 87.88368,

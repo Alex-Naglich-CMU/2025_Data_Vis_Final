@@ -2,8 +2,8 @@
   "RxCUI": "966282",
   "Name": "SYNTHROID 88 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "966253",
-  "Generic_RxCUI": "966282",
+  "Brand_RxCUI": "966282",
+  "Generic_RxCUI": "966253",
   "prices": {
     "00074659419": {
       "12/22/2017": 1.13462,

@@ -2,8 +2,8 @@
   "RxCUI": "309594",
   "Name": "CYANOCOBALAMIN 1,000 MCG/ML",
   "IsBrand": false,
-  "Brand_RxCUI": "309594",
-  "Generic_RxCUI": "2598453",
+  "Brand_RxCUI": "2598453",
+  "Generic_RxCUI": "309594",
   "prices": {
     "63323004444": {
       "05/19/2021": 3.10948,

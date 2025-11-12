@@ -2,8 +2,8 @@
   "RxCUI": "358917",
   "Name": "CLINDAMYCIN-BENZOYL PEROX 1-5%",
   "IsBrand": false,
-  "Brand_RxCUI": "358917",
-  "Generic_RxCUI": "284544",
+  "Brand_RxCUI": "284544",
+  "Generic_RxCUI": "358917",
   "prices": {
     "00781728750": {
       "05/19/2021": 1.49522,

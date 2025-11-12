@@ -2,8 +2,8 @@
   "RxCUI": "801054",
   "Name": "PEG 3350-ELECTROLYTE SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "801054",
-  "Generic_RxCUI": "979099",
+  "Brand_RxCUI": "979099",
+  "Generic_RxCUI": "801054",
   "prices": {
     "64380076921": {
       "05/19/2021": 0.00474,

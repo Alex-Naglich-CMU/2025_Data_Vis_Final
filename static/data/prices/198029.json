@@ -2,8 +2,8 @@
   "RxCUI": "198029",
   "Name": "NICOTINE 14 MG/24HR PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "198029",
-  "Generic_RxCUI": "351427",
+  "Brand_RxCUI": "351427",
+  "Generic_RxCUI": "198029",
   "prices": {
     "68001043388": {
       "05/19/2021": 1.73332,

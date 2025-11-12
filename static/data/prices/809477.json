@@ -2,8 +2,8 @@
   "RxCUI": "809477",
   "Name": "SILODOSIN 8 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "809477",
-  "Generic_RxCUI": "809481",
+  "Brand_RxCUI": "809481",
+  "Generic_RxCUI": "809477",
   "prices": {
     "59651009690": {
       "05/19/2021": 0.81427,

@@ -2,8 +2,8 @@
   "RxCUI": "992668",
   "Name": "HYDROCODONE-HOMATROPINE SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "992668",
-  "Generic_RxCUI": "992675",
+  "Brand_RxCUI": "992675",
+  "Generic_RxCUI": "992668",
   "prices": {
     "60432045516": {
       "05/19/2021": 0.10567,

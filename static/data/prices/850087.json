@@ -2,8 +2,8 @@
   "RxCUI": "850087",
   "Name": "LAMOTRIGINE ER 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "850087",
-  "Generic_RxCUI": "900145",
+  "Brand_RxCUI": "900145",
+  "Generic_RxCUI": "850087",
   "prices": {
     "65162095803": {
       "05/19/2021": 2.00064,

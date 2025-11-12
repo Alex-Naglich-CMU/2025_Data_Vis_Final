@@ -2,8 +2,8 @@
   "RxCUI": "197973",
   "Name": "METHYLPREDNISOLONE 8 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "197973",
-  "Generic_RxCUI": "207137",
+  "Brand_RxCUI": "207137",
+  "Generic_RxCUI": "197973",
   "prices": {
     "68382091711": {
       "05/19/2021": 1.23045,

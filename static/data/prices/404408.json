@@ -2,8 +2,8 @@
   "RxCUI": "404408",
   "Name": "LEXAPRO 5 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "351249",
-  "Generic_RxCUI": "404408",
+  "Brand_RxCUI": "404408",
+  "Generic_RxCUI": "351249",
   "prices": {
     "00456200501": {
       "01/01/2018": 9.77673,

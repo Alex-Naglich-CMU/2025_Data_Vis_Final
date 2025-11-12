@@ -2,8 +2,8 @@
   "RxCUI": "208331",
   "Name": "RETIN-A 0.1% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "198300",
-  "Generic_RxCUI": "208331",
+  "Brand_RxCUI": "208331",
+  "Generic_RxCUI": "198300",
   "prices": {
     "00187516445": {
       "10/03/2019": 1.68363,

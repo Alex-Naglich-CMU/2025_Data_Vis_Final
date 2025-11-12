@@ -2,8 +2,8 @@
   "RxCUI": "966413",
   "Name": "LEVOTHYROXINE 150 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "966413",
-  "Generic_RxCUI": "966420",
+  "Brand_RxCUI": "966420",
+  "Generic_RxCUI": "966413",
   "prices": {
     "00527496032": {
       "05/22/2024": 2.37373,

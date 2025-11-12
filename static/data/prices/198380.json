@@ -2,8 +2,8 @@
   "RxCUI": "198380",
   "Name": "TIOCONAZOLE-1 6.5% OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "198380",
-  "Generic_RxCUI": "1661176",
+  "Brand_RxCUI": "1661176",
+  "Generic_RxCUI": "198380",
   "prices": {
     "70000035701": {
       "05/19/2021": 2.20087,

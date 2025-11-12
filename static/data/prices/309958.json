@@ -2,8 +2,8 @@
   "RxCUI": "309958",
   "Name": "DISOPYRAMIDE 100 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "309958",
-  "Generic_RxCUI": "209066",
+  "Brand_RxCUI": "209066",
+  "Generic_RxCUI": "309958",
   "prices": {
     "59762038601": {
       "05/19/2021": 1.29973,

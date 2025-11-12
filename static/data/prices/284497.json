@@ -2,8 +2,8 @@
   "RxCUI": "284497",
   "Name": "TAZORAC 0.1% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "313200",
-  "Generic_RxCUI": "284497",
+  "Brand_RxCUI": "284497",
+  "Generic_RxCUI": "313200",
   "prices": {
     "00023915660": {
       "01/01/2018": 12.64202,

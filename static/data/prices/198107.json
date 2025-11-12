@@ -2,8 +2,8 @@
   "RxCUI": "198107",
   "Name": "PIROXICAM 10 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "198107",
-  "Generic_RxCUI": "105929",
+  "Brand_RxCUI": "105929",
+  "Generic_RxCUI": "198107",
   "prices": {
     "59762014001": {
       "05/19/2021": 0.34181,

@@ -2,8 +2,8 @@
   "RxCUI": "854228",
   "Name": "ENOXAPARIN 30 MG/0.3 ML SYR",
   "IsBrand": false,
-  "Brand_RxCUI": "854228",
-  "Generic_RxCUI": "854232",
+  "Brand_RxCUI": "854232",
+  "Generic_RxCUI": "854228",
   "prices": {
     "71288041081": {
       "05/19/2021": 12.46778,

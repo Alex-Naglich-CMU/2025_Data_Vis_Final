@@ -2,8 +2,8 @@
   "RxCUI": "562251",
   "Name": "AMOX-CLAV 250-125 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "562251",
-  "Generic_RxCUI": "824186",
+  "Brand_RxCUI": "824186",
+  "Generic_RxCUI": "562251",
   "prices": {
     "00781187431": {
       "05/19/2021": 2.93467,

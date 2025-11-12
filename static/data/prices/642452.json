@@ -2,8 +2,8 @@
   "RxCUI": "642452",
   "Name": "LANTHANUM CARB 750 MG TAB CHEW",
   "IsBrand": false,
-  "Brand_RxCUI": "642452",
-  "Generic_RxCUI": "603122",
+  "Brand_RxCUI": "603122",
+  "Generic_RxCUI": "642452",
   "prices": {
     "00093593985": {
       "07/17/2024": 3.85925,

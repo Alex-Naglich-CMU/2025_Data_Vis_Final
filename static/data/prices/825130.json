@@ -2,8 +2,8 @@
   "RxCUI": "825130",
   "Name": "MESALAMINE ER 0.375 GRAM CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "825130",
-  "Generic_RxCUI": "825134",
+  "Brand_RxCUI": "825134",
+  "Generic_RxCUI": "825130",
   "prices": {
     "00378137578": {
       "05/19/2021": 2.19575,

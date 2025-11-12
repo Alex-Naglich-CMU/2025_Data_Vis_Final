@@ -2,8 +2,8 @@
   "RxCUI": "104719",
   "Name": "ATIVAN 1 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "197901",
-  "Generic_RxCUI": "104719",
+  "Brand_RxCUI": "104719",
+  "Generic_RxCUI": "197901",
   "prices": {
     "00187006410": {
       "01/05/2018": 29.74014,

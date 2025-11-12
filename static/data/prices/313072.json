@@ -2,8 +2,8 @@
   "RxCUI": "313072",
   "Name": "SPS 15 GM/60 ML SUSPENSION",
   "IsBrand": false,
-  "Brand_RxCUI": "313072",
-  "Generic_RxCUI": "1799654",
+  "Brand_RxCUI": "1799654",
+  "Generic_RxCUI": "313072",
   "prices": {
     "00054037963": {
       "07/19/2017": 0.05049,

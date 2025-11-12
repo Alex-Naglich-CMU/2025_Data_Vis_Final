@@ -2,8 +2,8 @@
   "RxCUI": "860088",
   "Name": "IMITREX 6 MG/0.5 ML CARTRIDGES",
   "IsBrand": true,
-  "Brand_RxCUI": "1657160",
-  "Generic_RxCUI": "860088",
+  "Brand_RxCUI": "860088",
+  "Generic_RxCUI": "1657160",
   "prices": {
     "00173047800": {
       "01/01/2018": 363.67854,

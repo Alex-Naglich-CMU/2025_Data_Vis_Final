@@ -2,8 +2,8 @@
   "RxCUI": "1234532",
   "Name": "CALAMINE MEDICATED LOTION",
   "IsBrand": false,
-  "Brand_RxCUI": "1234532",
-  "Generic_RxCUI": "1234539",
+  "Brand_RxCUI": "1234539",
+  "Generic_RxCUI": "1234532",
   "prices": {
     "36800033630": {
       "05/19/2021": 0.01388,

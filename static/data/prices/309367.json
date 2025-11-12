@@ -2,8 +2,8 @@
   "RxCUI": "309367",
   "Name": "SM ANTIFUNGAL 1% TOPICAL CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "309367",
-  "Generic_RxCUI": "2685228",
+  "Brand_RxCUI": "2685228",
+  "Generic_RxCUI": "309367",
   "prices": {
     "49348027972": {
       "05/19/2021": 0.09026,

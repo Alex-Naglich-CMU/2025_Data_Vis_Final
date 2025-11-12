@@ -2,8 +2,8 @@
   "RxCUI": "317136",
   "Name": "NORTRIPTYLINE HCL 25 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "317136",
-  "Generic_RxCUI": "209339",
+  "Brand_RxCUI": "209339",
+  "Generic_RxCUI": "317136",
   "prices": {
     "60687029311": {
       "05/19/2021": 0.11029,

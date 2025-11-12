@@ -2,8 +2,8 @@
   "RxCUI": "896025",
   "Name": "FLUTICASONE PROP 250 MCG DISK",
   "IsBrand": false,
-  "Brand_RxCUI": "896025",
-  "Generic_RxCUI": "896027",
+  "Brand_RxCUI": "896027",
+  "Generic_RxCUI": "896025",
   "prices": {
     "66993079297": {
       "04/17/2024": 2.75283,

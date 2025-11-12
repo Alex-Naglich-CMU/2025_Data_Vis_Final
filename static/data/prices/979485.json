@@ -2,8 +2,8 @@
   "RxCUI": "979485",
   "Name": "LOSARTAN POTASSIUM 25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "979485",
-  "Generic_RxCUI": "979487",
+  "Brand_RxCUI": "979487",
+  "Generic_RxCUI": "979485",
   "prices": {
     "50268050411": {
       "05/19/2021": 0.06398,

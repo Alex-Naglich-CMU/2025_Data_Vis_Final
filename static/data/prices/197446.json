@@ -2,8 +2,8 @@
   "RxCUI": "197446",
   "Name": "CARISOPRODOL 350 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197446",
-  "Generic_RxCUI": "213696",
+  "Brand_RxCUI": "213696",
+  "Generic_RxCUI": "197446",
   "prices": {
     "62756044602": {
       "05/19/2021": 0.06811,

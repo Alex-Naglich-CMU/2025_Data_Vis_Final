@@ -2,8 +2,8 @@
   "RxCUI": "104377",
   "Name": "ZESTRIL 10 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "314076",
-  "Generic_RxCUI": "104377",
+  "Brand_RxCUI": "104377",
+  "Generic_RxCUI": "314076",
   "prices": {
     "52427044090": {
       "11/20/2024": 12.68344,

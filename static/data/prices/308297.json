@@ -2,8 +2,8 @@
   "RxCUI": "308297",
   "Name": "MIGRAINE FORMULA CAPLET",
   "IsBrand": false,
-  "Brand_RxCUI": "308297",
-  "Generic_RxCUI": "1361402",
+  "Brand_RxCUI": "1361402",
+  "Generic_RxCUI": "308297",
   "prices": {
     "36800037462": {
       "05/19/2021": 0.04927,

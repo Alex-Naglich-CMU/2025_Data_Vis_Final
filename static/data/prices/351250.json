@@ -2,8 +2,8 @@
   "RxCUI": "351250",
   "Name": "ESCITALOPRAM 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "351250",
-  "Generic_RxCUI": "352273",
+  "Brand_RxCUI": "352273",
+  "Generic_RxCUI": "351250",
   "prices": {
     "00904642761": {
       "05/19/2021": 0.09119,

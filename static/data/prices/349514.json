@@ -2,8 +2,8 @@
   "RxCUI": "349514",
   "Name": "CELECOXIB 400 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "349514",
-  "Generic_RxCUI": "352314",
+  "Brand_RxCUI": "352314",
+  "Generic_RxCUI": "349514",
   "prices": {
     "69097042003": {
       "05/19/2021": 0.70212,

@@ -2,8 +2,8 @@
   "RxCUI": "310878",
   "Name": "HYDROCORTISONE 100 MG/60 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "310878",
-  "Generic_RxCUI": "102250",
+  "Brand_RxCUI": "102250",
+  "Generic_RxCUI": "310878",
   "prices": {
     "62559013807": {
       "05/19/2021": 0.19755,

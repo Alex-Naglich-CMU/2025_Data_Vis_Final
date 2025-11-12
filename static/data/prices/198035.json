@@ -2,8 +2,8 @@
   "RxCUI": "198035",
   "Name": "NIFEDIPINE ER 60 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198035",
-  "Generic_RxCUI": "672921",
+  "Brand_RxCUI": "672921",
+  "Generic_RxCUI": "198035",
   "prices": {
     "50742062101": {
       "05/19/2021": 0.23231,

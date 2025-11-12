@@ -2,8 +2,8 @@
   "RxCUI": "859419",
   "Name": "ROSUVASTATIN CALCIUM 40 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "859419",
-  "Generic_RxCUI": "859421",
+  "Brand_RxCUI": "859421",
+  "Generic_RxCUI": "859419",
   "prices": {
     "31722088530": {
       "05/19/2021": 0.13547,

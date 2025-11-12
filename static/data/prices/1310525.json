@@ -2,8 +2,8 @@
   "RxCUI": "1310525",
   "Name": "TERIFLUNOMIDE 14 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1310525",
-  "Generic_RxCUI": "1310531",
+  "Brand_RxCUI": "1310531",
+  "Generic_RxCUI": "1310525",
   "prices": {
     "00480315656": {
       "10/18/2023": 0.69339,

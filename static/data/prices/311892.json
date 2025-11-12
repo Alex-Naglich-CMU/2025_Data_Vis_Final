@@ -2,8 +2,8 @@
   "RxCUI": "311892",
   "Name": "NABUMETONE 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311892",
-  "Generic_RxCUI": "206958",
+  "Brand_RxCUI": "206958",
+  "Generic_RxCUI": "311892",
   "prices": {
     "69097096507": {
       "05/19/2021": 0.21886,

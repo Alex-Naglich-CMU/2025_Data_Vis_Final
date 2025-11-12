@@ -2,8 +2,8 @@
   "RxCUI": "901401",
   "Name": "ORACEA 40 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "901399",
-  "Generic_RxCUI": "901401",
+  "Brand_RxCUI": "901401",
+  "Generic_RxCUI": "901399",
   "prices": {
     "00299382230": {
       "02/21/2018": 20.5135,

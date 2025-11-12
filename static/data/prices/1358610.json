@@ -2,8 +2,8 @@
   "RxCUI": "1358610",
   "Name": "METHYLPREDNISOLONE 400 MG/10 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "1358610",
-  "Generic_RxCUI": "1358612",
+  "Brand_RxCUI": "1358612",
+  "Generic_RxCUI": "1358610",
   "prices": {
     "00781352270": {
       "05/22/2024": 5.33014,

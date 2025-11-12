@@ -2,8 +2,8 @@
   "RxCUI": "200801",
   "Name": "LASIX 20 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "310429",
-  "Generic_RxCUI": "200801",
+  "Brand_RxCUI": "200801",
+  "Generic_RxCUI": "310429",
   "prices": {
     "30698006701": {
       "01/17/2018": 0.62953,

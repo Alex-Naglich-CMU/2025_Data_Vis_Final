@@ -2,8 +2,8 @@
   "RxCUI": "308867",
   "Name": "CALCITRIOL 0.25 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "308867",
-  "Generic_RxCUI": "209006",
+  "Brand_RxCUI": "209006",
+  "Generic_RxCUI": "308867",
   "prices": {
     "64380072306": {
       "05/19/2021": 0.20303,

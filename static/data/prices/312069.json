@@ -2,8 +2,8 @@
   "RxCUI": "312069",
   "Name": "OCTREOTIDE ACET 100 MCG/ML VL",
   "IsBrand": false,
-  "Brand_RxCUI": "312069",
-  "Generic_RxCUI": "207198",
+  "Brand_RxCUI": "207198",
+  "Generic_RxCUI": "312069",
   "prices": {
     "00641617510": {
       "07/17/2024": 3.554,

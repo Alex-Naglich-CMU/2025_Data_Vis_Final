@@ -2,8 +2,8 @@
   "RxCUI": "261335",
   "Name": "KEPPRA 250 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "311288",
-  "Generic_RxCUI": "261335",
+  "Brand_RxCUI": "261335",
+  "Generic_RxCUI": "311288",
   "prices": {
     "50474059440": {
       "01/01/2018": 6.16727,

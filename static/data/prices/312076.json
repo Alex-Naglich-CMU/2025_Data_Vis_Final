@@ -2,8 +2,8 @@
   "RxCUI": "312076",
   "Name": "OLANZAPINE ODT 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312076",
-  "Generic_RxCUI": "754503",
+  "Brand_RxCUI": "754503",
+  "Generic_RxCUI": "312076",
   "prices": {
     "55111026381": {
       "05/19/2021": 0.75714,

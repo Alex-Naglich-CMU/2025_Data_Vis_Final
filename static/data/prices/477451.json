@@ -2,8 +2,8 @@
   "RxCUI": "477451",
   "Name": "CLINDAMYCIN PHOSPHATE 1% FOAM",
   "IsBrand": false,
-  "Brand_RxCUI": "477451",
-  "Generic_RxCUI": "2621717",
+  "Brand_RxCUI": "2621717",
+  "Generic_RxCUI": "477451",
   "prices": {
     "45802066032": {
       "01/17/2018": 5.25157,

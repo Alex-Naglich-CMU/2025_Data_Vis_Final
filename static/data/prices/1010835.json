@@ -2,8 +2,8 @@
   "RxCUI": "1010835",
   "Name": "LIDOCAINE 3% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "1010835",
-  "Generic_RxCUI": "1876413",
+  "Brand_RxCUI": "1876413",
+  "Generic_RxCUI": "1010835",
   "prices": {
     "69367020201": {
       "05/19/2021": 0.81771,

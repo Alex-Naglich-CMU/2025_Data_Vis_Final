@@ -2,8 +2,8 @@
   "RxCUI": "861568",
   "Name": "ESOMEPRAZOLE DR 10 MG PACKET",
   "IsBrand": false,
-  "Brand_RxCUI": "861568",
-  "Generic_RxCUI": "861570",
+  "Brand_RxCUI": "861570",
+  "Generic_RxCUI": "861568",
   "prices": {
     "69097052734": {
       "05/19/2021": 6.989,

@@ -2,8 +2,8 @@
   "RxCUI": "993557",
   "Name": "BUPROPION HCL XL 300 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "993557",
-  "Generic_RxCUI": "993564",
+  "Brand_RxCUI": "993564",
+  "Generic_RxCUI": "993557",
   "prices": {
     "24979010202": {
       "05/19/2021": 0.22318,

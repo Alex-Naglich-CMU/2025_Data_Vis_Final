@@ -2,8 +2,8 @@
   "RxCUI": "351109",
   "Name": "BUDESONIDE 0.5 MG/2 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "351109",
-  "Generic_RxCUI": "616817",
+  "Brand_RxCUI": "616817",
+  "Generic_RxCUI": "351109",
   "prices": {
     "00115168974": {
       "05/19/2021": 0.80362,

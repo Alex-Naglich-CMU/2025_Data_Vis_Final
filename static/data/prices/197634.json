@@ -2,8 +2,8 @@
   "RxCUI": "197634",
   "Name": "DRONABINOL 10 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "197634",
-  "Generic_RxCUI": "205645",
+  "Brand_RxCUI": "205645",
+  "Generic_RxCUI": "197634",
   "prices": {
     "42858086906": {
       "06/23/2021": 3.56242,

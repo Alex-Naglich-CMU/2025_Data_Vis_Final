@@ -2,8 +2,8 @@
   "RxCUI": "858810",
   "Name": "ENALAPRIL MALEATE 20 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "858810",
-  "Generic_RxCUI": "858812",
+  "Brand_RxCUI": "858812",
+  "Generic_RxCUI": "858810",
   "prices": {
     "64679092602": {
       "05/19/2021": 0.18481,

@@ -2,8 +2,8 @@
   "RxCUI": "749788",
   "Name": "VARENICLINE 1 MG CONT MONTH BX",
   "IsBrand": false,
-  "Brand_RxCUI": "749788",
-  "Generic_RxCUI": "795735",
+  "Brand_RxCUI": "795735",
+  "Generic_RxCUI": "749788",
   "prices": {
     "69315040358": {
       "12/20/2023": 3.54971,

@@ -2,8 +2,8 @@
   "RxCUI": "477347",
   "Name": "LANTHANUM CARB 500 MG TAB CHEW",
   "IsBrand": false,
-  "Brand_RxCUI": "477347",
-  "Generic_RxCUI": "542465",
+  "Brand_RxCUI": "542465",
+  "Generic_RxCUI": "477347",
   "prices": {
     "66993042247": {
       "02/19/2020": 8.6594,

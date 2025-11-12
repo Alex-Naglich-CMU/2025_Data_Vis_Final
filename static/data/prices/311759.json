@@ -2,8 +2,8 @@
   "RxCUI": "311759",
   "Name": "MONTELUKAST SOD 4 MG TAB CHEW",
   "IsBrand": false,
-  "Brand_RxCUI": "311759",
-  "Generic_RxCUI": "261367",
+  "Brand_RxCUI": "261367",
+  "Generic_RxCUI": "311759",
   "prices": {
     "70436009006": {
       "05/19/2021": 0.09523,

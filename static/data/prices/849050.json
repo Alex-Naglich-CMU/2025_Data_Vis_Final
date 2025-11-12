@@ -2,8 +2,8 @@
   "RxCUI": "849050",
   "Name": "LAMICTAL ODT 200 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "252479",
-  "Generic_RxCUI": "849050",
+  "Brand_RxCUI": "849050",
+  "Generic_RxCUI": "252479",
   "prices": {
     "00173077702": {
       "01/01/2018": 13.68963,

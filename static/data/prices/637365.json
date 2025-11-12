@@ -2,8 +2,8 @@
   "RxCUI": "637365",
   "Name": "SOD FLUORIDE ENAM PROT 5000PPM",
   "IsBrand": false,
-  "Brand_RxCUI": "637365",
-  "Generic_RxCUI": "2603764",
+  "Brand_RxCUI": "2603764",
+  "Generic_RxCUI": "637365",
   "prices": {
     "11527074534": {
       "10/20/2021": 0.1093,

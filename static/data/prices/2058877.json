@@ -2,8 +2,8 @@
   "RxCUI": "2058877",
   "Name": "EMGALITY 120 MG/ML PEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2058872",
-  "Generic_RxCUI": "2058877",
+  "Brand_RxCUI": "2058877",
+  "Generic_RxCUI": "2058872",
   "prices": {
     "00002143611": {
       "11/20/2019": 555.45952,

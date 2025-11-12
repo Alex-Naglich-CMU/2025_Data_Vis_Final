@@ -2,8 +2,8 @@
   "RxCUI": "313161",
   "Name": "SUMATRIPTAN SUCC 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "313161",
-  "Generic_RxCUI": "209169",
+  "Brand_RxCUI": "209169",
+  "Generic_RxCUI": "313161",
   "prices": {
     "62756052169": {
       "05/19/2021": 0.55363,

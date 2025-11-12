@@ -2,8 +2,8 @@
   "RxCUI": "897683",
   "Name": "VERAPAMIL 80 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "897683",
-  "Generic_RxCUI": "897685",
+  "Brand_RxCUI": "897685",
+  "Generic_RxCUI": "897683",
   "prices": {
     "23155002601": {
       "05/19/2021": 0.04837,

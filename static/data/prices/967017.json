@@ -2,8 +2,8 @@
   "RxCUI": "967017",
   "Name": "IMIQUIMOD 3.75% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "967017",
-  "Generic_RxCUI": "967021",
+  "Brand_RxCUI": "967021",
+  "Generic_RxCUI": "967017",
   "prices": {
     "51672417406": {
       "05/22/2024": 25.27442,

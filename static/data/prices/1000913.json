@@ -2,8 +2,8 @@
   "RxCUI": "1000913",
   "Name": "PILOCARPINE HCL 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1000913",
-  "Generic_RxCUI": "1000915",
+  "Brand_RxCUI": "1000915",
+  "Generic_RxCUI": "1000913",
   "prices": {
     "00527131301": {
       "05/19/2021": 0.42462,

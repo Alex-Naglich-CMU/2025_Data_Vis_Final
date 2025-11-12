@@ -2,8 +2,8 @@
   "RxCUI": "197625",
   "Name": "DOXAZOSIN MESYLATE 1 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "197625",
-  "Generic_RxCUI": "104367",
+  "Brand_RxCUI": "104367",
+  "Generic_RxCUI": "197625",
   "prices": {
     "68084083625": {
       "05/19/2021": 0.09942,

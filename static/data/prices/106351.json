@@ -2,8 +2,8 @@
   "RxCUI": "106351",
   "Name": "SILVER SULFADIAZINE 1% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "106351",
-  "Generic_RxCUI": "208187",
+  "Brand_RxCUI": "208187",
+  "Generic_RxCUI": "106351",
   "prices": {
     "59762013105": {
       "05/19/2021": 0.14674,

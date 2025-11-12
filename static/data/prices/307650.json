@@ -2,8 +2,8 @@
   "RxCUI": "307650",
   "Name": "ABACAVIR-LAMIVUDINE-ZIDOV TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "307650",
-  "Generic_RxCUI": "285028",
+  "Brand_RxCUI": "285028",
+  "Generic_RxCUI": "307650",
   "prices": {
     "68180028607": {
       "06/21/2017": 20.32523

@@ -2,8 +2,8 @@
   "RxCUI": "432401",
   "Name": "CINACALCET HCL 60 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "432401",
-  "Generic_RxCUI": "706958",
+  "Brand_RxCUI": "706958",
+  "Generic_RxCUI": "432401",
   "prices": {
     "00378619693": {
       "06/23/2021": 2.54125,

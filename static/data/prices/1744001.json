@@ -2,8 +2,8 @@
   "RxCUI": "1744001",
   "Name": "EMTRICITABINE-TENOFOVIR DISOPROXIL FUMARATE 100-150 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1744001",
-  "Generic_RxCUI": "1744003",
+  "Brand_RxCUI": "1744003",
+  "Generic_RxCUI": "1744001",
   "prices": {
     "69238209203": {
       "07/17/2024": 4.16706,

@@ -2,8 +2,8 @@
   "RxCUI": "1000001",
   "Name": "OLMSRTN-AMLDPN-HYDROCHLOROTHIAZIDE 40-5-25 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "1000001",
-  "Generic_RxCUI": "1000005",
+  "Brand_RxCUI": "1000005",
+  "Generic_RxCUI": "1000001",
   "prices": {
     "00093500456": {
       "05/19/2021": 2.27825,

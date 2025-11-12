@@ -2,8 +2,8 @@
   "RxCUI": "607018",
   "Name": "LYRICA 100 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "483438",
-  "Generic_RxCUI": "607018",
+  "Brand_RxCUI": "607018",
+  "Generic_RxCUI": "483438",
   "prices": {
     "00071101541": {
       "06/01/2017": 6.61526,

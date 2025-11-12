@@ -2,8 +2,8 @@
   "RxCUI": "859751",
   "Name": "ROSUVASTATIN CALCIUM 20 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "859751",
-  "Generic_RxCUI": "859753",
+  "Brand_RxCUI": "859753",
+  "Generic_RxCUI": "859751",
   "prices": {
     "68462026390": {
       "05/19/2021": 0.07945,

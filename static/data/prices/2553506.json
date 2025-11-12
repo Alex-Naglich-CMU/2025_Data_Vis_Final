@@ -2,8 +2,8 @@
   "RxCUI": "2553506",
   "Name": "WEGOVY 0.25 MG/0.5 ML PEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2553501",
-  "Generic_RxCUI": "2553506",
+  "Brand_RxCUI": "2553506",
+  "Generic_RxCUI": "2553501",
   "prices": {
     "00169452514": {
       "7/20/2022": 657.378,

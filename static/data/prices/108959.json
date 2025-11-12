@@ -2,8 +2,8 @@
   "RxCUI": "108959",
   "Name": "DOVONEX 0.005% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "313921",
-  "Generic_RxCUI": "108959",
+  "Brand_RxCUI": "108959",
+  "Generic_RxCUI": "313921",
   "prices": {
     "50222026006": {
       "01/01/2018": 11.06304,

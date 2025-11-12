@@ -2,8 +2,8 @@
   "RxCUI": "198313",
   "Name": "TRIAMTERENE 50 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "198313",
-  "Generic_RxCUI": "208675",
+  "Brand_RxCUI": "208675",
+  "Generic_RxCUI": "198313",
   "prices": {
     "52817036410": {
       "05/22/2024": 6.21598,

@@ -2,8 +2,8 @@
   "RxCUI": "402000",
   "Name": "ZOLMITRIPTAN 5 MG NASAL SPRAY",
   "IsBrand": false,
-  "Brand_RxCUI": "402000",
-  "Generic_RxCUI": "402169",
+  "Brand_RxCUI": "402169",
+  "Generic_RxCUI": "402000",
   "prices": {
     "69238200706": {
       "10/20/2021": 77.26429,

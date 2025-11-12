@@ -2,8 +2,8 @@
   "RxCUI": "665044",
   "Name": "JANUVIA 50 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "2709608",
-  "Generic_RxCUI": "665044",
+  "Brand_RxCUI": "665044",
+  "Generic_RxCUI": "2709608",
   "prices": {
     "00006011228": {
       "06/08/2017": 12.67884,

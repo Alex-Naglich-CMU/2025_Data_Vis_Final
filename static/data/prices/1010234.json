@@ -2,8 +2,8 @@
   "RxCUI": "1010234",
   "Name": "SULFACETAMIDE-SULFUR 8-4% SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "1010234",
-  "Generic_RxCUI": "1010238",
+  "Brand_RxCUI": "1010238",
+  "Generic_RxCUI": "1010234",
   "prices": {
     "42192013316": {
       "05/19/2021": 0.09642,

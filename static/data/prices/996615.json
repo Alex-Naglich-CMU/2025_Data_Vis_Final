@@ -2,8 +2,8 @@
   "RxCUI": "996615",
   "Name": "MEMANTINE HCL ER 7 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "996615",
-  "Generic_RxCUI": "996617",
+  "Brand_RxCUI": "996617",
+  "Generic_RxCUI": "996615",
   "prices": {
     "68180024606": {
       "05/19/2021": 1.51861,

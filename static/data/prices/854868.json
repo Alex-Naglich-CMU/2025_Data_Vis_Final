@@ -2,8 +2,8 @@
   "RxCUI": "854868",
   "Name": "RABEPRAZOLE SOD DR 20 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "854868",
-  "Generic_RxCUI": "854870",
+  "Brand_RxCUI": "854870",
+  "Generic_RxCUI": "854868",
   "prices": {
     "67877044390": {
       "05/19/2021": 0.26037,

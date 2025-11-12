@@ -2,8 +2,8 @@
   "RxCUI": "197397",
   "Name": "BENZONATATE 100 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "197397",
-  "Generic_RxCUI": "208365",
+  "Brand_RxCUI": "208365",
+  "Generic_RxCUI": "197397",
   "prices": {
     "00904656461": {
       "05/19/2021": 0.09103,

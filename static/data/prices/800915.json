@@ -2,8 +2,8 @@
   "RxCUI": "800915",
   "Name": "PEG3350-SOD SUL-NACL-KCL-ASCB-C 100-7.5-2.691-1.015-5.9-4.7G",
   "IsBrand": false,
-  "Brand_RxCUI": "800915",
-  "Generic_RxCUI": "800918",
+  "Brand_RxCUI": "800918",
+  "Generic_RxCUI": "800915",
   "prices": {
     "00093356026": {
       "05/19/2021": 85.931,

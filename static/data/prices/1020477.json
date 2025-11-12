@@ -2,8 +2,8 @@
   "RxCUI": "1020477",
   "Name": "DIPHENHYDRAMINE 50 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "1020477",
-  "Generic_RxCUI": "1094338",
+  "Brand_RxCUI": "1094338",
+  "Generic_RxCUI": "1020477",
   "prices": {
     "00904205661": {
       "05/19/2021": 0.01758,

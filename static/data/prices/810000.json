@@ -2,8 +2,8 @@
   "RxCUI": "810000",
   "Name": "LACOSAMIDE 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "810000",
-  "Generic_RxCUI": "810002",
+  "Brand_RxCUI": "810002",
+  "Generic_RxCUI": "810000",
   "prices": {
     "00904724468": {
       "7/20/2022": 0.20568,

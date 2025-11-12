@@ -2,8 +2,8 @@
   "RxCUI": "198429",
   "Name": "LAMOTRIGINE 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198429",
-  "Generic_RxCUI": "2003801",
+  "Brand_RxCUI": "2003801",
+  "Generic_RxCUI": "198429",
   "prices": {
     "65862023060": {
       "05/19/2021": 0.09371,

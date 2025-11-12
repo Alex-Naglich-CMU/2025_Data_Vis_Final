@@ -2,8 +2,8 @@
   "RxCUI": "311787",
   "Name": "MOXIFLOXACIN HCL 400 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311787",
-  "Generic_RxCUI": "261339",
+  "Brand_RxCUI": "261339",
+  "Generic_RxCUI": "311787",
   "prices": {
     "65862060330": {
       "05/19/2021": 1.36389,

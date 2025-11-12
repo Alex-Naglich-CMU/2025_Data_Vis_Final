@@ -2,8 +2,8 @@
   "RxCUI": "1095224",
   "Name": "NORET-ESTR-FE 0.4-0.035(21)-75",
   "IsBrand": false,
-  "Brand_RxCUI": "1095224",
-  "Generic_RxCUI": "2703268",
+  "Brand_RxCUI": "2703268",
+  "Generic_RxCUI": "1095224",
   "prices": {
     "00378729753": {
       "09/20/2017": 2.20121,

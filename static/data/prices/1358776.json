@@ -2,8 +2,8 @@
   "RxCUI": "1358776",
   "Name": "NORETHIND-ETH ESTRAD 1-0.02 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "1358776",
-  "Generic_RxCUI": "2714657",
+  "Brand_RxCUI": "2714657",
+  "Generic_RxCUI": "1358776",
   "prices": {
     "00378728085": {
       "05/19/2021": 0.32349,

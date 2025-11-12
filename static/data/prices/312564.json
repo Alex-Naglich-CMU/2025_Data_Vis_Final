@@ -2,8 +2,8 @@
   "RxCUI": "312564",
   "Name": "HM POVIDONE-IODINE 10% SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "312564",
-  "Generic_RxCUI": "211109",
+  "Brand_RxCUI": "211109",
+  "Generic_RxCUI": "312564",
   "prices": {
     "62011011801": {
       "05/19/2021": 0.01418,

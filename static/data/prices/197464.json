@@ -2,8 +2,8 @@
   "RxCUI": "197464",
   "Name": "CLORAZEPATE 15 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197464",
-  "Generic_RxCUI": "542857",
+  "Brand_RxCUI": "542857",
+  "Generic_RxCUI": "197464",
   "prices": {
     "00378007001": {
       "06/21/2017": 2.213,

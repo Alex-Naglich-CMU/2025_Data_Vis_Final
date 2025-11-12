@@ -2,8 +2,8 @@
   "RxCUI": "723846",
   "Name": "ALLI 60 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "692876",
-  "Generic_RxCUI": "723846",
+  "Brand_RxCUI": "723846",
+  "Generic_RxCUI": "692876",
   "prices": {
     "00135046105": {
       "02/21/2018": 0.47839,

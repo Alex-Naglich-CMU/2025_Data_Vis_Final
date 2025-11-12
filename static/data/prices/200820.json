@@ -2,8 +2,8 @@
   "RxCUI": "200820",
   "Name": "ALDACTONE 25 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "313096",
-  "Generic_RxCUI": "200820",
+  "Brand_RxCUI": "200820",
+  "Generic_RxCUI": "313096",
   "prices": {
     "00025100131": {
       "06/01/2017": 2.25814,

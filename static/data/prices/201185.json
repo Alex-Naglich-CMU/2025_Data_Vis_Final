@@ -2,8 +2,8 @@
   "RxCUI": "201185",
   "Name": "SULFAMYLON 8.5% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "311406",
-  "Generic_RxCUI": "201185",
+  "Brand_RxCUI": "201185",
+  "Generic_RxCUI": "311406",
   "prices": {
     "16571072360": {
       "05/22/2024": 1.22199,

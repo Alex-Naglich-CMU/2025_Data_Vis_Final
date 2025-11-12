@@ -2,8 +2,8 @@
   "RxCUI": "801095",
   "Name": "VENTOLIN HFA 90 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "801092",
-  "Generic_RxCUI": "801095",
+  "Brand_RxCUI": "801095",
+  "Generic_RxCUI": "801092",
   "prices": {
     "00173068224": {
       "09/20/2017": 2.47778,

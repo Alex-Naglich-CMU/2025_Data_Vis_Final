@@ -2,8 +2,8 @@
   "RxCUI": "899461",
   "Name": "DEXMETHYLPHENIDATE ER 15 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "899461",
-  "Generic_RxCUI": "899463",
+  "Brand_RxCUI": "899463",
+  "Generic_RxCUI": "899461",
   "prices": {
     "00378408201": {
       "05/19/2021": 2.4208,

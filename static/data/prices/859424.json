@@ -2,8 +2,8 @@
   "RxCUI": "859424",
   "Name": "ROSUVASTATIN CALCIUM 5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "859424",
-  "Generic_RxCUI": "859426",
+  "Brand_RxCUI": "859426",
+  "Generic_RxCUI": "859424",
   "prices": {
     "16714098801": {
       "05/19/2021": 0.08757,

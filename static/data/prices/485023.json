@@ -2,8 +2,8 @@
   "RxCUI": "485023",
   "Name": "MYCOPHENOLIC ACID DR 360 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "485023",
-  "Generic_RxCUI": "616449",
+  "Brand_RxCUI": "616449",
+  "Generic_RxCUI": "485023",
   "prices": {
     "00904678604": {
       "05/19/2021": 1.59329,

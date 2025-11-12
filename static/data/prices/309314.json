@@ -2,8 +2,8 @@
   "RxCUI": "309314",
   "Name": "CITALOPRAM HBR 40 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "309314",
-  "Generic_RxCUI": "213345",
+  "Brand_RxCUI": "213345",
+  "Generic_RxCUI": "309314",
   "prices": {
     "57664050918": {
       "05/19/2021": 0.03838,

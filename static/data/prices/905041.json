@@ -2,8 +2,8 @@
   "RxCUI": "905041",
   "Name": "RISEDRONATE SODIUM 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "905041",
-  "Generic_RxCUI": "905043",
+  "Brand_RxCUI": "905043",
+  "Generic_RxCUI": "905041",
   "prices": {
     "00093309956": {
       "04/17/2024": 1.63854,

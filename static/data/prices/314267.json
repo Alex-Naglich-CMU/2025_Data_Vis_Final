@@ -2,8 +2,8 @@
   "RxCUI": "314267",
   "Name": "THYROID 15 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "314267",
-  "Generic_RxCUI": "2706333",
+  "Brand_RxCUI": "2706333",
+  "Generic_RxCUI": "314267",
   "prices": {
     "62559074001": {
       "06/19/2024": 0.5411,

@@ -2,8 +2,8 @@
   "RxCUI": "211323",
   "Name": "REMERON 30 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "314111",
-  "Generic_RxCUI": "211323",
+  "Brand_RxCUI": "211323",
+  "Generic_RxCUI": "314111",
   "prices": {
     "78206016101": {
       "01/01/2025": 6.37698,

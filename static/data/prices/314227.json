@@ -2,8 +2,8 @@
   "RxCUI": "314227",
   "Name": "SUMATRIPTAN 20 MG NASAL SPRAY",
   "IsBrand": false,
-  "Brand_RxCUI": "314227",
-  "Generic_RxCUI": "582328",
+  "Brand_RxCUI": "582328",
+  "Generic_RxCUI": "314227",
   "prices": {
     "45802059806": {
       "05/19/2021": 38.13222,

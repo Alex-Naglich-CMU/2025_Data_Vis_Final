@@ -2,8 +2,8 @@
   "RxCUI": "312635",
   "Name": "PROCHLORPERAZINE 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312635",
-  "Generic_RxCUI": "207680",
+  "Brand_RxCUI": "207680",
+  "Generic_RxCUI": "312635",
   "prices": {
     "59746011306": {
       "05/19/2021": 0.29376,

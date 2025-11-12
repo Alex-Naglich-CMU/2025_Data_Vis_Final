@@ -2,8 +2,8 @@
   "RxCUI": "904882",
   "Name": "BUTRANS 5 MCG/HR PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "904880",
-  "Generic_RxCUI": "904882",
+  "Brand_RxCUI": "904882",
+  "Generic_RxCUI": "904880",
   "prices": {
     "59011075004": {
       "11/22/2017": 59.01662,

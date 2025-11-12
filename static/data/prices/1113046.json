@@ -2,8 +2,8 @@
   "RxCUI": "1113046",
   "Name": "CREON DR 3,000 UNITS CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "1113042",
-  "Generic_RxCUI": "1113046",
+  "Brand_RxCUI": "1113046",
+  "Generic_RxCUI": "1113042",
   "prices": {
     "00032120370": {
       "12/22/2017": 1.1767,

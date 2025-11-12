@@ -2,8 +2,8 @@
   "RxCUI": "996826",
   "Name": "METHERGINE 0.2 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "996824",
-  "Generic_RxCUI": "996826",
+  "Brand_RxCUI": "996826",
+  "Generic_RxCUI": "996824",
   "prices": {
     "27437005056": {
       "12/20/2017": 59.63633

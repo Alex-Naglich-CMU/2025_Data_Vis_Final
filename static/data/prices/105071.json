@@ -2,8 +2,8 @@
   "RxCUI": "105071",
   "Name": "NICORETTE 4 MG CHEWING GUM",
   "IsBrand": true,
-  "Brand_RxCUI": "311975",
-  "Generic_RxCUI": "105071",
+  "Brand_RxCUI": "105071",
+  "Generic_RxCUI": "311975",
   "prices": {
     "00135046702": {
       "07/19/2017": 0.41828,

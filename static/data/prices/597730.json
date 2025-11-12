@@ -2,8 +2,8 @@
   "RxCUI": "597730",
   "Name": "LOPINAVIR-RITONAVR 200-50 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "597730",
-  "Generic_RxCUI": "847741",
+  "Brand_RxCUI": "847741",
+  "Generic_RxCUI": "597730",
   "prices": {
     "31722055612": {
       "05/22/2024": 4.2857,

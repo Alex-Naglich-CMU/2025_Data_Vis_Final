@@ -2,8 +2,8 @@
   "RxCUI": "905158",
   "Name": "SIROLIMUS 0.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "905158",
-  "Generic_RxCUI": "905160",
+  "Brand_RxCUI": "905160",
+  "Generic_RxCUI": "905158",
   "prices": {
     "68462068201": {
       "06/23/2021": 4.96961,

@@ -2,8 +2,8 @@
   "RxCUI": "999613",
   "Name": "SOD SULFACET-SULFUR 10-5% CLSR",
   "IsBrand": false,
-  "Brand_RxCUI": "999613",
-  "Generic_RxCUI": "1006057",
+  "Brand_RxCUI": "1006057",
+  "Generic_RxCUI": "999613",
   "prices": {
     "69367024706": {
       "05/19/2021": 0.16206,

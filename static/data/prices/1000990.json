@@ -2,8 +2,8 @@
   "RxCUI": "1000990",
   "Name": "SM NASAL SPRAY 0.05%",
   "IsBrand": false,
-  "Brand_RxCUI": "1000990",
-  "Generic_RxCUI": "1550038",
+  "Brand_RxCUI": "1550038",
+  "Generic_RxCUI": "1000990",
   "prices": {
     "49348002827": {
       "05/19/2021": 0.07044,

@@ -2,8 +2,8 @@
   "RxCUI": "1235477",
   "Name": "CEPACOL SORE THROAT LOZENGE",
   "IsBrand": true,
-  "Brand_RxCUI": "824574",
-  "Generic_RxCUI": "1235477",
+  "Brand_RxCUI": "1235477",
+  "Generic_RxCUI": "824574",
   "prices": {
     "63824071316": {
       "09/20/2017": 0.1416,

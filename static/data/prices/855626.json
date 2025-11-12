@@ -2,8 +2,8 @@
   "RxCUI": "855626",
   "Name": "DICLOFENAC EPOLAMINE 1.3% PTCH",
   "IsBrand": false,
-  "Brand_RxCUI": "855626",
-  "Generic_RxCUI": "855628",
+  "Brand_RxCUI": "855628",
+  "Generic_RxCUI": "855626",
   "prices": {
     "59762070702": {
       "05/19/2021": 6.98747,

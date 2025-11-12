@@ -2,8 +2,8 @@
   "RxCUI": "1111339",
   "Name": "OLOPATADINE HCL 0.1% EYE DROPS",
   "IsBrand": false,
-  "Brand_RxCUI": "1111339",
-  "Generic_RxCUI": "2281304",
+  "Brand_RxCUI": "2281304",
+  "Generic_RxCUI": "1111339",
   "prices": {
     "60505057501": {
       "05/19/2021": 2.35614,

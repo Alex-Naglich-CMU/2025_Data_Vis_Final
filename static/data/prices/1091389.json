@@ -2,8 +2,8 @@
   "RxCUI": "1091389",
   "Name": "METHYLPHENIDATE 2.5 MG CHEW TB",
   "IsBrand": false,
-  "Brand_RxCUI": "1091389",
-  "Generic_RxCUI": "1091391",
+  "Brand_RxCUI": "1091391",
+  "Generic_RxCUI": "1091389",
   "prices": {
     "64980022101": {
       "05/19/2021": 2.0264,

@@ -2,8 +2,8 @@
   "RxCUI": "1085728",
   "Name": "TRIAMCINOLONE 0.1% PASTE",
   "IsBrand": false,
-  "Brand_RxCUI": "1085728",
-  "Generic_RxCUI": "2665617",
+  "Brand_RxCUI": "2665617",
+  "Generic_RxCUI": "1085728",
   "prices": {
     "00713065540": {
       "05/19/2021": 5.60466,

@@ -2,8 +2,8 @@
   "RxCUI": "994237",
   "Name": "BUTALBITAL COMP-CODEINE #3 CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "994237",
-  "Generic_RxCUI": "994239",
+  "Brand_RxCUI": "994239",
+  "Generic_RxCUI": "994237",
   "prices": {
     "00527131201": {
       "05/19/2021": 1.27932,

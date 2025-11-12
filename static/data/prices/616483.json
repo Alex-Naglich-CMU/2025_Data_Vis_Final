@@ -2,8 +2,8 @@
   "RxCUI": "616483",
   "Name": "QUETIAPINE FUMARATE 400 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "616483",
-  "Generic_RxCUI": "616485",
+  "Brand_RxCUI": "616485",
+  "Generic_RxCUI": "616483",
   "prices": {
     "16714045701": {
       "05/19/2021": 0.20807,

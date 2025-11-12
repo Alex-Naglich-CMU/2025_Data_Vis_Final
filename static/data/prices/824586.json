@@ -2,8 +2,8 @@
   "RxCUI": "824586",
   "Name": "NATURAL FIBER POWDER",
   "IsBrand": false,
-  "Brand_RxCUI": "824586",
-  "Generic_RxCUI": "1090807",
+  "Brand_RxCUI": "1090807",
+  "Generic_RxCUI": "824586",
   "prices": {
     "24385030127": {
       "06/21/2017": 0.01188,

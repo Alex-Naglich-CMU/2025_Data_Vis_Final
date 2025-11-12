@@ -2,8 +2,8 @@
   "RxCUI": "313159",
   "Name": "SUMATRIPTAN 5 MG NASAL SPRAY",
   "IsBrand": false,
-  "Brand_RxCUI": "313159",
-  "Generic_RxCUI": "582330",
+  "Brand_RxCUI": "582330",
+  "Generic_RxCUI": "313159",
   "prices": {
     "45802061906": {
       "05/19/2021": 36.58067,

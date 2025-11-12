@@ -2,8 +2,8 @@
   "RxCUI": "1099300",
   "Name": "DESIPRAMINE 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1099300",
-  "Generic_RxCUI": "1099302",
+  "Brand_RxCUI": "1099302",
+  "Generic_RxCUI": "1099300",
   "prices": {
     "62559071101": {
       "05/19/2021": 0.32905,

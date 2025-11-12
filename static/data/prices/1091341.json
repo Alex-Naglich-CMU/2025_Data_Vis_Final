@@ -2,8 +2,8 @@
   "RxCUI": "1091341",
   "Name": "METHYLPHENIDATE 5 MG/5 ML SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "1091341",
-  "Generic_RxCUI": "1091343",
+  "Brand_RxCUI": "1091343",
+  "Generic_RxCUI": "1091341",
   "prices": {
     "27808005801": {
       "05/19/2021": 0.1004,

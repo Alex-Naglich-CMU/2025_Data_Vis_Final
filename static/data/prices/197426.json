@@ -2,8 +2,8 @@
   "RxCUI": "197426",
   "Name": "BUTALBITAL-ACETAMINOPHEN 50-325 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "197426",
-  "Generic_RxCUI": "1483329",
+  "Brand_RxCUI": "1483329",
+  "Generic_RxCUI": "197426",
   "prices": {
     "47781053501": {
       "06/23/2021": 0.816,

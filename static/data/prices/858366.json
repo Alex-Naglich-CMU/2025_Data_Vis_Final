@@ -2,8 +2,8 @@
   "RxCUI": "858366",
   "Name": "ACUVAIL 0.45% OPHTH SOLUTION",
   "IsBrand": true,
-  "Brand_RxCUI": "858364",
-  "Generic_RxCUI": "858366",
+  "Brand_RxCUI": "858366",
+  "Generic_RxCUI": "858364",
   "prices": {
     "00023350730": {
       "01/01/2018": 9.81728,

@@ -2,8 +2,8 @@
   "RxCUI": "861353",
   "Name": "CLOBETASOL PROP 0.05% FOAM",
   "IsBrand": false,
-  "Brand_RxCUI": "861353",
-  "Generic_RxCUI": "861355",
+  "Brand_RxCUI": "861355",
+  "Generic_RxCUI": "861353",
   "prices": {
     "68462060894": {
       "05/19/2021": 0.5888,

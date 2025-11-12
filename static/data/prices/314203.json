@@ -2,8 +2,8 @@
   "RxCUI": "314203",
   "Name": "QUINAPRIL 40 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "314203",
-  "Generic_RxCUI": "207895",
+  "Brand_RxCUI": "207895",
+  "Generic_RxCUI": "314203",
   "prices": {
     "69097084305": {
       "05/19/2021": 0.11261,

@@ -2,8 +2,8 @@
   "RxCUI": "283485",
   "Name": "MIRTAZAPINE 45 MG ODT",
   "IsBrand": false,
-  "Brand_RxCUI": "283485",
-  "Generic_RxCUI": "752871",
+  "Brand_RxCUI": "752871",
+  "Generic_RxCUI": "283485",
   "prices": {
     "65862002306": {
       "05/19/2021": 0.68183,

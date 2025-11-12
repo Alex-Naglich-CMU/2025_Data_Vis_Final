@@ -2,8 +2,8 @@
   "RxCUI": "318202",
   "Name": "ERYTHROMYCIN 2% SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "318202",
-  "Generic_RxCUI": "206228",
+  "Brand_RxCUI": "206228",
+  "Generic_RxCUI": "318202",
   "prices": {
     "60432067160": {
       "05/19/2021": 0.44605,

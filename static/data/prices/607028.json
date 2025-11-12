@@ -2,8 +2,8 @@
   "RxCUI": "607028",
   "Name": "LYRICA 300 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "483444",
-  "Generic_RxCUI": "607028",
+  "Brand_RxCUI": "607028",
+  "Generic_RxCUI": "483444",
   "prices": {
     "00071101868": {
       "06/01/2017": 6.62409,

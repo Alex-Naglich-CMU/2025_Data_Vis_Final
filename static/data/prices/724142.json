@@ -2,8 +2,8 @@
   "RxCUI": "724142",
   "Name": "NEUPRO 4 MG/24 HR PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "722295",
-  "Generic_RxCUI": "724142",
+  "Brand_RxCUI": "724142",
+  "Generic_RxCUI": "722295",
   "prices": {
     "50474080403": {
       "11/22/2017": 19.86348,

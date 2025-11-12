@@ -2,8 +2,8 @@
   "RxCUI": "751901",
   "Name": "LEVONORGESTREL-ETH ESTRAD 0.15 MG-0.03 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "751901",
-  "Generic_RxCUI": "2049264",
+  "Brand_RxCUI": "2049264",
+  "Generic_RxCUI": "751901",
   "prices": {
     "68180084311": {
       "05/19/2021": 0.25619,

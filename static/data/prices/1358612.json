@@ -2,8 +2,8 @@
   "RxCUI": "1358612",
   "Name": "DEPO-MEDROL 40 MG/ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "1358610",
-  "Generic_RxCUI": "1358612",
+  "Brand_RxCUI": "1358612",
+  "Generic_RxCUI": "1358610",
   "prices": {
     "00009028003": {
       "06/01/2017": 7.7261,

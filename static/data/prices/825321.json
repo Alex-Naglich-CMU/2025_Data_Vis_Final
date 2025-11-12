@@ -2,8 +2,8 @@
   "RxCUI": "825321",
   "Name": "ZOVIRAX 5% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "141859",
-  "Generic_RxCUI": "825321",
+  "Brand_RxCUI": "825321",
+  "Generic_RxCUI": "141859",
   "prices": {
     "00187099445": {
       "07/16/2021": 38.4813,

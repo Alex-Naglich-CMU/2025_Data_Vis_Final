@@ -2,8 +2,8 @@
   "RxCUI": "1246288",
   "Name": "BUDESONIDE-FORMOTEROL 80-4.5",
   "IsBrand": false,
-  "Brand_RxCUI": "1246288",
-  "Generic_RxCUI": "2597673",
+  "Brand_RxCUI": "2597673",
+  "Generic_RxCUI": "1246288",
   "prices": {
     "00310737220": {
       "05/19/2021": 20.16395,

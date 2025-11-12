@@ -2,8 +2,8 @@
   "RxCUI": "863829",
   "Name": "CREON DR 24,000 UNITS CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "855495",
-  "Generic_RxCUI": "863829",
+  "Brand_RxCUI": "863829",
+  "Generic_RxCUI": "855495",
   "prices": {
     "00032122401": {
       "09/20/2017": 5.19217,

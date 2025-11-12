@@ -2,8 +2,8 @@
   "RxCUI": "208545",
   "Name": "THYROID 120 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "208545",
-  "Generic_RxCUI": "2706331",
+  "Brand_RxCUI": "2706331",
+  "Generic_RxCUI": "208545",
   "prices": {
     "62559074401": {
       "06/19/2024": 1.21844,

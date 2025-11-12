@@ -2,8 +2,8 @@
   "RxCUI": "1790126",
   "Name": "FYCOMPA 0.5 MG/ML ORAL SUSP",
   "IsBrand": true,
-  "Brand_RxCUI": "1790122",
-  "Generic_RxCUI": "1790126",
+  "Brand_RxCUI": "1790126",
+  "Generic_RxCUI": "1790122",
   "prices": {
     "62856029038": {
       "01/23/2020": 3.64445,

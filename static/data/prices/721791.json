@@ -2,8 +2,8 @@
   "RxCUI": "721791",
   "Name": "QUETIAPINE ER 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "721791",
-  "Generic_RxCUI": "721793",
+  "Brand_RxCUI": "721793",
+  "Generic_RxCUI": "721791",
   "prices": {
     "50742063760": {
       "05/19/2021": 0.44612,

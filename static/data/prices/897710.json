@@ -2,8 +2,8 @@
   "RxCUI": "897710",
   "Name": "HYDROMORPHONE 8 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "897710",
-  "Generic_RxCUI": "897712",
+  "Brand_RxCUI": "897712",
+  "Generic_RxCUI": "897710",
   "prices": {
     "00527135501": {
       "05/19/2021": 0.29127,

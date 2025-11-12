@@ -2,8 +2,8 @@
   "RxCUI": "311893",
   "Name": "NABUMETONE 750 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311893",
-  "Generic_RxCUI": "206959",
+  "Brand_RxCUI": "206959",
+  "Generic_RxCUI": "311893",
   "prices": {
     "69097096607": {
       "05/19/2021": 0.33158,

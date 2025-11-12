@@ -2,8 +2,8 @@
   "RxCUI": "1101932",
   "Name": "DEXMETHYLPHENIDATE ER 35 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "1101932",
-  "Generic_RxCUI": "1101934",
+  "Brand_RxCUI": "1101934",
+  "Generic_RxCUI": "1101932",
   "prices": {
     "00527811237": {
       "05/19/2021": 2.69176,

@@ -2,8 +2,8 @@
   "RxCUI": "312830",
   "Name": "RISPERIDONE 1 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312830",
-  "Generic_RxCUI": "104781",
+  "Brand_RxCUI": "104781",
+  "Generic_RxCUI": "312830",
   "prices": {
     "68382011414": {
       "05/19/2021": 0.05647,

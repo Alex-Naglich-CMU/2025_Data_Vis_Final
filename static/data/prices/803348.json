@@ -2,8 +2,8 @@
   "RxCUI": "803348",
   "Name": "PHENTERMINE 37.5 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "803348",
-  "Generic_RxCUI": "803350",
+  "Brand_RxCUI": "803350",
+  "Generic_RxCUI": "803348",
   "prices": {
     "11534015903": {
       "05/19/2021": 0.09505,

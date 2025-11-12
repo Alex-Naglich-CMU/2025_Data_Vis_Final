@@ -2,8 +2,8 @@
   "RxCUI": "200133",
   "Name": "CARBAMAZEPINE ER 200 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "200133",
-  "Generic_RxCUI": "672910",
+  "Brand_RxCUI": "672910",
+  "Generic_RxCUI": "200133",
   "prices": {
     "00904688504": {
       "05/19/2021": 1.37261,

@@ -2,8 +2,8 @@
   "RxCUI": "645884",
   "Name": "OMNITROPE 5.8 MG VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "241975",
-  "Generic_RxCUI": "645884",
+  "Brand_RxCUI": "645884",
+  "Generic_RxCUI": "241975",
   "prices": {
     "00781400436": {
       "07/17/2024": 318.14063,

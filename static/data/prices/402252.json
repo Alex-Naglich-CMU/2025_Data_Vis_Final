@@ -2,8 +2,8 @@
   "RxCUI": "402252",
   "Name": "CLIMARA PRO PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "402250",
-  "Generic_RxCUI": "402252",
+  "Brand_RxCUI": "402252",
+  "Generic_RxCUI": "402250",
   "prices": {
     "50419049104": {
       "01/01/2018": 48.19233,

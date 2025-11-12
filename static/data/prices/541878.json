@@ -2,8 +2,8 @@
   "RxCUI": "541878",
   "Name": "DEXTROAMP-AMPHETAMINE 5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "541878",
-  "Generic_RxCUI": "541879",
+  "Brand_RxCUI": "541879",
+  "Generic_RxCUI": "541878",
   "prices": {
     "68382095001": {
       "05/19/2021": 0.32533,

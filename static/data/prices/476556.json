@@ -2,8 +2,8 @@
   "RxCUI": "476556",
   "Name": "EMTRICITABINE-TENOFOVIR DISOPROXIL FUMARATE 200-300 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "476556",
-  "Generic_RxCUI": "639888",
+  "Brand_RxCUI": "639888",
+  "Generic_RxCUI": "476556",
   "prices": {
     "70710136703": {
       "05/19/2021": 41.31826,

@@ -2,8 +2,8 @@
   "RxCUI": "1490026",
   "Name": "DROXIDOPA 100 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "1490026",
-  "Generic_RxCUI": "1490032",
+  "Brand_RxCUI": "1490032",
+  "Generic_RxCUI": "1490026",
   "prices": {
     "27241019990": {
       "03/20/2024": 0.51631,

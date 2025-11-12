@@ -2,8 +2,8 @@
   "RxCUI": "2619677",
   "Name": "ESTRADIOL 0.1% (0.25 MG) GEL PK",
   "IsBrand": false,
-  "Brand_RxCUI": "2619677",
-  "Generic_RxCUI": "2619678",
+  "Brand_RxCUI": "2619678",
+  "Generic_RxCUI": "2619677",
   "prices": {
     "13811009032": {
       "11/22/2023": 3.0745,

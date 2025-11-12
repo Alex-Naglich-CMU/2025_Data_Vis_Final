@@ -2,8 +2,8 @@
   "RxCUI": "199672",
   "Name": "ALBENDAZOLE 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199672",
-  "Generic_RxCUI": "211148",
+  "Brand_RxCUI": "211148",
+  "Generic_RxCUI": "199672",
   "prices": {
     "00591271202": {
       "05/19/2021": 27.42222,

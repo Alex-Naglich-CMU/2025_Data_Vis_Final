@@ -2,8 +2,8 @@
   "RxCUI": "1020065",
   "Name": "RISEDRONATE SOD DR 35 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1020065",
-  "Generic_RxCUI": "1020066",
+  "Brand_RxCUI": "1020066",
+  "Generic_RxCUI": "1020065",
   "prices": {
     "59762040704": {
       "05/19/2021": 27.08469,

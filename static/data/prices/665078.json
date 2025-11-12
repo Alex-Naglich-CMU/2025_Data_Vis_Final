@@ -2,8 +2,8 @@
   "RxCUI": "665078",
   "Name": "CHILD LORATADINE 5 MG TAB CHEW",
   "IsBrand": false,
-  "Brand_RxCUI": "665078",
-  "Generic_RxCUI": "2180650",
+  "Brand_RxCUI": "2180650",
+  "Generic_RxCUI": "665078",
   "prices": {
     "51660075431": {
       "11/18/2020": 0.45424,

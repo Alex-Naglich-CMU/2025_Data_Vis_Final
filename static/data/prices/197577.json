@@ -2,8 +2,8 @@
   "RxCUI": "197577",
   "Name": "DEXAMETHASONE 0.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197577",
-  "Generic_RxCUI": "105392",
+  "Brand_RxCUI": "105392",
+  "Generic_RxCUI": "197577",
   "prices": {
     "00054417925": {
       "06/21/2017": 0.0535,

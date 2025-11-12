@@ -2,8 +2,8 @@
   "RxCUI": "311918",
   "Name": "NARATRIPTAN HCL 1 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311918",
-  "Generic_RxCUI": "213211",
+  "Brand_RxCUI": "213211",
+  "Generic_RxCUI": "311918",
   "prices": {
     "23155005419": {
       "06/23/2021": 2.51026,

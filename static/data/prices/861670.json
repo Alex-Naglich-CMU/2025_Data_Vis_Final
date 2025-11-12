@@ -2,8 +2,8 @@
   "RxCUI": "861670",
   "Name": "MIGRANAL NASAL SPRAY",
   "IsBrand": true,
-  "Brand_RxCUI": "861668",
-  "Generic_RxCUI": "861670",
+  "Brand_RxCUI": "861670",
+  "Generic_RxCUI": "861668",
   "prices": {
     "00187024503": {
       "12/19/2018": 441.90225,

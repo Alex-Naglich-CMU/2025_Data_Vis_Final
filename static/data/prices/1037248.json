@@ -2,8 +2,8 @@
   "RxCUI": "1037248",
   "Name": "LAMISIL AF DEFENS 1% SPRAY PWD",
   "IsBrand": true,
-  "Brand_RxCUI": "705934",
-  "Generic_RxCUI": "1037248",
+  "Brand_RxCUI": "1037248",
+  "Generic_RxCUI": "705934",
   "prices": {
     "00067611446": {
       "10/18/2017": 0.03817,

@@ -2,8 +2,8 @@
   "RxCUI": "795737",
   "Name": "CHANTIX STARTING MONTH BOX",
   "IsBrand": true,
-  "Brand_RxCUI": "749289",
-  "Generic_RxCUI": "795737",
+  "Brand_RxCUI": "795737",
+  "Generic_RxCUI": "749289",
   "prices": {
     "00069047103": {
       "06/01/2017": 6.64457,

@@ -2,8 +2,8 @@
   "RxCUI": "809987",
   "Name": "LACOSAMIDE 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "809987",
-  "Generic_RxCUI": "809990",
+  "Brand_RxCUI": "809990",
+  "Generic_RxCUI": "809987",
   "prices": {
     "00904724568": {
       "7/20/2022": 0.35635,

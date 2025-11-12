@@ -2,8 +2,8 @@
   "RxCUI": "801961",
   "Name": "DIAZEPAM 10 MG RECTAL GEL SYST",
   "IsBrand": false,
-  "Brand_RxCUI": "801961",
-  "Generic_RxCUI": "801962",
+  "Brand_RxCUI": "801962",
+  "Generic_RxCUI": "801961",
   "prices": {
     "68682065220": {
       "05/19/2021": 249.87077,

@@ -2,8 +2,8 @@
   "RxCUI": "311702",
   "Name": "MIDAZOLAM HCL 50 MG/10 ML VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "311702",
-  "Generic_RxCUI": "2057964",
+  "Brand_RxCUI": "2057964",
+  "Generic_RxCUI": "311702",
   "prices": {
     "00409259605": {
       "07/17/2024": 0.36327,

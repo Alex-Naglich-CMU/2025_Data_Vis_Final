@@ -2,8 +2,8 @@
   "RxCUI": "212388",
   "Name": "COREG 6.25 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "200031",
-  "Generic_RxCUI": "212388",
+  "Brand_RxCUI": "212388",
+  "Generic_RxCUI": "200031",
   "prices": {
     "00007414020": {
       "01/01/2018": 4.60085,

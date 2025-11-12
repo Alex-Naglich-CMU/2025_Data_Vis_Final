@@ -2,8 +2,8 @@
   "RxCUI": "429212",
   "Name": "CLOZAPINE 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "429212",
-  "Generic_RxCUI": "2269081",
+  "Brand_RxCUI": "2269081",
+  "Generic_RxCUI": "429212",
   "prices": {
     "51862090105": {
       "05/19/2021": 0.49714,

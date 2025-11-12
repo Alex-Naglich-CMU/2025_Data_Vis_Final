@@ -2,8 +2,8 @@
   "RxCUI": "308934",
   "Name": "FIBER-LAX CAPTABS",
   "IsBrand": false,
-  "Brand_RxCUI": "308934",
-  "Generic_RxCUI": "284308",
+  "Brand_RxCUI": "284308",
+  "Generic_RxCUI": "308934",
   "prices": {
     "00536430605": {
       "05/19/2021": 0.05229,

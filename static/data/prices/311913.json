@@ -2,8 +2,8 @@
   "RxCUI": "311913",
   "Name": "NAPROXEN 125 MG/5 ML SUSPEN",
   "IsBrand": false,
-  "Brand_RxCUI": "311913",
-  "Generic_RxCUI": "207093",
+  "Brand_RxCUI": "207093",
+  "Generic_RxCUI": "311913",
   "prices": {
     "68134020116": {
       "02/21/2018": 0.82276

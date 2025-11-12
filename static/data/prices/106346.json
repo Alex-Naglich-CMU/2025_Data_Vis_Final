@@ -2,8 +2,8 @@
   "RxCUI": "106346",
   "Name": "MUPIROCIN 2% OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "106346",
-  "Generic_RxCUI": "404070",
+  "Brand_RxCUI": "404070",
+  "Generic_RxCUI": "106346",
   "prices": {
     "51672131200": {
       "05/19/2021": 0.18672,

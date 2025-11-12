@@ -2,8 +2,8 @@
   "RxCUI": "1246290",
   "Name": "SYMBICORT 80-4.5 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "1246288",
-  "Generic_RxCUI": "1246290",
+  "Brand_RxCUI": "1246290",
+  "Generic_RxCUI": "1246288",
   "prices": {
     "00186037220": {
       "11/22/2017": 25.39471,

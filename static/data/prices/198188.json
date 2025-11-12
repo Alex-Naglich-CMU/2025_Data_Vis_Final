@@ -2,8 +2,8 @@
   "RxCUI": "198188",
   "Name": "RAMIPRIL 2.5 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "198188",
-  "Generic_RxCUI": "104384",
+  "Brand_RxCUI": "104384",
+  "Generic_RxCUI": "198188",
   "prices": {
     "76282067101": {
       "05/19/2021": 0.06183,

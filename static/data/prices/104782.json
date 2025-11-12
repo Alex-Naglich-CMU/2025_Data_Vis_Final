@@ -2,8 +2,8 @@
   "RxCUI": "104782",
   "Name": "RISPERDAL 2 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "312831",
-  "Generic_RxCUI": "104782",
+  "Brand_RxCUI": "104782",
+  "Generic_RxCUI": "312831",
   "prices": {
     "50458032001": {
       "05/22/2024": 7.8581,

@@ -2,8 +2,8 @@
   "RxCUI": "861960",
   "Name": "ARMODAFINIL 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "861960",
-  "Generic_RxCUI": "861962",
+  "Brand_RxCUI": "861962",
+  "Generic_RxCUI": "861960",
   "prices": {
     "00093309356": {
       "05/19/2021": 0.53572,

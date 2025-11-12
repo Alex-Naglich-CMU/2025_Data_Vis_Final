@@ -2,8 +2,8 @@
   "RxCUI": "197805",
   "Name": "IBUPROFEN 400 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197805",
-  "Generic_RxCUI": "206905",
+  "Brand_RxCUI": "206905",
+  "Generic_RxCUI": "197805",
   "prices": {
     "67877031905": {
       "05/19/2021": 0.05272,

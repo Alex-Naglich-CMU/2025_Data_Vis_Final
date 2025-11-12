@@ -2,8 +2,8 @@
   "RxCUI": "854255",
   "Name": "ENOXAPARIN 300 MG/3 ML VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "854255",
-  "Generic_RxCUI": "854256",
+  "Brand_RxCUI": "854256",
+  "Generic_RxCUI": "854255",
   "prices": {
     "63323056593": {
       "08/22/2018": 33.45533,

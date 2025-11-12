@@ -2,8 +2,8 @@
   "RxCUI": "616435",
   "Name": "CELLCEPT 500 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "200060",
-  "Generic_RxCUI": "616435",
+  "Brand_RxCUI": "616435",
+  "Generic_RxCUI": "200060",
   "prices": {
     "00004026043": {
       "11/22/2017": 16.32842,

@@ -2,8 +2,8 @@
   "RxCUI": "251292",
   "Name": "LAXATIVE 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "251292",
-  "Generic_RxCUI": "213073",
+  "Brand_RxCUI": "213073",
+  "Generic_RxCUI": "251292",
   "prices": {
     "70000038601": {
       "09/18/2019": 0.10625,

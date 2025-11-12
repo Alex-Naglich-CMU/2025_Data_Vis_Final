@@ -2,8 +2,8 @@
   "RxCUI": "314238",
   "Name": "TROPICAMIDE 1% EYE DROP",
   "IsBrand": false,
-  "Brand_RxCUI": "314238",
-  "Generic_RxCUI": "208660",
+  "Brand_RxCUI": "208660",
+  "Generic_RxCUI": "314238",
   "prices": {
     "24208058564": {
       "04/17/2024": 0.44369,

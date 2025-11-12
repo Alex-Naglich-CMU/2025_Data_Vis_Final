@@ -2,8 +2,8 @@
   "RxCUI": "903458",
   "Name": "CYTOMEL 5 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "903456",
-  "Generic_RxCUI": "903458",
+  "Brand_RxCUI": "903458",
+  "Generic_RxCUI": "903456",
   "prices": {
     "60793011501": {
       "06/01/2017": 1.6797,

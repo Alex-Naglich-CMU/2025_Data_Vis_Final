@@ -2,8 +2,8 @@
   "RxCUI": "205023",
   "Name": "THERAPEUTIC 3% DANDRUFF SHMP",
   "IsBrand": false,
-  "Brand_RxCUI": "205023",
-  "Generic_RxCUI": "2467167",
+  "Brand_RxCUI": "2467167",
+  "Generic_RxCUI": "205023",
   "prices": {
     "70000055001": {
       "05/22/2024": 0.02203,

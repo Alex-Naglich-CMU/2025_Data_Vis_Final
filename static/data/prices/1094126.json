@@ -2,8 +2,8 @@
   "RxCUI": "1094126",
   "Name": "URINARY PAIN RELIEF 95 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1094126",
-  "Generic_RxCUI": "1094192",
+  "Brand_RxCUI": "1094192",
+  "Generic_RxCUI": "1094126",
   "prices": {
     "46122033765": {
       "05/19/2021": 0.11122,

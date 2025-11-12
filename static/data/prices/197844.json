@@ -2,8 +2,8 @@
   "RxCUI": "197844",
   "Name": "ISOTRETINOIN 20 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "197844",
-  "Generic_RxCUI": "1373335",
+  "Brand_RxCUI": "1373335",
+  "Generic_RxCUI": "197844",
   "prices": {
     "69238117503": {
       "05/19/2021": 2.96845,

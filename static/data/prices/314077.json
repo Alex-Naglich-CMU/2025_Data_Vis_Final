@@ -2,8 +2,8 @@
   "RxCUI": "314077",
   "Name": "LISINOPRIL 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "314077",
-  "Generic_RxCUI": "206766",
+  "Brand_RxCUI": "206766",
+  "Generic_RxCUI": "314077",
   "prices": {
     "68001033508": {
       "05/19/2021": 0.02613,

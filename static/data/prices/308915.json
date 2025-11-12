@@ -2,8 +2,8 @@
   "RxCUI": "308915",
   "Name": "ANTACID EX-STR 750 MG TAB CHEW",
   "IsBrand": false,
-  "Brand_RxCUI": "308915",
-  "Generic_RxCUI": "1044532",
+  "Brand_RxCUI": "1044532",
+  "Generic_RxCUI": "308915",
   "prices": {
     "70000043101": {
       "05/19/2021": 0.02594,

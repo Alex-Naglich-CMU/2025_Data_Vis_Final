@@ -2,8 +2,8 @@
   "RxCUI": "402010",
   "Name": "RISPERIDONE ER 25 MG VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "402010",
-  "Generic_RxCUI": "2639734",
+  "Brand_RxCUI": "2639734",
+  "Generic_RxCUI": "402010",
   "prices": {
     "00480123208": {
       "05/22/2024": 489.2375,

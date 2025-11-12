@@ -2,8 +2,8 @@
   "RxCUI": "639537",
   "Name": "CANDESARTAN CILEXETIL 32 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "639537",
-  "Generic_RxCUI": "639543",
+  "Brand_RxCUI": "639543",
+  "Generic_RxCUI": "639537",
   "prices": {
     "33342011710": {
       "05/19/2021": 1.16388,

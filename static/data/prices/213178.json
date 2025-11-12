@@ -2,8 +2,8 @@
   "RxCUI": "213178",
   "Name": "PROPECIA 1 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "200172",
-  "Generic_RxCUI": "213178",
+  "Brand_RxCUI": "213178",
+  "Generic_RxCUI": "200172",
   "prices": {
     "00006007154": {
       "05/19/2021": 3.22395,

@@ -2,8 +2,8 @@
   "RxCUI": "828299",
   "Name": "CYCLOBENZAPRINE 7.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "828299",
-  "Generic_RxCUI": "828301",
+  "Brand_RxCUI": "828301",
+  "Generic_RxCUI": "828299",
   "prices": {
     "59746073501": {
       "05/19/2021": 1.43419,

@@ -2,8 +2,8 @@
   "RxCUI": "1534809",
   "Name": "NORELGESTROM-EE 150-35 MCG/DAY",
   "IsBrand": false,
-  "Brand_RxCUI": "1534809",
-  "Generic_RxCUI": "2531285",
+  "Brand_RxCUI": "2531285",
+  "Generic_RxCUI": "1534809",
   "prices": {
     "70710119001": {
       "05/22/2024": 24.63718,

@@ -2,8 +2,8 @@
   "RxCUI": "1090487",
   "Name": "DEXTROMETHORPHAN 15 MG SOFTGEL",
   "IsBrand": false,
-  "Brand_RxCUI": "1090487",
-  "Generic_RxCUI": "1111766",
+  "Brand_RxCUI": "1111766",
+  "Generic_RxCUI": "1090487",
   "prices": {
     "00536133434": {
       "05/22/2024": 0.11993,

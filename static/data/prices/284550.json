@@ -2,8 +2,8 @@
   "RxCUI": "284550",
   "Name": "GEODON 80 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "313778",
-  "Generic_RxCUI": "284550",
+  "Brand_RxCUI": "284550",
+  "Generic_RxCUI": "313778",
   "prices": {
     "00049399060": {
       "06/01/2017": 20.45035,

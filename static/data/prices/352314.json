@@ -2,8 +2,8 @@
   "RxCUI": "352314",
   "Name": "CELEBREX 400 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "349514",
-  "Generic_RxCUI": "352314",
+  "Brand_RxCUI": "352314",
+  "Generic_RxCUI": "349514",
   "prices": {
     "00025153001": {
       "01/01/2018": 17.69479,

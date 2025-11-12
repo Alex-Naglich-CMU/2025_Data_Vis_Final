@@ -2,8 +2,8 @@
   "RxCUI": "616402",
   "Name": "DULOXETINE HCL DR 40 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "616402",
-  "Generic_RxCUI": "1652069",
+  "Brand_RxCUI": "1652069",
+  "Generic_RxCUI": "616402",
   "prices": {
     "27241016430": {
       "05/19/2021": 2.01044,

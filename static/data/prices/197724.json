@@ -2,8 +2,8 @@
   "RxCUI": "197724",
   "Name": "FLURBIPROFEN 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197724",
-  "Generic_RxCUI": "2720355",
+  "Brand_RxCUI": "2720355",
+  "Generic_RxCUI": "197724",
   "prices": {
     "00093071101": {
       "05/19/2021": 0.34786,

@@ -2,8 +2,8 @@
   "RxCUI": "313387",
   "Name": "THYROID 30 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "313387",
-  "Generic_RxCUI": "2706317",
+  "Brand_RxCUI": "2706317",
+  "Generic_RxCUI": "313387",
   "prices": {
     "62559074101": {
       "06/19/2024": 0.62864,

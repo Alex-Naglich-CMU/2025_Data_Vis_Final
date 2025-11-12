@@ -2,8 +2,8 @@
   "RxCUI": "1091322",
   "Name": "METHYLPHENIDATE 5 MG CHEW TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1091322",
-  "Generic_RxCUI": "1091324",
+  "Brand_RxCUI": "1091324",
+  "Generic_RxCUI": "1091322",
   "prices": {
     "64980022201": {
       "05/19/2021": 2.69577,

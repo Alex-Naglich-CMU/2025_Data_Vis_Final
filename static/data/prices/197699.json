@@ -2,8 +2,8 @@
   "RxCUI": "197699",
   "Name": "FLUCONAZOLE 150 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197699",
-  "Generic_RxCUI": "207108",
+  "Brand_RxCUI": "207108",
+  "Generic_RxCUI": "197699",
   "prices": {
     "68462011944": {
       "05/19/2021": 0.96548,

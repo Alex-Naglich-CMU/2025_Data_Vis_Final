@@ -2,8 +2,8 @@
   "RxCUI": "1099598",
   "Name": "DEPAKOTE DR 125 MG SPRINKLE CP",
   "IsBrand": true,
-  "Brand_RxCUI": "1099596",
-  "Generic_RxCUI": "1099598",
+  "Brand_RxCUI": "1099598",
+  "Generic_RxCUI": "1099596",
   "prices": {
     "00074611411": {
       "09/20/2017": 1.5307,

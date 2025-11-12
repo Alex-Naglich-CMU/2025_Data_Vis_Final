@@ -2,8 +2,8 @@
   "RxCUI": "483448",
   "Name": "PREGABALIN 50 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "483448",
-  "Generic_RxCUI": "607033",
+  "Brand_RxCUI": "607033",
+  "Generic_RxCUI": "483448",
   "prices": {
     "76282056990": {
       "05/19/2021": 0.10059,

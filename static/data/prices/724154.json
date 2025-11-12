@@ -2,8 +2,8 @@
   "RxCUI": "724154",
   "Name": "AZULFIDINE ENTAB 500 MG",
   "IsBrand": true,
-  "Brand_RxCUI": "313142",
-  "Generic_RxCUI": "724154",
+  "Brand_RxCUI": "724154",
+  "Generic_RxCUI": "313142",
   "prices": {
     "00013010220": {
       "06/01/2017": 1.72975,

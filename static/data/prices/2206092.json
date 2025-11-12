@@ -2,8 +2,8 @@
   "RxCUI": "2206092",
   "Name": "NOVOLIN R 100 UNIT/ML FLEXPEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2206090",
-  "Generic_RxCUI": "2206092",
+  "Brand_RxCUI": "2206092",
+  "Generic_RxCUI": "2206090",
   "prices": {
     "00169300315": {
       "07/21/2021": 16.70813,

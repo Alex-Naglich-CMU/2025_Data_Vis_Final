@@ -2,8 +2,8 @@
   "RxCUI": "213072",
   "Name": "EX-LAX PILLS",
   "IsBrand": true,
-  "Brand_RxCUI": "200162",
-  "Generic_RxCUI": "213072",
+  "Brand_RxCUI": "213072",
+  "Generic_RxCUI": "200162",
   "prices": {
     "00067000308": {
       "06/21/2017": 0.16873,

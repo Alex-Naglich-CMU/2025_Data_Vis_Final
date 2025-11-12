@@ -2,8 +2,8 @@
   "RxCUI": "312593",
   "Name": "PRAZOSIN 1 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "312593",
-  "Generic_RxCUI": "208979",
+  "Brand_RxCUI": "208979",
+  "Generic_RxCUI": "312593",
   "prices": {
     "00093406710": {
       "05/19/2021": 0.23975,

@@ -2,8 +2,8 @@
   "RxCUI": "598050",
   "Name": "ARTIFICIAL TEARS DROPS",
   "IsBrand": false,
-  "Brand_RxCUI": "598050",
-  "Generic_RxCUI": "1357421",
+  "Brand_RxCUI": "1357421",
+  "Generic_RxCUI": "598050",
   "prices": {
     "70000001101": {
       "05/19/2021": 0.11675,

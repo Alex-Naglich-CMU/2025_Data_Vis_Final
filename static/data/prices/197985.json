@@ -2,8 +2,8 @@
   "RxCUI": "197985",
   "Name": "MINOCYCLINE 50 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "197985",
-  "Generic_RxCUI": "207353",
+  "Brand_RxCUI": "207353",
+  "Generic_RxCUI": "197985",
   "prices": {
     "00591569460": {
       "05/19/2021": 0.21252,

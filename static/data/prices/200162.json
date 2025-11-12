@@ -2,8 +2,8 @@
   "RxCUI": "200162",
   "Name": "LAXATIVE 15 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200162",
-  "Generic_RxCUI": "404318",
+  "Brand_RxCUI": "404318",
+  "Generic_RxCUI": "200162",
   "prices": {
     "70000044301": {
       "08/21/2019": 0.13322,

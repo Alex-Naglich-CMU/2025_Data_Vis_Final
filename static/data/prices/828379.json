@@ -2,8 +2,8 @@
   "RxCUI": "828379",
   "Name": "FENOFIBRIC ACID DR 45 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "828379",
-  "Generic_RxCUI": "828381",
+  "Brand_RxCUI": "828381",
+  "Generic_RxCUI": "828379",
   "prices": {
     "68180012809": {
       "05/19/2021": 0.35514,

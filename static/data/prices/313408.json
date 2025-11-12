@@ -2,8 +2,8 @@
   "RxCUI": "313408",
   "Name": "TIMOLOL 0.5% GFS GEL-SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "313408",
-  "Generic_RxCUI": "861422",
+  "Brand_RxCUI": "861422",
+  "Generic_RxCUI": "313408",
   "prices": {
     "61314022505": {
       "05/19/2021": 38.31422,

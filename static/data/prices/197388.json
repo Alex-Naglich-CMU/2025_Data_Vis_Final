@@ -2,8 +2,8 @@
   "RxCUI": "197388",
   "Name": "AZATHIOPRINE 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197388",
-  "Generic_RxCUI": "105611",
+  "Brand_RxCUI": "105611",
+  "Generic_RxCUI": "197388",
   "prices": {
     "00378100501": {
       "05/19/2021": 0.23124,

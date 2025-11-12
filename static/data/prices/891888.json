@@ -2,8 +2,8 @@
   "RxCUI": "891888",
   "Name": "MORPHINE SULF ER 30 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "891888",
-  "Generic_RxCUI": "892660",
+  "Brand_RxCUI": "892660",
+  "Generic_RxCUI": "891888",
   "prices": {
     "00228427111": {
       "05/19/2021": 0.34961,

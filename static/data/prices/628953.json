@@ -2,8 +2,8 @@
   "RxCUI": "628953",
   "Name": "POTASSIUM CL ER 10 MEQ TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "628953",
-  "Generic_RxCUI": "670031",
+  "Brand_RxCUI": "670031",
+  "Generic_RxCUI": "628953",
   "prices": {
     "65862098799": {
       "05/19/2021": 0.15462,

@@ -2,8 +2,8 @@
   "RxCUI": "310015",
   "Name": "DORZOLAMIDE HCL 2% EYE DROPS",
   "IsBrand": false,
-  "Brand_RxCUI": "310015",
-  "Generic_RxCUI": "151100",
+  "Brand_RxCUI": "151100",
+  "Generic_RxCUI": "310015",
   "prices": {
     "42571014126": {
       "05/19/2021": 1.48265,

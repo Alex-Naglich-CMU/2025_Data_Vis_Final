@@ -2,8 +2,8 @@
   "RxCUI": "285016",
   "Name": "TIKOSYN 500 MCG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "310005",
-  "Generic_RxCUI": "285016",
+  "Brand_RxCUI": "285016",
+  "Generic_RxCUI": "310005",
   "prices": {
     "00069582061": {
       "06/01/2017": 9.10351,

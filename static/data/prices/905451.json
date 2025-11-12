@@ -2,8 +2,8 @@
   "RxCUI": "905451",
   "Name": "LEVOTHYROXINE 112 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "905451",
-  "Generic_RxCUI": "905453",
+  "Brand_RxCUI": "905453",
+  "Generic_RxCUI": "905451",
   "prices": {
     "00527495732": {
       "05/22/2024": 2.57373,

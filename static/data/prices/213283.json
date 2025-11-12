@@ -2,8 +2,8 @@
   "RxCUI": "213283",
   "Name": "DROXIA 300 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "200343",
-  "Generic_RxCUI": "213283",
+  "Brand_RxCUI": "213283",
+  "Generic_RxCUI": "200343",
   "prices": {
     "00003633617": {
       "05/22/2024": 0.72712,

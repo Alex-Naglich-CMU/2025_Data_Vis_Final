@@ -2,8 +2,8 @@
   "RxCUI": "203105",
   "Name": "HYDROCORTISONE 1% OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "203105",
-  "Generic_RxCUI": "2462510",
+  "Brand_RxCUI": "2462510",
+  "Generic_RxCUI": "203105",
   "prices": {
     "51672201802": {
       "05/19/2021": 0.07051,

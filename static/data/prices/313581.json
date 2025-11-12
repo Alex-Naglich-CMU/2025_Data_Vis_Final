@@ -2,8 +2,8 @@
   "RxCUI": "313581",
   "Name": "VENLAFAXINE HCL ER 150 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "313581",
-  "Generic_RxCUI": "729931",
+  "Brand_RxCUI": "729931",
+  "Generic_RxCUI": "313581",
   "prices": {
     "00093738656": {
       "05/19/2021": 0.18488,

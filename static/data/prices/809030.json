@@ -2,8 +2,8 @@
   "RxCUI": "809030",
   "Name": "DIOVAN HCT 320-25 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "636045",
-  "Generic_RxCUI": "809030",
+  "Brand_RxCUI": "809030",
+  "Generic_RxCUI": "636045",
   "prices": {
     "00078047234": {
       "01/03/2018": 12.54588,

@@ -2,8 +2,8 @@
   "RxCUI": "1115698",
   "Name": "OSELTAMIVIR 6 MG/ML SUSPENSION",
   "IsBrand": false,
-  "Brand_RxCUI": "1115698",
-  "Generic_RxCUI": "1115700",
+  "Brand_RxCUI": "1115700",
+  "Generic_RxCUI": "1115698",
   "prices": {
     "68180067801": {
       "05/19/2021": 0.39664,

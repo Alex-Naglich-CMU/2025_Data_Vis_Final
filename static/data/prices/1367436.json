@@ -2,8 +2,8 @@
   "RxCUI": "1367436",
   "Name": "ETONOGESTREL-EE VAGINAL RING",
   "IsBrand": false,
-  "Brand_RxCUI": "1367436",
-  "Generic_RxCUI": "2644707",
+  "Brand_RxCUI": "2644707",
+  "Generic_RxCUI": "1367436",
   "prices": {
     "66993060581": {
       "05/19/2021": 100.3851,

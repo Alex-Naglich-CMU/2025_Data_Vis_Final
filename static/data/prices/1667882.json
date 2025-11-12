@@ -2,8 +2,8 @@
   "RxCUI": "1667882",
   "Name": "SPIRIVA RESPIMAT 1.25 MCG INH",
   "IsBrand": true,
-  "Brand_RxCUI": "1667880",
-  "Generic_RxCUI": "1667882",
+  "Brand_RxCUI": "1667882",
+  "Generic_RxCUI": "1667880",
   "prices": {
     "00597016061": {
       "11/22/2017": 88.33505,

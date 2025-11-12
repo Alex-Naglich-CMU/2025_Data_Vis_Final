@@ -2,8 +2,8 @@
   "RxCUI": "351256",
   "Name": "EPLERENONE 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "351256",
-  "Generic_RxCUI": "402106",
+  "Brand_RxCUI": "402106",
+  "Generic_RxCUI": "351256",
   "prices": {
     "16729029315": {
       "05/19/2021": 0.86488,

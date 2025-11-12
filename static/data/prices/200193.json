@@ -2,8 +2,8 @@
   "RxCUI": "200193",
   "Name": "ZOLMITRIPTAN 2.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200193",
-  "Generic_RxCUI": "153353",
+  "Brand_RxCUI": "153353",
+  "Generic_RxCUI": "200193",
   "prices": {
     "68001024919": {
       "05/19/2021": 1.57833,

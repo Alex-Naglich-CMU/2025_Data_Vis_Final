@@ -2,8 +2,8 @@
   "RxCUI": "197783",
   "Name": "HYDROCORTISONE 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197783",
-  "Generic_RxCUI": "208816",
+  "Brand_RxCUI": "208816",
+  "Generic_RxCUI": "197783",
   "prices": {
     "59762007501": {
       "05/19/2021": 0.55733,

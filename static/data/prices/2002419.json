@@ -2,8 +2,8 @@
   "RxCUI": "2002419",
   "Name": "INSULIN GLARGINE MAX SOLO U300",
   "IsBrand": false,
-  "Brand_RxCUI": "2002419",
-  "Generic_RxCUI": "2002420",
+  "Brand_RxCUI": "2002420",
+  "Generic_RxCUI": "2002419",
   "prices": {
     "00955290002": {
       "05/22/2024": 36.68442,

@@ -2,8 +2,8 @@
   "RxCUI": "351254",
   "Name": "METAXALONE 800 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "351254",
-  "Generic_RxCUI": "1720612",
+  "Brand_RxCUI": "1720612",
+  "Generic_RxCUI": "351254",
   "prices": {
     "68084013521": {
       "05/19/2021": 0.79681,

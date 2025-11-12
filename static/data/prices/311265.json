@@ -2,8 +2,8 @@
   "RxCUI": "311265",
   "Name": "LAMOTRIGINE 5 MG DISPER TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311265",
-  "Generic_RxCUI": "201239",
+  "Brand_RxCUI": "201239",
+  "Generic_RxCUI": "311265",
   "prices": {
     "65862036101": {
       "06/23/2021": 0.28411,

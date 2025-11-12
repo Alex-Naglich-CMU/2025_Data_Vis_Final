@@ -2,8 +2,8 @@
   "RxCUI": "485032",
   "Name": "TIOTROPIUM 18 MCG CAP-INHALER",
   "IsBrand": false,
-  "Brand_RxCUI": "485032",
-  "Generic_RxCUI": "580261",
+  "Brand_RxCUI": "580261",
+  "Generic_RxCUI": "485032",
   "prices": {
     "68180096412": {
       "11/22/2023": 13.9568,

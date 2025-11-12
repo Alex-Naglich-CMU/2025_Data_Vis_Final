@@ -2,8 +2,8 @@
   "RxCUI": "206101",
   "Name": "ESTRACE 1 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "197658",
-  "Generic_RxCUI": "206101",
+  "Brand_RxCUI": "206101",
+  "Generic_RxCUI": "197658",
   "prices": {
     "00430072124": {
       "01/01/2018": 5.01123,

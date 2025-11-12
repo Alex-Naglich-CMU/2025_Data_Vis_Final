@@ -2,8 +2,8 @@
   "RxCUI": "1012895",
   "Name": "FINGOLIMOD 0.5 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "1012895",
-  "Generic_RxCUI": "1012899",
+  "Brand_RxCUI": "1012899",
+  "Generic_RxCUI": "1012895",
   "prices": {
     "00378452593": {
       "04/17/2024": 10.04288,

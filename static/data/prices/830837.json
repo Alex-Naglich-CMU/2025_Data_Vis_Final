@@ -2,8 +2,8 @@
   "RxCUI": "830837",
   "Name": "DILTIAZEM 24H ER(XR) 240 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "830837",
-  "Generic_RxCUI": "1988316",
+  "Brand_RxCUI": "1988316",
+  "Generic_RxCUI": "830837",
   "prices": {
     "16729030501": {
       "05/19/2021": 0.83052,

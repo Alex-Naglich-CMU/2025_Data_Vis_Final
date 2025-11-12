@@ -2,8 +2,8 @@
   "RxCUI": "993511",
   "Name": "WELLBUTRIN SR 100 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "993503",
-  "Generic_RxCUI": "993511",
+  "Brand_RxCUI": "993511",
+  "Generic_RxCUI": "993503",
   "prices": {
     "00173094755": {
       "01/01/2018": 6.54058,

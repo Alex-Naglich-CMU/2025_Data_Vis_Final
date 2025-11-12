@@ -2,8 +2,8 @@
   "RxCUI": "310273",
   "Name": "HM FAMOTIDINE 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "310273",
-  "Generic_RxCUI": "2609246",
+  "Brand_RxCUI": "2609246",
+  "Generic_RxCUI": "310273",
   "prices": {
     "62011014301": {
       "05/19/2021": 0.14977,

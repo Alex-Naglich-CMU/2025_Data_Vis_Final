@@ -2,8 +2,8 @@
   "RxCUI": "596843",
   "Name": "LANSOPRAZOLE DR 15 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "596843",
-  "Generic_RxCUI": "596918",
+  "Brand_RxCUI": "596918",
+  "Generic_RxCUI": "596843",
   "prices": {
     "51991077110": {
       "05/19/2021": 0.39086,

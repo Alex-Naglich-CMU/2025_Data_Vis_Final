@@ -2,8 +2,8 @@
   "RxCUI": "993564",
   "Name": "WELLBUTRIN XL 300 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "993557",
-  "Generic_RxCUI": "993564",
+  "Brand_RxCUI": "993564",
+  "Generic_RxCUI": "993557",
   "prices": {
     "00187073130": {
       "08/23/2017": 49.74135,

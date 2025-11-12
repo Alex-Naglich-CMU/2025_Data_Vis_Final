@@ -2,8 +2,8 @@
   "RxCUI": "966250",
   "Name": "SYNTHROID 100 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "892246",
-  "Generic_RxCUI": "966250",
+  "Brand_RxCUI": "966250",
+  "Generic_RxCUI": "892246",
   "prices": {
     "00074662411": {
       "12/22/2017": 1.13664,

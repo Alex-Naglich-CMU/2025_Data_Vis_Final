@@ -2,8 +2,8 @@
   "RxCUI": "828353",
   "Name": "CYCLOBENZAPRINE ER 30 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "828353",
-  "Generic_RxCUI": "828355",
+  "Brand_RxCUI": "828355",
+  "Generic_RxCUI": "828353",
   "prices": {
     "00093192106": {
       "06/19/2024": 1.52034,

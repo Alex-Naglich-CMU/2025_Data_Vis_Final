@@ -2,8 +2,8 @@
   "RxCUI": "1116294",
   "Name": "EPHEDRINE SULFATE 50 MG/ML VL",
   "IsBrand": false,
-  "Brand_RxCUI": "1116294",
-  "Generic_RxCUI": "1796730",
+  "Brand_RxCUI": "1796730",
+  "Generic_RxCUI": "1116294",
   "prices": {
     "00641623825": {
       "08/21/2024": 5.63664

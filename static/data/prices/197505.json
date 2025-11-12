@@ -2,8 +2,8 @@
   "RxCUI": "197505",
   "Name": "CIMETIDINE 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197505",
-  "Generic_RxCUI": "104062",
+  "Brand_RxCUI": "104062",
+  "Generic_RxCUI": "197505",
   "prices": {
     "00378005301": {
       "05/19/2021": 0.33344,

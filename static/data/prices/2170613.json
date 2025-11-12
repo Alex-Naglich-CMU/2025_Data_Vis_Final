@@ -2,8 +2,8 @@
   "RxCUI": "2170613",
   "Name": "EMGALITY 300 MG DOSE (100 MG/ML X 3 SYRINGES)",
   "IsBrand": true,
-  "Brand_RxCUI": "2170611",
-  "Generic_RxCUI": "2170613",
+  "Brand_RxCUI": "2170613",
+  "Generic_RxCUI": "2170611",
   "prices": {
     "00002311509": {
       "01/31/2020": 483.93714,

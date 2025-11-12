@@ -2,8 +2,8 @@
   "RxCUI": "310539",
   "Name": "GLYBURIDE MICRO 6 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "310539",
-  "Generic_RxCUI": "881411",
+  "Brand_RxCUI": "881411",
+  "Generic_RxCUI": "310539",
   "prices": {
     "00143992001": {
       "06/21/2017": 0.1363,

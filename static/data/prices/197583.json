@@ -2,8 +2,8 @@
   "RxCUI": "197583",
   "Name": "DEXAMETHASONE 6 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197583",
-  "Generic_RxCUI": "205717",
+  "Brand_RxCUI": "205717",
+  "Generic_RxCUI": "197583",
   "prices": {
     "00054818325": {
       "06/23/2021": 1.21155,

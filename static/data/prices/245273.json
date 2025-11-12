@@ -2,8 +2,8 @@
   "RxCUI": "245273",
   "Name": "DIGOXIN 62.5 MCG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "245273",
-  "Generic_RxCUI": "104206",
+  "Brand_RxCUI": "104206",
+  "Generic_RxCUI": "245273",
   "prices": {
     "59651043601": {
       "10/23/2024": 9.4136,

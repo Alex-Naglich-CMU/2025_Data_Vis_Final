@@ -2,8 +2,8 @@
   "RxCUI": "1599803",
   "Name": "MEMANTINE-DONEPEZIL ER 28-10 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "1599803",
-  "Generic_RxCUI": "1602594",
+  "Brand_RxCUI": "1602594",
+  "Generic_RxCUI": "1599803",
   "prices": {
     "69238124703": {
       "05/21/2025": 18.60357,

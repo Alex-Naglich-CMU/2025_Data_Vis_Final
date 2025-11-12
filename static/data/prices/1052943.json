@@ -2,8 +2,8 @@
   "RxCUI": "1052943",
   "Name": "EYE DROPS 0.05%",
   "IsBrand": false,
-  "Brand_RxCUI": "1052943",
-  "Generic_RxCUI": "1101389",
+  "Brand_RxCUI": "1101389",
+  "Generic_RxCUI": "1052943",
   "prices": {
     "70000045401": {
       "05/19/2021": 0.09885,

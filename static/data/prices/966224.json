@@ -2,8 +2,8 @@
   "RxCUI": "966224",
   "Name": "LEVOTHYROXINE 125 MCG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "966224",
-  "Generic_RxCUI": "966237",
+  "Brand_RxCUI": "966237",
+  "Generic_RxCUI": "966224",
   "prices": {
     "51079044320": {
       "05/19/2021": 0.28079,

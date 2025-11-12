@@ -2,8 +2,8 @@
   "RxCUI": "895996",
   "Name": "FLOVENT HFA 44 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "895994",
-  "Generic_RxCUI": "895996",
+  "Brand_RxCUI": "895996",
+  "Generic_RxCUI": "895994",
   "prices": {
     "00173071820": {
       "11/22/2017": 15.51684,

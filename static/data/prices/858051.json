@@ -2,8 +2,8 @@
   "RxCUI": "858051",
   "Name": "INVEGA SUSTENNA 78 MG/0.5 ML",
   "IsBrand": true,
-  "Brand_RxCUI": "858048",
-  "Generic_RxCUI": "858051",
+  "Brand_RxCUI": "858051",
+  "Generic_RxCUI": "858048",
   "prices": {
     "50458056101": {
       "07/06/2017": 1525.45234,

@@ -2,8 +2,8 @@
   "RxCUI": "1539885",
   "Name": "INCRUSE ELLIPTA 62.5 MCG INH",
   "IsBrand": true,
-  "Brand_RxCUI": "1539251",
-  "Generic_RxCUI": "1539885",
+  "Brand_RxCUI": "1539885",
+  "Generic_RxCUI": "1539251",
   "prices": {
     "00173087310": {
       "11/22/2017": 10.36793,

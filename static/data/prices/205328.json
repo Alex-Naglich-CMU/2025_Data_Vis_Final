@@ -2,8 +2,8 @@
   "RxCUI": "205328",
   "Name": "LAMIVUDINE HBV 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "205328",
-  "Generic_RxCUI": "213483",
+  "Brand_RxCUI": "213483",
+  "Generic_RxCUI": "205328",
   "prices": {
     "60505325006": {
       "07/19/2017": 4.78467,

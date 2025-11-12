@@ -2,8 +2,8 @@
   "RxCUI": "251020",
   "Name": "CHOCOLATED LAXATIVE",
   "IsBrand": false,
-  "Brand_RxCUI": "251020",
-  "Generic_RxCUI": "213071",
+  "Brand_RxCUI": "213071",
+  "Generic_RxCUI": "251020",
   "prices": {
     "70000047701": {
       "12/22/2021": 0.09958,

@@ -2,8 +2,8 @@
   "RxCUI": "197519",
   "Name": "CLINDAMYCIN PHOSP 1% LOTION",
   "IsBrand": false,
-  "Brand_RxCUI": "197519",
-  "Generic_RxCUI": "804973",
+  "Brand_RxCUI": "804973",
+  "Generic_RxCUI": "197519",
   "prices": {
     "00168020360": {
       "05/19/2021": 1.05224,

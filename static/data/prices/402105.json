@@ -2,8 +2,8 @@
   "RxCUI": "402105",
   "Name": "INSPRA 50 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "351257",
-  "Generic_RxCUI": "402105",
+  "Brand_RxCUI": "402105",
+  "Generic_RxCUI": "351257",
   "prices": {
     "00025172003": {
       "06/01/2017": 9.99902,

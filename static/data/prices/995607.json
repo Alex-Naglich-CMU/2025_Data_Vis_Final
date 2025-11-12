@@ -2,8 +2,8 @@
   "RxCUI": "995607",
   "Name": "ETHAMBUTOL HCL 400 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "995607",
-  "Generic_RxCUI": "995609",
+  "Brand_RxCUI": "995609",
+  "Generic_RxCUI": "995607",
   "prices": {
     "54879000201": {
       "05/19/2021": 0.78171,

@@ -2,8 +2,8 @@
   "RxCUI": "831393",
   "Name": "VUSION OINTMENT",
   "IsBrand": true,
-  "Brand_RxCUI": "831391",
-  "Generic_RxCUI": "831393",
+  "Brand_RxCUI": "831393",
+  "Generic_RxCUI": "831391",
   "prices": {
     "40076000250": {
       "10/18/2017": 10.34783,

@@ -2,8 +2,8 @@
   "RxCUI": "897640",
   "Name": "VERAPAMIL ER 180 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "897640",
-  "Generic_RxCUI": "897700",
+  "Brand_RxCUI": "897700",
+  "Generic_RxCUI": "897640",
   "prices": {
     "75834015801": {
       "05/19/2021": 0.19647,

@@ -2,8 +2,8 @@
   "RxCUI": "617333",
   "Name": "AUGMENTIN 125-31.25 MG/5 ML",
   "IsBrand": true,
-  "Brand_RxCUI": "617302",
-  "Generic_RxCUI": "617333",
+  "Brand_RxCUI": "617333",
+  "Generic_RxCUI": "617302",
   "prices": {
     "28595024035": {
       "05/22/2024": 5.77073,

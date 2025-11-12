@@ -2,8 +2,8 @@
   "RxCUI": "198509",
   "Name": "GENTLE LAXATIVE 10 MG SUPP",
   "IsBrand": false,
-  "Brand_RxCUI": "198509",
-  "Generic_RxCUI": "284283",
+  "Brand_RxCUI": "284283",
+  "Generic_RxCUI": "198509",
   "prices": {
     "70000045101": {
       "05/19/2021": 0.23199,

@@ -2,8 +2,8 @@
   "RxCUI": "198342",
   "Name": "UREA 40% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "198342",
-  "Generic_RxCUI": "1544708",
+  "Brand_RxCUI": "1544708",
+  "Generic_RxCUI": "198342",
   "prices": {
     "54295030815": {
       "05/19/2021": 1.38222,

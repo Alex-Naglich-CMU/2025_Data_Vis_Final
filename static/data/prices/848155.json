@@ -2,8 +2,8 @@
   "RxCUI": "848155",
   "Name": "EXFORGE HCT 10-160-25 MG TAB",
   "IsBrand": true,
-  "Brand_RxCUI": "848151",
-  "Generic_RxCUI": "848155",
+  "Brand_RxCUI": "848155",
+  "Generic_RxCUI": "848151",
   "prices": {
     "00078056215": {
       "07/11/2017": 8.79038,

@@ -2,8 +2,8 @@
   "RxCUI": "1359105",
   "Name": "DICLOFENAC-MISOPROST 75-200 TB",
   "IsBrand": false,
-  "Brand_RxCUI": "1359105",
-  "Generic_RxCUI": "1359109",
+  "Brand_RxCUI": "1359109",
+  "Generic_RxCUI": "1359105",
   "prices": {
     "59762002901": {
       "05/19/2021": 1.80614,

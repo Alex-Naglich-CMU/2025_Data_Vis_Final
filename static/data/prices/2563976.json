@@ -2,8 +2,8 @@
   "RxCUI": "2563976",
   "Name": "INSULIN GLARGINE-YFGN U100 VL",
   "IsBrand": false,
-  "Brand_RxCUI": "2563976",
-  "Generic_RxCUI": "2563977",
+  "Brand_RxCUI": "2563977",
+  "Generic_RxCUI": "2563976",
   "prices": {
     "49502039380": {
       "3/23/2022": 9.50008,

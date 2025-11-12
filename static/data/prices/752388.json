@@ -2,8 +2,8 @@
   "RxCUI": "752388",
   "Name": "HUMALOG MIX 75-25 VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "259111",
-  "Generic_RxCUI": "752388",
+  "Brand_RxCUI": "752388",
+  "Generic_RxCUI": "259111",
   "prices": {
     "00002751101": {
       "07/21/2021": 27.26154,

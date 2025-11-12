@@ -2,8 +2,8 @@
   "RxCUI": "644278",
   "Name": "EMEND 40 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "644088",
-  "Generic_RxCUI": "644278",
+  "Brand_RxCUI": "644278",
+  "Generic_RxCUI": "644088",
   "prices": {
     "00006046410": {
       "01/05/2018": 113.4397

@@ -2,8 +2,8 @@
   "RxCUI": "197935",
   "Name": "METAXALONE 400 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197935",
-  "Generic_RxCUI": "2703267",
+  "Brand_RxCUI": "2703267",
+  "Generic_RxCUI": "197935",
   "prices": {
     "00115174501": {
       "10/23/2019": 4.69822,

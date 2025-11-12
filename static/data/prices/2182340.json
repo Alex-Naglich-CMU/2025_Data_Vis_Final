@@ -2,8 +2,8 @@
   "RxCUI": "2182340",
   "Name": "ENBREL 50 MG/ML MINI CARTRIDGE",
   "IsBrand": true,
-  "Brand_RxCUI": "2182338",
-  "Generic_RxCUI": "2182340",
+  "Brand_RxCUI": "2182340",
+  "Generic_RxCUI": "2182338",
   "prices": {
     "58406045604": {
       "01/16/2019": 1189.4744,

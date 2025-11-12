@@ -2,8 +2,8 @@
   "RxCUI": "199150",
   "Name": "ACARBOSE 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199150",
-  "Generic_RxCUI": "209248",
+  "Brand_RxCUI": "209248",
+  "Generic_RxCUI": "199150",
   "prices": {
     "69543012210": {
       "05/19/2021": 0.28923,

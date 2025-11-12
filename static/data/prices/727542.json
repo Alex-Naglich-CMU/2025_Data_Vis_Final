@@ -2,8 +2,8 @@
   "RxCUI": "727542",
   "Name": "NEULASTA 6 MG/0.6 ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "727539",
-  "Generic_RxCUI": "727542",
+  "Brand_RxCUI": "727542",
+  "Generic_RxCUI": "727539",
   "prices": {
     "55513019001": {
       "07/20/2017": 9511.89229,

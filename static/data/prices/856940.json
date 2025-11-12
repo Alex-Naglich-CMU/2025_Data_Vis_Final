@@ -2,8 +2,8 @@
   "RxCUI": "856940",
   "Name": "HYDROCODONE-ACETAMINOPHEN 7.5-325 MG/15 ML SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "856940",
-  "Generic_RxCUI": "856942",
+  "Brand_RxCUI": "856942",
+  "Generic_RxCUI": "856940",
   "prices": {
     "66689002316": {
       "05/19/2021": 0.06886,

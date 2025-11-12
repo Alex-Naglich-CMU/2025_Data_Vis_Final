@@ -2,8 +2,8 @@
   "RxCUI": "209169",
   "Name": "IMITREX 50 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "313161",
-  "Generic_RxCUI": "209169",
+  "Brand_RxCUI": "209169",
+  "Generic_RxCUI": "313161",
   "prices": {
     "00173073601": {
       "01/01/2018": 61.19344,

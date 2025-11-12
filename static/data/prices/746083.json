@@ -2,8 +2,8 @@
   "RxCUI": "746083",
   "Name": "ARTIFICIAL TEARS EYE OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "746083",
-  "Generic_RxCUI": "1086613",
+  "Brand_RxCUI": "1086613",
+  "Generic_RxCUI": "746083",
   "prices": {
     "17478006235": {
       "06/23/2021": 1.82549,

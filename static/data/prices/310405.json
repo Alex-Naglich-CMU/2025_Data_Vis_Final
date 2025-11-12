@@ -2,8 +2,8 @@
   "RxCUI": "310405",
   "Name": "FLUVASTATIN SODIUM 40 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "310405",
-  "Generic_RxCUI": "103919",
+  "Brand_RxCUI": "103919",
+  "Generic_RxCUI": "310405",
   "prices": {
     "00378802177": {
       "07/19/2017": 3.69743,

@@ -2,8 +2,8 @@
   "RxCUI": "722126",
   "Name": "AMLODIPINE-VALSARTAN 10-160 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "722126",
-  "Generic_RxCUI": "724879",
+  "Brand_RxCUI": "724879",
+  "Generic_RxCUI": "722126",
   "prices": {
     "65862073930": {
       "05/19/2021": 0.49731,

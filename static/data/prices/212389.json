@@ -2,8 +2,8 @@
   "RxCUI": "212389",
   "Name": "COREG 12.5 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "200032",
-  "Generic_RxCUI": "212389",
+  "Brand_RxCUI": "212389",
+  "Generic_RxCUI": "200032",
   "prices": {
     "00007414120": {
       "01/01/2018": 4.64436,

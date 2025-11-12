@@ -2,8 +2,8 @@
   "RxCUI": "995624",
   "Name": "MECLIZINE 12.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "995624",
-  "Generic_RxCUI": "995626",
+  "Brand_RxCUI": "995626",
+  "Generic_RxCUI": "995624",
   "prices": {
     "70710116101": {
       "05/19/2021": 0.12568,

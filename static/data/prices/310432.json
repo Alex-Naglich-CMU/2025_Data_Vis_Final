@@ -2,8 +2,8 @@
   "RxCUI": "310432",
   "Name": "GABAPENTIN 400 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "310432",
-  "Generic_RxCUI": "105030",
+  "Brand_RxCUI": "105030",
+  "Generic_RxCUI": "310432",
   "prices": {
     "00904666761": {
       "05/19/2021": 0.07428,

@@ -2,8 +2,8 @@
   "RxCUI": "312641",
   "Name": "PROGESTERONE 200 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "312641",
-  "Generic_RxCUI": "261319",
+  "Brand_RxCUI": "261319",
+  "Generic_RxCUI": "312641",
   "prices": {
     "69452014920": {
       "05/19/2021": 0.5488,

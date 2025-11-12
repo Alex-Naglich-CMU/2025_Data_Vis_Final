@@ -2,8 +2,8 @@
   "RxCUI": "208540",
   "Name": "ARMOUR THYROID 60 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "313391",
-  "Generic_RxCUI": "208540",
+  "Brand_RxCUI": "208540",
+  "Generic_RxCUI": "313391",
   "prices": {
     "00456045901": {
       "11/22/2017": 0.67127,

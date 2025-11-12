@@ -2,8 +2,8 @@
   "RxCUI": "349556",
   "Name": "EZETIMIBE 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "349556",
-  "Generic_RxCUI": "352304",
+  "Brand_RxCUI": "352304",
+  "Generic_RxCUI": "349556",
   "prices": {
     "68382077306": {
       "05/19/2021": 0.16182,

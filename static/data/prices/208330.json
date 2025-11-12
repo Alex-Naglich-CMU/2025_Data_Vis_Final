@@ -2,8 +2,8 @@
   "RxCUI": "208330",
   "Name": "RETIN-A 0.05% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "106303",
-  "Generic_RxCUI": "208330",
+  "Brand_RxCUI": "208330",
+  "Generic_RxCUI": "106303",
   "prices": {
     "00187516245": {
       "05/19/2021": 1.68589,

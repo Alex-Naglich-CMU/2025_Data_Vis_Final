@@ -2,8 +2,8 @@
   "RxCUI": "351257",
   "Name": "EPLERENONE 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "351257",
-  "Generic_RxCUI": "402105",
+  "Brand_RxCUI": "402105",
+  "Generic_RxCUI": "351257",
   "prices": {
     "00378103193": {
       "05/19/2021": 0.75589,

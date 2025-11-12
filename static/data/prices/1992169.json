@@ -2,8 +2,8 @@
   "RxCUI": "1992169",
   "Name": "ADMELOG 100 UNIT/ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "242120",
-  "Generic_RxCUI": "1992169",
+  "Brand_RxCUI": "1992169",
+  "Generic_RxCUI": "242120",
   "prices": {
     "00024592410": {
       "04/17/2019": 22.45495,

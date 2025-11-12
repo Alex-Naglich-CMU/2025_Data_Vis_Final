@@ -2,8 +2,8 @@
   "RxCUI": "388517",
   "Name": "CALCITRIOL 3 MCG/G OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "388517",
-  "Generic_RxCUI": "883358",
+  "Brand_RxCUI": "883358",
+  "Generic_RxCUI": "388517",
   "prices": {
     "45802060801": {
       "09/18/2024": 4.6995,

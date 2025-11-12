@@ -2,8 +2,8 @@
   "RxCUI": "284405",
   "Name": "TIKOSYN 250 MCG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "310004",
-  "Generic_RxCUI": "284405",
+  "Brand_RxCUI": "284405",
+  "Generic_RxCUI": "310004",
   "prices": {
     "00069581060": {
       "06/01/2017": 9.05457,

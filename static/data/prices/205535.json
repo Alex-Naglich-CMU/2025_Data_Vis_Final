@@ -2,8 +2,8 @@
   "RxCUI": "205535",
   "Name": "PROZAC 10 MG PULVULE",
   "IsBrand": true,
-  "Brand_RxCUI": "310384",
-  "Generic_RxCUI": "205535",
+  "Brand_RxCUI": "205535",
+  "Generic_RxCUI": "310384",
   "prices": {
     "00777310402": {
       "12/15/2017": 14.45783,

@@ -2,8 +2,8 @@
   "RxCUI": "242754",
   "Name": "LEVALBUTEROL 1.25 MG/3 ML SOL",
   "IsBrand": false,
-  "Brand_RxCUI": "242754",
-  "Generic_RxCUI": "833470",
+  "Brand_RxCUI": "833470",
+  "Generic_RxCUI": "242754",
   "prices": {
     "66993002327": {
       "05/19/2021": 0.35742,

@@ -2,8 +2,8 @@
   "RxCUI": "153822",
   "Name": "CANDESARTAN CILEXETIL 4 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "153822",
-  "Generic_RxCUI": "577785",
+  "Brand_RxCUI": "577785",
+  "Generic_RxCUI": "153822",
   "prices": {
     "00378322493": {
       "05/19/2021": 1.12469,

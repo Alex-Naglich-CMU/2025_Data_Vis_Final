@@ -2,8 +2,8 @@
   "RxCUI": "2049343",
   "Name": "ARISTADA INITIO ER 675 MG/2.4",
   "IsBrand": true,
-  "Brand_RxCUI": "2049341",
-  "Generic_RxCUI": "2049343",
+  "Brand_RxCUI": "2049343",
+  "Generic_RxCUI": "2049341",
   "prices": {
     "65757050003": {
       "12/18/2024": 939.52083,

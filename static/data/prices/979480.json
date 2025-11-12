@@ -2,8 +2,8 @@
   "RxCUI": "979480",
   "Name": "LOSARTAN POTASSIUM 100 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "979480",
-  "Generic_RxCUI": "979482",
+  "Brand_RxCUI": "979482",
+  "Generic_RxCUI": "979480",
   "prices": {
     "68382013716": {
       "05/19/2021": 0.1204,

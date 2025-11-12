@@ -2,8 +2,8 @@
   "RxCUI": "748798",
   "Name": "DROSPIRENONE-EE 3-0.02 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "748798",
-  "Generic_RxCUI": "2106997",
+  "Brand_RxCUI": "2106997",
+  "Generic_RxCUI": "748798",
   "prices": {
     "68462072029": {
       "05/19/2021": 0.35981,

@@ -2,8 +2,8 @@
   "RxCUI": "577787",
   "Name": "ATACAND 8 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "153823",
-  "Generic_RxCUI": "577787",
+  "Brand_RxCUI": "577787",
+  "Generic_RxCUI": "153823",
   "prices": {
     "62559064130": {
       "01/22/2025": 7.2148

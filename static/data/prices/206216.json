@@ -2,8 +2,8 @@
   "RxCUI": "206216",
   "Name": "INFED 100 MG/2 ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "311144",
-  "Generic_RxCUI": "206216",
+  "Brand_RxCUI": "206216",
+  "Generic_RxCUI": "311144",
   "prices": {
     "00023608210": {
       "09/18/2024": 17.20156,

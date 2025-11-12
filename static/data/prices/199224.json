@@ -2,8 +2,8 @@
   "RxCUI": "199224",
   "Name": "ANASTROZOLE 1 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199224",
-  "Generic_RxCUI": "151124",
+  "Brand_RxCUI": "151124",
+  "Generic_RxCUI": "199224",
   "prices": {
     "16729003515": {
       "05/19/2021": 0.1431,

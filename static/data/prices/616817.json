@@ -2,8 +2,8 @@
   "RxCUI": "616817",
   "Name": "PULMICORT 0.5 MG/2 ML RESPULE",
   "IsBrand": true,
-  "Brand_RxCUI": "351109",
-  "Generic_RxCUI": "616817",
+  "Brand_RxCUI": "616817",
+  "Generic_RxCUI": "351109",
   "prices": {
     "00186198904": {
       "08/23/2017": 4.93345,

@@ -2,8 +2,8 @@
   "RxCUI": "197840",
   "Name": "ISOSORBIDE DINITRATE 40 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "197840",
-  "Generic_RxCUI": "793872",
+  "Brand_RxCUI": "793872",
+  "Generic_RxCUI": "197840",
   "prices": {
     "49884055601": {
       "09/18/2024": 2.17594,

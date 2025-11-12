@@ -2,8 +2,8 @@
   "RxCUI": "315134",
   "Name": "LEVOCARNITINE 1 G/10 ML SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "315134",
-  "Generic_RxCUI": "206343",
+  "Brand_RxCUI": "206343",
+  "Generic_RxCUI": "315134",
   "prices": {
     "64980050312": {
       "05/19/2021": 0.2451,

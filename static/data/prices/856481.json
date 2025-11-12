@@ -2,8 +2,8 @@
   "RxCUI": "856481",
   "Name": "PROPRANOLOL ER 160 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "856481",
-  "Generic_RxCUI": "856483",
+  "Brand_RxCUI": "856483",
+  "Generic_RxCUI": "856481",
   "prices": {
     "62559053301": {
       "05/19/2021": 0.78162,

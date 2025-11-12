@@ -2,8 +2,8 @@
   "RxCUI": "1246310",
   "Name": "DULERA 100 MCG/5 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "1246308",
-  "Generic_RxCUI": "1246310",
+  "Brand_RxCUI": "1246310",
+  "Generic_RxCUI": "1246308",
   "prices": {
     "00085720601": {
       "11/22/2017": 21.44589,

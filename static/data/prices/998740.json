@@ -2,8 +2,8 @@
   "RxCUI": "998740",
   "Name": "STOOL SOFTENER-STIM LAX TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "998740",
-  "Generic_RxCUI": "2106884",
+  "Brand_RxCUI": "2106884",
+  "Generic_RxCUI": "998740",
   "prices": {
     "46122034478": {
       "05/19/2021": 0.03007,

@@ -2,8 +2,8 @@
   "RxCUI": "1989117",
   "Name": "SYMJEPI 0.3 MG/0.3 ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "1989112",
-  "Generic_RxCUI": "1989117",
+  "Brand_RxCUI": "1989117",
+  "Generic_RxCUI": "1989112",
   "prices": {
     "00781344220": {
       "06/17/2020": 120.45333

@@ -2,8 +2,8 @@
   "RxCUI": "1246319",
   "Name": "FORMOTEROL 20 MCG/2 ML NEB VL",
   "IsBrand": false,
-  "Brand_RxCUI": "1246319",
-  "Generic_RxCUI": "1246321",
+  "Brand_RxCUI": "1246321",
+  "Generic_RxCUI": "1246319",
   "prices": {
     "00093406106": {
       "3/23/2022": 6.84467,

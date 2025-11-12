@@ -2,8 +2,8 @@
   "RxCUI": "387013",
   "Name": "NEBIVOLOL 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "387013",
-  "Generic_RxCUI": "751623",
+  "Brand_RxCUI": "751623",
+  "Generic_RxCUI": "387013",
   "prices": {
     "00904718904": {
       "12/22/2021": 0.53394,

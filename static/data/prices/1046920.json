@@ -2,8 +2,8 @@
   "RxCUI": "1046920",
   "Name": "NICOTROL CARTRIDGE INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "250983",
-  "Generic_RxCUI": "1046920",
+  "Brand_RxCUI": "1046920",
+  "Generic_RxCUI": "250983",
   "prices": {
     "00009540001": {
       "06/01/2017": 2.17264,

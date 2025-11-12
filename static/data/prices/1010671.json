@@ -2,8 +2,8 @@
   "RxCUI": "1010671",
   "Name": "LIDOCAINE HCL 2% VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "1010671",
-  "Generic_RxCUI": "1010673",
+  "Brand_RxCUI": "1010673",
+  "Generic_RxCUI": "1010671",
   "prices": {
     "00143957510": {
       "09/18/2024": 0.11389,

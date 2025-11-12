@@ -2,8 +2,8 @@
   "RxCUI": "312136",
   "Name": "OXCARBAZEPINE 150 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312136",
-  "Generic_RxCUI": "261356",
+  "Brand_RxCUI": "261356",
+  "Generic_RxCUI": "312136",
   "prices": {
     "68462013701": {
       "05/19/2021": 0.1417,

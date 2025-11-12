@@ -2,8 +2,8 @@
   "RxCUI": "1012404",
   "Name": "BUPIVACAINE 0.5% VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "1012404",
-  "Generic_RxCUI": "1012457",
+  "Brand_RxCUI": "1012457",
+  "Generic_RxCUI": "1012404",
   "prices": {
     "00143932901": {
       "01/22/2025": 0.07616,

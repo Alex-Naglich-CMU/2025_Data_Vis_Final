@@ -2,8 +2,8 @@
   "RxCUI": "310352",
   "Name": "FLUCONAZOLE 10 MG/ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "310352",
-  "Generic_RxCUI": "201900",
+  "Brand_RxCUI": "201900",
+  "Generic_RxCUI": "310352",
   "prices": {
     "57237014935": {
       "05/19/2021": 0.34261,

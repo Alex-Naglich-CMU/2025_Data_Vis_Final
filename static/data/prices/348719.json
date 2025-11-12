@@ -2,8 +2,8 @@
   "RxCUI": "348719",
   "Name": "TOBRAMYCIN 300 MG/5 ML AMPULE",
   "IsBrand": false,
-  "Brand_RxCUI": "348719",
-  "Generic_RxCUI": "1596030",
+  "Brand_RxCUI": "1596030",
+  "Generic_RxCUI": "348719",
   "prices": {
     "43598060556": {
       "05/19/2021": 3.76543,

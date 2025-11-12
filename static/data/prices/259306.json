@@ -2,8 +2,8 @@
   "RxCUI": "259306",
   "Name": "ALOSETRON HCL 1 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "259306",
-  "Generic_RxCUI": "261362",
+  "Brand_RxCUI": "261362",
+  "Generic_RxCUI": "259306",
   "prices": {
     "49884082011": {
       "07/21/2021": 10.62686,

@@ -2,8 +2,8 @@
   "RxCUI": "847749",
   "Name": "KALETRA 80 MG-20 MG/ML SOLN",
   "IsBrand": true,
-  "Brand_RxCUI": "311369",
-  "Generic_RxCUI": "847749",
+  "Brand_RxCUI": "847749",
+  "Generic_RxCUI": "311369",
   "prices": {
     "00074395646": {
       "12/22/2017": 3.1186

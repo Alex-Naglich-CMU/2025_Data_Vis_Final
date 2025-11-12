@@ -2,8 +2,8 @@
   "RxCUI": "860522",
   "Name": "CARVEDILOL ER 40 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "860522",
-  "Generic_RxCUI": "860524",
+  "Brand_RxCUI": "860524",
+  "Generic_RxCUI": "860522",
   "prices": {
     "60505368003": {
       "05/19/2021": 6.20621,

@@ -2,8 +2,8 @@
   "RxCUI": "1101729",
   "Name": "DHS ZINC 2% SHAMPOO",
   "IsBrand": true,
-  "Brand_RxCUI": "244458",
-  "Generic_RxCUI": "1101729",
+  "Brand_RxCUI": "1101729",
+  "Generic_RxCUI": "244458",
   "prices": {
     "00096073508": {
       "09/20/2017": 0.02864,

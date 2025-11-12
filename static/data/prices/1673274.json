@@ -2,8 +2,8 @@
   "RxCUI": "1673274",
   "Name": "ARISTADA ER 441 MG/1.6 ML SYRN",
   "IsBrand": true,
-  "Brand_RxCUI": "1673269",
-  "Generic_RxCUI": "1673274",
+  "Brand_RxCUI": "1673274",
+  "Generic_RxCUI": "1673269",
   "prices": {
     "65757040103": {
       "01/12/2018": 700.01355,

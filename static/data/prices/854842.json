@@ -2,8 +2,8 @@
   "RxCUI": "854842",
   "Name": "LISDEXAMFETAMINE 70 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "854842",
-  "Generic_RxCUI": "854844",
+  "Brand_RxCUI": "854844",
+  "Generic_RxCUI": "854842",
   "prices": {
     "00054037525": {
       "10/18/2023": 3.25036,

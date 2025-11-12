@@ -2,8 +2,8 @@
   "RxCUI": "309317",
   "Name": "POTASS CIT-SOD CIT-CITRIC SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "309317",
-  "Generic_RxCUI": "828618",
+  "Brand_RxCUI": "828618",
+  "Generic_RxCUI": "309317",
   "prices": {
     "58657031116": {
       "05/20/2020": 0.03839,

@@ -2,8 +2,8 @@
   "RxCUI": "310169",
   "Name": "ESTRADIOL 0.01% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "310169",
-  "Generic_RxCUI": "890918",
+  "Brand_RxCUI": "890918",
+  "Generic_RxCUI": "310169",
   "prices": {
     "47781010444": {
       "05/19/2021": 1.5779,

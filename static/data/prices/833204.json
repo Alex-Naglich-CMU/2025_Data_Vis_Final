@@ -2,8 +2,8 @@
   "RxCUI": "833204",
   "Name": "DEXLANSOPRAZOLE DR 30 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "833204",
-  "Generic_RxCUI": "902624",
+  "Brand_RxCUI": "902624",
+  "Generic_RxCUI": "833204",
   "prices": {
     "24979070306": {
       "4/20/2022": 8.47433,

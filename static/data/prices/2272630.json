@@ -2,8 +2,8 @@
   "RxCUI": "2272630",
   "Name": "VALTOCO 5 MG NASAL SPRAY",
   "IsBrand": true,
-  "Brand_RxCUI": "2272627",
-  "Generic_RxCUI": "2272630",
+  "Brand_RxCUI": "2272630",
+  "Generic_RxCUI": "2272627",
   "prices": {
     "72252050502": {
       "01/01/2023": 316.99493,

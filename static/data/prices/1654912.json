@@ -2,8 +2,8 @@
   "RxCUI": "1654912",
   "Name": "AFREZZA (REGULAR INSULIN) 12 UNIT CARTRIDGE",
   "IsBrand": true,
-  "Brand_RxCUI": "1654910",
-  "Generic_RxCUI": "1654912",
+  "Brand_RxCUI": "1654912",
+  "Generic_RxCUI": "1654910",
   "prices": {
     "47918089190": {
       "05/22/2024": 14.44239,

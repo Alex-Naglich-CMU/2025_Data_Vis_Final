@@ -2,8 +2,8 @@
   "RxCUI": "2123194",
   "Name": "TADALAFIL 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "2123194",
-  "Generic_RxCUI": "2110455",
+  "Brand_RxCUI": "2110455",
+  "Generic_RxCUI": "2123194",
   "prices": {
     "00378697691": {
       "05/19/2021": 0.72492,

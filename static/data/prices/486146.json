@@ -2,8 +2,8 @@
   "RxCUI": "486146",
   "Name": "NITROGLYCERIN 0.6 MG/HR PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "486146",
-  "Generic_RxCUI": "899642",
+  "Brand_RxCUI": "899642",
+  "Generic_RxCUI": "486146",
   "prices": {
     "43598089330": {
       "06/23/2021": 0.6828,

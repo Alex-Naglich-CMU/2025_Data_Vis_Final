@@ -2,8 +2,8 @@
   "RxCUI": "313564",
   "Name": "VALACYCLOVIR HCL 1 GRAM TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "313564",
-  "Generic_RxCUI": "212448",
+  "Brand_RxCUI": "212448",
+  "Generic_RxCUI": "313564",
   "prices": {
     "68084030911": {
       "05/19/2021": 0.59065,

@@ -2,8 +2,8 @@
   "RxCUI": "966406",
   "Name": "LEVOTHYROXINE 25 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "966406",
-  "Generic_RxCUI": "966423",
+  "Brand_RxCUI": "966423",
+  "Generic_RxCUI": "966406",
   "prices": {
     "00527495232": {
       "12/20/2023": 3.59346,

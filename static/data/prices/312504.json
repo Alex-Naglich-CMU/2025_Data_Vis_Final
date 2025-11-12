@@ -2,8 +2,8 @@
   "RxCUI": "312504",
   "Name": "POTASSIUM CL ER 10 MEQ CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "312504",
-  "Generic_RxCUI": "1658303",
+  "Brand_RxCUI": "1658303",
+  "Generic_RxCUI": "312504",
   "prices": {
     "53746054201": {
       "05/19/2021": 0.16364,

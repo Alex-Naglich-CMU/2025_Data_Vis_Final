@@ -2,8 +2,8 @@
   "RxCUI": "1865295",
   "Name": "NOVAREL 5,000 UNIT VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "310587",
-  "Generic_RxCUI": "1865295",
+  "Brand_RxCUI": "1865295",
+  "Generic_RxCUI": "310587",
   "prices": {
     "55566150201": {
       "08/21/2024": 154.90333,

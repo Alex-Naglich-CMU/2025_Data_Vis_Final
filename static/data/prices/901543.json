@@ -2,8 +2,8 @@
   "RxCUI": "901543",
   "Name": "MIRAPEX ER 0.375 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "901541",
-  "Generic_RxCUI": "901543",
+  "Brand_RxCUI": "901543",
+  "Generic_RxCUI": "901541",
   "prices": {
     "00597010930": {
       "01/03/2018": 17.85122,

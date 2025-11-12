@@ -2,8 +2,8 @@
   "RxCUI": "311382",
   "Name": "LOTEPREDNOL ETABONATE 0.5% DRP",
   "IsBrand": false,
-  "Brand_RxCUI": "311382",
-  "Generic_RxCUI": "213263",
+  "Brand_RxCUI": "213263",
+  "Generic_RxCUI": "311382",
   "prices": {
     "68682029905": {
       "05/19/2021": 37.12064,

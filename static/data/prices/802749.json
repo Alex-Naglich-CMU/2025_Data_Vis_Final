@@ -2,8 +2,8 @@
   "RxCUI": "802749",
   "Name": "CANDESARTAN-HYDROCHLOROTHIAZIDE 32-25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "802749",
-  "Generic_RxCUI": "805855",
+  "Brand_RxCUI": "805855",
+  "Generic_RxCUI": "802749",
   "prices": {
     "62559066290": {
       "05/19/2021": 2.16447,

@@ -2,8 +2,8 @@
   "RxCUI": "979092",
   "Name": "HYDROXYCHLOROQUINE 200 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "979092",
-  "Generic_RxCUI": "2665282",
+  "Brand_RxCUI": "2665282",
+  "Generic_RxCUI": "979092",
   "prices": {
     "16714011001": {
       "05/19/2021": 0.28455,

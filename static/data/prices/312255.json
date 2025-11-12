@@ -2,8 +2,8 @@
   "RxCUI": "312255",
   "Name": "PENCICLOVIR 1% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "312255",
-  "Generic_RxCUI": "211343",
+  "Brand_RxCUI": "211343",
+  "Generic_RxCUI": "312255",
   "prices": {
     "00093318620": {
       "12/20/2023": 104.8476,

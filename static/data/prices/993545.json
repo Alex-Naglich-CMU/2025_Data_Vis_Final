@@ -2,8 +2,8 @@
   "RxCUI": "993545",
   "Name": "WELLBUTRIN XL 150 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "993541",
-  "Generic_RxCUI": "993545",
+  "Brand_RxCUI": "993545",
+  "Generic_RxCUI": "993541",
   "prices": {
     "00187073030": {
       "09/20/2017": 37.80214,

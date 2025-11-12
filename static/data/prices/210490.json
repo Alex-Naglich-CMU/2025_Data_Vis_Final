@@ -2,8 +2,8 @@
   "RxCUI": "210490",
   "Name": "DHS TAR 0.5% SHAMPOO",
   "IsBrand": true,
-  "Brand_RxCUI": "309381",
-  "Generic_RxCUI": "210490",
+  "Brand_RxCUI": "210490",
+  "Generic_RxCUI": "309381",
   "prices": {
     "00096073708": {
       "06/21/2017": 0.03323,

@@ -2,8 +2,8 @@
   "RxCUI": "211365",
   "Name": "HM ANTISEPTIC SKIN CLEANSER 4%",
   "IsBrand": false,
-  "Brand_RxCUI": "211365",
-  "Generic_RxCUI": "2186092",
+  "Brand_RxCUI": "2186092",
+  "Generic_RxCUI": "211365",
   "prices": {
     "62011023701": {
       "05/19/2021": 0.01789,

@@ -2,8 +2,8 @@
   "RxCUI": "205322",
   "Name": "CELECOXIB 100 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "205322",
-  "Generic_RxCUI": "213468",
+  "Brand_RxCUI": "213468",
+  "Generic_RxCUI": "205322",
   "prices": {
     "59762151603": {
       "05/19/2021": 0.11513,

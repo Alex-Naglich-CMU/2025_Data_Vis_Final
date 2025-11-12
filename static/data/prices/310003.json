@@ -2,8 +2,8 @@
   "RxCUI": "310003",
   "Name": "DOFETILIDE 125 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "310003",
-  "Generic_RxCUI": "284404",
+  "Brand_RxCUI": "284404",
+  "Generic_RxCUI": "310003",
   "prices": {
     "42794004410": {
       "05/19/2021": 0.94218,

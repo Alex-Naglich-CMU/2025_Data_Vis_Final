@@ -2,8 +2,8 @@
   "RxCUI": "310437",
   "Name": "GALANTAMINE HBR 8 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "310437",
-  "Generic_RxCUI": "602737",
+  "Brand_RxCUI": "602737",
+  "Generic_RxCUI": "310437",
   "prices": {
     "65862045960": {
       "05/19/2021": 0.62945,

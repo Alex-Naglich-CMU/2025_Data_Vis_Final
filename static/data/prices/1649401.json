@@ -2,8 +2,8 @@
   "RxCUI": "1649401",
   "Name": "DOXYCYCLINE MONO 50 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1649401",
-  "Generic_RxCUI": "1666098",
+  "Brand_RxCUI": "1666098",
+  "Generic_RxCUI": "1649401",
   "prices": {
     "68382078201": {
       "05/19/2021": 0.23276,

@@ -2,8 +2,8 @@
   "RxCUI": "207248",
   "Name": "OXISTAT 1% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "312139",
-  "Generic_RxCUI": "207248",
+  "Brand_RxCUI": "207248",
+  "Generic_RxCUI": "312139",
   "prices": {
     "10337035860": {
       "12/31/2017": 10.43891

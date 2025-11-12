@@ -2,8 +2,8 @@
   "RxCUI": "996563",
   "Name": "NAMENDA 10 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "996561",
-  "Generic_RxCUI": "996563",
+  "Brand_RxCUI": "996563",
+  "Generic_RxCUI": "996561",
   "prices": {
     "00456321063": {
       "01/01/2018": 6.98722

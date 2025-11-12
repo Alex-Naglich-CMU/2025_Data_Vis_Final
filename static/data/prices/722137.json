@@ -2,8 +2,8 @@
   "RxCUI": "722137",
   "Name": "AMLODIPINE-VALSARTAN 5-320 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "722137",
-  "Generic_RxCUI": "724895",
+  "Brand_RxCUI": "724895",
+  "Generic_RxCUI": "722137",
   "prices": {
     "68180076606": {
       "05/19/2021": 0.59694,

@@ -2,8 +2,8 @@
   "RxCUI": "1092357",
   "Name": "RUFINAMIDE 40 MG/ML SUSPENSION",
   "IsBrand": false,
-  "Brand_RxCUI": "1092357",
-  "Generic_RxCUI": "1092360",
+  "Brand_RxCUI": "1092360",
+  "Generic_RxCUI": "1092357",
   "prices": {
     "00054052863": {
       "02/17/2021": 3.23491,

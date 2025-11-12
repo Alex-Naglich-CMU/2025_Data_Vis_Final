@@ -2,8 +2,8 @@
   "RxCUI": "198373",
   "Name": "CALCIPOTRIENE 0.005% OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "198373",
-  "Generic_RxCUI": "1013636",
+  "Brand_RxCUI": "1013636",
+  "Generic_RxCUI": "198373",
   "prices": {
     "66993087861": {
       "05/19/2021": 2.62714,

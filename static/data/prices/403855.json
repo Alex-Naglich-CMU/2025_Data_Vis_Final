@@ -2,8 +2,8 @@
   "RxCUI": "403855",
   "Name": "OLMESARTAN-HYDROCHLOROTHIAZIDE 40-25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "403855",
-  "Generic_RxCUI": "847042",
+  "Brand_RxCUI": "847042",
+  "Generic_RxCUI": "403855",
   "prices": {
     "70756081490": {
       "05/19/2021": 0.35748,

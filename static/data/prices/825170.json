@@ -2,8 +2,8 @@
   "RxCUI": "825170",
   "Name": "HUMIRA PEN CROHN-UC-HS STARTER",
   "IsBrand": true,
-  "Brand_RxCUI": "1656703",
-  "Generic_RxCUI": "825170",
+  "Brand_RxCUI": "825170",
+  "Generic_RxCUI": "1656703",
   "prices": {
     "00074433906": {
       "01/01/2018": 2367.85661,

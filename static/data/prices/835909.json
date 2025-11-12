@@ -2,8 +2,8 @@
   "RxCUI": "835909",
   "Name": "NEORAL 25 MG GELATIN CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "835894",
-  "Generic_RxCUI": "835909",
+  "Brand_RxCUI": "835909",
+  "Generic_RxCUI": "835894",
   "prices": {
     "00078024615": {
       "07/11/2017": 1.88637,

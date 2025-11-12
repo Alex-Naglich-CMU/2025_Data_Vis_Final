@@ -2,8 +2,8 @@
   "RxCUI": "313096",
   "Name": "SPIRONOLACTONE 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "313096",
-  "Generic_RxCUI": "200820",
+  "Brand_RxCUI": "200820",
+  "Generic_RxCUI": "313096",
   "prices": {
     "00378214601": {
       "05/19/2021": 0.05655,

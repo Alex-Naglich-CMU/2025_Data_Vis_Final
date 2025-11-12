@@ -2,8 +2,8 @@
   "RxCUI": "200060",
   "Name": "MYCOPHENOLATE 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200060",
-  "Generic_RxCUI": "616435",
+  "Brand_RxCUI": "616435",
+  "Generic_RxCUI": "200060",
   "prices": {
     "00378447205": {
       "05/19/2021": 0.32062,

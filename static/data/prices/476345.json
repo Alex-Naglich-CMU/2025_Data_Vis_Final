@@ -2,8 +2,8 @@
   "RxCUI": "476345",
   "Name": "EZETIMIBE-SIMVASTATIN 10-10 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "476345",
-  "Generic_RxCUI": "1245420",
+  "Brand_RxCUI": "1245420",
+  "Generic_RxCUI": "476345",
   "prices": {
     "16714077802": {
       "06/23/2021": 1.65521,

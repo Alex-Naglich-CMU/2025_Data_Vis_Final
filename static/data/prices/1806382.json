@@ -2,8 +2,8 @@
   "RxCUI": "1806382",
   "Name": "GABAPENTIN ER 600 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1806382",
-  "Generic_RxCUI": "1115013",
+  "Brand_RxCUI": "1115013",
+  "Generic_RxCUI": "1806382",
   "prices": {
     "31722009290": {
       "06/19/2024": 4.38148,

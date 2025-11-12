@@ -2,8 +2,8 @@
   "RxCUI": "200284",
   "Name": "VALSARTAN-HYDROCHLOROTHIAZIDE 80-12.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "200284",
-  "Generic_RxCUI": "809014",
+  "Brand_RxCUI": "809014",
+  "Generic_RxCUI": "200284",
   "prices": {
     "65862054790": {
       "05/19/2021": 0.37568,

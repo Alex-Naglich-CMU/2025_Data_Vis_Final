@@ -2,8 +2,8 @@
   "RxCUI": "199519",
   "Name": "TINIDAZOLE 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199519",
-  "Generic_RxCUI": "539811",
+  "Brand_RxCUI": "539811",
+  "Generic_RxCUI": "199519",
   "prices": {
     "43386055102": {
       "05/19/2021": 2.74422,

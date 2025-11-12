@@ -2,8 +2,8 @@
   "RxCUI": "1049545",
   "Name": "OXYCONTIN 15 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1860154",
-  "Generic_RxCUI": "1049545",
+  "Brand_RxCUI": "1049545",
+  "Generic_RxCUI": "1860154",
   "prices": {
     "59011041520": {
       "11/22/2017": 4.73719,

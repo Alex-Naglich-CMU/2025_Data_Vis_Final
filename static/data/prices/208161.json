@@ -2,8 +2,8 @@
   "RxCUI": "208161",
   "Name": "ZOLOFT 50 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "312941",
-  "Generic_RxCUI": "208161",
+  "Brand_RxCUI": "208161",
+  "Generic_RxCUI": "312941",
   "prices": {
     "00049490030": {
       "06/01/2017": 9.3024,

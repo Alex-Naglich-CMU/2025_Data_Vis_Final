@@ -2,8 +2,8 @@
   "RxCUI": "724863",
   "Name": "ARMODAFINIL 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "724863",
-  "Generic_RxCUI": "805663",
+  "Brand_RxCUI": "805663",
+  "Generic_RxCUI": "724863",
   "prices": {
     "00093309056": {
       "05/19/2021": 0.31425,

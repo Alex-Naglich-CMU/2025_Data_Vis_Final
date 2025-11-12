@@ -2,8 +2,8 @@
   "RxCUI": "1860157",
   "Name": "OXYCODONE HCL ER 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1860157",
-  "Generic_RxCUI": "1049504",
+  "Brand_RxCUI": "1049504",
+  "Generic_RxCUI": "1860157",
   "prices": {
     "10702080101": {
       "07/21/2021": 2.48686,

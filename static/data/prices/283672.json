@@ -2,8 +2,8 @@
   "RxCUI": "283672",
   "Name": "CITALOPRAM HBR 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "283672",
-  "Generic_RxCUI": "284591",
+  "Brand_RxCUI": "284591",
+  "Generic_RxCUI": "283672",
   "prices": {
     "68084073711": {
       "05/19/2021": 0.02824,

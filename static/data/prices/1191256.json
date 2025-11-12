@@ -2,8 +2,8 @@
   "RxCUI": "1191256",
   "Name": "FLUOCINOLONE 0.025% OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "1191256",
-  "Generic_RxCUI": "1191260",
+  "Brand_RxCUI": "1191260",
+  "Generic_RxCUI": "1191256",
   "prices": {
     "52565001315": {
       "05/19/2021": 1.66111,

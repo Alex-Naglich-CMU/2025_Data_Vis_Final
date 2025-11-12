@@ -2,8 +2,8 @@
   "RxCUI": "860107",
   "Name": "KETOROLAC 0.5% OPHTH SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "860107",
-  "Generic_RxCUI": "860109",
+  "Brand_RxCUI": "860109",
+  "Generic_RxCUI": "860107",
   "prices": {
     "17478020910": {
       "05/19/2021": 1.66793,

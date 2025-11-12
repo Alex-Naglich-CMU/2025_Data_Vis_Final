@@ -2,8 +2,8 @@
   "RxCUI": "197739",
   "Name": "GLYCOPYRROLATE 2 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197739",
-  "Generic_RxCUI": "102166",
+  "Brand_RxCUI": "102166",
+  "Generic_RxCUI": "197739",
   "prices": {
     "69315014001": {
       "05/19/2021": 0.33883,

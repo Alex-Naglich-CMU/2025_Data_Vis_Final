@@ -2,8 +2,8 @@
   "RxCUI": "1995461",
   "Name": "METHYLPHENIDATE ER 72 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1995461",
-  "Generic_RxCUI": "2052826",
+  "Brand_RxCUI": "2052826",
+  "Generic_RxCUI": "1995461",
   "prices": {
     "13811071030": {
       "07/21/2021": 15.35445,

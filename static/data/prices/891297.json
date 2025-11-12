@@ -2,8 +2,8 @@
   "RxCUI": "891297",
   "Name": "MUCINEX ER 1,200 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "310621",
-  "Generic_RxCUI": "891297",
+  "Brand_RxCUI": "891297",
+  "Generic_RxCUI": "310621",
   "prices": {
     "63824002346": {
       "06/23/2021": 0.78536,

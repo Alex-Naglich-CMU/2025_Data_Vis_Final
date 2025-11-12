@@ -2,8 +2,8 @@
   "RxCUI": "1234506",
   "Name": "HYDROCORT-PRAMOXINE 2.5-1% CRM",
   "IsBrand": false,
-  "Brand_RxCUI": "1234506",
-  "Generic_RxCUI": "1234509",
+  "Brand_RxCUI": "1234509",
+  "Generic_RxCUI": "1234506",
   "prices": {
     "52817081701": {
       "5/18/2022": 1.98453,

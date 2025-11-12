@@ -2,8 +2,8 @@
   "RxCUI": "1373503",
   "Name": "LEVONORG 0.15 MG-EE 20-25-30 MCG",
   "IsBrand": false,
-  "Brand_RxCUI": "1373503",
-  "Generic_RxCUI": "2705814",
+  "Brand_RxCUI": "2705814",
+  "Generic_RxCUI": "1373503",
   "prices": {
     "00378731685": {
       "05/22/2024": 1.73705,

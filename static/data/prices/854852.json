@@ -2,8 +2,8 @@
   "RxCUI": "854852",
   "Name": "VYVANSE 50 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "854850",
-  "Generic_RxCUI": "854852",
+  "Brand_RxCUI": "854852",
+  "Generic_RxCUI": "854850",
   "prices": {
     "59417010510": {
       "11/22/2017": 8.65322,

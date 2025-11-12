@@ -2,8 +2,8 @@
   "RxCUI": "1247756",
   "Name": "COLACE 100 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "1115005",
-  "Generic_RxCUI": "1247756",
+  "Brand_RxCUI": "1247756",
+  "Generic_RxCUI": "1115005",
   "prices": {
     "67618010160": {
       "05/19/2021": 0.28156,

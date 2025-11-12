@@ -2,8 +2,8 @@
   "RxCUI": "307675",
   "Name": "CHLD ACETAMINOPHEN 160 MG/5 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "307675",
-  "Generic_RxCUI": "1095636",
+  "Brand_RxCUI": "1095636",
+  "Generic_RxCUI": "307675",
   "prices": {
     "00904701416": {
       "05/19/2021": 0.01306,

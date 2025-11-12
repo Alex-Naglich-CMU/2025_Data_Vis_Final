@@ -2,8 +2,8 @@
   "RxCUI": "833711",
   "Name": "TRAMADOL HCL ER 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "833711",
-  "Generic_RxCUI": "845315",
+  "Brand_RxCUI": "845315",
+  "Generic_RxCUI": "833711",
   "prices": {
     "00378415393": {
       "05/19/2021": 2.13795,

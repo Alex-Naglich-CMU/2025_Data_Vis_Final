@@ -2,8 +2,8 @@
   "RxCUI": "895664",
   "Name": "GS IBUPROFEN PM CAPLET",
   "IsBrand": false,
-  "Brand_RxCUI": "895664",
-  "Generic_RxCUI": "895666",
+  "Brand_RxCUI": "895666",
+  "Generic_RxCUI": "895664",
   "prices": {
     "00113005058": {
       "05/19/2021": 0.11386,

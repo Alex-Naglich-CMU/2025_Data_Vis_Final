@@ -2,8 +2,8 @@
   "RxCUI": "859983",
   "Name": "SAPHRIS 5 MG TAB SUBLINGUAL BLACK CHERRY",
   "IsBrand": true,
-  "Brand_RxCUI": "859981",
-  "Generic_RxCUI": "859983",
+  "Brand_RxCUI": "859983",
+  "Generic_RxCUI": "859981",
   "prices": {
     "00456240560": {
       "01/01/2018": 19.12615,

@@ -2,8 +2,8 @@
   "RxCUI": "1806208",
   "Name": "METHYLPHENIDATE ER 60 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1806208",
-  "Generic_RxCUI": "1648201",
+  "Brand_RxCUI": "1648201",
+  "Generic_RxCUI": "1806208",
   "prices": {
     "00591390219": {
       "05/22/2024": 5.66252,

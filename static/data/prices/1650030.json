@@ -2,8 +2,8 @@
   "RxCUI": "1650030",
   "Name": "DOXYCYCLINE 25 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "1650030",
-  "Generic_RxCUI": "861061",
+  "Brand_RxCUI": "861061",
+  "Generic_RxCUI": "1650030",
   "prices": {
     "62135041746": {
       "05/19/2021": 0.26913,

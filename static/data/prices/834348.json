@@ -2,8 +2,8 @@
   "RxCUI": "834348",
   "Name": "AMIODARONE HCL 400 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "834348",
-  "Generic_RxCUI": "834350",
+  "Brand_RxCUI": "834350",
+  "Generic_RxCUI": "834348",
   "prices": {
     "51862024230": {
       "05/19/2021": 1.89594,

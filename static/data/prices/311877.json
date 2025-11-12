@@ -2,8 +2,8 @@
   "RxCUI": "311877",
   "Name": "MUPIROCIN 2% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "311877",
-  "Generic_RxCUI": "2286614",
+  "Brand_RxCUI": "2286614",
+  "Generic_RxCUI": "311877",
   "prices": {
     "51672137001": {
       "05/19/2021": 8.19629,

@@ -2,8 +2,8 @@
   "RxCUI": "2599365",
   "Name": "OZEMPIC 2 MG/DOSE (8 MG/3 ML) PEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2599362",
-  "Generic_RxCUI": "2599365",
+  "Brand_RxCUI": "2599365",
+  "Generic_RxCUI": "2599362",
   "prices": {
     "00169477211": {
       "01/04/2023": 299.85322,

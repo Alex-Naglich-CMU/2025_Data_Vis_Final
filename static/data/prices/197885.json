@@ -2,8 +2,8 @@
   "RxCUI": "197885",
   "Name": "LISINOPRIL-HYDROCHLOROTHIAZIDE 10-12.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "197885",
-  "Generic_RxCUI": "823986",
+  "Brand_RxCUI": "823986",
+  "Generic_RxCUI": "197885",
   "prices": {
     "76282044690": {
       "05/19/2021": 0.03946,

@@ -2,8 +2,8 @@
   "RxCUI": "1294619",
   "Name": "BISMUTH-METRONIDAZOLE-TETRACYCLINE 140-125-125 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "1294619",
-  "Generic_RxCUI": "1294621",
+  "Brand_RxCUI": "1294621",
+  "Generic_RxCUI": "1294619",
   "prices": {
     "49884015124": {
       "02/21/2024": 4.46872,

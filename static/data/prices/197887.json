@@ -2,8 +2,8 @@
   "RxCUI": "197887",
   "Name": "LISINOPRIL-HYDROCHLOROTHIAZIDE 20-25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "197887",
-  "Generic_RxCUI": "823971",
+  "Brand_RxCUI": "823971",
+  "Generic_RxCUI": "197887",
   "prices": {
     "76282044890": {
       "05/19/2021": 0.04977,

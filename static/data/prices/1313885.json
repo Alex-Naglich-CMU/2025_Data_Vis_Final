@@ -2,8 +2,8 @@
   "RxCUI": "1313885",
   "Name": "PHENYTOIN 50 MG TABLET CHEW",
   "IsBrand": false,
-  "Brand_RxCUI": "1313885",
-  "Generic_RxCUI": "1313887",
+  "Brand_RxCUI": "1313887",
+  "Generic_RxCUI": "1313885",
   "prices": {
     "60687015625": {
       "05/19/2021": 0.29867,

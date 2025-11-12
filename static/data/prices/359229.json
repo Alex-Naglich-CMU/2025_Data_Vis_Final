@@ -2,8 +2,8 @@
   "RxCUI": "359229",
   "Name": "AZATHIOPRINE 75 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "359229",
-  "Generic_RxCUI": "404475",
+  "Brand_RxCUI": "404475",
+  "Generic_RxCUI": "359229",
   "prices": {
     "60219203601": {
       "05/22/2024": 8.15998,

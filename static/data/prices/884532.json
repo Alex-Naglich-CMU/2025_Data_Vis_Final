@@ -2,8 +2,8 @@
   "RxCUI": "884532",
   "Name": "DEXTROAMPHETAMINE ER 15 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "884532",
-  "Generic_RxCUI": "884534",
+  "Brand_RxCUI": "884534",
+  "Generic_RxCUI": "884532",
   "prices": {
     "51862034690": {
       "05/19/2021": 1.78437,

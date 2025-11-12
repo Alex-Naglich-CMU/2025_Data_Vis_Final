@@ -2,8 +2,8 @@
   "RxCUI": "1251914",
   "Name": "NEUPRO 1 MG/24 HR PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "1251912",
-  "Generic_RxCUI": "1251914",
+  "Brand_RxCUI": "1251914",
+  "Generic_RxCUI": "1251912",
   "prices": {
     "50474080103": {
       "09/20/2017": 19.83513,

@@ -2,8 +2,8 @@
   "RxCUI": "1943345",
   "Name": "CAROSPIR 25 MG/5 ML SUSPENSION",
   "IsBrand": true,
-  "Brand_RxCUI": "104232",
-  "Generic_RxCUI": "1943345",
+  "Brand_RxCUI": "1943345",
+  "Generic_RxCUI": "104232",
   "prices": {
     "46287002004": {
       "10/01/2021": 3.13498,

@@ -2,8 +2,8 @@
   "RxCUI": "106258",
   "Name": "HYDROCORTISONE 1% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "106258",
-  "Generic_RxCUI": "1865144",
+  "Brand_RxCUI": "1865144",
+  "Generic_RxCUI": "106258",
   "prices": {
     "45802043803": {
       "05/19/2021": 0.05639,

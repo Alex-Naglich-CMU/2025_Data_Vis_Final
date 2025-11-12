@@ -2,8 +2,8 @@
   "RxCUI": "403908",
   "Name": "CIPROFLOX-DEXAMETH OTIC SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "403908",
-  "Generic_RxCUI": "404630",
+  "Brand_RxCUI": "404630",
+  "Generic_RxCUI": "403908",
   "prices": {
     "00781618667": {
       "05/19/2021": 20.53587,

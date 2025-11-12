@@ -2,8 +2,8 @@
   "RxCUI": "1543207",
   "Name": "AFREZZA (REGULAR INSULIN) 4 UNIT CARTRIDGE",
   "IsBrand": true,
-  "Brand_RxCUI": "1543202",
-  "Generic_RxCUI": "1543207",
+  "Brand_RxCUI": "1543207",
+  "Generic_RxCUI": "1543202",
   "prices": {
     "47918087490": {
       "05/22/2024": 4.80024,

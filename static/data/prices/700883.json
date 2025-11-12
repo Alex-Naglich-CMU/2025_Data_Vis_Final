@@ -2,8 +2,8 @@
   "RxCUI": "700883",
   "Name": "TEMOZOLOMIDE 140 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "700883",
-  "Generic_RxCUI": "705617",
+  "Brand_RxCUI": "705617",
+  "Generic_RxCUI": "700883",
   "prices": {
     "16571081941": {
       "08/21/2024": 6.57055,

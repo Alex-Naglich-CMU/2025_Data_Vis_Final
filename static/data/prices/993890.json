@@ -2,8 +2,8 @@
   "RxCUI": "993890",
   "Name": "ACETAMINOPHEN-COD #4 TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "993890",
-  "Generic_RxCUI": "993892",
+  "Brand_RxCUI": "993892",
+  "Generic_RxCUI": "993890",
   "prices": {
     "00406048505": {
       "05/19/2021": 0.20969,

@@ -2,8 +2,8 @@
   "RxCUI": "197382",
   "Name": "ATENOLOL-CHLORTHALIDONE 100-25",
   "IsBrand": false,
-  "Brand_RxCUI": "197382",
-  "Generic_RxCUI": "746023",
+  "Brand_RxCUI": "746023",
+  "Generic_RxCUI": "197382",
   "prices": {
     "00591578301": {
       "05/19/2021": 0.60366,

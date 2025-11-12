@@ -2,8 +2,8 @@
   "RxCUI": "2123076",
   "Name": "ALBUTEROL HFA 90 MCG INHALER",
   "IsBrand": false,
-  "Brand_RxCUI": "2123076",
-  "Generic_RxCUI": "859088",
+  "Brand_RxCUI": "859088",
+  "Generic_RxCUI": "2123076",
   "prices": {
     "66993001968": {
       "05/19/2021": 1.8885,

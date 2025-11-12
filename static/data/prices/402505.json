@@ -2,8 +2,8 @@
   "RxCUI": "402505",
   "Name": "CARBAMAZEPINE ER 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "402505",
-  "Generic_RxCUI": "866305",
+  "Brand_RxCUI": "866305",
+  "Generic_RxCUI": "402505",
   "prices": {
     "16571068101": {
       "05/19/2021": 1.11294,

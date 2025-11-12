@@ -2,8 +2,8 @@
   "RxCUI": "861171",
   "Name": "PROPAFENONE HCL ER 425 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "861171",
-  "Generic_RxCUI": "861173",
+  "Brand_RxCUI": "861173",
+  "Generic_RxCUI": "861171",
   "prices": {
     "49884021109": {
       "08/23/2017": 4.68283,

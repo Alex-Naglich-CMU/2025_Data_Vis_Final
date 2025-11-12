@@ -2,8 +2,8 @@
   "RxCUI": "208186",
   "Name": "SILVADENE 1% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "106351",
-  "Generic_RxCUI": "208186",
+  "Brand_RxCUI": "208186",
+  "Generic_RxCUI": "106351",
   "prices": {
     "61570013150": {
       "01/01/2024": 0.19455,

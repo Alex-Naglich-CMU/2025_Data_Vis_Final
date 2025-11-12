@@ -2,8 +2,8 @@
   "RxCUI": "1597123",
   "Name": "TESTOSTERONE 1% (25 MG/2.5G) PK",
   "IsBrand": false,
-  "Brand_RxCUI": "1597123",
-  "Generic_RxCUI": "1597124",
+  "Brand_RxCUI": "1597124",
+  "Generic_RxCUI": "1597123",
   "prices": {
     "00591321630": {
       "05/19/2021": 2.66299,

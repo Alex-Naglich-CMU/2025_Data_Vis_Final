@@ -2,8 +2,8 @@
   "RxCUI": "966171",
   "Name": "SYNTHROID 75 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "966222",
-  "Generic_RxCUI": "966171",
+  "Brand_RxCUI": "966171",
+  "Generic_RxCUI": "966222",
   "prices": {
     "00074518290": {
       "12/22/2017": 1.1354,

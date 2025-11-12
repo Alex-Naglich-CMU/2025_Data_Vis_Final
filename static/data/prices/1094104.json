@@ -2,8 +2,8 @@
   "RxCUI": "1094104",
   "Name": "PHENAZOPYRIDINE 200 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1094104",
-  "Generic_RxCUI": "1094122",
+  "Brand_RxCUI": "1094122",
+  "Generic_RxCUI": "1094104",
   "prices": {
     "51293081101": {
       "05/19/2021": 0.43105,

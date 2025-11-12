@@ -2,8 +2,8 @@
   "RxCUI": "1090992",
   "Name": "NORETHIN-ETH ESTRAD 1 MG-5 MCG",
   "IsBrand": false,
-  "Brand_RxCUI": "1090992",
-  "Generic_RxCUI": "1736656",
+  "Brand_RxCUI": "1736656",
+  "Generic_RxCUI": "1090992",
   "prices": {
     "68462065790": {
       "05/19/2021": 1.26355,

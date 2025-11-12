@@ -2,8 +2,8 @@
   "RxCUI": "199387",
   "Name": "RISPERIDONE 1 MG/ML SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "199387",
-  "Generic_RxCUI": "211489",
+  "Brand_RxCUI": "211489",
+  "Generic_RxCUI": "199387",
   "prices": {
     "23155031751": {
       "05/19/2021": 0.37749,

@@ -2,8 +2,8 @@
   "RxCUI": "313036",
   "Name": "FLUORIDE 0.5 MG TABLET CHEW",
   "IsBrand": false,
-  "Brand_RxCUI": "313036",
-  "Generic_RxCUI": "1302368",
+  "Brand_RxCUI": "1302368",
+  "Generic_RxCUI": "313036",
   "prices": {
     "59088010573": {
       "05/19/2021": 0.05138,

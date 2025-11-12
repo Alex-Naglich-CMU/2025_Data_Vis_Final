@@ -2,8 +2,8 @@
   "RxCUI": "311036",
   "Name": "HUMULIN R 100 UNIT/ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "311034",
-  "Generic_RxCUI": "311036",
+  "Brand_RxCUI": "311036",
+  "Generic_RxCUI": "311034",
   "prices": {
     "00002821501": {
       "07/21/2021": 14.27129,

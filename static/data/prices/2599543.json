@@ -2,8 +2,8 @@
   "RxCUI": "2599543",
   "Name": "PAXLOVID 150-100 MG DOSE PACK (RENAL DOSE)",
   "IsBrand": true,
-  "Brand_RxCUI": "2599542",
-  "Generic_RxCUI": "2599543",
+  "Brand_RxCUI": "2599543",
+  "Generic_RxCUI": "2599542",
   "prices": {
     "00069531720": {
       "04/17/2024": 66.8532,

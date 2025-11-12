@@ -2,8 +2,8 @@
   "RxCUI": "903705",
   "Name": "CYTOMEL 50 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "903703",
-  "Generic_RxCUI": "903705",
+  "Brand_RxCUI": "903705",
+  "Generic_RxCUI": "903703",
   "prices": {
     "60793011701": {
       "06/01/2017": 3.38194,

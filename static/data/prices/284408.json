@@ -2,8 +2,8 @@
   "RxCUI": "284408",
   "Name": "ZONEGRAN 100 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "314285",
-  "Generic_RxCUI": "284408",
+  "Brand_RxCUI": "284408",
+  "Generic_RxCUI": "314285",
   "prices": {
     "59212068010": {
       "08/23/2017": 13.57559,

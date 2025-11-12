@@ -2,8 +2,8 @@
   "RxCUI": "849450",
   "Name": "SUMATRIPTAN-NAPROXEN 85-500 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "849450",
-  "Generic_RxCUI": "849452",
+  "Brand_RxCUI": "849452",
+  "Generic_RxCUI": "849450",
   "prices": {
     "00378875559": {
       "05/19/2021": 30.04667,

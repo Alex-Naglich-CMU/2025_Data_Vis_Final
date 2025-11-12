@@ -2,8 +2,8 @@
   "RxCUI": "317128",
   "Name": "MISOPROSTOL 200 MCG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "317128",
-  "Generic_RxCUI": "104098",
+  "Brand_RxCUI": "104098",
+  "Generic_RxCUI": "317128",
   "prices": {
     "68084004111": {
       "05/19/2021": 0.6684,

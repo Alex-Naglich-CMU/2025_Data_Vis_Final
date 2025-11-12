@@ -2,8 +2,8 @@
   "RxCUI": "848164",
   "Name": "SIMPONI 50 MG/0.5 ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "848160",
-  "Generic_RxCUI": "848164",
+  "Brand_RxCUI": "848164",
+  "Generic_RxCUI": "848160",
   "prices": {
     "57894007001": {
       "01/03/2018": 8735.50357,

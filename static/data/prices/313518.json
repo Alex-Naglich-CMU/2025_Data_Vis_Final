@@ -2,8 +2,8 @@
   "RxCUI": "313518",
   "Name": "ARTHRICREAM 10% RUB",
   "IsBrand": false,
-  "Brand_RxCUI": "313518",
-  "Generic_RxCUI": "1101843",
+  "Brand_RxCUI": "1101843",
+  "Generic_RxCUI": "313518",
   "prices": {
     "24385016553": {
       "05/19/2021": 0.0284,

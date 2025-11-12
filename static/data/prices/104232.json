@@ -2,8 +2,8 @@
   "RxCUI": "104232",
   "Name": "SPIRONOLACTONE 25 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "104232",
-  "Generic_RxCUI": "1943345",
+  "Brand_RxCUI": "1943345",
+  "Generic_RxCUI": "104232",
   "prices": {
     "00574113304": {
       "05/22/2024": 2.56602,

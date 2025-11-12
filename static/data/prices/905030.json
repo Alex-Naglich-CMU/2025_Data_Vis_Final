@@ -2,8 +2,8 @@
   "RxCUI": "905030",
   "Name": "ACTONEL 150 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "905028",
-  "Generic_RxCUI": "905030",
+  "Brand_RxCUI": "905030",
+  "Generic_RxCUI": "905028",
   "prices": {
     "00430047801": {
       "01/01/2018": 339.48042,

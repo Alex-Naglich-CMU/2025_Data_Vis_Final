@@ -2,8 +2,8 @@
   "RxCUI": "1245468",
   "Name": "STOOL SOFTENER 250 MG SOFTGEL",
   "IsBrand": false,
-  "Brand_RxCUI": "1245468",
-  "Generic_RxCUI": "2711894",
+  "Brand_RxCUI": "2711894",
+  "Generic_RxCUI": "1245468",
   "prices": {
     "46122026378": {
       "05/19/2021": 0.04537,

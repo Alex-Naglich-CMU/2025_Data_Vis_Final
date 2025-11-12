@@ -2,8 +2,8 @@
   "RxCUI": "2554104",
   "Name": "WEGOVY 2.4 MG/0.75 ML PEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2554102",
-  "Generic_RxCUI": "2554104",
+  "Brand_RxCUI": "2554104",
+  "Generic_RxCUI": "2554102",
   "prices": {
     "00169452414": {
       "7/20/2022": 431.79652,

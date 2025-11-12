@@ -2,8 +2,8 @@
   "RxCUI": "857301",
   "Name": "CLOMIPRAMINE 50 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "857301",
-  "Generic_RxCUI": "857303",
+  "Brand_RxCUI": "857303",
+  "Generic_RxCUI": "857301",
   "prices": {
     "52817028110": {
       "05/19/2021": 1.64891,

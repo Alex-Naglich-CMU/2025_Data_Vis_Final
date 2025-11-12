@@ -2,8 +2,8 @@
   "RxCUI": "596932",
   "Name": "CYMBALTA 30 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "596930",
-  "Generic_RxCUI": "596932",
+  "Brand_RxCUI": "596932",
+  "Generic_RxCUI": "596930",
   "prices": {
     "00002324030": {
       "09/20/2017": 6.90354,

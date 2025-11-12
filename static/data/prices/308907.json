@@ -2,8 +2,8 @@
   "RxCUI": "308907",
   "Name": "CALCIUM ANTACID 500 MG CHW TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "308907",
-  "Generic_RxCUI": "1425181",
+  "Brand_RxCUI": "1425181",
+  "Generic_RxCUI": "308907",
   "prices": {
     "00904641292": {
       "05/19/2021": 0.01277,

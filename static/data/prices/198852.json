@@ -2,8 +2,8 @@
   "RxCUI": "198852",
   "Name": "GAS RELIEF 125 MG SOFTGEL",
   "IsBrand": false,
-  "Brand_RxCUI": "198852",
-  "Generic_RxCUI": "351603",
+  "Brand_RxCUI": "351603",
+  "Generic_RxCUI": "198852",
   "prices": {
     "00904699446": {
       "05/19/2021": 0.0647,

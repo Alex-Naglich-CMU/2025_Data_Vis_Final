@@ -2,8 +2,8 @@
   "RxCUI": "1006107",
   "Name": "SODIUM SULFACETAMIDE 10% WASH",
   "IsBrand": false,
-  "Brand_RxCUI": "1006107",
-  "Generic_RxCUI": "1006110",
+  "Brand_RxCUI": "1006110",
+  "Generic_RxCUI": "1006107",
   "prices": {
     "58657047706": {
       "05/22/2024": 0.09912,

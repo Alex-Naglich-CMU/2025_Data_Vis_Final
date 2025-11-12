@@ -2,8 +2,8 @@
   "RxCUI": "213045",
   "Name": "EFUDEX 5% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "105583",
-  "Generic_RxCUI": "213045",
+  "Brand_RxCUI": "213045",
+  "Generic_RxCUI": "105583",
   "prices": {
     "00187320447": {
       "04/17/2024": 1.43786,

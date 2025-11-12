@@ -2,8 +2,8 @@
   "RxCUI": "349545",
   "Name": "ARIPIPRAZOLE 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "349545",
-  "Generic_RxCUI": "352307",
+  "Brand_RxCUI": "352307",
+  "Generic_RxCUI": "349545",
   "prices": {
     "60687017911": {
       "05/19/2021": 0.17238,

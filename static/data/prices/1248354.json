@@ -2,8 +2,8 @@
   "RxCUI": "1248354",
   "Name": "SLEEP AID 50 MG/30 ML LIQUID",
   "IsBrand": false,
-  "Brand_RxCUI": "1248354",
-  "Generic_RxCUI": "1494599",
+  "Brand_RxCUI": "1494599",
+  "Generic_RxCUI": "1248354",
   "prices": {
     "70000031101": {
       "03/20/2019": 0.01361

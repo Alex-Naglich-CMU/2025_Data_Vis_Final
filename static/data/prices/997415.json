@@ -2,8 +2,8 @@
   "RxCUI": "997415",
   "Name": "24HR ALLERGY-CONGST 180-240 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "997415",
-  "Generic_RxCUI": "1190334",
+  "Brand_RxCUI": "1190334",
+  "Generic_RxCUI": "997415",
   "prices": {
     "70000060701": {
       "06/19/2024": 1.02918,

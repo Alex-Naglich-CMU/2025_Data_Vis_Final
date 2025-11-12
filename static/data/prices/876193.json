@@ -2,8 +2,8 @@
   "RxCUI": "876193",
   "Name": "POLYETHYLENE GLYCOL 3350 POWD",
   "IsBrand": false,
-  "Brand_RxCUI": "876193",
-  "Generic_RxCUI": "1088531",
+  "Brand_RxCUI": "1088531",
+  "Generic_RxCUI": "876193",
   "prices": {
     "45802086802": {
       "05/19/2021": 0.02409,

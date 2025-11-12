@@ -2,8 +2,8 @@
   "RxCUI": "1806181",
   "Name": "METHYLPHENIDATE CD 10 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1806181",
-  "Generic_RxCUI": "1091139",
+  "Brand_RxCUI": "1091139",
+  "Generic_RxCUI": "1806181",
   "prices": {
     "00527457937": {
       "05/19/2021": 1.53651,

@@ -2,8 +2,8 @@
   "RxCUI": "310152",
   "Name": "ERYTHROMYCIN 2% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "310152",
-  "Generic_RxCUI": "206212",
+  "Brand_RxCUI": "206212",
+  "Generic_RxCUI": "310152",
   "prices": {
     "63739005366": {
       "05/19/2021": 1.06465,

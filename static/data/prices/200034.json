@@ -2,8 +2,8 @@
   "RxCUI": "200034",
   "Name": "OLANZAPINE 2.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200034",
-  "Generic_RxCUI": "212405",
+  "Brand_RxCUI": "212405",
+  "Generic_RxCUI": "200034",
   "prices": {
     "60505311008": {
       "05/19/2021": 0.0937,

@@ -2,8 +2,8 @@
   "RxCUI": "198006",
   "Name": "NADOLOL 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198006",
-  "Generic_RxCUI": "206961",
+  "Brand_RxCUI": "206961",
+  "Generic_RxCUI": "198006",
   "prices": {
     "23155073001": {
       "05/19/2021": 0.45423,

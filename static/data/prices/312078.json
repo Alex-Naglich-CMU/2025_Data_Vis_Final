@@ -2,8 +2,8 @@
   "RxCUI": "312078",
   "Name": "OLANZAPINE 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312078",
-  "Generic_RxCUI": "153046",
+  "Brand_RxCUI": "153046",
+  "Generic_RxCUI": "312078",
   "prices": {
     "43598016430": {
       "05/19/2021": 0.11345,

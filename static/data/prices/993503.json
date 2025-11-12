@@ -2,8 +2,8 @@
   "RxCUI": "993503",
   "Name": "BUPROPION HCL SR 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "993503",
-  "Generic_RxCUI": "993511",
+  "Brand_RxCUI": "993511",
+  "Generic_RxCUI": "993503",
   "prices": {
     "43547028809": {
       "05/19/2021": 0.13265,

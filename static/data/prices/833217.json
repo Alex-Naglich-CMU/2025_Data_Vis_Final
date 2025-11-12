@@ -2,8 +2,8 @@
   "RxCUI": "833217",
   "Name": "DILTIAZEM 30 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "833217",
-  "Generic_RxCUI": "833219",
+  "Brand_RxCUI": "833219",
+  "Generic_RxCUI": "833217",
   "prices": {
     "68682000650": {
       "05/19/2021": 0.10563,

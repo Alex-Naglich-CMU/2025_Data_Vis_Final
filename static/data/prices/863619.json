@@ -2,8 +2,8 @@
   "RxCUI": "863619",
   "Name": "OXYBUTYNIN CL ER 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "863619",
-  "Generic_RxCUI": "863622",
+  "Brand_RxCUI": "863622",
+  "Generic_RxCUI": "863619",
   "prices": {
     "62175027141": {
       "05/19/2021": 0.22943,

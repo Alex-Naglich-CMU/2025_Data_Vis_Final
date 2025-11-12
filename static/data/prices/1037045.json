@@ -2,8 +2,8 @@
   "RxCUI": "1037045",
   "Name": "DABIGATRAN ETEXILATE 150 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "1037045",
-  "Generic_RxCUI": "1037049",
+  "Brand_RxCUI": "1037049",
+  "Generic_RxCUI": "1037045",
   "prices": {
     "31722062260": {
       "1/18/2023": 6.86461,

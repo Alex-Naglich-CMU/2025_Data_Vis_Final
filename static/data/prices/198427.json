@@ -2,8 +2,8 @@
   "RxCUI": "198427",
   "Name": "LAMOTRIGINE 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198427",
-  "Generic_RxCUI": "2003796",
+  "Brand_RxCUI": "2003796",
+  "Generic_RxCUI": "198427",
   "prices": {
     "65862022801": {
       "05/19/2021": 0.05959,

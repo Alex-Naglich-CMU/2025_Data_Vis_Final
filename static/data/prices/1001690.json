@@ -2,8 +2,8 @@
   "RxCUI": "1001690",
   "Name": "SUPREP BOWEL PREP KIT",
   "IsBrand": true,
-  "Brand_RxCUI": "1001689",
-  "Generic_RxCUI": "1001690",
+  "Brand_RxCUI": "1001690",
+  "Generic_RxCUI": "1001689",
   "prices": {
     "52268001201": {
       "02/21/2018": 0.23864,

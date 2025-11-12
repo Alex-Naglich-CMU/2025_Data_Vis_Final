@@ -2,8 +2,8 @@
   "RxCUI": "809996",
   "Name": "LACOSAMIDE 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "809996",
-  "Generic_RxCUI": "809998",
+  "Brand_RxCUI": "809998",
+  "Generic_RxCUI": "809996",
   "prices": {
     "00904724768": {
       "7/20/2022": 0.4527,

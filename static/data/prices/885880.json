@@ -2,8 +2,8 @@
   "RxCUI": "885880",
   "Name": "CLONIDINE HCL ER 0.17 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "885880",
-  "Generic_RxCUI": "1050338",
+  "Brand_RxCUI": "1050338",
+  "Generic_RxCUI": "885880",
   "prices": {
     "52817037530": {
       "09/18/2024": 12.99757,

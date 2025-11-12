@@ -2,8 +2,8 @@
   "RxCUI": "1116635",
   "Name": "TICAGRELOR 90 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1116635",
-  "Generic_RxCUI": "1116639",
+  "Brand_RxCUI": "1116639",
+  "Generic_RxCUI": "1116635",
   "prices": {
     "00480269506": {
       "08/20/2025": 0.44184,

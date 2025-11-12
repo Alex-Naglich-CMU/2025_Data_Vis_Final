@@ -2,8 +2,8 @@
   "RxCUI": "835842",
   "Name": "DEPO-TESTOSTERONE 200 MG/ML",
   "IsBrand": true,
-  "Brand_RxCUI": "835840",
-  "Generic_RxCUI": "835842",
+  "Brand_RxCUI": "835842",
+  "Generic_RxCUI": "835840",
   "prices": {
     "00009041701": {
       "05/19/2021": 15.69571,

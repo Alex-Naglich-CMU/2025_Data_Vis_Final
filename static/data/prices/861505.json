@@ -2,8 +2,8 @@
   "RxCUI": "861505",
   "Name": "CLOBETASOL 0.05% TOPICAL LOTN",
   "IsBrand": false,
-  "Brand_RxCUI": "861505",
-  "Generic_RxCUI": "2462149",
+  "Brand_RxCUI": "2462149",
+  "Generic_RxCUI": "861505",
   "prices": {
     "68180053602": {
       "06/23/2021": 0.63417,

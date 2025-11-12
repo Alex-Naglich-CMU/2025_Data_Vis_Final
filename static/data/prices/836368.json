@@ -2,8 +2,8 @@
   "RxCUI": "836368",
   "Name": "ATROVENT HFA INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "836343",
-  "Generic_RxCUI": "836368",
+  "Brand_RxCUI": "836368",
+  "Generic_RxCUI": "836343",
   "prices": {
     "00597008717": {
       "11/22/2017": 24.76162,

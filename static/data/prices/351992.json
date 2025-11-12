@@ -2,8 +2,8 @@
   "RxCUI": "351992",
   "Name": "TRILEPTAL 300 MG/5 ML SUSP",
   "IsBrand": true,
-  "Brand_RxCUI": "283536",
-  "Generic_RxCUI": "351992",
+  "Brand_RxCUI": "351992",
+  "Generic_RxCUI": "283536",
   "prices": {
     "00078035752": {
       "07/11/2017": 1.38874,

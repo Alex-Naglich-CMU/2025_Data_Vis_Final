@@ -2,8 +2,8 @@
   "RxCUI": "828373",
   "Name": "FENOFIBRIC ACID DR 135 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "828373",
-  "Generic_RxCUI": "828377",
+  "Brand_RxCUI": "828377",
+  "Generic_RxCUI": "828373",
   "prices": {
     "59651021790": {
       "05/19/2021": 0.72082,

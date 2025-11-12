@@ -2,8 +2,8 @@
   "RxCUI": "898346",
   "Name": "AMLODIPINE-BENAZEPRIL 10-40 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "898346",
-  "Generic_RxCUI": "898348",
+  "Brand_RxCUI": "898348",
+  "Generic_RxCUI": "898346",
   "prices": {
     "57237014701": {
       "05/19/2021": 0.18163,

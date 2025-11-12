@@ -2,8 +2,8 @@
   "RxCUI": "863603",
   "Name": "E.E.S. 200 MG/5 ML GRANULES",
   "IsBrand": true,
-  "Brand_RxCUI": "686400",
-  "Generic_RxCUI": "863603",
+  "Brand_RxCUI": "863603",
+  "Generic_RxCUI": "686400",
   "prices": {
     "24338013402": {
       "07/19/2017": 3.64522,

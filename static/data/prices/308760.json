@@ -2,8 +2,8 @@
   "RxCUI": "308760",
   "Name": "SM STOMACH RELIEF CAPLET",
   "IsBrand": false,
-  "Brand_RxCUI": "308760",
-  "Generic_RxCUI": "702384",
+  "Brand_RxCUI": "702384",
+  "Generic_RxCUI": "308760",
   "prices": {
     "49348051159": {
       "05/19/2021": 0.07125,

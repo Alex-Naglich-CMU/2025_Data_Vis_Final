@@ -2,8 +2,8 @@
   "RxCUI": "283083",
   "Name": "MUSCLE RUB ULTRA STR CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "283083",
-  "Generic_RxCUI": "2045511",
+  "Brand_RxCUI": "2045511",
+  "Generic_RxCUI": "283083",
   "prices": {
     "70000020801": {
       "07/21/2021": 0.03012,

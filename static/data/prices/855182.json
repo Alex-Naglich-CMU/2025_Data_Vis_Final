@@ -2,8 +2,8 @@
   "RxCUI": "855182",
   "Name": "TOLTERODINE TART ER 2 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "855182",
-  "Generic_RxCUI": "855184",
+  "Brand_RxCUI": "855184",
+  "Generic_RxCUI": "855182",
   "prices": {
     "27241019190": {
       "05/19/2021": 1.36697,

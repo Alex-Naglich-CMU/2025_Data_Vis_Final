@@ -2,8 +2,8 @@
   "RxCUI": "200328",
   "Name": "CAPECITABINE 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200328",
-  "Generic_RxCUI": "213293",
+  "Brand_RxCUI": "213293",
+  "Generic_RxCUI": "200328",
   "prices": {
     "00054027223": {
       "06/21/2017": 12.74747,

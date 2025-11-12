@@ -2,8 +2,8 @@
   "RxCUI": "261315",
   "Name": "TAMIFLU 75 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "312122",
-  "Generic_RxCUI": "261315",
+  "Brand_RxCUI": "261315",
+  "Generic_RxCUI": "312122",
   "prices": {
     "00004080085": {
       "07/01/2017": 14.61607,

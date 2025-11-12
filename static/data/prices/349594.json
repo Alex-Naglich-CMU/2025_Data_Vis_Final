@@ -2,8 +2,8 @@
   "RxCUI": "349594",
   "Name": "ATOMOXETINE HCL 40 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "349594",
-  "Generic_RxCUI": "352320",
+  "Brand_RxCUI": "352320",
+  "Generic_RxCUI": "349594",
   "prices": {
     "64980037603": {
       "05/19/2021": 1.28039,

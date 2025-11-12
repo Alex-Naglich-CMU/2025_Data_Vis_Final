@@ -2,8 +2,8 @@
   "RxCUI": "309318",
   "Name": "POTASSIUM CIT-CITRIC ACID SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "309318",
-  "Generic_RxCUI": "209304",
+  "Brand_RxCUI": "209304",
+  "Generic_RxCUI": "309318",
   "prices": {
     "58657031216": {
       "05/19/2021": 0.04191,

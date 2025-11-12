@@ -2,8 +2,8 @@
   "RxCUI": "199058",
   "Name": "MYCOPHENOLATE 250 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "199058",
-  "Generic_RxCUI": "616447",
+  "Brand_RxCUI": "616447",
+  "Generic_RxCUI": "199058",
   "prices": {
     "67877026605": {
       "05/19/2021": 0.20778,

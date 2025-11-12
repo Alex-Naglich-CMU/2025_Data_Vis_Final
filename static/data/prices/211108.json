@@ -2,8 +2,8 @@
   "RxCUI": "211108",
   "Name": "BETADINE 10% SOLUTION",
   "IsBrand": true,
-  "Brand_RxCUI": "312564",
-  "Generic_RxCUI": "211108",
+  "Brand_RxCUI": "211108",
+  "Generic_RxCUI": "312564",
   "prices": {
     "67618015009": {
       "08/23/2017": 0.04401,

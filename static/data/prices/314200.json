@@ -2,8 +2,8 @@
   "RxCUI": "314200",
   "Name": "PANTOPRAZOLE SOD DR 40 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "314200",
-  "Generic_RxCUI": "284400",
+  "Brand_RxCUI": "284400",
+  "Generic_RxCUI": "314200",
   "prices": {
     "68645049154": {
       "05/19/2021": 0.06484,

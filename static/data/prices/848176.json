@@ -2,8 +2,8 @@
   "RxCUI": "848176",
   "Name": "BETAMETHASONE DP AUG 0.05% CRM",
   "IsBrand": false,
-  "Brand_RxCUI": "848176",
-  "Generic_RxCUI": "848195",
+  "Brand_RxCUI": "848195",
+  "Generic_RxCUI": "848176",
   "prices": {
     "00168026550": {
       "05/19/2021": 0.13828,

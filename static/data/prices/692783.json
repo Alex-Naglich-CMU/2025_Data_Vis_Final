@@ -2,8 +2,8 @@
   "RxCUI": "692783",
   "Name": "LORATADINE 5 MG/5 ML SYRUP",
   "IsBrand": false,
-  "Brand_RxCUI": "692783",
-  "Generic_RxCUI": "755478",
+  "Brand_RxCUI": "755478",
+  "Generic_RxCUI": "692783",
   "prices": {
     "51672208508": {
       "05/19/2021": 0.03839,

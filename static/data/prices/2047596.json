@@ -2,8 +2,8 @@
   "RxCUI": "2047596",
   "Name": "RETACRIT 10,000 UNIT/ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "2047591",
-  "Generic_RxCUI": "2047596",
+  "Brand_RxCUI": "2047596",
+  "Generic_RxCUI": "2047591",
   "prices": {
     "00069130810": {
       "08/21/2024": 107.58883,

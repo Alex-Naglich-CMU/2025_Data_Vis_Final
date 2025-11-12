@@ -2,8 +2,8 @@
   "RxCUI": "308047",
   "Name": "ALPRAZOLAM 0.25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "308047",
-  "Generic_RxCUI": "141927",
+  "Brand_RxCUI": "141927",
+  "Generic_RxCUI": "308047",
   "prices": {
     "00781106101": {
       "05/19/2021": 0.0224,

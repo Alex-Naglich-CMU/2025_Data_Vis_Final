@@ -2,8 +2,8 @@
   "RxCUI": "197379",
   "Name": "ATENOLOL 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197379",
-  "Generic_RxCUI": "201322",
+  "Brand_RxCUI": "201322",
+  "Generic_RxCUI": "197379",
   "prices": {
     "00378075710": {
       "05/19/2021": 0.04823,

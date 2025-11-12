@@ -2,8 +2,8 @@
   "RxCUI": "106387",
   "Name": "PERMETHRIN 5% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "106387",
-  "Generic_RxCUI": "207485",
+  "Brand_RxCUI": "207485",
+  "Generic_RxCUI": "106387",
   "prices": {
     "40085061560": {
       "05/19/2021": 0.39313,

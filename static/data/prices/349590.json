@@ -2,8 +2,8 @@
   "RxCUI": "349590",
   "Name": "LEVALBUTEROL 0.31 MG/3 ML SOL",
   "IsBrand": false,
-  "Brand_RxCUI": "349590",
-  "Generic_RxCUI": "352132",
+  "Brand_RxCUI": "352132",
+  "Generic_RxCUI": "349590",
   "prices": {
     "76204070024": {
       "11/22/2017": 0.5352,

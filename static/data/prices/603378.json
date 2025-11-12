@@ -2,8 +2,8 @@
   "RxCUI": "603378",
   "Name": "APTIVUS 250 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "577212",
-  "Generic_RxCUI": "603378",
+  "Brand_RxCUI": "603378",
+  "Generic_RxCUI": "577212",
   "prices": {
     "00597000302": {
       "01/03/2018": 12.64142,

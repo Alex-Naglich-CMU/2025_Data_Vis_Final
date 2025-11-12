@@ -2,8 +2,8 @@
   "RxCUI": "476271",
   "Name": "AMINOCAPROIC ACID 1,000 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "476271",
-  "Generic_RxCUI": "540540",
+  "Brand_RxCUI": "540540",
+  "Generic_RxCUI": "476271",
   "prices": {
     "24658079930": {
       "05/22/2024": 13.87487,

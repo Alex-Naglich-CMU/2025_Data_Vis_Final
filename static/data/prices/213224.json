@@ -2,8 +2,8 @@
   "RxCUI": "213224",
   "Name": "CIPRO 5% SUSPENSION",
   "IsBrand": true,
-  "Brand_RxCUI": "309308",
-  "Generic_RxCUI": "213224",
+  "Brand_RxCUI": "213224",
+  "Generic_RxCUI": "309308",
   "prices": {
     "50419077701": {
       "08/23/2017": 1.18686,

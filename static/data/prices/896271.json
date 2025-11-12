@@ -2,8 +2,8 @@
   "RxCUI": "896271",
   "Name": "ADVAIR HFA 230-21 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "896267",
-  "Generic_RxCUI": "896271",
+  "Brand_RxCUI": "896271",
+  "Generic_RxCUI": "896267",
   "prices": {
     "00173071722": {
       "01/01/2018": 38.09016,

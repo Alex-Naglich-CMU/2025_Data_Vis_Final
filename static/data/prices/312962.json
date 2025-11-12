@@ -2,8 +2,8 @@
   "RxCUI": "312962",
   "Name": "SIMVASTATIN 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312962",
-  "Generic_RxCUI": "208220",
+  "Brand_RxCUI": "208220",
+  "Generic_RxCUI": "312962",
   "prices": {
     "16729015615": {
       "05/19/2021": 0.04044,

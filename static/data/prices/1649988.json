@@ -2,8 +2,8 @@
   "RxCUI": "1649988",
   "Name": "DOXYCYCLINE HYCLATE 100 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1649988",
-  "Generic_RxCUI": "1101055",
+  "Brand_RxCUI": "1101055",
+  "Generic_RxCUI": "1649988",
   "prices": {
     "53489011905": {
       "05/19/2021": 0.18004,

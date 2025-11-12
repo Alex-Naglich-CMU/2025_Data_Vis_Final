@@ -2,8 +2,8 @@
   "RxCUI": "213271",
   "Name": "VIAGRA 100 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "314229",
-  "Generic_RxCUI": "213271",
+  "Brand_RxCUI": "213271",
+  "Generic_RxCUI": "314229",
   "prices": {
     "00069422066": {
       "06/01/2017": 59.09829,

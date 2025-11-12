@@ -2,8 +2,8 @@
   "RxCUI": "861448",
   "Name": "CLOBETASOL 0.05% OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "861448",
-  "Generic_RxCUI": "861472",
+  "Brand_RxCUI": "861472",
+  "Generic_RxCUI": "861448",
   "prices": {
     "43386009662": {
       "05/19/2021": 0.45732,

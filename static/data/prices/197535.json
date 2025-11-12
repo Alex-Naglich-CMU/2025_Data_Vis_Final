@@ -2,8 +2,8 @@
   "RxCUI": "197535",
   "Name": "CLOZAPINE 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197535",
-  "Generic_RxCUI": "104776",
+  "Brand_RxCUI": "104776",
+  "Generic_RxCUI": "197535",
   "prices": {
     "51079092220": {
       "05/19/2021": 0.58112,

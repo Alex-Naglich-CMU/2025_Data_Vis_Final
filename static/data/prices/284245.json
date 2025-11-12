@@ -2,8 +2,8 @@
   "RxCUI": "284245",
   "Name": "FAMOTIDINE 40 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "284245",
-  "Generic_RxCUI": "104095",
+  "Brand_RxCUI": "104095",
+  "Generic_RxCUI": "284245",
   "prices": {
     "00172572960": {
       "05/19/2021": 0.09116,

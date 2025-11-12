@@ -2,8 +2,8 @@
   "RxCUI": "966251",
   "Name": "SYNTHROID 200 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "892251",
-  "Generic_RxCUI": "966251",
+  "Brand_RxCUI": "966251",
+  "Generic_RxCUI": "892251",
   "prices": {
     "00074714811": {
       "09/20/2017": 1.08215,

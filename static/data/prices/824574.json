@@ -2,8 +2,8 @@
   "RxCUI": "824574",
   "Name": "SORE THROAT 15-3.6 MG LOZENGE",
   "IsBrand": false,
-  "Brand_RxCUI": "824574",
-  "Generic_RxCUI": "1235477",
+  "Brand_RxCUI": "1235477",
+  "Generic_RxCUI": "824574",
   "prices": {
     "70000055401": {
       "05/19/2021": 0.08963,

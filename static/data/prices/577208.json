@@ -2,8 +2,8 @@
   "RxCUI": "577208",
   "Name": "OMEGA-3 ETHYL ESTERS 1 GM CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "577208",
-  "Generic_RxCUI": "607044",
+  "Brand_RxCUI": "607044",
+  "Generic_RxCUI": "577208",
   "prices": {
     "00904670606": {
       "05/19/2021": 0.17985,

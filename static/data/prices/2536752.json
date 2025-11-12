@@ -2,8 +2,8 @@
   "RxCUI": "2536752",
   "Name": "QELBREE ER 150 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "2536750",
-  "Generic_RxCUI": "2536752",
+  "Brand_RxCUI": "2536752",
+  "Generic_RxCUI": "2536750",
   "prices": {
     "17772013230": {
       "01/01/2023": 10.72156,

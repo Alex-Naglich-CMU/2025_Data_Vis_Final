@@ -2,8 +2,8 @@
   "RxCUI": "197902",
   "Name": "LORAZEPAM 2 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197902",
-  "Generic_RxCUI": "206828",
+  "Brand_RxCUI": "206828",
+  "Generic_RxCUI": "197902",
   "prices": {
     "00591024210": {
       "05/19/2021": 0.07232,

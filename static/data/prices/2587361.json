@@ -2,8 +2,8 @@
   "RxCUI": "2587361",
   "Name": "GVOKE 1 MG/0.2 ML KIT",
   "IsBrand": true,
-  "Brand_RxCUI": "2587358",
-  "Generic_RxCUI": "2587361",
+  "Brand_RxCUI": "2587361",
+  "Generic_RxCUI": "2587358",
   "prices": {
     "72065014011": {
       "07/17/2024": 1519.385,

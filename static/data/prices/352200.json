@@ -2,8 +2,8 @@
   "RxCUI": "352200",
   "Name": "BENICAR 20 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "349401",
-  "Generic_RxCUI": "352200",
+  "Brand_RxCUI": "352200",
+  "Generic_RxCUI": "349401",
   "prices": {
     "00713086130": {
       "09/01/2023": 9.31053,

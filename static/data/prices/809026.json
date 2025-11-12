@@ -2,8 +2,8 @@
   "RxCUI": "809026",
   "Name": "DIOVAN HCT 320-12.5 MG TAB",
   "IsBrand": true,
-  "Brand_RxCUI": "636042",
-  "Generic_RxCUI": "809026",
+  "Brand_RxCUI": "809026",
+  "Generic_RxCUI": "636042",
   "prices": {
     "00078047134": {
       "01/03/2018": 9.15389,

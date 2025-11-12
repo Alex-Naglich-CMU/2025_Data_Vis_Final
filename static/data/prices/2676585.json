@@ -2,8 +2,8 @@
   "RxCUI": "2676585",
   "Name": "CLINDAMYCIN PH 1% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "2676585",
-  "Generic_RxCUI": "804978",
+  "Brand_RxCUI": "804978",
+  "Generic_RxCUI": "2676585",
   "prices": {
     "73473030060": {
       "05/19/2021": 0.85695,

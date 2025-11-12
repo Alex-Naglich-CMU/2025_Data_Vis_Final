@@ -2,8 +2,8 @@
   "RxCUI": "1862102",
   "Name": "AFREZZA 4 UNIT/8 UNIT/12 UNIT",
   "IsBrand": true,
-  "Brand_RxCUI": "1862101",
-  "Generic_RxCUI": "1862102",
+  "Brand_RxCUI": "1862102",
+  "Generic_RxCUI": "1862101",
   "prices": {
     "47918090218": {
       "10/01/2019": 7.54949,

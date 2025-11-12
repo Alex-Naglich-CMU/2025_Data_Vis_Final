@@ -2,8 +2,8 @@
   "RxCUI": "1648183",
   "Name": "METHYLPHENIDATE ER 15 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1648183",
-  "Generic_RxCUI": "1648185",
+  "Brand_RxCUI": "1648185",
+  "Generic_RxCUI": "1648183",
   "prices": {
     "00591386219": {
       "05/22/2024": 3.21642,

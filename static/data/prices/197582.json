@@ -2,8 +2,8 @@
   "RxCUI": "197582",
   "Name": "DEXAMETHASONE 4 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197582",
-  "Generic_RxCUI": "205712",
+  "Brand_RxCUI": "205712",
+  "Generic_RxCUI": "197582",
   "prices": {
     "00054817525": {
       "05/19/2021": 0.58966,

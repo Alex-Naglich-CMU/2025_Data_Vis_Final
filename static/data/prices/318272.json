@@ -2,8 +2,8 @@
   "RxCUI": "318272",
   "Name": "ASPIRIN 81 MG CHEWABLE TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "318272",
-  "Generic_RxCUI": "825180",
+  "Brand_RxCUI": "825180",
+  "Generic_RxCUI": "318272",
   "prices": {
     "70000041901": {
       "05/19/2021": 0.0278,

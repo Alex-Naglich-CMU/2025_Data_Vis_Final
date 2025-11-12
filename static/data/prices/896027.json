@@ -2,8 +2,8 @@
   "RxCUI": "896027",
   "Name": "FLOVENT 250 MCG DISKUS",
   "IsBrand": true,
-  "Brand_RxCUI": "896025",
-  "Generic_RxCUI": "896027",
+  "Brand_RxCUI": "896027",
+  "Generic_RxCUI": "896025",
   "prices": {
     "00173060102": {
       "11/22/2017": 3.66891,

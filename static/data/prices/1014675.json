@@ -2,8 +2,8 @@
   "RxCUI": "1014675",
   "Name": "GNP ALL DAY ALLERGY 10 MG SFGL",
   "IsBrand": false,
-  "Brand_RxCUI": "1014675",
-  "Generic_RxCUI": "1549337",
+  "Brand_RxCUI": "1549337",
+  "Generic_RxCUI": "1014675",
   "prices": {
     "46122061363": {
       "7/20/2022": 0.16008,

@@ -2,8 +2,8 @@
   "RxCUI": "314072",
   "Name": "LATANOPROST 0.005% EYE DROPS",
   "IsBrand": false,
-  "Brand_RxCUI": "314072",
-  "Generic_RxCUI": "2642284",
+  "Brand_RxCUI": "2642284",
+  "Generic_RxCUI": "314072",
   "prices": {
     "64980051625": {
       "05/19/2021": 1.98304,

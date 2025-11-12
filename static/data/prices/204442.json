@@ -2,8 +2,8 @@
   "RxCUI": "204442",
   "Name": "SM INF IBUPROFEN 50 MG/1.25 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "204442",
-  "Generic_RxCUI": "854762",
+  "Brand_RxCUI": "854762",
+  "Generic_RxCUI": "204442",
   "prices": {
     "49348064227": {
       "05/19/2021": 0.18305,

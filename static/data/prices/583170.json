@@ -2,8 +2,8 @@
   "RxCUI": "583170",
   "Name": "SALSALATE 750 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "583170",
-  "Generic_RxCUI": "208059",
+  "Brand_RxCUI": "208059",
+  "Generic_RxCUI": "583170",
   "prices": {
     "65162051310": {
       "07/21/2021": 0.25174,

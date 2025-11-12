@@ -2,8 +2,8 @@
   "RxCUI": "308696",
   "Name": "BENZOYL PEROXIDE 5% WASH",
   "IsBrand": false,
-  "Brand_RxCUI": "308696",
-  "Generic_RxCUI": "992496",
+  "Brand_RxCUI": "992496",
+  "Generic_RxCUI": "308696",
   "prices": {
     "45802028034": {
       "05/19/2021": 0.04574,

@@ -2,8 +2,8 @@
   "RxCUI": "1600695",
   "Name": "AMPHETAMINE SULFATE 10 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1600695",
-  "Generic_RxCUI": "1600698",
+  "Brand_RxCUI": "1600698",
+  "Generic_RxCUI": "1600695",
   "prices": {
     "70010004101": {
       "06/23/2021": 1.06817,

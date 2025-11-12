@@ -2,8 +2,8 @@
   "RxCUI": "1986354",
   "Name": "FIASP 100 UNIT/ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "311040",
-  "Generic_RxCUI": "1986354",
+  "Brand_RxCUI": "1986354",
+  "Generic_RxCUI": "311040",
   "prices": {
     "00169320111": {
       "07/17/2019": 27.66138,

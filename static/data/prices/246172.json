@@ -2,8 +2,8 @@
   "RxCUI": "246172",
   "Name": "CLOBAZAM 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "246172",
-  "Generic_RxCUI": "1191058",
+  "Brand_RxCUI": "1191058",
+  "Generic_RxCUI": "246172",
   "prices": {
     "68180015801": {
       "05/19/2021": 0.59643,

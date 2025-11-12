@@ -2,8 +2,8 @@
   "RxCUI": "1116150",
   "Name": "NEO-BACIT-POLY-HC EYE OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "1116150",
-  "Generic_RxCUI": "1116154",
+  "Brand_RxCUI": "1116154",
+  "Generic_RxCUI": "1116150",
   "prices": {
     "24208078555": {
       "02/19/2020": 14.168,

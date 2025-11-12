@@ -2,8 +2,8 @@
   "RxCUI": "1091167",
   "Name": "RITALIN LA 20 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "1806177",
-  "Generic_RxCUI": "1091167",
+  "Brand_RxCUI": "1091167",
+  "Generic_RxCUI": "1806177",
   "prices": {
     "00078037005": {
       "07/11/2017": 9.28464,

@@ -2,8 +2,8 @@
   "RxCUI": "1049900",
   "Name": "CHLD ALLRGY RLF 12.5 MG CHEW TB",
   "IsBrand": false,
-  "Brand_RxCUI": "1049900",
-  "Generic_RxCUI": "1049901",
+  "Brand_RxCUI": "1049901",
+  "Generic_RxCUI": "1049900",
   "prices": {
     "46122042589": {
       "09/22/2021": 0.1035,

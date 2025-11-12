@@ -2,8 +2,8 @@
   "RxCUI": "848144",
   "Name": "EXFORGE HCT 5-160-12.5 MG TAB",
   "IsBrand": true,
-  "Brand_RxCUI": "848140",
-  "Generic_RxCUI": "848144",
+  "Brand_RxCUI": "848144",
+  "Generic_RxCUI": "848140",
   "prices": {
     "00078055915": {
       "07/11/2017": 7.69457,

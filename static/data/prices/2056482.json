@@ -2,8 +2,8 @@
   "RxCUI": "2056482",
   "Name": "TIROSINT-SOL 100 MCG/ML SOLN",
   "IsBrand": true,
-  "Brand_RxCUI": "2056480",
-  "Generic_RxCUI": "2056482",
+  "Brand_RxCUI": "2056482",
+  "Generic_RxCUI": "2056480",
   "prices": {
     "71858013005": {
       "05/22/2024": 4.37092,

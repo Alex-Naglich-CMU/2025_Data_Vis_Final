@@ -2,8 +2,8 @@
   "RxCUI": "830877",
   "Name": "DILTIAZEM 24H ER(LA) 180 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "830877",
-  "Generic_RxCUI": "1091632",
+  "Brand_RxCUI": "1091632",
+  "Generic_RxCUI": "830877",
   "prices": {
     "68682070590": {
       "05/19/2021": 1.98524,

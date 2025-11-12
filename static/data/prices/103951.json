@@ -2,8 +2,8 @@
   "RxCUI": "103951",
   "Name": "TOLNAFTATE 1% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "103951",
-  "Generic_RxCUI": "2685262",
+  "Brand_RxCUI": "2685262",
+  "Generic_RxCUI": "103951",
   "prices": {
     "51672202002": {
       "05/19/2021": 0.12995,

@@ -2,8 +2,8 @@
   "RxCUI": "197433",
   "Name": "CALCIUM ACETATE 667 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197433",
-  "Generic_RxCUI": "209010",
+  "Brand_RxCUI": "209010",
+  "Generic_RxCUI": "197433",
   "prices": {
     "23155062102": {
       "05/22/2024": 0.40012,

@@ -2,8 +2,8 @@
   "RxCUI": "1723232",
   "Name": "DESMOPRESSIN AC 4 MCG/ML VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "1723232",
-  "Generic_RxCUI": "1723234",
+  "Brand_RxCUI": "1723234",
+  "Generic_RxCUI": "1723232",
   "prices": {
     "25021046001": {
       "05/22/2024": 32.33688,

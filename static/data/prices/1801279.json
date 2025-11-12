@@ -2,8 +2,8 @@
   "RxCUI": "1801279",
   "Name": "CHOLESTYRAMINE LIGHT POWDER",
   "IsBrand": false,
-  "Brand_RxCUI": "1801279",
-  "Generic_RxCUI": "1801280",
+  "Brand_RxCUI": "1801280",
+  "Generic_RxCUI": "1801279",
   "prices": {
     "68382052942": {
       "05/19/2021": 0.21347,

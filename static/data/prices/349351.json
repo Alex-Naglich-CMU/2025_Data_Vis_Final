@@ -2,8 +2,8 @@
   "RxCUI": "349351",
   "Name": "DESONIDE 0.05% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "349351",
-  "Generic_RxCUI": "205529",
+  "Brand_RxCUI": "205529",
+  "Generic_RxCUI": "349351",
   "prices": {
     "70710123503": {
       "05/19/2021": 0.90755,

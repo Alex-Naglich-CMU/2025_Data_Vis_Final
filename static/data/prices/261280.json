@@ -2,8 +2,8 @@
   "RxCUI": "261280",
   "Name": "NEURONTIN 600 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "310433",
-  "Generic_RxCUI": "261280",
+  "Brand_RxCUI": "261280",
+  "Generic_RxCUI": "310433",
   "prices": {
     "00071051324": {
       "06/01/2017": 8.90631,

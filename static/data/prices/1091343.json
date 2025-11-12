@@ -2,8 +2,8 @@
   "RxCUI": "1091343",
   "Name": "METHYLIN 5 MG/5 ML SOLUTION",
   "IsBrand": true,
-  "Brand_RxCUI": "1091341",
-  "Generic_RxCUI": "1091343",
+  "Brand_RxCUI": "1091343",
+  "Generic_RxCUI": "1091341",
   "prices": {
     "59630075050": {
       "01/17/2018": 0.13424,

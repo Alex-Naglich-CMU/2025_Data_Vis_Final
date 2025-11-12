@@ -2,8 +2,8 @@
   "RxCUI": "1012406",
   "Name": "MARCAINE 0.5% VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "1012404",
-  "Generic_RxCUI": "1012406",
+  "Brand_RxCUI": "1012406",
+  "Generic_RxCUI": "1012404",
   "prices": {
     "00409161050": {
       "04/01/2017": 0.08921,

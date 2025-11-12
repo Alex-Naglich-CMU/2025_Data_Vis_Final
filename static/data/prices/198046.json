@@ -2,8 +2,8 @@
   "RxCUI": "198046",
   "Name": "NORTRIPTYLINE HCL 50 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "198046",
-  "Generic_RxCUI": "209350",
+  "Brand_RxCUI": "209350",
+  "Generic_RxCUI": "198046",
   "prices": {
     "51672400302": {
       "05/19/2021": 0.1374,

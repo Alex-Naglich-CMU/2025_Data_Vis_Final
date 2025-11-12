@@ -2,8 +2,8 @@
   "RxCUI": "310982",
   "Name": "IMIQUIMOD 5% CREAM PACKET",
   "IsBrand": false,
-  "Brand_RxCUI": "310982",
-  "Generic_RxCUI": "226734",
+  "Brand_RxCUI": "226734",
+  "Generic_RxCUI": "310982",
   "prices": {
     "68462053670": {
       "05/19/2021": 0.96211,

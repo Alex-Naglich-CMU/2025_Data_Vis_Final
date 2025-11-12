@@ -2,8 +2,8 @@
   "RxCUI": "226552",
   "Name": "SCOPOLAMINE 1 MG/3 DAY PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "226552",
-  "Generic_RxCUI": "351875",
+  "Brand_RxCUI": "351875",
+  "Generic_RxCUI": "226552",
   "prices": {
     "50742050524": {
       "05/19/2021": 13.94639,

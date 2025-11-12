@@ -2,8 +2,8 @@
   "RxCUI": "314228",
   "Name": "SILDENAFIL 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "314228",
-  "Generic_RxCUI": "213269",
+  "Brand_RxCUI": "213269",
+  "Generic_RxCUI": "314228",
   "prices": {
     "60219175103": {
       "05/19/2021": 0.24983,

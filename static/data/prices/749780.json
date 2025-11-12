@@ -2,8 +2,8 @@
   "RxCUI": "749780",
   "Name": "AZITHROMYCIN 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "749780",
-  "Generic_RxCUI": "750157",
+  "Brand_RxCUI": "750157",
+  "Generic_RxCUI": "749780",
   "prices": {
     "51224012209": {
       "05/19/2021": 1.01495,

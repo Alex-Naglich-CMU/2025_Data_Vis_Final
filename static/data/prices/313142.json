@@ -2,8 +2,8 @@
   "RxCUI": "313142",
   "Name": "SULFASALAZINE DR 500 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "313142",
-  "Generic_RxCUI": "724154",
+  "Brand_RxCUI": "724154",
+  "Generic_RxCUI": "313142",
   "prices": {
     "59762010405": {
       "05/19/2021": 0.23067,

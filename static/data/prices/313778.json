@@ -2,8 +2,8 @@
   "RxCUI": "313778",
   "Name": "ZIPRASIDONE HCL 80 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "313778",
-  "Generic_RxCUI": "284550",
+  "Brand_RxCUI": "284550",
+  "Generic_RxCUI": "313778",
   "prices": {
     "00904627208": {
       "05/19/2021": 0.49493,

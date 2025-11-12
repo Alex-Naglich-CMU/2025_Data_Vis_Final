@@ -2,8 +2,8 @@
   "RxCUI": "1243026",
   "Name": "JENTADUETO 2.5 MG-1,000 MG TAB",
   "IsBrand": true,
-  "Brand_RxCUI": "1243020",
-  "Generic_RxCUI": "1243026",
+  "Brand_RxCUI": "1243026",
+  "Generic_RxCUI": "1243020",
   "prices": {
     "00597014818": {
       "01/03/2018": 6.59523,

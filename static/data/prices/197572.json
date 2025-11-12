@@ -2,8 +2,8 @@
   "RxCUI": "197572",
   "Name": "DESONIDE 0.05% LOTION",
   "IsBrand": false,
-  "Brand_RxCUI": "197572",
-  "Generic_RxCUI": "205534",
+  "Brand_RxCUI": "205534",
+  "Generic_RxCUI": "197572",
   "prices": {
     "68462051339": {
       "05/19/2021": 1.55547,

@@ -2,8 +2,8 @@
   "RxCUI": "197698",
   "Name": "FLUCONAZOLE 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197698",
-  "Generic_RxCUI": "207107",
+  "Brand_RxCUI": "207107",
+  "Generic_RxCUI": "197698",
   "prices": {
     "55111014430": {
       "05/19/2021": 0.4346,

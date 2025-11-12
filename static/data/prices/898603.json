@@ -2,8 +2,8 @@
   "RxCUI": "898603",
   "Name": "SANDOSTATIN LAR DEPOT 30 MG KT",
   "IsBrand": true,
-  "Brand_RxCUI": "898601",
-  "Generic_RxCUI": "898603",
+  "Brand_RxCUI": "898603",
+  "Generic_RxCUI": "898601",
   "prices": {
     "00078082581": {
       "09/17/2025": 6674.88167

@@ -2,8 +2,8 @@
   "RxCUI": "664981",
   "Name": "VITAMIN A AND D OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "664981",
-  "Generic_RxCUI": "705895",
+  "Brand_RxCUI": "705895",
+  "Generic_RxCUI": "664981",
   "prices": {
     "70000035801": {
       "07/21/2021": 0.01183,

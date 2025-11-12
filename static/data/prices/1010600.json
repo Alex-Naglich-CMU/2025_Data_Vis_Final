@@ -2,8 +2,8 @@
   "RxCUI": "1010600",
   "Name": "BUPRENORPHINE-NALOXONE 2-0.5 MG SL FILM",
   "IsBrand": false,
-  "Brand_RxCUI": "1010600",
-  "Generic_RxCUI": "1010603",
+  "Brand_RxCUI": "1010603",
+  "Generic_RxCUI": "1010600",
   "prices": {
     "52427069203": {
       "05/19/2021": 2.59705,

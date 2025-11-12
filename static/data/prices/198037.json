@@ -2,8 +2,8 @@
   "RxCUI": "198037",
   "Name": "NIMODIPINE 30 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "198037",
-  "Generic_RxCUI": "207779",
+  "Brand_RxCUI": "207779",
+  "Generic_RxCUI": "198037",
   "prices": {
     "23155051200": {
       "04/17/2024": 1.07818,

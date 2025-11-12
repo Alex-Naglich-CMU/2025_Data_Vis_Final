@@ -2,8 +2,8 @@
   "RxCUI": "999826",
   "Name": "INTEGRA F CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "999823",
-  "Generic_RxCUI": "999826",
+  "Brand_RxCUI": "999826",
+  "Generic_RxCUI": "999823",
   "prices": {
     "52747071160": {
       "07/19/2017": 0.48957,

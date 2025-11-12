@@ -2,8 +2,8 @@
   "RxCUI": "1307061",
   "Name": "BUPRENORPHINE-NALOXONE 12-3 MG SL FILM",
   "IsBrand": false,
-  "Brand_RxCUI": "1307061",
-  "Generic_RxCUI": "1307063",
+  "Brand_RxCUI": "1307063",
+  "Generic_RxCUI": "1307061",
   "prices": {
     "47781035803": {
       "05/19/2021": 7.64574,

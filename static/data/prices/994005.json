@@ -2,8 +2,8 @@
   "RxCUI": "994005",
   "Name": "NAPROXEN-ESOMEPRAZ DR 375-20 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "994005",
-  "Generic_RxCUI": "994007",
+  "Brand_RxCUI": "994007",
+  "Generic_RxCUI": "994005",
   "prices": {
     "27241020260": {
       "05/22/2024": 5.25826,

@@ -2,8 +2,8 @@
   "RxCUI": "999961",
   "Name": "GLYCOPYRROLATE 1 MG/5 ML ORAL SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "999961",
-  "Generic_RxCUI": "999965",
+  "Brand_RxCUI": "999965",
+  "Generic_RxCUI": "999961",
   "prices": {
     "31722001647": {
       "12/21/2022": 0.5497,

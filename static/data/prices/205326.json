@@ -2,8 +2,8 @@
   "RxCUI": "205326",
   "Name": "LISINOPRIL 30 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "205326",
-  "Generic_RxCUI": "213482",
+  "Brand_RxCUI": "213482",
+  "Generic_RxCUI": "205326",
   "prices": {
     "43547041810": {
       "05/19/2021": 0.06379,

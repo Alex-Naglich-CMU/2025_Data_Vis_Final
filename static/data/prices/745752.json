@@ -2,8 +2,8 @@
   "RxCUI": "745752",
   "Name": "PROAIR HFA 90 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "2123072",
-  "Generic_RxCUI": "745752",
+  "Brand_RxCUI": "745752",
+  "Generic_RxCUI": "2123072",
   "prices": {
     "59310057922": {
       "06/01/2021": 7.99037,

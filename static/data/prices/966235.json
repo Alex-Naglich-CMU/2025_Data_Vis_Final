@@ -2,8 +2,8 @@
   "RxCUI": "966235",
   "Name": "UNITHROID 112 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "966248",
-  "Generic_RxCUI": "966235",
+  "Brand_RxCUI": "966235",
+  "Generic_RxCUI": "966248",
   "prices": {
     "60846080601": {
       "02/01/2020": 2.96256,

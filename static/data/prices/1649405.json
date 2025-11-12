@@ -2,8 +2,8 @@
   "RxCUI": "1649405",
   "Name": "DOXYCYCLINE HYCLATE 50 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1649405",
-  "Generic_RxCUI": "1798276",
+  "Brand_RxCUI": "1798276",
+  "Generic_RxCUI": "1649405",
   "prices": {
     "62135098450": {
       "05/19/2021": 0.30524,

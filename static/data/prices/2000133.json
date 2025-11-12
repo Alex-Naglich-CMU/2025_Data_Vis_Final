@@ -2,8 +2,8 @@
   "RxCUI": "2000133",
   "Name": "FIRVANQ 25 MG/ML SOLUTION",
   "IsBrand": true,
-  "Brand_RxCUI": "2000127",
-  "Generic_RxCUI": "2000133",
+  "Brand_RxCUI": "2000133",
+  "Generic_RxCUI": "2000127",
   "prices": {
     "65628020510": {
       "07/01/2021": 0.4709,

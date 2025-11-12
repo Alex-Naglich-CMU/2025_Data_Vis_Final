@@ -2,8 +2,8 @@
   "RxCUI": "199245",
   "Name": "GLIMEPIRIDE 1 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199245",
-  "Generic_RxCUI": "153843",
+  "Brand_RxCUI": "153843",
+  "Generic_RxCUI": "199245",
   "prices": {
     "55111032001": {
       "05/19/2021": 0.04403,

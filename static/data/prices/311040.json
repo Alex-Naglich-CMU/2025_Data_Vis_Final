@@ -2,8 +2,8 @@
   "RxCUI": "311040",
   "Name": "INSULIN ASPART 100 UNIT/ML VL",
   "IsBrand": false,
-  "Brand_RxCUI": "311040",
-  "Generic_RxCUI": "1986354",
+  "Brand_RxCUI": "1986354",
+  "Generic_RxCUI": "311040",
   "prices": {
     "73070010011": {
       "05/19/2021": 13.86411,

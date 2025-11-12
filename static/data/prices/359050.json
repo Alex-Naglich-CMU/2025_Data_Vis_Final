@@ -2,8 +2,8 @@
   "RxCUI": "359050",
   "Name": "TRETINOIN GEL MICRO 0.04% TUBE",
   "IsBrand": false,
-  "Brand_RxCUI": "359050",
-  "Generic_RxCUI": "805370",
+  "Brand_RxCUI": "805370",
+  "Generic_RxCUI": "359050",
   "prices": {
     "66530025920": {
       "06/21/2017": 11.71708

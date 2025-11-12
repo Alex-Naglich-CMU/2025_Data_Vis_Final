@@ -2,8 +2,8 @@
   "RxCUI": "2599060",
   "Name": "TLANDO 112.5 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "2599054",
-  "Generic_RxCUI": "2599060",
+  "Brand_RxCUI": "2599060",
+  "Generic_RxCUI": "2599054",
   "prices": {
     "54436011220": {
       "05/22/2024": 5.93324,

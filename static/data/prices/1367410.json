@@ -2,8 +2,8 @@
   "RxCUI": "1367410",
   "Name": "VITAMIN D2 1.25 MG(50,000 UNIT)",
   "IsBrand": false,
-  "Brand_RxCUI": "1367410",
-  "Generic_RxCUI": "1367416",
+  "Brand_RxCUI": "1367416",
+  "Generic_RxCUI": "1367410",
   "prices": {
     "57664013688": {
       "05/19/2021": 0.15307,

@@ -2,8 +2,8 @@
   "RxCUI": "314211",
   "Name": "RISPERIDONE 4 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "314211",
-  "Generic_RxCUI": "104784",
+  "Brand_RxCUI": "104784",
+  "Generic_RxCUI": "314211",
   "prices": {
     "68382011705": {
       "05/19/2021": 0.10047,

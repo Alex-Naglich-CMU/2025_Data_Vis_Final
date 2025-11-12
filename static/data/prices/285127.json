@@ -2,8 +2,8 @@
   "RxCUI": "285127",
   "Name": "GEODON 20 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "314286",
-  "Generic_RxCUI": "285127",
+  "Brand_RxCUI": "285127",
+  "Generic_RxCUI": "314286",
   "prices": {
     "00049396041": {
       "06/01/2017": 17.26058

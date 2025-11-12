@@ -2,8 +2,8 @@
   "RxCUI": "198857",
   "Name": "HM INF GAS RELIEF 20 MG/0.3 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "198857",
-  "Generic_RxCUI": "809376",
+  "Brand_RxCUI": "809376",
+  "Generic_RxCUI": "198857",
   "prices": {
     "62011018701": {
       "05/19/2021": 0.10834,

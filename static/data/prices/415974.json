@@ -2,8 +2,8 @@
   "RxCUI": "415974",
   "Name": "COOLING PAIN RELIEF 4% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "415974",
-  "Generic_RxCUI": "1111683",
+  "Brand_RxCUI": "1111683",
+  "Generic_RxCUI": "415974",
   "prices": {
     "70000061701": {
       "06/19/2024": 0.07107,

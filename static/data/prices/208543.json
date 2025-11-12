@@ -2,8 +2,8 @@
   "RxCUI": "208543",
   "Name": "ARMOUR THYROID 90 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "313393",
-  "Generic_RxCUI": "208543",
+  "Brand_RxCUI": "208543",
+  "Generic_RxCUI": "313393",
   "prices": {
     "00456046001": {
       "11/22/2017": 1.04982,

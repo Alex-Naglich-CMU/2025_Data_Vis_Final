@@ -2,8 +2,8 @@
   "RxCUI": "392038",
   "Name": "SODIUM FLUORIDE 5000 PPM CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "392038",
-  "Generic_RxCUI": "2603773",
+  "Brand_RxCUI": "2603773",
+  "Generic_RxCUI": "392038",
   "prices": {
     "35573043451": {
       "05/19/2021": 0.09779,

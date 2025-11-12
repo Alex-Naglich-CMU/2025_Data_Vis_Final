@@ -2,8 +2,8 @@
   "RxCUI": "722131",
   "Name": "AMLODIPINE-VALSARTAN 10-320 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "722131",
-  "Generic_RxCUI": "724887",
+  "Brand_RxCUI": "724887",
+  "Generic_RxCUI": "722131",
   "prices": {
     "62332020890": {
       "05/19/2021": 0.61706,

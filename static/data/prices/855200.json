@@ -2,8 +2,8 @@
   "RxCUI": "855200",
   "Name": "GANIRELIX ACET 250 MCG/0.5 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "855200",
-  "Generic_RxCUI": "2587594",
+  "Brand_RxCUI": "2587594",
+  "Generic_RxCUI": "855200",
   "prices": {
     "00548500100": {
       "09/18/2024": 97.9725,

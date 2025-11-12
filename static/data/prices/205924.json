@@ -2,8 +2,8 @@
   "RxCUI": "205924",
   "Name": "PROCRIT 4,000 UNITS/ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "239999",
-  "Generic_RxCUI": "205924",
+  "Brand_RxCUI": "205924",
+  "Generic_RxCUI": "239999",
   "prices": {
     "59676030401": {
       "01/03/2018": 100.94067,

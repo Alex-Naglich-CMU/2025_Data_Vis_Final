@@ -2,8 +2,8 @@
   "RxCUI": "864675",
   "Name": "ATOVAQUONE-PROGUANIL 250-100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "864675",
-  "Generic_RxCUI": "864679",
+  "Brand_RxCUI": "864679",
+  "Generic_RxCUI": "864675",
   "prices": {
     "68462040467": {
       "05/19/2021": 2.41725,

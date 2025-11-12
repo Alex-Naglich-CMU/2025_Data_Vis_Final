@@ -2,8 +2,8 @@
   "RxCUI": "283219",
   "Name": "LICE KILLING SHAMPOO",
   "IsBrand": false,
-  "Brand_RxCUI": "283219",
-  "Generic_RxCUI": "864131",
+  "Brand_RxCUI": "864131",
+  "Generic_RxCUI": "283219",
   "prices": {
     "00904252820": {
       "05/19/2021": 0.03527,

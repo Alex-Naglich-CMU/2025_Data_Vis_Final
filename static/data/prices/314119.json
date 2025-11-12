@@ -2,8 +2,8 @@
   "RxCUI": "314119",
   "Name": "GS NICOTINE 2 MG CHEWING GUM",
   "IsBrand": false,
-  "Brand_RxCUI": "314119",
-  "Generic_RxCUI": "1011870",
+  "Brand_RxCUI": "1011870",
+  "Generic_RxCUI": "314119",
   "prices": {
     "00113002960": {
       "05/19/2021": 0.2154,

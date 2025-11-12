@@ -2,8 +2,8 @@
   "RxCUI": "1013665",
   "Name": "MINOCYCLINE ER 80 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1013665",
-  "Generic_RxCUI": "1014024",
+  "Brand_RxCUI": "1014024",
+  "Generic_RxCUI": "1013665",
   "prices": {
     "00378429393": {
       "04/22/2020": 3.42513

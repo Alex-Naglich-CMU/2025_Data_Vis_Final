@@ -2,8 +2,8 @@
   "RxCUI": "253017",
   "Name": "GS MILK OF MAGNESIA SUSPENSION",
   "IsBrand": false,
-  "Brand_RxCUI": "253017",
-  "Generic_RxCUI": "210887",
+  "Brand_RxCUI": "210887",
+  "Generic_RxCUI": "253017",
   "prices": {
     "00113033240": {
       "05/19/2021": 0.00644,

@@ -2,8 +2,8 @@
   "RxCUI": "197381",
   "Name": "ATENOLOL 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197381",
-  "Generic_RxCUI": "152414",
+  "Brand_RxCUI": "152414",
+  "Generic_RxCUI": "197381",
   "prices": {
     "00378023110": {
       "05/19/2021": 0.03174,

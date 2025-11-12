@@ -2,8 +2,8 @@
   "RxCUI": "861027",
   "Name": "RIOMET 500 MG/5 ML SOLUTION",
   "IsBrand": true,
-  "Brand_RxCUI": "861025",
-  "Generic_RxCUI": "861027",
+  "Brand_RxCUI": "861027",
+  "Generic_RxCUI": "861025",
   "prices": {
     "10631020602": {
       "09/20/2017": 1.24162,

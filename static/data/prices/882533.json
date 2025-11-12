@@ -2,8 +2,8 @@
   "RxCUI": "882533",
   "Name": "CLEOCIN 100 MG VAGINAL OVULE",
   "IsBrand": true,
-  "Brand_RxCUI": "259233",
-  "Generic_RxCUI": "882533",
+  "Brand_RxCUI": "882533",
+  "Generic_RxCUI": "259233",
   "prices": {
     "00009766701": {
       "06/01/2017": 51.47059,

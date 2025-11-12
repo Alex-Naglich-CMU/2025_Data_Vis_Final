@@ -2,8 +2,8 @@
   "RxCUI": "309337",
   "Name": "CLINDAMYCIN 2% VAGINAL CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "309337",
-  "Generic_RxCUI": "882536",
+  "Brand_RxCUI": "882536",
+  "Generic_RxCUI": "309337",
   "prices": {
     "59762500901": {
       "05/19/2021": 1.86614,

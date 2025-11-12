@@ -2,8 +2,8 @@
   "RxCUI": "2166797",
   "Name": "PROAIR DIGIHALER 90 MCG INHALR",
   "IsBrand": true,
-  "Brand_RxCUI": "2166796",
-  "Generic_RxCUI": "2166797",
+  "Brand_RxCUI": "2166797",
+  "Generic_RxCUI": "2166796",
   "prices": {
     "59310011720": {
       "1/1/2022": 148.84125,

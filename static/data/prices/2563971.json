@@ -2,8 +2,8 @@
   "RxCUI": "2563971",
   "Name": "INSULIN GLARGINE-YFGN U100 PEN",
   "IsBrand": false,
-  "Brand_RxCUI": "2563971",
-  "Generic_RxCUI": "2563973",
+  "Brand_RxCUI": "2563973",
+  "Generic_RxCUI": "2563971",
   "prices": {
     "49502039475": {
       "3/23/2022": 9.48988,

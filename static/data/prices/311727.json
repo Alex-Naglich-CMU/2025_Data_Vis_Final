@@ -2,8 +2,8 @@
   "RxCUI": "311727",
   "Name": "MISOPROSTOL 100 MCG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311727",
-  "Generic_RxCUI": "209177",
+  "Brand_RxCUI": "209177",
+  "Generic_RxCUI": "311727",
   "prices": {
     "68084004011": {
       "05/19/2021": 0.47536,

@@ -2,8 +2,8 @@
   "RxCUI": "860105",
   "Name": "ACULAR LS 0.4% OPHTH SOL",
   "IsBrand": true,
-  "Brand_RxCUI": "860103",
-  "Generic_RxCUI": "860105",
+  "Brand_RxCUI": "860105",
+  "Generic_RxCUI": "860103",
   "prices": {
     "00023927705": {
       "01/01/2018": 52.03202

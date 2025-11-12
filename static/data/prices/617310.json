@@ -2,8 +2,8 @@
   "RxCUI": "617310",
   "Name": "ATORVASTATIN 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "617310",
-  "Generic_RxCUI": "617318",
+  "Brand_RxCUI": "617318",
+  "Generic_RxCUI": "617310",
   "prices": {
     "51079020901": {
       "05/19/2021": 0.05859,

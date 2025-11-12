@@ -2,8 +2,8 @@
   "RxCUI": "992656",
   "Name": "HYDROCODONE-HOMATROPINE 5-1.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "992656",
-  "Generic_RxCUI": "992733",
+  "Brand_RxCUI": "992733",
+  "Generic_RxCUI": "992656",
   "prices": {
     "43386011803": {
       "05/19/2021": 0.81861,

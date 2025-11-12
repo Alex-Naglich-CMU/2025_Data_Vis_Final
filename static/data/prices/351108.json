@@ -2,8 +2,8 @@
   "RxCUI": "351108",
   "Name": "OLANZAPINE ODT 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "351108",
-  "Generic_RxCUI": "754505",
+  "Brand_RxCUI": "754505",
+  "Generic_RxCUI": "351108",
   "prices": {
     "59746030932": {
       "05/19/2021": 0.90431,

@@ -2,8 +2,8 @@
   "RxCUI": "213744",
   "Name": "BCG (TICE STRAIN) VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "1653484",
-  "Generic_RxCUI": "213744",
+  "Brand_RxCUI": "213744",
+  "Generic_RxCUI": "1653484",
   "prices": {
     "00052060201": {
       "09/26/2024": 163.36291,

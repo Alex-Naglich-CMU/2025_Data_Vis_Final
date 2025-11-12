@@ -2,8 +2,8 @@
   "RxCUI": "730780",
   "Name": "SODIUM CHLORIDE 5% EYE DROP",
   "IsBrand": false,
-  "Brand_RxCUI": "730780",
-  "Generic_RxCUI": "750139",
+  "Brand_RxCUI": "750139",
+  "Generic_RxCUI": "730780",
   "prices": {
     "17478062312": {
       "05/19/2021": 0.55735,

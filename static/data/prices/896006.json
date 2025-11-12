@@ -2,8 +2,8 @@
   "RxCUI": "896006",
   "Name": "FLOVENT HFA 220 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "896004",
-  "Generic_RxCUI": "896006",
+  "Brand_RxCUI": "896006",
+  "Generic_RxCUI": "896004",
   "prices": {
     "00173072020": {
       "11/22/2017": 28.47385,

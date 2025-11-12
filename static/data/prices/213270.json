@@ -2,8 +2,8 @@
   "RxCUI": "213270",
   "Name": "VIAGRA 50 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "312950",
-  "Generic_RxCUI": "213270",
+  "Brand_RxCUI": "213270",
+  "Generic_RxCUI": "312950",
   "prices": {
     "00069421033": {
       "06/01/2017": 58.73338,

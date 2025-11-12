@@ -2,8 +2,8 @@
   "RxCUI": "106310",
   "Name": "ACNE MEDICATION 10% LOTION",
   "IsBrand": false,
-  "Brand_RxCUI": "106310",
-  "Generic_RxCUI": "405903",
+  "Brand_RxCUI": "405903",
+  "Generic_RxCUI": "106310",
   "prices": {
     "00536105875": {
       "07/19/2017": 0.07848,

@@ -2,8 +2,8 @@
   "RxCUI": "197732",
   "Name": "FUROSEMIDE 80 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197732",
-  "Generic_RxCUI": "205732",
+  "Brand_RxCUI": "205732",
+  "Generic_RxCUI": "197732",
   "prices": {
     "69315011801": {
       "05/19/2021": 0.06234,

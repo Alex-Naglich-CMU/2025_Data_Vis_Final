@@ -2,8 +2,8 @@
   "RxCUI": "1245277",
   "Name": "AEROSPAN 80 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "1245276",
-  "Generic_RxCUI": "1245277",
+  "Brand_RxCUI": "1245277",
+  "Generic_RxCUI": "1245276",
   "prices": {
     "00037759012": {
       "01/17/2018": 21.05609

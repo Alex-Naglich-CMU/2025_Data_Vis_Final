@@ -2,8 +2,8 @@
   "RxCUI": "692578",
   "Name": "ESOMEPRAZOLE DR 40 MG PACKET",
   "IsBrand": false,
-  "Brand_RxCUI": "692578",
-  "Generic_RxCUI": "861583",
+  "Brand_RxCUI": "861583",
+  "Generic_RxCUI": "692578",
   "prices": {
     "69097052934": {
       "11/17/2021": 7.06722,

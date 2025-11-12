@@ -2,8 +2,8 @@
   "RxCUI": "1797913",
   "Name": "HM 24HR NASAL ALLERGY 55 MCG",
   "IsBrand": false,
-  "Brand_RxCUI": "1797913",
-  "Generic_RxCUI": "2289243",
+  "Brand_RxCUI": "2289243",
+  "Generic_RxCUI": "1797913",
   "prices": {
     "62011032001": {
       "05/19/2021": 0.72678,

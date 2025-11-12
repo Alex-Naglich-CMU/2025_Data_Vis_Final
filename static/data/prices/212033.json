@@ -2,8 +2,8 @@
   "RxCUI": "212033",
   "Name": "ASPIRIN 325 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "212033",
-  "Generic_RxCUI": "260847",
+  "Brand_RxCUI": "260847",
+  "Generic_RxCUI": "212033",
   "prices": {
     "51645071601": {
       "05/19/2021": 0.00914,

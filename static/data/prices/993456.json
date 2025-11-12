@@ -2,8 +2,8 @@
   "RxCUI": "993456",
   "Name": "PROLIA 60 MG/ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "993452",
-  "Generic_RxCUI": "993456",
+  "Brand_RxCUI": "993456",
+  "Generic_RxCUI": "993452",
   "prices": {
     "55513071001": {
       "07/20/2017": 1089.62092,

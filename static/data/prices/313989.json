@@ -2,8 +2,8 @@
   "RxCUI": "313989",
   "Name": "FLUOXETINE HCL 40 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "313989",
-  "Generic_RxCUI": "261287",
+  "Brand_RxCUI": "261287",
+  "Generic_RxCUI": "313989",
   "prices": {
     "63304063230": {
       "05/19/2021": 0.07239,

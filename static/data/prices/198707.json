@@ -2,8 +2,8 @@
   "RxCUI": "198707",
   "Name": "HYDROCORTISONE 0.5% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "198707",
-  "Generic_RxCUI": "211591",
+  "Brand_RxCUI": "211591",
+  "Generic_RxCUI": "198707",
   "prices": {
     "51672201002": {
       "05/19/2021": 0.10929,

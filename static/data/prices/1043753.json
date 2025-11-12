@@ -2,8 +2,8 @@
   "RxCUI": "1043753",
   "Name": "AZELEX 20% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "1041520",
-  "Generic_RxCUI": "1043753",
+  "Brand_RxCUI": "1043753",
+  "Generic_RxCUI": "1041520",
   "prices": {
     "00023869430": {
       "12/20/2017": 12.053,

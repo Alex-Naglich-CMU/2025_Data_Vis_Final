@@ -2,8 +2,8 @@
   "RxCUI": "1091150",
   "Name": "METHYLPHENIDATE 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1091150",
-  "Generic_RxCUI": "1091379",
+  "Brand_RxCUI": "1091379",
+  "Generic_RxCUI": "1091150",
   "prices": {
     "68084082311": {
       "05/19/2021": 0.18708,

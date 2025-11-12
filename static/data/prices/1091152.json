@@ -2,8 +2,8 @@
   "RxCUI": "1091152",
   "Name": "METHYLPHENIDATE 10 MG CHEW TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1091152",
-  "Generic_RxCUI": "1091153",
+  "Brand_RxCUI": "1091153",
+  "Generic_RxCUI": "1091152",
   "prices": {
     "43386057201": {
       "11/18/2020": 3.69564,

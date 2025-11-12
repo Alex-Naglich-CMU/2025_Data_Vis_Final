@@ -2,8 +2,8 @@
   "RxCUI": "1426600",
   "Name": "NORETH-EE-FE 1-0.02(24)-75 CHW",
   "IsBrand": false,
-  "Brand_RxCUI": "1426600",
-  "Generic_RxCUI": "2608695",
+  "Brand_RxCUI": "2608695",
+  "Generic_RxCUI": "1426600",
   "prices": {
     "52544005841": {
       "05/19/2021": 0.68254,

@@ -2,8 +2,8 @@
   "RxCUI": "349332",
   "Name": "ESCITALOPRAM 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "349332",
-  "Generic_RxCUI": "352272",
+  "Brand_RxCUI": "352272",
+  "Generic_RxCUI": "349332",
   "prices": {
     "43547028111": {
       "05/19/2021": 0.05538,

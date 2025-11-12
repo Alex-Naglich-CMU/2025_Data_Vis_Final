@@ -2,8 +2,8 @@
   "RxCUI": "1094357",
   "Name": "SM URINARY PAIN REL 97.5 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "1094357",
-  "Generic_RxCUI": "1601553",
+  "Brand_RxCUI": "1601553",
+  "Generic_RxCUI": "1094357",
   "prices": {
     "49348094102": {
       "10/18/2017": 0.15225,

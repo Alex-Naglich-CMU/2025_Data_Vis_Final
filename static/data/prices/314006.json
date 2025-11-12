@@ -2,8 +2,8 @@
   "RxCUI": "314006",
   "Name": "GLIPIZIDE ER 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "314006",
-  "Generic_RxCUI": "865573",
+  "Brand_RxCUI": "865573",
+  "Generic_RxCUI": "314006",
   "prices": {
     "64980028010": {
       "05/19/2021": 0.12296,

@@ -2,8 +2,8 @@
   "RxCUI": "1088936",
   "Name": "CHLORZOXAZONE 750 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1088936",
-  "Generic_RxCUI": "1189100",
+  "Brand_RxCUI": "1189100",
+  "Generic_RxCUI": "1088936",
   "prices": {
     "00254200501": {
       "04/17/2024": 2.47386,

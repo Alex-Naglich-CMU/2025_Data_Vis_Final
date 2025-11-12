@@ -2,8 +2,8 @@
   "RxCUI": "665022",
   "Name": "NOXAFIL 40 MG/ML SUSPENSION",
   "IsBrand": true,
-  "Brand_RxCUI": "665019",
-  "Generic_RxCUI": "665022",
+  "Brand_RxCUI": "665022",
+  "Generic_RxCUI": "665019",
   "prices": {
     "00085132801": {
       "01/05/2018": 12.73321,

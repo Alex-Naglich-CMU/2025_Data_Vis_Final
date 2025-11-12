@@ -2,8 +2,8 @@
   "RxCUI": "799037",
   "Name": "ALVESCO 160 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "799034",
-  "Generic_RxCUI": "799037",
+  "Brand_RxCUI": "799037",
+  "Generic_RxCUI": "799034",
   "prices": {
     "63402071201": {
       "12/27/2017": 39.69433,

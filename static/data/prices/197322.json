@@ -2,8 +2,8 @@
   "RxCUI": "197322",
   "Name": "ALPRAZOLAM 2 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197322",
-  "Generic_RxCUI": "214004",
+  "Brand_RxCUI": "214004",
+  "Generic_RxCUI": "197322",
   "prices": {
     "00781108905": {
       "05/19/2021": 0.05812,

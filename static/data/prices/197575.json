@@ -2,8 +2,8 @@
   "RxCUI": "197575",
   "Name": "DESOXIMETASONE 0.25% OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "197575",
-  "Generic_RxCUI": "94348",
+  "Brand_RxCUI": "94348",
+  "Generic_RxCUI": "197575",
   "prices": {
     "51672126203": {
       "05/19/2021": 0.48319,

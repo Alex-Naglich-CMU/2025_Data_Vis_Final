@@ -2,8 +2,8 @@
   "RxCUI": "200132",
   "Name": "ACARBOSE 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200132",
-  "Generic_RxCUI": "213170",
+  "Brand_RxCUI": "213170",
+  "Generic_RxCUI": "200132",
   "prices": {
     "64380075806": {
       "05/19/2021": 0.19395,

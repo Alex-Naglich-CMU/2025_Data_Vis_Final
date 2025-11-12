@@ -2,8 +2,8 @@
   "RxCUI": "854850",
   "Name": "LISDEXAMFETAMINE 50 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "854850",
-  "Generic_RxCUI": "854852",
+  "Brand_RxCUI": "854852",
+  "Generic_RxCUI": "854850",
   "prices": {
     "00054037325": {
       "11/01/2023": 4.07636,

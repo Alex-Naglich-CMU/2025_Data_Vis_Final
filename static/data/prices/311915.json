@@ -2,8 +2,8 @@
   "RxCUI": "311915",
   "Name": "NAPROXEN DR 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311915",
-  "Generic_RxCUI": "835560",
+  "Brand_RxCUI": "835560",
+  "Generic_RxCUI": "311915",
   "prices": {
     "00093100601": {
       "05/19/2021": 3.44503,

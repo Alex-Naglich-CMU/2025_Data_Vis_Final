@@ -2,8 +2,8 @@
   "RxCUI": "206791",
   "Name": "PENTASA 250 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "314092",
-  "Generic_RxCUI": "206791",
+  "Brand_RxCUI": "206791",
+  "Generic_RxCUI": "314092",
   "prices": {
     "54092018981": {
       "06/02/2017": 2.67226,

@@ -2,8 +2,8 @@
   "RxCUI": "1923047",
   "Name": "LEVOTHYROXINE 175 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "1923047",
-  "Generic_RxCUI": "1923049",
+  "Brand_RxCUI": "1923049",
+  "Generic_RxCUI": "1923047",
   "prices": {
     "00527496132": {
       "05/22/2024": 2.45047,

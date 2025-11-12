@@ -2,8 +2,8 @@
   "RxCUI": "211140",
   "Name": "ELMIRON 100 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "199498",
-  "Generic_RxCUI": "211140",
+  "Brand_RxCUI": "211140",
+  "Generic_RxCUI": "199498",
   "prices": {
     "50458009801": {
       "01/03/2018": 8.53476,

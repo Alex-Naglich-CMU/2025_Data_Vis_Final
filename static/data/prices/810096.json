@@ -2,8 +2,8 @@
   "RxCUI": "810096",
   "Name": "LEVONOR-E ESTRAD 0.1-0.02-0.01",
   "IsBrand": false,
-  "Brand_RxCUI": "810096",
-  "Generic_RxCUI": "2117770",
+  "Brand_RxCUI": "2117770",
+  "Generic_RxCUI": "810096",
   "prices": {
     "00378728485": {
       "05/19/2021": 0.31704,

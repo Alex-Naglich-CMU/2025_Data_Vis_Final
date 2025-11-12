@@ -2,8 +2,8 @@
   "RxCUI": "864706",
   "Name": "METHADONE HCL 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "864706",
-  "Generic_RxCUI": "864708",
+  "Brand_RxCUI": "864708",
+  "Generic_RxCUI": "864706",
   "prices": {
     "68084073811": {
       "05/19/2021": 0.09731,

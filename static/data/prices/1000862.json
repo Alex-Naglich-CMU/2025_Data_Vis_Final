@@ -2,8 +2,8 @@
   "RxCUI": "1000862",
   "Name": "PILOCARPINE 2% EYE DROPS",
   "IsBrand": false,
-  "Brand_RxCUI": "1000862",
-  "Generic_RxCUI": "1000876",
+  "Brand_RxCUI": "1000876",
+  "Generic_RxCUI": "1000862",
   "prices": {
     "61314020415": {
       "05/19/2021": 4.11173,

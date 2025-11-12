@@ -2,8 +2,8 @@
   "RxCUI": "857002",
   "Name": "HYDROCODONE-ACETAMINOPHEN 5-325 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "857002",
-  "Generic_RxCUI": "1495474",
+  "Brand_RxCUI": "1495474",
+  "Generic_RxCUI": "857002",
   "prices": {
     "57664012613": {
       "05/19/2021": 0.10158,

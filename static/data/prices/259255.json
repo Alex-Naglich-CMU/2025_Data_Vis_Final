@@ -2,8 +2,8 @@
   "RxCUI": "259255",
   "Name": "ATORVASTATIN 80 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "259255",
-  "Generic_RxCUI": "262095",
+  "Brand_RxCUI": "262095",
+  "Generic_RxCUI": "259255",
   "prices": {
     "67877051490": {
       "05/19/2021": 0.10449,

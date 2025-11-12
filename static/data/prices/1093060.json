@@ -2,8 +2,8 @@
   "RxCUI": "1093060",
   "Name": "CLOMIPHENE CITRATE 50 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1093060",
-  "Generic_RxCUI": "2723329",
+  "Brand_RxCUI": "2723329",
+  "Generic_RxCUI": "1093060",
   "prices": {
     "49884070155": {
       "05/19/2021": 0.77425,

@@ -2,8 +2,8 @@
   "RxCUI": "1094147",
   "Name": "URINARY PAIN RELIEF 99.5 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "1094147",
-  "Generic_RxCUI": "2048946",
+  "Brand_RxCUI": "2048946",
+  "Generic_RxCUI": "1094147",
   "prices": {
     "70000052301": {
       "06/23/2021": 0.168,

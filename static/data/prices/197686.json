@@ -2,8 +2,8 @@
   "RxCUI": "197686",
   "Name": "ETODOLAC 400 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197686",
-  "Generic_RxCUI": "206812",
+  "Brand_RxCUI": "206812",
+  "Generic_RxCUI": "197686",
   "prices": {
     "00185067501": {
       "05/19/2021": 0.35876,

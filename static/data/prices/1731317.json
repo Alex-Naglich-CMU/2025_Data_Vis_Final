@@ -2,8 +2,8 @@
   "RxCUI": "1731317",
   "Name": "HUMULIN R 500 UNIT/ML KWIKPEN",
   "IsBrand": true,
-  "Brand_RxCUI": "1731315",
-  "Generic_RxCUI": "1731317",
+  "Brand_RxCUI": "1731317",
+  "Generic_RxCUI": "1731315",
   "prices": {
     "00002882427": {
       "05/19/2021": 91.85315,

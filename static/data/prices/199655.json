@@ -2,8 +2,8 @@
   "RxCUI": "199655",
   "Name": "ZAFIRLUKAST 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199655",
-  "Generic_RxCUI": "211776",
+  "Brand_RxCUI": "211776",
+  "Generic_RxCUI": "199655",
   "prices": {
     "49884055402": {
       "05/19/2021": 1.14378,

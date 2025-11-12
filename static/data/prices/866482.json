@@ -2,8 +2,8 @@
   "RxCUI": "866482",
   "Name": "METOPROLOL-HYDROCHLOROTHIAZIDE 50-25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "866482",
-  "Generic_RxCUI": "866502",
+  "Brand_RxCUI": "866502",
+  "Generic_RxCUI": "866482",
   "prices": {
     "62756037088": {
       "06/23/2021": 1.0131,

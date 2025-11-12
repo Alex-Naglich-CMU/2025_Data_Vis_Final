@@ -2,8 +2,8 @@
   "RxCUI": "2000127",
   "Name": "VANCOMYCIN 25 MG/ML ORAL SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "2000127",
-  "Generic_RxCUI": "2000133",
+  "Brand_RxCUI": "2000133",
+  "Generic_RxCUI": "2000127",
   "prices": {
     "52536010405": {
       "05/22/2024": 0.70489,

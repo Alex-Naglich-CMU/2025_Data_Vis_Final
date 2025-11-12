@@ -2,8 +2,8 @@
   "RxCUI": "310792",
   "Name": "IRBESARTAN-HYDROCHLOROTHIAZIDE 150-12.5 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "310792",
-  "Generic_RxCUI": "823934",
+  "Brand_RxCUI": "823934",
+  "Generic_RxCUI": "310792",
   "prices": {
     "62332005190": {
       "05/19/2021": 0.28503,

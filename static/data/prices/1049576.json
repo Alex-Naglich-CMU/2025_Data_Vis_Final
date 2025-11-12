@@ -2,8 +2,8 @@
   "RxCUI": "1049576",
   "Name": "OXYCONTIN 30 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1860151",
-  "Generic_RxCUI": "1049576",
+  "Brand_RxCUI": "1049576",
+  "Generic_RxCUI": "1860151",
   "prices": {
     "59011043010": {
       "01/02/2018": 9.15591,

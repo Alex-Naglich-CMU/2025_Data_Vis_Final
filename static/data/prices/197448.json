@@ -2,8 +2,8 @@
   "RxCUI": "197448",
   "Name": "LEVOCARNITINE 330 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197448",
-  "Generic_RxCUI": "206346",
+  "Brand_RxCUI": "206346",
+  "Generic_RxCUI": "197448",
   "prices": {
     "50383017290": {
       "07/19/2017": 0.75919,

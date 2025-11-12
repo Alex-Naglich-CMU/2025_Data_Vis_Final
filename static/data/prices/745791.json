@@ -2,8 +2,8 @@
   "RxCUI": "745791",
   "Name": "LEVALBUTEROL TAR HFA 45 MCG INH",
   "IsBrand": false,
-  "Brand_RxCUI": "745791",
-  "Generic_RxCUI": "746466",
+  "Brand_RxCUI": "746466",
+  "Generic_RxCUI": "745791",
   "prices": {
     "00591292754": {
       "05/19/2021": 3.80544,

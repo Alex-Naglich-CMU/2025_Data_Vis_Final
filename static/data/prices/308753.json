@@ -2,8 +2,8 @@
   "RxCUI": "308753",
   "Name": "BISACODYL EC 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "308753",
-  "Generic_RxCUI": "754463",
+  "Brand_RxCUI": "754463",
+  "Generic_RxCUI": "308753",
   "prices": {
     "00904674860": {
       "05/19/2021": 0.05747,

@@ -2,8 +2,8 @@
   "RxCUI": "349208",
   "Name": "SIROLIMUS 1 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "349208",
-  "Generic_RxCUI": "351989",
+  "Brand_RxCUI": "351989",
+  "Generic_RxCUI": "349208",
   "prices": {
     "68084091525": {
       "05/19/2021": 7.31515,

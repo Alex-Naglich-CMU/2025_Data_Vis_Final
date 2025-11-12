@@ -2,8 +2,8 @@
   "RxCUI": "979468",
   "Name": "LOSARTAN-HYDROCHLOROTHIAZIDE 50-12.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "979468",
-  "Generic_RxCUI": "979470",
+  "Brand_RxCUI": "979470",
+  "Generic_RxCUI": "979468",
   "prices": {
     "68180021506": {
       "05/19/2021": 0.16079,

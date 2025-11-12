@@ -2,8 +2,8 @@
   "RxCUI": "903697",
   "Name": "LIOTHYRONINE SOD 25 MCG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "903697",
-  "Generic_RxCUI": "2723581",
+  "Brand_RxCUI": "2723581",
+  "Generic_RxCUI": "903697",
   "prices": {
     "68382058301": {
       "05/19/2021": 0.70583,

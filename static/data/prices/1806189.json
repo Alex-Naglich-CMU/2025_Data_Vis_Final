@@ -2,8 +2,8 @@
   "RxCUI": "1806189",
   "Name": "METHYLPHENIDATE ER(CD) 30 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "1806189",
-  "Generic_RxCUI": "1091178",
+  "Brand_RxCUI": "1091178",
+  "Generic_RxCUI": "1806189",
   "prices": {
     "00115173801": {
       "05/19/2021": 1.54562,

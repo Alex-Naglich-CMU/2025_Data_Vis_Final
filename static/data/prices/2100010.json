@@ -2,8 +2,8 @@
   "RxCUI": "2100010",
   "Name": "XOFLUZA 40 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "2100008",
-  "Generic_RxCUI": "2100010",
+  "Brand_RxCUI": "2100010",
+  "Generic_RxCUI": "2100008",
   "prices": {
     "50242086001": {
       "2/23/2022": 145.15136,

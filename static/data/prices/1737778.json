@@ -2,8 +2,8 @@
   "RxCUI": "1737778",
   "Name": "LIDOCAINE PAIN RELIEF 4% PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "1737778",
-  "Generic_RxCUI": "2717286",
+  "Brand_RxCUI": "2717286",
+  "Generic_RxCUI": "1737778",
   "prices": {
     "70000055701": {
       "05/19/2021": 0.87527,

@@ -2,8 +2,8 @@
   "RxCUI": "863836",
   "Name": "CREON DR 6,000 UNITS CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "855499",
-  "Generic_RxCUI": "863836",
+  "Brand_RxCUI": "863836",
+  "Generic_RxCUI": "855499",
   "prices": {
     "00032120601": {
       "09/20/2017": 1.31787,

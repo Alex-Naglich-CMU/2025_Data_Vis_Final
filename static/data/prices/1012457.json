@@ -2,8 +2,8 @@
   "RxCUI": "1012457",
   "Name": "SENSORCAINE 0.5% VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "1012404",
-  "Generic_RxCUI": "1012457",
+  "Brand_RxCUI": "1012457",
+  "Generic_RxCUI": "1012404",
   "prices": {
     "63323046757": {
       "04/01/2017": 0.08921,

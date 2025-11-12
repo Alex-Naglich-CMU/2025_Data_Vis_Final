@@ -2,8 +2,8 @@
   "RxCUI": "1745091",
   "Name": "LIDOCAINE 5% PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "1745091",
-  "Generic_RxCUI": "2678310",
+  "Brand_RxCUI": "2678310",
+  "Generic_RxCUI": "1745091",
   "prices": {
     "00603188016": {
       "05/19/2021": 2.09633,

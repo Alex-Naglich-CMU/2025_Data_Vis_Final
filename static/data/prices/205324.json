@@ -2,8 +2,8 @@
   "RxCUI": "205324",
   "Name": "MODAFINIL 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "205324",
-  "Generic_RxCUI": "213471",
+  "Brand_RxCUI": "213471",
+  "Generic_RxCUI": "205324",
   "prices": {
     "55253080290": {
       "05/19/2021": 0.61333,

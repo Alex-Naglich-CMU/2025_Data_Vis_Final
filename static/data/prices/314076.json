@@ -2,8 +2,8 @@
   "RxCUI": "314076",
   "Name": "LISINOPRIL 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "314076",
-  "Generic_RxCUI": "206765",
+  "Brand_RxCUI": "206765",
+  "Generic_RxCUI": "314076",
   "prices": {
     "68180098001": {
       "05/19/2021": 0.02122,

@@ -2,8 +2,8 @@
   "RxCUI": "1049586",
   "Name": "OXYCONTIN 40 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1860137",
-  "Generic_RxCUI": "1049586",
+  "Brand_RxCUI": "1049586",
+  "Generic_RxCUI": "1860137",
   "prices": {
     "59011044020": {
       "11/22/2017": 10.26337,

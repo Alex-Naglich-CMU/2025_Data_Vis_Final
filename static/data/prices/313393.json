@@ -2,8 +2,8 @@
   "RxCUI": "313393",
   "Name": "THYROID 90 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "313393",
-  "Generic_RxCUI": "2706329",
+  "Brand_RxCUI": "2706329",
+  "Generic_RxCUI": "313393",
   "prices": {
     "62559074301": {
       "06/19/2024": 1.10471,

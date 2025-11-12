@@ -2,8 +2,8 @@
   "RxCUI": "311354",
   "Name": "LISINOPRIL 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311354",
-  "Generic_RxCUI": "104376",
+  "Brand_RxCUI": "104376",
+  "Generic_RxCUI": "311354",
   "prices": {
     "76282041801": {
       "05/19/2021": 0.01709,

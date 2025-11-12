@@ -2,8 +2,8 @@
   "RxCUI": "404472",
   "Name": "GAVISCON EXTRA STRENGTH LIQUID",
   "IsBrand": true,
-  "Brand_RxCUI": "245001",
-  "Generic_RxCUI": "404472",
+  "Brand_RxCUI": "404472",
+  "Generic_RxCUI": "245001",
   "prices": {
     "00135057401": {
       "07/19/2017": 0.02055,

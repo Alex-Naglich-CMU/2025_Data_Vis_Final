@@ -2,8 +2,8 @@
   "RxCUI": "864718",
   "Name": "METHADONE HCL 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "864718",
-  "Generic_RxCUI": "864720",
+  "Brand_RxCUI": "864720",
+  "Generic_RxCUI": "864718",
   "prices": {
     "13107008801": {
       "05/19/2021": 0.12376,

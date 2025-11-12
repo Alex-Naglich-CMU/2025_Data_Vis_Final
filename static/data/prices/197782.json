@@ -2,8 +2,8 @@
   "RxCUI": "197782",
   "Name": "HYDROCORTISONE 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197782",
-  "Generic_RxCUI": "208712",
+  "Brand_RxCUI": "208712",
+  "Generic_RxCUI": "197782",
   "prices": {
     "60687051111": {
       "05/19/2021": 0.31165,

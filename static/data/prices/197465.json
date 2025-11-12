@@ -2,8 +2,8 @@
   "RxCUI": "197465",
   "Name": "CLORAZEPATE 3.75 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197465",
-  "Generic_RxCUI": "542967",
+  "Brand_RxCUI": "542967",
+  "Generic_RxCUI": "197465",
   "prices": {
     "51672404202": {
       "05/19/2021": 1.12455,

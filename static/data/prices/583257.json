@@ -2,8 +2,8 @@
   "RxCUI": "583257",
   "Name": "CANASA 1,000 MG SUPPOSITORY",
   "IsBrand": true,
-  "Brand_RxCUI": "248420",
-  "Generic_RxCUI": "583257",
+  "Brand_RxCUI": "583257",
+  "Generic_RxCUI": "248420",
   "prices": {
     "58914050142": {
       "09/20/2017": 31.00301,

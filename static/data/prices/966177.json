@@ -2,8 +2,8 @@
   "RxCUI": "966177",
   "Name": "EUTHYROX 100 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "892246",
-  "Generic_RxCUI": "966177",
+  "Brand_RxCUI": "966177",
+  "Generic_RxCUI": "892246",
   "prices": {
     "72305010030": {
       "11/24/2022": 0.08133,

@@ -2,8 +2,8 @@
   "RxCUI": "202301",
   "Name": "PREMARIN 1.25 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "197662",
-  "Generic_RxCUI": "202301",
+  "Brand_RxCUI": "202301",
+  "Generic_RxCUI": "197662",
   "prices": {
     "00046110481": {
       "11/22/2017": 4.9873,

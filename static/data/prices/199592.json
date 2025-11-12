@@ -2,8 +2,8 @@
   "RxCUI": "199592",
   "Name": "TETRABENAZINE 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199592",
-  "Generic_RxCUI": "805462",
+  "Brand_RxCUI": "805462",
+  "Generic_RxCUI": "199592",
   "prices": {
     "31722082211": {
       "02/21/2024": 1.59839,

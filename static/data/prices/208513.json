@@ -2,8 +2,8 @@
   "RxCUI": "208513",
   "Name": "PREMARIN 0.3 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "197660",
-  "Generic_RxCUI": "208513",
+  "Brand_RxCUI": "208513",
+  "Generic_RxCUI": "197660",
   "prices": {
     "00046110091": {
       "11/22/2017": 4.99059,

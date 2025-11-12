@@ -2,8 +2,8 @@
   "RxCUI": "1648755",
   "Name": "NITROFURANTOIN MONO-MCR 100 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "1648755",
-  "Generic_RxCUI": "539712",
+  "Brand_RxCUI": "539712",
+  "Generic_RxCUI": "1648755",
   "prices": {
     "00378342201": {
       "05/19/2021": 0.59782,

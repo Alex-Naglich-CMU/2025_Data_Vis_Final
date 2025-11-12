@@ -2,8 +2,8 @@
   "RxCUI": "311204",
   "Name": "ITRACONAZOLE 100 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "311204",
-  "Generic_RxCUI": "833164",
+  "Brand_RxCUI": "833164",
+  "Generic_RxCUI": "311204",
   "prices": {
     "60687029995": {
       "05/19/2021": 0.91382,

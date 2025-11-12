@@ -2,8 +2,8 @@
   "RxCUI": "1091212",
   "Name": "CONCERTA ER 54 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1091210",
-  "Generic_RxCUI": "1091212",
+  "Brand_RxCUI": "1091212",
+  "Generic_RxCUI": "1091210",
   "prices": {
     "50458058701": {
       "01/03/2018": 11.94172,

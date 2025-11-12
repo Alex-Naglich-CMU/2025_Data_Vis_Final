@@ -2,8 +2,8 @@
   "RxCUI": "197803",
   "Name": "CHILDREN IBUPROFEN 100 MG/5 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "197803",
-  "Generic_RxCUI": "544393",
+  "Brand_RxCUI": "544393",
+  "Generic_RxCUI": "197803",
   "prices": {
     "24385036134": {
       "05/19/2021": 0.02254,

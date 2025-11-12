@@ -2,8 +2,8 @@
   "RxCUI": "2637476",
   "Name": "BREO ELLIPTA 50-25 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "2637473",
-  "Generic_RxCUI": "2637476",
+  "Brand_RxCUI": "2637476",
+  "Generic_RxCUI": "2637473",
   "prices": {
     "00173091610": {
       "06/19/2024": 6.50968,

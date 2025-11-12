@@ -2,8 +2,8 @@
   "RxCUI": "1719803",
   "Name": "HALOPERIDOL DEC 100 MG/ML AMP",
   "IsBrand": false,
-  "Brand_RxCUI": "1719803",
-  "Generic_RxCUI": "1719847",
+  "Brand_RxCUI": "1719847",
+  "Generic_RxCUI": "1719803",
   "prices": {
     "70069003105": {
       "05/19/2021": 37.04,

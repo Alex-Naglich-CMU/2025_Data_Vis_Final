@@ -2,8 +2,8 @@
   "RxCUI": "1091170",
   "Name": "METHYLPHENIDATE ER 27 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1091170",
-  "Generic_RxCUI": "2668499",
+  "Brand_RxCUI": "2668499",
+  "Generic_RxCUI": "1091170",
   "prices": {
     "10147068801": {
       "05/19/2021": 1.23187,

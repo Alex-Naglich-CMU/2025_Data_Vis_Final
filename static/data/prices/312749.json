@@ -2,8 +2,8 @@
   "RxCUI": "312749",
   "Name": "QUINAPRIL 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312749",
-  "Generic_RxCUI": "207893",
+  "Brand_RxCUI": "207893",
+  "Generic_RxCUI": "312749",
   "prices": {
     "68001018705": {
       "05/19/2021": 0.11028,

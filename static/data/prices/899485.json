@@ -2,8 +2,8 @@
   "RxCUI": "899485",
   "Name": "DEXMETHYLPHENIDATE ER 20 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "899485",
-  "Generic_RxCUI": "899487",
+  "Brand_RxCUI": "899487",
+  "Generic_RxCUI": "899485",
   "prices": {
     "00115168501": {
       "05/19/2021": 1.74002,

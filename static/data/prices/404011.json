@@ -2,8 +2,8 @@
   "RxCUI": "404011",
   "Name": "AMLODIPINE-ATORVAST 5-80 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "404011",
-  "Generic_RxCUI": "750239",
+  "Brand_RxCUI": "750239",
+  "Generic_RxCUI": "404011",
   "prices": {
     "00378451693": {
       "05/22/2024": 2.78779,

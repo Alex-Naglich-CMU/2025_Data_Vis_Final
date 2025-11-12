@@ -2,8 +2,8 @@
   "RxCUI": "1806179",
   "Name": "METHYLPHENIDATE LA 30 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1806179",
-  "Generic_RxCUI": "1091182",
+  "Brand_RxCUI": "1091182",
+  "Generic_RxCUI": "1806179",
   "prices": {
     "00093534701": {
       "05/19/2021": 1.07989,

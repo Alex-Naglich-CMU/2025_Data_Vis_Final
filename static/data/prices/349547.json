@@ -2,8 +2,8 @@
   "RxCUI": "349547",
   "Name": "ARIPIPRAZOLE 30 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "349547",
-  "Generic_RxCUI": "352310",
+  "Brand_RxCUI": "352310",
+  "Generic_RxCUI": "349547",
   "prices": {
     "60505267703": {
       "05/19/2021": 0.30806,

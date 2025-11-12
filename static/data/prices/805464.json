@@ -2,8 +2,8 @@
   "RxCUI": "805464",
   "Name": "TETRABENAZINE 12.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "805464",
-  "Generic_RxCUI": "805466",
+  "Brand_RxCUI": "805466",
+  "Generic_RxCUI": "805464",
   "prices": {
     "31722082111": {
       "05/17/2023": 3.24653,

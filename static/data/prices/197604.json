@@ -2,8 +2,8 @@
   "RxCUI": "197604",
   "Name": "DIGOXIN 125 MCG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197604",
-  "Generic_RxCUI": "1245443",
+  "Brand_RxCUI": "1245443",
+  "Generic_RxCUI": "197604",
   "prices": {
     "00143124010": {
       "05/19/2021": 0.30741,

@@ -2,8 +2,8 @@
   "RxCUI": "207634",
   "Name": "PROGLYCEM 50 MG/ML ORAL SUSP",
   "IsBrand": true,
-  "Brand_RxCUI": "197593",
-  "Generic_RxCUI": "207634",
+  "Brand_RxCUI": "207634",
+  "Generic_RxCUI": "197593",
   "prices": {
     "00575620030": {
       "09/20/2017": 9.13833,

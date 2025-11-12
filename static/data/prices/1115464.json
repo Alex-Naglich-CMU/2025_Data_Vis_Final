@@ -2,8 +2,8 @@
   "RxCUI": "1115464",
   "Name": "LUPRON DEPOT 7.5 MG KIT",
   "IsBrand": true,
-  "Brand_RxCUI": "1115462",
-  "Generic_RxCUI": "1115464",
+  "Brand_RxCUI": "1115464",
+  "Generic_RxCUI": "1115462",
   "prices": {
     "00074364203": {
       "09/20/2017": 1290.88857,

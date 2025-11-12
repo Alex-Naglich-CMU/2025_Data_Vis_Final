@@ -2,8 +2,8 @@
   "RxCUI": "308977",
   "Name": "CARBATROL ER 200 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "200133",
-  "Generic_RxCUI": "308977",
+  "Brand_RxCUI": "308977",
+  "Generic_RxCUI": "200133",
   "prices": {
     "54092017212": {
       "05/19/2021": 1.70584,

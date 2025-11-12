@@ -2,8 +2,8 @@
   "RxCUI": "853201",
   "Name": "QUETIAPINE ER 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "853201",
-  "Generic_RxCUI": "853202",
+  "Brand_RxCUI": "853202",
+  "Generic_RxCUI": "853201",
   "prices": {
     "68180061207": {
       "05/19/2021": 0.27038,

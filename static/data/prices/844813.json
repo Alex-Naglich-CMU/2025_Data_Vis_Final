@@ -2,8 +2,8 @@
   "RxCUI": "844813",
   "Name": "THEO-24 ER 200 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "313272",
-  "Generic_RxCUI": "844813",
+  "Brand_RxCUI": "844813",
+  "Generic_RxCUI": "313272",
   "prices": {
     "52244020010": {
       "07/01/2017": 2.58779,

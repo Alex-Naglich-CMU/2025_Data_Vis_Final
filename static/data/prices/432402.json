@@ -2,8 +2,8 @@
   "RxCUI": "432402",
   "Name": "CINACALCET HCL 30 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "432402",
-  "Generic_RxCUI": "656137",
+  "Brand_RxCUI": "656137",
+  "Generic_RxCUI": "432402",
   "prices": {
     "70436000704": {
       "05/19/2021": 1.80369,

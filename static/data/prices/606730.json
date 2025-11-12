@@ -2,8 +2,8 @@
   "RxCUI": "606730",
   "Name": "ESOMEPRAZOLE MAG DR 40 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "606730",
-  "Generic_RxCUI": "606731",
+  "Brand_RxCUI": "606731",
+  "Generic_RxCUI": "606730",
   "prices": {
     "43598051010": {
       "05/19/2021": 0.24186,

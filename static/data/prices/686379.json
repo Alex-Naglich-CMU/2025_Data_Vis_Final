@@ -2,8 +2,8 @@
   "RxCUI": "686379",
   "Name": "CELECOXIB 50 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "686379",
-  "Generic_RxCUI": "686381",
+  "Brand_RxCUI": "686381",
+  "Generic_RxCUI": "686379",
   "prices": {
     "59762151501": {
       "05/19/2021": 0.12692,

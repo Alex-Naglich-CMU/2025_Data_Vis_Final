@@ -2,8 +2,8 @@
   "RxCUI": "1013629",
   "Name": "DROSP-EE-LEVOMEF 3-0.02-0.451",
   "IsBrand": false,
-  "Brand_RxCUI": "1013629",
-  "Generic_RxCUI": "1013630",
+  "Brand_RxCUI": "1013630",
+  "Generic_RxCUI": "1013629",
   "prices": {
     "68180089473": {
       "05/19/2021": 3.34551,

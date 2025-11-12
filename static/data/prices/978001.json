@@ -2,8 +2,8 @@
   "RxCUI": "978001",
   "Name": "GNP ANTI-DIARRHEAL-GAS CPLT",
   "IsBrand": false,
-  "Brand_RxCUI": "978001",
-  "Generic_RxCUI": "1426827",
+  "Brand_RxCUI": "1426827",
+  "Generic_RxCUI": "978001",
   "prices": {
     "46122062062": {
       "10/20/2021": 0.26733,

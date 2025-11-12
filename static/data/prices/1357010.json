@@ -2,8 +2,8 @@
   "RxCUI": "1357010",
   "Name": "BROMPHEN-PSE-DM 2-30-10 MG/5 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "1357010",
-  "Generic_RxCUI": "1358993",
+  "Brand_RxCUI": "1358993",
+  "Generic_RxCUI": "1357010",
   "prices": {
     "60432027516": {
       "05/19/2021": 0.0728,

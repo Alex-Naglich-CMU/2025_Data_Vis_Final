@@ -2,8 +2,8 @@
   "RxCUI": "199888",
   "Name": "TOPIRAMATE 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199888",
-  "Generic_RxCUI": "152855",
+  "Brand_RxCUI": "152855",
+  "Generic_RxCUI": "199888",
   "prices": {
     "29300011516": {
       "05/19/2021": 0.0332,

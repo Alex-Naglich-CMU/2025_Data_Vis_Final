@@ -2,8 +2,8 @@
   "RxCUI": "900164",
   "Name": "LAMOTRIGINE ER 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "900164",
-  "Generic_RxCUI": "900165",
+  "Brand_RxCUI": "900165",
+  "Generic_RxCUI": "900164",
   "prices": {
     "00228141003": {
       "05/19/2021": 1.65544,

@@ -2,8 +2,8 @@
   "RxCUI": "314111",
   "Name": "MIRTAZAPINE 30 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "314111",
-  "Generic_RxCUI": "211323",
+  "Brand_RxCUI": "211323",
+  "Generic_RxCUI": "314111",
   "prices": {
     "00378353005": {
       "05/19/2021": 0.10741,

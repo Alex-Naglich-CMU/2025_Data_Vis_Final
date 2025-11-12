@@ -2,8 +2,8 @@
   "RxCUI": "403975",
   "Name": "ALOSETRON HCL 0.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "403975",
-  "Generic_RxCUI": "540181",
+  "Brand_RxCUI": "540181",
+  "Generic_RxCUI": "403975",
   "prices": {
     "70756070230": {
       "06/23/2021": 3.46524,

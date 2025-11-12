@@ -2,8 +2,8 @@
   "RxCUI": "308762",
   "Name": "HM STOMACH RELIEF 525 MG/30 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "308762",
-  "Generic_RxCUI": "642346",
+  "Brand_RxCUI": "642346",
+  "Generic_RxCUI": "308762",
   "prices": {
     "62011043501": {
       "05/19/2021": 0.01021,

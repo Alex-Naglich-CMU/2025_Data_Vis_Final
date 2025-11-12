@@ -2,8 +2,8 @@
   "RxCUI": "1291082",
   "Name": "HYDROCORTISONE AC 25 MG SUPP",
   "IsBrand": false,
-  "Brand_RxCUI": "1291082",
-  "Generic_RxCUI": "1674197",
+  "Brand_RxCUI": "1674197",
+  "Generic_RxCUI": "1291082",
   "prices": {
     "75834014712": {
       "07/21/2021": 1.32934,

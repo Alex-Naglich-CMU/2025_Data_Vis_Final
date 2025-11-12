@@ -2,8 +2,8 @@
   "RxCUI": "835831",
   "Name": "DEPO-TESTOSTERONE 100 MG/ML VL",
   "IsBrand": true,
-  "Brand_RxCUI": "835829",
-  "Generic_RxCUI": "835831",
+  "Brand_RxCUI": "835831",
+  "Generic_RxCUI": "835829",
   "prices": {
     "00009034702": {
       "06/21/2017": 6.34557,

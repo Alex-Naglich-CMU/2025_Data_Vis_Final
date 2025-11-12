@@ -2,8 +2,8 @@
   "RxCUI": "311666",
   "Name": "METOCLOPRAMIDE 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311666",
-  "Generic_RxCUI": "207266",
+  "Brand_RxCUI": "207266",
+  "Generic_RxCUI": "311666",
   "prices": {
     "51079088820": {
       "05/19/2021": 0.03983,

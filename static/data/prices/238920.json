@@ -2,8 +2,8 @@
   "RxCUI": "238920",
   "Name": "BETAMETHASONE DP 0.05% CRM",
   "IsBrand": false,
-  "Brand_RxCUI": "238920",
-  "Generic_RxCUI": "213541",
+  "Brand_RxCUI": "213541",
+  "Generic_RxCUI": "238920",
   "prices": {
     "70710123301": {
       "05/19/2021": 0.98069,

@@ -2,8 +2,8 @@
   "RxCUI": "1049182",
   "Name": "SM NASAL DECONG PE 10 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1049182",
-  "Generic_RxCUI": "1090087",
+  "Brand_RxCUI": "1090087",
+  "Generic_RxCUI": "1049182",
   "prices": {
     "49348070048": {
       "05/19/2021": 0.04781,

@@ -2,8 +2,8 @@
   "RxCUI": "1090641",
   "Name": "TRIAMCINOLONE 0.05% OINTMENT",
   "IsBrand": false,
-  "Brand_RxCUI": "1090641",
-  "Generic_RxCUI": "2567325",
+  "Brand_RxCUI": "2567325",
+  "Generic_RxCUI": "1090641",
   "prices": {
     "21922002411": {
       "2/23/2022": 1.23712,

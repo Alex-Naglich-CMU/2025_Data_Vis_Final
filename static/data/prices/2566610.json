@@ -2,8 +2,8 @@
   "RxCUI": "2566610",
   "Name": "TIROSINT-SOL 62.5 MCG/ML SOLN",
   "IsBrand": true,
-  "Brand_RxCUI": "2566608",
-  "Generic_RxCUI": "2566610",
+  "Brand_RxCUI": "2566610",
+  "Generic_RxCUI": "2566608",
   "prices": {
     "71858011705": {
       "05/22/2024": 4.43703,

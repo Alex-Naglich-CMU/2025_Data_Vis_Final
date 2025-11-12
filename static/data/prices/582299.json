@@ -2,8 +2,8 @@
   "RxCUI": "582299",
   "Name": "AMINOCAPROIC ACID 0.25 GRAM/ML",
   "IsBrand": false,
-  "Brand_RxCUI": "582299",
-  "Generic_RxCUI": "754890",
+  "Brand_RxCUI": "754890",
+  "Generic_RxCUI": "582299",
   "prices": {
     "31722003523": {
       "05/22/2024": 2.24547,

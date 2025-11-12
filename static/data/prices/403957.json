@@ -2,8 +2,8 @@
   "RxCUI": "403957",
   "Name": "TADALAFIL 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "403957",
-  "Generic_RxCUI": "404711",
+  "Brand_RxCUI": "404711",
+  "Generic_RxCUI": "403957",
   "prices": {
     "66993070130": {
       "05/19/2021": 0.19191,

@@ -2,8 +2,8 @@
   "RxCUI": "2171002",
   "Name": "SLYND 4 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "2171001",
-  "Generic_RxCUI": "2171002",
+  "Brand_RxCUI": "2171002",
+  "Generic_RxCUI": "2171001",
   "prices": {
     "00642747001": {
       "03/18/2020": 6.60943,

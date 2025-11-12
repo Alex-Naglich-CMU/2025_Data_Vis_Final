@@ -2,8 +2,8 @@
   "RxCUI": "485485",
   "Name": "TIZANIDINE HCL 4 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "485485",
-  "Generic_RxCUI": "583211",
+  "Brand_RxCUI": "583211",
+  "Generic_RxCUI": "485485",
   "prices": {
     "50742022515": {
       "06/23/2021": 0.28579,

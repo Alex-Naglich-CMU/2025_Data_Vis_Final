@@ -2,8 +2,8 @@
   "RxCUI": "198201",
   "Name": "RIFAMPIN 150 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "198201",
-  "Generic_RxCUI": "201867",
+  "Brand_RxCUI": "201867",
+  "Generic_RxCUI": "198201",
   "prices": {
     "60687057511": {
       "05/19/2021": 0.84775,

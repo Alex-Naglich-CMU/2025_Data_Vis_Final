@@ -2,8 +2,8 @@
   "RxCUI": "730872",
   "Name": "AMLODIPINE-OLMESARTAN 5-40 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "730872",
-  "Generic_RxCUI": "744636",
+  "Brand_RxCUI": "744636",
+  "Generic_RxCUI": "730872",
   "prices": {
     "42571023790": {
       "05/19/2021": 0.51766,

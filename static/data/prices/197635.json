@@ -2,8 +2,8 @@
   "RxCUI": "197635",
   "Name": "DRONABINOL 2.5 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "197635",
-  "Generic_RxCUI": "205641",
+  "Brand_RxCUI": "205641",
+  "Generic_RxCUI": "197635",
   "prices": {
     "60687037501": {
       "05/19/2021": 1.32425,

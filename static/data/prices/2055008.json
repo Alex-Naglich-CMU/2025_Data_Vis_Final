@@ -2,8 +2,8 @@
   "RxCUI": "2055008",
   "Name": "ALTRENO 0.05% LOTION",
   "IsBrand": true,
-  "Brand_RxCUI": "250939",
-  "Generic_RxCUI": "2055008",
+  "Brand_RxCUI": "2055008",
+  "Generic_RxCUI": "250939",
   "prices": {
     "00187000545": {
       "03/18/2020": 2.43658,

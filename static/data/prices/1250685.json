@@ -2,8 +2,8 @@
   "RxCUI": "1250685",
   "Name": "ANTI-DIARRHEAL 1 MG/7.5 ML SOL",
   "IsBrand": false,
-  "Brand_RxCUI": "1250685",
-  "Generic_RxCUI": "1250693",
+  "Brand_RxCUI": "1250693",
+  "Generic_RxCUI": "1250685",
   "prices": {
     "70000041801": {
       "05/19/2021": 0.02417,

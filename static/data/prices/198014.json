@@ -2,8 +2,8 @@
   "RxCUI": "198014",
   "Name": "NAPROXEN 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198014",
-  "Generic_RxCUI": "105899",
+  "Brand_RxCUI": "105899",
+  "Generic_RxCUI": "198014",
   "prices": {
     "63739040310": {
       "05/19/2021": 0.07779,

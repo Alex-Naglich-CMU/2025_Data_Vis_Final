@@ -2,8 +2,8 @@
   "RxCUI": "748804",
   "Name": "ETHYNODIOL-ETH ESTRA 1 MG-35 MCG",
   "IsBrand": false,
-  "Brand_RxCUI": "748804",
-  "Generic_RxCUI": "2704561",
+  "Brand_RxCUI": "2704561",
+  "Generic_RxCUI": "748804",
   "prices": {
     "00378730785": {
       "05/19/2021": 0.47759,

@@ -2,8 +2,8 @@
   "RxCUI": "242679",
   "Name": "ABACAVIR 300 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "242679",
-  "Generic_RxCUI": "213460",
+  "Brand_RxCUI": "213460",
+  "Generic_RxCUI": "242679",
   "prices": {
     "68084002121": {
       "05/19/2021": 0.55556,

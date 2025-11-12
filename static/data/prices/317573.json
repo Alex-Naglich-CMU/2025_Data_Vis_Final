@@ -2,8 +2,8 @@
   "RxCUI": "317573",
   "Name": "PIOGLITAZONE HCL 15 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "317573",
-  "Generic_RxCUI": "261266",
+  "Brand_RxCUI": "261266",
+  "Generic_RxCUI": "317573",
   "prices": {
     "57237021930": {
       "05/19/2021": 0.10809,

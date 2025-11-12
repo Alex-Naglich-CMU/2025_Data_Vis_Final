@@ -2,8 +2,8 @@
   "RxCUI": "208094",
   "Name": "CARAFATE 1 GM/10 ML SUSP",
   "IsBrand": true,
-  "Brand_RxCUI": "313123",
-  "Generic_RxCUI": "208094",
+  "Brand_RxCUI": "208094",
+  "Generic_RxCUI": "313123",
   "prices": {
     "58914017014": {
       "11/22/2017": 0.40457,

@@ -2,8 +2,8 @@
   "RxCUI": "2625150",
   "Name": "KONVOMEP 2-84 MG/ML ORAL SUSP",
   "IsBrand": true,
-  "Brand_RxCUI": "2625144",
-  "Generic_RxCUI": "2625150",
+  "Brand_RxCUI": "2625150",
+  "Generic_RxCUI": "2625144",
   "prices": {
     "65628027010": {
       "11/22/2023": 1.12607,

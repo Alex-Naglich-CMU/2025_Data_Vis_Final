@@ -2,8 +2,8 @@
   "RxCUI": "1085686",
   "Name": "TRIAMCINOLONE 0.5% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "1085686",
-  "Generic_RxCUI": "1648999",
+  "Brand_RxCUI": "1648999",
+  "Generic_RxCUI": "1085686",
   "prices": {
     "45802006535": {
       "05/19/2021": 0.24641,

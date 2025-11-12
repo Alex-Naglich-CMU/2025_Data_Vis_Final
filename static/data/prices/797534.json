@@ -2,8 +2,8 @@
   "RxCUI": "797534",
   "Name": "HM DOCOSANOL 10% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "797534",
-  "Generic_RxCUI": "855205",
+  "Brand_RxCUI": "855205",
+  "Generic_RxCUI": "797534",
   "prices": {
     "62011043301": {
       "05/19/2021": 5.886,

@@ -2,8 +2,8 @@
   "RxCUI": "1091497",
   "Name": "METHYLPHENIDATE 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1091497",
-  "Generic_RxCUI": "1091500",
+  "Brand_RxCUI": "1091500",
+  "Generic_RxCUI": "1091497",
   "prices": {
     "00115180001": {
       "05/19/2021": 0.14613,

@@ -2,8 +2,8 @@
   "RxCUI": "313165",
   "Name": "SUMATRIPTAN 6 MG/0.5 ML VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "313165",
-  "Generic_RxCUI": "208452",
+  "Brand_RxCUI": "208452",
+  "Generic_RxCUI": "313165",
   "prices": {
     "00143963805": {
       "05/19/2021": 20.80743,

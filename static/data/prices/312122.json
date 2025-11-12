@@ -2,8 +2,8 @@
   "RxCUI": "312122",
   "Name": "OSELTAMIVIR PHOS 75 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "312122",
-  "Generic_RxCUI": "261315",
+  "Brand_RxCUI": "261315",
+  "Generic_RxCUI": "312122",
   "prices": {
     "47781047013": {
       "05/19/2021": 1.70167,

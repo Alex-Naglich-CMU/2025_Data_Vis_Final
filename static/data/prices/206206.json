@@ -2,8 +2,8 @@
   "RxCUI": "206206",
   "Name": "PREVACID DR 30 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "311277",
-  "Generic_RxCUI": "206206",
+  "Brand_RxCUI": "206206",
+  "Generic_RxCUI": "311277",
   "prices": {
     "64764004613": {
       "10/18/2017": 13.34674,

@@ -2,8 +2,8 @@
   "RxCUI": "205304",
   "Name": "TELMISARTAN 40 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "205304",
-  "Generic_RxCUI": "213431",
+  "Brand_RxCUI": "213431",
+  "Generic_RxCUI": "205304",
   "prices": {
     "67877048384": {
       "05/19/2021": 0.40267,

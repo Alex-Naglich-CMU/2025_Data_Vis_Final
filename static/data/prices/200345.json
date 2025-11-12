@@ -2,8 +2,8 @@
   "RxCUI": "200345",
   "Name": "SIMVASTATIN 80 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200345",
-  "Generic_RxCUI": "213319",
+  "Brand_RxCUI": "213319",
+  "Generic_RxCUI": "200345",
   "prices": {
     "16729000717": {
       "05/19/2021": 0.09484,

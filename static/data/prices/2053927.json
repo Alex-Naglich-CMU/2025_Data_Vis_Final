@@ -2,8 +2,8 @@
   "RxCUI": "2053927",
   "Name": "LOKELMA 10 GRAM POWDER PACKET",
   "IsBrand": true,
-  "Brand_RxCUI": "2047642",
-  "Generic_RxCUI": "2053927",
+  "Brand_RxCUI": "2053927",
+  "Generic_RxCUI": "2047642",
   "prices": {
     "00310111030": {
       "04/22/2020": 21.63876,

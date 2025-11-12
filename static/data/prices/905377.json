@@ -2,8 +2,8 @@
   "RxCUI": "905377",
   "Name": "ISOSORBIDE-HYDRALAZINE 20-37.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "905377",
-  "Generic_RxCUI": "905379",
+  "Brand_RxCUI": "905379",
+  "Generic_RxCUI": "905377",
   "prices": {
     "50742024618": {
       "11/16/2022": 1.57638

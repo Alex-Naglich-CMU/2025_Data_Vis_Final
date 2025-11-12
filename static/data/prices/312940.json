@@ -2,8 +2,8 @@
   "RxCUI": "312940",
   "Name": "SERTRALINE HCL 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312940",
-  "Generic_RxCUI": "212233",
+  "Brand_RxCUI": "212233",
+  "Generic_RxCUI": "312940",
   "prices": {
     "16729021516": {
       "05/19/2021": 0.07032,

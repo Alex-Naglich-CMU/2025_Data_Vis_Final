@@ -2,8 +2,8 @@
   "RxCUI": "993856",
   "Name": "LACOSAMIDE 10 MG/ML SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "993856",
-  "Generic_RxCUI": "995156",
+  "Brand_RxCUI": "995156",
+  "Generic_RxCUI": "993856",
   "prices": {
     "31722062726": {
       "10/19/2022": 0.16495,

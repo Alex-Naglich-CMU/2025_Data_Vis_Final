@@ -2,8 +2,8 @@
   "RxCUI": "205284",
   "Name": "LEFLUNOMIDE 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "205284",
-  "Generic_RxCUI": "213377",
+  "Brand_RxCUI": "213377",
+  "Generic_RxCUI": "205284",
   "prices": {
     "70710115703": {
       "05/19/2021": 1.16135,

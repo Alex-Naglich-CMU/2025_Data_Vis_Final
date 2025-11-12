@@ -2,8 +2,8 @@
   "RxCUI": "197412",
   "Name": "BROMOCRIPTINE 5 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "197412",
-  "Generic_RxCUI": "105050",
+  "Brand_RxCUI": "105050",
+  "Generic_RxCUI": "197412",
   "prices": {
     "63304015830": {
       "10/18/2017": 6.07917,

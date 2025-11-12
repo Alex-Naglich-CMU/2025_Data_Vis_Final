@@ -2,8 +2,8 @@
   "RxCUI": "315107",
   "Name": "GLIPIZIDE ER 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "315107",
-  "Generic_RxCUI": "865568",
+  "Brand_RxCUI": "865568",
+  "Generic_RxCUI": "315107",
   "prices": {
     "10370074601": {
       "05/19/2021": 0.21061,

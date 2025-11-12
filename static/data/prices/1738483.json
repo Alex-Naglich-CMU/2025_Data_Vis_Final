@@ -2,8 +2,8 @@
   "RxCUI": "1738483",
   "Name": "PAROXETINE HCL 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1738483",
-  "Generic_RxCUI": "211699",
+  "Brand_RxCUI": "211699",
+  "Generic_RxCUI": "1738483",
   "prices": {
     "63739088810": {
       "05/19/2021": 0.07142,

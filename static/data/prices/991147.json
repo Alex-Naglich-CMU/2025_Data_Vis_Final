@@ -2,8 +2,8 @@
   "RxCUI": "991147",
   "Name": "METHADONE 10 MG/ML ORAL CONC",
   "IsBrand": false,
-  "Brand_RxCUI": "991147",
-  "Generic_RxCUI": "991149",
+  "Brand_RxCUI": "991149",
+  "Generic_RxCUI": "991147",
   "prices": {
     "00406412303": {
       "05/22/2024": 0.48572,

@@ -2,8 +2,8 @@
   "RxCUI": "835886",
   "Name": "CYCLOSPORINE MODIFIED 100 MG/ML",
   "IsBrand": false,
-  "Brand_RxCUI": "835886",
-  "Generic_RxCUI": "835899",
+  "Brand_RxCUI": "835899",
+  "Generic_RxCUI": "835886",
   "prices": {
     "00172731320": {
       "05/22/2024": 2.06475,

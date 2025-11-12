@@ -2,8 +2,8 @@
   "RxCUI": "388311",
   "Name": "CARBAMAZEPINE ER 100 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "388311",
-  "Generic_RxCUI": "672908",
+  "Brand_RxCUI": "672908",
+  "Generic_RxCUI": "388311",
   "prices": {
     "51672415101": {
       "05/19/2021": 1.21045,

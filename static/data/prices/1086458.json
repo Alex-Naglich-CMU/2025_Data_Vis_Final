@@ -2,8 +2,8 @@
   "RxCUI": "1086458",
   "Name": "GAVISCON 80-14.2 MG TAB CHEW",
   "IsBrand": true,
-  "Brand_RxCUI": "731000",
-  "Generic_RxCUI": "1086458",
+  "Brand_RxCUI": "1086458",
+  "Generic_RxCUI": "731000",
   "prices": {
     "00135009626": {
       "06/21/2017": 0.06582,

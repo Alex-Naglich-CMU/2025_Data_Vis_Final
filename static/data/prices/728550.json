@@ -2,8 +2,8 @@
   "RxCUI": "728550",
   "Name": "KETOCONAZOLE 2% FOAM",
   "IsBrand": false,
-  "Brand_RxCUI": "728550",
-  "Generic_RxCUI": "1300272",
+  "Brand_RxCUI": "1300272",
+  "Generic_RxCUI": "728550",
   "prices": {
     "45802053232": {
       "05/22/2024": 6.65689,

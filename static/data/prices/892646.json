@@ -2,8 +2,8 @@
   "RxCUI": "892646",
   "Name": "MORPHINE SULF ER 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "892646",
-  "Generic_RxCUI": "892648",
+  "Brand_RxCUI": "892648",
+  "Generic_RxCUI": "892646",
   "prices": {
     "00406832001": {
       "07/21/2021": 2.54414,

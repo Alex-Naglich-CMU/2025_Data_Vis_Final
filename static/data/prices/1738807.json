@@ -2,8 +2,8 @@
   "RxCUI": "1738807",
   "Name": "PAROXETINE CR 37.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1738807",
-  "Generic_RxCUI": "1738808",
+  "Brand_RxCUI": "1738808",
+  "Generic_RxCUI": "1738807",
   "prices": {
     "60505131803": {
       "05/19/2021": 1.18785,

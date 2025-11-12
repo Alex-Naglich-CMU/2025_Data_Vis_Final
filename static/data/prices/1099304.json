@@ -2,8 +2,8 @@
   "RxCUI": "1099304",
   "Name": "DESIPRAMINE 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1099304",
-  "Generic_RxCUI": "1099306",
+  "Brand_RxCUI": "1099306",
+  "Generic_RxCUI": "1099304",
   "prices": {
     "45963034302": {
       "05/19/2021": 0.55004,

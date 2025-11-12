@@ -2,8 +2,8 @@
   "RxCUI": "1085752",
   "Name": "KENALOG-10 10 MG/ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "1085750",
-  "Generic_RxCUI": "1085752",
+  "Brand_RxCUI": "1085752",
+  "Generic_RxCUI": "1085750",
   "prices": {
     "00003049420": {
       "01/01/2018": 2.32031,

@@ -2,8 +2,8 @@
   "RxCUI": "966248",
   "Name": "LEVOTHYROXINE 112 MCG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "966248",
-  "Generic_RxCUI": "966397",
+  "Brand_RxCUI": "966397",
+  "Generic_RxCUI": "966248",
   "prices": {
     "00378181177": {
       "05/19/2021": 0.28794,

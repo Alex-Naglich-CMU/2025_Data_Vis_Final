@@ -2,8 +2,8 @@
   "RxCUI": "349201",
   "Name": "VALSARTAN 160 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "349201",
-  "Generic_RxCUI": "351762",
+  "Brand_RxCUI": "351762",
+  "Generic_RxCUI": "349201",
   "prices": {
     "62332004690": {
       "05/19/2021": 0.29492,

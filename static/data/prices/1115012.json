@@ -2,8 +2,8 @@
   "RxCUI": "1115012",
   "Name": "GRALISE ER 300 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1806380",
-  "Generic_RxCUI": "1115012",
+  "Brand_RxCUI": "1115012",
+  "Generic_RxCUI": "1806380",
   "prices": {
     "13913000419": {
       "01/04/2018": 7.405,

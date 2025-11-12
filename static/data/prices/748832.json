@@ -2,8 +2,8 @@
   "RxCUI": "748832",
   "Name": "LEVONOR-ETH ESTRAD TRIPHASIC",
   "IsBrand": false,
-  "Brand_RxCUI": "748832",
-  "Generic_RxCUI": "1095227",
+  "Brand_RxCUI": "1095227",
+  "Generic_RxCUI": "748832",
   "prices": {
     "68180085773": {
       "05/19/2021": 0.46374,

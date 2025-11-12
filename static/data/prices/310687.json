@@ -2,8 +2,8 @@
   "RxCUI": "310687",
   "Name": "NEOMYCIN-POLYMYXIN-HC EAR SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "310687",
-  "Generic_RxCUI": "763095",
+  "Brand_RxCUI": "763095",
+  "Generic_RxCUI": "310687",
   "prices": {
     "24208063562": {
       "05/19/2021": 5.90973,

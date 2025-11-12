@@ -2,8 +2,8 @@
   "RxCUI": "860975",
   "Name": "METFORMIN HCL ER 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "860975",
-  "Generic_RxCUI": "860977",
+  "Brand_RxCUI": "860977",
+  "Generic_RxCUI": "860975",
   "prices": {
     "53746017805": {
       "05/19/2021": 0.03665,

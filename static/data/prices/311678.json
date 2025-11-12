@@ -2,8 +2,8 @@
   "RxCUI": "311678",
   "Name": "METRONIDAZOLE 0.75% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "311678",
-  "Generic_RxCUI": "1148398",
+  "Brand_RxCUI": "1148398",
+  "Generic_RxCUI": "311678",
   "prices": {
     "66993096045": {
       "05/19/2021": 0.98896,

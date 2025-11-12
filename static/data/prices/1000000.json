@@ -2,8 +2,8 @@
   "RxCUI": "1000000",
   "Name": "TRIBENZOR 40-5-12.5 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "999996",
-  "Generic_RxCUI": "1000000",
+  "Brand_RxCUI": "1000000",
+  "Generic_RxCUI": "999996",
   "prices": {
     "00713087530": {
       "07/17/2024": 14.77517,

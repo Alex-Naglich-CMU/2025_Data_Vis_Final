@@ -2,8 +2,8 @@
   "RxCUI": "402506",
   "Name": "CARBAMAZEPINE ER 400 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "402506",
-  "Generic_RxCUI": "866307",
+  "Brand_RxCUI": "866307",
+  "Generic_RxCUI": "402506",
   "prices": {
     "51672412501": {
       "05/19/2021": 2.09047,

@@ -2,8 +2,8 @@
   "RxCUI": "348506",
   "Name": "ITRACONAZOLE 10 MG/ML SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "348506",
-  "Generic_RxCUI": "152854",
+  "Brand_RxCUI": "152854",
+  "Generic_RxCUI": "348506",
   "prices": {
     "10147015001": {
       "06/21/2023": 1.22203,

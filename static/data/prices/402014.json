@@ -2,8 +2,8 @@
   "RxCUI": "402014",
   "Name": "GS OMEPRAZOLE DR 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "402014",
-  "Generic_RxCUI": "608796",
+  "Brand_RxCUI": "608796",
+  "Generic_RxCUI": "402014",
   "prices": {
     "00113091530": {
       "05/19/2021": 0.45436,

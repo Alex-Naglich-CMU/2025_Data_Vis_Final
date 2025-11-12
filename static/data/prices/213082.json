@@ -2,8 +2,8 @@
   "RxCUI": "213082",
   "Name": "BENZAMYCIN GEL",
   "IsBrand": true,
-  "Brand_RxCUI": "244374",
-  "Generic_RxCUI": "213082",
+  "Brand_RxCUI": "213082",
+  "Generic_RxCUI": "244374",
   "prices": {
     "00187520546": {
       "08/21/2024": 1.28596,

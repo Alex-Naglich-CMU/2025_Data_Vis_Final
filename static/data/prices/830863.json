@@ -2,8 +2,8 @@
   "RxCUI": "830863",
   "Name": "CARDIZEM CD 120 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "830861",
-  "Generic_RxCUI": "830863",
+  "Brand_RxCUI": "830863",
+  "Generic_RxCUI": "830861",
   "prices": {
     "00187079530": {
       "05/21/2025": 27.14129,

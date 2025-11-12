@@ -2,8 +2,8 @@
   "RxCUI": "485020",
   "Name": "MYCOPHENOLIC ACID DR 180 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "485020",
-  "Generic_RxCUI": "616450",
+  "Brand_RxCUI": "616450",
+  "Generic_RxCUI": "485020",
   "prices": {
     "00904678504": {
       "05/19/2021": 0.855,

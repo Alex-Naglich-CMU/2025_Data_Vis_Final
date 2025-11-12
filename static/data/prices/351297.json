@@ -2,8 +2,8 @@
   "RxCUI": "351297",
   "Name": "INSULIN ASPART PROTAMINE-INSULIN ASPART 70-30 VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "351297",
-  "Generic_RxCUI": "977842",
+  "Brand_RxCUI": "977842",
+  "Generic_RxCUI": "351297",
   "prices": {
     "73070020011": {
       "06/17/2020": 14.3476,

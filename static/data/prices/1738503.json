@@ -2,8 +2,8 @@
   "RxCUI": "1738503",
   "Name": "PAROXETINE HCL 30 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1738503",
-  "Generic_RxCUI": "207350",
+  "Brand_RxCUI": "207350",
+  "Generic_RxCUI": "1738503",
   "prices": {
     "60505008401": {
       "05/19/2021": 0.12388,

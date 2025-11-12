@@ -2,8 +2,8 @@
   "RxCUI": "701858",
   "Name": "ACZONE 5% GEL",
   "IsBrand": true,
-  "Brand_RxCUI": "607295",
-  "Generic_RxCUI": "701858",
+  "Brand_RxCUI": "701858",
+  "Generic_RxCUI": "607295",
   "prices": {
     "00023367090": {
       "11/22/2017": 7.61193,

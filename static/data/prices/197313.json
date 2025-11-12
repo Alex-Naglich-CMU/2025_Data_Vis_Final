@@ -2,8 +2,8 @@
   "RxCUI": "197313",
   "Name": "ACYCLOVIR 800 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197313",
-  "Generic_RxCUI": "213706",
+  "Brand_RxCUI": "213706",
+  "Generic_RxCUI": "197313",
   "prices": {
     "60505530701": {
       "05/19/2021": 0.19808,

@@ -2,8 +2,8 @@
   "RxCUI": "995609",
   "Name": "MYAMBUTOL 400 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "995607",
-  "Generic_RxCUI": "995609",
+  "Brand_RxCUI": "995609",
+  "Generic_RxCUI": "995607",
   "prices": {
     "68850001201": {
       "05/22/2024": 0.52026

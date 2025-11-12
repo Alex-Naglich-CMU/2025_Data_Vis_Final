@@ -2,8 +2,8 @@
   "RxCUI": "197700",
   "Name": "FLUCONAZOLE 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197700",
-  "Generic_RxCUI": "207112",
+  "Brand_RxCUI": "207112",
+  "Generic_RxCUI": "197700",
   "prices": {
     "70710114003": {
       "05/19/2021": 0.72129,

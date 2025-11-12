@@ -2,8 +2,8 @@
   "RxCUI": "409823",
   "Name": "CEFIXIME 400 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "409823",
-  "Generic_RxCUI": "1372999",
+  "Brand_RxCUI": "1372999",
+  "Generic_RxCUI": "409823",
   "prices": {
     "67877058450": {
       "01/22/2020": 19.0266,

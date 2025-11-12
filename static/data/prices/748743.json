@@ -2,8 +2,8 @@
   "RxCUI": "748743",
   "Name": "CLEOCIN 75 MG/5 ML GRANULES",
   "IsBrand": true,
-  "Brand_RxCUI": "562266",
-  "Generic_RxCUI": "748743",
+  "Brand_RxCUI": "748743",
+  "Generic_RxCUI": "562266",
   "prices": {
     "00009076004": {
       "06/01/2017": 1.19307,

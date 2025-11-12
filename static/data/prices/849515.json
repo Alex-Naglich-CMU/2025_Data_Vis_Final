@@ -2,8 +2,8 @@
   "RxCUI": "849515",
   "Name": "DESMOPRESSIN ACETATE 0.1 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "849515",
-  "Generic_RxCUI": "849517",
+  "Brand_RxCUI": "849517",
+  "Generic_RxCUI": "849515",
   "prices": {
     "68001032500": {
       "05/19/2021": 0.46236,

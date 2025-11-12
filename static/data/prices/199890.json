@@ -2,8 +2,8 @@
   "RxCUI": "199890",
   "Name": "TOPIRAMATE 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199890",
-  "Generic_RxCUI": "151229",
+  "Brand_RxCUI": "151229",
+  "Generic_RxCUI": "199890",
   "prices": {
     "68382014105": {
       "05/19/2021": 0.12222,

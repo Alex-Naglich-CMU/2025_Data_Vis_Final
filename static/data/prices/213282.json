@@ -2,8 +2,8 @@
   "RxCUI": "213282",
   "Name": "DROXIA 200 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "200342",
-  "Generic_RxCUI": "213282",
+  "Brand_RxCUI": "213282",
+  "Generic_RxCUI": "200342",
   "prices": {
     "00003633517": {
       "05/22/2024": 0.72828,

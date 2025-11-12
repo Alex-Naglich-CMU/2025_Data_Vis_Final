@@ -2,8 +2,8 @@
   "RxCUI": "1049618",
   "Name": "OXYCODONE HCL 30 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1049618",
-  "Generic_RxCUI": "1049620",
+  "Brand_RxCUI": "1049620",
+  "Generic_RxCUI": "1049618",
   "prices": {
     "42858000501": {
       "05/19/2021": 0.25127,

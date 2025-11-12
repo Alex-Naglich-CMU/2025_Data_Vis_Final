@@ -2,8 +2,8 @@
   "RxCUI": "311286",
   "Name": "LEVALBUTEROL 0.63 MG/3 ML SOL",
   "IsBrand": false,
-  "Brand_RxCUI": "311286",
-  "Generic_RxCUI": "261136",
+  "Brand_RxCUI": "261136",
+  "Generic_RxCUI": "311286",
   "prices": {
     "66993002227": {
       "05/19/2021": 0.35327,

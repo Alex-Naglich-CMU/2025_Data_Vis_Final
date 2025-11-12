@@ -2,8 +2,8 @@
   "RxCUI": "861356",
   "Name": "FONDAPARINUX 10 MG/0.8 ML SYR",
   "IsBrand": false,
-  "Brand_RxCUI": "861356",
-  "Generic_RxCUI": "861358",
+  "Brand_RxCUI": "861358",
+  "Generic_RxCUI": "861356",
   "prices": {
     "00781347695": {
       "05/17/2023": 45.4475,

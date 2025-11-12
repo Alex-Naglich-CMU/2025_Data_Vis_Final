@@ -2,8 +2,8 @@
   "RxCUI": "1918042",
   "Name": "ABIRATERONE ACETATE 500 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1918042",
-  "Generic_RxCUI": "1918044",
+  "Brand_RxCUI": "1918044",
+  "Generic_RxCUI": "1918042",
   "prices": {
     "00378692191": {
       "06/19/2024": 12.96544,

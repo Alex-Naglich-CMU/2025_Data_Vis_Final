@@ -2,8 +2,8 @@
   "RxCUI": "896245",
   "Name": "ADVAIR HFA 115-21 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "896244",
-  "Generic_RxCUI": "896245",
+  "Brand_RxCUI": "896245",
+  "Generic_RxCUI": "896244",
   "prices": {
     "00173071620": {
       "11/22/2017": 28.86391,

@@ -2,8 +2,8 @@
   "RxCUI": "312837",
   "Name": "RIZATRIPTAN 10 MG ODT",
   "IsBrand": false,
-  "Brand_RxCUI": "312837",
-  "Generic_RxCUI": "828537",
+  "Brand_RxCUI": "828537",
+  "Generic_RxCUI": "312837",
   "prices": {
     "68462046840": {
       "05/19/2021": 1.01745,

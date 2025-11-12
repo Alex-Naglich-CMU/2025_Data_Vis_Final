@@ -2,8 +2,8 @@
   "RxCUI": "1049906",
   "Name": "HM CHILD ALLERGY 12.5 MG/5 ML",
   "IsBrand": false,
-  "Brand_RxCUI": "1049906",
-  "Generic_RxCUI": "1094393",
+  "Brand_RxCUI": "1094393",
+  "Generic_RxCUI": "1049906",
   "prices": {
     "62011028401": {
       "05/19/2021": 0.01415,

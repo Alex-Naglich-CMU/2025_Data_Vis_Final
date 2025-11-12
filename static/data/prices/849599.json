@@ -2,8 +2,8 @@
   "RxCUI": "849599",
   "Name": "CIMZIA 200 MG/ML SYRINGE KIT",
   "IsBrand": true,
-  "Brand_RxCUI": "849597",
-  "Generic_RxCUI": "849599",
+  "Brand_RxCUI": "849599",
+  "Generic_RxCUI": "849597",
   "prices": {
     "50474071079": {
       "07/01/2017": 3725.15759,

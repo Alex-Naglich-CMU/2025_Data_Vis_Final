@@ -2,8 +2,8 @@
   "RxCUI": "199149",
   "Name": "ACARBOSE 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199149",
-  "Generic_RxCUI": "209247",
+  "Brand_RxCUI": "209247",
+  "Generic_RxCUI": "199149",
   "prices": {
     "69543012111": {
       "05/19/2021": 0.20195,

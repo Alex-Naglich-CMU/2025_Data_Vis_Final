@@ -2,8 +2,8 @@
   "RxCUI": "310490",
   "Name": "GLIPIZIDE 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "310490",
-  "Generic_RxCUI": "205828",
+  "Brand_RxCUI": "205828",
+  "Generic_RxCUI": "310490",
   "prices": {
     "00378110505": {
       "05/19/2021": 0.03225,

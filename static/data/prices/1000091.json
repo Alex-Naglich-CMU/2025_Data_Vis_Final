@@ -2,8 +2,8 @@
   "RxCUI": "1000091",
   "Name": "DOXEPIN 5% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "1000091",
-  "Generic_RxCUI": "1000095",
+  "Brand_RxCUI": "1000095",
+  "Generic_RxCUI": "1000091",
   "prices": {
     "00378811745": {
       "10/23/2019": 11.04044,

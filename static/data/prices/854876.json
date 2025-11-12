@@ -2,8 +2,8 @@
   "RxCUI": "854876",
   "Name": "ZOLPIDEM TARTRATE 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "854876",
-  "Generic_RxCUI": "854878",
+  "Brand_RxCUI": "854878",
+  "Generic_RxCUI": "854876",
   "prices": {
     "13668000705": {
       "05/19/2021": 0.02979,

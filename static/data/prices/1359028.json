@@ -2,8 +2,8 @@
   "RxCUI": "1359028",
   "Name": "NORETHIN-EE 1.5-0.03 MG(21) TB",
   "IsBrand": false,
-  "Brand_RxCUI": "1359028",
-  "Generic_RxCUI": "2712092",
+  "Brand_RxCUI": "2712092",
+  "Generic_RxCUI": "1359028",
   "prices": {
     "00378727485": {
       "05/19/2021": 0.59474,

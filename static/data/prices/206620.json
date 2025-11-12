@@ -2,8 +2,8 @@
   "RxCUI": "206620",
   "Name": "DELESTROGEN 50 MG/5 ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "310189",
-  "Generic_RxCUI": "206620",
+  "Brand_RxCUI": "206620",
+  "Generic_RxCUI": "310189",
   "prices": {
     "42023011001": {
       "02/21/2024": 25.3132,

@@ -2,8 +2,8 @@
   "RxCUI": "200095",
   "Name": "IRBESARTAN 150 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200095",
-  "Generic_RxCUI": "153666",
+  "Brand_RxCUI": "153666",
+  "Generic_RxCUI": "200095",
   "prices": {
     "68180041109": {
       "05/19/2021": 0.23531,

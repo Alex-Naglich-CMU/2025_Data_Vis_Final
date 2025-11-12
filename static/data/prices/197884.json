@@ -2,8 +2,8 @@
   "RxCUI": "197884",
   "Name": "LISINOPRIL 40 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197884",
-  "Generic_RxCUI": "206771",
+  "Brand_RxCUI": "206771",
+  "Generic_RxCUI": "197884",
   "prices": {
     "76282042290": {
       "05/19/2021": 0.04472,

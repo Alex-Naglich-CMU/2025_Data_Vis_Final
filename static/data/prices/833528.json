@@ -2,8 +2,8 @@
   "RxCUI": "833528",
   "Name": "AMIODARONE HCL 200 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "833528",
-  "Generic_RxCUI": "834346",
+  "Brand_RxCUI": "834346",
+  "Generic_RxCUI": "833528",
   "prices": {
     "29300035916": {
       "05/19/2021": 0.13834,

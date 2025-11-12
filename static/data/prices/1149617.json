@@ -2,8 +2,8 @@
   "RxCUI": "1149617",
   "Name": "SANTYL OINTMENT",
   "IsBrand": true,
-  "Brand_RxCUI": "309509",
-  "Generic_RxCUI": "1149617",
+  "Brand_RxCUI": "1149617",
+  "Generic_RxCUI": "309509",
   "prices": {
     "50484001090": {
       "09/20/2017": 6.56763,

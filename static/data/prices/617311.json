@@ -2,8 +2,8 @@
   "RxCUI": "617311",
   "Name": "ATORVASTATIN 40 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "617311",
-  "Generic_RxCUI": "617320",
+  "Brand_RxCUI": "617320",
+  "Generic_RxCUI": "617311",
   "prices": {
     "68084009901": {
       "05/19/2021": 0.07217,

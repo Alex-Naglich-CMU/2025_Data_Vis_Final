@@ -2,8 +2,8 @@
   "RxCUI": "861495",
   "Name": "CLOBETASOL 0.05% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "861495",
-  "Generic_RxCUI": "861503",
+  "Brand_RxCUI": "861503",
+  "Generic_RxCUI": "861495",
   "prices": {
     "68462052917": {
       "05/19/2021": 0.74819,

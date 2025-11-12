@@ -2,8 +2,8 @@
   "RxCUI": "309329",
   "Name": "CLINDAMYCIN HCL 75 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "309329",
-  "Generic_RxCUI": "748750",
+  "Brand_RxCUI": "748750",
+  "Generic_RxCUI": "309329",
   "prices": {
     "00527138104": {
       "05/22/2024": 0.27774,

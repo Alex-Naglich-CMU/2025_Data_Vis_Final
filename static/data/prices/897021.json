@@ -2,8 +2,8 @@
   "RxCUI": "897021",
   "Name": "DALFAMPRIDINE ER 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "897021",
-  "Generic_RxCUI": "897025",
+  "Brand_RxCUI": "897025",
+  "Generic_RxCUI": "897021",
   "prices": {
     "00378050991": {
       "05/19/2021": 1.28181,

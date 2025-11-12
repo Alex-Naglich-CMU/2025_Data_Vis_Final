@@ -2,8 +2,8 @@
   "RxCUI": "1604539",
   "Name": "INSULIN GLARGINE SOLOSTAR U300",
   "IsBrand": false,
-  "Brand_RxCUI": "1604539",
-  "Generic_RxCUI": "1604544",
+  "Brand_RxCUI": "1604544",
+  "Generic_RxCUI": "1604539",
   "prices": {
     "00955390003": {
       "05/22/2024": 36.64922,

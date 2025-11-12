@@ -2,8 +2,8 @@
   "RxCUI": "861490",
   "Name": "CLOBETASOL 0.05% SHAMPOO",
   "IsBrand": false,
-  "Brand_RxCUI": "861490",
-  "Generic_RxCUI": "1541099",
+  "Brand_RxCUI": "1541099",
+  "Generic_RxCUI": "861490",
   "prices": {
     "62332054804": {
       "05/19/2021": 0.97058,

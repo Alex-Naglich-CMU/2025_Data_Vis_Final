@@ -2,8 +2,8 @@
   "RxCUI": "797061",
   "Name": "PRILOSEC DR 10 MG SUSPENSION",
   "IsBrand": true,
-  "Brand_RxCUI": "797058",
-  "Generic_RxCUI": "797061",
+  "Brand_RxCUI": "797061",
+  "Generic_RxCUI": "797058",
   "prices": {
     "70515061001": {
       "05/01/2018": 9.24502,

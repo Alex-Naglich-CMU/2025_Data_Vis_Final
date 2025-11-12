@@ -2,8 +2,8 @@
   "RxCUI": "881341",
   "Name": "ADEFOVIR DIPIVOXIL 10 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "881341",
-  "Generic_RxCUI": "881343",
+  "Brand_RxCUI": "881343",
+  "Generic_RxCUI": "881341",
   "prices": {
     "42794000308": {
       "08/23/2017": 25.40028,

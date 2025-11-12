@@ -2,8 +2,8 @@
   "RxCUI": "198222",
   "Name": "SPIRONOLACTONE 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198222",
-  "Generic_RxCUI": "200825",
+  "Brand_RxCUI": "200825",
+  "Generic_RxCUI": "198222",
   "prices": {
     "00378043701": {
       "05/19/2021": 0.22632,

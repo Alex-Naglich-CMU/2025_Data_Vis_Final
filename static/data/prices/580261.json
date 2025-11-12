@@ -2,8 +2,8 @@
   "RxCUI": "580261",
   "Name": "SPIRIVA 18 MCG CP-HANDIHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "485032",
-  "Generic_RxCUI": "580261",
+  "Brand_RxCUI": "580261",
+  "Generic_RxCUI": "485032",
   "prices": {
     "00597007547": {
       "07/19/2017": 11.76229,

@@ -2,8 +2,8 @@
   "RxCUI": "198008",
   "Name": "NADOLOL 80 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198008",
-  "Generic_RxCUI": "201338",
+  "Brand_RxCUI": "201338",
+  "Generic_RxCUI": "198008",
   "prices": {
     "68382073401": {
       "05/19/2021": 0.60932,

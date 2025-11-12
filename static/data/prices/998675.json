@@ -2,8 +2,8 @@
   "RxCUI": "998675",
   "Name": "CLONIDINE 0.2 MG/DAY PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "998675",
-  "Generic_RxCUI": "998677",
+  "Brand_RxCUI": "998677",
+  "Generic_RxCUI": "998675",
   "prices": {
     "51862045404": {
       "05/19/2021": 12.50473,

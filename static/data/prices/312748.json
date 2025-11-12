@@ -2,8 +2,8 @@
   "RxCUI": "312748",
   "Name": "QUINAPRIL 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312748",
-  "Generic_RxCUI": "207892",
+  "Brand_RxCUI": "207892",
+  "Generic_RxCUI": "312748",
   "prices": {
     "68001018805": {
       "05/19/2021": 0.10513,

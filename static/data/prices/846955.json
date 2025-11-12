@@ -2,8 +2,8 @@
   "RxCUI": "846955",
   "Name": "RENOVA 0.02% CREAM",
   "IsBrand": true,
-  "Brand_RxCUI": "252265",
-  "Generic_RxCUI": "846955",
+  "Brand_RxCUI": "846955",
+  "Generic_RxCUI": "252265",
   "prices": {
     "00187515020": {
       "05/22/2024": 2.36454,

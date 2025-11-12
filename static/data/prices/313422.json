@@ -2,8 +2,8 @@
   "RxCUI": "313422",
   "Name": "TOLNAFTATE 1% POWDER",
   "IsBrand": false,
-  "Brand_RxCUI": "313422",
-  "Generic_RxCUI": "692849",
+  "Brand_RxCUI": "692849",
+  "Generic_RxCUI": "313422",
   "prices": {
     "00536132926": {
       "05/22/2024": 0.04181,

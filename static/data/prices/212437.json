@@ -2,8 +2,8 @@
   "RxCUI": "212437",
   "Name": "TAZORAC 0.05% GEL",
   "IsBrand": true,
-  "Brand_RxCUI": "313199",
-  "Generic_RxCUI": "212437",
+  "Brand_RxCUI": "212437",
+  "Generic_RxCUI": "313199",
   "prices": {
     "00023833503": {
       "09/20/2017": 10.9414,

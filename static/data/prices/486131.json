@@ -2,8 +2,8 @@
   "RxCUI": "486131",
   "Name": "BENZOYL PEROXIDE 10% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "486131",
-  "Generic_RxCUI": "404127",
+  "Brand_RxCUI": "404127",
+  "Generic_RxCUI": "486131",
   "prices": {
     "45802030896": {
       "05/19/2021": 0.22954,

@@ -2,8 +2,8 @@
   "RxCUI": "404550",
   "Name": "PREMARIN 0.45 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "403849",
-  "Generic_RxCUI": "404550",
+  "Brand_RxCUI": "404550",
+  "Generic_RxCUI": "403849",
   "prices": {
     "00046110181": {
       "11/22/2017": 4.97181,

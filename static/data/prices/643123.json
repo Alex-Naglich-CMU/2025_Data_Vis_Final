@@ -2,8 +2,8 @@
   "RxCUI": "643123",
   "Name": "PREDNISOLONE ODT 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "643123",
-  "Generic_RxCUI": "668658",
+  "Brand_RxCUI": "668658",
+  "Generic_RxCUI": "643123",
   "prices": {
     "66993084435": {
       "05/22/2024": 7.73833,

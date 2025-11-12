@@ -2,8 +2,8 @@
   "RxCUI": "1098608",
   "Name": "LAMOTRIGINE ER 300 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1098608",
-  "Generic_RxCUI": "1098610",
+  "Brand_RxCUI": "1098610",
+  "Generic_RxCUI": "1098608",
   "prices": {
     "55111042830": {
       "05/19/2021": 4.5472,

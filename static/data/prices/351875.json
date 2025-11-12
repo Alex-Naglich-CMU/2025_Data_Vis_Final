@@ -2,8 +2,8 @@
   "RxCUI": "351875",
   "Name": "TRANSDERM-SCOP 1.5 MG (1 MG/3D)",
   "IsBrand": true,
-  "Brand_RxCUI": "226552",
-  "Generic_RxCUI": "351875",
+  "Brand_RxCUI": "351875",
+  "Generic_RxCUI": "226552",
   "prices": {
     "10019055304": {
       "05/19/2021": 20.48467,

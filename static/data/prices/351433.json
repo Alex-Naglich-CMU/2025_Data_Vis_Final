@@ -2,8 +2,8 @@
   "RxCUI": "351433",
   "Name": "NICODERM CQ 7 MG/24HR PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "198031",
-  "Generic_RxCUI": "351433",
+  "Brand_RxCUI": "351433",
+  "Generic_RxCUI": "198031",
   "prices": {
     "00135019605": {
       "07/19/2017": 3.01271,

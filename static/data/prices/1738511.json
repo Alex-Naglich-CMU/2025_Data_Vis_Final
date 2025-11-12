@@ -2,8 +2,8 @@
   "RxCUI": "1738511",
   "Name": "PAROXETINE HCL 40 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1738511",
-  "Generic_RxCUI": "211700",
+  "Brand_RxCUI": "211700",
+  "Generic_RxCUI": "1738511",
   "prices": {
     "13107015730": {
       "05/19/2021": 0.12151,

@@ -2,8 +2,8 @@
   "RxCUI": "795918",
   "Name": "VEREGEN 15% OINTMENT",
   "IsBrand": true,
-  "Brand_RxCUI": "753350",
-  "Generic_RxCUI": "795918",
+  "Brand_RxCUI": "795918",
+  "Generic_RxCUI": "753350",
   "prices": {
     "10337045003": {
       "12/31/2017": 43.73694

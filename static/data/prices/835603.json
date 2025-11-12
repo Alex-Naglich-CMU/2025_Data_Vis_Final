@@ -2,8 +2,8 @@
   "RxCUI": "835603",
   "Name": "TRAMADOL HCL 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "835603",
-  "Generic_RxCUI": "835605",
+  "Brand_RxCUI": "835605",
+  "Generic_RxCUI": "835603",
   "prices": {
     "57664037718": {
       "05/19/2021": 0.02447,

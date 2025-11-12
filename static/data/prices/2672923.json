@@ -2,8 +2,8 @@
   "RxCUI": "2672923",
   "Name": "LEVONORGESTREL-ETH ESTRADIOL-FE BISGLYC 0.1-0.02-36.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "2672923",
-  "Generic_RxCUI": "2699611",
+  "Brand_RxCUI": "2699611",
+  "Generic_RxCUI": "2672923",
   "prices": {
     "42192062303": {
       "04/17/2024": 7.34027,

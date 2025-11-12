@@ -2,8 +2,8 @@
   "RxCUI": "749837",
   "Name": "MICARDIS HCT 80-12.5 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "283317",
-  "Generic_RxCUI": "749837",
+  "Brand_RxCUI": "749837",
+  "Generic_RxCUI": "283317",
   "prices": {
     "00597004437": {
       "11/22/2017": 6.05273,

@@ -2,8 +2,8 @@
   "RxCUI": "199381",
   "Name": "POTASSIUM CITRATE ER 10 MEQ TB",
   "IsBrand": false,
-  "Brand_RxCUI": "199381",
-  "Generic_RxCUI": "603281",
+  "Brand_RxCUI": "603281",
+  "Generic_RxCUI": "199381",
   "prices": {
     "31722013001": {
       "05/19/2021": 0.39014,

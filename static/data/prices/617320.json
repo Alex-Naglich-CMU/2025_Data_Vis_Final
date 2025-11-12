@@ -2,8 +2,8 @@
   "RxCUI": "617320",
   "Name": "LIPITOR 40 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "617311",
-  "Generic_RxCUI": "617320",
+  "Brand_RxCUI": "617320",
+  "Generic_RxCUI": "617311",
   "prices": {
     "00071015723": {
       "06/01/2017": 12.66363,

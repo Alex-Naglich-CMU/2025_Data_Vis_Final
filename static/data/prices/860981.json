@@ -2,8 +2,8 @@
   "RxCUI": "860981",
   "Name": "METFORMIN HCL ER 750 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "860981",
-  "Generic_RxCUI": "860983",
+  "Brand_RxCUI": "860983",
+  "Generic_RxCUI": "860981",
   "prices": {
     "49483062401": {
       "05/19/2021": 0.0938,

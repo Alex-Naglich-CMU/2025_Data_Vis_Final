@@ -2,8 +2,8 @@
   "RxCUI": "213071",
   "Name": "EX-LAX CHOCOLATE",
   "IsBrand": true,
-  "Brand_RxCUI": "251020",
-  "Generic_RxCUI": "213071",
+  "Brand_RxCUI": "213071",
+  "Generic_RxCUI": "251020",
   "prices": {
     "00067000524": {
       "07/19/2017": 0.14827,

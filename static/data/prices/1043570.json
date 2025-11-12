@@ -2,8 +2,8 @@
   "RxCUI": "1043570",
   "Name": "SAXAGLIPTIN-METFORMIN ER 5-1,000 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1043570",
-  "Generic_RxCUI": "1043574",
+  "Brand_RxCUI": "1043574",
+  "Generic_RxCUI": "1043570",
   "prices": {
     "00378817793": {
       "05/22/2024": 8.47978,

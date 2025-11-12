@@ -2,8 +2,8 @@
   "RxCUI": "847913",
   "Name": "BYETTA 10 MCG DOSE PEN INJ",
   "IsBrand": true,
-  "Brand_RxCUI": "847910",
-  "Generic_RxCUI": "847913",
+  "Brand_RxCUI": "847913",
+  "Generic_RxCUI": "847910",
   "prices": {
     "00310652401": {
       "11/22/2017": 268.14386,

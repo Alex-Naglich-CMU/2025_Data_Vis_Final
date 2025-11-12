@@ -2,8 +2,8 @@
   "RxCUI": "315183",
   "Name": "POTASSIUM CL ER 8 MEQ CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "315183",
-  "Generic_RxCUI": "1658300",
+  "Brand_RxCUI": "1658300",
+  "Generic_RxCUI": "315183",
   "prices": {
     "59917010201": {
       "05/19/2021": 0.28158,

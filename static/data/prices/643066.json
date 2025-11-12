@@ -2,8 +2,8 @@
   "RxCUI": "643066",
   "Name": "EFAVIRENZ-EMTRICITABINE-TENOFOV DISOP FUM 600-200-300 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "643066",
-  "Generic_RxCUI": "643070",
+  "Brand_RxCUI": "643070",
+  "Generic_RxCUI": "643066",
   "prices": {
     "69097021002": {
       "05/19/2021": 8.16948,

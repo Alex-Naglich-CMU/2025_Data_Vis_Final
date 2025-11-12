@@ -2,8 +2,8 @@
   "RxCUI": "283317",
   "Name": "TELMISARTAN-HYDROCHLOROTHIAZIDE 80-12.5 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "283317",
-  "Generic_RxCUI": "749837",
+  "Brand_RxCUI": "749837",
+  "Generic_RxCUI": "283317",
   "prices": {
     "65862097703": {
       "05/19/2021": 1.53519,

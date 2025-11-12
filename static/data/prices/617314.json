@@ -2,8 +2,8 @@
   "RxCUI": "617314",
   "Name": "LIPITOR 10 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "617312",
-  "Generic_RxCUI": "617314",
+  "Brand_RxCUI": "617314",
+  "Generic_RxCUI": "617312",
   "prices": {
     "00071015523": {
       "06/01/2017": 8.74693,

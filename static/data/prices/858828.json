@@ -2,8 +2,8 @@
   "RxCUI": "858828",
   "Name": "ENALAPRIL-HYDROCHLOROTHIAZIDE 10-25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "858828",
-  "Generic_RxCUI": "858830",
+  "Brand_RxCUI": "858830",
+  "Generic_RxCUI": "858828",
   "prices": {
     "00378072301": {
       "05/19/2021": 0.18212,

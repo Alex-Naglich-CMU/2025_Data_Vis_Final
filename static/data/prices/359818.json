@@ -2,8 +2,8 @@
   "RxCUI": "359818",
   "Name": "NICOTINE 4 MG LOZENGE",
   "IsBrand": false,
-  "Brand_RxCUI": "359818",
-  "Generic_RxCUI": "968851",
+  "Brand_RxCUI": "968851",
+  "Generic_RxCUI": "359818",
   "prices": {
     "36800087305": {
       "05/19/2021": 0.35841,

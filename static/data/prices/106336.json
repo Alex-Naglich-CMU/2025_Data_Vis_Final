@@ -2,8 +2,8 @@
   "RxCUI": "106336",
   "Name": "KETOCONAZOLE 2% SHAMPOO",
   "IsBrand": false,
-  "Brand_RxCUI": "106336",
-  "Generic_RxCUI": "206978",
+  "Brand_RxCUI": "206978",
+  "Generic_RxCUI": "106336",
   "prices": {
     "45802046564": {
       "05/19/2021": 0.10131,

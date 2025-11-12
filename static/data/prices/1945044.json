@@ -2,8 +2,8 @@
   "RxCUI": "1945044",
   "Name": "TRELEGY ELLIPTA 100-62.5-25",
   "IsBrand": true,
-  "Brand_RxCUI": "1945039",
-  "Generic_RxCUI": "1945044",
+  "Brand_RxCUI": "1945044",
+  "Generic_RxCUI": "1945039",
   "prices": {
     "00173088714": {
       "01/01/2019": 8.70281,

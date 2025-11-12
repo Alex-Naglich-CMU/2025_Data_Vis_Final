@@ -2,8 +2,8 @@
   "RxCUI": "209002",
   "Name": "PRED MILD 0.12% EYE DROPS",
   "IsBrand": true,
-  "Brand_RxCUI": "562379",
-  "Generic_RxCUI": "209002",
+  "Brand_RxCUI": "209002",
+  "Generic_RxCUI": "562379",
   "prices": {
     "11980017405": {
       "11/22/2017": 24.4556,

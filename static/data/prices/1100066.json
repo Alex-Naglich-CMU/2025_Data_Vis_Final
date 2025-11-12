@@ -2,8 +2,8 @@
   "RxCUI": "1100066",
   "Name": "IBUPROFEN-FAMOTIDIN 800-26.6 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "1100066",
-  "Generic_RxCUI": "1100070",
+  "Brand_RxCUI": "1100070",
+  "Generic_RxCUI": "1100066",
   "prices": {
     "67877062690": {
       "4/20/2022": 3.58475,

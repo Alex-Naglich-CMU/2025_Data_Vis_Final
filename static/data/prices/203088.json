@@ -2,8 +2,8 @@
   "RxCUI": "203088",
   "Name": "KETOCONAZOLE 2% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "203088",
-  "Generic_RxCUI": "604651",
+  "Brand_RxCUI": "604651",
+  "Generic_RxCUI": "203088",
   "prices": {
     "00093321992": {
       "05/19/2021": 0.39295,

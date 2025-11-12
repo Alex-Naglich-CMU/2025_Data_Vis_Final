@@ -2,8 +2,8 @@
   "RxCUI": "310377",
   "Name": "FLUOROMETHOLONE 0.1% DROPS",
   "IsBrand": false,
-  "Brand_RxCUI": "310377",
-  "Generic_RxCUI": "545243",
+  "Brand_RxCUI": "545243",
+  "Generic_RxCUI": "310377",
   "prices": {
     "60758088005": {
       "05/19/2021": 13.28822,

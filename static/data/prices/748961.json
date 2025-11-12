@@ -2,8 +2,8 @@
   "RxCUI": "748961",
   "Name": "NORETHINDRONE 0.35 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "748961",
-  "Generic_RxCUI": "2716571",
+  "Brand_RxCUI": "2716571",
+  "Generic_RxCUI": "748961",
   "prices": {
     "00378729253": {
       "05/19/2021": 0.22327,

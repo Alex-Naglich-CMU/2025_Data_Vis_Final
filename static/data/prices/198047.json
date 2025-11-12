@@ -2,8 +2,8 @@
   "RxCUI": "198047",
   "Name": "NORTRIPTYLINE HCL 75 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "198047",
-  "Generic_RxCUI": "209391",
+  "Brand_RxCUI": "209391",
+  "Generic_RxCUI": "198047",
   "prices": {
     "51862094801": {
       "05/19/2021": 0.19161,

@@ -2,8 +2,8 @@
   "RxCUI": "311288",
   "Name": "LEVETIRACETAM 250 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311288",
-  "Generic_RxCUI": "1875868",
+  "Brand_RxCUI": "1875868",
+  "Generic_RxCUI": "311288",
   "prices": {
     "68180011202": {
       "05/19/2021": 0.08736,

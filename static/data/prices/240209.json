@@ -2,8 +2,8 @@
   "RxCUI": "240209",
   "Name": "BETAMETHASONE DP 0.05% LOT",
   "IsBrand": false,
-  "Brand_RxCUI": "240209",
-  "Generic_RxCUI": "351894",
+  "Brand_RxCUI": "351894",
+  "Generic_RxCUI": "240209",
   "prices": {
     "45802002146": {
       "05/19/2021": 0.44694,

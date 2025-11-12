@@ -2,8 +2,8 @@
   "RxCUI": "313412",
   "Name": "TIZANIDINE HCL 2 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "313412",
-  "Generic_RxCUI": "153734",
+  "Brand_RxCUI": "153734",
+  "Generic_RxCUI": "313412",
   "prices": {
     "68084077595": {
       "05/19/2021": 0.05558,

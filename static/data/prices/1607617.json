@@ -2,8 +2,8 @@
   "RxCUI": "1607617",
   "Name": "DESVENLAFAXINE SUCCNT ER 25 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "1607617",
-  "Generic_RxCUI": "1607619",
+  "Brand_RxCUI": "1607619",
+  "Generic_RxCUI": "1607617",
   "prices": {
     "00591406030": {
       "05/19/2021": 0.71085,

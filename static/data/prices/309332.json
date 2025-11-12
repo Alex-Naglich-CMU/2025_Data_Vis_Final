@@ -2,8 +2,8 @@
   "RxCUI": "309332",
   "Name": "CLINDAMYCIN PHOSPHATE 1% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "309332",
-  "Generic_RxCUI": "351330",
+  "Brand_RxCUI": "351330",
+  "Generic_RxCUI": "309332",
   "prices": {
     "68682046275": {
       "8/17/2022": 9.41486,

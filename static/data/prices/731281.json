@@ -2,8 +2,8 @@
   "RxCUI": "731281",
   "Name": "HUMALOG MIX 50-50 VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "260265",
-  "Generic_RxCUI": "731281",
+  "Brand_RxCUI": "731281",
+  "Generic_RxCUI": "260265",
   "prices": {
     "00002751201": {
       "10/18/2017": 26.9988,

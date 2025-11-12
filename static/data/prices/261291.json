@@ -2,8 +2,8 @@
   "RxCUI": "261291",
   "Name": "TEMODAR 250 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "313210",
-  "Generic_RxCUI": "261291",
+  "Brand_RxCUI": "261291",
+  "Generic_RxCUI": "313210",
   "prices": {
     "00085141702": {
       "01/05/2018": 1091.67094

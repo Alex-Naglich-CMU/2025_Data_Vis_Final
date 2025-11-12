@@ -2,8 +2,8 @@
   "RxCUI": "197499",
   "Name": "CHLORTHALIDONE 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197499",
-  "Generic_RxCUI": "214083",
+  "Brand_RxCUI": "214083",
+  "Generic_RxCUI": "197499",
   "prices": {
     "43598071901": {
       "05/19/2021": 0.19073,

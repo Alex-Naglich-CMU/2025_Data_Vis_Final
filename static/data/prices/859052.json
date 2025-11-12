@@ -2,8 +2,8 @@
   "RxCUI": "859052",
   "Name": "PRAMIPEXOLE 1 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "859052",
-  "Generic_RxCUI": "859054",
+  "Brand_RxCUI": "859054",
+  "Generic_RxCUI": "859052",
   "prices": {
     "33342003410": {
       "05/19/2021": 0.05987,

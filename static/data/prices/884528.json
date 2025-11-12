@@ -2,8 +2,8 @@
   "RxCUI": "884528",
   "Name": "DEXEDRINE SPANSULE 10 MG",
   "IsBrand": true,
-  "Brand_RxCUI": "884520",
-  "Generic_RxCUI": "884528",
+  "Brand_RxCUI": "884528",
+  "Generic_RxCUI": "884520",
   "prices": {
     "52054051309": {
       "09/01/2017": 18.62846,

@@ -2,8 +2,8 @@
   "RxCUI": "1876406",
   "Name": "DUPIXENT 300 MG/2 ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "1876401",
-  "Generic_RxCUI": "1876406",
+  "Brand_RxCUI": "1876406",
+  "Generic_RxCUI": "1876401",
   "prices": {
     "00024591401": {
       "01/03/2020": 751.40947,

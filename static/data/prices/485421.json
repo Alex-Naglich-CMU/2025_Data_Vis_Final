@@ -2,8 +2,8 @@
   "RxCUI": "485421",
   "Name": "DARIFENACIN ER 15 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "485421",
-  "Generic_RxCUI": "543021",
+  "Brand_RxCUI": "543021",
+  "Generic_RxCUI": "485421",
   "prices": {
     "69097043205": {
       "06/23/2021": 1.93242,

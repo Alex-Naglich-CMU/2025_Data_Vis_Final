@@ -2,8 +2,8 @@
   "RxCUI": "312935",
   "Name": "SENNA LAXATIVE 8.6 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312935",
-  "Generic_RxCUI": "763296",
+  "Brand_RxCUI": "763296",
+  "Generic_RxCUI": "312935",
   "prices": {
     "70000044703": {
       "05/19/2021": 0.02081,

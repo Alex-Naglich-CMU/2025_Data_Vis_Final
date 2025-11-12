@@ -2,8 +2,8 @@
   "RxCUI": "898342",
   "Name": "AMLODIPINE-BENAZEPRIL 10-20 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "898342",
-  "Generic_RxCUI": "898344",
+  "Brand_RxCUI": "898344",
+  "Generic_RxCUI": "898342",
   "prices": {
     "57237014601": {
       "05/19/2021": 0.17124,

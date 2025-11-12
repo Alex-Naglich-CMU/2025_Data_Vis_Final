@@ -2,8 +2,8 @@
   "RxCUI": "311264",
   "Name": "LAMOTRIGINE 25 MG DISPER TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "311264",
-  "Generic_RxCUI": "201240",
+  "Brand_RxCUI": "201240",
+  "Generic_RxCUI": "311264",
   "prices": {
     "65862036201": {
       "05/19/2021": 0.29667,

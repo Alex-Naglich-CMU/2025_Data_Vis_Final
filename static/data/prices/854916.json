@@ -2,8 +2,8 @@
   "RxCUI": "854916",
   "Name": "BISOPROLOL-HYDROCHLOROTHIAZIDE 2.5-6.25 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "854916",
-  "Generic_RxCUI": "854918",
+  "Brand_RxCUI": "854918",
+  "Generic_RxCUI": "854916",
   "prices": {
     "00093324101": {
       "05/19/2021": 0.34055,

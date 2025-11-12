@@ -2,8 +2,8 @@
   "RxCUI": "284400",
   "Name": "PROTONIX DR 40 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "314200",
-  "Generic_RxCUI": "284400",
+  "Brand_RxCUI": "284400",
+  "Generic_RxCUI": "314200",
   "prices": {
     "00008084181": {
       "06/01/2017": 12.47925,

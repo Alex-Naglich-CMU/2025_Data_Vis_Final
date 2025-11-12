@@ -2,8 +2,8 @@
   "RxCUI": "861583",
   "Name": "NEXIUM DR 40 MG PACKET",
   "IsBrand": true,
-  "Brand_RxCUI": "692578",
-  "Generic_RxCUI": "861583",
+  "Brand_RxCUI": "861583",
+  "Generic_RxCUI": "692578",
   "prices": {
     "00186404001": {
       "08/23/2017": 8.64095,

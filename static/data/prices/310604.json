@@ -2,8 +2,8 @@
   "RxCUI": "310604",
   "Name": "GUAIFENESIN 100 MG/5 ML LIQUID",
   "IsBrand": false,
-  "Brand_RxCUI": "310604",
-  "Generic_RxCUI": "992212",
+  "Brand_RxCUI": "992212",
+  "Generic_RxCUI": "310604",
   "prices": {
     "58657050916": {
       "05/19/2021": 0.00978,

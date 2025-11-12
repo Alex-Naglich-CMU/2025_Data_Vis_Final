@@ -2,8 +2,8 @@
   "RxCUI": "2601770",
   "Name": "MOUNJARO 10 MG/0.5 ML PEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2601767",
-  "Generic_RxCUI": "2601770",
+  "Brand_RxCUI": "2601770",
+  "Generic_RxCUI": "2601767",
   "prices": {
     "00002147180": {
       "01/01/2023": 490.6332,

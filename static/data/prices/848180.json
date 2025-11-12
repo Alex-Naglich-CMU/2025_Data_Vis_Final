@@ -2,8 +2,8 @@
   "RxCUI": "848180",
   "Name": "BETAMETHASONE DP AUG 0.05% OIN",
   "IsBrand": false,
-  "Brand_RxCUI": "848180",
-  "Generic_RxCUI": "848200",
+  "Brand_RxCUI": "848200",
+  "Generic_RxCUI": "848180",
   "prices": {
     "00168026850": {
       "05/19/2021": 1.28859,

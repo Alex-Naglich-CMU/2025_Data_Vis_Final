@@ -2,8 +2,8 @@
   "RxCUI": "204844",
   "Name": "AZITHROMYCIN 600 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "204844",
-  "Generic_RxCUI": "211511",
+  "Brand_RxCUI": "211511",
+  "Generic_RxCUI": "204844",
   "prices": {
     "60687031425": {
       "05/19/2021": 2.04256,

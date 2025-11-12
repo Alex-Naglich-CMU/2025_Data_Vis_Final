@@ -2,8 +2,8 @@
   "RxCUI": "861576",
   "Name": "NEXIUM DR 20 MG PACKET",
   "IsBrand": true,
-  "Brand_RxCUI": "692576",
-  "Generic_RxCUI": "861576",
+  "Brand_RxCUI": "861576",
+  "Generic_RxCUI": "692576",
   "prices": {
     "00186402001": {
       "02/21/2018": 8.67283,

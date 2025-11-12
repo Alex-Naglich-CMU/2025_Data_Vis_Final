@@ -2,8 +2,8 @@
   "RxCUI": "1806210",
   "Name": "METHYLPHENIDATE ER 40 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1806210",
-  "Generic_RxCUI": "1648195",
+  "Brand_RxCUI": "1648195",
+  "Generic_RxCUI": "1806210",
   "prices": {
     "00591389119": {
       "05/22/2024": 4.14711,

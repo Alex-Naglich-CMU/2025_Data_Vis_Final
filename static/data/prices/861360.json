@@ -2,8 +2,8 @@
   "RxCUI": "861360",
   "Name": "FONDAPARINUX 2.5 MG/0.5 ML SYR",
   "IsBrand": false,
-  "Brand_RxCUI": "861360",
-  "Generic_RxCUI": "861362",
+  "Brand_RxCUI": "861362",
+  "Generic_RxCUI": "861360",
   "prices": {
     "67457058210": {
       "08/23/2017": 31.58457,

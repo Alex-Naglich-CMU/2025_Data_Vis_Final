@@ -2,8 +2,8 @@
   "RxCUI": "252294",
   "Name": "SIMETHICONE 180 MG SOFTGEL",
   "IsBrand": false,
-  "Brand_RxCUI": "252294",
-  "Generic_RxCUI": "860055",
+  "Brand_RxCUI": "860055",
+  "Generic_RxCUI": "252294",
   "prices": {
     "00536130608": {
       "05/19/2021": 0.05938,

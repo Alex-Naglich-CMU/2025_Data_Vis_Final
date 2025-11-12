@@ -2,8 +2,8 @@
   "RxCUI": "978668",
   "Name": "DIETHYLPROPION ER 75 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "978668",
-  "Generic_RxCUI": "978686",
+  "Brand_RxCUI": "978686",
+  "Generic_RxCUI": "978668",
   "prices": {
     "00527147701": {
       "05/19/2021": 1.1346,

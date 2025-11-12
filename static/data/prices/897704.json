@@ -2,8 +2,8 @@
   "RxCUI": "897704",
   "Name": "DILAUDID 4 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "897702",
-  "Generic_RxCUI": "897704",
+  "Brand_RxCUI": "897704",
+  "Generic_RxCUI": "897702",
   "prices": {
     "42858023401": {
       "05/22/2024": 3.6293,

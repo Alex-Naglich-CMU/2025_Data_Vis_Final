@@ -2,8 +2,8 @@
   "RxCUI": "895487",
   "Name": "FLUTICASONE PROP 0.005% OINT",
   "IsBrand": false,
-  "Brand_RxCUI": "895487",
-  "Generic_RxCUI": "895697",
+  "Brand_RxCUI": "895697",
+  "Generic_RxCUI": "895487",
   "prices": {
     "00713063260": {
       "05/19/2021": 0.4113,

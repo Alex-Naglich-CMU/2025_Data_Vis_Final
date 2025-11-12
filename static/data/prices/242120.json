@@ -2,8 +2,8 @@
   "RxCUI": "242120",
   "Name": "INSULIN LISPRO 100 UNIT/ML VL",
   "IsBrand": false,
-  "Brand_RxCUI": "242120",
-  "Generic_RxCUI": "1992169",
+  "Brand_RxCUI": "1992169",
+  "Generic_RxCUI": "242120",
   "prices": {
     "00002773701": {
       "05/19/2021": 13.20979,

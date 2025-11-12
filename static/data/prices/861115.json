@@ -2,8 +2,8 @@
   "RxCUI": "861115",
   "Name": "NASCOBAL 500 MCG NASAL SPRAY",
   "IsBrand": true,
-  "Brand_RxCUI": "861113",
-  "Generic_RxCUI": "861115",
+  "Brand_RxCUI": "861115",
+  "Generic_RxCUI": "861113",
   "prices": {
     "49884027082": {
       "05/19/2021": 154.32385,

@@ -2,8 +2,8 @@
   "RxCUI": "858342",
   "Name": "DICLOFENAC POTASSIUM 25 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "858342",
-  "Generic_RxCUI": "858346",
+  "Brand_RxCUI": "858346",
+  "Generic_RxCUI": "858342",
   "prices": {
     "00480943589": {
       "05/22/2024": 6.96031,

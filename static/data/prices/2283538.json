@@ -2,8 +2,8 @@
   "RxCUI": "2283538",
   "Name": "XCOPRI 12.5-25 MG TITRATION PK",
   "IsBrand": true,
-  "Brand_RxCUI": "2283523",
-  "Generic_RxCUI": "2283538",
+  "Brand_RxCUI": "2283538",
+  "Generic_RxCUI": "2283523",
   "prices": {
     "71699020128": {
       "01/01/2022": 3.31165,

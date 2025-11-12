@@ -2,8 +2,8 @@
   "RxCUI": "214003",
   "Name": "XANAX 1 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "197321",
-  "Generic_RxCUI": "214003",
+  "Brand_RxCUI": "214003",
+  "Generic_RxCUI": "197321",
   "prices": {
     "00009009004": {
       "06/01/2017": 5.82471,

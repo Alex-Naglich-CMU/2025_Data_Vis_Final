@@ -2,8 +2,8 @@
   "RxCUI": "241527",
   "Name": "ESTRADIOL 0.075 MG PATCH(1/WK)",
   "IsBrand": false,
-  "Brand_RxCUI": "241527",
-  "Generic_RxCUI": "310178",
+  "Brand_RxCUI": "310178",
+  "Generic_RxCUI": "241527",
   "prices": {
     "00378335199": {
       "05/19/2021": 11.69781,

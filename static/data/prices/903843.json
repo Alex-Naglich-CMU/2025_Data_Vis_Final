@@ -2,8 +2,8 @@
   "RxCUI": "903843",
   "Name": "PYRIDOSTIGMINE 60 MG/5 ML SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "903843",
-  "Generic_RxCUI": "903845",
+  "Brand_RxCUI": "903845",
+  "Generic_RxCUI": "903843",
   "prices": {
     "16571083316": {
       "05/22/2024": 0.90857,

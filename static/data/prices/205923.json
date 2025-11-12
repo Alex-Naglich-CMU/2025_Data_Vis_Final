@@ -2,8 +2,8 @@
   "RxCUI": "205923",
   "Name": "EPOGEN 4,000 UNITS/ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "239999",
-  "Generic_RxCUI": "205923",
+  "Brand_RxCUI": "205923",
+  "Generic_RxCUI": "239999",
   "prices": {
     "55513014810": {
       "03/19/2025": 64.2708,

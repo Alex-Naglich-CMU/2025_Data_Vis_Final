@@ -2,8 +2,8 @@
   "RxCUI": "1359350",
   "Name": "TRIPLE ANTIBIOTIC-PAIN OINT",
   "IsBrand": false,
-  "Brand_RxCUI": "1359350",
-  "Generic_RxCUI": "1359356",
+  "Brand_RxCUI": "1359356",
+  "Generic_RxCUI": "1359350",
   "prices": {
     "70000039001": {
       "05/19/2021": 0.10964,

@@ -2,8 +2,8 @@
   "RxCUI": "251322",
   "Name": "ETHOSUXIMIDE 250 MG/5 ML SOLN",
   "IsBrand": false,
-  "Brand_RxCUI": "251322",
-  "Generic_RxCUI": "755357",
+  "Brand_RxCUI": "755357",
+  "Generic_RxCUI": "251322",
   "prices": {
     "59762235006": {
       "05/19/2021": 0.17895,

@@ -2,8 +2,8 @@
   "RxCUI": "309307",
   "Name": "CIPROFLOXACIN 0.3% EYE DROP",
   "IsBrand": false,
-  "Brand_RxCUI": "309307",
-  "Generic_RxCUI": "103943",
+  "Brand_RxCUI": "103943",
+  "Generic_RxCUI": "309307",
   "prices": {
     "17478071410": {
       "05/19/2021": 2.17101,

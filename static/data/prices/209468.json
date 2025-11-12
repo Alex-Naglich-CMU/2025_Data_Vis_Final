@@ -2,8 +2,8 @@
   "RxCUI": "209468",
   "Name": "EXCEDRIN EXTRA STRENGTH CAPLET",
   "IsBrand": true,
-  "Brand_RxCUI": "308297",
-  "Generic_RxCUI": "209468",
+  "Brand_RxCUI": "209468",
+  "Generic_RxCUI": "308297",
   "prices": {
     "00067200024": {
       "06/21/2017": 0.12961,

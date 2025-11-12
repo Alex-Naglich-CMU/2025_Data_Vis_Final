@@ -2,8 +2,8 @@
   "RxCUI": "617993",
   "Name": "AMOX-CLAV 600-42.9 MG/5 ML SUS",
   "IsBrand": false,
-  "Brand_RxCUI": "617993",
-  "Generic_RxCUI": "618028",
+  "Brand_RxCUI": "618028",
+  "Generic_RxCUI": "617993",
   "prices": {
     "00143985324": {
       "05/19/2021": 0.05307,

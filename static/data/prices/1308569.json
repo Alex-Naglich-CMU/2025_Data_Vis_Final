@@ -2,8 +2,8 @@
   "RxCUI": "1308569",
   "Name": "RIVASTIGMINE 13.3 MG/24HR PTCH",
   "IsBrand": false,
-  "Brand_RxCUI": "1308569",
-  "Generic_RxCUI": "1308571",
+  "Brand_RxCUI": "1308571",
+  "Generic_RxCUI": "1308569",
   "prices": {
     "16714011702": {
       "05/19/2021": 3.72222,

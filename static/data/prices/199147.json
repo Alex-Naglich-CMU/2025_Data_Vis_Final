@@ -2,8 +2,8 @@
   "RxCUI": "199147",
   "Name": "LAMIVUDINE 150 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "199147",
-  "Generic_RxCUI": "152931",
+  "Brand_RxCUI": "152931",
+  "Generic_RxCUI": "199147",
   "prices": {
     "00904658304": {
       "06/21/2017": 1.34403,

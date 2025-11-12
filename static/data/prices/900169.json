@@ -2,8 +2,8 @@
   "RxCUI": "900169",
   "Name": "LAMICTAL XR 50 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "850091",
-  "Generic_RxCUI": "900169",
+  "Brand_RxCUI": "900169",
+  "Generic_RxCUI": "850091",
   "prices": {
     "00173075500": {
       "01/01/2018": 20.54965,

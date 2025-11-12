@@ -2,8 +2,8 @@
   "RxCUI": "992460",
   "Name": "PROMETHAZINE 25 MG/ML VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "992460",
-  "Generic_RxCUI": "992462",
+  "Brand_RxCUI": "992462",
+  "Generic_RxCUI": "992460",
   "prices": {
     "00641092825": {
       "07/19/2017": 1.14173,

@@ -2,8 +2,8 @@
   "RxCUI": "197518",
   "Name": "CLINDAMYCIN HCL 150 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "197518",
-  "Generic_RxCUI": "748746",
+  "Brand_RxCUI": "748746",
+  "Generic_RxCUI": "197518",
   "prices": {
     "65862018501": {
       "05/19/2021": 0.13982,

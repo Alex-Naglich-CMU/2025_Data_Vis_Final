@@ -2,8 +2,8 @@
   "RxCUI": "966184",
   "Name": "LEVOXYL 112 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "966248",
-  "Generic_RxCUI": "966184",
+  "Brand_RxCUI": "966184",
+  "Generic_RxCUI": "966248",
   "prices": {
     "60793085501": {
       "06/01/2017": 0.86073,

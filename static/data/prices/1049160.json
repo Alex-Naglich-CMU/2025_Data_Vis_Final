@@ -2,8 +2,8 @@
   "RxCUI": "1049160",
   "Name": "NASAL DECONGESTANT 30 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1049160",
-  "Generic_RxCUI": "1361515",
+  "Brand_RxCUI": "1361515",
+  "Generic_RxCUI": "1049160",
   "prices": {
     "70000000202": {
       "05/19/2021": 0.05596,

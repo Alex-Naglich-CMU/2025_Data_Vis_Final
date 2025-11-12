@@ -2,8 +2,8 @@
   "RxCUI": "1009145",
   "Name": "DEXTROAMP-AMPHETAM 7.5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1009145",
-  "Generic_RxCUI": "1009147",
+  "Brand_RxCUI": "1009147",
+  "Generic_RxCUI": "1009145",
   "prices": {
     "11534019101": {
       "05/19/2021": 0.71964,

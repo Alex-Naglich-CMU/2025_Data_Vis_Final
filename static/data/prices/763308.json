@@ -2,8 +2,8 @@
   "RxCUI": "763308",
   "Name": "PROTONIX 40 MG SUSPENSION",
   "IsBrand": true,
-  "Brand_RxCUI": "763306",
-  "Generic_RxCUI": "763308",
+  "Brand_RxCUI": "763308",
+  "Generic_RxCUI": "763306",
   "prices": {
     "00008084401": {
       "06/01/2017": 12.65053,

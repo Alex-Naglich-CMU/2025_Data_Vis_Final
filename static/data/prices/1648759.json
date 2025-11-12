@@ -2,8 +2,8 @@
   "RxCUI": "1648759",
   "Name": "NITROFURANTOIN MCR 100 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1648759",
-  "Generic_RxCUI": "201883",
+  "Brand_RxCUI": "201883",
+  "Generic_RxCUI": "1648759",
   "prices": {
     "57664023388": {
       "05/19/2021": 0.66275,

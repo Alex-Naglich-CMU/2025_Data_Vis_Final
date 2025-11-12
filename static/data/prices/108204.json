@@ -2,8 +2,8 @@
   "RxCUI": "108204",
   "Name": "BETADINE 5% SPRAY",
   "IsBrand": true,
-  "Brand_RxCUI": "238850",
-  "Generic_RxCUI": "108204",
+  "Brand_RxCUI": "108204",
+  "Generic_RxCUI": "238850",
   "prices": {
     "67618016003": {
       "05/22/2019": 0.06773,

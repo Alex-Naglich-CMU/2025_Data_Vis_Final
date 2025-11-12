@@ -2,8 +2,8 @@
   "RxCUI": "866514",
   "Name": "METOPROLOL TARTRATE 50 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "866514",
-  "Generic_RxCUI": "866516",
+  "Brand_RxCUI": "866516",
+  "Generic_RxCUI": "866514",
   "prices": {
     "57664047758": {
       "05/19/2021": 0.02354,

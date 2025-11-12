@@ -2,8 +2,8 @@
   "RxCUI": "801965",
   "Name": "DIASTAT ACUDIAL 12.5-15-20 MG",
   "IsBrand": true,
-  "Brand_RxCUI": "801966",
-  "Generic_RxCUI": "801965",
+  "Brand_RxCUI": "801965",
+  "Generic_RxCUI": "801966",
   "prices": {
     "00187065920": {
       "07/19/2017": 296.054,

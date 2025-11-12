@@ -2,8 +2,8 @@
   "RxCUI": "213073",
   "Name": "EX-LAX MAXIMUM STR 25 MG TAB",
   "IsBrand": true,
-  "Brand_RxCUI": "251292",
-  "Generic_RxCUI": "213073",
+  "Brand_RxCUI": "213073",
+  "Generic_RxCUI": "251292",
   "prices": {
     "00067001624": {
       "01/17/2018": 0.20125,

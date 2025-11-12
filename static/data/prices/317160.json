@@ -2,8 +2,8 @@
   "RxCUI": "317160",
   "Name": "TEMOZOLOMIDE 100 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "317160",
-  "Generic_RxCUI": "261290",
+  "Brand_RxCUI": "261290",
+  "Generic_RxCUI": "317160",
   "prices": {
     "16571081841": {
       "07/17/2024": 8.91683,

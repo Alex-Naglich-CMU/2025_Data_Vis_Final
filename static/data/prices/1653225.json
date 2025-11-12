@@ -2,8 +2,8 @@
   "RxCUI": "1653225",
   "Name": "ENBREL 50 MG/ML SURECLICK",
   "IsBrand": true,
-  "Brand_RxCUI": "1653223",
-  "Generic_RxCUI": "1653225",
+  "Brand_RxCUI": "1653225",
+  "Generic_RxCUI": "1653223",
   "prices": {
     "58406003204": {
       "01/17/2020": 1352.2991,

@@ -2,8 +2,8 @@
   "RxCUI": "905455",
   "Name": "LEVOTHYROXINE 137 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "905455",
-  "Generic_RxCUI": "905457",
+  "Brand_RxCUI": "905457",
+  "Generic_RxCUI": "905455",
   "prices": {
     "00527495932": {
       "04/17/2024": 2.42894,

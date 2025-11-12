@@ -2,8 +2,8 @@
   "RxCUI": "637216",
   "Name": "VIVITROL 380 MG VIAL + DILUENT",
   "IsBrand": true,
-  "Brand_RxCUI": "637213",
-  "Generic_RxCUI": "637216",
+  "Brand_RxCUI": "637216",
+  "Generic_RxCUI": "637213",
   "prices": {
     "65757030001": {
       "08/23/2017": 1260.06056,

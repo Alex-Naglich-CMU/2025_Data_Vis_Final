@@ -2,8 +2,8 @@
   "RxCUI": "1249617",
   "Name": "BUTALBITAL-ACETAMINOPHEN 50-300 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1249617",
-  "Generic_RxCUI": "1428622",
+  "Brand_RxCUI": "1428622",
+  "Generic_RxCUI": "1249617",
   "prices": {
     "47781053401": {
       "08/23/2017": 11.40808,

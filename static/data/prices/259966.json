@@ -2,8 +2,8 @@
   "RxCUI": "259966",
   "Name": "METHYLPREDNISOLONE 4 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "259966",
-  "Generic_RxCUI": "260330",
+  "Brand_RxCUI": "260330",
+  "Generic_RxCUI": "259966",
   "prices": {
     "68382091601": {
       "05/19/2021": 0.21867,

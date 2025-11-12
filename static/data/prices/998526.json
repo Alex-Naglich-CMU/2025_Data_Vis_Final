@@ -2,8 +2,8 @@
   "RxCUI": "998526",
   "Name": "FUNGOID 2% TINCTURE",
   "IsBrand": true,
-  "Brand_RxCUI": "998525",
-  "Generic_RxCUI": "998526",
+  "Brand_RxCUI": "998526",
+  "Generic_RxCUI": "998525",
   "prices": {
     "00884029301": {
       "08/23/2017": 0.60609,

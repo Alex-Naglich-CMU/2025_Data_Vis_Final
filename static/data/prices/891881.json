@@ -2,8 +2,8 @@
   "RxCUI": "891881",
   "Name": "MORPHINE SULF ER 15 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "891881",
-  "Generic_RxCUI": "892574",
+  "Brand_RxCUI": "892574",
+  "Generic_RxCUI": "891881",
   "prices": {
     "00406831501": {
       "05/19/2021": 0.20871,

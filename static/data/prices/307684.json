@@ -2,8 +2,8 @@
   "RxCUI": "307684",
   "Name": "MAPAP 500 MG/15 ML LIQUID",
   "IsBrand": false,
-  "Brand_RxCUI": "307684",
-  "Generic_RxCUI": "209425",
+  "Brand_RxCUI": "209425",
+  "Generic_RxCUI": "307684",
   "prices": {
     "00904584709": {
       "07/21/2021": 0.01261,

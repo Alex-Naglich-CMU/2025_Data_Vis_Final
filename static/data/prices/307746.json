@@ -2,8 +2,8 @@
   "RxCUI": "307746",
   "Name": "ANTACID-ANTIGAS LIQUID",
   "IsBrand": false,
-  "Brand_RxCUI": "307746",
-  "Generic_RxCUI": "210037",
+  "Brand_RxCUI": "210037",
+  "Generic_RxCUI": "307746",
   "prices": {
     "00536129383": {
       "05/19/2021": 0.0069,

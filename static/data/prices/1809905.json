@@ -2,8 +2,8 @@
   "RxCUI": "1809905",
   "Name": "TAYTULLA 1 MG-20 MCG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "1421461",
-  "Generic_RxCUI": "1809905",
+  "Brand_RxCUI": "1809905",
+  "Generic_RxCUI": "1421461",
   "prices": {
     "00023586228": {
       "05/19/2021": 7.09179,

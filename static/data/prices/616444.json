@@ -2,8 +2,8 @@
   "RxCUI": "616444",
   "Name": "CELLCEPT 200 MG/ML ORAL SUSP",
   "IsBrand": true,
-  "Brand_RxCUI": "311880",
-  "Generic_RxCUI": "616444",
+  "Brand_RxCUI": "616444",
+  "Generic_RxCUI": "311880",
   "prices": {
     "00004026129": {
       "01/01/2018": 8.27764,

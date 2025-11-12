@@ -2,8 +2,8 @@
   "RxCUI": "1087399",
   "Name": "HEMOCYTE PLUS CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "802693",
-  "Generic_RxCUI": "1087399",
+  "Brand_RxCUI": "1087399",
+  "Generic_RxCUI": "802693",
   "prices": {
     "52747080030": {
       "11/22/2017": 0.51706,

@@ -2,8 +2,8 @@
   "RxCUI": "2619154",
   "Name": "OZEMPIC 0.25-0.5 MG/DOSE (2 MG/3 ML) PEN",
   "IsBrand": true,
-  "Brand_RxCUI": "2619152",
-  "Generic_RxCUI": "2619154",
+  "Brand_RxCUI": "2619154",
+  "Generic_RxCUI": "2619152",
   "prices": {
     "00169418103": {
       "06/21/2023": 300.33926,

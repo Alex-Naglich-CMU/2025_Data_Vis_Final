@@ -2,8 +2,8 @@
   "RxCUI": "250344",
   "Name": "CICLOPIROX 1% SHAMPOO",
   "IsBrand": false,
-  "Brand_RxCUI": "250344",
-  "Generic_RxCUI": "544743",
+  "Brand_RxCUI": "544743",
+  "Generic_RxCUI": "250344",
   "prices": {
     "00591215990": {
       "05/19/2021": 0.38305,

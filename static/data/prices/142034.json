@@ -2,8 +2,8 @@
   "RxCUI": "142034",
   "Name": "BENZOYL PEROXIDE 10% WASH",
   "IsBrand": false,
-  "Brand_RxCUI": "142034",
-  "Generic_RxCUI": "992494",
+  "Brand_RxCUI": "992494",
+  "Generic_RxCUI": "142034",
   "prices": {
     "45802031801": {
       "05/19/2021": 0.048,

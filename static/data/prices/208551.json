@@ -2,8 +2,8 @@
   "RxCUI": "208551",
   "Name": "ARMOUR THYROID 300 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "315235",
-  "Generic_RxCUI": "208551",
+  "Brand_RxCUI": "208551",
+  "Generic_RxCUI": "315235",
   "prices": {
     "00456046401": {
       "01/01/2021": 1.72661,

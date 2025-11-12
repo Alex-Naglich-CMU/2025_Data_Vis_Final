@@ -2,8 +2,8 @@
   "RxCUI": "351223",
   "Name": "ZIPRASIDONE 20 MG/ML VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "351223",
-  "Generic_RxCUI": "352228",
+  "Brand_RxCUI": "352228",
+  "Generic_RxCUI": "351223",
   "prices": {
     "43598006158": {
       "07/23/2025": 16.8267,

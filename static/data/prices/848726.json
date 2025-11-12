@@ -2,8 +2,8 @@
   "RxCUI": "848726",
   "Name": "FANAPT 1 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "848722",
-  "Generic_RxCUI": "848726",
+  "Brand_RxCUI": "848726",
+  "Generic_RxCUI": "848722",
   "prices": {
     "43068010102": {
       "01/01/2020": 20.24071,

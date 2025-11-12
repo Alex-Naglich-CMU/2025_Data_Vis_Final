@@ -2,8 +2,8 @@
   "RxCUI": "197320",
   "Name": "ALLOPURINOL 300 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197320",
-  "Generic_RxCUI": "213998",
+  "Brand_RxCUI": "213998",
+  "Generic_RxCUI": "197320",
   "prices": {
     "16729013516": {
       "05/19/2021": 0.10465,

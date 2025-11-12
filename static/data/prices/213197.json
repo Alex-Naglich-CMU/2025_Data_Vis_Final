@@ -2,8 +2,8 @@
   "RxCUI": "213197",
   "Name": "REGRANEX 0.01% GEL",
   "IsBrand": true,
-  "Brand_RxCUI": "308579",
-  "Generic_RxCUI": "213197",
+  "Brand_RxCUI": "213197",
+  "Generic_RxCUI": "308579",
   "prices": {
     "50484081015": {
       "12/12/2017": 67.9848,

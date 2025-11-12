@@ -2,8 +2,8 @@
   "RxCUI": "727705",
   "Name": "HUMIRA 40 MG/0.8 ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "727703",
-  "Generic_RxCUI": "727705",
+  "Brand_RxCUI": "727705",
+  "Generic_RxCUI": "727703",
   "prices": {
     "00074379902": {
       "10/18/2017": 2145.35397,

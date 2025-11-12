@@ -2,8 +2,8 @@
   "RxCUI": "861204",
   "Name": "BRIMONIDINE TARTRATE 0.1% DROP",
   "IsBrand": false,
-  "Brand_RxCUI": "861204",
-  "Generic_RxCUI": "861206",
+  "Brand_RxCUI": "861206",
+  "Generic_RxCUI": "861204",
   "prices": {
     "60505057701": {
       "01/17/2024": 31.9324,

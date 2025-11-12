@@ -2,8 +2,8 @@
   "RxCUI": "977842",
   "Name": "NOVOLOG MIX 70-30 VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "351297",
-  "Generic_RxCUI": "977842",
+  "Brand_RxCUI": "977842",
+  "Generic_RxCUI": "351297",
   "prices": {
     "00169368512": {
       "02/21/2018": 27.41099,

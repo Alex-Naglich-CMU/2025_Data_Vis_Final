@@ -2,8 +2,8 @@
   "RxCUI": "966185",
   "Name": "SYNTHROID 112 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "966248",
-  "Generic_RxCUI": "966185",
+  "Brand_RxCUI": "966185",
+  "Generic_RxCUI": "966248",
   "prices": {
     "00074929619": {
       "12/22/2017": 1.13841,

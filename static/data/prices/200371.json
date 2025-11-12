@@ -2,8 +2,8 @@
   "RxCUI": "200371",
   "Name": "CITALOPRAM HBR 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200371",
-  "Generic_RxCUI": "213344",
+  "Brand_RxCUI": "213344",
+  "Generic_RxCUI": "200371",
   "prices": {
     "42806002010": {
       "05/19/2021": 0.02961,

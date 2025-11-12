@@ -2,8 +2,8 @@
   "RxCUI": "476973",
   "Name": "SM COUGH DROPS 5.8 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "476973",
-  "Generic_RxCUI": "2548889",
+  "Brand_RxCUI": "2548889",
+  "Generic_RxCUI": "476973",
   "prices": {
     "49348098744": {
       "05/19/2021": 0.03355,

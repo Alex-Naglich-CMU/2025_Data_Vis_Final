@@ -2,8 +2,8 @@
   "RxCUI": "197311",
   "Name": "ACYCLOVIR 400 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197311",
-  "Generic_RxCUI": "201905",
+  "Brand_RxCUI": "201905",
+  "Generic_RxCUI": "197311",
   "prices": {
     "68084010801": {
       "05/19/2021": 0.12073,

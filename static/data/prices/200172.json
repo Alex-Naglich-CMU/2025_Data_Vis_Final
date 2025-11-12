@@ -2,8 +2,8 @@
   "RxCUI": "200172",
   "Name": "FINASTERIDE 1 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200172",
-  "Generic_RxCUI": "213178",
+  "Brand_RxCUI": "213178",
+  "Generic_RxCUI": "200172",
   "prices": {
     "65862092730": {
       "05/19/2021": 0.08592,

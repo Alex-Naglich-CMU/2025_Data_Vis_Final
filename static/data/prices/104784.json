@@ -2,8 +2,8 @@
   "RxCUI": "104784",
   "Name": "RISPERDAL 4 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "314211",
-  "Generic_RxCUI": "104784",
+  "Brand_RxCUI": "104784",
+  "Generic_RxCUI": "314211",
   "prices": {
     "50458035001": {
       "11/20/2024": 12.39688,

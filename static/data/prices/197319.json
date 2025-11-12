@@ -2,8 +2,8 @@
   "RxCUI": "197319",
   "Name": "ALLOPURINOL 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197319",
-  "Generic_RxCUI": "213995",
+  "Brand_RxCUI": "213995",
+  "Generic_RxCUI": "197319",
   "prices": {
     "53489015601": {
       "05/19/2021": 0.06619,

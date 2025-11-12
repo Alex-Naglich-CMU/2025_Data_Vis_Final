@@ -2,8 +2,8 @@
   "RxCUI": "1010763",
   "Name": "XYLOCAINE 2%-EPI 1:100,000",
   "IsBrand": true,
-  "Brand_RxCUI": "1010759",
-  "Generic_RxCUI": "1010763",
+  "Brand_RxCUI": "1010763",
+  "Generic_RxCUI": "1010759",
   "prices": {
     "63323048327": {
       "11/20/2024": 0.22219,

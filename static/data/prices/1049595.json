@@ -2,8 +2,8 @@
   "RxCUI": "1049595",
   "Name": "OXYCONTIN 60 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1860127",
-  "Generic_RxCUI": "1049595",
+  "Brand_RxCUI": "1049595",
+  "Generic_RxCUI": "1860127",
   "prices": {
     "59011046010": {
       "11/22/2017": 14.54732,

@@ -2,8 +2,8 @@
   "RxCUI": "200327",
   "Name": "CAPECITABINE 150 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "200327",
-  "Generic_RxCUI": "213292",
+  "Brand_RxCUI": "213292",
+  "Generic_RxCUI": "200327",
   "prices": {
     "00093747306": {
       "06/19/2024": 0.43613,

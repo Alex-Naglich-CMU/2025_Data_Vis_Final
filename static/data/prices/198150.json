@@ -2,8 +2,8 @@
   "RxCUI": "198150",
   "Name": "PRIMIDONE 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198150",
-  "Generic_RxCUI": "207478",
+  "Brand_RxCUI": "207478",
+  "Generic_RxCUI": "198150",
   "prices": {
     "00527130105": {
       "05/19/2021": 0.16634,

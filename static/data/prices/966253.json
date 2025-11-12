@@ -2,8 +2,8 @@
   "RxCUI": "966253",
   "Name": "LEVOTHYROXINE 88 MCG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "966253",
-  "Generic_RxCUI": "966401",
+  "Brand_RxCUI": "966401",
+  "Generic_RxCUI": "966253",
   "prices": {
     "16729045017": {
       "05/19/2021": 0.23326,

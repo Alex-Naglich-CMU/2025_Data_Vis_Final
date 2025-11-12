@@ -2,8 +2,8 @@
   "RxCUI": "2605798",
   "Name": "METHYLPHENIDATE ER 45 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "2605798",
-  "Generic_RxCUI": "2605943",
+  "Brand_RxCUI": "2605943",
+  "Generic_RxCUI": "2605798",
   "prices": {
     "13811071130": {
       "05/22/2024": 14.1626,

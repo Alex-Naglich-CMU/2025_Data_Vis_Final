@@ -2,8 +2,8 @@
   "RxCUI": "797274",
   "Name": "CLINDAMYCIN PHOS 1% PLEDGET",
   "IsBrand": false,
-  "Brand_RxCUI": "797274",
-  "Generic_RxCUI": "1091339",
+  "Brand_RxCUI": "1091339",
+  "Generic_RxCUI": "797274",
   "prices": {
     "45802026337": {
       "05/19/2021": 0.37027,

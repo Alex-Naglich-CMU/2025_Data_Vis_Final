@@ -2,8 +2,8 @@
   "RxCUI": "848145",
   "Name": "AMLODIPINE-VALSARTAN-HYDROCHLOROTHIAZIDE 5-160-25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "848145",
-  "Generic_RxCUI": "848149",
+  "Brand_RxCUI": "848149",
+  "Generic_RxCUI": "848145",
   "prices": {
     "68180077306": {
       "06/21/2017": 2.7919,

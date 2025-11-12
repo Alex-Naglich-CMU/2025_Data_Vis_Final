@@ -2,8 +2,8 @@
   "RxCUI": "607020",
   "Name": "LYRICA 150 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "483440",
-  "Generic_RxCUI": "607020",
+  "Brand_RxCUI": "607020",
+  "Generic_RxCUI": "483440",
   "prices": {
     "00071101668": {
       "06/01/2017": 6.62318,

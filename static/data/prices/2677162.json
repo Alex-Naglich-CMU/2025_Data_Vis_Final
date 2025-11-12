@@ -2,8 +2,8 @@
   "RxCUI": "2677162",
   "Name": "ZITUVIMET 50-1,000 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "861769",
-  "Generic_RxCUI": "2677162",
+  "Brand_RxCUI": "2677162",
+  "Generic_RxCUI": "861769",
   "prices": {
     "70710178706": {
       "05/21/2025": 5.04473,

@@ -2,8 +2,8 @@
   "RxCUI": "905458",
   "Name": "LEVOTHYROXINE 75 MCG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "905458",
-  "Generic_RxCUI": "905460",
+  "Brand_RxCUI": "905460",
+  "Generic_RxCUI": "905458",
   "prices": {
     "00527495432": {
       "10/18/2023": 3.89261,

@@ -2,8 +2,8 @@
   "RxCUI": "198031",
   "Name": "NICOTINE 7 MG/24HR PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "198031",
-  "Generic_RxCUI": "351433",
+  "Brand_RxCUI": "351433",
+  "Generic_RxCUI": "198031",
   "prices": {
     "00536589453": {
       "05/19/2021": 1.74121,

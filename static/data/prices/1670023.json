@@ -2,8 +2,8 @@
   "RxCUI": "1670023",
   "Name": "TRESIBA FLEXTOUCH 200 UNIT/ML",
   "IsBrand": true,
-  "Brand_RxCUI": "1670021",
-  "Generic_RxCUI": "1670023",
+  "Brand_RxCUI": "1670023",
+  "Generic_RxCUI": "1670021",
   "prices": {
     "00169255013": {
       "06/23/2021": 65.09407,

@@ -2,8 +2,8 @@
   "RxCUI": "1790644",
   "Name": "BEVESPI AEROSPHERE INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "1790639",
-  "Generic_RxCUI": "1790644",
+  "Brand_RxCUI": "1790644",
+  "Generic_RxCUI": "1790639",
   "prices": {
     "00310460012": {
       "01/01/2018": 31.83667,

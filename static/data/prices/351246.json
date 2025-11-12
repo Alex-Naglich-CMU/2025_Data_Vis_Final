@@ -2,8 +2,8 @@
   "RxCUI": "351246",
   "Name": "MONTELUKAST SOD 4 MG GRANULES",
   "IsBrand": false,
-  "Brand_RxCUI": "351246",
-  "Generic_RxCUI": "404406",
+  "Brand_RxCUI": "404406",
+  "Generic_RxCUI": "351246",
   "prices": {
     "55111076307": {
       "05/19/2021": 1.46344,

@@ -2,8 +2,8 @@
   "RxCUI": "753562",
   "Name": "OMEPRAZOLE-BICARB 20-1,680 PKT",
   "IsBrand": false,
-  "Brand_RxCUI": "753562",
-  "Generic_RxCUI": "753603",
+  "Brand_RxCUI": "753603",
+  "Generic_RxCUI": "753562",
   "prices": {
     "27241002931": {
       "05/22/2024": 16.37481,

@@ -2,8 +2,8 @@
   "RxCUI": "899548",
   "Name": "DEXMETHYLPHENIDATE 10 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "899548",
-  "Generic_RxCUI": "899549",
+  "Brand_RxCUI": "899549",
+  "Generic_RxCUI": "899548",
   "prices": {
     "57664037988": {
       "05/19/2021": 0.27074,

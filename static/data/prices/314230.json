@@ -2,8 +2,8 @@
   "RxCUI": "314230",
   "Name": "SIROLIMUS 1 MG/ML SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "314230",
-  "Generic_RxCUI": "351901",
+  "Brand_RxCUI": "351901",
+  "Generic_RxCUI": "314230",
   "prices": {
     "59762120504": {
       "2/23/2022": 8.60227,

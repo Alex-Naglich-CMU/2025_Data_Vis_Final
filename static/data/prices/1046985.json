@@ -2,8 +2,8 @@
   "RxCUI": "1046985",
   "Name": "HYOSCYAMINE 0.125 MG ODT",
   "IsBrand": false,
-  "Brand_RxCUI": "1046985",
-  "Generic_RxCUI": "1242705",
+  "Brand_RxCUI": "1242705",
+  "Generic_RxCUI": "1046985",
   "prices": {
     "76439030710": {
       "05/19/2021": 0.19303,

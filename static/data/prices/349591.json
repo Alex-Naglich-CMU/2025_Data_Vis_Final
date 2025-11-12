@@ -2,8 +2,8 @@
   "RxCUI": "349591",
   "Name": "ATOMOXETINE HCL 10 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "349591",
-  "Generic_RxCUI": "352317",
+  "Brand_RxCUI": "352317",
+  "Generic_RxCUI": "349591",
   "prices": {
     "60505283003": {
       "05/19/2021": 1.52081,

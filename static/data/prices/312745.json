@@ -2,8 +2,8 @@
   "RxCUI": "312745",
   "Name": "QUETIAPINE FUMARATE 300 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "312745",
-  "Generic_RxCUI": "284509",
+  "Brand_RxCUI": "284509",
+  "Generic_RxCUI": "312745",
   "prices": {
     "00054022321": {
       "05/19/2021": 0.17594,

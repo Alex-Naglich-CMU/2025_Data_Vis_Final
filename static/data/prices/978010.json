@@ -2,8 +2,8 @@
   "RxCUI": "978010",
   "Name": "GS ANTI-DIARRHEAL 2 MG CAPLET",
   "IsBrand": false,
-  "Brand_RxCUI": "978010",
-  "Generic_RxCUI": "978013",
+  "Brand_RxCUI": "978013",
+  "Generic_RxCUI": "978010",
   "prices": {
     "00113022491": {
       "05/19/2021": 0.12753,

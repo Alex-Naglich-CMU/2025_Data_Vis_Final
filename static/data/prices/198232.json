@@ -2,8 +2,8 @@
   "RxCUI": "198232",
   "Name": "SULFASALAZINE 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198232",
-  "Generic_RxCUI": "208437",
+  "Brand_RxCUI": "208437",
+  "Generic_RxCUI": "198232",
   "prices": {
     "00591079605": {
       "05/19/2021": 0.16978,

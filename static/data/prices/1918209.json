@@ -2,8 +2,8 @@
   "RxCUI": "1918209",
   "Name": "FLUTICASONE-SALMETEROL 55-14",
   "IsBrand": false,
-  "Brand_RxCUI": "1918209",
-  "Generic_RxCUI": "1918211",
+  "Brand_RxCUI": "1918211",
+  "Generic_RxCUI": "1918209",
   "prices": {
     "00093360782": {
       "06/23/2021": 87.238,

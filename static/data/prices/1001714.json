@@ -2,8 +2,8 @@
   "RxCUI": "1001714",
   "Name": "SULFACETAMIDE-SULFUR 9-4% CLSR",
   "IsBrand": false,
-  "Brand_RxCUI": "1001714",
-  "Generic_RxCUI": "1011875",
+  "Brand_RxCUI": "1011875",
+  "Generic_RxCUI": "1001714",
   "prices": {
     "42192012116": {
       "05/22/2024": 0.13441,

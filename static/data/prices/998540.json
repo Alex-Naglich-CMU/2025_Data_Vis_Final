@@ -2,8 +2,8 @@
   "RxCUI": "998540",
   "Name": "MICONAZOLE-7 CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "998540",
-  "Generic_RxCUI": "1359442",
+  "Brand_RxCUI": "1359442",
+  "Generic_RxCUI": "998540",
   "prices": {
     "70000000901": {
       "05/19/2021": 0.13766,

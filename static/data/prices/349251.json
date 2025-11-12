@@ -2,8 +2,8 @@
   "RxCUI": "349251",
   "Name": "TENOFOVIR DISOPROXIL FUMARATE 300 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "349251",
-  "Generic_RxCUI": "352050",
+  "Brand_RxCUI": "352050",
+  "Generic_RxCUI": "349251",
   "prices": {
     "00904682104": {
       "05/19/2021": 0.7085,

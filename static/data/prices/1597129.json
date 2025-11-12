@@ -2,8 +2,8 @@
   "RxCUI": "1597129",
   "Name": "TESTOSTERONE 1% (50 MG/5 G) PK",
   "IsBrand": false,
-  "Brand_RxCUI": "1597129",
-  "Generic_RxCUI": "1597134",
+  "Brand_RxCUI": "1597134",
+  "Generic_RxCUI": "1597129",
   "prices": {
     "00591321730": {
       "05/19/2021": 1.31129,

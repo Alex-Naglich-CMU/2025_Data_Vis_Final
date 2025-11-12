@@ -2,8 +2,8 @@
   "RxCUI": "209977",
   "Name": "ZOVIRAX 5% OINTMENT",
   "IsBrand": true,
-  "Brand_RxCUI": "197312",
-  "Generic_RxCUI": "209977",
+  "Brand_RxCUI": "209977",
+  "Generic_RxCUI": "197312",
   "prices": {
     "00187099395": {
       "05/22/2024": 4.79589,

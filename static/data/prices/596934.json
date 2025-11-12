@@ -2,8 +2,8 @@
   "RxCUI": "596934",
   "Name": "DULOXETINE HCL DR 60 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "596934",
-  "Generic_RxCUI": "615186",
+  "Brand_RxCUI": "615186",
+  "Generic_RxCUI": "596934",
   "prices": {
     "47335038318": {
       "05/19/2021": 0.14535,

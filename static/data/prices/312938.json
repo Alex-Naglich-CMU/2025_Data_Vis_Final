@@ -2,8 +2,8 @@
   "RxCUI": "312938",
   "Name": "SERTRALINE HCL 100 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312938",
-  "Generic_RxCUI": "208149",
+  "Brand_RxCUI": "208149",
+  "Generic_RxCUI": "312938",
   "prices": {
     "76282021430": {
       "05/19/2021": 0.06708,

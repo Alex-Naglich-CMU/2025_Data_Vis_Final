@@ -2,8 +2,8 @@
   "RxCUI": "200329",
   "Name": "OMEPRAZOLE DR 40 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "200329",
-  "Generic_RxCUI": "213295",
+  "Brand_RxCUI": "213295",
+  "Generic_RxCUI": "200329",
   "prices": {
     "55111015905": {
       "05/19/2021": 0.06227,

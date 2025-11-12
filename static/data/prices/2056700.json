@@ -2,8 +2,8 @@
   "RxCUI": "2056700",
   "Name": "AJOVY 225 MG/1.5 ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "2056695",
-  "Generic_RxCUI": "2056700",
+  "Brand_RxCUI": "2056700",
+  "Generic_RxCUI": "2056695",
   "prices": {
     "51759020410": {
       "10/23/2019": 369.41057,

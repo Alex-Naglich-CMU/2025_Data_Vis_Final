@@ -2,8 +2,8 @@
   "RxCUI": "311207",
   "Name": "IVERMECTIN 3 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311207",
-  "Generic_RxCUI": "261314",
+  "Brand_RxCUI": "261314",
+  "Generic_RxCUI": "311207",
   "prices": {
     "42799080601": {
       "05/19/2021": 3.8289,

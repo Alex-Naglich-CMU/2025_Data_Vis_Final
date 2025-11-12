@@ -2,8 +2,8 @@
   "RxCUI": "313565",
   "Name": "VALACYCLOVIR HCL 500 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "313565",
-  "Generic_RxCUI": "108780",
+  "Brand_RxCUI": "108780",
+  "Generic_RxCUI": "313565",
   "prices": {
     "59746032430": {
       "05/19/2021": 0.29458,

@@ -2,8 +2,8 @@
   "RxCUI": "283406",
   "Name": "MIRTAZAPINE 15 MG ODT",
   "IsBrand": false,
-  "Brand_RxCUI": "283406",
-  "Generic_RxCUI": "752869",
+  "Brand_RxCUI": "752869",
+  "Generic_RxCUI": "283406",
   "prices": {
     "57237001106": {
       "05/19/2021": 0.57302,

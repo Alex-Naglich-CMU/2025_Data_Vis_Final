@@ -2,8 +2,8 @@
   "RxCUI": "252478",
   "Name": "LAMOTRIGINE ODT 50 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "252478",
-  "Generic_RxCUI": "849052",
+  "Brand_RxCUI": "849052",
+  "Generic_RxCUI": "252478",
   "prices": {
     "43598055130": {
       "05/19/2021": 4.33607,

@@ -2,8 +2,8 @@
   "RxCUI": "750203",
   "Name": "CADUET 10 MG-20 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "597967",
-  "Generic_RxCUI": "750203",
+  "Brand_RxCUI": "750203",
+  "Generic_RxCUI": "597967",
   "prices": {
     "00069218030": {
       "06/01/2017": 17.15913,

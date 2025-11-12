@@ -2,8 +2,8 @@
   "RxCUI": "1085820",
   "Name": "NATROBA 0.9% TOPICAL SUSP",
   "IsBrand": true,
-  "Brand_RxCUI": "1085816",
-  "Generic_RxCUI": "1085820",
+  "Brand_RxCUI": "1085820",
+  "Generic_RxCUI": "1085816",
   "prices": {
     "52246092904": {
       "06/23/2021": 2.20977,

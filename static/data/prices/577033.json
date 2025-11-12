@@ -2,8 +2,8 @@
   "RxCUI": "577033",
   "Name": "SILDENAFIL 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "577033",
-  "Generic_RxCUI": "581645",
+  "Brand_RxCUI": "581645",
+  "Generic_RxCUI": "577033",
   "prices": {
     "60687041621": {
       "05/19/2021": 0.11575,

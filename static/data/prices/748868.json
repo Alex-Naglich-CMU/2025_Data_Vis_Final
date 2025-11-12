@@ -2,8 +2,8 @@
   "RxCUI": "748868",
   "Name": "LEVONOR-ETH ESTRAD 0.1-0.02 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "748868",
-  "Generic_RxCUI": "2645083",
+  "Brand_RxCUI": "2645083",
+  "Generic_RxCUI": "748868",
   "prices": {
     "00378728785": {
       "05/19/2021": 0.24462,

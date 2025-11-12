@@ -2,8 +2,8 @@
   "RxCUI": "966153",
   "Name": "EUTHYROX 25 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "966220",
-  "Generic_RxCUI": "966153",
+  "Brand_RxCUI": "966153",
+  "Generic_RxCUI": "966220",
   "prices": {
     "72305002530": {
       "11/01/2022": 0.09829,

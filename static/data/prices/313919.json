@@ -2,8 +2,8 @@
   "RxCUI": "313919",
   "Name": "CALCITONIN-SALMON 200 UNITS SP",
   "IsBrand": false,
-  "Brand_RxCUI": "313919",
-  "Generic_RxCUI": "261204",
+  "Brand_RxCUI": "261204",
+  "Generic_RxCUI": "313919",
   "prices": {
     "49884016111": {
       "05/19/2021": 8.05358,

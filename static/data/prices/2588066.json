@@ -2,8 +2,8 @@
   "RxCUI": "2588066",
   "Name": "XARELTO 1 MG/ML SUSPENSION",
   "IsBrand": true,
-  "Brand_RxCUI": "2588062",
-  "Generic_RxCUI": "2588066",
+  "Brand_RxCUI": "2588066",
+  "Generic_RxCUI": "2588062",
   "prices": {
     "50458057501": {
       "06/18/2025": 3.68745,

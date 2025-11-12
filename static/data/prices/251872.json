@@ -2,8 +2,8 @@
   "RxCUI": "251872",
   "Name": "PANTOPRAZOLE SOD DR 20 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "251872",
-  "Generic_RxCUI": "352125",
+  "Brand_RxCUI": "352125",
+  "Generic_RxCUI": "251872",
   "prices": {
     "62175018046": {
       "05/19/2021": 0.06439,

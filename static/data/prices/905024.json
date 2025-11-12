@@ -2,8 +2,8 @@
   "RxCUI": "905024",
   "Name": "RISEDRONATE SODIUM 35 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "905024",
-  "Generic_RxCUI": "905026",
+  "Brand_RxCUI": "905026",
+  "Generic_RxCUI": "905024",
   "prices": {
     "60505316500": {
       "05/19/2021": 4.06515,

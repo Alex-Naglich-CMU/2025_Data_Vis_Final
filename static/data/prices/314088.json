@@ -2,8 +2,8 @@
   "RxCUI": "314088",
   "Name": "METHSCOPOLAMINE BROM 2.5 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "314088",
-  "Generic_RxCUI": "207086",
+  "Brand_RxCUI": "207086",
+  "Generic_RxCUI": "314088",
   "prices": {
     "51991019101": {
       "06/21/2017": 1.3573,

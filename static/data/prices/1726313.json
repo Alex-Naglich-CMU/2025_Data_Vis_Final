@@ -2,8 +2,8 @@
   "RxCUI": "1726313",
   "Name": "BOTOX COSMETIC 100 UNITS VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "860192",
-  "Generic_RxCUI": "1726313",
+  "Brand_RxCUI": "1726313",
+  "Generic_RxCUI": "860192",
   "prices": {
     "00023923201": {
       "07/05/2017": 597.51847

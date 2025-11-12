@@ -2,8 +2,8 @@
   "RxCUI": "310964",
   "Name": "IBUPROFEN 200 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "310964",
-  "Generic_RxCUI": "2673691",
+  "Brand_RxCUI": "2673691",
+  "Generic_RxCUI": "310964",
   "prices": {
     "69230014640": {
       "05/19/2021": 0.09116,

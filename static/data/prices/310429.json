@@ -2,8 +2,8 @@
   "RxCUI": "310429",
   "Name": "FUROSEMIDE 20 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "310429",
-  "Generic_RxCUI": "200801",
+  "Brand_RxCUI": "200801",
+  "Generic_RxCUI": "310429",
   "prices": {
     "69315011610": {
       "05/19/2021": 0.03071,

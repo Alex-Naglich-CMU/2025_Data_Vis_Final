@@ -2,8 +2,8 @@
   "RxCUI": "1092189",
   "Name": "ACETAMINOPHEN PM CAPLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1092189",
-  "Generic_RxCUI": "1116532",
+  "Brand_RxCUI": "1116532",
+  "Generic_RxCUI": "1092189",
   "prices": {
     "70000041103": {
       "05/19/2021": 0.04031,

@@ -2,8 +2,8 @@
   "RxCUI": "885857",
   "Name": "BALSALAZIDE DISODIUM 750 MG CP",
   "IsBrand": false,
-  "Brand_RxCUI": "885857",
-  "Generic_RxCUI": "885859",
+  "Brand_RxCUI": "885859",
+  "Generic_RxCUI": "885857",
   "prices": {
     "00054007928": {
       "05/19/2021": 0.48746,

@@ -2,8 +2,8 @@
   "RxCUI": "1100070",
   "Name": "DUEXIS 800-26.6 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1100066",
-  "Generic_RxCUI": "1100070",
+  "Brand_RxCUI": "1100070",
+  "Generic_RxCUI": "1100066",
   "prices": {
     "75987001003": {
       "09/20/2017": 24.08379,

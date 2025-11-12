@@ -2,8 +2,8 @@
   "RxCUI": "1808224",
   "Name": "PROPOFOL 200 MG/20 ML VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "1808224",
-  "Generic_RxCUI": "1808225",
+  "Brand_RxCUI": "1808225",
+  "Generic_RxCUI": "1808224",
   "prices": {
     "00409601025": {
       "07/17/2024": 0.14215,

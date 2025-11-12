@@ -2,8 +2,8 @@
   "RxCUI": "1111110",
   "Name": "DIFICID 200 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1111106",
-  "Generic_RxCUI": "1111110",
+  "Brand_RxCUI": "1111110",
+  "Generic_RxCUI": "1111106",
   "prices": {
     "52015008001": {
       "10/18/2017": 176.318,

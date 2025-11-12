@@ -2,8 +2,8 @@
   "RxCUI": "1049630",
   "Name": "NIGHTTIME SLEEP AID 25 MG CPLT",
   "IsBrand": false,
-  "Brand_RxCUI": "1049630",
-  "Generic_RxCUI": "1658757",
+  "Brand_RxCUI": "1658757",
+  "Generic_RxCUI": "1049630",
   "prices": {
     "24385043178": {
       "05/19/2021": 0.07424,

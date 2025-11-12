@@ -2,8 +2,8 @@
   "RxCUI": "856569",
   "Name": "PROPRANOLOL ER 80 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "856569",
-  "Generic_RxCUI": "856576",
+  "Brand_RxCUI": "856576",
+  "Generic_RxCUI": "856569",
   "prices": {
     "60687022611": {
       "05/19/2021": 0.38734,

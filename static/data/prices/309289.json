@@ -2,8 +2,8 @@
   "RxCUI": "309289",
   "Name": "CICLOPIROX 0.77% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "309289",
-  "Generic_RxCUI": "1300064",
+  "Brand_RxCUI": "1300064",
+  "Generic_RxCUI": "309289",
   "prices": {
     "45802013835": {
       "05/19/2021": 0.30277,

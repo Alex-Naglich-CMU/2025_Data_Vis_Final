@@ -2,8 +2,8 @@
   "RxCUI": "198243",
   "Name": "TEMAZEPAM 7.5 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "198243",
-  "Generic_RxCUI": "208463",
+  "Brand_RxCUI": "208463",
+  "Generic_RxCUI": "198243",
   "prices": {
     "00378311001": {
       "05/19/2021": 1.49009,

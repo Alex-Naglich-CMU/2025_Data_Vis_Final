@@ -2,8 +2,8 @@
   "RxCUI": "403879",
   "Name": "IMATINIB MESYLATE 400 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "403879",
-  "Generic_RxCUI": "404589",
+  "Brand_RxCUI": "404589",
+  "Generic_RxCUI": "403879",
   "prices": {
     "50268042712": {
       "05/19/2021": 4.78621,

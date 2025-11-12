@@ -2,8 +2,8 @@
   "RxCUI": "1091157",
   "Name": "CONCERTA ER 18 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1091155",
-  "Generic_RxCUI": "1091157",
+  "Brand_RxCUI": "1091157",
+  "Generic_RxCUI": "1091155",
   "prices": {
     "50458058501": {
       "01/03/2018": 10.4226,

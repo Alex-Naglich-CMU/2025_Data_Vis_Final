@@ -2,8 +2,8 @@
   "RxCUI": "866511",
   "Name": "METOPROLOL TARTRATE 100 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "866511",
-  "Generic_RxCUI": "866513",
+  "Brand_RxCUI": "866513",
+  "Generic_RxCUI": "866511",
   "prices": {
     "65862006401": {
       "05/19/2021": 0.0359,

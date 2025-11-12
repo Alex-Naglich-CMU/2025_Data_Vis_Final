@@ -2,8 +2,8 @@
   "RxCUI": "722111",
   "Name": "ADAPALENE 0.3% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "722111",
-  "Generic_RxCUI": "722113",
+  "Brand_RxCUI": "722113",
+  "Generic_RxCUI": "722111",
   "prices": {
     "00472012645": {
       "05/19/2021": 1.41428,

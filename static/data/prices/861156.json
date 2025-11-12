@@ -2,8 +2,8 @@
   "RxCUI": "861156",
   "Name": "PROPAFENONE HCL ER 225 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "861156",
-  "Generic_RxCUI": "861159",
+  "Brand_RxCUI": "861159",
+  "Generic_RxCUI": "861156",
   "prices": {
     "69680013060": {
       "05/19/2021": 1.59264,

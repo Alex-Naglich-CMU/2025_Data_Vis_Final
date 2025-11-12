@@ -2,8 +2,8 @@
   "RxCUI": "1049642",
   "Name": "PERCOCET 7.5-325 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1049225",
-  "Generic_RxCUI": "1049642",
+  "Brand_RxCUI": "1049642",
+  "Generic_RxCUI": "1049225",
   "prices": {
     "63481062870": {
       "07/01/2017": 13.17589,

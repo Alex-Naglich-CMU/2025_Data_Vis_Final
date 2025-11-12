@@ -2,8 +2,8 @@
   "RxCUI": "1812011",
   "Name": "NIFEDIPINE ER 30 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1812011",
-  "Generic_RxCUI": "207772",
+  "Brand_RxCUI": "207772",
+  "Generic_RxCUI": "1812011",
   "prices": {
     "50742026001": {
       "05/19/2021": 0.21171,

@@ -2,8 +2,8 @@
   "RxCUI": "313413",
   "Name": "TIZANIDINE HCL 4 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "313413",
-  "Generic_RxCUI": "153735",
+  "Brand_RxCUI": "153735",
+  "Generic_RxCUI": "313413",
   "prices": {
     "55111018010": {
       "05/19/2021": 0.05575,

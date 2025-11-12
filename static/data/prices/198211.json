@@ -2,8 +2,8 @@
   "RxCUI": "198211",
   "Name": "SIMVASTATIN 40 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198211",
-  "Generic_RxCUI": "152923",
+  "Brand_RxCUI": "152923",
+  "Generic_RxCUI": "198211",
   "prices": {
     "16729000615": {
       "05/19/2021": 0.04407,

@@ -2,8 +2,8 @@
   "RxCUI": "1049214",
   "Name": "OXYCODONE-ACETAMINOPHEN 10-325 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1049214",
-  "Generic_RxCUI": "1049625",
+  "Brand_RxCUI": "1049625",
+  "Generic_RxCUI": "1049214",
   "prices": {
     "43386049301": {
       "05/19/2021": 0.18049,

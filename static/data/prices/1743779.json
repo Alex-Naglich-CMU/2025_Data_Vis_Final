@@ -2,8 +2,8 @@
   "RxCUI": "1743779",
   "Name": "METHYLPREDNISOLONE 40 MG/ML VL",
   "IsBrand": false,
-  "Brand_RxCUI": "1743779",
-  "Generic_RxCUI": "1743781",
+  "Brand_RxCUI": "1743781",
+  "Generic_RxCUI": "1743779",
   "prices": {
     "60219157301": {
       "12/18/2024": 8.33175,

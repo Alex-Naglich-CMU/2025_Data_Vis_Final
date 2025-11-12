@@ -2,8 +2,8 @@
   "RxCUI": "311033",
   "Name": "NOVOLIN R 100 UNIT/ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "311034",
-  "Generic_RxCUI": "311033",
+  "Brand_RxCUI": "311033",
+  "Generic_RxCUI": "311034",
   "prices": {
     "00169183311": {
       "06/23/2021": 13.24005,

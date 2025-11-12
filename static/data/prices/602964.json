@@ -2,8 +2,8 @@
   "RxCUI": "602964",
   "Name": "ARIPIPRAZOLE 2 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "602964",
-  "Generic_RxCUI": "615172",
+  "Brand_RxCUI": "615172",
+  "Generic_RxCUI": "602964",
   "prices": {
     "13668021630": {
       "05/19/2021": 0.15864,

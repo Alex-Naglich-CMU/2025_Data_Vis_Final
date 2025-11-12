@@ -2,8 +2,8 @@
   "RxCUI": "310963",
   "Name": "IBUPROFEN JR STR 100 MG TB CHW",
   "IsBrand": false,
-  "Brand_RxCUI": "310963",
-  "Generic_RxCUI": "792242",
+  "Brand_RxCUI": "792242",
+  "Generic_RxCUI": "310963",
   "prices": {
     "70000023901": {
       "05/19/2021": 0.13405,

@@ -2,8 +2,8 @@
   "RxCUI": "607038",
   "Name": "LYRICA 75 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "483450",
-  "Generic_RxCUI": "607038",
+  "Brand_RxCUI": "607038",
+  "Generic_RxCUI": "483450",
   "prices": {
     "00071101468": {
       "06/23/2021": 8.22537,

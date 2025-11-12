@@ -2,8 +2,8 @@
   "RxCUI": "966201",
   "Name": "SYNTHROID 150 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "966225",
-  "Generic_RxCUI": "966201",
+  "Brand_RxCUI": "966201",
+  "Generic_RxCUI": "966225",
   "prices": {
     "00074706911": {
       "12/22/2017": 1.13629,

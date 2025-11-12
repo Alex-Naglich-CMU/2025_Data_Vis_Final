@@ -2,8 +2,8 @@
   "RxCUI": "226597",
   "Name": "ESTRADIOL 0.06% 1.25G GEL PUMP",
   "IsBrand": false,
-  "Brand_RxCUI": "226597",
-  "Generic_RxCUI": "706467",
+  "Brand_RxCUI": "706467",
+  "Generic_RxCUI": "226597",
   "prices": {
     "70954064610": {
       "12/18/2024": 3.45163,

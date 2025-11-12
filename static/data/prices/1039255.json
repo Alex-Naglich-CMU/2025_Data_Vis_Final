@@ -2,8 +2,8 @@
   "RxCUI": "1039255",
   "Name": "CEPACOL SORE THROAT-COUGH LOZ",
   "IsBrand": true,
-  "Brand_RxCUI": "1039251",
-  "Generic_RxCUI": "1039255",
+  "Brand_RxCUI": "1039255",
+  "Generic_RxCUI": "1039251",
   "prices": {
     "63824074416": {
       "05/19/2021": 0.14864,

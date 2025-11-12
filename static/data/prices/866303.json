@@ -2,8 +2,8 @@
   "RxCUI": "866303",
   "Name": "TEGRETOL XR 100 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "199378",
-  "Generic_RxCUI": "866303",
+  "Brand_RxCUI": "866303",
+  "Generic_RxCUI": "199378",
   "prices": {
     "00078051005": {
       "06/23/2021": 1.31099,

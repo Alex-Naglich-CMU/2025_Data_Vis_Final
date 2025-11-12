@@ -2,8 +2,8 @@
   "RxCUI": "861004",
   "Name": "METFORMIN HCL 1,000 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "861004",
-  "Generic_RxCUI": "861006",
+  "Brand_RxCUI": "861006",
+  "Generic_RxCUI": "861004",
   "prices": {
     "42806031505": {
       "05/19/2021": 0.02869,

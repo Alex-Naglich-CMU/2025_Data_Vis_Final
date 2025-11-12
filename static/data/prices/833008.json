@@ -2,8 +2,8 @@
   "RxCUI": "833008",
   "Name": "DESMOPRESSIN ACETATE 0.2 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "833008",
-  "Generic_RxCUI": "849524",
+  "Brand_RxCUI": "849524",
+  "Generic_RxCUI": "833008",
   "prices": {
     "00591246501": {
       "05/19/2021": 0.45735,

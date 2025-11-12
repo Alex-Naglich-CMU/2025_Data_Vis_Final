@@ -2,8 +2,8 @@
   "RxCUI": "1099569",
   "Name": "DIVALPROEX SOD ER 500 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1099569",
-  "Generic_RxCUI": "1099571",
+  "Brand_RxCUI": "1099571",
+  "Generic_RxCUI": "1099569",
   "prices": {
     "68001010600": {
       "05/19/2021": 0.26179,

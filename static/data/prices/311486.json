@@ -2,8 +2,8 @@
   "RxCUI": "311486",
   "Name": "MELOXICAM 7.5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311486",
-  "Generic_RxCUI": "152697",
+  "Brand_RxCUI": "152697",
+  "Generic_RxCUI": "311486",
   "prices": {
     "68180050103": {
       "05/19/2021": 0.0207,

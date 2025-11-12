@@ -2,8 +2,8 @@
   "RxCUI": "312529",
   "Name": "POTASSIUM CL ER 8 MEQ TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312529",
-  "Generic_RxCUI": "832718",
+  "Brand_RxCUI": "832718",
+  "Generic_RxCUI": "312529",
   "prices": {
     "00832532211": {
       "05/19/2021": 0.20374,

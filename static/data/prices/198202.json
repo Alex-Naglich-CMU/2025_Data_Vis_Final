@@ -2,8 +2,8 @@
   "RxCUI": "198202",
   "Name": "RIFAMPIN 300 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "198202",
-  "Generic_RxCUI": "201868",
+  "Brand_RxCUI": "201868",
+  "Generic_RxCUI": "198202",
   "prices": {
     "00527131501": {
       "05/19/2021": 0.78782,

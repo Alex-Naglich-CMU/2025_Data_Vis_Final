@@ -2,8 +2,8 @@
   "RxCUI": "313428",
   "Name": "TOREMIFENE CITRATE 60 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "313428",
-  "Generic_RxCUI": "152880",
+  "Brand_RxCUI": "152880",
+  "Generic_RxCUI": "313428",
   "prices": {
     "64980040403": {
       "01/22/2025": 20.06092,

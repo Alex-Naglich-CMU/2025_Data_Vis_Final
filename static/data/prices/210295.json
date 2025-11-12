@@ -2,8 +2,8 @@
   "RxCUI": "210295",
   "Name": "GAS-X EX-STR 125 MG TAB CHEW",
   "IsBrand": true,
-  "Brand_RxCUI": "314221",
-  "Generic_RxCUI": "210295",
+  "Brand_RxCUI": "210295",
+  "Generic_RxCUI": "314221",
   "prices": {
     "00067011748": {
       "06/21/2017": 0.20601,

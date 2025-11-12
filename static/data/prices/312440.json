@@ -2,8 +2,8 @@
   "RxCUI": "312440",
   "Name": "PIOGLITAZONE HCL 30 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "312440",
-  "Generic_RxCUI": "261267",
+  "Brand_RxCUI": "261267",
+  "Generic_RxCUI": "312440",
   "prices": {
     "57237022030": {
       "05/19/2021": 0.1485,

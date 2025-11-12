@@ -2,8 +2,8 @@
   "RxCUI": "213345",
   "Name": "CELEXA 40 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "309314",
-  "Generic_RxCUI": "213345",
+  "Brand_RxCUI": "213345",
+  "Generic_RxCUI": "309314",
   "prices": {
     "00456404001": {
       "01/01/2018": 9.04456,

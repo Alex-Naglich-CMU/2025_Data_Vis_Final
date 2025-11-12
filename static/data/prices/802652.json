@@ -2,8 +2,8 @@
   "RxCUI": "802652",
   "Name": "ENBREL 50 MG/ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "727757",
-  "Generic_RxCUI": "802652",
+  "Brand_RxCUI": "802652",
+  "Generic_RxCUI": "727757",
   "prices": {
     "58406002104": {
       "01/17/2020": 1353.94866,

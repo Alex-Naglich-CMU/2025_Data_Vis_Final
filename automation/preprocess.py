@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 # --- Configuration ---
 DATA_DIR = 'data'
-PRICES_DIR = 'data/prices'
+PRICES_DIR = 'static/data/prices'
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(PRICES_DIR, exist_ok=True)
 
@@ -21,7 +21,6 @@ print("=" * 60)
 # --- STEP 1: Load RxNorm RXNSAT (NDC → RxCUI mapping) ---
 print("\n[1/4] Loading RXNSAT.RRF for NDC mappings...")
 
-# RXNSAT: NO EMPTY COLUMN!
 rxnsat_columns = [
     'RXCUI', 'LUI', 'SUI', 'RXAUI', 'STYPE', 'CODE', 'ATUI', 
     'SATUI', 'ATN', 'SAB', 'ATV', 'SUPPRESS', 'CVF', 'EXTRA'
@@ -52,7 +51,6 @@ del df_rxnsat, df_ndc_map
 # --- STEP 2: Load RxNorm RXNREL (Brand/Generic relationships) ---
 print("\n[2/4] Loading RXNREL.RRF...")
 
-# RXNREL: Corrected column definition
 rxnrel_columns = [
     'RXCUI1', 'RXAUI1', 'STYPE1', 'REL', 'RXCUI2', 'RXAUI2', 
     'STYPE2', 'RELA', 'RUI', 'SRUI', 'SAB', 'SL', 'DIR', 
@@ -64,7 +62,7 @@ df_rxnrel = pd.read_csv(
     sep='|',
     header=None,
     names=rxnrel_columns,
-    usecols=range(len(rxnrel_columns)), # Ignore the trailing empty column
+    usecols=range(len(rxnrel_columns)),
     dtype=str,
     low_memory=False
 )
@@ -86,15 +84,13 @@ for _, row in df_relationships.iterrows():
     rxcui2 = str(row['RXCUI2']).strip()
     rela = str(row['RELA']).strip()
     
-    # tradename_of or brand_name_of: RXCUI1 is brand, RXCUI2 is generic
     if rela in ['tradename_of', 'brand_name_of']:
         brand_to_generic[rxcui1] = rxcui2
-        if rxcui2 not in generic_to_brand: # Avoid overwriting
+        if rxcui2 not in generic_to_brand:
             generic_to_brand[rxcui2] = rxcui1
-    # has_tradename or has_brand_name: RXCUI1 is generic, RXCUI2 is brand
     elif rela in ['has_tradename', 'has_brand_name']:
         generic_to_brand[rxcui1] = rxcui2
-        if rxcui2 not in brand_to_generic: # Avoid overwriting
+        if rxcui2 not in brand_to_generic:
             brand_to_generic[rxcui2] = rxcui1
 
 print(f"   ✓ Built lookup tables:")
@@ -125,21 +121,15 @@ def find_related_rxcui(rxcui, is_brand):
     if is_brand:
         brand_rxcui = rxcui
         generic_rxcui = brand_to_generic.get(rxcui)
-        # If not found, maybe this "brand" is a generic with a brand name
         if not generic_rxcui:
-            if generic_to_brand.get(rxcui):
-                generic_rxcui = rxcui
-                brand_rxcui = generic_to_brand.get(rxcui)
-    else: # is_generic
+            generic_rxcui = generic_to_brand.get(rxcui)
+    else:
         generic_rxcui = rxcui
         brand_rxcui = generic_to_brand.get(rxcui)
-        # If not found, maybe this "generic" is a brand with a generic name
         if not brand_rxcui:
-            if brand_to_generic.get(rxcui):
-                brand_rxcui = rxcui
-                generic_rxcui = brand_to_generic.get(rxcui)
+            brand_rxcui = brand_to_generic.get(rxcui)
 
-    return generic_rxcui, brand_rxcui
+    return brand_rxcui, generic_rxcui
 
 # --- STEP 4: Process NADAC Row by Row ---
 print("\n[4/4] Processing NADAC data row-by-row...")
@@ -197,7 +187,7 @@ for index, row in tqdm(df_nadac.iterrows(), total=len(df_nadac), desc="Processin
         
         rxcui = str(rxcui).strip()
         
-        generic_rxcui, brand_rxcui = find_related_rxcui(rxcui, is_brand)
+        brand_rxcui, generic_rxcui = find_related_rxcui(rxcui, is_brand)
         
         if generic_rxcui and brand_rxcui:
             relationship_found_count += 1
@@ -218,7 +208,6 @@ for index, row in tqdm(df_nadac.iterrows(), total=len(df_nadac), desc="Processin
             with open(filename, 'r') as f:
                 data = json.load(f)
         
-        # Always ensure both brand and generic RxCUIs are populated if found
         if brand_rxcui and not data.get('Brand_RxCUI'):
             data['Brand_RxCUI'] = brand_rxcui
         if generic_rxcui and not data.get('Generic_RxCUI'):

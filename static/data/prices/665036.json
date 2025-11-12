@@ -2,8 +2,8 @@
   "RxCUI": "665036",
   "Name": "JANUVIA 100 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "2709603",
-  "Generic_RxCUI": "665036",
+  "Brand_RxCUI": "665036",
+  "Generic_RxCUI": "2709603",
   "prices": {
     "00006027702": {
       "06/08/2017": 12.66917,

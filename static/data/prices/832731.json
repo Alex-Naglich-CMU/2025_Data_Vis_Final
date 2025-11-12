@@ -2,8 +2,8 @@
   "RxCUI": "832731",
   "Name": "KLOR-CON M15 TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "403888",
-  "Generic_RxCUI": "832731",
+  "Brand_RxCUI": "832731",
+  "Generic_RxCUI": "403888",
   "prices": {
     "00245531801": {
       "04/17/2024": 0.35003,

@@ -2,8 +2,8 @@
   "RxCUI": "854988",
   "Name": "PERINDOPRIL ERBUMINE 4 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "854988",
-  "Generic_RxCUI": "854990",
+  "Brand_RxCUI": "854990",
+  "Generic_RxCUI": "854988",
   "prices": {
     "00054011125": {
       "05/19/2021": 0.43359,

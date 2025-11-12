@@ -2,8 +2,8 @@
   "RxCUI": "198430",
   "Name": "LAMOTRIGINE ODT 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "198430",
-  "Generic_RxCUI": "849051",
+  "Brand_RxCUI": "849051",
+  "Generic_RxCUI": "198430",
   "prices": {
     "00115152608": {
       "09/20/2017": 5.80747,

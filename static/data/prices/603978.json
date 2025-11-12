@@ -2,8 +2,8 @@
   "RxCUI": "603978",
   "Name": "NEVANAC 0.1% DROPTAINER",
   "IsBrand": true,
-  "Brand_RxCUI": "578044",
-  "Generic_RxCUI": "603978",
+  "Brand_RxCUI": "603978",
+  "Generic_RxCUI": "578044",
   "prices": {
     "00065000203": {
       "07/11/2017": 79.42181,

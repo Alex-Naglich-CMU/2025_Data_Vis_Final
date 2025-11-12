@@ -2,8 +2,8 @@
   "RxCUI": "847230",
   "Name": "INSULIN GLARGINE SOLOSTAR U100",
   "IsBrand": false,
-  "Brand_RxCUI": "847230",
-  "Generic_RxCUI": "2377231",
+  "Brand_RxCUI": "2377231",
+  "Generic_RxCUI": "847230",
   "prices": {
     "00955172805": {
       "10/19/2022": 10.89551,

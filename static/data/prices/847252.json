@@ -2,8 +2,8 @@
   "RxCUI": "847252",
   "Name": "INSULIN LISPRO MIX 75-25 KWKPN",
   "IsBrand": false,
-  "Brand_RxCUI": "847252",
-  "Generic_RxCUI": "847254",
+  "Brand_RxCUI": "847254",
+  "Generic_RxCUI": "847252",
   "prices": {
     "00002823305": {
       "05/19/2021": 16.97713,

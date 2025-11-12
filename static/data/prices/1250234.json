@@ -2,8 +2,8 @@
   "RxCUI": "1250234",
   "Name": "ASTRINGENT SOLN POWDER PACK",
   "IsBrand": false,
-  "Brand_RxCUI": "1250234",
-  "Generic_RxCUI": "1293268",
+  "Brand_RxCUI": "1293268",
+  "Generic_RxCUI": "1250234",
   "prices": {
     "51224016212": {
       "10/18/2017": 0.77262,

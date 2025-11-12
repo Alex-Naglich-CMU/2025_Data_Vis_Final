@@ -2,8 +2,8 @@
   "RxCUI": "855296",
   "Name": "WARFARIN SODIUM 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "855296",
-  "Generic_RxCUI": "855300",
+  "Brand_RxCUI": "855300",
+  "Generic_RxCUI": "855296",
   "prices": {
     "00093172001": {
       "05/19/2021": 0.1299,

@@ -2,8 +2,8 @@
   "RxCUI": "762675",
   "Name": "METHYLPREDNISOLONE 4 MG DOSEPK",
   "IsBrand": false,
-  "Brand_RxCUI": "762675",
-  "Generic_RxCUI": "834023",
+  "Brand_RxCUI": "834023",
+  "Generic_RxCUI": "762675",
   "prices": {
     "68382091634": {
       "05/19/2021": 0.19862,

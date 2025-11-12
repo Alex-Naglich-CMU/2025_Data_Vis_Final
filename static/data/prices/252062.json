@@ -2,8 +2,8 @@
   "RxCUI": "252062",
   "Name": "CHILD GLYCERIN SUPPOSITORY",
   "IsBrand": false,
-  "Brand_RxCUI": "252062",
-  "Generic_RxCUI": "1191341",
+  "Brand_RxCUI": "1191341",
+  "Generic_RxCUI": "252062",
   "prices": {
     "70000042901": {
       "1/19/2022": 0.05528,

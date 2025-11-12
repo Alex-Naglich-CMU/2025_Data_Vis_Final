@@ -2,8 +2,8 @@
   "RxCUI": "790288",
   "Name": "DESVENLAFAXINE ER 50 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "790288",
-  "Generic_RxCUI": "1435483",
+  "Brand_RxCUI": "1435483",
+  "Generic_RxCUI": "790288",
   "prices": {
     "63304019130": {
       "06/23/2021": 4.17693,

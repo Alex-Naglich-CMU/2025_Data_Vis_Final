@@ -2,8 +2,8 @@
   "RxCUI": "359296",
   "Name": "CALCIUM ACETATE 667 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "359296",
-  "Generic_RxCUI": "645216",
+  "Brand_RxCUI": "645216",
+  "Generic_RxCUI": "359296",
   "prices": {
     "51293082502": {
       "05/19/2021": 0.38379,

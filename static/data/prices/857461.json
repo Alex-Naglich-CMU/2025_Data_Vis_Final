@@ -2,8 +2,8 @@
   "RxCUI": "857461",
   "Name": "CLEMASTINE FUM 2.68 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "857461",
-  "Generic_RxCUI": "2720338",
+  "Brand_RxCUI": "2720338",
+  "Generic_RxCUI": "857461",
   "prices": {
     "00093030801": {
       "10/18/2017": 0.54442,

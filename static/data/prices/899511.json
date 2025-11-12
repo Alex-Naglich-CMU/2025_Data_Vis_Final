@@ -2,8 +2,8 @@
   "RxCUI": "899511",
   "Name": "DEXMETHYLPHENIDATE ER 5 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "899511",
-  "Generic_RxCUI": "899513",
+  "Brand_RxCUI": "899513",
+  "Generic_RxCUI": "899511",
   "prices": {
     "70010000401": {
       "05/19/2021": 1.42835,

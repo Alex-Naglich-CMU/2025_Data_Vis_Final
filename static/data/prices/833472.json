@@ -2,8 +2,8 @@
   "RxCUI": "833472",
   "Name": "TACLONEX OINTMENT",
   "IsBrand": true,
-  "Brand_RxCUI": "388525",
-  "Generic_RxCUI": "833472",
+  "Brand_RxCUI": "833472",
+  "Generic_RxCUI": "388525",
   "prices": {
     "50222022781": {
       "01/01/2018": 14.03593,

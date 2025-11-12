@@ -2,8 +2,8 @@
   "RxCUI": "308694",
   "Name": "ACNE MEDICATION 5% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "308694",
-  "Generic_RxCUI": "992487",
+  "Brand_RxCUI": "992487",
+  "Generic_RxCUI": "308694",
   "prices": {
     "00536105556": {
       "05/19/2021": 0.057,

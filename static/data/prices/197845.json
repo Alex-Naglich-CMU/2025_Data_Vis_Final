@@ -2,8 +2,8 @@
   "RxCUI": "197845",
   "Name": "ISOTRETINOIN 40 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "197845",
-  "Generic_RxCUI": "1373337",
+  "Brand_RxCUI": "1373337",
+  "Generic_RxCUI": "197845",
   "prices": {
     "69238117603": {
       "05/19/2021": 3.43635,

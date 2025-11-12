@@ -2,8 +2,8 @@
   "RxCUI": "702311",
   "Name": "SENNA 8.8 MG/5 ML LIQUID",
   "IsBrand": false,
-  "Brand_RxCUI": "702311",
-  "Generic_RxCUI": "755277",
+  "Brand_RxCUI": "755277",
+  "Generic_RxCUI": "702311",
   "prices": {
     "00536126659": {
       "05/19/2021": 0.0424,

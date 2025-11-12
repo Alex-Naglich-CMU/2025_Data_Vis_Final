@@ -2,8 +2,8 @@
   "RxCUI": "1725059",
   "Name": "NALOXONE HCL 4 MG NASAL SPRAY",
   "IsBrand": false,
-  "Brand_RxCUI": "1725059",
-  "Generic_RxCUI": "1725064",
+  "Brand_RxCUI": "1725064",
+  "Generic_RxCUI": "1725059",
   "prices": {
     "00093216568": {
       "4/20/2022": 42.59875,

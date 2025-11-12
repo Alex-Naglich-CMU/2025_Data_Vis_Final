@@ -2,8 +2,8 @@
   "RxCUI": "603103",
   "Name": "NAPROXEN DR 375 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "603103",
-  "Generic_RxCUI": "608793",
+  "Brand_RxCUI": "608793",
+  "Generic_RxCUI": "603103",
   "prices": {
     "69097085107": {
       "05/19/2021": 0.37493,

@@ -2,8 +2,8 @@
   "RxCUI": "310434",
   "Name": "GABAPENTIN 800 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "310434",
-  "Generic_RxCUI": "261281",
+  "Brand_RxCUI": "261281",
+  "Generic_RxCUI": "310434",
   "prices": {
     "16714033201": {
       "05/19/2021": 0.1277,

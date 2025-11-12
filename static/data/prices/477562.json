@@ -2,8 +2,8 @@
   "RxCUI": "477562",
   "Name": "FENOFIBRATE 48 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "477562",
-  "Generic_RxCUI": "544518",
+  "Brand_RxCUI": "544518",
+  "Generic_RxCUI": "477562",
   "prices": {
     "00378306577": {
       "05/19/2021": 0.14638,

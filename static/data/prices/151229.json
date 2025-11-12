@@ -2,8 +2,8 @@
   "RxCUI": "151229",
   "Name": "TOPAMAX 200 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "199890",
-  "Generic_RxCUI": "151229",
+  "Brand_RxCUI": "151229",
+  "Generic_RxCUI": "199890",
   "prices": {
     "50458064265": {
       "11/22/2017": 16.08813,

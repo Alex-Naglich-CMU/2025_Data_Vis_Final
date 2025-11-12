@@ -2,8 +2,8 @@
   "RxCUI": "311277",
   "Name": "LANSOPRAZOLE DR 30 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "311277",
-  "Generic_RxCUI": "206206",
+  "Brand_RxCUI": "206206",
+  "Generic_RxCUI": "311277",
   "prices": {
     "70700026390": {
       "05/19/2021": 0.14976,

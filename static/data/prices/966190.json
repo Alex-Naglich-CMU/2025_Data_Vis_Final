@@ -2,8 +2,8 @@
   "RxCUI": "966190",
   "Name": "LEVOXYL 125 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "966224",
-  "Generic_RxCUI": "966190",
+  "Brand_RxCUI": "966190",
+  "Generic_RxCUI": "966224",
   "prices": {
     "60793085601": {
       "06/01/2017": 0.89094,

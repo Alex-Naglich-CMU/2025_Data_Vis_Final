@@ -2,8 +2,8 @@
   "RxCUI": "207850",
   "Name": "TOBREX 0.3% EYE OINTMENT",
   "IsBrand": true,
-  "Brand_RxCUI": "313414",
-  "Generic_RxCUI": "207850",
+  "Brand_RxCUI": "207850",
+  "Generic_RxCUI": "313414",
   "prices": {
     "00065064435": {
       "06/23/2021": 58.74743,

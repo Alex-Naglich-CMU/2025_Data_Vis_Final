@@ -2,8 +2,8 @@
   "RxCUI": "315223",
   "Name": "SUMATRIPTAN SUCC 25 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "315223",
-  "Generic_RxCUI": "208450",
+  "Brand_RxCUI": "208450",
+  "Generic_RxCUI": "315223",
   "prices": {
     "42043022009": {
       "05/19/2021": 0.73165,

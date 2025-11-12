@@ -2,8 +2,8 @@
   "RxCUI": "1486566",
   "Name": "SODIUM FLUORIDE 1.1% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "1486566",
-  "Generic_RxCUI": "1596938",
+  "Brand_RxCUI": "1596938",
+  "Generic_RxCUI": "1486566",
   "prices": {
     "35573043556": {
       "05/19/2021": 0.11241,

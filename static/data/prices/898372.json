@@ -2,8 +2,8 @@
   "RxCUI": "898372",
   "Name": "BENAZEPRIL-HYDROCHLOROTHIAZIDE 20-25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "898372",
-  "Generic_RxCUI": "898376",
+  "Brand_RxCUI": "898376",
+  "Generic_RxCUI": "898372",
   "prices": {
     "64980019601": {
       "05/19/2021": 0.62896,

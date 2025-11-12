@@ -2,8 +2,8 @@
   "RxCUI": "809159",
   "Name": "ENBREL 25 MG/0.5 ML SYRINGE",
   "IsBrand": true,
-  "Brand_RxCUI": "809158",
-  "Generic_RxCUI": "809159",
+  "Brand_RxCUI": "809159",
+  "Generic_RxCUI": "809158",
   "prices": {
     "58406045504": {
       "01/01/2018": 1162.58972,

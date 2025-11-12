@@ -2,8 +2,8 @@
   "RxCUI": "262095",
   "Name": "LIPITOR 80 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "259255",
-  "Generic_RxCUI": "262095",
+  "Brand_RxCUI": "262095",
+  "Generic_RxCUI": "259255",
   "prices": {
     "00071015823": {
       "06/01/2017": 12.29973,

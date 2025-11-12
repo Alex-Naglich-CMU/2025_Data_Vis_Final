@@ -2,8 +2,8 @@
   "RxCUI": "724859",
   "Name": "ARMODAFINIL 150 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "724859",
-  "Generic_RxCUI": "805659",
+  "Brand_RxCUI": "805659",
+  "Generic_RxCUI": "724859",
   "prices": {
     "65862080630": {
       "05/19/2021": 0.83345,

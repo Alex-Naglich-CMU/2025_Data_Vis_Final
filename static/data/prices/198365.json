@@ -2,8 +2,8 @@
   "RxCUI": "198365",
   "Name": "PROCHLORPERAZINE 10 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "198365",
-  "Generic_RxCUI": "207685",
+  "Brand_RxCUI": "207685",
+  "Generic_RxCUI": "198365",
   "prices": {
     "00378511001": {
       "05/19/2021": 0.44571,

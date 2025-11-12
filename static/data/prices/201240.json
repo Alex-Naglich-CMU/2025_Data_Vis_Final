@@ -2,8 +2,8 @@
   "RxCUI": "201240",
   "Name": "LAMICTAL 25 MG DISPER TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "311264",
-  "Generic_RxCUI": "201240",
+  "Brand_RxCUI": "201240",
+  "Generic_RxCUI": "311264",
   "prices": {
     "00173052700": {
       "01/01/2019": 12.66961,

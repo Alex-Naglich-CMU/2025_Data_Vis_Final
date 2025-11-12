@@ -2,8 +2,8 @@
   "RxCUI": "197877",
   "Name": "LIDOCAINE-PRILOCAINE CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "197877",
-  "Generic_RxCUI": "1656327",
+  "Brand_RxCUI": "1656327",
+  "Generic_RxCUI": "197877",
   "prices": {
     "00904698931": {
       "05/19/2021": 0.24831,

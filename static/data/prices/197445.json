@@ -2,8 +2,8 @@
   "RxCUI": "197445",
   "Name": "CARBIDOPA-LEVODOPA 25-250 TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "197445",
-  "Generic_RxCUI": "724602",
+  "Brand_RxCUI": "724602",
+  "Generic_RxCUI": "197445",
   "prices": {
     "68084009411": {
       "05/19/2021": 0.17439,

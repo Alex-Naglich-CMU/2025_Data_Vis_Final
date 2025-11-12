@@ -2,8 +2,8 @@
   "RxCUI": "2107520",
   "Name": "INSULIN DEGLUDEC 100 UNIT/ML VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "2107520",
-  "Generic_RxCUI": "2107522",
+  "Brand_RxCUI": "2107522",
+  "Generic_RxCUI": "2107520",
   "prices": {
     "73070040011": {
       "05/22/2024": 11.40458,

@@ -2,8 +2,8 @@
   "RxCUI": "997010",
   "Name": "QUININE SULFATE 324 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "997010",
-  "Generic_RxCUI": "997012",
+  "Brand_RxCUI": "997012",
+  "Generic_RxCUI": "997010",
   "prices": {
     "50742023830": {
       "05/19/2021": 2.02544,

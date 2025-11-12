@@ -2,8 +2,8 @@
   "RxCUI": "314285",
   "Name": "ZONISAMIDE 100 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "314285",
-  "Generic_RxCUI": "284408",
+  "Brand_RxCUI": "284408",
+  "Generic_RxCUI": "314285",
   "prices": {
     "69097086107": {
       "05/19/2021": 0.16618,

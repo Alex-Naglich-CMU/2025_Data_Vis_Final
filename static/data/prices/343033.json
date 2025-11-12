@@ -2,8 +2,8 @@
   "RxCUI": "343033",
   "Name": "DEXAMETHASONE 0.75 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "343033",
-  "Generic_RxCUI": "343040",
+  "Brand_RxCUI": "343040",
+  "Generic_RxCUI": "343033",
   "prices": {
     "00054818025": {
       "05/19/2021": 0.19588,

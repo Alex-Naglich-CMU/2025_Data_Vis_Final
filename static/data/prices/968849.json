@@ -2,8 +2,8 @@
   "RxCUI": "968849",
   "Name": "NICORETTE 2 MG MINI LOZENGE",
   "IsBrand": true,
-  "Brand_RxCUI": "359817",
-  "Generic_RxCUI": "968849",
+  "Brand_RxCUI": "968849",
+  "Generic_RxCUI": "359817",
   "prices": {
     "00135050804": {
       "12/20/2017": 0.45386,

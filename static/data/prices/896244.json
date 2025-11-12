@@ -2,8 +2,8 @@
   "RxCUI": "896244",
   "Name": "FLUTICASONE-SALMETEROL 115-21",
   "IsBrand": false,
-  "Brand_RxCUI": "896244",
-  "Generic_RxCUI": "896245",
+  "Brand_RxCUI": "896245",
+  "Generic_RxCUI": "896244",
   "prices": {
     "66993008796": {
       "07/19/2023": 20.77617,

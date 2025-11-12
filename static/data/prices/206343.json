@@ -2,8 +2,8 @@
   "RxCUI": "206343",
   "Name": "CARNITOR 100 MG/ML ORAL SOLN",
   "IsBrand": true,
-  "Brand_RxCUI": "315134",
-  "Generic_RxCUI": "206343",
+  "Brand_RxCUI": "206343",
+  "Generic_RxCUI": "315134",
   "prices": {
     "54482014508": {
       "08/23/2017": 0.25387,

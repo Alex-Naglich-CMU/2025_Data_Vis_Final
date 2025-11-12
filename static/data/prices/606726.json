@@ -2,8 +2,8 @@
   "RxCUI": "606726",
   "Name": "HM ESOMEPRAZOLE MAG DR 20 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "606726",
-  "Generic_RxCUI": "606728",
+  "Brand_RxCUI": "606728",
+  "Generic_RxCUI": "606726",
   "prices": {
     "62011033203": {
       "05/19/2021": 0.3377,

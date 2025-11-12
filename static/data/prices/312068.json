@@ -2,8 +2,8 @@
   "RxCUI": "312068",
   "Name": "OCTREOTIDE ACET 50 MCG/ML VIAL",
   "IsBrand": false,
-  "Brand_RxCUI": "312068",
-  "Generic_RxCUI": "207194",
+  "Brand_RxCUI": "207194",
+  "Generic_RxCUI": "312068",
   "prices": {
     "00641617410": {
       "06/19/2024": 2.93143,

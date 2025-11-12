@@ -2,8 +2,8 @@
   "RxCUI": "403966",
   "Name": "ZONISAMIDE 25 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "403966",
-  "Generic_RxCUI": "404725",
+  "Brand_RxCUI": "404725",
+  "Generic_RxCUI": "403966",
   "prices": {
     "68001024200": {
       "05/19/2021": 0.1055,

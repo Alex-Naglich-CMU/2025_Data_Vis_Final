@@ -2,8 +2,8 @@
   "RxCUI": "311372",
   "Name": "LORATADINE 10 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "311372",
-  "Generic_RxCUI": "1650994",
+  "Brand_RxCUI": "1650994",
+  "Generic_RxCUI": "311372",
   "prices": {
     "00904685207": {
       "05/19/2021": 0.06088,

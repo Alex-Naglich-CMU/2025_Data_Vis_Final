@@ -2,8 +2,8 @@
   "RxCUI": "1921081",
   "Name": "TYMLOS 80 MCG DOSE PEN INJECTR",
   "IsBrand": true,
-  "Brand_RxCUI": "1921075",
-  "Generic_RxCUI": "1921081",
+  "Brand_RxCUI": "1921081",
+  "Generic_RxCUI": "1921075",
   "prices": {
     "70539000101": {
       "01/01/2019": 1135.00361,

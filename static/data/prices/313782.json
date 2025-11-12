@@ -2,8 +2,8 @@
   "RxCUI": "313782",
   "Name": "QC PAIN RELIEF 325 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "313782",
-  "Generic_RxCUI": "1358837",
+  "Brand_RxCUI": "1358837",
+  "Generic_RxCUI": "313782",
   "prices": {
     "63868008210": {
       "06/23/2021": 0.02401,

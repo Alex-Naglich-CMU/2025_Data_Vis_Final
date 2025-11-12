@@ -2,8 +2,8 @@
   "RxCUI": "1649425",
   "Name": "DOXYCYCLINE HYCLATE 75 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "1649425",
-  "Generic_RxCUI": "1543955",
+  "Brand_RxCUI": "1543955",
+  "Generic_RxCUI": "1649425",
   "prices": {
     "27241015302": {
       "01/22/2025": 0.59482,

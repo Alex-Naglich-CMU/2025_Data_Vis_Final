@@ -2,8 +2,8 @@
   "RxCUI": "197971",
   "Name": "METHYLPREDNISOLONE 32 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "197971",
-  "Generic_RxCUI": "207141",
+  "Brand_RxCUI": "207141",
+  "Generic_RxCUI": "197971",
   "prices": {
     "59746001504": {
       "12/21/2022": 3.48673,

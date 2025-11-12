@@ -2,8 +2,8 @@
   "RxCUI": "966191",
   "Name": "SYNTHROID 125 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "966224",
-  "Generic_RxCUI": "966191",
+  "Brand_RxCUI": "966191",
+  "Generic_RxCUI": "966224",
   "prices": {
     "00074706890": {
       "06/21/2017": 1.0815,

@@ -2,8 +2,8 @@
   "RxCUI": "966247",
   "Name": "SYNTHROID 50 MCG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "966221",
-  "Generic_RxCUI": "966247",
+  "Brand_RxCUI": "966247",
+  "Generic_RxCUI": "966221",
   "prices": {
     "00074455219": {
       "12/22/2017": 1.13513,

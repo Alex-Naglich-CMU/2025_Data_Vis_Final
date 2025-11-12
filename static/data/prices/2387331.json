@@ -2,8 +2,8 @@
   "RxCUI": "2387331",
   "Name": "BREZTRI AEROSPHERE INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "2387329",
-  "Generic_RxCUI": "2387331",
+  "Brand_RxCUI": "2387331",
+  "Generic_RxCUI": "2387329",
   "prices": {
     "310461612": {
       "09/22/2021": 53.06078,

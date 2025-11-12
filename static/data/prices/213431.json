@@ -2,8 +2,8 @@
   "RxCUI": "213431",
   "Name": "MICARDIS 40 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "205304",
-  "Generic_RxCUI": "213431",
+  "Brand_RxCUI": "213431",
+  "Generic_RxCUI": "205304",
   "prices": {
     "00597004037": {
       "09/20/2017": 6.02305,

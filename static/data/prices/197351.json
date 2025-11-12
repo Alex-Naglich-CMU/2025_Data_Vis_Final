@@ -2,8 +2,8 @@
   "RxCUI": "197351",
   "Name": "AMINOCAPROIC ACID 500 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "197351",
-  "Generic_RxCUI": "211465",
+  "Brand_RxCUI": "211465",
+  "Generic_RxCUI": "197351",
   "prices": {
     "00904716507": {
       "05/22/2024": 2.22125,

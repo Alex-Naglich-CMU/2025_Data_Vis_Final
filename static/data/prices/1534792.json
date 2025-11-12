@@ -2,8 +2,8 @@
   "RxCUI": "1534792",
   "Name": "LIDOCAINE ANORECTAL 5% CREAM",
   "IsBrand": false,
-  "Brand_RxCUI": "1534792",
-  "Generic_RxCUI": "2120175",
+  "Brand_RxCUI": "2120175",
+  "Generic_RxCUI": "1534792",
   "prices": {
     "43199005430": {
       "08/23/2017": 1.29393,

@@ -2,8 +2,8 @@
   "RxCUI": "1308571",
   "Name": "EXELON 13.3 MG/24HR PATCH",
   "IsBrand": true,
-  "Brand_RxCUI": "1308569",
-  "Generic_RxCUI": "1308571",
+  "Brand_RxCUI": "1308571",
+  "Generic_RxCUI": "1308569",
   "prices": {
     "00078050315": {
       "05/19/2021": 21.84625,

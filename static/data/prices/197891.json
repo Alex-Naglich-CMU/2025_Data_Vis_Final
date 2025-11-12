@@ -2,8 +2,8 @@
   "RxCUI": "197891",
   "Name": "LITHIUM CARBONATE ER 300 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "197891",
-  "Generic_RxCUI": "206786",
+  "Brand_RxCUI": "206786",
+  "Generic_RxCUI": "197891",
   "prices": {
     "62559034001": {
       "05/19/2021": 0.16629,

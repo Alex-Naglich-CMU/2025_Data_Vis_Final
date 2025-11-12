@@ -2,8 +2,8 @@
   "RxCUI": "2196792",
   "Name": "ASMANEX HFA 50 MCG INHALER",
   "IsBrand": true,
-  "Brand_RxCUI": "2196790",
-  "Generic_RxCUI": "2196792",
+  "Brand_RxCUI": "2196792",
+  "Generic_RxCUI": "2196790",
   "prices": {
     "00085222201": {
       "1/14/2022": 13.66992,

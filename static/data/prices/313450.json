@@ -2,8 +2,8 @@
   "RxCUI": "313450",
   "Name": "TRETINOIN 0.01% GEL",
   "IsBrand": false,
-  "Brand_RxCUI": "313450",
-  "Generic_RxCUI": "208334",
+  "Brand_RxCUI": "208334",
+  "Generic_RxCUI": "313450",
   "prices": {
     "66530025645": {
       "07/19/2017": 3.20137,

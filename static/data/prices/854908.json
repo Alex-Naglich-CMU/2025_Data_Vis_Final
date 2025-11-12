@@ -2,8 +2,8 @@
   "RxCUI": "854908",
   "Name": "BISOPROLOL-HYDROCHLOROTHIAZIDE 10-6.25 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "854908",
-  "Generic_RxCUI": "854910",
+  "Brand_RxCUI": "854910",
+  "Generic_RxCUI": "854908",
   "prices": {
     "42799092202": {
       "05/19/2021": 0.35426,

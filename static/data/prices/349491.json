@@ -2,8 +2,8 @@
   "RxCUI": "349491",
   "Name": "LAMIVUDINE 300 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "349491",
-  "Generic_RxCUI": "352230",
+  "Brand_RxCUI": "352230",
+  "Generic_RxCUI": "349491",
   "prices": {
     "60505325203": {
       "06/23/2021": 1.75707,

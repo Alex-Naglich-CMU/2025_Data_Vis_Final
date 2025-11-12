@@ -2,8 +2,8 @@
   "RxCUI": "310965",
   "Name": "GS IBUPROFEN 200 MG CAPLET",
   "IsBrand": false,
-  "Brand_RxCUI": "310965",
-  "Generic_RxCUI": "1300267",
+  "Brand_RxCUI": "1300267",
+  "Generic_RxCUI": "310965",
   "prices": {
     "00113064778": {
       "06/23/2021": 0.03266,

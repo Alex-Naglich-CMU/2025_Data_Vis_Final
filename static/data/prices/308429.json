@@ -2,8 +2,8 @@
   "RxCUI": "308429",
   "Name": "ATOVAQUONE 750 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "308429",
-  "Generic_RxCUI": "211947",
+  "Brand_RxCUI": "211947",
+  "Generic_RxCUI": "308429",
   "prices": {
     "68180028201": {
       "05/19/2021": 1.45349,

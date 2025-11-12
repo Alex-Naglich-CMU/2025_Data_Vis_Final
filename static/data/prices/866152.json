@@ -2,8 +2,8 @@
   "RxCUI": "866152",
   "Name": "PREVACID 30 MG SOLUTAB",
   "IsBrand": true,
-  "Brand_RxCUI": "351260",
-  "Generic_RxCUI": "866152",
+  "Brand_RxCUI": "866152",
+  "Generic_RxCUI": "351260",
   "prices": {
     "64764054411": {
       "06/23/2021": 13.16874,

@@ -2,8 +2,8 @@
   "RxCUI": "749783",
   "Name": "AZITHROMYCIN 250 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "749783",
-  "Generic_RxCUI": "750149",
+  "Brand_RxCUI": "750149",
+  "Generic_RxCUI": "749783",
   "prices": {
     "50111078766": {
       "05/19/2021": 0.50357,

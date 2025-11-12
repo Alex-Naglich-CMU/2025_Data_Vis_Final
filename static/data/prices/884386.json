@@ -2,8 +2,8 @@
   "RxCUI": "884386",
   "Name": "DEXTROAMPHETAMINE 5 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "884386",
-  "Generic_RxCUI": "1425339",
+  "Brand_RxCUI": "1425339",
+  "Generic_RxCUI": "884386",
   "prices": {
     "00406895801": {
       "05/19/2021": 0.28462,

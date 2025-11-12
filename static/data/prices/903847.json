@@ -2,8 +2,8 @@
   "RxCUI": "903847",
   "Name": "PYRIDOSTIGMINE ER 180 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "903847",
-  "Generic_RxCUI": "903849",
+  "Brand_RxCUI": "903849",
+  "Generic_RxCUI": "903847",
   "prices": {
     "64980022003": {
       "05/19/2021": 7.12197,

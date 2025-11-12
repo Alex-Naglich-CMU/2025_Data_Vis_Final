@@ -2,8 +2,8 @@
   "RxCUI": "1926331",
   "Name": "INSULIN LISPRO JR 100 UNIT/ML KWIKPEN",
   "IsBrand": false,
-  "Brand_RxCUI": "1926331",
-  "Generic_RxCUI": "1926332",
+  "Brand_RxCUI": "1926332",
+  "Generic_RxCUI": "1926331",
   "prices": {
     "00002775205": {
       "10/20/2021": 16.99562,

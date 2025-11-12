@@ -2,8 +2,8 @@
   "RxCUI": "686400",
   "Name": "ERYTHROMYCIN 200 MG/5 ML SUSP",
   "IsBrand": false,
-  "Brand_RxCUI": "686400",
-  "Generic_RxCUI": "863603",
+  "Brand_RxCUI": "863603",
+  "Generic_RxCUI": "686400",
   "prices": {
     "69238150301": {
       "05/19/2021": 2.36645,

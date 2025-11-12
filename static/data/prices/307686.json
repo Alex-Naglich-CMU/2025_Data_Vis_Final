@@ -2,8 +2,8 @@
   "RxCUI": "307686",
   "Name": "TENSION HEADACHE CAPLET",
   "IsBrand": false,
-  "Brand_RxCUI": "307686",
-  "Generic_RxCUI": "1872075",
+  "Brand_RxCUI": "1872075",
+  "Generic_RxCUI": "307686",
   "prices": {
     "70000015902": {
       "06/23/2021": 0.06277,

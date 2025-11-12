@@ -2,8 +2,8 @@
   "RxCUI": "646456",
   "Name": "NYSTATIN 100,000 UNIT/GM POWD",
   "IsBrand": false,
-  "Brand_RxCUI": "646456",
-  "Generic_RxCUI": "584414",
+  "Brand_RxCUI": "584414",
+  "Generic_RxCUI": "646456",
   "prices": {
     "42543035260": {
       "05/19/2021": 0.25442,

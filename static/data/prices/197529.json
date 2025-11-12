@@ -2,8 +2,8 @@
   "RxCUI": "197529",
   "Name": "CLONAZEPAM 2 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197529",
-  "Generic_RxCUI": "206160",
+  "Brand_RxCUI": "206160",
+  "Generic_RxCUI": "197529",
   "prices": {
     "00093321305": {
       "05/19/2021": 0.04031,

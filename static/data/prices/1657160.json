@@ -2,8 +2,8 @@
   "RxCUI": "1657160",
   "Name": "SUMATRIPTAN 6 MG/0.5 ML INJECT",
   "IsBrand": false,
-  "Brand_RxCUI": "1657160",
-  "Generic_RxCUI": "860088",
+  "Brand_RxCUI": "860088",
+  "Generic_RxCUI": "1657160",
   "prices": {
     "66993008498": {
       "05/19/2021": 81.08,

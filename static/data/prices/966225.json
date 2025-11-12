@@ -2,8 +2,8 @@
   "RxCUI": "966225",
   "Name": "LEVOTHYROXINE 150 MCG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "966225",
-  "Generic_RxCUI": "966238",
+  "Brand_RxCUI": "966238",
+  "Generic_RxCUI": "966225",
   "prices": {
     "16729045517": {
       "05/19/2021": 0.30108,

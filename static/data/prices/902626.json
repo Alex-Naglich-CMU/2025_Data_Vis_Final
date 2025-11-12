@@ -2,8 +2,8 @@
   "RxCUI": "902626",
   "Name": "DEXILANT DR 60 MG CAPSULE",
   "IsBrand": true,
-  "Brand_RxCUI": "833213",
-  "Generic_RxCUI": "902626",
+  "Brand_RxCUI": "902626",
+  "Generic_RxCUI": "833213",
   "prices": {
     "64764017530": {
       "01/02/2018": 8.77777,

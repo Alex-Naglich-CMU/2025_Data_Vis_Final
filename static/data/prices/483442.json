@@ -2,8 +2,8 @@
   "RxCUI": "483442",
   "Name": "PREGABALIN 25 MG CAPSULE",
   "IsBrand": false,
-  "Brand_RxCUI": "483442",
-  "Generic_RxCUI": "607026",
+  "Brand_RxCUI": "607026",
+  "Generic_RxCUI": "483442",
   "prices": {
     "76282056890": {
       "05/19/2021": 0.09877,

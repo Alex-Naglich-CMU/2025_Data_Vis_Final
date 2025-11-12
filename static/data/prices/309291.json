@@ -2,8 +2,8 @@
   "RxCUI": "309291",
   "Name": "CICLOPIROX 8% SOLUTION",
   "IsBrand": false,
-  "Brand_RxCUI": "309291",
-  "Generic_RxCUI": "1100057",
+  "Brand_RxCUI": "1100057",
+  "Generic_RxCUI": "309291",
   "prices": {
     "00713031788": {
       "05/19/2021": 2.0332,

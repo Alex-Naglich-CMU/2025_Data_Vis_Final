@@ -2,8 +2,8 @@
   "RxCUI": "314234",
   "Name": "SUCRALFATE 1 GM TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "314234",
-  "Generic_RxCUI": "208097",
+  "Brand_RxCUI": "208097",
+  "Generic_RxCUI": "314234",
   "prices": {
     "51079075301": {
       "05/19/2021": 0.20352,

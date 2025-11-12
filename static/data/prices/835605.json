@@ -2,8 +2,8 @@
   "RxCUI": "835605",
   "Name": "ULTRAM 50 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "835603",
-  "Generic_RxCUI": "835605",
+  "Brand_RxCUI": "835605",
+  "Generic_RxCUI": "835603",
   "prices": {
     "50458065960": {
       "01/03/2018": 3.08885,

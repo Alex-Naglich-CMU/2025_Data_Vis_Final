@@ -2,8 +2,8 @@
   "RxCUI": "578330",
   "Name": "CANDESARTAN-HYDROCHLOROTHIAZIDE 32-12.5 MG TB",
   "IsBrand": false,
-  "Brand_RxCUI": "578330",
-  "Generic_RxCUI": "805859",
+  "Brand_RxCUI": "805859",
+  "Generic_RxCUI": "578330",
   "prices": {
     "33342013215": {
       "05/19/2021": 2.1521,

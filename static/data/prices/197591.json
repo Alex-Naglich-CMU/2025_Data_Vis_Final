@@ -2,8 +2,8 @@
   "RxCUI": "197591",
   "Name": "DIAZEPAM 5 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197591",
-  "Generic_RxCUI": "104700",
+  "Brand_RxCUI": "104700",
+  "Generic_RxCUI": "197591",
   "prices": {
     "51079028501": {
       "05/19/2021": 0.02529,

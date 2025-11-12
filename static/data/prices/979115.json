@@ -2,8 +2,8 @@
   "RxCUI": "979115",
   "Name": "RELISTOR 12 MG/0.6 ML VIAL",
   "IsBrand": true,
-  "Brand_RxCUI": "979113",
-  "Generic_RxCUI": "979115",
+  "Brand_RxCUI": "979115",
+  "Generic_RxCUI": "979113",
   "prices": {
     "65649055102": {
       "01/01/2023": 244.39591,

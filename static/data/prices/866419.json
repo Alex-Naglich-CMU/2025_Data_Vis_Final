@@ -2,8 +2,8 @@
   "RxCUI": "866419",
   "Name": "METOPROLOL SUCC ER 200 MG TAB",
   "IsBrand": false,
-  "Brand_RxCUI": "866419",
-  "Generic_RxCUI": "866421",
+  "Brand_RxCUI": "866421",
+  "Generic_RxCUI": "866419",
   "prices": {
     "55111046905": {
       "05/19/2021": 0.42071,

@@ -2,8 +2,8 @@
   "RxCUI": "1542997",
   "Name": "BUPRENORPHINE 7.5 MCG/HR PATCH",
   "IsBrand": false,
-  "Brand_RxCUI": "1542997",
-  "Generic_RxCUI": "1542999",
+  "Brand_RxCUI": "1542999",
+  "Generic_RxCUI": "1542997",
   "prices": {
     "42858035340": {
       "05/19/2021": 66.35111,

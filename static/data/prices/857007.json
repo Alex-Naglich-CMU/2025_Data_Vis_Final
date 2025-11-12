@@ -2,8 +2,8 @@
   "RxCUI": "857007",
   "Name": "NORCO 7.5-325 TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "857005",
-  "Generic_RxCUI": "857007",
+  "Brand_RxCUI": "857007",
+  "Generic_RxCUI": "857005",
   "prices": {
     "52544016201": {
       "09/20/2017": 2.99608,

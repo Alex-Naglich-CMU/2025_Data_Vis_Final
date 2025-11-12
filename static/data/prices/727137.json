@@ -2,8 +2,8 @@
   "RxCUI": "727137",
   "Name": "HM CHEST RUB",
   "IsBrand": false,
-  "Brand_RxCUI": "727137",
-  "Generic_RxCUI": "1432507",
+  "Brand_RxCUI": "1432507",
+  "Generic_RxCUI": "727137",
   "prices": {
     "62011007501": {
       "05/19/2021": 0.02333,

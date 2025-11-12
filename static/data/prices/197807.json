@@ -2,8 +2,8 @@
   "RxCUI": "197807",
   "Name": "IBUPROFEN 800 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "197807",
-  "Generic_RxCUI": "541713",
+  "Brand_RxCUI": "541713",
+  "Generic_RxCUI": "197807",
   "prices": {
     "00904585540": {
       "05/19/2021": 0.08237,

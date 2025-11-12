@@ -2,8 +2,8 @@
   "RxCUI": "1037179",
   "Name": "DABIGATRAN ETEXILATE 75 CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1037179",
-  "Generic_RxCUI": "1037181",
+  "Brand_RxCUI": "1037181",
+  "Generic_RxCUI": "1037179",
   "prices": {
     "31722062160": {
       "07/19/2023": 6.35864,

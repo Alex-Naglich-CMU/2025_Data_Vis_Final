@@ -2,8 +2,8 @@
   "RxCUI": "1806200",
   "Name": "METHYLPHENIDATE ER 10 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1806200",
-  "Generic_RxCUI": "1648180",
+  "Brand_RxCUI": "1648180",
+  "Generic_RxCUI": "1806200",
   "prices": {
     "00591385419": {
       "07/19/2023": 5.25202,

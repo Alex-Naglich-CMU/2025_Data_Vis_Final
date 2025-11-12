@@ -2,8 +2,8 @@
   "RxCUI": "1806191",
   "Name": "METHYLPHENIDATE CD 40 MG CAP",
   "IsBrand": false,
-  "Brand_RxCUI": "1806191",
-  "Generic_RxCUI": "1091193",
+  "Brand_RxCUI": "1091193",
+  "Generic_RxCUI": "1806191",
   "prices": {
     "00527458237": {
       "05/19/2021": 2.39688,

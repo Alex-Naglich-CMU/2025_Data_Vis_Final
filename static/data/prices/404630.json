@@ -2,8 +2,8 @@
   "RxCUI": "404630",
   "Name": "CIPRODEX OTIC SUSPENSION",
   "IsBrand": true,
-  "Brand_RxCUI": "403908",
-  "Generic_RxCUI": "404630",
+  "Brand_RxCUI": "404630",
+  "Generic_RxCUI": "403908",
   "prices": {
     "00065853302": {
       "01/03/2018": 27.99188,

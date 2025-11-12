@@ -2,8 +2,8 @@
   "RxCUI": "602393",
   "Name": "ABACAVIR-LAMIVUDINE 600-300 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "602393",
-  "Generic_RxCUI": "602395",
+  "Brand_RxCUI": "602395",
+  "Generic_RxCUI": "602393",
   "prices": {
     "65862033530": {
       "05/19/2021": 2.83807,
