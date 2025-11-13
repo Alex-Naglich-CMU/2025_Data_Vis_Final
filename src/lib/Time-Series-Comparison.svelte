@@ -320,7 +320,8 @@
 					{/if}
 				{/each}
 			</select>
-			<p>Brand data points: {brandChartData.length} | Generic data points: {genericChartData.length}</p>
+			<p>Brand data points: {brandChartData.length}</p>
+			<p>Generic data points: {genericChartData.length}</p>
 		</div>
 
 		<!-- LEGEND -->
@@ -460,6 +461,7 @@
 
 	.chart-title {
 		padding-left: 40px;
+		margin-top: 100px;
 	}
 
 	svg {
