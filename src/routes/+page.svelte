@@ -26,10 +26,10 @@
 		Object.values(loadedDrugs).flatMap((drug) => getPricesArray(drug))
 	);
 
-	async function fetchAndStoreDrug(rxcui: string) {
+	async function importAndStoreDrug(rxcui: string) {
 		// Check if already loaded
 		if (loadedDrugs[rxcui]) {
-			console.log(`${rxcui} already loaded. Skipping fetch.`);
+			console.log(`${rxcui} already loaded. Skipping import.`);
 			return;
 		}
 
@@ -38,14 +38,9 @@
 		errorMessage = null;
 
 		try {
-			// Fetch Price Data
-			const priceResponse = await fetch(`/data/prices/${rxcui}.json`);
-
-			// Check for fetch errors, otherwise parse JSON
-			if (!priceResponse.ok) {
-				throw new Error(`Failed to fetch prices for RxCUI: ${rxcui}.`);
-			}
-			const newDrugData: DrugData = await priceResponse.json();
+			// import Price Data
+			const priceModule = await import(`$lib/data/prices/${rxcui}.json`);
+			const newDrugData: DrugData = priceModule.default;
 
 			// Check data is valid
 			if (!newDrugData.RxCUI || !newDrugData.prices) {
@@ -64,8 +59,8 @@
 
 			// Ensure companionRxcui is a non-null string and not the current RxCUI
 			if (companionRxcui && companionRxcui !== rxcui) {
-				console.log(`Fetching companion drug: ${companionRxcui}`);
-				await fetchAndStoreDrug(companionRxcui);
+				console.log(`importing companion drug: ${companionRxcui}`);
+				await importAndStoreDrug(companionRxcui);
 			}
 		} catch (e) {
 			errorMessage = e instanceof Error ? e.message : 'An unknown error occurred.';
@@ -83,11 +78,11 @@
 	}
 
 	async function loadAllCuratedDrugs() {
-		// Create an array of promises for concurrent fetching
+		// Create an array of promises for concurrent importing
 		const rxcuisToLoad = Object.values(curatedList);
 
-		// Wait for all fetches to complete
-		await Promise.all(rxcuisToLoad.map((rxcui) => fetchAndStoreDrug(rxcui)));
+		// Wait for all importes to complete
+		await Promise.all(rxcuisToLoad.map((rxcui) => importAndStoreDrug(rxcui)));
 
 		// Clear the global loading state
 		isLoading = false;
