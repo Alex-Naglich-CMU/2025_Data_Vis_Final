@@ -7,7 +7,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : '/2025_Data_Vis_Final'
+			base: process.env.BASE_PATH || ''
 		}
 	}
 };
