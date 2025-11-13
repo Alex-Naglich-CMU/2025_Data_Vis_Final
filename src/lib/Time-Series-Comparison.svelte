@@ -44,12 +44,13 @@
 
 	// CONSTANTS
 	const width = 900;
-	const height = 400;
+	const height = 500;
 	const margin = { top: 40, right: 40, bottom: 80, left: 80 };
 
 	const colors = {
 		red: '#9A2F1F',
 		blue: '#54707C',
+		green: '#3F5339',
 		orange: '#DF7C39',
 		tan: '#BFA97F',
 		cream: '#F6F5EC'
@@ -220,7 +221,7 @@
 
 	$effect(() => {
 		if (xAxisRef && allDataPoints.length > 0) {
-			const xAxis = d3.axisBottom(xScale).tickFormat(d3.timeFormat('%b %Y') as any);
+			const xAxis = d3.axisBottom(xScale).tickFormat(d3.timeFormat('%Y') as any);
 			d3.select(xAxisRef)
 				.call(xAxis)
 				.selectAll('text')
@@ -249,90 +250,100 @@
 });
 </script>
 
-<div class="controls">
-	<h3>Drug Price Comparison</h3>
-	<label for="drug-select">Select Drug:</label>
-	<select id="drug-select" bind:value={selectedDrugIndex}>
-		{#each drugsData as drug, i}
-			<option value={i}>
-				{drug.friendlyName} - {drug.isBrand ? 'Brand' : 'Generic'}
-			</option>
-		{/each}
-	</select>
-	<p>Brand data points: {brandChartData.length} | Generic data points: {genericChartData.length}</p>
-</div>
 
-<div class="chart-wrapper">
-	<svg
-		{width}
-		{height}
-		on:mousemove={handleMouseMove}
-		on:mouseleave={handleMouseLeave}
-		style="cursor: crosshair;"
-	>
-		<!-- Brand line (RED) -->
-		{#if brandLinePath}
-			<path d={brandLinePath} fill="none" stroke="#E53935" stroke-width="3" />
-		{/if}
+<h4 class="chart-title">Comparing the Cost of Generic & Name-Brand Medications</h4>
+<div class='combined-graphic-area'>
+	<div class="chart-wrapper">
+		<svg
+			{width}
+			{height}
+			on:mousemove={handleMouseMove}
+			on:mouseleave={handleMouseLeave}
+			style="cursor: crosshair;"
+		>
+			<!-- Brand line (RED) -->
+			{#if brandLinePath}
+				<path d={brandLinePath} fill="none" style="stroke: {colors.red}" stroke-width="3" />
+			{/if}
 
-		<!-- Generic line (BLUE) -->
-		{#if genericLinePath}
-			<path d={genericLinePath} fill="none" stroke="#2563eb" stroke-width="3" />
-		{/if}
+			<!-- Generic line (BLUE) -->
+			{#if genericLinePath}
+				<path d={genericLinePath} fill="none" style="stroke: {colors.blue}" stroke-width="3" />
+			{/if}
 
-		<!-- Brand data points -->
-		{#each brandChartData as point}
-			<circle
-				cx={xScale(point.date)}
-				cy={yScale(point.price)}
-				r="4"
-				fill="#E53935"
-				stroke="white"
-				stroke-width="2"
-			/>
-		{/each}
+			<!-- Brand data points -->
+			{#each brandChartData as point}
+				<circle
+					cx={xScale(point.date)}
+					cy={yScale(point.price)}
+					r="4"
+					fill={colors.red}
+					stroke="white"
+					stroke-width="2"
+				/>
+			{/each}
 
-		<!-- Generic data points -->
-		{#each genericChartData as point}
-			<circle
-				cx={xScale(point.date)}
-				cy={yScale(point.price)}
-				r="4"
-				fill="#2563eb"
-				stroke="white"
-				stroke-width="2"
-			/>
-		{/each}
+			<!-- Generic data points -->
+			{#each genericChartData as point}
+				<circle
+					cx={xScale(point.date)}
+					cy={yScale(point.price)}
+					r="4"
+					fill={colors.blue}
+					stroke="white"
+					stroke-width="2"
+				/>
+			{/each}
 
-		<!-- Axes -->
-		<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}></g>
-		<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
+			<!-- Axes -->
+			<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}></g>
+			<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
 
-		<!-- Axis labels -->
-		<text text-anchor="middle" x={width / 2} y={height - 10} font-size="14px"> Time </text>
+			<!-- Axis labels -->
+			<text text-anchor="middle" x={width / 2} y={height - 10} font-size="14px"> Time </text>
 
-		<text text-anchor="middle" transform="rotate(-90)" x={-height / 2} y={20} font-size="14px">
-			Price ($ per unit)
-		</text>
-	</svg>
+			<text text-anchor="middle" transform="rotate(-90)" x={-height / 2} y={20} font-size="14px">
+				Price ($ Per 30 Day Supply)
+			</text>
+		</svg>
+	</div>
 
-	<!-- LEGEND -->
-	<div class="legend">
-		<h4>Legend</h4>
-		{#if brandDrug}
-			<div class="legend-item">
-				<div class="legend-line" style={colors.red}></div>
-				<span>{brandDrug.friendlyName} (Brand)</span>
-			</div>
-		{/if}
-		{#if genericDrug}
-			<div class="legend-item">
-				<div class="legend-line" style={colors.blue}></div>
-				<span>{genericDrug.friendlyName} (Generic)</span>
-			</div>
-		{/if}
+	<div class="side-bar">
+		<div class="controls">
+			<label for="drug-select" class='dropdown-label'>Select Drug:</label>
+			<select id="drug-select" bind:value={selectedDrugIndex}>
+				{#each drugsData as drug, i}
+					{#if drug.isBrand}
+					<option value={i}>
+						{drug.friendlyName.toUpperCase()}
+					</option>
+					{/if}
+				{/each}
+			</select>
+			<p>Brand data points: {brandChartData.length} | Generic data points: {genericChartData.length}</p>
+		</div>
+
+		<!-- LEGEND -->
+		<div class="legend">
+			<h4>Legend</h4>
+			{#if brandDrug}
+				<div class="legend-item">
+					<div class="legend-line" style="border-color: {colors.red}"></div>
+					<span>{brandDrug.friendlyName} (Brand)</span>
+				</div>
+			{/if}
+			{#if genericDrug}
+				<div class="legend-item">
+					<div class="legend-line" style="border-color: {colors.blue}"></div>
+					<span>{genericDrug.friendlyName} (Generic)</span>
+				</div>
+			{/if}
+		</div>
 	</div>
 </div>
+
+
+
 
 <!-- TOOLTIP -->
 <!-- TOOLTIP -->
@@ -347,24 +358,24 @@
 			>
 		</div>
 
-		{#if hoveredData.genericPrice !== undefined}
-			<div class="tooltip-row generic">
-				<span class="label">Generic:</span>
-				<span class="value">${hoveredData.genericPrice.toFixed(2)}</span>
+		{#if hoveredData.brandPrice !== undefined}
+			<div class="tooltip-row brand">
+				<span class="label" style="color: {colors.red}">Brand:</span>
+				<span class="value">${hoveredData.brandPrice.toFixed(2)}</span>
 			</div>
 		{/if}
 
-		{#if hoveredData.brandPrice !== undefined}
-			<div class="tooltip-row brand">
-				<span class="label">Brand:</span>
-				<span class="value">${hoveredData.brandPrice.toFixed(2)}</span>
+		{#if hoveredData.genericPrice !== undefined}
+			<div class="tooltip-row generic">
+				<span class="label" style="color: {colors.blue}">Generic:</span>
+				<span class="value">${hoveredData.genericPrice.toFixed(2)}</span>
 			</div>
 		{/if}
 
 		{#if hoveredData.savings !== undefined && hoveredData.savingsPercent !== undefined}
 			<div class="tooltip-row savings">
-				<span class="label">Savings:</span>
-				<span class="value"
+				<span class="label" style="color: {colors.green}">Savings:</span>
+				<span class="value" style="color: {colors.green}"
 					>${hoveredData.savings.toFixed(2)} ({hoveredData.savingsPercent.toFixed(2)}%)</span
 				>
 			</div>
@@ -373,14 +384,51 @@
 {/if}
 
 <style>
-	.controls {
-		padding: 1.5rem;
-		margin: 2rem;
-	}
+	 * {
+        font-family: Antonio;
+    }
+
+    h1 {
+        font-size: 96px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-family: fustat;
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    h4, .dropdown-label {
+        font-family: fustat;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    h5 {
+        font-family: fustat;
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-family: fustat;
+        font-size: 16px;
+        font-weight: normal;
+    }
 
 	.controls h3 {
 		margin-top: 0;
 	}
+
 
 	.controls select {
 		width: 100%;
@@ -390,11 +438,28 @@
 		margin: 10px 0;
 	}
 
+	.combined-graphic-area {
+		display: flex;
+		justify-content: left;
+		align-items: top;
+		margin-top: 20px;
+	}
+
 	.chart-wrapper {
-		padding: 2rem;
+		padding: 0 40px 40px 40px;
 		display: flex;
 		gap: 30px;
 		align-items: flex-start;
+	}
+
+	.side-bar {
+		padding: 20px 20px 20px 20px;
+		border: 1px solid #ccc;
+		max-height: 500px;
+	}
+
+	.chart-title {
+		padding-left: 40px;
 	}
 
 	svg {
@@ -402,12 +467,13 @@
 	}
 
 	.legend {
+		margin-top: 2rem;
+		padding-top: 2rem;
 		min-width: 200px;
-		padding: 1rem;
 		border-radius: 8px;
 	}
 
-	.legend h4 {
+	.legend {
 		margin: 0 0 10px 0;
 		font-size: 14px;
 		text-transform: uppercase;
@@ -425,6 +491,7 @@
 		width: 30px;
 		height: 3px;
 		border-radius: 2px;
+		border-width: 2px;
 	}
 
 	.tooltip {
@@ -453,12 +520,10 @@
 	}
 
 	.tooltip-row.brand .label {
-		color: #e53935;
 		font-weight: 600;
 	}
 
 	.tooltip-row.generic .label {
-		color: #2563eb;
 		font-weight: 600;
 	}
 

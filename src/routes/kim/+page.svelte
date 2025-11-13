@@ -30,12 +30,12 @@
         '617311': 'atorvastatin',      // Generic - ATORVASTATIN 40 MG TABLET
         
         // LANTUS (brand) / INSULIN GLARGINE (generic) - 100 unit/ml
-        '285018': 'lantus',            // Brand - LANTUS 100 UNIT/ML VIAL
-        '2563976': 'insulin-glargine', // Generic - INSULIN GLARGINE-YFGN U100 VL
+        // '285018': 'lantus',            // Brand - LANTUS 100 UNIT/ML VIAL
+        // '2563976': 'insulin-glargine', // Generic - INSULIN GLARGINE-YFGN U100 VL
         
         // SYNTHROID (brand) / LEVOTHYROXINE (generic) - 150mcg
-        '966201': 'synthroid',         // Brand - SYNTHROID 150 MCG TABLET
-        '966225': 'levothyroxine',     // Generic - LEVOTHYROXINE 150 MCG TABLET
+        // '966201': 'synthroid',         // Brand - SYNTHROID 150 MCG TABLET
+        // '966225': 'levothyroxine',     // Generic - LEVOTHYROXINE 150 MCG TABLET
         
         // GLUCOPHAGE (brand) / METFORMIN (generic) - 500mg
         '861008': 'glucophage',        // Brand - GLUCOPHAGE 500 MG TABLET
@@ -50,13 +50,13 @@
         '310385': 'fluoxetine',        // Generic - FLUOXETINE HCL 20 MG CAPSULE
         
         // CLARAVIS (brand-ish) / ISOTRETINOIN (generic) - 30mg
-        '643488': 'claravis',          // Brand - CLARAVIS 30 MG CAPSULE
-        '403930': 'isotretinoin',      // Generic - ISOTRETINOIN 30 MG CAPSULE
+        // '643488': 'claravis',          // Brand - CLARAVIS 30 MG CAPSULE
+        // '403930': 'isotretinoin',      // Generic - ISOTRETINOIN 30 MG CAPSULE
         
         // NORVASC (brand) / AMLODIPINE (generic) - 5mg
         '212549': 'norvasc',           // Brand - NORVASC 5 MG TABLET
         '197361': 'amlodipine'         // Generic - AMLODIPINE BESYLATE 5 MG TAB
-};
+    };
 
     let drugsData = $state<DrugData[]>([]);
     let loading = $state<boolean>(true);
@@ -80,7 +80,7 @@
                             pricesArray.push({
                                 ndc,
                                 date,
-                                price,
+                                price: price * 30, //montly supply instead of per pill to align with how user purchases
                                 drugName: data.Name,
                                 rxcui: data.RxCUI,
                                 isBrand: data.IsBrand
@@ -150,7 +150,7 @@
 <div class="title-holder">
     <div class="title">
         <h1 class="headerTitle">Do You Know the <u>Actual Cost</u> of Your Medications?</h1>
-        <h2>a subtitle will go here</h2>
+        <h2>What price can you expect on your next refill?</h2>
     </div>
     <div class="pillsImages"> 
         <img class="pillpics" src={asset('/images/pill01.png')} alt="red pill illustration"/>
@@ -168,9 +168,7 @@
         <p>Error loading data: {error}</p>
     </div>
 {:else}
-    <div class="drug-section">
-        <h3>Loaded {drugsData.length} Medications</h3>
-        
+    <!-- <div class="drug-section">        
         {#if drugsData.length === 0}
             <p class="no-data">No drugs found. Check console for details.</p>
         {:else}
@@ -192,11 +190,11 @@
                 {/each}
             </div>
         {/if}
-    </div>
+    </div> -->
 {/if}
 
 {#if !loading && !error && drugsData.length > 0}
-  <TimeSeriesComparison {drugsData} />
+    <TimeSeriesComparison {drugsData} />
 {/if}
 
 <style>
