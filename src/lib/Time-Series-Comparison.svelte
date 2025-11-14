@@ -534,7 +534,7 @@
 <div class="individual-charts-container">
 	<!-- BRAND CHART -->
 	<div class="small-chart-wrapper">
-		<h4 class="small-chart-title">
+		<h4>
 			{brandDrug ? brandDrug.friendlyName.toUpperCase() + ' (BRAND)' : 'BRAND'}
 		</h4>
 		<svg
@@ -588,7 +588,7 @@
 
 	<!-- GENERIC CHART -->
 	<div class="small-chart-wrapper">
-		<h4 class="small-chart-title">
+		<h4>
 			{genericDrug ? genericDrug.friendlyName.toUpperCase() + ' (GENERIC)' : 'GENERIC'}
 		</h4>
 		<svg
@@ -760,6 +760,7 @@
 		font-size: 20px;
 		font-weight: 700;
 		text-transform: uppercase;
+		margin-bottom: 20px;
 	}
 
 	h5 {
@@ -804,12 +805,13 @@
 	.side-bar {
 		padding: 20px 20px 20px 20px;
 		border: 1px solid #ccc;
-		max-height: 500px;
+		max-height: 600px;
 	}
 
 	.chart-title {
 		padding-left: 40px;
 		margin-top: 100px;
+		margin-bottom: 20px;
 	}
 
 	svg {
