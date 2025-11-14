@@ -898,4 +898,8 @@
 		padding: 0 40px;
 		gap: 20px;
 	}
+
+	.small-chart-wrapper {
+		margin-bottom: 80px;
+	}
 </style>
