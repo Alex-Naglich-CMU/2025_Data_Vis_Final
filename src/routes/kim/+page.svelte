@@ -29,14 +29,6 @@
         '617320': 'lipitor',           // Brand - LIPITOR 40 MG TABLET
         '617311': 'atorvastatin',      // Generic - ATORVASTATIN 40 MG TABLET
         
-        // LANTUS (brand) / INSULIN GLARGINE (generic) - 100 unit/ml
-        // '285018': 'lantus',            // Brand - LANTUS 100 UNIT/ML VIAL
-        // '2563976': 'insulin-glargine', // Generic - INSULIN GLARGINE-YFGN U100 VL
-        
-        // SYNTHROID (brand) / LEVOTHYROXINE (generic) - 150mcg
-        // '966201': 'synthroid',         // Brand - SYNTHROID 150 MCG TABLET
-        // '966225': 'levothyroxine',     // Generic - LEVOTHYROXINE 150 MCG TABLET
-        
         // GLUCOPHAGE (brand) / METFORMIN (generic) - 500mg
         '861008': 'glucophage',        // Brand - GLUCOPHAGE 500 MG TABLET
         '861007': 'metformin',         // Generic - METFORMIN HCL 500 MG TABLET
@@ -49,13 +41,21 @@
         '104849': 'prozac',            // Brand - PROZAC 20 MG PULVULE
         '310385': 'fluoxetine',        // Generic - FLUOXETINE HCL 20 MG CAPSULE
         
-        // CLARAVIS (brand-ish) / ISOTRETINOIN (generic) - 30mg
-        // '643488': 'claravis',          // Brand - CLARAVIS 30 MG CAPSULE
-        // '403930': 'isotretinoin',      // Generic - ISOTRETINOIN 30 MG CAPSULE
-        
         // NORVASC (brand) / AMLODIPINE (generic) - 5mg
         '212549': 'norvasc',           // Brand - NORVASC 5 MG TABLET
-        '197361': 'amlodipine'         // Generic - AMLODIPINE BESYLATE 5 MG TAB
+        '197361': 'amlodipine',         // Generic - AMLODIPINE BESYLATE 5 MG TAB
+
+        // ZOLOFT (brand) / SERTRALINE (generic) - 50mg
+        '208161': 'zoloft',            // Brand - ZOLOFT 50 MG TABLET
+        '312941': 'sertraline',         // Generic - SERTRALINE HCL 50 MG TABLET
+
+         // LEXAPRO (brand) / ESCITALOPRAM (generic) - 10mg
+        '352272': 'lexapro',           // Brand - LEXAPRO 10 MG TABLET
+        '349332': 'escitalopram',       // Generic - ESCITALOPRAM 10 MG TABLET
+
+        // LYRICA (brand) / PREGABALIN (generic) - 150mg
+        '607020': 'lyrica',            // Brand - LYRICA 150 MG CAPSULE
+        '483440': 'pregabalin'         // Generic - PREGABALIN 150 MG CAPSULE
     };
 
     let drugsData = $state<DrugData[]>([]);

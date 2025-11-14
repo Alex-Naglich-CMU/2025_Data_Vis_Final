@@ -476,20 +476,13 @@
 			{/each}
 
 			<!-- Axes -->
-			<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}
-			></g>
+			<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}></g>
 			<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
 
 			<!-- Axis labels -->
 			<text text-anchor="middle" x={width / 2} y={height - 10} font-size="14px"> Time </text>
 
-			<text
-				text-anchor="middle"
-				transform="rotate(-90)"
-				x={-height / 2}
-				y={20}
-				font-size="14px"
-			>
+			<text text-anchor="middle" transform="rotate(-90)" x={-height / 2} y={20} font-size="14px">
 				Price ($ Per 30 Day Supply)
 			</text>
 		</svg>
@@ -499,12 +492,13 @@
 		<div class="controls">
 			<label for="drug-select" class="dropdown-label">Select Drug:</label>
 			<select id="drug-select" bind:value={selectedDrugIndex}>
-				{#each drugsData as drug, i}
-					{#if drug.isBrand}
-						<option value={i}>
-							{drug.friendlyName.toUpperCase()}
-						</option>
-					{/if}
+				{#each drugsData
+					.map((drug, i) => ({ drug, i }))
+					.filter(({ drug }) => drug.isBrand)
+					.sort((a, b) => a.drug.friendlyName.localeCompare(b.drug.friendlyName)) as { drug, i }}
+					<option value={i}>
+						{drug.friendlyName.toUpperCase()}
+					</option>
 				{/each}
 			</select>
 			<p>Brand data points: {brandChartData.length}</p>
@@ -600,12 +594,7 @@
 		>
 			<!-- Generic line (BLUE) -->
 			{#if smallGenericLinePath}
-				<path
-					d={smallGenericLinePath}
-					fill="none"
-					style="stroke: {colors.blue}"
-					stroke-width="3"
-				/>
+				<path d={smallGenericLinePath} fill="none" style="stroke: {colors.blue}" stroke-width="3" />
 			{/if}
 
 			<!-- Generic data points -->
@@ -626,11 +615,7 @@
 				transform="translate(0,{smallHeight - smallMargin.bottom})"
 				bind:this={genericXAxisRef}
 			></g>
-			<g
-				class="y-axis"
-				transform="translate({smallMargin.left},0)"
-				bind:this={genericYAxisRef}
-			></g>
+			<g class="y-axis" transform="translate({smallMargin.left},0)" bind:this={genericYAxisRef}></g>
 
 			<!-- Axis labels -->
 			<text text-anchor="middle" x={smallWidth / 2} y={smallHeight - 10} font-size="14px">
@@ -691,7 +676,8 @@
 {#if hoveredBrandData}
 	<div
 		class="tooltip"
-		style="position: fixed; left: {brandMousePosition.x + 15}px; top: {brandMousePosition.y - 60}px;"
+		style="position: fixed; left: {brandMousePosition.x + 15}px; top: {brandMousePosition.y -
+			60}px;"
 	>
 		<div class="tooltip-date">
 			<strong
