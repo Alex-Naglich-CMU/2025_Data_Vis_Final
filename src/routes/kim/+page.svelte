@@ -151,6 +151,12 @@
     <div class="title">
         <h1 class="headerTitle">Do You Know the <u>Actual Cost</u> of Your Medications?</h1>
         <h2>What price can you expect on your next refill?</h2>
+
+        <br>
+        <br>
+        <p>In the United States, brand-name drug prices have continued to rise, while generic drug prices have steadily declined. This interactive dashboard visualizes these trends over time. According to RAND, an independent public policy research organization, generics are the only category where U.S. prices are consistently lower than those in other countries, costing about 84% of the international average. Understanding this contrast makes it easier to see how pricing patterns affect affordability and policy decisions. Use the dashboard to select different drugs and compare how their prices change across brands, generics, and time.
+
+        </p>
     </div>
     <div class="pillsImages"> 
         <img class="pillpics" src={asset('/images/pill01.png')} alt="red pill illustration"/>
