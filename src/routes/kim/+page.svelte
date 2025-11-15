@@ -3,6 +3,7 @@
     import { asset } from '$app/paths';
     import { onMount } from 'svelte';
     import TimeSeriesComparison from '$lib/Time-Series-Comparison.svelte';
+	import BackgroundInfo from '$lib/Background-Info.svelte';
 
     // Type definitions
     interface PriceDataPoint {
@@ -208,6 +209,7 @@
 {/if}
 
 {#if !loading && !error && drugsData.length > 0}
+    <BackgroundInfo />
     <TimeSeriesComparison {drugsData} />
 {/if}
 
