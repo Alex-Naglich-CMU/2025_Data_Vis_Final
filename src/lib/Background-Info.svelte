@@ -1,5 +1,15 @@
 <script lang="ts">
-    let items : Array<string> = ['test', 'test', 'test', 'test', 'test'];
+
+    const sources = [
+        {
+            link: "https://priceschool.usc.edu/news/drug-prices-trump-executive-order-cost/",
+            headline: "Why do Americans pay more for prescription drugs?"
+        },
+        {
+            link: "https://www.healthday.com/healthpro-news/general-health/price-of-prescription-drugs-almost-threefold-higher-in-the-united-states?utm_ ",
+            headline: "Price of Prescription Drugs Almost Threefold Higher in the United States"
+        }
+    ];
 
     const colors = {
 		red: '#9A2F1F',
@@ -14,8 +24,12 @@
  
 
 <div class="background-scroll">
-  {#each items as item}
-    <div class="background-source" style="background-color: {colors.cream}">{item}</div>
+  {#each sources as source}
+    <a href={source.link} target="_blank" rel="noopener noreferrer">
+        <div class="background-source" style="background-color: {colors.cream}">
+            {source.headline}
+        </div>
+     </a>
   {/each}
 </div>
 
@@ -26,6 +40,7 @@
     height: 200px;
     overflow-y: auto;
     border: 1px solid #ccc;
+    background-color: white;
     padding: 10px;
   }
 
@@ -34,4 +49,4 @@
     margin-bottom: 10px;
   }
 
-  </style>
+</style>
