@@ -38,12 +38,12 @@
 	const { drugsData = [] }: { drugsData: DrugData[] } = $props();
 
 	// STATE
-	//let selectedDrugIndex = $state<number>(0);
+	// sets default drug to "lantus" in dropdown
 	let selectedDrugIndex = $state<number>(
-    drugsData.findIndex(d => d.friendlyName.toLowerCase().includes('lantus')) !== -1 
-        ? drugsData.findIndex(d => d.friendlyName.toLowerCase().includes('lantus')) 
-        : 0
-);
+		drugsData.findIndex((d) => d.friendlyName.toLowerCase().includes('lantus')) !== -1
+			? drugsData.findIndex((d) => d.friendlyName.toLowerCase().includes('lantus'))
+			: 0
+	);
 	let hoveredData = $state<TooltipData | null>(null);
 	let mousePosition = $state({ x: 0, y: 0 });
 	let hoveredBrandData = $state<ChartPoint | null>(null);
@@ -52,10 +52,12 @@
 	let genericMousePosition = $state({ x: 0, y: 0 });
 
 	// CONSTANTS
+	// main time-series visualization
 	const width = 900;
 	const height = 600;
 	const margin = { top: 40, right: 40, bottom: 80, left: 80 };
 
+	// individual (brand and generic) time-series visualizations
 	const smallWidth = 575;
 	const smallHeight = 350;
 	const smallMargin = { top: 40, right: 40, bottom: 80, left: 80 };
@@ -72,7 +74,7 @@
 	// DERIVED DATA
 	let selectedDrug = $derived(drugsData[selectedDrugIndex]);
 
-	// Find the matching brand/generic pair
+	// find the matching brand / generic pair
 	let brandDrug = $derived.by(() => {
 		if (!selectedDrug) return null;
 		const brandRxcui = selectedDrug.brandRxcui;
@@ -85,7 +87,7 @@
 		return drugsData.find((d) => d.rxcui === genericRxcui) || null;
 	});
 
-	// Helper function to calculate average price per date
+	// helper function to calculate average price per date
 	function calculateChartData(drug: DrugData | null): ChartPoint[] {
 		if (!drug || !drug.prices) return [];
 
@@ -110,7 +112,7 @@
 	let brandChartData = $derived(calculateChartData(brandDrug));
 	let genericChartData = $derived(calculateChartData(genericDrug));
 
-	// Combine all data points for scaling
+	// combine all data points for scaling
 	let allDataPoints = $derived([...brandChartData, ...genericChartData]);
 
 	// MAIN CHART SCALES
@@ -253,10 +255,10 @@
 
 		mousePosition = { x: event.clientX, y: event.clientY };
 
-		// Find closest date
+		// find closest date
 		const hoveredDate = xScale.invert(mouseX);
 
-		// Find closest brand point
+		// find closest brand point
 		const closestBrandPoint =
 			brandChartData.length > 0
 				? brandChartData.reduce((prev, curr) => {
@@ -267,7 +269,7 @@
 					})
 				: null;
 
-		// Find closest generic point
+		// find closest generic point
 		const closestGenericPoint =
 			genericChartData.length > 0
 				? genericChartData.reduce((prev, curr) => {
@@ -278,7 +280,7 @@
 					})
 				: null;
 
-		// Build tooltip data
+		// build tooltip data
 		if (closestBrandPoint || closestGenericPoint) {
 			const brandPrice = closestBrandPoint?.price;
 			const genericPrice = closestGenericPoint?.price;
@@ -288,7 +290,7 @@
 
 			if (brandPrice && genericPrice) {
 				savings = brandPrice - genericPrice;
-				// FIX: Calculate percent based on the HIGHER price
+				// calculate percent difference between brand and generic drug prices
 				const higherPrice = Math.max(brandPrice, genericPrice);
 				savingsPercent = (Math.abs(savings) / higherPrice) * 100;
 			}
@@ -446,17 +448,17 @@
 			on:mouseleave={handleMouseLeave}
 			style="cursor: crosshair;"
 		>
-			<!-- Brand line (RED) -->
+			<!-- brand line (RED) -->
 			{#if brandLinePath}
 				<path d={brandLinePath} fill="none" style="stroke: {colors.red}" stroke-width="3" />
 			{/if}
 
-			<!-- Generic line (BLUE) -->
+			<!-- generic line (BLUE) -->
 			{#if genericLinePath}
 				<path d={genericLinePath} fill="none" style="stroke: {colors.blue}" stroke-width="3" />
 			{/if}
 
-			<!-- Brand data points -->
+			<!-- brand data points -->
 			{#each brandChartData as point}
 				<circle
 					cx={xScale(point.date)}
@@ -468,7 +470,7 @@
 				/>
 			{/each}
 
-			<!-- Generic data points -->
+			<!-- generic data points -->
 			{#each genericChartData as point}
 				<circle
 					cx={xScale(point.date)}
@@ -480,11 +482,11 @@
 				/>
 			{/each}
 
-			<!-- Axes -->
+			<!-- axes -->
 			<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}></g>
 			<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
 
-			<!-- Axis labels -->
+			<!-- axis labels -->
 			<text text-anchor="middle" x={width / 2} y={height - 10} font-size="14px"> Time </text>
 
 			<text text-anchor="middle" transform="rotate(-90)" x={-height / 2} y={20} font-size="14px">
@@ -543,12 +545,12 @@
 			on:mouseleave={handleBrandMouseLeave}
 			style="cursor: crosshair;"
 		>
-			<!-- Brand line (RED) -->
+			<!-- brand line (RED) -->
 			{#if smallBrandLinePath}
 				<path d={smallBrandLinePath} fill="none" style="stroke: {colors.red}" stroke-width="3" />
 			{/if}
 
-			<!-- Brand data points -->
+			<!-- brand data points -->
 			{#each brandChartData as point}
 				<circle
 					cx={brandXScale(point.date)}
@@ -560,7 +562,7 @@
 				/>
 			{/each}
 
-			<!-- Axes -->
+			<!-- axes -->
 			<g
 				class="x-axis"
 				transform="translate(0,{smallHeight - smallMargin.bottom})"
@@ -568,7 +570,7 @@
 			></g>
 			<g class="y-axis" transform="translate({smallMargin.left},0)" bind:this={brandYAxisRef}></g>
 
-			<!-- Axis labels -->
+			<!-- axis labels -->
 			<text text-anchor="middle" x={smallWidth / 2} y={smallHeight - 10} font-size="14px">
 				Time
 			</text>
@@ -597,12 +599,12 @@
 			on:mouseleave={handleGenericMouseLeave}
 			style="cursor: crosshair;"
 		>
-			<!-- Generic line (BLUE) -->
+			<!-- generic line (BLUE) -->
 			{#if smallGenericLinePath}
 				<path d={smallGenericLinePath} fill="none" style="stroke: {colors.blue}" stroke-width="3" />
 			{/if}
 
-			<!-- Generic data points -->
+			<!-- generic data points -->
 			{#each genericChartData as point}
 				<circle
 					cx={genericXScale(point.date)}
@@ -614,7 +616,7 @@
 				/>
 			{/each}
 
-			<!-- Axes -->
+			<!-- axes -->
 			<g
 				class="x-axis"
 				transform="translate(0,{smallHeight - smallMargin.bottom})"
@@ -622,7 +624,7 @@
 			></g>
 			<g class="y-axis" transform="translate({smallMargin.left},0)" bind:this={genericYAxisRef}></g>
 
-			<!-- Axis labels -->
+			<!-- axis labels -->
 			<text text-anchor="middle" x={smallWidth / 2} y={smallHeight - 10} font-size="14px">
 				Time
 			</text>
@@ -796,7 +798,7 @@
 	.side-bar {
 		padding: 20px 20px 20px 20px;
 		border: 1px solid #ccc;
-		box-shadow: 0 0 3px #ccc inset;    
+		box-shadow: 0 0 3px #ccc inset;
 		max-height: 600px;
 	}
 
@@ -808,8 +810,7 @@
 
 	svg {
 		border: 1px solid #ccc;
-		box-shadow: 0 0 3px #ccc inset;    
-
+		box-shadow: 0 0 3px #ccc inset;
 	}
 
 	.legend {
@@ -884,7 +885,6 @@
 		font-weight: 600;
 	}
 
-	/* INDIVIDUAL CHARTS STYLING */
 	.individual-charts-container {
 		display: flex;
 		justify-content: space-between;
