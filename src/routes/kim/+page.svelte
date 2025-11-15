@@ -163,8 +163,11 @@
 
         <br>
         <br>
-        <p>In the United States, brand-name drug prices have continued to rise, while generic drug prices have steadily declined. This interactive dashboard visualizes these trends over time. According to RAND, an independent public policy research organization, generics are the only category where U.S. prices are consistently lower than those in other countries, costing about 84% of the international average. Understanding this contrast makes it easier to see how pricing patterns affect affordability and policy decisions. Use the dashboard to select different drugs and compare how their prices change across brands, generics, and time.
-
+        <p> In the United States, brand-name drug prices have continued to rise, while generic drug prices have steadily declined. 
+            This interactive dashboard visualizes these trends over time. According to <a href="https://www.rand.org/news/press/2021/01/28.html" target="_blank" rel="noopener noreferrer">RAND</a>, an independent public policy research organization, 
+            generics are the only category where U.S. prices are consistently lower than those in other countries, costing about 84% of the international
+            average. Understanding this contrast makes it easier to see how pricing patterns affect affordability and policy decisions. Use the dashboard 
+            to select different drugs and compare how their prices change across brands, generics, and time.
         </p>
     </div>
     <div class="pillsImages"> 
@@ -346,6 +349,14 @@
         padding-top: 1rem;
         border-top: 1px solid #ddd;
         font-weight: 600;
+    }
+
+    p a {
+    font-family: fustat;
+    font-size: 16px;
+    font-weight: normal;    
+    color: inherit; 
+    text-decoration: underline;
     }
 </style>
 
