@@ -159,16 +159,7 @@
 <div class="title-holder">
     <div class="title">
         <h1 class="headerTitle">Do You Know the <u>Actual Cost</u> of Your Medications?</h1>
-        <h2>What price can you expect on your next refill?</h2>
-
-        <br>
-        <br>
-        <p> In the United States, brand-name drug prices have continued to rise, while generic drug prices have steadily declined. 
-            This interactive dashboard visualizes these trends over time. According to <a href="https://www.rand.org/news/press/2021/01/28.html" target="_blank" rel="noopener noreferrer">RAND</a>, an independent public policy research organization, 
-            generics are the only category where U.S. prices are consistently lower than those in other countries, costing about 84% of the international
-            average. Understanding this contrast makes it easier to see how pricing patterns affect affordability and policy decisions. Use the dashboard 
-            to select different drugs and compare how their prices change across brands, generics, and time.
-        </p>
+        <h2>The state of drug pricing in America</h2>
     </div>
     <div class="pillsImages"> 
         <img class="pillpics" src={asset('/images/pill01.png')} alt="red pill illustration"/>
@@ -176,6 +167,47 @@
         <img class="pillpics" src={asset('/images/pill03.png')} alt="tan pill illustration"/>
     </div>
 </div>
+
+<div class='intro-holder'>
+    <p>
+        Prescription drug use is at an all-time high in the United States, due to increases 
+        in medicalization, population aging, and growing rates of diagnoses of chronic diseases. According to 
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10656114/" target="_blank" rel="noopener noreferrer">a 2023 study</a>, a 
+        person born today could expect to take prescription medications for roughly half of their life.
+    </p>
+    <br>    
+    <p>
+        At the same time, everyone in the US seems to agree that <b>the current cost of prescription medications is too high.</b>
+        Just look at the sample of news articles from this year alone ↓
+    </p>
+</div>
+
+
+
+<div class='news-holder'>
+    <h4 class='section-title'>Recent headlines:</h4>
+    <BackgroundInfo />
+</div>
+
+<div class='insulin-graphic-intro'>
+    <h3>How high are they really?</h3>
+    <br>
+    <p>
+        What's causing drug prices to be so high? Does this public perception reflect the actual price trends? 
+    </p>
+</div>
+
+<div class='chart-intro'>
+    <p> 
+        In the United States, brand-name drug prices have continued to rise, while generic drug prices have steadily declined. 
+        This interactive dashboard visualizes these trends over time. According to <a href="https://www.rand.org/news/press/2021/01/28.html" target="_blank" rel="noopener noreferrer">RAND</a>, an independent public policy research organization, 
+        generics are the only category where U.S. prices are consistently lower than those in other countries, costing about 84% of the international
+        average. Understanding this contrast makes it easier to see how pricing patterns affect affordability and policy decisions. Use the dashboard 
+        to select different drugs and compare how their prices change across brands, generics, and time.
+    </p>
+</div>
+
+
 
 {#if loading}
     <div class="loading">
@@ -185,34 +217,9 @@
     <div class="error">
         <p>Error loading data: {error}</p>
     </div>
-{:else}
-    <!-- <div class="drug-section">        
-        {#if drugsData.length === 0}
-            <p class="no-data">No drugs found. Check console for details.</p>
-        {:else}
-            <div class="drug-grid">
-                {#each drugsData as drug}
-                    <div class="drug-card">
-                        <h4>{drug.friendlyName}</h4>
-                        <p class="full-name">{drug.fullName}</p>
-                        <p><strong>Type:</strong> {drug.isBrand ? 'Brand' : 'Generic'}</p>
-                        <p><strong>Data Points:</strong> {drug.prices.length}</p>
-                        
-                        {#if drug.prices.length > 0}
-                            <p class="price-info">
-                                <span>First: ${drug.prices[0].price.toFixed(2)}</span>
-                                <span>Latest: ${drug.prices[drug.prices.length - 1].price.toFixed(2)}</span>
-                            </p>
-                        {/if}
-                    </div>
-                {/each}
-            </div>
-        {/if}
-    </div> -->
 {/if}
 
 {#if !loading && !error && drugsData.length > 0}
-    <BackgroundInfo />
     <TimeSeriesComparison {drugsData} />
 {/if}
 
@@ -232,10 +239,9 @@
     }
 
     h3 {
-        font-family: fustat;
+        font-family: antonio;
         font-size: 32px;
-        font-weight: 700;
-        text-transform: uppercase;
+        font-weight: bold;
     }
 
     h4 {
@@ -258,6 +264,20 @@
         font-weight: normal;
     }
 
+    p a {
+        font-family: fustat;
+        font-size: 16px;
+        font-weight: normal;    
+        color: inherit; 
+        text-decoration: underline;
+    }
+
+    p b {
+        font-family: fustat;
+        font-size: 16px;
+        font-weight: bold;  
+    }
+
     .title-holder {
         padding: 40px 40px 40px 40px;
         display: flex;
@@ -276,6 +296,7 @@
     .pillsImages {
         position: relative;
         width: 30%;
+        height: 300px;
         display: flex;
         align-items: center;
     }
@@ -294,69 +315,32 @@
         color: red;
     }
 
-    .drug-section {
-        padding: 40px;
+    .section-title {
+        margin-bottom: 20px;
     }
 
-    .no-data {
-        text-align: center;
-        padding: 2rem;
-        color: #666;
+    .intro-holder {
+        margin-left: 40px;
+        margin-bottom: 40px;
+        max-width: 750px;
     }
 
-    .drug-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 1.5rem;
-        margin-top: 2rem;
+    .news-holder {
+        margin-left: 40px;
+        margin-bottom: 100px;
+        max-width: 750px;
     }
 
-    .drug-card {
-        border: 2px solid #333;
-        padding: 1.5rem;
-        border-radius: 12px;
-        background: #f9f9f9;
-        transition: transform 0.2s;
+    .insulin-graphic-intro {
+        margin-left: 40px;
+        margin-bottom: 40px;
+        max-width: 750px;
     }
 
-    .drug-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    .chart-intro {
+        margin-left: 40px;
+        max-width: 750px;
     }
 
-    .drug-card h4 {
-        margin-top: 0;
-        color: #333;
-        margin-bottom: 0.5rem;
-        text-transform: capitalize;
-    }
-
-    .full-name {
-        font-size: 12px !important;
-        color: #666;
-        margin-bottom: 1rem !important;
-    }
-
-    .drug-card p {
-        margin: 0.5rem 0;
-        font-size: 14px;
-    }
-
-    .price-info {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 1rem;
-        padding-top: 1rem;
-        border-top: 1px solid #ddd;
-        font-weight: 600;
-    }
-
-    p a {
-    font-family: fustat;
-    font-size: 16px;
-    font-weight: normal;    
-    color: inherit; 
-    text-decoration: underline;
-    }
 </style>
 

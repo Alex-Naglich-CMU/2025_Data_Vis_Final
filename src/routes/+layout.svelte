@@ -18,4 +18,10 @@
 </div>
 
 <style>
+/* 
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	} */
 </style>
