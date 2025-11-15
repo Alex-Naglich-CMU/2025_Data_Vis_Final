@@ -8,6 +8,14 @@
         {
             link: "https://www.healthday.com/healthpro-news/general-health/price-of-prescription-drugs-almost-threefold-higher-in-the-united-states?utm_ ",
             headline: "Price of Prescription Drugs Almost Threefold Higher in the United States"
+        },
+        {
+            link: "https://www.healthday.com/healthpro-news/general-health/price-of-prescription-drugs-almost-threefold-higher-in-the-united-states?utm_ ",
+            headline: "Price of Prescription Drugs Almost Threefold Higher in the United States"
+        },
+        {
+            link: "https://www.healthday.com/healthpro-news/general-health/price-of-prescription-drugs-almost-threefold-higher-in-the-united-states?utm_ ",
+            headline: "Price of Prescription Drugs Almost Threefold Higher in the United States"
         }
     ];
 
@@ -40,13 +48,14 @@
     height: 200px;
     overflow-y: auto;
     border: 1px solid #ccc;
-    background-color: white;
     padding: 10px;
+    box-shadow: 0 0 3px #ccc inset;    
   }
 
   .background-source {
     padding: 10px;
     margin-bottom: 10px;
+    box-shadow: 0 0 5px #ccc;
   }
 
 </style>
