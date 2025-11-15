@@ -3,22 +3,20 @@ import json
 import os
 from tqdm import tqdm
 
-# --- Configuration ---
+# configuration
 DATA_DIR = 'data'
 PRICES_DIR = 'static/data/prices'
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(PRICES_DIR, exist_ok=True)
 
-# File paths
+# file paths
 NADAC_FILE = 'nadac-comparison-11-05-2025.csv'
 RXNSAT_FILE = 'RXNSAT.RRF'
 RXNREL_FILE = 'RXNREL.RRF'
 
-print("=" * 60)
 print("NADAC + RxNorm Data Preprocessing Pipeline")
-print("=" * 60)
 
-# --- STEP 1: Load RxNorm RXNSAT (NDC → RxCUI mapping) ---
+# STEP 1: Load RxNorm RXNSAT (NDC → RxCUI mapping)
 print("\n[1/4] Loading RXNSAT.RRF for NDC mappings...")
 
 rxnsat_columns = [
@@ -26,7 +24,7 @@ rxnsat_columns = [
     'SATUI', 'ATN', 'SAB', 'ATV', 'SUPPRESS', 'CVF', 'EXTRA'
 ]
 
-print("   → Reading RXNSAT.RRF...")
+print("   Reading RXNSAT.RRF...")
 df_rxnsat = pd.read_csv(
     RXNSAT_FILE, 
     sep='|', 
@@ -38,17 +36,17 @@ df_rxnsat = pd.read_csv(
 
 df_ndc_map = df_rxnsat[df_rxnsat['ATN'] == 'NDC'].copy()
 
-print(f"   ✓ Loaded {len(df_rxnsat):,} total rows from RXNSAT")
-print(f"   ✓ Found {len(df_ndc_map):,} NDC entries")
+print(f"   Loaded {len(df_rxnsat):,} total rows from RXNSAT")
+print(f"   Found {len(df_ndc_map):,} NDC entries")
 
 df_ndc_map['NDC_CLEAN'] = df_ndc_map['ATV'].str.replace('-', '').str.strip().str.zfill(11)
 
 ndc_to_rxcui = dict(zip(df_ndc_map['NDC_CLEAN'], df_ndc_map['RXCUI']))
-print(f"   ✓ Built lookup table with {len(ndc_to_rxcui):,} unique NDCs")
+print(f"   Built lookup table with {len(ndc_to_rxcui):,} unique NDCs")
 
 del df_rxnsat, df_ndc_map
 
-# --- STEP 2: Load RxNorm RXNREL (Brand/Generic relationships) ---
+# STEP 2: Load RxNorm RXNREL (Brand/Generic relationships) 
 print("\n[2/4] Loading RXNREL.RRF...")
 
 rxnrel_columns = [
@@ -72,10 +70,10 @@ df_relationships = df_rxnrel[
     (df_rxnrel['RELA'].isin(['has_tradename', 'tradename_of', 'has_brand_name', 'brand_name_of']))
 ].copy()
 
-print(f"   ✓ Loaded {len(df_rxnrel):,} rows from RXNREL")
-print(f"   ✓ Found {len(df_relationships):,} tradename relationships")
+print(f"   Loaded {len(df_rxnrel):,} rows from RXNREL")
+print(f"   Found {len(df_relationships):,} tradename relationships")
 
-print("   → Building relationship lookup tables...")
+print("   Building relationship lookup tables...")
 brand_to_generic = {}
 generic_to_brand = {}
 
@@ -93,20 +91,20 @@ for _, row in df_relationships.iterrows():
         if rxcui2 not in brand_to_generic:
             brand_to_generic[rxcui2] = rxcui1
 
-print(f"   ✓ Built lookup tables:")
-print(f"      - {len(brand_to_generic):,} brand → generic mappings")
-print(f"      - {len(generic_to_brand):,} generic → brand mappings")
+print(f"   Built lookup tables:")
+print(f"     - {len(brand_to_generic):,} brand → generic mappings")
+print(f"     - {len(generic_to_brand):,} generic → brand mappings")
 
 del df_rxnrel, df_relationships
 
-# --- STEP 3: Load NADAC Data ---
+# STEP 3: Load NADAC Data 
 print("\n[3/4] Loading NADAC dataset...")
 
 df_nadac = pd.read_csv(NADAC_FILE, dtype=str)
 
-print(f"   ✓ Loaded {len(df_nadac):,} rows from NADAC")
+print(f"   Loaded {len(df_nadac):,} rows from NADAC")
 
-# --- Helper Functions ---
+# helper functions 
 def lookup_rxcui_from_ndc(ndc):
     clean_ndc = str(ndc).replace('-', '').strip().zfill(11)
     return ndc_to_rxcui.get(clean_ndc)
@@ -131,9 +129,8 @@ def find_related_rxcui(rxcui, is_brand):
 
     return brand_rxcui, generic_rxcui
 
-# --- STEP 4: Process NADAC Row by Row ---
+# STEP 4: Process NADAC Row by Row
 print("\n[4/4] Processing NADAC data row-by-row...")
-print("   This may take a while...\n")
 
 processed_count = 0
 skipped_count = 0
@@ -227,21 +224,18 @@ for index, row in tqdm(df_nadac.iterrows(), total=len(df_nadac), desc="Processin
         skipped_count += 1
         continue
 
-# --- Summary ---
-print("\n" + "=" * 60)
-print("PREPROCESSING COMPLETE!")
-print("=" * 60)
-print(f"✓ Processed: {processed_count:,} rows successfully")
-print(f"✓ Created: {len(created_files):,} unique drug JSON files")
-print(f"✓ Found relationships: {relationship_found_count:,} drugs have brand/generic links")
-print(f"⚠ Skipped: {skipped_count:,} rows (invalid data)")
-print(f"⚠ No RxCUI found: {no_rxcui_count:,} NDCs")
-print(f"✓ Output directory: {PRICES_DIR}/")
-print("=" * 60)
+# summary
+print("PREPROCESSING COMPLETE")
+print(f"Processed: {processed_count:,} rows successfully")
+print(f"Created: {len(created_files):,} unique drug JSON files")
+print(f"Found relationships: {relationship_found_count:,} drugs have brand/generic links")
+print(f"Skipped: {skipped_count:,} rows (invalid data)")
+print(f"No RxCUI found: {no_rxcui_count:,} NDCs")
+print(f"Output directory: {PRICES_DIR}/")
 
-# --- Create Search Index ---
+# create search index
 if created_files:
-    print("\n[BONUS] Creating search index...")
+    print("\nCreating search index...")
     
     search_index = {}
     for filename in os.listdir(PRICES_DIR):
