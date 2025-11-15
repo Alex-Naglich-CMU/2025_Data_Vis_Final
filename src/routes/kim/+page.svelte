@@ -4,6 +4,8 @@
 	import { onMount } from 'svelte';
 	import TimeSeriesComparison from '$lib/Time-Series-Comparison.svelte';
 	import BackgroundInfo from '$lib/Background-Info.svelte';
+    import InsulinComparison from '$lib/InsulinComparison.svelte';
+
 
 	// Type definitions
 	interface PriceDataPoint {
@@ -153,8 +155,9 @@
 	</p>
 </div>
 
+<h4 class="section-title">Explore recent headlines:</h4>
 <div class="news-holder">
-	<h4 class="section-title">Explore recent headlines:</h4>
+	
 	<BackgroundInfo />
 </div>
 
@@ -165,7 +168,16 @@
 		What's causing drug prices to be so high? Does this public perception reflect the actual price
 		trends?
 	</p>
+    <br />
+    <p>
+        
+    </p>
 </div>
+
+<h4 class="section-title">Take Insulin Lantus</h4>
+{#if !loading && !error && drugsData.length > 0}
+    <InsulinComparison {drugsData} />
+{/if}
 
 <div class="chart-intro">
 	<p>
@@ -196,6 +208,7 @@
 {#if !loading && !error && drugsData.length > 0}
 	<TimeSeriesComparison {drugsData} />
 {/if}
+
 
 <style>
 	* {
@@ -292,6 +305,7 @@
 
 	.section-title {
 		margin-bottom: 20px;
+        margin-left: 40px;
 	}
 
 	.intro-holder {
