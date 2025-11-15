@@ -55,7 +55,15 @@
 
         // LYRICA (brand) / PREGABALIN (generic) - 150mg
         '607020': 'lyrica',            // Brand - LYRICA 150 MG CAPSULE
-        '483440': 'pregabalin'         // Generic - PREGABALIN 150 MG CAPSULE
+        '483440': 'pregabalin',         // Generic - PREGABALIN 150 MG CAPSULE
+
+        // LANTUS (brand) / INSULIN GLARGINE (generic) - 100 unit/ml vial
+        '285018': 'lantus',              // Brand - LANTUS 100 UNIT/ML VIAL
+        '311041': 'insulin glargine',    // Generic - INSULIN GLARGINE 100 UNIT/ML VIAL
+
+        // PROVIGIL (brand) / MODAFINIL (generic) - 200mg
+        '213471': 'provigil',          // Brand - PROVIGIL 200 MG TABLET
+        '205324': 'modafinil'          // Generic - MODAFINIL 200 MG TABLET
     };
 
     let drugsData = $state<DrugData[]>([]);

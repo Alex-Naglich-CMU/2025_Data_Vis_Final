@@ -38,7 +38,12 @@
 	const { drugsData = [] }: { drugsData: DrugData[] } = $props();
 
 	// STATE
-	let selectedDrugIndex = $state<number>(0);
+	//let selectedDrugIndex = $state<number>(0);
+	let selectedDrugIndex = $state<number>(
+    drugsData.findIndex(d => d.friendlyName.toLowerCase().includes('lantus')) !== -1 
+        ? drugsData.findIndex(d => d.friendlyName.toLowerCase().includes('lantus')) 
+        : 0
+);
 	let hoveredData = $state<TooltipData | null>(null);
 	let mousePosition = $state({ x: 0, y: 0 });
 	let hoveredBrandData = $state<ChartPoint | null>(null);
