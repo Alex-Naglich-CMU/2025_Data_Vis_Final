@@ -22,7 +22,7 @@
 		<nav class="flex-grow m-2">
 			<ul class="flex space-x-10">
 				{#each navRoutes as { path, name }}
-					<li class="font-mono font-bold hover:underline">
+					<li class="font-bold hover:underline">
 						{#if path.startsWith('http')}
 							<a href={path} target="_blank" rel="noopener noreferrer">
 								{name}

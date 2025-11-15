@@ -818,7 +818,6 @@
 		min-width: 200px;
 		border-radius: 8px;
 	}
-
 	.legend {
 		margin: 0 0 10px 0;
 		font-size: 14px;
@@ -892,7 +891,8 @@
 		align-items: flex-start;
 		margin-top: 40px;
 		padding: 0 40px;
-		gap: 20px;
+		gap: 60px;
+		max-width: 1200px;
 	}
 
 	.small-chart-wrapper {

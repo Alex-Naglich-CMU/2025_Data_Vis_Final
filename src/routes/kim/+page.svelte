@@ -185,7 +185,7 @@
 
 
 <div class='news-holder'>
-    <h4 class='section-title'>Recent headlines:</h4>
+    <h4 class='section-title'>Explore recent headlines:</h4>
     <BackgroundInfo />
 </div>
 
