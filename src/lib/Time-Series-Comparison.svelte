@@ -796,6 +796,7 @@
 	.side-bar {
 		padding: 20px 20px 20px 20px;
 		border: 1px solid #ccc;
+		box-shadow: 0 0 3px #ccc inset;    
 		max-height: 600px;
 	}
 
@@ -807,6 +808,8 @@
 
 	svg {
 		border: 1px solid #ccc;
+		box-shadow: 0 0 3px #ccc inset;    
+
 	}
 
 	.legend {
