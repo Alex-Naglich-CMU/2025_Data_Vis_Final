@@ -170,11 +170,29 @@
 	</p>
     <br />
     <p>
-        
+        Part of the problem is that information about how drugs are priced or even what they cost is largely hidden to the public. 
+        Also, since the US allows pharmaceutical companies to patent medications when they first go to market, patients have no choice but to pay their high fees. 
+    </p>
+    <br />
+    <p>
+        Then the administrators of prescription drugs have little role in determining the costs their patients pay. 
+        The <a
+            href="https://www.ama-assn.org/about/leadership/unchecked-power-pbm-industry-puts-patients-risk-harm"
+            target="_blank"
+            rel="noopener noreferrer">American Medical Association</a
+        > noted that many patients complain about how they can’t afford their medications. 
+        When the patents expire and generic drugs join the market, those options are usually much more affordable, and are 
+        often even cheaper than they are in other countries.
+    </p>
+    <br />
+    <p>
+        For example, look at insulin: when the brand Lantus had no generic drug competitor in 2018 when there was no generic drug 
+        available, and 2025 after it took the place of the generic option. Of course, the cost of insulin is still very high, 
+        but it decreased significantly.
     </p>
 </div>
 
-<h4 class="section-title">Take Insulin Lantus</h4>
+<h4 class="section-title">Look at Insulin Lantus ↓</h4>
 {#if !loading && !error && drugsData.length > 0}
     <InsulinComparison {drugsData} />
 {/if}
