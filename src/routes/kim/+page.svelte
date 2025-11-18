@@ -2,7 +2,7 @@
 	import type { PageProps } from './$types';
 	import { asset } from '$app/paths';
 	import { onMount } from 'svelte';
-	import TimeSeriesComparison from '$lib/Time-Series-Comparison.svelte';
+	import TimeSeriesComparison from '$lib/components/Time-Series-Comparison.svelte';
 	import BackgroundInfo from '$lib/Background-Info.svelte';
     import InsulinComparison from '$lib/InsulinComparison.svelte';
 
