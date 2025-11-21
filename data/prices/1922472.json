@@ -1,0 +1,21 @@
+{
+  "RxCUI": "1922472",
+  "Name": "safinamide 50 MG Oral Tablet [Xadago]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1922472",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Safinamide",
+  "Manufacturer_Name": "Xadago",
+  "Strength": "50 MG",
+  "Form": "",
+  "prices": {
+    "27505011030": {
+      "05/22/2024": 36.54917,
+      "06/19/2024": 36.54284,
+      "07/17/2024": 36.55867,
+      "10/23/2024": 36.51117,
+      "11/20/2024": 36.53967,
+      "05/21/2025": 36.4682
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "RxCUI": "1302827",
+  "Name": "24 HR phentermine 7.5 MG / topiramate 46 MG Extended Release Oral Capsule",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1302827",
+  "Ingredient_Name": "Hr Phentermine Topiramate Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Capsule",
+  "prices": {
+    "00480329656": {
+      "09/17/2025": 3.98832,
+      "10/22/2025": 3.71667,
+      "11/19/2025": 3.76621
+    },
+    "43598062530": {
+      "09/17/2025": 3.98832,
+      "10/22/2025": 3.71667,
+      "11/19/2025": 3.76621
+    },
+    "66993078130": {
+      "09/17/2025": 3.98832,
+      "10/22/2025": 3.71667,
+      "11/19/2025": 3.76621
+    }
+  }
+}

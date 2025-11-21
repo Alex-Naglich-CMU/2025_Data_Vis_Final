@@ -1,0 +1,17 @@
+{
+  "RxCUI": "207108",
+  "Name": "fluconazole 150 MG Oral Tablet [Diflucan]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "207108",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fluconazole",
+  "Manufacturer_Name": "Diflucan",
+  "Strength": "150 MG",
+  "Form": "",
+  "prices": {
+    "00049350079": {
+      "06/01/2017": 53.44229,
+      "01/01/2018": 58.48724
+    }
+  }
+}

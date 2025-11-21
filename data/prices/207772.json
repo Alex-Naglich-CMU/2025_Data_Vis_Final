@@ -1,0 +1,21 @@
+{
+  "RxCUI": "207772",
+  "Name": "Osmotic 24 HR nifedipine 30 MG Extended Release Oral Tablet [Procardia]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "207772",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Osmotic Hr Nifedipine Extended Release",
+  "Manufacturer_Name": "Procardia",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "00069265066": {
+      "06/01/2017": 5.52875,
+      "01/01/2018": 6.05061
+    },
+    "00069265072": {
+      "06/01/2017": 5.52875,
+      "01/01/2018": 6.05061
+    }
+  }
+}

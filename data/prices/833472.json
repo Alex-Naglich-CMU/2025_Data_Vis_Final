@@ -1,0 +1,25 @@
+{
+  "RxCUI": "833472",
+  "Name": "betamethasone 0.0005 MG/MG / calcipotriene 0.00005 MG/MG Topical Ointment [Taclonex]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "833472",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Betamethasone Mgmg Calcipotriene Mgmg",
+  "Manufacturer_Name": "Taclonex",
+  "Strength": "0.0005 MG/MG",
+  "Form": "",
+  "prices": {
+    "50222022704": {
+      "01/01/2018": 16.00601,
+      "01/01/2019": 16.80631,
+      "01/01/2020": 17.64662,
+      "01/01/2021": 18.17602
+    },
+    "50222022781": {
+      "01/01/2018": 14.03593,
+      "01/01/2019": 14.73773,
+      "01/01/2020": 15.47462,
+      "01/01/2021": 15.93886
+    }
+  }
+}

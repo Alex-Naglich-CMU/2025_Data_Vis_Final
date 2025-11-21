@@ -1,0 +1,19 @@
+{
+  "RxCUI": "702306",
+  "Name": "prednisolone 4 MG/ML Oral Solution",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "702306",
+  "Ingredient_Name": "Prednisolone Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "4 MG/ML",
+  "Form": "Solution",
+  "prices": {
+    "00121077708": {
+      "05/22/2024": 2.44955
+    },
+    "42799081301": {
+      "05/22/2024": 2.44955
+    }
+  }
+}

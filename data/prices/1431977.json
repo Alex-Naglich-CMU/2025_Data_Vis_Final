@@ -1,0 +1,17 @@
+{
+  "RxCUI": "1431977",
+  "Name": "24 HR tacrolimus 0.5 MG Extended Release Oral Capsule [Astagraf]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1431977",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Tacrolimus Extended Release",
+  "Manufacturer_Name": "Astagraf",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "00469064773": {
+      "12/18/2024": 2.69767,
+      "01/13/2025": 2.7786
+    }
+  }
+}

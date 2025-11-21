@@ -1,0 +1,21 @@
+{
+  "RxCUI": "1860494",
+  "Name": "12 HR hydrocodone bitartrate 15 MG Extended Release Oral Capsule [Zohydro]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1860494",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Hydrocodone Bitartrate Extended Release",
+  "Manufacturer_Name": "Zohydro",
+  "Strength": "12 HR",
+  "Form": "",
+  "prices": {
+    "65224031560": {
+      "11/22/2017": 8.14269,
+      "01/02/2018": 8.79403,
+      "10/17/2018": 8.72779,
+      "01/03/2019": 9.42601,
+      "10/23/2019": 9.48395,
+      "02/01/2020": 10.24304
+    }
+  }
+}

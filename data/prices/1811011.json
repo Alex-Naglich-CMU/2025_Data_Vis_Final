@@ -1,0 +1,29 @@
+{
+  "RxCUI": "1811011",
+  "Name": "24 HR canagliflozin 50 MG / metformin hydrochloride 500 MG Extended Release Oral Tablet [Invokamet]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1811011",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Canagliflozin Metformin Hydrochloride Extended Release",
+  "Manufacturer_Name": "Invokamet",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "50458094001": {
+      "01/03/2018": 7.44929,
+      "01/10/2019": 7.92612,
+      "01/15/2021": 8.70288,
+      "06/19/2024": 9.55469,
+      "07/17/2024": 9.56728,
+      "09/18/2024": 9.5674,
+      "10/23/2024": 9.57397,
+      "11/20/2024": 9.56726,
+      "12/18/2024": 9.5701,
+      "01/22/2025": 9.63395,
+      "04/23/2025": 9.63247,
+      "06/18/2025": 9.64857,
+      "08/20/2025": 9.67113,
+      "10/22/2025": 9.66517
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "RxCUI": "1659283",
+  "Name": "ceftazidime 1000 MG Injection",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1659283",
+  "Ingredient_Name": "Ceftazidime",
+  "Manufacturer_Name": "",
+  "Strength": "1000 MG",
+  "Form": "Injection",
+  "prices": {
+    "25021012720": {
+      "10/22/2025": 3.70448
+    },
+    "44567023525": {
+      "10/22/2025": 3.70448
+    }
+  }
+}

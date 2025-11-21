@@ -1,0 +1,25 @@
+{
+  "RxCUI": "2372911",
+  "Name": "Once-Daily diclofenac epolamine 0.013 MG/MG Medicated Patch [Licart]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2372911",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Once-Daily Diclofenac Epolamine Mgmg Medicated",
+  "Manufacturer_Name": "Licart",
+  "Strength": "0.013 MG/MG",
+  "Form": "",
+  "prices": {
+    "71858030504": {
+      "07/01/2023": 23.98792,
+      "04/17/2024": 24.08655,
+      "06/19/2024": 24.06941,
+      "07/01/2024": 24.71134
+    },
+    "71858030505": {
+      "07/01/2023": 23.98792,
+      "04/17/2024": 24.08655,
+      "06/19/2024": 24.06941,
+      "07/01/2024": 24.71134
+    }
+  }
+}

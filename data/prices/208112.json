@@ -1,0 +1,17 @@
+{
+  "RxCUI": "208112",
+  "Name": "hydrochlorothiazide 25 MG / spironolactone 25 MG Oral Tablet [Aldactazide]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "208112",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hydrochlorothiazide Spironolactone",
+  "Manufacturer_Name": "Aldactazide",
+  "Strength": "25 MG",
+  "Form": "",
+  "prices": {
+    "00025101131": {
+      "06/01/2017": 2.32937,
+      "01/01/2018": 2.54924
+    }
+  }
+}

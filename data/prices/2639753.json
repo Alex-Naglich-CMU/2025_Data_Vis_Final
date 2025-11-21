@@ -1,0 +1,27 @@
+{
+  "RxCUI": "2639753",
+  "Name": "dextromethorphan hydrobromide 1.5 MG/ML / phenylephrine hydrochloride 1 MG/ML / pyrilamine maleate 2.5 MG/ML Oral Solution",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "2639753",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide Mgml Phenylephrine Hydrochloride Mgml Pyrilamine Maleate Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1.5 MG/ML",
+  "Form": "Solution",
+  "prices": {
+    "50991013216": {
+      "04/17/2024": 0.05681,
+      "05/22/2024": 0.06216,
+      "06/19/2024": 0.06237,
+      "03/19/2025": 0.06915,
+      "04/23/2025": 0.06919,
+      "05/21/2025": 0.06909,
+      "06/18/2025": 0.06941,
+      "07/23/2025": 0.06942,
+      "08/20/2025": 0.06965,
+      "09/17/2025": 0.06943,
+      "10/22/2025": 0.06961,
+      "11/19/2025": 0.06229
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "RxCUI": "197856",
+  "Name": "ketoprofen 75 MG Oral Capsule",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "197856",
+  "Ingredient_Name": "Ketoprofen",
+  "Manufacturer_Name": "",
+  "Strength": "75 MG",
+  "Form": "Capsule",
+  "prices": {
+    "00378575001": {
+      "07/19/2017": 0.47685,
+      "08/23/2017": 0.49906,
+      "09/20/2017": 0.49739,
+      "10/18/2017": 0.54156
+    }
+  }
+}

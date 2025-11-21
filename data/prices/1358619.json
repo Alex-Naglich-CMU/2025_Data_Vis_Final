@@ -1,0 +1,28 @@
+{
+  "RxCUI": "1358619",
+  "Name": "methylprednisolone acetate 80 MG/ML Injectable Suspension [Depo-Medrol]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1358619",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methylprednisolone Mgml Injectable",
+  "Manufacturer_Name": "Depo-Medrol",
+  "Strength": "80 MG/ML",
+  "Form": "",
+  "prices": {
+    "00009030602": {
+      "06/01/2017": 14.96939,
+      "10/18/2017": 14.26667,
+      "11/22/2017": 15.3708,
+      "01/01/2018": 16.82257,
+      "07/01/2018": 18.41012,
+      "07/16/2018": 16.82262,
+      "05/22/2019": 16.6604,
+      "11/20/2019": 17.0152,
+      "05/22/2024": 12.065,
+      "07/17/2024": 11.722,
+      "10/23/2024": 11.63567,
+      "12/18/2024": 11.0988,
+      "02/19/2025": 10.80233
+    }
+  }
+}

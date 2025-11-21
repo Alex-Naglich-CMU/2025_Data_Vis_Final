@@ -1,0 +1,17 @@
+{
+  "RxCUI": "206241",
+  "Name": "estradiol 2 MG Oral Tablet [Estrace]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "206241",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Estradiol",
+  "Manufacturer_Name": "Estrace",
+  "Strength": "2 MG",
+  "Form": "",
+  "prices": {
+    "00430072224": {
+      "01/01/2018": 6.46704,
+      "01/01/2019": 6.78386
+    }
+  }
+}

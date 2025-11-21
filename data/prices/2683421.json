@@ -1,0 +1,28 @@
+{
+  "RxCUI": "2683421",
+  "Name": "brompheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "2683421",
+  "Ingredient_Name": "Brompheniramine Maleate Mgml Dextromethorphan Hydrobromide Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.2 MG/ML",
+  "Form": "Solution",
+  "prices": {
+    "00113601926": {
+      "11/19/2025": 0.01935
+    },
+    "00904753120": {
+      "11/19/2025": 0.01935
+    },
+    "46122081329": {
+      "11/19/2025": 0.01935
+    },
+    "70000071501": {
+      "11/19/2025": 0.01935
+    },
+    "70677128701": {
+      "11/19/2025": 0.01935
+    }
+  }
+}

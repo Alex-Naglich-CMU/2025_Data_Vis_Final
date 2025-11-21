@@ -1,0 +1,22 @@
+{
+  "RxCUI": "1738808",
+  "Name": "24 HR paroxetine hydrochloride 37.5 MG Extended Release Oral Tablet [Paxil]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1738808",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Paroxetine Hydrochloride Extended Release",
+  "Manufacturer_Name": "Paxil",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "60505437903": {
+      "05/22/2024": 9.48782,
+      "06/19/2024": 9.46229,
+      "08/21/2024": 9.48547,
+      "09/09/2024": 10.42443,
+      "06/18/2025": 9.69927,
+      "08/20/2025": 9.4865,
+      "09/17/2025": 9.72158
+    }
+  }
+}

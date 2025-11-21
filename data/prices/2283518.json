@@ -1,0 +1,22 @@
+{
+  "RxCUI": "2283518",
+  "Name": "XCOPRI 350 MG DAILY DOSE PACK",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2283518",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Xcopri Daily Dose Pack",
+  "Manufacturer_Name": "",
+  "Strength": "350 MG",
+  "Form": "",
+  "prices": {
+    "71699010356": {
+      "12/18/2024": 40.46498,
+      "01/01/2025": 41.67893,
+      "05/21/2025": 41.50789,
+      "06/18/2025": 41.49292,
+      "09/17/2025": 41.45708,
+      "10/22/2025": 41.46796,
+      "11/19/2025": 41.40657
+    }
+  }
+}

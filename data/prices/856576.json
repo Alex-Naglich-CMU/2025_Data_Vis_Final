@@ -1,0 +1,27 @@
+{
+  "RxCUI": "856576",
+  "Name": "24 HR propranolol hydrochloride 80 MG Extended Release Oral Capsule [InnoPran]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "856576",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Propranolol Hydrochloride Extended Release",
+  "Manufacturer_Name": "InnoPran",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "62559059030": {
+      "06/19/2024": 68.7303,
+      "07/17/2024": 69.33707,
+      "08/21/2024": 69.00214,
+      "09/18/2024": 69.06487,
+      "11/20/2024": 69.28644,
+      "12/18/2024": 69.29967,
+      "01/22/2025": 69.28427,
+      "04/23/2025": 69.45834,
+      "05/21/2025": 69.27434,
+      "06/18/2025": 69.59284,
+      "07/23/2025": 69.45793,
+      "09/17/2025": 69.44395
+    }
+  }
+}

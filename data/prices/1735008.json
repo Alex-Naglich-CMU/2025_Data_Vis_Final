@@ -1,0 +1,22 @@
+{
+  "RxCUI": "1735008",
+  "Name": "20 ML fentanyl 0.05 MG/ML Injection",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1735008",
+  "Ingredient_Name": "Fentanyl Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "20 ML",
+  "Form": "Injection",
+  "prices": {
+    "00409909331": {
+      "06/21/2017": 0.5981
+    },
+    "00641602601": {
+      "06/21/2017": 0.5981
+    },
+    "00641602605": {
+      "06/21/2017": 0.5981
+    }
+  }
+}

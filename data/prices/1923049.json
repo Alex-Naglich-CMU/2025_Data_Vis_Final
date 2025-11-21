@@ -1,0 +1,25 @@
+{
+  "RxCUI": "1923049",
+  "Name": "levothyroxine sodium 0.175 MG Oral Capsule [Tirosint]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1923049",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "Tirosint",
+  "Strength": "0.175 MG",
+  "Form": "",
+  "prices": {
+    "71858005504": {
+      "02/17/2021": 4.25171,
+      "11/17/2021": 4.26989,
+      "8/17/2022": 4.28057,
+      "06/21/2023": 4.283,
+      "07/01/2023": 4.4052,
+      "01/17/2024": 4.29406,
+      "04/17/2024": 4.31675,
+      "05/22/2024": 4.31517,
+      "06/19/2024": 4.30929,
+      "07/01/2024": 4.46658
+    }
+  }
+}

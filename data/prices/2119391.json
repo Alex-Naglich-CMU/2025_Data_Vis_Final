@@ -1,0 +1,22 @@
+{
+  "RxCUI": "2119391",
+  "Name": "SPRAVATO 56 MG DOSE PACK",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2119391",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Spravato Dose Pack",
+  "Manufacturer_Name": "",
+  "Strength": "56 MG",
+  "Form": "",
+  "prices": {
+    "50458002802": {
+      "08/21/2024": 373.27857,
+      "10/23/2024": 373.44625,
+      "01/22/2025": 373.57667,
+      "01/28/2025": 403.4628,
+      "07/23/2025": 396.33667,
+      "09/17/2025": 395.37643,
+      "11/19/2025": 397.068
+    }
+  }
+}

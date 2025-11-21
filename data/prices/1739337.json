@@ -1,0 +1,20 @@
+{
+  "RxCUI": "1739337",
+  "Name": "sumatriptan 11 MG Nasal Powder [Onzetra]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1739337",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sumatriptan Nasal",
+  "Manufacturer_Name": "Onzetra",
+  "Strength": "11 MG",
+  "Form": "",
+  "prices": {
+    "64597031108": {
+      "09/20/2017": 31.00617,
+      "10/31/2017": 35.6571,
+      "01/10/2018": 41.02349,
+      "02/21/2018": 41.41074,
+      "06/29/2018": 47.67039
+    }
+  }
+}

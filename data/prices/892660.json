@@ -1,0 +1,23 @@
+{
+  "RxCUI": "892660",
+  "Name": "morphine sulfate 30 MG Extended Release Oral Tablet [MS Contin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "892660",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Morphine Extended Release",
+  "Manufacturer_Name": "MS Contin",
+  "Strength": "30 MG",
+  "Form": "",
+  "prices": {
+    "42858063101": {
+      "05/22/2024": 7.68839,
+      "06/03/2024": 8.38027,
+      "11/20/2024": 8.32796,
+      "02/19/2025": 8.3259,
+      "03/19/2025": 8.32443,
+      "05/21/2025": 8.34997,
+      "06/18/2025": 8.34568,
+      "07/01/2025": 8.8798
+    }
+  }
+}

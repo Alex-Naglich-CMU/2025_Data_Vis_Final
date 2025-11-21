@@ -1,0 +1,21 @@
+{
+  "RxCUI": "213197",
+  "Name": "becaplermin 0.0001 MG/MG Topical Gel [Regranex]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "213197",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Becaplermin Mgmg",
+  "Manufacturer_Name": "Regranex",
+  "Strength": "0.0001 MG/MG",
+  "Form": "",
+  "prices": {
+    "50484081015": {
+      "12/12/2017": 67.9848,
+      "07/18/2018": 68.38145,
+      "12/14/2018": 71.79915,
+      "09/18/2019": 71.51493,
+      "12/13/2019": 75.08496,
+      "12/11/2020": 78.83696
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "RxCUI": "860109",
+  "Name": "ketorolac tromethamine 5 MG/ML Ophthalmic Solution [Acular]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "860109",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ketorolac Tromethamine Mgml",
+  "Manufacturer_Name": "Acular",
+  "Strength": "5 MG/ML",
+  "Form": "",
+  "prices": {
+    "00023218105": {
+      "01/01/2018": 50.53694,
+      "05/22/2024": 52.88514,
+      "07/17/2024": 53.01886,
+      "08/21/2024": 53.08733,
+      "09/18/2024": 52.908,
+      "10/23/2024": 53.0952
+    }
+  }
+}

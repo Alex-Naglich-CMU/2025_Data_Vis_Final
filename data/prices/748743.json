@@ -1,0 +1,17 @@
+{
+  "RxCUI": "748743",
+  "Name": "clindamycin 15 MG/ML Oral Solution [Cleocin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "748743",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Clindamycin Mgml",
+  "Manufacturer_Name": "Cleocin",
+  "Strength": "15 MG/ML",
+  "Form": "",
+  "prices": {
+    "00009076004": {
+      "06/01/2017": 1.19307,
+      "01/01/2018": 1.30568
+    }
+  }
+}

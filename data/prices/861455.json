@@ -1,0 +1,17 @@
+{
+  "RxCUI": "861455",
+  "Name": "meperidine hydrochloride 100 MG Oral Tablet",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "861455",
+  "Ingredient_Name": "Meperidine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "100 MG",
+  "Form": "Tablet",
+  "prices": {
+    "42806005101": {
+      "09/20/2017": 1.03518,
+      "12/20/2017": 1.0219
+    }
+  }
+}

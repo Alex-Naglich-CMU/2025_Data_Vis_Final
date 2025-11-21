@@ -1,0 +1,17 @@
+{
+  "RxCUI": "750199",
+  "Name": "amlodipine 10 MG / atorvastatin 10 MG Oral Tablet [Caduet]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "750199",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amlodipine Atorvastatin",
+  "Manufacturer_Name": "Caduet",
+  "Strength": "10 MG",
+  "Form": "",
+  "prices": {
+    "00069216030": {
+      "06/01/2017": 12.40022,
+      "01/01/2018": 13.5708
+    }
+  }
+}

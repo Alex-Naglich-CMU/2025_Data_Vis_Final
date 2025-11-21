@@ -1,0 +1,22 @@
+{
+  "RxCUI": "617333",
+  "Name": "amoxicillin 25 MG/ML / clavulanate 6.25 MG/ML Oral Suspension [Augmentin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "617333",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amoxicillin Mgml Clavulanate Mgml",
+  "Manufacturer_Name": "Augmentin",
+  "Strength": "25 MG/ML",
+  "Form": "",
+  "prices": {
+    "28595024035": {
+      "05/22/2024": 5.77073,
+      "06/19/2024": 5.78214,
+      "07/17/2024": 5.78019,
+      "11/20/2024": 5.77974,
+      "12/18/2024": 5.77888,
+      "01/22/2025": 5.77804,
+      "02/19/2025": 5.78193
+    }
+  }
+}

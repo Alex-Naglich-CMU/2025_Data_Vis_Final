@@ -1,0 +1,21 @@
+{
+  "RxCUI": "758032",
+  "Name": "0.5 ML interferon beta-1a 0.044 MG/ML Prefilled Syringe [Rebif]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "758032",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Interferon Beta-A Mgml Prefilled",
+  "Manufacturer_Name": "Rebif",
+  "Strength": "0.5 ML",
+  "Form": "",
+  "prices": {
+    "44087002203": {
+      "08/02/2017": 1085.29814,
+      "02/01/2018": 1149.33073,
+      "01/11/2019": 1201.05062,
+      "09/26/2019": 1258.70104,
+      "04/03/2020": 1321.6361,
+      "01/15/2021": 1400.93426
+    }
+  }
+}

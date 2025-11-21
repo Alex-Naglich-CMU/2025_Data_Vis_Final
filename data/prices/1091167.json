@@ -1,0 +1,32 @@
+{
+  "RxCUI": "1091167",
+  "Name": "50/50 Release 24 HR methylphenidate hydrochloride 20 MG Extended Release Oral Capsule [Ritalin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1091167",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Release Hr Methylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "Ritalin",
+  "Strength": "50 Rele",
+  "Form": "",
+  "prices": {
+    "00078037005": {
+      "07/11/2017": 9.28464,
+      "01/03/2018": 9.73959,
+      "03/15/2024": 12.15413,
+      "07/17/2024": 12.1688,
+      "08/21/2024": 12.1419,
+      "09/18/2024": 12.10621,
+      "10/23/2024": 12.10381,
+      "11/20/2024": 12.09316,
+      "12/18/2024": 12.09479,
+      "01/22/2025": 12.10395,
+      "02/19/2025": 12.10704,
+      "03/19/2025": 12.08748,
+      "04/23/2025": 12.08602,
+      "06/18/2025": 12.07219,
+      "08/20/2025": 12.0735,
+      "09/17/2025": 12.08767,
+      "10/22/2025": 12.10231
+    }
+  }
+}

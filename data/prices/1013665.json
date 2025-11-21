@@ -1,0 +1,31 @@
+{
+  "RxCUI": "1013665",
+  "Name": "24 HR minocycline 80 MG Extended Release Oral Tablet",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1013665",
+  "Ingredient_Name": "Hr Minocycline Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
+  "prices": {
+    "00378429393": {
+      "04/22/2020": 3.42513
+    },
+    "16714010501": {
+      "04/22/2020": 3.42513
+    },
+    "65862088430": {
+      "04/22/2020": 3.42513,
+      "07/17/2024": 2.75081,
+      "08/21/2024": 2.90533,
+      "10/23/2024": 3.01489
+    },
+    "67877043730": {
+      "04/22/2020": 3.42513,
+      "07/17/2024": 2.75081,
+      "08/21/2024": 2.90533,
+      "10/23/2024": 3.01489
+    }
+  }
+}

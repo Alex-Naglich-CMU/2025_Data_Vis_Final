@@ -1,0 +1,21 @@
+{
+  "RxCUI": "686405",
+  "Name": "erythromycin ethylsuccinate 400 MG Oral Tablet",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "686405",
+  "Ingredient_Name": "Erythromycin Ethylsuccinate",
+  "Manufacturer_Name": "",
+  "Strength": "400 MG",
+  "Form": "Tablet",
+  "prices": {
+    "24338011003": {
+      "05/22/2024": 11.70893,
+      "07/17/2024": 11.73513
+    },
+    "24338011013": {
+      "05/22/2024": 11.70893,
+      "07/17/2024": 11.73513
+    }
+  }
+}

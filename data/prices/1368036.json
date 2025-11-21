@@ -1,0 +1,21 @@
+{
+  "RxCUI": "1368036",
+  "Name": "alogliptin 12.5 MG Oral Tablet [Nesina]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1368036",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Alogliptin",
+  "Manufacturer_Name": "Nesina",
+  "Strength": "12.5 MG",
+  "Form": "",
+  "prices": {
+    "64764012530": {
+      "05/22/2024": 13.17744,
+      "07/17/2024": 13.14564,
+      "08/21/2024": 13.15136,
+      "09/18/2024": 13.12858,
+      "10/23/2024": 13.1289,
+      "11/20/2024": 13.13774
+    }
+  }
+}

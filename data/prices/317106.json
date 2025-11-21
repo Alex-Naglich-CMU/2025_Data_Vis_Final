@@ -1,0 +1,26 @@
+{
+  "RxCUI": "317106",
+  "Name": "hydroxocobalamin 1 MG/ML Injectable Solution",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "317106",
+  "Ingredient_Name": "Hydroxocobalamin Mgml Injectable",
+  "Manufacturer_Name": "",
+  "Strength": "1 MG/ML",
+  "Form": "Solution",
+  "prices": {
+    "00591288830": {
+      "01/22/2025": 0.79581,
+      "02/19/2025": 0.79525,
+      "03/19/2025": 0.79549,
+      "04/23/2025": 0.79708,
+      "05/21/2025": 0.80301,
+      "06/18/2025": 0.80855,
+      "07/23/2025": 0.81435,
+      "08/20/2025": 0.81602,
+      "09/17/2025": 0.81903,
+      "10/22/2025": 0.82202,
+      "11/19/2025": 0.82233
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "RxCUI": "995440",
+  "Name": "codeine phosphate 1.26 MG/ML / guaifenesin 20 MG/ML Oral Solution [M-Clear WC]",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "995438",
+  "Generic_Mate_RxCUI": "995440",
+  "Ingredient_Name": "Codeine Phosphate Mgml Guaifenesin Mgml",
+  "Manufacturer_Name": "M-Clear WC",
+  "Strength": "1.26 MG/ML",
+  "Form": "",
+  "prices": {
+    "12830071716": {
+      "12/20/2017": 0.04072,
+      "02/21/2018": 0.04114,
+      "04/18/2018": 0.04156,
+      "07/18/2018": 0.04221,
+      "01/23/2019": 0.04042,
+      "02/20/2019": 0.04317,
+      "03/20/2019": 0.04176,
+      "02/19/2020": 0.04046
+    }
+  }
+}

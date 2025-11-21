@@ -1,0 +1,23 @@
+{
+  "RxCUI": "861018",
+  "Name": "Modified 24 HR metformin hydrochloride 500 MG Extended Release Oral Tablet [Glumetza]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "861018",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Modified Hr Metformin Hydrochloride Extended Release",
+  "Manufacturer_Name": "Glumetza",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "68012000450": {
+      "04/17/2024": 49.35988,
+      "05/22/2024": 49.44482,
+      "06/19/2024": 49.36546,
+      "08/21/2024": 49.34873,
+      "09/18/2024": 49.28789,
+      "11/20/2024": 49.28747,
+      "12/18/2024": 49.23805,
+      "01/22/2025": 49.21147
+    }
+  }
+}

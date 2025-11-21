@@ -1,0 +1,27 @@
+{
+  "RxCUI": "896006",
+  "Name": "120 ACTUAT fluticasone propionate 0.22 MG/ACTUAT Metered Dose Inhaler [Flovent]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "896006",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Flovent",
+  "Strength": "120 ACTU",
+  "Form": "",
+  "prices": {
+    "00173072020": {
+      "11/22/2017": 28.47385,
+      "01/01/2018": 30.18228,
+      "10/17/2018": 30.27371,
+      "01/01/2019": 31.18223,
+      "10/23/2019": 31.08408,
+      "01/01/2020": 32.01692,
+      "10/21/2020": 32.03178,
+      "01/01/2021": 32.99305,
+      "10/20/2021": 33.01306,
+      "1/1/2022": 34.00346,
+      "03/22/2023": 33.92053,
+      "04/17/2024": 33.96662
+    }
+  }
+}

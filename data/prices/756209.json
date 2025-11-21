@@ -1,0 +1,16 @@
+{
+  "RxCUI": "756209",
+  "Name": "zidovudine 10 MG/ML Oral Solution",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "756209",
+  "Ingredient_Name": "Zidovudine Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Solution",
+  "prices": {
+    "65862004824": {
+      "09/17/2025": 0.14993
+    }
+  }
+}

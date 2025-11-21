@@ -1,0 +1,26 @@
+{
+  "RxCUI": "211832",
+  "Name": "aspirin 81 MG Chewable Tablet [St. Joseph Aspirin]",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "318272",
+  "Generic_Mate_RxCUI": "211832",
+  "Ingredient_Name": "Aspirin Chewable",
+  "Manufacturer_Name": "St. Joseph Aspirin",
+  "Strength": "81 MG",
+  "Form": "",
+  "prices": {
+    "69536028136": {
+      "11/21/2018": 0.02807,
+      "12/19/2018": 0.02697,
+      "01/23/2019": 0.02714,
+      "02/20/2019": 0.02781,
+      "03/20/2019": 0.02752,
+      "04/17/2019": 0.02657,
+      "05/22/2019": 0.02733,
+      "06/19/2019": 0.02696,
+      "07/17/2019": 0.02774,
+      "08/21/2019": 0.02771,
+      "09/18/2019": 0.02762
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "RxCUI": "542370",
+  "Name": "nelfinavir 625 MG Oral Tablet [Viracept]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "542370",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Nelfinavir",
+  "Manufacturer_Name": "Viracept",
+  "Strength": "625 MG",
+  "Form": "",
+  "prices": {
+    "63010002770": {
+      "11/15/2017": 9.08655,
+      "01/01/2018": 9.80802,
+      "03/21/2018": 9.65355,
+      "06/20/2018": 9.72238
+    }
+  }
+}

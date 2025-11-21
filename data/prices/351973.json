@@ -1,0 +1,19 @@
+{
+  "RxCUI": "351973",
+  "Name": "gabapentin 50 MG/ML Oral Solution [Neurontin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "351973",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Gabapentin Mgml",
+  "Manufacturer_Name": "Neurontin",
+  "Strength": "50 MG/ML",
+  "Form": "",
+  "prices": {
+    "00071201223": {
+      "06/01/2017": 0.75833,
+      "01/01/2018": 0.82992,
+      "07/01/2018": 0.90827,
+      "07/16/2018": 0.82993
+    }
+  }
+}

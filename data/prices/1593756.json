@@ -1,0 +1,26 @@
+{
+  "RxCUI": "1593756",
+  "Name": "chlophedianol hydrochloride 2.5 MG/ML / pyrilamine maleate 2.5 MG/ML Oral Solution [Ninjacof]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1593756",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Chlophedianol Hydrochloride Mgml Pyrilamine Maleate Mgml",
+  "Manufacturer_Name": "Ninjacof",
+  "Strength": "2.5 MG/ML",
+  "Form": "",
+  "prices": {
+    "23359003216": {
+      "11/22/2017": 0.08348,
+      "07/18/2018": 0.08694,
+      "10/17/2018": 0.08495,
+      "12/19/2018": 0.08281,
+      "01/23/2019": 0.08718,
+      "02/20/2019": 0.08532,
+      "11/20/2019": 0.084,
+      "03/19/2025": 0.07911,
+      "09/17/2025": 0.07893,
+      "10/22/2025": 0.07907,
+      "11/19/2025": 0.07918
+    }
+  }
+}

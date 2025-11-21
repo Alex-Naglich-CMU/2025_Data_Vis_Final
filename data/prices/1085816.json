@@ -1,0 +1,25 @@
+{
+  "RxCUI": "1085816",
+  "Name": "spinosad 9 MG/ML Medicated Shampoo",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1085816",
+  "Ingredient_Name": "Spinosad Mgml Medicated",
+  "Manufacturer_Name": "",
+  "Strength": "9 MG/ML",
+  "Form": "",
+  "prices": {
+    "28595057004": {
+      "08/23/2017": 1.58492,
+      "12/20/2017": 1.6038,
+      "01/17/2018": 1.60076,
+      "03/21/2018": 1.67892,
+      "05/23/2018": 1.70897,
+      "06/20/2018": 1.72095,
+      "11/19/2025": 1.88527
+    },
+    "52246057004": {
+      "11/19/2025": 1.88527
+    }
+  }
+}

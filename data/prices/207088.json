@@ -1,0 +1,19 @@
+{
+  "RxCUI": "207088",
+  "Name": "methsuximide 300 MG Oral Capsule [Celontin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "207088",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methsuximide",
+  "Manufacturer_Name": "Celontin",
+  "Strength": "300 MG",
+  "Form": "",
+  "prices": {
+    "00071052524": {
+      "06/01/2017": 3.75288,
+      "01/01/2018": 4.10715,
+      "01/23/2019": 4.09141,
+      "01/01/2025": 4.39934
+    }
+  }
+}

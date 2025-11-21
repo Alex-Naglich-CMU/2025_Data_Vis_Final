@@ -1,0 +1,19 @@
+{
+  "RxCUI": "2560252",
+  "Name": "BREXAFEMME 150 MG TABLET",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2560252",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Brexafemme",
+  "Manufacturer_Name": "",
+  "Strength": "150 MG",
+  "Form": "TABLET",
+  "prices": {
+    "75788011504": {
+      "7/1/2022": 119.82413,
+      "07/01/2023": 130.6095,
+      "04/17/2024": 130.35607,
+      "09/18/2024": 130.64208
+    }
+  }
+}

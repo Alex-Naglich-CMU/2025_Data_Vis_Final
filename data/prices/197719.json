@@ -1,0 +1,18 @@
+{
+  "RxCUI": "197719",
+  "Name": "flurandrenolide 0.5 MG/ML Topical Lotion",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "197719",
+  "Ingredient_Name": "Flurandrenolide Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.5 MG/ML",
+  "Form": "Lotion",
+  "prices": {
+    "45802092803": {
+      "08/20/2025": 1.11786,
+      "09/17/2025": 1.12719,
+      "10/22/2025": 1.15517
+    }
+  }
+}

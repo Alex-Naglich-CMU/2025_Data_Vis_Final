@@ -1,0 +1,23 @@
+{
+  "RxCUI": "1736044",
+  "Name": "levetiracetam 1000 MG Tablet for Oral Suspension [Spritam]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1736044",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Levetiracetam For",
+  "Manufacturer_Name": "Spritam",
+  "Strength": "1000 MG",
+  "Form": "",
+  "prices": {
+    "43485010401": {
+      "05/21/2025": 10.15325,
+      "08/20/2025": 10.22562,
+      "11/19/2025": 10.199
+    },
+    "43485010460": {
+      "05/21/2025": 10.15325,
+      "08/20/2025": 10.22562,
+      "11/19/2025": 10.199
+    }
+  }
+}

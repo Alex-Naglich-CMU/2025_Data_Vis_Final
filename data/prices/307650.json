@@ -1,0 +1,16 @@
+{
+  "RxCUI": "307650",
+  "Name": "abacavir 300 MG / lamivudine 150 MG / zidovudine 300 MG Oral Tablet",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "307650",
+  "Ingredient_Name": "Abacavir Lamivudine Zidovudine",
+  "Manufacturer_Name": "",
+  "Strength": "300 MG",
+  "Form": "Tablet",
+  "prices": {
+    "68180028607": {
+      "06/21/2017": 20.32523
+    }
+  }
+}

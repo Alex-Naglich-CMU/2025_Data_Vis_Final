@@ -1,0 +1,27 @@
+{
+  "RxCUI": "2375325",
+  "Name": "solifenacin succinate 1 MG/ML Oral Suspension [Vesicare]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2375325",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Solifenacin Succinate Mgml",
+  "Manufacturer_Name": "Vesicare",
+  "Strength": "1 MG/ML",
+  "Form": "",
+  "prices": {
+    "51248025099": {
+      "05/22/2024": 1.64149,
+      "08/21/2024": 1.64208,
+      "09/18/2024": 1.64141,
+      "11/20/2024": 1.64124,
+      "12/18/2024": 1.63636,
+      "01/22/2025": 1.63749,
+      "02/19/2025": 1.63689,
+      "03/19/2025": 1.63746,
+      "04/23/2025": 1.63803,
+      "05/21/2025": 1.63595,
+      "07/23/2025": 1.63604,
+      "08/20/2025": 1.6383
+    }
+  }
+}

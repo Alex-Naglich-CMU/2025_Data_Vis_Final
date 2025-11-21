@@ -1,0 +1,23 @@
+{
+  "RxCUI": "643123",
+  "Name": "prednisolone 10 MG Disintegrating Oral Tablet",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "643123",
+  "Ingredient_Name": "Prednisolone Disintegrating",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG",
+  "Form": "Tablet",
+  "prices": {
+    "66993084435": {
+      "05/22/2024": 7.73833,
+      "06/19/2024": 7.57333,
+      "07/17/2024": 6.83983
+    },
+    "66993084451": {
+      "05/22/2024": 7.73833,
+      "06/19/2024": 7.57333,
+      "07/17/2024": 6.83983
+    }
+  }
+}

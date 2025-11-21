@@ -1,0 +1,25 @@
+{
+  "RxCUI": "1547668",
+  "Name": "14 ACTUAT fluticasone furoate 0.2 MG/ACTUAT Dry Powder Inhaler [Arnuity]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1547668",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Fluticasone Furoate Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Arnuity",
+  "Strength": "14 ACTU",
+  "Form": "",
+  "prices": {
+    "00173087614": {
+      "08/21/2024": 8.95583,
+      "09/18/2024": 8.93726,
+      "10/23/2024": 8.92694,
+      "11/20/2024": 8.93079,
+      "12/18/2024": 8.92714,
+      "03/19/2025": 8.92245,
+      "05/21/2025": 8.92204,
+      "06/18/2025": 8.92036,
+      "08/20/2025": 8.91986,
+      "09/17/2025": 8.90686
+    }
+  }
+}

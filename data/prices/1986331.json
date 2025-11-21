@@ -1,0 +1,22 @@
+{
+  "RxCUI": "1986331",
+  "Name": "valbenazine 80 MG Oral Capsule [Ingrezza]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1986331",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Valbenazine",
+  "Manufacturer_Name": "Ingrezza",
+  "Strength": "80 MG",
+  "Form": "",
+  "prices": {
+    "70370108001": {
+      "12/09/2023": 266.70932,
+      "04/17/2024": 264.59884,
+      "05/22/2024": 264.70293,
+      "06/05/2024": 265.53567,
+      "11/21/2024": 274.54264,
+      "04/23/2025": 274.54233,
+      "10/01/2025": 283.32494
+    }
+  }
+}

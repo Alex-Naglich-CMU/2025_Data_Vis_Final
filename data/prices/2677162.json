@@ -1,0 +1,22 @@
+{
+  "RxCUI": "2677162",
+  "Name": "metformin hydrochloride 1000 MG / sitagliptin 50 MG Oral Tablet [Zituvimet]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2677162",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Metformin Hydrochloride Sitagliptin",
+  "Manufacturer_Name": "Zituvimet",
+  "Strength": "1000 MG",
+  "Form": "",
+  "prices": {
+    "70710178706": {
+      "05/21/2025": 5.04473,
+      "06/18/2025": 5.038,
+      "07/23/2025": 5.04691,
+      "08/20/2025": 5.04051,
+      "09/17/2025": 5.03747,
+      "10/22/2025": 5.03857,
+      "11/19/2025": 5.03784
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "RxCUI": "2686156",
+  "Name": "24 HR deutetrabenazine 18 MG Extended Release Oral Tablet [Austedo]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2686156",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Deutetrabenazine Extended Release",
+  "Manufacturer_Name": "Austedo",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "68546047956": {
+      "10/22/2025": 238.42206,
+      "11/19/2025": 238.83128
+    }
+  }
+}

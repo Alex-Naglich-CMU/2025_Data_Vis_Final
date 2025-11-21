@@ -1,0 +1,20 @@
+{
+  "RxCUI": "995609",
+  "Name": "ethambutol hydrochloride 400 MG Oral Tablet [Myambutol]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "995609",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ethambutol Hydrochloride",
+  "Manufacturer_Name": "Myambutol",
+  "Strength": "400 MG",
+  "Form": "",
+  "prices": {
+    "68850001201": {
+      "05/22/2024": 0.52026
+    },
+    "68850001202": {
+      "05/22/2024": 0.52026,
+      "06/19/2024": 0.5017
+    }
+  }
+}

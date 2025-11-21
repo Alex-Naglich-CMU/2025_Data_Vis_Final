@@ -1,0 +1,27 @@
+{
+  "RxCUI": "1099626",
+  "Name": "divalproex sodium 125 MG Delayed Release Oral Tablet [Depakote]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1099626",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Divalproex Sodium Delayed Release",
+  "Manufacturer_Name": "Depakote",
+  "Strength": "125 MG",
+  "Form": "",
+  "prices": {
+    "00074732513": {
+      "01/02/2024": 1.87957,
+      "05/22/2024": 1.8759,
+      "07/17/2024": 1.87228,
+      "08/21/2024": 1.87588,
+      "09/18/2024": 1.87545,
+      "10/23/2024": 1.87856,
+      "11/20/2024": 1.88244,
+      "01/02/2025": 1.97656,
+      "06/18/2025": 1.9641,
+      "07/23/2025": 1.95508,
+      "09/17/2025": 1.95991,
+      "10/22/2025": 1.95757
+    }
+  }
+}

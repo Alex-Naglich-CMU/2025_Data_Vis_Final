@@ -1,0 +1,33 @@
+{
+  "RxCUI": "1806204",
+  "Name": "40/60 Release 24 HR methylphenidate hydrochloride 50 MG Extended Release Oral Capsule",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1806204",
+  "Ingredient_Name": "Release Hr Methylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "60 Rele",
+  "Form": "Capsule",
+  "prices": {
+    "00591389519": {
+      "06/19/2024": 5.79282,
+      "07/17/2024": 4.98241,
+      "08/21/2024": 4.44088,
+      "10/23/2024": 4.5943,
+      "11/20/2024": 4.8374,
+      "12/18/2024": 4.62637,
+      "01/22/2025": 4.6424,
+      "02/19/2025": 4.44741
+    },
+    "42858008045": {
+      "06/19/2024": 5.79282,
+      "07/17/2024": 4.98241,
+      "08/21/2024": 4.44088,
+      "10/23/2024": 4.5943,
+      "11/20/2024": 4.8374,
+      "12/18/2024": 4.62637,
+      "01/22/2025": 4.6424,
+      "02/19/2025": 4.44741
+    }
+  }
+}

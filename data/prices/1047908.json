@@ -1,0 +1,17 @@
+{
+  "RxCUI": "1047908",
+  "Name": "hyoscyamine sulfate 0.125 MG Sublingual Tablet [Levsin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1047908",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hyoscyamine Sublingual",
+  "Manufacturer_Name": "Levsin",
+  "Strength": "0.125 MG",
+  "Form": "",
+  "prices": {
+    "68220011310": {
+      "10/23/2024": 2.52526,
+      "01/07/2025": 2.6515
+    }
+  }
+}

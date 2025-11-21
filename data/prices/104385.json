@@ -1,0 +1,17 @@
+{
+  "RxCUI": "104385",
+  "Name": "ramipril 5 MG Oral Capsule [Altace]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "104385",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ramipril",
+  "Manufacturer_Name": "Altace",
+  "Strength": "5 MG",
+  "Form": "",
+  "prices": {
+    "61570011201": {
+      "06/01/2017": 5.56027,
+      "01/01/2018": 6.08516
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "RxCUI": "1376340",
+  "Name": "desoximetasone 2.5 MG/ML Topical Spray [Topicort]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1376340",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Desoximetasone Mgml",
+  "Manufacturer_Name": "Topicort",
+  "Strength": "2.5 MG/ML",
+  "Form": "",
+  "prices": {
+    "51672528107": {
+      "01/17/2018": 5.0332,
+      "03/21/2018": 5.09788
+    }
+  }
+}

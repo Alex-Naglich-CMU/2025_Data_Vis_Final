@@ -1,0 +1,16 @@
+{
+  "RxCUI": "2175796",
+  "Name": "amphetamine sulfate 10 MG Disintegrating Oral Tablet [Evekeo]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2175796",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amphetamine Disintegrating",
+  "Manufacturer_Name": "Evekeo",
+  "Strength": "10 MG",
+  "Form": "",
+  "prices": {
+    "24338003301": {
+      "01/01/2021": 6.56676
+    }
+  }
+}

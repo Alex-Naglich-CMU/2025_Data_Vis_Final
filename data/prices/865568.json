@@ -1,0 +1,21 @@
+{
+  "RxCUI": "865568",
+  "Name": "24 HR glipizide 10 MG Extended Release Oral Tablet [Glucotrol]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "865568",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Glipizide Extended Release",
+  "Manufacturer_Name": "Glucotrol",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "00049017807": {
+      "06/01/2017": 2.83051,
+      "01/01/2018": 3.09768
+    },
+    "00049017808": {
+      "06/01/2017": 2.83051,
+      "01/01/2018": 3.09768
+    }
+  }
+}

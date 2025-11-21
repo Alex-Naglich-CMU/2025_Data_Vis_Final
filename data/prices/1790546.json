@@ -1,0 +1,17 @@
+{
+  "RxCUI": "1790546",
+  "Name": "infliximab-dyyb 100 MG Injection [Inflectra]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1790546",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Infliximab-Dyyb",
+  "Manufacturer_Name": "Inflectra",
+  "Strength": "100 MG",
+  "Form": "",
+  "prices": {
+    "00069080901": {
+      "12/18/2024": 504.52167,
+      "03/19/2025": 491.54571
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "RxCUI": "861422",
+  "Name": "timolol 0.005 MG/MG Ophthalmic Gel [Timoptic]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "861422",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Timolol Mgmg",
+  "Manufacturer_Name": "Timoptic",
+  "Strength": "0.005 MG/MG",
+  "Form": "",
+  "prices": {
+    "25010081156": {
+      "01/05/2018": 40.08808
+    }
+  }
+}

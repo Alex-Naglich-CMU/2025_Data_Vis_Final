@@ -1,0 +1,23 @@
+{
+  "RxCUI": "213082",
+  "Name": "benzoyl peroxide 0.05 MG/MG / erythromycin 0.03 MG/MG Topical Gel [Benzamycin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "213082",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Benzoyl Peroxide Mgmg Erythromycin Mgmg",
+  "Manufacturer_Name": "Benzamycin",
+  "Strength": "0.05 MG/MG",
+  "Form": "",
+  "prices": {
+    "00187520546": {
+      "08/21/2024": 1.28596,
+      "09/18/2024": 1.28691,
+      "10/23/2024": 1.28203,
+      "11/20/2024": 1.29081,
+      "12/18/2024": 1.29206,
+      "01/22/2025": 1.29212,
+      "02/19/2025": 1.2922,
+      "04/23/2025": 1.28536
+    }
+  }
+}

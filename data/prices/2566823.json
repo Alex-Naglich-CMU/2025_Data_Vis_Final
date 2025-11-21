@@ -1,0 +1,23 @@
+{
+  "RxCUI": "2566823",
+  "Name": "dextromethorphan hydrobromide 5 MG / hexylresorcinol 2 MG Oral Lozenge",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2566823",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide Hexylresorcinol Lozenge",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG",
+  "Form": "",
+  "prices": {
+    "72854026320": {
+      "04/17/2024": 0.12342,
+      "05/22/2024": 0.12278,
+      "06/19/2024": 0.1225
+    },
+    "72854026340": {
+      "04/17/2024": 0.12342,
+      "05/22/2024": 0.12278,
+      "06/19/2024": 0.1225
+    }
+  }
+}

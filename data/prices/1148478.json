@@ -1,0 +1,29 @@
+{
+  "RxCUI": "1148478",
+  "Name": "24 HR tramadol hydrochloride 100 MG Extended Release Oral Capsule",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1148478",
+  "Ingredient_Name": "Hr Tramadol Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Capsule",
+  "prices": {
+    "13811068930": {
+      "09/18/2024": 7.09567,
+      "10/23/2024": 7.92867,
+      "12/18/2024": 7.74628,
+      "01/22/2025": 7.66255,
+      "02/19/2025": 7.70263,
+      "03/19/2025": 7.77201,
+      "04/23/2025": 7.7828,
+      "05/21/2025": 7.35013,
+      "06/18/2025": 7.3884,
+      "07/23/2025": 7.47016,
+      "08/20/2025": 7.604,
+      "09/17/2025": 7.68864,
+      "10/22/2025": 7.76035,
+      "11/19/2025": 7.75968
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "RxCUI": "646352",
+  "Name": "omeprazole 40 MG / sodium bicarbonate 1100 MG Oral Capsule [Zegerid Reformulated Aug 2006]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "646352",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Omeprazole Sodium Bicarbonate",
+  "Manufacturer_Name": "Zegerid Reformulated Aug 2006",
+  "Strength": "40 MG",
+  "Form": "",
+  "prices": {
+    "68012010430": {
+      "05/22/2024": 106.06811,
+      "07/17/2024": 105.86453
+    }
+  }
+}

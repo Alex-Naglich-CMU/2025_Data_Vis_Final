@@ -1,0 +1,25 @@
+{
+  "RxCUI": "1543207",
+  "Name": "insulin, regular, human 4 UNT Inhalation Powder [Afrezza]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1543207",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin, Regular, Human Unt Inhalation",
+  "Manufacturer_Name": "Afrezza",
+  "Strength": "4 UNT",
+  "Form": "",
+  "prices": {
+    "47918087490": {
+      "05/22/2024": 4.80024,
+      "06/19/2024": 4.80303,
+      "07/17/2024": 4.80456,
+      "08/21/2024": 4.80681,
+      "09/18/2024": 4.80697,
+      "11/20/2024": 4.81741,
+      "12/16/2024": 5.05828,
+      "07/23/2025": 5.08413,
+      "08/20/2025": 5.08365,
+      "10/22/2025": 5.06378
+    }
+  }
+}

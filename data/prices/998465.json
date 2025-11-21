@@ -1,0 +1,16 @@
+{
+  "RxCUI": "998465",
+  "Name": "miconazole nitrate 0.02 MG/MG Topical Powder [Desenex]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "998465",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Miconazole Nitrate Mgmg",
+  "Manufacturer_Name": "Desenex",
+  "Strength": "0.02 MG/MG",
+  "Form": "",
+  "prices": {
+    "00316022530": {
+      "11/01/2019": 0.05707
+    }
+  }
+}

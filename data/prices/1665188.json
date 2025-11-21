@@ -1,0 +1,16 @@
+{
+  "RxCUI": "1665188",
+  "Name": "1 ML lorazepam 2 MG/ML Injection",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1665188",
+  "Ingredient_Name": "Lorazepam Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 ML",
+  "Form": "Injection",
+  "prices": {
+    "00641604425": {
+      "11/22/2017": 0.65736
+    }
+  }
+}

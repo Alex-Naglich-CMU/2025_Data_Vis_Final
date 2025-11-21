@@ -1,0 +1,25 @@
+{
+  "RxCUI": "213744",
+  "Name": "BCG, live, Tice strain 50 MG Powder for Intravesical Suspension [Tice BCG]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "213744",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Bcg, Live, Tice Strain For Intravesical",
+  "Manufacturer_Name": "Tice BCG",
+  "Strength": "50 MG",
+  "Form": "",
+  "prices": {
+    "00052060201": {
+      "09/26/2024": 163.36291,
+      "03/28/2025": 169.89252,
+      "09/17/2025": 170.184,
+      "09/26/2025": 175.28952
+    },
+    "00052060202": {
+      "09/26/2024": 163.36291,
+      "03/28/2025": 169.89252,
+      "09/17/2025": 170.184,
+      "09/26/2025": 175.28952
+    }
+  }
+}

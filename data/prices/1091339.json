@@ -1,0 +1,21 @@
+{
+  "RxCUI": "1091339",
+  "Name": "clindamycin 10 MG/ML Medicated Pad [Clindacin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1091339",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Clindamycin Mgml Medicated Pad",
+  "Manufacturer_Name": "Clindacin",
+  "Strength": "10 MG/ML",
+  "Form": "",
+  "prices": {
+    "43538017069": {
+      "12/29/2017": 6.79233,
+      "08/31/2018": 6.97918,
+      "03/01/2019": 7.29806,
+      "06/28/2019": 7.69676,
+      "09/19/2019": 8.38954,
+      "07/31/2020": 8.94325
+    }
+  }
+}

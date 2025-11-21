@@ -1,0 +1,22 @@
+{
+  "RxCUI": "213695",
+  "Name": "carisoprodol 350 MG Oral Tablet [Soma]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "213695",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Carisoprodol",
+  "Manufacturer_Name": "Soma",
+  "Strength": "350 MG",
+  "Form": "",
+  "prices": {
+    "00037200101": {
+      "07/17/2024": 10.36922,
+      "12/18/2024": 10.33429,
+      "01/07/2025": 10.851,
+      "06/18/2025": 10.79838,
+      "08/20/2025": 10.76993,
+      "10/22/2025": 10.76769,
+      "11/19/2025": 10.763
+    }
+  }
+}

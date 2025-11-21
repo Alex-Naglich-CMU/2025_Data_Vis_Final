@@ -10,7 +10,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(PRICES_DIR, exist_ok=True)
 
 # File paths
-NADAC_FILE = 'nadac-comparison-11-05-2025.csv'
+NADAC_FILE = 'nadac-comparison.csv'
 RXNSAT_FILE = 'RXNSAT.RRF'
 RXNREL_FILE = 'RXNREL.RRF'
 

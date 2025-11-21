@@ -1,0 +1,25 @@
+{
+  "RxCUI": "577960",
+  "Name": "amphetamine aspartate 3.75 MG / amphetamine sulfate 3.75 MG / dextroamphetamine saccharate 3.75 MG / dextroamphetamine sulfate 3.75 MG Oral Tablet [Adderall]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "577960",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amphetamine Aspartate Amphetamine Dextroamphetamine Saccharate Dextroamphetamine",
+  "Manufacturer_Name": "Adderall",
+  "Strength": "3.75 MG",
+  "Form": "",
+  "prices": {
+    "57844011501": {
+      "01/01/2023": 9.3648,
+      "01/01/2024": 10.24472,
+      "05/22/2024": 10.27067,
+      "07/17/2024": 10.29894,
+      "09/18/2024": 10.25571,
+      "11/20/2024": 10.25581,
+      "12/18/2024": 10.25782,
+      "01/01/2025": 11.22206,
+      "06/18/2025": 11.31048,
+      "08/20/2025": 11.29258
+    }
+  }
+}

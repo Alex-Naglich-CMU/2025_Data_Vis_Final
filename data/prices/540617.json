@@ -1,0 +1,21 @@
+{
+  "RxCUI": "540617",
+  "Name": "nitazoxanide 500 MG Oral Tablet [Alinia]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "540617",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Nitazoxanide",
+  "Manufacturer_Name": "Alinia",
+  "Strength": "500 MG",
+  "Form": "",
+  "prices": {
+    "67546011112": {
+      "07/24/2017": 83.66909,
+      "01/17/2018": 91.92723
+    },
+    "67546011114": {
+      "07/24/2017": 83.66909,
+      "01/17/2018": 91.92723
+    }
+  }
+}

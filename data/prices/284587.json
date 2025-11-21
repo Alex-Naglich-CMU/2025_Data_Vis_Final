@@ -1,0 +1,17 @@
+{
+  "RxCUI": "284587",
+  "Name": "valganciclovir 450 MG Oral Tablet [Valcyte]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "284587",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Valganciclovir",
+  "Manufacturer_Name": "Valcyte",
+  "Strength": "450 MG",
+  "Form": "",
+  "prices": {
+    "00004003822": {
+      "07/12/2017": 80.43687,
+      "01/01/2018": 85.26308
+    }
+  }
+}

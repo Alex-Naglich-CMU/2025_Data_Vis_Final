@@ -1,0 +1,27 @@
+{
+  "RxCUI": "992671",
+  "Name": "homatropine methylbromide 0.3 MG/ML / hydrocodone bitartrate 1 MG/ML Oral Solution [Hycodan]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "992671",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Homatropine Methylbromide Mgml Hydrocodone Bitartrate Mgml",
+  "Manufacturer_Name": "Hycodan",
+  "Strength": "0.3 MG/ML",
+  "Form": "",
+  "prices": {
+    "64950034247": {
+      "11/17/2021": 0.09681,
+      "2/23/2022": 0.0735,
+      "3/23/2022": 0.0812,
+      "4/20/2022": 0.07543,
+      "5/18/2022": 0.09558,
+      "6/22/2022": 0.06579,
+      "7/20/2022": 0.05805,
+      "9/21/2022": 0.04062,
+      "11/23/2022": 0.04272,
+      "12/21/2022": 0.03973,
+      "1/18/2023": 0.04313,
+      "2/22/2023": 0.0505
+    }
+  }
+}

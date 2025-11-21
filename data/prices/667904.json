@@ -1,0 +1,17 @@
+{
+  "RxCUI": "667904",
+  "Name": "salicylic acid 60 MG/ML Medicated Shampoo",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "667904",
+  "Ingredient_Name": "Salicylic Acid Mgml Medicated",
+  "Manufacturer_Name": "",
+  "Strength": "60 MG/ML",
+  "Form": "",
+  "prices": {
+    "42546027906": {
+      "06/21/2017": 0.14217,
+      "09/20/2017": 0.1591
+    }
+  }
+}

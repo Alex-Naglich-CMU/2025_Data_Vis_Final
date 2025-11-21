@@ -1,0 +1,18 @@
+{
+  "RxCUI": "1442130",
+  "Name": "diclofenac 35 MG Oral Capsule [Zorvolex]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1442130",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Diclofenac",
+  "Manufacturer_Name": "Zorvolex",
+  "Strength": "35 MG",
+  "Form": "",
+  "prices": {
+    "69344020429": {
+      "10/23/2019": 6.85422,
+      "01/01/2020": 7.53279,
+      "02/19/2020": 7.5939
+    }
+  }
+}

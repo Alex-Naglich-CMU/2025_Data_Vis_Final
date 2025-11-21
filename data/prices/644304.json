@@ -1,0 +1,21 @@
+{
+  "RxCUI": "644304",
+  "Name": "tamoxifen 2 MG/ML Oral Solution [Soltamox]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "644304",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tamoxifen Mgml",
+  "Manufacturer_Name": "Soltamox",
+  "Strength": "2 MG/ML",
+  "Form": "",
+  "prices": {
+    "51862068201": {
+      "06/19/2024": 4.41832,
+      "08/21/2024": 4.42803,
+      "12/18/2024": 4.43349,
+      "02/19/2025": 4.43015,
+      "04/23/2025": 4.41162,
+      "05/21/2025": 4.40095
+    }
+  }
+}

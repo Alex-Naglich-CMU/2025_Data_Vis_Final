@@ -1,0 +1,23 @@
+{
+  "RxCUI": "2703269",
+  "Name": "FEIRZA 1 MG-20 MCG TABLET",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "1358763",
+  "Generic_Mate_RxCUI": "2703269",
+  "Ingredient_Name": "Feirza -",
+  "Manufacturer_Name": "",
+  "Strength": "1 MG",
+  "Form": "TABLET",
+  "prices": {
+    "70700030784": {
+      "10/22/2025": 0.14895,
+      "11/19/2025": 0.15167
+    },
+    "70700030785": {
+      "08/20/2025": 0.14332,
+      "09/17/2025": 0.14588,
+      "10/22/2025": 0.14895,
+      "11/19/2025": 0.15167
+    }
+  }
+}

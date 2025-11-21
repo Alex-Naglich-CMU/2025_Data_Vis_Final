@@ -1,0 +1,18 @@
+{
+  "RxCUI": "727542",
+  "Name": "0.6 ML pegfilgrastim 10 MG/ML Prefilled Syringe [Neulasta]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "727542",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Pegfilgrastim Mgml Prefilled",
+  "Manufacturer_Name": "Neulasta",
+  "Strength": "0.6 ML",
+  "Form": "",
+  "prices": {
+    "55513019001": {
+      "07/20/2017": 9511.89229,
+      "01/01/2018": 9977.97501,
+      "10/24/2018": 10074.85714
+    }
+  }
+}

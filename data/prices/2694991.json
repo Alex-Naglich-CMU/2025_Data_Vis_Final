@@ -1,0 +1,22 @@
+{
+  "RxCUI": "2694991",
+  "Name": "trospium chloride 20 MG / xanomeline 100 MG Oral Capsule [Cobenfy]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2694991",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Trospium Chloride Xanomeline",
+  "Manufacturer_Name": "Cobenfy",
+  "Strength": "20 MG",
+  "Form": "",
+  "prices": {
+    "00003110060": {
+      "04/23/2025": 29.70111,
+      "05/21/2025": 29.67667,
+      "06/18/2025": 29.67406,
+      "07/23/2025": 29.68169,
+      "08/20/2025": 29.65241,
+      "09/17/2025": 29.64952,
+      "11/19/2025": 29.69635
+    }
+  }
+}

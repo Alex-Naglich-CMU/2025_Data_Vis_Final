@@ -1,0 +1,26 @@
+{
+  "RxCUI": "544553",
+  "Name": "citric acid 128 MG/ML / sodium citrate 98 MG/ML Oral Solution [Oracit]",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "544550",
+  "Generic_Mate_RxCUI": "544553",
+  "Ingredient_Name": "Citric Acid Mgml Sodium Citrate Mgml",
+  "Manufacturer_Name": "Oracit",
+  "Strength": "128 MG/ML",
+  "Form": "",
+  "prices": {
+    "46287001401": {
+      "01/22/2025": 0.08088,
+      "02/19/2025": 0.07944,
+      "03/19/2025": 0.0784,
+      "04/23/2025": 0.07713,
+      "05/21/2025": 0.07694,
+      "06/18/2025": 0.07583,
+      "07/23/2025": 0.07455,
+      "08/20/2025": 0.07638,
+      "09/17/2025": 0.07703,
+      "10/22/2025": 0.0779,
+      "11/19/2025": 0.07602
+    }
+  }
+}

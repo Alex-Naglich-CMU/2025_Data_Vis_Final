@@ -1,0 +1,16 @@
+{
+  "RxCUI": "2570421",
+  "Name": "5 ML paliperidone palmitate 312 MG/ML Prefilled Syringe [Invega]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2570421",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Paliperidone Palmitate Mgml Prefilled",
+  "Manufacturer_Name": "Invega",
+  "Strength": "5 ML",
+  "Form": "",
+  "prices": {
+    "50458061201": {
+      "01/03/2025": 4134.18116
+    }
+  }
+}

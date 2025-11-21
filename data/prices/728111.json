@@ -1,0 +1,19 @@
+{
+  "RxCUI": "728111",
+  "Name": "oseltamivir 30 MG Oral Capsule [Tamiflu]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "728111",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Oseltamivir",
+  "Manufacturer_Name": "Tamiflu",
+  "Strength": "30 MG",
+  "Form": "",
+  "prices": {
+    "00004080285": {
+      "07/01/2017": 13.37762,
+      "04/18/2018": 13.4165,
+      "03/20/2019": 13.273,
+      "01/22/2020": 13.39943
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "RxCUI": "2636052",
+  "Name": "0.21 ML risperidone 357 MG/ML Prefilled Syringe [Uzedy]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2636052",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Risperidone Mgml Prefilled",
+  "Manufacturer_Name": "Uzedy",
+  "Strength": "0.21 ML",
+  "Form": "",
+  "prices": {
+    "51759041010": {
+      "12/18/2024": 8782.63691,
+      "01/01/2025": 9002.02717
+    }
+  }
+}

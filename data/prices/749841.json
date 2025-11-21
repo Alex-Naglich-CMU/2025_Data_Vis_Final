@@ -1,0 +1,29 @@
+{
+  "RxCUI": "749841",
+  "Name": "hydrochlorothiazide 25 MG / telmisartan 80 MG Oral Tablet [Micardis-HCT]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "749841",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hydrochlorothiazide Telmisartan",
+  "Manufacturer_Name": "Micardis-HCT",
+  "Strength": "25 MG",
+  "Form": "",
+  "prices": {
+    "00597004237": {
+      "10/18/2017": 6.02987,
+      "01/03/2018": 6.39172,
+      "01/01/2019": 6.90293,
+      "05/22/2024": 4.51806,
+      "07/17/2024": 4.5117,
+      "09/18/2024": 4.50267,
+      "10/23/2024": 4.5064,
+      "11/20/2024": 4.49788,
+      "12/18/2024": 4.50845,
+      "02/19/2025": 4.51011,
+      "03/19/2025": 4.49096,
+      "04/23/2025": 4.48695,
+      "05/21/2025": 4.48161,
+      "09/17/2025": 4.49387
+    }
+  }
+}

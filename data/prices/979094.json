@@ -1,0 +1,16 @@
+{
+  "RxCUI": "979094",
+  "Name": "hydroxychloroquine sulfate 200 MG Oral Tablet [Plaquenil]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "979094",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hydroxychloroquine",
+  "Manufacturer_Name": "Plaquenil",
+  "Strength": "200 MG",
+  "Form": "",
+  "prices": {
+    "59212056210": {
+      "07/01/2017": 9.21485
+    }
+  }
+}

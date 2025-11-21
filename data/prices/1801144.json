@@ -1,0 +1,21 @@
+{
+  "RxCUI": "1801144",
+  "Name": "doxycycline hyclate 60 MG Delayed Release Oral Tablet [Doryx]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1801144",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Doxycycline Hyclate Delayed Release",
+  "Manufacturer_Name": "Doryx",
+  "Strength": "60 MG",
+  "Form": "",
+  "prices": {
+    "51862056012": {
+      "10/01/2024": 18.84372,
+      "10/22/2025": 18.1822
+    },
+    "51862056060": {
+      "10/01/2024": 18.84372,
+      "10/22/2025": 18.1822
+    }
+  }
+}

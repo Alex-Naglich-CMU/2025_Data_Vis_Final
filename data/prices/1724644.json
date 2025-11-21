@@ -1,0 +1,18 @@
+{
+  "RxCUI": "1724644",
+  "Name": "1 ML hydromorphone hydrochloride 2 MG/ML Cartridge",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1724644",
+  "Ingredient_Name": "Hydromorphone Hydrochloride Mgml Cartridge",
+  "Manufacturer_Name": "",
+  "Strength": "1 ML",
+  "Form": "",
+  "prices": {
+    "00409131230": {
+      "05/21/2025": 3.01927,
+      "06/18/2025": 3.13193,
+      "07/23/2025": 3.2446
+    }
+  }
+}

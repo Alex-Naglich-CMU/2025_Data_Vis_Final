@@ -1,0 +1,21 @@
+{
+  "RxCUI": "746811",
+  "Name": "14 ACTUAT mometasone furoate 0.22 MG/ACTUAT Dry Powder Inhaler [Asmanex]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "746811",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Mometasone Furoate Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Asmanex",
+  "Strength": "14 ACTU",
+  "Form": "",
+  "prices": {
+    "78206011403": {
+      "01/22/2025": 36.91571,
+      "03/19/2025": 36.94667,
+      "05/21/2025": 37.00167,
+      "06/18/2025": 37.146,
+      "07/23/2025": 36.98,
+      "08/20/2025": 36.948
+    }
+  }
+}

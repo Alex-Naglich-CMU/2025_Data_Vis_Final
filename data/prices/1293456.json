@@ -1,0 +1,24 @@
+{
+  "RxCUI": "1293456",
+  "Name": "tazarotene 1 MG/ML Topical Foam [Fabior]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1293456",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tazarotene Mgml",
+  "Manufacturer_Name": "Fabior",
+  "Strength": "1 MG/ML",
+  "Form": "",
+  "prices": {
+    "51862029510": {
+      "05/22/2024": 11.85065,
+      "06/19/2024": 11.7471,
+      "07/17/2024": 11.77804,
+      "10/01/2024": 12.36694,
+      "07/23/2025": 12.46718,
+      "09/17/2025": 12.47372
+    },
+    "51862029550": {
+      "01/13/2020": 11.0614
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "RxCUI": "2613569",
+  "Name": "tadalafil 4 MG/ML Oral Suspension [Tadliq]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2613569",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tadalafil Mgml",
+  "Manufacturer_Name": "Tadliq",
+  "Strength": "4 MG/ML",
+  "Form": "",
+  "prices": {
+    "46287004515": {
+      "08/21/2024": 11.9692,
+      "09/18/2024": 11.9603,
+      "10/23/2024": 11.98292,
+      "04/23/2025": 12.19795,
+      "06/18/2025": 12.23321,
+      "07/23/2025": 12.27548,
+      "10/01/2025": 12.7665
+    }
+  }
+}

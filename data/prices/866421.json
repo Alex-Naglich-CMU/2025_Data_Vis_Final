@@ -1,0 +1,18 @@
+{
+  "RxCUI": "866421",
+  "Name": "24 HR metoprolol succinate 200 MG Extended Release Oral Tablet [Toprol]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "866421",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Metoprolol Succinate Extended Release",
+  "Manufacturer_Name": "Toprol",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "70842011302": {
+      "11/20/2024": 3.01323,
+      "12/18/2024": 3.01417,
+      "01/03/2025": 3.16491
+    }
+  }
+}

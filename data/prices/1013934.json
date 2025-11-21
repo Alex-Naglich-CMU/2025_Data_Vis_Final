@@ -1,0 +1,20 @@
+{
+  "RxCUI": "1013934",
+  "Name": "12 HR clonidine hydrochloride 0.1 MG Extended Release Oral Tablet [Kapvay]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1013934",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Clonidine Hydrochloride Extended Release",
+  "Manufacturer_Name": "Kapvay",
+  "Strength": "12 HR",
+  "Form": "",
+  "prices": {
+    "59212065860": {
+      "09/05/2017": 7.1653,
+      "10/18/2017": 7.04212,
+      "11/22/2017": 6.83157,
+      "12/20/2017": 7.09044,
+      "09/19/2018": 7.05928
+    }
+  }
+}

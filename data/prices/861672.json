@@ -1,0 +1,28 @@
+{
+  "RxCUI": "861672",
+  "Name": "1 ML dihydroergotamine mesylate 1 MG/ML Injection",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "861672",
+  "Ingredient_Name": "Dihydroergotamine Mesylate Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 ML",
+  "Form": "Injection",
+  "prices": {
+    "00574085005": {
+      "05/22/2024": 55.38844,
+      "06/19/2024": 50.76978,
+      "08/21/2024": 52.642
+    },
+    "61990041101": {
+      "05/22/2024": 55.38844,
+      "06/19/2024": 50.76978,
+      "08/21/2024": 52.642
+    },
+    "81284041105": {
+      "05/22/2024": 55.38844,
+      "06/19/2024": 50.76978,
+      "08/21/2024": 52.642
+    }
+  }
+}

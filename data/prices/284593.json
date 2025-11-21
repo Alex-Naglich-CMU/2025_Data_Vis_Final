@@ -1,0 +1,16 @@
+{
+  "RxCUI": "284593",
+  "Name": "methotrexate 10 MG Oral Tablet [Trexall]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "284593",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methotrexate",
+  "Manufacturer_Name": "Trexall",
+  "Strength": "10 MG",
+  "Form": "",
+  "prices": {
+    "51285036801": {
+      "01/01/2025": 44.31772
+    }
+  }
+}

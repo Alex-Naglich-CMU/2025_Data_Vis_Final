@@ -1,0 +1,29 @@
+{
+  "RxCUI": "1087399",
+  "Name": "copper sulfate 0.8 MG / ferrous fumarate 324 MG / folic acid 1 MG / magnesium sulfate 6.9 MG / manganese sulfate 1.3 MG / niacinamide 30 MG / pantothenic acid 10 MG / pyridoxine 5 MG / riboflavin 6 MG / sodium ascorbate 200 MG / thiamine 10 MG / vitamin B12 0.015 MG / zinc sulfate 18.2 MG Oral Capsule [Hemocyte Plus]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1087399",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Copper Ferrous Fumarate Folic Acid Magnesium Manganese Niacinamide Pantothenic Acid Pyridoxine Riboflavin Sodium Ascorbate Thiamine Vitamin B Zinc",
+  "Manufacturer_Name": "Hemocyte Plus",
+  "Strength": "0.8 MG",
+  "Form": "",
+  "prices": {
+    "52747080030": {
+      "11/22/2017": 0.51706,
+      "10/17/2018": 0.5142,
+      "04/17/2019": 0.51786,
+      "08/12/2019": 0.54367,
+      "11/20/2019": 0.53738,
+      "10/21/2020": 0.54127
+    },
+    "52747080060": {
+      "11/22/2017": 0.51706,
+      "10/17/2018": 0.5142,
+      "04/17/2019": 0.51786,
+      "08/12/2019": 0.54367,
+      "11/20/2019": 0.53738,
+      "10/21/2020": 0.54127
+    }
+  }
+}

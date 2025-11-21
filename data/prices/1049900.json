@@ -1,0 +1,23 @@
+{
+  "RxCUI": "1049900",
+  "Name": "diphenhydramine hydrochloride 12.5 MG Chewable Tablet",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1049900",
+  "Ingredient_Name": "Diphenhydramine Hydrochloride Chewable",
+  "Manufacturer_Name": "",
+  "Strength": "12.5 MG",
+  "Form": "Tablet",
+  "prices": {
+    "46122042589": {
+      "09/22/2021": 0.1035,
+      "10/20/2021": 0.1,
+      "11/17/2021": 0.10583,
+      "1/19/2022": 0.10438,
+      "8/17/2022": 0.104,
+      "11/23/2022": 0.10095,
+      "08/23/2023": 0.1085,
+      "04/17/2024": 0.113
+    }
+  }
+}

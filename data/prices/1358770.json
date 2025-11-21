@@ -1,0 +1,16 @@
+{
+  "RxCUI": "1358770",
+  "Name": "LOESTRIN FE 1-20 TABLET",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1358770",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Loestrin Fe -",
+  "Manufacturer_Name": "",
+  "Strength": "20 TABL",
+  "Form": "TABLET",
+  "prices": {
+    "51285012570": {
+      "01/01/2025": 7.5246
+    }
+  }
+}

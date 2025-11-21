@@ -1,0 +1,17 @@
+{
+  "RxCUI": "212388",
+  "Name": "carvedilol 6.25 MG Oral Tablet [Coreg]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "212388",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Carvedilol",
+  "Manufacturer_Name": "Coreg",
+  "Strength": "6.25 MG",
+  "Form": "",
+  "prices": {
+    "00007414020": {
+      "01/01/2018": 4.60085,
+      "01/01/2019": 4.73883
+    }
+  }
+}

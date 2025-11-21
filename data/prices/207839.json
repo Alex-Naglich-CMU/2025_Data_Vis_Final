@@ -1,0 +1,16 @@
+{
+  "RxCUI": "207839",
+  "Name": "vitamin K1 5 MG Oral Tablet [Mephyton]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "207839",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Vitamin K",
+  "Manufacturer_Name": "Mephyton",
+  "Strength": "5 MG",
+  "Form": "",
+  "prices": {
+    "00187170405": {
+      "05/23/2018": 55.7892
+    }
+  }
+}

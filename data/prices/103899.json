@@ -1,0 +1,17 @@
+{
+  "RxCUI": "103899",
+  "Name": "rifabutin 150 MG Oral Capsule [Mycobutin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "103899",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Rifabutin",
+  "Manufacturer_Name": "Mycobutin",
+  "Strength": "150 MG",
+  "Form": "",
+  "prices": {
+    "00013530117": {
+      "06/01/2017": 27.89072,
+      "01/01/2018": 30.5236
+    }
+  }
+}

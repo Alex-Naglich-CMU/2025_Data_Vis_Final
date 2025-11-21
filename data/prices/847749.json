@@ -1,0 +1,16 @@
+{
+  "RxCUI": "847749",
+  "Name": "lopinavir 80 MG/ML / ritonavir 20 MG/ML Oral Solution [Kaletra]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "847749",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Lopinavir Mgml Ritonavir Mgml",
+  "Manufacturer_Name": "Kaletra",
+  "Strength": "80 MG/ML",
+  "Form": "",
+  "prices": {
+    "00074395646": {
+      "12/22/2017": 3.1186
+    }
+  }
+}

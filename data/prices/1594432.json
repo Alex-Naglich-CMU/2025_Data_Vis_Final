@@ -1,0 +1,19 @@
+{
+  "RxCUI": "1594432",
+  "Name": "0.48 ML follitropin alfa 625 UNT/ML Pen Injector [Gonal F]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1594432",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Follitropin Alfa Untml Pen Injector",
+  "Manufacturer_Name": "Gonal F",
+  "Strength": "0.48 ML",
+  "Form": "",
+  "prices": {
+    "44087111501": {
+      "08/21/2024": 1872.92667,
+      "09/18/2024": 1869.788,
+      "11/20/2024": 1870.56,
+      "01/22/2025": 1866.54667
+    }
+  }
+}

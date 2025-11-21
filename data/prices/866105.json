@@ -1,0 +1,20 @@
+{
+  "RxCUI": "866105",
+  "Name": "24 HR paliperidone 1.5 MG Extended Release Oral Tablet [Invega]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "866105",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Paliperidone Extended Release",
+  "Manufacturer_Name": "Invega",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "50458055401": {
+      "01/03/2018": 35.22073,
+      "01/17/2018": 35.85006,
+      "01/10/2019": 38.14447,
+      "01/15/2021": 39.1646,
+      "9/29/2021": 11.74938
+    }
+  }
+}

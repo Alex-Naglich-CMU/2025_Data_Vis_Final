@@ -1,0 +1,30 @@
+{
+  "RxCUI": "847055",
+  "Name": "hydrochlorothiazide 12.5 MG / olmesartan medoxomil 40 MG Oral Tablet [Benicar HCT]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "847055",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hydrochlorothiazide Olmesartan Medoxomil",
+  "Manufacturer_Name": "Benicar HCT",
+  "Strength": "12.5 MG",
+  "Form": "",
+  "prices": {
+    "00713086430": {
+      "09/01/2023": 12.99123,
+      "04/17/2024": 12.98555,
+      "05/22/2024": 13.01693,
+      "06/19/2024": 13.02311,
+      "07/17/2024": 13.01857,
+      "08/21/2024": 13.01237,
+      "09/18/2024": 13.0079,
+      "09/20/2024": 14.30726,
+      "03/19/2025": 14.15617,
+      "04/23/2025": 14.19372,
+      "05/21/2025": 14.21817,
+      "06/18/2025": 14.2212,
+      "08/20/2025": 14.20543,
+      "09/17/2025": 14.21456,
+      "09/16/2025": 15.61177
+    }
+  }
+}

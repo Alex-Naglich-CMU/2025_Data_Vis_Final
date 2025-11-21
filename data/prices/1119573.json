@@ -1,0 +1,38 @@
+{
+  "RxCUI": "1119573",
+  "Name": "ascorbic acid 30 MG / cholecalciferol 1000 UNT / cuprous oxide 2 MG / folic acid 1 MG / magnesium oxide 20 MG / niacin 15 MG / polysaccharide iron complex 29 MG / potassium iodide 0.15 MG / pyridoxine hydrochloride 2.5 MG / riboflavin 1.8 MG / thiamine mononitrate 1.6 MG / vitamin A 1100 UNT / vitamin B12 0.012 MG / vitamin E 20 UNT / zinc oxide 25 MG Oral Capsule [Vitafol-One]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1119573",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ascorbic Acid Cholecalciferol Unt Cuprous Oxide Folic Acid Magnesium Oxide Niacin Polysaccharide Iron Complex Potassium Iodide Pyridoxine Hydrochloride Riboflavin Thiamine Mononitrate Vitamin A Unt Vitamin B Vitamin E Unt Zinc Oxide",
+  "Manufacturer_Name": "Vitafol-One",
+  "Strength": "30 MG",
+  "Form": "",
+  "prices": {
+    "00642007030": {
+      "11/22/2017": 3.5663,
+      "01/01/2018": 3.88737,
+      "10/17/2018": 3.89183,
+      "08/21/2019": 3.87754,
+      "08/19/2020": 3.87647,
+      "08/18/2021": 3.89228,
+      "12/22/2021": 3.8652,
+      "01/01/2022": 3.96086,
+      "02/20/2023": 4.07985,
+      "01/15/2024": 4.20233,
+      "05/22/2024": 4.22142,
+      "06/19/2024": 4.22341,
+      "07/17/2024": 4.22658,
+      "08/21/2024": 4.22966,
+      "09/18/2024": 4.22908,
+      "01/01/2025": 4.35587,
+      "05/21/2025": 4.3574,
+      "06/18/2025": 4.35946,
+      "07/23/2025": 4.3615,
+      "08/20/2025": 4.36597,
+      "09/17/2025": 4.36014,
+      "10/22/2025": 4.35172,
+      "11/19/2025": 4.35076
+    }
+  }
+}

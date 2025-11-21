@@ -1,0 +1,38 @@
+{
+  "RxCUI": "1429362",
+  "Name": "dextromethorphan hydrobromide 1.2 MG/ML / guaifenesin 13.3 MG/ML / phenylephrine hydrochloride 0.667 MG/ML Oral Solution",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1429362",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide Mgml Guaifenesin Mgml Phenylephrine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1.2 MG/ML",
+  "Form": "Solution",
+  "prices": {
+    "58809055508": {
+      "06/21/2017": 0.10339,
+      "07/19/2017": 0.10031,
+      "12/20/2017": 0.09959,
+      "06/20/2018": 0.09784,
+      "04/17/2019": 0.10037,
+      "11/20/2019": 0.09667,
+      "09/18/2024": 0.0976,
+      "12/18/2024": 0.09704,
+      "01/22/2025": 0.09789,
+      "02/19/2025": 0.09754,
+      "03/19/2025": 0.09758,
+      "09/17/2025": 0.09754,
+      "11/19/2025": 0.09749
+    },
+    "69367018408": {
+      "06/20/2018": 0.09784,
+      "04/17/2019": 0.10037,
+      "11/20/2019": 0.09667,
+      "05/22/2024": 0.07121,
+      "06/19/2024": 0.07134,
+      "07/17/2024": 0.07177,
+      "09/18/2024": 0.07252,
+      "09/17/2025": 0.07422
+    }
+  }
+}

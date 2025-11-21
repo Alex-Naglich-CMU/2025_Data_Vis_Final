@@ -1,0 +1,25 @@
+{
+  "RxCUI": "762660",
+  "Name": "tadalafil 2.5 MG Oral Tablet [Cialis]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "762660",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tadalafil",
+  "Manufacturer_Name": "Cialis",
+  "Strength": "2.5 MG",
+  "Form": "",
+  "prices": {
+    "00002446534": {
+      "06/21/2017": 9.93465,
+      "01/04/2018": 10.92136,
+      "10/17/2018": 10.88765,
+      "02/19/2019": 11.32696
+    },
+    "00002446579": {
+      "06/21/2017": 9.93465,
+      "01/04/2018": 10.92136,
+      "10/17/2018": 10.88765,
+      "02/19/2019": 11.32696
+    }
+  }
+}

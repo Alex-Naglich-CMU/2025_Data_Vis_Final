@@ -1,0 +1,39 @@
+{
+  "RxCUI": "577962",
+  "Name": "amphetamine aspartate 5 MG / amphetamine sulfate 5 MG / dextroamphetamine saccharate 5 MG / dextroamphetamine sulfate 5 MG Oral Tablet [Adderall]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "577962",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amphetamine Aspartate Amphetamine Dextroamphetamine Saccharate Dextroamphetamine",
+  "Manufacturer_Name": "Adderall",
+  "Strength": "5 MG",
+  "Form": "",
+  "prices": {
+    "57844012001": {
+      "01/01/2018": 5.86911,
+      "06/30/2018": 6.17442,
+      "01/01/2019": 6.75531,
+      "01/01/2020": 7.18738,
+      "09/23/2020": 7.16102,
+      "01/01/2021": 7.83415,
+      "10/20/2021": 7.87753,
+      "1/1/2022": 8.61849,
+      "01/01/2023": 9.42837,
+      "11/22/2023": 9.31879,
+      "01/01/2024": 10.19438,
+      "05/22/2024": 10.29215,
+      "06/19/2024": 10.28177,
+      "07/17/2024": 10.29752,
+      "09/18/2024": 10.28467,
+      "10/23/2024": 10.27376,
+      "11/20/2024": 10.27707,
+      "12/18/2024": 10.27694,
+      "01/01/2025": 11.24297,
+      "05/21/2025": 11.2034,
+      "06/18/2025": 11.20749,
+      "08/20/2025": 11.1899,
+      "09/17/2025": 11.17682,
+      "10/22/2025": 11.15024
+    }
+  }
+}

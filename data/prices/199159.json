@@ -1,0 +1,28 @@
+{
+  "RxCUI": "199159",
+  "Name": "tretinoin 10 MG Oral Capsule",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "199159",
+  "Ingredient_Name": "Tretinoin",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG",
+  "Form": "Capsule",
+  "prices": {
+    "00904686704": {
+      "11/19/2025": 11.03832
+    },
+    "10370026801": {
+      "11/19/2025": 11.03832
+    },
+    "68084007511": {
+      "11/19/2025": 11.03832
+    },
+    "68084007521": {
+      "11/19/2025": 11.03832
+    },
+    "68462079201": {
+      "11/19/2025": 11.03832
+    }
+  }
+}

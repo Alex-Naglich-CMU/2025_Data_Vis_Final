@@ -1,0 +1,22 @@
+{
+  "RxCUI": "2048568",
+  "Name": "tofacitinib 10 MG Oral Tablet [Xeljanz]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2048568",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tofacitinib",
+  "Manufacturer_Name": "Xeljanz",
+  "Strength": "10 MG",
+  "Form": "",
+  "prices": {
+    "00069100201": {
+      "07/17/2024": 93.8978,
+      "08/21/2024": 93.84515,
+      "10/23/2024": 93.85622,
+      "11/20/2024": 93.80967,
+      "12/18/2024": 93.73244,
+      "01/01/2025": 98.41907,
+      "10/22/2025": 98.1475
+    }
+  }
+}

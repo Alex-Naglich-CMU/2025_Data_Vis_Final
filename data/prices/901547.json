@@ -1,0 +1,22 @@
+{
+  "RxCUI": "901547",
+  "Name": "24 HR pramipexole dihydrochloride 0.75 MG Extended Release Oral Tablet [Mirapex]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "901547",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Pramipexole Dihydrochloride Extended Release",
+  "Manufacturer_Name": "Mirapex",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "00597028530": {
+      "01/03/2018": 17.736,
+      "01/01/2019": 19.15506,
+      "01/01/2020": 20.30436,
+      "01/01/2021": 21.11654,
+      "1/10/2022": 21.9612,
+      "01/01/2023": 22.83965,
+      "01/01/2024": 23.52507
+    }
+  }
+}

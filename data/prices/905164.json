@@ -1,0 +1,17 @@
+{
+  "RxCUI": "905164",
+  "Name": "olsalazine sodium 250 MG Oral Capsule [Dipentum]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "905164",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Olsalazine Sodium",
+  "Manufacturer_Name": "Dipentum",
+  "Strength": "250 MG",
+  "Form": "",
+  "prices": {
+    "00037686010": {
+      "11/20/2024": 14.23696,
+      "01/07/2025": 14.94881
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "RxCUI": "206792",
+  "Name": "lodoxamide 1 MG/ML Ophthalmic Solution [Alomide]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "206792",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Lodoxamide Mgml",
+  "Manufacturer_Name": "Alomide",
+  "Strength": "1 MG/ML",
+  "Form": "",
+  "prices": {
+    "00065034510": {
+      "01/03/2018": 16.67712
+    },
+    "00078073610": {
+      "12/18/2024": 19.48033,
+      "01/14/2025": 19.96733
+    }
+  }
+}

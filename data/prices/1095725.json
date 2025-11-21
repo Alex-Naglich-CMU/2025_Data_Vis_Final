@@ -1,0 +1,27 @@
+{
+  "RxCUI": "1095725",
+  "Name": "clemastine fumarate 1.34 MG Oral Tablet [Dayhist-1]",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "857416",
+  "Generic_Mate_RxCUI": "1095725",
+  "Ingredient_Name": "Clemastine Fumarate",
+  "Manufacturer_Name": "Dayhist-1",
+  "Strength": "1.34 MG",
+  "Form": "",
+  "prices": {
+    "24385018351": {
+      "06/21/2017": 0.26317,
+      "08/23/2017": 0.25656,
+      "09/20/2017": 0.255,
+      "02/21/2018": 0.258,
+      "05/23/2018": 0.26422
+    },
+    "36800028251": {
+      "06/21/2017": 0.26317,
+      "08/23/2017": 0.25656,
+      "09/20/2017": 0.255,
+      "02/21/2018": 0.258,
+      "05/23/2018": 0.26422
+    }
+  }
+}

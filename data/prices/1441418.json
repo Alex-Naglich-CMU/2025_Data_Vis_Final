@@ -1,0 +1,26 @@
+{
+  "RxCUI": "1441418",
+  "Name": "0.4 ML methotrexate 50 MG/ML Auto-Injector [Otrexup]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1441418",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methotrexate Mgml Auto-Injector",
+  "Manufacturer_Name": "Otrexup",
+  "Strength": "0.4 ML",
+  "Form": "",
+  "prices": {
+    "54436002004": {
+      "07/05/2017": 375.64144,
+      "01/01/2018": 394.416,
+      "08/21/2024": 466.93828,
+      "09/18/2024": 468.34188,
+      "10/23/2024": 468.425,
+      "11/20/2024": 467.86635,
+      "12/18/2024": 467.90042,
+      "01/22/2025": 467.30078,
+      "02/19/2025": 467.47243,
+      "03/19/2025": 467.30347,
+      "04/01/2025": 480.85527
+    }
+  }
+}

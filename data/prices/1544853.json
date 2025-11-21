@@ -1,0 +1,21 @@
+{
+  "RxCUI": "1544853",
+  "Name": "buprenorphine 4.2 MG / naloxone 0.7 MG Buccal Film [Bunavail]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1544853",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Buprenorphine Naloxone Buccal Film",
+  "Manufacturer_Name": "Bunavail",
+  "Strength": "4.2 MG",
+  "Form": "",
+  "prices": {
+    "59385001430": {
+      "11/22/2017": 7.46356,
+      "08/22/2018": 7.4282,
+      "09/19/2018": 7.5125,
+      "07/17/2019": 7.46593,
+      "08/01/2019": 7.91396,
+      "01/01/2020": 8.30974
+    }
+  }
+}

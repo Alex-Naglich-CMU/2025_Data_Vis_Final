@@ -1,0 +1,27 @@
+{
+  "RxCUI": "1190740",
+  "Name": "atropine sulfate 0.025 MG / difenoxin hydrochloride 1 MG Oral Tablet [Motofen]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1190740",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Atropine Difenoxin Hydrochloride",
+  "Manufacturer_Name": "Motofen",
+  "Strength": "0.025 MG",
+  "Form": "",
+  "prices": {
+    "54766020010": {
+      "05/22/2024": 6.62804,
+      "06/19/2024": 6.62742,
+      "07/17/2024": 6.61069,
+      "09/18/2024": 6.61031,
+      "10/23/2024": 6.60671,
+      "01/22/2025": 6.58452,
+      "02/19/2025": 6.5702,
+      "03/19/2025": 6.56526,
+      "04/04/2025": 6.89352,
+      "09/17/2025": 6.9555,
+      "10/22/2025": 6.90491,
+      "11/19/2025": 6.91288
+    }
+  }
+}

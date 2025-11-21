@@ -1,0 +1,16 @@
+{
+  "RxCUI": "213510",
+  "Name": "auranofin 3 MG Oral Capsule [Ridaura]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "213510",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Auranofin",
+  "Manufacturer_Name": "Ridaura",
+  "Strength": "3 MG",
+  "Form": "",
+  "prices": {
+    "54766009306": {
+      "09/17/2025": 24.84543
+    }
+  }
+}

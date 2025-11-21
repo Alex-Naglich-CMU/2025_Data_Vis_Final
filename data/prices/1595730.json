@@ -1,0 +1,19 @@
+{
+  "RxCUI": "1595730",
+  "Name": "Abuse-Deterrent 24 HR hydrocodone bitartrate 20 MG Extended Release Oral Tablet",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1595730",
+  "Ingredient_Name": "Abuse-Deterrent Hr Hydrocodone Bitartrate Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
+  "prices": {
+    "47781039260": {
+      "03/19/2025": 8.01382,
+      "04/23/2025": 8.01561,
+      "05/21/2025": 8.01383,
+      "06/18/2025": 8.01917
+    }
+  }
+}

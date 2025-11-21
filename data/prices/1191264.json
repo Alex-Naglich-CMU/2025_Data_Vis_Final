@@ -1,0 +1,32 @@
+{
+  "RxCUI": "1191264",
+  "Name": "fluocinolone acetonide 0.1 MG/ML / hydroquinone 40 MG/ML / tretinoin 0.5 MG/ML Topical Cream [Tri-Luma]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1191264",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fluocinolone Acetonide Mgml Hydroquinone Mgml Tretinoin Mgml",
+  "Manufacturer_Name": "Tri-Luma",
+  "Strength": "0.1 MG/ML",
+  "Form": "",
+  "prices": {
+    "00299595030": {
+      "05/19/2021": 6.44675,
+      "08/02/2017": 4.98633,
+      "09/20/2017": 4.97262,
+      "01/03/2018": 5.96715,
+      "08/01/2018": 6.46361,
+      "04/17/2019": 6.50453,
+      "01/22/2020": 6.45233,
+      "07/22/2020": 6.47433,
+      "01/01/2022": 7.08524,
+      "10/19/2022": 7.14919,
+      "05/21/2025": 7.86204,
+      "06/18/2025": 7.85605,
+      "07/23/2025": 7.84867,
+      "08/20/2025": 7.83889,
+      "09/17/2025": 7.83506,
+      "10/22/2025": 7.83482,
+      "11/19/2025": 7.83125
+    }
+  }
+}

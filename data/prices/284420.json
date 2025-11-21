@@ -1,0 +1,20 @@
+{
+  "RxCUI": "284420",
+  "Name": "adapalene 1 MG/ML Topical Cream [Differin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "284420",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Adapalene Mgml",
+  "Manufacturer_Name": "Differin",
+  "Strength": "1 MG/ML",
+  "Form": "",
+  "prices": {
+    "00299591545": {
+      "08/23/2017": 11.21034,
+      "12/18/2019": 11.27163,
+      "12/23/2020": 11.26984,
+      "11/17/2021": 11.21791,
+      "8/17/2022": 11.22365
+    }
+  }
+}

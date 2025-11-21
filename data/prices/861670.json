@@ -1,0 +1,18 @@
+{
+  "RxCUI": "861670",
+  "Name": "dihydroergotamine mesylate 0.5 MG/ACTUAT Metered Dose Nasal Spray [Migranal]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "861670",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dihydroergotamine Mesylate Mgactuat Metered Dose Nasal",
+  "Manufacturer_Name": "Migranal",
+  "Strength": "0.5 MG/ACTU",
+  "Form": "",
+  "prices": {
+    "00187024503": {
+      "12/19/2018": 441.90225,
+      "01/18/2019": 450.7403,
+      "01/09/2020": 459.7551
+    }
+  }
+}

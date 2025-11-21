@@ -1,0 +1,17 @@
+{
+  "RxCUI": "104775",
+  "Name": "clozapine 25 MG Oral Tablet [Clozaril]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "104775",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Clozapine",
+  "Manufacturer_Name": "Clozaril",
+  "Strength": "25 MG",
+  "Form": "",
+  "prices": {
+    "69809012605": {
+      "06/01/2024": 6.10525,
+      "06/01/2025": 6.33413
+    }
+  }
+}

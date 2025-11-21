@@ -1,0 +1,19 @@
+{
+  "RxCUI": "731281",
+  "Name": "insulin lispro 50 UNT/ML / insulin lispro protamine, human 50 UNT/ML Injectable Suspension [Humalog Mix]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "731281",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Lispro Untml Insulin Lispro Protamine, Human Untml Injectable",
+  "Manufacturer_Name": "Humalog Mix",
+  "Strength": "50 UNT/ML",
+  "Form": "",
+  "prices": {
+    "00002751201": {
+      "10/18/2017": 26.9988,
+      "05/23/2018": 27.4368,
+      "04/17/2019": 27.39075,
+      "03/17/2021": 27.3686
+    }
+  }
+}

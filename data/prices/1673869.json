@@ -1,0 +1,31 @@
+{
+  "RxCUI": "1673869",
+  "Name": "acetaminophen 325 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 200 MG / pseudoephedrine hydrochloride 60 MG Oral Tablet",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1673869",
+  "Ingredient_Name": "Acetaminophen Dextromethorphan Hydrobromide Guaifenesin Pseudoephedrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "325 MG",
+  "Form": "Tablet",
+  "prices": {
+    "50991053501": {
+      "02/21/2018": 0.9988,
+      "03/21/2018": 0.97472,
+      "04/18/2018": 0.96447,
+      "02/20/2019": 0.90436,
+      "05/22/2024": 0.90164,
+      "06/19/2024": 0.90477,
+      "07/17/2024": 0.90509,
+      "08/21/2024": 0.90218,
+      "02/19/2025": 0.90148,
+      "03/19/2025": 0.89975,
+      "04/23/2025": 0.89976,
+      "05/21/2025": 0.90053,
+      "06/18/2025": 0.90302,
+      "07/23/2025": 0.90362,
+      "08/20/2025": 0.90416,
+      "10/22/2025": 0.90411
+    }
+  }
+}

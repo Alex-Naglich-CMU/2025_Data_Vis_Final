@@ -1,0 +1,24 @@
+{
+  "RxCUI": "1437793",
+  "Name": "miconazole nitrate 0.02 MG/MG Topical Powder [Zeasorb]",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "998461",
+  "Generic_Mate_RxCUI": "1437793",
+  "Ingredient_Name": "Miconazole Nitrate Mgmg",
+  "Manufacturer_Name": "Zeasorb",
+  "Strength": "0.02 MG/MG",
+  "Form": "",
+  "prices": {
+    "00316023125": {
+      "01/22/2020": 0.05848,
+      "02/19/2020": 0.0616,
+      "03/18/2020": 0.05667
+    },
+    "00316023225": {
+      "12/18/2019": 0.05831,
+      "01/22/2020": 0.05848,
+      "02/19/2020": 0.0616,
+      "03/18/2020": 0.05667
+    }
+  }
+}

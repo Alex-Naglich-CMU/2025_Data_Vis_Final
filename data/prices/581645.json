@@ -1,0 +1,19 @@
+{
+  "RxCUI": "581645",
+  "Name": "sildenafil 20 MG Oral Tablet [Revatio]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "581645",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sildenafil",
+  "Manufacturer_Name": "Revatio",
+  "Strength": "20 MG",
+  "Form": "",
+  "prices": {
+    "00069419068": {
+      "06/01/2017": 42.65233,
+      "01/01/2018": 46.67871,
+      "07/01/2018": 51.08518,
+      "07/16/2018": 46.67858
+    }
+  }
+}

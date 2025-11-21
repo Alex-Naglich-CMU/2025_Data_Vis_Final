@@ -1,0 +1,16 @@
+{
+  "RxCUI": "630981",
+  "Name": "polyvinyl alcohol 27 MG/ML / povidone 20 MG/ML Ophthalmic Solution [Freshkote]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "630981",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Polyvinyl Alcohol Mgml Povidone Mgml",
+  "Manufacturer_Name": "Freshkote",
+  "Strength": "27 MG/ML",
+  "Form": "",
+  "prices": {
+    "71776000110": {
+      "12/18/2024": 2.881
+    }
+  }
+}

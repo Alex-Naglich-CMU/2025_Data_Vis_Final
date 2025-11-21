@@ -1,0 +1,18 @@
+{
+  "RxCUI": "244638",
+  "Name": "zinc oxide 0.4 MG/MG Topical Ointment",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "244638",
+  "Ingredient_Name": "Zinc Oxide Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.4 MG/MG",
+  "Form": "Ointment",
+  "prices": {
+    "70000046901": {
+      "04/17/2024": 0.03005,
+      "05/22/2024": 0.03098,
+      "12/18/2024": 0.03221
+    }
+  }
+}

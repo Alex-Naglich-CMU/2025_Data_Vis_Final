@@ -1,0 +1,30 @@
+{
+  "RxCUI": "1551286",
+  "Name": "chlophedianol hydrochloride 2.5 MG/ML / dexbrompheniramine maleate 0.2 MG/ML Oral Solution",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1551286",
+  "Ingredient_Name": "Chlophedianol Hydrochloride Mgml Dexbrompheniramine Maleate Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "2.5 MG/ML",
+  "Form": "Solution",
+  "prices": {
+    "12830086416": {
+      "12/20/2017": 0.07635,
+      "01/17/2018": 0.08214,
+      "03/21/2018": 0.07898,
+      "04/18/2018": 0.07942,
+      "05/23/2018": 0.08044,
+      "07/18/2018": 0.07516,
+      "08/22/2018": 0.07636,
+      "01/23/2019": 0.081,
+      "02/20/2019": 0.07765,
+      "03/20/2019": 0.08173,
+      "04/17/2019": 0.08287,
+      "11/20/2019": 0.08519,
+      "12/18/2019": 0.08023,
+      "01/22/2020": 0.07663,
+      "02/19/2020": 0.07639
+    }
+  }
+}

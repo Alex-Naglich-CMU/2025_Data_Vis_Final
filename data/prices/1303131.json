@@ -1,0 +1,16 @@
+{
+  "RxCUI": "1303131",
+  "Name": "prednisone 1 MG Delayed Release Oral Tablet [Rayos]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1303131",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Prednisone Delayed Release",
+  "Manufacturer_Name": "Rayos",
+  "Strength": "1 MG",
+  "Form": "",
+  "prices": {
+    "75987002001": {
+      "03/19/2025": 88.356
+    }
+  }
+}

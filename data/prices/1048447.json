@@ -1,0 +1,20 @@
+{
+  "RxCUI": "1048447",
+  "Name": "colestipol hydrochloride 1000 MG Oral Tablet [Colestid]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1048447",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Colestipol Hydrochloride",
+  "Manufacturer_Name": "Colestid",
+  "Strength": "1000 MG",
+  "Form": "",
+  "prices": {
+    "00009045003": {
+      "06/01/2017": 1.82445,
+      "01/01/2018": 1.99664,
+      "01/01/2022": 2.10409,
+      "01/01/2023": 2.12511,
+      "01/01/2024": 2.14636
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "RxCUI": "2178073",
+  "Name": "sumatriptan 10 MG/ACTUAT Nasal Spray [Tosymra]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2178073",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sumatriptan Mgactuat Nasal",
+  "Manufacturer_Name": "Tosymra",
+  "Strength": "10 MG/ACTU",
+  "Form": "",
+  "prices": {
+    "00245081261": {
+      "05/22/2024": 101.74333,
+      "06/19/2024": 101.62804,
+      "07/01/2024": 108.12614,
+      "11/20/2024": 108.77167,
+      "12/18/2024": 108.76688,
+      "01/22/2025": 108.78019,
+      "03/19/2025": 108.53365,
+      "05/21/2025": 108.50592,
+      "07/23/2025": 108.3932
+    }
+  }
+}

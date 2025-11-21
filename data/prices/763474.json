@@ -1,0 +1,25 @@
+{
+  "RxCUI": "763474",
+  "Name": "0.5 ML alprostadil 0.04 MG/ML Prefilled Syringe [Caverject]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "763474",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Alprostadil Mgml Prefilled",
+  "Manufacturer_Name": "Caverject",
+  "Strength": "0.5 ML",
+  "Form": "",
+  "prices": {
+    "00009518201": {
+      "01/01/2024": 101.39002,
+      "05/22/2024": 101.544,
+      "06/19/2024": 101.59385,
+      "03/19/2025": 101.62727,
+      "04/23/2025": 101.827,
+      "05/21/2025": 101.07429,
+      "06/18/2025": 100.84583,
+      "08/20/2025": 100.85714,
+      "09/17/2025": 101.00889,
+      "10/22/2025": 101.33136
+    }
+  }
+}

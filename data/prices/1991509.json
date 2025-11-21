@@ -1,0 +1,23 @@
+{
+  "RxCUI": "1991509",
+  "Name": "citric acid 75 MG/ML / magnesium oxide 21.9 MG/ML / picosulfate sodium 0.0625 MG/ML Oral Solution [Clenpiq]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1991509",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Citric Acid Mgml Magnesium Oxide Mgml Picosulfate Sodium Mgml",
+  "Manufacturer_Name": "Clenpiq",
+  "Strength": "75 MG/ML",
+  "Form": "",
+  "prices": {
+    "55566670001": {
+      "09/05/2018": 0.40964,
+      "06/19/2019": 0.41035,
+      "09/05/2019": 0.43499,
+      "06/17/2020": 0.43317,
+      "12/30/2020": 0.45916,
+      "10/20/2021": 0.46147,
+      "12/30/2021": 0.47993,
+      "12/30/2022": 0.49914
+    }
+  }
+}

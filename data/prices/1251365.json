@@ -1,0 +1,23 @@
+{
+  "RxCUI": "1251365",
+  "Name": "aluminum hydroxide 6.33 MG/ML / magnesium carbonate 23.9 MG/ML Oral Suspension [Gaviscon]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1251365",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Aluminum Hydroxide Mgml Magnesium Carbonate Mgml",
+  "Manufacturer_Name": "Gaviscon",
+  "Strength": "6.33 MG/ML",
+  "Form": "",
+  "prices": {
+    "00135009441": {
+      "09/20/2017": 0.01707,
+      "11/22/2017": 0.01786,
+      "04/18/2018": 0.01842,
+      "05/23/2018": 0.019,
+      "06/20/2018": 0.01964,
+      "07/18/2018": 0.01865,
+      "11/21/2018": 0.01788,
+      "09/18/2019": 0.01801
+    }
+  }
+}

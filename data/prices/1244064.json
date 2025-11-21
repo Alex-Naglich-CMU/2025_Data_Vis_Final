@@ -1,0 +1,20 @@
+{
+  "RxCUI": "1244064",
+  "Name": "0.4 ML methylnaltrexone bromide 20 MG/ML Prefilled Syringe [Relistor]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1244064",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methylnaltrexone Bromide Mgml Prefilled",
+  "Manufacturer_Name": "Relistor",
+  "Strength": "0.4 ML",
+  "Form": "",
+  "prices": {
+    "65649055204": {
+      "06/19/2024": 387.05255,
+      "07/17/2024": 386.09881,
+      "08/21/2024": 387.09465,
+      "09/18/2024": 386.57103,
+      "01/01/2025": 409.76529
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "RxCUI": "1233575",
+  "Name": "acetaminophen 325 MG / diphenhydramine hydrochloride 12.5 MG / phenylephrine hydrochloride 5 MG Oral Tablet",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1233575",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Acetaminophen Diphenhydramine Hydrochloride Phenylephrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "325 MG",
+  "Form": "Tablet",
+  "prices": {
+    "00067813720": {
+      "02/21/2018": 0.28005,
+      "03/21/2018": 0.26273,
+      "04/18/2018": 0.2817,
+      "06/20/2018": 0.2583
+    },
+    "46122005262": {
+      "03/21/2018": 0.074
+    },
+    "63868098524": {
+      "03/21/2018": 0.074
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "RxCUI": "1918230",
+  "Name": "valbenazine 40 MG Oral Capsule [Ingrezza]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1918230",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Valbenazine",
+  "Manufacturer_Name": "Ingrezza",
+  "Strength": "40 MG",
+  "Form": "",
+  "prices": {
+    "70370204001": {
+      "06/05/2024": 241.70033,
+      "11/21/2024": 249.93506,
+      "04/23/2025": 250.35156,
+      "05/21/2025": 250.2127,
+      "06/18/2025": 250.16221,
+      "07/23/2025": 250.14328,
+      "08/20/2025": 250.09121,
+      "09/17/2025": 250.05997,
+      "10/01/2025": 259.07213
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "RxCUI": "2591487",
+  "Name": "abrocitinib 100 MG Oral Tablet [Cibinqo]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2591487",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Abrocitinib",
+  "Manufacturer_Name": "Cibinqo",
+  "Strength": "100 MG",
+  "Form": "",
+  "prices": {
+    "00069033530": {
+      "12/18/2024": 180.31461,
+      "01/01/2025": 189.33034,
+      "10/22/2025": 186.33833,
+      "11/19/2025": 186.0878
+    }
+  }
+}

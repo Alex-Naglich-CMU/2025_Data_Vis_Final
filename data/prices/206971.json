@@ -1,0 +1,18 @@
+{
+  "RxCUI": "206971",
+  "Name": "indomethacin 5 MG/ML Oral Suspension [Indocin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "206971",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Indomethacin Mgml",
+  "Manufacturer_Name": "Indocin",
+  "Strength": "5 MG/ML",
+  "Form": "",
+  "prices": {
+    "42211010111": {
+      "07/01/2017": 3.03663,
+      "10/01/2017": 3.33726,
+      "01/01/2018": 3.66765
+    }
+  }
+}

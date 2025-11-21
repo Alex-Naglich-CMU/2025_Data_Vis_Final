@@ -1,0 +1,20 @@
+{
+  "RxCUI": "1487527",
+  "Name": "30 ACTUAT umeclidinium 0.0625 MG/ACTUAT / vilanterol 0.025 MG/ACTUAT Dry Powder Inhaler",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1487527",
+  "Ingredient_Name": "Actuat Umeclidinium Mgactuat Vilanterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "",
+  "Strength": "30 ACTU",
+  "Form": "",
+  "prices": {
+    "66993013497": {
+      "07/23/2025": 4.7088,
+      "08/20/2025": 4.73597,
+      "09/17/2025": 4.87007,
+      "10/22/2025": 4.93872,
+      "11/19/2025": 4.98406
+    }
+  }
+}

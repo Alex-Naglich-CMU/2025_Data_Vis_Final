@@ -1,0 +1,18 @@
+{
+  "RxCUI": "2639727",
+  "Name": "nalmefene 27 MG/ML Nasal Spray [Opvee]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2639727",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Nalmefene Mgml Nasal",
+  "Manufacturer_Name": "Opvee",
+  "Strength": "27 MG/ML",
+  "Form": "",
+  "prices": {
+    "12496000302": {
+      "09/17/2025": 46.80333,
+      "10/22/2025": 46.73214,
+      "11/19/2025": 46.767
+    }
+  }
+}

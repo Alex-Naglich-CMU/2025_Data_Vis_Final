@@ -1,0 +1,22 @@
+{
+  "RxCUI": "801965",
+  "Name": "4 ML diazepam 5 MG/ML Rectal Gel [Diastat]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "801965",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Diazepam Mgml Rectal",
+  "Manufacturer_Name": "Diastat",
+  "Strength": "4 ML",
+  "Form": "",
+  "prices": {
+    "00187065920": {
+      "07/19/2017": 296.054,
+      "08/17/2017": 322.69886,
+      "10/18/2017": 323.58857,
+      "07/18/2018": 322.17571,
+      "01/18/2019": 328.61601,
+      "10/23/2019": 329.17286,
+      "01/09/2020": 335.75961
+    }
+  }
+}

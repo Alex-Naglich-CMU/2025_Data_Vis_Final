@@ -1,0 +1,17 @@
+{
+  "RxCUI": "1788864",
+  "Name": "levonorgestrel 1.5 MG Oral Tablet [React]",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "483325",
+  "Generic_Mate_RxCUI": "1788864",
+  "Ingredient_Name": "Levonorgestrel",
+  "Manufacturer_Name": "React",
+  "Strength": "1.5 MG",
+  "Form": "",
+  "prices": {
+    "64679005002": {
+      "06/21/2017": 19.06368,
+      "07/19/2017": 20.38293
+    }
+  }
+}

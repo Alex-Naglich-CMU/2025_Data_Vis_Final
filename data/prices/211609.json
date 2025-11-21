@@ -1,0 +1,22 @@
+{
+  "RxCUI": "211609",
+  "Name": "hypromellose 5 MG/ML Ophthalmic Solution [Isopto Alkaline]",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "142002",
+  "Generic_Mate_RxCUI": "211609",
+  "Ingredient_Name": "Hypromellose Mgml",
+  "Manufacturer_Name": "Isopto Alkaline",
+  "Strength": "5 MG/ML",
+  "Form": "",
+  "prices": {
+    "00998040815": {
+      "06/19/2024": 2.02267,
+      "07/17/2024": 2.01459,
+      "08/21/2024": 2.00122,
+      "09/18/2024": 2.00829,
+      "10/23/2024": 2.06705,
+      "11/20/2024": 2.06587,
+      "12/18/2024": 2.06753
+    }
+  }
+}

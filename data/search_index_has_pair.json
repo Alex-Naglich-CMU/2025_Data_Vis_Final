@@ -1,0 +1,4295 @@
+{
+  "altavera-28 tablet [GENERIC]": {
+    "rxcui": "1006065",
+    "name": "ALTAVERA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748878",
+    "mate_name": "",
+    "ingredient_name": "Altavera-",
+    "manufacturer_name": ""
+  },
+  "zarah tablet [GENERIC]": {
+    "rxcui": "1011081",
+    "name": "ZARAH TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748800",
+    "mate_name": "",
+    "ingredient_name": "Zarah",
+    "manufacturer_name": ""
+  },
+  "calcipotriene 0.00005 mg/mg topical ointment [calcitrene] [GENERIC]": {
+    "rxcui": "1013636",
+    "name": "calcipotriene 0.00005 MG/MG Topical Ointment [Calcitrene]",
+    "is_brand": false,
+    "mate_rxcui": "198373",
+    "mate_name": "calcipotriene 0.00005 MG/MG Topical Ointment",
+    "ingredient_name": "Calcipotriene Mgmg",
+    "manufacturer_name": "Calcitrene"
+  },
+  "introvale 0.15-0.03 mg tablet [GENERIC]": {
+    "rxcui": "1020155",
+    "name": "INTROVALE 0.15-0.03 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "751901",
+    "mate_name": "",
+    "ingredient_name": "Introvale -",
+    "manufacturer_name": ""
+  },
+  "diphenhydramine hydrochloride 50 mg oral capsule [banophen] [GENERIC]": {
+    "rxcui": "1020479",
+    "name": "diphenhydramine hydrochloride 50 MG Oral Capsule [Banophen]",
+    "is_brand": false,
+    "mate_rxcui": "1020477",
+    "mate_name": "diphenhydramine hydrochloride 50 MG Oral Capsule",
+    "ingredient_name": "Diphenhydramine Hydrochloride",
+    "manufacturer_name": "Banophen"
+  },
+  "polysaccharide iron complex 326.1 mg oral capsule [iferex] [GENERIC]": {
+    "rxcui": "1038810",
+    "name": "polysaccharide iron complex 326.1 MG Oral Capsule [Iferex]",
+    "is_brand": false,
+    "mate_rxcui": "2599991",
+    "mate_name": "polysaccharide iron complex 326.1 MG Oral Capsule",
+    "ingredient_name": "Polysaccharide Iron Complex",
+    "manufacturer_name": "Iferex"
+  },
+  "hyoscyamine sulfate 0.125 mg disintegrating oral tablet [anaspaz] [GENERIC]": {
+    "rxcui": "1048056",
+    "name": "hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet [Anaspaz]",
+    "is_brand": false,
+    "mate_rxcui": "1046985",
+    "mate_name": "hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet",
+    "ingredient_name": "Hyoscyamine Disintegrating",
+    "manufacturer_name": "Anaspaz"
+  },
+  "hyoscyamine sulfate 0.125 mg disintegrating oral tablet [ed spaz] [GENERIC]": {
+    "rxcui": "1048058",
+    "name": "hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet [Ed Spaz]",
+    "is_brand": false,
+    "mate_rxcui": "1046985",
+    "mate_name": "hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet",
+    "ingredient_name": "Hyoscyamine Disintegrating",
+    "manufacturer_name": "Ed Spaz"
+  },
+  "12 hr pseudoephedrine hydrochloride 120 mg extended release oral tablet [sudogest] [GENERIC]": {
+    "rxcui": "1049156",
+    "name": "12 HR pseudoephedrine hydrochloride 120 MG Extended Release Oral Tablet [Sudogest]",
+    "is_brand": false,
+    "mate_rxcui": "1049154",
+    "mate_name": "12 HR pseudoephedrine hydrochloride 120 MG Extended Release Oral Tablet",
+    "ingredient_name": "Hr Pseudoephedrine Hydrochloride Extended Release",
+    "manufacturer_name": "Sudogest"
+  },
+  "pseudoephedrine hydrochloride 30 mg oral tablet [sudogest] [GENERIC]": {
+    "rxcui": "1049162",
+    "name": "pseudoephedrine hydrochloride 30 MG Oral Tablet [Sudogest]",
+    "is_brand": false,
+    "mate_rxcui": "1049160",
+    "mate_name": "pseudoephedrine hydrochloride 30 MG Oral Tablet",
+    "ingredient_name": "Pseudoephedrine Hydrochloride",
+    "manufacturer_name": "Sudogest"
+  },
+  "pseudoephedrine hydrochloride 60 mg oral tablet [sudogest] [GENERIC]": {
+    "rxcui": "1049169",
+    "name": "pseudoephedrine hydrochloride 60 MG Oral Tablet [Sudogest]",
+    "is_brand": false,
+    "mate_rxcui": "1049167",
+    "mate_name": "pseudoephedrine hydrochloride 60 MG Oral Tablet",
+    "ingredient_name": "Pseudoephedrine Hydrochloride",
+    "manufacturer_name": "Sudogest"
+  },
+  "acetaminophen 325 mg / oxycodone hydrochloride 10 mg oral tablet [endocet] [GENERIC]": {
+    "rxcui": "1049216",
+    "name": "acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet [Endocet]",
+    "is_brand": false,
+    "mate_rxcui": "1049214",
+    "mate_name": "acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet",
+    "ingredient_name": "Acetaminophen Oxycodone Hydrochloride",
+    "manufacturer_name": "Endocet"
+  },
+  "acetaminophen 325 mg / oxycodone hydrochloride 5 mg oral tablet [endocet] [GENERIC]": {
+    "rxcui": "1049223",
+    "name": "acetaminophen 325 MG / oxycodone hydrochloride 5 MG Oral Tablet [Endocet]",
+    "is_brand": false,
+    "mate_rxcui": "1049221",
+    "mate_name": "acetaminophen 325 MG / oxycodone hydrochloride 5 MG Oral Tablet",
+    "ingredient_name": "Acetaminophen Oxycodone Hydrochloride",
+    "manufacturer_name": "Endocet"
+  },
+  "acetaminophen 325 mg / oxycodone hydrochloride 7.5 mg oral tablet [endocet] [GENERIC]": {
+    "rxcui": "1049227",
+    "name": "acetaminophen 325 MG / oxycodone hydrochloride 7.5 MG Oral Tablet [Endocet]",
+    "is_brand": false,
+    "mate_rxcui": "1049225",
+    "mate_name": "acetaminophen 325 MG / oxycodone hydrochloride 7.5 MG Oral Tablet",
+    "ingredient_name": "Acetaminophen Oxycodone Hydrochloride",
+    "manufacturer_name": "Endocet"
+  },
+  "dimethicone 10 mg/ml / zinc oxide 120 mg/ml topical cream [baza-protect] [GENERIC]": {
+    "rxcui": "1053158",
+    "name": "dimethicone 10 MG/ML / zinc oxide 120 MG/ML Topical Cream [Baza-Protect]",
+    "is_brand": false,
+    "mate_rxcui": "637565",
+    "mate_name": "dimethicone 10 MG/ML / zinc oxide 120 MG/ML Topical Cream",
+    "ingredient_name": "Dimethicone Mgml Zinc Oxide Mgml",
+    "manufacturer_name": "Baza-Protect"
+  },
+  "petrolatum 0.43 mg/mg topical ointment [aloe vesta protective barrier] [GENERIC]": {
+    "rxcui": "1085623",
+    "name": "petrolatum 0.43 MG/MG Topical Ointment [Aloe Vesta Protective Barrier]",
+    "is_brand": false,
+    "mate_rxcui": "1085620",
+    "mate_name": "petrolatum 0.43 MG/MG Topical Ointment",
+    "ingredient_name": "Petrolatum Mgmg",
+    "manufacturer_name": "Aloe Vesta Protective Barrier"
+  },
+  "triamcinolone acetonide 0.001 mg/mg oral paste [oralone] [GENERIC]": {
+    "rxcui": "1085767",
+    "name": "triamcinolone acetonide 0.001 MG/MG Oral Paste [Oralone]",
+    "is_brand": false,
+    "mate_rxcui": "1085728",
+    "mate_name": "triamcinolone acetonide 0.001 MG/MG Oral Paste",
+    "ingredient_name": "Triamcinolone Acetonide Mgmg Paste",
+    "manufacturer_name": "Oralone"
+  },
+  "mineral oil 0.15 mg/mg / petrolatum 0.83 mg/mg ophthalmic ointment [lubrifresh p.m.] [GENERIC]": {
+    "rxcui": "1086613",
+    "name": "mineral oil 0.15 MG/MG / petrolatum 0.83 MG/MG Ophthalmic Ointment [Lubrifresh P.M.]",
+    "is_brand": false,
+    "mate_rxcui": "746083",
+    "mate_name": "mineral oil 0.15 MG/MG / petrolatum 0.83 MG/MG Ophthalmic Ointment",
+    "ingredient_name": "Mineral Oil Mgmg Petrolatum Mgmg",
+    "manufacturer_name": "Lubrifresh P.M."
+  },
+  "ascorbic acid 40 mg / ferrous fumarate 62.5 mg / folic acid 1 mg / niacin 3 mg / polysaccharide iron complex 62.5 mg oral capsule [folivane-f] [GENERIC]": {
+    "rxcui": "1087302",
+    "name": "ascorbic acid 40 MG / ferrous fumarate 62.5 MG / folic acid 1 MG / niacin 3 MG / polysaccharide iron complex 62.5 MG Oral Capsule [Folivane-F]",
+    "is_brand": false,
+    "mate_rxcui": "1087298",
+    "mate_name": "ascorbic acid 40 MG / ferrous fumarate 62.5 MG / folic acid 1 MG / niacin 3 MG / polysaccharide iron complex 62.5 MG Oral Capsule",
+    "ingredient_name": "Ascorbic Acid Ferrous Fumarate Folic Acid Niacin Polysaccharide Iron Complex",
+    "manufacturer_name": "Folivane-F"
+  },
+  "polyethylene glycol 3350 17000 mg powder for oral solution [healthylax] [GENERIC]": {
+    "rxcui": "1088531",
+    "name": "polyethylene glycol 3350 17000 MG Powder for Oral Solution [HealthyLax]",
+    "is_brand": false,
+    "mate_rxcui": "876193",
+    "mate_name": "polyethylene glycol 3350 17000 MG Powder for Oral Solution",
+    "ingredient_name": "Polyethylene Glycol For",
+    "manufacturer_name": "HealthyLax"
+  },
+  "potassium bicarbonate 25 meq effervescent oral tablet [effer-k] [GENERIC]": {
+    "rxcui": "1088774",
+    "name": "potassium bicarbonate 25 MEQ Effervescent Oral Tablet [Effer-K]",
+    "is_brand": false,
+    "mate_rxcui": "1088772",
+    "mate_name": "potassium bicarbonate 25 MEQ Effervescent Oral Tablet",
+    "ingredient_name": "Potassium Bicarbonate Meq Effervescent",
+    "manufacturer_name": "Effer-K"
+  },
+  "ethinyl estradiol 0.005 mg / norethindrone acetate 1 mg oral tablet [jinteli] [GENERIC]": {
+    "rxcui": "1090996",
+    "name": "ethinyl estradiol 0.005 MG / norethindrone acetate 1 MG Oral Tablet [Jinteli]",
+    "is_brand": false,
+    "mate_rxcui": "1090992",
+    "mate_name": "ethinyl estradiol 0.005 MG / norethindrone acetate 1 MG Oral Tablet",
+    "ingredient_name": "Ethinyl Estradiol Norethindrone",
+    "manufacturer_name": "Jinteli"
+  },
+  "8 hr methylphenidate hydrochloride 20 mg extended release oral tablet [metadate] [GENERIC]": {
+    "rxcui": "1091488",
+    "name": "8 HR methylphenidate hydrochloride 20 MG Extended Release Oral Tablet [Metadate]",
+    "is_brand": false,
+    "mate_rxcui": "1091225",
+    "mate_name": "8 HR methylphenidate hydrochloride 20 MG Extended Release Oral Tablet",
+    "ingredient_name": "Hr Methylphenidate Hydrochloride Extended Release",
+    "manufacturer_name": "Metadate"
+  },
+  "24 hr diltiazem hydrochloride 420 mg extended release oral tablet [matzim] [GENERIC]": {
+    "rxcui": "1091623",
+    "name": "24 HR diltiazem hydrochloride 420 MG Extended Release Oral Tablet [Matzim]",
+    "is_brand": false,
+    "mate_rxcui": "830900",
+    "mate_name": "24 HR diltiazem hydrochloride 420 MG Extended Release Oral Tablet",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Matzim"
+  },
+  "24 hr diltiazem hydrochloride 240 mg extended release oral tablet [matzim] [GENERIC]": {
+    "rxcui": "1091629",
+    "name": "24 HR diltiazem hydrochloride 240 MG Extended Release Oral Tablet [Matzim]",
+    "is_brand": false,
+    "mate_rxcui": "830879",
+    "mate_name": "24 HR diltiazem hydrochloride 240 MG Extended Release Oral Tablet",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Matzim"
+  },
+  "24 hr diltiazem hydrochloride 180 mg extended release oral tablet [matzim] [GENERIC]": {
+    "rxcui": "1091632",
+    "name": "24 HR diltiazem hydrochloride 180 MG Extended Release Oral Tablet [Matzim]",
+    "is_brand": false,
+    "mate_rxcui": "830877",
+    "mate_name": "24 HR diltiazem hydrochloride 180 MG Extended Release Oral Tablet",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Matzim"
+  },
+  "24 hr diltiazem hydrochloride 300 mg extended release oral tablet [matzim] [GENERIC]": {
+    "rxcui": "1091635",
+    "name": "24 HR diltiazem hydrochloride 300 MG Extended Release Oral Tablet [Matzim]",
+    "is_brand": false,
+    "mate_rxcui": "830882",
+    "mate_name": "24 HR diltiazem hydrochloride 300 MG Extended Release Oral Tablet",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Matzim"
+  },
+  "24 hr diltiazem hydrochloride 360 mg extended release oral tablet [matzim] [GENERIC]": {
+    "rxcui": "1091638",
+    "name": "24 HR diltiazem hydrochloride 360 MG Extended Release Oral Tablet [Matzim]",
+    "is_brand": false,
+    "mate_rxcui": "830897",
+    "mate_name": "24 HR diltiazem hydrochloride 360 MG Extended Release Oral Tablet",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Matzim"
+  },
+  "diphenhydramine hydrochloride 25 mg oral tablet [banophen] [GENERIC]": {
+    "rxcui": "1092421",
+    "name": "diphenhydramine hydrochloride 25 MG Oral Tablet [Banophen]",
+    "is_brand": false,
+    "mate_rxcui": "1049630",
+    "mate_name": "diphenhydramine hydrochloride 25 MG Oral Tablet",
+    "ingredient_name": "Diphenhydramine Hydrochloride",
+    "manufacturer_name": "Banophen"
+  },
+  "diphenhydramine hydrochloride 25 mg oral capsule [banophen] [GENERIC]": {
+    "rxcui": "1092422",
+    "name": "diphenhydramine hydrochloride 25 MG Oral Capsule [Banophen]",
+    "is_brand": false,
+    "mate_rxcui": "1049909",
+    "mate_name": "diphenhydramine hydrochloride 25 MG Oral Capsule",
+    "ingredient_name": "Diphenhydramine Hydrochloride",
+    "manufacturer_name": "Banophen"
+  },
+  "diphenhydramine hydrochloride 20 mg/ml / zinc acetate 1 mg/ml topical cream [banophen cream] [GENERIC]": {
+    "rxcui": "1092428",
+    "name": "diphenhydramine hydrochloride 20 MG/ML / zinc acetate 1 MG/ML Topical Cream [Banophen Cream]",
+    "is_brand": false,
+    "mate_rxcui": "1087026",
+    "mate_name": "diphenhydramine hydrochloride 20 MG/ML / zinc acetate 1 MG/ML Topical Cream",
+    "ingredient_name": "Diphenhydramine Hydrochloride Mgml Zinc Mgml",
+    "manufacturer_name": "Banophen Cream"
+  },
+  "diphenhydramine hydrochloride 25 mg oral capsule [diphenhist] [GENERIC]": {
+    "rxcui": "1092447",
+    "name": "diphenhydramine hydrochloride 25 MG Oral Capsule [Diphenhist]",
+    "is_brand": false,
+    "mate_rxcui": "1049909",
+    "mate_name": "diphenhydramine hydrochloride 25 MG Oral Capsule",
+    "ingredient_name": "Diphenhydramine Hydrochloride",
+    "manufacturer_name": "Diphenhist"
+  },
+  "diphenhydramine hydrochloride 2.5 mg/ml oral solution [siladryl] [GENERIC]": {
+    "rxcui": "1094393",
+    "name": "diphenhydramine hydrochloride 2.5 MG/ML Oral Solution [Siladryl]",
+    "is_brand": false,
+    "mate_rxcui": "1049906",
+    "mate_name": "diphenhydramine hydrochloride 2.5 MG/ML Oral Solution",
+    "ingredient_name": "Diphenhydramine Hydrochloride Mgml",
+    "manufacturer_name": "Siladryl"
+  },
+  "briellyn tablet [GENERIC]": {
+    "rxcui": "1094543",
+    "name": "BRIELLYN TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749736",
+    "mate_name": "",
+    "ingredient_name": "Briellyn",
+    "manufacturer_name": ""
+  },
+  "levonest-28 tablet [GENERIC]": {
+    "rxcui": "1095227",
+    "name": "LEVONEST-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748832",
+    "mate_name": "",
+    "ingredient_name": "Levonest-",
+    "manufacturer_name": ""
+  },
+  "balziva 28 tablet [GENERIC]": {
+    "rxcui": "1095362",
+    "name": "BALZIVA 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749736",
+    "mate_name": "",
+    "ingredient_name": "Balziva",
+    "manufacturer_name": ""
+  },
+  "psyllium 520 mg oral capsule [konsyl] [GENERIC]": {
+    "rxcui": "1095588",
+    "name": "psyllium 520 MG Oral Capsule [Konsyl]",
+    "is_brand": false,
+    "mate_rxcui": "581417",
+    "mate_name": "psyllium 520 MG Oral Capsule",
+    "ingredient_name": "Psyllium",
+    "manufacturer_name": "Konsyl"
+  },
+  "clemastine fumarate 1.34 mg oral tablet [dayhist-1] [GENERIC]": {
+    "rxcui": "1095725",
+    "name": "clemastine fumarate 1.34 MG Oral Tablet [Dayhist-1]",
+    "is_brand": false,
+    "mate_rxcui": "857416",
+    "mate_name": "clemastine fumarate 1.34 MG Oral Tablet",
+    "ingredient_name": "Clemastine Fumarate",
+    "manufacturer_name": "Dayhist-1"
+  },
+  "loryna 3 mg-0.02 mg tablet [GENERIC]": {
+    "rxcui": "1099026",
+    "name": "LORYNA 3 MG-0.02 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748798",
+    "mate_name": "",
+    "ingredient_name": "Loryna -",
+    "manufacturer_name": ""
+  },
+  "syeda 28 tablet [GENERIC]": {
+    "rxcui": "1099269",
+    "name": "SYEDA 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748800",
+    "mate_name": "",
+    "ingredient_name": "Syeda",
+    "manufacturer_name": ""
+  },
+  "acetaminophen 325 mg / butalbital 50 mg / caffeine 40 mg oral capsule [capacet] [GENERIC]": {
+    "rxcui": "1100907",
+    "name": "acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule [Capacet]",
+    "is_brand": false,
+    "mate_rxcui": "238153",
+    "mate_name": "acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule",
+    "ingredient_name": "Acetaminophen Butalbital Caffeine",
+    "manufacturer_name": "Capacet"
+  },
+  "monobasic potassium phosphate 0.0408 meq/ml oral solution [k-phos] [GENERIC]": {
+    "rxcui": "1101778",
+    "name": "monobasic potassium phosphate 0.0408 MEQ/ML Oral Solution [K-Phos]",
+    "is_brand": false,
+    "mate_rxcui": "1101775",
+    "mate_name": "monobasic potassium phosphate 0.0408 MEQ/ML Oral Solution",
+    "ingredient_name": "Monobasic Potassium Phosphate Meqml",
+    "manufacturer_name": "K-Phos"
+  },
+  "sodium fluoride 0.011 mg/mg toothpaste [dentagel] [GENERIC]": {
+    "rxcui": "1101938",
+    "name": "sodium fluoride 0.011 MG/MG Toothpaste [Dentagel]",
+    "is_brand": false,
+    "mate_rxcui": "392038",
+    "mate_name": "sodium fluoride 0.011 MG/MG Toothpaste",
+    "ingredient_name": "Sodium Fluoride Mgmg Toothpaste",
+    "manufacturer_name": "Dentagel"
+  },
+  "irospan 24/6 tablet [GENERIC]": {
+    "rxcui": "1102207",
+    "name": "IROSPAN 24/6 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1102202",
+    "mate_name": "",
+    "ingredient_name": "Irospan",
+    "manufacturer_name": ""
+  },
+  "potassium bicarbonate 20 meq effervescent oral tablet [effer-k] [GENERIC]": {
+    "rxcui": "1111263",
+    "name": "potassium bicarbonate 20 MEQ Effervescent Oral Tablet [Effer-K]",
+    "is_brand": false,
+    "mate_rxcui": "1111261",
+    "mate_name": "potassium bicarbonate 20 MEQ Effervescent Oral Tablet",
+    "ingredient_name": "Potassium Bicarbonate Meq Effervescent",
+    "manufacturer_name": "Effer-K"
+  },
+  "potassium bicarbonate 10 meq effervescent oral tablet [effer-k] [GENERIC]": {
+    "rxcui": "1111267",
+    "name": "potassium bicarbonate 10 MEQ Effervescent Oral Tablet [Effer-K]",
+    "is_brand": false,
+    "mate_rxcui": "1111265",
+    "mate_name": "potassium bicarbonate 10 MEQ Effervescent Oral Tablet",
+    "ingredient_name": "Potassium Bicarbonate Meq Effervescent",
+    "manufacturer_name": "Effer-K"
+  },
+  "amethia 0.15-0.03-0.01 mg tab [GENERIC]": {
+    "rxcui": "1112687",
+    "name": "AMETHIA 0.15-0.03-0.01 MG TAB",
+    "is_brand": false,
+    "mate_rxcui": "749761",
+    "mate_name": "",
+    "ingredient_name": "Amethia --",
+    "manufacturer_name": ""
+  },
+  "amethyst 90-20 mcg tablet [GENERIC]": {
+    "rxcui": "1112715",
+    "name": "AMETHYST 90-20 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "751553",
+    "mate_name": "",
+    "ingredient_name": "Amethyst -",
+    "manufacturer_name": ""
+  },
+  "bacitracin zinc 0.4 unt/mg / hydrocortisone acetate 0.01 mg/mg / neomycin sulfate 0.0035 mg/mg / polymyxin b sulfate 10 unt/mg ophthalmic ointment [neo-polycin hc] [GENERIC]": {
+    "rxcui": "1116154",
+    "name": "bacitracin zinc 0.4 UNT/MG / hydrocortisone acetate 0.01 MG/MG / neomycin sulfate 0.0035 MG/MG / polymyxin B sulfate 10 UNT/MG Ophthalmic Ointment [Neo-Polycin HC]",
+    "is_brand": false,
+    "mate_rxcui": "1116150",
+    "mate_name": "bacitracin zinc 0.4 UNT/MG / hydrocortisone acetate 0.01 MG/MG / neomycin sulfate 0.0035 MG/MG / polymyxin B sulfate 10 UNT/MG Ophthalmic Ointment",
+    "ingredient_name": "Bacitracin Zinc Untmg Hydrocortisone Mgmg Neomycin Mgmg Polymyxin B Untmg",
+    "manufacturer_name": "Neo-Polycin HC"
+  },
+  "bacitracin 0.4 unt/mg / neomycin 0.0035 mg/mg / polymyxin b 10 unt/mg ophthalmic ointment [neo-polycin] [GENERIC]": {
+    "rxcui": "1117090",
+    "name": "bacitracin 0.4 UNT/MG / neomycin 0.0035 MG/MG / polymyxin B 10 UNT/MG Ophthalmic Ointment [Neo-Polycin]",
+    "is_brand": false,
+    "mate_rxcui": "308493",
+    "mate_name": "bacitracin 0.4 UNT/MG / neomycin 0.0035 MG/MG / polymyxin B 10 UNT/MG Ophthalmic Ointment",
+    "ingredient_name": "Bacitracin Untmg Neomycin Mgmg Polymyxin B Untmg",
+    "manufacturer_name": "Neo-Polycin"
+  },
+  "hyoscyamine sulfate 0.125 mg disintegrating oral tablet [oscimin] [GENERIC]": {
+    "rxcui": "1146688",
+    "name": "hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet [Oscimin]",
+    "is_brand": false,
+    "mate_rxcui": "1046985",
+    "mate_name": "hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet",
+    "ingredient_name": "Hyoscyamine Disintegrating",
+    "manufacturer_name": "Oscimin"
+  },
+  "hyoscyamine sulfate 0.125 mg oral tablet [oscimin] [GENERIC]": {
+    "rxcui": "1149355",
+    "name": "hyoscyamine sulfate 0.125 MG Oral Tablet [Oscimin]",
+    "is_brand": false,
+    "mate_rxcui": "1047905",
+    "mate_name": "hyoscyamine sulfate 0.125 MG Oral Tablet",
+    "ingredient_name": "Hyoscyamine",
+    "manufacturer_name": "Oscimin"
+  },
+  "12 hr hyoscyamine sulfate 0.375 mg extended release oral tablet [oscimin] [GENERIC]": {
+    "rxcui": "1149364",
+    "name": "12 HR hyoscyamine sulfate 0.375 MG Extended Release Oral Tablet [Oscimin]",
+    "is_brand": false,
+    "mate_rxcui": "1046770",
+    "mate_name": "12 HR hyoscyamine sulfate 0.375 MG Extended Release Oral Tablet",
+    "ingredient_name": "Hr Hyoscyamine Extended Release",
+    "manufacturer_name": "Oscimin"
+  },
+  "camrese 0.15-0.03-0.01 mg tab [GENERIC]": {
+    "rxcui": "1149667",
+    "name": "CAMRESE 0.15-0.03-0.01 MG TAB",
+    "is_brand": false,
+    "mate_rxcui": "749761",
+    "mate_name": "",
+    "ingredient_name": "Camrese --",
+    "manufacturer_name": ""
+  },
+  "vestura 3 mg-0.02 mg tablet [GENERIC]": {
+    "rxcui": "1233850",
+    "name": "VESTURA 3 MG-0.02 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748798",
+    "mate_name": "",
+    "ingredient_name": "Vestura -",
+    "manufacturer_name": ""
+  },
+  "camrese lo tablet [GENERIC]": {
+    "rxcui": "1235267",
+    "name": "CAMRESE LO TABLET",
+    "is_brand": false,
+    "mate_rxcui": "810096",
+    "mate_name": "",
+    "ingredient_name": "Camrese Lo",
+    "manufacturer_name": ""
+  },
+  "dasetta 7/7/7-28 tablet [GENERIC]": {
+    "rxcui": "1235867",
+    "name": "DASETTA 7/7/7-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749852",
+    "mate_name": "",
+    "ingredient_name": "Dasetta -",
+    "manufacturer_name": ""
+  },
+  "philith 0.4-0.035 mg tablet [GENERIC]": {
+    "rxcui": "1235874",
+    "name": "PHILITH 0.4-0.035 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749736",
+    "mate_name": "",
+    "ingredient_name": "Philith -",
+    "manufacturer_name": ""
+  },
+  "isotretinoin 10 mg oral capsule [myorisan] [GENERIC]": {
+    "rxcui": "1242611",
+    "name": "isotretinoin 10 MG Oral Capsule [Myorisan]",
+    "is_brand": false,
+    "mate_rxcui": "197843",
+    "mate_name": "isotretinoin 10 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Myorisan"
+  },
+  "isotretinoin 20 mg oral capsule [myorisan] [GENERIC]": {
+    "rxcui": "1242613",
+    "name": "isotretinoin 20 MG Oral Capsule [Myorisan]",
+    "is_brand": false,
+    "mate_rxcui": "197844",
+    "mate_name": "isotretinoin 20 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Myorisan"
+  },
+  "isotretinoin 40 mg oral capsule [myorisan] [GENERIC]": {
+    "rxcui": "1242615",
+    "name": "isotretinoin 40 MG Oral Capsule [Myorisan]",
+    "is_brand": false,
+    "mate_rxcui": "197845",
+    "mate_name": "isotretinoin 40 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Myorisan"
+  },
+  "hyoscyamine sulfate 0.125 mg disintegrating oral tablet [nulev] [GENERIC]": {
+    "rxcui": "1242705",
+    "name": "hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet [Nulev]",
+    "is_brand": false,
+    "mate_rxcui": "1046985",
+    "mate_name": "hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet",
+    "ingredient_name": "Hyoscyamine Disintegrating",
+    "manufacturer_name": "Nulev"
+  },
+  "alyacen 1-35 28 tablet [GENERIC]": {
+    "rxcui": "1242786",
+    "name": "ALYACEN 1-35 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749858",
+    "mate_name": "",
+    "ingredient_name": "Alyacen -",
+    "manufacturer_name": ""
+  },
+  "alyacen 7-7-7-28 tablet [GENERIC]": {
+    "rxcui": "1242787",
+    "name": "ALYACEN 7-7-7-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749852",
+    "mate_name": "",
+    "ingredient_name": "Alyacen ---",
+    "manufacturer_name": ""
+  },
+  "8 hr acetaminophen 650 mg extended release oral tablet [mapap] [GENERIC]": {
+    "rxcui": "1243439",
+    "name": "8 HR acetaminophen 650 MG Extended Release Oral Tablet [Mapap]",
+    "is_brand": false,
+    "mate_rxcui": "1148399",
+    "mate_name": "8 HR acetaminophen 650 MG Extended Release Oral Tablet",
+    "ingredient_name": "Hr Acetaminophen Extended Release",
+    "manufacturer_name": "Mapap"
+  },
+  "amethia lo tablet [GENERIC]": {
+    "rxcui": "1244632",
+    "name": "AMETHIA LO TABLET",
+    "is_brand": false,
+    "mate_rxcui": "810096",
+    "mate_name": "",
+    "ingredient_name": "Amethia Lo",
+    "manufacturer_name": ""
+  },
+  "brompheniramine maleate 0.266 mg/ml / codeine phosphate 1.27 mg/ml / phenylephrine hydrochloride 0.666 mg/ml oral solution [m-end pe] [GENERIC]": {
+    "rxcui": "1244921",
+    "name": "brompheniramine maleate 0.266 MG/ML / codeine phosphate 1.27 MG/ML / phenylephrine hydrochloride 0.666 MG/ML Oral Solution [M-End PE]",
+    "is_brand": false,
+    "mate_rxcui": "996998",
+    "mate_name": "brompheniramine maleate 0.266 MG/ML / codeine phosphate 1.27 MG/ML / phenylephrine hydrochloride 0.666 MG/ML Oral Solution",
+    "ingredient_name": "Brompheniramine Maleate Mgml Codeine Phosphate Mgml Phenylephrine Hydrochloride Mgml",
+    "manufacturer_name": "M-End PE"
+  },
+  "digoxin 0.25 mg oral tablet [digox] [GENERIC]": {
+    "rxcui": "1245373",
+    "name": "digoxin 0.25 MG Oral Tablet [Digox]",
+    "is_brand": false,
+    "mate_rxcui": "197606",
+    "mate_name": "digoxin 0.25 MG Oral Tablet",
+    "ingredient_name": "Digoxin",
+    "manufacturer_name": "Digox"
+  },
+  "digoxin 0.125 mg oral tablet [digox] [GENERIC]": {
+    "rxcui": "1245443",
+    "name": "digoxin 0.125 MG Oral Tablet [Digox]",
+    "is_brand": false,
+    "mate_rxcui": "197604",
+    "mate_name": "digoxin 0.125 MG Oral Tablet",
+    "ingredient_name": "Digoxin",
+    "manufacturer_name": "Digox"
+  },
+  "marlissa-28 tablet [GENERIC]": {
+    "rxcui": "1245919",
+    "name": "MARLISSA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748878",
+    "mate_name": "",
+    "ingredient_name": "Marlissa-",
+    "manufacturer_name": ""
+  },
+  "pramoxine hydrochloride 10 mg/ml topical lotion [BRAND]": {
+    "rxcui": "1246075",
+    "name": "pramoxine hydrochloride 10 MG/ML Topical Lotion",
+    "is_brand": true,
+    "mate_rxcui": "1246076",
+    "mate_name": "pramoxine hydrochloride 10 MG/ML Topical Lotion [Prax]",
+    "ingredient_name": "Pramoxine Hydrochloride Mgml",
+    "manufacturer_name": ""
+  },
+  "docusate sodium 50 mg / sennosides, usp 8.6 mg oral tablet [senexon s] [GENERIC]": {
+    "rxcui": "1248013",
+    "name": "docusate sodium 50 MG / sennosides, USP 8.6 MG Oral Tablet [Senexon S]",
+    "is_brand": false,
+    "mate_rxcui": "998740",
+    "mate_name": "docusate sodium 50 MG / sennosides, USP 8.6 MG Oral Tablet",
+    "ingredient_name": "Docusate Sodium Sennosides, Usp",
+    "manufacturer_name": "Senexon S"
+  },
+  "aluminum hydroxide 160 mg / magnesium carbonate 105 mg chewable tablet [acid gone] [GENERIC]": {
+    "rxcui": "1250282",
+    "name": "aluminum hydroxide 160 MG / magnesium carbonate 105 MG Chewable Tablet [Acid Gone]",
+    "is_brand": false,
+    "mate_rxcui": "308072",
+    "mate_name": "aluminum hydroxide 160 MG / magnesium carbonate 105 MG Chewable Tablet",
+    "ingredient_name": "Aluminum Hydroxide Magnesium Carbonate Chewable",
+    "manufacturer_name": "Acid Gone"
+  },
+  "potassium phosphate 155 mg / sodium phosphate, dibasic 852 mg / sodium phosphate, monobasic 130 mg oral tablet [k-phos neutral] [GENERIC]": {
+    "rxcui": "1251241",
+    "name": "potassium phosphate 155 MG / sodium phosphate, dibasic 852 MG / sodium phosphate, monobasic 130 MG Oral Tablet [K-Phos Neutral]",
+    "is_brand": false,
+    "mate_rxcui": "200251",
+    "mate_name": "potassium phosphate 155 MG / sodium phosphate, dibasic 852 MG / sodium phosphate, monobasic 130 MG Oral Tablet",
+    "ingredient_name": "Potassium Phosphate Sodium Phosphate, Dibasic Sodium Phosphate, Monobasic",
+    "manufacturer_name": "K-Phos Neutral"
+  },
+  "hyoscyamine sulfate 0.12 mg / methenamine 81.6 mg / methylene blue 10.8 mg / sodium phosphate, monobasic 40.8 mg oral tablet [urogesic blue reformulated apr 2012] [GENERIC]": {
+    "rxcui": "1251290",
+    "name": "hyoscyamine sulfate 0.12 MG / methenamine 81.6 MG / methylene blue 10.8 MG / sodium phosphate, monobasic 40.8 MG Oral Tablet [Urogesic Blue Reformulated Apr 2012]",
+    "is_brand": false,
+    "mate_rxcui": "1050325",
+    "mate_name": "hyoscyamine sulfate 0.12 MG / methenamine 81.6 MG / methylene blue 10.8 MG / sodium phosphate, monobasic 40.8 MG Oral Tablet",
+    "ingredient_name": "Hyoscyamine Methenamine Methylene Blue Sodium Phosphate, Monobasic",
+    "manufacturer_name": "Urogesic Blue Reformulated Apr 2012"
+  },
+  "aluminum hydroxide 6.33 mg/ml / magnesium carbonate 23.9 mg/ml oral suspension [acid gone] [GENERIC]": {
+    "rxcui": "1251355",
+    "name": "aluminum hydroxide 6.33 MG/ML / magnesium carbonate 23.9 MG/ML Oral Suspension [Acid Gone]",
+    "is_brand": false,
+    "mate_rxcui": "252203",
+    "mate_name": "aluminum hydroxide 6.33 MG/ML / magnesium carbonate 23.9 MG/ML Oral Suspension",
+    "ingredient_name": "Aluminum Hydroxide Mgml Magnesium Carbonate Mgml",
+    "manufacturer_name": "Acid Gone"
+  },
+  "viorele 28 day tablet [GENERIC]": {
+    "rxcui": "1252016",
+    "name": "VIORELE 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "759743",
+    "mate_name": "",
+    "ingredient_name": "Viorele Day",
+    "manufacturer_name": ""
+  },
+  "benzyl alcohol 0.1 ml/ml / pramoxine hydrochloride 0.01 mg/mg topical gel [itch-x] [GENERIC]": {
+    "rxcui": "1293634",
+    "name": "benzyl alcohol 0.1 ML/ML / pramoxine hydrochloride 0.01 MG/MG Topical Gel [Itch-X]",
+    "is_brand": false,
+    "mate_rxcui": "1293632",
+    "mate_name": "benzyl alcohol 0.1 ML/ML / pramoxine hydrochloride 0.01 MG/MG Topical Gel",
+    "ingredient_name": "Benzyl Alcohol Mlml Pramoxine Hydrochloride Mgmg",
+    "manufacturer_name": "Itch-X"
+  },
+  "acetaminophen 500 mg oral tablet [pharbetol] [GENERIC]": {
+    "rxcui": "1293942",
+    "name": "acetaminophen 500 MG Oral Tablet [Pharbetol]",
+    "is_brand": false,
+    "mate_rxcui": "198440",
+    "mate_name": "acetaminophen 500 MG Oral Tablet",
+    "ingredient_name": "Acetaminophen",
+    "manufacturer_name": "Pharbetol"
+  },
+  "acetaminophen 325 mg oral tablet [pharbetol] [GENERIC]": {
+    "rxcui": "1298830",
+    "name": "acetaminophen 325 MG Oral Tablet [Pharbetol]",
+    "is_brand": false,
+    "mate_rxcui": "313782",
+    "mate_name": "acetaminophen 325 MG Oral Tablet",
+    "ingredient_name": "Acetaminophen",
+    "manufacturer_name": "Pharbetol"
+  },
+  "ketoconazole 20 mg/ml topical foam [ketodan] [GENERIC]": {
+    "rxcui": "1300272",
+    "name": "ketoconazole 20 MG/ML Topical Foam [Ketodan]",
+    "is_brand": false,
+    "mate_rxcui": "728550",
+    "mate_name": "ketoconazole 20 MG/ML Topical Foam",
+    "ingredient_name": "Ketoconazole Mgml",
+    "manufacturer_name": "Ketodan"
+  },
+  "dasetta 1-35-28 tablet [GENERIC]": {
+    "rxcui": "1300538",
+    "name": "DASETTA 1-35-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749858",
+    "mate_name": "",
+    "ingredient_name": "Dasetta --",
+    "manufacturer_name": ""
+  },
+  "wera 0.5/0.035 mg 28 tablet [GENERIC]": {
+    "rxcui": "1300911",
+    "name": "WERA 0.5/0.035 MG 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749879",
+    "mate_name": "",
+    "ingredient_name": "Wera",
+    "manufacturer_name": ""
+  },
+  "falmina-28 tablet [GENERIC]": {
+    "rxcui": "1304988",
+    "name": "FALMINA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748868",
+    "mate_name": "",
+    "ingredient_name": "Falmina-",
+    "manufacturer_name": ""
+  },
+  "elinest-28 tablet [GENERIC]": {
+    "rxcui": "1305089",
+    "name": "ELINEST-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749786",
+    "mate_name": "",
+    "ingredient_name": "Elinest-",
+    "manufacturer_name": ""
+  },
+  "tri-lo-marzia tablet [GENERIC]": {
+    "rxcui": "1305757",
+    "name": "TRI-LO-MARZIA TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749157",
+    "mate_name": "",
+    "ingredient_name": "Tri-Lo-Marzia",
+    "manufacturer_name": ""
+  },
+  "tri-linyah tablet [GENERIC]": {
+    "rxcui": "1311535",
+    "name": "TRI-LINYAH TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749784",
+    "mate_name": "",
+    "ingredient_name": "Tri-Linyah",
+    "manufacturer_name": ""
+  },
+  "kurvelo-28 tablet [GENERIC]": {
+    "rxcui": "1356074",
+    "name": "KURVELO-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748878",
+    "mate_name": "",
+    "ingredient_name": "Kurvelo-",
+    "manufacturer_name": ""
+  },
+  "junel fe 1 mg-20 mcg tablet [GENERIC]": {
+    "rxcui": "1358765",
+    "name": "JUNEL FE 1 MG-20 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358763",
+    "mate_name": "",
+    "ingredient_name": "Junel Fe -",
+    "manufacturer_name": ""
+  },
+  "microgestin fe 1-20 tablet [GENERIC]": {
+    "rxcui": "1358775",
+    "name": "MICROGESTIN FE 1-20 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358763",
+    "mate_name": "",
+    "ingredient_name": "Microgestin Fe -",
+    "manufacturer_name": ""
+  },
+  "junel 1 mg-20 mcg tablet [GENERIC]": {
+    "rxcui": "1358780",
+    "name": "JUNEL 1 MG-20 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358776",
+    "mate_name": "",
+    "ingredient_name": "Junel -",
+    "manufacturer_name": ""
+  },
+  "brompheniramine maleate 0.4 mg/ml / dextromethorphan hydrobromide 2 mg/ml / pseudoephedrine hydrochloride 6 mg/ml oral solution [bromfed dm] [GENERIC]": {
+    "rxcui": "1358993",
+    "name": "brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution [Bromfed DM]",
+    "is_brand": false,
+    "mate_rxcui": "1357010",
+    "mate_name": "brompheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 2 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution",
+    "ingredient_name": "Brompheniramine Maleate Mgml Dextromethorphan Hydrobromide Mgml Pseudoephedrine Hydrochloride Mgml",
+    "manufacturer_name": "Bromfed DM"
+  },
+  "microgestin 21 1-20 tablet [GENERIC]": {
+    "rxcui": "1359020",
+    "name": "MICROGESTIN 21 1-20 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358776",
+    "mate_name": "",
+    "ingredient_name": "Microgestin -",
+    "manufacturer_name": ""
+  },
+  "junel fe 1.5 mg-30 mcg tablet [GENERIC]": {
+    "rxcui": "1359025",
+    "name": "JUNEL FE 1.5 MG-30 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359023",
+    "mate_name": "",
+    "ingredient_name": "Junel Fe -",
+    "manufacturer_name": ""
+  },
+  "microgestin fe 1.5-30 tab [GENERIC]": {
+    "rxcui": "1359027",
+    "name": "MICROGESTIN FE 1.5-30 TAB",
+    "is_brand": false,
+    "mate_rxcui": "1359023",
+    "mate_name": "",
+    "ingredient_name": "Microgestin Fe -",
+    "manufacturer_name": ""
+  },
+  "junel 1.5 mg-30 mcg tablet [GENERIC]": {
+    "rxcui": "1359030",
+    "name": "JUNEL 1.5 MG-30 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359028",
+    "mate_name": "",
+    "ingredient_name": "Junel -",
+    "manufacturer_name": ""
+  },
+  "microgestin 21 1.5-30 tab [GENERIC]": {
+    "rxcui": "1359032",
+    "name": "MICROGESTIN 21 1.5-30 TAB",
+    "is_brand": false,
+    "mate_rxcui": "1359028",
+    "mate_name": "",
+    "ingredient_name": "Microgestin -",
+    "manufacturer_name": ""
+  },
+  "mimvey 1-0.5 mg tablet [GENERIC]": {
+    "rxcui": "1359129",
+    "name": "MIMVEY 1-0.5 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359127",
+    "mate_name": "",
+    "ingredient_name": "Mimvey -",
+    "manufacturer_name": ""
+  },
+  "tilia fe 28 tablet [GENERIC]": {
+    "rxcui": "1359134",
+    "name": "TILIA FE 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359132",
+    "mate_name": "",
+    "ingredient_name": "Tilia Fe",
+    "manufacturer_name": ""
+  },
+  "tri-legest fe-28 day tablet [GENERIC]": {
+    "rxcui": "1359135",
+    "name": "TRI-LEGEST FE-28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359132",
+    "mate_name": "",
+    "ingredient_name": "Tri-Legest Fe- Day",
+    "manufacturer_name": ""
+  },
+  "chlorpheniramine maleate 4 mg oral tablet [aller-chlor] [GENERIC]": {
+    "rxcui": "1363315",
+    "name": "chlorpheniramine maleate 4 MG Oral Tablet [Aller-Chlor]",
+    "is_brand": false,
+    "mate_rxcui": "1363309",
+    "mate_name": "chlorpheniramine maleate 4 MG Oral Tablet",
+    "ingredient_name": "Chlorpheniramine Maleate",
+    "manufacturer_name": "Aller-Chlor"
+  },
+  "chateal-28 tablet [GENERIC]": {
+    "rxcui": "1364848",
+    "name": "CHATEAL-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748878",
+    "mate_name": "",
+    "ingredient_name": "Chateal-",
+    "manufacturer_name": ""
+  },
+  "mono-linyah 28 tablet [GENERIC]": {
+    "rxcui": "1365899",
+    "name": "MONO-LINYAH 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749860",
+    "mate_name": "",
+    "ingredient_name": "Mono-Linyah",
+    "manufacturer_name": ""
+  },
+  "estarylla 0.25-0.035 mg tablet [GENERIC]": {
+    "rxcui": "1369737",
+    "name": "ESTARYLLA 0.25-0.035 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749860",
+    "mate_name": "",
+    "ingredient_name": "Estarylla -",
+    "manufacturer_name": ""
+  },
+  "tri-estarylla tablet [GENERIC]": {
+    "rxcui": "1369770",
+    "name": "TRI-ESTARYLLA TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749784",
+    "mate_name": "",
+    "ingredient_name": "Tri-Estarylla",
+    "manufacturer_name": ""
+  },
+  "isotretinoin 10 mg oral capsule [zenatane] [GENERIC]": {
+    "rxcui": "1373333",
+    "name": "isotretinoin 10 MG Oral Capsule [Zenatane]",
+    "is_brand": false,
+    "mate_rxcui": "197843",
+    "mate_name": "isotretinoin 10 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Zenatane"
+  },
+  "isotretinoin 20 mg oral capsule [zenatane] [GENERIC]": {
+    "rxcui": "1373335",
+    "name": "isotretinoin 20 MG Oral Capsule [Zenatane]",
+    "is_brand": false,
+    "mate_rxcui": "197844",
+    "mate_name": "isotretinoin 20 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Zenatane"
+  },
+  "isotretinoin 40 mg oral capsule [zenatane] [GENERIC]": {
+    "rxcui": "1373337",
+    "name": "isotretinoin 40 MG Oral Capsule [Zenatane]",
+    "is_brand": false,
+    "mate_rxcui": "197845",
+    "mate_name": "isotretinoin 40 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Zenatane"
+  },
+  "enskyce 28 tablet [GENERIC]": {
+    "rxcui": "1422081",
+    "name": "ENSKYCE 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749848",
+    "mate_name": "",
+    "ingredient_name": "Enskyce",
+    "manufacturer_name": ""
+  },
+  "jencycla 0.35 mg tablet [GENERIC]": {
+    "rxcui": "1422896",
+    "name": "JENCYCLA 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Jencycla",
+    "manufacturer_name": ""
+  },
+  "daysee 0.15-0.03-0.01 mg tab [GENERIC]": {
+    "rxcui": "1423123",
+    "name": "DAYSEE 0.15-0.03-0.01 MG TAB",
+    "is_brand": false,
+    "mate_rxcui": "749761",
+    "mate_name": "",
+    "ingredient_name": "Daysee --",
+    "manufacturer_name": ""
+  },
+  "levonorgestrel 1.5 mg oral tablet [my way] [GENERIC]": {
+    "rxcui": "1426881",
+    "name": "levonorgestrel 1.5 MG Oral Tablet [My Way]",
+    "is_brand": false,
+    "mate_rxcui": "483325",
+    "mate_name": "levonorgestrel 1.5 MG Oral Tablet",
+    "ingredient_name": "Levonorgestrel",
+    "manufacturer_name": "My Way"
+  },
+  "pirmella 1-35-28 tablet [GENERIC]": {
+    "rxcui": "1427300",
+    "name": "PIRMELLA 1-35-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749858",
+    "mate_name": "",
+    "ingredient_name": "Pirmella --",
+    "manufacturer_name": ""
+  },
+  "pirmella 7-7-7-28 tablet [GENERIC]": {
+    "rxcui": "1427301",
+    "name": "PIRMELLA 7-7-7-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749852",
+    "mate_name": "",
+    "ingredient_name": "Pirmella ---",
+    "manufacturer_name": ""
+  },
+  "acetaminophen 300 mg / butalbital 50 mg oral tablet [bupap] [GENERIC]": {
+    "rxcui": "1428622",
+    "name": "acetaminophen 300 MG / butalbital 50 MG Oral Tablet [Bupap]",
+    "is_brand": false,
+    "mate_rxcui": "1249617",
+    "mate_name": "acetaminophen 300 MG / butalbital 50 MG Oral Tablet",
+    "ingredient_name": "Acetaminophen Butalbital",
+    "manufacturer_name": "Bupap"
+  },
+  "lyza 0.35 mg tablet [GENERIC]": {
+    "rxcui": "1430383",
+    "name": "LYZA 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Lyza",
+    "manufacturer_name": ""
+  },
+  "miconazole nitrate 0.02 mg/mg topical powder [zeasorb] [GENERIC]": {
+    "rxcui": "1437793",
+    "name": "miconazole nitrate 0.02 MG/MG Topical Powder [Zeasorb]",
+    "is_brand": false,
+    "mate_rxcui": "998461",
+    "mate_name": "miconazole nitrate 0.02 MG/MG Topical Powder",
+    "ingredient_name": "Miconazole Nitrate Mgmg",
+    "manufacturer_name": "Zeasorb"
+  },
+  "pimtrea 28 day tablet [GENERIC]": {
+    "rxcui": "1438778",
+    "name": "PIMTREA 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "759743",
+    "mate_name": "",
+    "ingredient_name": "Pimtrea Day",
+    "manufacturer_name": ""
+  },
+  "larin fe 1-20 tablet [GENERIC]": {
+    "rxcui": "1440183",
+    "name": "LARIN FE 1-20 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358763",
+    "mate_name": "",
+    "ingredient_name": "Larin Fe -",
+    "manufacturer_name": ""
+  },
+  "aubra-28 tablet [GENERIC]": {
+    "rxcui": "1440185",
+    "name": "AUBRA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748868",
+    "mate_name": "",
+    "ingredient_name": "Aubra-",
+    "manufacturer_name": ""
+  },
+  "hydrocortisone 25 mg/ml topical cream [proctozone hc] [GENERIC]": {
+    "rxcui": "1440936",
+    "name": "hydrocortisone 25 MG/ML Topical Cream [Proctozone HC]",
+    "is_brand": false,
+    "mate_rxcui": "310891",
+    "mate_name": "hydrocortisone 25 MG/ML Topical Cream",
+    "ingredient_name": "Hydrocortisone Mgml",
+    "manufacturer_name": "Proctozone HC"
+  },
+  "larin fe 1.5-30 tablet [GENERIC]": {
+    "rxcui": "1440937",
+    "name": "LARIN FE 1.5-30 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359023",
+    "mate_name": "",
+    "ingredient_name": "Larin Fe -",
+    "manufacturer_name": ""
+  },
+  "docusate sodium 100 mg oral tablet [dok] [GENERIC]": {
+    "rxcui": "1483574",
+    "name": "docusate sodium 100 MG Oral Tablet [DOK]",
+    "is_brand": false,
+    "mate_rxcui": "1099279",
+    "mate_name": "docusate sodium 100 MG Oral Tablet",
+    "ingredient_name": "Docusate Sodium",
+    "manufacturer_name": "DOK"
+  },
+  "vyfemla 0.4 mg-0.035 mg tablet [GENERIC]": {
+    "rxcui": "1485332",
+    "name": "VYFEMLA 0.4 MG-0.035 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749736",
+    "mate_name": "",
+    "ingredient_name": "Vyfemla -",
+    "manufacturer_name": ""
+  },
+  "zinc oxide 0.2 mg/mg paste [critic-aid skin] [GENERIC]": {
+    "rxcui": "1486031",
+    "name": "zinc oxide 0.2 MG/MG Paste [Critic-Aid Skin]",
+    "is_brand": false,
+    "mate_rxcui": "416684",
+    "mate_name": "zinc oxide 0.2 MG/MG Paste",
+    "ingredient_name": "Zinc Oxide Mgmg Paste",
+    "manufacturer_name": "Critic-Aid Skin"
+  },
+  "wymzya fe chewable tablet [GENERIC]": {
+    "rxcui": "1486452",
+    "name": "WYMZYA FE CHEWABLE TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1095224",
+    "mate_name": "",
+    "ingredient_name": "Wymzya Fe Chewable",
+    "manufacturer_name": ""
+  },
+  "larin 21 1-20 tablet [GENERIC]": {
+    "rxcui": "1487086",
+    "name": "LARIN 21 1-20 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358776",
+    "mate_name": "",
+    "ingredient_name": "Larin -",
+    "manufacturer_name": ""
+  },
+  "acetaminophen 325 mg / butalbital 50 mg / caffeine 40 mg oral capsule [zebutal] [GENERIC]": {
+    "rxcui": "1487251",
+    "name": "acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule [Zebutal]",
+    "is_brand": false,
+    "mate_rxcui": "238153",
+    "mate_name": "acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule",
+    "ingredient_name": "Acetaminophen Butalbital Caffeine",
+    "manufacturer_name": "Zebutal"
+  },
+  "acetaminophen 325 mg / oxycodone hydrochloride 2.5 mg oral tablet [endocet] [GENERIC]": {
+    "rxcui": "1487288",
+    "name": "acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet [Endocet]",
+    "is_brand": false,
+    "mate_rxcui": "1049635",
+    "mate_name": "acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet",
+    "ingredient_name": "Acetaminophen Oxycodone Hydrochloride",
+    "manufacturer_name": "Endocet"
+  },
+  "levonorgestrel 1.5 mg oral tablet [take action] [GENERIC]": {
+    "rxcui": "1490063",
+    "name": "levonorgestrel 1.5 MG Oral Tablet [Take Action]",
+    "is_brand": false,
+    "mate_rxcui": "483325",
+    "mate_name": "levonorgestrel 1.5 MG Oral Tablet",
+    "ingredient_name": "Levonorgestrel",
+    "manufacturer_name": "Take Action"
+  },
+  "zinc oxide 100 mg/ml topical spray [dr. smith's diaper rash] [GENERIC]": {
+    "rxcui": "1494203",
+    "name": "zinc oxide 100 MG/ML Topical Spray [Dr. Smith's Diaper Rash]",
+    "is_brand": false,
+    "mate_rxcui": "1232104",
+    "mate_name": "zinc oxide 100 MG/ML Topical Spray",
+    "ingredient_name": "Zinc Oxide Mgml",
+    "manufacturer_name": "Dr. Smith's Diaper Rash"
+  },
+  "zinc oxide 0.1 mg/mg topical ointment [dr. smith's diaper rash] [GENERIC]": {
+    "rxcui": "1494206",
+    "name": "zinc oxide 0.1 MG/MG Topical Ointment [Dr. Smith's Diaper Rash]",
+    "is_brand": false,
+    "mate_rxcui": "199099",
+    "mate_name": "zinc oxide 0.1 MG/MG Topical Ointment",
+    "ingredient_name": "Zinc Oxide Mgmg",
+    "manufacturer_name": "Dr. Smith's Diaper Rash"
+  },
+  "168 hr ethinyl estradiol 0.00146 mg/hr / norelgestromin 0.00625 mg/hr transdermal system [xulane] [GENERIC]": {
+    "rxcui": "1536586",
+    "name": "168 HR ethinyl estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System [Xulane]",
+    "is_brand": false,
+    "mate_rxcui": "1534809",
+    "mate_name": "168 HR ethinyl estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System",
+    "ingredient_name": "Hr Ethinyl Estradiol Mghr Norelgestromin Mghr Transdermal System",
+    "manufacturer_name": "Xulane"
+  },
+  "larin 1.5 mg-30 mcg tablet [GENERIC]": {
+    "rxcui": "1537209",
+    "name": "LARIN 1.5 MG-30 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359028",
+    "mate_name": "",
+    "ingredient_name": "Larin -",
+    "manufacturer_name": ""
+  },
+  "mimvey lo 0.5-0.1 mg tablet [GENERIC]": {
+    "rxcui": "1539190",
+    "name": "MIMVEY LO 0.5-0.1 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359124",
+    "mate_name": "",
+    "ingredient_name": "Mimvey Lo -",
+    "manufacturer_name": ""
+  },
+  "deblitane 0.35 mg tablet [GENERIC]": {
+    "rxcui": "1539953",
+    "name": "DEBLITANE 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Deblitane",
+    "manufacturer_name": ""
+  },
+  "sharobel 0.35 mg tablet [GENERIC]": {
+    "rxcui": "1539955",
+    "name": "SHAROBEL 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Sharobel",
+    "manufacturer_name": ""
+  },
+  "clobetasol propionate 0.5 mg/ml medicated shampoo [clodan] [GENERIC]": {
+    "rxcui": "1541099",
+    "name": "clobetasol propionate 0.5 MG/ML Medicated Shampoo [Clodan]",
+    "is_brand": false,
+    "mate_rxcui": "861490",
+    "mate_name": "clobetasol propionate 0.5 MG/ML Medicated Shampoo",
+    "ingredient_name": "Clobetasol Propionate Mgml Medicated",
+    "manufacturer_name": "Clodan"
+  },
+  "nikki 3 mg-0.02 mg tablet [GENERIC]": {
+    "rxcui": "1543553",
+    "name": "NIKKI 3 MG-0.02 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748798",
+    "mate_name": "",
+    "ingredient_name": "Nikki -",
+    "manufacturer_name": ""
+  },
+  "levonorgestrel 1.5 mg oral tablet [opcicon one-step] [GENERIC]": {
+    "rxcui": "1549091",
+    "name": "levonorgestrel 1.5 MG Oral Tablet [Opcicon One-Step]",
+    "is_brand": false,
+    "mate_rxcui": "483325",
+    "mate_name": "levonorgestrel 1.5 MG Oral Tablet",
+    "ingredient_name": "Levonorgestrel",
+    "manufacturer_name": "Opcicon One-Step"
+  },
+  "lidocaine hydrochloride 0.02 mg/mg topical gel [glydo] [GENERIC]": {
+    "rxcui": "1549447",
+    "name": "lidocaine hydrochloride 0.02 MG/MG Topical Gel [Glydo]",
+    "is_brand": false,
+    "mate_rxcui": "1011852",
+    "mate_name": "lidocaine hydrochloride 0.02 MG/MG Topical Gel",
+    "ingredient_name": "Lidocaine Hydrochloride Mgmg",
+    "manufacturer_name": "Glydo"
+  },
+  "tarina fe 1-20 eq tablet [GENERIC]": {
+    "rxcui": "1550536",
+    "name": "TARINA FE 1-20 EQ TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358763",
+    "mate_name": "",
+    "ingredient_name": "Tarina Fe - Eq",
+    "manufacturer_name": ""
+  },
+  "lopreeza 0.5 mg-0.1 mg tablet [GENERIC]": {
+    "rxcui": "1550964",
+    "name": "LOPREEZA 0.5 MG-0.1 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359124",
+    "mate_name": "",
+    "ingredient_name": "Lopreeza -",
+    "manufacturer_name": ""
+  },
+  "lopreeza 1 mg-0.5 mg tablet [GENERIC]": {
+    "rxcui": "1550965",
+    "name": "LOPREEZA 1 MG-0.5 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359127",
+    "mate_name": "",
+    "ingredient_name": "Lopreeza -",
+    "manufacturer_name": ""
+  },
+  "levonorgestrel 1.5 mg oral tablet [aftera] [GENERIC]": {
+    "rxcui": "1598658",
+    "name": "levonorgestrel 1.5 MG Oral Tablet [Aftera]",
+    "is_brand": false,
+    "mate_rxcui": "483325",
+    "mate_name": "levonorgestrel 1.5 MG Oral Tablet",
+    "ingredient_name": "Levonorgestrel",
+    "manufacturer_name": "Aftera"
+  },
+  "levonorgestrel 1.5 mg oral tablet [econtra] [GENERIC]": {
+    "rxcui": "1600602",
+    "name": "levonorgestrel 1.5 MG Oral Tablet [EContra]",
+    "is_brand": false,
+    "mate_rxcui": "483325",
+    "mate_name": "levonorgestrel 1.5 MG Oral Tablet",
+    "ingredient_name": "Levonorgestrel",
+    "manufacturer_name": "EContra"
+  },
+  "ashlyna 0.15-0.03-0.01 mg tab [GENERIC]": {
+    "rxcui": "1603861",
+    "name": "ASHLYNA 0.15-0.03-0.01 MG TAB",
+    "is_brand": false,
+    "mate_rxcui": "749761",
+    "mate_name": "",
+    "ingredient_name": "Ashlyna --",
+    "manufacturer_name": ""
+  },
+  "juleber 28 day tablet [GENERIC]": {
+    "rxcui": "1605086",
+    "name": "JULEBER 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749848",
+    "mate_name": "",
+    "ingredient_name": "Juleber Day",
+    "manufacturer_name": ""
+  },
+  "isotretinoin 30 mg oral capsule [zenatane] [GENERIC]": {
+    "rxcui": "1605088",
+    "name": "isotretinoin 30 MG Oral Capsule [Zenatane]",
+    "is_brand": false,
+    "mate_rxcui": "403930",
+    "mate_name": "isotretinoin 30 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Zenatane"
+  },
+  "larin 24 fe 1 mg-20 mcg tablet [GENERIC]": {
+    "rxcui": "1605091",
+    "name": "LARIN 24 FE 1 MG-20 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359117",
+    "mate_name": "",
+    "ingredient_name": "Larin Fe -",
+    "manufacturer_name": ""
+  },
+  "layolis fe chewable tablet [GENERIC]": {
+    "rxcui": "1650201",
+    "name": "LAYOLIS FE CHEWABLE TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1607990",
+    "mate_name": "",
+    "ingredient_name": "Layolis Fe Chewable",
+    "manufacturer_name": ""
+  },
+  "junel fe 24 tablet [GENERIC]": {
+    "rxcui": "1652084",
+    "name": "JUNEL FE 24 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359117",
+    "mate_name": "",
+    "ingredient_name": "Junel Fe",
+    "manufacturer_name": ""
+  },
+  "hyoscyamine sulfate 0.125 mg sublingual tablet [oscimin] [GENERIC]": {
+    "rxcui": "1652363",
+    "name": "hyoscyamine sulfate 0.125 MG Sublingual Tablet [Oscimin]",
+    "is_brand": false,
+    "mate_rxcui": "1046982",
+    "mate_name": "hyoscyamine sulfate 0.125 MG Sublingual Tablet",
+    "ingredient_name": "Hyoscyamine Sublingual",
+    "manufacturer_name": "Oscimin"
+  },
+  "1 ml glatiramer acetate 20 mg/ml prefilled syringe [glatopa] [GENERIC]": {
+    "rxcui": "1654630",
+    "name": "1 ML glatiramer acetate 20 MG/ML Prefilled Syringe [Glatopa]",
+    "is_brand": false,
+    "mate_rxcui": "1111641",
+    "mate_name": "1 ML glatiramer acetate 20 MG/ML Prefilled Syringe",
+    "ingredient_name": "Glatiramer Mgml Prefilled",
+    "manufacturer_name": "Glatopa"
+  },
+  "cyred 28 day tablet [GENERIC]": {
+    "rxcui": "1660690",
+    "name": "CYRED 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749848",
+    "mate_name": "",
+    "ingredient_name": "Cyred Day",
+    "manufacturer_name": ""
+  },
+  "setlakin 0.15 mg-0.03 mg tab [GENERIC]": {
+    "rxcui": "1661092",
+    "name": "SETLAKIN 0.15 MG-0.03 MG TAB",
+    "is_brand": false,
+    "mate_rxcui": "751901",
+    "mate_name": "",
+    "ingredient_name": "Setlakin -",
+    "manufacturer_name": ""
+  },
+  "isotretinoin 30 mg oral capsule [myorisan] [GENERIC]": {
+    "rxcui": "1663728",
+    "name": "isotretinoin 30 MG Oral Capsule [Myorisan]",
+    "is_brand": false,
+    "mate_rxcui": "403930",
+    "mate_name": "isotretinoin 30 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Myorisan"
+  },
+  "vienva-28 tablet [GENERIC]": {
+    "rxcui": "1720616",
+    "name": "VIENVA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748868",
+    "mate_name": "",
+    "ingredient_name": "Vienva-",
+    "manufacturer_name": ""
+  },
+  "microgestin 24 fe 1 mg-20 mcg [GENERIC]": {
+    "rxcui": "1721965",
+    "name": "MICROGESTIN 24 FE 1 MG-20 MCG",
+    "is_brand": false,
+    "mate_rxcui": "1359117",
+    "mate_name": "",
+    "ingredient_name": "Microgestin Fe -",
+    "manufacturer_name": ""
+  },
+  "tri-lo-estarylla tablet [GENERIC]": {
+    "rxcui": "1722676",
+    "name": "TRI-LO-ESTARYLLA TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749157",
+    "mate_name": "",
+    "ingredient_name": "Tri-Lo-Estarylla",
+    "manufacturer_name": ""
+  },
+  "blisovi 24 fe tablet [GENERIC]": {
+    "rxcui": "1722680",
+    "name": "BLISOVI 24 FE TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359117",
+    "mate_name": "",
+    "ingredient_name": "Blisovi Fe",
+    "manufacturer_name": ""
+  },
+  "thyroid (usp) 90 mg oral tablet [np thyroid] [GENERIC]": {
+    "rxcui": "1724437",
+    "name": "thyroid (USP) 90 MG Oral Tablet [NP Thyroid]",
+    "is_brand": false,
+    "mate_rxcui": "313393",
+    "mate_name": "thyroid (USP) 90 MG Oral Tablet",
+    "ingredient_name": "Thyroid (Usp)",
+    "manufacturer_name": "NP Thyroid"
+  },
+  "thyroid (usp) 30 mg oral tablet [np thyroid] [GENERIC]": {
+    "rxcui": "1724439",
+    "name": "thyroid (USP) 30 MG Oral Tablet [NP Thyroid]",
+    "is_brand": false,
+    "mate_rxcui": "313387",
+    "mate_name": "thyroid (USP) 30 MG Oral Tablet",
+    "ingredient_name": "Thyroid (Usp)",
+    "manufacturer_name": "NP Thyroid"
+  },
+  "thyroid (usp) 60 mg oral tablet [np thyroid] [GENERIC]": {
+    "rxcui": "1724481",
+    "name": "thyroid (USP) 60 MG Oral Tablet [NP Thyroid]",
+    "is_brand": false,
+    "mate_rxcui": "313391",
+    "mate_name": "thyroid (USP) 60 MG Oral Tablet",
+    "ingredient_name": "Thyroid (Usp)",
+    "manufacturer_name": "NP Thyroid"
+  },
+  "blisovi fe 1-20 tablet [GENERIC]": {
+    "rxcui": "1724801",
+    "name": "BLISOVI FE 1-20 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358763",
+    "mate_name": "",
+    "ingredient_name": "Blisovi Fe -",
+    "manufacturer_name": ""
+  },
+  "kaitlib fe 0.8-0.025 mg chew tb [GENERIC]": {
+    "rxcui": "1727521",
+    "name": "KAITLIB FE 0.8-0.025 MG CHEW TB",
+    "is_brand": false,
+    "mate_rxcui": "1607990",
+    "mate_name": "",
+    "ingredient_name": "Kaitlib Fe - Chew Tb",
+    "manufacturer_name": ""
+  },
+  "blisovi fe 1.5-30 tablet [GENERIC]": {
+    "rxcui": "1729516",
+    "name": "BLISOVI FE 1.5-30 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359023",
+    "mate_name": "",
+    "ingredient_name": "Blisovi Fe -",
+    "manufacturer_name": ""
+  },
+  "levetiracetam 500 mg oral tablet [roweepra] [GENERIC]": {
+    "rxcui": "1731020",
+    "name": "levetiracetam 500 MG Oral Tablet [Roweepra]",
+    "is_brand": false,
+    "mate_rxcui": "311289",
+    "mate_name": "levetiracetam 500 MG Oral Tablet",
+    "ingredient_name": "Levetiracetam",
+    "manufacturer_name": "Roweepra"
+  },
+  "zinc oxide 220 mg/ml topical cream [z-bum] [GENERIC]": {
+    "rxcui": "1734942",
+    "name": "zinc oxide 220 MG/ML Topical Cream [Z-Bum]",
+    "is_brand": false,
+    "mate_rxcui": "1734937",
+    "mate_name": "zinc oxide 220 MG/ML Topical Cream",
+    "ingredient_name": "Zinc Oxide Mgml",
+    "manufacturer_name": "Z-Bum"
+  },
+  "levonorgestrel 1.5 mg oral tablet [option 2] [GENERIC]": {
+    "rxcui": "1736014",
+    "name": "levonorgestrel 1.5 MG Oral Tablet [Option 2]",
+    "is_brand": false,
+    "mate_rxcui": "483325",
+    "mate_name": "levonorgestrel 1.5 MG Oral Tablet",
+    "ingredient_name": "Levonorgestrel",
+    "manufacturer_name": "Option 2"
+  },
+  "ethinyl estradiol 0.0025 mg / norethindrone acetate 0.5 mg oral tablet [fyavolv] [GENERIC]": {
+    "rxcui": "1736654",
+    "name": "ethinyl estradiol 0.0025 MG / norethindrone acetate 0.5 MG Oral Tablet [Fyavolv]",
+    "is_brand": false,
+    "mate_rxcui": "1251323",
+    "mate_name": "ethinyl estradiol 0.0025 MG / norethindrone acetate 0.5 MG Oral Tablet",
+    "ingredient_name": "Ethinyl Estradiol Norethindrone",
+    "manufacturer_name": "Fyavolv"
+  },
+  "ethinyl estradiol 0.005 mg / norethindrone acetate 1 mg oral tablet [fyavolv] [GENERIC]": {
+    "rxcui": "1736656",
+    "name": "ethinyl estradiol 0.005 MG / norethindrone acetate 1 MG Oral Tablet [Fyavolv]",
+    "is_brand": false,
+    "mate_rxcui": "1090992",
+    "mate_name": "ethinyl estradiol 0.005 MG / norethindrone acetate 1 MG Oral Tablet",
+    "ingredient_name": "Ethinyl Estradiol Norethindrone",
+    "manufacturer_name": "Fyavolv"
+  },
+  "atropine sulfate 0.0194 mg / hyoscyamine sulfate 0.1037 mg / phenobarbital 16.2 mg / scopolamine hydrobromide 0.0065 mg oral tablet [phenohytro] [GENERIC]": {
+    "rxcui": "1739887",
+    "name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG Oral Tablet [Phenohytro]",
+    "is_brand": false,
+    "mate_rxcui": "1046815",
+    "mate_name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG Oral Tablet",
+    "ingredient_name": "Atropine Hyoscyamine Phenobarbital Scopolamine Hydrobromide",
+    "manufacturer_name": "Phenohytro"
+  },
+  "levonorgestrel 1.5 mg oral tablet [react] [GENERIC]": {
+    "rxcui": "1788864",
+    "name": "levonorgestrel 1.5 MG Oral Tablet [React]",
+    "is_brand": false,
+    "mate_rxcui": "483325",
+    "mate_name": "levonorgestrel 1.5 MG Oral Tablet",
+    "ingredient_name": "Levonorgestrel",
+    "manufacturer_name": "React"
+  },
+  "hydrocortisone 25 mg/ml topical cream [procto-med] [GENERIC]": {
+    "rxcui": "1790684",
+    "name": "hydrocortisone 25 MG/ML Topical Cream [Procto-Med]",
+    "is_brand": false,
+    "mate_rxcui": "310891",
+    "mate_name": "hydrocortisone 25 MG/ML Topical Cream",
+    "ingredient_name": "Hydrocortisone Mgml",
+    "manufacturer_name": "Procto-Med"
+  },
+  "larissia-28 tablet [GENERIC]": {
+    "rxcui": "1795598",
+    "name": "LARISSIA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748868",
+    "mate_name": "",
+    "ingredient_name": "Larissia-",
+    "manufacturer_name": ""
+  },
+  "femynor 28 tablet [GENERIC]": {
+    "rxcui": "1796922",
+    "name": "FEMYNOR 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749860",
+    "mate_name": "",
+    "ingredient_name": "Femynor",
+    "manufacturer_name": ""
+  },
+  "estradiol 0.01 mg vaginal insert [yuvafem] [GENERIC]": {
+    "rxcui": "1797113",
+    "name": "estradiol 0.01 MG Vaginal Insert [Yuvafem]",
+    "is_brand": false,
+    "mate_rxcui": "884707",
+    "mate_name": "estradiol 0.01 MG Vaginal Insert",
+    "ingredient_name": "Estradiol Vaginal Insert",
+    "manufacturer_name": "Yuvafem"
+  },
+  "sodium polystyrene sulfonate 250 mg/ml oral suspension [sps] [GENERIC]": {
+    "rxcui": "1799654",
+    "name": "sodium polystyrene sulfonate 250 MG/ML Oral Suspension [SPS]",
+    "is_brand": false,
+    "mate_rxcui": "313072",
+    "mate_name": "sodium polystyrene sulfonate 250 MG/ML Oral Suspension",
+    "ingredient_name": "Sodium Polystyrene Sulfonate Mgml",
+    "manufacturer_name": "SPS"
+  },
+  "mili 0.25-0.035 mg tablet [GENERIC]": {
+    "rxcui": "1800499",
+    "name": "MILI 0.25-0.035 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749860",
+    "mate_name": "",
+    "ingredient_name": "Mili -",
+    "manufacturer_name": ""
+  },
+  "tri-mili 28 tablet [GENERIC]": {
+    "rxcui": "1800500",
+    "name": "TRI-MILI 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749784",
+    "mate_name": "",
+    "ingredient_name": "Tri-Mili",
+    "manufacturer_name": ""
+  },
+  "lillow-28 tablet [GENERIC]": {
+    "rxcui": "1805273",
+    "name": "LILLOW-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748878",
+    "mate_name": "",
+    "ingredient_name": "Lillow-",
+    "manufacturer_name": ""
+  },
+  "amabelz 0.5 mg-0.1 mg tablet [GENERIC]": {
+    "rxcui": "1806683",
+    "name": "AMABELZ 0.5 MG-0.1 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359124",
+    "mate_name": "",
+    "ingredient_name": "Amabelz -",
+    "manufacturer_name": ""
+  },
+  "amabelz 1 mg-0.5 mg tablet [GENERIC]": {
+    "rxcui": "1806684",
+    "name": "AMABELZ 1 MG-0.5 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359127",
+    "mate_name": "",
+    "ingredient_name": "Amabelz -",
+    "manufacturer_name": ""
+  },
+  "folic acid 2.5 mg / vitamin b12 2 mg / vitamin b6 25 mg oral tablet [niva-fol] [GENERIC]": {
+    "rxcui": "1809029",
+    "name": "folic acid 2.5 MG / vitamin B12 2 MG / vitamin B6 25 MG Oral Tablet [Niva-Fol]",
+    "is_brand": false,
+    "mate_rxcui": "484925",
+    "mate_name": "folic acid 2.5 MG / vitamin B12 2 MG / vitamin B6 25 MG Oral Tablet",
+    "ingredient_name": "Folic Acid Vitamin B Vitamin B",
+    "manufacturer_name": "Niva-Fol"
+  },
+  "phentermine hydrochloride 8 mg oral tablet [lomaira] [GENERIC]": {
+    "rxcui": "1810304",
+    "name": "phentermine hydrochloride 8 MG Oral Tablet [Lomaira]",
+    "is_brand": false,
+    "mate_rxcui": "826919",
+    "mate_name": "phentermine hydrochloride 8 MG Oral Tablet",
+    "ingredient_name": "Phentermine Hydrochloride",
+    "manufacturer_name": "Lomaira"
+  },
+  "norlyda 0.35 mg tablet [GENERIC]": {
+    "rxcui": "1811763",
+    "name": "NORLYDA 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Norlyda",
+    "manufacturer_name": ""
+  },
+  "ayuna-28 tablet [GENERIC]": {
+    "rxcui": "1812279",
+    "name": "AYUNA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748878",
+    "mate_name": "",
+    "ingredient_name": "Ayuna-",
+    "manufacturer_name": ""
+  },
+  "thyroid (usp) 15 mg oral tablet [np thyroid] [GENERIC]": {
+    "rxcui": "1855086",
+    "name": "thyroid (USP) 15 MG Oral Tablet [NP Thyroid]",
+    "is_brand": false,
+    "mate_rxcui": "314267",
+    "mate_name": "thyroid (USP) 15 MG Oral Tablet",
+    "ingredient_name": "Thyroid (Usp)",
+    "manufacturer_name": "NP Thyroid"
+  },
+  "levonorgestrel 1.5 mg oral tablet [her style] [GENERIC]": {
+    "rxcui": "1855519",
+    "name": "levonorgestrel 1.5 MG Oral Tablet [Her Style]",
+    "is_brand": false,
+    "mate_rxcui": "483325",
+    "mate_name": "levonorgestrel 1.5 MG Oral Tablet",
+    "ingredient_name": "Levonorgestrel",
+    "manufacturer_name": "Her Style"
+  },
+  "nylia 1-35 28 tablet [GENERIC]": {
+    "rxcui": "1856402",
+    "name": "NYLIA 1-35 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749858",
+    "mate_name": "",
+    "ingredient_name": "Nylia -",
+    "manufacturer_name": ""
+  },
+  "nylia 7-7-7-28 tablet [GENERIC]": {
+    "rxcui": "1856424",
+    "name": "NYLIA 7-7-7-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749852",
+    "mate_name": "",
+    "ingredient_name": "Nylia ---",
+    "manufacturer_name": ""
+  },
+  "tri-lo-mili tablet [GENERIC]": {
+    "rxcui": "1858836",
+    "name": "TRI-LO-MILI TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749157",
+    "mate_name": "",
+    "ingredient_name": "Tri-Lo-Mili",
+    "manufacturer_name": ""
+  },
+  "afirmelle-28 tablet [GENERIC]": {
+    "rxcui": "1860414",
+    "name": "AFIRMELLE-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748868",
+    "mate_name": "",
+    "ingredient_name": "Afirmelle-",
+    "manufacturer_name": ""
+  },
+  "tri femynor 28 tablet [GENERIC]": {
+    "rxcui": "1862600",
+    "name": "TRI FEMYNOR 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749784",
+    "mate_name": "",
+    "ingredient_name": "Tri Femynor",
+    "manufacturer_name": ""
+  },
+  "isibloom 28 day tablet [GENERIC]": {
+    "rxcui": "1866047",
+    "name": "ISIBLOOM 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749848",
+    "mate_name": "",
+    "ingredient_name": "Isibloom Day",
+    "manufacturer_name": ""
+  },
+  "mibelas 24 fe chewable tablet [GENERIC]": {
+    "rxcui": "1873704",
+    "name": "MIBELAS 24 FE CHEWABLE TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1426600",
+    "mate_name": "",
+    "ingredient_name": "Mibelas Fe Chewable",
+    "manufacturer_name": ""
+  },
+  "levetiracetam 1000 mg oral tablet [roweepra] [GENERIC]": {
+    "rxcui": "1875866",
+    "name": "levetiracetam 1000 MG Oral Tablet [Roweepra]",
+    "is_brand": false,
+    "mate_rxcui": "387003",
+    "mate_name": "levetiracetam 1000 MG Oral Tablet",
+    "ingredient_name": "Levetiracetam",
+    "manufacturer_name": "Roweepra"
+  },
+  "levetiracetam 750 mg oral tablet [roweepra] [GENERIC]": {
+    "rxcui": "1875870",
+    "name": "levetiracetam 750 MG Oral Tablet [Roweepra]",
+    "is_brand": false,
+    "mate_rxcui": "311290",
+    "mate_name": "levetiracetam 750 MG Oral Tablet",
+    "ingredient_name": "Levetiracetam",
+    "manufacturer_name": "Roweepra"
+  },
+  "24 hr levetiracetam 750 mg extended release oral tablet [roweepra] [GENERIC]": {
+    "rxcui": "1876012",
+    "name": "24 HR levetiracetam 750 MG Extended Release Oral Tablet [Roweepra]",
+    "is_brand": false,
+    "mate_rxcui": "846378",
+    "mate_name": "24 HR levetiracetam 750 MG Extended Release Oral Tablet",
+    "ingredient_name": "Hr Levetiracetam Extended Release",
+    "manufacturer_name": "Roweepra"
+  },
+  "24 hr levetiracetam 500 mg extended release oral tablet [roweepra] [GENERIC]": {
+    "rxcui": "1876014",
+    "name": "24 HR levetiracetam 500 MG Extended Release Oral Tablet [Roweepra]",
+    "is_brand": false,
+    "mate_rxcui": "807832",
+    "mate_name": "24 HR levetiracetam 500 MG Extended Release Oral Tablet",
+    "ingredient_name": "Hr Levetiracetam Extended Release",
+    "manufacturer_name": "Roweepra"
+  },
+  "rivelsa tablet [GENERIC]": {
+    "rxcui": "1876397",
+    "name": "RIVELSA TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1373503",
+    "mate_name": "",
+    "ingredient_name": "Rivelsa",
+    "manufacturer_name": ""
+  },
+  "simliya 28 day tablet [GENERIC]": {
+    "rxcui": "1876810",
+    "name": "SIMLIYA 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "759743",
+    "mate_name": "",
+    "ingredient_name": "Simliya Day",
+    "manufacturer_name": ""
+  },
+  "simpesse 0.15-0.03-0.01 mg tab [GENERIC]": {
+    "rxcui": "1918056",
+    "name": "SIMPESSE 0.15-0.03-0.01 MG TAB",
+    "is_brand": false,
+    "mate_rxcui": "749761",
+    "mate_name": "",
+    "ingredient_name": "Simpesse --",
+    "manufacturer_name": ""
+  },
+  "levonorgestrel 1.5 mg oral tablet [my choice] [GENERIC]": {
+    "rxcui": "1922759",
+    "name": "levonorgestrel 1.5 MG Oral Tablet [My Choice]",
+    "is_brand": false,
+    "mate_rxcui": "483325",
+    "mate_name": "levonorgestrel 1.5 MG Oral Tablet",
+    "ingredient_name": "Levonorgestrel",
+    "manufacturer_name": "My Choice"
+  },
+  "thyroid (usp) 120 mg oral tablet [np thyroid] [GENERIC]": {
+    "rxcui": "1923809",
+    "name": "thyroid (USP) 120 MG Oral Tablet [NP Thyroid]",
+    "is_brand": false,
+    "mate_rxcui": "208545",
+    "mate_name": "thyroid (USP) 120 MG Oral Tablet",
+    "ingredient_name": "Thyroid (Usp)",
+    "manufacturer_name": "NP Thyroid"
+  },
+  "aurovela fe 1-20 tablet [GENERIC]": {
+    "rxcui": "1926946",
+    "name": "AUROVELA FE 1-20 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358763",
+    "mate_name": "",
+    "ingredient_name": "Aurovela Fe -",
+    "manufacturer_name": ""
+  },
+  "aurovela 1 mg-20 mcg tablet [GENERIC]": {
+    "rxcui": "1927366",
+    "name": "AUROVELA 1 MG-20 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358776",
+    "mate_name": "",
+    "ingredient_name": "Aurovela -",
+    "manufacturer_name": ""
+  },
+  "aurovela 24 fe 1 mg-20 mcg tab [GENERIC]": {
+    "rxcui": "1927957",
+    "name": "AUROVELA 24 FE 1 MG-20 MCG TAB",
+    "is_brand": false,
+    "mate_rxcui": "1359117",
+    "mate_name": "",
+    "ingredient_name": "Aurovela Fe -",
+    "manufacturer_name": ""
+  },
+  "aurovela 21 1.5-30 tablet [GENERIC]": {
+    "rxcui": "1928007",
+    "name": "AUROVELA 21 1.5-30 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359028",
+    "mate_name": "",
+    "ingredient_name": "Aurovela -",
+    "manufacturer_name": ""
+  },
+  "melodetta 24 fe chewable tab [GENERIC]": {
+    "rxcui": "1944656",
+    "name": "MELODETTA 24 FE CHEWABLE TAB",
+    "is_brand": false,
+    "mate_rxcui": "1426600",
+    "mate_name": "",
+    "ingredient_name": "Melodetta Fe Chewable",
+    "manufacturer_name": ""
+  },
+  "aurovela fe 1.5 mg-30 mcg tab [GENERIC]": {
+    "rxcui": "1986791",
+    "name": "AUROVELA FE 1.5 MG-30 MCG TAB",
+    "is_brand": false,
+    "mate_rxcui": "1359023",
+    "mate_name": "",
+    "ingredient_name": "Aurovela Fe -",
+    "manufacturer_name": ""
+  },
+  "24 hr diltiazem hydrochloride 120 mg extended release oral capsule [tiadylt] [GENERIC]": {
+    "rxcui": "1988308",
+    "name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule [Tiadylt]",
+    "is_brand": false,
+    "mate_rxcui": "830861",
+    "mate_name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Tiadylt"
+  },
+  "24 hr diltiazem hydrochloride 180 mg extended release oral capsule [tiadylt] [GENERIC]": {
+    "rxcui": "1988311",
+    "name": "24 HR diltiazem hydrochloride 180 MG Extended Release Oral Capsule [Tiadylt]",
+    "is_brand": false,
+    "mate_rxcui": "830845",
+    "mate_name": "24 HR diltiazem hydrochloride 180 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Tiadylt"
+  },
+  "24 hr diltiazem hydrochloride 240 mg extended release oral capsule [tiadylt] [GENERIC]": {
+    "rxcui": "1988316",
+    "name": "24 HR diltiazem hydrochloride 240 MG Extended Release Oral Capsule [Tiadylt]",
+    "is_brand": false,
+    "mate_rxcui": "830837",
+    "mate_name": "24 HR diltiazem hydrochloride 240 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Tiadylt"
+  },
+  "24 hr diltiazem hydrochloride 300 mg extended release oral capsule [tiadylt] [GENERIC]": {
+    "rxcui": "1988319",
+    "name": "24 HR diltiazem hydrochloride 300 MG Extended Release Oral Capsule [Tiadylt]",
+    "is_brand": false,
+    "mate_rxcui": "830801",
+    "mate_name": "24 HR diltiazem hydrochloride 300 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Tiadylt"
+  },
+  "24 hr diltiazem hydrochloride 360 mg extended release oral capsule [tiadylt] [GENERIC]": {
+    "rxcui": "1988324",
+    "name": "24 HR diltiazem hydrochloride 360 MG Extended Release Oral Capsule [Tiadylt]",
+    "is_brand": false,
+    "mate_rxcui": "830795",
+    "mate_name": "24 HR diltiazem hydrochloride 360 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Tiadylt"
+  },
+  "24 hr diltiazem hydrochloride 420 mg extended release oral capsule [tiadylt] [GENERIC]": {
+    "rxcui": "1988330",
+    "name": "24 HR diltiazem hydrochloride 420 MG Extended Release Oral Capsule [Tiadylt]",
+    "is_brand": false,
+    "mate_rxcui": "831359",
+    "mate_name": "24 HR diltiazem hydrochloride 420 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Tiadylt"
+  },
+  "hailey 24 fe 1 mg-20 mcg tab [GENERIC]": {
+    "rxcui": "1989507",
+    "name": "HAILEY 24 FE 1 MG-20 MCG TAB",
+    "is_brand": false,
+    "mate_rxcui": "1359117",
+    "mate_name": "",
+    "ingredient_name": "Hailey Fe -",
+    "manufacturer_name": ""
+  },
+  "hailey fe 1-20 tablet [GENERIC]": {
+    "rxcui": "1989873",
+    "name": "HAILEY FE 1-20 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358763",
+    "mate_name": "",
+    "ingredient_name": "Hailey Fe -",
+    "manufacturer_name": ""
+  },
+  "vylibra 28 tablet [GENERIC]": {
+    "rxcui": "1994758",
+    "name": "VYLIBRA 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749860",
+    "mate_name": "",
+    "ingredient_name": "Vylibra",
+    "manufacturer_name": ""
+  },
+  "tri-vylibra 28 tablet [GENERIC]": {
+    "rxcui": "1994764",
+    "name": "TRI-VYLIBRA 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749784",
+    "mate_name": "",
+    "ingredient_name": "Tri-Vylibra",
+    "manufacturer_name": ""
+  },
+  "tydemy 3-0.03-0.451 mg tablet [GENERIC]": {
+    "rxcui": "1999724",
+    "name": "TYDEMY 3-0.03-0.451 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1050493",
+    "mate_name": "",
+    "ingredient_name": "Tydemy --",
+    "manufacturer_name": ""
+  },
+  "1 ml glatiramer acetate 40 mg/ml prefilled syringe [glatopa] [GENERIC]": {
+    "rxcui": "2000007",
+    "name": "1 ML glatiramer acetate 40 MG/ML Prefilled Syringe [Glatopa]",
+    "is_brand": false,
+    "mate_rxcui": "1487361",
+    "mate_name": "1 ML glatiramer acetate 40 MG/ML Prefilled Syringe",
+    "ingredient_name": "Glatiramer Mgml Prefilled",
+    "manufacturer_name": "Glatopa"
+  },
+  "kelnor 1-50 tablet [GENERIC]": {
+    "rxcui": "2000695",
+    "name": "KELNOR 1-50 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748806",
+    "mate_name": "",
+    "ingredient_name": "Kelnor -",
+    "manufacturer_name": ""
+  },
+  "lamotrigine 150 mg oral tablet [subvenite] [GENERIC]": {
+    "rxcui": "2001506",
+    "name": "lamotrigine 150 MG Oral Tablet [Subvenite]",
+    "is_brand": false,
+    "mate_rxcui": "198428",
+    "mate_name": "lamotrigine 150 MG Oral Tablet",
+    "ingredient_name": "Lamotrigine",
+    "manufacturer_name": "Subvenite"
+  },
+  "lamotrigine 25 mg oral tablet [subvenite] [GENERIC]": {
+    "rxcui": "2001508",
+    "name": "lamotrigine 25 MG Oral Tablet [Subvenite]",
+    "is_brand": false,
+    "mate_rxcui": "282401",
+    "mate_name": "lamotrigine 25 MG Oral Tablet",
+    "ingredient_name": "Lamotrigine",
+    "manufacturer_name": "Subvenite"
+  },
+  "jaimiess 0.15-0.03-0.01 mg tab [GENERIC]": {
+    "rxcui": "2001751",
+    "name": "JAIMIESS 0.15-0.03-0.01 MG TAB",
+    "is_brand": false,
+    "mate_rxcui": "749761",
+    "mate_name": "",
+    "ingredient_name": "Jaimiess --",
+    "manufacturer_name": ""
+  },
+  "volnea 0.15-0.02-0.01 mg tab [GENERIC]": {
+    "rxcui": "2001756",
+    "name": "VOLNEA 0.15-0.02-0.01 MG TAB",
+    "is_brand": false,
+    "mate_rxcui": "759743",
+    "mate_name": "",
+    "ingredient_name": "Volnea --",
+    "manufacturer_name": ""
+  },
+  "lo-zumandimine 3 mg-0.02 mg tb [GENERIC]": {
+    "rxcui": "2003375",
+    "name": "LO-ZUMANDIMINE 3 MG-0.02 MG TB",
+    "is_brand": false,
+    "mate_rxcui": "748798",
+    "mate_name": "",
+    "ingredient_name": "Lo-Zumandimine - Tb",
+    "manufacturer_name": ""
+  },
+  "levonorgestrel 1.5 mg oral tablet [new day] [GENERIC]": {
+    "rxcui": "2003710",
+    "name": "levonorgestrel 1.5 MG Oral Tablet [New Day]",
+    "is_brand": false,
+    "mate_rxcui": "483325",
+    "mate_name": "levonorgestrel 1.5 MG Oral Tablet",
+    "ingredient_name": "Levonorgestrel",
+    "manufacturer_name": "New Day"
+  },
+  "lamotrigine 100 mg oral tablet [subvenite] [GENERIC]": {
+    "rxcui": "2003796",
+    "name": "lamotrigine 100 MG Oral Tablet [Subvenite]",
+    "is_brand": false,
+    "mate_rxcui": "198427",
+    "mate_name": "lamotrigine 100 MG Oral Tablet",
+    "ingredient_name": "Lamotrigine",
+    "manufacturer_name": "Subvenite"
+  },
+  "lamotrigine 200 mg oral tablet [subvenite] [GENERIC]": {
+    "rxcui": "2003801",
+    "name": "lamotrigine 200 MG Oral Tablet [Subvenite]",
+    "is_brand": false,
+    "mate_rxcui": "198429",
+    "mate_name": "lamotrigine 200 MG Oral Tablet",
+    "ingredient_name": "Lamotrigine",
+    "manufacturer_name": "Subvenite"
+  },
+  "tulana 0.35 mg tablet [GENERIC]": {
+    "rxcui": "2043465",
+    "name": "TULANA 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Tulana",
+    "manufacturer_name": ""
+  },
+  "zumandimine 3 mg-0.03 mg tab [GENERIC]": {
+    "rxcui": "2045196",
+    "name": "ZUMANDIMINE 3 MG-0.03 MG TAB",
+    "is_brand": false,
+    "mate_rxcui": "748800",
+    "mate_name": "",
+    "ingredient_name": "Zumandimine -",
+    "manufacturer_name": ""
+  },
+  "fluocinolone acetonide 0.1 mg/ml otic solution [flac] [GENERIC]": {
+    "rxcui": "2045201",
+    "name": "fluocinolone acetonide 0.1 MG/ML Otic Solution [Flac]",
+    "is_brand": false,
+    "mate_rxcui": "1191299",
+    "mate_name": "fluocinolone acetonide 0.1 MG/ML Otic Solution",
+    "ingredient_name": "Fluocinolone Acetonide Mgml Otic",
+    "manufacturer_name": "Flac"
+  },
+  "hailey 21 1.5 mg-30 mcg tab [GENERIC]": {
+    "rxcui": "2047760",
+    "name": "HAILEY 21 1.5 MG-30 MCG TAB",
+    "is_brand": false,
+    "mate_rxcui": "1359028",
+    "mate_name": "",
+    "ingredient_name": "Hailey -",
+    "manufacturer_name": ""
+  },
+  "iclevia 0.15 mg-0.03 mg tablet [GENERIC]": {
+    "rxcui": "2049264",
+    "name": "ICLEVIA 0.15 MG-0.03 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "751901",
+    "mate_name": "",
+    "ingredient_name": "Iclevia -",
+    "manufacturer_name": ""
+  },
+  "crotamiton 100 mg/ml topical lotion [crotan] [GENERIC]": {
+    "rxcui": "2049603",
+    "name": "crotamiton 100 MG/ML Topical Lotion [Crotan]",
+    "is_brand": false,
+    "mate_rxcui": "106219",
+    "mate_name": "crotamiton 100 MG/ML Topical Lotion",
+    "ingredient_name": "Crotamiton Mgml",
+    "manufacturer_name": "Crotan"
+  },
+  "incassia 0.35 mg tablet [GENERIC]": {
+    "rxcui": "2052064",
+    "name": "INCASSIA 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Incassia",
+    "manufacturer_name": ""
+  },
+  "erythromycin 250 mg delayed release oral tablet [ery-tab] [GENERIC]": {
+    "rxcui": "206075",
+    "name": "erythromycin 250 MG Delayed Release Oral Tablet [Ery-Tab]",
+    "is_brand": false,
+    "mate_rxcui": "310155",
+    "mate_name": "erythromycin 250 MG Delayed Release Oral Tablet",
+    "ingredient_name": "Erythromycin Delayed Release",
+    "manufacturer_name": "Ery-Tab"
+  },
+  "erythromycin 333 mg delayed release oral tablet [ery-tab] [GENERIC]": {
+    "rxcui": "206078",
+    "name": "erythromycin 333 MG Delayed Release Oral Tablet [Ery-Tab]",
+    "is_brand": false,
+    "mate_rxcui": "315090",
+    "mate_name": "erythromycin 333 MG Delayed Release Oral Tablet",
+    "ingredient_name": "Erythromycin Delayed Release",
+    "manufacturer_name": "Ery-Tab"
+  },
+  "erythromycin 500 mg delayed release oral tablet [ery-tab] [GENERIC]": {
+    "rxcui": "206080",
+    "name": "erythromycin 500 MG Delayed Release Oral Tablet [Ery-Tab]",
+    "is_brand": false,
+    "mate_rxcui": "310157",
+    "mate_name": "erythromycin 500 MG Delayed Release Oral Tablet",
+    "ingredient_name": "Erythromycin Delayed Release",
+    "manufacturer_name": "Ery-Tab"
+  },
+  "aluminum chloride 62.5 mg/ml topical solution [xerac ac] [GENERIC]": {
+    "rxcui": "206193",
+    "name": "aluminum chloride 62.5 MG/ML Topical Solution [Xerac AC]",
+    "is_brand": false,
+    "mate_rxcui": "197324",
+    "mate_name": "aluminum chloride 62.5 MG/ML Topical Solution",
+    "ingredient_name": "Aluminum Chloride Mgml",
+    "manufacturer_name": "Xerac AC"
+  },
+  "ibuprofen 400 mg oral tablet [ibu] [GENERIC]": {
+    "rxcui": "206905",
+    "name": "ibuprofen 400 MG Oral Tablet [Ibu]",
+    "is_brand": false,
+    "mate_rxcui": "197805",
+    "mate_name": "ibuprofen 400 MG Oral Tablet",
+    "ingredient_name": "Ibuprofen",
+    "manufacturer_name": "Ibu"
+  },
+  "ibuprofen 600 mg oral tablet [ibu] [GENERIC]": {
+    "rxcui": "206913",
+    "name": "ibuprofen 600 MG Oral Tablet [Ibu]",
+    "is_brand": false,
+    "mate_rxcui": "197806",
+    "mate_name": "ibuprofen 600 MG Oral Tablet",
+    "ingredient_name": "Ibuprofen",
+    "manufacturer_name": "Ibu"
+  },
+  "ibuprofen 800 mg oral tablet [ibu] [GENERIC]": {
+    "rxcui": "206917",
+    "name": "ibuprofen 800 MG Oral Tablet [Ibu]",
+    "is_brand": false,
+    "mate_rxcui": "197807",
+    "mate_name": "ibuprofen 800 MG Oral Tablet",
+    "ingredient_name": "Ibuprofen",
+    "manufacturer_name": "Ibu"
+  },
+  "silver sulfadiazine 10 mg/ml topical cream [ssd] [GENERIC]": {
+    "rxcui": "208185",
+    "name": "silver sulfadiazine 10 MG/ML Topical Cream [SSD]",
+    "is_brand": false,
+    "mate_rxcui": "106351",
+    "mate_name": "silver sulfadiazine 10 MG/ML Topical Cream",
+    "ingredient_name": "Silver Sulfadiazine Mgml",
+    "manufacturer_name": "SSD"
+  },
+  "sulfamethoxazole 40 mg/ml / trimethoprim 8 mg/ml oral suspension [sulfatrim] [GENERIC]": {
+    "rxcui": "208406",
+    "name": "sulfamethoxazole 40 MG/ML / trimethoprim 8 MG/ML Oral Suspension [Sulfatrim]",
+    "is_brand": false,
+    "mate_rxcui": "313134",
+    "mate_name": "sulfamethoxazole 40 MG/ML / trimethoprim 8 MG/ML Oral Suspension",
+    "ingredient_name": "Sulfamethoxazole Mgml Trimethoprim Mgml",
+    "manufacturer_name": "Sulfatrim"
+  },
+  "acetaminophen 120 mg rectal suppository [acephen] [GENERIC]": {
+    "rxcui": "209352",
+    "name": "acetaminophen 120 MG Rectal Suppository [Acephen]",
+    "is_brand": false,
+    "mate_rxcui": "198434",
+    "mate_name": "acetaminophen 120 MG Rectal Suppository",
+    "ingredient_name": "Acetaminophen Rectal",
+    "manufacturer_name": "Acephen"
+  },
+  "acetaminophen 325 mg rectal suppository [acephen] [GENERIC]": {
+    "rxcui": "209360",
+    "name": "acetaminophen 325 MG Rectal Suppository [Acephen]",
+    "is_brand": false,
+    "mate_rxcui": "198437",
+    "mate_name": "acetaminophen 325 MG Rectal Suppository",
+    "ingredient_name": "Acetaminophen Rectal",
+    "manufacturer_name": "Acephen"
+  },
+  "acetaminophen 650 mg rectal suppository [acephen] [GENERIC]": {
+    "rxcui": "209363",
+    "name": "acetaminophen 650 MG Rectal Suppository [Acephen]",
+    "is_brand": false,
+    "mate_rxcui": "198443",
+    "mate_name": "acetaminophen 650 MG Rectal Suppository",
+    "ingredient_name": "Acetaminophen Rectal",
+    "manufacturer_name": "Acephen"
+  },
+  "acetaminophen 500 mg oral tablet [mapap] [GENERIC]": {
+    "rxcui": "209443",
+    "name": "acetaminophen 500 MG Oral Tablet [Mapap]",
+    "is_brand": false,
+    "mate_rxcui": "198440",
+    "mate_name": "acetaminophen 500 MG Oral Tablet",
+    "ingredient_name": "Acetaminophen",
+    "manufacturer_name": "Mapap"
+  },
+  "acetaminophen 80 mg chewable tablet [mapap] [GENERIC]": {
+    "rxcui": "209495",
+    "name": "acetaminophen 80 MG Chewable Tablet [Mapap]",
+    "is_brand": false,
+    "mate_rxcui": "307696",
+    "mate_name": "acetaminophen 80 MG Chewable Tablet",
+    "ingredient_name": "Acetaminophen Chewable",
+    "manufacturer_name": "Mapap"
+  },
+  "bisacodyl 10 mg rectal suppository [bisac-evac] [GENERIC]": {
+    "rxcui": "209597",
+    "name": "bisacodyl 10 MG Rectal Suppository [Bisac-Evac]",
+    "is_brand": false,
+    "mate_rxcui": "198509",
+    "mate_name": "bisacodyl 10 MG Rectal Suppository",
+    "ingredient_name": "Bisacodyl Rectal",
+    "manufacturer_name": "Bisac-Evac"
+  },
+  "acetaminophen 160 mg chewable tablet [mapap] [GENERIC]": {
+    "rxcui": "209870",
+    "name": "acetaminophen 160 MG Chewable Tablet [Mapap]",
+    "is_brand": false,
+    "mate_rxcui": "313820",
+    "mate_name": "acetaminophen 160 MG Chewable Tablet",
+    "ingredient_name": "Acetaminophen Chewable",
+    "manufacturer_name": "Mapap"
+  },
+  "acetaminophen 500 mg oral capsule [mapap] [GENERIC]": {
+    "rxcui": "209890",
+    "name": "acetaminophen 500 MG Oral Capsule [Mapap]",
+    "is_brand": false,
+    "mate_rxcui": "198439",
+    "mate_name": "acetaminophen 500 MG Oral Capsule",
+    "ingredient_name": "Acetaminophen",
+    "manufacturer_name": "Mapap"
+  },
+  "hailey fe 1.5-30 tablet [GENERIC]": {
+    "rxcui": "2099508",
+    "name": "HAILEY FE 1.5-30 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359023",
+    "mate_name": "",
+    "ingredient_name": "Hailey Fe -",
+    "manufacturer_name": ""
+  },
+  "aluminum hydroxide 80 mg/ml / magnesium hydroxide 80 mg/ml / simethicone 8 mg/ml oral suspension [almacone] [GENERIC]": {
+    "rxcui": "210000",
+    "name": "aluminum hydroxide 80 MG/ML / magnesium hydroxide 80 MG/ML / simethicone 8 MG/ML Oral Suspension [Almacone]",
+    "is_brand": false,
+    "mate_rxcui": "237870",
+    "mate_name": "aluminum hydroxide 80 MG/ML / magnesium hydroxide 80 MG/ML / simethicone 8 MG/ML Oral Suspension",
+    "ingredient_name": "Aluminum Hydroxide Mgml Magnesium Hydroxide Mgml Simethicone Mgml",
+    "manufacturer_name": "Almacone"
+  },
+  "salicylic acid 20 mg/ml / sulfur 20 mg/ml medicated shampoo [sebex] [GENERIC]": {
+    "rxcui": "210177",
+    "name": "salicylic acid 20 MG/ML / sulfur 20 MG/ML Medicated Shampoo [Sebex]",
+    "is_brand": false,
+    "mate_rxcui": "204638",
+    "mate_name": "salicylic acid 20 MG/ML / sulfur 20 MG/ML Medicated Shampoo",
+    "ingredient_name": "Salicylic Acid Mgml Sulfur Mgml Medicated",
+    "manufacturer_name": "Sebex"
+  },
+  "tri-vylibra lo tablet [GENERIC]": {
+    "rxcui": "2104192",
+    "name": "TRI-VYLIBRA LO TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749157",
+    "mate_name": "",
+    "ingredient_name": "Tri-Vylibra Lo",
+    "manufacturer_name": ""
+  },
+  "calcium polycarbophil 625 mg oral tablet [konsyl fiber] [GENERIC]": {
+    "rxcui": "210669",
+    "name": "calcium polycarbophil 625 MG Oral Tablet [Konsyl Fiber]",
+    "is_brand": false,
+    "mate_rxcui": "308934",
+    "mate_name": "calcium polycarbophil 625 MG Oral Tablet",
+    "ingredient_name": "Calcium Polycarbophil",
+    "manufacturer_name": "Konsyl Fiber"
+  },
+  "jasmiel 3 mg-0.02 mg tablet [GENERIC]": {
+    "rxcui": "2106997",
+    "name": "JASMIEL 3 MG-0.02 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748798",
+    "mate_name": "",
+    "ingredient_name": "Jasmiel -",
+    "manufacturer_name": ""
+  },
+  "tarina 24 fe 1 mg-20 mcg tab [GENERIC]": {
+    "rxcui": "2107008",
+    "name": "TARINA 24 FE 1 MG-20 MCG TAB",
+    "is_brand": false,
+    "mate_rxcui": "1359117",
+    "mate_name": "",
+    "ingredient_name": "Tarina Fe -",
+    "manufacturer_name": ""
+  },
+  "pulmonary hypertension tadalafil 20 mg oral tablet [alyq] [GENERIC]": {
+    "rxcui": "2110455",
+    "name": "Pulmonary Hypertension tadalafil 20 MG Oral Tablet [Alyq]",
+    "is_brand": false,
+    "mate_rxcui": "2123194",
+    "mate_name": "Pulmonary Hypertension tadalafil 20 MG Oral Tablet",
+    "ingredient_name": "Pulmonary Hypertension Tadalafil",
+    "manufacturer_name": "Alyq"
+  },
+  "60 actuat fluticasone propionate 0.1 mg/actuat / salmeterol 0.05 mg/actuat dry powder inhaler [wixela] [GENERIC]": {
+    "rxcui": "2110510",
+    "name": "60 ACTUAT fluticasone propionate 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Wixela]",
+    "is_brand": false,
+    "mate_rxcui": "896184",
+    "mate_name": "60 ACTUAT fluticasone propionate 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+    "ingredient_name": "Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Dry Inhaler",
+    "manufacturer_name": "Wixela"
+  },
+  "60 actuat fluticasone propionate 0.25 mg/actuat / salmeterol 0.05 mg/actuat dry powder inhaler [wixela] [GENERIC]": {
+    "rxcui": "2110513",
+    "name": "60 ACTUAT fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Wixela]",
+    "is_brand": false,
+    "mate_rxcui": "896209",
+    "mate_name": "60 ACTUAT fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+    "ingredient_name": "Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Dry Inhaler",
+    "manufacturer_name": "Wixela"
+  },
+  "60 actuat fluticasone propionate 0.5 mg/actuat / salmeterol 0.05 mg/actuat dry powder inhaler [wixela] [GENERIC]": {
+    "rxcui": "2110516",
+    "name": "60 ACTUAT fluticasone propionate 0.5 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Wixela]",
+    "is_brand": false,
+    "mate_rxcui": "896228",
+    "mate_name": "60 ACTUAT fluticasone propionate 0.5 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+    "ingredient_name": "Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Dry Inhaler",
+    "manufacturer_name": "Wixela"
+  },
+  "84 hr estradiol 0.00104 mg/hr transdermal system [dotti] [GENERIC]": {
+    "rxcui": "2110774",
+    "name": "84 HR estradiol 0.00104 MG/HR Transdermal System [Dotti]",
+    "is_brand": false,
+    "mate_rxcui": "248478",
+    "mate_name": "84 HR estradiol 0.00104 MG/HR Transdermal System",
+    "ingredient_name": "Hr Estradiol Mghr Transdermal System",
+    "manufacturer_name": "Dotti"
+  },
+  "84 hr estradiol 0.00156 mg/hr transdermal system [dotti] [GENERIC]": {
+    "rxcui": "2110777",
+    "name": "84 HR estradiol 0.00156 MG/HR Transdermal System [Dotti]",
+    "is_brand": false,
+    "mate_rxcui": "241946",
+    "mate_name": "84 HR estradiol 0.00156 MG/HR Transdermal System",
+    "ingredient_name": "Hr Estradiol Mghr Transdermal System",
+    "manufacturer_name": "Dotti"
+  },
+  "84 hr estradiol 0.00208 mg/hr transdermal system [dotti] [GENERIC]": {
+    "rxcui": "2110780",
+    "name": "84 HR estradiol 0.00208 MG/HR Transdermal System [Dotti]",
+    "is_brand": false,
+    "mate_rxcui": "242891",
+    "mate_name": "84 HR estradiol 0.00208 MG/HR Transdermal System",
+    "ingredient_name": "Hr Estradiol Mghr Transdermal System",
+    "manufacturer_name": "Dotti"
+  },
+  "84 hr estradiol 0.00313 mg/hr transdermal system [dotti] [GENERIC]": {
+    "rxcui": "2110783",
+    "name": "84 HR estradiol 0.00313 MG/HR Transdermal System [Dotti]",
+    "is_brand": false,
+    "mate_rxcui": "1149632",
+    "mate_name": "84 HR estradiol 0.00313 MG/HR Transdermal System",
+    "ingredient_name": "Hr Estradiol Mghr Transdermal System",
+    "manufacturer_name": "Dotti"
+  },
+  "84 hr estradiol 0.00417 mg/hr transdermal system [dotti] [GENERIC]": {
+    "rxcui": "2110786",
+    "name": "84 HR estradiol 0.00417 MG/HR Transdermal System [Dotti]",
+    "is_brand": false,
+    "mate_rxcui": "242892",
+    "mate_name": "84 HR estradiol 0.00417 MG/HR Transdermal System",
+    "ingredient_name": "Hr Estradiol Mghr Transdermal System",
+    "manufacturer_name": "Dotti"
+  },
+  "dimenhydrinate 50 mg oral tablet [driminate] [GENERIC]": {
+    "rxcui": "211482",
+    "name": "dimenhydrinate 50 MG Oral Tablet [Driminate]",
+    "is_brand": false,
+    "mate_rxcui": "198603",
+    "mate_name": "dimenhydrinate 50 MG Oral Tablet",
+    "ingredient_name": "Dimenhydrinate",
+    "manufacturer_name": "Driminate"
+  },
+  "hypromellose 5 mg/ml ophthalmic solution [isopto alkaline] [GENERIC]": {
+    "rxcui": "211609",
+    "name": "hypromellose 5 MG/ML Ophthalmic Solution [Isopto Alkaline]",
+    "is_brand": false,
+    "mate_rxcui": "142002",
+    "mate_name": "hypromellose 5 MG/ML Ophthalmic Solution",
+    "ingredient_name": "Hypromellose Mgml",
+    "manufacturer_name": "Isopto Alkaline"
+  },
+  "aluminum hydroxide 200 mg / magnesium hydroxide 200 mg / simethicone 25 mg chewable tablet [mintox plus] [GENERIC]": {
+    "rxcui": "211637",
+    "name": "aluminum hydroxide 200 MG / magnesium hydroxide 200 MG / simethicone 25 MG Chewable Tablet [Mintox Plus]",
+    "is_brand": false,
+    "mate_rxcui": "307747",
+    "mate_name": "aluminum hydroxide 200 MG / magnesium hydroxide 200 MG / simethicone 25 MG Chewable Tablet",
+    "ingredient_name": "Aluminum Hydroxide Magnesium Hydroxide Simethicone Chewable",
+    "manufacturer_name": "Mintox Plus"
+  },
+  "lojaimiess 0.1-0.02-0.01 tab [GENERIC]": {
+    "rxcui": "2117770",
+    "name": "LOJAIMIESS 0.1-0.02-0.01 TAB",
+    "is_brand": false,
+    "mate_rxcui": "810096",
+    "mate_name": "",
+    "ingredient_name": "Lojaimiess --",
+    "manufacturer_name": ""
+  },
+  "carbamazepine 200 mg oral tablet [epitol] [GENERIC]": {
+    "rxcui": "211817",
+    "name": "carbamazepine 200 MG Oral Tablet [Epitol]",
+    "is_brand": false,
+    "mate_rxcui": "308979",
+    "mate_name": "carbamazepine 200 MG Oral Tablet",
+    "ingredient_name": "Carbamazepine",
+    "manufacturer_name": "Epitol"
+  },
+  "aspirin 81 mg chewable tablet [st. joseph aspirin] [GENERIC]": {
+    "rxcui": "211832",
+    "name": "aspirin 81 MG Chewable Tablet [St. Joseph Aspirin]",
+    "is_brand": false,
+    "mate_rxcui": "318272",
+    "mate_name": "aspirin 81 MG Chewable Tablet",
+    "ingredient_name": "Aspirin Chewable",
+    "manufacturer_name": "St. Joseph Aspirin"
+  },
+  "guaifenesin 20 mg/ml oral solution [robafen] [GENERIC]": {
+    "rxcui": "213155",
+    "name": "guaifenesin 20 MG/ML Oral Solution [Robafen]",
+    "is_brand": false,
+    "mate_rxcui": "310604",
+    "mate_name": "guaifenesin 20 MG/ML Oral Solution",
+    "ingredient_name": "Guaifenesin Mgml",
+    "manufacturer_name": "Robafen"
+  },
+  "guaifenesin 20 mg/ml oral solution [siltussin] [GENERIC]": {
+    "rxcui": "213160",
+    "name": "guaifenesin 20 MG/ML Oral Solution [Siltussin]",
+    "is_brand": false,
+    "mate_rxcui": "310604",
+    "mate_name": "guaifenesin 20 MG/ML Oral Solution",
+    "ingredient_name": "Guaifenesin Mgml",
+    "manufacturer_name": "Siltussin"
+  },
+  "bacitracin 0.5 unt/mg / polymyxin b 10 unt/mg ophthalmic ointment [polycin] [GENERIC]": {
+    "rxcui": "213621",
+    "name": "bacitracin 0.5 UNT/MG / polymyxin B 10 UNT/MG Ophthalmic Ointment [Polycin]",
+    "is_brand": false,
+    "mate_rxcui": "308511",
+    "mate_name": "bacitracin 0.5 UNT/MG / polymyxin B 10 UNT/MG Ophthalmic Ointment",
+    "ingredient_name": "Bacitracin Untmg Polymyxin B Untmg",
+    "manufacturer_name": "Polycin"
+  },
+  "emollient clobetasol propionate 0.5 mg/ml topical foam [tovet] [GENERIC]": {
+    "rxcui": "2180345",
+    "name": "Emollient clobetasol propionate 0.5 MG/ML Topical Foam [Tovet]",
+    "is_brand": false,
+    "mate_rxcui": "1992273",
+    "mate_name": "Emollient clobetasol propionate 0.5 MG/ML Topical Foam",
+    "ingredient_name": "Emollient Clobetasol Propionate Mgml",
+    "manufacturer_name": "Tovet"
+  },
+  "dexbrompheniramine maleate 2 mg oral tablet [ala-hist ir] [GENERIC]": {
+    "rxcui": "2262295",
+    "name": "dexbrompheniramine maleate 2 MG Oral Tablet [Ala-Hist IR]",
+    "is_brand": false,
+    "mate_rxcui": "2262293",
+    "mate_name": "dexbrompheniramine maleate 2 MG Oral Tablet",
+    "ingredient_name": "Dexbrompheniramine Maleate",
+    "manufacturer_name": "Ala-Hist IR"
+  },
+  "21 day ethinyl estradiol 0.000625 mg/hr / etonogestrel 0.005 mg/hr vaginal system [eluryng] [GENERIC]": {
+    "rxcui": "2266506",
+    "name": "21 DAY ethinyl estradiol 0.000625 MG/HR / etonogestrel 0.005 MG/HR Vaginal System [EluRyng]",
+    "is_brand": false,
+    "mate_rxcui": "1367436",
+    "mate_name": "21 DAY ethinyl estradiol 0.000625 MG/HR / etonogestrel 0.005 MG/HR Vaginal System",
+    "ingredient_name": "Day Ethinyl Estradiol Mghr Etonogestrel Mghr Vaginal System",
+    "manufacturer_name": "EluRyng"
+  },
+  "charlotte 24 fe chewable tab [GENERIC]": {
+    "rxcui": "2280761",
+    "name": "CHARLOTTE 24 FE CHEWABLE TAB",
+    "is_brand": false,
+    "mate_rxcui": "1426600",
+    "mate_name": "",
+    "ingredient_name": "Charlotte Fe Chewable",
+    "manufacturer_name": ""
+  },
+  "lyleq 0.35 mg tablet [GENERIC]": {
+    "rxcui": "2397128",
+    "name": "LYLEQ 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Lyleq",
+    "manufacturer_name": ""
+  },
+  "84 hr estradiol 0.00104 mg/hr transdermal system [lyllana] [GENERIC]": {
+    "rxcui": "2399892",
+    "name": "84 HR estradiol 0.00104 MG/HR Transdermal System [Lyllana]",
+    "is_brand": false,
+    "mate_rxcui": "248478",
+    "mate_name": "84 HR estradiol 0.00104 MG/HR Transdermal System",
+    "ingredient_name": "Hr Estradiol Mghr Transdermal System",
+    "manufacturer_name": "Lyllana"
+  },
+  "84 hr estradiol 0.00156 mg/hr transdermal system [lyllana] [GENERIC]": {
+    "rxcui": "2399895",
+    "name": "84 HR estradiol 0.00156 MG/HR Transdermal System [Lyllana]",
+    "is_brand": false,
+    "mate_rxcui": "241946",
+    "mate_name": "84 HR estradiol 0.00156 MG/HR Transdermal System",
+    "ingredient_name": "Hr Estradiol Mghr Transdermal System",
+    "manufacturer_name": "Lyllana"
+  },
+  "84 hr estradiol 0.00208 mg/hr transdermal system [lyllana] [GENERIC]": {
+    "rxcui": "2399898",
+    "name": "84 HR estradiol 0.00208 MG/HR Transdermal System [Lyllana]",
+    "is_brand": false,
+    "mate_rxcui": "242891",
+    "mate_name": "84 HR estradiol 0.00208 MG/HR Transdermal System",
+    "ingredient_name": "Hr Estradiol Mghr Transdermal System",
+    "manufacturer_name": "Lyllana"
+  },
+  "84 hr estradiol 0.00313 mg/hr transdermal system [lyllana] [GENERIC]": {
+    "rxcui": "2399901",
+    "name": "84 HR estradiol 0.00313 MG/HR Transdermal System [Lyllana]",
+    "is_brand": false,
+    "mate_rxcui": "1149632",
+    "mate_name": "84 HR estradiol 0.00313 MG/HR Transdermal System",
+    "ingredient_name": "Hr Estradiol Mghr Transdermal System",
+    "manufacturer_name": "Lyllana"
+  },
+  "84 hr estradiol 0.00417 mg/hr transdermal system [lyllana] [GENERIC]": {
+    "rxcui": "2399904",
+    "name": "84 HR estradiol 0.00417 MG/HR Transdermal System [Lyllana]",
+    "is_brand": false,
+    "mate_rxcui": "242892",
+    "mate_name": "84 HR estradiol 0.00417 MG/HR Transdermal System",
+    "ingredient_name": "Hr Estradiol Mghr Transdermal System",
+    "manufacturer_name": "Lyllana"
+  },
+  "gemmily 1 mg-20 mcg capsule [GENERIC]": {
+    "rxcui": "2463741",
+    "name": "GEMMILY 1 MG-20 MCG CAPSULE",
+    "is_brand": false,
+    "mate_rxcui": "1421461",
+    "mate_name": "",
+    "ingredient_name": "Gemmily -",
+    "manufacturer_name": ""
+  },
+  "nymyo 0.25-0.035 mg (28) tab [GENERIC]": {
+    "rxcui": "2468058",
+    "name": "NYMYO 0.25-0.035 MG (28) TAB",
+    "is_brand": false,
+    "mate_rxcui": "749860",
+    "mate_name": "",
+    "ingredient_name": "Nymyo - ()",
+    "manufacturer_name": ""
+  },
+  "tri-nymyo 28 tablet [GENERIC]": {
+    "rxcui": "2471314",
+    "name": "TRI-NYMYO 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749784",
+    "mate_name": "",
+    "ingredient_name": "Tri-Nymyo",
+    "manufacturer_name": ""
+  },
+  "dolishale 90-20 mcg tablet [GENERIC]": {
+    "rxcui": "2472307",
+    "name": "DOLISHALE 90-20 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "751553",
+    "mate_name": "",
+    "ingredient_name": "Dolishale -",
+    "manufacturer_name": ""
+  },
+  "hexylresorcinol 2.4 mg oral lozenge [BRAND]": {
+    "rxcui": "247463",
+    "name": "hexylresorcinol 2.4 MG Oral Lozenge",
+    "is_brand": true,
+    "mate_rxcui": "1039673",
+    "mate_name": "hexylresorcinol 2.4 MG Oral Lozenge [Sucrets Original]",
+    "ingredient_name": "Hexylresorcinol Lozenge",
+    "manufacturer_name": ""
+  },
+  "168 hr ethinyl estradiol 0.00146 mg/hr / norelgestromin 0.00625 mg/hr transdermal system [zafemy] [GENERIC]": {
+    "rxcui": "2531285",
+    "name": "168 HR ethinyl estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System [Zafemy]",
+    "is_brand": false,
+    "mate_rxcui": "1534809",
+    "mate_name": "168 HR ethinyl estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System",
+    "ingredient_name": "Hr Ethinyl Estradiol Mghr Norelgestromin Mghr Transdermal System",
+    "manufacturer_name": "Zafemy"
+  },
+  "taysofy 1 mg-20 mcg capsule [GENERIC]": {
+    "rxcui": "2566439",
+    "name": "TAYSOFY 1 MG-20 MCG CAPSULE",
+    "is_brand": false,
+    "mate_rxcui": "1421461",
+    "mate_name": "",
+    "ingredient_name": "Taysofy -",
+    "manufacturer_name": ""
+  },
+  "diclofenac potassium 25 mg oral tablet [lofena] [GENERIC]": {
+    "rxcui": "2584350",
+    "name": "diclofenac potassium 25 MG Oral Tablet [Lofena]",
+    "is_brand": false,
+    "mate_rxcui": "857702",
+    "mate_name": "diclofenac potassium 25 MG Oral Tablet",
+    "ingredient_name": "Diclofenac Potassium",
+    "manufacturer_name": "Lofena"
+  },
+  "0.5 ml ganirelix acetate 0.5 mg/ml prefilled syringe [fyremadel] [GENERIC]": {
+    "rxcui": "2587594",
+    "name": "0.5 ML ganirelix acetate 0.5 MG/ML Prefilled Syringe [Fyremadel]",
+    "is_brand": false,
+    "mate_rxcui": "855200",
+    "mate_name": "0.5 ML ganirelix acetate 0.5 MG/ML Prefilled Syringe",
+    "ingredient_name": "Ganirelix Mgml Prefilled",
+    "manufacturer_name": "Fyremadel"
+  },
+  "merzee 1 mg-20 mcg capsule [GENERIC]": {
+    "rxcui": "2595466",
+    "name": "MERZEE 1 MG-20 MCG CAPSULE",
+    "is_brand": false,
+    "mate_rxcui": "1421461",
+    "mate_name": "",
+    "ingredient_name": "Merzee -",
+    "manufacturer_name": ""
+  },
+  "120 actuat budesonide 0.16 mg/actuat / formoterol fumarate 0.0045 mg/actuat metered dose inhaler [breyna] [GENERIC]": {
+    "rxcui": "2597670",
+    "name": "120 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol fumarate 0.0045 MG/ACTUAT Metered Dose Inhaler [Breyna]",
+    "is_brand": false,
+    "mate_rxcui": "1246304",
+    "mate_name": "120 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol fumarate 0.0045 MG/ACTUAT Metered Dose Inhaler",
+    "ingredient_name": "Actuat Budesonide Mgactuat Formoterol Fumarate Mgactuat Metered Dose Inhaler",
+    "manufacturer_name": "Breyna"
+  },
+  "120 actuat budesonide 0.08 mg/actuat / formoterol fumarate 0.0045 mg/actuat metered dose inhaler [breyna] [GENERIC]": {
+    "rxcui": "2597673",
+    "name": "120 ACTUAT budesonide 0.08 MG/ACTUAT / formoterol fumarate 0.0045 MG/ACTUAT Metered Dose Inhaler [Breyna]",
+    "is_brand": false,
+    "mate_rxcui": "1246288",
+    "mate_name": "120 ACTUAT budesonide 0.08 MG/ACTUAT / formoterol fumarate 0.0045 MG/ACTUAT Metered Dose Inhaler",
+    "ingredient_name": "Actuat Budesonide Mgactuat Formoterol Fumarate Mgactuat Metered Dose Inhaler",
+    "manufacturer_name": "Breyna"
+  },
+  "vitamin b12 1 mg/ml injectable solution [dodex] [GENERIC]": {
+    "rxcui": "2598453",
+    "name": "vitamin B12 1 MG/ML Injectable Solution [Dodex]",
+    "is_brand": false,
+    "mate_rxcui": "309594",
+    "mate_name": "vitamin B12 1 MG/ML Injectable Solution",
+    "ingredient_name": "Vitamin B Mgml Injectable",
+    "manufacturer_name": "Dodex"
+  },
+  "digoxin 0.125 mg oral tablet [digitek] [GENERIC]": {
+    "rxcui": "260350",
+    "name": "digoxin 0.125 MG Oral Tablet [Digitek]",
+    "is_brand": false,
+    "mate_rxcui": "197604",
+    "mate_name": "digoxin 0.125 MG Oral Tablet",
+    "ingredient_name": "Digoxin",
+    "manufacturer_name": "Digitek"
+  },
+  "digoxin 0.25 mg oral tablet [digitek] [GENERIC]": {
+    "rxcui": "260351",
+    "name": "digoxin 0.25 MG Oral Tablet [Digitek]",
+    "is_brand": false,
+    "mate_rxcui": "197606",
+    "mate_name": "digoxin 0.25 MG Oral Tablet",
+    "ingredient_name": "Digoxin",
+    "manufacturer_name": "Digitek"
+  },
+  "finzala 1-0.02(24)-75 chew tab [GENERIC]": {
+    "rxcui": "2608695",
+    "name": "FINZALA 1-0.02(24)-75 CHEW TAB",
+    "is_brand": false,
+    "mate_rxcui": "1426600",
+    "mate_name": "",
+    "ingredient_name": "Finzala -()- Chew",
+    "manufacturer_name": ""
+  },
+  "nystatin 100 unt/mg topical powder [nystop] [GENERIC]": {
+    "rxcui": "261178",
+    "name": "nystatin 100 UNT/MG Topical Powder [Nystop]",
+    "is_brand": false,
+    "mate_rxcui": "646456",
+    "mate_name": "nystatin 100 UNT/MG Topical Powder",
+    "ingredient_name": "Nystatin Untmg",
+    "manufacturer_name": "Nystop"
+  },
+  "clindamycin 10 mg/ml topical foam [clindacin] [GENERIC]": {
+    "rxcui": "2621717",
+    "name": "clindamycin 10 MG/ML Topical Foam [Clindacin]",
+    "is_brand": false,
+    "mate_rxcui": "477451",
+    "mate_name": "clindamycin 10 MG/ML Topical Foam",
+    "ingredient_name": "Clindamycin Mgml",
+    "manufacturer_name": "Clindacin"
+  },
+  "21 day ethinyl estradiol 0.000625 mg/hr / etonogestrel 0.005 mg/hr vaginal system [haloette] [GENERIC]": {
+    "rxcui": "2622921",
+    "name": "21 DAY ethinyl estradiol 0.000625 MG/HR / etonogestrel 0.005 MG/HR Vaginal System [Haloette]",
+    "is_brand": false,
+    "mate_rxcui": "1367436",
+    "mate_name": "21 DAY ethinyl estradiol 0.000625 MG/HR / etonogestrel 0.005 MG/HR Vaginal System",
+    "ingredient_name": "Day Ethinyl Estradiol Mghr Etonogestrel Mghr Vaginal System",
+    "manufacturer_name": "Haloette"
+  },
+  "emzahh 0.35 mg tablet [GENERIC]": {
+    "rxcui": "2626828",
+    "name": "EMZAHH 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Emzahh",
+    "manufacturer_name": ""
+  },
+  "levonorgestrel 1.5 mg oral tablet [curae] [GENERIC]": {
+    "rxcui": "2631024",
+    "name": "levonorgestrel 1.5 MG Oral Tablet [Curae]",
+    "is_brand": false,
+    "mate_rxcui": "483325",
+    "mate_name": "levonorgestrel 1.5 MG Oral Tablet",
+    "ingredient_name": "Levonorgestrel",
+    "manufacturer_name": "Curae"
+  },
+  "lidocaine 0.05 mg/mg medicated patch [lidocan] [GENERIC]": {
+    "rxcui": "2642344",
+    "name": "lidocaine 0.05 MG/MG Medicated Patch [Lidocan]",
+    "is_brand": false,
+    "mate_rxcui": "1745091",
+    "mate_name": "lidocaine 0.05 MG/MG Medicated Patch",
+    "ingredient_name": "Lidocaine Mgmg Medicated",
+    "manufacturer_name": "Lidocan"
+  },
+  "thyroid (usp) 120 mg oral tablet [niva thyroid] [GENERIC]": {
+    "rxcui": "2642816",
+    "name": "thyroid (USP) 120 MG Oral Tablet [Niva Thyroid]",
+    "is_brand": false,
+    "mate_rxcui": "208545",
+    "mate_name": "thyroid (USP) 120 MG Oral Tablet",
+    "ingredient_name": "Thyroid (Usp)",
+    "manufacturer_name": "Niva Thyroid"
+  },
+  "thyroid (usp) 15 mg oral tablet [niva thyroid] [GENERIC]": {
+    "rxcui": "2642818",
+    "name": "thyroid (USP) 15 MG Oral Tablet [Niva Thyroid]",
+    "is_brand": false,
+    "mate_rxcui": "314267",
+    "mate_name": "thyroid (USP) 15 MG Oral Tablet",
+    "ingredient_name": "Thyroid (Usp)",
+    "manufacturer_name": "Niva Thyroid"
+  },
+  "thyroid (usp) 30 mg oral tablet [niva thyroid] [GENERIC]": {
+    "rxcui": "2642824",
+    "name": "thyroid (USP) 30 MG Oral Tablet [Niva Thyroid]",
+    "is_brand": false,
+    "mate_rxcui": "313387",
+    "mate_name": "thyroid (USP) 30 MG Oral Tablet",
+    "ingredient_name": "Thyroid (Usp)",
+    "manufacturer_name": "Niva Thyroid"
+  },
+  "thyroid (usp) 60 mg oral tablet [niva thyroid] [GENERIC]": {
+    "rxcui": "2642828",
+    "name": "thyroid (USP) 60 MG Oral Tablet [Niva Thyroid]",
+    "is_brand": false,
+    "mate_rxcui": "313391",
+    "mate_name": "thyroid (USP) 60 MG Oral Tablet",
+    "ingredient_name": "Thyroid (Usp)",
+    "manufacturer_name": "Niva Thyroid"
+  },
+  "thyroid (usp) 90 mg oral tablet [niva thyroid] [GENERIC]": {
+    "rxcui": "2642830",
+    "name": "thyroid (USP) 90 MG Oral Tablet [Niva Thyroid]",
+    "is_brand": false,
+    "mate_rxcui": "313393",
+    "mate_name": "thyroid (USP) 90 MG Oral Tablet",
+    "ingredient_name": "Thyroid (Usp)",
+    "manufacturer_name": "Niva Thyroid"
+  },
+  "21 day ethinyl estradiol 0.000625 mg/hr / etonogestrel 0.005 mg/hr vaginal system [enilloring] [GENERIC]": {
+    "rxcui": "2644707",
+    "name": "21 DAY ethinyl estradiol 0.000625 MG/HR / etonogestrel 0.005 MG/HR Vaginal System [Enilloring]",
+    "is_brand": false,
+    "mate_rxcui": "1367436",
+    "mate_name": "21 DAY ethinyl estradiol 0.000625 MG/HR / etonogestrel 0.005 MG/HR Vaginal System",
+    "ingredient_name": "Day Ethinyl Estradiol Mghr Etonogestrel Mghr Vaginal System",
+    "manufacturer_name": "Enilloring"
+  },
+  "joyeaux-28 tablet [GENERIC]": {
+    "rxcui": "2645083",
+    "name": "JOYEAUX-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748868",
+    "mate_name": "",
+    "ingredient_name": "Joyeaux-",
+    "manufacturer_name": ""
+  },
+  "turqoz-28 tablet [GENERIC]": {
+    "rxcui": "2665903",
+    "name": "TURQOZ-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749786",
+    "mate_name": "",
+    "ingredient_name": "Turqoz-",
+    "manufacturer_name": ""
+  },
+  "lidocaine 0.05 mg/mg medicated patch [tridacaine] [GENERIC]": {
+    "rxcui": "2678310",
+    "name": "lidocaine 0.05 MG/MG Medicated Patch [Tridacaine]",
+    "is_brand": false,
+    "mate_rxcui": "1745091",
+    "mate_name": "lidocaine 0.05 MG/MG Medicated Patch",
+    "ingredient_name": "Lidocaine Mgmg Medicated",
+    "manufacturer_name": "Tridacaine"
+  },
+  "everolimus 10 mg oral tablet [torpenz] [GENERIC]": {
+    "rxcui": "2685204",
+    "name": "everolimus 10 MG Oral Tablet [Torpenz]",
+    "is_brand": false,
+    "mate_rxcui": "845507",
+    "mate_name": "everolimus 10 MG Oral Tablet",
+    "ingredient_name": "Everolimus",
+    "manufacturer_name": "Torpenz"
+  },
+  "everolimus 5 mg oral tablet [torpenz] [GENERIC]": {
+    "rxcui": "2685206",
+    "name": "everolimus 5 MG Oral Tablet [Torpenz]",
+    "is_brand": false,
+    "mate_rxcui": "845515",
+    "mate_name": "everolimus 5 MG Oral Tablet",
+    "ingredient_name": "Everolimus",
+    "manufacturer_name": "Torpenz"
+  },
+  "norethindrone acetate 5 mg oral tablet [gallifrey] [GENERIC]": {
+    "rxcui": "2696255",
+    "name": "norethindrone acetate 5 MG Oral Tablet [Gallifrey]",
+    "is_brand": false,
+    "mate_rxcui": "1000405",
+    "mate_name": "norethindrone acetate 5 MG Oral Tablet",
+    "ingredient_name": "Norethindrone",
+    "manufacturer_name": "Gallifrey"
+  },
+  "minzoya-28 tablet [GENERIC]": {
+    "rxcui": "2699611",
+    "name": "MINZOYA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "2672923",
+    "mate_name": "",
+    "ingredient_name": "Minzoya-",
+    "manufacturer_name": ""
+  },
+  "abiraterone acetate 250 mg oral tablet [abirtega] [GENERIC]": {
+    "rxcui": "2702601",
+    "name": "abiraterone acetate 250 MG Oral Tablet [Abirtega]",
+    "is_brand": false,
+    "mate_rxcui": "1100075",
+    "mate_name": "abiraterone acetate 250 MG Oral Tablet",
+    "ingredient_name": "Abiraterone",
+    "manufacturer_name": "Abirtega"
+  },
+  "xelria fe 0.4-0.035 mg chew tb [GENERIC]": {
+    "rxcui": "2703268",
+    "name": "XELRIA FE 0.4-0.035 MG CHEW TB",
+    "is_brand": false,
+    "mate_rxcui": "1095224",
+    "mate_name": "",
+    "ingredient_name": "Xelria Fe - Chew Tb",
+    "manufacturer_name": ""
+  },
+  "feirza 1 mg-20 mcg tablet [GENERIC]": {
+    "rxcui": "2703269",
+    "name": "FEIRZA 1 MG-20 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358763",
+    "mate_name": "",
+    "ingredient_name": "Feirza -",
+    "manufacturer_name": ""
+  },
+  "feirza 1.5 mg-30 mcg tablet [GENERIC]": {
+    "rxcui": "2703270",
+    "name": "FEIRZA 1.5 MG-30 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359023",
+    "mate_name": "",
+    "ingredient_name": "Feirza -",
+    "manufacturer_name": ""
+  },
+  "xarah fe 1 mg/20-30-35 mcg tab [GENERIC]": {
+    "rxcui": "2703554",
+    "name": "XARAH FE 1 MG/20-30-35 MCG TAB",
+    "is_brand": false,
+    "mate_rxcui": "1359132",
+    "mate_name": "",
+    "ingredient_name": "Xarah Fe --",
+    "manufacturer_name": ""
+  },
+  "galbriela 0.8-0.025 mg chew tb [GENERIC]": {
+    "rxcui": "2704559",
+    "name": "GALBRIELA 0.8-0.025 MG CHEW TB",
+    "is_brand": false,
+    "mate_rxcui": "1607990",
+    "mate_name": "",
+    "ingredient_name": "Galbriela - Chew Tb",
+    "manufacturer_name": ""
+  },
+  "orquidea 0.35 mg tablet [GENERIC]": {
+    "rxcui": "2704560",
+    "name": "ORQUIDEA 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Orquidea",
+    "manufacturer_name": ""
+  },
+  "valtya 1 mg-50 mcg tablet [GENERIC]": {
+    "rxcui": "2704562",
+    "name": "VALTYA 1 MG-50 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748806",
+    "mate_name": "",
+    "ingredient_name": "Valtya -",
+    "manufacturer_name": ""
+  },
+  "rosyrah tablet [GENERIC]": {
+    "rxcui": "2705814",
+    "name": "ROSYRAH TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1373503",
+    "mate_name": "",
+    "ingredient_name": "Rosyrah",
+    "manufacturer_name": ""
+  },
+  "abigale 1 mg-0.5 mg tablet [GENERIC]": {
+    "rxcui": "2706646",
+    "name": "ABIGALE 1 MG-0.5 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359127",
+    "mate_name": "",
+    "ingredient_name": "Abigale -",
+    "manufacturer_name": ""
+  },
+  "abigale lo 0.5-0.1 mg tablet [GENERIC]": {
+    "rxcui": "2706647",
+    "name": "ABIGALE LO 0.5-0.1 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359124",
+    "mate_name": "",
+    "ingredient_name": "Abigale Lo -",
+    "manufacturer_name": ""
+  },
+  "isotretinoin 30 mg oral capsule [amnesteem] [GENERIC]": {
+    "rxcui": "2711694",
+    "name": "isotretinoin 30 MG Oral Capsule [Amnesteem]",
+    "is_brand": false,
+    "mate_rxcui": "403930",
+    "mate_name": "isotretinoin 30 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Amnesteem"
+  },
+  "luizza 1.5 mg-30 mcg tablet [GENERIC]": {
+    "rxcui": "2712092",
+    "name": "LUIZZA 1.5 MG-30 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1359028",
+    "mate_name": "",
+    "ingredient_name": "Luizza -",
+    "manufacturer_name": ""
+  },
+  "luizza 1 mg-20 mcg tablet [GENERIC]": {
+    "rxcui": "2714657",
+    "name": "LUIZZA 1 MG-20 MCG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "1358776",
+    "mate_name": "",
+    "ingredient_name": "Luizza -",
+    "manufacturer_name": ""
+  },
+  "28 actuat teriparatide 0.02 mg/actuat pen injector [bonsity] [GENERIC]": {
+    "rxcui": "2716408",
+    "name": "28 ACTUAT teriparatide 0.02 MG/ACTUAT Pen Injector [Bonsity]",
+    "is_brand": false,
+    "mate_rxcui": "1435115",
+    "mate_name": "28 ACTUAT teriparatide 0.02 MG/ACTUAT Pen Injector",
+    "ingredient_name": "Actuat Teriparatide Mgactuat Pen Injector",
+    "manufacturer_name": "Bonsity"
+  },
+  "meleya 0.35 mg tablet [GENERIC]": {
+    "rxcui": "2716571",
+    "name": "MELEYA 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Meleya",
+    "manufacturer_name": ""
+  },
+  "flurbiprofen 100 mg oral tablet [lurbiro] [GENERIC]": {
+    "rxcui": "2720355",
+    "name": "flurbiprofen 100 MG Oral Tablet [Lurbiro]",
+    "is_brand": false,
+    "mate_rxcui": "197724",
+    "mate_name": "flurbiprofen 100 MG Oral Tablet",
+    "ingredient_name": "Flurbiprofen",
+    "manufacturer_name": "Lurbiro"
+  },
+  "prochlorperazine 25 mg rectal suppository [compro] [GENERIC]": {
+    "rxcui": "284254",
+    "name": "prochlorperazine 25 MG Rectal Suppository [Compro]",
+    "is_brand": false,
+    "mate_rxcui": "198159",
+    "mate_name": "prochlorperazine 25 MG Rectal Suppository",
+    "ingredient_name": "Prochlorperazine Rectal",
+    "manufacturer_name": "Compro"
+  },
+  "calcium polycarbophil 625 mg oral tablet [fiber tab] [GENERIC]": {
+    "rxcui": "284308",
+    "name": "calcium polycarbophil 625 MG Oral Tablet [Fiber Tab]",
+    "is_brand": false,
+    "mate_rxcui": "308934",
+    "mate_name": "calcium polycarbophil 625 MG Oral Tablet",
+    "ingredient_name": "Calcium Polycarbophil",
+    "manufacturer_name": "Fiber Tab"
+  },
+  "dextran 70 1 mg/ml / hypromellose 3 mg/ml ophthalmic solution [BRAND]": {
+    "rxcui": "309714",
+    "name": "dextran 70 1 MG/ML / hypromellose 3 MG/ML Ophthalmic Solution",
+    "is_brand": true,
+    "mate_rxcui": "1088217",
+    "mate_name": "dextran 70 1 MG/ML / hypromellose 3 MG/ML Ophthalmic Solution [Bion Tears]",
+    "ingredient_name": "Dextran Mgml Hypromellose Mgml",
+    "manufacturer_name": ""
+  },
+  "dimethicone 15 mg/ml topical cream [BRAND]": {
+    "rxcui": "309917",
+    "name": "dimethicone 15 MG/ML Topical Cream",
+    "is_brand": true,
+    "mate_rxcui": "1745860",
+    "mate_name": "dimethicone 15 MG/ML Topical Cream [Lantiseptic Nourishing Skin]",
+    "ingredient_name": "Dimethicone Mgml",
+    "manufacturer_name": ""
+  },
+  "hypromellose 0.003 mg/mg ophthalmic gel [BRAND]": {
+    "rxcui": "310932",
+    "name": "hypromellose 0.003 MG/MG Ophthalmic Gel",
+    "is_brand": true,
+    "mate_rxcui": "793204",
+    "mate_name": "hypromellose 0.003 MG/MG Ophthalmic Gel [GenTeal]",
+    "ingredient_name": "Hypromellose Mgmg",
+    "manufacturer_name": ""
+  },
+  "polyvinyl alcohol 0.014 ml/ml / povidone 6 mg/ml ophthalmic solution [BRAND]": {
+    "rxcui": "359969",
+    "name": "polyvinyl alcohol 0.014 ML/ML / povidone 6 MG/ML Ophthalmic Solution",
+    "is_brand": true,
+    "mate_rxcui": "1046287",
+    "mate_name": "polyvinyl alcohol 0.014 ML/ML / povidone 6 MG/ML Ophthalmic Solution [MiniDrops]",
+    "ingredient_name": "Polyvinyl Alcohol Mlml Povidone Mgml",
+    "manufacturer_name": ""
+  },
+  "isotretinoin 10 mg oral capsule [amnesteem] [GENERIC]": {
+    "rxcui": "404058",
+    "name": "isotretinoin 10 MG Oral Capsule [Amnesteem]",
+    "is_brand": false,
+    "mate_rxcui": "197843",
+    "mate_name": "isotretinoin 10 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Amnesteem"
+  },
+  "isotretinoin 10 mg oral capsule [claravis] [GENERIC]": {
+    "rxcui": "404059",
+    "name": "isotretinoin 10 MG Oral Capsule [Claravis]",
+    "is_brand": false,
+    "mate_rxcui": "197843",
+    "mate_name": "isotretinoin 10 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Claravis"
+  },
+  "isotretinoin 20 mg oral capsule [amnesteem] [GENERIC]": {
+    "rxcui": "404061",
+    "name": "isotretinoin 20 MG Oral Capsule [Amnesteem]",
+    "is_brand": false,
+    "mate_rxcui": "197844",
+    "mate_name": "isotretinoin 20 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Amnesteem"
+  },
+  "isotretinoin 20 mg oral capsule [claravis] [GENERIC]": {
+    "rxcui": "404062",
+    "name": "isotretinoin 20 MG Oral Capsule [Claravis]",
+    "is_brand": false,
+    "mate_rxcui": "197844",
+    "mate_name": "isotretinoin 20 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Claravis"
+  },
+  "isotretinoin 40 mg oral capsule [amnesteem] [GENERIC]": {
+    "rxcui": "404064",
+    "name": "isotretinoin 40 MG Oral Capsule [Amnesteem]",
+    "is_brand": false,
+    "mate_rxcui": "197845",
+    "mate_name": "isotretinoin 40 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Amnesteem"
+  },
+  "isotretinoin 40 mg oral capsule [claravis] [GENERIC]": {
+    "rxcui": "404065",
+    "name": "isotretinoin 40 MG Oral Capsule [Claravis]",
+    "is_brand": false,
+    "mate_rxcui": "197845",
+    "mate_name": "isotretinoin 40 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Claravis"
+  },
+  "sennosides, usp 15 mg oral tablet [perdiem overnight] [GENERIC]": {
+    "rxcui": "404318",
+    "name": "sennosides, USP 15 MG Oral Tablet [Perdiem Overnight]",
+    "is_brand": false,
+    "mate_rxcui": "200162",
+    "mate_name": "sennosides, USP 15 MG Oral Tablet",
+    "ingredient_name": "Sennosides, Usp",
+    "manufacturer_name": "Perdiem Overnight"
+  },
+  "hydrocortisone 10 mg/ml topical cream [procto-pak] [GENERIC]": {
+    "rxcui": "543492",
+    "name": "hydrocortisone 10 MG/ML Topical Cream [Procto-Pak]",
+    "is_brand": false,
+    "mate_rxcui": "106258",
+    "mate_name": "hydrocortisone 10 MG/ML Topical Cream",
+    "ingredient_name": "Hydrocortisone Mgml",
+    "manufacturer_name": "Procto-Pak"
+  },
+  "lactulose 667 mg/ml oral solution [constulose] [GENERIC]": {
+    "rxcui": "544452",
+    "name": "lactulose 667 MG/ML Oral Solution [Constulose]",
+    "is_brand": false,
+    "mate_rxcui": "391937",
+    "mate_name": "lactulose 667 MG/ML Oral Solution",
+    "ingredient_name": "Lactulose Mgml",
+    "manufacturer_name": "Constulose"
+  },
+  "lactulose 667 mg/ml oral solution [generlac] [GENERIC]": {
+    "rxcui": "544455",
+    "name": "lactulose 667 MG/ML Oral Solution [Generlac]",
+    "is_brand": false,
+    "mate_rxcui": "391937",
+    "mate_name": "lactulose 667 MG/ML Oral Solution",
+    "ingredient_name": "Lactulose Mgml",
+    "manufacturer_name": "Generlac"
+  },
+  "citric acid 128 mg/ml / sodium citrate 98 mg/ml oral solution [oracit] [GENERIC]": {
+    "rxcui": "544553",
+    "name": "citric acid 128 MG/ML / sodium citrate 98 MG/ML Oral Solution [Oracit]",
+    "is_brand": false,
+    "mate_rxcui": "544550",
+    "mate_name": "citric acid 128 MG/ML / sodium citrate 98 MG/ML Oral Solution",
+    "ingredient_name": "Citric Acid Mgml Sodium Citrate Mgml",
+    "manufacturer_name": "Oracit"
+  },
+  "gentamicin 0.003 mg/mg ophthalmic ointment [gentak] [GENERIC]": {
+    "rxcui": "545236",
+    "name": "gentamicin 0.003 MG/MG Ophthalmic Ointment [Gentak]",
+    "is_brand": false,
+    "mate_rxcui": "310466",
+    "mate_name": "gentamicin 0.003 MG/MG Ophthalmic Ointment",
+    "ingredient_name": "Gentamicin Mgmg",
+    "manufacturer_name": "Gentak"
+  },
+  "carboxymethylcellulose sodium 0.01 mg/mg ophthalmic gel [BRAND]": {
+    "rxcui": "579907",
+    "name": "carboxymethylcellulose sodium 0.01 MG/MG Ophthalmic Gel",
+    "is_brand": true,
+    "mate_rxcui": "998666",
+    "mate_name": "carboxymethylcellulose sodium 0.01 MG/MG Ophthalmic Gel [TheraTears]",
+    "ingredient_name": "Carboxymethylcellulose Sodium Mgmg",
+    "manufacturer_name": ""
+  },
+  "nystatin 100 unt/mg topical powder [nyamyc] [GENERIC]": {
+    "rxcui": "584414",
+    "name": "nystatin 100 UNT/MG Topical Powder [Nyamyc]",
+    "is_brand": false,
+    "mate_rxcui": "646456",
+    "mate_name": "nystatin 100 UNT/MG Topical Powder",
+    "ingredient_name": "Nystatin Untmg",
+    "manufacturer_name": "Nyamyc"
+  },
+  "simethicone 80 mg chewable tablet [mi-acid gas relief] [GENERIC]": {
+    "rxcui": "603288",
+    "name": "simethicone 80 MG Chewable Tablet [Mi-Acid Gas Relief]",
+    "is_brand": false,
+    "mate_rxcui": "314216",
+    "mate_name": "simethicone 80 MG Chewable Tablet",
+    "ingredient_name": "Simethicone Chewable",
+    "manufacturer_name": "Mi-Acid Gas Relief"
+  },
+  "nicotine 2 mg chewing gum [nicorelief] [GENERIC]": {
+    "rxcui": "605818",
+    "name": "nicotine 2 MG Chewing Gum [Nicorelief]",
+    "is_brand": false,
+    "mate_rxcui": "314119",
+    "mate_name": "nicotine 2 MG Chewing Gum",
+    "ingredient_name": "Nicotine Chewing Gum",
+    "manufacturer_name": "Nicorelief"
+  },
+  "sodium fluoride 0.011 mg/mg toothpaste [denta 5000 plus] [GENERIC]": {
+    "rxcui": "630196",
+    "name": "sodium fluoride 0.011 MG/MG Toothpaste [Denta 5000 Plus]",
+    "is_brand": false,
+    "mate_rxcui": "392038",
+    "mate_name": "sodium fluoride 0.011 MG/MG Toothpaste",
+    "ingredient_name": "Sodium Fluoride Mgmg Toothpaste",
+    "manufacturer_name": "Denta 5000 Plus"
+  },
+  "isotretinoin 30 mg oral capsule [claravis] [GENERIC]": {
+    "rxcui": "643488",
+    "name": "isotretinoin 30 MG Oral Capsule [Claravis]",
+    "is_brand": false,
+    "mate_rxcui": "403930",
+    "mate_name": "isotretinoin 30 MG Oral Capsule",
+    "ingredient_name": "Isotretinoin",
+    "manufacturer_name": "Claravis"
+  },
+  "potassium phosphate 155 mg / sodium phosphate, dibasic 852 mg / sodium phosphate, monobasic 130 mg oral tablet [phospha 250 neutral] [GENERIC]": {
+    "rxcui": "656742",
+    "name": "potassium phosphate 155 MG / sodium phosphate, dibasic 852 MG / sodium phosphate, monobasic 130 MG Oral Tablet [Phospha 250 Neutral]",
+    "is_brand": false,
+    "mate_rxcui": "200251",
+    "mate_name": "potassium phosphate 155 MG / sodium phosphate, dibasic 852 MG / sodium phosphate, monobasic 130 MG Oral Tablet",
+    "ingredient_name": "Potassium Phosphate Sodium Phosphate, Dibasic Sodium Phosphate, Monobasic",
+    "manufacturer_name": "Phospha 250 Neutral"
+  },
+  "menthol 0.02 mg/mg topical gel [mineral ice] [GENERIC]": {
+    "rxcui": "692869",
+    "name": "menthol 0.02 MG/MG Topical Gel [Mineral ice]",
+    "is_brand": false,
+    "mate_rxcui": "311502",
+    "mate_name": "menthol 0.02 MG/MG Topical Gel",
+    "ingredient_name": "Menthol Mgmg",
+    "manufacturer_name": "Mineral ice"
+  },
+  "mineral oil 0.03 mg/mg / petrolatum 0.94 mg/mg ophthalmic ointment [BRAND]": {
+    "rxcui": "706820",
+    "name": "mineral oil 0.03 MG/MG / petrolatum 0.94 MG/MG Ophthalmic Ointment",
+    "is_brand": true,
+    "mate_rxcui": "1089811",
+    "mate_name": "mineral oil 0.03 MG/MG / petrolatum 0.94 MG/MG Ophthalmic Ointment [Tears Naturale PM]",
+    "ingredient_name": "Mineral Oil Mgmg Petrolatum Mgmg",
+    "manufacturer_name": ""
+  },
+  "aluminum hydroxide 80 mg/ml / magnesium hydroxide 80 mg/ml / simethicone 8 mg/ml oral suspension [mintox plus] [GENERIC]": {
+    "rxcui": "708127",
+    "name": "aluminum hydroxide 80 MG/ML / magnesium hydroxide 80 MG/ML / simethicone 8 MG/ML Oral Suspension [Mintox Plus]",
+    "is_brand": false,
+    "mate_rxcui": "237870",
+    "mate_name": "aluminum hydroxide 80 MG/ML / magnesium hydroxide 80 MG/ML / simethicone 8 MG/ML Oral Suspension",
+    "ingredient_name": "Aluminum Hydroxide Mgml Magnesium Hydroxide Mgml Simethicone Mgml",
+    "manufacturer_name": "Mintox Plus"
+  },
+  "zovia 1-35 tablet [GENERIC]": {
+    "rxcui": "748859",
+    "name": "ZOVIA 1-35 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748804",
+    "mate_name": "",
+    "ingredient_name": "Zovia -",
+    "manufacturer_name": ""
+  },
+  "trivora-28 tablet [GENERIC]": {
+    "rxcui": "748865",
+    "name": "TRIVORA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748832",
+    "mate_name": "",
+    "ingredient_name": "Trivora-",
+    "manufacturer_name": ""
+  },
+  "levora-28 tablet [GENERIC]": {
+    "rxcui": "748879",
+    "name": "LEVORA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748878",
+    "mate_name": "",
+    "ingredient_name": "Levora-",
+    "manufacturer_name": ""
+  },
+  "camila 0.35 mg tablet [GENERIC]": {
+    "rxcui": "748962",
+    "name": "CAMILA 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Camila",
+    "manufacturer_name": ""
+  },
+  "nora-be tablet [GENERIC]": {
+    "rxcui": "748977",
+    "name": "NORA-BE TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Nora-Be",
+    "manufacturer_name": ""
+  },
+  "leena 28 tablet [GENERIC]": {
+    "rxcui": "749148",
+    "name": "LEENA 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "823777",
+    "mate_name": "",
+    "ingredient_name": "Leena",
+    "manufacturer_name": ""
+  },
+  "aspirin 81 mg delayed release oral tablet [st. joseph aspirin] [GENERIC]": {
+    "rxcui": "749795",
+    "name": "aspirin 81 MG Delayed Release Oral Tablet [St. Joseph Aspirin]",
+    "is_brand": false,
+    "mate_rxcui": "308416",
+    "mate_name": "aspirin 81 MG Delayed Release Oral Tablet",
+    "ingredient_name": "Aspirin Delayed Release",
+    "manufacturer_name": "St. Joseph Aspirin"
+  },
+  "low-ogestrel-28 tablet [GENERIC]": {
+    "rxcui": "750244",
+    "name": "LOW-OGESTREL-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749786",
+    "mate_name": "",
+    "ingredient_name": "Low-Ogestrel-",
+    "manufacturer_name": ""
+  },
+  "cryselle-28 tablet [GENERIC]": {
+    "rxcui": "750265",
+    "name": "CRYSELLE-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749786",
+    "mate_name": "",
+    "ingredient_name": "Cryselle-",
+    "manufacturer_name": ""
+  },
+  "aranelle 28 tablet [GENERIC]": {
+    "rxcui": "750267",
+    "name": "ARANELLE 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "823777",
+    "mate_name": "",
+    "ingredient_name": "Aranelle",
+    "manufacturer_name": ""
+  },
+  "aviane-28 tablet [GENERIC]": {
+    "rxcui": "750268",
+    "name": "AVIANE-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748868",
+    "mate_name": "",
+    "ingredient_name": "Aviane-",
+    "manufacturer_name": ""
+  },
+  "nortrel 0.5-35-28 tablet [GENERIC]": {
+    "rxcui": "751868",
+    "name": "NORTREL 0.5-35-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749879",
+    "mate_name": "",
+    "ingredient_name": "Nortrel --",
+    "manufacturer_name": ""
+  },
+  "nortrel 1-35 28 tablet [GENERIC]": {
+    "rxcui": "751870",
+    "name": "NORTREL 1-35 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749858",
+    "mate_name": "",
+    "ingredient_name": "Nortrel -",
+    "manufacturer_name": ""
+  },
+  "nortrel 1-35 21 tablet [GENERIC]": {
+    "rxcui": "751871",
+    "name": "NORTREL 1-35 21 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749869",
+    "mate_name": "",
+    "ingredient_name": "Nortrel -",
+    "manufacturer_name": ""
+  },
+  "necon 0.5-35-28 tablet [GENERIC]": {
+    "rxcui": "751875",
+    "name": "NECON 0.5-35-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749879",
+    "mate_name": "",
+    "ingredient_name": "Necon --",
+    "manufacturer_name": ""
+  },
+  "lutera-28 tablet [GENERIC]": {
+    "rxcui": "751884",
+    "name": "LUTERA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748868",
+    "mate_name": "",
+    "ingredient_name": "Lutera-",
+    "manufacturer_name": ""
+  },
+  "lessina-28 tablet [GENERIC]": {
+    "rxcui": "751885",
+    "name": "LESSINA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748868",
+    "mate_name": "",
+    "ingredient_name": "Lessina-",
+    "manufacturer_name": ""
+  },
+  "portia-28 tablet [GENERIC]": {
+    "rxcui": "751890",
+    "name": "PORTIA-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748878",
+    "mate_name": "",
+    "ingredient_name": "Portia-",
+    "manufacturer_name": ""
+  },
+  "previfem tablet [GENERIC]": {
+    "rxcui": "753478",
+    "name": "PREVIFEM TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749860",
+    "mate_name": "",
+    "ingredient_name": "Previfem",
+    "manufacturer_name": ""
+  },
+  "tri-previfem tablet [GENERIC]": {
+    "rxcui": "753479",
+    "name": "TRI-PREVIFEM TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749784",
+    "mate_name": "",
+    "ingredient_name": "Tri-Previfem",
+    "manufacturer_name": ""
+  },
+  "sprintec 28 day tablet [GENERIC]": {
+    "rxcui": "753481",
+    "name": "SPRINTEC 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749860",
+    "mate_name": "",
+    "ingredient_name": "Sprintec Day",
+    "manufacturer_name": ""
+  },
+  "apri 28 day tablet [GENERIC]": {
+    "rxcui": "753482",
+    "name": "APRI 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749848",
+    "mate_name": "",
+    "ingredient_name": "Apri Day",
+    "manufacturer_name": ""
+  },
+  "kelnor 1-35 28 tablet [GENERIC]": {
+    "rxcui": "753483",
+    "name": "KELNOR 1-35 28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748804",
+    "mate_name": "",
+    "ingredient_name": "Kelnor -",
+    "manufacturer_name": ""
+  },
+  "reclipsen 28 day tablet [GENERIC]": {
+    "rxcui": "753543",
+    "name": "RECLIPSEN 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749848",
+    "mate_name": "",
+    "ingredient_name": "Reclipsen Day",
+    "manufacturer_name": ""
+  },
+  "sronyx 0.10-0.02 mg tablet [GENERIC]": {
+    "rxcui": "753544",
+    "name": "SRONYX 0.10-0.02 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748868",
+    "mate_name": "",
+    "ingredient_name": "Sronyx -",
+    "manufacturer_name": ""
+  },
+  "lactulose 667 mg/ml oral solution [enulose] [GENERIC]": {
+    "rxcui": "755470",
+    "name": "lactulose 667 MG/ML Oral Solution [Enulose]",
+    "is_brand": false,
+    "mate_rxcui": "391937",
+    "mate_name": "lactulose 667 MG/ML Oral Solution",
+    "ingredient_name": "Lactulose Mgml",
+    "manufacturer_name": "Enulose"
+  },
+  "enpresse-28 tablet [GENERIC]": {
+    "rxcui": "761977",
+    "name": "ENPRESSE-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748832",
+    "mate_name": "",
+    "ingredient_name": "Enpresse-",
+    "manufacturer_name": ""
+  },
+  "kariva 28 day tablet [GENERIC]": {
+    "rxcui": "762001",
+    "name": "KARIVA 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "759743",
+    "mate_name": "",
+    "ingredient_name": "Kariva Day",
+    "manufacturer_name": ""
+  },
+  "nortrel 7-7-7-28 tablet [GENERIC]": {
+    "rxcui": "762007",
+    "name": "NORTREL 7-7-7-28 TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749852",
+    "mate_name": "",
+    "ingredient_name": "Nortrel ---",
+    "manufacturer_name": ""
+  },
+  "tri-sprintec tablet [GENERIC]": {
+    "rxcui": "762333",
+    "name": "TRI-SPRINTEC TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749784",
+    "mate_name": "",
+    "ingredient_name": "Tri-Sprintec",
+    "manufacturer_name": ""
+  },
+  "velivet 28 day tablet [GENERIC]": {
+    "rxcui": "762334",
+    "name": "VELIVET 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "759742",
+    "mate_name": "",
+    "ingredient_name": "Velivet Day",
+    "manufacturer_name": ""
+  },
+  "jolessa 0.15 mg-0.03 mg tablet [GENERIC]": {
+    "rxcui": "762663",
+    "name": "JOLESSA 0.15 MG-0.03 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "751901",
+    "mate_name": "",
+    "ingredient_name": "Jolessa -",
+    "manufacturer_name": ""
+  },
+  "sennosides, usp 8.6 mg oral tablet [senna-time] [GENERIC]": {
+    "rxcui": "763296",
+    "name": "sennosides, USP 8.6 MG Oral Tablet [Senna-Time]",
+    "is_brand": false,
+    "mate_rxcui": "312935",
+    "mate_name": "sennosides, USP 8.6 MG Oral Tablet",
+    "ingredient_name": "Sennosides, Usp",
+    "manufacturer_name": "Senna-Time"
+  },
+  "sodium polystyrene sulfonate 250 mg/ml oral suspension [kionex] [GENERIC]": {
+    "rxcui": "793741",
+    "name": "sodium polystyrene sulfonate 250 MG/ML Oral Suspension [Kionex]",
+    "is_brand": false,
+    "mate_rxcui": "313072",
+    "mate_name": "sodium polystyrene sulfonate 250 MG/ML Oral Suspension",
+    "ingredient_name": "Sodium Polystyrene Sulfonate Mgml",
+    "manufacturer_name": "Kionex"
+  },
+  "caffeine 200 mg oral tablet [no doz] [GENERIC]": {
+    "rxcui": "795925",
+    "name": "caffeine 200 MG Oral Tablet [No Doz]",
+    "is_brand": false,
+    "mate_rxcui": "198520",
+    "mate_name": "caffeine 200 MG Oral Tablet",
+    "ingredient_name": "Caffeine",
+    "manufacturer_name": "No Doz"
+  },
+  "erythromycin 20 mg/ml medicated pad [ery] [GENERIC]": {
+    "rxcui": "798133",
+    "name": "erythromycin 20 MG/ML Medicated Pad [Ery]",
+    "is_brand": false,
+    "mate_rxcui": "797452",
+    "mate_name": "erythromycin 20 MG/ML Medicated Pad",
+    "ingredient_name": "Erythromycin Mgml Medicated Pad",
+    "manufacturer_name": "Ery"
+  },
+  "ocella 3 mg-0.03 mg tablet [GENERIC]": {
+    "rxcui": "801185",
+    "name": "OCELLA 3 MG-0.03 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748800",
+    "mate_name": "",
+    "ingredient_name": "Ocella -",
+    "manufacturer_name": ""
+  },
+  "24 hr diltiazem hydrochloride 120 mg extended release oral capsule [taztia] [GENERIC]": {
+    "rxcui": "831196",
+    "name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule [Taztia]",
+    "is_brand": false,
+    "mate_rxcui": "830861",
+    "mate_name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Taztia"
+  },
+  "24 hr diltiazem hydrochloride 120 mg extended release oral capsule [dilt] [GENERIC]": {
+    "rxcui": "831215",
+    "name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule [Dilt]",
+    "is_brand": false,
+    "mate_rxcui": "830861",
+    "mate_name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Dilt"
+  },
+  "24 hr diltiazem hydrochloride 120 mg extended release oral capsule [cartia] [GENERIC]": {
+    "rxcui": "831226",
+    "name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule [Cartia]",
+    "is_brand": false,
+    "mate_rxcui": "830861",
+    "mate_name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Cartia"
+  },
+  "24 hr diltiazem hydrochloride 180 mg extended release oral capsule [taztia] [GENERIC]": {
+    "rxcui": "831248",
+    "name": "24 HR diltiazem hydrochloride 180 MG Extended Release Oral Capsule [Taztia]",
+    "is_brand": false,
+    "mate_rxcui": "830845",
+    "mate_name": "24 HR diltiazem hydrochloride 180 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Taztia"
+  },
+  "24 hr diltiazem hydrochloride 180 mg extended release oral capsule [dilt] [GENERIC]": {
+    "rxcui": "831252",
+    "name": "24 HR diltiazem hydrochloride 180 MG Extended Release Oral Capsule [Dilt]",
+    "is_brand": false,
+    "mate_rxcui": "830845",
+    "mate_name": "24 HR diltiazem hydrochloride 180 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Dilt"
+  },
+  "24 hr diltiazem hydrochloride 180 mg extended release oral capsule [cartia] [GENERIC]": {
+    "rxcui": "831255",
+    "name": "24 HR diltiazem hydrochloride 180 MG Extended Release Oral Capsule [Cartia]",
+    "is_brand": false,
+    "mate_rxcui": "830845",
+    "mate_name": "24 HR diltiazem hydrochloride 180 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Cartia"
+  },
+  "24 hr diltiazem hydrochloride 240 mg extended release oral capsule [dilt] [GENERIC]": {
+    "rxcui": "831285",
+    "name": "24 HR diltiazem hydrochloride 240 MG Extended Release Oral Capsule [Dilt]",
+    "is_brand": false,
+    "mate_rxcui": "830837",
+    "mate_name": "24 HR diltiazem hydrochloride 240 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Dilt"
+  },
+  "24 hr diltiazem hydrochloride 240 mg extended release oral capsule [taztia] [GENERIC]": {
+    "rxcui": "831300",
+    "name": "24 HR diltiazem hydrochloride 240 MG Extended Release Oral Capsule [Taztia]",
+    "is_brand": false,
+    "mate_rxcui": "830837",
+    "mate_name": "24 HR diltiazem hydrochloride 240 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Taztia"
+  },
+  "24 hr diltiazem hydrochloride 240 mg extended release oral capsule [cartia] [GENERIC]": {
+    "rxcui": "831309",
+    "name": "24 HR diltiazem hydrochloride 240 MG Extended Release Oral Capsule [Cartia]",
+    "is_brand": false,
+    "mate_rxcui": "830837",
+    "mate_name": "24 HR diltiazem hydrochloride 240 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Cartia"
+  },
+  "24 hr diltiazem hydrochloride 300 mg extended release oral capsule [taztia] [GENERIC]": {
+    "rxcui": "831325",
+    "name": "24 HR diltiazem hydrochloride 300 MG Extended Release Oral Capsule [Taztia]",
+    "is_brand": false,
+    "mate_rxcui": "830801",
+    "mate_name": "24 HR diltiazem hydrochloride 300 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Taztia"
+  },
+  "24 hr diltiazem hydrochloride 300 mg extended release oral capsule [cartia] [GENERIC]": {
+    "rxcui": "831338",
+    "name": "24 HR diltiazem hydrochloride 300 MG Extended Release Oral Capsule [Cartia]",
+    "is_brand": false,
+    "mate_rxcui": "830801",
+    "mate_name": "24 HR diltiazem hydrochloride 300 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Cartia"
+  },
+  "24 hr diltiazem hydrochloride 360 mg extended release oral capsule [taztia] [GENERIC]": {
+    "rxcui": "831349",
+    "name": "24 HR diltiazem hydrochloride 360 MG Extended Release Oral Capsule [Taztia]",
+    "is_brand": false,
+    "mate_rxcui": "830795",
+    "mate_name": "24 HR diltiazem hydrochloride 360 MG Extended Release Oral Capsule",
+    "ingredient_name": "Hr Diltiazem Hydrochloride Extended Release",
+    "manufacturer_name": "Taztia"
+  },
+  "errin 0.35 mg tablet [GENERIC]": {
+    "rxcui": "831533",
+    "name": "ERRIN 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Errin",
+    "manufacturer_name": ""
+  },
+  "azurette 28 day tablet [GENERIC]": {
+    "rxcui": "831872",
+    "name": "AZURETTE 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "759743",
+    "mate_name": "",
+    "ingredient_name": "Azurette Day",
+    "manufacturer_name": ""
+  },
+  "chlorhexidine gluconate 40 mg/ml medicated liquid soap [betasept] [GENERIC]": {
+    "rxcui": "834150",
+    "name": "chlorhexidine gluconate 40 MG/ML Medicated Liquid Soap [Betasept]",
+    "is_brand": false,
+    "mate_rxcui": "211365",
+    "mate_name": "chlorhexidine gluconate 40 MG/ML Medicated Liquid Soap",
+    "ingredient_name": "Chlorhexidine Gluconate Mgml Medicated Soap",
+    "manufacturer_name": "Betasept"
+  },
+  "caziant 28 day tablet [GENERIC]": {
+    "rxcui": "834768",
+    "name": "CAZIANT 28 DAY TABLET",
+    "is_brand": false,
+    "mate_rxcui": "759742",
+    "mate_name": "",
+    "ingredient_name": "Caziant Day",
+    "manufacturer_name": ""
+  },
+  "ascorbic acid 120 mg / docusate sodium 50 mg / folic acid 1 mg / iron carbonyl 90 mg / vitamin b12 0.012 mg oral tablet [ferralet 90] [GENERIC]": {
+    "rxcui": "836270",
+    "name": "ascorbic acid 120 MG / docusate sodium 50 MG / folic acid 1 MG / iron carbonyl 90 MG / vitamin B12 0.012 MG Oral Tablet [Ferralet 90]",
+    "is_brand": false,
+    "mate_rxcui": "836268",
+    "mate_name": "ascorbic acid 120 MG / docusate sodium 50 MG / folic acid 1 MG / iron carbonyl 90 MG / vitamin B12 0.012 MG Oral Tablet",
+    "ingredient_name": "Ascorbic Acid Docusate Sodium Folic Acid Iron Carbonyl Vitamin B",
+    "manufacturer_name": "Ferralet 90"
+  },
+  "sugar-free cholestyramine resin 4000 mg powder for oral suspension [prevalite] [GENERIC]": {
+    "rxcui": "848951",
+    "name": "Sugar-Free cholestyramine resin 4000 MG Powder for Oral Suspension [Prevalite]",
+    "is_brand": false,
+    "mate_rxcui": "1801279",
+    "mate_name": "Sugar-Free cholestyramine resin 4000 MG Powder for Oral Suspension",
+    "ingredient_name": "Sugar-Free Cholestyramine Resin For",
+    "manufacturer_name": "Prevalite"
+  },
+  "warfarin sodium 1 mg oral tablet [jantoven] [GENERIC]": {
+    "rxcui": "855292",
+    "name": "warfarin sodium 1 MG Oral Tablet [Jantoven]",
+    "is_brand": false,
+    "mate_rxcui": "855288",
+    "mate_name": "warfarin sodium 1 MG Oral Tablet",
+    "ingredient_name": "Warfarin Sodium",
+    "manufacturer_name": "Jantoven"
+  },
+  "warfarin sodium 10 mg oral tablet [jantoven] [GENERIC]": {
+    "rxcui": "855300",
+    "name": "warfarin sodium 10 MG Oral Tablet [Jantoven]",
+    "is_brand": false,
+    "mate_rxcui": "855296",
+    "mate_name": "warfarin sodium 10 MG Oral Tablet",
+    "ingredient_name": "Warfarin Sodium",
+    "manufacturer_name": "Jantoven"
+  },
+  "warfarin sodium 2 mg oral tablet [jantoven] [GENERIC]": {
+    "rxcui": "855306",
+    "name": "warfarin sodium 2 MG Oral Tablet [Jantoven]",
+    "is_brand": false,
+    "mate_rxcui": "855302",
+    "mate_name": "warfarin sodium 2 MG Oral Tablet",
+    "ingredient_name": "Warfarin Sodium",
+    "manufacturer_name": "Jantoven"
+  },
+  "warfarin sodium 2.5 mg oral tablet [jantoven] [GENERIC]": {
+    "rxcui": "855316",
+    "name": "warfarin sodium 2.5 MG Oral Tablet [Jantoven]",
+    "is_brand": false,
+    "mate_rxcui": "855312",
+    "mate_name": "warfarin sodium 2.5 MG Oral Tablet",
+    "ingredient_name": "Warfarin Sodium",
+    "manufacturer_name": "Jantoven"
+  },
+  "warfarin sodium 3 mg oral tablet [jantoven] [GENERIC]": {
+    "rxcui": "855322",
+    "name": "warfarin sodium 3 MG Oral Tablet [Jantoven]",
+    "is_brand": false,
+    "mate_rxcui": "855318",
+    "mate_name": "warfarin sodium 3 MG Oral Tablet",
+    "ingredient_name": "Warfarin Sodium",
+    "manufacturer_name": "Jantoven"
+  },
+  "warfarin sodium 4 mg oral tablet [jantoven] [GENERIC]": {
+    "rxcui": "855328",
+    "name": "warfarin sodium 4 MG Oral Tablet [Jantoven]",
+    "is_brand": false,
+    "mate_rxcui": "855324",
+    "mate_name": "warfarin sodium 4 MG Oral Tablet",
+    "ingredient_name": "Warfarin Sodium",
+    "manufacturer_name": "Jantoven"
+  },
+  "warfarin sodium 5 mg oral tablet [jantoven] [GENERIC]": {
+    "rxcui": "855336",
+    "name": "warfarin sodium 5 MG Oral Tablet [Jantoven]",
+    "is_brand": false,
+    "mate_rxcui": "855332",
+    "mate_name": "warfarin sodium 5 MG Oral Tablet",
+    "ingredient_name": "Warfarin Sodium",
+    "manufacturer_name": "Jantoven"
+  },
+  "warfarin sodium 6 mg oral tablet [jantoven] [GENERIC]": {
+    "rxcui": "855342",
+    "name": "warfarin sodium 6 MG Oral Tablet [Jantoven]",
+    "is_brand": false,
+    "mate_rxcui": "855338",
+    "mate_name": "warfarin sodium 6 MG Oral Tablet",
+    "ingredient_name": "Warfarin Sodium",
+    "manufacturer_name": "Jantoven"
+  },
+  "warfarin sodium 7.5 mg oral tablet [jantoven] [GENERIC]": {
+    "rxcui": "855348",
+    "name": "warfarin sodium 7.5 MG Oral Tablet [Jantoven]",
+    "is_brand": false,
+    "mate_rxcui": "855344",
+    "mate_name": "warfarin sodium 7.5 MG Oral Tablet",
+    "ingredient_name": "Warfarin Sodium",
+    "manufacturer_name": "Jantoven"
+  },
+  "tri-lo-sprintec tablet [GENERIC]": {
+    "rxcui": "856467",
+    "name": "TRI-LO-SPRINTEC TABLET",
+    "is_brand": false,
+    "mate_rxcui": "749157",
+    "mate_name": "",
+    "ingredient_name": "Tri-Lo-Sprintec",
+    "manufacturer_name": ""
+  },
+  "hydrocodone bitartrate 10 mg / ibuprofen 200 mg oral tablet [ibudone] [GENERIC]": {
+    "rxcui": "859317",
+    "name": "hydrocodone bitartrate 10 MG / ibuprofen 200 MG Oral Tablet [Ibudone]",
+    "is_brand": false,
+    "mate_rxcui": "859315",
+    "mate_name": "hydrocodone bitartrate 10 MG / ibuprofen 200 MG Oral Tablet",
+    "ingredient_name": "Hydrocodone Bitartrate Ibuprofen",
+    "manufacturer_name": "Ibudone"
+  },
+  "polyethylene glycol 3350 17000 mg powder for oral solution [gavilax] [GENERIC]": {
+    "rxcui": "876214",
+    "name": "polyethylene glycol 3350 17000 MG Powder for Oral Solution [Gavilax]",
+    "is_brand": false,
+    "mate_rxcui": "876193",
+    "mate_name": "polyethylene glycol 3350 17000 MG Powder for Oral Solution",
+    "ingredient_name": "Polyethylene Glycol For",
+    "manufacturer_name": "Gavilax"
+  },
+  "polyethylene glycol 3350 17000 mg powder for oral solution [clearlax] [GENERIC]": {
+    "rxcui": "880407",
+    "name": "polyethylene glycol 3350 17000 MG Powder for Oral Solution [ClearLax]",
+    "is_brand": false,
+    "mate_rxcui": "876193",
+    "mate_name": "polyethylene glycol 3350 17000 MG Powder for Oral Solution",
+    "ingredient_name": "Polyethylene Glycol For",
+    "manufacturer_name": "ClearLax"
+  },
+  "chorionic gonadotropin 10000 unt/ml injectable solution [BRAND]": {
+    "rxcui": "896854",
+    "name": "chorionic gonadotropin 10000 UNT/ML Injectable Solution",
+    "is_brand": true,
+    "mate_rxcui": "896856",
+    "mate_name": "chorionic gonadotropin 10000 UNT/ML Injectable Solution [Pregnyl]",
+    "ingredient_name": "Chorionic Gonadotropin Untml Injectable",
+    "manufacturer_name": ""
+  },
+  "dextran 70 1 mg/ml / glycerin 2 mg/ml / hypromellose 3 mg/ml ophthalmic solution [BRAND]": {
+    "rxcui": "900138",
+    "name": "dextran 70 1 MG/ML / glycerin 2 MG/ML / hypromellose 3 MG/ML Ophthalmic Solution",
+    "is_brand": true,
+    "mate_rxcui": "900141",
+    "mate_name": "dextran 70 1 MG/ML / glycerin 2 MG/ML / hypromellose 3 MG/ML Ophthalmic Solution [Tears Naturale Forte]",
+    "ingredient_name": "Dextran Mgml Glycerin Mgml Hypromellose Mgml",
+    "manufacturer_name": ""
+  },
+  "sodium fluoride 0.55 mg chewable tablet [ludent] [GENERIC]": {
+    "rxcui": "901280",
+    "name": "sodium fluoride 0.55 MG Chewable Tablet [Ludent]",
+    "is_brand": false,
+    "mate_rxcui": "198215",
+    "mate_name": "sodium fluoride 0.55 MG Chewable Tablet",
+    "ingredient_name": "Sodium Fluoride Chewable",
+    "manufacturer_name": "Ludent"
+  },
+  "sodium fluoride 1.1 mg chewable tablet [ludent] [GENERIC]": {
+    "rxcui": "901288",
+    "name": "sodium fluoride 1.1 MG Chewable Tablet [Ludent]",
+    "is_brand": false,
+    "mate_rxcui": "313036",
+    "mate_name": "sodium fluoride 1.1 MG Chewable Tablet",
+    "ingredient_name": "Sodium Fluoride Chewable",
+    "manufacturer_name": "Ludent"
+  },
+  "sodium fluoride 2.2 mg chewable tablet [ludent] [GENERIC]": {
+    "rxcui": "901296",
+    "name": "sodium fluoride 2.2 MG Chewable Tablet [Ludent]",
+    "is_brand": false,
+    "mate_rxcui": "315213",
+    "mate_name": "sodium fluoride 2.2 MG Chewable Tablet",
+    "ingredient_name": "Sodium Fluoride Chewable",
+    "manufacturer_name": "Ludent"
+  },
+  "polyethylene glycol 3350 420000 mg / potassium chloride 1480 mg / sodium bicarbonate 5720 mg / sodium chloride 11200 mg powder for oral solution [trilyte] [GENERIC]": {
+    "rxcui": "904158",
+    "name": "polyethylene glycol 3350 420000 MG / potassium chloride 1480 MG / sodium bicarbonate 5720 MG / sodium chloride 11200 MG Powder for Oral Solution [TriLyte]",
+    "is_brand": false,
+    "mate_rxcui": "801054",
+    "mate_name": "polyethylene glycol 3350 420000 MG / potassium chloride 1480 MG / sodium bicarbonate 5720 MG / sodium chloride 11200 MG Powder for Oral Solution",
+    "ingredient_name": "Polyethylene Glycol Potassium Chloride Sodium Bicarbonate Sodium Chloride For",
+    "manufacturer_name": "TriLyte"
+  },
+  "sotalol hydrochloride 120 mg oral tablet [sorine] [GENERIC]": {
+    "rxcui": "904571",
+    "name": "sotalol hydrochloride 120 MG Oral Tablet [Sorine]",
+    "is_brand": false,
+    "mate_rxcui": "1923422",
+    "mate_name": "sotalol hydrochloride 120 MG Oral Tablet",
+    "ingredient_name": "Sotalol Hydrochloride",
+    "manufacturer_name": "Sorine"
+  },
+  "sotalol hydrochloride 160 mg oral tablet [sorine] [GENERIC]": {
+    "rxcui": "904583",
+    "name": "sotalol hydrochloride 160 MG Oral Tablet [Sorine]",
+    "is_brand": false,
+    "mate_rxcui": "1923424",
+    "mate_name": "sotalol hydrochloride 160 MG Oral Tablet",
+    "ingredient_name": "Sotalol Hydrochloride",
+    "manufacturer_name": "Sorine"
+  },
+  "sotalol hydrochloride 240 mg oral tablet [sorine] [GENERIC]": {
+    "rxcui": "904593",
+    "name": "sotalol hydrochloride 240 MG Oral Tablet [Sorine]",
+    "is_brand": false,
+    "mate_rxcui": "904589",
+    "mate_name": "sotalol hydrochloride 240 MG Oral Tablet",
+    "ingredient_name": "Sotalol Hydrochloride",
+    "manufacturer_name": "Sorine"
+  },
+  "sotalol hydrochloride 80 mg oral tablet [sorine] [GENERIC]": {
+    "rxcui": "904605",
+    "name": "sotalol hydrochloride 80 MG Oral Tablet [Sorine]",
+    "is_brand": false,
+    "mate_rxcui": "1923426",
+    "mate_name": "sotalol hydrochloride 80 MG Oral Tablet",
+    "ingredient_name": "Sotalol Hydrochloride",
+    "manufacturer_name": "Sorine"
+  },
+  "levothyroxine sodium 0.025 mg oral tablet [levo-t] [GENERIC]": {
+    "rxcui": "966154",
+    "name": "levothyroxine sodium 0.025 MG Oral Tablet [Levo-T]",
+    "is_brand": false,
+    "mate_rxcui": "966220",
+    "mate_name": "levothyroxine sodium 0.025 MG Oral Tablet",
+    "ingredient_name": "Levothyroxine Sodium",
+    "manufacturer_name": "Levo-T"
+  },
+  "levothyroxine sodium 0.05 mg oral tablet [levo-t] [GENERIC]": {
+    "rxcui": "966161",
+    "name": "levothyroxine sodium 0.05 MG Oral Tablet [Levo-T]",
+    "is_brand": false,
+    "mate_rxcui": "966221",
+    "mate_name": "levothyroxine sodium 0.05 MG Oral Tablet",
+    "ingredient_name": "Levothyroxine Sodium",
+    "manufacturer_name": "Levo-T"
+  },
+  "levothyroxine sodium 0.075 mg oral tablet [levo-t] [GENERIC]": {
+    "rxcui": "966167",
+    "name": "levothyroxine sodium 0.075 MG Oral Tablet [Levo-T]",
+    "is_brand": false,
+    "mate_rxcui": "966222",
+    "mate_name": "levothyroxine sodium 0.075 MG Oral Tablet",
+    "ingredient_name": "Levothyroxine Sodium",
+    "manufacturer_name": "Levo-T"
+  },
+  "levothyroxine sodium 0.1 mg oral tablet [levo-t] [GENERIC]": {
+    "rxcui": "966178",
+    "name": "levothyroxine sodium 0.1 MG Oral Tablet [Levo-T]",
+    "is_brand": false,
+    "mate_rxcui": "892246",
+    "mate_name": "levothyroxine sodium 0.1 MG Oral Tablet",
+    "ingredient_name": "Levothyroxine Sodium",
+    "manufacturer_name": "Levo-T"
+  },
+  "levothyroxine sodium 0.125 mg oral tablet [levo-t] [GENERIC]": {
+    "rxcui": "966188",
+    "name": "levothyroxine sodium 0.125 MG Oral Tablet [Levo-T]",
+    "is_brand": false,
+    "mate_rxcui": "966224",
+    "mate_name": "levothyroxine sodium 0.125 MG Oral Tablet",
+    "ingredient_name": "Levothyroxine Sodium",
+    "manufacturer_name": "Levo-T"
+  },
+  "levothyroxine sodium 0.15 mg oral tablet [levo-t] [GENERIC]": {
+    "rxcui": "966197",
+    "name": "levothyroxine sodium 0.15 MG Oral Tablet [Levo-T]",
+    "is_brand": false,
+    "mate_rxcui": "966225",
+    "mate_name": "levothyroxine sodium 0.15 MG Oral Tablet",
+    "ingredient_name": "Levothyroxine Sodium",
+    "manufacturer_name": "Levo-T"
+  },
+  "levothyroxine sodium 0.2 mg oral tablet [levo-t] [GENERIC]": {
+    "rxcui": "966208",
+    "name": "levothyroxine sodium 0.2 MG Oral Tablet [Levo-T]",
+    "is_brand": false,
+    "mate_rxcui": "892251",
+    "mate_name": "levothyroxine sodium 0.2 MG Oral Tablet",
+    "ingredient_name": "Levothyroxine Sodium",
+    "manufacturer_name": "Levo-T"
+  },
+  "levothyroxine sodium 0.3 mg oral tablet [levo-t] [GENERIC]": {
+    "rxcui": "966214",
+    "name": "levothyroxine sodium 0.3 MG Oral Tablet [Levo-T]",
+    "is_brand": false,
+    "mate_rxcui": "892255",
+    "mate_name": "levothyroxine sodium 0.3 MG Oral Tablet",
+    "ingredient_name": "Levothyroxine Sodium",
+    "manufacturer_name": "Levo-T"
+  },
+  "levothyroxine sodium 0.112 mg oral tablet [levo-t] [GENERIC]": {
+    "rxcui": "966397",
+    "name": "levothyroxine sodium 0.112 MG Oral Tablet [Levo-T]",
+    "is_brand": false,
+    "mate_rxcui": "966248",
+    "mate_name": "levothyroxine sodium 0.112 MG Oral Tablet",
+    "ingredient_name": "Levothyroxine Sodium",
+    "manufacturer_name": "Levo-T"
+  },
+  "levothyroxine sodium 0.175 mg oral tablet [levo-t] [GENERIC]": {
+    "rxcui": "966399",
+    "name": "levothyroxine sodium 0.175 MG Oral Tablet [Levo-T]",
+    "is_brand": false,
+    "mate_rxcui": "966249",
+    "mate_name": "levothyroxine sodium 0.175 MG Oral Tablet",
+    "ingredient_name": "Levothyroxine Sodium",
+    "manufacturer_name": "Levo-T"
+  },
+  "levothyroxine sodium 0.088 mg oral tablet [levo-t] [GENERIC]": {
+    "rxcui": "966401",
+    "name": "levothyroxine sodium 0.088 MG Oral Tablet [Levo-T]",
+    "is_brand": false,
+    "mate_rxcui": "966253",
+    "mate_name": "levothyroxine sodium 0.088 MG Oral Tablet",
+    "ingredient_name": "Levothyroxine Sodium",
+    "manufacturer_name": "Levo-T"
+  },
+  "levothyroxine sodium 0.137 mg oral tablet [levo-t] [GENERIC]": {
+    "rxcui": "966410",
+    "name": "levothyroxine sodium 0.137 MG Oral Tablet [Levo-T]",
+    "is_brand": false,
+    "mate_rxcui": "966270",
+    "mate_name": "levothyroxine sodium 0.137 MG Oral Tablet",
+    "ingredient_name": "Levothyroxine Sodium",
+    "manufacturer_name": "Levo-T"
+  },
+  "polyethylene glycol 3350 236000 mg / potassium chloride 2970 mg / sodium bicarbonate 6740 mg / sodium chloride 5860 mg / sodium sulfate 22740 mg powder for oral solution [gavilyte-g] [GENERIC]": {
+    "rxcui": "967012",
+    "name": "polyethylene glycol 3350 236000 MG / potassium chloride 2970 MG / sodium bicarbonate 6740 MG / sodium chloride 5860 MG / sodium sulfate 22740 MG Powder for Oral Solution [Gavilyte-G]",
+    "is_brand": false,
+    "mate_rxcui": "966920",
+    "mate_name": "polyethylene glycol 3350 236000 MG / potassium chloride 2970 MG / sodium bicarbonate 6740 MG / sodium chloride 5860 MG / sodium sulfate 22740 MG Powder for Oral Solution",
+    "ingredient_name": "Polyethylene Glycol Potassium Chloride Sodium Bicarbonate Sodium Chloride Sodium For",
+    "manufacturer_name": "Gavilyte-G"
+  },
+  "polyethylene glycol 3350 240000 mg / potassium chloride 2980 mg / sodium bicarbonate 6720 mg / sodium chloride 5840 mg / sodium sulfate 22720 mg powder for oral solution [gavilyte-c] [GENERIC]": {
+    "rxcui": "967023",
+    "name": "polyethylene glycol 3350 240000 MG / potassium chloride 2980 MG / sodium bicarbonate 6720 MG / sodium chloride 5840 MG / sodium sulfate 22720 MG Powder for Oral Solution [GaviLyte-C]",
+    "is_brand": false,
+    "mate_rxcui": "966914",
+    "mate_name": "polyethylene glycol 3350 240000 MG / potassium chloride 2980 MG / sodium bicarbonate 6720 MG / sodium chloride 5840 MG / sodium sulfate 22720 MG Powder for Oral Solution",
+    "ingredient_name": "Polyethylene Glycol Potassium Chloride Sodium Bicarbonate Sodium Chloride Sodium For",
+    "manufacturer_name": "GaviLyte-C"
+  },
+  "heather 0.35 mg tablet [GENERIC]": {
+    "rxcui": "977836",
+    "name": "HEATHER 0.35 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748961",
+    "mate_name": "",
+    "ingredient_name": "Heather",
+    "manufacturer_name": ""
+  },
+  "polyethylene glycol 3350 420000 mg / potassium chloride 1480 mg / sodium bicarbonate 5720 mg / sodium chloride 11200 mg powder for oral solution [gavilyte-n] [GENERIC]": {
+    "rxcui": "979099",
+    "name": "polyethylene glycol 3350 420000 MG / potassium chloride 1480 MG / sodium bicarbonate 5720 MG / sodium chloride 11200 MG Powder for Oral Solution [GaviLyte-N]",
+    "is_brand": false,
+    "mate_rxcui": "801054",
+    "mate_name": "polyethylene glycol 3350 420000 MG / potassium chloride 1480 MG / sodium bicarbonate 5720 MG / sodium chloride 11200 MG Powder for Oral Solution",
+    "ingredient_name": "Polyethylene Glycol Potassium Chloride Sodium Bicarbonate Sodium Chloride For",
+    "manufacturer_name": "GaviLyte-N"
+  },
+  "promethazine hydrochloride 12.5 mg rectal suppository [promethegan] [GENERIC]": {
+    "rxcui": "992445",
+    "name": "promethazine hydrochloride 12.5 MG Rectal Suppository [Promethegan]",
+    "is_brand": false,
+    "mate_rxcui": "992441",
+    "mate_name": "promethazine hydrochloride 12.5 MG Rectal Suppository",
+    "ingredient_name": "Promethazine Hydrochloride Rectal",
+    "manufacturer_name": "Promethegan"
+  },
+  "promethazine hydrochloride 25 mg rectal suppository [promethegan] [GENERIC]": {
+    "rxcui": "992459",
+    "name": "promethazine hydrochloride 25 MG Rectal Suppository [Promethegan]",
+    "is_brand": false,
+    "mate_rxcui": "992454",
+    "mate_name": "promethazine hydrochloride 25 MG Rectal Suppository",
+    "ingredient_name": "Promethazine Hydrochloride Rectal",
+    "manufacturer_name": "Promethegan"
+  },
+  "promethazine hydrochloride 50 mg rectal suppository [promethegan] [GENERIC]": {
+    "rxcui": "992481",
+    "name": "promethazine hydrochloride 50 MG Rectal Suppository [Promethegan]",
+    "is_brand": false,
+    "mate_rxcui": "992478",
+    "mate_name": "promethazine hydrochloride 50 MG Rectal Suppository",
+    "ingredient_name": "Promethazine Hydrochloride Rectal",
+    "manufacturer_name": "Promethegan"
+  },
+  "homatropine methylbromide 0.3 mg/ml / hydrocodone bitartrate 1 mg/ml oral solution [hydromet] [GENERIC]": {
+    "rxcui": "992675",
+    "name": "homatropine methylbromide 0.3 MG/ML / hydrocodone bitartrate 1 MG/ML Oral Solution [Hydromet]",
+    "is_brand": false,
+    "mate_rxcui": "992668",
+    "mate_name": "homatropine methylbromide 0.3 MG/ML / hydrocodone bitartrate 1 MG/ML Oral Solution",
+    "ingredient_name": "Homatropine Methylbromide Mgml Hydrocodone Bitartrate Mgml",
+    "manufacturer_name": "Hydromet"
+  },
+  "homatropine methylbromide 1.5 mg / hydrocodone bitartrate 5 mg oral tablet [tussigon] [GENERIC]": {
+    "rxcui": "992733",
+    "name": "homatropine methylbromide 1.5 MG / hydrocodone bitartrate 5 MG Oral Tablet [Tussigon]",
+    "is_brand": false,
+    "mate_rxcui": "992656",
+    "mate_name": "homatropine methylbromide 1.5 MG / hydrocodone bitartrate 5 MG Oral Tablet",
+    "ingredient_name": "Homatropine Methylbromide Hydrocodone Bitartrate",
+    "manufacturer_name": "Tussigon"
+  },
+  "gianvi 3 mg-0.02 mg tablet [GENERIC]": {
+    "rxcui": "993804",
+    "name": "GIANVI 3 MG-0.02 MG TABLET",
+    "is_brand": false,
+    "mate_rxcui": "748798",
+    "mate_name": "",
+    "ingredient_name": "Gianvi -",
+    "manufacturer_name": ""
+  },
+  "aspirin 325 mg / butalbital 50 mg / caffeine 40 mg / codeine phosphate 30 mg oral capsule [ascomp] [GENERIC]": {
+    "rxcui": "994239",
+    "name": "aspirin 325 MG / butalbital 50 MG / caffeine 40 MG / codeine phosphate 30 MG Oral Capsule [Ascomp]",
+    "is_brand": false,
+    "mate_rxcui": "994237",
+    "mate_name": "aspirin 325 MG / butalbital 50 MG / caffeine 40 MG / codeine phosphate 30 MG Oral Capsule",
+    "ingredient_name": "Aspirin Butalbital Caffeine Codeine Phosphate",
+    "manufacturer_name": "Ascomp"
+  },
+  "codeine phosphate 1.26 mg/ml / guaifenesin 20 mg/ml oral solution [m-clear wc] [GENERIC]": {
+    "rxcui": "995440",
+    "name": "codeine phosphate 1.26 MG/ML / guaifenesin 20 MG/ML Oral Solution [M-Clear WC]",
+    "is_brand": false,
+    "mate_rxcui": "995438",
+    "mate_name": "codeine phosphate 1.26 MG/ML / guaifenesin 20 MG/ML Oral Solution",
+    "ingredient_name": "Codeine Phosphate Mgml Guaifenesin Mgml",
+    "manufacturer_name": "M-Clear WC"
+  },
+  "codeine phosphate 1.5 mg/ml / guaifenesin 45 mg/ml oral solution [mar-cof cg] [GENERIC]": {
+    "rxcui": "995443",
+    "name": "codeine phosphate 1.5 MG/ML / guaifenesin 45 MG/ML Oral Solution [Mar-cof CG]",
+    "is_brand": false,
+    "mate_rxcui": "995441",
+    "mate_name": "codeine phosphate 1.5 MG/ML / guaifenesin 45 MG/ML Oral Solution",
+    "ingredient_name": "Codeine Phosphate Mgml Guaifenesin Mgml",
+    "manufacturer_name": "Mar-cof CG"
+  },
+  "miconazole nitrate 20 mg/ml topical cream [baza] [GENERIC]": {
+    "rxcui": "998493",
+    "name": "miconazole nitrate 20 MG/ML Topical Cream [Baza]",
+    "is_brand": false,
+    "mate_rxcui": "998483",
+    "mate_name": "miconazole nitrate 20 MG/ML Topical Cream",
+    "ingredient_name": "Miconazole Nitrate Mgml",
+    "manufacturer_name": "Baza"
+  },
+  "calcium carbonate 500 mg chewable tablet [cal gest] [GENERIC]": {
+    "rxcui": "998704",
+    "name": "calcium carbonate 500 MG Chewable Tablet [Cal Gest]",
+    "is_brand": false,
+    "mate_rxcui": "308907",
+    "mate_name": "calcium carbonate 500 MG Chewable Tablet",
+    "ingredient_name": "Calcium Carbonate Chewable",
+    "manufacturer_name": "Cal Gest"
+  }
+}

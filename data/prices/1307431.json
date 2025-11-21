@@ -1,0 +1,23 @@
+{
+  "RxCUI": "1307431",
+  "Name": "sildenafil 10 MG/ML Oral Suspension [Revatio]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1307431",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sildenafil Mgml",
+  "Manufacturer_Name": "Revatio",
+  "Strength": "10 MG/ML",
+  "Form": "",
+  "prices": {
+    "00069033621": {
+      "06/01/2017": 64.28826,
+      "01/01/2018": 70.35707,
+      "05/23/2018": 70.84835,
+      "07/01/2018": 77.53643,
+      "07/16/2018": 70.84504,
+      "06/19/2024": 88.04543,
+      "07/17/2024": 87.99202,
+      "08/21/2024": 88.22406
+    }
+  }
+}

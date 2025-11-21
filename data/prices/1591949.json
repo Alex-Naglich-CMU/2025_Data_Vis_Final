@@ -1,0 +1,19 @@
+{
+  "RxCUI": "1591949",
+  "Name": "ledipasvir 90 MG / sofosbuvir 400 MG Oral Tablet [Harvoni]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1591949",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ledipasvir Sofosbuvir",
+  "Manufacturer_Name": "Harvoni",
+  "Strength": "90 MG",
+  "Form": "",
+  "prices": {
+    "61958180101": {
+      "08/23/2017": 1101.18095,
+      "10/18/2017": 1084.635,
+      "11/08/2017": 1096.73438,
+      "03/21/2018": 1098.9375
+    }
+  }
+}

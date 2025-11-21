@@ -1,0 +1,24 @@
+{
+  "RxCUI": "540281",
+  "Name": "fenofibrate 145 MG Oral Tablet [Tricor]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "540281",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fenofibrate",
+  "Manufacturer_Name": "Tricor",
+  "Strength": "145 MG",
+  "Form": "",
+  "prices": {
+    "00074318990": {
+      "11/22/2017": 0.99942,
+      "05/22/2024": 0.99558,
+      "06/19/2024": 0.99612,
+      "07/17/2024": 0.99615,
+      "08/21/2024": 0.99611,
+      "09/18/2024": 0.99292,
+      "10/23/2024": 0.99231,
+      "11/20/2024": 0.99468,
+      "02/19/2025": 0.99969
+    }
+  }
+}

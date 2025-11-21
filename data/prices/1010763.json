@@ -1,0 +1,19 @@
+{
+  "RxCUI": "1010763",
+  "Name": "epinephrine 0.01 MG/ML / lidocaine hydrochloride 20 MG/ML Injectable Solution [Xylocaine with Epinephrine]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1010763",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Epinephrine Mgml Lidocaine Hydrochloride Mgml Injectable",
+  "Manufacturer_Name": "Xylocaine with Epinephrine",
+  "Strength": "0.01 MG/ML",
+  "Form": "",
+  "prices": {
+    "63323048327": {
+      "11/20/2024": 0.22219,
+      "12/18/2024": 0.2312,
+      "01/22/2025": 0.23274,
+      "02/01/2025": 0.26545
+    }
+  }
+}

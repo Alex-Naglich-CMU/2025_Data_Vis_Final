@@ -1,0 +1,27 @@
+{
+  "RxCUI": "1247388",
+  "Name": "amylase 39150 UNT / lipase 10440 UNT / protease 39150 UNT Oral Tablet [Viokace]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1247388",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amylase Unt Lipase Unt Protease Unt",
+  "Manufacturer_Name": "Viokace",
+  "Strength": "39150 UNT",
+  "Form": "",
+  "prices": {
+    "73562010410": {
+      "11/20/2024": 4.03554,
+      "12/18/2024": 4.03618,
+      "01/22/2025": 4.03398,
+      "02/19/2025": 4.03358,
+      "03/19/2025": 4.03754,
+      "04/23/2025": 4.03938,
+      "05/21/2025": 4.04101,
+      "06/18/2025": 4.04136,
+      "07/23/2025": 4.04271,
+      "08/20/2025": 4.04226,
+      "10/22/2025": 4.04295,
+      "11/19/2025": 4.0411
+    }
+  }
+}

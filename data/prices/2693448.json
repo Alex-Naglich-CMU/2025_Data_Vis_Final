@@ -1,0 +1,24 @@
+{
+  "RxCUI": "2693448",
+  "Name": "epinephrine 20 MG/ML Nasal Spray [Neffy]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2693448",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Epinephrine Mgml Nasal",
+  "Manufacturer_Name": "Neffy",
+  "Strength": "20 MG/ML",
+  "Form": "",
+  "prices": {
+    "82580002002": {
+      "03/19/2025": 339.17556,
+      "04/23/2025": 339.203,
+      "05/21/2025": 338.9925,
+      "06/18/2025": 339.03068,
+      "07/23/2025": 339.40655,
+      "08/20/2025": 339.51244,
+      "09/17/2025": 339.52056,
+      "10/22/2025": 339.87238,
+      "11/19/2025": 339.79385
+    }
+  }
+}

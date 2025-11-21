@@ -1,0 +1,19 @@
+{
+  "RxCUI": "2709679",
+  "Name": "chlorthalidone 12.5 MG Oral Tablet [Hemiclor]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2709679",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Chlorthalidone",
+  "Manufacturer_Name": "Hemiclor",
+  "Strength": "12.5 MG",
+  "Form": "",
+  "prices": {
+    "50742028530": {
+      "11/19/2025": 0.95471
+    },
+    "50742028590": {
+      "11/19/2025": 0.95471
+    }
+  }
+}

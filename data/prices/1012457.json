@@ -1,0 +1,19 @@
+{
+  "RxCUI": "1012457",
+  "Name": "bupivacaine hydrochloride 5 MG/ML Injectable Solution [Sensorcaine]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1012457",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Bupivacaine Hydrochloride Mgml Injectable",
+  "Manufacturer_Name": "Sensorcaine",
+  "Strength": "5 MG/ML",
+  "Form": "",
+  "prices": {
+    "63323046757": {
+      "04/01/2017": 0.08921,
+      "01/01/2018": 0.09772,
+      "07/01/2018": 0.10701,
+      "07/16/2018": 0.09772
+    }
+  }
+}

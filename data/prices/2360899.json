@@ -1,0 +1,24 @@
+{
+  "RxCUI": "2360899",
+  "Name": "polyethylene glycol 400 10 MG/ML Ophthalmic Solution",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "2360899",
+  "Ingredient_Name": "Polyethylene Glycol Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Solution",
+  "prices": {
+    "70677115701": {
+      "11/20/2024": 0.1614,
+      "12/18/2024": 0.16179,
+      "01/22/2025": 0.16473,
+      "02/19/2025": 0.1664,
+      "03/19/2025": 0.1685,
+      "04/23/2025": 0.16933,
+      "08/20/2025": 0.16857,
+      "09/17/2025": 0.16819,
+      "11/19/2025": 0.16933
+    }
+  }
+}

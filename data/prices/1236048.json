@@ -1,0 +1,21 @@
+{
+  "RxCUI": "1236048",
+  "Name": "diphenhydramine hydrochloride 1.25 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1236048",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Diphenhydramine Hydrochloride Mgml Phenylephrine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1.25 MG/ML",
+  "Form": "Solution",
+  "prices": {
+    "00067810604": {
+      "07/19/2017": 0.04127,
+      "10/18/2017": 0.04248,
+      "12/20/2017": 0.04341,
+      "01/17/2018": 0.04226,
+      "12/19/2018": 0.04175,
+      "10/23/2019": 0.04158
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "RxCUI": "212039",
+  "Name": "estrogens, esterified (USP) 0.3 MG Oral Tablet [Menest]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "212039",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Estrogens, Esterified (Usp)",
+  "Manufacturer_Name": "Menest",
+  "Strength": "0.3 MG",
+  "Form": "",
+  "prices": {
+    "61570007201": {
+      "06/01/2017": 1.56792,
+      "01/01/2018": 1.71596
+    }
+  }
+}

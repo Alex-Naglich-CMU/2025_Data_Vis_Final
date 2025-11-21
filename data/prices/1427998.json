@@ -1,0 +1,20 @@
+{
+  "RxCUI": "1427998",
+  "Name": "dextromethorphan hydrobromide 20 MG / guaifenesin 380 MG / pseudoephedrine hydrochloride 60 MG Oral Tablet",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1427998",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide Guaifenesin Pseudoephedrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "20 MG",
+  "Form": "Tablet",
+  "prices": {
+    "50991021401": {
+      "09/18/2024": 0.62764,
+      "02/19/2025": 0.62688,
+      "04/23/2025": 0.62923,
+      "05/21/2025": 0.63157,
+      "07/23/2025": 0.62892
+    }
+  }
+}

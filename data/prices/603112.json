@@ -1,0 +1,21 @@
+{
+  "RxCUI": "603112",
+  "Name": "lanthanum carbonate 1000 MG Chewable Tablet [Fosrenol]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "603112",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Lanthanum Carbonate Chewable",
+  "Manufacturer_Name": "Fosrenol",
+  "Strength": "1000 MG",
+  "Form": "",
+  "prices": {
+    "54092025410": {
+      "06/02/2017": 11.52084,
+      "07/19/2017": 11.51481
+    },
+    "54092025490": {
+      "06/02/2017": 11.52084,
+      "07/19/2017": 11.51481
+    }
+  }
+}

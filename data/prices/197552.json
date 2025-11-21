@@ -1,0 +1,25 @@
+{
+  "RxCUI": "197552",
+  "Name": "cyclosporine 100 MG Oral Capsule [Sandimmune]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "197552",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cyclosporine",
+  "Manufacturer_Name": "Sandimmune",
+  "Strength": "100 MG",
+  "Form": "",
+  "prices": {
+    "00078024115": {
+      "07/11/2017": 13.58454,
+      "01/03/2018": 13.97849,
+      "01/15/2019": 14.53763,
+      "01/03/2020": 15.33705
+    },
+    "00078024161": {
+      "07/11/2017": 13.58454,
+      "01/03/2018": 13.97849,
+      "01/15/2019": 14.53763,
+      "01/03/2020": 15.33705
+    }
+  }
+}

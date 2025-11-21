@@ -1,0 +1,27 @@
+{
+  "RxCUI": "896023",
+  "Name": "60 ACTUAT fluticasone propionate 0.1 MG/ACTUAT Dry Powder Inhaler [Flovent]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "896023",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Flovent",
+  "Strength": "60 ACTU",
+  "Form": "",
+  "prices": {
+    "00173060202": {
+      "11/22/2017": 2.73063,
+      "01/01/2018": 2.89452,
+      "10/17/2018": 2.90965,
+      "01/01/2019": 2.99691,
+      "10/23/2019": 2.99043,
+      "01/01/2020": 3.08023,
+      "10/21/2020": 3.08403,
+      "01/01/2021": 3.17649,
+      "10/20/2021": 3.17785,
+      "1/1/2022": 3.27324,
+      "03/22/2023": 3.26675,
+      "04/17/2024": 3.26664
+    }
+  }
+}

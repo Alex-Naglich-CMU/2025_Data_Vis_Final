@@ -1,0 +1,25 @@
+{
+  "RxCUI": "104784",
+  "Name": "risperidone 4 MG Oral Tablet [Risperdal]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "104784",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Risperidone",
+  "Manufacturer_Name": "Risperdal",
+  "Strength": "4 MG",
+  "Form": "",
+  "prices": {
+    "50458035001": {
+      "11/20/2024": 12.39688,
+      "03/19/2025": 12.4009,
+      "07/23/2025": 12.40667,
+      "09/17/2025": 12.40993
+    },
+    "50458035006": {
+      "11/20/2024": 12.39688,
+      "03/19/2025": 12.4009,
+      "07/23/2025": 12.40667,
+      "09/17/2025": 12.40993
+    }
+  }
+}

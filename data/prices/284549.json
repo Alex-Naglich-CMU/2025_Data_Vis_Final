@@ -1,0 +1,22 @@
+{
+  "RxCUI": "284549",
+  "Name": "ziprasidone 60 MG Oral Capsule [Geodon]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "284549",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ziprasidone",
+  "Manufacturer_Name": "Geodon",
+  "Strength": "60 MG",
+  "Form": "",
+  "prices": {
+    "00049398041": {
+      "06/01/2017": 20.59982
+    },
+    "00049398060": {
+      "06/01/2017": 20.59982,
+      "01/01/2018": 22.54444,
+      "07/01/2018": 24.67264,
+      "07/16/2018": 22.54438
+    }
+  }
+}

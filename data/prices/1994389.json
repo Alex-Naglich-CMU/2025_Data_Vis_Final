@@ -1,0 +1,17 @@
+{
+  "RxCUI": "1994389",
+  "Name": "24 HR pregabalin 165 MG Extended Release Oral Tablet [Lyrica]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1994389",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Pregabalin Extended Release",
+  "Manufacturer_Name": "Lyrica",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "00071102701": {
+      "01/01/2020": 13.43132,
+      "01/01/2021": 14.08959
+    }
+  }
+}

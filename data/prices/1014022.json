@@ -1,0 +1,18 @@
+{
+  "RxCUI": "1014022",
+  "Name": "24 HR minocycline 55 MG Extended Release Oral Tablet [Solodyn]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1014022",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Minocycline Extended Release",
+  "Manufacturer_Name": "Solodyn",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "99207046530": {
+      "09/20/2017": 35.86472,
+      "01/05/2018": 39.09255,
+      "10/17/2018": 38.89611
+    }
+  }
+}

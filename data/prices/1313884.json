@@ -1,0 +1,21 @@
+{
+  "RxCUI": "1313884",
+  "Name": "phenytoin 25 MG/ML Oral Suspension [Dilantin]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1313884",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Phenytoin Mgml",
+  "Manufacturer_Name": "Dilantin",
+  "Strength": "25 MG/ML",
+  "Form": "",
+  "prices": {
+    "00071221420": {
+      "06/01/2017": 0.58159,
+      "01/01/2018": 0.63647,
+      "07/01/2018": 0.69657,
+      "07/16/2018": 0.63647,
+      "01/15/2019": 0.66829,
+      "01/01/2020": 0.70103
+    }
+  }
+}

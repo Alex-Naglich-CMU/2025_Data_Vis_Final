@@ -1,0 +1,27 @@
+{
+  "RxCUI": "1487288",
+  "Name": "acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet [Endocet]",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "1049635",
+  "Generic_Mate_RxCUI": "1487288",
+  "Ingredient_Name": "Acetaminophen Oxycodone Hydrochloride",
+  "Manufacturer_Name": "Endocet",
+  "Strength": "325 MG",
+  "Form": "",
+  "prices": {
+    "60951070170": {
+      "12/20/2017": 1.57068,
+      "10/17/2018": 1.68824,
+      "05/22/2019": 1.47814,
+      "01/22/2025": 1.30916,
+      "02/19/2025": 1.30155,
+      "03/19/2025": 1.30808,
+      "04/23/2025": 1.30885,
+      "05/21/2025": 1.3516,
+      "06/18/2025": 1.29024,
+      "07/23/2025": 1.27531,
+      "08/20/2025": 1.13603,
+      "10/22/2025": 1.4208
+    }
+  }
+}

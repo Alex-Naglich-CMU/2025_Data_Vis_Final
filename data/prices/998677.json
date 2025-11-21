@@ -1,0 +1,20 @@
+{
+  "RxCUI": "998677",
+  "Name": "168 HR clonidine 0.00833 MG/HR Transdermal System [Catapres]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "998677",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Clonidine Mghr Transdermal System",
+  "Manufacturer_Name": "Catapres",
+  "Strength": "168 HR",
+  "Form": "",
+  "prices": {
+    "00597003234": {
+      "01/03/2018": 99.43317,
+      "01/17/2018": 98.85235,
+      "01/01/2019": 106.76153,
+      "10/23/2019": 106.18,
+      "01/01/2020": 112.5508
+    }
+  }
+}

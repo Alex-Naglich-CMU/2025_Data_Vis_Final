@@ -1,0 +1,23 @@
+{
+  "RxCUI": "721793",
+  "Name": "24 HR quetiapine 200 MG Extended Release Oral Tablet [Seroquel]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "721793",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Quetiapine Extended Release",
+  "Manufacturer_Name": "Seroquel",
+  "Strength": "24 HR",
+  "Form": "",
+  "prices": {
+    "00310028239": {
+      "01/17/2018": 15.75335,
+      "12/19/2018": 15.55308
+    },
+    "00310028260": {
+      "01/17/2018": 15.75335,
+      "12/19/2018": 15.55308,
+      "07/17/2024": 15.53313,
+      "10/23/2024": 15.52177
+    }
+  }
+}

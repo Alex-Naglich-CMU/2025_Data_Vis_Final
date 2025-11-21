@@ -1,0 +1,31 @@
+{
+  "RxCUI": "1648198",
+  "Name": "40/60 Release 24 HR methylphenidate hydrochloride 50 MG Extended Release Oral Capsule [Aptensio]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1648198",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Release Hr Methylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "Aptensio",
+  "Strength": "60 Rele",
+  "Form": "",
+  "prices": {
+    "42858040645": {
+      "06/01/2018": 7.54895,
+      "08/01/2019": 8.01274,
+      "06/17/2020": 7.98009,
+      "08/19/2020": 8.04678,
+      "05/22/2024": 7.98865,
+      "06/19/2024": 7.96638,
+      "07/17/2024": 7.97155,
+      "08/21/2024": 7.97015,
+      "09/18/2024": 7.97401,
+      "10/23/2024": 7.97461,
+      "12/18/2024": 7.97444,
+      "02/19/2025": 7.96959,
+      "04/23/2025": 7.96651,
+      "05/21/2025": 7.97365,
+      "06/18/2025": 8.00222,
+      "07/23/2025": 7.99785
+    }
+  }
+}

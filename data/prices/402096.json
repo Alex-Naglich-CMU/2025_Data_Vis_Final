@@ -1,0 +1,19 @@
+{
+  "RxCUI": "402096",
+  "Name": "tadalafil 10 MG Oral Tablet [Cialis]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "402096",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tadalafil",
+  "Manufacturer_Name": "Cialis",
+  "Strength": "10 MG",
+  "Form": "",
+  "prices": {
+    "00002446330": {
+      "06/21/2017": 58.33192,
+      "01/04/2018": 64.1097,
+      "10/17/2018": 63.84927,
+      "02/19/2019": 66.43006
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "RxCUI": "1373504",
+  "Name": "QUARTETTE TABLET",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1373504",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Quartette",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "TABLET",
+  "prices": {
+    "51285043165": {
+      "06/21/2017": 4.04374
+    },
+    "51285043187": {
+      "06/21/2017": 4.04374
+    }
+  }
+}

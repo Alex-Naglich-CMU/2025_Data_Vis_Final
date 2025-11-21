@@ -1,0 +1,16 @@
+{
+  "RxCUI": "860195",
+  "Name": "onabotulinumtoxinA 100 UNT Injection [Botox]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "860195",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Onabotulinumtoxina Unt",
+  "Manufacturer_Name": "Botox",
+  "Strength": "100 UNT",
+  "Form": "",
+  "prices": {
+    "00023114501": {
+      "07/05/2017": 597.51847
+    }
+  }
+}

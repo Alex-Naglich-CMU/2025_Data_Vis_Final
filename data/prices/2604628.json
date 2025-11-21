@@ -1,0 +1,19 @@
+{
+  "RxCUI": "2604628",
+  "Name": "2.4 ML risankizumab-rzaa 150 MG/ML Cartridge [Skyrizi]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2604628",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Risankizumab-Rzaa Mgml Cartridge",
+  "Manufacturer_Name": "Skyrizi",
+  "Strength": "2.4 ML",
+  "Form": "",
+  "prices": {
+    "00074106901": {
+      "01/02/2025": 9069.04478
+    },
+    "00074107001": {
+      "01/02/2025": 9069.04478
+    }
+  }
+}

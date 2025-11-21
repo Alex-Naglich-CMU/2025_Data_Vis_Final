@@ -1,0 +1,33 @@
+{
+  "RxCUI": "2637476",
+  "Name": "30 ACTUAT fluticasone furoate 0.05 MG/ACTUAT / vilanterol 0.025 MG/ACTUAT Dry Powder Inhaler [Breo]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2637476",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Fluticasone Furoate Mgactuat Vilanterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Breo",
+  "Strength": "30 ACTU",
+  "Form": "",
+  "prices": {
+    "00173091610": {
+      "06/19/2024": 6.50968,
+      "07/17/2024": 6.51202,
+      "08/21/2024": 6.5107,
+      "09/18/2024": 6.51009,
+      "10/23/2024": 6.50754,
+      "11/20/2024": 6.50558,
+      "12/18/2024": 6.50574,
+      "01/22/2025": 6.50421,
+      "02/19/2025": 6.50303,
+      "03/19/2025": 6.50597,
+      "04/23/2025": 6.50313,
+      "05/21/2025": 6.49795,
+      "06/18/2025": 6.4974,
+      "07/23/2025": 6.49334,
+      "08/20/2025": 6.49307,
+      "09/17/2025": 6.49232,
+      "10/22/2025": 6.49306,
+      "11/19/2025": 6.48962
+    }
+  }
+}

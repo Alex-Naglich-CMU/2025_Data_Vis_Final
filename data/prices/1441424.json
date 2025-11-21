@@ -1,0 +1,22 @@
+{
+  "RxCUI": "1441424",
+  "Name": "0.4 ML methotrexate 62.5 MG/ML Auto-Injector [Otrexup]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1441424",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methotrexate Mgml Auto-Injector",
+  "Manufacturer_Name": "Otrexup",
+  "Strength": "0.4 ML",
+  "Form": "",
+  "prices": {
+    "54436002504": {
+      "08/21/2024": 464.625,
+      "09/18/2024": 466.48958,
+      "11/20/2024": 466.06442,
+      "12/18/2024": 466.36116,
+      "01/22/2025": 466.61833,
+      "04/01/2025": 480.15027,
+      "08/20/2025": 475.8075
+    }
+  }
+}

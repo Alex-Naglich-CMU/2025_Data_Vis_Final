@@ -1,0 +1,22 @@
+{
+  "RxCUI": "1369424",
+  "Name": "chlophedianol hydrochloride 2.5 MG/ML / dexchlorpheniramine maleate 0.2 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1369424",
+  "Ingredient_Name": "Chlophedianol Hydrochloride Mgml Dexchlorpheniramine Maleate Mgml Pseudoephedrine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "2.5 MG/ML",
+  "Form": "Solution",
+  "prices": {
+    "58809099901": {
+      "07/19/2017": 0.1012,
+      "12/20/2017": 0.0985,
+      "02/21/2018": 0.09731,
+      "06/20/2018": 0.09678,
+      "05/20/2020": 0.0982,
+      "07/17/2024": 0.09931,
+      "12/18/2024": 0.09934
+    }
+  }
+}

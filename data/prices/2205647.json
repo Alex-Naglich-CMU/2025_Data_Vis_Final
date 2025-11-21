@@ -1,0 +1,23 @@
+{
+  "RxCUI": "2205647",
+  "Name": "trifarotene 0.05 MG/ML Topical Cream [Aklief]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2205647",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Trifarotene Mgml",
+  "Manufacturer_Name": "Aklief",
+  "Strength": "0.05 MG/ML",
+  "Form": "",
+  "prices": {
+    "00299593545": {
+      "04/07/2021": 13.02102,
+      "4/4/2022": 13.66074,
+      "06/18/2025": 15.71712,
+      "07/23/2025": 15.71218,
+      "08/20/2025": 15.72898,
+      "09/17/2025": 15.70773,
+      "10/22/2025": 15.71445,
+      "11/19/2025": 15.68343
+    }
+  }
+}

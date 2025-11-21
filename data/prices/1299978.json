@@ -1,0 +1,18 @@
+{
+  "RxCUI": "1299978",
+  "Name": "tiagabine hydrochloride 4 MG Oral Tablet [Gabitril]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "1299978",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tiagabine Hydrochloride",
+  "Manufacturer_Name": "Gabitril",
+  "Strength": "4 MG",
+  "Form": "",
+  "prices": {
+    "63459040430": {
+      "01/01/2020": 9.53248,
+      "01/01/2021": 10.42987,
+      "1/1/2022": 11.41027
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RxCUI": "2056502",
+  "Name": "levothyroxine sodium 0.15 MG/ML Oral Solution [Tirosint]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "2056502",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Levothyroxine Sodium Mgml",
+  "Manufacturer_Name": "Tirosint",
+  "Strength": "0.15 MG/ML",
+  "Form": "",
+  "prices": {
+    "71858015005": {
+      "05/22/2024": 4.40122,
+      "06/19/2024": 4.35605,
+      "07/01/2024": 4.51274
+    }
+  }
+}

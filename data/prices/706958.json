@@ -1,0 +1,19 @@
+{
+  "RxCUI": "706958",
+  "Name": "cinacalcet 60 MG Oral Tablet [Sensipar]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "706958",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cinacalcet",
+  "Manufacturer_Name": "Sensipar",
+  "Strength": "60 MG",
+  "Form": "",
+  "prices": {
+    "55513007430": {
+      "01/17/2018": 52.09396,
+      "04/18/2018": 51.93495,
+      "02/20/2019": 52.33222,
+      "06/19/2019": 51.77228
+    }
+  }
+}

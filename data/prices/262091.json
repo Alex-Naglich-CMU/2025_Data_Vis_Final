@@ -1,0 +1,25 @@
+{
+  "RxCUI": "262091",
+  "Name": "linezolid 600 MG Oral Tablet [Zyvox]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "262091",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Linezolid",
+  "Manufacturer_Name": "Zyvox",
+  "Strength": "600 MG",
+  "Form": "",
+  "prices": {
+    "00009513502": {
+      "06/01/2017": 239.15725,
+      "01/01/2018": 261.73369
+    },
+    "00009513802": {
+      "06/01/2017": 239.15725,
+      "01/01/2018": 261.73369
+    },
+    "00009513803": {
+      "06/01/2017": 239.15725,
+      "01/01/2018": 261.73369
+    }
+  }
+}

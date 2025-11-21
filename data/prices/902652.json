@@ -1,0 +1,22 @@
+{
+  "RxCUI": "902652",
+  "Name": "12 HR disopyramide 150 MG Extended Release Oral Capsule [Norpace]",
+  "IsBrand": true,
+  "Brand_Mate_RxCUI": "902652",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Disopyramide Extended Release",
+  "Manufacturer_Name": "Norpace",
+  "Strength": "12 HR",
+  "Form": "",
+  "prices": {
+    "00025274231": {
+      "06/01/2017": 4.14878,
+      "01/01/2018": 4.54043,
+      "01/01/2025": 4.90615
+    },
+    "00025274251": {
+      "06/01/2017": 4.14878,
+      "01/01/2018": 4.54043
+    }
+  }
+}

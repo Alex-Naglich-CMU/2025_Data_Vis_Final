@@ -1,0 +1,17 @@
+{
+  "RxCUI": "2360903",
+  "Name": "polyethylene glycol 400 10 MG/ML / tetrahydrozoline hydrochloride 0.5 MG/ML / zinc sulfate 2.5 MG/ML Ophthalmic Solution",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "2360903",
+  "Ingredient_Name": "Polyethylene Glycol Mgml Tetrahydrozoline Hydrochloride Mgml Zinc Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Solution",
+  "prices": {
+    "46122075829": {
+      "12/18/2024": 0.19565,
+      "02/19/2025": 0.19681
+    }
+  }
+}
