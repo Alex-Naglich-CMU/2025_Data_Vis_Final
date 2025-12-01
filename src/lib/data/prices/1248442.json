@@ -1,9 +1,13 @@
 {
   "RxCUI": "1248442",
-  "Name": "ZYCLARA 2.5% CREAM PUMP",
+  "Name": "imiquimod 25 MG/ML Topical Cream [Zyclara]",
   "IsBrand": true,
-  "Brand_RxCUI": "1248440",
-  "Generic_RxCUI": "1248442",
+  "Brand_Mate_RxCUI": "1248442",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Imiquimod Mgml",
+  "Manufacturer_Name": "Zyclara",
+  "Strength": "25 MG/ML",
+  "Form": "",
   "prices": {
     "99207027675": {
       "01/05/2018": 158.04455

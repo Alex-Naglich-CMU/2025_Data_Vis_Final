@@ -1,9 +1,13 @@
 {
   "RxCUI": "1313925",
-  "Name": "SE-NATAL 19 TABLET",
+  "Name": "alpha-tocopherol acetate 30 UNT / ascorbic acid 100 MG / beta carotene 1000 UNT / calcium carbonate 200 MG / calcium pantothenate 7 MG / cholecalciferol 400 UNT / docusate sodium 25 MG / ferrous fumarate 29 MG / folic acid 1 MG / niacinamide 15 MG / pyridoxine hydrochloride 20 MG / riboflavin 3 MG / thiamine 3 MG / vitamin B12 0.012 MG / zinc oxide 20 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1313925",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1313925",
+  "Ingredient_Name": "Alpha-Tocopherol Unt Ascorbic Acid Beta Carotene Unt Calcium Carbonate Calcium Pantothenate Cholecalciferol Unt Docusate Sodium Ferrous Fumarate Folic Acid Niacinamide Pyridoxine Hydrochloride Riboflavin Thiamine Vitamin B Zinc Oxide",
+  "Manufacturer_Name": "",
+  "Strength": "30 UNT",
+  "Form": "Tablet",
   "prices": {
     "13925011601": {
       "11/20/2019": 0.45623,
@@ -29,7 +33,8 @@
       "07/23/2025": 0.46757,
       "08/20/2025": 0.4758,
       "09/17/2025": 0.48306,
-      "10/22/2025": 0.48427
+      "10/22/2025": 0.48427,
+      "11/19/2025": 0.47632
     }
   }
 }

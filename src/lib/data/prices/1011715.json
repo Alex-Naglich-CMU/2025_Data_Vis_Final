@@ -1,9 +1,13 @@
 {
   "RxCUI": "1011715",
-  "Name": "TEKTURNA HCT 150-25 MG TABLET",
+  "Name": "aliskiren 150 MG / hydrochlorothiazide 25 MG Oral Tablet [Tekturna HCT]",
   "IsBrand": true,
-  "Brand_RxCUI": "1011713",
-  "Generic_RxCUI": "1011715",
+  "Brand_Mate_RxCUI": "1011715",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Aliskiren Hydrochlorothiazide",
+  "Manufacturer_Name": "Tekturna HCT",
+  "Strength": "150 MG",
+  "Form": "",
   "prices": {
     "70839012530": {
       "12/19/2017": 5.78899,

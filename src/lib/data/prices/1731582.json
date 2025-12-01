@@ -1,9 +1,13 @@
 {
   "RxCUI": "1731582",
-  "Name": "GLYCOPYRROLATE 0.2 MG/ML VIAL",
+  "Name": "1 ML glycopyrrolate 0.2 MG/ML Injection",
   "IsBrand": false,
-  "Brand_RxCUI": "1731582",
-  "Generic_RxCUI": "2371718",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1731582",
+  "Ingredient_Name": "Glycopyrrolate Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 ML",
+  "Form": "Injection",
   "prices": {
     "00143968225": {
       "01/22/2025": 1.4761,

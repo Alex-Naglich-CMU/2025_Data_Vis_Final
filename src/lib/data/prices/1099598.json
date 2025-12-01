@@ -1,9 +1,13 @@
 {
   "RxCUI": "1099598",
-  "Name": "DEPAKOTE DR 125 MG SPRINKLE CP",
+  "Name": "divalproex sodium 125 MG Delayed Release Oral Capsule [Depakote]",
   "IsBrand": true,
-  "Brand_RxCUI": "1099596",
-  "Generic_RxCUI": "1099598",
+  "Brand_Mate_RxCUI": "1099598",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Divalproex Sodium Delayed Release",
+  "Manufacturer_Name": "Depakote",
+  "Strength": "125 MG",
+  "Form": "",
   "prices": {
     "00074611411": {
       "09/20/2017": 1.5307,
@@ -38,7 +42,8 @@
       "06/18/2025": 1.87945,
       "08/20/2025": 1.87897,
       "09/17/2025": 1.87828,
-      "10/22/2025": 1.87869
+      "10/22/2025": 1.87869,
+      "11/19/2025": 1.87846
     }
   }
 }

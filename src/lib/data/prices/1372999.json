@@ -1,9 +1,13 @@
 {
   "RxCUI": "1372999",
-  "Name": "SUPRAX 400 MG CAPSULE",
+  "Name": "cefixime 400 MG Oral Capsule [Suprax]",
   "IsBrand": true,
-  "Brand_RxCUI": "409823",
-  "Generic_RxCUI": "1372999",
+  "Brand_Mate_RxCUI": "1372999",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cefixime",
+  "Manufacturer_Name": "Suprax",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "27437020811": {
       "06/21/2017": 22.10757,

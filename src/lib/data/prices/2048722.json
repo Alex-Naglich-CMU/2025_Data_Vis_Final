@@ -1,9 +1,13 @@
 {
   "RxCUI": "2048722",
-  "Name": "NOCDURNA 55.3 MCG TABLET SL",
+  "Name": "desmopressin acetate 0.0553 MG Sublingual Tablet [Nocdurna]",
   "IsBrand": true,
-  "Brand_RxCUI": "2048720",
-  "Generic_RxCUI": "2048722",
+  "Brand_Mate_RxCUI": "2048722",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Desmopressin Sublingual",
+  "Manufacturer_Name": "Nocdurna",
+  "Strength": "0.0553 MG",
+  "Form": "",
   "prices": {
     "54436035030": {
       "07/17/2024": 15.93793

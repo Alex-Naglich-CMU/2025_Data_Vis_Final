@@ -2,8 +2,12 @@
   "RxCUI": "748865",
   "Name": "TRIVORA-28 TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "748832",
-  "Generic_RxCUI": "748865",
+  "Brand_Mate_RxCUI": "748832",
+  "Generic_Mate_RxCUI": "748865",
+  "Ingredient_Name": "Trivora-",
+  "Manufacturer_Name": "",
+  "Strength": "28 TABL",
+  "Form": "TABLET",
   "prices": {
     "51862051001": {
       "05/19/2021": 0.46374,

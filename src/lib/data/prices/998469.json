@@ -1,9 +1,13 @@
 {
   "RxCUI": "998469",
-  "Name": "MICRO-GUARD 2% POWDER",
+  "Name": "miconazole nitrate 0.02 MG/MG Topical Powder [Micro-Guard]",
   "IsBrand": true,
-  "Brand_RxCUI": "998461",
-  "Generic_RxCUI": "998469",
+  "Brand_Mate_RxCUI": "998469",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Miconazole Nitrate Mgmg",
+  "Manufacturer_Name": "Micro-Guard",
+  "Strength": "0.02 MG/MG",
+  "Form": "",
   "prices": {
     "11701003816": {
       "06/21/2017": 0.05822,

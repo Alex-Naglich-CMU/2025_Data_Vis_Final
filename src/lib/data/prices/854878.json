@@ -1,9 +1,13 @@
 {
   "RxCUI": "854878",
-  "Name": "AMBIEN 5 MG TABLET",
+  "Name": "zolpidem tartrate 5 MG Oral Tablet [Ambien]",
   "IsBrand": true,
-  "Brand_RxCUI": "854876",
-  "Generic_RxCUI": "854878",
+  "Brand_Mate_RxCUI": "854878",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Zolpidem Tartrate",
+  "Manufacturer_Name": "Ambien",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00024540131": {
       "01/03/2020": 17.83153,

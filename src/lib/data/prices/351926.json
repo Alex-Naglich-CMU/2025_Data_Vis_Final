@@ -1,9 +1,13 @@
 {
   "RxCUI": "351926",
-  "Name": "NOVOLOG 100 UNIT/ML VIAL",
+  "Name": "insulin aspart, human 100 UNT/ML Injectable Solution [NovoLog]",
   "IsBrand": true,
-  "Brand_RxCUI": "311040",
-  "Generic_RxCUI": "351926",
+  "Brand_Mate_RxCUI": "351926",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Aspart, Human Untml Injectable",
+  "Manufacturer_Name": "NovoLog",
+  "Strength": "100 UNT/ML",
+  "Form": "",
   "prices": {
     "00169750111": {
       "02/21/2018": 26.4766,
@@ -31,7 +35,8 @@
       "07/23/2025": 6.93992,
       "08/20/2025": 6.9387,
       "09/17/2025": 6.93943,
-      "10/22/2025": 6.93997
+      "10/22/2025": 6.93997,
+      "11/19/2025": 6.93949
     },
     "169750111": {
       "09/22/2021": 27.83693

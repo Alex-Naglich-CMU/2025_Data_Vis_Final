@@ -1,9 +1,13 @@
 {
   "RxCUI": "967021",
-  "Name": "ZYCLARA 3.75% CREAM PUMP",
+  "Name": "imiquimod 37.5 MG/ML Topical Cream [Zyclara]",
   "IsBrand": true,
-  "Brand_RxCUI": "967017",
-  "Generic_RxCUI": "967021",
+  "Brand_Mate_RxCUI": "967021",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Imiquimod Mgml",
+  "Manufacturer_Name": "Zyclara",
+  "Strength": "37.5 MG/ML",
+  "Form": "",
   "prices": {
     "99207027175": {
       "01/05/2018": 159.0134,

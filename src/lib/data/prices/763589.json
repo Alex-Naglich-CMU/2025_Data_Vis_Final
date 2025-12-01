@@ -1,9 +1,13 @@
 {
   "RxCUI": "763589",
-  "Name": "NISOLDIPINE ER 34 MG TABLET",
+  "Name": "24 HR nisoldipine 34 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "763589",
-  "Generic_RxCUI": "763591",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "763589",
+  "Ingredient_Name": "Hr Nisoldipine Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "00378209901": {
       "05/22/2024": 4.03866,
@@ -23,7 +27,8 @@
       "07/23/2025": 5.18282,
       "08/20/2025": 5.34054,
       "09/17/2025": 5.53232,
-      "10/22/2025": 5.67471
+      "10/22/2025": 5.67471,
+      "11/19/2025": 5.80492
     },
     "66993047502": {
       "05/22/2024": 4.03866,
@@ -43,7 +48,8 @@
       "07/23/2025": 5.18282,
       "08/20/2025": 5.34054,
       "09/17/2025": 5.53232,
-      "10/22/2025": 5.67471
+      "10/22/2025": 5.67471,
+      "11/19/2025": 5.80492
     }
   }
 }

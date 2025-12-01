@@ -1,9 +1,13 @@
 {
   "RxCUI": "835547",
-  "Name": "PETROLATUM 42% OINTMENT",
+  "Name": "petrolatum 0.42 MG/MG Topical Ointment",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "835547",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "835547",
+  "Ingredient_Name": "Petrolatum Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.42 MG/MG",
+  "Form": "Ointment",
   "prices": {
     "00536114397": {
       "08/21/2024": 0.05538,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "616489",
-  "Name": "SEROQUEL 50 MG TABLET",
+  "Name": "quetiapine 50 MG Oral Tablet [Seroquel]",
   "IsBrand": true,
-  "Brand_RxCUI": "616487",
-  "Generic_RxCUI": "616489",
+  "Brand_Mate_RxCUI": "616489",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Quetiapine",
+  "Manufacturer_Name": "Seroquel",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "00310027810": {
       "05/22/2024": 6.09956,
@@ -15,7 +19,8 @@
       "05/21/2025": 6.1085,
       "08/20/2025": 6.1136,
       "09/17/2025": 6.10715,
-      "10/22/2025": 6.09897
+      "10/22/2025": 6.09897,
+      "11/19/2025": 6.08964
     }
   }
 }

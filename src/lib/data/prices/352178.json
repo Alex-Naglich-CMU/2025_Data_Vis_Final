@@ -1,11 +1,15 @@
 {
   "RxCUI": "352178",
-  "Name": "CITRUCEL 500 MG CAPLET",
+  "Name": "methylcellulose 500 MG Oral Tablet [Citrucel]",
   "IsBrand": true,
-  "Brand_RxCUI": "198750",
-  "Generic_RxCUI": "352178",
+  "Brand_Mate_RxCUI": "352178",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methylcellulose",
+  "Manufacturer_Name": "Citrucel",
+  "Strength": "500 MG",
+  "Form": "",
   "prices": {
-    "00135019902": {
+    "00135019901": {
       "06/21/2017": 0.12639,
       "08/23/2017": 0.12221,
       "09/20/2017": 0.12532,
@@ -23,7 +27,7 @@
       "08/21/2019": 0.13206,
       "06/17/2020": 0.13202
     },
-    "00135019901": {
+    "00135019902": {
       "06/21/2017": 0.12639,
       "08/23/2017": 0.12221,
       "09/20/2017": 0.12532,

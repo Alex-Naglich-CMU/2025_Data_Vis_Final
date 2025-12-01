@@ -1,9 +1,13 @@
 {
   "RxCUI": "214004",
-  "Name": "XANAX 2 MG TABLET",
+  "Name": "alprazolam 2 MG Oral Tablet [Xanax]",
   "IsBrand": true,
-  "Brand_RxCUI": "197322",
-  "Generic_RxCUI": "214004",
+  "Brand_Mate_RxCUI": "214004",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Alprazolam",
+  "Manufacturer_Name": "Xanax",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "00009009401": {
       "06/01/2017": 9.9818,
@@ -24,7 +28,8 @@
       "11/20/2024": 14.76705,
       "01/07/2025": 15.21006,
       "08/20/2025": 15.19928,
-      "10/22/2025": 15.21213
+      "10/22/2025": 15.21213,
+      "11/19/2025": 15.19979
     }
   }
 }

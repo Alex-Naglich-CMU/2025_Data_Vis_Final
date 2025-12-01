@@ -1,9 +1,13 @@
 {
   "RxCUI": "352091",
-  "Name": "PHAZYME 180 MG SOFTGEL",
+  "Name": "simethicone 180 MG Oral Capsule [Phazyme]",
   "IsBrand": true,
-  "Brand_RxCUI": "252294",
-  "Generic_RxCUI": "352091",
+  "Brand_Mate_RxCUI": "352091",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Simethicone",
+  "Manufacturer_Name": "Phazyme",
+  "Strength": "180 MG",
+  "Form": "",
   "prices": {
     "00132020812": {
       "07/22/2020": 0.26058

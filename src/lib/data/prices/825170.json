@@ -2,8 +2,12 @@
   "RxCUI": "825170",
   "Name": "HUMIRA PEN CROHN-UC-HS STARTER",
   "IsBrand": true,
-  "Brand_RxCUI": "1656703",
-  "Generic_RxCUI": "825170",
+  "Brand_Mate_RxCUI": "825170",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Humira Pen Crohn-Uc-Hs Starter",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "",
   "prices": {
     "00074433906": {
       "01/01/2018": 2367.85661,

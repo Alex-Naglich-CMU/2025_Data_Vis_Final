@@ -1,9 +1,13 @@
 {
   "RxCUI": "1809029",
-  "Name": "NIVA-FOL TABLET",
+  "Name": "folic acid 2.5 MG / vitamin B12 2 MG / vitamin B6 25 MG Oral Tablet [Niva-Fol]",
   "IsBrand": false,
-  "Brand_RxCUI": "484925",
-  "Generic_RxCUI": "1809029",
+  "Brand_Mate_RxCUI": "484925",
+  "Generic_Mate_RxCUI": "1809029",
+  "Ingredient_Name": "Folic Acid Vitamin B Vitamin B",
+  "Manufacturer_Name": "Niva-Fol",
+  "Strength": "2.5 MG",
+  "Form": "",
   "prices": {
     "75834008090": {
       "06/21/2017": 0.42877,

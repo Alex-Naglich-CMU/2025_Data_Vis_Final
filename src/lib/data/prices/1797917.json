@@ -1,9 +1,13 @@
 {
   "RxCUI": "1797917",
-  "Name": "BECONASE AQ 0.042% SPRAY",
+  "Name": "beclomethasone dipropionate 0.042 MG/ACTUAT Metered Dose Nasal Spray [Beconase]",
   "IsBrand": true,
-  "Brand_RxCUI": "1797910",
-  "Generic_RxCUI": "1797917",
+  "Brand_Mate_RxCUI": "1797917",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Beclomethasone Dipropionate Mgactuat Metered Dose Nasal",
+  "Manufacturer_Name": "Beconase",
+  "Strength": "0.042 MG/ACTU",
+  "Form": "",
   "prices": {
     "00173038879": {
       "09/20/2017": 10.66336,

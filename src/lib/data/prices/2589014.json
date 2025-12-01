@@ -1,9 +1,13 @@
 {
   "RxCUI": "2589014",
-  "Name": "REZVOGLAR 100 UNIT/ML KWIKPEN",
+  "Name": "3 ML insulin glargine-aglr 100 UNT/ML Pen Injector [Rezvoglar]",
   "IsBrand": true,
-  "Brand_RxCUI": "2589008",
-  "Generic_RxCUI": "2589014",
+  "Brand_Mate_RxCUI": "2589014",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Glargine-Aglr Untml Pen Injector",
+  "Manufacturer_Name": "Rezvoglar",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00002898005": {
       "05/22/2024": 5.93106,
@@ -23,7 +27,8 @@
       "07/23/2025": 5.93421,
       "08/20/2025": 5.93206,
       "09/17/2025": 5.93164,
-      "10/22/2025": 5.92575
+      "10/22/2025": 5.92575,
+      "11/19/2025": 5.92527
     }
   }
 }

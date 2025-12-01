@@ -1,9 +1,13 @@
 {
   "RxCUI": "2634753",
-  "Name": "GRALISE ER 750 MG TABLET",
+  "Name": "Once-Daily gabapentin 750 MG Oral Tablet [Gralise]",
   "IsBrand": true,
-  "Brand_RxCUI": "2634751",
-  "Generic_RxCUI": "2634753",
+  "Brand_Mate_RxCUI": "2634753",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Once-Daily Gabapentin",
+  "Manufacturer_Name": "Gralise",
+  "Strength": "750 MG",
+  "Form": "",
   "prices": {
     "52427085060": {
       "10/23/2024": 15.2906,

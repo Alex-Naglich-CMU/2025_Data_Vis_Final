@@ -1,9 +1,13 @@
 {
   "RxCUI": "824299",
-  "Name": "BANZEL 200 MG TABLET",
+  "Name": "rufinamide 200 MG Oral Tablet [Banzel]",
   "IsBrand": true,
-  "Brand_RxCUI": "824295",
-  "Generic_RxCUI": "824299",
+  "Brand_Mate_RxCUI": "824299",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Rufinamide",
+  "Manufacturer_Name": "Banzel",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "62856058252": {
       "09/20/2017": 9.57675,
@@ -33,7 +37,8 @@
       "07/23/2025": 12.6127,
       "08/20/2025": 12.61635,
       "09/17/2025": 12.60531,
-      "10/22/2025": 12.61323
+      "10/22/2025": 12.61323,
+      "11/19/2025": 12.60972
     }
   }
 }

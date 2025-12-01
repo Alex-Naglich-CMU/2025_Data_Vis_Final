@@ -1,9 +1,13 @@
 {
   "RxCUI": "198439",
-  "Name": "ACETAMINOPHEN 500 MG SOFTGEL",
+  "Name": "acetaminophen 500 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "198439",
-  "Generic_RxCUI": "209890",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "198439",
+  "Ingredient_Name": "Acetaminophen",
+  "Manufacturer_Name": "",
+  "Strength": "500 MG",
+  "Form": "Capsule",
   "prices": {
     "70000050901": {
       "08/19/2020": 0.04405,

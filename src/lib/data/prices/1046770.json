@@ -1,9 +1,13 @@
 {
   "RxCUI": "1046770",
-  "Name": "HYOSCYAMINE ER 0.375 MG TAB",
+  "Name": "12 HR hyoscyamine sulfate 0.375 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1046770",
-  "Generic_RxCUI": "1149364",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1046770",
+  "Ingredient_Name": "Hr Hyoscyamine Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "12 HR",
+  "Form": "Tablet",
   "prices": {
     "62559042301": {
       "07/17/2024": 0.86264,
@@ -19,7 +23,8 @@
       "05/21/2025": 0.90169,
       "06/18/2025": 0.72801,
       "07/23/2025": 0.54984,
-      "10/22/2025": 0.57434
+      "10/22/2025": 0.57434,
+      "11/19/2025": 0.58835
     }
   }
 }

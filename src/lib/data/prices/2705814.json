@@ -2,8 +2,12 @@
   "RxCUI": "2705814",
   "Name": "ROSYRAH TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1373503",
-  "Generic_RxCUI": "2705814",
+  "Brand_Mate_RxCUI": "1373503",
+  "Generic_Mate_RxCUI": "2705814",
+  "Ingredient_Name": "Rosyrah",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "TABLET",
   "prices": {
     "70700031287": {
       "07/23/2025": 1.28502,

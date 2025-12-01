@@ -1,9 +1,13 @@
 {
   "RxCUI": "831269",
-  "Name": "GASTROCROM 100 MG/5 ML CONC",
+  "Name": "cromolyn sodium 20 MG/ML Oral Solution [Gastrocrom]",
   "IsBrand": true,
-  "Brand_RxCUI": "831261",
-  "Generic_RxCUI": "831269",
+  "Brand_Mate_RxCUI": "831269",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cromolyn Sodium Mgml",
+  "Manufacturer_Name": "Gastrocrom",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "00037067896": {
       "10/23/2024": 2.22543,
@@ -12,7 +16,8 @@
       "05/21/2025": 2.33083,
       "06/18/2025": 2.33245,
       "07/23/2025": 2.33119,
-      "09/17/2025": 2.33046
+      "09/17/2025": 2.33046,
+      "11/19/2025": 2.32974
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1743856",
-  "Name": "DEPO-MEDROL 80 MG/ML VIAL",
+  "Name": "1 ML methylprednisolone acetate 80 MG/ML Injection [Depo-Medrol]",
   "IsBrand": true,
-  "Brand_RxCUI": "1743855",
-  "Generic_RxCUI": "1743856",
+  "Brand_Mate_RxCUI": "1743856",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methylprednisolone Mgml",
+  "Manufacturer_Name": "Depo-Medrol",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00009347501": {
       "06/01/2017": 16.36187,
@@ -32,7 +36,8 @@
       "06/18/2025": 7.39615,
       "07/23/2025": 7.59556,
       "08/20/2025": 7.85441,
-      "09/17/2025": 8.2
+      "09/17/2025": 8.2,
+      "11/19/2025": 8.22375
     },
     "00009347522": {
       "06/01/2017": 16.36187,

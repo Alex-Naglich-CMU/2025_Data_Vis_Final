@@ -1,9 +1,13 @@
 {
   "RxCUI": "1090487",
-  "Name": "DEXTROMETHORPHAN 15 MG SOFTGEL",
+  "Name": "dextromethorphan hydrobromide 15 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "1090487",
-  "Generic_RxCUI": "1111766",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1090487",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide",
+  "Manufacturer_Name": "",
+  "Strength": "15 MG",
+  "Form": "Capsule",
   "prices": {
     "00536133434": {
       "05/22/2024": 0.11993,
@@ -22,7 +26,8 @@
       "07/23/2025": 0.10899,
       "08/20/2025": 0.10938,
       "09/17/2025": 0.10784,
-      "10/22/2025": 0.10453
+      "10/22/2025": 0.10453,
+      "11/19/2025": 0.102
     },
     "83324030320": {
       "12/18/2024": 0.12144,
@@ -35,7 +40,8 @@
       "07/23/2025": 0.10899,
       "08/20/2025": 0.10938,
       "09/17/2025": 0.10784,
-      "10/22/2025": 0.10453
+      "10/22/2025": 0.10453,
+      "11/19/2025": 0.102
     }
   }
 }

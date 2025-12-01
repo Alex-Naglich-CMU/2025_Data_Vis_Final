@@ -1,9 +1,13 @@
 {
   "RxCUI": "807834",
-  "Name": "KEPPRA XR 500 MG TABLET",
+  "Name": "24 HR levetiracetam 500 MG Extended Release Oral Tablet [Keppra]",
   "IsBrand": true,
-  "Brand_RxCUI": "807832",
-  "Generic_RxCUI": "807834",
+  "Brand_Mate_RxCUI": "807834",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Levetiracetam Extended Release",
+  "Manufacturer_Name": "Keppra",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "50474059866": {
       "11/22/2017": 6.67577,
@@ -35,7 +39,8 @@
       "07/23/2025": 8.79382,
       "08/20/2025": 8.78842,
       "09/17/2025": 8.79522,
-      "10/22/2025": 8.79056
+      "10/22/2025": 8.79056,
+      "11/19/2025": 8.78777
     }
   }
 }

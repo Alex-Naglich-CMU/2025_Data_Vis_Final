@@ -1,9 +1,13 @@
 {
   "RxCUI": "903849",
-  "Name": "MESTINON 180 MG TIMESPAN",
+  "Name": "pyridostigmine bromide 180 MG Extended Release Oral Tablet [Mestinon]",
   "IsBrand": true,
-  "Brand_RxCUI": "903847",
-  "Generic_RxCUI": "903849",
+  "Brand_Mate_RxCUI": "903849",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Pyridostigmine Bromide Extended Release",
+  "Manufacturer_Name": "Mestinon",
+  "Strength": "180 MG",
+  "Form": "",
   "prices": {
     "00187301330": {
       "12/18/2024": 36.68848,

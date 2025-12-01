@@ -1,9 +1,13 @@
 {
   "RxCUI": "205023",
-  "Name": "THERAPEUTIC 3% DANDRUFF SHMP",
+  "Name": "salicylic acid 30 MG/ML Medicated Shampoo",
   "IsBrand": false,
-  "Brand_RxCUI": "205023",
-  "Generic_RxCUI": "2467167",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "205023",
+  "Ingredient_Name": "Salicylic Acid Mgml Medicated",
+  "Manufacturer_Name": "",
+  "Strength": "30 MG/ML",
+  "Form": "",
   "prices": {
     "70000055001": {
       "05/22/2024": 0.02203,
@@ -18,7 +22,8 @@
       "06/18/2025": 0.02228,
       "07/23/2025": 0.02219,
       "08/20/2025": 0.02209,
-      "09/17/2025": 0.02207
+      "09/17/2025": 0.02207,
+      "11/19/2025": 0.02201
     }
   }
 }

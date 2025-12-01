@@ -1,9 +1,13 @@
 {
   "RxCUI": "1000158",
-  "Name": "DEPO-SUBQ PROVERA 104 SYRINGE",
+  "Name": "0.65 ML medroxyprogesterone acetate 160 MG/ML Prefilled Syringe [depo-subQ provera]",
   "IsBrand": true,
-  "Brand_RxCUI": "1000156",
-  "Generic_RxCUI": "1000158",
+  "Brand_Mate_RxCUI": "1000158",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Medroxyprogesterone Mgml Prefilled",
+  "Manufacturer_Name": "depo-subQ provera",
+  "Strength": "0.65 ML",
+  "Form": "",
   "prices": {
     "00009470913": {
       "06/01/2017": 319.28871,
@@ -31,7 +35,8 @@
       "07/23/2025": 77.49491,
       "08/20/2025": 77.51093,
       "09/17/2025": 77.47872,
-      "10/22/2025": 77.45909
+      "10/22/2025": 77.45909,
+      "11/19/2025": 77.45084
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2395775",
-  "Name": "TRELEGY ELLIPTA 200-62.5-25",
+  "Name": "30 ACTUAT fluticasone furoate 0.2 MG/ACTUAT / umeclidinium 0.0625 MG/ACTUAT / vilanterol 0.025 MG/ACTUAT Dry Powder Inhaler [Trelegy]",
   "IsBrand": true,
-  "Brand_RxCUI": "2395774",
-  "Generic_RxCUI": "2395775",
+  "Brand_Mate_RxCUI": "2395775",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Fluticasone Furoate Mgactuat Umeclidinium Mgactuat Vilanterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Trelegy",
+  "Strength": "30 ACTU",
+  "Form": "",
   "prices": {
     "00173089310": {
       "11/17/2021": 9.65663,
@@ -25,7 +29,8 @@
       "07/23/2025": 10.83388,
       "08/20/2025": 10.8332,
       "09/17/2025": 10.83388,
-      "10/22/2025": 10.83576
+      "10/22/2025": 10.83576,
+      "11/19/2025": 10.8359
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "352274",
-  "Name": "DIOVAN 40 MG TABLET",
+  "Name": "valsartan 40 MG Oral Tablet [Diovan]",
   "IsBrand": true,
-  "Brand_RxCUI": "349483",
-  "Generic_RxCUI": "352274",
+  "Brand_Mate_RxCUI": "352274",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Valsartan",
+  "Manufacturer_Name": "Diovan",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "00078042315": {
       "01/03/2018": 5.94116,

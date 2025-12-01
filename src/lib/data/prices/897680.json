@@ -1,9 +1,13 @@
 {
   "RxCUI": "897680",
-  "Name": "CALAN SR 240 MG CAPLET",
+  "Name": "verapamil hydrochloride 240 MG Extended Release Oral Tablet [Calan]",
   "IsBrand": true,
-  "Brand_RxCUI": "897649",
-  "Generic_RxCUI": "897680",
+  "Brand_Mate_RxCUI": "897680",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Verapamil Hydrochloride Extended Release",
+  "Manufacturer_Name": "Calan",
+  "Strength": "240 MG",
+  "Form": "",
   "prices": {
     "00025189151": {
       "06/01/2017": 7.77155,

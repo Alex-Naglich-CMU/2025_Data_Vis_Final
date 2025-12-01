@@ -2,8 +2,12 @@
   "RxCUI": "749848",
   "Name": "DESOGEST-ETH ESTRA 0.15-0.03 MG",
   "IsBrand": false,
-  "Brand_RxCUI": "749848",
-  "Generic_RxCUI": "1923421",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "749848",
+  "Ingredient_Name": "Desogest-Eth Estra -",
+  "Manufacturer_Name": "",
+  "Strength": "0.03 MG",
+  "Form": "",
   "prices": {
     "00378728253": {
       "08/23/2017": 0.43715,

@@ -2,8 +2,12 @@
   "RxCUI": "1862102",
   "Name": "AFREZZA 4 UNIT/8 UNIT/12 UNIT",
   "IsBrand": true,
-  "Brand_RxCUI": "1862101",
-  "Generic_RxCUI": "1862102",
+  "Brand_Mate_RxCUI": "1862102",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Afrezza",
+  "Manufacturer_Name": "",
+  "Strength": "4 UNIT",
+  "Form": "",
   "prices": {
     "47918090218": {
       "10/01/2019": 7.54949,
@@ -17,7 +21,8 @@
       "05/21/2025": 10.10683,
       "08/20/2025": 10.10898,
       "09/17/2025": 10.10232,
-      "10/22/2025": 10.07625
+      "10/22/2025": 10.07625,
+      "11/19/2025": 10.09368
     }
   }
 }

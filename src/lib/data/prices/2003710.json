@@ -1,9 +1,13 @@
 {
   "RxCUI": "2003710",
-  "Name": "NEW DAY 1.5 MG TABLET",
+  "Name": "levonorgestrel 1.5 MG Oral Tablet [New Day]",
   "IsBrand": false,
-  "Brand_RxCUI": "483325",
-  "Generic_RxCUI": "2003710",
+  "Brand_Mate_RxCUI": "483325",
+  "Generic_Mate_RxCUI": "2003710",
+  "Ingredient_Name": "Levonorgestrel",
+  "Manufacturer_Name": "New Day",
+  "Strength": "1.5 MG",
+  "Form": "",
   "prices": {
     "16714080901": {
       "05/19/2021": 8.69276,
@@ -90,7 +94,8 @@
       "07/23/2025": 6.50758,
       "08/20/2025": 6.48733,
       "09/17/2025": 6.32896,
-      "10/22/2025": 6.21624
+      "10/22/2025": 6.21624,
+      "11/19/2025": 6.3965
     }
   }
 }

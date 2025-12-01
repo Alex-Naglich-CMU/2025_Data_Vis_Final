@@ -1,9 +1,13 @@
 {
   "RxCUI": "404408",
-  "Name": "LEXAPRO 5 MG TABLET",
+  "Name": "escitalopram 5 MG Oral Tablet [Lexapro]",
   "IsBrand": true,
-  "Brand_RxCUI": "351249",
-  "Generic_RxCUI": "404408",
+  "Brand_Mate_RxCUI": "404408",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Escitalopram",
+  "Manufacturer_Name": "Lexapro",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00456200501": {
       "01/01/2018": 9.77673,

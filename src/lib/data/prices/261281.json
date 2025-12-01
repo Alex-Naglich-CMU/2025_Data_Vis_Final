@@ -1,9 +1,13 @@
 {
   "RxCUI": "261281",
-  "Name": "NEURONTIN 800 MG TABLET",
+  "Name": "gabapentin 800 MG Oral Tablet [Neurontin]",
   "IsBrand": true,
-  "Brand_RxCUI": "310434",
-  "Generic_RxCUI": "261281",
+  "Brand_Mate_RxCUI": "261281",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Gabapentin",
+  "Manufacturer_Name": "Neurontin",
+  "Strength": "800 MG",
+  "Form": "",
   "prices": {
     "00071040124": {
       "06/01/2017": 10.65284,

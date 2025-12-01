@@ -1,9 +1,13 @@
 {
   "RxCUI": "833146",
-  "Name": "SAVELLA 50 MG TABLET",
+  "Name": "milnacipran hydrochloride 50 MG Oral Tablet [Savella]",
   "IsBrand": true,
-  "Brand_RxCUI": "833144",
-  "Generic_RxCUI": "833146",
+  "Brand_Mate_RxCUI": "833146",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Milnacipran Hydrochloride",
+  "Manufacturer_Name": "Savella",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "00456155060": {
       "11/22/2017": 5.08693,
@@ -33,7 +37,8 @@
       "07/23/2025": 8.15908,
       "08/20/2025": 8.15619,
       "09/17/2025": 8.15877,
-      "10/22/2025": 8.16075
+      "10/22/2025": 8.16075,
+      "11/19/2025": 8.16157
     }
   }
 }

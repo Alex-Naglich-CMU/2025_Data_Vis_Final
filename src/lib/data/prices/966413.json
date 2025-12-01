@@ -1,9 +1,13 @@
 {
   "RxCUI": "966413",
-  "Name": "LEVOTHYROXINE 150 MCG CAPSULE",
+  "Name": "levothyroxine sodium 0.15 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "966413",
-  "Generic_RxCUI": "966420",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "966413",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "",
+  "Strength": "0.15 MG",
+  "Form": "Capsule",
   "prices": {
     "00527496032": {
       "05/22/2024": 2.37373,

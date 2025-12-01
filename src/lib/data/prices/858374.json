@@ -1,9 +1,13 @@
 {
   "RxCUI": "858374",
-  "Name": "SOLODYN ER 65 MG TABLET",
+  "Name": "24 HR minocycline 65 MG Extended Release Oral Tablet [Solodyn]",
   "IsBrand": true,
-  "Brand_RxCUI": "858372",
-  "Generic_RxCUI": "858374",
+  "Brand_Mate_RxCUI": "858374",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Minocycline Extended Release",
+  "Manufacturer_Name": "Solodyn",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "99207046330": {
       "01/05/2018": 39.57435

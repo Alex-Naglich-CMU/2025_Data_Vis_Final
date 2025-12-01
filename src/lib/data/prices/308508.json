@@ -1,9 +1,13 @@
 {
   "RxCUI": "308508",
-  "Name": "BACITRACIN 500 UNIT/GM OPHTHALMIC OINTMENT",
+  "Name": "bacitracin 0.5 UNT/MG Ophthalmic Ointment",
   "IsBrand": false,
-  "Brand_RxCUI": "308508",
-  "Generic_RxCUI": "2391327",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "308508",
+  "Ingredient_Name": "Bacitracin Untmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.5 UNT/MG",
+  "Form": "Ointment",
   "prices": {
     "00574402235": {
       "05/19/2021": 26.9898,

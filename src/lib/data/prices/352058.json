@@ -1,9 +1,13 @@
 {
   "RxCUI": "352058",
-  "Name": "FROVA 2.5 MG TABLET",
+  "Name": "frovatriptan 2.5 MG Oral Tablet [Frova]",
   "IsBrand": true,
-  "Brand_RxCUI": "349462",
-  "Generic_RxCUI": "352058",
+  "Brand_Mate_RxCUI": "352058",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Frovatriptan",
+  "Manufacturer_Name": "Frova",
+  "Strength": "2.5 MG",
+  "Form": "",
   "prices": {
     "63481002509": {
       "01/05/2018": 77.20727,

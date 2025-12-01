@@ -1,12 +1,19 @@
 {
   "RxCUI": "1111683",
-  "Name": "BIOFREEZE 4% GEL",
+  "Name": "menthol 0.04 MG/MG Topical Gel [Biofreeze]",
   "IsBrand": true,
-  "Brand_RxCUI": "415974",
-  "Generic_RxCUI": "1111683",
+  "Brand_Mate_RxCUI": "1111683",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Menthol Mgmg",
+  "Manufacturer_Name": "Biofreeze",
+  "Strength": "0.04 MG/MG",
+  "Form": "",
   "prices": {
     "59316010212": {
       "04/17/2024": 0.08662
+    },
+    "59316010228": {
+      "06/19/2024": 0.06214
     },
     "59316010312": {
       "04/17/2024": 0.08662
@@ -16,9 +23,6 @@
     },
     "59316020510": {
       "04/17/2024": 0.08662
-    },
-    "59316010228": {
-      "06/19/2024": 0.06214
     },
     "59316020514": {
       "06/19/2024": 0.10395

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1719003",
-  "Name": "GEMCITABINE HCL 1 GRAM VIAL",
+  "Name": "gemcitabine 1000 MG Injection",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1719003",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1719003",
+  "Ingredient_Name": "Gemcitabine",
+  "Manufacturer_Name": "",
+  "Strength": "1000 MG",
+  "Form": "Injection",
   "prices": {
     "00409018601": {
       "12/18/2024": 20.81644,

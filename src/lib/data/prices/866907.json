@@ -1,9 +1,13 @@
 {
   "RxCUI": "866907",
-  "Name": "WELCHOL 3.75G PACKET",
+  "Name": "colesevelam hydrochloride 3750 MG Powder for Oral Suspension [Welchol]",
   "IsBrand": true,
-  "Brand_RxCUI": "866905",
-  "Generic_RxCUI": "866907",
+  "Brand_Mate_RxCUI": "866907",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Colesevelam Hydrochloride For",
+  "Manufacturer_Name": "Welchol",
+  "Strength": "3750 MG",
+  "Form": "",
   "prices": {
     "65597090230": {
       "02/21/2018": 18.96716,

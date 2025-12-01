@@ -1,9 +1,13 @@
 {
   "RxCUI": "210177",
-  "Name": "SEBEX SHAMPOO",
+  "Name": "salicylic acid 20 MG/ML / sulfur 20 MG/ML Medicated Shampoo [Sebex]",
   "IsBrand": false,
-  "Brand_RxCUI": "204638",
-  "Generic_RxCUI": "210177",
+  "Brand_Mate_RxCUI": "204638",
+  "Generic_Mate_RxCUI": "210177",
+  "Ingredient_Name": "Salicylic Acid Mgml Sulfur Mgml Medicated",
+  "Manufacturer_Name": "Sebex",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "00536196297": {
       "06/21/2017": 0.02465,
@@ -43,7 +47,8 @@
       "07/23/2025": 0.02393,
       "08/20/2025": 0.0238,
       "09/17/2025": 0.02345,
-      "10/22/2025": 0.02302
+      "10/22/2025": 0.02302,
+      "11/19/2025": 0.02297
     },
     "536196297": {
       "09/22/2021": 0.02032

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2594603",
-  "Name": "LOREEV XR 1.5 MG CAPSULE",
+  "Name": "24 HR lorazepam 1.5 MG Extended Release Oral Capsule [Loreev]",
   "IsBrand": true,
-  "Brand_RxCUI": "2594600",
-  "Generic_RxCUI": "2594603",
+  "Brand_Mate_RxCUI": "2594603",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Lorazepam Extended Release",
+  "Manufacturer_Name": "Loreev",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "52427066130": {
       "05/22/2024": 14.17228,
@@ -20,7 +24,8 @@
       "06/18/2025": 14.26624,
       "07/23/2025": 14.24747,
       "09/17/2025": 14.292,
-      "10/22/2025": 14.25927
+      "10/22/2025": 14.25927,
+      "11/19/2025": 14.25767
     }
   }
 }

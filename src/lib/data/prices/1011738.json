@@ -1,9 +1,13 @@
 {
   "RxCUI": "1011738",
-  "Name": "TEKTURNA 150 MG TABLET",
+  "Name": "aliskiren 150 MG Oral Tablet [Tekturna]",
   "IsBrand": true,
-  "Brand_RxCUI": "1011736",
-  "Generic_RxCUI": "1011738",
+  "Brand_Mate_RxCUI": "1011738",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Aliskiren",
+  "Manufacturer_Name": "Tekturna",
+  "Strength": "150 MG",
+  "Form": "",
   "prices": {
     "70839015030": {
       "09/20/2017": 5.29177,

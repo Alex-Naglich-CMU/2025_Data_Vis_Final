@@ -1,9 +1,13 @@
 {
   "RxCUI": "2611266",
-  "Name": "AUVELITY ER 45-105 MG TABLET",
+  "Name": "bupropion hydrochloride 105 MG / dextromethorphan hydrobromide 45 MG Extended Release Oral Tablet [Auvelity]",
   "IsBrand": true,
-  "Brand_RxCUI": "2611260",
-  "Generic_RxCUI": "2611266",
+  "Brand_Mate_RxCUI": "2611266",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Bupropion Hydrochloride Dextromethorphan Hydrobromide Extended Release",
+  "Manufacturer_Name": "Auvelity",
+  "Strength": "105 MG",
+  "Form": "",
   "prices": {
     "81968004530": {
       "10/23/2023": 17.7174,
@@ -20,7 +24,8 @@
       "07/23/2025": 18.75671,
       "08/20/2025": 18.75208,
       "09/17/2025": 18.75914,
-      "10/22/2025": 18.75735
+      "10/22/2025": 18.75735,
+      "11/19/2025": 18.75692
     },
     "81968004560": {
       "05/21/2025": 18.75425,
@@ -28,7 +33,8 @@
       "07/23/2025": 18.75671,
       "08/20/2025": 18.75208,
       "09/17/2025": 18.75914,
-      "10/22/2025": 18.75735
+      "10/22/2025": 18.75735,
+      "11/19/2025": 18.75692
     }
   }
 }

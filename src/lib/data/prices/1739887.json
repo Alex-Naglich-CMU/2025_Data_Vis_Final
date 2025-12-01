@@ -1,9 +1,13 @@
 {
   "RxCUI": "1739887",
-  "Name": "PHENOHYTRO TABLET",
+  "Name": "atropine sulfate 0.0194 MG / hyoscyamine sulfate 0.1037 MG / phenobarbital 16.2 MG / scopolamine hydrobromide 0.0065 MG Oral Tablet [Phenohytro]",
   "IsBrand": false,
-  "Brand_RxCUI": "1046815",
-  "Generic_RxCUI": "1739887",
+  "Brand_Mate_RxCUI": "1046815",
+  "Generic_Mate_RxCUI": "1739887",
+  "Ingredient_Name": "Atropine Hyoscyamine Phenobarbital Scopolamine Hydrobromide",
+  "Manufacturer_Name": "Phenohytro",
+  "Strength": "0.0194 MG",
+  "Form": "",
   "prices": {
     "75826011810": {
       "10/23/2024": 1.22123,

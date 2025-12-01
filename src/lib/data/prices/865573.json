@@ -1,9 +1,13 @@
 {
   "RxCUI": "865573",
-  "Name": "GLUCOTROL XL 5 MG TABLET",
+  "Name": "24 HR glipizide 5 MG Extended Release Oral Tablet [Glucotrol]",
   "IsBrand": true,
-  "Brand_RxCUI": "314006",
-  "Generic_RxCUI": "865573",
+  "Brand_Mate_RxCUI": "865573",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Glipizide Extended Release",
+  "Manufacturer_Name": "Glucotrol",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00049017402": {
       "06/01/2017": 1.44995,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "284460",
-  "Name": "IMITREX 100 MG TABLET",
+  "Name": "sumatriptan 100 MG Oral Tablet [Imitrex]",
   "IsBrand": true,
-  "Brand_RxCUI": "313160",
-  "Generic_RxCUI": "284460",
+  "Brand_Mate_RxCUI": "284460",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sumatriptan",
+  "Manufacturer_Name": "Imitrex",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "00173073701": {
       "09/20/2017": 57.2337,
@@ -31,7 +35,8 @@
       "06/18/2025": 72.53295,
       "07/23/2025": 72.44222,
       "08/20/2025": 72.39216,
-      "10/22/2025": 72.39704
+      "10/22/2025": 72.39704,
+      "11/19/2025": 72.41833
     }
   }
 }

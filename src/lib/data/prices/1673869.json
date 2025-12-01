@@ -1,9 +1,13 @@
 {
   "RxCUI": "1673869",
-  "Name": "DURAFLU 325-20-200-60 MG TAB",
+  "Name": "acetaminophen 325 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 200 MG / pseudoephedrine hydrochloride 60 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1673869",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1673869",
+  "Ingredient_Name": "Acetaminophen Dextromethorphan Hydrobromide Guaifenesin Pseudoephedrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "325 MG",
+  "Form": "Tablet",
   "prices": {
     "50991053501": {
       "02/21/2018": 0.9988,

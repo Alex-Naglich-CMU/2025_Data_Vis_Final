@@ -1,9 +1,13 @@
 {
   "RxCUI": "1011741",
-  "Name": "TEKTURNA 300 MG TABLET",
+  "Name": "aliskiren 300 MG Oral Tablet [Tekturna]",
   "IsBrand": true,
-  "Brand_RxCUI": "1011739",
-  "Generic_RxCUI": "1011741",
+  "Brand_Mate_RxCUI": "1011741",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Aliskiren",
+  "Manufacturer_Name": "Tekturna",
+  "Strength": "300 MG",
+  "Form": "",
   "prices": {
     "70839030030": {
       "06/21/2017": 6.63033,

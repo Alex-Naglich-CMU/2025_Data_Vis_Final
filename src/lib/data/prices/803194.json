@@ -1,9 +1,13 @@
 {
   "RxCUI": "803194",
-  "Name": "APIDRA 100 UNIT/ML VIAL",
+  "Name": "insulin glulisine, human 100 UNT/ML Injectable Solution [Apidra]",
   "IsBrand": true,
-  "Brand_RxCUI": "485210",
-  "Generic_RxCUI": "803194",
+  "Brand_Mate_RxCUI": "803194",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Glulisine, Human Untml Injectable",
+  "Manufacturer_Name": "Apidra",
+  "Strength": "100 UNT/ML",
+  "Form": "",
   "prices": {
     "00088250033": {
       "07/21/2021": 27.18143,
@@ -33,7 +37,8 @@
       "07/23/2025": 8.1701,
       "08/20/2025": 8.16932,
       "09/17/2025": 8.17337,
-      "10/22/2025": 8.1715
+      "10/22/2025": 8.1715,
+      "11/19/2025": 8.16312
     }
   }
 }

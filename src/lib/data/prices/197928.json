@@ -1,9 +1,13 @@
 {
   "RxCUI": "197928",
-  "Name": "MEPROBAMATE 200 MG TABLET",
+  "Name": "meprobamate 200 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "197928",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "197928",
+  "Ingredient_Name": "Meprobamate",
+  "Manufacturer_Name": "",
+  "Strength": "200 MG",
+  "Form": "Tablet",
   "prices": {
     "62332001931": {
       "08/21/2024": 5.0642,

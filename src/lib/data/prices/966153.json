@@ -1,9 +1,13 @@
 {
   "RxCUI": "966153",
-  "Name": "EUTHYROX 25 MCG TABLET",
+  "Name": "levothyroxine sodium 0.025 MG Oral Tablet [Euthyrox]",
   "IsBrand": true,
-  "Brand_RxCUI": "966220",
-  "Generic_RxCUI": "966153",
+  "Brand_Mate_RxCUI": "966153",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "Euthyrox",
+  "Strength": "0.025 MG",
+  "Form": "",
   "prices": {
     "72305002530": {
       "11/01/2022": 0.09829,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1597124",
-  "Name": "ANDROGEL 1%(2.5G) GEL PACKET",
+  "Name": "2500 MG testosterone 0.01 MG/MG Topical Gel [Androgel]",
   "IsBrand": true,
-  "Brand_RxCUI": "1597123",
-  "Generic_RxCUI": "1597124",
+  "Brand_Mate_RxCUI": "1597124",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Testosterone Mgmg",
+  "Manufacturer_Name": "Androgel",
+  "Strength": "2500 MG",
+  "Form": "",
   "prices": {
     "00051842530": {
       "01/01/2018": 8.06166

@@ -1,10 +1,20 @@
 {
   "RxCUI": "1374776",
-  "Name": "KARBINAL ER 4 MG/5 ML SUSP",
+  "Name": "12 HR carbinoxamine maleate 0.8 MG/ML Extended Release Suspension [Karbinal]",
   "IsBrand": true,
-  "Brand_RxCUI": "1374770",
-  "Generic_RxCUI": "1374776",
+  "Brand_Mate_RxCUI": "1374776",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Carbinoxamine Maleate Mgml Extended Release",
+  "Manufacturer_Name": "Karbinal",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
+    "13551010105": {
+      "06/21/2017": 0.89716,
+      "05/10/2018": 0.9779,
+      "07/18/2018": 0.97999,
+      "12/28/2018": 1.07701
+    },
     "23594010105": {
       "06/23/2021": 1.05485,
       "05/10/2018": 0.9779,
@@ -24,13 +34,8 @@
       "05/21/2025": 1.19708,
       "06/18/2025": 1.19681,
       "07/23/2025": 1.19545,
-      "09/17/2025": 1.19367
-    },
-    "13551010105": {
-      "06/21/2017": 0.89716,
-      "05/10/2018": 0.9779,
-      "07/18/2018": 0.97999,
-      "12/28/2018": 1.07701
+      "09/17/2025": 1.19367,
+      "11/19/2025": 1.19695
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2107355",
-  "Name": "MOTEGRITY 2 MG TABLET",
+  "Name": "prucalopride 2 MG Oral Tablet [Motegrity]",
   "IsBrand": true,
-  "Brand_RxCUI": "2107353",
-  "Generic_RxCUI": "2107355",
+  "Brand_Mate_RxCUI": "2107355",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Prucalopride",
+  "Manufacturer_Name": "Motegrity",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "54092054701": {
       "01/03/2020": 14.07303,
@@ -28,7 +32,8 @@
       "07/23/2025": 17.81048,
       "08/20/2025": 17.81353,
       "09/17/2025": 17.80978,
-      "10/22/2025": 17.81511
+      "10/22/2025": 17.81511,
+      "11/19/2025": 17.80717
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1806210",
-  "Name": "METHYLPHENIDATE ER 40 MG CAP",
+  "Name": "40/60 Release 24 HR methylphenidate hydrochloride 40 MG Extended Release Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "1806210",
-  "Generic_RxCUI": "1648195",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1806210",
+  "Ingredient_Name": "Release Hr Methylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "60 Rele",
+  "Form": "Capsule",
   "prices": {
     "00591389119": {
       "05/22/2024": 4.14711,

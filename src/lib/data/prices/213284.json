@@ -1,9 +1,13 @@
 {
   "RxCUI": "213284",
-  "Name": "DROXIA 400 MG CAPSULE",
+  "Name": "hydroxyurea 400 MG Oral Capsule [Droxia]",
   "IsBrand": true,
-  "Brand_RxCUI": "200344",
-  "Generic_RxCUI": "213284",
+  "Brand_Mate_RxCUI": "213284",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hydroxyurea",
+  "Manufacturer_Name": "Droxia",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "00003633717": {
       "05/22/2024": 0.7767,

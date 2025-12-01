@@ -1,9 +1,13 @@
 {
   "RxCUI": "2257678",
-  "Name": "AMZEEQ 4% FOAM",
+  "Name": "minocycline 40 MG/ML Topical Foam [Amzeeq]",
   "IsBrand": true,
-  "Brand_RxCUI": "2257673",
-  "Generic_RxCUI": "2257678",
+  "Brand_Mate_RxCUI": "2257678",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Minocycline Mgml",
+  "Manufacturer_Name": "Amzeeq",
+  "Strength": "40 MG/ML",
+  "Form": "",
   "prices": {
     "72356010103": {
       "04/21/2021": 15.50867,

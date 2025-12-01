@@ -1,9 +1,13 @@
 {
   "RxCUI": "1549091",
-  "Name": "OPCICON ONE-STEP 1.5 MG TABLET",
+  "Name": "levonorgestrel 1.5 MG Oral Tablet [Opcicon One-Step]",
   "IsBrand": false,
-  "Brand_RxCUI": "483325",
-  "Generic_RxCUI": "1549091",
+  "Brand_Mate_RxCUI": "483325",
+  "Generic_Mate_RxCUI": "1549091",
+  "Ingredient_Name": "Levonorgestrel",
+  "Manufacturer_Name": "Opcicon One-Step",
+  "Strength": "1.5 MG",
+  "Form": "",
   "prices": {
     "62756071860": {
       "05/19/2021": 8.69276,

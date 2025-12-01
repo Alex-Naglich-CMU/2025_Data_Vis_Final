@@ -1,9 +1,13 @@
 {
   "RxCUI": "1435630",
-  "Name": "EPANED 1 MG/ML ORAL SOLUTION",
+  "Name": "enalapril maleate 1 MG/ML Oral Solution [Epaned]",
   "IsBrand": true,
-  "Brand_RxCUI": "1435624",
-  "Generic_RxCUI": "1435630",
+  "Brand_Mate_RxCUI": "1435630",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Enalapril Maleate Mgml",
+  "Manufacturer_Name": "Epaned",
+  "Strength": "1 MG/ML",
+  "Form": "",
   "prices": {
     "52652400101": {
       "07/21/2021": 3.42711,

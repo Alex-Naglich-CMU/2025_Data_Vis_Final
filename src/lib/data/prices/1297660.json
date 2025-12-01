@@ -1,9 +1,13 @@
 {
   "RxCUI": "1297660",
-  "Name": "NEXIUM DR 2.5 MG PACKET",
+  "Name": "esomeprazole 2.5 MG Granules for Oral Suspension [Nexium]",
   "IsBrand": true,
-  "Brand_RxCUI": "1297658",
-  "Generic_RxCUI": "1297660",
+  "Brand_Mate_RxCUI": "1297660",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Esomeprazole Granules For",
+  "Manufacturer_Name": "Nexium",
+  "Strength": "2.5 MG",
+  "Form": "",
   "prices": {
     "00186402501": {
       "05/19/2021": 9.17505,
@@ -32,7 +36,8 @@
       "07/23/2025": 9.18089,
       "08/20/2025": 9.17001,
       "09/17/2025": 9.1824,
-      "10/22/2025": 9.18128
+      "10/22/2025": 9.18128,
+      "11/19/2025": 9.18485
     }
   }
 }

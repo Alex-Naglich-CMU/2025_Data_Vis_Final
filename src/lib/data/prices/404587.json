@@ -1,9 +1,13 @@
 {
   "RxCUI": "404587",
-  "Name": "EMTRIVA 200 MG CAPSULE",
+  "Name": "emtricitabine 200 MG Oral Capsule [Emtriva]",
   "IsBrand": true,
-  "Brand_RxCUI": "403875",
-  "Generic_RxCUI": "404587",
+  "Brand_Mate_RxCUI": "404587",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Emtricitabine",
+  "Manufacturer_Name": "Emtriva",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "61958060101": {
       "09/20/2017": 17.26389,

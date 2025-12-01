@@ -1,9 +1,13 @@
 {
   "RxCUI": "896108",
-  "Name": "NAFTIN 1% GEL",
+  "Name": "naftifine hydrochloride 0.01 MG/MG Topical Gel [Naftin]",
   "IsBrand": true,
-  "Brand_RxCUI": "896106",
-  "Generic_RxCUI": "896108",
+  "Brand_Mate_RxCUI": "896108",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Naftifine Hydrochloride Mgmg",
+  "Manufacturer_Name": "Naftin",
+  "Strength": "0.01 MG/MG",
+  "Form": "",
   "prices": {
     "54766077060": {
       "01/03/2020": 6.95149

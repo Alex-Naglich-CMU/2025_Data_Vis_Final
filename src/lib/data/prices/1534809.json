@@ -1,9 +1,13 @@
 {
   "RxCUI": "1534809",
-  "Name": "NORELGESTROM-EE 150-35 MCG/DAY",
+  "Name": "168 HR ethinyl estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System",
   "IsBrand": false,
-  "Brand_RxCUI": "1534809",
-  "Generic_RxCUI": "2531285",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1534809",
+  "Ingredient_Name": "Hr Ethinyl Estradiol Mghr Norelgestromin Mghr Transdermal System",
+  "Manufacturer_Name": "",
+  "Strength": "168 HR",
+  "Form": "",
   "prices": {
     "70710119001": {
       "05/22/2024": 24.63718,
@@ -22,7 +26,8 @@
       "07/23/2025": 36.93702,
       "08/20/2025": 36.47708,
       "09/17/2025": 36.40324,
-      "10/22/2025": 36.4394
+      "10/22/2025": 36.4394,
+      "11/19/2025": 36.72995
     },
     "70710119003": {
       "05/22/2024": 24.63718,
@@ -41,7 +46,8 @@
       "07/23/2025": 36.93702,
       "08/20/2025": 36.47708,
       "09/17/2025": 36.40324,
-      "10/22/2025": 36.4394
+      "10/22/2025": 36.4394,
+      "11/19/2025": 36.72995
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "729203",
-  "Name": "SELZENTRY 300 MG TABLET",
+  "Name": "maraviroc 300 MG Oral Tablet [Selzentry]",
   "IsBrand": true,
-  "Brand_RxCUI": "728225",
-  "Generic_RxCUI": "729203",
+  "Brand_Mate_RxCUI": "729203",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Maraviroc",
+  "Manufacturer_Name": "Selzentry",
+  "Strength": "300 MG",
+  "Form": "",
   "prices": {
     "49702022418": {
       "12/20/2017": 22.47037,

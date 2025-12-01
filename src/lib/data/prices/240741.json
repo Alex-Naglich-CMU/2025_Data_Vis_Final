@@ -1,9 +1,13 @@
 {
   "RxCUI": "240741",
-  "Name": "CLARITHROMYCIN 125 MG/5 ML SUS",
+  "Name": "clarithromycin 25 MG/ML Oral Suspension",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "240741",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "240741",
+  "Ingredient_Name": "Clarithromycin Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "25 MG/ML",
+  "Form": "Suspension",
   "prices": {
     "00781602246": {
       "08/23/2017": 0.84052,
@@ -27,7 +31,8 @@
       "07/23/2025": 0.89,
       "08/20/2025": 0.92859,
       "09/17/2025": 0.96746,
-      "10/22/2025": 0.97624
+      "10/22/2025": 0.97624,
+      "11/19/2025": 0.97474
     }
   }
 }

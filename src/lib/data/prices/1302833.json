@@ -1,9 +1,13 @@
 {
   "RxCUI": "1302833",
-  "Name": "QSYMIA 7.5 MG-46 MG CAPSULE",
+  "Name": "24 HR phentermine 7.5 MG / topiramate 46 MG Extended Release Oral Capsule [Qsymia]",
   "IsBrand": true,
-  "Brand_RxCUI": "1302827",
-  "Generic_RxCUI": "1302833",
+  "Brand_Mate_RxCUI": "1302833",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Phentermine Topiramate Extended Release",
+  "Manufacturer_Name": "Qsymia",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "62541020230": {
       "11/22/2017": 5.91918,

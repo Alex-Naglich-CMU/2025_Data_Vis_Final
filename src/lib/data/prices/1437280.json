@@ -1,9 +1,13 @@
 {
   "RxCUI": "1437280",
-  "Name": "TROKENDI XR 25 MG CAPSULE",
+  "Name": "24 HR topiramate 25 MG Extended Release Oral Capsule [Trokendi]",
   "IsBrand": true,
-  "Brand_RxCUI": "1437278",
-  "Generic_RxCUI": "1437280",
+  "Brand_Mate_RxCUI": "1437280",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Topiramate Extended Release",
+  "Manufacturer_Name": "Trokendi",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "17772010101": {
       "06/29/2017": 7.89032,

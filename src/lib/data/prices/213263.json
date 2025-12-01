@@ -1,9 +1,13 @@
 {
   "RxCUI": "213263",
-  "Name": "LOTEMAX 0.5% EYE DROPS",
+  "Name": "loteprednol etabonate 5 MG/ML Ophthalmic Suspension [Lotemax]",
   "IsBrand": true,
-  "Brand_RxCUI": "311382",
-  "Generic_RxCUI": "213263",
+  "Brand_Mate_RxCUI": "213263",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Loteprednol Etabonate Mgml",
+  "Manufacturer_Name": "Lotemax",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "24208029905": {
       "11/22/2017": 39.55295,

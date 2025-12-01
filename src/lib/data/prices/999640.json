@@ -1,9 +1,13 @@
 {
   "RxCUI": "999640",
-  "Name": "TRIMO-SAN JELLY",
+  "Name": "oxyquinoline sulfate 0.00025 MG/MG / sodium dodecyl sulfate 0.0001 MG/MG Vaginal Gel [Trimo San]",
   "IsBrand": true,
-  "Brand_RxCUI": "999638",
-  "Generic_RxCUI": "999640",
+  "Brand_Mate_RxCUI": "999640",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Oxyquinoline Mgmg Sodium Dodecyl Mgmg Vaginal",
+  "Manufacturer_Name": "Trimo San",
+  "Strength": "0.00025 MG/MG",
+  "Form": "",
   "prices": {
     "59365503000": {
       "10/17/2018": 0.16852,
@@ -25,7 +29,8 @@
       "10/23/2024": 0.23444,
       "11/20/2024": 0.23547,
       "12/18/2024": 0.23656,
-      "01/22/2025": 0.23754
+      "01/22/2025": 0.23754,
+      "11/19/2025": 0.24234
     }
   }
 }

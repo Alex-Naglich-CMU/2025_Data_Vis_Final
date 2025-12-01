@@ -1,9 +1,13 @@
 {
   "RxCUI": "1488047",
-  "Name": "RETIN-A MICRO PUMP 0.08% GEL",
+  "Name": "tretinoin 0.0008 MG/MG Topical Gel [Retin-A]",
   "IsBrand": true,
-  "Brand_RxCUI": "1488045",
-  "Generic_RxCUI": "1488047",
+  "Brand_Mate_RxCUI": "1488047",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tretinoin Mgmg",
+  "Manufacturer_Name": "Retin-A",
+  "Strength": "0.0008 MG/MG",
+  "Form": "",
   "prices": {
     "00187514850": {
       "01/17/2018": 17.40775,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1541630",
-  "Name": "POLY-TUSSIN AC LIQUID",
+  "Name": "brompheniramine maleate 0.8 MG/ML / codeine phosphate 2 MG/ML / phenylephrine hydrochloride 2 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1541630",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1541630",
+  "Ingredient_Name": "Brompheniramine Maleate Mgml Codeine Phosphate Mgml Phenylephrine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.8 MG/ML",
+  "Form": "Solution",
   "prices": {
     "50991072316": {
       "01/17/2018": 0.164,

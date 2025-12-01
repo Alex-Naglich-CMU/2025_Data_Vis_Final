@@ -1,9 +1,13 @@
 {
   "RxCUI": "617316",
-  "Name": "AMOX-CLAV 400-57 MG TAB CHEW",
+  "Name": "amoxicillin 400 MG / clavulanate 57 MG Chewable Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "617316",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "617316",
+  "Ingredient_Name": "Amoxicillin Clavulanate Chewable",
+  "Manufacturer_Name": "",
+  "Strength": "400 MG",
+  "Form": "Tablet",
   "prices": {
     "00093227234": {
       "07/19/2017": 2.70542,

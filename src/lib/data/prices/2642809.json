@@ -1,9 +1,13 @@
 {
   "RxCUI": "2642809",
-  "Name": "FIASP PUMPCART 100 UNIT/ML",
+  "Name": "1.6 ML insulin aspart, human 100 UNT/ML Cartridge [Fiasp]",
   "IsBrand": true,
-  "Brand_RxCUI": "2642808",
-  "Generic_RxCUI": "2642809",
+  "Brand_Mate_RxCUI": "2642809",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Aspart, Human Untml Cartridge",
+  "Manufacturer_Name": "Fiasp",
+  "Strength": "1.6 ML",
+  "Form": "",
   "prices": {
     "00169320615": {
       "11/20/2024": 34.47927,
@@ -17,7 +21,8 @@
       "07/23/2025": 34.35974,
       "08/20/2025": 34.40494,
       "09/17/2025": 34.4131,
-      "10/22/2025": 34.42596
+      "10/22/2025": 34.42596,
+      "11/19/2025": 34.41742
     }
   }
 }

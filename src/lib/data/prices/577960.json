@@ -1,9 +1,13 @@
 {
   "RxCUI": "577960",
-  "Name": "ADDERALL 15 MG TABLET",
+  "Name": "amphetamine aspartate 3.75 MG / amphetamine sulfate 3.75 MG / dextroamphetamine saccharate 3.75 MG / dextroamphetamine sulfate 3.75 MG Oral Tablet [Adderall]",
   "IsBrand": true,
-  "Brand_RxCUI": "577957",
-  "Generic_RxCUI": "577960",
+  "Brand_Mate_RxCUI": "577960",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amphetamine Aspartate Amphetamine Dextroamphetamine Saccharate Dextroamphetamine",
+  "Manufacturer_Name": "Adderall",
+  "Strength": "3.75 MG",
+  "Form": "",
   "prices": {
     "57844011501": {
       "01/01/2023": 9.3648,

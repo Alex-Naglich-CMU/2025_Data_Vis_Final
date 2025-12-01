@@ -1,9 +1,13 @@
 {
   "RxCUI": "206216",
-  "Name": "INFED 100 MG/2 ML VIAL",
+  "Name": "2 ML iron-dextran complex 50 MG/ML Injection [InFed]",
   "IsBrand": true,
-  "Brand_RxCUI": "311144",
-  "Generic_RxCUI": "206216",
+  "Brand_Mate_RxCUI": "206216",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Iron-Dextran Complex Mgml",
+  "Manufacturer_Name": "InFed",
+  "Strength": "2 ML",
+  "Form": "",
   "prices": {
     "00023608210": {
       "09/18/2024": 17.20156,
@@ -15,7 +19,8 @@
       "07/23/2025": 18.02781,
       "08/20/2025": 18.0317,
       "09/17/2025": 18.01914,
-      "10/22/2025": 18.01903
+      "10/22/2025": 18.01903,
+      "11/19/2025": 18.00438
     }
   }
 }

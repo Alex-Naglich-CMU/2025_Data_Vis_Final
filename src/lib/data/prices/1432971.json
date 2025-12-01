@@ -1,9 +1,13 @@
 {
   "RxCUI": "1432971",
-  "Name": "BUTRANS 15 MCG/HR PATCH",
+  "Name": "168 HR buprenorphine 0.015 MG/HR Transdermal System [BuTrans]",
   "IsBrand": true,
-  "Brand_RxCUI": "1432969",
-  "Generic_RxCUI": "1432971",
+  "Brand_Mate_RxCUI": "1432971",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Buprenorphine Mghr Transdermal System",
+  "Manufacturer_Name": "BuTrans",
+  "Strength": "168 HR",
+  "Form": "",
   "prices": {
     "59011075804": {
       "11/22/2017": 127.10281,
@@ -37,7 +41,8 @@
       "07/23/2025": 124.79834,
       "08/20/2025": 124.77196,
       "09/17/2025": 124.81393,
-      "10/22/2025": 124.82614
+      "10/22/2025": 124.82614,
+      "11/19/2025": 124.71394
     }
   }
 }

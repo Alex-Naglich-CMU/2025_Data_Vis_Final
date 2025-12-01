@@ -1,9 +1,13 @@
 {
   "RxCUI": "1651275",
-  "Name": "STIOLTO RESPIMAT INHAL SPRAY",
+  "Name": "60 ACTUAT olodaterol 0.0025 MG/ACTUAT / tiotropium 0.0025 MG/ACTUAT Inhalation Spray [Stiolto]",
   "IsBrand": true,
-  "Brand_RxCUI": "1651274",
-  "Generic_RxCUI": "1651275",
+  "Brand_Mate_RxCUI": "1651275",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Olodaterol Mgactuat Tiotropium Mgactuat Inhalation",
+  "Manufacturer_Name": "Stiolto",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "00597015561": {
       "11/22/2017": 81.70239,
@@ -28,7 +32,8 @@
       "07/23/2025": 115.85327,
       "08/20/2025": 115.84781,
       "09/17/2025": 115.85335,
-      "10/22/2025": 115.87593
+      "10/22/2025": 115.87593,
+      "11/19/2025": 115.8623
     }
   }
 }

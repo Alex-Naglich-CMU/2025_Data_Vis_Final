@@ -1,9 +1,13 @@
 {
   "RxCUI": "312893",
-  "Name": "SALICYLIC ACID 6% GEL",
+  "Name": "salicylic acid 0.06 MG/MG Topical Gel",
   "IsBrand": false,
-  "Brand_RxCUI": "312893",
-  "Generic_RxCUI": "2672367",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "312893",
+  "Ingredient_Name": "Salicylic Acid Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.06 MG/MG",
+  "Form": "Gel",
   "prices": {
     "42192013440": {
       "07/17/2024": 5.50329,

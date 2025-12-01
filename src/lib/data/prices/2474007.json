@@ -1,9 +1,13 @@
 {
   "RxCUI": "2474007",
-  "Name": "PATADAY ONCE DAILY 0.7% DROPS",
+  "Name": "olopatadine 7 MG/ML Ophthalmic Solution [Pataday]",
   "IsBrand": true,
-  "Brand_RxCUI": "1601086",
-  "Generic_RxCUI": "2474007",
+  "Brand_Mate_RxCUI": "2474007",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Olopatadine Mgml",
+  "Manufacturer_Name": "Pataday",
+  "Strength": "7 MG/ML",
+  "Form": "",
   "prices": {
     "00065081604": {
       "05/19/2021": 5.67338,
@@ -26,7 +30,8 @@
       "07/23/2025": 6.18954,
       "08/20/2025": 6.20578,
       "09/17/2025": 6.13675,
-      "10/22/2025": 6.20506
+      "10/22/2025": 6.20506,
+      "11/19/2025": 6.20214
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1442170",
-  "Name": "ANTARA 90 MG CAPSULE",
+  "Name": "fenofibrate 90 MG Oral Capsule [Antara]",
   "IsBrand": true,
-  "Brand_RxCUI": "1442168",
-  "Generic_RxCUI": "1442170",
+  "Brand_Mate_RxCUI": "1442170",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fenofibrate",
+  "Manufacturer_Name": "Antara",
+  "Strength": "90 MG",
+  "Form": "",
   "prices": {
     "27437010806": {
       "01/17/2018": 16.11453,

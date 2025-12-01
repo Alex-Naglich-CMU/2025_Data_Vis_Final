@@ -1,9 +1,13 @@
 {
   "RxCUI": "142002",
-  "Name": "TEARS LUBRICANT 0.5% EYE DROP",
+  "Name": "hypromellose 5 MG/ML Ophthalmic Solution",
   "IsBrand": false,
-  "Brand_RxCUI": "142002",
-  "Generic_RxCUI": "211609",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "142002",
+  "Ingredient_Name": "Hypromellose Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00065040872": {
       "06/19/2024": 2.02267,

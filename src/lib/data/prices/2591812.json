@@ -1,9 +1,13 @@
 {
   "RxCUI": "2591812",
-  "Name": "RYALTRIS 665-25 MCG SPRAY",
+  "Name": "mometasone furoate 0.025 MG/ACTUAT / olopatadine hydrochloride 0.665 MG/ACTUAT Metered Dose Nasal Spray [Ryaltris]",
   "IsBrand": true,
-  "Brand_RxCUI": "2591806",
-  "Generic_RxCUI": "2591812",
+  "Brand_Mate_RxCUI": "2591812",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Mometasone Furoate Mgactuat Olopatadine Hydrochloride Mgactuat Metered Dose Nasal",
+  "Manufacturer_Name": "Ryaltris",
+  "Strength": "0.025 MG/ACTU",
+  "Form": "",
   "prices": {
     "59467070027": {
       "08/23/2023": 7.99567,
@@ -26,7 +30,8 @@
       "07/23/2025": 8.21892,
       "08/20/2025": 8.21616,
       "09/17/2025": 8.21651,
-      "10/22/2025": 8.2173
+      "10/22/2025": 8.2173,
+      "11/19/2025": 8.22072
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2563976",
-  "Name": "INSULIN GLARGINE-YFGN U100 VL",
+  "Name": "insulin glargine-yfgn 100 UNT/ML Injectable Solution",
   "IsBrand": false,
-  "Brand_RxCUI": "2563976",
-  "Generic_RxCUI": "2563977",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "2563976",
+  "Ingredient_Name": "Insulin Glargine-Yfgn Untml Injectable",
+  "Manufacturer_Name": "",
+  "Strength": "100 UNT/ML",
+  "Form": "Solution",
   "prices": {
     "49502039380": {
       "3/23/2022": 9.50008,
@@ -46,7 +50,8 @@
       "07/23/2025": 6.07655,
       "08/20/2025": 6.0789,
       "09/17/2025": 6.09125,
-      "10/22/2025": 6.10982
+      "10/22/2025": 6.10982,
+      "11/19/2025": 6.1256
     },
     "83257001411": {
       "04/17/2024": 6.10125,
@@ -67,7 +72,8 @@
       "07/23/2025": 6.07655,
       "08/20/2025": 6.0789,
       "09/17/2025": 6.09125,
-      "10/22/2025": 6.10982
+      "10/22/2025": 6.10982,
+      "11/19/2025": 6.1256
     }
   }
 }

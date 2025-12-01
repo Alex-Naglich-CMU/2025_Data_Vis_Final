@@ -1,9 +1,13 @@
 {
   "RxCUI": "1551286",
-  "Name": "CHLO HIST ORAL SOLUTION",
+  "Name": "chlophedianol hydrochloride 2.5 MG/ML / dexbrompheniramine maleate 0.2 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1551286",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1551286",
+  "Ingredient_Name": "Chlophedianol Hydrochloride Mgml Dexbrompheniramine Maleate Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "2.5 MG/ML",
+  "Form": "Solution",
   "prices": {
     "12830086416": {
       "12/20/2017": 0.07635,

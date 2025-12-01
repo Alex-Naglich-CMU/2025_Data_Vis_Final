@@ -2,8 +2,12 @@
   "RxCUI": "993804",
   "Name": "GIANVI 3 MG-0.02 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "748798",
-  "Generic_RxCUI": "993804",
+  "Brand_Mate_RxCUI": "748798",
+  "Generic_Mate_RxCUI": "993804",
+  "Ingredient_Name": "Gianvi -",
+  "Manufacturer_Name": "",
+  "Strength": "3 MG",
+  "Form": "TABLET",
   "prices": {
     "00093542328": {
       "05/19/2021": 0.35981,

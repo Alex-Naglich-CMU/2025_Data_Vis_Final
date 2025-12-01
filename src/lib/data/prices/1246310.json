@@ -1,9 +1,13 @@
 {
   "RxCUI": "1246310",
-  "Name": "DULERA 100 MCG/5 MCG INHALER",
+  "Name": "120 ACTUAT formoterol fumarate 0.005 MG/ACTUAT / mometasone furoate 0.1 MG/ACTUAT Metered Dose Inhaler [Dulera]",
   "IsBrand": true,
-  "Brand_RxCUI": "1246308",
-  "Generic_RxCUI": "1246310",
+  "Brand_Mate_RxCUI": "1246310",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Formoterol Fumarate Mgactuat Mometasone Furoate Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Dulera",
+  "Strength": "120 ACTU",
+  "Form": "",
   "prices": {
     "00085720601": {
       "11/22/2017": 21.44589,
@@ -39,7 +43,8 @@
       "07/23/2025": 25.24667,
       "08/20/2025": 25.24733,
       "09/17/2025": 25.24823,
-      "10/22/2025": 25.24457
+      "10/22/2025": 25.24457,
+      "11/19/2025": 25.24224
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "313209",
-  "Name": "TEMOZOLOMIDE 20 MG CAPSULE",
+  "Name": "temozolomide 20 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "313209",
-  "Generic_RxCUI": "261289",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "313209",
+  "Ingredient_Name": "Temozolomide",
+  "Manufacturer_Name": "",
+  "Strength": "20 MG",
+  "Form": "Capsule",
   "prices": {
     "16571081741": {
       "02/19/2025": 4.1124

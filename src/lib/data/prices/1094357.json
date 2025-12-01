@@ -1,9 +1,13 @@
 {
   "RxCUI": "1094357",
-  "Name": "SM URINARY PAIN REL 97.5 MG TB",
+  "Name": "phenazopyridine hydrochloride 97.5 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1094357",
-  "Generic_RxCUI": "1601553",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1094357",
+  "Ingredient_Name": "Phenazopyridine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "97.5 MG",
+  "Form": "Tablet",
   "prices": {
     "49348094102": {
       "10/18/2017": 0.15225,

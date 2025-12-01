@@ -1,9 +1,13 @@
 {
   "RxCUI": "800918",
-  "Name": "MOVIPREP POWDER PACKET",
+  "Name": "ascorbic acid 4700 MG / polyethylene glycol 3350 100000 MG / potassium chloride 1015 MG / sodium ascorbate 5900 MG / sodium chloride 2690 MG / sodium sulfate 7500 MG Powder for Oral Solution [MoviPrep]",
   "IsBrand": true,
-  "Brand_RxCUI": "800915",
-  "Generic_RxCUI": "800918",
+  "Brand_Mate_RxCUI": "800918",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ascorbic Acid Polyethylene Glycol Potassium Chloride Sodium Ascorbate Sodium Chloride Sodium For",
+  "Manufacturer_Name": "MoviPrep",
+  "Strength": "4700 MG",
+  "Form": "",
   "prices": {
     "65649020175": {
       "11/22/2017": 87.88368,

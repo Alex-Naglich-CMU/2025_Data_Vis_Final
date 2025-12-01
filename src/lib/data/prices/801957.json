@@ -1,9 +1,13 @@
 {
   "RxCUI": "801957",
-  "Name": "DIAZEPAM 2.5 MG RECTAL GEL SYS",
+  "Name": "0.5 ML diazepam 5 MG/ML Rectal Gel",
   "IsBrand": false,
-  "Brand_RxCUI": "801957",
-  "Generic_RxCUI": "801958",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "801957",
+  "Ingredient_Name": "Diazepam Mgml Rectal",
+  "Manufacturer_Name": "",
+  "Strength": "0.5 ML",
+  "Form": "Gel",
   "prices": {
     "68682065020": {
       "07/22/2020": 229.746,

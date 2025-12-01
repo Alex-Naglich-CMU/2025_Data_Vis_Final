@@ -1,9 +1,13 @@
 {
   "RxCUI": "1542994",
-  "Name": "NEO-SYNALAR 0.5%-0.025% CREAM",
+  "Name": "fluocinolone acetonide 0.25 MG/ML / neomycin sulfate 5 MG/ML Topical Cream [Neo-Synalar]",
   "IsBrand": true,
-  "Brand_RxCUI": "1191359",
-  "Generic_RxCUI": "1542994",
+  "Brand_Mate_RxCUI": "1542994",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fluocinolone Acetonide Mgml Neomycin Mgml",
+  "Manufacturer_Name": "Neo-Synalar",
+  "Strength": "0.25 MG/ML",
+  "Form": "",
   "prices": {
     "43538094060": {
       "12/29/2017": 10.02697,

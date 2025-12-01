@@ -1,9 +1,13 @@
 {
   "RxCUI": "2196900",
-  "Name": "RINVOQ ER 15 MG TABLET",
+  "Name": "24 HR upadacitinib 15 MG Extended Release Oral Tablet [Rinvoq]",
   "IsBrand": true,
-  "Brand_RxCUI": "2196894",
-  "Generic_RxCUI": "2196900",
+  "Brand_Mate_RxCUI": "2196900",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Upadacitinib Extended Release",
+  "Manufacturer_Name": "Rinvoq",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00074230630": {
       "10/21/2020": 158.69741,
@@ -27,7 +31,8 @@
       "07/23/2025": 218.67097,
       "08/20/2025": 218.77976,
       "09/17/2025": 218.3429,
-      "10/22/2025": 218.34704
+      "10/22/2025": 218.34704,
+      "11/19/2025": 218.49102
     }
   }
 }

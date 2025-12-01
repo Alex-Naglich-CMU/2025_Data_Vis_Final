@@ -1,9 +1,13 @@
 {
   "RxCUI": "993528",
-  "Name": "WELLBUTRIN SR 150 MG TABLET",
+  "Name": "12 HR bupropion hydrochloride 150 MG Extended Release Oral Tablet [Wellbutrin]",
   "IsBrand": true,
-  "Brand_RxCUI": "993518",
-  "Generic_RxCUI": "993528",
+  "Brand_Mate_RxCUI": "993528",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Bupropion Hydrochloride Extended Release",
+  "Manufacturer_Name": "Wellbutrin",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "00173013555": {
       "01/01/2018": 6.90134,
@@ -30,7 +34,8 @@
       "07/23/2025": 7.53305,
       "08/20/2025": 7.53404,
       "09/17/2025": 7.5264,
-      "10/22/2025": 7.53128
+      "10/22/2025": 7.53128,
+      "11/19/2025": 7.52315
     }
   }
 }

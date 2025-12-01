@@ -1,9 +1,13 @@
 {
   "RxCUI": "903458",
-  "Name": "CYTOMEL 5 MCG TABLET",
+  "Name": "liothyronine sodium 0.005 MG Oral Tablet [Cytomel]",
   "IsBrand": true,
-  "Brand_RxCUI": "903456",
-  "Generic_RxCUI": "903458",
+  "Brand_Mate_RxCUI": "903458",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Liothyronine Sodium",
+  "Manufacturer_Name": "Cytomel",
+  "Strength": "0.005 MG",
+  "Form": "",
   "prices": {
     "60793011501": {
       "06/01/2017": 1.6797,
@@ -36,7 +40,8 @@
       "07/23/2025": 0.36863,
       "08/20/2025": 0.3685,
       "09/17/2025": 0.36864,
-      "10/22/2025": 0.36829
+      "10/22/2025": 0.36829,
+      "11/19/2025": 0.36793
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "836368",
-  "Name": "ATROVENT HFA INHALER",
+  "Name": "200 ACTUAT ipratropium bromide 0.017 MG/ACTUAT Metered Dose Inhaler [Atrovent]",
   "IsBrand": true,
-  "Brand_RxCUI": "836343",
-  "Generic_RxCUI": "836368",
+  "Brand_Mate_RxCUI": "836368",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Ipratropium Bromide Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Atrovent",
+  "Strength": "200 ACTU",
+  "Form": "",
   "prices": {
     "00597008717": {
       "11/22/2017": 24.76162,
@@ -34,7 +38,8 @@
       "07/23/2025": 22.7925,
       "08/20/2025": 22.79456,
       "09/17/2025": 22.79464,
-      "10/22/2025": 22.79478
+      "10/22/2025": 22.79478,
+      "11/19/2025": 22.79511
     }
   }
 }

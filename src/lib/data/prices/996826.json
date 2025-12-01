@@ -1,9 +1,13 @@
 {
   "RxCUI": "996826",
-  "Name": "METHERGINE 0.2 MG TABLET",
+  "Name": "methylergonovine maleate 0.2 MG Oral Tablet [Methergine]",
   "IsBrand": true,
-  "Brand_RxCUI": "996824",
-  "Generic_RxCUI": "996826",
+  "Brand_Mate_RxCUI": "996826",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methylergonovine Maleate",
+  "Manufacturer_Name": "Methergine",
+  "Strength": "0.2 MG",
+  "Form": "",
   "prices": {
     "27437005056": {
       "12/20/2017": 59.63633

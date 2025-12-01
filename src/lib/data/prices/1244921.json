@@ -1,9 +1,13 @@
 {
   "RxCUI": "1244921",
-  "Name": "M-END PE LIQUID",
+  "Name": "brompheniramine maleate 0.266 MG/ML / codeine phosphate 1.27 MG/ML / phenylephrine hydrochloride 0.666 MG/ML Oral Solution [M-End PE]",
   "IsBrand": false,
-  "Brand_RxCUI": "996998",
-  "Generic_RxCUI": "1244921",
+  "Brand_Mate_RxCUI": "996998",
+  "Generic_Mate_RxCUI": "1244921",
+  "Ingredient_Name": "Brompheniramine Maleate Mgml Codeine Phosphate Mgml Phenylephrine Hydrochloride Mgml",
+  "Manufacturer_Name": "M-End PE",
+  "Strength": "0.266 MG/ML",
+  "Form": "",
   "prices": {
     "12830075412": {
       "11/22/2017": 0.05172,

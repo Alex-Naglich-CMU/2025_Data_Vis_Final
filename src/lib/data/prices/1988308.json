@@ -1,9 +1,13 @@
 {
   "RxCUI": "1988308",
-  "Name": "TIADYLT ER 120 MG CAPSULE",
+  "Name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule [Tiadylt]",
   "IsBrand": false,
-  "Brand_RxCUI": "830861",
-  "Generic_RxCUI": "1988308",
+  "Brand_Mate_RxCUI": "830861",
+  "Generic_Mate_RxCUI": "1988308",
+  "Ingredient_Name": "Hr Diltiazem Hydrochloride Extended Release",
+  "Manufacturer_Name": "Tiadylt",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "68382074516": {
       "05/19/2021": 0.2877,
@@ -72,7 +76,8 @@
       "07/23/2025": 0.23195,
       "08/20/2025": 0.21284,
       "09/17/2025": 0.21604,
-      "10/22/2025": 0.21112
+      "10/22/2025": 0.21112,
+      "11/19/2025": 0.17592
     }
   }
 }

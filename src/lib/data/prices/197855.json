@@ -1,9 +1,13 @@
 {
   "RxCUI": "197855",
-  "Name": "KETOPROFEN 50 MG CAPSULE",
+  "Name": "ketoprofen 50 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "197855",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "197855",
+  "Ingredient_Name": "Ketoprofen",
+  "Manufacturer_Name": "",
+  "Strength": "50 MG",
+  "Form": "Capsule",
   "prices": {
     "00378407001": {
       "07/19/2017": 0.40834,

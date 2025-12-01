@@ -1,9 +1,13 @@
 {
   "RxCUI": "402110",
-  "Name": "LEXIVA 700 MG TABLET",
+  "Name": "fosamprenavir 700 MG Oral Tablet [Lexiva]",
   "IsBrand": true,
-  "Brand_RxCUI": "402109",
-  "Generic_RxCUI": "402110",
+  "Brand_Mate_RxCUI": "402110",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fosamprenavir",
+  "Manufacturer_Name": "Lexiva",
+  "Strength": "700 MG",
+  "Form": "",
   "prices": {
     "49702020718": {
       "06/21/2017": 18.59636

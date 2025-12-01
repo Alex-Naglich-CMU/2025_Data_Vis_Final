@@ -1,9 +1,13 @@
 {
   "RxCUI": "2390954",
-  "Name": "KESIMPTA 20 MG/0.4 ML PEN",
+  "Name": "0.4 ML ofatumumab 50 MG/ML Pen Injector [Kesimpta]",
   "IsBrand": true,
-  "Brand_RxCUI": "2390949",
-  "Generic_RxCUI": "2390954",
+  "Brand_Mate_RxCUI": "2390954",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ofatumumab Mgml Pen Injector",
+  "Manufacturer_Name": "Kesimpta",
+  "Strength": "0.4 ML",
+  "Form": "",
   "prices": {
     "00078100768": {
       "05/22/2024": 21188.38889,
@@ -19,7 +23,8 @@
       "07/23/2025": 22619.00139,
       "08/20/2025": 22600.40769,
       "09/17/2025": 22578.60323,
-      "10/22/2025": 22616.03984
+      "10/22/2025": 22616.03984,
+      "11/19/2025": 22625.88897
     }
   }
 }

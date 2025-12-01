@@ -1,9 +1,13 @@
 {
   "RxCUI": "108782",
-  "Name": "LAMICTAL 200 MG TABLET",
+  "Name": "lamotrigine 200 MG Oral Tablet [Lamictal]",
   "IsBrand": true,
-  "Brand_RxCUI": "198429",
-  "Generic_RxCUI": "108782",
+  "Brand_Mate_RxCUI": "108782",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Lamotrigine",
+  "Manufacturer_Name": "Lamictal",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "00173064460": {
       "01/01/2018": 16.16477,
@@ -32,7 +36,8 @@
       "07/23/2025": 12.07033,
       "08/20/2025": 12.06601,
       "09/17/2025": 12.06608,
-      "10/22/2025": 12.07722
+      "10/22/2025": 12.07722,
+      "11/19/2025": 12.08129
     }
   }
 }

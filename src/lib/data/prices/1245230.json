@@ -1,9 +1,13 @@
 {
   "RxCUI": "1245230",
-  "Name": "GNP HAND SOAP 2% CLEANSER",
+  "Name": "chlorhexidine gluconate 20 MG/ML Medicated Liquid Soap",
   "IsBrand": false,
-  "Brand_RxCUI": "1245230",
-  "Generic_RxCUI": "1723868",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1245230",
+  "Ingredient_Name": "Chlorhexidine Gluconate Mgml Medicated Soap",
+  "Manufacturer_Name": "",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "46122065936": {
       "10/23/2024": 0.00816,

@@ -1,15 +1,19 @@
 {
   "RxCUI": "207248",
-  "Name": "OXISTAT 1% CREAM",
+  "Name": "oxiconazole 10 MG/ML Topical Cream [Oxistat]",
   "IsBrand": true,
-  "Brand_RxCUI": "312139",
-  "Generic_RxCUI": "207248",
+  "Brand_Mate_RxCUI": "207248",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Oxiconazole Mgml",
+  "Manufacturer_Name": "Oxistat",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
-    "10337035860": {
-      "12/31/2017": 10.43891
-    },
     "10337035830": {
       "12/31/2017": 20.65381
+    },
+    "10337035860": {
+      "12/31/2017": 10.43891
     }
   }
 }

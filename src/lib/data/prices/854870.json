@@ -1,9 +1,13 @@
 {
   "RxCUI": "854870",
-  "Name": "ACIPHEX DR 20 MG TABLET",
+  "Name": "rabeprazole sodium 20 MG Delayed Release Oral Tablet [Aciphex]",
   "IsBrand": true,
-  "Brand_RxCUI": "854868",
-  "Generic_RxCUI": "854870",
+  "Brand_Mate_RxCUI": "854870",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Rabeprazole Sodium Delayed Release",
+  "Manufacturer_Name": "Aciphex",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "62856024330": {
       "11/22/2017": 16.79266,

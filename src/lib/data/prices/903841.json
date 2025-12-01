@@ -1,9 +1,13 @@
 {
   "RxCUI": "903841",
-  "Name": "PYRIDOSTIGMINE BR 30 MG TABLET",
+  "Name": "pyridostigmine bromide 30 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "903841",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "903841",
+  "Ingredient_Name": "Pyridostigmine Bromide",
+  "Manufacturer_Name": "",
+  "Strength": "30 MG",
+  "Form": "Tablet",
   "prices": {
     "58657081021": {
       "08/21/2024": 6.91428,
@@ -16,7 +20,8 @@
       "07/23/2025": 6.95495,
       "08/20/2025": 6.9619,
       "09/17/2025": 6.95372,
-      "10/22/2025": 6.95645
+      "10/22/2025": 6.95645,
+      "11/19/2025": 6.94357
     }
   }
 }

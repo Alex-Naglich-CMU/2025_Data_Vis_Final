@@ -1,9 +1,13 @@
 {
   "RxCUI": "904583",
-  "Name": "SORINE 160 MG TABLET",
+  "Name": "sotalol hydrochloride 160 MG Oral Tablet [Sorine]",
   "IsBrand": false,
-  "Brand_RxCUI": "1923424",
-  "Generic_RxCUI": "904583",
+  "Brand_Mate_RxCUI": "1923424",
+  "Generic_Mate_RxCUI": "904583",
+  "Ingredient_Name": "Sotalol Hydrochloride",
+  "Manufacturer_Name": "Sorine",
+  "Strength": "160 MG",
+  "Form": "",
   "prices": {
     "00245001401": {
       "05/19/2021": 0.2004,
@@ -101,9 +105,6 @@
       "03/19/2025": 0.1529,
       "04/23/2025": 0.15353
     },
-    "245001401": {
-      "09/22/2021": 0.15373
-    },
     "00245001489": {
       "10/19/2022": 0.12483,
       "11/23/2022": 0.14577,
@@ -136,6 +137,9 @@
       "02/19/2025": 0.13521,
       "03/19/2025": 0.1529,
       "04/23/2025": 0.15353
+    },
+    "245001401": {
+      "09/22/2021": 0.15373
     }
   }
 }

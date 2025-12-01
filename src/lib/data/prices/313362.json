@@ -1,9 +1,13 @@
 {
   "RxCUI": "313362",
-  "Name": "THIOTHIXENE 1 MG CAPSULE",
+  "Name": "thiothixene 1 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "313362",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "313362",
+  "Ingredient_Name": "Thiothixene",
+  "Manufacturer_Name": "",
+  "Strength": "1 MG",
+  "Form": "Capsule",
   "prices": {
     "60219167301": {
       "09/18/2024": 0.647,

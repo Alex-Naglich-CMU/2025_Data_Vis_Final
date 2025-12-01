@@ -1,9 +1,13 @@
 {
   "RxCUI": "207349",
-  "Name": "PAXIL 20 MG TABLET",
+  "Name": "paroxetine hydrochloride 20 MG Oral Tablet [Paxil]",
   "IsBrand": true,
-  "Brand_RxCUI": "1738495",
-  "Generic_RxCUI": "207349",
+  "Brand_Mate_RxCUI": "207349",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Paroxetine Hydrochloride",
+  "Manufacturer_Name": "Paxil",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "60505366403": {
       "06/09/2017": 5.90728,

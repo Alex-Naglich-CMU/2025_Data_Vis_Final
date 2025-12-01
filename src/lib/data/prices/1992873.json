@@ -1,9 +1,13 @@
 {
   "RxCUI": "1992873",
-  "Name": "RHOPRESSA 0.02% OPHTH SOLUTION",
+  "Name": "netarsudil 0.2 MG/ML Ophthalmic Solution [Rhopressa]",
   "IsBrand": true,
-  "Brand_RxCUI": "1992868",
-  "Generic_RxCUI": "1992873",
+  "Brand_Mate_RxCUI": "1992873",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Netarsudil Mgml",
+  "Manufacturer_Name": "Rhopressa",
+  "Strength": "0.2 MG/ML",
+  "Form": "",
   "prices": {
     "70727049725": {
       "11/21/2018": 95.60729,
@@ -30,7 +34,8 @@
       "07/23/2025": 128.02078,
       "08/20/2025": 128.06937,
       "09/17/2025": 128.04939,
-      "10/22/2025": 128.09072
+      "10/22/2025": 128.09072,
+      "11/19/2025": 128.06999
     }
   }
 }

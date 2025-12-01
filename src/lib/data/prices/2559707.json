@@ -1,9 +1,13 @@
 {
   "RxCUI": "2559707",
-  "Name": "DUPIXENT 200 MG/1.14 ML PEN",
+  "Name": "1.14 ML dupilumab 175 MG/ML Auto-Injector [Dupixent]",
   "IsBrand": true,
-  "Brand_RxCUI": "2559706",
-  "Generic_RxCUI": "2559707",
+  "Brand_Mate_RxCUI": "2559707",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dupilumab Mgml Auto-Injector",
+  "Manufacturer_Name": "Dupixent",
+  "Strength": "1.14 ML",
+  "Form": "",
   "prices": {
     "00024591902": {
       "06/19/2024": 1604.62566,
@@ -19,7 +23,8 @@
       "07/23/2025": 1695.97088,
       "08/20/2025": 1693.99459,
       "09/17/2025": 1692.45299,
-      "10/22/2025": 1689.00946
+      "10/22/2025": 1689.00946,
+      "11/19/2025": 1688.94627
     }
   }
 }

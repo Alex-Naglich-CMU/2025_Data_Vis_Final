@@ -1,9 +1,13 @@
 {
   "RxCUI": "831226",
-  "Name": "CARTIA XT 120 MG CAPSULE",
+  "Name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule [Cartia]",
   "IsBrand": false,
-  "Brand_RxCUI": "830861",
-  "Generic_RxCUI": "831226",
+  "Brand_Mate_RxCUI": "830861",
+  "Generic_Mate_RxCUI": "831226",
+  "Ingredient_Name": "Hr Diltiazem Hydrochloride Extended Release",
+  "Manufacturer_Name": "Cartia",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "62037059705": {
       "05/19/2021": 0.20699,
@@ -106,7 +110,8 @@
       "07/23/2025": 0.15225,
       "08/20/2025": 0.15198,
       "09/17/2025": 0.14985,
-      "10/22/2025": 0.14843
+      "10/22/2025": 0.14843,
+      "11/19/2025": 0.14523
     },
     "62037059790": {
       "05/19/2021": 0.20699,
@@ -209,7 +214,8 @@
       "07/23/2025": 0.15225,
       "08/20/2025": 0.15198,
       "09/17/2025": 0.14985,
-      "10/22/2025": 0.14843
+      "10/22/2025": 0.14843,
+      "11/19/2025": 0.14523
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1298348",
-  "Name": "THERAFLU EXPRESSMAX COLD NT LQ",
+  "Name": "acetaminophen 21.7 MG/ML / diphenhydramine hydrochloride 0.833 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution",
   "IsBrand": true,
-  "Brand_RxCUI": "1298348",
-  "Generic_RxCUI": null,
+  "Brand_Mate_RxCUI": "1298348",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Acetaminophen Mgml Diphenhydramine Hydrochloride Mgml Phenylephrine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "21.7 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00067812908": {
       "07/19/2017": 0.02138,

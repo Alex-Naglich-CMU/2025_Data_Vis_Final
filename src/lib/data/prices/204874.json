@@ -1,9 +1,13 @@
 {
   "RxCUI": "204874",
-  "Name": "NEOMYCIN-POLY-HC EYE DROPS",
+  "Name": "hydrocortisone 10 MG/ML / neomycin 3.5 MG/ML / polymyxin B 10000 UNT/ML Ophthalmic Suspension",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "204874",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "204874",
+  "Ingredient_Name": "Hydrocortisone Mgml Neomycin Mgml Polymyxin B Untml",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Suspension",
   "prices": {
     "61314064175": {
       "06/23/2021": 16.53067,
@@ -47,7 +51,8 @@
       "07/23/2025": 18.00231,
       "08/20/2025": 18.52816,
       "09/17/2025": 18.51902,
-      "10/22/2025": 18.47638
+      "10/22/2025": 18.47638,
+      "11/19/2025": 18.35011
     }
   }
 }

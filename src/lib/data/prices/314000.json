@@ -1,9 +1,13 @@
 {
   "RxCUI": "314000",
-  "Name": "GLYBURIDE MICRO 1.5 MG TAB",
+  "Name": "glyburide 1.5 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "314000",
-  "Generic_RxCUI": "881407",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "314000",
+  "Ingredient_Name": "Glyburide",
+  "Manufacturer_Name": "",
+  "Strength": "1.5 MG",
+  "Form": "Tablet",
   "prices": {
     "00093803401": {
       "11/20/2024": 0.15996

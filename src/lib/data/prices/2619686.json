@@ -1,9 +1,13 @@
 {
   "RxCUI": "2619686",
-  "Name": "DIVIGEL 1.25 MG GEL PACKET",
+  "Name": "1250 MG estradiol 0.001 MG/MG Topical Gel [Divigel]",
   "IsBrand": true,
-  "Brand_RxCUI": "2619685",
-  "Generic_RxCUI": "2619686",
+  "Brand_Mate_RxCUI": "2619686",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Estradiol Mgmg",
+  "Manufacturer_Name": "Divigel",
+  "Strength": "1250 MG",
+  "Form": "",
   "prices": {
     "68025008630": {
       "09/03/2022": 4.31019,
@@ -21,7 +25,8 @@
       "05/21/2025": 4.32232,
       "06/18/2025": 4.32272,
       "09/17/2025": 4.32223,
-      "10/22/2025": 4.312
+      "10/22/2025": 4.312,
+      "11/19/2025": 4.30693
     }
   }
 }

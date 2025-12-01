@@ -1,9 +1,13 @@
 {
   "RxCUI": "1299889",
-  "Name": "AMMONIA INHALANT AMPULE",
+  "Name": "ammonia 150 MG/ML Nasal Inhalant",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1299889",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1299889",
+  "Ingredient_Name": "Ammonia Mgml Nasal Inhalant",
+  "Manufacturer_Name": "",
+  "Strength": "150 MG/ML",
+  "Form": "Inhalant",
   "prices": {
     "39822990001": {
       "06/21/2017": 0.3772,

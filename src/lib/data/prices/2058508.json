@@ -1,9 +1,13 @@
 {
   "RxCUI": "2058508",
-  "Name": "VANALICE GEL",
+  "Name": "piperonyl butoxide 0.035 MG/MG / pyrethrins 0.003 MG/MG Topical Gel [Vanalice]",
   "IsBrand": true,
-  "Brand_RxCUI": "2058503",
-  "Generic_RxCUI": "2058508",
+  "Brand_Mate_RxCUI": "2058508",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Piperonyl Butoxide Mgmg Pyrethrins Mgmg",
+  "Manufacturer_Name": "Vanalice",
+  "Strength": "0.035 MG/MG",
+  "Form": "",
   "prices": {
     "58809065008": {
       "10/22/2025": 0.16782

@@ -1,11 +1,15 @@
 {
   "RxCUI": "751302",
-  "Name": "EXELON 4.6 MG/24HR PATCH",
+  "Name": "24 HR rivastigmine 0.192 MG/HR Transdermal System [Exelon]",
   "IsBrand": true,
-  "Brand_RxCUI": "725021",
-  "Generic_RxCUI": "751302",
+  "Brand_Mate_RxCUI": "751302",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Rivastigmine Mghr Transdermal System",
+  "Manufacturer_Name": "Exelon",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
-    "00078050161": {
+    "00078050115": {
       "11/22/2017": 19.02283,
       "01/03/2018": 20.73507,
       "10/17/2018": 20.74839,
@@ -35,7 +39,7 @@
       "08/20/2025": 21.94288,
       "09/17/2025": 21.93875
     },
-    "00078050115": {
+    "00078050161": {
       "11/22/2017": 19.02283,
       "01/03/2018": 20.73507,
       "10/17/2018": 20.74839,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "212810",
-  "Name": "SANDIMMUNE 25 MG CAPSULE",
+  "Name": "cyclosporine 25 MG Oral Capsule [Sandimmune]",
   "IsBrand": true,
-  "Brand_RxCUI": "197553",
-  "Generic_RxCUI": "212810",
+  "Brand_Mate_RxCUI": "212810",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cyclosporine",
+  "Manufacturer_Name": "Sandimmune",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "00078024015": {
       "07/11/2017": 3.30246,

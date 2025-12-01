@@ -1,9 +1,13 @@
 {
   "RxCUI": "351859",
-  "Name": "HUMULIN R 500 UNIT/ML VIAL",
+  "Name": "insulin, regular, human 500 UNT/ML Injectable Solution [Humulin R]",
   "IsBrand": true,
-  "Brand_RxCUI": "249220",
-  "Generic_RxCUI": "351859",
+  "Brand_Mate_RxCUI": "351859",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin, Regular, Human Untml Injectable",
+  "Manufacturer_Name": "Humulin R",
+  "Strength": "500 UNT/ML",
+  "Form": "",
   "prices": {
     "00002850101": {
       "05/19/2021": 71.18713,

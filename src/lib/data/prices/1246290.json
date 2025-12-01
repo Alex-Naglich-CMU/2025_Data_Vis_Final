@@ -1,9 +1,13 @@
 {
   "RxCUI": "1246290",
-  "Name": "SYMBICORT 80-4.5 MCG INHALER",
+  "Name": "120 ACTUAT budesonide 0.08 MG/ACTUAT / formoterol fumarate 0.0045 MG/ACTUAT Metered Dose Inhaler [Symbicort]",
   "IsBrand": true,
-  "Brand_RxCUI": "1246288",
-  "Generic_RxCUI": "1246290",
+  "Brand_Mate_RxCUI": "1246290",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Budesonide Mgactuat Formoterol Fumarate Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Symbicort",
+  "Strength": "120 ACTU",
+  "Form": "",
   "prices": {
     "00186037220": {
       "11/22/2017": 25.39471,
@@ -35,7 +39,8 @@
       "07/23/2025": 19.2697,
       "08/20/2025": 19.26804,
       "09/17/2025": 19.26917,
-      "10/22/2025": 19.2715
+      "10/22/2025": 19.2715,
+      "11/19/2025": 19.26784
     },
     "186037220": {
       "1/1/2022": 31.17623

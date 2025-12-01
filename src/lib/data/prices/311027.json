@@ -1,10 +1,17 @@
 {
   "RxCUI": "311027",
-  "Name": "NOVOLIN N 100 UNIT/ML VIAL",
+  "Name": "insulin isophane, human 100 UNT/ML Injectable Suspension [Novolin N]",
   "IsBrand": true,
-  "Brand_RxCUI": "311028",
-  "Generic_RxCUI": "311027",
+  "Brand_Mate_RxCUI": "311027",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Isophane, Human Untml Injectable",
+  "Manufacturer_Name": "Novolin N",
+  "Strength": "100 UNT/ML",
+  "Form": "",
   "prices": {
+    "00169183402": {
+      "02/21/2018": 13.47486
+    },
     "00169183411": {
       "06/23/2021": 13.22853,
       "02/21/2018": 13.47486,
@@ -31,10 +38,8 @@
       "07/23/2025": 4.63019,
       "08/20/2025": 4.62838,
       "09/17/2025": 4.62879,
-      "10/22/2025": 4.62955
-    },
-    "00169183402": {
-      "02/21/2018": 13.47486
+      "10/22/2025": 4.62955,
+      "11/19/2025": 4.62768
     }
   }
 }

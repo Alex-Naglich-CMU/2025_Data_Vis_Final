@@ -1,9 +1,13 @@
 {
   "RxCUI": "205330",
-  "Name": "MIGLITOL 50 MG TABLET",
+  "Name": "miglitol 50 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "205330",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "205330",
+  "Ingredient_Name": "Miglitol",
+  "Manufacturer_Name": "",
+  "Strength": "50 MG",
+  "Form": "Tablet",
   "prices": {
     "57664068588": {
       "06/19/2024": 1.78401,

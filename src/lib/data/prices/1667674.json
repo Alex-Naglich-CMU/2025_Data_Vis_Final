@@ -1,9 +1,13 @@
 {
   "RxCUI": "1667674",
-  "Name": "VRAYLAR 4.5 MG CAPSULE",
+  "Name": "cariprazine 4.5 MG Oral Capsule [Vraylar]",
   "IsBrand": true,
-  "Brand_RxCUI": "1667672",
-  "Generic_RxCUI": "1667674",
+  "Brand_Mate_RxCUI": "1667674",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cariprazine",
+  "Manufacturer_Name": "Vraylar",
+  "Strength": "4.5 MG",
+  "Form": "",
   "prices": {
     "61874014530": {
       "06/14/2017": 34.97985,
@@ -33,7 +37,8 @@
       "07/23/2025": 48.49954,
       "08/20/2025": 48.49014,
       "09/17/2025": 48.49336,
-      "10/22/2025": 48.50575
+      "10/22/2025": 48.50575,
+      "11/19/2025": 48.51345
     }
   }
 }

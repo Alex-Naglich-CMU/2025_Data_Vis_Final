@@ -1,9 +1,13 @@
 {
   "RxCUI": "835572",
-  "Name": "IMIPRAMINE PAMOATE 75 MG CAP",
+  "Name": "imipramine pamoate 75 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "835572",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "835572",
+  "Ingredient_Name": "Imipramine Pamoate",
+  "Manufacturer_Name": "",
+  "Strength": "75 MG",
+  "Form": "Capsule",
   "prices": {
     "00054027313": {
       "05/19/2021": 5.75067,
@@ -32,7 +36,8 @@
       "07/23/2025": 4.96558,
       "08/20/2025": 4.63418,
       "09/17/2025": 4.30301,
-      "10/22/2025": 3.72443
+      "10/22/2025": 3.72443,
+      "11/19/2025": 3.31
     },
     "68180031406": {
       "05/19/2021": 5.75067,
@@ -61,7 +66,8 @@
       "07/23/2025": 4.96558,
       "08/20/2025": 4.63418,
       "09/17/2025": 4.30301,
-      "10/22/2025": 3.72443
+      "10/22/2025": 3.72443,
+      "11/19/2025": 3.31
     }
   }
 }

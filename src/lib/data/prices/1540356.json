@@ -1,9 +1,13 @@
 {
   "RxCUI": "1540356",
-  "Name": "PROCTOSOL-HC 2.5% CREAM",
+  "Name": "hydrocortisone 25 MG/ML Topical Cream [Proctosol]",
   "IsBrand": true,
-  "Brand_RxCUI": "310891",
-  "Generic_RxCUI": "1540356",
+  "Brand_Mate_RxCUI": "1540356",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hydrocortisone Mgml",
+  "Manufacturer_Name": "Proctosol",
+  "Strength": "25 MG/ML",
+  "Form": "",
   "prices": {
     "10631040701": {
       "06/21/2017": 1.40804,

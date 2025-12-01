@@ -1,9 +1,13 @@
 {
   "RxCUI": "1648788",
-  "Name": "FLUTICASONE-VILANTEROL 200-25",
+  "Name": "30 ACTUAT fluticasone furoate 0.2 MG/ACTUAT / vilanterol 0.025 MG/ACTUAT Dry Powder Inhaler",
   "IsBrand": false,
-  "Brand_RxCUI": "1648788",
-  "Generic_RxCUI": "1648789",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1648788",
+  "Ingredient_Name": "Actuat Fluticasone Furoate Mgactuat Vilanterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "",
+  "Strength": "30 ACTU",
+  "Form": "",
   "prices": {
     "66993013697": {
       "9/21/2022": 3.76006,
@@ -43,7 +47,8 @@
       "07/23/2025": 3.88981,
       "08/20/2025": 3.8698,
       "09/17/2025": 3.82731,
-      "10/22/2025": 3.76381
+      "10/22/2025": 3.76381,
+      "11/19/2025": 3.79219
     }
   }
 }

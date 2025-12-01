@@ -1,9 +1,13 @@
 {
   "RxCUI": "2630740",
-  "Name": "TIROSINT 37.5 MCG CAPSULE",
+  "Name": "levothyroxine sodium 0.0375 MG Oral Capsule [Tirosint]",
   "IsBrand": true,
-  "Brand_RxCUI": "2630738",
-  "Generic_RxCUI": "2630740",
+  "Brand_Mate_RxCUI": "2630740",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "Tirosint",
+  "Strength": "0.0375 MG",
+  "Form": "",
   "prices": {
     "71858001204": {
       "04/17/2024": 4.38992,

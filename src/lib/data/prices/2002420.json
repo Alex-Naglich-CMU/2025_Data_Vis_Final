@@ -1,9 +1,13 @@
 {
   "RxCUI": "2002420",
-  "Name": "TOUJEO MAX SOLOSTR 300 UNIT/ML",
+  "Name": "3 ML insulin glargine 300 UNT/ML Pen Injector [Toujeo]",
   "IsBrand": true,
-  "Brand_RxCUI": "2002419",
-  "Generic_RxCUI": "2002420",
+  "Brand_Mate_RxCUI": "2002420",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Glargine Untml Pen Injector",
+  "Manufacturer_Name": "Toujeo",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00024587102": {
       "05/19/2021": 82.82921,
@@ -31,7 +35,8 @@
       "07/23/2025": 91.35907,
       "08/20/2025": 91.34575,
       "09/17/2025": 91.34465,
-      "10/22/2025": 91.35451
+      "10/22/2025": 91.35451,
+      "11/19/2025": 91.35385
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "899519",
-  "Name": "FOCALIN 5 MG TABLET",
+  "Name": "dexmethylphenidate hydrochloride 5 MG Oral Tablet [Focalin]",
   "IsBrand": true,
-  "Brand_RxCUI": "899518",
-  "Generic_RxCUI": "899519",
+  "Brand_Mate_RxCUI": "899519",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dexmethylphenidate Hydrochloride",
+  "Manufacturer_Name": "Focalin",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00078038105": {
       "07/19/2017": 0.8688,

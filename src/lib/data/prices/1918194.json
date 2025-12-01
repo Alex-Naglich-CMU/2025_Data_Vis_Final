@@ -1,9 +1,13 @@
 {
   "RxCUI": "1918194",
-  "Name": "FLUTICASONE-SALMETEROL 113-14",
+  "Name": "60 ACTUAT fluticasone propionate 0.113 MG/ACTUAT / salmeterol 0.014 MG/ACTUAT Dry Powder Inhaler",
   "IsBrand": false,
-  "Brand_RxCUI": "1918194",
-  "Generic_RxCUI": "1918199",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1918194",
+  "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "00093360882": {
       "05/19/2021": 86.02182,
@@ -97,7 +101,8 @@
       "07/23/2025": 107.11282,
       "08/20/2025": 110.70719,
       "09/17/2025": 110.91137,
-      "10/22/2025": 110.18117
+      "10/22/2025": 110.18117,
+      "11/19/2025": 110.67267
     },
     "93360882": {
       "09/22/2021": 83.12684

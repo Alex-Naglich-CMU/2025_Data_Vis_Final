@@ -1,9 +1,13 @@
 {
   "RxCUI": "206821",
-  "Name": "ATIVAN 0.5 MG TABLET",
+  "Name": "lorazepam 0.5 MG Oral Tablet [Ativan]",
   "IsBrand": true,
-  "Brand_RxCUI": "197900",
-  "Generic_RxCUI": "206821",
+  "Brand_Mate_RxCUI": "206821",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Lorazepam",
+  "Manufacturer_Name": "Ativan",
+  "Strength": "0.5 MG",
+  "Form": "",
   "prices": {
     "00187006301": {
       "01/05/2018": 22.68741,

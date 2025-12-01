@@ -1,9 +1,13 @@
 {
   "RxCUI": "213071",
-  "Name": "EX-LAX CHOCOLATE",
+  "Name": "sennosides, USP 15 MG Chewable Tablet [Ex-Lax Chocolated]",
   "IsBrand": true,
-  "Brand_RxCUI": "251020",
-  "Generic_RxCUI": "213071",
+  "Brand_Mate_RxCUI": "213071",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sennosides, Usp Chewable",
+  "Manufacturer_Name": "Ex-Lax Chocolated",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "00067000524": {
       "07/19/2017": 0.14827,

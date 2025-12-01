@@ -1,9 +1,13 @@
 {
   "RxCUI": "1652640",
-  "Name": "HUMALOG 100 UNITS/ML KWIKPEN",
+  "Name": "3 ML insulin lispro 100 UNT/ML Pen Injector [Humalog]",
   "IsBrand": true,
-  "Brand_RxCUI": "1652639",
-  "Generic_RxCUI": "1652640",
+  "Brand_Mate_RxCUI": "1652640",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Lispro Untml Pen Injector",
+  "Manufacturer_Name": "Humalog",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00002879959": {
       "06/21/2017": 33.93008,
@@ -33,7 +37,8 @@
       "07/23/2025": 10.17033,
       "08/20/2025": 10.16827,
       "09/17/2025": 10.16949,
-      "10/22/2025": 10.17109
+      "10/22/2025": 10.17109,
+      "11/19/2025": 10.17071
     }
   }
 }

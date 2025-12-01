@@ -1,9 +1,13 @@
 {
   "RxCUI": "1808604",
-  "Name": "DM-GUAIF-PE 17.5-385-10 MG TAB",
+  "Name": "dextromethorphan hydrobromide 17.5 MG / guaifenesin 385 MG / phenylephrine hydrochloride 10 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1808604",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1808604",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide Guaifenesin Phenylephrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "17.5 MG",
+  "Form": "Tablet",
   "prices": {
     "69367019890": {
       "05/22/2019": 0.6255,

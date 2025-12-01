@@ -1,9 +1,13 @@
 {
   "RxCUI": "2045382",
-  "Name": "ARNUITY ELLIPTA 50 MCG INH",
+  "Name": "30 ACTUAT fluticasone furoate 0.05 MG/ACTUAT Dry Powder Inhaler [Arnuity]",
   "IsBrand": true,
-  "Brand_RxCUI": "2045377",
-  "Generic_RxCUI": "2045382",
+  "Brand_Mate_RxCUI": "2045382",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Fluticasone Furoate Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Arnuity",
+  "Strength": "30 ACTU",
+  "Form": "",
   "prices": {
     "00173088810": {
       "01/01/2020": 5.7062,
@@ -32,7 +36,8 @@
       "07/23/2025": 6.65504,
       "08/20/2025": 6.65436,
       "09/17/2025": 6.65459,
-      "10/22/2025": 6.65415
+      "10/22/2025": 6.65415,
+      "11/19/2025": 6.65254
     }
   }
 }

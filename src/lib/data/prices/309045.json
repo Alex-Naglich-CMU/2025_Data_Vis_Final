@@ -1,9 +1,13 @@
 {
   "RxCUI": "309045",
-  "Name": "CEFACLOR 250 MG CAPSULE",
+  "Name": "cefaclor 250 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "309045",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "309045",
+  "Ingredient_Name": "Cefaclor",
+  "Manufacturer_Name": "",
+  "Strength": "250 MG",
+  "Form": "Capsule",
   "prices": {
     "00143998501": {
       "11/22/2017": 0.74531,
@@ -37,7 +41,8 @@
       "07/23/2025": 0.88891,
       "08/20/2025": 0.8946,
       "09/17/2025": 0.94157,
-      "10/22/2025": 0.94682
+      "10/22/2025": 0.94682,
+      "11/19/2025": 0.93145
     }
   }
 }

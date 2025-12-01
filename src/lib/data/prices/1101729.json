@@ -1,9 +1,13 @@
 {
   "RxCUI": "1101729",
-  "Name": "DHS ZINC 2% SHAMPOO",
+  "Name": "zinc pyrithione 20 MG/ML Medicated Shampoo [DHS Zinc]",
   "IsBrand": true,
-  "Brand_RxCUI": "244458",
-  "Generic_RxCUI": "1101729",
+  "Brand_Mate_RxCUI": "1101729",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Zinc Pyrithione Mgml Medicated",
+  "Manufacturer_Name": "DHS Zinc",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "00096073508": {
       "09/20/2017": 0.02864,

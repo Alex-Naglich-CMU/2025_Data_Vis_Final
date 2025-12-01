@@ -1,9 +1,13 @@
 {
   "RxCUI": "213169",
-  "Name": "PLAVIX 75 MG TABLET",
+  "Name": "clopidogrel 75 MG Oral Tablet [Plavix]",
   "IsBrand": true,
-  "Brand_RxCUI": "309362",
-  "Generic_RxCUI": "213169",
+  "Brand_Mate_RxCUI": "213169",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Clopidogrel",
+  "Manufacturer_Name": "Plavix",
+  "Strength": "75 MG",
+  "Form": "",
   "prices": {
     "00024117190": {
       "11/18/2020": 6.50578,
@@ -26,7 +30,8 @@
       "07/23/2025": 8.03902,
       "08/20/2025": 8.04482,
       "09/17/2025": 8.0427,
-      "10/22/2025": 8.05074
+      "10/22/2025": 8.05074,
+      "11/19/2025": 8.05361
     },
     "24117190": {
       "1/3/2022": 7.17246

@@ -2,8 +2,12 @@
   "RxCUI": "753478",
   "Name": "PREVIFEM TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "749860",
-  "Generic_RxCUI": "753478",
+  "Brand_Mate_RxCUI": "749860",
+  "Generic_Mate_RxCUI": "753478",
+  "Ingredient_Name": "Previfem",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "TABLET",
   "prices": {
     "00603764217": {
       "06/21/2017": 0.35163,

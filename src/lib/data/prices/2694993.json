@@ -2,8 +2,12 @@
   "RxCUI": "2694993",
   "Name": "COBENFY STARTER PACK",
   "IsBrand": true,
-  "Brand_RxCUI": "2694992",
-  "Generic_RxCUI": "2694993",
+  "Brand_Mate_RxCUI": "2694993",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cobenfy Starter Pack",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "",
   "prices": {
     "00003520056": {
       "05/21/2025": 29.75462,

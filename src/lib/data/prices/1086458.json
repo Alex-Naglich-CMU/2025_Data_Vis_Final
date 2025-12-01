@@ -1,9 +1,13 @@
 {
   "RxCUI": "1086458",
-  "Name": "GAVISCON 80-14.2 MG TAB CHEW",
+  "Name": "aluminum hydroxide 80 MG / magnesium trisilicate 14.2 MG Chewable Tablet [Gaviscon Chewable]",
   "IsBrand": true,
-  "Brand_RxCUI": "731000",
-  "Generic_RxCUI": "1086458",
+  "Brand_Mate_RxCUI": "1086458",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Aluminum Hydroxide Magnesium Trisilicate Chewable",
+  "Manufacturer_Name": "Gaviscon Chewable",
+  "Strength": "80 MG",
+  "Form": "",
   "prices": {
     "00135009626": {
       "06/21/2017": 0.06582,

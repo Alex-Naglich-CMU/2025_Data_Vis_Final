@@ -2,8 +2,12 @@
   "RxCUI": "1876397",
   "Name": "RIVELSA TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "1373503",
-  "Generic_RxCUI": "1876397",
+  "Brand_Mate_RxCUI": "1373503",
+  "Generic_Mate_RxCUI": "1876397",
+  "Ingredient_Name": "Rivelsa",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "TABLET",
   "prices": {
     "00093603182": {
       "05/22/2024": 1.73705,

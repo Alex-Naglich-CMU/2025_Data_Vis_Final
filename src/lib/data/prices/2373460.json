@@ -1,9 +1,13 @@
 {
   "RxCUI": "2373460",
-  "Name": "ELYXYB 120 MG/4.8 ML SOLUTION",
+  "Name": "celecoxib 25 MG/ML Oral Solution [Elyxyb]",
   "IsBrand": true,
-  "Brand_RxCUI": "2373454",
-  "Generic_RxCUI": "2373460",
+  "Brand_Mate_RxCUI": "2373460",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Celecoxib Mgml",
+  "Manufacturer_Name": "Elyxyb",
+  "Strength": "25 MG/ML",
+  "Form": "",
   "prices": {
     "59385005506": {
       "05/22/2024": 28.39708,
@@ -35,7 +39,8 @@
       "07/23/2025": 29.10432,
       "08/20/2025": 29.19267,
       "09/17/2025": 29.20293,
-      "10/22/2025": 29.194
+      "10/22/2025": 29.194,
+      "11/19/2025": 29.19653
     }
   }
 }

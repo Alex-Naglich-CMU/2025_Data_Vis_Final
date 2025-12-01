@@ -1,9 +1,13 @@
 {
   "RxCUI": "2685206",
-  "Name": "TORPENZ 5 MG TABLET",
+  "Name": "everolimus 5 MG Oral Tablet [Torpenz]",
   "IsBrand": false,
-  "Brand_RxCUI": "845515",
-  "Generic_RxCUI": "2685206",
+  "Brand_Mate_RxCUI": "845515",
+  "Generic_Mate_RxCUI": "2685206",
+  "Ingredient_Name": "Everolimus",
+  "Manufacturer_Name": "Torpenz",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00245082330": {
       "11/20/2024": 23.31271,

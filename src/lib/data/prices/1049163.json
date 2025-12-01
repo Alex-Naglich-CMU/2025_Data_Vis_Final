@@ -1,9 +1,13 @@
 {
   "RxCUI": "1049163",
-  "Name": "NASAL DECONGESTANT(PSEUDOEPHEDRINE)30 MG/5 ML",
+  "Name": "pseudoephedrine hydrochloride 6 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1049163",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1049163",
+  "Ingredient_Name": "Pseudoephedrine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "6 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00536185097": {
       "06/21/2017": 0.01518,

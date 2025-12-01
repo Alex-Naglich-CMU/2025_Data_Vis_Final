@@ -1,9 +1,13 @@
 {
   "RxCUI": "1312627",
-  "Name": "LOTEMAX 0.5% OPHTHALMIC GEL",
+  "Name": "loteprednol etabonate 0.005 MG/MG Ophthalmic Gel [Lotemax]",
   "IsBrand": true,
-  "Brand_RxCUI": "1312625",
-  "Generic_RxCUI": "1312627",
+  "Brand_Mate_RxCUI": "1312627",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Loteprednol Etabonate Mgmg",
+  "Manufacturer_Name": "Lotemax",
+  "Strength": "0.005 MG/MG",
+  "Form": "",
   "prices": {
     "24208050307": {
       "11/22/2017": 31.743,
@@ -33,7 +37,8 @@
       "07/23/2025": 49.66988,
       "08/20/2025": 49.70887,
       "09/17/2025": 49.71107,
-      "10/22/2025": 49.58794
+      "10/22/2025": 49.58794,
+      "11/19/2025": 49.5605
     }
   }
 }

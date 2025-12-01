@@ -1,9 +1,13 @@
 {
   "RxCUI": "2598453",
-  "Name": "DODEX 1,000 MCG/ML VIAL",
+  "Name": "vitamin B12 1 MG/ML Injectable Solution [Dodex]",
   "IsBrand": false,
-  "Brand_RxCUI": "309594",
-  "Generic_RxCUI": "2598453",
+  "Brand_Mate_RxCUI": "309594",
+  "Generic_Mate_RxCUI": "2598453",
+  "Ingredient_Name": "Vitamin B Mgml Injectable",
+  "Manufacturer_Name": "Dodex",
+  "Strength": "1 MG/ML",
+  "Form": "",
   "prices": {
     "16729053308": {
       "6/22/2022": 2.84759,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1092360",
-  "Name": "BANZEL 40 MG/ML SUSPENSION",
+  "Name": "rufinamide 40 MG/ML Oral Suspension [Banzel]",
   "IsBrand": true,
-  "Brand_RxCUI": "1092357",
-  "Generic_RxCUI": "1092360",
+  "Brand_Mate_RxCUI": "1092360",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Rufinamide Mgml",
+  "Manufacturer_Name": "Banzel",
+  "Strength": "40 MG/ML",
+  "Form": "",
   "prices": {
     "62856058446": {
       "11/22/2017": 2.76538,
@@ -38,7 +42,8 @@
       "07/23/2025": 3.65603,
       "08/20/2025": 3.65392,
       "09/17/2025": 3.65673,
-      "10/22/2025": 3.65549
+      "10/22/2025": 3.65549,
+      "11/19/2025": 3.65653
     }
   }
 }

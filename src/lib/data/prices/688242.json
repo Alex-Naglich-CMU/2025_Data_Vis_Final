@@ -1,9 +1,13 @@
 {
   "RxCUI": "688242",
-  "Name": "PREMARIN VAGINAL CREAM-APPL",
+  "Name": "estrogens, conjugated (USP) 0.625 MG/ML Vaginal Cream [Premarin]",
   "IsBrand": true,
-  "Brand_RxCUI": "688240",
-  "Generic_RxCUI": "688242",
+  "Brand_Mate_RxCUI": "688242",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Estrogens, Conjugated (Usp) Mgml Vaginal",
+  "Manufacturer_Name": "Premarin",
+  "Strength": "0.625 MG/ML",
+  "Form": "",
   "prices": {
     "00046087221": {
       "11/22/2017": 11.04442,
@@ -33,7 +37,8 @@
       "07/23/2025": 14.70259,
       "08/20/2025": 14.69828,
       "09/17/2025": 14.70187,
-      "10/22/2025": 14.70169
+      "10/22/2025": 14.70169,
+      "11/19/2025": 14.70234
     }
   }
 }

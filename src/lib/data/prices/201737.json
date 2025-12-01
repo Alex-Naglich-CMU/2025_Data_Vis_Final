@@ -1,9 +1,13 @@
 {
   "RxCUI": "201737",
-  "Name": "ZARONTIN 250 MG CAPSULE",
+  "Name": "ethosuximide 250 MG Oral Capsule [Zarontin]",
   "IsBrand": true,
-  "Brand_RxCUI": "197682",
-  "Generic_RxCUI": "201737",
+  "Brand_Mate_RxCUI": "201737",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ethosuximide",
+  "Manufacturer_Name": "Zarontin",
+  "Strength": "250 MG",
+  "Form": "",
   "prices": {
     "00071023724": {
       "01/01/2018": 3.54507

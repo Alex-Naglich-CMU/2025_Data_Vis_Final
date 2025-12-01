@@ -1,9 +1,13 @@
 {
   "RxCUI": "903859",
-  "Name": "MESTINON 60 MG TABLET",
+  "Name": "pyridostigmine bromide 60 MG Oral Tablet [Mestinon]",
   "IsBrand": true,
-  "Brand_RxCUI": "903857",
-  "Generic_RxCUI": "903859",
+  "Brand_Mate_RxCUI": "903859",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Pyridostigmine Bromide",
+  "Manufacturer_Name": "Mestinon",
+  "Strength": "60 MG",
+  "Form": "",
   "prices": {
     "00187301030": {
       "01/01/2025": 20.74007,

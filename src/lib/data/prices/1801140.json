@@ -1,9 +1,13 @@
 {
   "RxCUI": "1801140",
-  "Name": "DORYX MPC DR 120 MG TABLET",
+  "Name": "doxycycline hyclate 120 MG Delayed Release Oral Tablet [Doryx]",
   "IsBrand": true,
-  "Brand_RxCUI": "1801138",
-  "Generic_RxCUI": "1801140",
+  "Brand_Mate_RxCUI": "1801140",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Doxycycline Hyclate Delayed Release",
+  "Manufacturer_Name": "Doryx",
+  "Strength": "120 MG",
+  "Form": "",
   "prices": {
     "51862055930": {
       "04/18/2018": 11.94877,

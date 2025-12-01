@@ -1,9 +1,13 @@
 {
   "RxCUI": "313422",
-  "Name": "TOLNAFTATE 1% POWDER",
+  "Name": "tolnaftate 0.01 MG/MG Topical Powder",
   "IsBrand": false,
-  "Brand_RxCUI": "313422",
-  "Generic_RxCUI": "692849",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "313422",
+  "Ingredient_Name": "Tolnaftate Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.01 MG/MG",
+  "Form": "Powder",
   "prices": {
     "00536132926": {
       "05/22/2024": 0.04181,
@@ -23,7 +27,8 @@
       "07/23/2025": 0.04276,
       "08/20/2025": 0.04269,
       "09/17/2025": 0.04268,
-      "10/22/2025": 0.04299
+      "10/22/2025": 0.04299,
+      "11/19/2025": 0.04296
     }
   }
 }

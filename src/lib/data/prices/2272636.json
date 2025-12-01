@@ -2,8 +2,12 @@
   "RxCUI": "2272636",
   "Name": "VALTOCO 15 MG NASAL SPRAY",
   "IsBrand": true,
-  "Brand_RxCUI": "2272633",
-  "Generic_RxCUI": "2272636",
+  "Brand_Mate_RxCUI": "2272636",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Valtoco Nasal",
+  "Manufacturer_Name": "",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "72252051504": {
       "12/22/2021": 282.82786,
@@ -25,7 +29,8 @@
       "07/23/2025": 348.99546,
       "08/20/2025": 349.30362,
       "09/17/2025": 349.65217,
-      "10/22/2025": 349.63317
+      "10/22/2025": 349.63317,
+      "11/19/2025": 349.76527
     }
   }
 }

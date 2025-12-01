@@ -1,9 +1,13 @@
 {
   "RxCUI": "849599",
-  "Name": "CIMZIA 200 MG/ML SYRINGE KIT",
+  "Name": "1 ML certolizumab pegol 200 MG/ML Prefilled Syringe [Cimzia]",
   "IsBrand": true,
-  "Brand_RxCUI": "849597",
-  "Generic_RxCUI": "849599",
+  "Brand_Mate_RxCUI": "849599",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Certolizumab Pegol Mgml Prefilled",
+  "Manufacturer_Name": "Cimzia",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "50474071079": {
       "07/01/2017": 3725.15759,
@@ -34,7 +38,8 @@
       "07/23/2025": 5819.28895,
       "08/20/2025": 5816.3608,
       "09/17/2025": 5821.7264,
-      "10/22/2025": 5817.3569
+      "10/22/2025": 5817.3569,
+      "11/19/2025": 5822.075
     },
     "50474071081": {
       "08/21/2024": 5512.36762,

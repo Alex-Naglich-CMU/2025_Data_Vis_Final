@@ -1,9 +1,13 @@
 {
   "RxCUI": "206417",
-  "Name": "DEPO-ESTRADIOL 5 MG/ML VIAL",
+  "Name": "estradiol cypionate 5 MG/ML Injectable Solution [Depo-estradiol]",
   "IsBrand": true,
-  "Brand_RxCUI": "310187",
-  "Generic_RxCUI": "206417",
+  "Brand_Mate_RxCUI": "206417",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Estradiol Cypionate Mgml Injectable",
+  "Manufacturer_Name": "Depo-estradiol",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "00009027101": {
       "06/01/2017": 18.54642,
@@ -27,7 +31,8 @@
       "01/01/2025": 44.08777,
       "05/15/2025": 48.49655,
       "09/17/2025": 47.1281,
-      "10/22/2025": 46.99552
+      "10/22/2025": 46.99552,
+      "11/19/2025": 47.01232
     }
   }
 }

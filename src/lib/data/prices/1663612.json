@@ -1,9 +1,13 @@
 {
   "RxCUI": "1663612",
-  "Name": "CHILD COLD-ALLERGY LIQUID",
+  "Name": "brompheniramine maleate 0.2 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1663612",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1663612",
+  "Ingredient_Name": "Brompheniramine Maleate Mgml Phenylephrine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.2 MG/ML",
+  "Form": "Suspension",
   "prices": {
     "70000005701": {
       "1/19/2022": 0.0168,
@@ -29,7 +33,8 @@
       "07/23/2025": 0.02305,
       "08/20/2025": 0.02319,
       "09/17/2025": 0.02324,
-      "10/22/2025": 0.02314
+      "10/22/2025": 0.02314,
+      "11/19/2025": 0.02306
     }
   }
 }

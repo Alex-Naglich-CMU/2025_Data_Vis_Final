@@ -1,9 +1,13 @@
 {
   "RxCUI": "863042",
-  "Name": "BEPREVE 1.5% EYE DROPS",
+  "Name": "bepotastine besilate 15 MG/ML Ophthalmic Solution [Bepreve]",
   "IsBrand": true,
-  "Brand_RxCUI": "863038",
-  "Generic_RxCUI": "863042",
+  "Brand_Mate_RxCUI": "863042",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Bepotastine Besilate Mgml",
+  "Manufacturer_Name": "Bepreve",
+  "Strength": "15 MG/ML",
+  "Form": "",
   "prices": {
     "24208062901": {
       "12/20/2017": 34.67633,

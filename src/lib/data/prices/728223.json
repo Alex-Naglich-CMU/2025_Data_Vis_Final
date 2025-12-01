@@ -1,9 +1,13 @@
 {
   "RxCUI": "728223",
-  "Name": "MARAVIROC 150 MG TABLET",
+  "Name": "maraviroc 150 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "728223",
-  "Generic_RxCUI": "729201",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "728223",
+  "Ingredient_Name": "Maraviroc",
+  "Manufacturer_Name": "",
+  "Strength": "150 MG",
+  "Form": "Tablet",
   "prices": {
     "31722057960": {
       "05/22/2024": 17.78,

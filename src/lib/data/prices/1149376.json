@@ -1,9 +1,13 @@
 {
   "RxCUI": "1149376",
-  "Name": "NUCYNTA ER 250 MG TABLET",
+  "Name": "12 HR tapentadol 250 MG Extended Release Oral Tablet [Nucynta]",
   "IsBrand": true,
-  "Brand_RxCUI": "1148807",
-  "Generic_RxCUI": "1149376",
+  "Brand_Mate_RxCUI": "1149376",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Tapentadol Extended Release",
+  "Manufacturer_Name": "Nucynta",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "24510029160": {
       "01/01/2020": 27.31844,

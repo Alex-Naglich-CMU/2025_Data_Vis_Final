@@ -1,9 +1,13 @@
 {
   "RxCUI": "1101928",
-  "Name": "FOCALIN XR 25 MG CAPSULE",
+  "Name": "24 HR dexmethylphenidate hydrochloride 25 MG Extended Release Oral Capsule [Focalin]",
   "IsBrand": true,
-  "Brand_RxCUI": "1101926",
-  "Generic_RxCUI": "1101928",
+  "Brand_Mate_RxCUI": "1101928",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Dexmethylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "Focalin",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00078060805": {
       "07/21/2021": 13.28476,
@@ -28,12 +32,14 @@
       "02/19/2025": 5.17258,
       "08/20/2025": 5.12609,
       "09/17/2025": 5.13175,
-      "10/22/2025": 5.13941
+      "10/22/2025": 5.13941,
+      "11/19/2025": 5.14178
     },
     "66758023901": {
       "08/20/2025": 5.12609,
       "09/17/2025": 5.13175,
-      "10/22/2025": 5.13941
+      "10/22/2025": 5.13941,
+      "11/19/2025": 5.14178
     }
   }
 }

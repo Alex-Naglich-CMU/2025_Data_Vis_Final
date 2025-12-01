@@ -1,9 +1,13 @@
 {
   "RxCUI": "1250234",
-  "Name": "ASTRINGENT SOLN POWDER PACK",
+  "Name": "aluminum sulfate 8.42 MG/ML / calcium acetate 5.95 MG/ML Topical Solution",
   "IsBrand": false,
-  "Brand_RxCUI": "1250234",
-  "Generic_RxCUI": "1293268",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1250234",
+  "Ingredient_Name": "Aluminum Mgml Calcium Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "8.42 MG/ML",
+  "Form": "Solution",
   "prices": {
     "51224016212": {
       "10/18/2017": 0.77262,

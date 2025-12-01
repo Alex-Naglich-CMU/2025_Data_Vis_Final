@@ -1,9 +1,13 @@
 {
   "RxCUI": "352314",
-  "Name": "CELEBREX 400 MG CAPSULE",
+  "Name": "celecoxib 400 MG Oral Capsule [Celebrex]",
   "IsBrand": true,
-  "Brand_RxCUI": "349514",
-  "Generic_RxCUI": "352314",
+  "Brand_Mate_RxCUI": "352314",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Celecoxib",
+  "Manufacturer_Name": "Celebrex",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "00025153001": {
       "01/01/2018": 17.69479,

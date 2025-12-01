@@ -1,9 +1,13 @@
 {
   "RxCUI": "311723",
-  "Name": "MINOXIDIL 2% SOLUTION",
+  "Name": "minoxidil 20 MG/ML Topical Solution",
   "IsBrand": false,
-  "Brand_RxCUI": "311723",
-  "Generic_RxCUI": "207371",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "311723",
+  "Ingredient_Name": "Minoxidil Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "20 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00472006675": {
       "10/18/2017": 0.07523,

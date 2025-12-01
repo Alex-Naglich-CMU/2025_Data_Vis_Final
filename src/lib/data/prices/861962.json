@@ -1,14 +1,22 @@
 {
   "RxCUI": "861962",
-  "Name": "NUVIGIL 200 MG TABLET",
+  "Name": "armodafinil 200 MG Oral Tablet [Nuvigil]",
   "IsBrand": true,
-  "Brand_RxCUI": "861960",
-  "Generic_RxCUI": "861962",
+  "Brand_Mate_RxCUI": "861962",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Armodafinil",
+  "Manufacturer_Name": "Nuvigil",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
+    "60505484903": {
+      "11/19/2025": 35.0624
+    },
     "63459022030": {
       "03/19/2025": 34.91145,
       "04/23/2025": 34.875,
-      "08/20/2025": 34.88717
+      "08/20/2025": 34.88717,
+      "11/19/2025": 35.0624
     }
   }
 }

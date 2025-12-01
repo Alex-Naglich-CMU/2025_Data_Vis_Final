@@ -1,9 +1,13 @@
 {
   "RxCUI": "1013659",
-  "Name": "MINOCYCLINE ER 105 MG TABLET",
+  "Name": "24 HR minocycline 105 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1013659",
-  "Generic_RxCUI": "1941489",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1013659",
+  "Ingredient_Name": "Hr Minocycline Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "65862088530": {
       "10/23/2024": 3.04922,

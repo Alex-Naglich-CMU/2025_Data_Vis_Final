@@ -1,9 +1,13 @@
 {
   "RxCUI": "2262295",
-  "Name": "ALA-HIST IR 2 MG TABLET",
+  "Name": "dexbrompheniramine maleate 2 MG Oral Tablet [Ala-Hist IR]",
   "IsBrand": false,
-  "Brand_RxCUI": "2262293",
-  "Generic_RxCUI": "2262295",
+  "Brand_Mate_RxCUI": "2262293",
+  "Generic_Mate_RxCUI": "2262295",
+  "Ingredient_Name": "Dexbrompheniramine Maleate",
+  "Manufacturer_Name": "Ala-Hist IR",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "50991078360": {
       "06/21/2017": 0.6145,
@@ -26,7 +30,8 @@
       "07/23/2025": 0.65557,
       "08/20/2025": 0.65747,
       "09/17/2025": 0.65837,
-      "10/22/2025": 0.66124
+      "10/22/2025": 0.66124,
+      "11/19/2025": 0.65899
     }
   }
 }

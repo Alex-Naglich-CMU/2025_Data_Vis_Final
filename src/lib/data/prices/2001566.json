@@ -1,9 +1,13 @@
 {
   "RxCUI": "2001566",
-  "Name": "METHYLPHENIDATE ER 36 MG TAB",
+  "Name": "BX Rating 24 HR methylphenidate hydrochloride 36 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "2001566",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "2001566",
+  "Ingredient_Name": "Bx Rating Hr Methylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "00406013601": {
       "05/19/2021": 1.55265,
@@ -99,7 +103,11 @@
       "07/23/2025": 0.76463,
       "08/20/2025": 0.76068,
       "09/17/2025": 0.74379,
-      "10/22/2025": 0.75036
+      "10/22/2025": 0.75036,
+      "11/19/2025": 0.74054
+    },
+    "406013601": {
+      "09/22/2021": 1.25081
     },
     "62175031237": {
       "05/19/2021": 1.55265,
@@ -196,10 +204,8 @@
       "07/23/2025": 0.76463,
       "08/20/2025": 0.76068,
       "09/17/2025": 0.74379,
-      "10/22/2025": 0.75036
-    },
-    "406013601": {
-      "09/22/2021": 1.25081
+      "10/22/2025": 0.75036,
+      "11/19/2025": 0.74054
     }
   }
 }

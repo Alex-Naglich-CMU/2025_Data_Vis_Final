@@ -1,9 +1,13 @@
 {
   "RxCUI": "2055766",
-  "Name": "PIFELTRO 100 MG TABLET",
+  "Name": "doravirine 100 MG Oral Tablet [Pifeltro]",
   "IsBrand": true,
-  "Brand_RxCUI": "2055760",
-  "Generic_RxCUI": "2055766",
+  "Brand_Mate_RxCUI": "2055766",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Doravirine",
+  "Manufacturer_Name": "Pifeltro",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "00006306901": {
       "11/20/2019": 44.31827,
@@ -28,7 +32,8 @@
       "07/23/2025": 59.44572,
       "08/20/2025": 59.3933,
       "09/17/2025": 59.39036,
-      "10/22/2025": 59.60823
+      "10/22/2025": 59.60823,
+      "11/19/2025": 59.65106
     },
     "6306901": {
       "1/6/2022": 51.74929

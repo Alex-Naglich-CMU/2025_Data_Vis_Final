@@ -1,9 +1,13 @@
 {
   "RxCUI": "1001714",
-  "Name": "SULFACETAMIDE-SULFUR 9-4% CLSR",
+  "Name": "sulfacetamide sodium 90 MG/ML / sulfur 40 MG/ML Medicated Liquid Soap",
   "IsBrand": false,
-  "Brand_RxCUI": "1001714",
-  "Generic_RxCUI": "1011875",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1001714",
+  "Ingredient_Name": "Sulfacetamide Sodium Mgml Sulfur Mgml Medicated Soap",
+  "Manufacturer_Name": "",
+  "Strength": "90 MG/ML",
+  "Form": "",
   "prices": {
     "42192012116": {
       "05/22/2024": 0.13441,
@@ -20,7 +24,8 @@
       "05/21/2025": 0.16237,
       "06/18/2025": 0.1736,
       "08/20/2025": 0.17838,
-      "09/17/2025": 0.17942
+      "09/17/2025": 0.17942,
+      "11/19/2025": 0.27477
     },
     "58657047316": {
       "05/22/2024": 0.13441,
@@ -37,7 +42,8 @@
       "05/21/2025": 0.16237,
       "06/18/2025": 0.1736,
       "08/20/2025": 0.17838,
-      "09/17/2025": 0.17942
+      "09/17/2025": 0.17942,
+      "11/19/2025": 0.27477
     }
   }
 }

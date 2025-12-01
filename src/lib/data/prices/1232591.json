@@ -1,9 +1,13 @@
 {
   "RxCUI": "1232591",
-  "Name": "FORFIVO XL 450 MG TABLET",
+  "Name": "24 HR bupropion hydrochloride 450 MG Extended Release Oral Tablet [Forfivo]",
   "IsBrand": true,
-  "Brand_RxCUI": "1232585",
-  "Generic_RxCUI": "1232591",
+  "Brand_Mate_RxCUI": "1232591",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Bupropion Hydrochloride Extended Release",
+  "Manufacturer_Name": "Forfivo",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "52427057530": {
       "10/18/2017": 13.6595,

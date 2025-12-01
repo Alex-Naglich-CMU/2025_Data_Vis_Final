@@ -1,9 +1,13 @@
 {
   "RxCUI": "905030",
-  "Name": "ACTONEL 150 MG TABLET",
+  "Name": "risedronate sodium 150 MG Oral Tablet [Actonel]",
   "IsBrand": true,
-  "Brand_RxCUI": "905028",
-  "Generic_RxCUI": "905030",
+  "Brand_Mate_RxCUI": "905030",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Risedronate Sodium",
+  "Manufacturer_Name": "Actonel",
+  "Strength": "150 MG",
+  "Form": "",
   "prices": {
     "00430047801": {
       "01/01/2018": 339.48042,

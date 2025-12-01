@@ -1,9 +1,13 @@
 {
   "RxCUI": "2531285",
-  "Name": "ZAFEMY 150-35 MCG/DAY PATCH",
+  "Name": "168 HR ethinyl estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System [Zafemy]",
   "IsBrand": false,
-  "Brand_RxCUI": "1534809",
-  "Generic_RxCUI": "2531285",
+  "Brand_Mate_RxCUI": "1534809",
+  "Generic_Mate_RxCUI": "2531285",
+  "Ingredient_Name": "Hr Ethinyl Estradiol Mghr Norelgestromin Mghr Transdermal System",
+  "Manufacturer_Name": "Zafemy",
+  "Strength": "168 HR",
+  "Form": "",
   "prices": {
     "65162035801": {
       "1/18/2023": 35.29907,
@@ -39,7 +43,8 @@
       "07/23/2025": 28.6107,
       "08/20/2025": 27.74141,
       "09/17/2025": 28.01335,
-      "10/22/2025": 29.05185
+      "10/22/2025": 29.05185,
+      "11/19/2025": 30.84432
     },
     "65162035803": {
       "1/18/2023": 35.29907,
@@ -75,7 +80,8 @@
       "07/23/2025": 28.6107,
       "08/20/2025": 27.74141,
       "09/17/2025": 28.01335,
-      "10/22/2025": 29.05185
+      "10/22/2025": 29.05185,
+      "11/19/2025": 30.84432
     }
   }
 }

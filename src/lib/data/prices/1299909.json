@@ -1,9 +1,13 @@
 {
   "RxCUI": "1299909",
-  "Name": "TIAGABINE HCL 16 MG TABLET",
+  "Name": "tiagabine hydrochloride 16 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1299909",
-  "Generic_RxCUI": "1299971",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1299909",
+  "Ingredient_Name": "Tiagabine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "16 MG",
+  "Form": "Tablet",
   "prices": {
     "00093807656": {
       "03/19/2025": 6.25781,

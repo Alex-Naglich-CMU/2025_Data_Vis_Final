@@ -1,9 +1,13 @@
 {
   "RxCUI": "2170613",
-  "Name": "EMGALITY 300 MG DOSE (100 MG/ML X 3 SYRINGES)",
+  "Name": "1 ML galcanezumab-gnlm 100 MG/ML Prefilled Syringe [Emgality]",
   "IsBrand": true,
-  "Brand_RxCUI": "2170611",
-  "Generic_RxCUI": "2170613",
+  "Brand_Mate_RxCUI": "2170613",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Galcanezumab-Gnlm Mgml Prefilled",
+  "Manufacturer_Name": "Emgality",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00002311509": {
       "01/31/2020": 483.93714,
@@ -29,7 +33,8 @@
       "07/23/2025": 594.93237,
       "08/20/2025": 594.6973,
       "09/17/2025": 594.44839,
-      "10/22/2025": 594.52021
+      "10/22/2025": 594.52021,
+      "11/19/2025": 594.28027
     },
     "2311509": {
       "1/1/2022": 523.61974

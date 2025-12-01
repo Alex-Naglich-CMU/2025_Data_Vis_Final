@@ -1,9 +1,13 @@
 {
   "RxCUI": "200162",
-  "Name": "LAXATIVE 15 MG TABLET",
+  "Name": "sennosides, USP 15 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "200162",
-  "Generic_RxCUI": "404318",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "200162",
+  "Ingredient_Name": "Sennosides, Usp",
+  "Manufacturer_Name": "",
+  "Strength": "15 MG",
+  "Form": "Tablet",
   "prices": {
     "70000044301": {
       "08/21/2019": 0.13322,
@@ -24,7 +28,8 @@
       "04/23/2025": 0.06681,
       "05/21/2025": 0.0671,
       "06/18/2025": 0.06721,
-      "07/23/2025": 0.06767
+      "07/23/2025": 0.06767,
+      "11/19/2025": 0.06774
     }
   }
 }

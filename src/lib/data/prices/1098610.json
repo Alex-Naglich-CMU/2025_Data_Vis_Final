@@ -1,9 +1,13 @@
 {
   "RxCUI": "1098610",
-  "Name": "LAMICTAL XR 300 MG TABLET",
+  "Name": "24 HR lamotrigine 300 MG Extended Release Oral Tablet [Lamictal]",
   "IsBrand": true,
-  "Brand_RxCUI": "1098608",
-  "Generic_RxCUI": "1098610",
+  "Brand_Mate_RxCUI": "1098610",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Lamotrigine Extended Release",
+  "Manufacturer_Name": "Lamictal",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00173076100": {
       "08/23/2017": 33.29887,
@@ -33,7 +37,8 @@
       "06/18/2025": 47.52141,
       "08/20/2025": 47.43554,
       "09/17/2025": 47.41631,
-      "10/22/2025": 47.39504
+      "10/22/2025": 47.39504,
+      "11/19/2025": 47.40902
     }
   }
 }

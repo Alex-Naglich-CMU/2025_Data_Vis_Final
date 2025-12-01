@@ -1,9 +1,13 @@
 {
   "RxCUI": "1992571",
-  "Name": "LONHALA MAGNAIR 25 MCG REFILL",
+  "Name": "glycopyrrolate 0.025 MG/ML Inhalation Solution [Lonhala]",
   "IsBrand": true,
-  "Brand_RxCUI": "1992566",
-  "Generic_RxCUI": "1992571",
+  "Brand_Mate_RxCUI": "1992571",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Glycopyrrolate Mgml Inhalation",
+  "Manufacturer_Name": "Lonhala",
+  "Strength": "0.025 MG/ML",
+  "Form": "",
   "prices": {
     "63402030101": {
       "01/01/2021": 19.02188,

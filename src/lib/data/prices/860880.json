@@ -1,9 +1,13 @@
 {
   "RxCUI": "860880",
-  "Name": "FENOFIBRIC ACID 105 MG TABLET",
+  "Name": "fenofibric acid 105 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "860880",
-  "Generic_RxCUI": "860884",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "860880",
+  "Ingredient_Name": "Fenofibric Acid",
+  "Manufacturer_Name": "",
+  "Strength": "105 MG",
+  "Form": "Tablet",
   "prices": {
     "69973010530": {
       "06/21/2017": 2.26439,

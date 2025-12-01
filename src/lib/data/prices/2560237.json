@@ -2,8 +2,12 @@
   "RxCUI": "2560237",
   "Name": "MUCINEX FASTMX CLD-NTSHFT CPLT",
   "IsBrand": true,
-  "Brand_RxCUI": "2560237",
-  "Generic_RxCUI": null,
+  "Brand_Mate_RxCUI": "2560237",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Mucinex Fastmx Cld-Ntshft Cplt",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "",
   "prices": {
     "72854024110": {
       "2/22/2023": 0.5705,

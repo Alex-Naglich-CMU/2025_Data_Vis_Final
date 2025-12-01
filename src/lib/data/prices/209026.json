@@ -1,9 +1,13 @@
 {
   "RxCUI": "209026",
-  "Name": "FELBATOL 400 MG TABLET",
+  "Name": "felbamate 400 MG Oral Tablet [Felbatol]",
   "IsBrand": true,
-  "Brand_RxCUI": "198358",
-  "Generic_RxCUI": "209026",
+  "Brand_Mate_RxCUI": "209026",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Felbamate",
+  "Manufacturer_Name": "Felbatol",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "00037043001": {
       "01/12/2021": 12.72023,

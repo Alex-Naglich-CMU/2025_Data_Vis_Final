@@ -1,9 +1,13 @@
 {
   "RxCUI": "226426",
-  "Name": "PROVIGIL 100 MG TABLET",
+  "Name": "modafinil 100 MG Oral Tablet [Provigil]",
   "IsBrand": true,
-  "Brand_RxCUI": "260218",
-  "Generic_RxCUI": "226426",
+  "Brand_Mate_RxCUI": "226426",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Modafinil",
+  "Manufacturer_Name": "Provigil",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "63459010130": {
       "11/20/2024": 49.02429,

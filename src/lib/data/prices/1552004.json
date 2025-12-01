@@ -1,9 +1,13 @@
 {
   "RxCUI": "1552004",
-  "Name": "SPIRIVA RESPIMAT 2.5 MCG INH",
+  "Name": "60 ACTUAT tiotropium 0.0025 MG/ACTUAT Inhalation Spray [Spiriva]",
   "IsBrand": true,
-  "Brand_RxCUI": "1552002",
-  "Generic_RxCUI": "1552004",
+  "Brand_Mate_RxCUI": "1552004",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Tiotropium Mgactuat Inhalation",
+  "Manufacturer_Name": "Spiriva",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "00597010061": {
       "11/22/2017": 88.34107,
@@ -36,7 +40,8 @@
       "07/23/2025": 126.21802,
       "08/20/2025": 126.20342,
       "09/17/2025": 126.21756,
-      "10/22/2025": 126.2161
+      "10/22/2025": 126.2161,
+      "11/19/2025": 126.19273
     }
   }
 }

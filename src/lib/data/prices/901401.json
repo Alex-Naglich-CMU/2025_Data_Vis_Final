@@ -1,9 +1,13 @@
 {
   "RxCUI": "901401",
-  "Name": "ORACEA 40 MG CAPSULE",
+  "Name": "doxycycline anhydrous 40 MG Delayed Release Oral Capsule [Oracea]",
   "IsBrand": true,
-  "Brand_RxCUI": "901399",
-  "Generic_RxCUI": "901401",
+  "Brand_Mate_RxCUI": "901401",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Doxycycline Anhydrous Delayed Release",
+  "Manufacturer_Name": "Oracea",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "00299382230": {
       "02/21/2018": 20.5135,
@@ -21,7 +25,8 @@
       "07/23/2025": 29.14052,
       "08/20/2025": 29.14467,
       "09/17/2025": 29.14038,
-      "10/22/2025": 29.12612
+      "10/22/2025": 29.12612,
+      "11/19/2025": 29.10208
     }
   }
 }

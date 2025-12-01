@@ -1,13 +1,18 @@
 {
   "RxCUI": "1423307",
-  "Name": "CAPRON DM LIQUID",
+  "Name": "dextromethorphan hydrobromide 1.5 MG/ML / pyrilamine maleate 1.5 MG/ML Oral Solution",
   "IsBrand": true,
-  "Brand_RxCUI": "1423307",
-  "Generic_RxCUI": null,
+  "Brand_Mate_RxCUI": "1423307",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide Mgml Pyrilamine Maleate Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1.5 MG/ML",
+  "Form": "Solution",
   "prices": {
     "29978012716": {
       "06/18/2025": 0.06914,
-      "08/20/2025": 0.06925
+      "08/20/2025": 0.06925,
+      "11/19/2025": 0.06903
     }
   }
 }

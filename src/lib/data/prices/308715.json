@@ -1,9 +1,13 @@
 {
   "RxCUI": "308715",
-  "Name": "CLOTRIMAZOLE-BETAMETHASONE LOT",
+  "Name": "betamethasone 0.5 MG/ML / clotrimazole 10 MG/ML Topical Lotion",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "308715",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "308715",
+  "Ingredient_Name": "Betamethasone Mgml Clotrimazole Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.5 MG/ML",
+  "Form": "Lotion",
   "prices": {
     "00168037030": {
       "05/19/2021": 2.89653,
@@ -80,6 +84,9 @@
       "06/21/2023": 2.84441,
       "07/19/2023": 2.53572,
       "08/23/2023": 2.44529
+    },
+    "168037030": {
+      "09/22/2021": 2.76692
     },
     "51672130803": {
       "05/19/2021": 2.89653,
@@ -182,10 +189,8 @@
       "07/23/2025": 2.71204,
       "08/20/2025": 2.73089,
       "09/17/2025": 2.69922,
-      "10/22/2025": 2.65849
-    },
-    "168037030": {
-      "09/22/2021": 2.76692
+      "10/22/2025": 2.65849,
+      "11/19/2025": 2.68136
     }
   }
 }

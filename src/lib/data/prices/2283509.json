@@ -1,9 +1,13 @@
 {
   "RxCUI": "2283509",
-  "Name": "XCOPRI 150 MG TABLET",
+  "Name": "cenobamate 150 MG Oral Tablet [Xcopri]",
   "IsBrand": true,
-  "Brand_RxCUI": "2283507",
-  "Generic_RxCUI": "2283509",
+  "Brand_Mate_RxCUI": "2283509",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cenobamate",
+  "Manufacturer_Name": "Xcopri",
+  "Strength": "150 MG",
+  "Form": "",
   "prices": {
     "71699015030": {
       "01/01/2023": 35.63241,
@@ -23,7 +27,8 @@
       "07/23/2025": 38.75081,
       "08/20/2025": 38.75311,
       "09/17/2025": 38.75744,
-      "10/22/2025": 38.75445
+      "10/22/2025": 38.75445,
+      "11/19/2025": 38.75512
     }
   }
 }

@@ -1,10 +1,20 @@
 {
   "RxCUI": "1358612",
-  "Name": "DEPO-MEDROL 40 MG/ML VIAL",
+  "Name": "methylprednisolone acetate 40 MG/ML Injectable Suspension [Depo-Medrol]",
   "IsBrand": true,
-  "Brand_RxCUI": "1358610",
-  "Generic_RxCUI": "1358612",
+  "Brand_Mate_RxCUI": "1358612",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methylprednisolone Mgml Injectable",
+  "Manufacturer_Name": "Depo-Medrol",
+  "Strength": "40 MG/ML",
+  "Form": "",
   "prices": {
+    "00009028002": {
+      "06/01/2017": 7.81367,
+      "01/01/2018": 8.55042,
+      "07/01/2018": 9.35809,
+      "07/16/2018": 8.5504
+    },
     "00009028003": {
       "06/01/2017": 7.7261,
       "01/01/2018": 8.45583,
@@ -13,12 +23,6 @@
       "05/22/2024": 9.5938,
       "06/19/2024": 9.22433,
       "07/17/2024": 9.0962
-    },
-    "00009028002": {
-      "06/01/2017": 7.81367,
-      "01/01/2018": 8.55042,
-      "07/01/2018": 9.35809,
-      "07/16/2018": 8.5504
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1986354",
-  "Name": "FIASP 100 UNIT/ML VIAL",
+  "Name": "insulin aspart, human 100 UNT/ML Injectable Solution [Fiasp]",
   "IsBrand": true,
-  "Brand_RxCUI": "311040",
-  "Generic_RxCUI": "1986354",
+  "Brand_Mate_RxCUI": "1986354",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Aspart, Human Untml Injectable",
+  "Manufacturer_Name": "Fiasp",
+  "Strength": "100 UNT/ML",
+  "Form": "",
   "prices": {
     "00169320111": {
       "07/17/2019": 27.66138,
@@ -30,7 +34,8 @@
       "07/23/2025": 27.73559,
       "08/20/2025": 27.73919,
       "09/17/2025": 27.73719,
-      "10/22/2025": 27.74115
+      "10/22/2025": 27.74115,
+      "11/19/2025": 27.73826
     }
   }
 }

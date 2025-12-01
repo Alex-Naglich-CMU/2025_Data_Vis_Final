@@ -1,9 +1,13 @@
 {
   "RxCUI": "2585471",
-  "Name": "DYANAVEL XR 20 MG TABLET",
+  "Name": "24 HR amphetamine 20 MG Extended Release Oral Tablet [Dyanavel]",
   "IsBrand": true,
-  "Brand_RxCUI": "2585468",
-  "Generic_RxCUI": "2585471",
+  "Brand_Mate_RxCUI": "2585471",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Amphetamine Extended Release",
+  "Manufacturer_Name": "Dyanavel",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "24478011001": {
       "01/08/2024": 14.12166,
@@ -21,7 +25,8 @@
       "04/01/2025": 14.57302,
       "08/20/2025": 14.57188,
       "09/17/2025": 14.54538,
-      "10/22/2025": 14.55533
+      "10/22/2025": 14.55533,
+      "11/19/2025": 14.55831
     }
   }
 }

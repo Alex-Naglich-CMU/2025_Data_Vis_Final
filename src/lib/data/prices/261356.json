@@ -1,9 +1,13 @@
 {
   "RxCUI": "261356",
-  "Name": "TRILEPTAL 150 MG TABLET",
+  "Name": "oxcarbazepine 150 MG Oral Tablet [Trileptal]",
   "IsBrand": true,
-  "Brand_RxCUI": "312136",
-  "Generic_RxCUI": "261356",
+  "Brand_Mate_RxCUI": "261356",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Oxcarbazepine",
+  "Manufacturer_Name": "Trileptal",
+  "Strength": "150 MG",
+  "Form": "",
   "prices": {
     "00078045605": {
       "07/11/2017": 4.13263,

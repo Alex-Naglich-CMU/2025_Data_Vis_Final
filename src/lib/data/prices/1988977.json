@@ -1,9 +1,13 @@
 {
   "RxCUI": "1988977",
-  "Name": "PREGABALIN ER 330 MG TABLET",
+  "Name": "24 HR pregabalin 330 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1988977",
-  "Generic_RxCUI": "1994392",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1988977",
+  "Ingredient_Name": "Hr Pregabalin Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "72205007930": {
       "05/22/2024": 3.41685,
@@ -23,7 +27,8 @@
       "07/23/2025": 3.25424,
       "08/20/2025": 3.4721,
       "09/17/2025": 3.61323,
-      "10/22/2025": 3.72503
+      "10/22/2025": 3.72503,
+      "11/19/2025": 3.61822
     },
     "72888005130": {
       "05/22/2024": 3.41685,
@@ -43,7 +48,8 @@
       "07/23/2025": 3.25424,
       "08/20/2025": 3.4721,
       "09/17/2025": 3.61323,
-      "10/22/2025": 3.72503
+      "10/22/2025": 3.72503,
+      "11/19/2025": 3.61822
     }
   }
 }

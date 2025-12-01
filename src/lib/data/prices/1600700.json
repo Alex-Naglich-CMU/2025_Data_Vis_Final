@@ -1,9 +1,13 @@
 {
   "RxCUI": "1600700",
-  "Name": "EVEKEO 5 MG TABLET",
+  "Name": "amphetamine sulfate 5 MG Oral Tablet [Evekeo]",
   "IsBrand": true,
-  "Brand_RxCUI": "884655",
-  "Generic_RxCUI": "1600700",
+  "Brand_Mate_RxCUI": "1600700",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amphetamine",
+  "Manufacturer_Name": "Evekeo",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "24338002210": {
       "06/01/2017": 6.13085,

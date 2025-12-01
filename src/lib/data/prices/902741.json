@@ -1,9 +1,13 @@
 {
   "RxCUI": "902741",
-  "Name": "HYDROMORPHONE HCL ER 8 MG TAB",
+  "Name": "24 HR hydromorphone hydrochloride 8 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "902741",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "902741",
+  "Ingredient_Name": "Hr Hydromorphone Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "00574029301": {
       "06/21/2017": 8.99944,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "616450",
-  "Name": "MYFORTIC 180 MG TABLET",
+  "Name": "mycophenolic acid 180 MG Delayed Release Oral Tablet [Myfortic]",
   "IsBrand": true,
-  "Brand_RxCUI": "485020",
-  "Generic_RxCUI": "616450",
+  "Brand_Mate_RxCUI": "616450",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Mycophenolic Acid Delayed Release",
+  "Manufacturer_Name": "Myfortic",
+  "Strength": "180 MG",
+  "Form": "",
   "prices": {
     "00078038566": {
       "07/11/2017": 4.85465,

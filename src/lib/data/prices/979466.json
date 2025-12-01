@@ -1,9 +1,13 @@
 {
   "RxCUI": "979466",
-  "Name": "HYZAAR 100-12.5 TABLET",
+  "Name": "hydrochlorothiazide 12.5 MG / losartan potassium 100 MG Oral Tablet [Hyzaar]",
   "IsBrand": true,
-  "Brand_RxCUI": "979464",
-  "Generic_RxCUI": "979466",
+  "Brand_Mate_RxCUI": "979466",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hydrochlorothiazide Losartan Potassium",
+  "Manufacturer_Name": "Hyzaar",
+  "Strength": "12.5 MG",
+  "Form": "",
   "prices": {
     "78206014001": {
       "06/19/2024": 6.17738,

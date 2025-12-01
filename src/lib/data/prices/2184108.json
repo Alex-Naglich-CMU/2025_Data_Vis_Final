@@ -1,9 +1,13 @@
 {
   "RxCUI": "2184108",
-  "Name": "RYMED TABLET",
+  "Name": "dexchlorpheniramine maleate 2 MG / phenylephrine hydrochloride 10 MG Oral Tablet",
   "IsBrand": true,
-  "Brand_RxCUI": "2184108",
-  "Generic_RxCUI": null,
+  "Brand_Mate_RxCUI": "2184108",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dexchlorpheniramine Maleate Phenylephrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "2 MG",
+  "Form": "Tablet",
   "prices": {
     "00485008001": {
       "01/17/2018": 0.15288,
@@ -20,7 +24,8 @@
       "07/23/2025": 0.21344,
       "08/20/2025": 0.21652,
       "09/17/2025": 0.2098,
-      "10/22/2025": 0.21599
+      "10/22/2025": 0.21599,
+      "11/19/2025": 0.21538
     }
   }
 }

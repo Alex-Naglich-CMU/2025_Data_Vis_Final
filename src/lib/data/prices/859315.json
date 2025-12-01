@@ -1,9 +1,13 @@
 {
   "RxCUI": "859315",
-  "Name": "HYDROCODONE-IBUPROFEN 10-200",
+  "Name": "hydrocodone bitartrate 10 MG / ibuprofen 200 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "859315",
-  "Generic_RxCUI": "1542988",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "859315",
+  "Ingredient_Name": "Hydrocodone Bitartrate Ibuprofen",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG",
+  "Form": "Tablet",
   "prices": {
     "53746011701": {
       "06/21/2017": 1.91203,
@@ -52,7 +56,8 @@
       "07/23/2025": 3.38858,
       "08/20/2025": 3.43443,
       "09/17/2025": 3.40614,
-      "10/22/2025": 3.38512
+      "10/22/2025": 3.38512,
+      "11/19/2025": 3.37443
     }
   }
 }

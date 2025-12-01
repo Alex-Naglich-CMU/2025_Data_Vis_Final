@@ -1,10 +1,17 @@
 {
   "RxCUI": "2049841",
-  "Name": "FLU HBP 325-2-10 MG CAPLET",
+  "Name": "acetaminophen 325 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 10 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "2049841",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "2049841",
+  "Ingredient_Name": "Acetaminophen Chlorpheniramine Maleate Dextromethorphan Hydrobromide",
+  "Manufacturer_Name": "",
+  "Strength": "325 MG",
+  "Form": "Tablet",
   "prices": {
+    "63868056720": {
+      "04/19/2023": 0.10317
+    },
     "70000005001": {
       "04/19/2023": 0.10317,
       "02/21/2024": 0.1525,
@@ -20,10 +27,8 @@
       "07/23/2025": 0.13968,
       "08/20/2025": 0.13073,
       "09/17/2025": 0.12406,
-      "10/22/2025": 0.11434
-    },
-    "63868056720": {
-      "04/19/2023": 0.10317
+      "10/22/2025": 0.11434,
+      "11/19/2025": 0.10994
     }
   }
 }

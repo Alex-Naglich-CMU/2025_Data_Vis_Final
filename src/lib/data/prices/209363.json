@@ -1,9 +1,13 @@
 {
   "RxCUI": "209363",
-  "Name": "ACEPHEN 650 MG SUPPOSITORY",
+  "Name": "acetaminophen 650 MG Rectal Suppository [Acephen]",
   "IsBrand": false,
-  "Brand_RxCUI": "198443",
-  "Generic_RxCUI": "209363",
+  "Brand_Mate_RxCUI": "198443",
+  "Generic_Mate_RxCUI": "209363",
+  "Ingredient_Name": "Acetaminophen Rectal",
+  "Manufacturer_Name": "Acephen",
+  "Strength": "650 MG",
+  "Form": "",
   "prices": {
     "00713016501": {
       "06/21/2017": 0.36408,
@@ -51,7 +55,7 @@
       "12/23/2020": 0.34049,
       "01/20/2021": 0.32147
     },
-    "00713016550": {
+    "00713016512": {
       "06/21/2017": 0.36408,
       "07/19/2017": 0.31251,
       "08/23/2017": 0.3456,
@@ -97,7 +101,7 @@
       "12/23/2020": 0.34049,
       "01/20/2021": 0.32147
     },
-    "00713016512": {
+    "00713016550": {
       "06/21/2017": 0.36408,
       "07/19/2017": 0.31251,
       "08/23/2017": 0.3456,

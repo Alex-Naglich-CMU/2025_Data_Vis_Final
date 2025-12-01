@@ -1,9 +1,13 @@
 {
   "RxCUI": "208094",
-  "Name": "CARAFATE 1 GM/10 ML SUSP",
+  "Name": "sucralfate 100 MG/ML Oral Suspension [Carafate]",
   "IsBrand": true,
-  "Brand_RxCUI": "313123",
-  "Generic_RxCUI": "208094",
+  "Brand_Mate_RxCUI": "208094",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sucralfate Mgml",
+  "Manufacturer_Name": "Carafate",
+  "Strength": "100 MG/ML",
+  "Form": "",
   "prices": {
     "58914017014": {
       "11/22/2017": 0.40457,

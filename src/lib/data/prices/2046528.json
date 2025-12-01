@@ -1,9 +1,13 @@
 {
   "RxCUI": "2046528",
-  "Name": "FT ALLERGY (DIPHEN) 25 MG CHEW",
+  "Name": "diphenhydramine hydrochloride 25 MG Chewable Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "2046528",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "2046528",
+  "Ingredient_Name": "Diphenhydramine Hydrochloride Chewable",
+  "Manufacturer_Name": "",
+  "Strength": "25 MG",
+  "Form": "Tablet",
   "prices": {
     "70677105901": {
       "08/21/2024": 0.26961,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2549037",
-  "Name": "MUCINEX NIGHTSHFT SEVR CLD-FLU",
+  "Name": "acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG / triprolidine hydrochloride 1.25 MG Oral Tablet",
   "IsBrand": true,
-  "Brand_RxCUI": "2549037",
-  "Generic_RxCUI": null,
+  "Brand_Mate_RxCUI": "2549037",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Acetaminophen Dextromethorphan Hydrobromide Phenylephrine Hydrochloride Triprolidine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "325 MG",
+  "Form": "Tablet",
   "prices": {
     "72854023420": {
       "2/22/2023": 0.5565,

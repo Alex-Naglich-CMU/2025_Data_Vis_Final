@@ -1,9 +1,13 @@
 {
   "RxCUI": "795918",
-  "Name": "VEREGEN 15% OINTMENT",
+  "Name": "sinecatechins 0.15 MG/MG Topical Ointment [Veregen]",
   "IsBrand": true,
-  "Brand_RxCUI": "753350",
-  "Generic_RxCUI": "795918",
+  "Brand_Mate_RxCUI": "795918",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sinecatechins Mgmg",
+  "Manufacturer_Name": "Veregen",
+  "Strength": "0.15 MG/MG",
+  "Form": "",
   "prices": {
     "10337045003": {
       "12/31/2017": 43.73694

@@ -1,9 +1,13 @@
 {
   "RxCUI": "104368",
-  "Name": "CARDURA 2 MG TABLET",
+  "Name": "doxazosin 2 MG Oral Tablet [Cardura]",
   "IsBrand": true,
-  "Brand_RxCUI": "197626",
-  "Generic_RxCUI": "104368",
+  "Brand_Mate_RxCUI": "104368",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Doxazosin",
+  "Manufacturer_Name": "Cardura",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "00049276066": {
       "06/01/2017": 4.08405,

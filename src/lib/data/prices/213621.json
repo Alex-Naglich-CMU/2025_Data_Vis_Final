@@ -1,9 +1,13 @@
 {
   "RxCUI": "213621",
-  "Name": "POLYCIN EYE OINTMENT",
+  "Name": "bacitracin 0.5 UNT/MG / polymyxin B 10 UNT/MG Ophthalmic Ointment [Polycin]",
   "IsBrand": false,
-  "Brand_RxCUI": "308511",
-  "Generic_RxCUI": "213621",
+  "Brand_Mate_RxCUI": "308511",
+  "Generic_Mate_RxCUI": "213621",
+  "Ingredient_Name": "Bacitracin Untmg Polymyxin B Untmg",
+  "Manufacturer_Name": "Polycin",
+  "Strength": "0.5 UNT/MG",
+  "Form": "",
   "prices": {
     "00574402135": {
       "05/19/2021": 3.39937,
@@ -103,7 +107,8 @@
       "07/23/2025": 2.72162,
       "08/20/2025": 2.73628,
       "09/17/2025": 2.77189,
-      "10/22/2025": 2.91688
+      "10/22/2025": 2.91688,
+      "11/19/2025": 2.96053
     },
     "574402135": {
       "09/22/2021": 3.31412

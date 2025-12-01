@@ -1,9 +1,13 @@
 {
   "RxCUI": "1738804",
-  "Name": "PAXIL CR 12.5 MG TABLET",
+  "Name": "24 HR paroxetine hydrochloride 12.5 MG Extended Release Oral Tablet [Paxil]",
   "IsBrand": true,
-  "Brand_RxCUI": "1738803",
-  "Generic_RxCUI": "1738804",
+  "Brand_Mate_RxCUI": "1738804",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Paroxetine Hydrochloride Extended Release",
+  "Manufacturer_Name": "Paxil",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "60505366803": {
       "06/09/2017": 5.77094,

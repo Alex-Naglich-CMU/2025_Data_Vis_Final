@@ -1,9 +1,13 @@
 {
   "RxCUI": "211327",
-  "Name": "VIRAMUNE 200 MG TABLET",
+  "Name": "nevirapine 200 MG Oral Tablet [Viramune]",
   "IsBrand": true,
-  "Brand_RxCUI": "199422",
-  "Generic_RxCUI": "211327",
+  "Brand_Mate_RxCUI": "211327",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Nevirapine",
+  "Manufacturer_Name": "Viramune",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "00597004646": {
       "01/03/2018": 13.86934,

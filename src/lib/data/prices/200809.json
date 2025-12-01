@@ -1,9 +1,13 @@
 {
   "RxCUI": "200809",
-  "Name": "LASIX 40 MG TABLET",
+  "Name": "furosemide 40 MG Oral Tablet [Lasix]",
   "IsBrand": true,
-  "Brand_RxCUI": "313988",
-  "Generic_RxCUI": "200809",
+  "Brand_Mate_RxCUI": "200809",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Furosemide",
+  "Manufacturer_Name": "Lasix",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "30698006001": {
       "07/19/2017": 0.87866,
@@ -30,7 +34,8 @@
       "07/23/2025": 1.04793,
       "08/20/2025": 1.05046,
       "09/17/2025": 1.0509,
-      "10/22/2025": 1.05146
+      "10/22/2025": 1.05146,
+      "11/19/2025": 1.05142
     }
   }
 }

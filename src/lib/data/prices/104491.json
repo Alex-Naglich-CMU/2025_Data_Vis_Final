@@ -1,9 +1,13 @@
 {
   "RxCUI": "104491",
-  "Name": "ZOCOR 20 MG TABLET",
+  "Name": "simvastatin 20 MG Oral Tablet [Zocor]",
   "IsBrand": true,
-  "Brand_RxCUI": "312961",
-  "Generic_RxCUI": "104491",
+  "Brand_Mate_RxCUI": "104491",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Simvastatin",
+  "Manufacturer_Name": "Zocor",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "78206018101": {
       "07/17/2024": 8.94607,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "104782",
-  "Name": "RISPERDAL 2 MG TABLET",
+  "Name": "risperidone 2 MG Oral Tablet [Risperdal]",
   "IsBrand": true,
-  "Brand_RxCUI": "312831",
-  "Generic_RxCUI": "104782",
+  "Brand_Mate_RxCUI": "104782",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Risperidone",
+  "Manufacturer_Name": "Risperdal",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "50458032001": {
       "05/22/2024": 7.8581,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "749804",
-  "Name": "FENOFIBRATE 40 MG TABLET",
+  "Name": "fenofibrate 40 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "749804",
-  "Generic_RxCUI": "763252",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "749804",
+  "Ingredient_Name": "Fenofibrate",
+  "Manufacturer_Name": "",
+  "Strength": "40 MG",
+  "Form": "Tablet",
   "prices": {
     "00115152210": {
       "04/19/2023": 5.96824,
@@ -37,7 +41,8 @@
       "07/23/2025": 6.55756,
       "08/20/2025": 6.50017,
       "09/17/2025": 6.48039,
-      "10/22/2025": 6.28316
+      "10/22/2025": 6.28316,
+      "11/19/2025": 6.24414
     },
     "68682049090": {
       "04/19/2023": 5.96824

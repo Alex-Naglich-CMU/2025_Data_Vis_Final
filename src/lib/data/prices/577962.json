@@ -1,9 +1,13 @@
 {
   "RxCUI": "577962",
-  "Name": "ADDERALL 20 MG TABLET",
+  "Name": "amphetamine aspartate 5 MG / amphetamine sulfate 5 MG / dextroamphetamine saccharate 5 MG / dextroamphetamine sulfate 5 MG Oral Tablet [Adderall]",
   "IsBrand": true,
-  "Brand_RxCUI": "577961",
-  "Generic_RxCUI": "577962",
+  "Brand_Mate_RxCUI": "577962",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amphetamine Aspartate Amphetamine Dextroamphetamine Saccharate Dextroamphetamine",
+  "Manufacturer_Name": "Adderall",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "57844012001": {
       "01/01/2018": 5.86911,

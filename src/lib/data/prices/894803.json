@@ -1,9 +1,13 @@
 {
   "RxCUI": "894803",
-  "Name": "KADIAN ER 50 MG CAPSULE",
+  "Name": "morphine sulfate 50 MG Extended Release Oral Capsule [Kadian]",
   "IsBrand": true,
-  "Brand_RxCUI": "894801",
-  "Generic_RxCUI": "894803",
+  "Brand_Mate_RxCUI": "894803",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Morphine Extended Release",
+  "Manufacturer_Name": "Kadian",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "52544005260": {
       "01/01/2018": 18.79276

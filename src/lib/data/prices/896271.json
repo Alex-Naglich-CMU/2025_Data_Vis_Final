@@ -1,9 +1,13 @@
 {
   "RxCUI": "896271",
-  "Name": "ADVAIR HFA 230-21 MCG INHALER",
+  "Name": "60 ACTUAT fluticasone propionate 0.23 MG/ACTUAT / salmeterol 0.021 MG/ACTUAT Metered Dose Inhaler [Advair]",
   "IsBrand": true,
-  "Brand_RxCUI": "896267",
-  "Generic_RxCUI": "896271",
+  "Brand_Mate_RxCUI": "896271",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Advair",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "00173071722": {
       "01/01/2018": 38.09016,

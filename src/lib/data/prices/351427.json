@@ -1,17 +1,21 @@
 {
   "RxCUI": "351427",
-  "Name": "NICODERM CQ 14 MG/24HR PATCH",
+  "Name": "24 HR nicotine 0.583 MG/HR Transdermal System [Nicoderm C-Q]",
   "IsBrand": true,
-  "Brand_RxCUI": "198029",
-  "Generic_RxCUI": "351427",
+  "Brand_Mate_RxCUI": "351427",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Nicotine Mghr Transdermal System",
+  "Manufacturer_Name": "Nicoderm C-Q",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00135019502": {
       "07/19/2017": 2.97029
     },
-    "00135019505": {
+    "00135019503": {
       "07/19/2017": 2.97029
     },
-    "00135019503": {
+    "00135019505": {
       "07/19/2017": 2.97029
     }
   }

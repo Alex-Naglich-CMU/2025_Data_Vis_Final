@@ -1,9 +1,13 @@
 {
   "RxCUI": "2377134",
-  "Name": "SEMGLEE 100 UNIT/ML VIAL",
+  "Name": "insulin glargine 100 UNT/ML Injectable Solution [Semglee]",
   "IsBrand": true,
-  "Brand_RxCUI": "311041",
-  "Generic_RxCUI": "2377134",
+  "Brand_Mate_RxCUI": "2377134",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Glargine Untml Injectable",
+  "Manufacturer_Name": "Semglee",
+  "Strength": "100 UNT/ML",
+  "Form": "",
   "prices": {
     "49502019580": {
       "12/22/2021": 9.4484

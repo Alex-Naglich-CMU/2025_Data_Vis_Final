@@ -1,9 +1,13 @@
 {
   "RxCUI": "1602588",
-  "Name": "NAMZARIC 14 MG-10 MG CAPSULE",
+  "Name": "24 HR donepezil hydrochloride 10 MG / memantine hydrochloride 14 MG Extended Release Oral Capsule [Namzaric]",
   "IsBrand": true,
-  "Brand_RxCUI": "1599805",
-  "Generic_RxCUI": "1602588",
+  "Brand_Mate_RxCUI": "1602588",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Donepezil Hydrochloride Memantine Hydrochloride Extended Release",
+  "Manufacturer_Name": "Namzaric",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00456121430": {
       "11/22/2017": 12.33533,
@@ -34,7 +38,8 @@
       "07/23/2025": 19.81213,
       "08/20/2025": 19.8009,
       "09/17/2025": 19.81347,
-      "10/22/2025": 19.79
+      "10/22/2025": 19.79,
+      "11/19/2025": 19.79739
     }
   }
 }

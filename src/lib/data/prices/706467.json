@@ -1,13 +1,14 @@
 {
   "RxCUI": "706467",
-  "Name": "ELESTRIN 0.06% GEL",
+  "Name": "estradiol 0.0006 MG/MG Topical Gel [Elestrin]",
   "IsBrand": true,
-  "Brand_RxCUI": "226597",
-  "Generic_RxCUI": "706467",
+  "Brand_Mate_RxCUI": "706467",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Estradiol Mgmg",
+  "Manufacturer_Name": "Elestrin",
+  "Strength": "0.0006 MG/MG",
+  "Form": "",
   "prices": {
-    "00037480235": {
-      "07/19/2017": 3.39654
-    },
     "00037480170": {
       "12/18/2019": 2.75214,
       "01/03/2020": 2.93101,
@@ -30,7 +31,11 @@
       "01/07/2025": 3.60862,
       "07/23/2025": 3.59772,
       "08/20/2025": 3.59995,
-      "10/22/2025": 3.57377
+      "10/22/2025": 3.57377,
+      "11/19/2025": 3.59211
+    },
+    "00037480235": {
+      "07/19/2017": 3.39654
     }
   }
 }

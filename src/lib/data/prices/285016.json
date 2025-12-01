@@ -1,11 +1,15 @@
 {
   "RxCUI": "285016",
-  "Name": "TIKOSYN 500 MCG CAPSULE",
+  "Name": "dofetilide 0.5 MG Oral Capsule [Tikosyn]",
   "IsBrand": true,
-  "Brand_RxCUI": "310005",
-  "Generic_RxCUI": "285016",
+  "Brand_Mate_RxCUI": "285016",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dofetilide",
+  "Manufacturer_Name": "Tikosyn",
+  "Strength": "0.5 MG",
+  "Form": "",
   "prices": {
-    "00069582061": {
+    "00069582043": {
       "06/01/2017": 9.10351,
       "11/22/2017": 7.82952,
       "11/23/2017": 9.13,
@@ -37,7 +41,7 @@
       "01/01/2024": 10.6644,
       "01/01/2025": 10.77105
     },
-    "00069582043": {
+    "00069582061": {
       "06/01/2017": 9.10351,
       "11/22/2017": 7.82952,
       "11/23/2017": 9.13,

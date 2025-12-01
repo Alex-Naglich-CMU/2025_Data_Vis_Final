@@ -1,9 +1,13 @@
 {
   "RxCUI": "998681",
-  "Name": "CATAPRES-TTS 3 PATCH",
+  "Name": "168 HR clonidine 0.0125 MG/HR Transdermal System [Catapres]",
   "IsBrand": true,
-  "Brand_RxCUI": "998679",
-  "Generic_RxCUI": "998681",
+  "Brand_Mate_RxCUI": "998681",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Clonidine Mghr Transdermal System",
+  "Manufacturer_Name": "Catapres",
+  "Strength": "168 HR",
+  "Form": "",
   "prices": {
     "00597003334": {
       "06/16/2021": 163.23525,

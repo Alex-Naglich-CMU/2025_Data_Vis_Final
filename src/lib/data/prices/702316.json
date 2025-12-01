@@ -1,9 +1,13 @@
 {
   "RxCUI": "702316",
-  "Name": "BACK-BODY PAIN 500-32.5 MG CPLT",
+  "Name": "aspirin 500 MG / caffeine 32.5 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "702316",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "702316",
+  "Ingredient_Name": "Aspirin Caffeine",
+  "Manufacturer_Name": "",
+  "Strength": "500 MG",
+  "Form": "Tablet",
   "prices": {
     "70000012702": {
       "12/18/2024": 0.04207,
@@ -16,7 +20,8 @@
       "07/23/2025": 0.04038,
       "08/20/2025": 0.04045,
       "09/17/2025": 0.04035,
-      "10/22/2025": 0.04125
+      "10/22/2025": 0.04125,
+      "11/19/2025": 0.04285
     }
   }
 }

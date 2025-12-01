@@ -1,9 +1,13 @@
 {
   "RxCUI": "1652646",
-  "Name": "HUMALOG 100 UNITS/ML CARTRIDGE",
+  "Name": "3 ML insulin lispro 100 UNT/ML Cartridge [Humalog]",
   "IsBrand": true,
-  "Brand_RxCUI": "1652644",
-  "Generic_RxCUI": "1652646",
+  "Brand_Mate_RxCUI": "1652646",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Lispro Untml Cartridge",
+  "Manufacturer_Name": "Humalog",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00002751659": {
       "06/21/2017": 32.58228,
@@ -32,7 +36,8 @@
       "07/23/2025": 9.77578,
       "08/20/2025": 9.77076,
       "09/17/2025": 9.77232,
-      "10/22/2025": 9.77391
+      "10/22/2025": 9.77391,
+      "11/19/2025": 9.77119
     },
     "2751659": {
       "09/22/2021": 32.53889

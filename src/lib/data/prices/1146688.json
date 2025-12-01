@@ -1,9 +1,13 @@
 {
   "RxCUI": "1146688",
-  "Name": "OSCIMIN 0.125 MG ODT",
+  "Name": "hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet [Oscimin]",
   "IsBrand": false,
-  "Brand_RxCUI": "1046985",
-  "Generic_RxCUI": "1146688",
+  "Brand_Mate_RxCUI": "1046985",
+  "Generic_Mate_RxCUI": "1146688",
+  "Ingredient_Name": "Hyoscyamine Disintegrating",
+  "Manufacturer_Name": "Oscimin",
+  "Strength": "0.125 MG",
+  "Form": "",
   "prices": {
     "68047025401": {
       "05/19/2021": 0.19303,

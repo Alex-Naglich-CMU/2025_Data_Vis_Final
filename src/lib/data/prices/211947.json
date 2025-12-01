@@ -1,9 +1,13 @@
 {
   "RxCUI": "211947",
-  "Name": "MEPRON 750 MG/5 ML SUSPENSION",
+  "Name": "atovaquone 150 MG/ML Oral Suspension [Mepron]",
   "IsBrand": true,
-  "Brand_RxCUI": "308429",
-  "Generic_RxCUI": "211947",
+  "Brand_Mate_RxCUI": "211947",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Atovaquone Mgml",
+  "Manufacturer_Name": "Mepron",
+  "Strength": "150 MG/ML",
+  "Form": "",
   "prices": {
     "00173054700": {
       "01/01/2018": 6.69435,

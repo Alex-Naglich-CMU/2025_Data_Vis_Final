@@ -1,9 +1,13 @@
 {
   "RxCUI": "2110510",
-  "Name": "WIXELA 100-50 INHUB",
+  "Name": "60 ACTUAT fluticasone propionate 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Wixela]",
   "IsBrand": false,
-  "Brand_RxCUI": "896184",
-  "Generic_RxCUI": "2110510",
+  "Brand_Mate_RxCUI": "896184",
+  "Generic_Mate_RxCUI": "2110510",
+  "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Wixela",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "00378932032": {
       "05/19/2021": 2.25579,
@@ -82,7 +86,8 @@
       "07/23/2025": 1.21502,
       "08/20/2025": 1.22552,
       "09/17/2025": 1.17244,
-      "10/22/2025": 1.15576
+      "10/22/2025": 1.15576,
+      "11/19/2025": 1.14896
     },
     "378932032": {
       "09/22/2021": 1.85185

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1487076",
-  "Name": "PENNSAID 2% PUMP",
+  "Name": "diclofenac sodium 20 MG/ML Topical Solution [Pennsaid]",
   "IsBrand": true,
-  "Brand_RxCUI": "1487074",
-  "Generic_RxCUI": "1487076",
+  "Brand_Mate_RxCUI": "1487076",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Diclofenac Sodium Mgml",
+  "Manufacturer_Name": "Pennsaid",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "75987004005": {
       "07/21/2021": 21.30089,

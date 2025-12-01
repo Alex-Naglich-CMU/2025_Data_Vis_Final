@@ -1,9 +1,13 @@
 {
   "RxCUI": "207836",
-  "Name": "SAIZEN 5 MG VIAL",
+  "Name": "somatropin 5 MG/ML Injectable Solution [Saizen]",
   "IsBrand": true,
-  "Brand_RxCUI": "241975",
-  "Generic_RxCUI": "207836",
+  "Brand_Mate_RxCUI": "207836",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Somatropin Mgml Injectable",
+  "Manufacturer_Name": "Saizen",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "44087100502": {
       "08/21/2024": 280.85

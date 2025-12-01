@@ -1,9 +1,13 @@
 {
   "RxCUI": "1596023",
-  "Name": "AURYXIA 210 MG TABLET",
+  "Name": "ferric citrate 1000 MG Oral Tablet [Auryxia]",
   "IsBrand": true,
-  "Brand_RxCUI": "1594680",
-  "Generic_RxCUI": "1596023",
+  "Brand_Mate_RxCUI": "1596023",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ferric Citrate",
+  "Manufacturer_Name": "Auryxia",
+  "Strength": "1000 MG",
+  "Form": "",
   "prices": {
     "59922063101": {
       "07/15/2017": 5.13497,

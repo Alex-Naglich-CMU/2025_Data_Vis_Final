@@ -1,9 +1,13 @@
 {
   "RxCUI": "1741268",
-  "Name": "VENOFER 100 MG/5 ML VIAL",
+  "Name": "5 ML iron sucrose 20 MG/ML Injection [Venofer]",
   "IsBrand": true,
-  "Brand_RxCUI": "1741267",
-  "Generic_RxCUI": "1741268",
+  "Brand_Mate_RxCUI": "1741268",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Iron Sucrose Mgml",
+  "Manufacturer_Name": "Venofer",
+  "Strength": "5 ML",
+  "Form": "",
   "prices": {
     "00517234010": {
       "07/17/2024": 10.2622,

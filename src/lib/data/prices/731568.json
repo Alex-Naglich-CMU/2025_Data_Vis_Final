@@ -1,9 +1,13 @@
 {
   "RxCUI": "731568",
-  "Name": "BICILLIN L-A 1,200,000 UNITS",
+  "Name": "2 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe [Bicillin L-A]",
   "IsBrand": true,
-  "Brand_RxCUI": "731567",
-  "Generic_RxCUI": "731568",
+  "Brand_Mate_RxCUI": "731568",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Penicillin G Benzathine Untml Prefilled",
+  "Manufacturer_Name": "Bicillin L-A",
+  "Strength": "2 ML",
+  "Form": "",
   "prices": {
     "60793070110": {
       "06/01/2017": 69.91853,

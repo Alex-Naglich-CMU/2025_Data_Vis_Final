@@ -1,9 +1,13 @@
 {
   "RxCUI": "1092447",
-  "Name": "DIPHENHIST 25 MG CAPSULE",
+  "Name": "diphenhydramine hydrochloride 25 MG Oral Capsule [Diphenhist]",
   "IsBrand": false,
-  "Brand_RxCUI": "1049909",
-  "Generic_RxCUI": "1092447",
+  "Brand_Mate_RxCUI": "1049909",
+  "Generic_Mate_RxCUI": "1092447",
+  "Ingredient_Name": "Diphenhydramine Hydrochloride",
+  "Manufacturer_Name": "Diphenhist",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "00536101001": {
       "05/19/2021": 0.03376,

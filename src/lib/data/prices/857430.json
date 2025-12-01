@@ -1,12 +1,17 @@
 {
   "RxCUI": "857430",
-  "Name": "CLEMASTINE 0.5 MG/5 ML SYRUP",
+  "Name": "clemastine fumarate 0.134 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "857430",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "857430",
+  "Ingredient_Name": "Clemastine Fumarate Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.134 MG/ML",
+  "Form": "Solution",
   "prices": {
     "64950032412": {
-      "10/22/2025": 5.58473
+      "10/22/2025": 5.58473,
+      "11/19/2025": 5.56204
     }
   }
 }

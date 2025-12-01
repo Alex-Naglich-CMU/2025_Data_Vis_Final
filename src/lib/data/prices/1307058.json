@@ -1,9 +1,13 @@
 {
   "RxCUI": "1307058",
-  "Name": "SUBOXONE 4 MG-1 MG SL FILM",
+  "Name": "buprenorphine 4 MG / naloxone 1 MG Sublingual Film [Suboxone]",
   "IsBrand": true,
-  "Brand_RxCUI": "1307056",
-  "Generic_RxCUI": "1307058",
+  "Brand_Mate_RxCUI": "1307058",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Buprenorphine Naloxone Sublingual Film",
+  "Manufacturer_Name": "Suboxone",
+  "Strength": "4 MG",
+  "Form": "",
   "prices": {
     "12496120401": {
       "07/21/2021": 8.61591,
@@ -28,7 +32,8 @@
       "07/23/2025": 8.58566,
       "08/20/2025": 8.58631,
       "09/17/2025": 8.58573,
-      "10/22/2025": 8.58749
+      "10/22/2025": 8.58749,
+      "11/19/2025": 8.5841
     },
     "12496120403": {
       "07/21/2021": 8.61591,
@@ -61,7 +66,8 @@
       "07/23/2025": 8.58566,
       "08/20/2025": 8.58631,
       "09/17/2025": 8.58573,
-      "10/22/2025": 8.58749
+      "10/22/2025": 8.58749,
+      "11/19/2025": 8.5841
     }
   }
 }

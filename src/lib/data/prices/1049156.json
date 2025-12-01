@@ -1,9 +1,13 @@
 {
   "RxCUI": "1049156",
-  "Name": "SUDOGEST 12 HOUR 120 MG CAPLET",
+  "Name": "12 HR pseudoephedrine hydrochloride 120 MG Extended Release Oral Tablet [Sudogest]",
   "IsBrand": false,
-  "Brand_RxCUI": "1049154",
-  "Generic_RxCUI": "1049156",
+  "Brand_Mate_RxCUI": "1049154",
+  "Generic_Mate_RxCUI": "1049156",
+  "Ingredient_Name": "Hr Pseudoephedrine Hydrochloride Extended Release",
+  "Manufacturer_Name": "Sudogest",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "00904675415": {
       "05/19/2021": 0.29058,
@@ -79,7 +83,8 @@
       "07/23/2025": 0.27471,
       "08/20/2025": 0.27216,
       "09/17/2025": 0.26848,
-      "10/22/2025": 0.26646
+      "10/22/2025": 0.26646,
+      "11/19/2025": 0.26215
     },
     "904675415": {
       "09/22/2021": 0.29166

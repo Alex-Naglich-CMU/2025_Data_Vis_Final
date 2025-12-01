@@ -1,9 +1,13 @@
 {
   "RxCUI": "262080",
-  "Name": "PROMETRIUM 100 MG CAPSULE",
+  "Name": "progesterone 100 MG Oral Capsule [Prometrium]",
   "IsBrand": true,
-  "Brand_RxCUI": "260243",
-  "Generic_RxCUI": "262080",
+  "Brand_Mate_RxCUI": "262080",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Progesterone",
+  "Manufacturer_Name": "Prometrium",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "72989037230": {
       "05/22/2024": 15.9513,
@@ -23,7 +27,8 @@
       "07/23/2025": 16.0352,
       "08/20/2025": 16.0446,
       "09/17/2025": 16.01117,
-      "10/22/2025": 16.00133
+      "10/22/2025": 16.00133,
+      "11/19/2025": 16.0145
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2601725",
-  "Name": "OLUMIANT 4 MG TABLET",
+  "Name": "baricitinib 4 MG Oral Tablet [Olumiant]",
   "IsBrand": true,
-  "Brand_RxCUI": "2588561",
-  "Generic_RxCUI": "2601725",
+  "Brand_Mate_RxCUI": "2601725",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Baricitinib",
+  "Manufacturer_Name": "Olumiant",
+  "Strength": "4 MG",
+  "Form": "",
   "prices": {
     "00002447930": {
       "12/18/2024": 177.83324,

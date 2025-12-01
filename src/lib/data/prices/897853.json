@@ -1,9 +1,13 @@
 {
   "RxCUI": "897853",
-  "Name": "TRANDOLAPRIL-VERAPAMIL ER 4-240 MG TABLET",
+  "Name": "24 HR trandolapril 4 MG / verapamil hydrochloride 240 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "897853",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "897853",
+  "Ingredient_Name": "Hr Trandolapril Verapamil Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "59762012201": {
       "06/21/2017": 4.05426,

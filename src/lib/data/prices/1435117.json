@@ -1,9 +1,13 @@
 {
   "RxCUI": "1435117",
-  "Name": "FORTEO 620 MCG/2.48 ML PEN INJ",
+  "Name": "28 ACTUAT teriparatide 0.02 MG/ACTUAT Pen Injector [Forteo]",
   "IsBrand": true,
-  "Brand_RxCUI": "1435115",
-  "Generic_RxCUI": "1435117",
+  "Brand_Mate_RxCUI": "1435117",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Teriparatide Mgactuat Pen Injector",
+  "Manufacturer_Name": "Forteo",
+  "Strength": "28 ACTU",
+  "Form": "",
   "prices": {
     "00002840001": {
       "06/23/2021": 1516.24333,

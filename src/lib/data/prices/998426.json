@@ -1,9 +1,13 @@
 {
   "RxCUI": "998426",
-  "Name": "XERESE 5%-1% CREAM",
+  "Name": "acyclovir 50 MG/ML / hydrocortisone 10 MG/ML Topical Cream [Xerese]",
   "IsBrand": true,
-  "Brand_RxCUI": "998422",
-  "Generic_RxCUI": "998426",
+  "Brand_Mate_RxCUI": "998426",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Acyclovir Mgml Hydrocortisone Mgml",
+  "Manufacturer_Name": "Xerese",
+  "Strength": "50 MG/ML",
+  "Form": "",
   "prices": {
     "00187510401": {
       "07/17/2024": 236.8468,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "669131",
-  "Name": "KID'S MUCINEX MINI-MELTS PACK",
+  "Name": "guaifenesin 100 MG Oral Granules [Mucinex]",
   "IsBrand": true,
-  "Brand_RxCUI": "647407",
-  "Generic_RxCUI": "669131",
+  "Brand_Mate_RxCUI": "669131",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Guaifenesin Granules",
+  "Manufacturer_Name": "Mucinex",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "63824025412": {
       "07/19/2017": 0.57774,

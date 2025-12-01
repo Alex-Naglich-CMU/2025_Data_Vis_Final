@@ -1,15 +1,19 @@
 {
   "RxCUI": "724154",
-  "Name": "AZULFIDINE ENTAB 500 MG",
+  "Name": "sulfasalazine 500 MG Delayed Release Oral Tablet [Azulfidine]",
   "IsBrand": true,
-  "Brand_RxCUI": "313142",
-  "Generic_RxCUI": "724154",
+  "Brand_Mate_RxCUI": "724154",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sulfasalazine Delayed Release",
+  "Manufacturer_Name": "Azulfidine",
+  "Strength": "500 MG",
+  "Form": "",
   "prices": {
-    "00013010220": {
+    "00013010201": {
       "06/01/2017": 1.72975,
       "01/01/2018": 1.89306
     },
-    "00013010201": {
+    "00013010220": {
       "06/01/2017": 1.72975,
       "01/01/2018": 1.89306
     }

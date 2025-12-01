@@ -1,9 +1,13 @@
 {
   "RxCUI": "1043753",
-  "Name": "AZELEX 20% CREAM",
+  "Name": "azelaic acid 200 MG/ML Topical Cream [Azelex]",
   "IsBrand": true,
-  "Brand_RxCUI": "1041520",
-  "Generic_RxCUI": "1043753",
+  "Brand_Mate_RxCUI": "1043753",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Azelaic Acid Mgml",
+  "Manufacturer_Name": "Azelex",
+  "Strength": "200 MG/ML",
+  "Form": "",
   "prices": {
     "00023869430": {
       "12/20/2017": 12.053,

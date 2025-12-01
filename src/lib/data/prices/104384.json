@@ -1,9 +1,13 @@
 {
   "RxCUI": "104384",
-  "Name": "ALTACE 2.5 MG CAPSULE",
+  "Name": "ramipril 2.5 MG Oral Capsule [Altace]",
   "IsBrand": true,
-  "Brand_RxCUI": "198188",
-  "Generic_RxCUI": "104384",
+  "Brand_Mate_RxCUI": "104384",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ramipril",
+  "Manufacturer_Name": "Altace",
+  "Strength": "2.5 MG",
+  "Form": "",
   "prices": {
     "61570011101": {
       "06/01/2017": 5.24881,

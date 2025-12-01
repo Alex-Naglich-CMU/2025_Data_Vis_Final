@@ -1,9 +1,13 @@
 {
   "RxCUI": "857166",
-  "Name": "FOSINOPRIL-HYDROCHLOROTHIAZIDE 10-12.5 MG TAB",
+  "Name": "fosinopril sodium 10 MG / hydrochlorothiazide 12.5 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "857166",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "857166",
+  "Ingredient_Name": "Fosinopril Sodium Hydrochlorothiazide",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG",
+  "Form": "Tablet",
   "prices": {
     "23155006001": {
       "09/20/2017": 0.86185,
@@ -37,7 +41,8 @@
       "07/23/2025": 0.54202,
       "08/20/2025": 0.52513,
       "09/17/2025": 0.47422,
-      "10/22/2025": 0.41013
+      "10/22/2025": 0.41013,
+      "11/19/2025": 0.36275
     },
     "68462055401": {
       "09/20/2017": 0.86185,
@@ -63,7 +68,8 @@
       "07/23/2025": 0.54202,
       "08/20/2025": 0.52513,
       "09/17/2025": 0.47422,
-      "10/22/2025": 0.41013
+      "10/22/2025": 0.41013,
+      "11/19/2025": 0.36275
     }
   }
 }

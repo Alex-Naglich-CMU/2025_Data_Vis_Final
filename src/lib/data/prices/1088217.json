@@ -1,9 +1,13 @@
 {
   "RxCUI": "1088217",
-  "Name": "BION TEARS EYE DROP",
+  "Name": "dextran 70 1 MG/ML / hypromellose 3 MG/ML Ophthalmic Solution [Bion Tears]",
   "IsBrand": true,
-  "Brand_RxCUI": "309714",
-  "Generic_RxCUI": "1088217",
+  "Brand_Mate_RxCUI": "1088217",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dextran Mgml Hypromellose Mgml",
+  "Manufacturer_Name": "Bion Tears",
+  "Strength": "1 MG/ML",
+  "Form": "",
   "prices": {
     "00065041918": {
       "11/20/2019": 0.41936,

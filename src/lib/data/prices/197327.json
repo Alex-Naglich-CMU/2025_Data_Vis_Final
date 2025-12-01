@@ -1,16 +1,21 @@
 {
   "RxCUI": "197327",
-  "Name": "AMCINONIDE 0.1% CREAM",
+  "Name": "amcinonide 1 MG/ML Topical Cream",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "197327",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "197327",
+  "Ingredient_Name": "Amcinonide Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 MG/ML",
+  "Form": "Cream",
   "prices": {
     "74157000660": {
       "06/18/2025": 11.07409,
       "07/23/2025": 11.0786,
       "08/20/2025": 11.11564,
       "09/17/2025": 11.12965,
-      "10/22/2025": 9.42099
+      "10/22/2025": 9.42099,
+      "11/19/2025": 6.36119
     }
   }
 }

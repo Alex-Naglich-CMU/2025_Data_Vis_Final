@@ -1,9 +1,13 @@
 {
   "RxCUI": "1648162",
-  "Name": "ZOMACTON 5 MG VIAL",
+  "Name": "somatropin 5 MG/ML Injectable Solution [Zomacton]",
   "IsBrand": true,
-  "Brand_RxCUI": "241975",
-  "Generic_RxCUI": "1648162",
+  "Brand_Mate_RxCUI": "1648162",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Somatropin Mgml Injectable",
+  "Manufacturer_Name": "Zomacton",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "55566180101": {
       "08/21/2024": 280.85

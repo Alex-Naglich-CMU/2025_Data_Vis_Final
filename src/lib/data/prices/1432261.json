@@ -1,9 +1,13 @@
 {
   "RxCUI": "1432261",
-  "Name": "FIORICET 50-300-40 MG CAPSULE",
+  "Name": "acetaminophen 300 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule [Fioricet]",
   "IsBrand": true,
-  "Brand_RxCUI": "889520",
-  "Generic_RxCUI": "1432261",
+  "Brand_Mate_RxCUI": "1432261",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Acetaminophen Butalbital Caffeine",
+  "Manufacturer_Name": "Fioricet",
+  "Strength": "300 MG",
+  "Form": "",
   "prices": {
     "52544008001": {
       "01/01/2018": 4.4745,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "856576",
-  "Name": "INNOPRAN XL 80 MG CAPSULE",
+  "Name": "24 HR propranolol hydrochloride 80 MG Extended Release Oral Capsule [InnoPran]",
   "IsBrand": true,
-  "Brand_RxCUI": "856569",
-  "Generic_RxCUI": "856576",
+  "Brand_Mate_RxCUI": "856576",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Propranolol Hydrochloride Extended Release",
+  "Manufacturer_Name": "InnoPran",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "62559059030": {
       "06/19/2024": 68.7303,

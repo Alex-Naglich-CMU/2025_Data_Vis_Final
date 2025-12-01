@@ -1,9 +1,13 @@
 {
   "RxCUI": "896021",
-  "Name": "FLUTICASONE PROP 100 MCG DISKUS",
+  "Name": "60 ACTUAT fluticasone propionate 0.1 MG/ACTUAT Dry Powder Inhaler",
   "IsBrand": false,
-  "Brand_RxCUI": "896021",
-  "Generic_RxCUI": "896023",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "896021",
+  "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "66993079197": {
       "04/17/2024": 1.9866,
@@ -24,7 +28,8 @@
       "07/23/2025": 2.05402,
       "08/20/2025": 2.06942,
       "09/17/2025": 2.06594,
-      "10/22/2025": 2.07698
+      "10/22/2025": 2.07698,
+      "11/19/2025": 2.08296
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1091172",
-  "Name": "CONCERTA ER 27 MG TABLET",
+  "Name": "24 HR methylphenidate hydrochloride 27 MG Extended Release Oral Tablet [Concerta]",
   "IsBrand": true,
-  "Brand_RxCUI": "1091170",
-  "Generic_RxCUI": "1091172",
+  "Brand_Mate_RxCUI": "1091172",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Methylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "Concerta",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "50458058801": {
       "11/22/2017": 9.78061,
@@ -36,7 +40,8 @@
       "07/23/2025": 12.65722,
       "08/20/2025": 12.65752,
       "09/17/2025": 12.65609,
-      "10/22/2025": 12.65747
+      "10/22/2025": 12.65747,
+      "11/19/2025": 12.65549
     }
   }
 }

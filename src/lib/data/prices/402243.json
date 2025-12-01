@@ -1,9 +1,13 @@
 {
   "RxCUI": "402243",
-  "Name": "BORTEZOMIB 3.5 MG VIAL",
+  "Name": "bortezomib 3.5 MG Injection",
   "IsBrand": false,
-  "Brand_RxCUI": "402243",
-  "Generic_RxCUI": "402244",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "402243",
+  "Ingredient_Name": "Bortezomib",
+  "Manufacturer_Name": "",
+  "Strength": "3.5 MG",
+  "Form": "Injection",
   "prices": {
     "00143909801": {
       "08/21/2024": 34.71,

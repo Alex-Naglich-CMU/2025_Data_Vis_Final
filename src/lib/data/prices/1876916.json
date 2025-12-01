@@ -1,9 +1,13 @@
 {
   "RxCUI": "1876916",
-  "Name": "AUSTEDO 12 MG TABLET",
+  "Name": "deutetrabenazine 12 MG Oral Tablet [Austedo]",
   "IsBrand": true,
-  "Brand_RxCUI": "1876910",
-  "Generic_RxCUI": "1876916",
+  "Brand_Mate_RxCUI": "1876916",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Deutetrabenazine",
+  "Manufacturer_Name": "Austedo",
+  "Strength": "12 MG",
+  "Form": "",
   "prices": {
     "68546017260": {
       "01/01/2020": 93.1787,
@@ -31,7 +35,8 @@
       "07/23/2025": 118.99595,
       "08/20/2025": 118.88527,
       "09/17/2025": 118.89091,
-      "10/22/2025": 118.77529
+      "10/22/2025": 118.77529,
+      "11/19/2025": 118.64569
     }
   }
 }

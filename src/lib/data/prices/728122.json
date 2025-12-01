@@ -1,9 +1,13 @@
 {
   "RxCUI": "728122",
-  "Name": "EVAMIST 1.53 MG/SPRAY",
+  "Name": "estradiol 1.53 MG/ACTUAT Topical Spray [Evamist]",
   "IsBrand": true,
-  "Brand_RxCUI": "728118",
-  "Generic_RxCUI": "728122",
+  "Brand_Mate_RxCUI": "728122",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Estradiol Mgactuat",
+  "Manufacturer_Name": "Evamist",
+  "Strength": "1.53 MG/ACTU",
+  "Form": "",
   "prices": {
     "00574206727": {
       "06/23/2021": 15.23907,
@@ -35,7 +39,8 @@
       "07/23/2025": 17.47299,
       "08/20/2025": 17.48526,
       "09/17/2025": 17.47175,
-      "10/22/2025": 17.37617
+      "10/22/2025": 17.37617,
+      "11/19/2025": 17.38446
     }
   }
 }

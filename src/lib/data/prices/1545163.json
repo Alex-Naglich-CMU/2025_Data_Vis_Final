@@ -1,9 +1,13 @@
 {
   "RxCUI": "1545163",
-  "Name": "INVOKAMET 50-1,000 MG TABLET",
+  "Name": "canagliflozin 50 MG / metformin hydrochloride 1000 MG Oral Tablet [Invokamet]",
   "IsBrand": true,
-  "Brand_RxCUI": "1545161",
-  "Generic_RxCUI": "1545163",
+  "Brand_Mate_RxCUI": "1545163",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Canagliflozin Metformin Hydrochloride",
+  "Manufacturer_Name": "Invokamet",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "50458054160": {
       "01/03/2018": 7.45286,
@@ -35,7 +39,8 @@
       "07/23/2025": 9.55639,
       "08/20/2025": 9.56992,
       "09/17/2025": 9.56679,
-      "10/22/2025": 9.53829
+      "10/22/2025": 9.53829,
+      "11/19/2025": 9.55033
     }
   }
 }

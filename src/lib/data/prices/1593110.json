@@ -1,9 +1,13 @@
 {
   "RxCUI": "1593110",
-  "Name": "GNP PAIN RLF PM 250-250-38 MG",
+  "Name": "acetaminophen 250 MG / aspirin 250 MG / diphenhydramine citrate 38 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1593110",
-  "Generic_RxCUI": "1593116",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1593110",
+  "Ingredient_Name": "Acetaminophen Aspirin Diphenhydramine Citrate",
+  "Manufacturer_Name": "",
+  "Strength": "250 MG",
+  "Form": "Tablet",
   "prices": {
     "46122045671": {
       "05/22/2024": 0.0598,

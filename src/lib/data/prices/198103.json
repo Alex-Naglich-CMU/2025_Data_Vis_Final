@@ -1,9 +1,13 @@
 {
   "RxCUI": "198103",
-  "Name": "PIMOZIDE 2 MG TABLET",
+  "Name": "pimozide 2 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "198103",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "198103",
+  "Ingredient_Name": "Pimozide",
+  "Manufacturer_Name": "",
+  "Strength": "2 MG",
+  "Form": "Tablet",
   "prices": {
     "49884034801": {
       "05/20/2020": 1.74252,
@@ -25,7 +29,8 @@
       "07/23/2025": 1.68638,
       "08/20/2025": 1.6802,
       "09/17/2025": 1.67579,
-      "10/22/2025": 1.69022
+      "10/22/2025": 1.69022,
+      "11/19/2025": 1.70273
     }
   }
 }

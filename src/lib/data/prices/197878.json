@@ -1,9 +1,13 @@
 {
   "RxCUI": "197878",
-  "Name": "LINDANE 1% SHAMPOO",
+  "Name": "lindane 10 MG/ML Medicated Shampoo",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "197878",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "197878",
+  "Ingredient_Name": "Lindane Mgml Medicated",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "60432083460": {
       "09/20/2017": 1.7718,

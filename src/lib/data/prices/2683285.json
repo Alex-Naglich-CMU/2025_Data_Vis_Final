@@ -1,9 +1,13 @@
 {
   "RxCUI": "2683285",
-  "Name": "AUSTEDO XR 30 MG TABLET",
+  "Name": "24 HR deutetrabenazine 30 MG Extended Release Oral Tablet [Austedo]",
   "IsBrand": true,
-  "Brand_RxCUI": "2683282",
-  "Generic_RxCUI": "2683285",
+  "Brand_Mate_RxCUI": "2683285",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Deutetrabenazine Extended Release",
+  "Manufacturer_Name": "Austedo",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "68546047356": {
       "01/01/2025": 315.91874,
@@ -11,7 +15,8 @@
       "07/23/2025": 316.135,
       "08/20/2025": 316.34406,
       "09/17/2025": 317.29633,
-      "10/22/2025": 316.24491
+      "10/22/2025": 316.24491,
+      "11/19/2025": 316.28029
     }
   }
 }

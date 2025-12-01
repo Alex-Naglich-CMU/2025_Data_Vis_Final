@@ -1,9 +1,13 @@
 {
   "RxCUI": "1303134",
-  "Name": "RAYOS DR 2 MG TABLET",
+  "Name": "prednisone 2 MG Delayed Release Oral Tablet [Rayos]",
   "IsBrand": true,
-  "Brand_RxCUI": "1303132",
-  "Generic_RxCUI": "1303134",
+  "Brand_Mate_RxCUI": "1303134",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Prednisone Delayed Release",
+  "Manufacturer_Name": "Rayos",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "75987002101": {
       "05/22/2024": 88.73405,

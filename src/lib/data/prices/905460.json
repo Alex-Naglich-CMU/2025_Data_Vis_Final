@@ -1,9 +1,13 @@
 {
   "RxCUI": "905460",
-  "Name": "TIROSINT 75 MCG CAPSULE",
+  "Name": "levothyroxine sodium 0.075 MG Oral Capsule [Tirosint]",
   "IsBrand": true,
-  "Brand_RxCUI": "905458",
-  "Generic_RxCUI": "905460",
+  "Brand_Mate_RxCUI": "905460",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "Tirosint",
+  "Strength": "0.075 MG",
+  "Form": "",
   "prices": {
     "71858002004": {
       "03/20/2019": 4.09043,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "602395",
-  "Name": "EPZICOM TABLET",
+  "Name": "abacavir 600 MG / lamivudine 300 MG Oral Tablet [Epzicom]",
   "IsBrand": true,
-  "Brand_RxCUI": "602393",
-  "Generic_RxCUI": "602395",
+  "Brand_Mate_RxCUI": "602395",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Abacavir Lamivudine",
+  "Manufacturer_Name": "Epzicom",
+  "Strength": "600 MG",
+  "Form": "",
   "prices": {
     "49702020613": {
       "08/23/2017": 41.11878,

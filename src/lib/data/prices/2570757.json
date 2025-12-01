@@ -1,9 +1,13 @@
 {
   "RxCUI": "2570757",
-  "Name": "OPZELURA 1.5% CREAM",
+  "Name": "ruxolitinib 15 MG/ML Topical Cream [Opzelura]",
   "IsBrand": true,
-  "Brand_RxCUI": "2570752",
-  "Generic_RxCUI": "2570757",
+  "Brand_Mate_RxCUI": "2570757",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ruxolitinib Mgml",
+  "Manufacturer_Name": "Opzelura",
+  "Strength": "15 MG/ML",
+  "Form": "",
   "prices": {
     "50881000705": {
       "1/9/2023": 32.16476,
@@ -22,7 +26,8 @@
       "07/23/2025": 33.47657,
       "08/20/2025": 33.48172,
       "09/17/2025": 33.48477,
-      "10/22/2025": 33.48483
+      "10/22/2025": 33.48483,
+      "11/19/2025": 33.47252
     }
   }
 }

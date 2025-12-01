@@ -1,9 +1,13 @@
 {
   "RxCUI": "892345",
-  "Name": "MORPHINE SULFATE ER 30 MG CAP",
+  "Name": "morphine sulfate 30 MG Extended Release Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "892345",
-  "Generic_RxCUI": "892658",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "892345",
+  "Ingredient_Name": "Morphine Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "30 MG",
+  "Form": "Capsule",
   "prices": {
     "00115127801": {
       "05/19/2021": 2.81772,

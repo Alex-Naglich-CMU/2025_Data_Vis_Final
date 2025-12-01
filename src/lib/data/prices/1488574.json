@@ -1,9 +1,13 @@
 {
   "RxCUI": "1488574",
-  "Name": "DAPAGLIFLOZIN 5 MG TABLET",
+  "Name": "dapagliflozin 5 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1488574",
-  "Generic_RxCUI": "1486981",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1488574",
+  "Ingredient_Name": "Dapagliflozin",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG",
+  "Form": "Tablet",
   "prices": {
     "66993045630": {
       "05/22/2024": 11.29945,
@@ -23,7 +27,8 @@
       "07/23/2025": 11.57928,
       "08/20/2025": 11.59,
       "09/17/2025": 11.59708,
-      "10/22/2025": 11.47163
+      "10/22/2025": 11.47163,
+      "11/19/2025": 11.44005
     }
   }
 }

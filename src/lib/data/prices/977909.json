@@ -1,9 +1,13 @@
 {
   "RxCUI": "977909",
-  "Name": "OXYMORPHONE HCL ER 30 MG TAB",
+  "Name": "12 HR oxymorphone hydrochloride 30 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "977909",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "977909",
+  "Ingredient_Name": "Hr Oxymorphone Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "12 HR",
+  "Form": "Tablet",
   "prices": {
     "00115131701": {
       "06/21/2017": 6.32123,
@@ -67,7 +71,7 @@
       "09/23/2020": 11.79463,
       "11/18/2020": 11.90819
     },
-    "64896070013": {
+    "64896070001": {
       "12/18/2019": 9.38968,
       "01/22/2020": 9.50692,
       "03/11/2020": 11.01852,
@@ -78,7 +82,7 @@
       "12/18/2024": 22.653,
       "01/22/2025": 22.65123
     },
-    "64896070001": {
+    "64896070013": {
       "12/18/2019": 9.38968,
       "01/22/2020": 9.50692,
       "03/11/2020": 11.01852,

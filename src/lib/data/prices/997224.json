@@ -1,9 +1,13 @@
 {
   "RxCUI": "997224",
-  "Name": "ARICEPT 10 MG TABLET",
+  "Name": "donepezil hydrochloride 10 MG Oral Tablet [Aricept]",
   "IsBrand": true,
-  "Brand_RxCUI": "997223",
-  "Generic_RxCUI": "997224",
+  "Brand_Mate_RxCUI": "997224",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Donepezil Hydrochloride",
+  "Manufacturer_Name": "Aricept",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "62856024630": {
       "05/22/2024": 16.07047,

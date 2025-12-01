@@ -1,9 +1,13 @@
 {
   "RxCUI": "1732006",
-  "Name": "MORPHINE SULFATE 4 MG/ML VIAL",
+  "Name": "1 ML morphine sulfate 4 MG/ML Injection",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1732006",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1732006",
+  "Ingredient_Name": "Morphine Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 ML",
+  "Form": "Injection",
   "prices": {
     "00641612525": {
       "05/22/2024": 2.33213,

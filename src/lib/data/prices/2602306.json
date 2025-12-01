@@ -1,9 +1,13 @@
 {
   "RxCUI": "2602306",
-  "Name": "VTAMA 1% CREAM",
+  "Name": "tapinarof 10 MG/ML Topical Cream [Vtama]",
   "IsBrand": true,
-  "Brand_RxCUI": "2602301",
-  "Generic_RxCUI": "2602306",
+  "Brand_Mate_RxCUI": "2602306",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tapinarof Mgml",
+  "Manufacturer_Name": "Vtama",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "81672505101": {
       "04/06/2023": 22.27538,
@@ -20,7 +24,8 @@
       "07/23/2025": 24.07934,
       "08/20/2025": 24.09393,
       "09/17/2025": 24.11943,
-      "10/22/2025": 24.08228
+      "10/22/2025": 24.08228,
+      "11/19/2025": 24.07616
     }
   }
 }

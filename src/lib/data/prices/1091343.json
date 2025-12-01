@@ -1,9 +1,13 @@
 {
   "RxCUI": "1091343",
-  "Name": "METHYLIN 5 MG/5 ML SOLUTION",
+  "Name": "methylphenidate hydrochloride 1 MG/ML Oral Solution [Methylin]",
   "IsBrand": true,
-  "Brand_RxCUI": "1091341",
-  "Generic_RxCUI": "1091343",
+  "Brand_Mate_RxCUI": "1091343",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methylphenidate Hydrochloride Mgml",
+  "Manufacturer_Name": "Methylin",
+  "Strength": "1 MG/ML",
+  "Form": "",
   "prices": {
     "59630075050": {
       "01/17/2018": 0.13424,
@@ -23,7 +27,8 @@
       "05/21/2025": 0.14751,
       "06/18/2025": 0.14719,
       "09/17/2025": 0.14731,
-      "10/22/2025": 0.14736
+      "10/22/2025": 0.14736,
+      "11/19/2025": 0.1474
     }
   }
 }

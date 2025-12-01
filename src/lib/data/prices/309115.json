@@ -1,9 +1,13 @@
 {
   "RxCUI": "309115",
-  "Name": "CEPHALEXIN 250 MG TABLET",
+  "Name": "cephalexin 250 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "309115",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "309115",
+  "Ingredient_Name": "Cephalexin",
+  "Manufacturer_Name": "",
+  "Strength": "250 MG",
+  "Form": "Tablet",
   "prices": {
     "00093223801": {
       "05/22/2024": 0.92806,

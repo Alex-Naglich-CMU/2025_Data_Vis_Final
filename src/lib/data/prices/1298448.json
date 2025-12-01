@@ -1,9 +1,13 @@
 {
   "RxCUI": "1298448",
-  "Name": "BUTENAFINE HCL 1% CREAM",
+  "Name": "butenafine hydrochloride 10 MG/ML Topical Cream",
   "IsBrand": false,
-  "Brand_RxCUI": "1298448",
-  "Generic_RxCUI": "1298452",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1298448",
+  "Ingredient_Name": "Butenafine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Cream",
   "prices": {
     "51672210002": {
       "06/19/2024": 0.30905,
@@ -22,12 +26,14 @@
       "07/23/2025": 0.30971,
       "08/20/2025": 0.31666,
       "09/17/2025": 0.3281,
-      "10/22/2025": 0.32518
+      "10/22/2025": 0.32518,
+      "11/19/2025": 0.31809
     },
     "70677126901": {
       "08/20/2025": 0.31666,
       "09/17/2025": 0.3281,
-      "10/22/2025": 0.32518
+      "10/22/2025": 0.32518,
+      "11/19/2025": 0.31809
     }
   }
 }

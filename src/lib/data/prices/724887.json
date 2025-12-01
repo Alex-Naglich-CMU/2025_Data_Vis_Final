@@ -1,9 +1,13 @@
 {
   "RxCUI": "724887",
-  "Name": "EXFORGE 10-320 MG TABLET",
+  "Name": "amlodipine 10 MG / valsartan 320 MG Oral Tablet [Exforge]",
   "IsBrand": true,
-  "Brand_RxCUI": "722131",
-  "Generic_RxCUI": "724887",
+  "Brand_Mate_RxCUI": "724887",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amlodipine Valsartan",
+  "Manufacturer_Name": "Exforge",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "00078049115": {
       "07/11/2017": 11.0286,

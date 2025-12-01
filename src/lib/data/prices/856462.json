@@ -1,17 +1,21 @@
 {
   "RxCUI": "856462",
-  "Name": "INDERAL XL 120 MG CAPSULE",
+  "Name": "24 HR propranolol hydrochloride 120 MG Extended Release Oral Capsule [Inderal]",
   "IsBrand": true,
-  "Brand_RxCUI": "856460",
-  "Generic_RxCUI": "856462",
+  "Brand_Mate_RxCUI": "856462",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Propranolol Hydrochloride Extended Release",
+  "Manufacturer_Name": "Inderal",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
-    "76299042285": {
-      "07/17/2017": 24.30436
-    },
     "62559060130": {
       "05/22/2024": 68.68006,
       "12/18/2024": 69.09967,
       "05/21/2025": 69.287
+    },
+    "76299042285": {
+      "07/17/2017": 24.30436
     }
   }
 }

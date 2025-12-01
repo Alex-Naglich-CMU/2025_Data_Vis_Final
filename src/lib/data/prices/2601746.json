@@ -1,9 +1,13 @@
 {
   "RxCUI": "2601746",
-  "Name": "MOUNJARO 5 MG/0.5 ML PEN",
+  "Name": "0.5 ML tirzepatide 10 MG/ML Auto-Injector [Mounjaro]",
   "IsBrand": true,
-  "Brand_RxCUI": "2601743",
-  "Generic_RxCUI": "2601746",
+  "Brand_Mate_RxCUI": "2601746",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tirzepatide Mgml Auto-Injector",
+  "Manufacturer_Name": "Mounjaro",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "00002149580": {
       "11/09/2022": 467.41502,
@@ -25,7 +29,8 @@
       "07/23/2025": 522.83546,
       "08/20/2025": 522.91576,
       "09/17/2025": 522.94051,
-      "10/22/2025": 523.01624
+      "10/22/2025": 523.01624,
+      "11/19/2025": 523.0785
     }
   }
 }

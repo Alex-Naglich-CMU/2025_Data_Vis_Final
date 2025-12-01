@@ -1,9 +1,13 @@
 {
   "RxCUI": "1043563",
-  "Name": "SAXAGLIPTIN-METFORMIN ER 2.5-1,000 MG TABLET",
+  "Name": "24 HR metformin hydrochloride 1000 MG / saxagliptin 2.5 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1043563",
-  "Generic_RxCUI": "1043567",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1043563",
+  "Ingredient_Name": "Hr Metformin Hydrochloride Saxagliptin Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "00378817691": {
       "06/19/2024": 4.65739,
@@ -22,7 +26,8 @@
       "07/23/2025": 4.86128,
       "08/20/2025": 4.95416,
       "09/17/2025": 5.03289,
-      "10/22/2025": 5.16015
+      "10/22/2025": 5.16015,
+      "11/19/2025": 5.11392
     },
     "43598061860": {
       "06/19/2024": 4.65739,
@@ -41,7 +46,8 @@
       "07/23/2025": 4.86128,
       "08/20/2025": 4.95416,
       "09/17/2025": 5.03289,
-      "10/22/2025": 5.16015
+      "10/22/2025": 5.16015,
+      "11/19/2025": 5.11392
     }
   }
 }

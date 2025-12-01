@@ -1,9 +1,13 @@
 {
   "RxCUI": "763472",
-  "Name": "CAVERJECT IMPULSE 10 MCG KIT",
+  "Name": "0.5 ML alprostadil 0.02 MG/ML Prefilled Syringe [Caverject]",
   "IsBrand": true,
-  "Brand_RxCUI": "763470",
-  "Generic_RxCUI": "763472",
+  "Brand_Mate_RxCUI": "763472",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Alprostadil Mgml Prefilled",
+  "Manufacturer_Name": "Caverject",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "00009518101": {
       "02/19/2025": 79.1075,
@@ -13,7 +17,8 @@
       "06/18/2025": 78.683,
       "08/20/2025": 78.5065,
       "09/17/2025": 78.56409,
-      "10/22/2025": 78.68773
+      "10/22/2025": 78.68773,
+      "11/19/2025": 78.68545
     }
   }
 }

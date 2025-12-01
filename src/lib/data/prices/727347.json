@@ -1,11 +1,15 @@
 {
   "RxCUI": "727347",
-  "Name": "EPIPEN 2-PAK 0.3 MG AUTO-INJCT",
+  "Name": "NDA019430 0.3 ML epinephrine 1 MG/ML Auto-Injector [Epipen]",
   "IsBrand": true,
-  "Brand_RxCUI": "1870207",
-  "Generic_RxCUI": "727347",
+  "Brand_Mate_RxCUI": "727347",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Nda Epinephrine Mgml Auto-Injector",
+  "Manufacturer_Name": "Epipen",
+  "Strength": "0.3 ML",
+  "Form": "",
   "prices": {
-    "49502050002": {
+    "49502050001": {
       "02/21/2018": 291.61034,
       "06/20/2018": 292.22758,
       "05/22/2019": 292.41723,
@@ -24,7 +28,7 @@
       "10/23/2024": 291.41611,
       "11/20/2024": 289.96
     },
-    "49502050001": {
+    "49502050002": {
       "02/21/2018": 291.61034,
       "06/20/2018": 292.22758,
       "05/22/2019": 292.41723,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "153124",
-  "Name": "FEMARA 2.5 MG TABLET",
+  "Name": "letrozole 2.5 MG Oral Tablet [Femara]",
   "IsBrand": true,
-  "Brand_RxCUI": "200064",
-  "Generic_RxCUI": "153124",
+  "Brand_Mate_RxCUI": "153124",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Letrozole",
+  "Manufacturer_Name": "Femara",
+  "Strength": "2.5 MG",
+  "Form": "",
   "prices": {
     "00078024915": {
       "10/23/2024": 25.6705,

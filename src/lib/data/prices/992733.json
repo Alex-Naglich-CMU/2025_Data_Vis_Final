@@ -1,9 +1,13 @@
 {
   "RxCUI": "992733",
-  "Name": "TUSSIGON 5-1.5 MG TABLET",
+  "Name": "homatropine methylbromide 1.5 MG / hydrocodone bitartrate 5 MG Oral Tablet [Tussigon]",
   "IsBrand": false,
-  "Brand_RxCUI": "992656",
-  "Generic_RxCUI": "992733",
+  "Brand_Mate_RxCUI": "992656",
+  "Generic_Mate_RxCUI": "992733",
+  "Ingredient_Name": "Homatropine Methylbromide Hydrocodone Bitartrate",
+  "Manufacturer_Name": "Tussigon",
+  "Strength": "1.5 MG",
+  "Form": "",
   "prices": {
     "61570010201": {
       "06/21/2017": 0.79603,

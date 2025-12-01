@@ -1,9 +1,13 @@
 {
   "RxCUI": "998526",
-  "Name": "FUNGOID 2% TINCTURE",
+  "Name": "miconazole nitrate 20 MG/ML Topical Solution [Fungoid]",
   "IsBrand": true,
-  "Brand_RxCUI": "998525",
-  "Generic_RxCUI": "998526",
+  "Brand_Mate_RxCUI": "998526",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Miconazole Nitrate Mgml",
+  "Manufacturer_Name": "Fungoid",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "00884029301": {
       "08/23/2017": 0.60609,

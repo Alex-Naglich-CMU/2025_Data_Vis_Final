@@ -1,9 +1,13 @@
 {
   "RxCUI": "858074",
-  "Name": "INVEGA SUSTENNA 39 MG/0.25 ML",
+  "Name": "0.25 ML paliperidone palmitate 156 MG/ML Prefilled Syringe [Invega]",
   "IsBrand": true,
-  "Brand_RxCUI": "858073",
-  "Generic_RxCUI": "858074",
+  "Brand_Mate_RxCUI": "858074",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Paliperidone Palmitate Mgml Prefilled",
+  "Manufacturer_Name": "Invega",
+  "Strength": "0.25 ML",
+  "Form": "",
   "prices": {
     "50458056001": {
       "06/21/2017": 1473.2,
@@ -21,7 +25,8 @@
       "07/23/2025": 2270.10286,
       "08/20/2025": 2272.24,
       "09/17/2025": 2273.54462,
-      "10/22/2025": 2277.34
+      "10/22/2025": 2277.34,
+      "11/19/2025": 2278.58133
     }
   }
 }

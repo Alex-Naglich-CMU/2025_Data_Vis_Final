@@ -1,9 +1,13 @@
 {
   "RxCUI": "245314",
-  "Name": "ALBUTEROL 2.5 MG/0.5 ML SOL",
+  "Name": "albuterol 5 MG/ML Inhalation Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "245314",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "245314",
+  "Ingredient_Name": "Albuterol Mgml Inhalation",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00487990130": {
       "05/19/2021": 0.36455,
@@ -53,7 +57,8 @@
       "07/23/2025": 0.44587,
       "08/20/2025": 0.44669,
       "09/17/2025": 0.44581,
-      "10/22/2025": 0.4437
+      "10/22/2025": 0.4437,
+      "11/19/2025": 0.44061
     },
     "50383074120": {
       "06/21/2017": 1.35425,
@@ -88,7 +93,8 @@
       "07/23/2025": 0.44587,
       "08/20/2025": 0.44669,
       "09/17/2025": 0.44581,
-      "10/22/2025": 0.4437
+      "10/22/2025": 0.4437,
+      "11/19/2025": 0.44061
     }
   }
 }

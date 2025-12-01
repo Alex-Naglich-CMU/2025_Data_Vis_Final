@@ -1,9 +1,13 @@
 {
   "RxCUI": "1926331",
-  "Name": "INSULIN LISPRO JR 100 UNIT/ML KWIKPEN",
+  "Name": "0.5 UNT Doses 3 ML insulin lispro 100 UNT/ML Pen Injector",
   "IsBrand": false,
-  "Brand_RxCUI": "1926331",
-  "Generic_RxCUI": "1926332",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1926331",
+  "Ingredient_Name": "Unt Doses Insulin Lispro Untml Pen Injector",
+  "Manufacturer_Name": "",
+  "Strength": "0.5 UNT",
+  "Form": "",
   "prices": {
     "00002775205": {
       "10/20/2021": 16.99562,
@@ -49,7 +53,8 @@
       "07/23/2025": 10.18979,
       "08/20/2025": 10.17869,
       "09/17/2025": 10.18453,
-      "10/22/2025": 10.20576
+      "10/22/2025": 10.20576,
+      "11/19/2025": 10.19875
     },
     "2775205": {
       "1/12/2022": 10.12527

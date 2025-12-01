@@ -1,9 +1,13 @@
 {
   "RxCUI": "860534",
-  "Name": "COREG CR 80 MG CAPSULE",
+  "Name": "24 HR carvedilol phosphate 80 MG Extended Release Oral Capsule [Coreg]",
   "IsBrand": true,
-  "Brand_RxCUI": "860532",
-  "Generic_RxCUI": "860534",
+  "Brand_Mate_RxCUI": "860534",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Carvedilol Phosphate Extended Release",
+  "Manufacturer_Name": "Coreg",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00007337313": {
       "11/22/2017": 8.80369

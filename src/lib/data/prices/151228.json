@@ -1,9 +1,13 @@
 {
   "RxCUI": "151228",
-  "Name": "TOPAMAX 100 MG TABLET",
+  "Name": "topiramate 100 MG Oral Tablet [Topamax]",
   "IsBrand": true,
-  "Brand_RxCUI": "199889",
-  "Generic_RxCUI": "151228",
+  "Brand_Mate_RxCUI": "151228",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Topiramate",
+  "Manufacturer_Name": "Topamax",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "50458064165": {
       "01/03/2018": 14.93169,
@@ -33,7 +37,8 @@
       "07/23/2025": 17.40138,
       "08/20/2025": 17.39161,
       "09/17/2025": 17.40563,
-      "10/22/2025": 17.41367
+      "10/22/2025": 17.41367,
+      "11/19/2025": 17.4126
     }
   }
 }

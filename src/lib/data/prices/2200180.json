@@ -1,9 +1,13 @@
 {
   "RxCUI": "2200180",
-  "Name": "DRIZALMA SPRINKLE DR 40 MG CAP",
+  "Name": "Sprinkle duloxetine 40 MG Delayed Release Oral Capsule [Drizalma]",
   "IsBrand": true,
-  "Brand_RxCUI": "2200178",
-  "Generic_RxCUI": "2200180",
+  "Brand_Mate_RxCUI": "2200180",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sprinkle Duloxetine Delayed Release",
+  "Manufacturer_Name": "Drizalma",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "47335061830": {
       "04/01/2025": 7.16069

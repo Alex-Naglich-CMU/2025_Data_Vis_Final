@@ -1,9 +1,13 @@
 {
   "RxCUI": "856724",
-  "Name": "PROPRANOLOL 20 MG/5 ML SOLN",
+  "Name": "propranolol hydrochloride 4 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "856724",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "856724",
+  "Ingredient_Name": "Propranolol Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "4 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00054372763": {
       "05/19/2021": 0.08665,
@@ -73,7 +77,8 @@
       "07/23/2025": 0.09375,
       "08/20/2025": 0.09406,
       "09/17/2025": 0.09363,
-      "10/22/2025": 0.0924
+      "10/22/2025": 0.0924,
+      "11/19/2025": 0.09103
     },
     "54372763": {
       "09/22/2021": 0.09085

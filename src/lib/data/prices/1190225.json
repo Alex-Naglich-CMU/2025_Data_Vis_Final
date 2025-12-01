@@ -1,9 +1,13 @@
 {
   "RxCUI": "1190225",
-  "Name": "COMBIVENT RESPIMAT INHAL SPRAY",
+  "Name": "120 ACTUAT albuterol 0.1 MG/ACTUAT / ipratropium bromide 0.02 MG/ACTUAT Inhalation Spray [Combivent]",
   "IsBrand": true,
-  "Brand_RxCUI": "1190220",
-  "Generic_RxCUI": "1190225",
+  "Brand_Mate_RxCUI": "1190225",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Albuterol Mgactuat Ipratropium Bromide Mgactuat Inhalation",
+  "Manufacturer_Name": "Combivent",
+  "Strength": "120 ACTU",
+  "Form": "",
   "prices": {
     "00597002402": {
       "11/22/2017": 82.78107,
@@ -33,7 +37,8 @@
       "07/23/2025": 120.64065,
       "08/20/2025": 120.6438,
       "09/17/2025": 120.65441,
-      "10/22/2025": 120.66437
+      "10/22/2025": 120.66437,
+      "11/19/2025": 120.65754
     }
   }
 }

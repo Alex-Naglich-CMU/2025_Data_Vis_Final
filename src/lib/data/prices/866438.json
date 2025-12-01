@@ -1,11 +1,15 @@
 {
   "RxCUI": "866438",
-  "Name": "TOPROL XL 50 MG TABLET",
+  "Name": "24 HR metoprolol succinate 50 MG Extended Release Oral Tablet [Toprol]",
   "IsBrand": true,
-  "Brand_RxCUI": "866436",
-  "Generic_RxCUI": "866438",
+  "Brand_Mate_RxCUI": "866438",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Metoprolol Succinate Extended Release",
+  "Manufacturer_Name": "Toprol",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
-    "70347005003": {
+    "70347005002": {
       "04/17/2019": 1.2675,
       "01/22/2020": 1.25683,
       "11/18/2020": 1.25886,
@@ -21,7 +25,7 @@
       "09/18/2024": 1.26093,
       "10/23/2024": 1.26084
     },
-    "70347005002": {
+    "70347005003": {
       "04/17/2019": 1.2675,
       "01/22/2020": 1.25683,
       "11/18/2020": 1.25886,
@@ -54,7 +58,8 @@
       "07/23/2025": 1.32201,
       "08/20/2025": 1.3218,
       "09/17/2025": 1.32166,
-      "10/22/2025": 1.3198
+      "10/22/2025": 1.3198,
+      "11/19/2025": 1.31951
     }
   }
 }

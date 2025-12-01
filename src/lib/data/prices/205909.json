@@ -1,9 +1,13 @@
 {
   "RxCUI": "205909",
-  "Name": "ESTRACE 0.5 MG TABLET",
+  "Name": "estradiol 0.5 MG Oral Tablet [Estrace]",
   "IsBrand": true,
-  "Brand_RxCUI": "197657",
-  "Generic_RxCUI": "205909",
+  "Brand_Mate_RxCUI": "205909",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Estradiol",
+  "Manufacturer_Name": "Estrace",
+  "Strength": "0.5 MG",
+  "Form": "",
   "prices": {
     "00430072024": {
       "01/01/2018": 4.98197,

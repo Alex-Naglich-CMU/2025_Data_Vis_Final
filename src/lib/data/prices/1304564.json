@@ -1,9 +1,13 @@
 {
   "RxCUI": "1304564",
-  "Name": "INFUVITE ADULT VIAL",
+  "Name": "alpha-tocopherol acetate 1 UNT/ML / ascorbic acid 20 MG/ML / biotin 0.006 MG/ML / cholecalciferol 20 UNT/ML / dexpanthenol 1.5 MG/ML / folic acid 0.06 MG/ML / niacinamide 4 MG/ML / pyridoxine hydrochloride 0.6 MG/ML / riboflavin 0.36 MG/ML / thiamine hydrochloride 0.6 MG/ML / vitamin A palmitate 330 UNT/ML / vitamin B12 0.0005 MG/ML / vitamin K1 0.015 MG/ML Injectable Solution [Infuvite]",
   "IsBrand": true,
-  "Brand_RxCUI": "1304559",
-  "Generic_RxCUI": "1304564",
+  "Brand_Mate_RxCUI": "1304564",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Alpha-Tocopherol Untml Ascorbic Acid Mgml Biotin Mgml Cholecalciferol Untml Dexpanthenol Mgml Folic Acid Mgml Niacinamide Mgml Pyridoxine Hydrochloride Mgml Riboflavin Mgml Thiamine Hydrochloride Mgml Vitamin A Palmitate Untml Vitamin B Mgml Vitamin K Mgml Injectable",
+  "Manufacturer_Name": "Infuvite",
+  "Strength": "1 UNT/ML",
+  "Form": "",
   "prices": {
     "54643564901": {
       "10/23/2024": 1.16873,
@@ -16,7 +20,8 @@
       "07/23/2025": 0.99403,
       "08/20/2025": 1.06084,
       "09/17/2025": 1.10678,
-      "10/22/2025": 1.14897
+      "10/22/2025": 1.14897,
+      "11/19/2025": 0.96649
     },
     "54643786201": {
       "10/23/2024": 1.16873,
@@ -29,7 +34,8 @@
       "07/23/2025": 0.99403,
       "08/20/2025": 1.06084,
       "09/17/2025": 1.10678,
-      "10/22/2025": 1.14897
+      "10/22/2025": 1.14897,
+      "11/19/2025": 0.96649
     },
     "54643900701": {
       "10/23/2024": 1.16873,
@@ -42,7 +48,8 @@
       "07/23/2025": 0.99403,
       "08/20/2025": 1.06084,
       "09/17/2025": 1.10678,
-      "10/22/2025": 1.14897
+      "10/22/2025": 1.14897,
+      "11/19/2025": 0.96649
     }
   }
 }

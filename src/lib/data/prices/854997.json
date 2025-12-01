@@ -1,9 +1,13 @@
 {
   "RxCUI": "854997",
-  "Name": "CORTISPORIN-TC EAR SUSPENSION",
+  "Name": "colistin 3 MG/ML / hydrocortisone 10 MG/ML / neomycin 3.3 MG/ML / thonzonium bromide 0.5 MG/ML Otic Suspension [Cortisporin-TC]",
   "IsBrand": true,
-  "Brand_RxCUI": "854992",
-  "Generic_RxCUI": "854997",
+  "Brand_Mate_RxCUI": "854997",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Colistin Mgml Hydrocortisone Mgml Neomycin Mgml Thonzonium Bromide Mgml Otic",
+  "Manufacturer_Name": "Cortisporin-TC",
+  "Strength": "3 MG/ML",
+  "Form": "",
   "prices": {
     "63481052910": {
       "10/23/2019": 22.08233,
@@ -23,7 +27,8 @@
       "07/23/2025": 22.05915,
       "08/20/2025": 22.05389,
       "09/17/2025": 22.05269,
-      "10/22/2025": 22.06953
+      "10/22/2025": 22.06953,
+      "11/19/2025": 21.9863
     }
   }
 }

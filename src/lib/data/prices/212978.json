@@ -1,9 +1,13 @@
 {
   "RxCUI": "212978",
-  "Name": "GAVISCON ES TABLET CHEW",
+  "Name": "aluminum hydroxide 160 MG / magnesium carbonate 105 MG Chewable Tablet [Gaviscon]",
   "IsBrand": true,
-  "Brand_RxCUI": "308072",
-  "Generic_RxCUI": "212978",
+  "Brand_Mate_RxCUI": "212978",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Aluminum Hydroxide Magnesium Carbonate Chewable",
+  "Manufacturer_Name": "Gaviscon",
+  "Strength": "160 MG",
+  "Form": "",
   "prices": {
     "00135009826": {
       "07/19/2017": 0.07323,

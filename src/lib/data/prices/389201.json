@@ -1,9 +1,13 @@
 {
   "RxCUI": "389201",
-  "Name": "QUETIAPINE 150 MG TABLET",
+  "Name": "quetiapine 150 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "389201",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "389201",
+  "Ingredient_Name": "Quetiapine",
+  "Manufacturer_Name": "",
+  "Strength": "150 MG",
+  "Form": "Tablet",
   "prices": {
     "16571080901": {
       "01/17/2024": 1.16364,
@@ -25,7 +29,8 @@
       "07/23/2025": 1.24193,
       "08/20/2025": 1.22032,
       "09/17/2025": 1.19976,
-      "10/22/2025": 1.2072
+      "10/22/2025": 1.2072,
+      "11/19/2025": 1.21577
     }
   }
 }

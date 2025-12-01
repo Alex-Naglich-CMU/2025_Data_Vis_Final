@@ -1,9 +1,13 @@
 {
   "RxCUI": "310932",
-  "Name": "SYSTANE 0.3% EYE GEL",
+  "Name": "hypromellose 0.003 MG/MG Ophthalmic Gel",
   "IsBrand": true,
-  "Brand_RxCUI": "310932",
-  "Generic_RxCUI": "793204",
+  "Brand_Mate_RxCUI": "310932",
+  "Generic_Mate_RxCUI": "793204",
+  "Ingredient_Name": "Hypromellose Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.003 MG/MG",
+  "Form": "Gel",
   "prices": {
     "00065047401": {
       "06/21/2017": 0.73097,

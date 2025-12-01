@@ -1,9 +1,13 @@
 {
   "RxCUI": "966436",
-  "Name": "UNITHROID 137 MCG TABLET",
+  "Name": "levothyroxine sodium 0.137 MG Oral Tablet [Unithroid]",
   "IsBrand": true,
-  "Brand_RxCUI": "966270",
-  "Generic_RxCUI": "966436",
+  "Brand_Mate_RxCUI": "966436",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "Unithroid",
+  "Strength": "0.137 MG",
+  "Form": "",
   "prices": {
     "60846080801": {
       "02/01/2024": 4.22963,
@@ -23,7 +27,8 @@
       "07/23/2025": 4.22829,
       "08/20/2025": 4.22737,
       "09/17/2025": 4.22638,
-      "10/22/2025": 4.22708
+      "10/22/2025": 4.22708,
+      "11/19/2025": 4.22388
     }
   }
 }

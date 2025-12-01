@@ -1,9 +1,13 @@
 {
   "RxCUI": "1246288",
-  "Name": "BUDESONIDE-FORMOTEROL 80-4.5",
+  "Name": "120 ACTUAT budesonide 0.08 MG/ACTUAT / formoterol fumarate 0.0045 MG/ACTUAT Metered Dose Inhaler",
   "IsBrand": false,
-  "Brand_RxCUI": "1246288",
-  "Generic_RxCUI": "2597673",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1246288",
+  "Ingredient_Name": "Actuat Budesonide Mgactuat Formoterol Fumarate Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "",
+  "Strength": "120 ACTU",
+  "Form": "",
   "prices": {
     "00310737220": {
       "05/19/2021": 20.16395,
@@ -71,7 +75,8 @@
       "07/23/2025": 16.47107,
       "08/20/2025": 16.66833,
       "09/17/2025": 16.40037,
-      "10/22/2025": 16.72299
+      "10/22/2025": 16.72299,
+      "11/19/2025": 17.06709
     },
     "310737220": {
       "09/22/2021": 20.44155

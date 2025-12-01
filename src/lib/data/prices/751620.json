@@ -1,9 +1,13 @@
 {
   "RxCUI": "751620",
-  "Name": "BYSTOLIC 2.5 MG TABLET",
+  "Name": "nebivolol 2.5 MG Oral Tablet [Bystolic]",
   "IsBrand": true,
-  "Brand_RxCUI": "751618",
-  "Generic_RxCUI": "751620",
+  "Brand_Mate_RxCUI": "751620",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Nebivolol",
+  "Manufacturer_Name": "Bystolic",
+  "Strength": "2.5 MG",
+  "Form": "",
   "prices": {
     "00456140211": {
       "11/22/2017": 3.82644,
@@ -51,7 +55,8 @@
       "07/23/2025": 6.14486,
       "08/20/2025": 6.14405,
       "09/17/2025": 6.14963,
-      "10/22/2025": 6.13219
+      "10/22/2025": 6.13219,
+      "11/19/2025": 6.13456
     },
     "00456140263": {
       "11/22/2017": 3.82644,

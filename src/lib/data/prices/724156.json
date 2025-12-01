@@ -1,9 +1,13 @@
 {
   "RxCUI": "724156",
-  "Name": "NEUPRO 6 MG/24 HR PATCH",
+  "Name": "24 HR rotigotine 0.25 MG/HR Transdermal System [Neupro]",
   "IsBrand": true,
-  "Brand_RxCUI": "722279",
-  "Generic_RxCUI": "724156",
+  "Brand_Mate_RxCUI": "724156",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Rotigotine Mghr Transdermal System",
+  "Manufacturer_Name": "Neupro",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "50474080503": {
       "11/22/2017": 19.88437,
@@ -33,7 +37,8 @@
       "07/23/2025": 27.61703,
       "08/20/2025": 27.52375,
       "09/17/2025": 27.5343,
-      "10/22/2025": 27.54121
+      "10/22/2025": 27.54121,
+      "11/19/2025": 27.56696
     }
   }
 }

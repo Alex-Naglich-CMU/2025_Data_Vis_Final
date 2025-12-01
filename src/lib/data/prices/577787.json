@@ -1,9 +1,13 @@
 {
   "RxCUI": "577787",
-  "Name": "ATACAND 8 MG TABLET",
+  "Name": "candesartan cilexetil 8 MG Oral Tablet [Atacand]",
   "IsBrand": true,
-  "Brand_RxCUI": "153823",
-  "Generic_RxCUI": "577787",
+  "Brand_Mate_RxCUI": "577787",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Candesartan Cilexetil",
+  "Manufacturer_Name": "Atacand",
+  "Strength": "8 MG",
+  "Form": "",
   "prices": {
     "62559064130": {
       "01/22/2025": 7.2148

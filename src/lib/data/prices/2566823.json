@@ -1,9 +1,13 @@
 {
   "RxCUI": "2566823",
-  "Name": "MUCINEX INSTASOOTH COUGH 5-2 MG",
+  "Name": "dextromethorphan hydrobromide 5 MG / hexylresorcinol 2 MG Oral Lozenge",
   "IsBrand": true,
-  "Brand_RxCUI": "2566823",
-  "Generic_RxCUI": null,
+  "Brand_Mate_RxCUI": "2566823",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide Hexylresorcinol Lozenge",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "72854026320": {
       "04/17/2024": 0.12342,

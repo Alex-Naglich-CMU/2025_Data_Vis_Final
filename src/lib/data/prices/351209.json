@@ -1,9 +1,13 @@
 {
   "RxCUI": "351209",
-  "Name": "VORICONAZOLE 200 MG VIAL",
+  "Name": "voriconazole 200 MG Injection",
   "IsBrand": false,
-  "Brand_RxCUI": "351209",
-  "Generic_RxCUI": "352220",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "351209",
+  "Ingredient_Name": "Voriconazole",
+  "Manufacturer_Name": "",
+  "Strength": "200 MG",
+  "Form": "Injection",
   "prices": {
     "00781341694": {
       "02/19/2025": 29.8465,

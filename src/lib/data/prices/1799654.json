@@ -1,9 +1,13 @@
 {
   "RxCUI": "1799654",
-  "Name": "SPS 15 GM/60 ML SUSPENSION",
+  "Name": "sodium polystyrene sulfonate 250 MG/ML Oral Suspension [SPS]",
   "IsBrand": false,
-  "Brand_RxCUI": "313072",
-  "Generic_RxCUI": "1799654",
+  "Brand_Mate_RxCUI": "313072",
+  "Generic_Mate_RxCUI": "1799654",
+  "Ingredient_Name": "Sodium Polystyrene Sulfonate Mgml",
+  "Manufacturer_Name": "SPS",
+  "Strength": "250 MG/ML",
+  "Form": "",
   "prices": {
     "46287000601": {
       "05/19/2021": 0.27443,
@@ -102,7 +106,8 @@
       "07/23/2025": 0.43261,
       "08/20/2025": 0.43492,
       "09/17/2025": 0.43793,
-      "10/22/2025": 0.43899
+      "10/22/2025": 0.43899,
+      "11/19/2025": 0.43839
     },
     "46287000660": {
       "05/23/2018": 0.12344,

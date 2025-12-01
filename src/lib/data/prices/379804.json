@@ -1,9 +1,13 @@
 {
   "RxCUI": "379804",
-  "Name": "GLIPIZIDE 2.5 MG TABLET",
+  "Name": "glipizide 2.5 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "379804",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "379804",
+  "Ingredient_Name": "Glipizide",
+  "Manufacturer_Name": "",
+  "Strength": "2.5 MG",
+  "Form": "Tablet",
   "prices": {
     "52817038510": {
       "05/22/2024": 1.14724,
@@ -21,7 +25,8 @@
       "07/23/2025": 1.29076,
       "08/20/2025": 1.28177,
       "09/17/2025": 1.26863,
-      "10/22/2025": 1.24895
+      "10/22/2025": 1.24895,
+      "11/19/2025": 1.23997
     }
   }
 }

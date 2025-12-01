@@ -1,9 +1,13 @@
 {
   "RxCUI": "2536752",
-  "Name": "QELBREE ER 150 MG CAPSULE",
+  "Name": "24 HR viloxazine 150 MG Extended Release Oral Capsule [Qelbree]",
   "IsBrand": true,
-  "Brand_RxCUI": "2536750",
-  "Generic_RxCUI": "2536752",
+  "Brand_Mate_RxCUI": "2536752",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Viloxazine Extended Release",
+  "Manufacturer_Name": "Qelbree",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "17772013230": {
       "01/01/2023": 10.72156,
@@ -23,7 +27,8 @@
       "07/23/2025": 12.03653,
       "08/20/2025": 12.0364,
       "09/17/2025": 12.03679,
-      "10/22/2025": 12.01398
+      "10/22/2025": 12.01398,
+      "11/19/2025": 12.01979
     }
   }
 }

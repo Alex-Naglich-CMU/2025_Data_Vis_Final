@@ -1,9 +1,13 @@
 {
   "RxCUI": "207059",
-  "Name": "BETASERON 0.3 MG KIT",
+  "Name": "interferon beta-1b 0.3 MG Injection [Betaseron]",
   "IsBrand": true,
-  "Brand_RxCUI": "198360",
-  "Generic_RxCUI": "207059",
+  "Brand_Mate_RxCUI": "207059",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Interferon Beta-B",
+  "Manufacturer_Name": "Betaseron",
+  "Strength": "1b",
+  "Form": "",
   "prices": {
     "50419052401": {
       "11/22/2017": 456.27657,

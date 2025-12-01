@@ -1,9 +1,13 @@
 {
   "RxCUI": "213344",
-  "Name": "CELEXA 20 MG TABLET",
+  "Name": "citalopram 20 MG Oral Tablet [Celexa]",
   "IsBrand": true,
-  "Brand_RxCUI": "200371",
-  "Generic_RxCUI": "213344",
+  "Brand_Mate_RxCUI": "213344",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Citalopram",
+  "Manufacturer_Name": "Celexa",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "00456402001": {
       "01/01/2018": 8.76451,

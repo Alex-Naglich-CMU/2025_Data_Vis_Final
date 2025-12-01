@@ -1,9 +1,13 @@
 {
   "RxCUI": "284391",
-  "Name": "KEPPRA 750 MG TABLET",
+  "Name": "levetiracetam 750 MG Oral Tablet [Keppra]",
   "IsBrand": true,
-  "Brand_RxCUI": "311290",
-  "Generic_RxCUI": "284391",
+  "Brand_Mate_RxCUI": "284391",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Levetiracetam",
+  "Manufacturer_Name": "Keppra",
+  "Strength": "750 MG",
+  "Form": "",
   "prices": {
     "50474059640": {
       "06/21/2017": 9.56443,
@@ -40,7 +44,8 @@
       "07/23/2025": 13.10098,
       "08/20/2025": 13.10266,
       "09/17/2025": 13.12668,
-      "10/22/2025": 13.11139
+      "10/22/2025": 13.11139,
+      "11/19/2025": 13.10533
     }
   }
 }

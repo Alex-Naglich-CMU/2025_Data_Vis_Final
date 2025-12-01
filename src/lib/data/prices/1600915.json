@@ -1,9 +1,13 @@
 {
   "RxCUI": "1600915",
-  "Name": "RYTARY ER 48.75 MG-195 MG CAP",
+  "Name": "8 HR carbidopa 48.75 MG / levodopa 195 MG Extended Release Oral Capsule [Rytary]",
   "IsBrand": true,
-  "Brand_RxCUI": "1600914",
-  "Generic_RxCUI": "1600915",
+  "Brand_Mate_RxCUI": "1600915",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Carbidopa Levodopa Extended Release",
+  "Manufacturer_Name": "Rytary",
+  "Strength": "8 HR",
+  "Form": "",
   "prices": {
     "64896066301": {
       "09/01/2017": 2.52094,
@@ -36,7 +40,8 @@
       "07/23/2025": 3.98315,
       "08/20/2025": 3.98367,
       "09/17/2025": 3.9822,
-      "10/22/2025": 3.9818
+      "10/22/2025": 3.9818,
+      "11/19/2025": 3.98188
     },
     "64896066343": {
       "09/01/2017": 2.52094,

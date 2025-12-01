@@ -1,14 +1,19 @@
 {
   "RxCUI": "1666332",
-  "Name": "TICAGRELOR 60 MG TABLET",
+  "Name": "ticagrelor 60 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1666332",
-  "Generic_RxCUI": "1666334",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1666332",
+  "Ingredient_Name": "Ticagrelor",
+  "Manufacturer_Name": "",
+  "Strength": "60 MG",
+  "Form": "Tablet",
   "prices": {
     "00480268806": {
       "08/20/2025": 5.97495,
       "09/17/2025": 5.97616,
-      "10/22/2025": 5.93986
+      "10/22/2025": 5.93986,
+      "11/19/2025": 5.8493
     }
   }
 }

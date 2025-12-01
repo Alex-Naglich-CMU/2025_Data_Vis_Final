@@ -1,9 +1,13 @@
 {
   "RxCUI": "835886",
-  "Name": "CYCLOSPORINE MODIFIED 100 MG/ML",
+  "Name": "cyclosporine, modified 100 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": "835886",
-  "Generic_RxCUI": "835899",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "835886",
+  "Ingredient_Name": "Cyclosporine, Modified Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "100 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00172731320": {
       "05/22/2024": 2.06475,
@@ -23,7 +27,8 @@
       "07/23/2025": 2.34601,
       "08/20/2025": 2.40333,
       "09/17/2025": 2.5612,
-      "10/22/2025": 2.67436
+      "10/22/2025": 2.67436,
+      "11/19/2025": 2.78878
     }
   }
 }

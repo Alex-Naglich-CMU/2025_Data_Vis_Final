@@ -1,9 +1,13 @@
 {
   "RxCUI": "1010603",
-  "Name": "SUBOXONE 2 MG-0.5 MG SL FILM",
+  "Name": "buprenorphine 2 MG / naloxone 0.5 MG Sublingual Film [Suboxone]",
   "IsBrand": true,
-  "Brand_RxCUI": "1010600",
-  "Generic_RxCUI": "1010603",
+  "Brand_Mate_RxCUI": "1010603",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Buprenorphine Naloxone Sublingual Film",
+  "Manufacturer_Name": "Suboxone",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "12496120201": {
       "07/21/2021": 4.79875,
@@ -28,7 +32,8 @@
       "07/23/2025": 4.79355,
       "08/20/2025": 4.79202,
       "09/17/2025": 4.79206,
-      "10/22/2025": 4.79069
+      "10/22/2025": 4.79069,
+      "11/19/2025": 4.79006
     },
     "12496120203": {
       "07/21/2021": 4.79875,
@@ -61,7 +66,8 @@
       "07/23/2025": 4.79355,
       "08/20/2025": 4.79202,
       "09/17/2025": 4.79206,
-      "10/22/2025": 4.79069
+      "10/22/2025": 4.79069,
+      "11/19/2025": 4.79006
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "862027",
-  "Name": "INTUNIV ER 4 MG TABLET",
+  "Name": "24 HR guanfacine 4 MG Extended Release Oral Tablet [Intuniv]",
   "IsBrand": true,
-  "Brand_RxCUI": "862025",
-  "Generic_RxCUI": "862027",
+  "Brand_Mate_RxCUI": "862027",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Guanfacine Extended Release",
+  "Manufacturer_Name": "Intuniv",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "54092051902": {
       "05/22/2024": 9.27572,
@@ -19,7 +23,8 @@
       "07/23/2025": 9.30228,
       "08/20/2025": 9.3031,
       "09/17/2025": 9.30937,
-      "10/22/2025": 9.29076
+      "10/22/2025": 9.29076,
+      "11/19/2025": 9.28707
     }
   }
 }

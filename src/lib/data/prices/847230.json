@@ -1,9 +1,13 @@
 {
   "RxCUI": "847230",
-  "Name": "INSULIN GLARGINE SOLOSTAR U100",
+  "Name": "3 ML insulin glargine 100 UNT/ML Pen Injector",
   "IsBrand": false,
-  "Brand_RxCUI": "847230",
-  "Generic_RxCUI": "2377231",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "847230",
+  "Ingredient_Name": "Insulin Glargine Untml Pen Injector",
+  "Manufacturer_Name": "",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00955172805": {
       "10/19/2022": 10.89551,

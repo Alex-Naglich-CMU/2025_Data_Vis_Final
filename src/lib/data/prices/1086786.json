@@ -1,9 +1,13 @@
 {
   "RxCUI": "1086786",
-  "Name": "VIIBRYD 40 MG TABLET",
+  "Name": "vilazodone hydrochloride 40 MG Oral Tablet [Viibryd]",
   "IsBrand": true,
-  "Brand_RxCUI": "1086784",
-  "Generic_RxCUI": "1086786",
+  "Brand_Mate_RxCUI": "1086786",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Vilazodone Hydrochloride",
+  "Manufacturer_Name": "Viibryd",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "00456114030": {
       "11/22/2017": 7.25309,
@@ -33,7 +37,8 @@
       "07/23/2025": 11.65058,
       "08/20/2025": 11.64592,
       "09/17/2025": 11.6397,
-      "10/22/2025": 11.63674
+      "10/22/2025": 11.63674,
+      "11/19/2025": 11.62939
     }
   }
 }

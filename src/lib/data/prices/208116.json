@@ -1,9 +1,13 @@
 {
   "RxCUI": "208116",
-  "Name": "ALDACTAZIDE 50-50 TABLET",
+  "Name": "hydrochlorothiazide 50 MG / spironolactone 50 MG Oral Tablet [Aldactazide]",
   "IsBrand": true,
-  "Brand_RxCUI": "198225",
-  "Generic_RxCUI": "208116",
+  "Brand_Mate_RxCUI": "208116",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hydrochlorothiazide Spironolactone",
+  "Manufacturer_Name": "Aldactazide",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "00025102131": {
       "06/01/2017": 4.32412,

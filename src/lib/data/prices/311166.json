@@ -1,9 +1,13 @@
 {
   "RxCUI": "311166",
-  "Name": "ISONIAZID 100 MG TABLET",
+  "Name": "isoniazid 100 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "311166",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "311166",
+  "Ingredient_Name": "Isoniazid",
+  "Manufacturer_Name": "",
+  "Strength": "100 MG",
+  "Form": "Tablet",
   "prices": {
     "00555006602": {
       "04/17/2024": 0.10537,

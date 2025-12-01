@@ -1,9 +1,13 @@
 {
   "RxCUI": "798408",
-  "Name": "APLISOL 5T UNITS/0.1 ML VIAL",
+  "Name": "purified protein derivative of tuberculin 50 UNT/ML Injectable Solution [Aplisol]",
   "IsBrand": true,
-  "Brand_RxCUI": "313532",
-  "Generic_RxCUI": "798408",
+  "Brand_Mate_RxCUI": "798408",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Purified Protein Derivative Of Tuberculin Untml Injectable",
+  "Manufacturer_Name": "Aplisol",
+  "Strength": "50 UNT/ML",
+  "Form": "",
   "prices": {
     "42023010401": {
       "07/19/2017": 65.41556,
@@ -32,7 +36,8 @@
       "01/22/2025": 89.89296,
       "02/19/2025": 89.94037,
       "02/24/2025": 103.33699,
-      "07/07/2025": 108.50281
+      "07/07/2025": 108.50281,
+      "11/19/2025": 109.70773
     },
     "42023010405": {
       "12/01/2017": 58.80116,

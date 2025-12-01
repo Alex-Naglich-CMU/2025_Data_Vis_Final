@@ -1,9 +1,13 @@
 {
   "RxCUI": "153638",
-  "Name": "SEROQUEL 25 MG TABLET",
+  "Name": "quetiapine 25 MG Oral Tablet [Seroquel]",
   "IsBrand": true,
-  "Brand_RxCUI": "312744",
-  "Generic_RxCUI": "153638",
+  "Brand_Mate_RxCUI": "153638",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Quetiapine",
+  "Manufacturer_Name": "Seroquel",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "00310027510": {
       "05/22/2024": 3.72931,
@@ -16,7 +20,8 @@
       "04/23/2025": 3.71939,
       "07/23/2025": 3.72485,
       "08/20/2025": 3.71786,
-      "10/22/2025": 3.7069
+      "10/22/2025": 3.7069,
+      "11/19/2025": 3.70474
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "898344",
-  "Name": "LOTREL 10-20 MG CAPSULE",
+  "Name": "amlodipine 10 MG / benazepril hydrochloride 20 MG Oral Capsule [Lotrel]",
   "IsBrand": true,
-  "Brand_RxCUI": "898342",
-  "Generic_RxCUI": "898344",
+  "Brand_Mate_RxCUI": "898344",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amlodipine Benazepril Hydrochloride",
+  "Manufacturer_Name": "Lotrel",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "00078036405": {
       "07/11/2017": 10.15812,

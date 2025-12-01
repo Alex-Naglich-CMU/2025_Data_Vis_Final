@@ -1,9 +1,13 @@
 {
   "RxCUI": "1487361",
-  "Name": "GLATIRAMER 40 MG/ML SYRINGE",
+  "Name": "1 ML glatiramer acetate 40 MG/ML Prefilled Syringe",
   "IsBrand": false,
-  "Brand_RxCUI": "1487361",
-  "Generic_RxCUI": "2000007",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1487361",
+  "Ingredient_Name": "Glatiramer Mgml Prefilled",
+  "Manufacturer_Name": "",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00378696112": {
       "11/20/2019": 138.43488,
@@ -33,13 +37,15 @@
       "07/23/2025": 109.51665,
       "08/20/2025": 107.93463,
       "09/17/2025": 106.94161,
-      "10/22/2025": 103.33247
+      "10/22/2025": 103.33247,
+      "11/19/2025": 102.56176
     },
     "378696112": {
       "09/22/2021": 122.50298
     },
     "47335099102": {
-      "10/22/2025": 103.33247
+      "10/22/2025": 103.33247,
+      "11/19/2025": 102.56176
     }
   }
 }

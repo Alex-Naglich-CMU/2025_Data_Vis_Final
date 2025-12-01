@@ -1,9 +1,13 @@
 {
   "RxCUI": "2123076",
-  "Name": "ALBUTEROL HFA 90 MCG INHALER",
+  "Name": "NDA020983 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
   "IsBrand": false,
-  "Brand_RxCUI": "2123076",
-  "Generic_RxCUI": "859088",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "2123076",
+  "Ingredient_Name": "Nda Actuat Albuterol Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "",
+  "Strength": "200 ACTU",
+  "Form": "",
   "prices": {
     "66993001968": {
       "05/19/2021": 1.8885,
@@ -84,7 +88,8 @@
       "07/23/2025": 1.84568,
       "08/20/2025": 1.87256,
       "09/17/2025": 1.8548,
-      "10/22/2025": 1.85676
+      "10/22/2025": 1.85676,
+      "11/19/2025": 1.85782
     }
   }
 }

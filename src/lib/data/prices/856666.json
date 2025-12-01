@@ -1,9 +1,13 @@
 {
   "RxCUI": "856666",
-  "Name": "XIFAXAN 550 MG TABLET",
+  "Name": "rifaximin 550 MG Oral Tablet [XIFAXAN]",
   "IsBrand": true,
-  "Brand_RxCUI": "856664",
-  "Generic_RxCUI": "856666",
+  "Brand_Mate_RxCUI": "856666",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Rifaximin",
+  "Manufacturer_Name": "XIFAXAN",
+  "Strength": "550 MG",
+  "Form": "",
   "prices": {
     "65649030302": {
       "10/05/2017": 33.58362,

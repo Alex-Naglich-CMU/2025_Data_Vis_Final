@@ -1,9 +1,13 @@
 {
   "RxCUI": "616238",
-  "Name": "LEVEMIR 100 UNIT/ML VIAL",
+  "Name": "insulin detemir 100 UNT/ML Injectable Solution [Levemir]",
   "IsBrand": true,
-  "Brand_RxCUI": "484322",
-  "Generic_RxCUI": "616238",
+  "Brand_Mate_RxCUI": "616238",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Detemir Untml Injectable",
+  "Manufacturer_Name": "Levemir",
+  "Strength": "100 UNT/ML",
+  "Form": "",
   "prices": {
     "00169368712": {
       "06/23/2021": 29.55227,

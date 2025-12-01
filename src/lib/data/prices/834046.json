@@ -1,9 +1,13 @@
 {
   "RxCUI": "834046",
-  "Name": "PENICILLIN VK 125 MG/5 ML SOLN",
+  "Name": "penicillin V potassium 25 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "834046",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "834046",
+  "Ingredient_Name": "Penicillin V Potassium Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "25 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00093412573": {
       "08/23/2017": 0.0621,
@@ -44,7 +48,8 @@
       "07/23/2025": 0.07508,
       "08/20/2025": 0.07456,
       "09/17/2025": 0.07209,
-      "10/22/2025": 0.07046
+      "10/22/2025": 0.07046,
+      "11/19/2025": 0.06927
     },
     "00093412574": {
       "09/19/2018": 0.03284,
@@ -56,7 +61,8 @@
       "06/18/2025": 0.04659,
       "08/20/2025": 0.04532,
       "09/17/2025": 0.04404,
-      "10/22/2025": 0.04408
+      "10/22/2025": 0.04408,
+      "11/19/2025": 0.0441
     }
   }
 }

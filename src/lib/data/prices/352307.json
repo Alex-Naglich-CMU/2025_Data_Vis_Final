@@ -1,9 +1,13 @@
 {
   "RxCUI": "352307",
-  "Name": "ABILIFY 10 MG TABLET",
+  "Name": "aripiprazole 10 MG Oral Tablet [Abilify]",
   "IsBrand": true,
-  "Brand_RxCUI": "349545",
-  "Generic_RxCUI": "352307",
+  "Brand_Mate_RxCUI": "352307",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Aripiprazole",
+  "Manufacturer_Name": "Abilify",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "59148000813": {
       "02/21/2018": 28.56703,

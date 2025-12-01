@@ -1,9 +1,13 @@
 {
   "RxCUI": "2168865",
-  "Name": "JORNAY PM 100 MG CAPSULE",
+  "Name": "Evening Dosing 24 HR methylphenidate hydrochloride 100 MG Extended Release Oral Capsule [Jornay]",
   "IsBrand": true,
-  "Brand_RxCUI": "2168864",
-  "Generic_RxCUI": "2168865",
+  "Brand_Mate_RxCUI": "2168865",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Evening Dosing Hr Methylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "Jornay",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "71376020503": {
       "5/18/2022": 12.90444,
@@ -25,7 +29,8 @@
       "07/23/2025": 14.97383,
       "08/20/2025": 14.97914,
       "09/17/2025": 14.98021,
-      "10/22/2025": 14.96004
+      "10/22/2025": 14.96004,
+      "11/19/2025": 14.96785
     }
   }
 }

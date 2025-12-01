@@ -1,9 +1,13 @@
 {
   "RxCUI": "896001",
-  "Name": "FLOVENT HFA 110 MCG INHALER",
+  "Name": "120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]",
   "IsBrand": true,
-  "Brand_RxCUI": "895999",
-  "Generic_RxCUI": "896001",
+  "Brand_Mate_RxCUI": "896001",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Flovent",
+  "Strength": "120 ACTU",
+  "Form": "",
   "prices": {
     "00173071920": {
       "11/22/2017": 18.35436,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1743779",
-  "Name": "METHYLPREDNISOLONE 40 MG/ML VL",
+  "Name": "1 ML methylprednisolone acetate 40 MG/ML Injection",
   "IsBrand": false,
-  "Brand_RxCUI": "1743779",
-  "Generic_RxCUI": "1743781",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1743779",
+  "Ingredient_Name": "Methylprednisolone Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 ML",
+  "Form": "Injection",
   "prices": {
     "60219157301": {
       "12/18/2024": 8.33175,

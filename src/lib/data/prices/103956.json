@@ -1,9 +1,13 @@
 {
   "RxCUI": "103956",
-  "Name": "CAVERJECT 20 MCG VIAL",
+  "Name": "alprostadil 0.02 MG Injection [Caverject]",
   "IsBrand": true,
-  "Brand_RxCUI": "242691",
-  "Generic_RxCUI": "103956",
+  "Brand_Mate_RxCUI": "103956",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Alprostadil",
+  "Manufacturer_Name": "Caverject",
+  "Strength": "0.02 MG",
+  "Form": "",
   "prices": {
     "00009370105": {
       "06/01/2017": 87.45977,

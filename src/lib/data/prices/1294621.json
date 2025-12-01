@@ -1,9 +1,13 @@
 {
   "RxCUI": "1294621",
-  "Name": "PYLERA CAPSULE",
+  "Name": "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG Oral Capsule [Pylera]",
   "IsBrand": true,
-  "Brand_RxCUI": "1294619",
-  "Generic_RxCUI": "1294621",
+  "Brand_Mate_RxCUI": "1294621",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Bismuth Subcitrate Metronidazole Tetracycline Hydrochloride",
+  "Manufacturer_Name": "Pylera",
+  "Strength": "140 MG",
+  "Form": "",
   "prices": {
     "58914060120": {
       "05/19/2021": 7.32857,
@@ -35,7 +39,8 @@
       "07/23/2025": 2.43233,
       "08/20/2025": 2.42568,
       "09/17/2025": 2.42642,
-      "10/22/2025": 2.4267
+      "10/22/2025": 2.4267,
+      "11/19/2025": 2.42676
     },
     "61269038012": {
       "07/17/2024": 2.43438,
@@ -53,7 +58,8 @@
       "07/23/2025": 2.43233,
       "08/20/2025": 2.42568,
       "09/17/2025": 2.42642,
-      "10/22/2025": 2.4267
+      "10/22/2025": 2.4267,
+      "11/19/2025": 2.42676
     }
   }
 }

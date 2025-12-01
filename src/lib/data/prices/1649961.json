@@ -1,9 +1,13 @@
 {
   "RxCUI": "1649961",
-  "Name": "PROAIR RESPICLICK 90 MCG INHLR",
+  "Name": "200 ACTUAT albuterol 0.09 MG/ACTUAT Dry Powder Inhaler [ProAir]",
   "IsBrand": true,
-  "Brand_RxCUI": "1649560",
-  "Generic_RxCUI": "1649961",
+  "Brand_Mate_RxCUI": "1649961",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Albuterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "ProAir",
+  "Strength": "200 ACTU",
+  "Form": "",
   "prices": {
     "59310058020": {
       "06/01/2021": 63.35217,
@@ -35,7 +39,8 @@
       "07/23/2025": 65.41369,
       "08/20/2025": 65.33698,
       "09/17/2025": 65.35367,
-      "10/22/2025": 65.30336
+      "10/22/2025": 65.30336,
+      "11/19/2025": 65.31201
     }
   }
 }

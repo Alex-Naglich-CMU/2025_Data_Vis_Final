@@ -1,9 +1,13 @@
 {
   "RxCUI": "848742",
-  "Name": "FANAPT 4 MG TABLET",
+  "Name": "iloperidone 4 MG Oral Tablet [Fanapt]",
   "IsBrand": true,
-  "Brand_RxCUI": "848740",
-  "Generic_RxCUI": "848742",
+  "Brand_Mate_RxCUI": "848742",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Iloperidone",
+  "Manufacturer_Name": "Fanapt",
+  "Strength": "4 MG",
+  "Form": "",
   "prices": {
     "43068010402": {
       "09/20/2017": 15.89897,
@@ -33,7 +37,8 @@
       "07/23/2025": 29.15846,
       "08/20/2025": 29.17436,
       "09/17/2025": 29.21657,
-      "10/22/2025": 29.22619
+      "10/22/2025": 29.22619,
+      "11/19/2025": 29.28907
     }
   }
 }

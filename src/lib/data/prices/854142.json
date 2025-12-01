@@ -1,9 +1,13 @@
 {
   "RxCUI": "854142",
-  "Name": "NUCYNTA 50 MG TABLET",
+  "Name": "tapentadol 50 MG Oral Tablet [Nucynta]",
   "IsBrand": true,
-  "Brand_RxCUI": "825411",
-  "Generic_RxCUI": "854142",
+  "Brand_Mate_RxCUI": "854142",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tapentadol",
+  "Manufacturer_Name": "Nucynta",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "24510005010": {
       "10/23/2019": 6.10537,

@@ -1,14 +1,14 @@
 {
   "RxCUI": "251292",
-  "Name": "LAXATIVE 25 MG TABLET",
+  "Name": "sennosides, USP 25 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "251292",
-  "Generic_RxCUI": "213073",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "251292",
+  "Ingredient_Name": "Sennosides, Usp",
+  "Manufacturer_Name": "",
+  "Strength": "25 MG",
+  "Form": "Tablet",
   "prices": {
-    "70000038601": {
-      "09/18/2019": 0.10625,
-      "12/18/2019": 0.09842
-    },
     "63868008624": {
       "09/18/2019": 0.10625,
       "12/18/2019": 0.09842
@@ -26,6 +26,10 @@
       "06/18/2025": 0.1088,
       "07/23/2025": 0.11042,
       "08/20/2025": 0.11625
+    },
+    "70000038601": {
+      "09/18/2019": 0.10625,
+      "12/18/2019": 0.09842
     }
   }
 }

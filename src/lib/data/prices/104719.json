@@ -1,11 +1,15 @@
 {
   "RxCUI": "104719",
-  "Name": "ATIVAN 1 MG TABLET",
+  "Name": "lorazepam 1 MG Oral Tablet [Ativan]",
   "IsBrand": true,
-  "Brand_RxCUI": "197901",
-  "Generic_RxCUI": "104719",
+  "Brand_Mate_RxCUI": "104719",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Lorazepam",
+  "Manufacturer_Name": "Ativan",
+  "Strength": "1 MG",
+  "Form": "",
   "prices": {
-    "00187006410": {
+    "00187006401": {
       "01/05/2018": 29.74014,
       "02/06/2020": 34.33214,
       "01/01/2021": 37.04438,
@@ -20,7 +24,7 @@
       "06/18/2025": 47.16517,
       "09/17/2025": 47.15987
     },
-    "00187006401": {
+    "00187006410": {
       "01/05/2018": 29.74014,
       "02/06/2020": 34.33214,
       "01/01/2021": 37.04438,

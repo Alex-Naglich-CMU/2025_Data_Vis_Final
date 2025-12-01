@@ -1,9 +1,13 @@
 {
   "RxCUI": "861416",
-  "Name": "AZITHROMYCIN 1 GM PWD PACKET",
+  "Name": "azithromycin 1000 MG Powder for Oral Suspension",
   "IsBrand": false,
-  "Brand_RxCUI": "861416",
-  "Generic_RxCUI": "861417",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "861416",
+  "Ingredient_Name": "Azithromycin For",
+  "Manufacturer_Name": "",
+  "Strength": "1000 MG",
+  "Form": "Suspension",
   "prices": {
     "59762305101": {
       "05/19/2021": 23.17267,

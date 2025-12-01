@@ -1,9 +1,13 @@
 {
   "RxCUI": "2196792",
-  "Name": "ASMANEX HFA 50 MCG INHALER",
+  "Name": "120 ACTUAT mometasone furoate 0.05 MG/ACTUAT Metered Dose Inhaler [Asmanex]",
   "IsBrand": true,
-  "Brand_RxCUI": "2196790",
-  "Generic_RxCUI": "2196792",
+  "Brand_Mate_RxCUI": "2196792",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Mometasone Furoate Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Asmanex",
+  "Strength": "120 ACTU",
+  "Form": "",
   "prices": {
     "00085222201": {
       "1/14/2022": 13.66992,
@@ -31,7 +35,8 @@
       "07/23/2025": 6.84545,
       "08/20/2025": 6.84619,
       "09/17/2025": 6.84634,
-      "10/22/2025": 6.84982
+      "10/22/2025": 6.84982,
+      "11/19/2025": 6.84712
     }
   }
 }

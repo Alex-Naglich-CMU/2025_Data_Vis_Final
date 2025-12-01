@@ -1,9 +1,13 @@
 {
   "RxCUI": "2099697",
-  "Name": "XYOSTED 75 MG/0.5 ML AUTO-INJ",
+  "Name": "0.5 ML testosterone enanthate 150 MG/ML Auto-Injector [Xyosted]",
   "IsBrand": true,
-  "Brand_RxCUI": "2099695",
-  "Generic_RxCUI": "2099697",
+  "Brand_Mate_RxCUI": "2099697",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Testosterone Enanthate Mgml Auto-Injector",
+  "Manufacturer_Name": "Xyosted",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "54436027504": {
       "07/01/2021": 262.6609,
@@ -30,7 +34,8 @@
       "07/23/2025": 307.45053,
       "08/20/2025": 307.58142,
       "09/17/2025": 307.57498,
-      "10/22/2025": 307.60444
+      "10/22/2025": 307.60444,
+      "11/19/2025": 307.58515
     }
   }
 }

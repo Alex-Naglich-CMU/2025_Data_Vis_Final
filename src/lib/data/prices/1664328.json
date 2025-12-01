@@ -1,9 +1,13 @@
 {
   "RxCUI": "1664328",
-  "Name": "SYNJARDY 5-1,000 MG TABLET",
+  "Name": "empagliflozin 5 MG / metformin hydrochloride 1000 MG Oral Tablet [Synjardy]",
   "IsBrand": true,
-  "Brand_RxCUI": "1664326",
-  "Generic_RxCUI": "1664328",
+  "Brand_Mate_RxCUI": "1664328",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Empagliflozin Metformin Hydrochloride",
+  "Manufacturer_Name": "Synjardy",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00597017518": {
       "06/21/2017": 6.89605,
@@ -35,7 +39,8 @@
       "07/23/2025": 10.07211,
       "08/20/2025": 10.07967,
       "09/17/2025": 10.07695,
-      "10/22/2025": 10.08129
+      "10/22/2025": 10.08129,
+      "11/19/2025": 10.07892
     },
     "00597017560": {
       "06/21/2017": 6.89605,
@@ -67,7 +72,8 @@
       "07/23/2025": 10.07211,
       "08/20/2025": 10.07967,
       "09/17/2025": 10.07695,
-      "10/22/2025": 10.08129
+      "10/22/2025": 10.08129,
+      "11/19/2025": 10.07892
     }
   }
 }

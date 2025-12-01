@@ -1,9 +1,13 @@
 {
   "RxCUI": "862015",
-  "Name": "INTUNIV ER 2 MG TABLET",
+  "Name": "24 HR guanfacine 2 MG Extended Release Oral Tablet [Intuniv]",
   "IsBrand": true,
-  "Brand_RxCUI": "862013",
-  "Generic_RxCUI": "862015",
+  "Brand_Mate_RxCUI": "862015",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Guanfacine Extended Release",
+  "Manufacturer_Name": "Intuniv",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "54092051502": {
       "06/19/2024": 9.34593,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1653196",
-  "Name": "INSULIN ASPART PENFILL 100 UNIT/ML CARTRIDGE",
+  "Name": "3 ML insulin aspart, human 100 UNT/ML Cartridge",
   "IsBrand": false,
-  "Brand_RxCUI": "1653196",
-  "Generic_RxCUI": "2205454",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1653196",
+  "Ingredient_Name": "Insulin Aspart, Human Untml Cartridge",
+  "Manufacturer_Name": "",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "73070010215": {
       "12/23/2020": 17.1408,
@@ -40,7 +44,8 @@
       "07/23/2025": 8.58236,
       "08/20/2025": 8.58898,
       "09/17/2025": 8.59168,
-      "10/22/2025": 8.59603
+      "10/22/2025": 8.59603,
+      "11/19/2025": 8.60041
     }
   }
 }

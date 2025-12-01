@@ -1,9 +1,13 @@
 {
   "RxCUI": "637185",
-  "Name": "AZILECT 1 MG TABLET",
+  "Name": "rasagiline 1 MG Oral Tablet [Azilect]",
   "IsBrand": true,
-  "Brand_RxCUI": "608328",
-  "Generic_RxCUI": "637185",
+  "Brand_Mate_RxCUI": "637185",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Rasagiline",
+  "Manufacturer_Name": "Azilect",
+  "Strength": "1 MG",
+  "Form": "",
   "prices": {
     "68546022956": {
       "11/22/2017": 22.332,

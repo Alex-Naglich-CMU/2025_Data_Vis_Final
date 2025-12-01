@@ -1,9 +1,13 @@
 {
   "RxCUI": "895671",
-  "Name": "SEROQUEL XR 150 MG TABLET",
+  "Name": "24 HR quetiapine 150 MG Extended Release Oral Tablet [Seroquel]",
   "IsBrand": true,
-  "Brand_RxCUI": "895670",
-  "Generic_RxCUI": "895671",
+  "Brand_Mate_RxCUI": "895671",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Quetiapine Extended Release",
+  "Manufacturer_Name": "Seroquel",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00310028139": {
       "09/20/2017": 14.11842

@@ -1,9 +1,13 @@
 {
   "RxCUI": "310481",
-  "Name": "GENTIAN VIOLET 1% SOLUTION",
+  "Name": "gentian violet 10 MG/ML Topical Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "310481",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "310481",
+  "Ingredient_Name": "Gentian Violet Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Solution",
   "prices": {
     "24385000346": {
       "04/17/2024": 0.05138,

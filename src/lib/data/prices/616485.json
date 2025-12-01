@@ -1,9 +1,13 @@
 {
   "RxCUI": "616485",
-  "Name": "SEROQUEL 400 MG TABLET",
+  "Name": "quetiapine 400 MG Oral Tablet [Seroquel]",
   "IsBrand": true,
-  "Brand_RxCUI": "616483",
-  "Generic_RxCUI": "616485",
+  "Brand_Mate_RxCUI": "616485",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Quetiapine",
+  "Manufacturer_Name": "Seroquel",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "00310027910": {
       "07/17/2024": 18.55873,
@@ -18,7 +22,8 @@
       "07/23/2025": 18.81735,
       "08/20/2025": 18.75176,
       "09/17/2025": 18.70687,
-      "10/22/2025": 18.71404
+      "10/22/2025": 18.71404,
+      "11/19/2025": 18.71961
     }
   }
 }

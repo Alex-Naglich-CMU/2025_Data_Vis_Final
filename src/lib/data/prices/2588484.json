@@ -1,12 +1,15 @@
 {
   "RxCUI": "2588484",
-  "Name": "SEGLENTIS 56 MG-44 MG TABLET",
+  "Name": "celecoxib 56 MG / tramadol hydrochloride 44 MG Oral Tablet [Seglentis]",
   "IsBrand": true,
-  "Brand_RxCUI": "2588478",
-  "Generic_RxCUI": "2588484",
+  "Brand_Mate_RxCUI": "2588484",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Celecoxib Tramadol Hydrochloride",
+  "Manufacturer_Name": "Seglentis",
+  "Strength": "56 MG",
+  "Form": "",
   "prices": {
-    "66869056490": {
-      "11/01/2022": 4.32201,
+    "66869056435": {
       "04/19/2023": 4.35147,
       "04/17/2024": 4.34288,
       "05/22/2024": 4.34417,
@@ -20,7 +23,8 @@
       "01/22/2025": 4.35593,
       "02/19/2025": 4.36628
     },
-    "66869056435": {
+    "66869056490": {
+      "11/01/2022": 4.32201,
       "04/19/2023": 4.35147,
       "04/17/2024": 4.34288,
       "05/22/2024": 4.34417,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1487524",
-  "Name": "ANORO ELLIPTA 62.5-25 MCG INH",
+  "Name": "7 ACTUAT umeclidinium 0.0625 MG/ACTUAT / vilanterol 0.025 MG/ACTUAT Dry Powder Inhaler [Anoro]",
   "IsBrand": true,
-  "Brand_RxCUI": "1487519",
-  "Generic_RxCUI": "1487524",
+  "Brand_Mate_RxCUI": "1487524",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Umeclidinium Mgactuat Vilanterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Anoro",
+  "Strength": "7 ACTU",
+  "Form": "",
   "prices": {
     "00173086906": {
       "01/01/2019": 6.74684,

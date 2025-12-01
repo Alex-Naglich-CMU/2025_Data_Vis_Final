@@ -1,9 +1,13 @@
 {
   "RxCUI": "1193293",
-  "Name": "NOREL AD TABLET",
+  "Name": "acetaminophen 325 MG / chlorpheniramine maleate 4 MG / phenylephrine hydrochloride 10 MG Oral Tablet",
   "IsBrand": true,
-  "Brand_RxCUI": "1193293",
-  "Generic_RxCUI": null,
+  "Brand_Mate_RxCUI": "1193293",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Acetaminophen Chlorpheniramine Maleate Phenylephrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "325 MG",
+  "Form": "Tablet",
   "prices": {
     "52747047570": {
       "08/23/2017": 0.74653,

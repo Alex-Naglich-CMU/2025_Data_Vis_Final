@@ -1,9 +1,13 @@
 {
   "RxCUI": "1298443",
-  "Name": "CONGESTAC TABLET",
+  "Name": "guaifenesin 400 MG / pseudoephedrine hydrochloride 60 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1298443",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1298443",
+  "Ingredient_Name": "Guaifenesin Pseudoephedrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "400 MG",
+  "Form": "Tablet",
   "prices": {
     "00225058006": {
       "07/19/2017": 0.38525

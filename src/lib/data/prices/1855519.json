@@ -1,9 +1,13 @@
 {
   "RxCUI": "1855519",
-  "Name": "HER STYLE 1.5 MG TABLET",
+  "Name": "levonorgestrel 1.5 MG Oral Tablet [Her Style]",
   "IsBrand": false,
-  "Brand_RxCUI": "483325",
-  "Generic_RxCUI": "1855519",
+  "Brand_Mate_RxCUI": "483325",
+  "Generic_Mate_RxCUI": "1855519",
+  "Ingredient_Name": "Levonorgestrel",
+  "Manufacturer_Name": "Her Style",
+  "Strength": "1.5 MG",
+  "Form": "",
   "prices": {
     "50742035201": {
       "04/19/2023": 8.66929,

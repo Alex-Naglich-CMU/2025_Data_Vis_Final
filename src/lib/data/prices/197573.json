@@ -1,9 +1,13 @@
 {
   "RxCUI": "197573",
-  "Name": "DESOXIMETASONE 0.05% CREAM",
+  "Name": "desoximetasone 0.5 MG/ML Topical Cream",
   "IsBrand": false,
-  "Brand_RxCUI": "197573",
-  "Generic_RxCUI": "891631",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "197573",
+  "Ingredient_Name": "Desoximetasone Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.5 MG/ML",
+  "Form": "Cream",
   "prices": {
     "51672127103": {
       "05/19/2021": 3.06293,
@@ -159,7 +163,8 @@
       "07/23/2025": 1.49639,
       "08/20/2025": 1.52443,
       "09/17/2025": 1.50207,
-      "10/22/2025": 1.48526
+      "10/22/2025": 1.48526,
+      "11/19/2025": 1.43957
     }
   }
 }

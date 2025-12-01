@@ -1,9 +1,13 @@
 {
   "RxCUI": "608934",
-  "Name": "VANDAZOLE VAGINAL 0.75% GEL",
+  "Name": "metronidazole 0.0075 MG/MG Vaginal Gel [Vandazole]",
   "IsBrand": true,
-  "Brand_RxCUI": "142046",
-  "Generic_RxCUI": "608934",
+  "Brand_Mate_RxCUI": "608934",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Metronidazole Mgmg Vaginal",
+  "Manufacturer_Name": "Vandazole",
+  "Strength": "0.0075 MG/MG",
+  "Form": "",
   "prices": {
     "00245086070": {
       "05/19/2021": 0.91532,
@@ -82,7 +86,8 @@
       "07/23/2025": 0.53793,
       "08/20/2025": 0.5916,
       "09/17/2025": 0.56467,
-      "10/22/2025": 0.52516
+      "10/22/2025": 0.52516,
+      "11/19/2025": 0.49027
     }
   }
 }

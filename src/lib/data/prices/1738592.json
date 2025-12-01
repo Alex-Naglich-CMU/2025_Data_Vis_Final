@@ -1,9 +1,13 @@
 {
   "RxCUI": "1738592",
-  "Name": "SOLU-CORTEF 250 MG ACT-O-VIAL",
+  "Name": "hydrocortisone 250 MG Injection [Solu-Cortef]",
   "IsBrand": true,
-  "Brand_RxCUI": "1738590",
-  "Generic_RxCUI": "1738592",
+  "Brand_Mate_RxCUI": "1738592",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hydrocortisone",
+  "Manufacturer_Name": "Solu-Cortef",
+  "Strength": "250 MG",
+  "Form": "",
   "prices": {
     "00009001305": {
       "01/01/2025": 40.56557,

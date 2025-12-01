@@ -1,9 +1,13 @@
 {
   "RxCUI": "213291",
-  "Name": "PAXIL 10 MG/5 ML SUSPENSION",
+  "Name": "paroxetine hydrochloride 2 MG/ML Oral Suspension [Paxil]",
   "IsBrand": true,
-  "Brand_RxCUI": "312242",
-  "Generic_RxCUI": "213291",
+  "Brand_Mate_RxCUI": "213291",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Paroxetine Hydrochloride Mgml",
+  "Manufacturer_Name": "Paxil",
+  "Strength": "2 MG/ML",
+  "Form": "",
   "prices": {
     "60505040205": {
       "06/09/2017": 1.14626,

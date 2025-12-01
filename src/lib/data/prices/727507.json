@@ -1,9 +1,13 @@
 {
   "RxCUI": "727507",
-  "Name": "OVIDREL 250 MCG/0.5 ML SYRG",
+  "Name": "0.5 ML choriogonadotropin alfa 0.5 MG/ML Prefilled Syringe [Ovidrel]",
   "IsBrand": true,
-  "Brand_RxCUI": "727505",
-  "Generic_RxCUI": "727507",
+  "Brand_Mate_RxCUI": "727507",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Choriogonadotropin Alfa Mgml Prefilled",
+  "Manufacturer_Name": "Ovidrel",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "44087115001": {
       "06/30/2017": 282.72435,
@@ -33,7 +37,8 @@
       "07/23/2025": 488.39167,
       "08/20/2025": 487.77385,
       "09/17/2025": 487.13895,
-      "10/22/2025": 487.336
+      "10/22/2025": 487.336,
+      "11/19/2025": 487.35636
     }
   }
 }

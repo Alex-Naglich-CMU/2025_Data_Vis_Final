@@ -1,9 +1,13 @@
 {
   "RxCUI": "758555",
-  "Name": "INTELENCE 100 MG TABLET",
+  "Name": "etravirine 100 MG Oral Tablet [Intelence]",
   "IsBrand": true,
-  "Brand_RxCUI": "754761",
-  "Generic_RxCUI": "758555",
+  "Brand_Mate_RxCUI": "758555",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Etravirine",
+  "Manufacturer_Name": "Intelence",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "59676057001": {
       "06/21/2017": 9.42153,

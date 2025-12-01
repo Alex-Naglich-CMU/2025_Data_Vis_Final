@@ -1,9 +1,13 @@
 {
   "RxCUI": "1650972",
-  "Name": "INVEGA TRINZA 410 MG/1.315 ML",
+  "Name": "1.32 ML paliperidone palmitate 311 MG/ML Prefilled Syringe [Invega]",
   "IsBrand": true,
-  "Brand_RxCUI": "1650971",
-  "Generic_RxCUI": "1650972",
+  "Brand_Mate_RxCUI": "1650972",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Paliperidone Palmitate Mgml Prefilled",
+  "Manufacturer_Name": "Invega",
+  "Strength": "1.32 ML",
+  "Form": "",
   "prices": {
     "50458060701": {
       "01/10/2019": 2933.0905,

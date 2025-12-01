@@ -1,9 +1,13 @@
 {
   "RxCUI": "828377",
-  "Name": "TRILIPIX DR 135 MG CAPSULE",
+  "Name": "fenofibric acid 135 MG Delayed Release Oral Capsule [Trilipix]",
   "IsBrand": true,
-  "Brand_RxCUI": "828373",
-  "Generic_RxCUI": "828377",
+  "Brand_Mate_RxCUI": "828377",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fenofibric Acid Delayed Release",
+  "Manufacturer_Name": "Trilipix",
+  "Strength": "135 MG",
+  "Form": "",
   "prices": {
     "00074316290": {
       "11/22/2017": 8.127,

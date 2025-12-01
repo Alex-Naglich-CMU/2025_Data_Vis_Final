@@ -1,9 +1,13 @@
 {
   "RxCUI": "1098649",
-  "Name": "NEFAZODONE HCL 100 MG TABLET",
+  "Name": "nefazodone hydrochloride 100 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1098649",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1098649",
+  "Ingredient_Name": "Nefazodone Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "100 MG",
+  "Form": "Tablet",
   "prices": {
     "00093102406": {
       "10/18/2017": 1.13047,

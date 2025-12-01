@@ -1,9 +1,13 @@
 {
   "RxCUI": "1600710",
-  "Name": "PREZCOBIX 800 MG-150 MG TABLET",
+  "Name": "cobicistat 150 MG / darunavir 800 MG Oral Tablet [Prezcobix]",
   "IsBrand": true,
-  "Brand_RxCUI": "1600704",
-  "Generic_RxCUI": "1600710",
+  "Brand_Mate_RxCUI": "1600710",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cobicistat Darunavir",
+  "Manufacturer_Name": "Prezcobix",
+  "Strength": "150 MG",
+  "Form": "",
   "prices": {
     "59676057530": {
       "01/03/2018": 58.048,
@@ -36,7 +40,8 @@
       "07/23/2025": 79.87497,
       "08/20/2025": 79.87843,
       "09/17/2025": 79.87312,
-      "10/22/2025": 79.90185
+      "10/22/2025": 79.90185,
+      "11/19/2025": 79.9639
     }
   }
 }

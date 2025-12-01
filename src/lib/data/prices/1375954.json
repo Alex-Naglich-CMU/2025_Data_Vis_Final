@@ -1,9 +1,13 @@
 {
   "RxCUI": "1375954",
-  "Name": "DICLEGIS DR 10-10 MG TABLET",
+  "Name": "doxylamine succinate 10 MG / pyridoxine hydrochloride 10 MG Delayed Release Oral Tablet [Diclegis]",
   "IsBrand": true,
-  "Brand_RxCUI": "1375948",
-  "Generic_RxCUI": "1375954",
+  "Brand_Mate_RxCUI": "1375954",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Doxylamine Succinate Pyridoxine Hydrochloride Delayed Release",
+  "Manufacturer_Name": "Diclegis",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "55494010010": {
       "07/01/2017": 6.03901,
@@ -29,7 +33,8 @@
       "01/01/2025": 2.48962,
       "05/21/2025": 2.49334,
       "06/18/2025": 2.49464,
-      "07/01/2025": 1.99571
+      "07/01/2025": 1.99571,
+      "11/19/2025": 1.99551
     }
   }
 }

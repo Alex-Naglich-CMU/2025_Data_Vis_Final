@@ -1,9 +1,13 @@
 {
   "RxCUI": "706872",
-  "Name": "AZASITE 1% EYE DROPS",
+  "Name": "azithromycin 10 MG/ML Ophthalmic Solution [AzaSite]",
   "IsBrand": true,
-  "Brand_RxCUI": "706868",
-  "Generic_RxCUI": "706872",
+  "Brand_Mate_RxCUI": "706872",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Azithromycin Mgml",
+  "Manufacturer_Name": "AzaSite",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "17478030703": {
       "07/21/2021": 79.4275,
@@ -30,7 +34,8 @@
       "07/23/2025": 98.5049,
       "08/20/2025": 98.53278,
       "09/17/2025": 98.4791,
-      "10/22/2025": 98.47541
+      "10/22/2025": 98.47541,
+      "11/19/2025": 98.40886
     }
   }
 }

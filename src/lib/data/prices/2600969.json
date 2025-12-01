@@ -1,9 +1,13 @@
 {
   "RxCUI": "2600969",
-  "Name": "EPSOLAY 5% CREAM PUMP",
+  "Name": "benzoyl peroxide 50 MG/ML Topical Cream [Epsolay]",
   "IsBrand": true,
-  "Brand_RxCUI": "308693",
-  "Generic_RxCUI": "2600969",
+  "Brand_Mate_RxCUI": "2600969",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Benzoyl Peroxide Mgml",
+  "Manufacturer_Name": "Epsolay",
+  "Strength": "50 MG/ML",
+  "Form": "",
   "prices": {
     "00299589030": {
       "06/18/2025": 17.17119,

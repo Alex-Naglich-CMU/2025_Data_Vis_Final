@@ -1,16 +1,21 @@
 {
   "RxCUI": "862021",
-  "Name": "INTUNIV ER 3 MG TABLET",
+  "Name": "24 HR guanfacine 3 MG Extended Release Oral Tablet [Intuniv]",
   "IsBrand": true,
-  "Brand_RxCUI": "862019",
-  "Generic_RxCUI": "862021",
+  "Brand_Mate_RxCUI": "862021",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Guanfacine Extended Release",
+  "Manufacturer_Name": "Intuniv",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "54092051702": {
       "02/19/2025": 9.31808,
       "06/18/2025": 9.3517,
       "08/20/2025": 9.37043,
       "09/17/2025": 9.36263,
-      "10/22/2025": 9.30367
+      "10/22/2025": 9.30367,
+      "11/19/2025": 9.35092
     }
   }
 }

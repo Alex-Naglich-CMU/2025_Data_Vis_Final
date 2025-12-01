@@ -1,9 +1,13 @@
 {
   "RxCUI": "1855389",
-  "Name": "LEVALBUTEROL CONC 1.25 MG/0.5",
+  "Name": "levalbuterol 2.5 MG/ML Inhalation Solution",
   "IsBrand": false,
-  "Brand_RxCUI": "1855389",
-  "Generic_RxCUI": "1855391",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1855389",
+  "Ingredient_Name": "Levalbuterol Mgml Inhalation",
+  "Manufacturer_Name": "",
+  "Strength": "2.5 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00093414756": {
       "05/22/2024": 4.2152,

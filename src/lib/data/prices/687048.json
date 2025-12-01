@@ -1,13 +1,20 @@
 {
   "RxCUI": "687048",
-  "Name": "LESCOL XL 80 MG TABLET",
+  "Name": "24 HR fluvastatin 80 MG Extended Release Oral Tablet [Lescol]",
   "IsBrand": true,
-  "Brand_RxCUI": "360507",
-  "Generic_RxCUI": "687048",
+  "Brand_Mate_RxCUI": "687048",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Fluvastatin Extended Release",
+  "Manufacturer_Name": "Lescol",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00078035415": {
       "07/11/2017": 9.96264,
       "01/03/2018": 10.45088
+    },
+    "66758021131": {
+      "11/19/2025": 13.06233
     }
   }
 }

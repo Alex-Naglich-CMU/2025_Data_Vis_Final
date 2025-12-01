@@ -1,9 +1,13 @@
 {
   "RxCUI": "966420",
-  "Name": "TIROSINT 150 MCG CAPSULE",
+  "Name": "levothyroxine sodium 0.15 MG Oral Capsule [Tirosint]",
   "IsBrand": true,
-  "Brand_RxCUI": "966413",
-  "Generic_RxCUI": "966420",
+  "Brand_Mate_RxCUI": "966420",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "Tirosint",
+  "Strength": "0.15 MG",
+  "Form": "",
   "prices": {
     "71858005004": {
       "05/22/2019": 4.10567,

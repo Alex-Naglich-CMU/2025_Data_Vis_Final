@@ -1,9 +1,13 @@
 {
   "RxCUI": "313572",
-  "Name": "VANCOMYCIN HCL 5 GM VIAL",
+  "Name": "vancomycin 50 MG/ML Injectable Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "313572",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "313572",
+  "Ingredient_Name": "Vancomycin Mgml Injectable",
+  "Manufacturer_Name": "",
+  "Strength": "50 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00409650901": {
       "09/20/2017": 28.30333

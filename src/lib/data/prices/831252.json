@@ -1,9 +1,13 @@
 {
   "RxCUI": "831252",
-  "Name": "DILT XR 180 MG CAPSULE",
+  "Name": "24 HR diltiazem hydrochloride 180 MG Extended Release Oral Capsule [Dilt]",
   "IsBrand": false,
-  "Brand_RxCUI": "830845",
-  "Generic_RxCUI": "831252",
+  "Brand_Mate_RxCUI": "830845",
+  "Generic_Mate_RxCUI": "831252",
+  "Ingredient_Name": "Hr Diltiazem Hydrochloride Extended Release",
+  "Manufacturer_Name": "Dilt",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "60505001506": {
       "05/19/2021": 0.58873,
@@ -106,7 +110,8 @@
       "07/23/2025": 0.49959,
       "08/20/2025": 0.49364,
       "09/17/2025": 0.48865,
-      "10/22/2025": 0.51349
+      "10/22/2025": 0.51349,
+      "11/19/2025": 0.50176
     },
     "60505001508": {
       "05/19/2021": 0.58873,
@@ -209,7 +214,8 @@
       "07/23/2025": 0.49959,
       "08/20/2025": 0.49364,
       "09/17/2025": 0.48865,
-      "10/22/2025": 0.51349
+      "10/22/2025": 0.51349,
+      "11/19/2025": 0.50176
     }
   }
 }

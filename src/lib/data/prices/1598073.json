@@ -1,10 +1,17 @@
 {
   "RxCUI": "1598073",
-  "Name": "SOOLANTRA 1% CREAM",
+  "Name": "ivermectin 10 MG/ML Topical Cream [Soolantra]",
   "IsBrand": true,
-  "Brand_RxCUI": "1598068",
-  "Generic_RxCUI": "1598073",
+  "Brand_Mate_RxCUI": "1598073",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ivermectin Mgml",
+  "Manufacturer_Name": "Soolantra",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
+    "00299382330": {
+      "04/04/2018": 11.64943
+    },
     "00299382345": {
       "02/21/2018": 10.62424,
       "04/04/2018": 11.67573,
@@ -21,10 +28,8 @@
       "07/23/2025": 15.52611,
       "08/20/2025": 15.52886,
       "09/17/2025": 15.52854,
-      "10/22/2025": 15.51623
-    },
-    "00299382330": {
-      "04/04/2018": 11.64943
+      "10/22/2025": 15.51623,
+      "11/19/2025": 15.5084
     }
   }
 }

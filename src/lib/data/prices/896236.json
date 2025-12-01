@@ -1,9 +1,13 @@
 {
   "RxCUI": "896236",
-  "Name": "FLUTICASONE-SALMETEROL 45-21",
+  "Name": "120 ACTUAT fluticasone propionate 0.045 MG/ACTUAT / salmeterol 0.021 MG/ACTUAT Metered Dose Inhaler",
   "IsBrand": false,
-  "Brand_RxCUI": "896236",
-  "Generic_RxCUI": "896237",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "896236",
+  "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "",
+  "Strength": "120 ACTU",
+  "Form": "",
   "prices": {
     "66993008696": {
       "01/17/2024": 17.0885,
@@ -26,7 +30,8 @@
       "07/23/2025": 16.06835,
       "08/20/2025": 16.1709,
       "09/17/2025": 16.39715,
-      "10/22/2025": 16.64529
+      "10/22/2025": 16.64529,
+      "11/19/2025": 16.78175
     }
   }
 }

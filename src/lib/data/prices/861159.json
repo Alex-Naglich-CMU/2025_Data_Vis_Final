@@ -1,9 +1,13 @@
 {
   "RxCUI": "861159",
-  "Name": "RYTHMOL SR 225 MG CAPSULE",
+  "Name": "12 HR propafenone hydrochloride 225 MG Extended Release Oral Capsule [Rythmol]",
   "IsBrand": true,
-  "Brand_RxCUI": "861156",
-  "Generic_RxCUI": "861159",
+  "Brand_Mate_RxCUI": "861159",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Propafenone Hydrochloride Extended Release",
+  "Manufacturer_Name": "Rythmol",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "00173082318": {
       "01/01/2018": 11.68879

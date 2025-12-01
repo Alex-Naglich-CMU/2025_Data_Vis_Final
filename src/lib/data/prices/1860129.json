@@ -1,9 +1,13 @@
 {
   "RxCUI": "1860129",
-  "Name": "OXYCODONE HCL ER 20 MG TABLET",
+  "Name": "Abuse-Deterrent 12 HR oxycodone hydrochloride 20 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1860129",
-  "Generic_RxCUI": "1049565",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1860129",
+  "Ingredient_Name": "Abuse-Deterrent Hr Oxycodone Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "12 HR",
+  "Form": "Tablet",
   "prices": {
     "00093573201": {
       "06/21/2017": 3.9209,

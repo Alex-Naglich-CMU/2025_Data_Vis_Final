@@ -1,9 +1,13 @@
 {
   "RxCUI": "1747697",
-  "Name": "DESCOVY 200-25 MG TABLET",
+  "Name": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet [Descovy]",
   "IsBrand": true,
-  "Brand_RxCUI": "1747691",
-  "Generic_RxCUI": "1747697",
+  "Brand_Mate_RxCUI": "1747697",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Emtricitabine Tenofovir Alafenamide",
+  "Manufacturer_Name": "Descovy",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "61958200201": {
       "11/22/2017": 50.42859,
@@ -35,7 +39,8 @@
       "07/23/2025": 71.32409,
       "08/20/2025": 71.32229,
       "09/17/2025": 71.3232,
-      "10/22/2025": 71.32732
+      "10/22/2025": 71.32732,
+      "11/19/2025": 71.41607
     },
     "61958200202": {
       "10/21/2020": 59.66786,
@@ -60,7 +65,8 @@
       "07/23/2025": 71.32409,
       "08/20/2025": 71.32229,
       "09/17/2025": 71.3232,
-      "10/22/2025": 71.32732
+      "10/22/2025": 71.32732,
+      "11/19/2025": 71.41607
     }
   }
 }

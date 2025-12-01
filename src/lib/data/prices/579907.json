@@ -1,9 +1,13 @@
 {
   "RxCUI": "579907",
-  "Name": "REFRESH CELLUVISC 1% EYE DROPS",
+  "Name": "carboxymethylcellulose sodium 0.01 MG/MG Ophthalmic Gel",
   "IsBrand": true,
-  "Brand_RxCUI": "579907",
-  "Generic_RxCUI": "998666",
+  "Brand_Mate_RxCUI": "579907",
+  "Generic_Mate_RxCUI": "998666",
+  "Ingredient_Name": "Carboxymethylcellulose Sodium Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.01 MG/MG",
+  "Form": "Gel",
   "prices": {
     "00023455430": {
       "08/23/2017": 0.33108,
@@ -17,7 +21,8 @@
       "05/21/2025": 0.36656,
       "06/18/2025": 0.36664,
       "09/17/2025": 0.36637,
-      "10/22/2025": 0.36655
+      "10/22/2025": 0.36655,
+      "11/19/2025": 0.36665
     },
     "00023920515": {
       "11/22/2017": 0.52528,
@@ -31,7 +36,8 @@
       "05/21/2025": 0.57818,
       "06/18/2025": 0.57821,
       "09/17/2025": 0.57748,
-      "10/22/2025": 0.57715
+      "10/22/2025": 0.57715,
+      "11/19/2025": 0.5773
     }
   }
 }

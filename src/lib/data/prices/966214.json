@@ -1,9 +1,13 @@
 {
   "RxCUI": "966214",
-  "Name": "LEVO-T 300 MCG TABLET",
+  "Name": "levothyroxine sodium 0.3 MG Oral Tablet [Levo-T]",
   "IsBrand": false,
-  "Brand_RxCUI": "892255",
-  "Generic_RxCUI": "966214",
+  "Brand_Mate_RxCUI": "892255",
+  "Generic_Mate_RxCUI": "966214",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "Levo-T",
+  "Strength": "0.3 MG",
+  "Form": "",
   "prices": {
     "55466011511": {
       "05/19/2021": 0.49158,
@@ -105,7 +109,8 @@
       "07/23/2025": 0.12179,
       "08/20/2025": 0.12784,
       "09/17/2025": 0.11646,
-      "10/22/2025": 0.11657
+      "10/22/2025": 0.11657,
+      "11/19/2025": 0.11031
     }
   }
 }

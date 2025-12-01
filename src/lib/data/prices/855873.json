@@ -1,11 +1,15 @@
 {
   "RxCUI": "855873",
-  "Name": "PHENYTOIN SOD EXT 300 MG CAP",
+  "Name": "phenytoin sodium 300 MG Extended Release Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "855873",
-  "Generic_RxCUI": "855875",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "855873",
+  "Ingredient_Name": "Phenytoin Sodium Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "300 MG",
+  "Form": "Capsule",
   "prices": {
-    "62756043288": {
+    "62756043283": {
       "05/19/2021": 1.40622,
       "06/23/2021": 1.59746,
       "10/17/2018": 1.6658,
@@ -26,7 +30,7 @@
       "05/17/2023": 1.40273,
       "06/21/2023": 1.36066
     },
-    "62756043283": {
+    "62756043288": {
       "05/19/2021": 1.40622,
       "06/23/2021": 1.59746,
       "10/17/2018": 1.6658,

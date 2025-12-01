@@ -1,9 +1,13 @@
 {
   "RxCUI": "607028",
-  "Name": "LYRICA 300 MG CAPSULE",
+  "Name": "pregabalin 300 MG Oral Capsule [Lyrica]",
   "IsBrand": true,
-  "Brand_RxCUI": "483444",
-  "Generic_RxCUI": "607028",
+  "Brand_Mate_RxCUI": "607028",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Pregabalin",
+  "Manufacturer_Name": "Lyrica",
+  "Strength": "300 MG",
+  "Form": "",
   "prices": {
     "00071101868": {
       "06/01/2017": 6.62409,
@@ -35,10 +39,12 @@
       "06/18/2025": 9.69311,
       "07/23/2025": 9.6858,
       "08/20/2025": 9.68981,
-      "09/17/2025": 9.69168
+      "09/17/2025": 9.69168,
+      "11/19/2025": 9.67814
     },
     "58151024277": {
-      "09/17/2025": 9.69168
+      "09/17/2025": 9.69168,
+      "11/19/2025": 9.67814
     }
   }
 }

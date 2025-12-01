@@ -1,9 +1,13 @@
 {
   "RxCUI": "2636042",
-  "Name": "UZEDY ER 125 MG/0.35 ML SYRING",
+  "Name": "0.35 ML risperidone 357 MG/ML Prefilled Syringe [Uzedy]",
   "IsBrand": true,
-  "Brand_RxCUI": "2636041",
-  "Generic_RxCUI": "2636042",
+  "Brand_Mate_RxCUI": "2636042",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Risperidone Mgml Prefilled",
+  "Manufacturer_Name": "Uzedy",
+  "Strength": "0.35 ML",
+  "Form": "",
   "prices": {
     "51759063010": {
       "08/21/2024": 8783.63333,
@@ -15,7 +19,8 @@
       "05/21/2025": 9057.75919,
       "06/18/2025": 9056.19429,
       "07/23/2025": 9075.75714,
-      "10/22/2025": 9070.07619
+      "10/22/2025": 9070.07619,
+      "11/19/2025": 9066.36391
     }
   }
 }

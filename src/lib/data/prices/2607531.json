@@ -1,9 +1,13 @@
 {
   "RxCUI": "2607531",
-  "Name": "CAPLYTA 10.5 MG CAPSULE",
+  "Name": "lumateperone 10.5 MG Oral Capsule [Caplyta]",
   "IsBrand": true,
-  "Brand_RxCUI": "2607529",
-  "Generic_RxCUI": "2607531",
+  "Brand_Mate_RxCUI": "2607531",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Lumateperone",
+  "Manufacturer_Name": "Caplyta",
+  "Strength": "10.5 MG",
+  "Form": "",
   "prices": {
     "72060011040": {
       "01/01/2024": 53.02001,
@@ -21,7 +25,8 @@
       "07/23/2025": 54.64091,
       "08/20/2025": 54.63119,
       "09/17/2025": 54.66471,
-      "10/22/2025": 54.65342
+      "10/22/2025": 54.65342,
+      "11/19/2025": 54.64307
     }
   }
 }

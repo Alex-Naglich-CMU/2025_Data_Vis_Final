@@ -1,9 +1,13 @@
 {
   "RxCUI": "1654630",
-  "Name": "GLATOPA 20 MG/ML SYRINGE",
+  "Name": "1 ML glatiramer acetate 20 MG/ML Prefilled Syringe [Glatopa]",
   "IsBrand": false,
-  "Brand_RxCUI": "1111641",
-  "Generic_RxCUI": "1654630",
+  "Brand_Mate_RxCUI": "1111641",
+  "Generic_Mate_RxCUI": "1654630",
+  "Ingredient_Name": "Glatiramer Mgml Prefilled",
+  "Manufacturer_Name": "Glatopa",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00781323434": {
       "07/17/2024": 47.24879,
@@ -21,7 +25,8 @@
       "07/23/2025": 47.71766,
       "08/20/2025": 48.44889,
       "09/17/2025": 48.49967,
-      "10/22/2025": 46.79974
+      "10/22/2025": 46.79974,
+      "11/19/2025": 45.4359
     }
   }
 }

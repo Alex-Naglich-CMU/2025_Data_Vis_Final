@@ -1,9 +1,13 @@
 {
   "RxCUI": "1860491",
-  "Name": "HYDROCODONE ER 10 MG CAPSULE",
+  "Name": "12 HR hydrocodone bitartrate 10 MG Extended Release Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "1860491",
-  "Generic_RxCUI": "1860492",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1860491",
+  "Ingredient_Name": "Hr Hydrocodone Bitartrate Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "12 HR",
+  "Form": "Capsule",
   "prices": {
     "47781040960": {
       "05/22/2024": 6.53326,

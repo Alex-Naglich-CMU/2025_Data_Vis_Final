@@ -1,17 +1,23 @@
 {
   "RxCUI": "1736047",
-  "Name": "SPRITAM 250 MG TABLET",
+  "Name": "levetiracetam 250 MG Tablet for Oral Suspension [Spritam]",
   "IsBrand": true,
-  "Brand_RxCUI": "1736045",
-  "Generic_RxCUI": "1736047",
+  "Brand_Mate_RxCUI": "1736047",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Levetiracetam For",
+  "Manufacturer_Name": "Spritam",
+  "Strength": "250 MG",
+  "Form": "",
   "prices": {
     "43485010101": {
       "04/23/2025": 10.35344,
-      "10/22/2025": 10.34872
+      "10/22/2025": 10.34872,
+      "11/19/2025": 10.3511
     },
     "43485010160": {
       "04/23/2025": 10.35344,
-      "10/22/2025": 10.34872
+      "10/22/2025": 10.34872,
+      "11/19/2025": 10.3511
     }
   }
 }

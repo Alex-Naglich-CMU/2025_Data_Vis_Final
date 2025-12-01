@@ -1,9 +1,13 @@
 {
   "RxCUI": "904593",
-  "Name": "SORINE 240 MG TABLET",
+  "Name": "sotalol hydrochloride 240 MG Oral Tablet [Sorine]",
   "IsBrand": false,
-  "Brand_RxCUI": "904589",
-  "Generic_RxCUI": "904593",
+  "Brand_Mate_RxCUI": "904589",
+  "Generic_Mate_RxCUI": "904593",
+  "Ingredient_Name": "Sotalol Hydrochloride",
+  "Manufacturer_Name": "Sorine",
+  "Strength": "240 MG",
+  "Form": "",
   "prices": {
     "00245001501": {
       "10/23/2024": 0.28817,

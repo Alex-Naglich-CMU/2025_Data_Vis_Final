@@ -1,9 +1,13 @@
 {
   "RxCUI": "206101",
-  "Name": "ESTRACE 1 MG TABLET",
+  "Name": "estradiol 1 MG Oral Tablet [Estrace]",
   "IsBrand": true,
-  "Brand_RxCUI": "197658",
-  "Generic_RxCUI": "206101",
+  "Brand_Mate_RxCUI": "206101",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Estradiol",
+  "Manufacturer_Name": "Estrace",
+  "Strength": "1 MG",
+  "Form": "",
   "prices": {
     "00430072124": {
       "01/01/2018": 5.01123,

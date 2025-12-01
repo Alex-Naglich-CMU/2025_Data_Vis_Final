@@ -1,9 +1,13 @@
 {
   "RxCUI": "1100070",
-  "Name": "DUEXIS 800-26.6 MG TABLET",
+  "Name": "famotidine 26.6 MG / ibuprofen 800 MG Oral Tablet [Duexis]",
   "IsBrand": true,
-  "Brand_RxCUI": "1100066",
-  "Generic_RxCUI": "1100070",
+  "Brand_Mate_RxCUI": "1100070",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Famotidine Ibuprofen",
+  "Manufacturer_Name": "Duexis",
+  "Strength": "26.6 MG",
+  "Form": "",
   "prices": {
     "75987001003": {
       "09/20/2017": 24.08379,

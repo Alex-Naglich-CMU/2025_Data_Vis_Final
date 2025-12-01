@@ -1,9 +1,13 @@
 {
   "RxCUI": "1992305",
-  "Name": "BETIMOL 0.5% EYE DROPS",
+  "Name": "timolol hemihydrate 5 MG/ML Ophthalmic Solution [Betimol]",
   "IsBrand": true,
-  "Brand_RxCUI": "2702393",
-  "Generic_RxCUI": "1992305",
+  "Brand_Mate_RxCUI": "1992305",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Timolol Hemihydrate Mgml",
+  "Manufacturer_Name": "Betimol",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "76478000205": {
       "12/30/2021": 29.17987,
@@ -29,7 +33,8 @@
       "07/23/2025": 31.25781,
       "08/20/2025": 31.23443,
       "09/17/2025": 31.21769,
-      "10/22/2025": 31.16314
+      "10/22/2025": 31.16314,
+      "11/19/2025": 31.1429
     },
     "82584000215": {
       "11/20/2024": 30.272,

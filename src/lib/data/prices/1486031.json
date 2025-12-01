@@ -1,9 +1,13 @@
 {
   "RxCUI": "1486031",
-  "Name": "CRITIC-AID SKIN PASTE",
+  "Name": "zinc oxide 0.2 MG/MG Paste [Critic-Aid Skin]",
   "IsBrand": false,
-  "Brand_RxCUI": "416684",
-  "Generic_RxCUI": "1486031",
+  "Brand_Mate_RxCUI": "416684",
+  "Generic_Mate_RxCUI": "1486031",
+  "Ingredient_Name": "Zinc Oxide Mgmg Paste",
+  "Manufacturer_Name": "Critic-Aid Skin",
+  "Strength": "0.2 MG/MG",
+  "Form": "",
   "prices": {
     "11701005032": {
       "01/17/2018": 0.06175

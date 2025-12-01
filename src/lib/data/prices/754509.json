@@ -2,8 +2,12 @@
   "RxCUI": "754509",
   "Name": "EMEND TRIPACK",
   "IsBrand": true,
-  "Brand_RxCUI": "754508",
-  "Generic_RxCUI": "754509",
+  "Brand_Mate_RxCUI": "754509",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Emend Tripack",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "",
   "prices": {
     "00006386203": {
       "01/05/2018": 246.01901

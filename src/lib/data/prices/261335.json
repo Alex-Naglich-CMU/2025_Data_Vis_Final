@@ -1,9 +1,13 @@
 {
   "RxCUI": "261335",
-  "Name": "KEPPRA 250 MG TABLET",
+  "Name": "levetiracetam 250 MG Oral Tablet [Keppra]",
   "IsBrand": true,
-  "Brand_RxCUI": "311288",
-  "Generic_RxCUI": "261335",
+  "Brand_Mate_RxCUI": "261335",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Levetiracetam",
+  "Manufacturer_Name": "Keppra",
+  "Strength": "250 MG",
+  "Form": "",
   "prices": {
     "50474059440": {
       "01/01/2018": 6.16727,
@@ -25,7 +29,8 @@
       "07/23/2025": 7.89818,
       "08/20/2025": 7.91515,
       "09/17/2025": 7.92003,
-      "10/22/2025": 7.90917
+      "10/22/2025": 7.90917,
+      "11/19/2025": 7.89899
     }
   }
 }

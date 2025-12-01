@@ -1,18 +1,25 @@
 {
   "RxCUI": "1313059",
-  "Name": "PHENTERMINE-TOPIRAMATE ER 11.25-69 MG CAPSULE",
+  "Name": "24 HR phentermine 11.25 MG / topiramate 69 MG Extended Release Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "1313059",
-  "Generic_RxCUI": "1313061",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1313059",
+  "Ingredient_Name": "Hr Phentermine Topiramate Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Capsule",
   "prices": {
     "00480229956": {
-      "10/22/2025": 4.23089
+      "10/22/2025": 4.23089,
+      "11/19/2025": 4.29882
     },
     "43598062630": {
-      "10/22/2025": 4.23089
+      "10/22/2025": 4.23089,
+      "11/19/2025": 4.29882
     },
     "66993078230": {
-      "10/22/2025": 4.23089
+      "10/22/2025": 4.23089,
+      "11/19/2025": 4.29882
     }
   }
 }

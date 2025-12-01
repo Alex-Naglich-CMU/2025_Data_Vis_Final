@@ -1,9 +1,13 @@
 {
   "RxCUI": "152414",
-  "Name": "TENORMIN 50 MG TABLET",
+  "Name": "atenolol 50 MG Oral Tablet [Tenormin]",
   "IsBrand": true,
-  "Brand_RxCUI": "197381",
-  "Generic_RxCUI": "152414",
+  "Brand_Mate_RxCUI": "152414",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Atenolol",
+  "Manufacturer_Name": "Tenormin",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "52427043090": {
       "05/22/2024": 12.77101,

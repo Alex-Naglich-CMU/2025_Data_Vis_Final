@@ -2,8 +2,12 @@
   "RxCUI": "1795598",
   "Name": "LARISSIA-28 TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "748868",
-  "Generic_RxCUI": "1795598",
+  "Brand_Mate_RxCUI": "748868",
+  "Generic_Mate_RxCUI": "1795598",
+  "Ingredient_Name": "Larissia-",
+  "Manufacturer_Name": "",
+  "Strength": "28 TABL",
+  "Form": "TABLET",
   "prices": {
     "69238153106": {
       "05/19/2021": 0.24462,

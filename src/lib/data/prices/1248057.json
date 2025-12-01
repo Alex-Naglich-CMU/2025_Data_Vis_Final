@@ -1,9 +1,13 @@
 {
   "RxCUI": "1248057",
-  "Name": "PROMETHAZINE-PHENYLEPHRINE SYR",
+  "Name": "phenylephrine hydrochloride 1 MG/ML / promethazine hydrochloride 1.25 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1248057",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1248057",
+  "Ingredient_Name": "Phenylephrine Hydrochloride Mgml Promethazine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 MG/ML",
+  "Form": "Solution",
   "prices": {
     "50383080216": {
       "06/21/2017": 0.19358,

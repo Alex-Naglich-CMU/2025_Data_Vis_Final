@@ -1,9 +1,13 @@
 {
   "RxCUI": "861373",
-  "Name": "RENVELA 2.4 GM POWDER PACKET",
+  "Name": "sevelamer carbonate 2400 MG Powder for Oral Suspension [Renvela]",
   "IsBrand": true,
-  "Brand_RxCUI": "861370",
-  "Generic_RxCUI": "861373",
+  "Brand_Mate_RxCUI": "861373",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sevelamer Carbonate For",
+  "Manufacturer_Name": "Renvela",
+  "Strength": "2400 MG",
+  "Form": "",
   "prices": {
     "58468013101": {
       "09/20/2017": 16.33722,

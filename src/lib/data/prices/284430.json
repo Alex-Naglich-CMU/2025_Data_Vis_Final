@@ -1,9 +1,13 @@
 {
   "RxCUI": "284430",
-  "Name": "VANIQA 13.9% CREAM",
+  "Name": "eflornithine 139 MG/ML Topical Cream [Vaniqa]",
   "IsBrand": true,
-  "Brand_RxCUI": "313975",
-  "Generic_RxCUI": "284430",
+  "Brand_Mate_RxCUI": "284430",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Eflornithine Mgml",
+  "Manufacturer_Name": "Vaniqa",
+  "Strength": "139 MG/ML",
+  "Form": "",
   "prices": {
     "00023485745": {
       "07/21/2021": 3.54425,

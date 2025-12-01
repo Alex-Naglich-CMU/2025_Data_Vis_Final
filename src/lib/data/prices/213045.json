@@ -1,9 +1,13 @@
 {
   "RxCUI": "213045",
-  "Name": "EFUDEX 5% CREAM",
+  "Name": "fluorouracil 50 MG/ML Topical Cream [Efudex]",
   "IsBrand": true,
-  "Brand_RxCUI": "105583",
-  "Generic_RxCUI": "213045",
+  "Brand_Mate_RxCUI": "213045",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fluorouracil Mgml",
+  "Manufacturer_Name": "Efudex",
+  "Strength": "50 MG/ML",
+  "Form": "",
   "prices": {
     "00187320447": {
       "04/17/2024": 1.43786,

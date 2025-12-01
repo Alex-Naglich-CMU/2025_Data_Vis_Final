@@ -1,9 +1,13 @@
 {
   "RxCUI": "403811",
-  "Name": "APREPITANT 125 MG CAPSULE",
+  "Name": "aprepitant 125 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "403811",
-  "Generic_RxCUI": "404466",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "403811",
+  "Ingredient_Name": "Aprepitant",
+  "Manufacturer_Name": "",
+  "Strength": "125 MG",
+  "Form": "Capsule",
   "prices": {
     "00781232306": {
       "01/22/2025": 179.85525,

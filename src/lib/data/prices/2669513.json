@@ -1,9 +1,13 @@
 {
   "RxCUI": "2669513",
-  "Name": "VOQUEZNA 10 MG TABLET",
+  "Name": "vonoprazan 10 MG Oral Tablet [Voquezna]",
   "IsBrand": true,
-  "Brand_RxCUI": "2669507",
-  "Generic_RxCUI": "2669513",
+  "Brand_Mate_RxCUI": "2669513",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Vonoprazan",
+  "Manufacturer_Name": "Voquezna",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "81520010030": {
       "06/19/2024": 20.74342,
@@ -19,7 +23,8 @@
       "07/23/2025": 21.77576,
       "08/20/2025": 21.77305,
       "09/17/2025": 21.7594,
-      "10/22/2025": 21.77241
+      "10/22/2025": 21.77241,
+      "11/19/2025": 21.77294
     }
   }
 }

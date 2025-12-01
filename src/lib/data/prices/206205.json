@@ -1,9 +1,13 @@
 {
   "RxCUI": "206205",
-  "Name": "PREVACID 15 MG SOLUTAB",
+  "Name": "lansoprazole 15 MG Disintegrating Oral Tablet [Prevacid]",
   "IsBrand": true,
-  "Brand_RxCUI": "351261",
-  "Generic_RxCUI": "206205",
+  "Brand_Mate_RxCUI": "206205",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Lansoprazole Disintegrating",
+  "Manufacturer_Name": "Prevacid",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "64764054311": {
       "11/22/2017": 13.27051,
@@ -25,7 +29,8 @@
       "07/23/2025": 13.19929,
       "08/20/2025": 13.20122,
       "09/17/2025": 13.20603,
-      "10/22/2025": 13.17267
+      "10/22/2025": 13.17267,
+      "11/19/2025": 13.19264
     },
     "64764054330": {
       "05/22/2024": 13.26461,
@@ -43,7 +48,8 @@
       "07/23/2025": 13.19929,
       "08/20/2025": 13.20122,
       "09/17/2025": 13.20603,
-      "10/22/2025": 13.17267
+      "10/22/2025": 13.17267,
+      "11/19/2025": 13.19264
     }
   }
 }

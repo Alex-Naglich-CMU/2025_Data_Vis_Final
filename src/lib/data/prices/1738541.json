@@ -1,9 +1,13 @@
 {
   "RxCUI": "1738541",
-  "Name": "SERNIVO 0.05% SPRAY",
+  "Name": "betamethasone 0.5 MG/ML Topical Spray [Sernivo]",
   "IsBrand": true,
-  "Brand_RxCUI": "1738536",
-  "Generic_RxCUI": "1738541",
+  "Brand_Mate_RxCUI": "1738541",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Betamethasone Mgml",
+  "Manufacturer_Name": "Sernivo",
+  "Strength": "0.5 MG/ML",
+  "Form": "",
   "prices": {
     "67857080804": {
       "01/01/2018": 6.53249,

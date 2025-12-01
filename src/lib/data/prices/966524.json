@@ -1,9 +1,13 @@
 {
   "RxCUI": "966524",
-  "Name": "PULMICORT 180 MCG FLEXHALER",
+  "Name": "120 ACTUAT budesonide 0.18 MG/ACTUAT Dry Powder Inhaler [Pulmicort]",
   "IsBrand": true,
-  "Brand_RxCUI": "966522",
-  "Generic_RxCUI": "966524",
+  "Brand_Mate_RxCUI": "966524",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Budesonide Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Pulmicort",
+  "Strength": "120 ACTU",
+  "Form": "",
   "prices": {
     "00186091612": {
       "11/22/2017": 207.53891,
@@ -36,7 +40,8 @@
       "07/23/2025": 253.34223,
       "08/20/2025": 253.36816,
       "09/17/2025": 253.42525,
-      "10/22/2025": 253.45226
+      "10/22/2025": 253.45226,
+      "11/19/2025": 253.4065
     },
     "61269051812": {
       "02/21/2024": 253.87127,
@@ -57,7 +62,8 @@
       "07/23/2025": 253.34223,
       "08/20/2025": 253.36816,
       "09/17/2025": 253.42525,
-      "10/22/2025": 253.45226
+      "10/22/2025": 253.45226,
+      "11/19/2025": 253.4065
     }
   }
 }

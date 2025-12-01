@@ -1,15 +1,19 @@
 {
   "RxCUI": "207892",
-  "Name": "ACCUPRIL 10 MG TABLET",
+  "Name": "quinapril 10 MG Oral Tablet [Accupril]",
   "IsBrand": true,
-  "Brand_RxCUI": "312748",
-  "Generic_RxCUI": "207892",
+  "Brand_Mate_RxCUI": "207892",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Quinapril",
+  "Manufacturer_Name": "Accupril",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
-    "00071053040": {
+    "00071053023": {
       "06/01/2017": 4.29279,
       "01/01/2018": 4.69807
     },
-    "00071053023": {
+    "00071053040": {
       "06/01/2017": 4.29279,
       "01/01/2018": 4.69807
     }

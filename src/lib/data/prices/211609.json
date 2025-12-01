@@ -1,9 +1,13 @@
 {
   "RxCUI": "211609",
-  "Name": "ISOPTO TEARS 0.5% EYE DROPS",
+  "Name": "hypromellose 5 MG/ML Ophthalmic Solution [Isopto Alkaline]",
   "IsBrand": false,
-  "Brand_RxCUI": "142002",
-  "Generic_RxCUI": "211609",
+  "Brand_Mate_RxCUI": "142002",
+  "Generic_Mate_RxCUI": "211609",
+  "Ingredient_Name": "Hypromellose Mgml",
+  "Manufacturer_Name": "Isopto Alkaline",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "00998040815": {
       "06/19/2024": 2.02267,

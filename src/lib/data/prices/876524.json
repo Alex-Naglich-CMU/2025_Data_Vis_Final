@@ -1,9 +1,13 @@
 {
   "RxCUI": "876524",
-  "Name": "TELMISARTAN-AMLODIPINE 40-5 MG",
+  "Name": "amlodipine 5 MG / telmisartan 40 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "876524",
-  "Generic_RxCUI": "876528",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "876524",
+  "Ingredient_Name": "Amlodipine Telmisartan",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG",
+  "Form": "Tablet",
   "prices": {
     "00378107593": {
       "06/21/2023": 2.64987,
@@ -29,7 +33,8 @@
       "07/23/2025": 2.86533,
       "08/20/2025": 2.87219,
       "09/17/2025": 2.81184,
-      "10/22/2025": 2.79205
+      "10/22/2025": 2.79205,
+      "11/19/2025": 2.75475
     },
     "13668034630": {
       "06/21/2023": 2.64987,

@@ -1,15 +1,20 @@
 {
   "RxCUI": "793741",
-  "Name": "KIONEX 15 GM/60 ML SUSPENSION",
+  "Name": "sodium polystyrene sulfonate 250 MG/ML Oral Suspension [Kionex]",
   "IsBrand": false,
-  "Brand_RxCUI": "313072",
-  "Generic_RxCUI": "793741",
+  "Brand_Mate_RxCUI": "313072",
+  "Generic_Mate_RxCUI": "793741",
+  "Ingredient_Name": "Sodium Polystyrene Sulfonate Mgml",
+  "Manufacturer_Name": "Kionex",
+  "Strength": "250 MG/ML",
+  "Form": "",
   "prices": {
     "62559035601": {
       "06/19/2024": 0.40889,
       "07/23/2025": 0.32955,
       "09/17/2025": 0.32728,
-      "10/22/2025": 0.32133
+      "10/22/2025": 0.32133,
+      "11/19/2025": 0.33767
     }
   }
 }

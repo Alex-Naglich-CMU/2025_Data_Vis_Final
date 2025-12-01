@@ -1,14 +1,18 @@
 {
   "RxCUI": "404465",
-  "Name": "EMEND 80 MG CAPSULE",
+  "Name": "aprepitant 80 MG Oral Capsule [Emend]",
   "IsBrand": true,
-  "Brand_RxCUI": "403810",
-  "Generic_RxCUI": "404465",
+  "Brand_Mate_RxCUI": "404465",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Aprepitant",
+  "Manufacturer_Name": "Emend",
+  "Strength": "80 MG",
+  "Form": "",
   "prices": {
-    "00006046106": {
+    "00006046102": {
       "01/05/2018": 210.60485
     },
-    "00006046102": {
+    "00006046106": {
       "01/05/2018": 210.60485
     }
   }

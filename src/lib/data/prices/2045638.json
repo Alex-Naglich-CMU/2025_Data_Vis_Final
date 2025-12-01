@@ -1,9 +1,13 @@
 {
   "RxCUI": "2045638",
-  "Name": "AIMOVIG 70 MG/ML AUTOINJECTOR",
+  "Name": "1 ML erenumab-aooe 70 MG/ML Auto-Injector [Aimovig]",
   "IsBrand": true,
-  "Brand_RxCUI": "2045636",
-  "Generic_RxCUI": "2045638",
+  "Brand_Mate_RxCUI": "2045638",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Erenumab-Aooe Mgml Auto-Injector",
+  "Manufacturer_Name": "Aimovig",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "55513084101": {
       "07/17/2019": 554.76742,
@@ -30,7 +34,8 @@
       "07/23/2025": 739.33193,
       "08/20/2025": 739.14662,
       "09/17/2025": 739.04182,
-      "10/22/2025": 738.8007
+      "10/22/2025": 738.8007,
+      "11/19/2025": 738.51005
     }
   }
 }

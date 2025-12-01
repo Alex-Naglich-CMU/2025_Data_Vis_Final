@@ -1,9 +1,13 @@
 {
   "RxCUI": "213307",
-  "Name": "CILOXAN 0.3% OINTMENT",
+  "Name": "ciprofloxacin 0.003 MG/MG Ophthalmic Ointment [Ciloxan]",
   "IsBrand": true,
-  "Brand_RxCUI": "309306",
-  "Generic_RxCUI": "213307",
+  "Brand_Mate_RxCUI": "213307",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ciprofloxacin Mgmg",
+  "Manufacturer_Name": "Ciloxan",
+  "Strength": "0.003 MG/MG",
+  "Form": "",
   "prices": {
     "00065065435": {
       "06/23/2021": 58.93143,
@@ -32,7 +36,8 @@
     },
     "66758007138": {
       "09/17/2025": 74.402,
-      "10/22/2025": 74.43407
+      "10/22/2025": 74.43407,
+      "11/19/2025": 74.19882
     }
   }
 }

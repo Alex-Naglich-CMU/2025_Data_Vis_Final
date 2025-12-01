@@ -1,9 +1,13 @@
 {
   "RxCUI": "310379",
-  "Name": "FLUOROURACIL 2% TOPICAL SOLN",
+  "Name": "fluorouracil 20 MG/ML Topical Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "310379",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "310379",
+  "Ingredient_Name": "Fluorouracil Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "20 MG/ML",
+  "Form": "Solution",
   "prices": {
     "51672406201": {
       "11/22/2017": 4.606,
@@ -27,7 +31,8 @@
       "07/23/2025": 4.84745,
       "08/20/2025": 4.71404,
       "09/17/2025": 4.52244,
-      "10/22/2025": 4.40005
+      "10/22/2025": 4.40005,
+      "11/19/2025": 4.37759
     }
   }
 }

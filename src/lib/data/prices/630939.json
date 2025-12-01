@@ -1,9 +1,13 @@
 {
   "RxCUI": "630939",
-  "Name": "HYLENEX 150 UNITS/ML VIAL",
+  "Name": "1 ML hyaluronidase, human recombinant 150 UNT/ML Injection [Hylenex]",
   "IsBrand": true,
-  "Brand_RxCUI": "630936",
-  "Generic_RxCUI": "630939",
+  "Brand_Mate_RxCUI": "630939",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hyaluronidase, Human Recombinant Untml",
+  "Manufacturer_Name": "Hylenex",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "18657011704": {
       "05/22/2024": 53.30565,
@@ -22,7 +26,8 @@
       "07/23/2025": 53.34673,
       "08/20/2025": 53.28424,
       "09/17/2025": 53.35958,
-      "10/22/2025": 53.44
+      "10/22/2025": 53.44,
+      "11/19/2025": 53.42719
     }
   }
 }

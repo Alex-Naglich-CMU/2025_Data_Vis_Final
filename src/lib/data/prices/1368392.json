@@ -1,9 +1,13 @@
 {
   "RxCUI": "1368392",
-  "Name": "ALOGLIPTIN-METFORMIN 12.5-500",
+  "Name": "alogliptin 12.5 MG / metformin hydrochloride 500 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1368392",
-  "Generic_RxCUI": "1368398",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1368392",
+  "Ingredient_Name": "Alogliptin Metformin Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "12.5 MG",
+  "Form": "Tablet",
   "prices": {
     "45802016972": {
       "05/19/2021": 2.16583,
@@ -57,7 +61,8 @@
       "07/23/2025": 2.34691,
       "08/20/2025": 2.3377,
       "09/17/2025": 2.33203,
-      "10/22/2025": 2.3248
+      "10/22/2025": 2.3248,
+      "11/19/2025": 2.33506
     }
   }
 }

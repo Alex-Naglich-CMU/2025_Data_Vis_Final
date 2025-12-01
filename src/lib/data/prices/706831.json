@@ -1,9 +1,13 @@
 {
   "RxCUI": "706831",
-  "Name": "RISPERDAL CONSTA 25 MG SYR",
+  "Name": "risperidone 25 MG Injection [Risperdal]",
   "IsBrand": true,
-  "Brand_RxCUI": "402010",
-  "Generic_RxCUI": "706831",
+  "Brand_Mate_RxCUI": "706831",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Risperidone",
+  "Manufacturer_Name": "Risperdal",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "50458030611": {
       "07/06/2017": 415.25247,
@@ -35,7 +39,8 @@
       "07/23/2025": 619.53143,
       "08/20/2025": 620.86467,
       "09/17/2025": 620.36029,
-      "10/22/2025": 621.07351
+      "10/22/2025": 621.07351,
+      "11/19/2025": 621.47659
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "485968",
-  "Name": "OLANZAPINE 10 MG VIAL",
+  "Name": "olanzapine 10 MG Injection",
   "IsBrand": false,
-  "Brand_RxCUI": "485968",
-  "Generic_RxCUI": "545353",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "485968",
+  "Ingredient_Name": "Olanzapine",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG",
+  "Form": "Injection",
   "prices": {
     "00517095501": {
       "05/22/2024": 34.695,

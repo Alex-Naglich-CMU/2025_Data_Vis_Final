@@ -1,9 +1,13 @@
 {
   "RxCUI": "1247761",
-  "Name": "COLACE CLEAR 50 MG SOFTGEL",
+  "Name": "docusate sodium 50 MG Oral Capsule [Colace]",
   "IsBrand": true,
-  "Brand_RxCUI": "1247759",
-  "Generic_RxCUI": "1247761",
+  "Brand_Mate_RxCUI": "1247761",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Docusate Sodium",
+  "Manufacturer_Name": "Colace",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "67618011128": {
       "06/21/2017": 0.2492,
@@ -35,7 +39,8 @@
       "05/21/2025": 0.2567,
       "07/23/2025": 0.25672,
       "09/17/2025": 0.25385,
-      "10/22/2025": 0.25454
+      "10/22/2025": 0.25454,
+      "11/19/2025": 0.25648
     }
   }
 }

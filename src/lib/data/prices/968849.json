@@ -1,11 +1,15 @@
 {
   "RxCUI": "968849",
-  "Name": "NICORETTE 2 MG MINI LOZENGE",
+  "Name": "nicotine 2 MG Oral Lozenge [Nicorette]",
   "IsBrand": true,
-  "Brand_RxCUI": "359817",
-  "Generic_RxCUI": "968849",
+  "Brand_Mate_RxCUI": "968849",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Nicotine Lozenge",
+  "Manufacturer_Name": "Nicorette",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
-    "00135050804": {
+    "00135050802": {
       "12/20/2017": 0.45386,
       "03/21/2018": 0.40373,
       "07/18/2018": 0.46797,
@@ -27,7 +31,7 @@
       "08/21/2019": 0.49133,
       "10/23/2019": 0.47339
     },
-    "00135050802": {
+    "00135050804": {
       "12/20/2017": 0.45386,
       "03/21/2018": 0.40373,
       "07/18/2018": 0.46797,

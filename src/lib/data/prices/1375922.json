@@ -1,9 +1,13 @@
 {
   "RxCUI": "1375922",
-  "Name": "PROLENSA 0.07% EYE DROPS",
+  "Name": "bromfenac 0.7 MG/ML Ophthalmic Solution [Prolensa]",
   "IsBrand": true,
-  "Brand_RxCUI": "1375917",
-  "Generic_RxCUI": "1375922",
+  "Brand_Mate_RxCUI": "1375922",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Bromfenac Mgml",
+  "Manufacturer_Name": "Prolensa",
+  "Strength": "0.7 MG/ML",
+  "Form": "",
   "prices": {
     "24208060203": {
       "11/22/2017": 73.85954,
@@ -33,7 +37,8 @@
       "07/23/2025": 115.63402,
       "08/20/2025": 115.63732,
       "09/17/2025": 115.60364,
-      "10/22/2025": 115.51491
+      "10/22/2025": 115.51491,
+      "11/19/2025": 115.52825
     }
   }
 }

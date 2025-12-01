@@ -2,8 +2,12 @@
   "RxCUI": "2371768",
   "Name": "ORIAHNN 300-1-0.5 MG/300 MG CAPS",
   "IsBrand": true,
-  "Brand_RxCUI": "2371767",
-  "Generic_RxCUI": "2371768",
+  "Brand_Mate_RxCUI": "2371768",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Oriahnn -- Caps",
+  "Manufacturer_Name": "",
+  "Strength": "0.5 MG",
+  "Form": "",
   "prices": {
     "00074101756": {
       "1/14/2022": 18.0829,
@@ -19,7 +23,8 @@
       "01/02/2025": 20.80497,
       "08/20/2025": 20.806,
       "09/17/2025": 20.79366,
-      "10/22/2025": 20.71164
+      "10/22/2025": 20.71164,
+      "11/19/2025": 20.73053
     }
   }
 }

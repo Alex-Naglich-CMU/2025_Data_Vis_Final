@@ -1,9 +1,13 @@
 {
   "RxCUI": "866084",
-  "Name": "GNP COOL-HEAT APPLICATOR LIQ",
+  "Name": "menthol 160 MG/ML Topical Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "866084",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "866084",
+  "Ingredient_Name": "Menthol Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "160 MG/ML",
+  "Form": "Solution",
   "prices": {
     "46122074327": {
       "05/22/2024": 0.04312,
@@ -23,7 +27,8 @@
       "07/23/2025": 0.04003,
       "08/20/2025": 0.04,
       "09/17/2025": 0.04015,
-      "10/22/2025": 0.04004
+      "10/22/2025": 0.04004,
+      "11/19/2025": 0.04084
     }
   }
 }

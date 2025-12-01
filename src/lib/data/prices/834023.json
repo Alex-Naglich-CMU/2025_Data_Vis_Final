@@ -2,8 +2,12 @@
   "RxCUI": "834023",
   "Name": "MEDROL 4 MG DOSEPAK",
   "IsBrand": true,
-  "Brand_RxCUI": "762675",
-  "Generic_RxCUI": "834023",
+  "Brand_Mate_RxCUI": "834023",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Medrol Dosepak",
+  "Manufacturer_Name": "",
+  "Strength": "4 MG",
+  "Form": "",
   "prices": {
     "00009005604": {
       "06/01/2017": 2.73154,
@@ -26,7 +30,8 @@
       "07/23/2025": 0.29171,
       "08/20/2025": 0.29163,
       "09/17/2025": 0.29159,
-      "10/22/2025": 0.29149
+      "10/22/2025": 0.29149,
+      "11/19/2025": 0.29141
     }
   }
 }

@@ -2,8 +2,12 @@
   "RxCUI": "996633",
   "Name": "NAMENDA XR TITRATION PACK",
   "IsBrand": true,
-  "Brand_RxCUI": "996624",
-  "Generic_RxCUI": "996633",
+  "Brand_Mate_RxCUI": "996633",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Namenda Xr Titration Pack",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "",
   "prices": {
     "00456340029": {
       "11/22/2017": 12.35,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1116294",
-  "Name": "EPHEDRINE SULFATE 50 MG/ML VL",
+  "Name": "1 ML ephedrine sulfate 50 MG/ML Injection",
   "IsBrand": false,
-  "Brand_RxCUI": "1116294",
-  "Generic_RxCUI": "1796730",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1116294",
+  "Ingredient_Name": "Ephedrine Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 ML",
+  "Form": "Injection",
   "prices": {
     "00641623825": {
       "08/21/2024": 5.63664

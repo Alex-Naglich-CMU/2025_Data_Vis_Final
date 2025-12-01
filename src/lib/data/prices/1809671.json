@@ -1,9 +1,13 @@
 {
   "RxCUI": "1809671",
-  "Name": "GAMMAGARD LIQUID 10% VIAL",
+  "Name": "200 ML immunoglobulin G, human 100 MG/ML Injection [Gammagard]",
   "IsBrand": true,
-  "Brand_RxCUI": "1809444",
-  "Generic_RxCUI": "1809671",
+  "Brand_Mate_RxCUI": "1809671",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Immunoglobulin G, Human Mgml",
+  "Manufacturer_Name": "Gammagard",
+  "Strength": "200 ML",
+  "Form": "",
   "prices": {
     "00944270006": {
       "12/18/2024": 10.57934,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1484296",
-  "Name": "VELPHORO 500 MG CHEWABLE TAB",
+  "Name": "sucroferric oxyhydroxide 500 MG Chewable Tablet [Velphoro]",
   "IsBrand": true,
-  "Brand_RxCUI": "1484289",
-  "Generic_RxCUI": "1484296",
+  "Brand_Mate_RxCUI": "1484296",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sucroferric Oxyhydroxide Chewable",
+  "Manufacturer_Name": "Velphoro",
+  "Strength": "500 MG",
+  "Form": "",
   "prices": {
     "49230064551": {
       "10/01/2017": 11.63694,
@@ -38,7 +42,8 @@
       "07/23/2025": 17.1052,
       "08/20/2025": 17.11307,
       "09/17/2025": 17.10917,
-      "10/22/2025": 17.10356
+      "10/22/2025": 17.10356,
+      "11/19/2025": 17.11789
     }
   }
 }

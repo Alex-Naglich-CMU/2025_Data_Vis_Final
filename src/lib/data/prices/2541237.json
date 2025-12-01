@@ -1,9 +1,13 @@
 {
   "RxCUI": "2541237",
-  "Name": "MYRBETRIQ ER 8 MG/ML SUSP",
+  "Name": "24 HR mirabegron 8 MG/ML Extended Release Suspension [Myrbetriq]",
   "IsBrand": true,
-  "Brand_RxCUI": "2541233",
-  "Generic_RxCUI": "2541237",
+  "Brand_Mate_RxCUI": "2541237",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Mirabegron Mgml Extended Release",
+  "Manufacturer_Name": "Myrbetriq",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00469502099": {
       "04/17/2024": 2.20916,
@@ -24,7 +28,8 @@
       "07/23/2025": 2.21205,
       "08/20/2025": 2.21301,
       "09/17/2025": 2.21354,
-      "10/22/2025": 2.21265
+      "10/22/2025": 2.21265,
+      "11/19/2025": 2.21164
     }
   }
 }

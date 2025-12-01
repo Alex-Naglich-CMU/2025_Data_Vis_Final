@@ -1,9 +1,13 @@
 {
   "RxCUI": "1797851",
-  "Name": "CROMOLYN SODIUM NASAL SPRAY",
+  "Name": "cromolyn sodium 5.2 MG/ACTUAT Metered Dose Nasal Spray",
   "IsBrand": false,
-  "Brand_RxCUI": "1797851",
-  "Generic_RxCUI": "1797853",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1797851",
+  "Ingredient_Name": "Cromolyn Sodium Mgactuat Metered Dose Nasal",
+  "Manufacturer_Name": "",
+  "Strength": "5.2 MG/ACTU",
+  "Form": "",
   "prices": {
     "57782039726": {
       "07/19/2017": 0.25926,

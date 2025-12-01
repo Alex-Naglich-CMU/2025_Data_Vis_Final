@@ -1,9 +1,13 @@
 {
   "RxCUI": "1653202",
-  "Name": "INSULIN ASPART FLEXPEN 100 UNIT/ML PEN",
+  "Name": "3 ML insulin aspart, human 100 UNT/ML Pen Injector",
   "IsBrand": false,
-  "Brand_RxCUI": "1653202",
-  "Generic_RxCUI": "1986356",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1653202",
+  "Ingredient_Name": "Insulin Aspart, Human Untml Pen Injector",
+  "Manufacturer_Name": "",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "73070010315": {
       "05/19/2021": 17.8738,
@@ -69,7 +73,8 @@
       "07/23/2025": 8.95664,
       "08/20/2025": 8.95655,
       "09/17/2025": 8.95628,
-      "10/22/2025": 8.95401
+      "10/22/2025": 8.95401,
+      "11/19/2025": 8.9554
     }
   }
 }

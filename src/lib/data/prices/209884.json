@@ -1,9 +1,13 @@
 {
   "RxCUI": "209884",
-  "Name": "DANDRUFF 1% SHAMPOO",
+  "Name": "zinc pyrithione 10 MG/ML Medicated Shampoo",
   "IsBrand": false,
-  "Brand_RxCUI": "209884",
-  "Generic_RxCUI": "1367375",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "209884",
+  "Ingredient_Name": "Zinc Pyrithione Mgml Medicated",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "70000053301": {
       "05/22/2024": 0.00758,
@@ -23,7 +27,8 @@
       "07/23/2025": 0.0075,
       "08/20/2025": 0.00747,
       "09/17/2025": 0.00744,
-      "10/22/2025": 0.00736
+      "10/22/2025": 0.00736,
+      "11/19/2025": 0.0073
     }
   }
 }

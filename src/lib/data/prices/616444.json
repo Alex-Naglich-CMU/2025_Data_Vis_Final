@@ -1,9 +1,13 @@
 {
   "RxCUI": "616444",
-  "Name": "CELLCEPT 200 MG/ML ORAL SUSP",
+  "Name": "mycophenolate mofetil 200 MG/ML Oral Suspension [Cellcept]",
   "IsBrand": true,
-  "Brand_RxCUI": "311880",
-  "Generic_RxCUI": "616444",
+  "Brand_Mate_RxCUI": "616444",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Mycophenolate Mofetil Mgml",
+  "Manufacturer_Name": "Cellcept",
+  "Strength": "200 MG/ML",
+  "Form": "",
   "prices": {
     "00004026129": {
       "01/01/2018": 8.27764,
@@ -24,7 +28,8 @@
       "06/18/2025": 8.33012,
       "07/23/2025": 8.32781,
       "09/17/2025": 8.33012,
-      "10/22/2025": 8.33352
+      "10/22/2025": 8.33352,
+      "11/19/2025": 8.34215
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1592279",
-  "Name": "PIRFENIDONE 267 MG CAPSULE",
+  "Name": "pirfenidone 267 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "1592279",
-  "Generic_RxCUI": "1592285",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1592279",
+  "Ingredient_Name": "Pirfenidone",
+  "Manufacturer_Name": "",
+  "Strength": "267 MG",
+  "Form": "Capsule",
   "prices": {
     "00781215832": {
       "03/19/2025": 1.6515

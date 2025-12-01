@@ -1,9 +1,13 @@
 {
   "RxCUI": "799830",
-  "Name": "SPRYCEL 100 MG TABLET",
+  "Name": "dasatinib 100 MG Oral Tablet [Sprycel]",
   "IsBrand": true,
-  "Brand_RxCUI": "799047",
-  "Generic_RxCUI": "799830",
+  "Brand_Mate_RxCUI": "799830",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dasatinib",
+  "Manufacturer_Name": "Sprycel",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "00003085222": {
       "09/06/2017": 387.20388,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1356815",
-  "Name": "RU-HIST D 10-4 MG TABLET",
+  "Name": "brompheniramine maleate 4 MG / phenylephrine hydrochloride 10 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1356815",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1356815",
+  "Ingredient_Name": "Brompheniramine Maleate Phenylephrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "4 MG",
+  "Form": "Tablet",
   "prices": {
     "28595090060": {
       "06/21/2017": 0.7222,

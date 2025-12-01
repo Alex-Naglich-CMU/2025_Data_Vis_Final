@@ -1,9 +1,13 @@
 {
   "RxCUI": "311040",
-  "Name": "INSULIN ASPART 100 UNIT/ML VL",
+  "Name": "insulin aspart, human 100 UNT/ML Injectable Solution",
   "IsBrand": false,
-  "Brand_RxCUI": "311040",
-  "Generic_RxCUI": "1986354",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "311040",
+  "Ingredient_Name": "Insulin Aspart, Human Untml Injectable",
+  "Manufacturer_Name": "",
+  "Strength": "100 UNT/ML",
+  "Form": "Solution",
   "prices": {
     "73070010011": {
       "05/19/2021": 13.86411,
@@ -70,7 +74,8 @@
       "07/23/2025": 6.95461,
       "08/20/2025": 6.95138,
       "09/17/2025": 6.9518,
-      "10/22/2025": 6.95089
+      "10/22/2025": 6.95089,
+      "11/19/2025": 6.95165
     }
   }
 }

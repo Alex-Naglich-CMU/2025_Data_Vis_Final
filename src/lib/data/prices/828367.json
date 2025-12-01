@@ -1,9 +1,13 @@
 {
   "RxCUI": "828367",
-  "Name": "PROCTOFOAM 1% FOAM",
+  "Name": "pramoxine hydrochloride 10 MG/ML Rectal Foam [Proctofoam]",
   "IsBrand": true,
-  "Brand_RxCUI": "828365",
-  "Generic_RxCUI": "828367",
+  "Brand_Mate_RxCUI": "828367",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Pramoxine Hydrochloride Mgml Rectal",
+  "Manufacturer_Name": "Proctofoam",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "00037682315": {
       "11/20/2024": 5.96833,
@@ -14,7 +18,8 @@
       "07/23/2025": 6.32983,
       "08/20/2025": 6.27105,
       "09/17/2025": 6.01311,
-      "10/22/2025": 6.30536
+      "10/22/2025": 6.30536,
+      "11/19/2025": 6.32538
     }
   }
 }

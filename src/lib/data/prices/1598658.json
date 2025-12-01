@@ -1,9 +1,13 @@
 {
   "RxCUI": "1598658",
-  "Name": "AFTERA 1.5 MG TABLET",
+  "Name": "levonorgestrel 1.5 MG Oral Tablet [Aftera]",
   "IsBrand": false,
-  "Brand_RxCUI": "483325",
-  "Generic_RxCUI": "1598658",
+  "Brand_Mate_RxCUI": "483325",
+  "Generic_Mate_RxCUI": "1598658",
+  "Ingredient_Name": "Levonorgestrel",
+  "Manufacturer_Name": "Aftera",
+  "Strength": "1.5 MG",
+  "Form": "",
   "prices": {
     "51285010388": {
       "05/19/2021": 8.69276,

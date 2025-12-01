@@ -1,9 +1,13 @@
 {
   "RxCUI": "2001508",
-  "Name": "SUBVENITE 25 MG TABLET",
+  "Name": "lamotrigine 25 MG Oral Tablet [Subvenite]",
   "IsBrand": false,
-  "Brand_RxCUI": "282401",
-  "Generic_RxCUI": "2001508",
+  "Brand_Mate_RxCUI": "282401",
+  "Generic_Mate_RxCUI": "2001508",
+  "Ingredient_Name": "Lamotrigine",
+  "Manufacturer_Name": "Subvenite",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "69102030101": {
       "06/23/2021": 0.03748,
@@ -90,7 +94,8 @@
       "07/23/2025": 0.03006,
       "08/20/2025": 0.03068,
       "09/17/2025": 0.03054,
-      "10/22/2025": 0.03057
+      "10/22/2025": 0.03057,
+      "11/19/2025": 0.03035
     }
   }
 }

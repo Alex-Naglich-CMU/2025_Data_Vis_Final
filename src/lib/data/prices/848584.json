@@ -1,9 +1,13 @@
 {
   "RxCUI": "848584",
-  "Name": "REQUIP XL 6 MG TABLET",
+  "Name": "24 HR ropinirole 6 MG Extended Release Oral Tablet [Requip]",
   "IsBrand": true,
-  "Brand_RxCUI": "848582",
-  "Generic_RxCUI": "848584",
+  "Brand_Mate_RxCUI": "848584",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Ropinirole Extended Release",
+  "Manufacturer_Name": "Requip",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00007488313": {
       "01/01/2018": 14.44497

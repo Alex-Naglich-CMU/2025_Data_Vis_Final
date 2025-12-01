@@ -1,0 +1,16 @@
+{
+  "RxCUI": "865155",
+  "Name": "bisoprolol fumarate 2.5 MG Oral Tablet",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "865155",
+  "Ingredient_Name": "Bisoprolol Fumarate",
+  "Manufacturer_Name": "",
+  "Strength": "2.5 MG",
+  "Form": "Tablet",
+  "prices": {
+    "52817026830": {
+      "11/19/2025": 2.57725
+    }
+  }
+}

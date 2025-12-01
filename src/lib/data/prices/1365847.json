@@ -1,9 +1,13 @@
 {
   "RxCUI": "1365847",
-  "Name": "OXTELLAR XR 300 MG TABLET",
+  "Name": "24 HR oxcarbazepine 300 MG Extended Release Oral Tablet [Oxtellar]",
   "IsBrand": true,
-  "Brand_RxCUI": "1365842",
-  "Generic_RxCUI": "1365847",
+  "Brand_Mate_RxCUI": "1365847",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Oxcarbazepine Extended Release",
+  "Manufacturer_Name": "Oxtellar",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "17772012201": {
       "06/29/2017": 7.5946,
@@ -34,7 +38,8 @@
       "04/01/2025": 12.75541,
       "08/20/2025": 12.71057,
       "09/17/2025": 12.69229,
-      "10/22/2025": 12.71278
+      "10/22/2025": 12.71278,
+      "11/19/2025": 12.69952
     }
   }
 }

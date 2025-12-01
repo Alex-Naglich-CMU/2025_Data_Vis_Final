@@ -1,9 +1,13 @@
 {
   "RxCUI": "1551300",
-  "Name": "TRULICITY 0.75 MG/0.5 ML PEN",
+  "Name": "0.5 ML dulaglutide 1.5 MG/ML Auto-Injector [Trulicity]",
   "IsBrand": true,
-  "Brand_RxCUI": "1551295",
-  "Generic_RxCUI": "1551300",
+  "Brand_Mate_RxCUI": "1551300",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dulaglutide Mgml Auto-Injector",
+  "Manufacturer_Name": "Trulicity",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "00002143380": {
       "06/21/2017": 324.80121,
@@ -32,7 +36,8 @@
       "07/23/2025": 477.96885,
       "08/20/2025": 478.03229,
       "09/17/2025": 478.09812,
-      "10/22/2025": 478.08793
+      "10/22/2025": 478.08793,
+      "11/19/2025": 478.18957
     },
     "2143380": {
       "1/1/2022": 425.66609

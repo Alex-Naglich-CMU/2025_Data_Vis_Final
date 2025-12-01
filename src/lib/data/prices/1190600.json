@@ -1,9 +1,13 @@
 {
   "RxCUI": "1190600",
-  "Name": "M-END DMX LIQUID",
+  "Name": "dexbrompheniramine maleate 0.133 MG/ML / dextromethorphan hydrobromide 2 MG/ML / pseudoephedrine hydrochloride 4 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1190600",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1190600",
+  "Ingredient_Name": "Dexbrompheniramine Maleate Mgml Dextromethorphan Hydrobromide Mgml Pseudoephedrine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.133 MG/ML",
+  "Form": "Solution",
   "prices": {
     "12830081616": {
       "07/19/2017": 0.06552,

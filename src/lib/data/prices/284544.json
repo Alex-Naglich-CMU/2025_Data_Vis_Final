@@ -1,9 +1,13 @@
 {
   "RxCUI": "284544",
-  "Name": "BENZACLIN GEL 50G PUMP",
+  "Name": "benzoyl peroxide 0.05 MG/MG / clindamycin 0.01 MG/MG Topical Gel [Benzaclin]",
   "IsBrand": true,
-  "Brand_RxCUI": "358917",
-  "Generic_RxCUI": "284544",
+  "Brand_Mate_RxCUI": "284544",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Benzoyl Peroxide Mgmg Clindamycin Mgmg",
+  "Manufacturer_Name": "Benzaclin",
+  "Strength": "0.05 MG/MG",
+  "Form": "",
   "prices": {
     "00187519050": {
       "06/21/2017": 8.37109,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "824586",
-  "Name": "NATURAL FIBER POWDER",
+  "Name": "psyllium 3400 MG Powder for Oral Suspension",
   "IsBrand": false,
-  "Brand_RxCUI": "824586",
-  "Generic_RxCUI": "1090807",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "824586",
+  "Ingredient_Name": "Psyllium For",
+  "Manufacturer_Name": "",
+  "Strength": "3400 MG",
+  "Form": "Suspension",
   "prices": {
     "24385030127": {
       "06/21/2017": 0.01188,

@@ -1,19 +1,23 @@
 {
   "RxCUI": "1535472",
-  "Name": "ZENZEDI 30 MG TABLET",
+  "Name": "dextroamphetamine sulfate 30 MG Oral Tablet [Zenzedi]",
   "IsBrand": true,
-  "Brand_RxCUI": "1535470",
-  "Generic_RxCUI": "1535472",
+  "Brand_Mate_RxCUI": "1535472",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dextroamphetamine",
+  "Manufacturer_Name": "Zenzedi",
+  "Strength": "30 MG",
+  "Form": "",
   "prices": {
+    "24338085603": {
+      "07/21/2021": 7.05625
+    },
     "24338085610": {
       "07/21/2021": 7.05625,
       "05/23/2018": 6.52084,
       "01/01/2020": 6.83775,
       "10/21/2020": 6.87432,
       "01/01/2021": 7.08055
-    },
-    "24338085603": {
-      "07/21/2021": 7.05625
     }
   }
 }

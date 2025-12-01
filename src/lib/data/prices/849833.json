@@ -1,9 +1,13 @@
 {
   "RxCUI": "849833",
-  "Name": "TOLVAPTAN 30 MG TABLET",
+  "Name": "Hyponatremia tolvaptan 30 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "849833",
-  "Generic_RxCUI": "849835",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "849833",
+  "Ingredient_Name": "Hyponatremia Tolvaptan",
+  "Manufacturer_Name": "",
+  "Strength": "30 MG",
+  "Form": "Tablet",
   "prices": {
     "31722086901": {
       "10/23/2024": 72.55183

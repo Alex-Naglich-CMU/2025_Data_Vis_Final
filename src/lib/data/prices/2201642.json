@@ -1,9 +1,13 @@
 {
   "RxCUI": "2201642",
-  "Name": "JATENZO 198 MG CAPSULE",
+  "Name": "testosterone undecanoate 198 MG Oral Capsule [Jatenzo]",
   "IsBrand": true,
-  "Brand_RxCUI": "2121768",
-  "Generic_RxCUI": "2201642",
+  "Brand_Mate_RxCUI": "2201642",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Testosterone Undecanoate",
+  "Manufacturer_Name": "Jatenzo",
+  "Strength": "198 MG",
+  "Form": "",
   "prices": {
     "69087019812": {
       "06/19/2024": 8.32595,
@@ -17,7 +21,8 @@
       "06/18/2025": 8.63117,
       "07/23/2025": 8.65056,
       "08/20/2025": 8.65151,
-      "10/22/2025": 8.64181
+      "10/22/2025": 8.64181,
+      "11/19/2025": 8.6422
     }
   }
 }

@@ -1,11 +1,15 @@
 {
   "RxCUI": "352118",
-  "Name": "AVODART 0.5 MG SOFTGEL",
+  "Name": "dutasteride 0.5 MG Oral Capsule [Avodart]",
   "IsBrand": true,
-  "Brand_RxCUI": "351172",
-  "Generic_RxCUI": "352118",
+  "Brand_Mate_RxCUI": "352118",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dutasteride",
+  "Manufacturer_Name": "Avodart",
+  "Strength": "0.5 MG",
+  "Form": "",
   "prices": {
-    "00173071215": {
+    "00173071204": {
       "11/22/2017": 5.87882,
       "01/01/2018": 6.17277,
       "10/17/2018": 6.20359,
@@ -18,7 +22,7 @@
       "03/30/2023": 8.7707,
       "06/02/2023": 21.5768
     },
-    "00173071204": {
+    "00173071215": {
       "11/22/2017": 5.87882,
       "01/01/2018": 6.17277,
       "10/17/2018": 6.20359,

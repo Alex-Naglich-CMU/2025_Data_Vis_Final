@@ -1,9 +1,13 @@
 {
   "RxCUI": "1236716",
-  "Name": "STAHIST AD TABLET",
+  "Name": "chlorcyclizine hydrochloride 25 MG / pseudoephedrine hydrochloride 60 MG Oral Tablet [Stahist AD]",
   "IsBrand": true,
-  "Brand_RxCUI": "1235861",
-  "Generic_RxCUI": "1236716",
+  "Brand_Mate_RxCUI": "1236716",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Chlorcyclizine Hydrochloride Pseudoephedrine Hydrochloride",
+  "Manufacturer_Name": "Stahist AD",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "58407062530": {
       "06/21/2017": 0.54152,

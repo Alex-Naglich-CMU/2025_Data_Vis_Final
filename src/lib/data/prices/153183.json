@@ -1,9 +1,13 @@
 {
   "RxCUI": "153183",
-  "Name": "DIFFERIN 0.1% GEL",
+  "Name": "adapalene 0.001 MG/MG Topical Gel [Differin]",
   "IsBrand": true,
-  "Brand_RxCUI": "307731",
-  "Generic_RxCUI": "153183",
+  "Brand_Mate_RxCUI": "153183",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Adapalene Mgmg",
+  "Manufacturer_Name": "Differin",
+  "Strength": "0.001 MG/MG",
+  "Form": "",
   "prices": {
     "00299491015": {
       "09/20/2017": 0.6687,

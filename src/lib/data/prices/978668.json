@@ -1,9 +1,13 @@
 {
   "RxCUI": "978668",
-  "Name": "DIETHYLPROPION ER 75 MG TABLET",
+  "Name": "24 HR diethylpropion hydrochloride 75 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "978668",
-  "Generic_RxCUI": "978686",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "978668",
+  "Ingredient_Name": "Hr Diethylpropion Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "00527147701": {
       "05/19/2021": 1.1346,
@@ -93,7 +97,8 @@
       "07/23/2025": 1.14256,
       "08/20/2025": 1.16917,
       "09/17/2025": 1.20601,
-      "10/22/2025": 1.20975
+      "10/22/2025": 1.20975,
+      "11/19/2025": 1.3447
     },
     "527147701": {
       "09/22/2021": 1.07635
@@ -125,7 +130,8 @@
       "07/23/2025": 1.14256,
       "08/20/2025": 1.16917,
       "09/17/2025": 1.20601,
-      "10/22/2025": 1.20975
+      "10/22/2025": 1.20975,
+      "11/19/2025": 1.3447
     }
   }
 }

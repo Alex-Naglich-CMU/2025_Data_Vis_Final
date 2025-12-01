@@ -1,9 +1,13 @@
 {
   "RxCUI": "1482684",
-  "Name": "LULICONAZOLE 1% CREAM",
+  "Name": "luliconazole 10 MG/ML Topical Cream",
   "IsBrand": false,
-  "Brand_RxCUI": "1482684",
-  "Generic_RxCUI": "1482689",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1482684",
+  "Ingredient_Name": "Luliconazole Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Cream",
   "prices": {
     "68682085060": {
       "07/17/2024": 2.68138

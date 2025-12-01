@@ -1,9 +1,13 @@
 {
   "RxCUI": "992536",
-  "Name": "LAMISIL ANTIFUNGAL 1% SPRAY",
+  "Name": "terbinafine hydrochloride 10 MG/ML Topical Spray [Lamisil]",
   "IsBrand": true,
-  "Brand_RxCUI": "992535",
-  "Generic_RxCUI": "992536",
+  "Brand_Mate_RxCUI": "992536",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Terbinafine Hydrochloride Mgml",
+  "Manufacturer_Name": "Lamisil",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "00067629283": {
       "06/21/2017": 0.05966,

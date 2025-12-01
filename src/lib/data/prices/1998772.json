@@ -1,9 +1,13 @@
 {
   "RxCUI": "1998772",
-  "Name": "QVAR REDIHALER 80 MCG",
+  "Name": "Breath-Actuated 120 ACTUAT beclomethasone dipropionate 0.08 MG/ACTUAT Metered Dose Inhaler [Qvar]",
   "IsBrand": true,
-  "Brand_RxCUI": "1998771",
-  "Generic_RxCUI": "1998772",
+  "Brand_Mate_RxCUI": "1998772",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Breath-Actuated Actuat Beclomethasone Dipropionate Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Qvar",
+  "Strength": "120 ACTU",
+  "Form": "",
   "prices": {
     "59310030480": {
       "01/01/2019": 21.68488,
@@ -30,7 +34,8 @@
       "07/23/2025": 26.52816,
       "08/20/2025": 26.54132,
       "09/17/2025": 26.54411,
-      "10/22/2025": 26.49045
+      "10/22/2025": 26.49045,
+      "11/19/2025": 26.50063
     }
   }
 }

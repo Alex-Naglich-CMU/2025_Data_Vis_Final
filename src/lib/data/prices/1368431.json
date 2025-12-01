@@ -1,9 +1,13 @@
 {
   "RxCUI": "1368431",
-  "Name": "ALOGLIPTIN-PIOGLIT 25-30 MG TB",
+  "Name": "alogliptin 25 MG / pioglitazone 30 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1368431",
-  "Generic_RxCUI": "1368437",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1368431",
+  "Ingredient_Name": "Alogliptin Pioglitazone",
+  "Manufacturer_Name": "",
+  "Strength": "25 MG",
+  "Form": "Tablet",
   "prices": {
     "45802040265": {
       "09/20/2017": 5.78013,

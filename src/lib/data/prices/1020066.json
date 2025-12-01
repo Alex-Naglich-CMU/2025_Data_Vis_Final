@@ -2,8 +2,12 @@
   "RxCUI": "1020066",
   "Name": "ATELVIA DR 35 MG TABLET",
   "IsBrand": true,
-  "Brand_RxCUI": "1020065",
-  "Generic_RxCUI": "1020066",
+  "Brand_Mate_RxCUI": "1020066",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Atelvia Dr",
+  "Manufacturer_Name": "",
+  "Strength": "35 MG",
+  "Form": "TABLET",
   "prices": {
     "00430097903": {
       "01/01/2018": 61.39495,

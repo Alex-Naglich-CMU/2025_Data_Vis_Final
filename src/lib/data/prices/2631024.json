@@ -1,9 +1,13 @@
 {
   "RxCUI": "2631024",
-  "Name": "CURAE 1.5 MG TABLET",
+  "Name": "levonorgestrel 1.5 MG Oral Tablet [Curae]",
   "IsBrand": false,
-  "Brand_RxCUI": "483325",
-  "Generic_RxCUI": "2631024",
+  "Brand_Mate_RxCUI": "483325",
+  "Generic_Mate_RxCUI": "2631024",
+  "Ingredient_Name": "Levonorgestrel",
+  "Manufacturer_Name": "Curae",
+  "Strength": "1.5 MG",
+  "Form": "",
   "prices": {
     "73358024101": {
       "01/17/2024": 6.425,

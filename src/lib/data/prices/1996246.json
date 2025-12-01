@@ -1,9 +1,13 @@
 {
   "RxCUI": "1996246",
-  "Name": "DAPTOMYCIN 350 MG VIAL",
+  "Name": "daptomycin 350 MG Injection",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1996246",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1996246",
+  "Ingredient_Name": "Daptomycin",
+  "Manufacturer_Name": "",
+  "Strength": "350 MG",
+  "Form": "Injection",
   "prices": {
     "00409012001": {
       "04/23/2025": 13.362,

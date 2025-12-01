@@ -1,9 +1,13 @@
 {
   "RxCUI": "1020039",
-  "Name": "SORILUX 0.005% FOAM",
+  "Name": "calcipotriene 0.05 MG/ML Topical Foam [Sorilux]",
   "IsBrand": true,
-  "Brand_RxCUI": "1020035",
-  "Generic_RxCUI": "1020039",
+  "Brand_Mate_RxCUI": "1020039",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Calcipotriene Mgml",
+  "Manufacturer_Name": "Sorilux",
+  "Strength": "0.05 MG/ML",
+  "Form": "",
   "prices": {
     "51862037660": {
       "01/01/2019": 12.23696,

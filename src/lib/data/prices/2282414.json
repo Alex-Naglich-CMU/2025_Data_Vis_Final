@@ -1,9 +1,13 @@
 {
   "RxCUI": "2282414",
-  "Name": "NEXLETOL 180 MG TABLET",
+  "Name": "bempedoic acid 180 MG Oral Tablet [Nexletol]",
   "IsBrand": true,
-  "Brand_RxCUI": "2282408",
-  "Generic_RxCUI": "2282414",
+  "Brand_Mate_RxCUI": "2282414",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Bempedoic Acid",
+  "Manufacturer_Name": "Nexletol",
+  "Strength": "180 MG",
+  "Form": "",
   "prices": {
     "72426011803": {
       "04/01/2021": 11.167,
@@ -25,7 +29,8 @@
       "07/23/2025": 13.42302,
       "08/20/2025": 13.42316,
       "09/17/2025": 13.42017,
-      "10/22/2025": 13.3995
+      "10/22/2025": 13.3995,
+      "11/19/2025": 13.40042
     }
   }
 }

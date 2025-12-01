@@ -1,9 +1,13 @@
 {
   "RxCUI": "242831",
-  "Name": "GRISEOFULVIN ULTRA 125 MG TAB",
+  "Name": "griseofulvin 125 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "242831",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "242831",
+  "Ingredient_Name": "Griseofulvin",
+  "Manufacturer_Name": "",
+  "Strength": "125 MG",
+  "Form": "Tablet",
   "prices": {
     "00115172401": {
       "05/22/2024": 2.49585,

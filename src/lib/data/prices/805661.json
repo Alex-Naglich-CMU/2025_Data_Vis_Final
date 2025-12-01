@@ -1,9 +1,13 @@
 {
   "RxCUI": "805661",
-  "Name": "NUVIGIL 250 MG TABLET",
+  "Name": "armodafinil 250 MG Oral Tablet [Nuvigil]",
   "IsBrand": true,
-  "Brand_RxCUI": "724861",
-  "Generic_RxCUI": "805661",
+  "Brand_Mate_RxCUI": "805661",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Armodafinil",
+  "Manufacturer_Name": "Nuvigil",
+  "Strength": "250 MG",
+  "Form": "",
   "prices": {
     "63459022530": {
       "11/22/2017": 21.3324,

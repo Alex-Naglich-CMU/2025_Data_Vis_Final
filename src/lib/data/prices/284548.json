@@ -1,9 +1,13 @@
 {
   "RxCUI": "284548",
-  "Name": "GEODON 40 MG CAPSULE",
+  "Name": "ziprasidone 40 MG Oral Capsule [Geodon]",
   "IsBrand": true,
-  "Brand_RxCUI": "313776",
-  "Generic_RxCUI": "284548",
+  "Brand_Mate_RxCUI": "284548",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ziprasidone",
+  "Manufacturer_Name": "Geodon",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "00049397060": {
       "06/01/2017": 16.92845,

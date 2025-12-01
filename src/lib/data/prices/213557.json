@@ -1,9 +1,13 @@
 {
   "RxCUI": "213557",
-  "Name": "LITHOSTAT 250 MG TABLET",
+  "Name": "acetohydroxamic acid 250 MG Oral Tablet [Lithostat]",
   "IsBrand": true,
-  "Brand_RxCUI": "197308",
-  "Generic_RxCUI": "213557",
+  "Brand_Mate_RxCUI": "213557",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Acetohydroxamic Acid",
+  "Manufacturer_Name": "Lithostat",
+  "Strength": "250 MG",
+  "Form": "",
   "prices": {
     "00178050001": {
       "05/22/2024": 6.24088,

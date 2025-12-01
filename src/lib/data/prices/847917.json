@@ -1,9 +1,13 @@
 {
   "RxCUI": "847917",
-  "Name": "BYETTA 5 MCG DOSE PEN INJ",
+  "Name": "60 ACTUAT exenatide 0.005 MG/ACTUAT Pen Injector [Byetta]",
   "IsBrand": true,
-  "Brand_RxCUI": "847915",
-  "Generic_RxCUI": "847917",
+  "Brand_Mate_RxCUI": "847917",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Actuat Exenatide Mgactuat Pen Injector",
+  "Manufacturer_Name": "Byetta",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "00310651201": {
       "11/22/2017": 533.14334,

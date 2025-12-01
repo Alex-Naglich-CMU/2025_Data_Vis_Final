@@ -1,9 +1,13 @@
 {
   "RxCUI": "686926",
-  "Name": "COREG 3.125 MG TABLET",
+  "Name": "carvedilol 3.125 MG Oral Tablet [Coreg]",
   "IsBrand": true,
-  "Brand_RxCUI": "686924",
-  "Generic_RxCUI": "686926",
+  "Brand_Mate_RxCUI": "686926",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Carvedilol",
+  "Manufacturer_Name": "Coreg",
+  "Strength": "3.125 MG",
+  "Form": "",
   "prices": {
     "00007413920": {
       "01/01/2018": 4.67886,

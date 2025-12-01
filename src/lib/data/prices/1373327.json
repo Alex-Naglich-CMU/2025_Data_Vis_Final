@@ -1,10 +1,17 @@
 {
   "RxCUI": "1373327",
-  "Name": "CREON DR 36,000 UNITS CAPSULE",
+  "Name": "amylase 180000 UNT / lipase 36000 UNT / protease 114000 UNT Delayed Release Oral Capsule [Creon]",
   "IsBrand": true,
-  "Brand_RxCUI": "1373325",
-  "Generic_RxCUI": "1373327",
+  "Brand_Mate_RxCUI": "1373327",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amylase Unt Lipase Unt Protease Unt Delayed Release",
+  "Manufacturer_Name": "Creon",
+  "Strength": "180000 UNT",
+  "Form": "",
   "prices": {
+    "00032263701": {
+      "11/19/2025": 12.37293
+    },
     "00032301613": {
       "11/22/2017": 7.91162,
       "12/22/2017": 8.45752,
@@ -33,7 +40,8 @@
       "07/23/2025": 12.36802,
       "08/20/2025": 12.36885,
       "09/17/2025": 12.36995,
-      "10/22/2025": 12.37295
+      "10/22/2025": 12.37295,
+      "11/19/2025": 12.37293
     },
     "00032301628": {
       "11/22/2017": 7.91162,

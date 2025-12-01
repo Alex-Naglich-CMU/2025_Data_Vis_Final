@@ -1,9 +1,13 @@
 {
   "RxCUI": "352200",
-  "Name": "BENICAR 20 MG TABLET",
+  "Name": "olmesartan medoxomil 20 MG Oral Tablet [Benicar]",
   "IsBrand": true,
-  "Brand_RxCUI": "349401",
-  "Generic_RxCUI": "352200",
+  "Brand_Mate_RxCUI": "352200",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Olmesartan Medoxomil",
+  "Manufacturer_Name": "Benicar",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "00713086130": {
       "09/01/2023": 9.31053,

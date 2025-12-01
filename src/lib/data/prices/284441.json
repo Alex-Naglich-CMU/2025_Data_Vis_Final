@@ -1,9 +1,13 @@
 {
   "RxCUI": "284441",
-  "Name": "CETROTIDE 0.25 MG VIAL",
+  "Name": "cetrorelix 0.25 MG Injection [Cetrotide]",
   "IsBrand": true,
-  "Brand_RxCUI": "283402",
-  "Generic_RxCUI": "284441",
+  "Brand_Mate_RxCUI": "284441",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cetrorelix",
+  "Manufacturer_Name": "Cetrotide",
+  "Strength": "0.25 MG",
+  "Form": "",
   "prices": {
     "44087122501": {
       "01/29/2025": 306.05739

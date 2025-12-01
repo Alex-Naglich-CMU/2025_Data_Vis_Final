@@ -1,9 +1,13 @@
 {
   "RxCUI": "539815",
-  "Name": "VESICARE 10 MG TABLET",
+  "Name": "solifenacin succinate 10 MG Oral Tablet [Vesicare]",
   "IsBrand": true,
-  "Brand_RxCUI": "477372",
-  "Generic_RxCUI": "539815",
+  "Brand_Mate_RxCUI": "539815",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Solifenacin Succinate",
+  "Manufacturer_Name": "Vesicare",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "51248015101": {
       "06/23/2021": 12.23745,
@@ -35,7 +39,8 @@
       "07/23/2025": 12.29617,
       "08/20/2025": 12.2927,
       "09/17/2025": 12.29415,
-      "10/22/2025": 12.30608
+      "10/22/2025": 12.30608,
+      "11/19/2025": 12.31252
     },
     "51248015103": {
       "06/23/2021": 12.23745,

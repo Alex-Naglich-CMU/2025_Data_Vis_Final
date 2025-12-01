@@ -1,18 +1,22 @@
 {
   "RxCUI": "1494203",
-  "Name": "DR. SMITH'S RASH-SKIN SPRAY",
+  "Name": "zinc oxide 100 MG/ML Topical Spray [Dr. Smith's Diaper Rash]",
   "IsBrand": false,
-  "Brand_RxCUI": "1232104",
-  "Generic_RxCUI": "1494203",
+  "Brand_Mate_RxCUI": "1232104",
+  "Generic_Mate_RxCUI": "1494203",
+  "Ingredient_Name": "Zinc Oxide Mgml",
+  "Manufacturer_Name": "Dr. Smith's Diaper Rash",
+  "Strength": "100 MG/ML",
+  "Form": "",
   "prices": {
-    "00178034503": {
+    "00178034003": {
       "07/18/2018": 0.071,
       "09/19/2018": 0.06777,
       "10/17/2018": 0.06681,
       "11/21/2018": 0.06637,
       "01/23/2019": 0.07338
     },
-    "00178034003": {
+    "00178034503": {
       "07/18/2018": 0.071,
       "09/19/2018": 0.06777,
       "10/17/2018": 0.06681,

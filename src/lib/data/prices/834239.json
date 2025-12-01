@@ -1,9 +1,13 @@
 {
   "RxCUI": "834239",
-  "Name": "ULORIC 40 MG TABLET",
+  "Name": "febuxostat 40 MG Oral Tablet [Uloric]",
   "IsBrand": true,
-  "Brand_RxCUI": "834235",
-  "Generic_RxCUI": "834239",
+  "Brand_Mate_RxCUI": "834239",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Febuxostat",
+  "Manufacturer_Name": "Uloric",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "64764091830": {
       "06/23/2021": 10.52439,
@@ -32,7 +36,8 @@
       "07/23/2025": 10.59153,
       "08/20/2025": 10.58134,
       "09/17/2025": 10.57949,
-      "10/22/2025": 10.57955
+      "10/22/2025": 10.57955,
+      "11/19/2025": 10.58167
     }
   }
 }

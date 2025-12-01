@@ -1,9 +1,13 @@
 {
   "RxCUI": "2272414",
-  "Name": "DAYVIGO 5 MG TABLET",
+  "Name": "lemborexant 5 MG Oral Tablet [Dayvigo]",
   "IsBrand": true,
-  "Brand_RxCUI": "2272408",
-  "Generic_RxCUI": "2272414",
+  "Brand_Mate_RxCUI": "2272414",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Lemborexant",
+  "Manufacturer_Name": "Dayvigo",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "62856040530": {
       "02/18/2021": 9.39738,
@@ -26,7 +30,8 @@
       "07/23/2025": 11.24981,
       "08/20/2025": 11.25007,
       "09/17/2025": 11.2517,
-      "10/22/2025": 11.24378
+      "10/22/2025": 11.24378,
+      "11/19/2025": 11.23083
     }
   }
 }

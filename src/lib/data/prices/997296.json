@@ -1,9 +1,13 @@
 {
   "RxCUI": "997296",
-  "Name": "CODEINE SULFATE 60 MG TABLET",
+  "Name": "codeine sulfate 60 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "997296",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "997296",
+  "Ingredient_Name": "Codeine",
+  "Manufacturer_Name": "",
+  "Strength": "60 MG",
+  "Form": "Tablet",
   "prices": {
     "00054024525": {
       "05/22/2024": 1.01359,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "645037",
-  "Name": "RISPERIDONE 0.25 MG ODT",
+  "Name": "risperidone 0.25 MG Disintegrating Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "645037",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "645037",
+  "Ingredient_Name": "Risperidone Disintegrating",
+  "Manufacturer_Name": "",
+  "Strength": "0.25 MG",
+  "Form": "Tablet",
   "prices": {
     "49884021252": {
       "07/21/2021": 1.93,
@@ -34,7 +38,8 @@
       "07/23/2025": 1.80112,
       "08/20/2025": 1.83125,
       "09/17/2025": 1.895,
-      "10/22/2025": 1.85919
+      "10/22/2025": 1.85919,
+      "11/19/2025": 2.91217
     },
     "49884021255": {
       "07/21/2021": 1.93,
@@ -65,7 +70,8 @@
       "07/23/2025": 1.80112,
       "08/20/2025": 1.83125,
       "09/17/2025": 1.895,
-      "10/22/2025": 1.85919
+      "10/22/2025": 1.85919,
+      "11/19/2025": 2.91217
     }
   }
 }

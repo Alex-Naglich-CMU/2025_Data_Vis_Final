@@ -1,9 +1,13 @@
 {
   "RxCUI": "199148",
-  "Name": "LAMIVUDINE 10 MG/ML ORAL SOLN",
+  "Name": "lamivudine 10 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": "199148",
-  "Generic_RxCUI": "152932",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "199148",
+  "Ingredient_Name": "Lamivudine Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Solution",
   "prices": {
     "54838056670": {
       "06/19/2024": 0.26761,

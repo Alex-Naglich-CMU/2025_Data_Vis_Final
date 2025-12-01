@@ -1,9 +1,13 @@
 {
   "RxCUI": "1804178",
-  "Name": "IODIDES TINCTURE",
+  "Name": "ethanol 0.48 ML/ML Topical Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1804178",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1804178",
+  "Ingredient_Name": "Ethanol Mlml",
+  "Manufacturer_Name": "",
+  "Strength": "0.48 ML/ML",
+  "Form": "Solution",
   "prices": {
     "24385020746": {
       "07/19/2017": 0.05554,

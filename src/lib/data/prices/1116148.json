@@ -1,9 +1,13 @@
 {
   "RxCUI": "1116148",
-  "Name": "BRONKAID DUAL ACTION CAPLET",
+  "Name": "ephedrine sulfate 25 MG / guaifenesin 400 MG Oral Tablet [Bronkaid]",
   "IsBrand": true,
-  "Brand_RxCUI": "1116146",
-  "Generic_RxCUI": "1116148",
+  "Brand_Mate_RxCUI": "1116148",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ephedrine Guaifenesin",
+  "Manufacturer_Name": "Bronkaid",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "69536042524": {
       "11/21/2018": 0.12751,

@@ -1,18 +1,22 @@
 {
   "RxCUI": "1537045",
-  "Name": "ZONTIVITY 2.08 MG TABLET",
+  "Name": "vorapaxar 2.08 MG Oral Tablet [Zontivity]",
   "IsBrand": true,
-  "Brand_RxCUI": "1537039",
-  "Generic_RxCUI": "1537045",
+  "Brand_Mate_RxCUI": "1537045",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Vorapaxar",
+  "Manufacturer_Name": "Zontivity",
+  "Strength": "2.08 MG",
+  "Form": "",
   "prices": {
-    "70347020890": {
+    "70347020830": {
       "01/01/2018": 10.16225,
       "10/17/2018": 10.13148,
       "09/18/2019": 9.71376,
       "07/22/2020": 10.20476,
       "12/31/2020": 11.22507
     },
-    "70347020830": {
+    "70347020890": {
       "01/01/2018": 10.16225,
       "10/17/2018": 10.13148,
       "09/18/2019": 9.71376,

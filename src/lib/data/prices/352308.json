@@ -1,9 +1,13 @@
 {
   "RxCUI": "352308",
-  "Name": "ABILIFY 15 MG TABLET",
+  "Name": "aripiprazole 15 MG Oral Tablet [Abilify]",
   "IsBrand": true,
-  "Brand_RxCUI": "349490",
-  "Generic_RxCUI": "352308",
+  "Brand_Mate_RxCUI": "352308",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Aripiprazole",
+  "Manufacturer_Name": "Abilify",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "59148000913": {
       "02/21/2018": 28.56398,
@@ -27,7 +31,8 @@
       "06/18/2025": 18.62375,
       "07/23/2025": 18.61656,
       "08/20/2025": 18.64253,
-      "09/17/2025": 18.63494
+      "09/17/2025": 18.63494,
+      "11/19/2025": 18.64792
     },
     "59148000935": {
       "02/21/2018": 28.56398,

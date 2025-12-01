@@ -1,9 +1,13 @@
 {
   "RxCUI": "1876406",
-  "Name": "DUPIXENT 300 MG/2 ML SYRINGE",
+  "Name": "2 ML dupilumab 150 MG/ML Prefilled Syringe [Dupixent]",
   "IsBrand": true,
-  "Brand_RxCUI": "1876401",
-  "Generic_RxCUI": "1876406",
+  "Brand_Mate_RxCUI": "1876406",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dupilumab Mgml Prefilled",
+  "Manufacturer_Name": "Dupixent",
+  "Strength": "2 ML",
+  "Form": "",
   "prices": {
     "00024591401": {
       "01/03/2020": 751.40947,
@@ -28,7 +32,8 @@
       "07/23/2025": 962.30801,
       "08/20/2025": 962.32153,
       "09/17/2025": 962.38482,
-      "10/22/2025": 962.44071
+      "10/22/2025": 962.44071,
+      "11/19/2025": 962.05176
     },
     "24591401": {
       "1/3/2022": 801.96058

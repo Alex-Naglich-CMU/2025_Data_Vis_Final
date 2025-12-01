@@ -1,9 +1,13 @@
 {
   "RxCUI": "1605075",
-  "Name": "ZARXIO 480 MCG/0.8 ML SYRINGE",
+  "Name": "0.8 ML filgrastim-sndz 0.6 MG/ML Prefilled Syringe [Zarxio]",
   "IsBrand": true,
-  "Brand_RxCUI": "1605074",
-  "Generic_RxCUI": "1605075",
+  "Brand_Mate_RxCUI": "1605075",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Filgrastim-Sndz Mgml Prefilled",
+  "Manufacturer_Name": "Zarxio",
+  "Strength": "0.8 ML",
+  "Form": "",
   "prices": {
     "61314032601": {
       "05/22/2024": 528.17708,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "206792",
-  "Name": "ALOMIDE 0.1% EYE DROPS",
+  "Name": "lodoxamide 1 MG/ML Ophthalmic Solution [Alomide]",
   "IsBrand": true,
-  "Brand_RxCUI": "311361",
-  "Generic_RxCUI": "206792",
+  "Brand_Mate_RxCUI": "206792",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Lodoxamide Mgml",
+  "Manufacturer_Name": "Alomide",
+  "Strength": "1 MG/ML",
+  "Form": "",
   "prices": {
     "00065034510": {
       "01/03/2018": 16.67712

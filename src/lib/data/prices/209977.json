@@ -1,9 +1,13 @@
 {
   "RxCUI": "209977",
-  "Name": "ZOVIRAX 5% OINTMENT",
+  "Name": "acyclovir 0.05 MG/MG Topical Ointment [Zovirax]",
   "IsBrand": true,
-  "Brand_RxCUI": "197312",
-  "Generic_RxCUI": "209977",
+  "Brand_Mate_RxCUI": "209977",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Acyclovir Mgmg",
+  "Manufacturer_Name": "Zovirax",
+  "Strength": "0.05 MG/MG",
+  "Form": "",
   "prices": {
     "00187099395": {
       "05/22/2024": 4.79589,

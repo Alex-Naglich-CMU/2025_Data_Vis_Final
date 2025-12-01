@@ -1,9 +1,13 @@
 {
   "RxCUI": "977840",
-  "Name": "NOVOLOG MIX 70-30 FLEXPEN SYRN",
+  "Name": "3 ML insulin aspart protamine, human 70 UNT/ML / insulin aspart, human 30 UNT/ML Pen Injector [NovoLog Mix]",
   "IsBrand": true,
-  "Brand_RxCUI": "847191",
-  "Generic_RxCUI": "977840",
+  "Brand_Mate_RxCUI": "977840",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Aspart Protamine, Human Untml Insulin Aspart, Human Untml Pen Injector",
+  "Manufacturer_Name": "NovoLog Mix",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00169369619": {
       "02/21/2018": 34.11223,
@@ -31,7 +35,8 @@
       "07/23/2025": 8.94069,
       "08/20/2025": 8.94071,
       "09/17/2025": 8.94279,
-      "10/22/2025": 8.94306
+      "10/22/2025": 8.94306,
+      "11/19/2025": 8.94232
     },
     "169369619": {
       "09/22/2021": 35.85673

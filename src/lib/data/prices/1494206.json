@@ -1,9 +1,13 @@
 {
   "RxCUI": "1494206",
-  "Name": "DR. SMITH'S DIAPER OINTMENT",
+  "Name": "zinc oxide 0.1 MG/MG Topical Ointment [Dr. Smith's Diaper Rash]",
   "IsBrand": false,
-  "Brand_RxCUI": "199099",
-  "Generic_RxCUI": "1494206",
+  "Brand_Mate_RxCUI": "199099",
+  "Generic_Mate_RxCUI": "1494206",
+  "Ingredient_Name": "Zinc Oxide Mgmg",
+  "Manufacturer_Name": "Dr. Smith's Diaper Rash",
+  "Strength": "0.1 MG/MG",
+  "Form": "",
   "prices": {
     "00178033002": {
       "06/21/2017": 0.05503,

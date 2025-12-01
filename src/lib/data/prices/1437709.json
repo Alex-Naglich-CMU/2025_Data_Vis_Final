@@ -1,10 +1,18 @@
 {
   "RxCUI": "1437709",
-  "Name": "MIRVASO 0.33% GEL PUMP",
+  "Name": "brimonidine 0.0033 MG/MG Topical Gel [Mirvaso]",
   "IsBrand": true,
-  "Brand_RxCUI": "1437707",
-  "Generic_RxCUI": "1437709",
+  "Brand_Mate_RxCUI": "1437709",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Brimonidine Mgmg",
+  "Manufacturer_Name": "Mirvaso",
+  "Strength": "0.0033 MG/MG",
+  "Form": "",
   "prices": {
+    "00299598030": {
+      "04/04/2018": 15.39466,
+      "04/05/2019": 16.15038
+    },
     "00299598035": {
       "02/21/2018": 13.91614,
       "04/04/2018": 15.29273,
@@ -16,10 +24,6 @@
       "4/4/2022": 18.47541,
       "09/17/2025": 21.32138,
       "10/22/2025": 21.36379
-    },
-    "00299598030": {
-      "04/04/2018": 15.39466,
-      "04/05/2019": 16.15038
     }
   }
 }

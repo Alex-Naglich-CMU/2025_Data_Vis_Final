@@ -1,9 +1,13 @@
 {
   "RxCUI": "596936",
-  "Name": "FLEET GLYCERIN LIQUID SUPP",
+  "Name": "glycerin 1000 MG/ML Enema",
   "IsBrand": true,
-  "Brand_RxCUI": "596936",
-  "Generic_RxCUI": null,
+  "Brand_Mate_RxCUI": "596936",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Glycerin Mgml Enema",
+  "Manufacturer_Name": "",
+  "Strength": "1000 MG/ML",
+  "Form": "",
   "prices": {
     "00132018582": {
       "06/21/2017": 0.11356,
@@ -36,7 +40,8 @@
       "06/18/2025": 0.11903,
       "08/20/2025": 0.12615,
       "09/17/2025": 0.12638,
-      "10/22/2025": 0.12829
+      "10/22/2025": 0.12829,
+      "11/19/2025": 0.12858
     }
   }
 }

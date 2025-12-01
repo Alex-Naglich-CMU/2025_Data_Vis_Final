@@ -1,11 +1,15 @@
 {
   "RxCUI": "668628",
-  "Name": "FENTORA 600 MCG BUCCAL TABLET",
+  "Name": "fentanyl 0.6 MG Buccal Tablet [Fentora]",
   "IsBrand": true,
-  "Brand_RxCUI": "668366",
-  "Generic_RxCUI": "668628",
+  "Brand_Mate_RxCUI": "668628",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fentanyl Buccal",
+  "Manufacturer_Name": "Fentora",
+  "Strength": "0.6 MG",
+  "Form": "",
   "prices": {
-    "63459054628": {
+    "63459054604": {
       "01/01/2018": 114.45383,
       "01/01/2019": 125.21364,
       "01/01/2020": 133.22606,
@@ -14,7 +18,7 @@
       "01/01/2023": 167.26279,
       "01/01/2024": 182.98382
     },
-    "63459054604": {
+    "63459054628": {
       "01/01/2018": 114.45383,
       "01/01/2019": 125.21364,
       "01/01/2020": 133.22606,

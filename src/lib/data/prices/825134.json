@@ -1,9 +1,13 @@
 {
   "RxCUI": "825134",
-  "Name": "APRISO ER 0.375 GRAM CAPSULE",
+  "Name": "24 HR mesalamine 375 MG Extended Release Oral Capsule [Apriso]",
   "IsBrand": true,
-  "Brand_RxCUI": "825130",
-  "Generic_RxCUI": "825134",
+  "Brand_Mate_RxCUI": "825134",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Mesalamine Extended Release",
+  "Manufacturer_Name": "Apriso",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "65649010302": {
       "06/23/2021": 4.08282,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "105611",
-  "Name": "IMURAN 50 MG TABLET",
+  "Name": "azathioprine 50 MG Oral Tablet [Imuran]",
   "IsBrand": true,
-  "Brand_RxCUI": "197388",
-  "Generic_RxCUI": "105611",
+  "Brand_Mate_RxCUI": "105611",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Azathioprine",
+  "Manufacturer_Name": "Imuran",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "54766059010": {
       "11/20/2024": 8.48765,

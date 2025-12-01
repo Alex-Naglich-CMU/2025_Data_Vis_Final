@@ -1,9 +1,13 @@
 {
   "RxCUI": "1293634",
-  "Name": "ITCH-X GEL",
+  "Name": "benzyl alcohol 0.1 ML/ML / pramoxine hydrochloride 0.01 MG/MG Topical Gel [Itch-X]",
   "IsBrand": false,
-  "Brand_RxCUI": "1293632",
-  "Generic_RxCUI": "1293634",
+  "Brand_Mate_RxCUI": "1293632",
+  "Generic_Mate_RxCUI": "1293634",
+  "Ingredient_Name": "Benzyl Alcohol Mlml Pramoxine Hydrochloride Mgmg",
+  "Manufacturer_Name": "Itch-X",
+  "Strength": "0.1 ML/ML",
+  "Form": "",
   "prices": {
     "00225049533": {
       "06/23/2021": 0.0801,

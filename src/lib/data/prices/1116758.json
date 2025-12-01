@@ -1,9 +1,13 @@
 {
   "RxCUI": "1116758",
-  "Name": "CHLOROQUINE PH 500 MG TABLET",
+  "Name": "chloroquine phosphate 500 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1116758",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1116758",
+  "Ingredient_Name": "Chloroquine Phosphate",
+  "Manufacturer_Name": "",
+  "Strength": "500 MG",
+  "Form": "Tablet",
   "prices": {
     "00115701009": {
       "10/23/2024": 5.84567,

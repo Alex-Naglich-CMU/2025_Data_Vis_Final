@@ -1,9 +1,13 @@
 {
   "RxCUI": "1005928",
-  "Name": "ELLA 30 MG TABLET",
+  "Name": "ulipristal acetate 30 MG Oral Tablet [Ella]",
   "IsBrand": true,
-  "Brand_RxCUI": "1005924",
-  "Generic_RxCUI": "1005928",
+  "Brand_Mate_RxCUI": "1005928",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ulipristal",
+  "Manufacturer_Name": "Ella",
+  "Strength": "30 MG",
+  "Form": "",
   "prices": {
     "50102091101": {
       "07/01/2021": 37.37356,
@@ -39,7 +43,8 @@
       "07/23/2025": 37.13701,
       "08/20/2025": 37.12427,
       "09/17/2025": 37.10447,
-      "10/22/2025": 37.10827
+      "10/22/2025": 37.10827,
+      "11/19/2025": 37.10425
     }
   }
 }

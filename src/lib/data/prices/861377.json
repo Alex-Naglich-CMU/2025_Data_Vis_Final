@@ -1,9 +1,13 @@
 {
   "RxCUI": "861377",
-  "Name": "RENVELA 0.8 GM POWDER PACKET",
+  "Name": "sevelamer carbonate 800 MG Powder for Oral Suspension [Renvela]",
   "IsBrand": true,
-  "Brand_RxCUI": "861375",
-  "Generic_RxCUI": "861377",
+  "Brand_Mate_RxCUI": "861377",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sevelamer Carbonate For",
+  "Manufacturer_Name": "Renvela",
+  "Strength": "800 MG",
+  "Form": "",
   "prices": {
     "58468013201": {
       "01/22/2025": 17.15578

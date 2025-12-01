@@ -1,11 +1,15 @@
 {
   "RxCUI": "996101",
-  "Name": "JALYN 0.5-0.4 MG CAPSULE",
+  "Name": "dutasteride 0.5 MG / tamsulosin hydrochloride 0.4 MG Oral Capsule [Jalyn]",
   "IsBrand": true,
-  "Brand_RxCUI": "996097",
-  "Generic_RxCUI": "996101",
+  "Brand_Mate_RxCUI": "996101",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dutasteride Tamsulosin Hydrochloride",
+  "Manufacturer_Name": "Jalyn",
+  "Strength": "0.5 MG",
+  "Form": "",
   "prices": {
-    "00173080959": {
+    "00173080913": {
       "08/23/2017": 5.94072,
       "01/01/2018": 6.23776,
       "07/18/2018": 6.12304,
@@ -15,7 +19,7 @@
       "03/30/2023": 8.80728,
       "06/02/2023": 21.66697
     },
-    "00173080913": {
+    "00173080959": {
       "08/23/2017": 5.94072,
       "01/01/2018": 6.23776,
       "07/18/2018": 6.12304,

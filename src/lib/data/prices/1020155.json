@@ -2,8 +2,12 @@
   "RxCUI": "1020155",
   "Name": "INTROVALE 0.15-0.03 MG TABLET",
   "IsBrand": false,
-  "Brand_RxCUI": "751901",
-  "Generic_RxCUI": "1020155",
+  "Brand_Mate_RxCUI": "751901",
+  "Generic_Mate_RxCUI": "1020155",
+  "Ingredient_Name": "Introvale -",
+  "Manufacturer_Name": "",
+  "Strength": "0.03 MG",
+  "Form": "TABLET",
   "prices": {
     "70700011787": {
       "05/19/2021": 0.25619,

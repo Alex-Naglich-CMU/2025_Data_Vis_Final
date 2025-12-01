@@ -1,9 +1,13 @@
 {
   "RxCUI": "2641655",
-  "Name": "ADALIMUMAB-ADAZ(CF) PEN 40 MG/0.4 ML",
+  "Name": "0.4 ML adalimumab-adaz 100 MG/ML Auto-Injector",
   "IsBrand": false,
-  "Brand_RxCUI": "2641655",
-  "Generic_RxCUI": "2641658",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "2641655",
+  "Ingredient_Name": "Adalimumab-Adaz Mgml Auto-Injector",
+  "Manufacturer_Name": "",
+  "Strength": "0.4 ML",
+  "Form": "",
   "prices": {
     "61314032720": {
       "08/21/2024": 1590.04643,
@@ -19,7 +23,8 @@
       "07/23/2025": 1592.95469,
       "08/20/2025": 1592.83712,
       "09/17/2025": 1591.9436,
-      "10/22/2025": 1591.75558
+      "10/22/2025": 1591.75558,
+      "11/19/2025": 1591.76059
     }
   }
 }

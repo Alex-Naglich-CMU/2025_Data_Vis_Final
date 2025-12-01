@@ -1,22 +1,26 @@
 {
   "RxCUI": "1101836",
-  "Name": "MOBISYL 10% CREAM",
+  "Name": "trolamine salicylate 100 MG/ML Topical Cream [Mobisyl]",
   "IsBrand": true,
-  "Brand_RxCUI": "313518",
-  "Generic_RxCUI": "1101836",
+  "Brand_Mate_RxCUI": "1101836",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Trolamine Salicylate Mgml",
+  "Manufacturer_Name": "Mobisyl",
+  "Strength": "100 MG/ML",
+  "Form": "",
   "prices": {
-    "00225036035": {
-      "12/20/2017": 0.04399,
-      "01/17/2018": 0.04623,
-      "12/19/2018": 0.04666,
-      "02/20/2019": 0.04541
-    },
     "00225036011": {
       "02/21/2018": 0.04927,
       "10/17/2018": 0.05097,
       "12/19/2018": 0.04968,
       "05/22/2019": 0.05092,
       "10/23/2019": 0.04974
+    },
+    "00225036035": {
+      "12/20/2017": 0.04399,
+      "01/17/2018": 0.04623,
+      "12/19/2018": 0.04666,
+      "02/20/2019": 0.04541
     }
   }
 }

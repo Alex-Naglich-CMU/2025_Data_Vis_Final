@@ -1,9 +1,13 @@
 {
   "RxCUI": "1989506",
-  "Name": "JULUCA 50-25 MG TABLET",
+  "Name": "dolutegravir 50 MG / rilpivirine 25 MG Oral Tablet [Juluca]",
   "IsBrand": true,
-  "Brand_RxCUI": "1989500",
-  "Generic_RxCUI": "1989506",
+  "Brand_Mate_RxCUI": "1989506",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dolutegravir Rilpivirine",
+  "Manufacturer_Name": "Juluca",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "49702024213": {
       "05/19/2021": 96.19013,
@@ -34,7 +38,8 @@
       "07/23/2025": 117.88721,
       "08/20/2025": 117.93597,
       "09/17/2025": 118.17819,
-      "10/22/2025": 118.37611
+      "10/22/2025": 118.37611,
+      "11/19/2025": 118.38639
     }
   }
 }

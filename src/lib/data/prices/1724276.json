@@ -1,19 +1,25 @@
 {
   "RxCUI": "1724276",
-  "Name": "HYDROMORPHONE 2 MG/ML VIAL",
+  "Name": "1 ML hydromorphone hydrochloride 2 MG/ML Injection",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1724276",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1724276",
+  "Ingredient_Name": "Hydromorphone Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 ML",
+  "Form": "Injection",
   "prices": {
     "00641615125": {
       "07/23/2025": 2.73032,
       "09/17/2025": 2.72304,
-      "10/22/2025": 2.76045
+      "10/22/2025": 2.76045,
+      "11/19/2025": 2.77534
     },
     "63323085325": {
       "07/23/2025": 2.73032,
       "09/17/2025": 2.72304,
-      "10/22/2025": 2.76045
+      "10/22/2025": 2.76045,
+      "11/19/2025": 2.77534
     }
   }
 }

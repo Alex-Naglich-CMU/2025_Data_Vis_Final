@@ -1,9 +1,13 @@
 {
   "RxCUI": "897590",
-  "Name": "VERAPAMIL ER PM 200 MG CAPSULE",
+  "Name": "24 HR verapamil hydrochloride 200 MG Extended Release Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "897590",
-  "Generic_RxCUI": "897592",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "897590",
+  "Ingredient_Name": "Hr Verapamil Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Capsule",
   "prices": {
     "00378620201": {
       "06/21/2017": 1.17859,
@@ -44,6 +48,9 @@
       "12/19/2018": 1.12643,
       "04/17/2019": 4.94637,
       "06/19/2019": 5.00603
+    },
+    "52536048637": {
+      "11/19/2025": 5.2961
     },
     "62175048637": {
       "06/21/2017": 1.17859,
@@ -90,7 +97,8 @@
       "01/22/2025": 4.6736,
       "02/19/2025": 4.6609,
       "03/19/2025": 4.62385,
-      "05/21/2025": 4.64541
+      "05/21/2025": 4.64541,
+      "11/19/2025": 5.2961
     }
   }
 }

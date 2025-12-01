@@ -1,9 +1,13 @@
 {
   "RxCUI": "1093073",
-  "Name": "CLOMID 50 MG TABLET",
+  "Name": "clomiphene citrate 50 MG Oral Tablet [Clomid]",
   "IsBrand": true,
-  "Brand_RxCUI": "1093060",
-  "Generic_RxCUI": "1093073",
+  "Brand_Mate_RxCUI": "1093073",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Clomiphene Citrate",
+  "Manufacturer_Name": "Clomid",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "00713088509": {
       "05/23/2023": 6.18475,

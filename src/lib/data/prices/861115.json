@@ -1,9 +1,13 @@
 {
   "RxCUI": "861115",
-  "Name": "NASCOBAL 500 MCG NASAL SPRAY",
+  "Name": "vitamin B12 0.5 MG/ACTUAT Nasal Spray [Nascobal]",
   "IsBrand": true,
-  "Brand_RxCUI": "861113",
-  "Generic_RxCUI": "861115",
+  "Brand_Mate_RxCUI": "861115",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Vitamin B Mgactuat Nasal",
+  "Manufacturer_Name": "Nascobal",
+  "Strength": "0.5 MG/ACTU",
+  "Form": "",
   "prices": {
     "49884027082": {
       "05/19/2021": 154.32385,

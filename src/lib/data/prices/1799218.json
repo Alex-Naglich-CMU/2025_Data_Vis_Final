@@ -1,9 +1,13 @@
 {
   "RxCUI": "1799218",
-  "Name": "EPCLUSA 400 MG-100 MG TABLET",
+  "Name": "sofosbuvir 400 MG / velpatasvir 100 MG Oral Tablet [Epclusa]",
   "IsBrand": true,
-  "Brand_RxCUI": "1799212",
-  "Generic_RxCUI": "1799218",
+  "Brand_Mate_RxCUI": "1799218",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sofosbuvir Velpatasvir",
+  "Manufacturer_Name": "Epclusa",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "61958220101": {
       "09/06/2017": 859.06039,
@@ -30,7 +34,8 @@
       "07/23/2025": 863.74721,
       "08/20/2025": 861.83987,
       "09/17/2025": 864.04119,
-      "10/22/2025": 864.15522
+      "10/22/2025": 864.15522,
+      "11/19/2025": 866.81893
     }
   }
 }

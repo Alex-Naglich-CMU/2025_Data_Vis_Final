@@ -1,9 +1,13 @@
 {
   "RxCUI": "313800",
-  "Name": "AMPICILLIN 250 MG CAPSULE",
+  "Name": "ampicillin 250 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "313800",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "313800",
+  "Ingredient_Name": "Ampicillin",
+  "Manufacturer_Name": "",
+  "Strength": "250 MG",
+  "Form": "Capsule",
   "prices": {
     "00781214401": {
       "06/21/2017": 0.08894

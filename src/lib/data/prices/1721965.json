@@ -2,8 +2,12 @@
   "RxCUI": "1721965",
   "Name": "MICROGESTIN 24 FE 1 MG-20 MCG",
   "IsBrand": false,
-  "Brand_RxCUI": "1359117",
-  "Generic_RxCUI": "1721965",
+  "Brand_Mate_RxCUI": "1359117",
+  "Generic_Mate_RxCUI": "1721965",
+  "Ingredient_Name": "Microgestin Fe -",
+  "Manufacturer_Name": "",
+  "Strength": "24 FE",
+  "Form": "",
   "prices": {
     "51862064801": {
       "11/17/2021": 0.88476,

@@ -1,15 +1,19 @@
 {
   "RxCUI": "207773",
-  "Name": "PROCARDIA XL 60 MG TABLET",
+  "Name": "Osmotic 24 HR nifedipine 60 MG Extended Release Oral Tablet [Procardia]",
   "IsBrand": true,
-  "Brand_RxCUI": "1812013",
-  "Generic_RxCUI": "207773",
+  "Brand_Mate_RxCUI": "207773",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Osmotic Hr Nifedipine Extended Release",
+  "Manufacturer_Name": "Procardia",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
-    "00069266072": {
+    "00069266066": {
       "06/01/2017": 9.48436,
       "01/01/2018": 10.37969
     },
-    "00069266066": {
+    "00069266072": {
       "06/01/2017": 9.48436,
       "01/01/2018": 10.37969
     }

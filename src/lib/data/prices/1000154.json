@@ -1,9 +1,13 @@
 {
   "RxCUI": "1000154",
-  "Name": "DEPO-PROVERA 150 MG/ML SYRINGE",
+  "Name": "1 ML medroxyprogesterone acetate 150 MG/ML Prefilled Syringe [Depo-Provera]",
   "IsBrand": true,
-  "Brand_RxCUI": "1000153",
-  "Generic_RxCUI": "1000154",
+  "Brand_Mate_RxCUI": "1000154",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Medroxyprogesterone Mgml Prefilled",
+  "Manufacturer_Name": "Depo-Provera",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00009737611": {
       "06/01/2017": 176.58971,

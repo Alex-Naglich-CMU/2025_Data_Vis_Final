@@ -1,9 +1,13 @@
 {
   "RxCUI": "210669",
-  "Name": "KONSYL FIBER 625 MG CAPLET",
+  "Name": "calcium polycarbophil 625 MG Oral Tablet [Konsyl Fiber]",
   "IsBrand": false,
-  "Brand_RxCUI": "308934",
-  "Generic_RxCUI": "210669",
+  "Brand_Mate_RxCUI": "308934",
+  "Generic_Mate_RxCUI": "210669",
+  "Ingredient_Name": "Calcium Polycarbophil",
+  "Manufacturer_Name": "Konsyl Fiber",
+  "Strength": "625 MG",
+  "Form": "",
   "prices": {
     "00224050080": {
       "06/21/2017": 0.05667,

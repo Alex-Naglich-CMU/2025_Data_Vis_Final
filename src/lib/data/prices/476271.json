@@ -1,10 +1,17 @@
 {
   "RxCUI": "476271",
-  "Name": "AMINOCAPROIC ACID 1,000 MG TAB",
+  "Name": "6-aminocaproic acid 1000 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "476271",
-  "Generic_RxCUI": "540540",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "476271",
+  "Ingredient_Name": "-Aminocaproic Acid",
+  "Manufacturer_Name": "",
+  "Strength": "1000 MG",
+  "Form": "Tablet",
   "prices": {
+    "00054111013": {
+      "04/23/2025": 8.2148
+    },
     "24658079930": {
       "05/22/2024": 13.87487,
       "07/17/2024": 13.55927,
@@ -26,9 +33,6 @@
       "05/22/2024": 13.87487,
       "07/17/2024": 13.55927,
       "11/20/2024": 10.53314,
-      "04/23/2025": 8.2148
-    },
-    "00054111013": {
       "04/23/2025": 8.2148
     }
   }

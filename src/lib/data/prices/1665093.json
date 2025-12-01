@@ -1,9 +1,13 @@
 {
   "RxCUI": "1665093",
-  "Name": "CEFEPIME HCL 1 GM VIAL",
+  "Name": "cefepime 1000 MG Injection",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1665093",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1665093",
+  "Ingredient_Name": "Cefepime",
+  "Manufacturer_Name": "",
+  "Strength": "1000 MG",
+  "Form": "Injection",
   "prices": {
     "00409956610": {
       "06/19/2024": 3.79629,

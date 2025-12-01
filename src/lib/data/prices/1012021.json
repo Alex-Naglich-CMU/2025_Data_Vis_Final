@@ -1,9 +1,13 @@
 {
   "RxCUI": "1012021",
-  "Name": "SULF-PRED 10-0.23% EYE DROPS",
+  "Name": "prednisolone sodium phosphate 2.5 MG/ML / sulfacetamide sodium 100 MG/ML Ophthalmic Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1012021",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1012021",
+  "Ingredient_Name": "Prednisolone Sodium Phosphate Mgml Sulfacetamide Sodium Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "2.5 MG/ML",
+  "Form": "Solution",
   "prices": {
     "24208031705": {
       "05/19/2021": 2.86829,
@@ -76,7 +80,8 @@
       "07/23/2025": 2.58208,
       "08/20/2025": 2.62543,
       "09/17/2025": 2.65111,
-      "10/22/2025": 2.63616
+      "10/22/2025": 2.63616,
+      "11/19/2025": 2.62199
     },
     "24208031710": {
       "06/21/2017": 1.78243

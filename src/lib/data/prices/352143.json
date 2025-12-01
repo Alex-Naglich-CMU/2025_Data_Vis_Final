@@ -1,9 +1,13 @@
 {
   "RxCUI": "352143",
-  "Name": "SUSTIVA 600 MG TABLET",
+  "Name": "efavirenz 600 MG Oral Tablet [Sustiva]",
   "IsBrand": true,
-  "Brand_RxCUI": "349477",
-  "Generic_RxCUI": "352143",
+  "Brand_Mate_RxCUI": "352143",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Efavirenz",
+  "Manufacturer_Name": "Sustiva",
+  "Strength": "600 MG",
+  "Form": "",
   "prices": {
     "00056051030": {
       "11/22/2017": 31.40228,

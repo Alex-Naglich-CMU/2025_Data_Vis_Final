@@ -1,9 +1,13 @@
 {
   "RxCUI": "2560240",
-  "Name": "MUCINEX INSTASOOTHE 7%-1% SPRY",
+  "Name": "benzocaine 70 MG/ML / menthol 10 MG/ML Mucosal Spray",
   "IsBrand": true,
-  "Brand_RxCUI": "2560240",
-  "Generic_RxCUI": null,
+  "Brand_Mate_RxCUI": "2560240",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Benzocaine Mgml Menthol Mgml Mucosal",
+  "Manufacturer_Name": "",
+  "Strength": "70 MG/ML",
+  "Form": "",
   "prices": {
     "72854026504": {
       "05/22/2024": 0.05512,

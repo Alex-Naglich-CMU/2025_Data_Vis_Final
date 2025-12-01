@@ -1,9 +1,13 @@
 {
   "RxCUI": "1597130",
-  "Name": "ANDROGEL 1% (50 MG/5 G) PKT",
+  "Name": "5000 MG testosterone 0.01 MG/MG Topical Gel [Androgel]",
   "IsBrand": true,
-  "Brand_RxCUI": "1597129",
-  "Generic_RxCUI": "1597130",
+  "Brand_Mate_RxCUI": "1597130",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Testosterone Mgmg",
+  "Manufacturer_Name": "Androgel",
+  "Strength": "5000 MG",
+  "Form": "",
   "prices": {
     "00051845030": {
       "07/21/2021": 4.06934,

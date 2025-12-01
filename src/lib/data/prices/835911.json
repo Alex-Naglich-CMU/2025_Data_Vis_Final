@@ -1,9 +1,13 @@
 {
   "RxCUI": "835911",
-  "Name": "NEORAL 100 MG GELATIN CAPSULE",
+  "Name": "cyclosporine, modified 100 MG Oral Capsule [Neoral]",
   "IsBrand": true,
-  "Brand_RxCUI": "241834",
-  "Generic_RxCUI": "835911",
+  "Brand_Mate_RxCUI": "835911",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cyclosporine, Modified",
+  "Manufacturer_Name": "Neoral",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "00078024815": {
       "07/11/2017": 7.73919,

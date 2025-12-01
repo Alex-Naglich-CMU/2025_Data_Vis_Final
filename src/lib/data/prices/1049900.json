@@ -1,9 +1,13 @@
 {
   "RxCUI": "1049900",
-  "Name": "CHLD ALLRGY RLF 12.5 MG CHEW TB",
+  "Name": "diphenhydramine hydrochloride 12.5 MG Chewable Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1049900",
-  "Generic_RxCUI": "1049901",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1049900",
+  "Ingredient_Name": "Diphenhydramine Hydrochloride Chewable",
+  "Manufacturer_Name": "",
+  "Strength": "12.5 MG",
+  "Form": "Tablet",
   "prices": {
     "46122042589": {
       "09/22/2021": 0.1035,

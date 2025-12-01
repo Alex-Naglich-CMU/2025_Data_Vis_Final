@@ -1,9 +1,13 @@
 {
   "RxCUI": "1098142",
-  "Name": "NIASPAN ER 500 MG TABLET",
+  "Name": "24 HR niacin 500 MG Extended Release Oral Tablet [Niaspan]",
   "IsBrand": true,
-  "Brand_RxCUI": "1098141",
-  "Generic_RxCUI": "1098142",
+  "Brand_Mate_RxCUI": "1098142",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Niacin Extended Release",
+  "Manufacturer_Name": "Niaspan",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00074307490": {
       "10/18/2017": 5.00442

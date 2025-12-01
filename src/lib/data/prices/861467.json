@@ -1,9 +1,13 @@
 {
   "RxCUI": "861467",
-  "Name": "MEPERIDINE 50 MG TABLET",
+  "Name": "meperidine hydrochloride 50 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "861467",
-  "Generic_RxCUI": "861525",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "861467",
+  "Ingredient_Name": "Meperidine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "50 MG",
+  "Form": "Tablet",
   "prices": {
     "42806005001": {
       "06/21/2017": 0.48879,

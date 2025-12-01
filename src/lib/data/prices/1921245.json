@@ -2,8 +2,12 @@
   "RxCUI": "1921245",
   "Name": "HUMIRA(CF) PEN CROHN'S-UC-HS STARTER 80 MG/0.8 ML",
   "IsBrand": true,
-  "Brand_RxCUI": "1921244",
-  "Generic_RxCUI": "1921245",
+  "Brand_Mate_RxCUI": "1921245",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Humira(Cf) Pen Crohn'S-Uc-Hs Starter",
+  "Manufacturer_Name": "",
+  "Strength": "80 MG",
+  "Form": "",
   "prices": {
     "00074012403": {
       "05/22/2024": 6731.65852,

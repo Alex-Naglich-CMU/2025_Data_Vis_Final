@@ -1,9 +1,13 @@
 {
   "RxCUI": "642452",
-  "Name": "LANTHANUM CARB 750 MG TAB CHEW",
+  "Name": "lanthanum carbonate 750 MG Chewable Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "642452",
-  "Generic_RxCUI": "603122",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "642452",
+  "Ingredient_Name": "Lanthanum Carbonate Chewable",
+  "Manufacturer_Name": "",
+  "Strength": "750 MG",
+  "Form": "Tablet",
   "prices": {
     "00093593985": {
       "07/17/2024": 3.85925,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "211322",
-  "Name": "REMERON 15 MG TABLET",
+  "Name": "mirtazapine 15 MG Oral Tablet [Remeron]",
   "IsBrand": true,
-  "Brand_RxCUI": "311725",
-  "Generic_RxCUI": "211322",
+  "Brand_Mate_RxCUI": "211322",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Mirtazapine",
+  "Manufacturer_Name": "Remeron",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "78206016001": {
       "06/19/2024": 5.87372,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1249631",
-  "Name": "FLAREX 0.1% EYE DROPS",
+  "Name": "fluorometholone acetate 1 MG/ML Ophthalmic Suspension [Flarex]",
   "IsBrand": true,
-  "Brand_RxCUI": "1249629",
-  "Generic_RxCUI": "1249631",
+  "Brand_Mate_RxCUI": "1249631",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fluorometholone Mgml",
+  "Manufacturer_Name": "Flarex",
+  "Strength": "1 MG/ML",
+  "Form": "",
   "prices": {
     "00065009605": {
       "10/18/2017": 12.6296,
@@ -40,7 +44,8 @@
       "07/23/2025": 23.9662,
       "08/20/2025": 23.96538,
       "09/17/2025": 23.96471,
-      "10/22/2025": 23.952
+      "10/22/2025": 23.952,
+      "11/19/2025": 23.94836
     }
   }
 }

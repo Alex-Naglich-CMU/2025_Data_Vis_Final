@@ -1,9 +1,13 @@
 {
   "RxCUI": "1365660",
-  "Name": "OXTELLAR XR 150 MG TABLET",
+  "Name": "24 HR oxcarbazepine 150 MG Extended Release Oral Tablet [Oxtellar]",
   "IsBrand": true,
-  "Brand_RxCUI": "1365653",
-  "Generic_RxCUI": "1365660",
+  "Brand_Mate_RxCUI": "1365660",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Oxcarbazepine Extended Release",
+  "Manufacturer_Name": "Oxtellar",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "17772012101": {
       "06/29/2017": 5.50813,

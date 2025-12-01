@@ -1,9 +1,13 @@
 {
   "RxCUI": "1489074",
-  "Name": "BIOFREEZE 10.5% SPRAY",
+  "Name": "menthol 105 MG/ML Topical Spray [Biofreeze]",
   "IsBrand": true,
-  "Brand_RxCUI": "1489073",
-  "Generic_RxCUI": "1489074",
+  "Brand_Mate_RxCUI": "1489074",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Menthol Mgml",
+  "Manufacturer_Name": "Biofreeze",
+  "Strength": "105 MG/ML",
+  "Form": "",
   "prices": {
     "59316011410": {
       "06/19/2024": 0.08524

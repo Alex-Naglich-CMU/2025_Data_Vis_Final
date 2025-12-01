@@ -1,9 +1,13 @@
 {
   "RxCUI": "835896",
-  "Name": "GENGRAF 25 MG CAPSULE",
+  "Name": "cyclosporine, modified 25 MG Oral Capsule [Gengraf]",
   "IsBrand": true,
-  "Brand_RxCUI": "835894",
-  "Generic_RxCUI": "835896",
+  "Brand_Mate_RxCUI": "835896",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cyclosporine, Modified",
+  "Manufacturer_Name": "Gengraf",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "00074310832": {
       "05/22/2024": 1.68614,

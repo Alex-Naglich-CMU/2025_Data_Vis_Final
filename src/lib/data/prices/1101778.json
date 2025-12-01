@@ -1,9 +1,13 @@
 {
   "RxCUI": "1101778",
-  "Name": "K-PHOS ORIGINAL TABLET",
+  "Name": "monobasic potassium phosphate 0.0408 MEQ/ML Oral Solution [K-Phos]",
   "IsBrand": false,
-  "Brand_RxCUI": "1101775",
-  "Generic_RxCUI": "1101778",
+  "Brand_Mate_RxCUI": "1101775",
+  "Generic_Mate_RxCUI": "1101778",
+  "Ingredient_Name": "Monobasic Potassium Phosphate Meqml",
+  "Manufacturer_Name": "K-Phos",
+  "Strength": "0.0408 MEQ/ML",
+  "Form": "",
   "prices": {
     "00486111101": {
       "05/19/2021": 0.46546,

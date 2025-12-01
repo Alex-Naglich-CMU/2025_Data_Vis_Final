@@ -1,9 +1,13 @@
 {
   "RxCUI": "2642818",
-  "Name": "NIVA THYROID 15 MG TABLET",
+  "Name": "thyroid (USP) 15 MG Oral Tablet [Niva Thyroid]",
   "IsBrand": false,
-  "Brand_RxCUI": "314267",
-  "Generic_RxCUI": "2642818",
+  "Brand_Mate_RxCUI": "314267",
+  "Generic_Mate_RxCUI": "2642818",
+  "Ingredient_Name": "Thyroid (Usp)",
+  "Manufacturer_Name": "Niva Thyroid",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "75834031001": {
       "10/18/2023": 0.5436,
@@ -30,7 +34,8 @@
       "07/23/2025": 0.53195,
       "08/20/2025": 0.52527,
       "09/17/2025": 0.51755,
-      "10/22/2025": 0.5206
+      "10/22/2025": 0.5206,
+      "11/19/2025": 0.52473
     }
   }
 }

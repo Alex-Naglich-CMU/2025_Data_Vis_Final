@@ -1,9 +1,13 @@
 {
   "RxCUI": "856792",
-  "Name": "CHLORDIAZEPOX-AMITRIPTYL 10-25",
+  "Name": "amitriptyline hydrochloride 25 MG / chlordiazepoxide 10 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "856792",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "856792",
+  "Ingredient_Name": "Amitriptyline Hydrochloride Chlordiazepoxide",
+  "Manufacturer_Name": "",
+  "Strength": "25 MG",
+  "Form": "Tablet",
   "prices": {
     "00378027701": {
       "06/21/2017": 1.59926,

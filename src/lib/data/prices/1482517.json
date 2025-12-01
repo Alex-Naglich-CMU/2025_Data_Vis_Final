@@ -1,9 +1,13 @@
 {
   "RxCUI": "1482517",
-  "Name": "APTIOM 400 MG TABLET",
+  "Name": "eslicarbazepine acetate 400 MG Oral Tablet [Aptiom]",
   "IsBrand": true,
-  "Brand_RxCUI": "1482515",
-  "Generic_RxCUI": "1482517",
+  "Brand_Mate_RxCUI": "1482517",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Eslicarbazepine",
+  "Manufacturer_Name": "Aptiom",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "63402020430": {
       "11/22/2017": 26.75572,
@@ -38,7 +42,8 @@
       "07/23/2025": 42.97716,
       "08/20/2025": 42.97378,
       "09/17/2025": 42.99909,
-      "10/22/2025": 43.03327
+      "10/22/2025": 43.03327,
+      "11/19/2025": 43.05271
     }
   }
 }

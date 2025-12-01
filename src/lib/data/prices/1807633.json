@@ -1,9 +1,13 @@
 {
   "RxCUI": "1807633",
-  "Name": "SODIUM CHLORIDE 0.9% SOLN",
+  "Name": "250 ML sodium chloride 9 MG/ML Injection",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1807633",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1807633",
+  "Ingredient_Name": "Sodium Chloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "250 ML",
+  "Form": "Injection",
   "prices": {
     "00409710102": {
       "04/23/2025": 0.02145,

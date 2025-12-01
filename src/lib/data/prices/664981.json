@@ -1,9 +1,13 @@
 {
   "RxCUI": "664981",
-  "Name": "VITAMIN A AND D OINTMENT",
+  "Name": "lanolin 0.155 MG/MG / petrolatum 0.534 MG/MG Topical Ointment",
   "IsBrand": false,
-  "Brand_RxCUI": "664981",
-  "Generic_RxCUI": "705895",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "664981",
+  "Ingredient_Name": "Lanolin Mgmg Petrolatum Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.155 MG/MG",
+  "Form": "Ointment",
   "prices": {
     "70000035801": {
       "07/21/2021": 0.01183,
@@ -23,7 +27,8 @@
       "06/18/2025": 0.0127,
       "07/23/2025": 0.01283,
       "08/20/2025": 0.01272,
-      "10/22/2025": 0.01284
+      "10/22/2025": 0.01284,
+      "11/19/2025": 0.01296
     }
   }
 }

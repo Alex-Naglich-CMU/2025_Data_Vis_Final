@@ -1,9 +1,13 @@
 {
   "RxCUI": "1039255",
-  "Name": "CEPACOL SORE THROAT-COUGH LOZ",
+  "Name": "benzocaine 7.5 MG / dextromethorphan hydrobromide 5 MG Oral Lozenge [Cepacol Sore Throat Plus Cough]",
   "IsBrand": true,
-  "Brand_RxCUI": "1039251",
-  "Generic_RxCUI": "1039255",
+  "Brand_Mate_RxCUI": "1039255",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Benzocaine Dextromethorphan Hydrobromide Lozenge",
+  "Manufacturer_Name": "Cepacol Sore Throat Plus Cough",
+  "Strength": "7.5 MG",
+  "Form": "",
   "prices": {
     "63824074416": {
       "05/19/2021": 0.14864,

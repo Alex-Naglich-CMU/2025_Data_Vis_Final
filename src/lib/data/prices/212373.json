@@ -1,9 +1,13 @@
 {
   "RxCUI": "212373",
-  "Name": "MENEST 1.25 MG TABLET",
+  "Name": "estrogens, esterified (USP) 1.25 MG Oral Tablet [Menest]",
   "IsBrand": true,
-  "Brand_RxCUI": "197668",
-  "Generic_RxCUI": "212373",
+  "Brand_Mate_RxCUI": "212373",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Estrogens, Esterified (Usp)",
+  "Manufacturer_Name": "Menest",
+  "Strength": "1.25 MG",
+  "Form": "",
   "prices": {
     "61570007401": {
       "06/01/2017": 3.01715,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "104783",
-  "Name": "RISPERDAL 3 MG TABLET",
+  "Name": "risperidone 3 MG Oral Tablet [Risperdal]",
   "IsBrand": true,
-  "Brand_RxCUI": "312832",
-  "Generic_RxCUI": "104783",
+  "Brand_Mate_RxCUI": "104783",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Risperidone",
+  "Manufacturer_Name": "Risperdal",
+  "Strength": "3 MG",
+  "Form": "",
   "prices": {
     "50458033001": {
       "05/22/2024": 9.20187,

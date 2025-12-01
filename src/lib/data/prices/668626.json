@@ -1,9 +1,13 @@
 {
   "RxCUI": "668626",
-  "Name": "FENTORA 400 MCG BUCCAL TABLET",
+  "Name": "fentanyl 0.4 MG Buccal Tablet [Fentora]",
   "IsBrand": true,
-  "Brand_RxCUI": "668365",
-  "Generic_RxCUI": "668626",
+  "Brand_Mate_RxCUI": "668626",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fentanyl Buccal",
+  "Manufacturer_Name": "Fentora",
+  "Strength": "0.4 MG",
+  "Form": "",
   "prices": {
     "63459054404": {
       "01/01/2018": 88.40874,

@@ -1,10 +1,17 @@
 {
   "RxCUI": "858346",
-  "Name": "ZIPSOR 25 MG CAPSULE",
+  "Name": "diclofenac 25 MG Oral Capsule [Zipsor]",
   "IsBrand": true,
-  "Brand_RxCUI": "858342",
-  "Generic_RxCUI": "858346",
+  "Brand_Mate_RxCUI": "858346",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Diclofenac",
+  "Manufacturer_Name": "Zipsor",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
+    "13913000811": {
+      "07/06/2017": 9.46701
+    },
     "13913000812": {
       "07/06/2017": 9.46701,
       "08/23/2017": 9.43779,
@@ -14,9 +21,6 @@
       "01/03/2020": 12.56115,
       "01/22/2020": 12.53558,
       "01/03/2021": 13.7766
-    },
-    "13913000811": {
-      "07/06/2017": 9.46701
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "312439",
-  "Name": "PIMOZIDE 1 MG TABLET",
+  "Name": "pimozide 1 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "312439",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "312439",
+  "Ingredient_Name": "Pimozide",
+  "Manufacturer_Name": "",
+  "Strength": "1 MG",
+  "Form": "Tablet",
   "prices": {
     "49884034701": {
       "11/18/2020": 1.33448,
@@ -25,7 +29,8 @@
       "07/23/2025": 1.28896,
       "08/20/2025": 1.28552,
       "09/17/2025": 1.27738,
-      "10/22/2025": 1.27809
+      "10/22/2025": 1.27809,
+      "11/19/2025": 1.2631
     }
   }
 }

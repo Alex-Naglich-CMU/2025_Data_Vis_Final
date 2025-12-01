@@ -1,9 +1,13 @@
 {
   "RxCUI": "2121764",
-  "Name": "SUNOSI 75 MG TABLET",
+  "Name": "solriamfetol 75 MG Oral Tablet [Sunosi]",
   "IsBrand": true,
-  "Brand_RxCUI": "2121756",
-  "Generic_RxCUI": "2121764",
+  "Brand_Mate_RxCUI": "2121764",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Solriamfetol",
+  "Manufacturer_Name": "Sunosi",
+  "Strength": "75 MG",
+  "Form": "",
   "prices": {
     "68727035001": {
       "06/17/2020": 21.12786,
@@ -32,7 +36,8 @@
       "07/23/2025": 29.47215,
       "08/20/2025": 29.47724,
       "09/17/2025": 29.47878,
-      "10/22/2025": 29.4632
+      "10/22/2025": 29.4632,
+      "11/19/2025": 29.45846
     },
     "81968035007": {
       "01/01/2024": 27.79032,

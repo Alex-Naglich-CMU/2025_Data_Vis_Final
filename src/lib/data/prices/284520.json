@@ -1,9 +1,13 @@
 {
   "RxCUI": "284520",
-  "Name": "PROTOPIC 0.1% OINTMENT",
+  "Name": "tacrolimus 0.001 MG/MG Topical Ointment [Protopic]",
   "IsBrand": true,
-  "Brand_RxCUI": "314266",
-  "Generic_RxCUI": "284520",
+  "Brand_Mate_RxCUI": "284520",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tacrolimus Mgmg",
+  "Manufacturer_Name": "Protopic",
+  "Strength": "0.001 MG/MG",
+  "Form": "",
   "prices": {
     "50222021130": {
       "01/01/2021": 9.30953

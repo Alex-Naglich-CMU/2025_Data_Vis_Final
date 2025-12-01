@@ -1,9 +1,13 @@
 {
   "RxCUI": "1797849",
-  "Name": "DYMISTA NASAL SPRAY",
+  "Name": "azelastine hydrochloride 0.137 MG/ACTUAT / fluticasone propionate 0.05 MG/ACTUAT Metered Dose Nasal Spray [Dymista]",
   "IsBrand": true,
-  "Brand_RxCUI": "1797847",
-  "Generic_RxCUI": "1797849",
+  "Brand_Mate_RxCUI": "1797849",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Azelastine Hydrochloride Mgactuat Fluticasone Propionate Mgactuat Metered Dose Nasal",
+  "Manufacturer_Name": "Dymista",
+  "Strength": "0.137 MG/ACTU",
+  "Form": "",
   "prices": {
     "00037024523": {
       "12/29/2017": 7.84404,
@@ -30,7 +34,8 @@
       "07/23/2025": 9.16393,
       "08/20/2025": 9.17167,
       "09/17/2025": 9.17839,
-      "10/22/2025": 9.15566
+      "10/22/2025": 9.15566,
+      "11/19/2025": 9.15044
     }
   }
 }

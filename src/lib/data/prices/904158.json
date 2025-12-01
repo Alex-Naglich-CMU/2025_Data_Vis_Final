@@ -1,9 +1,13 @@
 {
   "RxCUI": "904158",
-  "Name": "TRILYTE WITH FLAVOR PACKETS",
+  "Name": "polyethylene glycol 3350 420000 MG / potassium chloride 1480 MG / sodium bicarbonate 5720 MG / sodium chloride 11200 MG Powder for Oral Solution [TriLyte]",
   "IsBrand": false,
-  "Brand_RxCUI": "801054",
-  "Generic_RxCUI": "904158",
+  "Brand_Mate_RxCUI": "801054",
+  "Generic_Mate_RxCUI": "904158",
+  "Ingredient_Name": "Polyethylene Glycol Potassium Chloride Sodium Bicarbonate Sodium Chloride For",
+  "Manufacturer_Name": "TriLyte",
+  "Strength": "420000 MG",
+  "Form": "",
   "prices": {
     "51525683104": {
       "05/19/2021": 0.00474,

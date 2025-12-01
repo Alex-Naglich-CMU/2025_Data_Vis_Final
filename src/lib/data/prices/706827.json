@@ -1,9 +1,13 @@
 {
   "RxCUI": "706827",
-  "Name": "RISPERDAL CONSTA 37.5 MG VIAL",
+  "Name": "risperidone 37.5 MG Injection [Risperdal]",
   "IsBrand": true,
-  "Brand_RxCUI": "402011",
-  "Generic_RxCUI": "706827",
+  "Brand_Mate_RxCUI": "706827",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Risperidone",
+  "Manufacturer_Name": "Risperdal",
+  "Strength": "37.5 MG",
+  "Form": "",
   "prices": {
     "50458030711": {
       "05/19/2021": 770.395,
@@ -39,7 +43,8 @@
       "07/23/2025": 927.62524,
       "08/20/2025": 928.602,
       "09/17/2025": 929.00852,
-      "10/22/2025": 928.99323
+      "10/22/2025": 928.99323,
+      "11/19/2025": 929.16781
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "543492",
-  "Name": "PROCTO-PAK 1% CREAM",
+  "Name": "hydrocortisone 10 MG/ML Topical Cream [Procto-Pak]",
   "IsBrand": false,
-  "Brand_RxCUI": "106258",
-  "Generic_RxCUI": "543492",
+  "Brand_Mate_RxCUI": "106258",
+  "Generic_Mate_RxCUI": "543492",
+  "Ingredient_Name": "Hydrocortisone Mgml",
+  "Manufacturer_Name": "Procto-Pak",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "64980030230": {
       "09/20/2017": 0.64838,

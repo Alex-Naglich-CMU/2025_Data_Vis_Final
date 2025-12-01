@@ -1,9 +1,13 @@
 {
   "RxCUI": "848734",
-  "Name": "FANAPT 12 MG TABLET",
+  "Name": "iloperidone 12 MG Oral Tablet [Fanapt]",
   "IsBrand": true,
-  "Brand_RxCUI": "848732",
-  "Generic_RxCUI": "848734",
+  "Brand_Mate_RxCUI": "848734",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Iloperidone",
+  "Manufacturer_Name": "Fanapt",
+  "Strength": "12 MG",
+  "Form": "",
   "prices": {
     "43068011202": {
       "06/21/2017": 31.72067,
@@ -36,7 +40,8 @@
       "07/23/2025": 57.82931,
       "08/20/2025": 57.79625,
       "09/17/2025": 57.83871,
-      "10/22/2025": 57.84236
+      "10/22/2025": 57.84236,
+      "11/19/2025": 57.80622
     }
   }
 }

@@ -1,12 +1,17 @@
 {
   "RxCUI": "1293864",
-  "Name": "ERGOMAR 2 MG TABLET SUBLINGUAL",
+  "Name": "ergotamine tartrate 2 MG Sublingual Tablet [Ergomar]",
   "IsBrand": true,
-  "Brand_RxCUI": "1293862",
-  "Generic_RxCUI": "1293864",
+  "Brand_Mate_RxCUI": "1293864",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ergotamine Tartrate Sublingual",
+  "Manufacturer_Name": "Ergomar",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "81279010420": {
-      "10/22/2025": 41.73708
+      "10/22/2025": 41.73708,
+      "11/19/2025": 42.04607
     }
   }
 }

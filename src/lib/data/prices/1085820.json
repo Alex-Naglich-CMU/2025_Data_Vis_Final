@@ -1,9 +1,13 @@
 {
   "RxCUI": "1085820",
-  "Name": "NATROBA 0.9% TOPICAL SUSP",
+  "Name": "spinosad 9 MG/ML Medicated Shampoo [Natroba]",
   "IsBrand": true,
-  "Brand_RxCUI": "1085816",
-  "Generic_RxCUI": "1085820",
+  "Brand_Mate_RxCUI": "1085820",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Spinosad Mgml Medicated",
+  "Manufacturer_Name": "Natroba",
+  "Strength": "9 MG/ML",
+  "Form": "",
   "prices": {
     "52246092904": {
       "06/23/2021": 2.20977,
@@ -33,7 +37,8 @@
       "07/23/2025": 2.20614,
       "08/20/2025": 2.20529,
       "09/17/2025": 2.20474,
-      "10/22/2025": 2.20429
+      "10/22/2025": 2.20429,
+      "11/19/2025": 2.20381
     }
   }
 }

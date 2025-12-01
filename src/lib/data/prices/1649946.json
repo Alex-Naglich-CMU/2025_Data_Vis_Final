@@ -1,9 +1,13 @@
 {
   "RxCUI": "1649946",
-  "Name": "NEUPOGEN 300 MCG/ML VIAL",
+  "Name": "1 ML filgrastim 0.3 MG/ML Injection [Neupogen]",
   "IsBrand": true,
-  "Brand_RxCUI": "1649944",
-  "Generic_RxCUI": "1649946",
+  "Brand_Mate_RxCUI": "1649946",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Filgrastim Mgml",
+  "Manufacturer_Name": "Neupogen",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "55513053010": {
       "06/19/2024": 304.94022,

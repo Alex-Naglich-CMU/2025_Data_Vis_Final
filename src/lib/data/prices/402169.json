@@ -1,10 +1,17 @@
 {
   "RxCUI": "402169",
-  "Name": "ZOMIG 5 MG NASAL SPRAY",
+  "Name": "zolmitriptan 5 MG/ACTUAT Nasal Spray [Zomig]",
   "IsBrand": true,
-  "Brand_RxCUI": "402000",
-  "Generic_RxCUI": "402169",
+  "Brand_Mate_RxCUI": "402169",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Zolmitriptan Mgactuat Nasal",
+  "Manufacturer_Name": "Zomig",
+  "Strength": "5 MG/ACTU",
+  "Form": "",
   "prices": {
+    "64896008412": {
+      "01/20/2025": 101.48678
+    },
     "64896068151": {
       "07/03/2017": 64.43795,
       "08/23/2017": 64.04323,
@@ -18,9 +25,6 @@
       "05/22/2024": 93.77561,
       "06/19/2024": 93.91381,
       "07/17/2024": 94.05633,
-      "01/20/2025": 101.48678
-    },
-    "64896008412": {
       "01/20/2025": 101.48678
     }
   }

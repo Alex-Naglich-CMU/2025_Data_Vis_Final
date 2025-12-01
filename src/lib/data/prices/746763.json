@@ -1,9 +1,13 @@
 {
   "RxCUI": "746763",
-  "Name": "PROVENTIL HFA 90 MCG INHALER",
+  "Name": "NDA020503 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [Proventil]",
   "IsBrand": true,
-  "Brand_RxCUI": "2123111",
-  "Generic_RxCUI": "746763",
+  "Brand_Mate_RxCUI": "746763",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Nda Actuat Albuterol Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Proventil",
+  "Strength": "200 ACTU",
+  "Form": "",
   "prices": {
     "66758095985": {
       "5/18/2022": 11.37593,

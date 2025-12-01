@@ -1,9 +1,13 @@
 {
   "RxCUI": "206828",
-  "Name": "ATIVAN 2 MG TABLET",
+  "Name": "lorazepam 2 MG Oral Tablet [Ativan]",
   "IsBrand": true,
-  "Brand_RxCUI": "197902",
-  "Generic_RxCUI": "206828",
+  "Brand_Mate_RxCUI": "206828",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Lorazepam",
+  "Manufacturer_Name": "Ativan",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "00187006501": {
       "07/17/2024": 70.27211,

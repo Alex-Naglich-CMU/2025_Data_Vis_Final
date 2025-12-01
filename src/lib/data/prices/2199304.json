@@ -1,9 +1,13 @@
 {
   "RxCUI": "2199304",
-  "Name": "GVOKE HYPOPEN 2PK 0.5 MG/0.1 ML",
+  "Name": "0.1 ML glucagon 5 MG/ML Auto-Injector [Gvoke]",
   "IsBrand": true,
-  "Brand_RxCUI": "2199299",
-  "Generic_RxCUI": "2199304",
+  "Brand_Mate_RxCUI": "2199304",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Glucagon Mgml Auto-Injector",
+  "Manufacturer_Name": "Gvoke",
+  "Strength": "0.1 ML",
+  "Form": "",
   "prices": {
     "72065012012": {
       "2/1/2022": 2853.5876,
@@ -24,7 +28,8 @@
       "07/23/2025": 3111.84063,
       "08/20/2025": 3110.69419,
       "09/17/2025": 3111.24333,
-      "10/22/2025": 3109.12174
+      "10/22/2025": 3109.12174,
+      "11/19/2025": 3109.17632
     }
   }
 }

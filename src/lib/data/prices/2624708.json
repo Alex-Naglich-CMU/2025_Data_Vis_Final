@@ -1,9 +1,13 @@
 {
   "RxCUI": "2624708",
-  "Name": "XELSTRYM 13.5 MG/9 HR PATCH",
+  "Name": "9 HR dextroamphetamine 1.5 MG/HR Transdermal System [Xelstrym]",
   "IsBrand": true,
-  "Brand_RxCUI": "2624701",
-  "Generic_RxCUI": "2624708",
+  "Brand_Mate_RxCUI": "2624708",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Dextroamphetamine Mghr Transdermal System",
+  "Manufacturer_Name": "Xelstrym",
+  "Strength": "9 HR",
+  "Form": "",
   "prices": {
     "68968021501": {
       "08/21/2024": 15.57443,

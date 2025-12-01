@@ -1,9 +1,13 @@
 {
   "RxCUI": "1544394",
-  "Name": "RASUVO 20 MG/0.4 ML AUTOINJ",
+  "Name": "0.4 ML methotrexate 50 MG/ML Auto-Injector [Rasuvo]",
   "IsBrand": true,
-  "Brand_RxCUI": "1441416",
-  "Generic_RxCUI": "1544394",
+  "Brand_Mate_RxCUI": "1544394",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methotrexate Mgml Auto-Injector",
+  "Manufacturer_Name": "Rasuvo",
+  "Strength": "0.4 ML",
+  "Form": "",
   "prices": {
     "59137053004": {
       "02/21/2018": 282.8525,
@@ -26,7 +30,8 @@
       "04/01/2025": 351.61045,
       "08/20/2025": 351.6392,
       "09/17/2025": 352.5525,
-      "10/22/2025": 352.03094
+      "10/22/2025": 352.03094,
+      "11/19/2025": 351.61094
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1086613",
-  "Name": "LUBRIFRESH PM EYE OINTMENT",
+  "Name": "mineral oil 0.15 MG/MG / petrolatum 0.83 MG/MG Ophthalmic Ointment [Lubrifresh P.M.]",
   "IsBrand": false,
-  "Brand_RxCUI": "746083",
-  "Generic_RxCUI": "1086613",
+  "Brand_Mate_RxCUI": "746083",
+  "Generic_Mate_RxCUI": "1086613",
+  "Ingredient_Name": "Mineral Oil Mgmg Petrolatum Mgmg",
+  "Manufacturer_Name": "Lubrifresh P.M.",
+  "Strength": "0.15 MG/MG",
+  "Form": "",
   "prices": {
     "00904648838": {
       "06/23/2021": 1.82549,

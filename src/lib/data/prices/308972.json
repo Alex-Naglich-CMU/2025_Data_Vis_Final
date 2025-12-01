@@ -1,9 +1,13 @@
 {
   "RxCUI": "308972",
-  "Name": "TEGRETOL 200 MG TABLET",
+  "Name": "carbamazepine 200 MG Oral Tablet [Tegretol]",
   "IsBrand": true,
-  "Brand_RxCUI": "308979",
-  "Generic_RxCUI": "308972",
+  "Brand_Mate_RxCUI": "308972",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Carbamazepine",
+  "Manufacturer_Name": "Tegretol",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "00078050905": {
       "06/23/2021": 2.43591,
@@ -33,7 +37,8 @@
       "07/23/2025": 2.96008,
       "08/20/2025": 2.96073,
       "09/17/2025": 2.96193,
-      "10/22/2025": 2.96226
+      "10/22/2025": 2.96226,
+      "11/19/2025": 2.95626
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2631867",
-  "Name": "ATORVALIQ 20 MG/5 ML SUSP",
+  "Name": "atorvastatin 4 MG/ML Oral Suspension [Atorvaliq]",
   "IsBrand": true,
-  "Brand_RxCUI": "2630760",
-  "Generic_RxCUI": "2631867",
+  "Brand_Mate_RxCUI": "2631867",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Atorvastatin Mgml",
+  "Manufacturer_Name": "Atorvaliq",
+  "Strength": "4 MG/ML",
+  "Form": "",
   "prices": {
     "46287003001": {
       "05/22/2024": 1.11882,

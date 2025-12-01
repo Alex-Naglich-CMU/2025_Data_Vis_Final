@@ -1,14 +1,18 @@
 {
   "RxCUI": "261289",
-  "Name": "TEMODAR 20 MG CAPSULE",
+  "Name": "temozolomide 20 MG Oral Capsule [Temodar]",
   "IsBrand": true,
-  "Brand_RxCUI": "313209",
-  "Generic_RxCUI": "261289",
+  "Brand_Mate_RxCUI": "261289",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Temozolomide",
+  "Manufacturer_Name": "Temodar",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
-    "00085151904": {
+    "00085151903": {
       "01/05/2018": 89.91774
     },
-    "00085151903": {
+    "00085151904": {
       "01/05/2018": 89.91774
     }
   }

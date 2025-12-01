@@ -1,9 +1,13 @@
 {
   "RxCUI": "2584350",
-  "Name": "LOFENA 25 MG TABLET",
+  "Name": "diclofenac potassium 25 MG Oral Tablet [Lofena]",
   "IsBrand": false,
-  "Brand_RxCUI": "857702",
-  "Generic_RxCUI": "2584350",
+  "Brand_Mate_RxCUI": "857702",
+  "Generic_Mate_RxCUI": "2584350",
+  "Ingredient_Name": "Diclofenac Potassium",
+  "Manufacturer_Name": "Lofena",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "15370018060": {
       "05/22/2024": 19.25735,
@@ -23,7 +27,8 @@
       "07/23/2025": 14.54457,
       "08/20/2025": 12.77028,
       "09/17/2025": 10.8997,
-      "10/22/2025": 7.84086
+      "10/22/2025": 7.84086,
+      "11/19/2025": 5.61835
     }
   }
 }

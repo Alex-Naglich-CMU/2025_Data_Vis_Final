@@ -1,9 +1,13 @@
 {
   "RxCUI": "644304",
-  "Name": "SOLTAMOX 20 MG/10 ML SOLN",
+  "Name": "tamoxifen 2 MG/ML Oral Solution [Soltamox]",
   "IsBrand": true,
-  "Brand_RxCUI": "389230",
-  "Generic_RxCUI": "644304",
+  "Brand_Mate_RxCUI": "644304",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tamoxifen Mgml",
+  "Manufacturer_Name": "Soltamox",
+  "Strength": "2 MG/ML",
+  "Form": "",
   "prices": {
     "51862068201": {
       "06/19/2024": 4.41832,

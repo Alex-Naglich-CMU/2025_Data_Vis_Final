@@ -1,9 +1,13 @@
 {
   "RxCUI": "2380268",
-  "Name": "LYUMJEV TEMPO PEN 100 UNIT/ML",
+  "Name": "Sensor 3 ML insulin lispro-aabc 100 UNT/ML Pen Injector [Lyumjev]",
   "IsBrand": true,
-  "Brand_RxCUI": "2380267",
-  "Generic_RxCUI": "2380268",
+  "Brand_Mate_RxCUI": "2380268",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sensor Insulin Lispro-Aabc Untml Pen Injector",
+  "Manufacturer_Name": "Lyumjev",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00002823505": {
       "06/19/2024": 33.984,
@@ -20,7 +24,8 @@
       "07/23/2025": 33.79987,
       "08/20/2025": 33.89746,
       "09/17/2025": 33.83725,
-      "10/22/2025": 33.78625
+      "10/22/2025": 33.78625,
+      "11/19/2025": 33.79376
     }
   }
 }

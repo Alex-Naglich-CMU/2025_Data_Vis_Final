@@ -1,9 +1,13 @@
 {
   "RxCUI": "847245",
-  "Name": "NORDITROPIN FLEXPRO 15 MG/1.5",
+  "Name": "1.5 ML somatropin 10 MG/ML Pen Injector [Norditropin]",
   "IsBrand": true,
-  "Brand_RxCUI": "847243",
-  "Generic_RxCUI": "847245",
+  "Brand_Mate_RxCUI": "847245",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Somatropin Mgml Pen Injector",
+  "Manufacturer_Name": "Norditropin",
+  "Strength": "1.5 ML",
+  "Form": "",
   "prices": {
     "00169770821": {
       "12/05/2017": 1127.32343,
@@ -13,7 +17,8 @@
       "01/01/2025": 1637.25497,
       "07/23/2025": 1628.37867,
       "08/20/2025": 1630.42556,
-      "10/22/2025": 1631.50417
+      "10/22/2025": 1631.50417,
+      "11/19/2025": 1633.28722
     }
   }
 }

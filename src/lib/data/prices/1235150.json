@@ -1,9 +1,13 @@
 {
   "RxCUI": "1235150",
-  "Name": "EDARBYCLOR 40-12.5 MG TABLET",
+  "Name": "azilsartan medoxomil 40 MG / chlorthalidone 12.5 MG Oral Tablet [Edarbyclor]",
   "IsBrand": true,
-  "Brand_RxCUI": "1235144",
-  "Generic_RxCUI": "1235150",
+  "Brand_Mate_RxCUI": "1235150",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Azilsartan Medoxomil Chlorthalidone",
+  "Manufacturer_Name": "Edarbyclor",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "60631041230": {
       "07/03/2017": 5.79083,
@@ -33,7 +37,8 @@
       "07/23/2025": 8.50422,
       "08/20/2025": 8.50535,
       "09/17/2025": 8.50084,
-      "10/22/2025": 8.5027
+      "10/22/2025": 8.5027,
+      "11/19/2025": 8.50524
     }
   }
 }

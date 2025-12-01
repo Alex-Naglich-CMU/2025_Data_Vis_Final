@@ -1,9 +1,13 @@
 {
   "RxCUI": "996559",
-  "Name": "GENOTROPIN 12 MG CARTRIDGE",
+  "Name": "1 ML somatropin 12 MG/ML Cartridge [Genotropin]",
   "IsBrand": true,
-  "Brand_RxCUI": "996558",
-  "Generic_RxCUI": "996559",
+  "Brand_Mate_RxCUI": "996559",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Somatropin Mgml Cartridge",
+  "Manufacturer_Name": "Genotropin",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00013264681": {
       "01/01/2025": 1756.90411,

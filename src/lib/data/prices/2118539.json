@@ -1,9 +1,13 @@
 {
   "RxCUI": "2118539",
-  "Name": "LOTEMAX SM 0.38% OPHTH GEL",
+  "Name": "loteprednol etabonate 0.0038 MG/MG Ophthalmic Gel [Lotemax]",
   "IsBrand": true,
-  "Brand_RxCUI": "2118537",
-  "Generic_RxCUI": "2118539",
+  "Brand_Mate_RxCUI": "2118539",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Loteprednol Etabonate Mgmg",
+  "Manufacturer_Name": "Lotemax",
+  "Strength": "0.0038 MG/MG",
+  "Form": "",
   "prices": {
     "24208050707": {
       "01/09/2020": 38.79488,
@@ -28,7 +32,8 @@
       "07/23/2025": 49.56469,
       "08/20/2025": 49.55107,
       "09/17/2025": 49.55622,
-      "10/22/2025": 49.52385
+      "10/22/2025": 49.52385,
+      "11/19/2025": 49.52916
     }
   }
 }

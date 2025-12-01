@@ -1,9 +1,13 @@
 {
   "RxCUI": "2265292",
-  "Name": "IODINE 2% MILD TINCTURE",
+  "Name": "ethanol 0.47 ML/ML / iodine 20 MG/ML / sodium iodide 24 MG/ML Topical Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "2265292",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "2265292",
+  "Ingredient_Name": "Ethanol Mlml Iodine Mgml Sodium Iodide Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.47 ML/ML",
+  "Form": "Solution",
   "prices": {
     "24385021310": {
       "06/23/2021": 0.07385,
@@ -86,7 +90,8 @@
       "07/23/2025": 0.06612,
       "08/20/2025": 0.06683,
       "09/17/2025": 0.07004,
-      "10/22/2025": 0.0739
+      "10/22/2025": 0.0739,
+      "11/19/2025": 0.07661
     }
   }
 }

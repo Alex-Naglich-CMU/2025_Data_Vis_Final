@@ -1,9 +1,13 @@
 {
   "RxCUI": "1149378",
-  "Name": "NUCYNTA ER 50 MG TABLET",
+  "Name": "12 HR tapentadol 50 MG Extended Release Oral Tablet [Nucynta]",
   "IsBrand": true,
-  "Brand_RxCUI": "1148809",
-  "Generic_RxCUI": "1149378",
+  "Brand_Mate_RxCUI": "1149378",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Tapentadol Extended Release",
+  "Manufacturer_Name": "Nucynta",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "24510005860": {
       "10/23/2019": 6.58326,

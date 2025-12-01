@@ -1,21 +1,25 @@
 {
   "RxCUI": "540411",
-  "Name": "LUNESTA 3 MG TABLET",
+  "Name": "eszopiclone 3 MG Oral Tablet [Lunesta]",
   "IsBrand": true,
-  "Brand_RxCUI": "485465",
-  "Generic_RxCUI": "540411",
+  "Brand_Mate_RxCUI": "540411",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Eszopiclone",
+  "Manufacturer_Name": "Lunesta",
+  "Strength": "3 MG",
+  "Form": "",
   "prices": {
-    "63402019310": {
-      "07/19/2017": 13.6447,
-      "01/01/2018": 14.99294,
-      "07/18/2018": 15.10247
-    },
     "63402019303": {
       "12/23/2020": 15.0659,
       "12/22/2021": 15.04122,
       "12/16/2022": 19.0989,
       "03/30/2023": 20.98873,
       "06/02/2023": 23.06788
+    },
+    "63402019310": {
+      "07/19/2017": 13.6447,
+      "01/01/2018": 14.99294,
+      "07/18/2018": 15.10247
     }
   }
 }

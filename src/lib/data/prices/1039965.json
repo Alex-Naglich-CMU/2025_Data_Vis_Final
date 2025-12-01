@@ -1,16 +1,21 @@
 {
   "RxCUI": "1039965",
-  "Name": "SENOKOT EXTRA STR 17.2 MG TAB",
+  "Name": "sennosides, USP 17.2 MG Oral Tablet [Senokot]",
   "IsBrand": true,
-  "Brand_RxCUI": "602802",
-  "Generic_RxCUI": "1039965",
+  "Brand_Mate_RxCUI": "1039965",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sennosides, Usp",
+  "Manufacturer_Name": "Senokot",
+  "Strength": "17.2 MG",
+  "Form": "",
   "prices": {
     "67618012012": {
       "09/18/2024": 0.41657,
       "12/18/2024": 0.41616,
       "03/19/2025": 0.41697,
       "09/17/2025": 0.41683,
-      "10/22/2025": 0.41679
+      "10/22/2025": 0.41679,
+      "11/19/2025": 0.41556
     }
   }
 }

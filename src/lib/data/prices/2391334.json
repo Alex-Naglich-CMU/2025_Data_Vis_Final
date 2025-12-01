@@ -1,9 +1,13 @@
 {
   "RxCUI": "2391334",
-  "Name": "ALAHIST PE 2-7.5 MG TABLET",
+  "Name": "dexbrompheniramine maleate 2 MG / phenylephrine hydrochloride 7.5 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "2391334",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "2391334",
+  "Ingredient_Name": "Dexbrompheniramine Maleate Phenylephrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "2 MG",
+  "Form": "Tablet",
   "prices": {
     "50991078890": {
       "10/18/2023": 0.62724,
@@ -23,7 +27,8 @@
       "07/23/2025": 0.66304,
       "08/20/2025": 0.66348,
       "09/17/2025": 0.66326,
-      "10/22/2025": 0.66141
+      "10/22/2025": 0.66141,
+      "11/19/2025": 0.66019
     }
   }
 }

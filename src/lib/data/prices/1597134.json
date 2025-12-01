@@ -1,9 +1,13 @@
 {
   "RxCUI": "1597134",
-  "Name": "VOGELXO 50 MG/5 GRAM GEL",
+  "Name": "5000 MG testosterone 0.01 MG/MG Topical Gel [Vogelxo]",
   "IsBrand": true,
-  "Brand_RxCUI": "1597129",
-  "Generic_RxCUI": "1597134",
+  "Brand_Mate_RxCUI": "1597134",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Testosterone Mgmg",
+  "Manufacturer_Name": "Vogelxo",
+  "Strength": "5000 MG",
+  "Form": "",
   "prices": {
     "00245087105": {
       "03/22/2023": 3.73875,

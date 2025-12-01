@@ -1,9 +1,13 @@
 {
   "RxCUI": "309047",
-  "Name": "CEFADROXIL 1 GM TABLET",
+  "Name": "cefadroxil 1000 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "309047",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "309047",
+  "Ingredient_Name": "Cefadroxil",
+  "Manufacturer_Name": "",
+  "Strength": "1000 MG",
+  "Form": "Tablet",
   "prices": {
     "00093405953": {
       "09/20/2023": 3.56209,
@@ -29,7 +33,8 @@
       "07/23/2025": 4.12516,
       "08/20/2025": 4.12992,
       "09/17/2025": 4.06774,
-      "10/22/2025": 4.07758
+      "10/22/2025": 4.07758,
+      "11/19/2025": 4.08506
     }
   }
 }

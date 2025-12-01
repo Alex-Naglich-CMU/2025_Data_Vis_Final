@@ -1,17 +1,23 @@
 {
   "RxCUI": "1251194",
-  "Name": "LACTULOSE 20 GM PACKET",
+  "Name": "lactulose 20000 MG Powder for Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": "1251194",
-  "Generic_RxCUI": "1251196",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1251194",
+  "Ingredient_Name": "Lactulose For",
+  "Manufacturer_Name": "",
+  "Strength": "20000 MG",
+  "Form": "Solution",
   "prices": {
     "00121193001": {
       "09/17/2025": 8.03354,
-      "10/22/2025": 7.9584
+      "10/22/2025": 7.9584,
+      "11/19/2025": 7.85762
     },
     "00121193030": {
       "09/17/2025": 8.03354,
-      "10/22/2025": 7.9584
+      "10/22/2025": 7.9584,
+      "11/19/2025": 7.85762
     }
   }
 }

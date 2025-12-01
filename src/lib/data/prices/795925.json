@@ -1,9 +1,13 @@
 {
   "RxCUI": "795925",
-  "Name": "NO DOZ 200 MG CAPLET",
+  "Name": "caffeine 200 MG Oral Tablet [No Doz]",
   "IsBrand": false,
-  "Brand_RxCUI": "198520",
-  "Generic_RxCUI": "795925",
+  "Brand_Mate_RxCUI": "198520",
+  "Generic_Mate_RxCUI": "795925",
+  "Ingredient_Name": "Caffeine",
+  "Manufacturer_Name": "No Doz",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "00067207060": {
       "06/21/2017": 0.07747,

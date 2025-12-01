@@ -1,9 +1,13 @@
 {
   "RxCUI": "2119481",
-  "Name": "ZERVIATE 0.24% EYE DROP",
+  "Name": "cetirizine 2.4 MG/ML Ophthalmic Solution [Zerviate]",
   "IsBrand": true,
-  "Brand_RxCUI": "2119476",
-  "Generic_RxCUI": "2119481",
+  "Brand_Mate_RxCUI": "2119481",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cetirizine Mgml",
+  "Manufacturer_Name": "Zerviate",
+  "Strength": "2.4 MG/ML",
+  "Form": "",
   "prices": {
     "71776002430": {
       "07/21/2021": 7.32303,

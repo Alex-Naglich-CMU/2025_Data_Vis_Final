@@ -1,9 +1,13 @@
 {
   "RxCUI": "724160",
-  "Name": "THERA-GESIC CREME",
+  "Name": "menthol 10 MG/ML / methyl salicylate 150 MG/ML Topical Cream [Thera-Gesic]",
   "IsBrand": true,
-  "Brand_RxCUI": "259203",
-  "Generic_RxCUI": "724160",
+  "Brand_Mate_RxCUI": "724160",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Menthol Mgml Methyl Salicylate Mgml",
+  "Manufacturer_Name": "Thera-Gesic",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "00178032003": {
       "07/19/2017": 0.03758,

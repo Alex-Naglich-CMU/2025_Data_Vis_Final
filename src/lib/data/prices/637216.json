@@ -1,9 +1,13 @@
 {
   "RxCUI": "637216",
-  "Name": "VIVITROL 380 MG VIAL + DILUENT",
+  "Name": "naltrexone 380 MG Injection [Vivitrol]",
   "IsBrand": true,
-  "Brand_RxCUI": "637213",
-  "Generic_RxCUI": "637216",
+  "Brand_Mate_RxCUI": "637216",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Naltrexone",
+  "Manufacturer_Name": "Vivitrol",
+  "Strength": "380 MG",
+  "Form": "",
   "prices": {
     "65757030001": {
       "08/23/2017": 1260.06056,
@@ -35,7 +39,8 @@
       "07/23/2025": 1621.43783,
       "08/20/2025": 1621.4905,
       "09/17/2025": 1622.23113,
-      "10/22/2025": 1622.70161
+      "10/22/2025": 1622.70161,
+      "11/19/2025": 1623.24767
     },
     "65757030202": {
       "2/23/2022": 1364.949,

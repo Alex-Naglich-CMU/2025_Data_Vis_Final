@@ -1,9 +1,13 @@
 {
   "RxCUI": "1048056",
-  "Name": "ANASPAZ 0.125 MG TABLET ODT",
+  "Name": "hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet [Anaspaz]",
   "IsBrand": false,
-  "Brand_RxCUI": "1046985",
-  "Generic_RxCUI": "1048056",
+  "Brand_Mate_RxCUI": "1046985",
+  "Generic_Mate_RxCUI": "1048056",
+  "Ingredient_Name": "Hyoscyamine Disintegrating",
+  "Manufacturer_Name": "Anaspaz",
+  "Strength": "0.125 MG",
+  "Form": "",
   "prices": {
     "00225029515": {
       "05/19/2021": 0.19303,

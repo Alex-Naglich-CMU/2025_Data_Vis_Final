@@ -1,9 +1,13 @@
 {
   "RxCUI": "1046920",
-  "Name": "NICOTROL CARTRIDGE INHALER",
+  "Name": "nicotine 4 MG Inhalation Solution [Nicotrol]",
   "IsBrand": true,
-  "Brand_RxCUI": "250983",
-  "Generic_RxCUI": "1046920",
+  "Brand_Mate_RxCUI": "1046920",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Nicotine Inhalation",
+  "Manufacturer_Name": "Nicotrol",
+  "Strength": "4 MG",
+  "Form": "",
   "prices": {
     "00009540001": {
       "06/01/2017": 2.17264,

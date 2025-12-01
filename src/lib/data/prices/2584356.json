@@ -1,9 +1,13 @@
 {
   "RxCUI": "2584356",
-  "Name": "BIKTARVY 30-120-15 MG TABLET",
+  "Name": "bictegravir 30 MG / emtricitabine 120 MG / tenofovir alafenamide 15 MG Oral Tablet [Biktarvy]",
   "IsBrand": true,
-  "Brand_RxCUI": "2584354",
-  "Generic_RxCUI": "2584356",
+  "Brand_Mate_RxCUI": "2584356",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Bictegravir Emtricitabine Tenofovir Alafenamide",
+  "Manufacturer_Name": "Biktarvy",
+  "Strength": "30 MG",
+  "Form": "",
   "prices": {
     "61958250501": {
       "07/17/2024": 128.80138,
@@ -17,7 +21,8 @@
       "07/23/2025": 136.51906,
       "08/20/2025": 136.61964,
       "09/17/2025": 136.55984,
-      "10/22/2025": 136.50435
+      "10/22/2025": 136.50435,
+      "11/19/2025": 136.62868
     }
   }
 }

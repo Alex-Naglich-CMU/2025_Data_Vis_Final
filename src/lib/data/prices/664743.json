@@ -1,9 +1,13 @@
 {
   "RxCUI": "664743",
-  "Name": "REYATAZ 300 MG CAPSULE",
+  "Name": "atazanavir 300 MG Oral Capsule [Reyataz]",
   "IsBrand": true,
-  "Brand_RxCUI": "664741",
-  "Generic_RxCUI": "664743",
+  "Brand_Mate_RxCUI": "664743",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Atazanavir",
+  "Manufacturer_Name": "Reyataz",
+  "Strength": "300 MG",
+  "Form": "",
   "prices": {
     "00003362212": {
       "11/15/2017": 46.58103,

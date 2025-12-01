@@ -1,9 +1,13 @@
 {
   "RxCUI": "578806",
-  "Name": "CELESTONE SOLUSPAN 30 MG/5 ML",
+  "Name": "betamethasone 3 MG/ML / betamethasone acetate 3 MG/ML Injectable Suspension [Celestone Soluspan]",
   "IsBrand": true,
-  "Brand_RxCUI": "578803",
-  "Generic_RxCUI": "578806",
+  "Brand_Mate_RxCUI": "578806",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Betamethasone Mgml Betamethasone Mgml Injectable",
+  "Manufacturer_Name": "Celestone Soluspan",
+  "Strength": "3 MG/ML",
+  "Form": "",
   "prices": {
     "78206011801": {
       "1/16/2023": 7.97469,
@@ -19,7 +23,8 @@
       "01/01/2025": 8.32359,
       "07/23/2025": 8.37033,
       "08/20/2025": 8.368,
-      "09/17/2025": 8.36473
+      "09/17/2025": 8.36473,
+      "11/19/2025": 8.358
     }
   }
 }

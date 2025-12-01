@@ -1,9 +1,13 @@
 {
   "RxCUI": "582971",
-  "Name": "HUMATROPE 12 MG CARTRIDGE",
+  "Name": "somatropin 12 MG Cartridge [Humatrope]",
   "IsBrand": true,
-  "Brand_RxCUI": "582969",
-  "Generic_RxCUI": "582971",
+  "Brand_Mate_RxCUI": "582971",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Somatropin Cartridge",
+  "Manufacturer_Name": "Humatrope",
+  "Strength": "12 MG",
+  "Form": "",
   "prices": {
     "00002814801": {
       "10/23/2024": 1797.846

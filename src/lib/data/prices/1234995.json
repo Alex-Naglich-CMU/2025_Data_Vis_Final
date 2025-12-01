@@ -1,9 +1,13 @@
 {
   "RxCUI": "1234995",
-  "Name": "ROCURONIUM 50 MG/5 ML VIAL",
+  "Name": "rocuronium bromide 10 MG/ML Injectable Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1234995",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1234995",
+  "Ingredient_Name": "Rocuronium Bromide Mgml Injectable",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00143925010": {
       "10/23/2024": 0.52556

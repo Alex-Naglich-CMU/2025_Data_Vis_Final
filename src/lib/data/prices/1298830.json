@@ -1,11 +1,15 @@
 {
   "RxCUI": "1298830",
-  "Name": "PHARBETOL 325 MG TABLET",
+  "Name": "acetaminophen 325 MG Oral Tablet [Pharbetol]",
   "IsBrand": false,
-  "Brand_RxCUI": "313782",
-  "Generic_RxCUI": "1298830",
+  "Brand_Mate_RxCUI": "313782",
+  "Generic_Mate_RxCUI": "1298830",
+  "Ingredient_Name": "Acetaminophen",
+  "Manufacturer_Name": "Pharbetol",
+  "Strength": "325 MG",
+  "Form": "",
   "prices": {
-    "16103035311": {
+    "16103035307": {
       "06/21/2017": 0.01102,
       "07/19/2017": 0.01112,
       "08/23/2017": 0.01345,
@@ -101,7 +105,7 @@
       "02/17/2021": 0.01928,
       "03/17/2021": 0.01795
     },
-    "16103035307": {
+    "16103035311": {
       "06/21/2017": 0.01102,
       "07/19/2017": 0.01112,
       "08/23/2017": 0.01345,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "213432",
-  "Name": "MICARDIS 80 MG TABLET",
+  "Name": "telmisartan 80 MG Oral Tablet [Micardis]",
   "IsBrand": true,
-  "Brand_RxCUI": "205305",
-  "Generic_RxCUI": "213432",
+  "Brand_Mate_RxCUI": "213432",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Telmisartan",
+  "Manufacturer_Name": "Micardis",
+  "Strength": "80 MG",
+  "Form": "",
   "prices": {
     "00597004137": {
       "05/19/2021": 6.89867,

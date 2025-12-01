@@ -1,9 +1,13 @@
 {
   "RxCUI": "861576",
-  "Name": "NEXIUM DR 20 MG PACKET",
+  "Name": "esomeprazole 20 MG Granules for Oral Suspension [Nexium]",
   "IsBrand": true,
-  "Brand_RxCUI": "692576",
-  "Generic_RxCUI": "861576",
+  "Brand_Mate_RxCUI": "861576",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Esomeprazole Granules For",
+  "Manufacturer_Name": "Nexium",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "00186402001": {
       "02/21/2018": 8.67283,
@@ -32,7 +36,8 @@
       "07/23/2025": 9.17607,
       "08/20/2025": 9.17405,
       "09/17/2025": 9.17615,
-      "10/22/2025": 9.17455
+      "10/22/2025": 9.17455,
+      "11/19/2025": 9.16839
     }
   }
 }

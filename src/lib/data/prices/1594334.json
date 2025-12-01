@@ -1,9 +1,13 @@
 {
   "RxCUI": "1594334",
-  "Name": "GONAL-F RFF REDI-JECT 900 UNIT PEN",
+  "Name": "1.44 ML follitropin alfa 625 UNT/ML Pen Injector [Gonal F]",
   "IsBrand": true,
-  "Brand_RxCUI": "1654184",
-  "Generic_RxCUI": "1594334",
+  "Brand_Mate_RxCUI": "1594334",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Follitropin Alfa Untml Pen Injector",
+  "Manufacturer_Name": "Gonal F",
+  "Strength": "1.44 ML",
+  "Form": "",
   "prices": {
     "44087111701": {
       "07/17/2024": 1851.49037,

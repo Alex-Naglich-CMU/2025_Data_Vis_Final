@@ -1,9 +1,13 @@
 {
   "RxCUI": "206346",
-  "Name": "CARNITOR 330 MG TABLET",
+  "Name": "levocarnitine 330 MG Oral Tablet [Carnitor]",
   "IsBrand": true,
-  "Brand_RxCUI": "197448",
-  "Generic_RxCUI": "206346",
+  "Brand_Mate_RxCUI": "206346",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Levocarnitine",
+  "Manufacturer_Name": "Carnitor",
+  "Strength": "330 MG",
+  "Form": "",
   "prices": {
     "54482014407": {
       "01/01/2018": 0.95368,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1923047",
-  "Name": "LEVOTHYROXINE 175 MCG CAPSULE",
+  "Name": "levothyroxine sodium 0.175 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "1923047",
-  "Generic_RxCUI": "1923049",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1923047",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "",
+  "Strength": "0.175 MG",
+  "Form": "Capsule",
   "prices": {
     "00527496132": {
       "05/22/2024": 2.45047,

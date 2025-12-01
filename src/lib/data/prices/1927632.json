@@ -1,9 +1,13 @@
 {
   "RxCUI": "1927632",
-  "Name": "MYDAYIS ER 12.5 MG CAPSULE",
+  "Name": "3-Bead 24 HR amphetamine aspartate 3.125 MG / amphetamine sulfate 3.125 MG / dextroamphetamine saccharate 3.125 MG / dextroamphetamine sulfate 3.125 MG Extended Release Oral Capsule [Mydayis]",
   "IsBrand": true,
-  "Brand_RxCUI": "1927630",
-  "Generic_RxCUI": "1927632",
+  "Brand_Mate_RxCUI": "1927632",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "-Bead Hr Amphetamine Aspartate Amphetamine Dextroamphetamine Saccharate Dextroamphetamine Extended Release",
+  "Manufacturer_Name": "Mydayis",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "54092046801": {
       "09/19/2018": 8.61604,
@@ -31,7 +35,8 @@
       "05/21/2025": 10.84492,
       "07/23/2025": 10.77884,
       "09/17/2025": 10.79604,
-      "10/22/2025": 10.78957
+      "10/22/2025": 10.78957,
+      "11/19/2025": 10.75163
     }
   }
 }

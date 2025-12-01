@@ -1,9 +1,13 @@
 {
   "RxCUI": "1922895",
-  "Name": "TIMOPTIC 0.5% OCUDOSE DROP",
+  "Name": "Preservative-Free timolol 5 MG/ML Ophthalmic Solution [Timoptic]",
   "IsBrand": true,
-  "Brand_RxCUI": "1922894",
-  "Generic_RxCUI": "1922895",
+  "Brand_Mate_RxCUI": "1922895",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Preservative-Free Timolol Mgml",
+  "Manufacturer_Name": "Timoptic",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "00187149605": {
       "09/20/2017": 6.61389,
@@ -54,7 +58,8 @@
       "07/23/2025": 10.21654,
       "08/20/2025": 10.24486,
       "09/17/2025": 10.26592,
-      "10/22/2025": 10.25199
+      "10/22/2025": 10.25199,
+      "11/19/2025": 10.26247
     }
   }
 }

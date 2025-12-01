@@ -1,9 +1,13 @@
 {
   "RxCUI": "1494775",
-  "Name": "QUDEXY XR 200 MG CAPSULE",
+  "Name": "Sprinkle 24 HR topiramate 200 MG Extended Release Oral Capsule [Qudexy]",
   "IsBrand": true,
-  "Brand_RxCUI": "1812419",
-  "Generic_RxCUI": "1494775",
+  "Brand_Mate_RxCUI": "1494775",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sprinkle Hr Topiramate Extended Release",
+  "Manufacturer_Name": "Qudexy",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00245107330": {
       "01/31/2020": 28.49622,

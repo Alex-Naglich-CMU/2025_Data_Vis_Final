@@ -1,9 +1,13 @@
 {
   "RxCUI": "1304985",
-  "Name": "VASCEPA 1 GM CAPSULE",
+  "Name": "icosapent ethyl 1000 MG Oral Capsule [Vascepa]",
   "IsBrand": true,
-  "Brand_RxCUI": "1304979",
-  "Generic_RxCUI": "1304985",
+  "Brand_Mate_RxCUI": "1304985",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Icosapent Ethyl",
+  "Manufacturer_Name": "Vascepa",
+  "Strength": "1000 MG",
+  "Form": "",
   "prices": {
     "52937000120": {
       "11/22/2017": 2.04417,

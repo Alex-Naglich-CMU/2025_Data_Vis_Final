@@ -1,9 +1,13 @@
 {
   "RxCUI": "865212",
-  "Name": "EMSAM 9 MG/24 HOURS PATCH",
+  "Name": "24 HR selegiline 0.375 MG/HR Transdermal System [Emsam]",
   "IsBrand": true,
-  "Brand_RxCUI": "865210",
-  "Generic_RxCUI": "865212",
+  "Brand_Mate_RxCUI": "865212",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Selegiline Mghr Transdermal System",
+  "Manufacturer_Name": "Emsam",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "49502090101": {
       "06/19/2024": 68.69104,

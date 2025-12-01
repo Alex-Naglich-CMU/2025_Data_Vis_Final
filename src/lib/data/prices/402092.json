@@ -1,9 +1,13 @@
 {
   "RxCUI": "402092",
-  "Name": "RESTASIS MULTIDOSE 0.05% EYE",
+  "Name": "cyclosporine 0.5 MG/ML Ophthalmic Suspension [Restasis]",
   "IsBrand": true,
-  "Brand_RxCUI": "351291",
-  "Generic_RxCUI": "402092",
+  "Brand_Mate_RxCUI": "402092",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cyclosporine Mgml",
+  "Manufacturer_Name": "Restasis",
+  "Strength": "0.5 MG/ML",
+  "Form": "",
   "prices": {
     "00023530105": {
       "01/01/2018": 88.1225,
@@ -35,7 +39,8 @@
       "07/23/2025": 112.48228,
       "08/20/2025": 112.46331,
       "09/17/2025": 112.4473,
-      "10/22/2025": 112.40799
+      "10/22/2025": 112.40799,
+      "11/19/2025": 112.35871
     }
   }
 }

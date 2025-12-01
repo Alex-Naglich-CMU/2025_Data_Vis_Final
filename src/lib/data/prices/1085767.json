@@ -1,9 +1,13 @@
 {
   "RxCUI": "1085767",
-  "Name": "ORALONE 0.1% PASTE",
+  "Name": "triamcinolone acetonide 0.001 MG/MG Oral Paste [Oralone]",
   "IsBrand": false,
-  "Brand_RxCUI": "1085728",
-  "Generic_RxCUI": "1085767",
+  "Brand_Mate_RxCUI": "1085728",
+  "Generic_Mate_RxCUI": "1085767",
+  "Ingredient_Name": "Triamcinolone Acetonide Mgmg Paste",
+  "Manufacturer_Name": "Oralone",
+  "Strength": "0.001 MG/MG",
+  "Form": "",
   "prices": {
     "51672133505": {
       "05/19/2021": 5.60466,
@@ -106,7 +110,8 @@
       "07/23/2025": 3.16062,
       "08/20/2025": 3.08987,
       "09/17/2025": 3.10498,
-      "10/22/2025": 3.08224
+      "10/22/2025": 3.08224,
+      "11/19/2025": 3.04782
     }
   }
 }

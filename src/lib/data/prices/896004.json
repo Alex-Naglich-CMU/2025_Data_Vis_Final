@@ -1,9 +1,13 @@
 {
   "RxCUI": "896004",
-  "Name": "FLUTICASONE PROPIONATE HFA 220 MCG INHALER",
+  "Name": "120 ACTUAT fluticasone propionate 0.22 MG/ACTUAT Metered Dose Inhaler",
   "IsBrand": false,
-  "Brand_RxCUI": "896004",
-  "Generic_RxCUI": "896006",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "896004",
+  "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "",
+  "Strength": "120 ACTU",
+  "Form": "",
   "prices": {
     "66993008096": {
       "9/21/2022": 21.54625,
@@ -43,7 +47,8 @@
       "07/23/2025": 21.65751,
       "08/20/2025": 21.70041,
       "09/17/2025": 21.54085,
-      "10/22/2025": 21.7854
+      "10/22/2025": 21.7854,
+      "11/19/2025": 21.82955
     }
   }
 }

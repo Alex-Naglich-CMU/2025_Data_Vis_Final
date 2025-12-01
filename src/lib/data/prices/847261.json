@@ -1,9 +1,13 @@
 {
   "RxCUI": "847261",
-  "Name": "APIDRA SOLOSTAR 100 UNITS/ML",
+  "Name": "3 ML insulin glulisine, human 100 UNT/ML Pen Injector [Apidra]",
   "IsBrand": true,
-  "Brand_RxCUI": "847259",
-  "Generic_RxCUI": "847261",
+  "Brand_Mate_RxCUI": "847261",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Insulin Glulisine, Human Untml Pen Injector",
+  "Manufacturer_Name": "Apidra",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00088250205": {
       "07/19/2017": 31.53935,
@@ -35,7 +39,8 @@
       "07/23/2025": 10.51865,
       "08/20/2025": 10.5148,
       "09/17/2025": 10.51203,
-      "10/22/2025": 10.51756
+      "10/22/2025": 10.51756,
+      "11/19/2025": 10.52014
     }
   }
 }

@@ -1,11 +1,15 @@
 {
   "RxCUI": "2001321",
-  "Name": "DALIRESP 250 MCG TABLET",
+  "Name": "roflumilast 0.25 MG Oral Tablet [Daliresp]",
   "IsBrand": true,
-  "Brand_RxCUI": "2001319",
-  "Generic_RxCUI": "2001321",
+  "Brand_Mate_RxCUI": "2001321",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Roflumilast",
+  "Manufacturer_Name": "Daliresp",
+  "Strength": "0.25 MG",
+  "Form": "",
   "prices": {
-    "00310008839": {
+    "00310008828": {
       "07/01/2021": 12.96315,
       "01/01/2019": 11.54754,
       "10/23/2019": 11.52762,
@@ -24,7 +28,7 @@
       "07/23/2025": 14.69771,
       "08/20/2025": 14.57827
     },
-    "00310008828": {
+    "00310008839": {
       "07/01/2021": 12.96315,
       "01/01/2019": 11.54754,
       "10/23/2019": 11.52762,

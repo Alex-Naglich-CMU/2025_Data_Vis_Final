@@ -1,9 +1,13 @@
 {
   "RxCUI": "864650",
-  "Name": "ZIRGAN 0.15% OPHTHALMIC GEL",
+  "Name": "ganciclovir 0.0015 MG/MG Ophthalmic Gel [Zirgan]",
   "IsBrand": true,
-  "Brand_RxCUI": "388052",
-  "Generic_RxCUI": "864650",
+  "Brand_Mate_RxCUI": "864650",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ganciclovir Mgmg",
+  "Manufacturer_Name": "Zirgan",
+  "Strength": "0.0015 MG/MG",
+  "Form": "",
   "prices": {
     "24208053535": {
       "01/05/2018": 63.28864,
@@ -35,7 +39,8 @@
       "07/23/2025": 91.34,
       "08/20/2025": 91.38832,
       "09/17/2025": 91.3943,
-      "10/22/2025": 91.30716
+      "10/22/2025": 91.30716,
+      "11/19/2025": 91.3542
     }
   }
 }

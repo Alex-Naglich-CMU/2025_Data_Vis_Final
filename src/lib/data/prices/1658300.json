@@ -1,9 +1,13 @@
 {
   "RxCUI": "1658300",
-  "Name": "KLOR-CON SPRINKLE ER 8 MEQ CAP",
+  "Name": "potassium chloride 8 MEQ Extended Release Oral Capsule [Klor-Con]",
   "IsBrand": true,
-  "Brand_RxCUI": "315183",
-  "Generic_RxCUI": "1658300",
+  "Brand_Mate_RxCUI": "1658300",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Potassium Chloride Meq Extended Release",
+  "Manufacturer_Name": "Klor-Con",
+  "Strength": "8 MEQ",
+  "Form": "",
   "prices": {
     "66758020201": {
       "10/18/2017": 0.48255,

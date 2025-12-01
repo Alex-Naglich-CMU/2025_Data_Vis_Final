@@ -1,9 +1,13 @@
 {
   "RxCUI": "1088934",
-  "Name": "CHLORZOXAZONE 375 MG TABLET",
+  "Name": "chlorzoxazone 375 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "1088934",
-  "Generic_RxCUI": "1189098",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1088934",
+  "Ingredient_Name": "Chlorzoxazone",
+  "Manufacturer_Name": "",
+  "Strength": "375 MG",
+  "Form": "Tablet",
   "prices": {
     "00254205301": {
       "06/19/2024": 2.17662,

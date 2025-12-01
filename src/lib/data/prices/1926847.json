@@ -1,9 +1,13 @@
 {
   "RxCUI": "1926847",
-  "Name": "COTEMPLA XR-ODT 17.3 MG TABLET",
+  "Name": "methylphenidate 17.3 MG Disintegrating Oral Tablet [Cotempla]",
   "IsBrand": true,
-  "Brand_RxCUI": "1926840",
-  "Generic_RxCUI": "1926847",
+  "Brand_Mate_RxCUI": "1926847",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Methylphenidate Disintegrating",
+  "Manufacturer_Name": "Cotempla",
+  "Strength": "17.3 MG",
+  "Form": "",
   "prices": {
     "70165020030": {
       "08/07/2018": 10.94647,
@@ -27,7 +31,8 @@
       "04/01/2025": 17.14322,
       "08/20/2025": 17.09361,
       "09/17/2025": 17.09321,
-      "10/22/2025": 17.11513
+      "10/22/2025": 17.11513,
+      "11/19/2025": 17.11812
     }
   }
 }

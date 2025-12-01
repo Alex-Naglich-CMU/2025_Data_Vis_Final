@@ -1,9 +1,13 @@
 {
   "RxCUI": "902626",
-  "Name": "DEXILANT DR 60 MG CAPSULE",
+  "Name": "dexlansoprazole 60 MG Delayed Release Oral Capsule [Dexilant]",
   "IsBrand": true,
-  "Brand_RxCUI": "833213",
-  "Generic_RxCUI": "902626",
+  "Brand_Mate_RxCUI": "902626",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dexlansoprazole Delayed Release",
+  "Manufacturer_Name": "Dexilant",
+  "Strength": "60 MG",
+  "Form": "",
   "prices": {
     "64764017530": {
       "01/02/2018": 8.77777,
@@ -34,7 +38,8 @@
       "07/23/2025": 9.85367,
       "08/20/2025": 9.85402,
       "09/17/2025": 9.8556,
-      "10/22/2025": 9.85623
+      "10/22/2025": 9.85623,
+      "11/19/2025": 9.84691
     },
     "64764017590": {
       "01/02/2018": 8.77777,
@@ -65,7 +70,8 @@
       "07/23/2025": 9.85367,
       "08/20/2025": 9.85402,
       "09/17/2025": 9.8556,
-      "10/22/2025": 9.85623
+      "10/22/2025": 9.85623,
+      "11/19/2025": 9.84691
     }
   }
 }

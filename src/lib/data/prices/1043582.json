@@ -1,9 +1,13 @@
 {
   "RxCUI": "1043582",
-  "Name": "KOMBIGLYZE XR 5-500 MG TABLET",
+  "Name": "24 HR metformin hydrochloride 500 MG / saxagliptin 5 MG Extended Release Oral Tablet [Kombiglyze]",
   "IsBrand": true,
-  "Brand_RxCUI": "1043578",
-  "Generic_RxCUI": "1043582",
+  "Brand_Mate_RxCUI": "1043582",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Metformin Hydrochloride Saxagliptin Extended Release",
+  "Manufacturer_Name": "Kombiglyze",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00310613530": {
       "11/22/2017": 12.37667,

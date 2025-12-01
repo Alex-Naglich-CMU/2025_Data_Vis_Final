@@ -1,9 +1,13 @@
 {
   "RxCUI": "213471",
-  "Name": "PROVIGIL 200 MG TABLET",
+  "Name": "modafinil 200 MG Oral Tablet [Provigil]",
   "IsBrand": true,
-  "Brand_RxCUI": "205324",
-  "Generic_RxCUI": "213471",
+  "Brand_Mate_RxCUI": "213471",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Modafinil",
+  "Manufacturer_Name": "Provigil",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "63459020130": {
       "06/21/2017": 45.22771,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2122356",
-  "Name": "CHILD MUCINEX COUGH 5-100 MG PK",
+  "Name": "dextromethorphan hydrobromide 5 MG / guaifenesin 100 MG Oral Granules",
   "IsBrand": true,
-  "Brand_RxCUI": "2122356",
-  "Generic_RxCUI": null,
+  "Brand_Mate_RxCUI": "2122356",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide Guaifenesin Granules",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "63824025612": {
       "07/21/2021": 0.61028,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "544455",
-  "Name": "GENERLAC 10 GM/15 ML SOLUTION",
+  "Name": "lactulose 667 MG/ML Oral Solution [Generlac]",
   "IsBrand": false,
-  "Brand_RxCUI": "391937",
-  "Generic_RxCUI": "544455",
+  "Brand_Mate_RxCUI": "391937",
+  "Generic_Mate_RxCUI": "544455",
+  "Ingredient_Name": "Lactulose Mgml",
+  "Manufacturer_Name": "Generlac",
+  "Strength": "667 MG/ML",
+  "Form": "",
   "prices": {
     "60432003816": {
       "05/19/2021": 0.01621,
@@ -116,7 +120,8 @@
       "07/23/2025": 0.01306,
       "08/20/2025": 0.01287,
       "09/17/2025": 0.01293,
-      "10/22/2025": 0.01295
+      "10/22/2025": 0.01295,
+      "11/19/2025": 0.01294
     }
   }
 }

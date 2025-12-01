@@ -1,9 +1,13 @@
 {
   "RxCUI": "208949",
-  "Name": "PREMARIN 0.9 MG TABLET",
+  "Name": "estrogens, conjugated (USP) 0.9 MG Oral Tablet [Premarin]",
   "IsBrand": true,
-  "Brand_RxCUI": "197661",
-  "Generic_RxCUI": "208949",
+  "Brand_Mate_RxCUI": "208949",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Estrogens, Conjugated (Usp)",
+  "Manufacturer_Name": "Premarin",
+  "Strength": "0.9 MG",
+  "Form": "",
   "prices": {
     "00046110381": {
       "11/22/2017": 4.9792,
@@ -33,7 +37,8 @@
       "07/23/2025": 6.75778,
       "08/20/2025": 6.76516,
       "09/17/2025": 6.7635,
-      "10/22/2025": 6.76429
+      "10/22/2025": 6.76429,
+      "11/19/2025": 6.76819
     }
   }
 }

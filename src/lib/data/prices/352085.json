@@ -1,9 +1,13 @@
 {
   "RxCUI": "352085",
-  "Name": "ELIDEL 1% CREAM",
+  "Name": "pimecrolimus 10 MG/ML Topical Cream [Elidel]",
   "IsBrand": true,
-  "Brand_RxCUI": "562806",
-  "Generic_RxCUI": "352085",
+  "Brand_Mate_RxCUI": "352085",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Pimecrolimus Mgml",
+  "Manufacturer_Name": "Elidel",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "00187510001": {
       "06/23/2021": 9.5953,

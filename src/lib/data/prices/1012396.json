@@ -1,0 +1,31 @@
+{
+  "RxCUI": "1012396",
+  "Name": "bupivacaine hydrochloride 2.5 MG/ML Injectable Solution",
+  "IsBrand": false,
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1012396",
+  "Ingredient_Name": "Bupivacaine Hydrochloride Mgml Injectable",
+  "Manufacturer_Name": "",
+  "Strength": "2.5 MG/ML",
+  "Form": "Solution",
+  "prices": {
+    "00143932801": {
+      "11/19/2025": 0.04531
+    },
+    "00409116018": {
+      "11/19/2025": 0.04531
+    },
+    "70069075201": {
+      "11/19/2025": 0.04531
+    },
+    "70594011601": {
+      "11/19/2025": 0.04531
+    },
+    "71288072352": {
+      "11/19/2025": 0.04531
+    },
+    "72603027901": {
+      "11/19/2025": 0.04531
+    }
+  }
+}

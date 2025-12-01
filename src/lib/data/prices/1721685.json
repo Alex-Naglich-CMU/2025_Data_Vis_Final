@@ -1,9 +1,13 @@
 {
   "RxCUI": "1721685",
-  "Name": "EPOGEN 10,000 UNITS/ML VIAL",
+  "Name": "1 ML epoetin alfa 10000 UNT/ML Injection [Epogen]",
   "IsBrand": true,
-  "Brand_RxCUI": "1721684",
-  "Generic_RxCUI": "1721685",
+  "Brand_Mate_RxCUI": "1721685",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Epoetin Alfa Untml",
+  "Manufacturer_Name": "Epogen",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "55513014410": {
       "05/22/2024": 161.03583,

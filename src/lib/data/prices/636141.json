@@ -1,9 +1,13 @@
 {
   "RxCUI": "636141",
-  "Name": "OSMOPREP TABLET",
+  "Name": "sodium phosphate 1500 MG Oral Tablet [OsmoPrep]",
   "IsBrand": true,
-  "Brand_RxCUI": "603011",
-  "Generic_RxCUI": "636141",
+  "Brand_Mate_RxCUI": "636141",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sodium Phosphate",
+  "Manufacturer_Name": "OsmoPrep",
+  "Strength": "1500 MG",
+  "Form": "",
   "prices": {
     "65649070141": {
       "09/20/2017": 5.85078,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1544717",
-  "Name": "GNP CALAMINE PLUS 8%-1% SPRAY",
+  "Name": "calamine 80 MG/ML / pramoxine hydrochloride 10 MG/ML Topical Spray",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1544717",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1544717",
+  "Ingredient_Name": "Calamine Mgml Pramoxine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "80 MG/ML",
+  "Form": "",
   "prices": {
     "46122074531": {
       "06/19/2024": 0.03673,
@@ -22,7 +26,8 @@
       "07/23/2025": 0.04329,
       "08/20/2025": 0.04307,
       "09/17/2025": 0.04298,
-      "10/22/2025": 0.04321
+      "10/22/2025": 0.04321,
+      "11/19/2025": 0.04322
     },
     "83324024241": {
       "01/22/2025": 0.04133,
@@ -34,7 +39,8 @@
       "07/23/2025": 0.04329,
       "08/20/2025": 0.04307,
       "09/17/2025": 0.04298,
-      "10/22/2025": 0.04321
+      "10/22/2025": 0.04321,
+      "11/19/2025": 0.04322
     }
   }
 }

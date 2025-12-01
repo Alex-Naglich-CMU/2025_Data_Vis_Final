@@ -1,9 +1,13 @@
 {
   "RxCUI": "2711709",
-  "Name": "ADTHYZA 32.5 MG TABLET",
+  "Name": "thyroid (USP) 32.5 MG Oral Tablet [Adthyza]",
   "IsBrand": true,
-  "Brand_RxCUI": "347151",
-  "Generic_RxCUI": "2711709",
+  "Brand_Mate_RxCUI": "2711709",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Thyroid (Usp)",
+  "Manufacturer_Name": "Adthyza",
+  "Strength": "32.5 MG",
+  "Form": "",
   "prices": {
     "24338003290": {
       "05/22/2024": 0.55742,

@@ -1,15 +1,19 @@
 {
   "RxCUI": "212446",
-  "Name": "ZITHROMAX 250 MG TABLET",
+  "Name": "azithromycin 250 MG Oral Tablet [Zithromax]",
   "IsBrand": true,
-  "Brand_RxCUI": "308460",
-  "Generic_RxCUI": "212446",
+  "Brand_Mate_RxCUI": "212446",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Azithromycin",
+  "Manufacturer_Name": "Zithromax",
+  "Strength": "250 MG",
+  "Form": "",
   "prices": {
-    "00069306086": {
+    "00069306030": {
       "06/01/2017": 30.03971,
       "01/01/2018": 32.87546
     },
-    "00069306030": {
+    "00069306086": {
       "06/01/2017": 30.03971,
       "01/01/2018": 32.87546
     },

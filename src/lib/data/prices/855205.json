@@ -1,9 +1,13 @@
 {
   "RxCUI": "855205",
-  "Name": "ABREVA 10% CREAM",
+  "Name": "docosanol 100 MG/ML Topical Cream [Abreva]",
   "IsBrand": true,
-  "Brand_RxCUI": "797534",
-  "Generic_RxCUI": "855205",
+  "Brand_Mate_RxCUI": "855205",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Docosanol Mgml",
+  "Manufacturer_Name": "Abreva",
+  "Strength": "100 MG/ML",
+  "Form": "",
   "prices": {
     "00135020001": {
       "02/21/2018": 7.81043,

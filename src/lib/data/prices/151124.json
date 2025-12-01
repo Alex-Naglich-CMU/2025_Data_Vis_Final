@@ -1,9 +1,13 @@
 {
   "RxCUI": "151124",
-  "Name": "ARIMIDEX 1 MG TABLET",
+  "Name": "anastrozole 1 MG Oral Tablet [Arimidex]",
   "IsBrand": true,
-  "Brand_RxCUI": "199224",
-  "Generic_RxCUI": "151124",
+  "Brand_Mate_RxCUI": "151124",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Anastrozole",
+  "Manufacturer_Name": "Arimidex",
+  "Strength": "1 MG",
+  "Form": "",
   "prices": {
     "00310020130": {
       "01/10/2018": 16.79115,
@@ -25,7 +29,8 @@
       "05/21/2025": 51.94226,
       "06/18/2025": 52.03617,
       "07/23/2025": 51.9035,
-      "09/17/2025": 51.98243
+      "09/17/2025": 51.98243,
+      "11/19/2025": 52.15967
     }
   }
 }

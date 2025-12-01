@@ -1,9 +1,13 @@
 {
   "RxCUI": "1798287",
-  "Name": "BYVALSON 5 MG-80 MG TABLET",
+  "Name": "nebivolol 5 MG / valsartan 80 MG Oral Tablet [Byvalson]",
   "IsBrand": true,
-  "Brand_RxCUI": "1798281",
-  "Generic_RxCUI": "1798287",
+  "Brand_Mate_RxCUI": "1798287",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Nebivolol Valsartan",
+  "Manufacturer_Name": "Byvalson",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00023587430": {
       "01/01/2018": 3.87871

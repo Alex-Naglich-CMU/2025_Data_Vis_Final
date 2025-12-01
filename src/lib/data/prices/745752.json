@@ -1,9 +1,13 @@
 {
   "RxCUI": "745752",
-  "Name": "PROAIR HFA 90 MCG INHALER",
+  "Name": "NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]",
   "IsBrand": true,
-  "Brand_RxCUI": "2123072",
-  "Generic_RxCUI": "745752",
+  "Brand_Mate_RxCUI": "745752",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Nda Actuat Albuterol Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "ProAir",
+  "Strength": "200 ACTU",
+  "Form": "",
   "prices": {
     "59310057922": {
       "06/01/2021": 7.99037,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1595457",
-  "Name": "ZENPEP DR 5,000 UNIT CAPSULE",
+  "Name": "amylase 24000 UNT / lipase 5000 UNT / protease 17000 UNT Delayed Release Oral Capsule [Zenpep]",
   "IsBrand": true,
-  "Brand_RxCUI": "1595455",
-  "Generic_RxCUI": "1595457",
+  "Brand_Mate_RxCUI": "1595457",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amylase Unt Lipase Unt Protease Unt Delayed Release",
+  "Manufacturer_Name": "Zenpep",
+  "Strength": "24000 UNT",
+  "Form": "",
   "prices": {
     "00023611501": {
       "01/01/2019": 1.61331,
@@ -36,7 +40,8 @@
       "07/23/2025": 2.03678,
       "08/20/2025": 2.03687,
       "09/17/2025": 2.03709,
-      "10/22/2025": 2.03679
+      "10/22/2025": 2.03679,
+      "11/19/2025": 2.03695
     }
   }
 }

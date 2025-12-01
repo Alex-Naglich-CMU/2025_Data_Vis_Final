@@ -1,9 +1,13 @@
 {
   "RxCUI": "1548724",
-  "Name": "PRED FORTE 1% EYE DROPS",
+  "Name": "prednisolone acetate 10 MG/ML Ophthalmic Suspension [Pred Forte]",
   "IsBrand": true,
-  "Brand_RxCUI": "1376336",
-  "Generic_RxCUI": "1548724",
+  "Brand_Mate_RxCUI": "1548724",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Prednisolone Mgml",
+  "Manufacturer_Name": "Pred Forte",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "11980018005": {
       "12/20/2017": 24.3308,
@@ -35,7 +39,8 @@
       "07/23/2025": 30.70725,
       "08/20/2025": 30.706,
       "09/17/2025": 30.69441,
-      "10/22/2025": 30.69741
+      "10/22/2025": 30.69741,
+      "11/19/2025": 30.67833
     },
     "11980018010": {
       "01/01/2018": 26.02003,
@@ -57,7 +62,8 @@
       "07/23/2025": 30.7005,
       "08/20/2025": 30.71845,
       "09/17/2025": 30.7025,
-      "10/22/2025": 30.72644
+      "10/22/2025": 30.72644,
+      "11/19/2025": 30.78763
     }
   }
 }

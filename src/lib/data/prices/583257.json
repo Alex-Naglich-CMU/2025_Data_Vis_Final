@@ -1,9 +1,13 @@
 {
   "RxCUI": "583257",
-  "Name": "CANASA 1,000 MG SUPPOSITORY",
+  "Name": "mesalamine 1000 MG Rectal Suppository [Canasa]",
   "IsBrand": true,
-  "Brand_RxCUI": "248420",
-  "Generic_RxCUI": "583257",
+  "Brand_Mate_RxCUI": "583257",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Mesalamine Rectal",
+  "Manufacturer_Name": "Canasa",
+  "Strength": "1000 MG",
+  "Form": "",
   "prices": {
     "58914050142": {
       "09/20/2017": 31.00301,
@@ -36,7 +40,8 @@
       "05/21/2025": 37.31411,
       "06/18/2025": 37.32658,
       "07/23/2025": 37.31597,
-      "09/17/2025": 37.28115
+      "09/17/2025": 37.28115,
+      "11/19/2025": 37.26603
     }
   }
 }

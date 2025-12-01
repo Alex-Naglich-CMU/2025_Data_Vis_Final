@@ -1,13 +1,14 @@
 {
   "RxCUI": "2267566",
-  "Name": "ARAZLO 0.045% LOTION",
+  "Name": "tazarotene 0.45 MG/ML Topical Lotion [Arazlo]",
   "IsBrand": true,
-  "Brand_RxCUI": "2267561",
-  "Generic_RxCUI": "2267566",
+  "Brand_Mate_RxCUI": "2267566",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tazarotene Mgml",
+  "Manufacturer_Name": "Arazlo",
+  "Strength": "0.45 MG/ML",
+  "Form": "",
   "prices": {
-    "187209845": {
-      "1/1/2022": 10.08775
-    },
     "00187209845": {
       "01/01/2023": 10.98546,
       "01/01/2024": 11.31513,
@@ -25,6 +26,9 @@
       "07/23/2025": 11.47832,
       "08/20/2025": 11.47025,
       "09/17/2025": 11.45286
+    },
+    "187209845": {
+      "1/1/2022": 10.08775
     }
   }
 }

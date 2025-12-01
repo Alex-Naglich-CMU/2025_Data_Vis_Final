@@ -1,9 +1,13 @@
 {
   "RxCUI": "2694855",
-  "Name": "COBENFY 125 MG-30 MG CAPSULE",
+  "Name": "trospium chloride 30 MG / xanomeline 125 MG Oral Capsule [Cobenfy]",
   "IsBrand": true,
-  "Brand_RxCUI": "2694853",
-  "Generic_RxCUI": "2694855",
+  "Brand_Mate_RxCUI": "2694855",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Trospium Chloride Xanomeline",
+  "Manufacturer_Name": "Cobenfy",
+  "Strength": "30 MG",
+  "Form": "",
   "prices": {
     "00003012560": {
       "04/23/2025": 29.60045,
@@ -11,7 +15,8 @@
       "06/18/2025": 29.6161,
       "07/23/2025": 29.6401,
       "08/20/2025": 29.65431,
-      "09/17/2025": 29.66395
+      "09/17/2025": 29.66395,
+      "11/19/2025": 29.70192
     }
   }
 }

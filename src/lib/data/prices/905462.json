@@ -1,9 +1,13 @@
 {
   "RxCUI": "905462",
-  "Name": "LEVOTHYROXINE 88 MCG CAPSULE",
+  "Name": "levothyroxine sodium 0.088 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "905462",
-  "Generic_RxCUI": "905464",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "905462",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "",
+  "Strength": "0.088 MG",
+  "Form": "Capsule",
   "prices": {
     "00527495532": {
       "10/18/2023": 3.75234,

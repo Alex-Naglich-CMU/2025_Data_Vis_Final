@@ -1,9 +1,13 @@
 {
   "RxCUI": "1011752",
-  "Name": "TEKTURNA HCT 300-12.5 MG TAB",
+  "Name": "aliskiren 300 MG / hydrochlorothiazide 12.5 MG Oral Tablet [Tekturna HCT]",
   "IsBrand": true,
-  "Brand_RxCUI": "1011750",
-  "Generic_RxCUI": "1011752",
+  "Brand_Mate_RxCUI": "1011752",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Aliskiren Hydrochlorothiazide",
+  "Manufacturer_Name": "Tekturna HCT",
+  "Strength": "300 MG",
+  "Form": "",
   "prices": {
     "70839031230": {
       "12/19/2017": 7.26158,

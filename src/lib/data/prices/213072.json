@@ -1,9 +1,13 @@
 {
   "RxCUI": "213072",
-  "Name": "EX-LAX PILLS",
+  "Name": "sennosides, USP 15 MG Oral Tablet [Ex-Lax Regular Strength Pills]",
   "IsBrand": true,
-  "Brand_RxCUI": "200162",
-  "Generic_RxCUI": "213072",
+  "Brand_Mate_RxCUI": "213072",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sennosides, Usp",
+  "Manufacturer_Name": "Ex-Lax Regular Strength Pills",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "00067000308": {
       "06/21/2017": 0.16873,

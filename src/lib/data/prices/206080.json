@@ -1,9 +1,13 @@
 {
   "RxCUI": "206080",
-  "Name": "ERY-TAB DR 500 MG TABLET",
+  "Name": "erythromycin 500 MG Delayed Release Oral Tablet [Ery-Tab]",
   "IsBrand": false,
-  "Brand_RxCUI": "310157",
-  "Generic_RxCUI": "206080",
+  "Brand_Mate_RxCUI": "310157",
+  "Generic_Mate_RxCUI": "206080",
+  "Ingredient_Name": "Erythromycin Delayed Release",
+  "Manufacturer_Name": "Ery-Tab",
+  "Strength": "500 MG",
+  "Form": "",
   "prices": {
     "24338012603": {
       "12/21/2022": 4.84655,
@@ -24,7 +28,8 @@
       "07/23/2025": 4.04075,
       "08/20/2025": 3.89643,
       "09/17/2025": 3.87998,
-      "10/22/2025": 3.66866
+      "10/22/2025": 3.66866,
+      "11/19/2025": 3.51136
     },
     "24338012613": {
       "12/21/2022": 4.84655

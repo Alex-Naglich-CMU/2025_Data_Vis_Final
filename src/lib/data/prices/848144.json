@@ -1,9 +1,13 @@
 {
   "RxCUI": "848144",
-  "Name": "EXFORGE HCT 5-160-12.5 MG TAB",
+  "Name": "amlodipine 5 MG / hydrochlorothiazide 12.5 MG / valsartan 160 MG Oral Tablet [Exforge HCT]",
   "IsBrand": true,
-  "Brand_RxCUI": "848140",
-  "Generic_RxCUI": "848144",
+  "Brand_Mate_RxCUI": "848144",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Amlodipine Hydrochlorothiazide Valsartan",
+  "Manufacturer_Name": "Exforge HCT",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00078055915": {
       "07/11/2017": 7.69457,

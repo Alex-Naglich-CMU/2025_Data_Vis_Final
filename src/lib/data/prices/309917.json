@@ -1,9 +1,13 @@
 {
   "RxCUI": "309917",
-  "Name": "REMEDY SKIN REPAIR CREAM",
+  "Name": "dimethicone 15 MG/ML Topical Cream",
   "IsBrand": true,
-  "Brand_RxCUI": "309917",
-  "Generic_RxCUI": "1745860",
+  "Brand_Mate_RxCUI": "309917",
+  "Generic_Mate_RxCUI": "1745860",
+  "Ingredient_Name": "Dimethicone Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "15 MG/ML",
+  "Form": "Cream",
   "prices": {
     "53329016104": {
       "05/22/2019": 0.04131,

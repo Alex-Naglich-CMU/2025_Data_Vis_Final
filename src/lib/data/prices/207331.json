@@ -1,9 +1,13 @@
 {
   "RxCUI": "207331",
-  "Name": "NITROSTAT 0.3 MG TABLET SL",
+  "Name": "nitroglycerin 0.3 MG Sublingual Tablet [Nitrostat]",
   "IsBrand": true,
-  "Brand_RxCUI": "198038",
-  "Generic_RxCUI": "207331",
+  "Brand_Mate_RxCUI": "207331",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Nitroglycerin Sublingual",
+  "Manufacturer_Name": "Nitrostat",
+  "Strength": "0.3 MG",
+  "Form": "",
   "prices": {
     "00071041724": {
       "06/01/2017": 0.5037,

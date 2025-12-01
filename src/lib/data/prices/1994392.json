@@ -1,9 +1,13 @@
 {
   "RxCUI": "1994392",
-  "Name": "LYRICA CR 330 MG TABLET",
+  "Name": "24 HR pregabalin 330 MG Extended Release Oral Tablet [Lyrica]",
   "IsBrand": true,
-  "Brand_RxCUI": "1988977",
-  "Generic_RxCUI": "1994392",
+  "Brand_Mate_RxCUI": "1994392",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Pregabalin Extended Release",
+  "Manufacturer_Name": "Lyrica",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00071102901": {
       "01/01/2021": 14.11618

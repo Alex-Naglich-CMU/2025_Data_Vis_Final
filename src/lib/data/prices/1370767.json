@@ -1,12 +1,21 @@
 {
   "RxCUI": "1370767",
-  "Name": "HYDROCORTISONE BUTYR 0.1% SOLN",
+  "Name": "hydrocortisone butyrate 1 MG/ML Topical Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1370767",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1370767",
+  "Ingredient_Name": "Hydrocortisone Butyrate Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 MG/ML",
+  "Form": "Solution",
   "prices": {
     "43478027361": {
       "06/21/2017": 1.98169
+    },
+    "51672406102": {
+      "06/19/2024": 1.8975,
+      "07/17/2024": 1.77142,
+      "09/18/2024": 1.8575
     },
     "51672406104": {
       "06/21/2017": 1.98169,
@@ -27,12 +36,8 @@
       "07/23/2025": 2.01513,
       "08/20/2025": 1.90293,
       "09/17/2025": 1.93144,
-      "10/22/2025": 1.92927
-    },
-    "51672406102": {
-      "06/19/2024": 1.8975,
-      "07/17/2024": 1.77142,
-      "09/18/2024": 1.8575
+      "10/22/2025": 1.92927,
+      "11/19/2025": 1.91971
     }
   }
 }

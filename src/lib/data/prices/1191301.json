@@ -1,9 +1,13 @@
 {
   "RxCUI": "1191301",
-  "Name": "DERMOTIC OIL 0.01% EAR DROPS",
+  "Name": "fluocinolone acetonide 0.1 MG/ML Otic Solution [Dermotic]",
   "IsBrand": true,
-  "Brand_RxCUI": "1191299",
-  "Generic_RxCUI": "1191301",
+  "Brand_Mate_RxCUI": "1191301",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fluocinolone Acetonide Mgml Otic",
+  "Manufacturer_Name": "Dermotic",
+  "Strength": "0.1 MG/ML",
+  "Form": "",
   "prices": {
     "68791010320": {
       "05/19/2021": 1.34746,
@@ -30,7 +34,8 @@
       "07/23/2025": 1.34373,
       "08/20/2025": 1.34383,
       "09/17/2025": 1.34306,
-      "10/22/2025": 1.34338
+      "10/22/2025": 1.34338,
+      "11/19/2025": 1.34423
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1303137",
-  "Name": "RAYOS DR 5 MG TABLET",
+  "Name": "prednisone 5 MG Delayed Release Oral Tablet [Rayos]",
   "IsBrand": true,
-  "Brand_RxCUI": "1303135",
-  "Generic_RxCUI": "1303137",
+  "Brand_Mate_RxCUI": "1303137",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Prednisone Delayed Release",
+  "Manufacturer_Name": "Rayos",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "75987002201": {
       "02/01/2019": 84.87354,

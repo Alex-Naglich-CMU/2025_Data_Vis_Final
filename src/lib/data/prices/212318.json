@@ -1,9 +1,13 @@
 {
   "RxCUI": "212318",
-  "Name": "DHS SAL 3% SHAMPOO",
+  "Name": "salicylic acid 30 MG/ML Medicated Shampoo [DHS Salicylic Acid 3%]",
   "IsBrand": true,
-  "Brand_RxCUI": "205023",
-  "Generic_RxCUI": "212318",
+  "Brand_Mate_RxCUI": "212318",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Salicylic Acid Mgml Medicated",
+  "Manufacturer_Name": "DHS Salicylic Acid 3%",
+  "Strength": "30 MG/ML",
+  "Form": "",
   "prices": {
     "00096073804": {
       "09/20/2017": 0.04923,

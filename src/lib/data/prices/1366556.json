@@ -1,9 +1,13 @@
 {
   "RxCUI": "1366556",
-  "Name": "UCERIS 9 MG ER TABLET",
+  "Name": "24 HR budesonide 9 MG Extended Release Oral Tablet [Uceris]",
   "IsBrand": true,
-  "Brand_RxCUI": "1366550",
-  "Generic_RxCUI": "1366556",
+  "Brand_Mate_RxCUI": "1366556",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Budesonide Extended Release",
+  "Manufacturer_Name": "Uceris",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "68012030930": {
       "09/20/2017": 52.64154,

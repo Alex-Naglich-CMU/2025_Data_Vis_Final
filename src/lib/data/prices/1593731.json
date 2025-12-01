@@ -1,9 +1,13 @@
 {
   "RxCUI": "1593731",
-  "Name": "SOTYLIZE 5 MG/ML ORAL SOLUTION",
+  "Name": "sotalol hydrochloride 5 MG/ML Oral Solution [Sotylize]",
   "IsBrand": true,
-  "Brand_RxCUI": "1593725",
-  "Generic_RxCUI": "1593731",
+  "Brand_Mate_RxCUI": "1593731",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sotalol Hydrochloride Mgml",
+  "Manufacturer_Name": "Sotylize",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "24338053025": {
       "07/17/2024": 2.05786,

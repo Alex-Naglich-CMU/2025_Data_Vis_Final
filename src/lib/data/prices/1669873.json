@@ -1,9 +1,13 @@
 {
   "RxCUI": "1669873",
-  "Name": "TOLAK 4% CREAM",
+  "Name": "fluorouracil 40 MG/ML Topical Cream [Tolak]",
   "IsBrand": true,
-  "Brand_RxCUI": "1669868",
-  "Generic_RxCUI": "1669873",
+  "Brand_Mate_RxCUI": "1669873",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fluorouracil Mgml",
+  "Manufacturer_Name": "Tolak",
+  "Strength": "40 MG/ML",
+  "Form": "",
   "prices": {
     "28105042140": {
       "01/01/2018": 6.41805

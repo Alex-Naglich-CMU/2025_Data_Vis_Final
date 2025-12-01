@@ -1,9 +1,13 @@
 {
   "RxCUI": "1999657",
-  "Name": "BONJESTA ER 20-20 MG TABLET",
+  "Name": "12 HR doxylamine succinate 20 MG / pyridoxine hydrochloride 20 MG Extended Release Oral Tablet [Bonjesta]",
   "IsBrand": true,
-  "Brand_RxCUI": "1999651",
-  "Generic_RxCUI": "1999657",
+  "Brand_Mate_RxCUI": "1999657",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Doxylamine Succinate Pyridoxine Hydrochloride Extended Release",
+  "Manufacturer_Name": "Bonjesta",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "55494012060": {
       "07/17/2019": 9.87089,
@@ -32,7 +36,8 @@
       "07/23/2025": 11.12059,
       "08/20/2025": 11.12398,
       "09/17/2025": 11.1218,
-      "10/22/2025": 11.11121
+      "10/22/2025": 11.11121,
+      "11/19/2025": 11.11441
     }
   }
 }

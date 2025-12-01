@@ -1,9 +1,13 @@
 {
   "RxCUI": "826614",
-  "Name": "RAPAFLO 4 MG CAPSULE",
+  "Name": "silodosin 4 MG Oral Capsule [Rapaflo]",
   "IsBrand": true,
-  "Brand_RxCUI": "826612",
-  "Generic_RxCUI": "826614",
+  "Brand_Mate_RxCUI": "826614",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Silodosin",
+  "Manufacturer_Name": "Rapaflo",
+  "Strength": "4 MG",
+  "Form": "",
   "prices": {
     "00023614730": {
       "11/21/2018": 7.98275,

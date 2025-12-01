@@ -1,11 +1,15 @@
 {
   "RxCUI": "999826",
-  "Name": "INTEGRA F CAPSULE",
+  "Name": "ascorbic acid 40 MG / ferrous fumarate 191 MG / folic acid 1 MG / niacinamide 3 MG / polysaccharide iron complex 136 MG Oral Capsule [Integra F]",
   "IsBrand": true,
-  "Brand_RxCUI": "999823",
-  "Generic_RxCUI": "999826",
+  "Brand_Mate_RxCUI": "999826",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ascorbic Acid Ferrous Fumarate Folic Acid Niacinamide Polysaccharide Iron Complex",
+  "Manufacturer_Name": "Integra F",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
-    "52747071160": {
+    "52747071130": {
       "07/19/2017": 0.48957,
       "10/18/2017": 0.51294,
       "02/21/2018": 0.49386,
@@ -19,7 +23,7 @@
       "07/22/2020": 0.51481,
       "08/19/2020": 0.50171
     },
-    "52747071130": {
+    "52747071160": {
       "07/19/2017": 0.48957,
       "10/18/2017": 0.51294,
       "02/21/2018": 0.49386,

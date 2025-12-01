@@ -1,9 +1,13 @@
 {
   "RxCUI": "801965",
-  "Name": "DIASTAT ACUDIAL 12.5-15-20 MG",
+  "Name": "4 ML diazepam 5 MG/ML Rectal Gel [Diastat]",
   "IsBrand": true,
-  "Brand_RxCUI": "801966",
-  "Generic_RxCUI": "801965",
+  "Brand_Mate_RxCUI": "801965",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Diazepam Mgml Rectal",
+  "Manufacturer_Name": "Diastat",
+  "Strength": "4 ML",
+  "Form": "",
   "prices": {
     "00187065920": {
       "07/19/2017": 296.054,

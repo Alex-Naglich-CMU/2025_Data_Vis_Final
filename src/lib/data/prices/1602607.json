@@ -1,9 +1,13 @@
 {
   "RxCUI": "1602607",
-  "Name": "ABILIFY MAINTENA ER 400 MG SYR",
+  "Name": "2 ML aripiprazole 200 MG/ML Prefilled Syringe [Abilify]",
   "IsBrand": true,
-  "Brand_RxCUI": "1602171",
-  "Generic_RxCUI": "1602607",
+  "Brand_Mate_RxCUI": "1602607",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Aripiprazole Mgml Prefilled",
+  "Manufacturer_Name": "Abilify",
+  "Strength": "2 ML",
+  "Form": "",
   "prices": {
     "59148007280": {
       "07/01/2017": 1897.07667,
@@ -41,7 +45,8 @@
       "07/23/2025": 2780.43598,
       "08/20/2025": 2780.51975,
       "09/17/2025": 2781.10553,
-      "10/22/2025": 2776.09052
+      "10/22/2025": 2776.09052,
+      "11/19/2025": 2776.32866
     }
   }
 }

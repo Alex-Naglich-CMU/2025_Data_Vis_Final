@@ -1,9 +1,13 @@
 {
   "RxCUI": "2636640",
-  "Name": "ABILIFY ASIMTUFII 720 MG/2.4 ML",
+  "Name": "2.4 ML aripiprazole 300 MG/ML Prefilled Syringe [Abilify]",
   "IsBrand": true,
-  "Brand_RxCUI": "2636637",
-  "Generic_RxCUI": "2636640",
+  "Brand_Mate_RxCUI": "2636640",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Aripiprazole Mgml Prefilled",
+  "Manufacturer_Name": "Abilify",
+  "Strength": "2.4 ML",
+  "Form": "",
   "prices": {
     "59148010280": {
       "05/22/2024": 1681.23375,
@@ -18,7 +22,8 @@
       "07/23/2025": 1737.9875,
       "08/20/2025": 1736.32824,
       "09/17/2025": 1737.50584,
-      "10/22/2025": 1731.70341
+      "10/22/2025": 1731.70341,
+      "11/19/2025": 1727.35128
     }
   }
 }

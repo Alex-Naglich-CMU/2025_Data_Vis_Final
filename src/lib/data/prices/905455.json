@@ -1,9 +1,13 @@
 {
   "RxCUI": "905455",
-  "Name": "LEVOTHYROXINE 137 MCG CAPSULE",
+  "Name": "levothyroxine sodium 0.137 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": "905455",
-  "Generic_RxCUI": "905457",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "905455",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "",
+  "Strength": "0.137 MG",
+  "Form": "Capsule",
   "prices": {
     "00527495932": {
       "04/17/2024": 2.42894,

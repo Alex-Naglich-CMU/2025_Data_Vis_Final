@@ -1,9 +1,13 @@
 {
   "RxCUI": "261134",
-  "Name": "PROGRAF 0.5 MG CAPSULE",
+  "Name": "tacrolimus 0.5 MG Oral Capsule [Prograf]",
   "IsBrand": true,
-  "Brand_RxCUI": "313190",
-  "Generic_RxCUI": "261134",
+  "Brand_Mate_RxCUI": "261134",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Tacrolimus",
+  "Manufacturer_Name": "Prograf",
+  "Strength": "0.5 MG",
+  "Form": "",
   "prices": {
     "00469060773": {
       "09/20/2017": 2.62335,
@@ -31,7 +35,8 @@
       "07/23/2025": 3.57019,
       "08/20/2025": 3.57329,
       "09/17/2025": 3.57121,
-      "10/22/2025": 3.56465
+      "10/22/2025": 3.56465,
+      "11/19/2025": 3.56404
     }
   }
 }

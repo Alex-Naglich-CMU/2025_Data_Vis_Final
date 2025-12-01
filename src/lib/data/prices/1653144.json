@@ -1,9 +1,13 @@
 {
   "RxCUI": "1653144",
-  "Name": "SIMPONI 50 MG/0.5 ML PEN INJEC",
+  "Name": "0.5 ML golimumab 100 MG/ML Auto-Injector [Simponi]",
   "IsBrand": true,
-  "Brand_RxCUI": "1653142",
-  "Generic_RxCUI": "1653144",
+  "Brand_Mate_RxCUI": "1653144",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Golimumab Mgml Auto-Injector",
+  "Manufacturer_Name": "Simponi",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "57894007002": {
       "06/21/2017": 7971.064,
@@ -31,7 +35,8 @@
       "06/18/2025": 12342.144,
       "07/23/2025": 12347.04,
       "08/20/2025": 12351.99882,
-      "09/17/2025": 12352.933
+      "09/17/2025": 12352.933,
+      "11/19/2025": 12353.99048
     }
   }
 }

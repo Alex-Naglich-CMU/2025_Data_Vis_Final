@@ -1,11 +1,15 @@
 {
   "RxCUI": "104849",
-  "Name": "PROZAC 20 MG PULVULE",
+  "Name": "fluoxetine 20 MG Oral Capsule [Prozac]",
   "IsBrand": true,
-  "Brand_RxCUI": "310385",
-  "Generic_RxCUI": "104849",
+  "Brand_Mate_RxCUI": "104849",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Fluoxetine",
+  "Manufacturer_Name": "Prozac",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
-    "00777310530": {
+    "00777310502": {
       "06/21/2017": 13.21656,
       "12/15/2017": 14.52487,
       "09/19/2018": 14.472,
@@ -47,7 +51,7 @@
       "11/18/2020": 15.60359,
       "01/01/2021": 16.07264
     },
-    "00777310502": {
+    "00777310530": {
       "06/21/2017": 13.21656,
       "12/15/2017": 14.52487,
       "09/19/2018": 14.472,

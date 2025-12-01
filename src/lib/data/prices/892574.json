@@ -1,9 +1,13 @@
 {
   "RxCUI": "892574",
-  "Name": "MS CONTIN ER 15 MG TABLET",
+  "Name": "morphine sulfate 15 MG Extended Release Oral Tablet [MS Contin]",
   "IsBrand": true,
-  "Brand_RxCUI": "891881",
-  "Generic_RxCUI": "892574",
+  "Brand_Mate_RxCUI": "892574",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Morphine Extended Release",
+  "Manufacturer_Name": "MS Contin",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "42858051501": {
       "06/03/2024": 4.40368,

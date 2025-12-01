@@ -1,9 +1,13 @@
 {
   "RxCUI": "1799230",
-  "Name": "ORENCIA CLICKJECT 125 MG/ML",
+  "Name": "1 ML abatacept 125 MG/ML Auto-Injector [Orencia]",
   "IsBrand": true,
-  "Brand_RxCUI": "1799228",
-  "Generic_RxCUI": "1799230",
+  "Brand_Mate_RxCUI": "1799230",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Abatacept Mgml Auto-Injector",
+  "Manufacturer_Name": "Orencia",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00003218851": {
       "01/01/2019": 1056.58523,
@@ -28,7 +32,8 @@
       "07/23/2025": 1441.68441,
       "08/20/2025": 1441.67846,
       "09/17/2025": 1441.68473,
-      "10/22/2025": 1441.59406
+      "10/22/2025": 1441.59406,
+      "11/19/2025": 1442.16347
     },
     "3218851": {
       "1/1/2022": 1230.49954

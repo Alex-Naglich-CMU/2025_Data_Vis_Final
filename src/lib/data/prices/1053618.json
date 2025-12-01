@@ -1,9 +1,13 @@
 {
   "RxCUI": "1053618",
-  "Name": "LOHIST-D LIQUID",
+  "Name": "chlorpheniramine maleate 0.4 MG/ML / pseudoephedrine hydrochloride 6 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "1053618",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "1053618",
+  "Ingredient_Name": "Chlorpheniramine Maleate Mgml Pseudoephedrine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.4 MG/ML",
+  "Form": "Solution",
   "prices": {
     "68047012016": {
       "08/21/2024": 0.05869

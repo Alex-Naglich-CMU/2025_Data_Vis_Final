@@ -1,9 +1,13 @@
 {
   "RxCUI": "198140",
-  "Name": "PRAZIQUANTEL 600 MG TABLET",
+  "Name": "praziquantel 600 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": "198140",
-  "Generic_RxCUI": "208975",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "198140",
+  "Ingredient_Name": "Praziquantel",
+  "Manufacturer_Name": "",
+  "Strength": "600 MG",
+  "Form": "Tablet",
   "prices": {
     "49884023183": {
       "05/22/2024": 49.76533,

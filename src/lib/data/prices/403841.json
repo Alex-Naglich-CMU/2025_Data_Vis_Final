@@ -1,9 +1,13 @@
 {
   "RxCUI": "403841",
-  "Name": "DESLORATADINE 5 MG ODT",
+  "Name": "desloratadine 5 MG Disintegrating Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
-  "Generic_RxCUI": "403841",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "403841",
+  "Ingredient_Name": "Desloratadine Disintegrating",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG",
+  "Form": "Tablet",
   "prices": {
     "55111036006": {
       "09/18/2024": 4.03967,
@@ -12,7 +16,8 @@
       "12/18/2024": 3.86425,
       "01/22/2025": 3.81319,
       "02/19/2025": 3.78686,
-      "03/19/2025": 3.79313
+      "03/19/2025": 3.79313,
+      "11/19/2025": 4.54733
     },
     "55111036031": {
       "09/18/2024": 4.03967,
@@ -21,7 +26,8 @@
       "12/18/2024": 3.86425,
       "01/22/2025": 3.81319,
       "02/19/2025": 3.78686,
-      "03/19/2025": 3.79313
+      "03/19/2025": 3.79313,
+      "11/19/2025": 4.54733
     }
   }
 }

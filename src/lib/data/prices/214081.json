@@ -1,9 +1,13 @@
 {
   "RxCUI": "214081",
-  "Name": "THALITONE 15 MG TABLET",
+  "Name": "chlorthalidone 15 MG Oral Tablet [Thalitone]",
   "IsBrand": true,
-  "Brand_RxCUI": "197498",
-  "Generic_RxCUI": "214081",
+  "Brand_Mate_RxCUI": "214081",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Chlorthalidone",
+  "Manufacturer_Name": "Thalitone",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "70199001730": {
       "04/17/2024": 3.54259,
@@ -23,7 +27,8 @@
       "07/23/2025": 3.55143,
       "08/20/2025": 3.55186,
       "09/17/2025": 3.55392,
-      "10/22/2025": 3.55193
+      "10/22/2025": 3.55193,
+      "11/19/2025": 3.54979
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2268065",
-  "Name": "BASAGLAR TEMPO PEN 100 UNIT/ML",
+  "Name": "Sensor 3 ML insulin glargine 100 UNT/ML Pen Injector [Basaglar]",
   "IsBrand": true,
-  "Brand_RxCUI": "2268064",
-  "Generic_RxCUI": "2268065",
+  "Brand_Mate_RxCUI": "2268065",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Sensor Insulin Glargine Untml Pen Injector",
+  "Manufacturer_Name": "Basaglar",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00002821405": {
       "2/22/2023": 20.90137,
@@ -25,7 +29,8 @@
       "07/23/2025": 20.94103,
       "08/20/2025": 20.93978,
       "09/17/2025": 20.94656,
-      "10/22/2025": 20.9592
+      "10/22/2025": 20.9592,
+      "11/19/2025": 20.95489
     }
   }
 }

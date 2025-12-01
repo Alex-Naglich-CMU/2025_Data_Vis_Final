@@ -1,9 +1,13 @@
 {
   "RxCUI": "800915",
-  "Name": "PEG3350-SOD SUL-NACL-KCL-ASCB-C 100-7.5-2.691-1.015-5.9-4.7G",
+  "Name": "ascorbic acid 4700 MG / polyethylene glycol 3350 100000 MG / potassium chloride 1015 MG / sodium ascorbate 5900 MG / sodium chloride 2690 MG / sodium sulfate 7500 MG Powder for Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": "800915",
-  "Generic_RxCUI": "800918",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "800915",
+  "Ingredient_Name": "Ascorbic Acid Polyethylene Glycol Potassium Chloride Sodium Ascorbate Sodium Chloride Sodium For",
+  "Manufacturer_Name": "",
+  "Strength": "4700 MG",
+  "Form": "Solution",
   "prices": {
     "00093356026": {
       "05/19/2021": 85.931,
@@ -58,7 +62,8 @@
       "07/23/2025": 79.44533,
       "08/20/2025": 78.6065,
       "09/17/2025": 77.461,
-      "10/22/2025": 75.90183
+      "10/22/2025": 75.90183,
+      "11/19/2025": 73.89405
     },
     "68682020175": {
       "05/19/2021": 85.931,

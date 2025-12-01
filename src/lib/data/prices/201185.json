@@ -1,9 +1,13 @@
 {
   "RxCUI": "201185",
-  "Name": "SULFAMYLON 8.5% CREAM",
+  "Name": "mafenide 85 MG/ML Topical Cream [Sulfamylon]",
   "IsBrand": true,
-  "Brand_RxCUI": "311406",
-  "Generic_RxCUI": "201185",
+  "Brand_Mate_RxCUI": "201185",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Mafenide Mgml",
+  "Manufacturer_Name": "Sulfamylon",
+  "Strength": "85 MG/ML",
+  "Form": "",
   "prices": {
     "16571072360": {
       "05/22/2024": 1.22199,
@@ -17,7 +21,8 @@
       "05/21/2025": 1.22586,
       "08/20/2025": 1.2246,
       "09/17/2025": 1.22575,
-      "10/22/2025": 1.22502
+      "10/22/2025": 1.22502,
+      "11/19/2025": 1.21411
     }
   }
 }

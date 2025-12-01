@@ -2,8 +2,12 @@
   "RxCUI": "749157",
   "Name": "NORG-EE 0.18-0.215-0.25/0.025",
   "IsBrand": false,
-  "Brand_RxCUI": "749157",
-  "Generic_RxCUI": "2104192",
+  "Brand_Mate_RxCUI": "",
+  "Generic_Mate_RxCUI": "749157",
+  "Ingredient_Name": "Norg-Ee --",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "",
   "prices": {
     "68462071929": {
       "05/19/2021": 0.18624,

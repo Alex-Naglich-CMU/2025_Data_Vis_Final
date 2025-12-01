@@ -1,9 +1,13 @@
 {
   "RxCUI": "656137",
-  "Name": "SENSIPAR 30 MG TABLET",
+  "Name": "cinacalcet 30 MG Oral Tablet [Sensipar]",
   "IsBrand": true,
-  "Brand_RxCUI": "432402",
-  "Generic_RxCUI": "656137",
+  "Brand_Mate_RxCUI": "656137",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Cinacalcet",
+  "Manufacturer_Name": "Sensipar",
+  "Strength": "30 MG",
+  "Form": "",
   "prices": {
     "55513007330": {
       "01/17/2018": 26.02878,

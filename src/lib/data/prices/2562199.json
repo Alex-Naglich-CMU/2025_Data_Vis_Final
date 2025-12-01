@@ -1,9 +1,13 @@
 {
   "RxCUI": "2562199",
-  "Name": "AZSTARYS 52.3 MG-10.4 MG CAP",
+  "Name": "dexmethylphenidate 10.4 MG / serdexmethylphenidate 52.3 MG Oral Capsule [Azstarys]",
   "IsBrand": true,
-  "Brand_RxCUI": "2562194",
-  "Generic_RxCUI": "2562199",
+  "Brand_Mate_RxCUI": "2562199",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Dexmethylphenidate Serdexmethylphenidate",
+  "Manufacturer_Name": "Azstarys",
+  "Strength": "10.4 MG",
+  "Form": "",
   "prices": {
     "65038056199": {
       "07/01/2023": 12.84808,
@@ -22,7 +26,8 @@
       "07/23/2025": 13.89931,
       "08/20/2025": 13.9004,
       "09/17/2025": 13.90181,
-      "10/22/2025": 13.90378
+      "10/22/2025": 13.90378,
+      "11/19/2025": 13.90464
     }
   }
 }

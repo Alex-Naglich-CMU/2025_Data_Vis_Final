@@ -1,9 +1,13 @@
 {
   "RxCUI": "2587594",
-  "Name": "FYREMADEL 250 MCG/0.5 ML SYR",
+  "Name": "0.5 ML ganirelix acetate 0.5 MG/ML Prefilled Syringe [Fyremadel]",
   "IsBrand": false,
-  "Brand_RxCUI": "855200",
-  "Generic_RxCUI": "2587594",
+  "Brand_Mate_RxCUI": "855200",
+  "Generic_Mate_RxCUI": "2587594",
+  "Ingredient_Name": "Ganirelix Mgml Prefilled",
+  "Manufacturer_Name": "Fyremadel",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "55566101001": {
       "09/18/2024": 97.9725,
@@ -15,7 +19,8 @@
       "07/23/2025": 83.98,
       "08/20/2025": 75.3895,
       "09/17/2025": 72.918,
-      "10/22/2025": 66.09889
+      "10/22/2025": 66.09889,
+      "11/19/2025": 65.16084
     }
   }
 }

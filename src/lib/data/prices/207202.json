@@ -1,9 +1,13 @@
 {
   "RxCUI": "207202",
-  "Name": "OCUFLOX 0.3% EYE DROPS",
+  "Name": "ofloxacin 3 MG/ML Ophthalmic Solution [Ocuflox]",
   "IsBrand": true,
-  "Brand_RxCUI": "312075",
-  "Generic_RxCUI": "207202",
+  "Brand_Mate_RxCUI": "207202",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Ofloxacin Mgml",
+  "Manufacturer_Name": "Ocuflox",
+  "Strength": "3 MG/ML",
+  "Form": "",
   "prices": {
     "11980077905": {
       "01/01/2018": 22.62638

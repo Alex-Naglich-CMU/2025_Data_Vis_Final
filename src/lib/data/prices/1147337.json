@@ -1,9 +1,13 @@
 {
   "RxCUI": "1147337",
-  "Name": "COMPLERA TABLET",
+  "Name": "emtricitabine 200 MG / rilpivirine 25 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Complera]",
   "IsBrand": true,
-  "Brand_RxCUI": "1147334",
-  "Generic_RxCUI": "1147337",
+  "Brand_Mate_RxCUI": "1147337",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Emtricitabine Rilpivirine Tenofovir Disoproxil Fumarate",
+  "Manufacturer_Name": "Complera",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "61958110101": {
       "06/21/2017": 80.46617,
@@ -37,7 +41,8 @@
       "06/18/2025": 124.30321,
       "07/23/2025": 124.44505,
       "08/20/2025": 124.40182,
-      "09/17/2025": 124.35459
+      "09/17/2025": 124.35459,
+      "11/19/2025": 124.41015
     }
   }
 }

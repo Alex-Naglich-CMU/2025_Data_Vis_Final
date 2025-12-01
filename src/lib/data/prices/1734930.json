@@ -1,9 +1,13 @@
 {
   "RxCUI": "1734930",
-  "Name": "QUILLICHEW ER 30 MG CHEW TAB",
+  "Name": "24 HR methylphenidate hydrochloride 30 MG Chewable Extended Release Oral Tablet [QuilliChew]",
   "IsBrand": true,
-  "Brand_RxCUI": "1734928",
-  "Generic_RxCUI": "1734930",
+  "Brand_Mate_RxCUI": "1734930",
+  "Generic_Mate_RxCUI": "",
+  "Ingredient_Name": "Hr Methylphenidate Hydrochloride Chewable Extended Release",
+  "Manufacturer_Name": "QuilliChew",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "24478007501": {
       "01/09/2019": 10.57801,
@@ -34,7 +38,8 @@
       "07/23/2025": 11.88709,
       "08/20/2025": 11.88934,
       "09/17/2025": 11.89181,
-      "10/22/2025": 11.88652
+      "10/22/2025": 11.88652,
+      "11/19/2025": 11.88329
     }
   }
 }
