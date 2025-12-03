@@ -180,12 +180,9 @@
 	);
 
 	// SVG refs
-	// svelte-ignore non_reactive_update
-	let mainSvgRef: SVGSVGElement;
-	// svelte-ignore non_reactive_update
-	let xAxisRef: SVGGElement;
-	// svelte-ignore non_reactive_update
-	let yAxisRef: SVGGElement;
+	let mainSvgRef = $state<SVGSVGElement>();
+	let xAxisRef = $state<SVGGElement>();
+	let yAxisRef = $state<SVGGElement>();
 
 	// ================================================================================================
 	// EFFECTS - AXES RENDERING

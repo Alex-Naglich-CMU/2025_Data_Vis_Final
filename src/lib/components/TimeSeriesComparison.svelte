@@ -121,19 +121,13 @@
 		createLinePath(genericChartData, genericXScale, genericYScale)
 	);
 
-	// SVG refs - had to disable non_reactive_update warnings for false positives
-	// svelte-ignore non_reactive_update
-	let mainSvgRef: SVGSVGElement;
-	// svelte-ignore non_reactive_update
-	let genericSvgRef: SVGSVGElement;
-	// svelte-ignore non_reactive_update
-	let xAxisRef: SVGGElement;
-	// svelte-ignore non_reactive_update
-	let yAxisRef: SVGGElement;
-	// svelte-ignore non_reactive_update
-	let genericXAxisRef: SVGGElement;
-	// svelte-ignore non_reactive_update
-	let genericYAxisRef: SVGGElement;
+	// SVG refs
+	let mainSvgRef = $state<SVGSVGElement>();
+	let genericSvgRef = $state<SVGSVGElement>();
+	let xAxisRef = $state<SVGGElement>();
+	let yAxisRef = $state<SVGGElement>();
+	let genericXAxisRef = $state<SVGGElement>();
+	let genericYAxisRef = $state<SVGGElement>();
 
 	// ================================================================================================
 	// EFFECTS - AXES RENDERING
