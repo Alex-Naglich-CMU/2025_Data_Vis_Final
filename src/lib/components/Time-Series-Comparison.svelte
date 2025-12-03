@@ -514,8 +514,8 @@
 				x2={xMid}
 				y1={margin.top}
 				y2={height - margin.bottom}
-				stroke="grey"
-				stroke-width="1"
+				stroke="{$isDarkMode ? '#ddd' : '#222'}"
+				stroke-width="2"
 				opacity={isActive ? 0.3 : 0}
 				style="pointer-events: none;"
 			/>
