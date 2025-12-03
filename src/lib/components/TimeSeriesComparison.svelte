@@ -1,6 +1,6 @@
 <script lang="ts">
 	import * as d3 from 'd3';
-	import type { DrugAllData, ChartPoint} from '$lib/scripts/types';
+	import type { DrugAllData, ChartPoint } from '$lib/scripts/types';
 	import { getChartPoints } from '$lib/scripts/helper-functions';
 	import { loadDrugData } from '$lib/scripts/drug-data-loader';
 	import { isDarkMode } from '$lib/stores/theme';

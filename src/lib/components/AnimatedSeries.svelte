@@ -70,7 +70,7 @@
 	];
 
 	let containerWidth = $state(0);
-	const width = $derived(containerWidth - 40 || 900);
+	const width = $derived(containerWidth * 0.5 || 900);
 	const height = $derived(width * 0.6);
 	const margin = { top: 40, right: 40, bottom: 60, left: 80 };
 
@@ -345,12 +345,7 @@
 				<svg {width} {height} role="img" bind:this={mainSvgRef}>
 					<defs>
 						<clipPath id="main-plot-clip">
-							<rect
-								x={margin.left}
-								y={margin.top}
-								width={width - margin.left - margin.right}
-								height={height - margin.top - margin.bottom}
-							/>
+							<rect x={0} y={0} {width} {height} />
 						</clipPath>
 					</defs>
 
