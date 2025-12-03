@@ -4,13 +4,14 @@
 	import Nav from '$lib/components/Nav.svelte';
 
 	let { children } = $props();
-
 </script>
 
 <svelte:head>
 	<link rel="icon" href={RXIcon} />
 </svelte:head>
-<Nav />
+<div class="fixed top-0 right-0 z-50">
+	<Nav />
+</div>
 <div class="container">
 	<div class="content">
 		{@render children?.()}
@@ -18,7 +19,7 @@
 </div>
 
 <style>
-/* 
+	/* 
 	.content {
 		display: flex;
 		flex-direction: column;
