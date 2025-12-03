@@ -4,8 +4,8 @@ import os
 from tqdm import tqdm
 
 # configuration
-DATA_DIR = 'data'
-PRICES_DIR = 'static/data/prices'
+DATA_DIR = '../src/lib/data'
+PRICES_DIR = '../src/lib/data/prices'
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(PRICES_DIR, exist_ok=True)
 
