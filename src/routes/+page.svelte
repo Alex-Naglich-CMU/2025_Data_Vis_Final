@@ -2,10 +2,11 @@
 	import type { PageProps } from './$types';
 	import { asset } from '$app/paths';
 	import { onMount } from 'svelte';
-	import TimeSeriesComparison from '$lib/components/Time-Series-Comparison.svelte';
+	import { isDarkMode } from '$lib/stores/theme';
+	import TimeSeriesComparison from '$lib/components/TimeSeriesComparison.svelte';
 	import Headlines from '$lib/components/Headlines.svelte';
 	import InsulinComparison from '$lib/components/InsulinComparison.svelte';
-	import { isDarkMode } from '$lib/stores/theme';
+	import AnimatedSeries from '$lib/components/AnimatedSeries.svelte';
 
 	onMount(() => {
 		isDarkMode.init();
@@ -110,6 +111,8 @@
 </div>
 
 <TimeSeriesComparison />
+
+<AnimatedSeries />
 
 <style>
 	* {
