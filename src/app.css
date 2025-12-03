@@ -1,8 +1,6 @@
 @import 'tailwindcss';
-@plugin 'daisyui';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
-
 
 /* @theme {
 	--color-scheme: dark;
@@ -13,8 +11,23 @@
 /* @variant dark (&:where([data-theme="dark"], [data-theme="dark"] *)); */
 
 body {
-	background-color: #FCFBF5;
 	height: auto;
 	margin: 0;
 	padding: 0;
+}
+
+/* Light mode (default) */
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #fcfbf5;
+		color: #000;
+	}
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #1a1a1a;
+		color: #fff;
+	}
 }

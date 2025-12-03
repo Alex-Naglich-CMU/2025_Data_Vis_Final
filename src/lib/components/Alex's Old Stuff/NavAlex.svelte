@@ -23,8 +23,6 @@
 	];
 
 	$effect(() => {
-		// AI suggested change, I had another way to do this but this is more robust.
-		// This runs only in the browser, after onMount initializes colorScheme.
 		if (typeof document !== 'undefined') {
 			const root = document.documentElement;
 

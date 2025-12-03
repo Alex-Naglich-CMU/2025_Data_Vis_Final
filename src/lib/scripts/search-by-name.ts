@@ -1,19 +1,6 @@
-// Type definitions
-interface DrugPrices {
-	[ndc: string]: {
-		[date: string]: number;
-	};
-}
 
-interface DrugData {
-	searchName: string;
-	RxCUI: string;
-	Name: string;
-	IsBrand: boolean;
-	Brand_RxCUI: string | null;
-	Generic_RxCUI: string | null;
-	prices: DrugPrices;
-}
+// Type definitions
+import type { DrugPricesOnly, DrugAllData } from './drug-types';
 
 interface SearchIndexEntry {
 	rxcui: string;
@@ -37,7 +24,7 @@ const drugSearchTerms: string[] = [
 	'amlodipine'
 ];
 
-	let drugsData = $state<DrugData[]>([]);
+	let drugsData = $state<DrugAllData[]>([]);
 	let loading = $state<boolean>(true);
 	let error = $state<string | null>(null);
 
@@ -49,7 +36,7 @@ const drugSearchTerms: string[] = [
 	console.log('Search index loaded:', Object.keys(searchIndex).slice(0, 10)); // Debug: show first 10 keys
 
 	// For each drug search term, find matching drugs
-	const loadPromises = drugSearchTerms.map(async (searchTerm): Promise<DrugData | null> => {
+	const loadPromises = drugSearchTerms.map(async (searchTerm): Promise<DrugAllData | null> => {
 		const searchTermLower = searchTerm.toLowerCase();
 
 		// Find drug by partial match in the search index
@@ -79,12 +66,12 @@ const drugSearchTerms: string[] = [
 		return {
 			searchName: searchTerm,
 			...priceData
-		} as DrugData;
+		} as DrugAllData;
 	});
 
 	// Wait for all drugs to load
 	const results = await Promise.all(loadPromises);
-	drugsData = results.filter((drug): drug is DrugData => drug !== null);
+	drugsData = results.filter((drug): drug is DrugAllData => drug !== null);
 	loading = false;
 
 	console.log('Loaded drugs:', $state.snapshot(drugsData)); // Use $state.snapshot for logging

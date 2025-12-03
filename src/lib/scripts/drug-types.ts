@@ -1,20 +1,24 @@
 // Type definitions
-export interface DrugPrices {
+
+// Price data organized by NDC and date
+export interface DrugPricesOnly {
 	[ndc: string]: {
 		[date: string]: number;
 	};
 }
 
-export interface DrugData {
-	RxCUI: string;
-	Name: string;
-	IsBrand: boolean;
-	Brand_RxCUI: string | null;
-	Generic_RxCUI: string | null;
-	prices: DrugPrices;
+export interface DrugAllData {
+	rxcui: string;
+	friendlyName: string;
+	fullName: string;
+	isBrand: boolean;
+	brandRxcui: string | null;
+	genericRxcui: string | null;
+	prices: SinglePriceDataPoint[];
 }
 
-export interface PricePoint {
+// TYPE DEFINITIONS
+export interface SinglePriceDataPoint {
 	ndc: string;
 	date: string;
 	price: number;
@@ -23,23 +27,38 @@ export interface PricePoint {
 	isBrand: boolean;
 }
 
-export interface PlottablePricePoint {
-	ndc: string;
+// Chart point with Date object (used in visualizations)
+export interface ChartPoint {
 	date: Date;
 	price: number;
-	drugName: string;
-	rxcui: string;
-	isBrand: boolean;
 }
 
-export interface AveragePrice {
+// Tooltip data for price comparisons
+export interface TooltipData {
+	date: Date;
+	brandPrice?: number;
+	genericPrice?: number;
+	savings?: number;
+	savingsPercent?: number;
+}
+
+export interface AverageGenericPrice {
 	date: string;
 	averagePrice: number;
 	count: number;
 }
 
-export interface PlottableAveragePrice {
-	date: Date;
-	averagePrice: number;
-	count: number;
-}
+// export interface PlottablePricePoint {
+// 	ndc: string;
+// 	date: Date;
+// 	price: number;
+// 	drugName: string;
+// 	rxcui: string;
+// 	isBrand: boolean;
+// }
+
+// export interface PlottableAveragePrice {
+// 	date: Date;
+// 	averagePrice: number;
+// 	count: number;
+// }

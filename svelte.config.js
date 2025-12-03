@@ -9,7 +9,7 @@ const config = {
 		paths: {
 			base: process.argv.includes('dev') ? '' : '/2025_Data_Vis_Final'
 		}
-	}
+	},
 };
 
 export default config;

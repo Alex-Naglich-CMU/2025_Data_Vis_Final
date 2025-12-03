@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css';
-	import RXIcon from '$lib/assets/RXIcon.jpeg';
-	import Nav from '$lib/components/nav.svelte';
+	import RXIcon from '$lib/assets/RXIcon.jpg';
+	import Nav from '$lib/components/Nav.svelte';
 
 	let { children } = $props();
 

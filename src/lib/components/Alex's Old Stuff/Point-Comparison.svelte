@@ -1,33 +1,14 @@
 <script lang="ts">
 	import * as d3 from 'd3';
+	import type { SinglePriceDataPoint, DrugAllData } from '$lib/scripts/drug-types';
 
-    // TYPE DEFINITIONS
-	interface PriceDataPoint {
-		ndc: string;
-		date: string;
-		price: number;
-		drugName: string;
-		rxcui: string;
-		isBrand: boolean;
-	}
-
-	interface DrugData {
-		rxcui: string;
-		friendlyName: string;
-		fullName: string;
-		isBrand: boolean;
-		brandRxcui: string | null;
-		genericRxcui: string | null;
-		prices: PriceDataPoint[];
-	}
-
-    interface YearlyAverage {
+	interface YearlyAverage {
 		year: number;
 		averagePrice: number;
 		dataPoints: number;
 	}
 
-    interface DataPoint {
+	interface DataPoint {
 		rxcui: string;
 		drugName: string;
 		yearlyAverages: YearlyAverage[];
@@ -35,10 +16,10 @@
 		timeSinceFirstDate: number;
 	}
 
-    // PROPS
-	const { drugsData = [] }: { drugsData: DrugData[] } = $props();
+	// PROPS
+	const { drugsData = [] }: { drugsData: DrugAllData[] } = $props();
 
-    // CONSTANTS
+	// CONSTANTS
 	const width = 900;
 	const height = 500;
 	const margin = { top: 40, right: 40, bottom: 80, left: 80 };
@@ -52,8 +33,8 @@
 		cream: '#F6F5EC'
 	};
 
-    //find average price per year & time it's been on market
-   	const findYearAverage: DataPoint[] = $derived(
+	//find average price per year & time it's been on market
+	const findYearAverage: DataPoint[] = $derived(
 		drugsData.map((drug) => {
 			// Calculate yearly averages
 			const yearlyMap = d3.rollup(
@@ -70,7 +51,8 @@
 
 			// Time on market calculations
 			const firstDate = d3.min(drug.prices, (d) => new Date(d.date)) || new Date();
-			const timeSinceFirstDate = (new Date().getTime() - firstDate.getTime()) / (1000 * 60 * 60 * 24 * 365.25);
+			const timeSinceFirstDate =
+				(new Date().getTime() - firstDate.getTime()) / (1000 * 60 * 60 * 24 * 365.25);
 
 			return {
 				rxcui: drug.rxcui,
@@ -88,5 +70,4 @@
 			new Set(findYearAverage.flatMap((a) => a.yearlyAverages.map((ya) => ya.year)))
 		).sort()
 	);
-
 </script>

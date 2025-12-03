@@ -1,7 +1,7 @@
 <script lang="ts">
 	import * as d3 from 'd3';
 	import type { PricePoint, AveragePrice, PlottablePricePoint , PlottableAveragePrice } from '$lib/scripts/drug-types';
-	import { getAveragePrices } from '$lib/scripts/helper-functions';
+	import { getAvAverageGenericPrice} from '$lib/scripts/helper-functions';
 	import DataLine from '$lib/components/DataLine.svelte';
 
 	// PROPS
@@ -15,9 +15,7 @@
 
 	const genericPlottable: PlottablePricePoint[] = $derived(
 		rawGenericPrices.map((d) => ({ ...d, date: new Date(d.date) })) as PlottablePricePoint[]
-	);
-
-	const brandPlottable: PlottablePricePoint[] = $derived(
+	);AverageGenericPriceandPlottable: PlottablePricePoint[] = $derived(
 		rawBrandPrices.map((d) => ({ ...d, date: new Date(d.date) })) as PlottablePricePoint[]
 	);
 

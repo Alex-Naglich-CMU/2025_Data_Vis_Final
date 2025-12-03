@@ -1,41 +1,10 @@
 <script lang="ts">
 	import * as d3 from 'd3';
-
-	// TYPE DEFINITIONS
-	interface PriceDataPoint {
-		ndc: string;
-		date: string;
-		price: number;
-		drugName: string;
-		rxcui: string;
-		isBrand: boolean;
-	}
-
-	interface DrugData {
-		rxcui: string;
-		friendlyName: string;
-		fullName: string;
-		isBrand: boolean;
-		brandRxcui: string | null;
-		genericRxcui: string | null;
-		prices: PriceDataPoint[];
-	}
-
-	interface ChartPoint {
-		date: Date;
-		price: number;
-	}
-
-	interface TooltipData {
-		date: Date;
-		brandPrice?: number;
-		genericPrice?: number;
-		savings?: number;
-		savingsPercent?: number;
-	}
+	import type { DrugAllData, ChartPoint, TooltipData } from '../scripts/drug-types';
+	import { isDarkMode } from '$lib/stores/theme';
 
 	// PROPS
-	const { drugsData = [] }: { drugsData: DrugData[] } = $props();
+	const { drugsData = [] }: { drugsData: DrugAllData[] } = $props();
 
 	// STATE
 	// sets default drug to "lantus" in dropdown
@@ -88,7 +57,7 @@
 	});
 
 	// helper function to calculate average price per date
-	function calculateChartData(drug: DrugData | null): ChartPoint[] {
+	function calculateChartData(drug: DrugAllData | null): ChartPoint[] {
 		if (!drug || !drug.prices) return [];
 
 		const dateMap: { [date: string]: number[] } = {};
@@ -444,9 +413,10 @@
 		<svg
 			{width}
 			{height}
-			on:mousemove={handleMouseMove}
-			on:mouseleave={handleMouseLeave}
+			onmousemove={handleMouseMove}
+			onmouseleave={handleMouseLeave}
 			style="cursor: crosshair;"
+			role="img"
 		>
 			<!-- brand line (RED) -->
 			{#if brandLinePath}
@@ -541,9 +511,10 @@
 		<svg
 			width={smallWidth}
 			height={smallHeight}
-			on:mousemove={handleBrandMouseMove}
-			on:mouseleave={handleBrandMouseLeave}
+			onmousemove={handleBrandMouseMove}
+			onmouseleave={handleBrandMouseLeave}
 			style="cursor: crosshair;"
+			role="img"
 		>
 			<!-- brand line (RED) -->
 			{#if smallBrandLinePath}
@@ -595,9 +566,10 @@
 		<svg
 			width={smallWidth}
 			height={smallHeight}
-			on:mousemove={handleGenericMouseMove}
-			on:mouseleave={handleGenericMouseLeave}
+			onmousemove={handleGenericMouseMove}
+			onmouseleave={handleGenericMouseLeave}
 			style="cursor: crosshair;"
+			role="img"
 		>
 			<!-- generic line (BLUE) -->
 			{#if smallGenericLinePath}
@@ -730,7 +702,7 @@
 		font-family: Antonio;
 	}
 
-	h1 {
+	/* h1 {
 		font-size: 96px;
 		font-weight: bold;
 	}
@@ -745,7 +717,7 @@
 		font-size: 32px;
 		font-weight: 700;
 		text-transform: uppercase;
-	}
+	} */
 
 	h4,
 	.dropdown-label {
@@ -755,23 +727,23 @@
 		text-transform: uppercase;
 		margin-bottom: 20px;
 	}
-
+	/* 
 	h5 {
 		font-family: fustat;
 		font-size: 20px;
 		font-weight: normal;
 		text-transform: uppercase;
-	}
+	} */
 
 	p {
 		font-family: fustat;
 		font-size: 16px;
 		font-weight: normal;
 	}
-
+	/* 
 	.controls h3 {
 		margin-top: 0;
-	}
+	} */
 
 	.controls select {
 		width: 100%;
@@ -779,6 +751,19 @@
 		padding: 0.5rem;
 		font-size: 16px;
 		margin: 10px 0;
+	}
+
+	/* Dark mode support for select */
+	@media (prefers-color-scheme: dark) {
+		.controls select {
+			background-color: #2a2a2a;
+			color: #fff;
+			border-color: #444;
+		}
+
+		svg text {
+			fill: #fff;
+		}
 	}
 
 	.combined-graphic-area {

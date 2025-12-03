@@ -4,28 +4,9 @@
 	import { onMount } from 'svelte';
 	import TimeSeriesComparison from '$lib/components/Time-Series-Comparison.svelte';
 	import Headlines from '$lib/components/Headlines.svelte';
-    import InsulinComparison from '$lib/components/InsulinComparison.svelte';
-
-
-	// Type definitions
-	interface PriceDataPoint {
-		ndc: string;
-		date: string;
-		price: number;
-		drugName: string;
-		rxcui: string;
-		isBrand: boolean;
-	}
-
-	interface DrugData {
-		rxcui: string;
-		friendlyName: string;
-		fullName: string;
-		isBrand: boolean;
-		brandRxcui: string | null;
-		genericRxcui: string | null;
-		prices: PriceDataPoint[];
-	}
+	import InsulinComparison from '$lib/components/InsulinComparison.svelte';
+	import type { DrugAllData, SinglePriceDataPoint } from '$lib/scripts/drug-types';
+	import { isDarkMode } from '$lib/stores/theme';
 
 	const drugSearchTerms: Record<string, string> = {
 		'617320': 'lipitor', // brand - LIPITOR 40 MG TABLET
@@ -59,22 +40,24 @@
 		'205324': 'modafinil' // generic - MODAFINIL 200 MG TABLET
 	};
 
-	let drugsData = $state<DrugData[]>([]);
+	let drugsData = $state<DrugAllData[]>([]);
 	let loading = $state<boolean>(true);
 	let error = $state<string | null>(null);
 
 	onMount(async () => {
+		isDarkMode.init();
+
 		try {
 			// load each drug file directly by RxCUI
 			const rxcuis = Object.keys(drugSearchTerms);
 
-			const loadPromises = rxcuis.map(async (rxcui): Promise<DrugData | null> => {
+			const loadPromises = rxcuis.map(async (rxcui): Promise<DrugAllData | null> => {
 				try {
 					const response = await fetch(`/data/prices/${rxcui}.json`);
 					const data = await response.json();
 
 					// convert nested prices into a flat array
-					const pricesArray: PriceDataPoint[] = [];
+					const pricesArray: SinglePriceDataPoint[] = [];
 
 					for (const [ndc, dates] of Object.entries(data.prices)) {
 						for (const [date, price] of Object.entries(dates as Record<string, number>)) {
@@ -108,7 +91,7 @@
 			});
 
 			const results = await Promise.all(loadPromises);
-			drugsData = results.filter((drug): drug is DrugData => drug !== null);
+			drugsData = results.filter((drug): drug is DrugAllData => drug !== null);
 			loading = false;
 
 			console.log('Loaded drugs:', $state.snapshot(drugsData));
@@ -128,9 +111,9 @@
 		<h2>The state of drug pricing in America</h2>
 	</div>
 	<div class="pillsImages">
-		<img class="pillpics" src={asset('/images/pill01.png')} alt="red pill illustration" />
-		<img class="pillpics" src={asset('/images/pill02.png')} alt="blue pill illustration" />
-		<img class="pillpics" src={asset('/images/pill03.png')} alt="tan pill illustration" />
+		<img class="pillpics" src={asset('/images/pills/pill01.png')} alt="red pill illustration" />
+		<img class="pillpics" src={asset('/images/pills/pill02.png')} alt="blue pill illustration" />
+		<img class="pillpics" src={asset('/images/pills/pill03.png')} alt="tan pill illustration" />
 	</div>
 </div>
 
@@ -157,7 +140,6 @@
 
 <h4 class="section-title">Explore recent headlines:</h4>
 <div class="news-holder">
-	
 	<Headlines />
 </div>
 
@@ -168,33 +150,34 @@
 		What's causing drug prices to be so high? Does this public perception reflect the actual price
 		trends?
 	</p>
-    <br />
-    <p>
-        Part of the problem is that information about how drugs are priced or even what they cost is largely hidden to the public. 
-        Also, since the US allows pharmaceutical companies to patent medications when they first go to market, patients have no choice but to pay their high fees. 
-    </p>
-    <br />
-    <p>
-        Then the administrators of prescription drugs have little role in determining the costs their patients pay. 
-        The <a
-            href="https://www.ama-assn.org/about/leadership/unchecked-power-pbm-industry-puts-patients-risk-harm"
-            target="_blank"
-            rel="noopener noreferrer">American Medical Association</a
-        > noted that many patients complain about how they can’t afford their medications. 
-        When the patents expire and generic drugs join the market, those options are usually much more affordable, and are 
-        often even cheaper than they are in other countries.
-    </p>
-    <br />
-    <p>
-        For example, look at insulin: when the brand Lantus had no generic drug competitor in 2018 when there was no generic drug 
-        available, and 2025 after it took the place of the generic option. Of course, the cost of insulin is still very high, 
-        but it decreased significantly.
-    </p>
+	<br />
+	<p>
+		Part of the problem is that information about how drugs are priced or even what they cost is
+		largely hidden to the public. Also, since the US allows pharmaceutical companies to patent
+		medications when they first go to market, patients have no choice but to pay their high fees.
+	</p>
+	<br />
+	<p>
+		Then the administrators of prescription drugs have little role in determining the costs their
+		patients pay. The <a
+			href="https://www.ama-assn.org/about/leadership/unchecked-power-pbm-industry-puts-patients-risk-harm"
+			target="_blank"
+			rel="noopener noreferrer">American Medical Association</a
+		> noted that many patients complain about how they can’t afford their medications. When the patents
+		expire and generic drugs join the market, those options are usually much more affordable, and are
+		often even cheaper than they are in other countries.
+	</p>
+	<br />
+	<p>
+		For example, look at insulin: when the brand Lantus had no generic drug competitor in 2018 when
+		there was no generic drug available, and 2025 after it took the place of the generic option. Of
+		course, the cost of insulin is still very high, but it decreased significantly.
+	</p>
 </div>
 
 <h4 class="section-title">Look at Insulin Lantus ↓</h4>
 {#if !loading && !error && drugsData.length > 0}
-    <InsulinComparison {drugsData} />
+	<InsulinComparison {drugsData} />
 {/if}
 
 <div class="chart-intro">
@@ -227,7 +210,6 @@
 	<TimeSeriesComparison {drugsData} />
 {/if}
 
-
 <style>
 	* {
 		font-family: Antonio;
@@ -255,13 +237,13 @@
 		font-weight: 700;
 		text-transform: uppercase;
 	}
-
+	/* 
 	h5 {
 		font-family: fustat;
 		font-size: 20px;
 		font-weight: normal;
 		text-transform: uppercase;
-	}
+	} */
 
 	p {
 		font-family: fustat;
@@ -323,7 +305,7 @@
 
 	.section-title {
 		margin-bottom: 20px;
-        margin-left: 40px;
+		margin-left: 40px;
 	}
 
 	.intro-holder {
