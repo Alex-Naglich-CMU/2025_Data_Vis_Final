@@ -8,39 +8,13 @@
 	import type { DrugAllData, SinglePriceDataPoint } from '$lib/scripts/drug-types';
 	import { isDarkMode } from '$lib/stores/theme';
 
-	const drugSearchTerms: Record<string, string> = {
-		'617320': 'lipitor', // brand - LIPITOR 40 MG TABLET
-		'617311': 'atorvastatin', // generic - ATORVASTATIN 40 MG TABLET
-
-		'861008': 'glucophage', // brand - GLUCOPHAGE 500 MG TABLET
-		'861007': 'metformin', // generic - METFORMIN HCL 500 MG TABLET
-
-		'854832': 'vyvanse', // brand - VYVANSE 20 MG CAPSULE
-		'854830': 'lisdexamfetamine', // generic - LISDEXAMFETAMINE 20 MG CAPSULE
-
-		'104849': 'prozac', // brand - PROZAC 20 MG PULVULE
-		'310385': 'fluoxetine', // generic - FLUOXETINE HCL 20 MG CAPSULE
-
-		'212549': 'norvasc', // brand - NORVASC 5 MG TABLET
-		'197361': 'amlodipine', // generic - AMLODIPINE BESYLATE 5 MG TAB
-
-		'208161': 'zoloft', // brand - ZOLOFT 50 MG TABLET
-		'312941': 'sertraline', // generic - SERTRALINE HCL 50 MG TABLET
-
-		'352272': 'lexapro', // brand - LEXAPRO 10 MG TABLET
-		'349332': 'escitalopram', // generic - ESCITALOPRAM 10 MG TABLET
-
-		'607020': 'lyrica', // brand - LYRICA 150 MG CAPSULE
-		'483440': 'pregabalin', // generic - PREGABALIN 150 MG CAPSULE
-
+	// Only load data for InsulinComparison component
+	const insulinDrugSearchTerms: Record<string, string> = {
 		'285018': 'lantus', // brand - LANTUS 100 UNIT/ML VIAL
-		'311041': 'insulin glargine', // generic - INSULIN GLARGINE 100 UNIT/ML VIAL
-
-		'213471': 'provigil', // brand - PROVIGIL 200 MG TABLET
-		'205324': 'modafinil' // generic - MODAFINIL 200 MG TABLET
+		'311041': 'insulin glargine' // generic - INSULIN GLARGINE 100 UNIT/ML VIAL
 	};
 
-	let drugsData = $state<DrugAllData[]>([]);
+	let insulinDrugsData = $state<DrugAllData[]>([]);
 	let loading = $state<boolean>(true);
 	let error = $state<string | null>(null);
 
@@ -54,15 +28,13 @@
 		}
 
 		try {
-			// load each drug file directly by RxCUI
-			const rxcuis = Object.keys(drugSearchTerms);
+			const rxcuis = Object.keys(insulinDrugSearchTerms);
 
 			const loadPromises = rxcuis.map(async (rxcui): Promise<DrugAllData | null> => {
 				try {
-					const response = await fetch(`/data/prices/${rxcui}.json`);
-					const data = await response.json();
+					const priceModule = await import(`$lib/data/prices/${rxcui}.json`);
+					const data = priceModule.default;
 
-					// convert nested prices into a flat array
 					const pricesArray: SinglePriceDataPoint[] = [];
 
 					for (const [ndc, dates] of Object.entries(data.prices)) {
@@ -70,7 +42,7 @@
 							pricesArray.push({
 								ndc,
 								date,
-								price: price * 30, // montly supply instead of per pill to align with how user purchases
+								price: price * 30,
 								drugName: data.Name,
 								rxcui: data.RxCUI,
 								isBrand: data.IsBrand
@@ -78,12 +50,11 @@
 						}
 					}
 
-					// sort by date
 					pricesArray.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
 					return {
 						rxcui: data.RxCUI,
-						friendlyName: drugSearchTerms[rxcui],
+						friendlyName: insulinDrugSearchTerms[rxcui],
 						fullName: data.Name,
 						isBrand: data.IsBrand,
 						brandRxcui: data.Brand_RxCUI,
@@ -91,16 +62,14 @@
 						prices: pricesArray
 					};
 				} catch (err) {
-					console.warn(`Failed to load drug ${rxcui} (${drugSearchTerms[rxcui]}):`, err);
+					console.warn(`Failed to load drug ${rxcui} (${insulinDrugSearchTerms[rxcui]}):`, err);
 					return null;
 				}
 			});
 
 			const results = await Promise.all(loadPromises);
-			drugsData = results.filter((drug): drug is DrugAllData => drug !== null);
+			insulinDrugsData = results.filter((drug): drug is DrugAllData => drug !== null);
 			loading = false;
-
-			console.log('Loaded drugs:', $state.snapshot(drugsData));
 		} catch (err) {
 			error = err instanceof Error ? err.message : 'Unknown error';
 			loading = false;
@@ -182,8 +151,8 @@
 </div>
 
 <h4 class="section-title">Look at Insulin Lantus ↓</h4>
-{#if !loading && !error && drugsData.length > 0}
-	<InsulinComparison {drugsData} />
+{#if !loading && !error && insulinDrugsData.length > 0}
+	<InsulinComparison drugsData={insulinDrugsData} />
 {/if}
 
 <div class="chart-intro">
@@ -202,19 +171,7 @@
 	</p>
 </div>
 
-{#if loading}
-	<div class="loading">
-		<p>Loading drug data...</p>
-	</div>
-{:else if error}
-	<div class="error">
-		<p>Error loading data: {error}</p>
-	</div>
-{/if}
-
-{#if !loading && !error && drugsData.length > 0}
-	<TimeSeriesComparison {drugsData} />
-{/if}
+<TimeSeriesComparison />
 
 <style>
 	* {
@@ -296,17 +253,6 @@
 
 	.pillpics {
 		position: absolute;
-	}
-
-	.loading,
-	.error {
-		padding: 2rem;
-		text-align: center;
-		font-family: fustat;
-	}
-
-	.error {
-		color: red;
 	}
 
 	.section-title {

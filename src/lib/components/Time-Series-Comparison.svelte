@@ -1,19 +1,50 @@
 <script lang="ts">
 	import * as d3 from 'd3';
-	import type { DrugAllData, ChartPoint } from '../scripts/drug-types';
+	import type { DrugAllData, ChartPoint, SinglePriceDataPoint } from '../scripts/drug-types';
 	import { getChartPoints } from '../scripts/helper-functions';
 	import { isDarkMode } from '$lib/stores/theme';
+	import { onMount } from 'svelte';
 
 	// ================================================================================================
 	// PROPS & STATE
 	// ================================================================================================
-	const { drugsData = [] }: { drugsData: DrugAllData[] } = $props();
+	const drugSearchTerms: Record<string, string> = {
+		'617320': 'lipitor', // brand - LIPITOR 40 MG TABLET
+		'617311': 'atorvastatin', // generic - ATORVASTATIN 40 MG TABLET
 
-	let selectedDrugIndex = $state<number>(
-		drugsData.findIndex((d) => d.friendlyName.toLowerCase().includes('vyvanse')) !== -1
-			? drugsData.findIndex((d) => d.friendlyName.toLowerCase().includes('vyvanse'))
-			: 0
-	);
+		'861008': 'glucophage', // brand - GLUCOPHAGE 500 MG TABLET
+		'861007': 'metformin', // generic - METFORMIN HCL 500 MG TABLET
+
+		'854832': 'vyvanse', // brand - VYVANSE 20 MG CAPSULE
+		'854830': 'lisdexamfetamine', // generic - LISDEXAMFETAMINE 20 MG CAPSULE
+
+		'104849': 'prozac', // brand - PROZAC 20 MG PULVULE
+		'310385': 'fluoxetine', // generic - FLUOXETINE HCL 20 MG CAPSULE
+
+		'212549': 'norvasc', // brand - NORVASC 5 MG TABLET
+		'197361': 'amlodipine', // generic - AMLODIPINE BESYLATE 5 MG TAB
+
+		'208161': 'zoloft', // brand - ZOLOFT 50 MG TABLET
+		'312941': 'sertraline', // generic - SERTRALINE HCL 50 MG TABLET
+
+		'352272': 'lexapro', // brand - LEXAPRO 10 MG TABLET
+		'349332': 'escitalopram', // generic - ESCITALOPRAM 10 MG TABLET
+
+		'607020': 'lyrica', // brand - LYRICA 150 MG CAPSULE
+		'483440': 'pregabalin', // generic - PREGABALIN 150 MG CAPSULE
+
+		'285018': 'lantus', // brand - LANTUS 100 UNIT/ML VIAL
+		'311041': 'insulin glargine', // generic - INSULIN GLARGINE 100 UNIT/ML VIAL
+
+		'213471': 'provigil', // brand - PROVIGIL 200 MG TABLET
+		'205324': 'modafinil' // generic - MODAFINIL 200 MG TABLET
+	};
+
+	let drugsData = $state<DrugAllData[]>([]);
+	let loading = $state<boolean>(true);
+	let error = $state<string | null>(null);
+
+	let selectedDrugIndex = $state<number>(0);
 
 	let tooltipData = $state<{ date: Date; brandPrice?: number; genericPrice?: number } | null>(null);
 	let cursorX = $state(0);
@@ -30,6 +61,80 @@
 	const margin = { top: 40, right: 40, bottom: 60, left: 80 };
 	const smallWidth = $derived(availableWidth * 0.4); // Slightly less to account for sidebar padding
 	const smallHeight = $derived(smallWidth * 0.5);
+
+	// ================================================================================================
+	// DATA LOADING
+	// ================================================================================================
+	onMount(async () => {
+		try {
+			const rxcuis = Object.keys(drugSearchTerms);
+
+			// Load price files using Vite glob import
+			const priceFiles = import.meta.glob('$lib/data/prices/*.json');
+
+			const loadPromises = rxcuis.map(async (rxcui): Promise<DrugAllData | null> => {
+				try {
+					const filePath = `/src/lib/data/prices/${rxcui}.json`;
+					// THIS IS A LOOKUP - NO LOAD HAPPENS YET
+					const loader = priceFiles[filePath];
+
+					if (!loader) {
+						console.warn(`Price file not found for ${rxcui} (${drugSearchTerms[rxcui]})`);
+						return null;
+					}
+
+					// THIS IS WHERE THE LOAD ACTUALLY HAPPENS!
+					const priceModule = (await loader()) as any;
+					const data = priceModule.default; // Default is where the imported data lives
+
+					const pricesArray: SinglePriceDataPoint[] = [];
+
+					for (const [ndc, dates] of Object.entries(data.prices)) {
+						for (const [date, price] of Object.entries(dates as Record<string, number>)) {
+							pricesArray.push({
+								ndc,
+								date,
+								price: price * 30,
+								drugName: data.Name,
+								rxcui: data.RxCUI,
+								isBrand: data.IsBrand
+							});
+						}
+					}
+
+					pricesArray.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+
+					return {
+						rxcui: data.RxCUI,
+						friendlyName: drugSearchTerms[rxcui],
+						fullName: data.Name,
+						isBrand: data.IsBrand,
+						brandRxcui: data.Brand_RxCUI,
+						genericRxcui: data.Generic_RxCUI,
+						prices: pricesArray
+					};
+				} catch (err) {
+					console.warn(`Failed to load drug ${rxcui} (${drugSearchTerms[rxcui]}):`, err);
+					return null;
+				}
+			});
+
+			const results = await Promise.all(loadPromises);
+			drugsData = results.filter((drug): drug is DrugAllData => drug !== null);
+
+			// Set initial selected drug to vyvanse if available
+			const vyvanseIndex = drugsData.findIndex((d) =>
+				d.friendlyName.toLowerCase().includes('vyvanse')
+			);
+			selectedDrugIndex = vyvanseIndex !== -1 ? vyvanseIndex : 0;
+
+			loading = false;
+		} catch (err) {
+			error = err instanceof Error ? err.message : 'Unknown error';
+			loading = false;
+			console.error('Error loading drug data:', err);
+		}
+	});
 
 	// ================================================================================================
 	// DATA PROCESSING
@@ -226,153 +331,163 @@
 </script>
 
 <!---------------------------------- CONTENT AREA ---------------------------------->
-<div class="text-center text-5xl">How much cheaper are generics?</div>
-<div class="width-tracker" bind:clientWidth={containerWidth}>
-	<div class="content-wrapper">
-		<!---------------------------------- MAIN CHART ---------------------------------->
-		<div class="chart-wrapper relative">
-			<div
-				class="absolute z-10 w-full text-center text-3xl"
-				style="font-family: Calibri, sans-serif; color: {colors.red};"
-			>
-				{brandDrug ? brandDrug.friendlyName.toUpperCase() : 'Brand'}
-			</div>
-			<svg {width} {height} role="img" bind:this={mainSvgRef}>
-				<defs>
-					<clipPath id="main-plot-clip">
-						<rect
-							x={margin.left}
-							y={margin.top}
-							width={width - margin.left - margin.right}
-							height={height - margin.top - margin.bottom}
-						/>
-					</clipPath>
-				</defs>
-
-				<g clip-path="url(#main-plot-clip)">
-					{@render chartLine(brandLinePath, colors.red)}
-					{@render chartLine(genericLinePath, colors.blue)}
-					{@render dataPoints(brandChartData, xScale, yScale, colors.red)}
-					{@render dataPoints(genericChartData, xScale, yScale, colors.blue)}
-					{@render monthlyHoverZones(
-						allDataPoints,
-						xScale,
-						margin,
-						height,
-						width,
-						(monthDate) => {
-							const brandPrice = findPriceForMonth(brandChartData, monthDate);
-							const genericPrice = findPriceForMonth(genericChartData, monthDate);
-							if (brandPrice !== undefined || genericPrice !== undefined) {
-								tooltipData = { date: monthDate, brandPrice, genericPrice };
-							}
-						},
-						() => {
-							tooltipData = null;
-						}
-					)}
-				</g>
-
-				<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}
-				></g>
-				<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
-				{@render axisLabels(width, height)}
-			</svg>
-			<span class="text-center text-sm text-gray-500">
-				Left click to drag, mouse wheel to zoom, mouseover for tooltip</span
-			>
-		</div>
-
-		<!---------------------------------- SIDE BAR ---------------------------------->
-		<div class="side-bar">
-			<div class="controls mb-6">
-				<div class="flex items-center justify-between">
-					<label for="drug-select" class="text-xl">Select Drug:</label>
-					<span class="text-sm text-gray-500"> * For a 30 day supply</span>
+{#if loading}
+	<div class="loading">
+		<p>Loading drug data...</p>
+	</div>
+{:else if error}
+	<div class="error">
+		<p>Error loading data: {error}</p>
+	</div>
+{:else}
+	<div class="text-center text-5xl">How much cheaper are generics?</div>
+	<div class="width-tracker" bind:clientWidth={containerWidth}>
+		<div class="content-wrapper">
+			<!---------------------------------- MAIN CHART ---------------------------------->
+			<div class="chart-wrapper relative">
+				<div
+					class="absolute z-10 w-full text-center text-3xl"
+					style="font-family: Calibri, sans-serif; color: {colors.red};"
+				>
+					{brandDrug ? brandDrug.friendlyName.toUpperCase() : 'Brand'}
 				</div>
-				<ul class="drug-list" role="listbox">
-					{#each drugsData
-						.map((drug, i) => ({ drug, i }))
-						.filter(({ drug }) => drug.isBrand)
-						.sort((a, b) => a.drug.friendlyName.localeCompare(b.drug.friendlyName)) as { drug, i }}
-						<li
-							class="drug-list-item"
-							class:selected={i === selectedDrugIndex}
-							onclick={() => (selectedDrugIndex = i)}
-							onkeydown={(e) => {
-								if (e.key === 'Enter' || e.key === ' ') selectedDrugIndex = i;
-							}}
-							role="option"
-							aria-selected={i === selectedDrugIndex}
-							tabindex="0"
-						>
-							{drug.friendlyName.toUpperCase()}
-						</li>
-					{/each}
-				</ul>
+				<svg {width} {height} role="img" bind:this={mainSvgRef}>
+					<defs>
+						<clipPath id="main-plot-clip">
+							<rect
+								x={margin.left}
+								y={margin.top}
+								width={width - margin.left - margin.right}
+								height={height - margin.top - margin.bottom}
+							/>
+						</clipPath>
+					</defs>
+
+					<g clip-path="url(#main-plot-clip)">
+						{@render chartLine(brandLinePath, colors.red)}
+						{@render chartLine(genericLinePath, colors.blue)}
+						{@render dataPoints(brandChartData, xScale, yScale, colors.red)}
+						{@render dataPoints(genericChartData, xScale, yScale, colors.blue)}
+						{@render monthlyHoverZones(
+							allDataPoints,
+							xScale,
+							margin,
+							height,
+							width,
+							(monthDate) => {
+								const brandPrice = findPriceForMonth(brandChartData, monthDate);
+								const genericPrice = findPriceForMonth(genericChartData, monthDate);
+								if (brandPrice !== undefined || genericPrice !== undefined) {
+									tooltipData = { date: monthDate, brandPrice, genericPrice };
+								}
+							},
+							() => {
+								tooltipData = null;
+							}
+						)}
+					</g>
+
+					<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}
+					></g>
+					<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
+					{@render axisLabels(width, height)}
+				</svg>
+				<span class="text-center text-sm text-gray-500">
+					Left click to drag, mouse wheel to zoom, mouseover for tooltip</span
+				>
 			</div>
 
-			<!---------------------------------- GENERIC CHART ---------------------------------->
-			<div class="individual-charts-container">
-				<div class="small-chart-wrapper relative">
-					<div
-						class="absolute -top-10 z-10 w-full text-center text-3xl"
-						style="font-family: Calibri, sans-serif; color: {colors.blue};"
-					>
-						<div>Generic:</div>
-						<div>{genericDrug ? genericDrug.friendlyName.toUpperCase() : ''}</div>
+			<!---------------------------------- SIDE BAR ---------------------------------->
+			<div class="side-bar">
+				<div class="controls mb-6">
+					<div class="flex items-center justify-between">
+						<label for="drug-select" class="text-xl">Select Drug:</label>
+						<span class="text-sm text-gray-500"> * For a 30 day supply</span>
 					</div>
-					<svg width={smallWidth} height={smallHeight} role="img" bind:this={genericSvgRef}>
-						<!-- Clipping Path Definition -->
-						<defs>
-							<clipPath id="generic-plot-clip">
-								<rect
-									x={margin.left}
-									y={margin.top}
-									width={smallWidth - margin.left - margin.right}
-									height={smallHeight - margin.top - margin.bottom}
-								/>
-							</clipPath>
-						</defs>
+					<ul class="drug-list" role="listbox">
+						{#each drugsData
+							.map((drug, i) => ({ drug, i }))
+							.filter(({ drug }) => drug.isBrand)
+							.sort( (a, b) => a.drug.friendlyName.localeCompare(b.drug.friendlyName) ) as { drug, i }}
+							<li
+								class="drug-list-item"
+								class:selected={i === selectedDrugIndex}
+								onclick={() => (selectedDrugIndex = i)}
+								onkeydown={(e) => {
+									if (e.key === 'Enter' || e.key === ' ') selectedDrugIndex = i;
+								}}
+								role="option"
+								aria-selected={i === selectedDrugIndex}
+								tabindex="0"
+							>
+								{drug.friendlyName.toUpperCase()}
+							</li>
+						{/each}
+					</ul>
+				</div>
 
-						<!-- Data Drawing Elements with clipping -->
-						<g clip-path="url(#generic-plot-clip)">
-							{@render chartLine(smallGenericLinePath, colors.blue)}
-							{@render dataPoints(genericChartData, genericXScale, genericYScale, colors.blue)}
-							{@render monthlyHoverZones(
-								genericChartData,
-								genericXScale,
-								margin,
-								smallHeight,
-								smallWidth,
-								(monthDate) => {
-									const price = findPriceForMonth(genericChartData, monthDate);
-									if (price !== undefined) {
-										tooltipData = { date: monthDate, genericPrice: price };
+				<!---------------------------------- GENERIC CHART ---------------------------------->
+				<div class="individual-charts-container">
+					<div class="small-chart-wrapper relative">
+						<div
+							class="absolute -top-10 z-10 w-full text-center text-3xl"
+							style="font-family: Calibri, sans-serif; color: {colors.blue};"
+						>
+							<div>Generic:</div>
+							<div>{genericDrug ? genericDrug.friendlyName.toUpperCase() : ''}</div>
+						</div>
+						<svg width={smallWidth} height={smallHeight} role="img" bind:this={genericSvgRef}>
+							<!-- Clipping Path Definition -->
+							<defs>
+								<clipPath id="generic-plot-clip">
+									<rect
+										x={margin.left}
+										y={margin.top}
+										width={smallWidth - margin.left - margin.right}
+										height={smallHeight - margin.top - margin.bottom}
+									/>
+								</clipPath>
+							</defs>
+
+							<!-- Data Drawing Elements with clipping -->
+							<g clip-path="url(#generic-plot-clip)">
+								{@render chartLine(smallGenericLinePath, colors.blue)}
+								{@render dataPoints(genericChartData, genericXScale, genericYScale, colors.blue)}
+								{@render monthlyHoverZones(
+									genericChartData,
+									genericXScale,
+									margin,
+									smallHeight,
+									smallWidth,
+									(monthDate) => {
+										const price = findPriceForMonth(genericChartData, monthDate);
+										if (price !== undefined) {
+											tooltipData = { date: monthDate, genericPrice: price };
+										}
+									},
+									() => {
+										tooltipData = null;
 									}
-								},
-								() => {
-									tooltipData = null;
-								}
-							)}
-						</g>
+								)}
+							</g>
 
-						<!-- Axes -->
-						<g
-							class="x-axis"
-							transform="translate(0,{smallHeight - margin.bottom})"
-							bind:this={genericXAxisRef}
-						></g>
-						<g class="y-axis" transform="translate({margin.left},0)" bind:this={genericYAxisRef}
-						></g>
+							<!-- Axes -->
+							<g
+								class="x-axis"
+								transform="translate(0,{smallHeight - margin.bottom})"
+								bind:this={genericXAxisRef}
+							></g>
+							<g class="y-axis" transform="translate({margin.left},0)" bind:this={genericYAxisRef}
+							></g>
 
-						{@render axisLabels(smallWidth, smallHeight)}
-					</svg>
+							{@render axisLabels(smallWidth, smallHeight)}
+						</svg>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+{/if}
 <!---------------------------------- TOOLTIP ---------------------------------->
 {#if tooltipData}
 	{@const dateStr = tooltipData.date.toLocaleDateString('en-US', {
@@ -514,7 +629,7 @@
 				x2={xMid}
 				y1={margin.top}
 				y2={height - margin.bottom}
-				stroke="{$isDarkMode ? '#ddd' : '#222'}"
+				stroke={$isDarkMode ? '#ddd' : '#222'}
 				stroke-width="2"
 				opacity={isActive ? 0.3 : 0}
 				style="pointer-events: none;"
@@ -526,6 +641,17 @@
 <style>
 	* {
 		font-family: Antonio;
+	}
+
+	.loading,
+	.error {
+		padding: 2rem;
+		text-align: center;
+		font-family: fustat;
+	}
+
+	.error {
+		color: red;
 	}
 
 	/* p {
