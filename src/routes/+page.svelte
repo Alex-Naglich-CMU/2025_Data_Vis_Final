@@ -3,7 +3,7 @@
 	import { asset } from '$app/paths';
 	import { onMount } from 'svelte';
 	import TimeSeriesComparison from '$lib/components/Time-Series-Comparison.svelte';
-	import BackgroundInfo from '$lib/components/Background-Info.svelte';
+	import Headlines from '$lib/components/Headlines.svelte';
     import InsulinComparison from '$lib/components/InsulinComparison.svelte';
 
 
@@ -158,7 +158,7 @@
 <h4 class="section-title">Explore recent headlines:</h4>
 <div class="news-holder">
 	
-	<BackgroundInfo />
+	<Headlines />
 </div>
 
 <div class="insulin-graphic-intro">

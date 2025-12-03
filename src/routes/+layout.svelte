@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import RXIcon from '$lib/assets/RXIcon.jpg';
 	import Nav from '$lib/components/nav.svelte';
 
 	let { children } = $props();
@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href={RXIcon} />
 </svelte:head>
 <Nav />
 <div class="container">
