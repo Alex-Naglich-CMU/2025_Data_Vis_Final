@@ -51,6 +51,7 @@
 	let tooltipData = $state<{ date: Date; prices: Map<string, number> } | null>(null);
 	let cursorX = $state(0);
 	let cursorY = $state(0);
+	let animationprogress = $state(0);
 
 	// ================================================================================================
 	// LAYOUT CONSTANTS
