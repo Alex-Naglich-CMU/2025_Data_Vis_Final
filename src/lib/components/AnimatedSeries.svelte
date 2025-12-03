@@ -80,13 +80,9 @@
 	onMount(async () => {
 		try {
 			drugsData = await loadDrugData(drugSearchTerms);
-
-			// Set initial selection to vyvanse if available
-			const vyvanseIndex = drugsData.findIndex((d) =>
-				d.friendlyName.toLowerCase().includes('vyvanse')
-			);
-			if (vyvanseIndex !== -1) {
-				selectedDrugIndices.add(vyvanseIndex);
+			// Add half of the drug pairs to selection by default
+			for (let i = 0; i < Math.ceil(drugsData.length / 2); i++) {
+				selectedDrugIndices.add(i);
 			}
 
 			loading = false;
