@@ -173,13 +173,19 @@
 		createLinePath(genericChartData, genericXScale, genericYScale)
 	);
 
-	// SVG refs
-	let mainSvgRef: SVGSVGElement;
-	let genericSvgRef: SVGSVGElement;
-	let xAxisRef: SVGGElement;
-	let yAxisRef: SVGGElement;
-	let genericXAxisRef: SVGGElement;
-	let genericYAxisRef: SVGGElement;
+	// SVG refs - had to disable non_reactive_update warnings for false positives
+	// svelte-ignore non_reactive_update
+		let mainSvgRef: SVGSVGElement;
+	// svelte-ignore non_reactive_update
+		let genericSvgRef: SVGSVGElement;
+	// svelte-ignore non_reactive_update
+		let xAxisRef: SVGGElement;
+	// svelte-ignore non_reactive_update
+		let yAxisRef: SVGGElement;
+	// svelte-ignore non_reactive_update
+		let genericXAxisRef: SVGGElement;
+	// svelte-ignore non_reactive_update
+		let genericYAxisRef: SVGGElement;
 
 	// ================================================================================================
 	// EFFECTS - AXES RENDERING
