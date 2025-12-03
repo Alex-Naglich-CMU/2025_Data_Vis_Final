@@ -17,7 +17,7 @@ export interface DrugAllData {
 	prices: SinglePriceDataPoint[];
 }
 
-// TYPE DEFINITIONS
+// Individual price point with metadata
 export interface SinglePriceDataPoint {
 	ndc: string;
 	date: string;
@@ -27,38 +27,8 @@ export interface SinglePriceDataPoint {
 	isBrand: boolean;
 }
 
-// Chart point with Date object (used in visualizations)
+// Chart point with Date object (used in D3 visualizations)
 export interface ChartPoint {
 	date: Date;
 	price: number;
 }
-
-// Tooltip data for price comparisons
-export interface TooltipData {
-	date: Date;
-	brandPrice?: number;
-	genericPrice?: number;
-	savings?: number;
-	savingsPercent?: number;
-}
-
-export interface AverageGenericPrice {
-	date: string;
-	averagePrice: number;
-	count: number;
-}
-
-// export interface PlottablePricePoint {
-// 	ndc: string;
-// 	date: Date;
-// 	price: number;
-// 	drugName: string;
-// 	rxcui: string;
-// 	isBrand: boolean;
-// }
-
-// export interface PlottableAveragePrice {
-// 	date: Date;
-// 	averagePrice: number;
-// 	count: number;
-// }
