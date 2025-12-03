@@ -1,7 +1,8 @@
 <script lang="ts">
 	import * as d3 from 'd3';
-	import type { DrugAllData, ChartPoint, SinglePriceDataPoint } from '../scripts/drug-types';
-	import { getChartPoints } from '../scripts/helper-functions';
+	import type { DrugAllData, ChartPoint} from '$lib/scripts/types';
+	import { getChartPoints } from '$lib/scripts/helper-functions';
+	import { loadDrugData } from '$lib/scripts/drug-data-loader';
 	import { isDarkMode } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
 
@@ -67,60 +68,7 @@
 	// ================================================================================================
 	onMount(async () => {
 		try {
-			const rxcuis = Object.keys(drugSearchTerms);
-
-			// Load price files using Vite glob import
-			const priceFiles = import.meta.glob('$lib/data/prices/*.json');
-
-			const loadPromises = rxcuis.map(async (rxcui): Promise<DrugAllData | null> => {
-				try {
-					const filePath = `/src/lib/data/prices/${rxcui}.json`;
-					// THIS IS A LOOKUP - NO LOAD HAPPENS YET
-					const loader = priceFiles[filePath];
-
-					if (!loader) {
-						console.warn(`Price file not found for ${rxcui} (${drugSearchTerms[rxcui]})`);
-						return null;
-					}
-
-					// THIS IS WHERE THE LOAD ACTUALLY HAPPENS!
-					const priceModule = (await loader()) as any;
-					const data = priceModule.default; // Default is where the imported data lives
-
-					const pricesArray: SinglePriceDataPoint[] = [];
-
-					for (const [ndc, dates] of Object.entries(data.prices)) {
-						for (const [date, price] of Object.entries(dates as Record<string, number>)) {
-							pricesArray.push({
-								ndc,
-								date,
-								price: price * 30,
-								drugName: data.Name,
-								rxcui: data.RxCUI,
-								isBrand: data.IsBrand
-							});
-						}
-					}
-
-					pricesArray.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-
-					return {
-						rxcui: data.RxCUI,
-						friendlyName: drugSearchTerms[rxcui],
-						fullName: data.Name,
-						isBrand: data.IsBrand,
-						brandRxcui: data.Brand_RxCUI,
-						genericRxcui: data.Generic_RxCUI,
-						prices: pricesArray
-					};
-				} catch (err) {
-					console.warn(`Failed to load drug ${rxcui} (${drugSearchTerms[rxcui]}):`, err);
-					return null;
-				}
-			});
-
-			const results = await Promise.all(loadPromises);
-			drugsData = results.filter((drug): drug is DrugAllData => drug !== null);
+			drugsData = await loadDrugData(drugSearchTerms);
 
 			// Set initial selected drug to vyvanse if available
 			const vyvanseIndex = drugsData.findIndex((d) =>
@@ -175,17 +123,17 @@
 
 	// SVG refs - had to disable non_reactive_update warnings for false positives
 	// svelte-ignore non_reactive_update
-		let mainSvgRef: SVGSVGElement;
+	let mainSvgRef: SVGSVGElement;
 	// svelte-ignore non_reactive_update
-		let genericSvgRef: SVGSVGElement;
+	let genericSvgRef: SVGSVGElement;
 	// svelte-ignore non_reactive_update
-		let xAxisRef: SVGGElement;
+	let xAxisRef: SVGGElement;
 	// svelte-ignore non_reactive_update
-		let yAxisRef: SVGGElement;
+	let yAxisRef: SVGGElement;
 	// svelte-ignore non_reactive_update
-		let genericXAxisRef: SVGGElement;
+	let genericXAxisRef: SVGGElement;
 	// svelte-ignore non_reactive_update
-		let genericYAxisRef: SVGGElement;
+	let genericYAxisRef: SVGGElement;
 
 	// ================================================================================================
 	// EFFECTS - AXES RENDERING

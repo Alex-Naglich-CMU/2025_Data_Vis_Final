@@ -5,75 +5,15 @@
 	import TimeSeriesComparison from '$lib/components/Time-Series-Comparison.svelte';
 	import Headlines from '$lib/components/Headlines.svelte';
 	import InsulinComparison from '$lib/components/InsulinComparison.svelte';
-	import type { DrugAllData, SinglePriceDataPoint } from '$lib/scripts/drug-types';
 	import { isDarkMode } from '$lib/stores/theme';
 
-	// Only load data for InsulinComparison component
-	const insulinDrugSearchTerms: Record<string, string> = {
-		'285018': 'lantus', // brand - LANTUS 100 UNIT/ML VIAL
-		'311041': 'insulin glargine' // generic - INSULIN GLARGINE 100 UNIT/ML VIAL
-	};
-
-	let insulinDrugsData = $state<DrugAllData[]>([]);
-	let loading = $state<boolean>(true);
-	let error = $state<string | null>(null);
-
-	onMount(async () => {
+	onMount(() => {
 		isDarkMode.init();
 
 		// Set initial theme on body
 		if (typeof window !== 'undefined') {
 			const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 			document.body.setAttribute('data-theme', isDark ? 'dark' : 'light');
-		}
-
-		try {
-			const rxcuis = Object.keys(insulinDrugSearchTerms);
-
-			const loadPromises = rxcuis.map(async (rxcui): Promise<DrugAllData | null> => {
-				try {
-					const priceModule = await import(`$lib/data/prices/${rxcui}.json`);
-					const data = priceModule.default;
-
-					const pricesArray: SinglePriceDataPoint[] = [];
-
-					for (const [ndc, dates] of Object.entries(data.prices)) {
-						for (const [date, price] of Object.entries(dates as Record<string, number>)) {
-							pricesArray.push({
-								ndc,
-								date,
-								price: price * 30,
-								drugName: data.Name,
-								rxcui: data.RxCUI,
-								isBrand: data.IsBrand
-							});
-						}
-					}
-
-					pricesArray.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-
-					return {
-						rxcui: data.RxCUI,
-						friendlyName: insulinDrugSearchTerms[rxcui],
-						fullName: data.Name,
-						isBrand: data.IsBrand,
-						brandRxcui: data.Brand_RxCUI,
-						genericRxcui: data.Generic_RxCUI,
-						prices: pricesArray
-					};
-				} catch (err) {
-					console.warn(`Failed to load drug ${rxcui} (${insulinDrugSearchTerms[rxcui]}):`, err);
-					return null;
-				}
-			});
-
-			const results = await Promise.all(loadPromises);
-			insulinDrugsData = results.filter((drug): drug is DrugAllData => drug !== null);
-			loading = false;
-		} catch (err) {
-			error = err instanceof Error ? err.message : 'Unknown error';
-			loading = false;
-			console.error('Error loading drug data:', err);
 		}
 	});
 
@@ -151,9 +91,7 @@
 </div>
 
 <h4 class="section-title">Look at Insulin Lantus ↓</h4>
-{#if !loading && !error && insulinDrugsData.length > 0}
-	<InsulinComparison drugsData={insulinDrugsData} />
-{/if}
+<InsulinComparison />
 
 <div class="chart-intro">
 	<p>

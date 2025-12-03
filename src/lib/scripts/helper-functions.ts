@@ -1,4 +1,4 @@
-import type { DrugAllData, ChartPoint } from '$lib/scripts/drug-types';
+import type { DrugAllData, ChartPoint } from '$lib/scripts/types';
 
 // Get chart-ready data points with averaged prices per date
 // Takes a drug and returns D3-friendly data with Date objects
