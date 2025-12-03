@@ -10,8 +10,8 @@
 	const { drugsData = [] }: { drugsData: DrugAllData[] } = $props();
 
 	let selectedDrugIndex = $state<number>(
-		drugsData.findIndex((d) => d.friendlyName.toLowerCase().includes('lantus')) !== -1
-			? drugsData.findIndex((d) => d.friendlyName.toLowerCase().includes('lantus'))
+		drugsData.findIndex((d) => d.friendlyName.toLowerCase().includes('vyvanse')) !== -1
+			? drugsData.findIndex((d) => d.friendlyName.toLowerCase().includes('vyvanse'))
 			: 0
 	);
 
@@ -287,7 +287,7 @@
 		<div class="side-bar">
 			<div class="controls mb-6">
 				<div class="flex items-center justify-between">
-					<label for="drug-select" class="dropdown-label">Select Drug:</label>
+					<label for="drug-select" class="text-xl">Select Drug:</label>
 					<span class="text-sm text-gray-500"> * For a 30 day supply</span>
 				</div>
 				<ul class="drug-list" role="listbox">
