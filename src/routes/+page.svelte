@@ -47,6 +47,12 @@
 	onMount(async () => {
 		isDarkMode.init();
 
+		// Set initial theme on body
+		if (typeof window !== 'undefined') {
+			const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+			document.body.setAttribute('data-theme', isDark ? 'dark' : 'light');
+		}
+
 		try {
 			// load each drug file directly by RxCUI
 			const rxcuis = Object.keys(drugSearchTerms);

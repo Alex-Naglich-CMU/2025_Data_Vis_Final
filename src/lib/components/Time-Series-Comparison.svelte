@@ -766,6 +766,15 @@
 		}
 	}
 
+	:global(body[data-theme='dark']) .controls select {
+		background-color: #2a2a2a;
+		color: #fff;
+		border-color: #444;
+	}
+
+	:global(body[data-theme='dark']) svg text {
+		fill: #fff;
+	}
 	.combined-graphic-area {
 		display: flex;
 		justify-content: left;

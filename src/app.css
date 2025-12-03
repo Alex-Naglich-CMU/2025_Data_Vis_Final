@@ -16,18 +16,15 @@ body {
 	padding: 0;
 }
 
-/* Light mode (default) */
-@media (prefers-color-scheme: light) {
-	body {
-		background-color: #fcfbf5;
-		color: #000;
-	}
+/* Light mode (default and data-theme="light") */
+body,
+body[data-theme='light'] {
+	background-color: #fcfbf5;
+	color: #000;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: #1a1a1a;
-		color: #fff;
-	}
+/* Dark mode (data-theme="dark") */
+body[data-theme='dark'] {
+	background-color: #1a1a1a;
+	color: #fff;
 }
