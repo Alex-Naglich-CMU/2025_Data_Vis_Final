@@ -2,6 +2,7 @@
 	import * as d3 from 'd3';
 	import type { DrugAllData, ChartPoint } from '../scripts/drug-types';
 	import { getChartPoints } from '../scripts/helper-functions';
+	import { isDarkMode } from '$lib/stores/theme';
 
 	// ================================================================================================
 	// PROPS & STATE
@@ -21,13 +22,14 @@
 	// ================================================================================================
 	// LAYOUT CONSTANTS
 	// ================================================================================================
-	const colors = { red: '#9A2F1F', blue: '#54707C', green: '#3F5339' };
+	const colors = { red: '#C9381A', blue: '#3A7CA5', green: '#2D6A4F' };
 	let containerWidth = $state(0);
-	const width = $derived(containerWidth || 900);
-	const height = $derived(width * 0.67);
-	const margin = { top: 40, right: 40, bottom: 80, left: 80 };
-	const smallWidth = $derived(width * 0.64);
-	const smallHeight = $derived(width * 0.39);
+	const availableWidth = $derived(containerWidth - 40); // Account for content-wrapper padding
+	const width = $derived(availableWidth * 0.6 || 900);
+	const height = $derived(width * 0.6);
+	const margin = { top: 40, right: 40, bottom: 60, left: 80 };
+	const smallWidth = $derived(availableWidth * 0.4); // Slightly less to account for sidebar padding
+	const smallHeight = $derived(smallWidth * 0.5);
 
 	// ================================================================================================
 	// DATA PROCESSING
@@ -56,14 +58,6 @@
 	const brandLinePath = $derived(createLinePath(brandChartData, xScale, yScale));
 	const genericLinePath = $derived(createLinePath(genericChartData, xScale, yScale));
 
-	// Brand chart
-	const brandScales = $derived(createScales(brandChartData, smallWidth, smallHeight, margin));
-	const baseBrandXScale = $derived(brandScales.xScale);
-	const baseBrandYScale = $derived(brandScales.yScale);
-	let brandXScale = $derived(baseBrandXScale);
-	let brandYScale = $derived(baseBrandYScale);
-	const smallBrandLinePath = $derived(createLinePath(brandChartData, brandXScale, brandYScale));
-
 	// Generic chart
 	const genericScales = $derived(createScales(genericChartData, smallWidth, smallHeight, margin));
 	const baseGenericXScale = $derived(genericScales.xScale);
@@ -76,12 +70,9 @@
 
 	// SVG refs
 	let mainSvgRef: SVGSVGElement;
-	let brandSvgRef: SVGSVGElement;
 	let genericSvgRef: SVGSVGElement;
 	let xAxisRef: SVGGElement;
 	let yAxisRef: SVGGElement;
-	let brandXAxisRef: SVGGElement;
-	let brandYAxisRef: SVGGElement;
 	let genericXAxisRef: SVGGElement;
 	let genericYAxisRef: SVGGElement;
 
@@ -91,8 +82,6 @@
 	$effect(() => {
 		renderXAxis(xAxisRef, xScale, allDataPoints.length);
 		renderYAxis(yAxisRef, yScale, allDataPoints.length);
-		renderXAxis(brandXAxisRef, brandXScale, brandChartData.length);
-		renderYAxis(brandYAxisRef, brandYScale, brandChartData.length);
 		renderXAxis(genericXAxisRef, genericXScale, genericChartData.length);
 		renderYAxis(genericYAxisRef, genericYScale, genericChartData.length);
 	});
@@ -126,14 +115,6 @@
 			setupZoom(mainSvgRef, baseXScale, baseYScale, width, height, (x, y) => {
 				xScale = x;
 				yScale = y;
-			});
-	});
-
-	$effect(() => {
-		if (brandSvgRef)
-			setupZoom(brandSvgRef, baseBrandXScale, baseBrandYScale, smallWidth, smallHeight, (x, y) => {
-				brandXScale = x;
-				brandYScale = y;
 			});
 	});
 
@@ -173,7 +154,7 @@
 		const yScale = d3
 			.scaleLinear()
 			.range([heightVal - marginVal.bottom, marginVal.top])
-			.domain([0, hasData ? (d3.max(data, (d) => d.price) ?? 100) : 100])
+			.domain([0, hasData ? (d3.max(data, (d) => d.price * 1.2) ?? 100) : 100])
 			.nice();
 
 		return { xScale, yScale };
@@ -244,200 +225,154 @@
 	}
 </script>
 
-<!---------------------------------- MAIN CONTENT ---------------------------------->
-<h4 class="chart-title">Comparing the Cost of Generic & Name-Brand Medications</h4>
-<div class="combined-graphic-area">
-	<div class="chart-wrapper" bind:clientWidth={containerWidth}>
-		<svg {width} {height} role="img" bind:this={mainSvgRef}>
-			<defs>
-				<clipPath id="main-plot-clip">
-					<rect
-						x={margin.left}
-						y={margin.top}
-						width={width - margin.left - margin.right}
-						height={height - margin.top - margin.bottom}
-					/>
-				</clipPath>
-			</defs>
+<!---------------------------------- CONTENT AREA ---------------------------------->
+<div class="text-center text-5xl">How much cheaper are generics?</div>
+<div class="width-tracker" bind:clientWidth={containerWidth}>
+	<div class="content-wrapper">
+		<!---------------------------------- MAIN CHART ---------------------------------->
+		<div class="chart-wrapper relative">
+			<div
+				class="absolute z-10 w-full text-center text-3xl"
+				style="font-family: Calibri, sans-serif; color: {colors.red};"
+			>
+				{brandDrug ? brandDrug.friendlyName.toUpperCase() : 'Brand'}
+			</div>
+			<svg {width} {height} role="img" bind:this={mainSvgRef}>
+				<defs>
+					<clipPath id="main-plot-clip">
+						<rect
+							x={margin.left}
+							y={margin.top}
+							width={width - margin.left - margin.right}
+							height={height - margin.top - margin.bottom}
+						/>
+					</clipPath>
+				</defs>
 
-			<g clip-path="url(#main-plot-clip)">
-				{@render chartLine(brandLinePath, colors.red)}
-				{@render chartLine(genericLinePath, colors.blue)}
-				{@render dataPoints(brandChartData, xScale, yScale, colors.red)}
-				{@render dataPoints(genericChartData, xScale, yScale, colors.blue)}
-				{@render monthlyHoverZones(
-					allDataPoints,
-					xScale,
-					margin,
-					height,
-					width,
-					(monthDate) => {
-						const brandPrice = findPriceForMonth(brandChartData, monthDate);
-						const genericPrice = findPriceForMonth(genericChartData, monthDate);
-						if (brandPrice !== undefined || genericPrice !== undefined) {
-							tooltipData = { date: monthDate, brandPrice, genericPrice };
+				<g clip-path="url(#main-plot-clip)">
+					{@render chartLine(brandLinePath, colors.red)}
+					{@render chartLine(genericLinePath, colors.blue)}
+					{@render dataPoints(brandChartData, xScale, yScale, colors.red)}
+					{@render dataPoints(genericChartData, xScale, yScale, colors.blue)}
+					{@render monthlyHoverZones(
+						allDataPoints,
+						xScale,
+						margin,
+						height,
+						width,
+						(monthDate) => {
+							const brandPrice = findPriceForMonth(brandChartData, monthDate);
+							const genericPrice = findPriceForMonth(genericChartData, monthDate);
+							if (brandPrice !== undefined || genericPrice !== undefined) {
+								tooltipData = { date: monthDate, brandPrice, genericPrice };
+							}
+						},
+						() => {
+							tooltipData = null;
 						}
-					},
-					() => {
-						tooltipData = null;
-					}
-				)}
-			</g>
+					)}
+				</g>
 
-			<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}></g>
-			<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
-			{@render axisLabels(width, height)}
-		</svg>
-	</div>
-
-	<div class="side-bar">
-		<div class="controls">
-			<label for="drug-select" class="dropdown-label">Select Drug:</label>
-			<ul class="drug-list" role="listbox">
-				{#each drugsData
-					.map((drug, i) => ({ drug, i }))
-					.filter(({ drug }) => drug.isBrand)
-					.sort((a, b) => a.drug.friendlyName.localeCompare(b.drug.friendlyName)) as { drug, i }}
-					<li
-						class="drug-list-item"
-						class:selected={i === selectedDrugIndex}
-						onclick={() => (selectedDrugIndex = i)}
-						onkeydown={(e) => {
-							if (e.key === 'Enter' || e.key === ' ') selectedDrugIndex = i;
-						}}
-						role="option"
-						aria-selected={i === selectedDrugIndex}
-						tabindex="0"
-					>
-						{drug.friendlyName.toUpperCase()}
-					</li>
-				{/each}
-			</ul>
+				<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}
+				></g>
+				<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
+				{@render axisLabels(width, height)}
+			</svg>
+			<span class="text-center text-sm text-gray-500">
+				Left click to drag, mouse wheel to zoom, mouseover for tooltip</span
+			>
 		</div>
 
-		<!-- LEGEND -->
-
-			{#if genericDrug}
-				<div class="legend-item">
-					<div class="legend-line" style="border-color: {colors.blue}"></div>
-					<span>{genericDrug.friendlyName}</span>
+		<!---------------------------------- SIDE BAR ---------------------------------->
+		<div class="side-bar">
+			<div class="controls mb-6">
+				<div class="flex items-center justify-between">
+					<label for="drug-select" class="dropdown-label">Select Drug:</label>
+					<span class="text-sm text-gray-500"> * For a 30 day supply</span>
 				</div>
-			{/if}
+				<ul class="drug-list" role="listbox">
+					{#each drugsData
+						.map((drug, i) => ({ drug, i }))
+						.filter(({ drug }) => drug.isBrand)
+						.sort((a, b) => a.drug.friendlyName.localeCompare(b.drug.friendlyName)) as { drug, i }}
+						<li
+							class="drug-list-item"
+							class:selected={i === selectedDrugIndex}
+							onclick={() => (selectedDrugIndex = i)}
+							onkeydown={(e) => {
+								if (e.key === 'Enter' || e.key === ' ') selectedDrugIndex = i;
+							}}
+							role="option"
+							aria-selected={i === selectedDrugIndex}
+							tabindex="0"
+						>
+							{drug.friendlyName.toUpperCase()}
+						</li>
+					{/each}
+				</ul>
+			</div>
 
+			<!---------------------------------- GENERIC CHART ---------------------------------->
+			<div class="individual-charts-container">
+				<div class="small-chart-wrapper relative">
+					<div
+						class="absolute -top-10 z-10 w-full text-center text-3xl"
+						style="font-family: Calibri, sans-serif; color: {colors.blue};"
+					>
+						<div>Generic:</div>
+						<div>{genericDrug ? genericDrug.friendlyName.toUpperCase() : ''}</div>
+					</div>
+					<svg width={smallWidth} height={smallHeight} role="img" bind:this={genericSvgRef}>
+						<!-- Clipping Path Definition -->
+						<defs>
+							<clipPath id="generic-plot-clip">
+								<rect
+									x={margin.left}
+									y={margin.top}
+									width={smallWidth - margin.left - margin.right}
+									height={smallHeight - margin.top - margin.bottom}
+								/>
+							</clipPath>
+						</defs>
 
+						<!-- Data Drawing Elements with clipping -->
+						<g clip-path="url(#generic-plot-clip)">
+							{@render chartLine(smallGenericLinePath, colors.blue)}
+							{@render dataPoints(genericChartData, genericXScale, genericYScale, colors.blue)}
+							{@render monthlyHoverZones(
+								genericChartData,
+								genericXScale,
+								margin,
+								smallHeight,
+								smallWidth,
+								(monthDate) => {
+									const price = findPriceForMonth(genericChartData, monthDate);
+									if (price !== undefined) {
+										tooltipData = { date: monthDate, genericPrice: price };
+									}
+								},
+								() => {
+									tooltipData = null;
+								}
+							)}
+						</g>
 
+						<!-- Axes -->
+						<g
+							class="x-axis"
+							transform="translate(0,{smallHeight - margin.bottom})"
+							bind:this={genericXAxisRef}
+						></g>
+						<g class="y-axis" transform="translate({margin.left},0)" bind:this={genericYAxisRef}
+						></g>
+
+						{@render axisLabels(smallWidth, smallHeight)}
+					</svg>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
-
-<!---------------------------------- INDIVIDUAL CHARTS ---------------------------------->
-<div class="individual-charts-container">
-	<!---------------- BRAND CHART ------------------>
-
-	<div class="small-chart-wrapper">
-		<h4>
-			{brandDrug ? brandDrug.friendlyName.toUpperCase() + ' (BRAND)' : 'BRAND'}
-		</h4>
-		<svg width={smallWidth} height={smallHeight} role="img" bind:this={brandSvgRef}>
-			<!-- Clipping Path Definition -->
-			<defs>
-				<clipPath id="brand-plot-clip">
-					<rect
-						x={margin.left}
-						y={margin.top}
-						width={smallWidth - margin.left - margin.right}
-						height={smallHeight - margin.top - margin.bottom}
-					/>
-				</clipPath>
-			</defs>
-
-			<!-- Data Drawing Elements with clipping -->
-			<g clip-path="url(#brand-plot-clip)">
-				{@render chartLine(smallBrandLinePath, colors.red)}
-				{@render dataPoints(brandChartData, brandXScale, brandYScale, colors.red)}
-				{@render monthlyHoverZones(
-					brandChartData,
-					brandXScale,
-					margin,
-					smallHeight,
-					smallWidth,
-					(monthDate) => {
-						const price = findPriceForMonth(brandChartData, monthDate);
-						if (price !== undefined) {
-							tooltipData = { date: monthDate, brandPrice: price };
-						}
-					},
-					() => {
-						tooltipData = null;
-					}
-				)}
-			</g>
-
-			<!-- Axes -->
-			<g
-				class="x-axis"
-				transform="translate(0,{smallHeight - margin.bottom})"
-				bind:this={brandXAxisRef}
-			></g>
-			<g class="y-axis" transform="translate({margin.left},0)" bind:this={brandYAxisRef}></g>
-
-			{@render axisLabels(smallWidth, smallHeight)}
-		</svg>
-	</div>
-
-	<!------------------ GENERIC CHART ------------------>
-
-	<div class="small-chart-wrapper">
-		<h4>
-			{genericDrug ? genericDrug.friendlyName.toUpperCase() + ' (GENERIC)' : 'GENERIC'}
-		</h4>
-		<svg width={smallWidth} height={smallHeight} role="img" bind:this={genericSvgRef}>
-			<!-- Clipping Path Definition -->
-			<defs>
-				<clipPath id="generic-plot-clip">
-					<rect
-						x={margin.left}
-						y={margin.top}
-						width={smallWidth - margin.left - margin.right}
-						height={smallHeight - margin.top - margin.bottom}
-					/>
-				</clipPath>
-			</defs>
-
-			<!-- Data Drawing Elements with clipping -->
-			<g clip-path="url(#generic-plot-clip)">
-				{@render chartLine(smallGenericLinePath, colors.blue)}
-				{@render dataPoints(genericChartData, genericXScale, genericYScale, colors.blue)}
-				{@render monthlyHoverZones(
-					genericChartData,
-					genericXScale,
-					margin,
-					smallHeight,
-					smallWidth,
-					(monthDate) => {
-						const price = findPriceForMonth(genericChartData, monthDate);
-						if (price !== undefined) {
-							tooltipData = { date: monthDate, genericPrice: price };
-						}
-					},
-					() => {
-						tooltipData = null;
-					}
-				)}
-			</g>
-
-			<!-- Axes -->
-			<g
-				class="x-axis"
-				transform="translate(0,{smallHeight - margin.bottom})"
-				bind:this={genericXAxisRef}
-			></g>
-			<g class="y-axis" transform="translate({margin.left},0)" bind:this={genericYAxisRef}></g>
-
-			{@render axisLabels(smallWidth, smallHeight)}
-		</svg>
-	</div>
-</div>
-
 <!---------------------------------- TOOLTIP ---------------------------------->
 {#if tooltipData}
 	{@const dateStr = tooltipData.date.toLocaleDateString('en-US', {
@@ -483,7 +418,8 @@
 
 <!---------------------------------- SNIPPETS ---------------------------------->
 {#snippet axisLabels(width: number, height: number)}
-	<text
+	<!-- X Axis Label -->
+	<!-- <text
 		text-anchor="middle"
 		x={width / 2}
 		y={height - 10}
@@ -492,8 +428,10 @@
 		font-weight="600"
 	>
 		Time
-	</text>
-	<text
+	</text> -->
+
+	<!-- Y Axis Label -->
+	<!-- <text
 		text-anchor="middle"
 		transform="rotate(-90)"
 		x={-height / 2}
@@ -503,7 +441,7 @@
 		font-weight="600"
 	>
 		Price ($ Per 30 Day Supply)
-	</text>
+	</text> -->
 {/snippet}
 
 {#snippet chartLine(linePath: string, color: string)}
@@ -522,10 +460,10 @@
 		<circle
 			cx={xScale(point.date)}
 			cy={yScale(point.price)}
-			r="4"
+			r="3"
 			fill={color}
-			stroke="white"
-			stroke-width="2"
+			stroke={$isDarkMode ? '#ddd' : '#222'}
+			stroke-width="1.5"
 			style="pointer-events: none;"
 		/>
 	{/each}
@@ -590,15 +528,6 @@
 		font-family: Antonio;
 	}
 
-	h4,
-	.dropdown-label {
-		font-family: fustat;
-		font-size: 20px;
-		font-weight: 700;
-		text-transform: uppercase;
-		margin-bottom: 20px;
-	}
-
 	/* p {
 		font-family: fustat;
 		font-size: 16px;
@@ -609,14 +538,16 @@
 		list-style: none;
 		padding: 0;
 		margin: 10px 0;
-		max-height: 300px;
+		max-height: 200px;
 		overflow-y: auto;
 		border: 1px solid #ccc;
 		border-radius: 4px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 
 	.drug-list-item {
-		padding: 0.75rem 1rem;
+		padding: 0.5rem 1rem;
 		cursor: pointer;
 		transition: background-color 0.2s;
 		font-family: fustat;
@@ -638,22 +569,6 @@
 		outline-offset: -2px;
 	}
 
-	/* Dark mode support */
-	@media (prefers-color-scheme: dark) {
-		.drug-list {
-			background-color: #2a2a2a;
-			border-color: #444;
-		}
-
-		.drug-list-item:hover {
-			background-color: #3a3a3a;
-		}
-
-		svg text {
-			fill: #fff;
-		}
-	}
-
 	:global(body[data-theme='dark']) .drug-list {
 		background-color: #2a2a2a;
 		border-color: #444;
@@ -662,10 +577,10 @@
 	:global(body[data-theme='dark']) .drug-list-item:hover {
 		background-color: #3a3a3a;
 	}
-
+	/* 
 	:global(body[data-theme='dark']) svg text {
 		fill: #fff;
-	}
+	} */
 
 	/* Axis styling */
 	:global(.x-axis text),
@@ -681,66 +596,36 @@
 		stroke: currentColor;
 	}
 
-	.combined-graphic-area {
+	.width-tracker {
+		margin: 20px 40px;
+	}
+
+	.content-wrapper {
 		display: flex;
 		justify-content: left;
 		align-items: top;
-		margin-top: 20px;
-		padding: 0 40px;
+		padding: 10px;
+		border: 2px solid #ccc;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+		box-sizing: border-box;
 	}
 
 	.chart-wrapper {
 		flex: 1;
 		display: flex;
-		gap: 30px;
-		align-items: flex-start;
+		flex-direction: column;
 		min-width: 0;
 	}
 
 	.side-bar {
-		padding: 20px 20px 20px 20px;
-		border: 1px solid #ccc;
-		box-shadow: 0 0 3px #ccc inset;
-		max-height: 600px;
-	}
-
-	.chart-title {
-		padding-left: 40px;
-		margin-top: 100px;
-		margin-bottom: 20px;
+		padding: 0 0 0 20px;
+		display: flex;
+		flex-direction: column;
+		border-left: 2px solid #ccc;
 	}
 
 	svg {
-		border: 1px solid #ccc;
-		box-shadow: 0 0 3px #ccc inset;
 		display: block;
-	}
-
-	.legend {
-		margin-top: 2rem;
-		padding-top: 2rem;
-		min-width: 200px;
-		border-radius: 8px;
-	}
-	.legend {
-		margin: 0 0 10px 0;
-		font-size: 14px;
-		text-transform: uppercase;
-	}
-
-	.legend-item {
-		display: flex;
-		align-items: center;
-		gap: 10px;
-		font-size: 14px;
-		margin: 8px 0;
-	}
-
-	.legend-line {
-		width: 30px;
-		height: 3px;
-		border-radius: 2px;
-		border-width: 2px;
 	}
 
 	:global(.tooltip) {
@@ -801,12 +686,7 @@
 		justify-content: space-between;
 		align-items: flex-start;
 		margin-top: 40px;
-		padding: 0 40px;
 		gap: 60px;
 		max-width: 1200px;
-	}
-
-	.small-chart-wrapper {
-		margin-bottom: 80px;
 	}
 </style>
