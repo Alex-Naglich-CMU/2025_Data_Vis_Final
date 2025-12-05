@@ -289,7 +289,7 @@
 			<div class="chart-wrapper relative">
 				<div
 					class="absolute z-10 w-full text-center text-3xl"
-					style="font-family: Calibri, sans-serif; color: {colors.red};"
+					style="font-family: Calibri, sans-serif; font-weight: bold; color: {colors.red};"
 				>
 					{brandDrug ? brandDrug.friendlyName.toUpperCase() : 'Brand'}
 				</div>
@@ -373,7 +373,7 @@
 					<div class="small-chart-wrapper relative">
 						<div
 							class="absolute -top-10 z-10 w-full text-center text-3xl"
-							style="font-family: Calibri, sans-serif; color: {colors.blue};"
+							style="font-family: Calibri, sans-serif; font-weight: bold; color: {colors.blue};"
 						>
 							<div>Generic:</div>
 							<div>{genericDrug ? genericDrug.friendlyName.toUpperCase() : ''}</div>
