@@ -10,35 +10,16 @@
 	// PROPS & STATE
 	// ================================================================================================
 	const drugSearchTerms: Record<string, string> = {
-		'617320': 'lipitor', // brand - LIPITOR 40 MG TABLET
-		// '617311': 'atorvastatin', // generic - ATORVASTATIN 40 MG TABLET
-
-		'861008': 'glucophage', // brand - GLUCOPHAGE 500 MG TABLET
-		// '861007': 'metformin', // generic - METFORMIN HCL 500 MG TABLET
-
-		'854832': 'vyvanse', // brand - VYVANSE 20 MG CAPSULE
-		// '854830': 'lisdexamfetamine', // generic - LISDEXAMFETAMINE 20 MG CAPSULE
-
-		'104849': 'prozac', // brand - PROZAC 20 MG PULVULE
-		// '310385': 'fluoxetine', // generic - FLUOXETINE HCL 20 MG CAPSULE
-
-		'212549': 'norvasc', // brand - NORVASC 5 MG TABLET
-		// '197361': 'amlodipine', // generic - AMLODIPINE BESYLATE 5 MG TAB
-
-		'208161': 'zoloft', // brand - ZOLOFT 50 MG TABLET
-		// '312941': 'sertraline', // generic - SERTRALINE HCL 50 MG TABLET
-
-		'352272': 'lexapro', // brand - LEXAPRO 10 MG TABLET
-		// '349332': 'escitalopram', // generic - ESCITALOPRAM 10 MG TABLET
-
-		'607020': 'lyrica', // brand - LYRICA 150 MG CAPSULE
-		// '483440': 'pregabalin', // generic - PREGABALIN 150 MG CAPSULE
-
-		'285018': 'lantus', // brand - LANTUS 100 UNIT/ML VIAL
-		// '311041': 'insulin glargine', // generic - INSULIN GLARGINE 100 UNIT/ML VIAL
-
-		'213471': 'provigil' // brand - PROVIGIL 200 MG TABLET
-		// '205324': 'modafinil' // generic - MODAFINIL 200 MG TABLET
+		'617320': 'lipitor', // brand - LIPITOR 40 MG TABLET        		// '617311': 'atorvastatin', // generic - ATORVASTATIN 40 MG TABLET
+		'861008': 'glucophage', // brand - GLUCOPHAGE 500 MG TABLET   		// '861007': 'metformin', // generic - METFORMIN HCL 500 MG TABLET
+		'854832': 'vyvanse', // brand - VYVANSE 20 MG CAPSULE				// '854830': 'lisdexamfetamine', // generic - LISDEXAMFETAMINE 20 MG CAPSULE
+		'104849': 'prozac', // brand - PROZAC 20 MG PULVULE					// '310385': 'fluoxetine', // generic - FLUOXETINE HCL 20 MG CAPSULE
+		'212549': 'norvasc', // brand - NORVASC 5 MG TABLET					// '197361': 'amlodipine', // generic - AMLODIPINE BESYLATE 5 MG TAB
+		'208161': 'zoloft', // brand - ZOLOFT 50 MG TABLET					// '312941': 'sertraline', // generic - SERTRALINE HCL 50 MG TABLET
+		'352272': 'lexapro', // brand - LEXAPRO 10 MG TABLET				// '349332': 'escitalopram', // generic - ESCITALOPRAM 10 MG TABLET
+		'607020': 'lyrica', // brand - LYRICA 150 MG CAPSULE				// '483440': 'pregabalin', // generic - PREGABALIN 150 MG CAPSULE
+		'285018': 'lantus', // brand - LANTUS 100 UNIT/ML VIAL				// '311041': 'insulin glargine', // generic - INSULIN GLARGINE 100 UNIT/ML VIAL
+		'213471': 'provigil' // brand - PROVIGIL 200 MG TABLET				// '205324': 'modafinil' // generic - MODAFINIL 200 MG TABLET
 	};
 
 	let drugsData = $state<DrugAllData[]>([]);
@@ -57,18 +38,8 @@
 	// LAYOUT CONSTANTS
 	// ================================================================================================
 	// Color palette for drug pairs
-	const drugColors = [
-		'#C9381A', // red
-		'#3A7CA5', // blue
-		'#2D6A4F', // green
-		'#DF7C39', // orange
-		'#9A2F1F', // dark red
-		'#54707C', // slate blue
-		'#3F5339', // dark green
-		'#BFA97F', // tan
-		'#7B2869', // purple
-		'#D4A373' // beige
-	];
+	const drugColors = d3.schemeCategory10 as string[];
+	// https://d3js.org/d3-scale-chromatic/categorical
 
 	let containerWidth = $state(0);
 	const width = $derived(containerWidth * 0.75 || 900);
@@ -421,6 +392,11 @@
 							>
 								<span class="checkmark">{isSelected ? '✓' : ''}</span>
 								{drug.friendlyName.toUpperCase()}
+
+								<div style="flex-grow: 1; text-align: right;">
+									<!-- This is for showing the inflation info if you like -->
+									<input type="checkbox" aria-hidden="true" onclick={(e) => e.stopPropagation()} />
+								</div>
 							</li>
 						{/each}
 					</ul>
