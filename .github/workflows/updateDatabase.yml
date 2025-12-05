@@ -2,13 +2,6 @@ name: Automated Weekly Data Update
 
 # Triggers the workflow weekly and allows manual run for testing
 on:
-  schedule:
-    # Runs every Thursday at 12:00 PM UTC (adjust cron for your desired day/time)
-    - cron: '0 12 * * 4' 
-    # Also triggers on every push to main branch for now in the prototyping phase.
-  push: 
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
