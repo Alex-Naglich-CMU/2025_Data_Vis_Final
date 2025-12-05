@@ -11,34 +11,34 @@
 	// ================================================================================================
 	const drugSearchTerms: Record<string, string> = {
 		'617320': 'lipitor', // brand - LIPITOR 40 MG TABLET
-		'617311': 'atorvastatin', // generic - ATORVASTATIN 40 MG TABLET
+		// '617311': 'atorvastatin', // generic - ATORVASTATIN 40 MG TABLET
 
 		'861008': 'glucophage', // brand - GLUCOPHAGE 500 MG TABLET
-		'861007': 'metformin', // generic - METFORMIN HCL 500 MG TABLET
+		// '861007': 'metformin', // generic - METFORMIN HCL 500 MG TABLET
 
 		'854832': 'vyvanse', // brand - VYVANSE 20 MG CAPSULE
-		'854830': 'lisdexamfetamine', // generic - LISDEXAMFETAMINE 20 MG CAPSULE
+		// '854830': 'lisdexamfetamine', // generic - LISDEXAMFETAMINE 20 MG CAPSULE
 
 		'104849': 'prozac', // brand - PROZAC 20 MG PULVULE
-		'310385': 'fluoxetine', // generic - FLUOXETINE HCL 20 MG CAPSULE
+		// '310385': 'fluoxetine', // generic - FLUOXETINE HCL 20 MG CAPSULE
 
 		'212549': 'norvasc', // brand - NORVASC 5 MG TABLET
-		'197361': 'amlodipine', // generic - AMLODIPINE BESYLATE 5 MG TAB
+		// '197361': 'amlodipine', // generic - AMLODIPINE BESYLATE 5 MG TAB
 
 		'208161': 'zoloft', // brand - ZOLOFT 50 MG TABLET
-		'312941': 'sertraline', // generic - SERTRALINE HCL 50 MG TABLET
+		// '312941': 'sertraline', // generic - SERTRALINE HCL 50 MG TABLET
 
 		'352272': 'lexapro', // brand - LEXAPRO 10 MG TABLET
-		'349332': 'escitalopram', // generic - ESCITALOPRAM 10 MG TABLET
+		// '349332': 'escitalopram', // generic - ESCITALOPRAM 10 MG TABLET
 
 		'607020': 'lyrica', // brand - LYRICA 150 MG CAPSULE
-		'483440': 'pregabalin', // generic - PREGABALIN 150 MG CAPSULE
+		// '483440': 'pregabalin', // generic - PREGABALIN 150 MG CAPSULE
 
 		'285018': 'lantus', // brand - LANTUS 100 UNIT/ML VIAL
-		'311041': 'insulin glargine', // generic - INSULIN GLARGINE 100 UNIT/ML VIAL
+		// '311041': 'insulin glargine', // generic - INSULIN GLARGINE 100 UNIT/ML VIAL
 
-		'213471': 'provigil', // brand - PROVIGIL 200 MG TABLET
-		'205324': 'modafinil' // generic - MODAFINIL 200 MG TABLET
+		'213471': 'provigil' // brand - PROVIGIL 200 MG TABLET
+		// '205324': 'modafinil' // generic - MODAFINIL 200 MG TABLET
 	};
 
 	let drugsData = $state<DrugAllData[]>([]);
@@ -295,13 +295,7 @@
 									? d3.timeFormat('%b')
 									: d3.timeFormat('%Y'))(date);
 
-		d3.select(ref)
-			.call(d3.axisBottom(scale).tickFormat(multiFormat as any))
-			.selectAll('text')
-			.attr('transform', 'rotate(-45)')
-			.style('text-anchor', 'end')
-			.attr('dx', '-.8em')
-			.attr('dy', '.15em');
+		d3.select(ref).call(d3.axisBottom(scale).tickFormat(multiFormat as any));
 	}
 
 	function renderYAxis(
@@ -343,7 +337,7 @@
 			<div class="chart-wrapper">
 				<svg {width} {height} role="img" bind:this={mainSvgRef}>
 					<defs>
-						<clipPath id="main-plot-clip">
+						<clipPath id="animated-series-clip">
 							<rect
 								x={margin.left}
 								y={margin.top}
@@ -353,7 +347,7 @@
 						</clipPath>
 					</defs>
 
-					<g clip-path="url(#main-plot-clip)">
+					<g clip-path="url(#animated-series-clip)">
 						<!-- Draw all lines -->
 						{#each linePaths as line}
 							{@render chartLine(line.path, line.color, line.isBrand)}
@@ -425,6 +419,7 @@
 									? `background-color: ${color}20; color: ${color};`
 									: ''}"
 							>
+								<span class="checkmark">{isSelected ? '✓' : ''}</span>
 								{drug.friendlyName.toUpperCase()}
 							</li>
 						{/each}
@@ -460,13 +455,7 @@
 <!---------------------------------- SNIPPETS ---------------------------------->
 {#snippet chartLine(linePath: string, color: string, isBrand: boolean)}
 	{#if linePath}
-		<path
-			d={linePath}
-			fill="none"
-			style="stroke: {color}"
-			stroke-width={isBrand ? '3' : '2'}
-			stroke-dasharray={isBrand ? 'none' : '5,3'}
-		/>
+		<path d={linePath} fill="none" style="stroke: {color}" stroke-width="4" />
 	{/if}
 {/snippet}
 
@@ -481,10 +470,10 @@
 		<circle
 			cx={xScale(point.date)}
 			cy={yScale(point.price)}
-			r={isBrand ? '3' : '2'}
+			r="0"
 			fill={color}
 			stroke={$isDarkMode ? '#ddd' : '#222'}
-			stroke-width="1.5"
+			stroke-width="0"
 			style="pointer-events: none;"
 		/>
 	{/each}
@@ -581,6 +570,11 @@
 		gap: 0.5rem;
 	}
 
+	.drug-list-item .checkmark {
+		width: 1rem;
+		font-weight: bold;
+	}
+
 	.drug-list-item:hover {
 		background-color: #f0f0f0;
 	}
@@ -603,19 +597,7 @@
 		background-color: #3a3a3a;
 	}
 
-	/* Axis styling */
-	:global(.x-axis text),
-	:global(.y-axis text) {
-		font-family: Arial, sans-serif;
-		font-size: 12px;
-	}
-
-	:global(.x-axis line),
-	:global(.y-axis line),
-	:global(.x-axis path),
-	:global(.y-axis path) {
-		stroke: currentColor;
-	}
+	/* Axis styling is in app.css */
 
 	.width-tracker {
 		margin: 20px 40px;
@@ -629,7 +611,6 @@
 		border: 2px solid #ccc;
 		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 		box-sizing: border-box;
-		gap: 20px;
 	}
 
 	.chart-wrapper {
@@ -640,8 +621,8 @@
 	}
 
 	.side-bar {
-		width: 300px;
 		padding: 0 0 0 20px;
+		width: 25%;
 		display: flex;
 		flex-direction: column;
 		border-left: 2px solid #ccc;

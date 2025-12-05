@@ -28,3 +28,28 @@ body[data-theme='dark'] {
 	background-color: #1a1a1a;
 	color: #fff;
 }
+
+/* Axis Labels styling */
+.x-axis text,
+.y-axis text {
+	font-family: Calibri, sans-serif;
+	font-size: 5em;
+	font-weight: bold;
+}
+
+/* Tick Marks */
+.x-axis line,
+.y-axis line,
+.x-axis path,
+.y-axis path {
+	stroke: currentColor;
+}
+
+/* Tick labels */
+.x-axis .tick text,
+.y-axis .tick text {
+	font-family: Calibri, sans-serif;
+	font-size: 1.6em;
+	font-weight: bold;
+	fill: currentColor;
+}

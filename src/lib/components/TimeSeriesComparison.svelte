@@ -258,13 +258,7 @@
 									? d3.timeFormat('%b')
 									: d3.timeFormat('%Y'))(date);
 
-		d3.select(ref)
-			.call(d3.axisBottom(scale).tickFormat(multiFormat as any))
-			.selectAll('text')
-			.attr('transform', 'rotate(-45)')
-			.style('text-anchor', 'end')
-			.attr('dx', '-.8em')
-			.attr('dy', '.15em');
+		d3.select(ref).call(d3.axisBottom(scale).tickFormat(multiFormat as any));
 	}
 
 	function renderYAxis(
@@ -301,7 +295,7 @@
 				</div>
 				<svg {width} {height} role="img" bind:this={mainSvgRef}>
 					<defs>
-						<clipPath id="main-plot-clip">
+						<clipPath id="timeseries-plot-clip">
 							<rect
 								x={margin.left}
 								y={margin.top}
@@ -311,9 +305,9 @@
 						</clipPath>
 					</defs>
 
-					<g clip-path="url(#main-plot-clip)">
-						{@render chartLine(brandLinePath, colors.red)}
-						{@render chartLine(genericLinePath, colors.blue)}
+					<g clip-path="url(#timeseries-plot-clip)">
+						{@render chartLine(brandLinePath, colors.red, true)}
+						{@render chartLine(genericLinePath, colors.blue, false)}
 						{@render dataPoints(brandChartData, xScale, yScale, colors.red)}
 						{@render dataPoints(genericChartData, xScale, yScale, colors.blue)}
 						{@render monthlyHoverZones(
@@ -399,8 +393,8 @@
 
 							<!-- Data Drawing Elements with clipping -->
 							<g clip-path="url(#generic-plot-clip)">
-								{@render chartLine(smallGenericLinePath, colors.blue)}
-								{@render dataPoints(genericChartData, genericXScale, genericYScale, colors.blue)}
+								{@render chartLine(smallGenericLinePath, colors.blue, false)}
+								<!-- {@render dataPoints(genericChartData, genericXScale, genericYScale, colors.blue)} -->
 								{@render monthlyHoverZones(
 									genericChartData,
 									genericXScale,
@@ -507,9 +501,9 @@
 	</text> -->
 {/snippet}
 
-{#snippet chartLine(linePath: string, color: string)}
+{#snippet chartLine(linePath: string, color: string, generic: boolean)}
 	{#if linePath}
-		<path d={linePath} fill="none" style="stroke: {color}" stroke-width="3" />
+		<path d={linePath} fill="none" style="stroke: {color}" stroke-width="{generic ? 4 : 2}" />
 	{/if}
 {/snippet}
 
@@ -523,10 +517,10 @@
 		<circle
 			cx={xScale(point.date)}
 			cy={yScale(point.price)}
-			r="3"
+			r="0"
 			fill={color}
 			stroke={$isDarkMode ? '#ddd' : '#222'}
-			stroke-width="1.5"
+			stroke-width="0.0"
 			style="pointer-events: none;"
 		/>
 	{/each}
@@ -651,24 +645,8 @@
 	:global(body[data-theme='dark']) .drug-list-item:hover {
 		background-color: #3a3a3a;
 	}
-	/* 
-	:global(body[data-theme='dark']) svg text {
-		fill: #fff;
-	} */
 
-	/* Axis styling */
-	:global(.x-axis text),
-	:global(.y-axis text) {
-		font-family: Arial, sans-serif;
-		font-size: 12px;
-	}
-
-	:global(.x-axis line),
-	:global(.y-axis line),
-	:global(.x-axis path),
-	:global(.y-axis path) {
-		stroke: currentColor;
-	}
+	/* Axis styling is in app.css */	
 
 	.width-tracker {
 		margin: 20px 40px;

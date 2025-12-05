@@ -18,7 +18,21 @@
 		}
 	});
 
-	let { data }: PageProps = $props();
+	let clicked = false;
+
+	let spinDiv = () => {
+		const div = document.getElementById('you-spin-me-right-round');
+		if (div) {
+			div.style.transition = 'transform 2s';
+			if (clicked) {
+				div.style.transform = 'rotateY(180deg)';
+			} else {
+				div.style.transform = 'rotateY(0deg)';
+			}
+			clicked = !clicked;
+		}
+	};
+
 </script>
 
 <div class="title-holder">
@@ -110,9 +124,13 @@
 	</p>
 </div>
 
-<TimeSeriesComparison />
+<div id="you-spin-me-right-round" style="perspective: 2000px; transform-style: preserve-3d;">
+	<TimeSeriesComparison /> 
 
-<AnimatedSeries />
+	<button onclick={() => spinDiv()}>Click</button>
+
+	<AnimatedSeries />
+</div>
 
 <style>
 	* {
