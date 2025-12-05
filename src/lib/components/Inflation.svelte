@@ -9,6 +9,9 @@
 		'311041': 'insulin glargine' // generic - INSULIN GLARGINE 100 UNIT/ML VIAL
 	};
 
+	// Make props where this component receives a drug rxcui and it exports the old price, new price, percent change, old year, new year
+
+
 	let drugsData = $state<DrugAllData[]>([]);
 	let loading = $state<boolean>(true);
 	let error = $state<string | null>(null);

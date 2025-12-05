@@ -71,7 +71,7 @@
 	];
 
 	let containerWidth = $state(0);
-	const width = $derived(containerWidth * 0.5 || 900);
+	const width = $derived(containerWidth * 0.75 || 900);
 	const height = $derived(width * 0.6);
 	const margin = { top: 40, right: 40, bottom: 60, left: 80 };
 
@@ -81,10 +81,12 @@
 	onMount(async () => {
 		try {
 			drugsData = await loadDrugData(drugSearchTerms);
-			// Add half of the drug pairs to selection by default
-			for (let i = 0; i < Math.ceil(drugsData.length / 2); i++) {
-				selectedDrugIndices.add(i);
+			// Add all drug pairs to selection by default
+			const initialSelection = new Set<number>();
+			for (let i = 0; i < drugsData.length; i++) {
+				initialSelection.add(i);
 			}
+			selectedDrugIndices = initialSelection;
 
 			loading = false;
 		} catch (err) {
@@ -139,18 +141,18 @@
 				});
 			}
 
-			// Get generic drug
-			const genericDrug = drugsData.find((d) => d.rxcui === selectedDrug.genericRxcui);
-			if (genericDrug) {
-				const genericData = getChartPoints(genericDrug);
-				lines.push({
-					data: genericData,
-					color,
-					label: genericDrug.friendlyName,
-					isBrand: false,
-					drugIndex
-				});
-			}
+			// // Get generic drug
+			// const genericDrug = drugsData.find((d) => d.rxcui === selectedDrug.genericRxcui);
+			// if (genericDrug) {
+			// 	const genericData = getChartPoints(genericDrug);
+			// 	lines.push({
+			// 		data: genericData,
+			// 		color,
+			// 		label: genericDrug.friendlyName,
+			// 		isBrand: false,
+			// 		drugIndex
+			// 	});
+			// }
 		});
 
 		return lines;
@@ -342,7 +344,12 @@
 				<svg {width} {height} role="img" bind:this={mainSvgRef}>
 					<defs>
 						<clipPath id="main-plot-clip">
-							<rect x={0} y={0} {width} {height} />
+							<rect
+								x={margin.left}
+								y={margin.top}
+								width={width - margin.left - margin.right}
+								height={height - margin.top - margin.bottom}
+							/>
 						</clipPath>
 					</defs>
 
@@ -422,33 +429,6 @@
 							</li>
 						{/each}
 					</ul>
-
-					<!-- Legend -->
-					<div class="legend mt-4">
-						<div class="mb-2 text-lg font-semibold">Line Styles:</div>
-						<div class="flex flex-col gap-2">
-							<div class="flex items-center gap-2">
-								<svg width="40" height="20">
-									<line x1="0" y1="10" x2="40" y2="10" stroke="black" stroke-width="3" />
-								</svg>
-								<span class="text-sm">Brand (solid)</span>
-							</div>
-							<div class="flex items-center gap-2">
-								<svg width="40" height="20">
-									<line
-										x1="0"
-										y1="10"
-										x2="40"
-										y2="10"
-										stroke="black"
-										stroke-width="2"
-										stroke-dasharray="5,3"
-									/>
-								</svg>
-								<span class="text-sm">Generic (dashed)</span>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -711,17 +691,5 @@
 	:global(.tooltip-row .value) {
 		font-weight: 600;
 		color: #000;
-	}
-
-	.legend {
-		padding: 1rem;
-		border: 1px solid #ccc;
-		border-radius: 4px;
-		background-color: #f9f9f9;
-	}
-
-	:global(body[data-theme='dark']) .legend {
-		background-color: #2a2a2a;
-		border-color: #444;
 	}
 </style>

@@ -5,7 +5,7 @@
 	import { isDarkMode } from '$lib/stores/theme';
 	import TimeSeriesComparison from '$lib/components/TimeSeriesComparison.svelte';
 	import Headlines from '$lib/components/Headlines.svelte';
-	import InsulinComparison from '$lib/components/InsulinComparison.svelte';
+	import InsulinComparison from '$lib/components/Inflation.svelte';
 	import AnimatedSeries from '$lib/components/AnimatedSeries.svelte';
 
 	onMount(() => {
