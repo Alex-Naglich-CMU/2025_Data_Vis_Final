@@ -1,11 +1,15 @@
 {
   "RxCUI": "1242613",
-  "Name": "MYORISAN 20 MG CAPSULE",
+  "Name": "isotretinoin 20 MG Oral Capsule [Myorisan]",
   "IsBrand": false,
   "Brand_RxCUI": "197844",
   "Generic_RxCUI": "1242613",
+  "Ingredient_Name": "Isotretinoin",
+  "Manufacturer_Name": "Myorisan",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
-    "61748030213": {
+    "61748030211": {
       "05/19/2021": 2.96845,
       "06/23/2021": 2.62987,
       "07/21/2021": 2.84866,
@@ -79,7 +83,7 @@
       "05/17/2023": 2.39429,
       "06/21/2023": 2.72352
     },
-    "61748030211": {
+    "61748030213": {
       "05/19/2021": 2.96845,
       "06/23/2021": 2.62987,
       "07/21/2021": 2.84866,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "884526",
-  "Name": "PROCENTRA 5 MG/5 ML SOLUTION",
+  "Name": "dextroamphetamine sulfate 1 MG/ML Oral Solution [ProCentra]",
   "IsBrand": true,
   "Brand_RxCUI": "884526",
   "Generic_RxCUI": "884522",
+  "Ingredient_Name": "Dextroamphetamine Mgml",
+  "Manufacturer_Name": "ProCentra",
+  "Strength": "1 MG/ML",
+  "Form": "",
   "prices": {
     "21724070105": {
       "05/22/2024": 1.62844,
@@ -21,7 +25,8 @@
       "07/23/2025": 1.62801,
       "08/20/2025": 1.62517,
       "09/17/2025": 1.62212,
-      "10/22/2025": 1.61988
+      "10/22/2025": 1.61988,
+      "11/19/2025": 1.61986
     }
   }
 }

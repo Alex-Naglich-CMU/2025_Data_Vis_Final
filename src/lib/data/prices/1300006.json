@@ -1,9 +1,13 @@
 {
   "RxCUI": "1300006",
-  "Name": "ABSORICA 20 MG CAPSULE",
+  "Name": "isotretinoin 20 MG Oral Capsule [Absorica]",
   "IsBrand": true,
   "Brand_RxCUI": "1300006",
   "Generic_RxCUI": "197844",
+  "Ingredient_Name": "Isotretinoin",
+  "Manufacturer_Name": "Absorica",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "10631011631": {
       "06/19/2024": 35.2011,

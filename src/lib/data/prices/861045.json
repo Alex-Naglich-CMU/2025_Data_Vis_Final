@@ -1,9 +1,13 @@
 {
   "RxCUI": "861045",
-  "Name": "SYMLINPEN 60 PEN INJECTOR",
+  "Name": "1.5 ML pramlintide acetate 1 MG/ML Pen Injector [Symlin]",
   "IsBrand": true,
   "Brand_RxCUI": "861045",
   "Generic_RxCUI": "861044",
+  "Ingredient_Name": "Pramlintide Mgml Pen Injector",
+  "Manufacturer_Name": "Symlin",
+  "Strength": "1.5 ML",
+  "Form": "",
   "prices": {
     "00310661502": {
       "01/01/2018": 284.91748,

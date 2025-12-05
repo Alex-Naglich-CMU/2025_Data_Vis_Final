@@ -1,14 +1,14 @@
 {
   "RxCUI": "701984",
-  "Name": "REFRESH LACRI-LUBE OINTMENT",
+  "Name": "mineral oil 0.425 MG/MG / petrolatum 0.568 MG/MG Ophthalmic Ointment",
   "IsBrand": true,
   "Brand_RxCUI": "701984",
-  "Generic_RxCUI": null,
+  "Generic_RxCUI": "",
+  "Ingredient_Name": "Mineral Oil Mgmg Petrolatum Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.425 MG/MG",
+  "Form": "Ointment",
   "prices": {
-    "00023031207": {
-      "06/21/2017": 2.46982,
-      "12/20/2017": 2.41527
-    },
     "00023031204": {
       "11/22/2017": 2.8681,
       "09/18/2024": 2.7868,
@@ -19,7 +19,12 @@
       "07/23/2025": 2.78961,
       "08/20/2025": 2.79118,
       "09/17/2025": 2.7899,
-      "10/22/2025": 2.79096
+      "10/22/2025": 2.79096,
+      "11/19/2025": 2.79
+    },
+    "00023031207": {
+      "06/21/2017": 2.46982,
+      "12/20/2017": 2.41527
     }
   }
 }

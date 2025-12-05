@@ -1,9 +1,13 @@
 {
   "RxCUI": "1739782",
-  "Name": "BRIVIACT 75 MG TABLET",
+  "Name": "brivaracetam 75 MG Oral Tablet [Briviact]",
   "IsBrand": true,
   "Brand_RxCUI": "1739782",
   "Generic_RxCUI": "1739780",
+  "Ingredient_Name": "Brivaracetam",
+  "Manufacturer_Name": "Briviact",
+  "Strength": "75 MG",
+  "Form": "",
   "prices": {
     "50474067066": {
       "01/01/2021": 19.33785,
@@ -26,7 +30,8 @@
       "07/23/2025": 23.46555,
       "08/20/2025": 23.48083,
       "09/17/2025": 23.48308,
-      "10/22/2025": 23.48666
+      "10/22/2025": 23.48666,
+      "11/19/2025": 23.47926
     }
   }
 }

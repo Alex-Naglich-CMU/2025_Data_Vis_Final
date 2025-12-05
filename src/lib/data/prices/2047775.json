@@ -1,9 +1,13 @@
 {
   "RxCUI": "2047775",
-  "Name": "KAPSPARGO SPRINKLE 50 MG CAP",
+  "Name": "24 HR metoprolol succinate 50 MG Extended Release Oral Capsule [Kapspargo]",
   "IsBrand": true,
   "Brand_RxCUI": "2047775",
   "Generic_RxCUI": "1999037",
+  "Ingredient_Name": "Hr Metoprolol Succinate Extended Release",
+  "Manufacturer_Name": "Kapspargo",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "10631000930": {
       "7/1/2022": 1.72576,
@@ -22,7 +26,8 @@
       "04/01/2025": 1.8597,
       "08/20/2025": 1.85383,
       "09/17/2025": 1.85406,
-      "10/22/2025": 1.84738
+      "10/22/2025": 1.84738,
+      "11/19/2025": 1.85281
     }
   }
 }

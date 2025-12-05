@@ -1,9 +1,13 @@
 {
   "RxCUI": "207243",
-  "Name": "DAYPRO 600 MG CAPLET",
+  "Name": "oxaprozin 600 MG Oral Tablet [Daypro]",
   "IsBrand": true,
   "Brand_RxCUI": "207243",
   "Generic_RxCUI": "312132",
+  "Ingredient_Name": "Oxaprozin",
+  "Manufacturer_Name": "Daypro",
+  "Strength": "600 MG",
+  "Form": "",
   "prices": {
     "00025138131": {
       "06/01/2017": 6.97827,

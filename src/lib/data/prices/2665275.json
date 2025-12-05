@@ -1,9 +1,13 @@
 {
   "RxCUI": "2665275",
-  "Name": "POKONZA 10 MEQ PACKET",
+  "Name": "potassium chloride 10 MEQ Powder for Oral Solution [Pokonza]",
   "IsBrand": true,
   "Brand_RxCUI": "2665275",
   "Generic_RxCUI": "2665269",
+  "Ingredient_Name": "Potassium Chloride Meq For",
+  "Manufacturer_Name": "Pokonza",
+  "Strength": "10 MEQ",
+  "Form": "",
   "prices": {
     "15370030501": {
       "01/22/2025": 26.19064,

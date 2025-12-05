@@ -1,9 +1,13 @@
 {
   "RxCUI": "1604564",
-  "Name": "RESTORA RX CAPSULE",
+  "Name": "folic acid 1.25 MG / Lacticaseibacillus casei KE-99 60 MG Oral Capsule",
   "IsBrand": true,
   "Brand_RxCUI": "1604564",
-  "Generic_RxCUI": null,
+  "Generic_RxCUI": "",
+  "Ingredient_Name": "Folic Acid Lacticaseibacillus Casei Ke-",
+  "Manufacturer_Name": "",
+  "Strength": "1.25 MG",
+  "Form": "Capsule",
   "prices": {
     "52747020730": {
       "08/23/2017": 1.321,

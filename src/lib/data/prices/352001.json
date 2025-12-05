@@ -1,9 +1,13 @@
 {
   "RxCUI": "352001",
-  "Name": "DIOVAN 320 MG TABLET",
+  "Name": "valsartan 320 MG Oral Tablet [Diovan]",
   "IsBrand": true,
   "Brand_RxCUI": "352001",
   "Generic_RxCUI": "349200",
+  "Ingredient_Name": "Valsartan",
+  "Manufacturer_Name": "Diovan",
+  "Strength": "320 MG",
+  "Form": "",
   "prices": {
     "00078036034": {
       "09/20/2017": 8.86911,
@@ -29,7 +33,8 @@
       "07/23/2025": 12.33892,
       "08/20/2025": 12.33372,
       "09/17/2025": 12.32924,
-      "10/22/2025": 12.33041
+      "10/22/2025": 12.33041,
+      "11/19/2025": 12.33137
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "351330",
-  "Name": "CLINDAGEL 1% GEL",
+  "Name": "Once-Daily clindamycin 0.01 MG/MG Topical Gel [Clindagel]",
   "IsBrand": true,
   "Brand_RxCUI": "351330",
   "Generic_RxCUI": "309332",
+  "Ingredient_Name": "Once-Daily Clindamycin Mgmg",
+  "Manufacturer_Name": "Clindagel",
+  "Strength": "0.01 MG/MG",
+  "Form": "",
   "prices": {
     "16781046275": {
       "05/22/2024": 22.43309,

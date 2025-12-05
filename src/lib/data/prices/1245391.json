@@ -1,9 +1,13 @@
 {
   "RxCUI": "1245391",
-  "Name": "STOOL SOFTENER 60 MG/15 ML SYR",
+  "Name": "docusate sodium 4 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1245391",
+  "Ingredient_Name": "Docusate Sodium Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "4 MG/ML",
+  "Form": "Solution",
   "prices": {
     "46122040043": {
       "05/19/2021": 0.02697,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "966399",
-  "Name": "LEVO-T 175 MCG TABLET",
+  "Name": "levothyroxine sodium 0.175 MG Oral Tablet [Levo-T]",
   "IsBrand": false,
   "Brand_RxCUI": "966249",
   "Generic_RxCUI": "966399",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "Levo-T",
+  "Strength": "0.175 MG",
+  "Form": "",
   "prices": {
     "55466011311": {
       "05/19/2021": 0.41679,
@@ -106,7 +110,8 @@
       "07/23/2025": 0.08945,
       "08/20/2025": 0.08978,
       "09/17/2025": 0.08999,
-      "10/22/2025": 0.09325
+      "10/22/2025": 0.09325,
+      "11/19/2025": 0.10115
     }
   }
 }

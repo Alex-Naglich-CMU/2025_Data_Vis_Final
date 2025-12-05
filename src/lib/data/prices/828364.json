@@ -1,9 +1,13 @@
 {
   "RxCUI": "828364",
-  "Name": "PROCTOFOAM-HC 1%-1% FOAM",
+  "Name": "hydrocortisone acetate 10 MG/ML / pramoxine hydrochloride 10 MG/ML Rectal Foam [Proctofoam-HC]",
   "IsBrand": true,
   "Brand_RxCUI": "828364",
   "Generic_RxCUI": "828362",
+  "Ingredient_Name": "Hydrocortisone Mgml Pramoxine Hydrochloride Mgml Rectal",
+  "Manufacturer_Name": "Proctofoam-HC",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "00037682210": {
       "07/19/2017": 12.17733,
@@ -35,7 +39,8 @@
       "07/23/2025": 18.53739,
       "08/20/2025": 18.50545,
       "09/17/2025": 18.47386,
-      "10/22/2025": 18.46151
+      "10/22/2025": 18.46151,
+      "11/19/2025": 18.46453
     }
   }
 }

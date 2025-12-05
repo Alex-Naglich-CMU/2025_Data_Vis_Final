@@ -1,9 +1,13 @@
 {
   "RxCUI": "992399",
-  "Name": "ZYMAXID 0.5% EYE DROPS",
+  "Name": "gatifloxacin 5 MG/ML Ophthalmic Solution [Zymaxid]",
   "IsBrand": true,
   "Brand_RxCUI": "992399",
   "Generic_RxCUI": "992395",
+  "Ingredient_Name": "Gatifloxacin Mgml",
+  "Manufacturer_Name": "Zymaxid",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "00023361525": {
       "01/01/2018": 67.37655

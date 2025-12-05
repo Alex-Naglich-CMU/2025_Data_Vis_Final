@@ -1,9 +1,13 @@
 {
   "RxCUI": "669126",
-  "Name": "MUCINEX FAST-MAX CHEST-CONGEST",
+  "Name": "guaifenesin 20 MG/ML Oral Solution [Mucinex]",
   "IsBrand": true,
   "Brand_RxCUI": "669126",
   "Generic_RxCUI": "310604",
+  "Ingredient_Name": "Guaifenesin Mgml",
+  "Manufacturer_Name": "Mucinex",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "63824053766": {
       "4/1/2022": 0.06064

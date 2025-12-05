@@ -1,9 +1,13 @@
 {
   "RxCUI": "1247381",
-  "Name": "VIOKACE 20,880-78,300 UNITS TB",
+  "Name": "amylase 78300 UNT / lipase 20880 UNT / protease 78300 UNT Oral Tablet [Viokace]",
   "IsBrand": true,
   "Brand_RxCUI": "1247381",
   "Generic_RxCUI": "1247379",
+  "Ingredient_Name": "Amylase Unt Lipase Unt Protease Unt",
+  "Manufacturer_Name": "Viokace",
+  "Strength": "78300 UNT",
+  "Form": "",
   "prices": {
     "73562020810": {
       "10/23/2024": 7.92984,
@@ -16,7 +20,8 @@
       "06/18/2025": 7.97142,
       "07/23/2025": 7.97883,
       "08/20/2025": 7.97718,
-      "10/22/2025": 7.9711
+      "10/22/2025": 7.9711,
+      "11/19/2025": 7.97312
     }
   }
 }

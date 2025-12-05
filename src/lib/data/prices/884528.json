@@ -1,9 +1,13 @@
 {
   "RxCUI": "884528",
-  "Name": "DEXEDRINE SPANSULE 10 MG",
+  "Name": "dextroamphetamine sulfate 10 MG Extended Release Oral Capsule [Dexedrine]",
   "IsBrand": true,
   "Brand_RxCUI": "884528",
   "Generic_RxCUI": "884520",
+  "Ingredient_Name": "Dextroamphetamine Extended Release",
+  "Manufacturer_Name": "Dexedrine",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "52054051309": {
       "09/01/2017": 18.62846,

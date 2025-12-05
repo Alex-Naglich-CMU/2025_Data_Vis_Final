@@ -1,9 +1,13 @@
 {
   "RxCUI": "830648",
-  "Name": "EPIDUO 0.1-2.5% GEL PUMP",
+  "Name": "adapalene 0.001 MG/MG / benzoyl peroxide 0.025 MG/MG Topical Gel [Epiduo]",
   "IsBrand": true,
   "Brand_RxCUI": "830648",
   "Generic_RxCUI": "829539",
+  "Ingredient_Name": "Adapalene Mgmg Benzoyl Peroxide Mgmg",
+  "Manufacturer_Name": "Epiduo",
+  "Strength": "0.001 MG/MG",
+  "Form": "",
   "prices": {
     "00299590825": {
       "09/20/2017": 8.75557,

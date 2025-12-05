@@ -1,9 +1,13 @@
 {
   "RxCUI": "402093",
-  "Name": "REYATAZ 200 MG CAPSULE",
+  "Name": "atazanavir 200 MG Oral Capsule [Reyataz]",
   "IsBrand": true,
   "Brand_RxCUI": "402093",
   "Generic_RxCUI": "402247",
+  "Ingredient_Name": "Atazanavir",
+  "Manufacturer_Name": "Reyataz",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "00003363112": {
       "12/20/2017": 23.66533

@@ -1,9 +1,13 @@
 {
   "RxCUI": "105018",
-  "Name": "LAMICTAL 100 MG TABLET",
+  "Name": "lamotrigine 100 MG Oral Tablet [Lamictal]",
   "IsBrand": true,
   "Brand_RxCUI": "105018",
   "Generic_RxCUI": "198427",
+  "Ingredient_Name": "Lamotrigine",
+  "Manufacturer_Name": "Lamictal",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "00173064255": {
       "01/01/2018": 13.58885,
@@ -32,7 +36,8 @@
       "06/18/2025": 10.94789,
       "07/23/2025": 10.94814,
       "08/20/2025": 10.94538,
-      "10/22/2025": 10.93954
+      "10/22/2025": 10.93954,
+      "11/19/2025": 10.93546
     }
   }
 }

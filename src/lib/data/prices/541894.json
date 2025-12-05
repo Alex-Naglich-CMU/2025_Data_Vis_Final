@@ -1,9 +1,13 @@
 {
   "RxCUI": "541894",
-  "Name": "ADDERALL 10 MG TABLET",
+  "Name": "amphetamine aspartate 2.5 MG / amphetamine sulfate 2.5 MG / dextroamphetamine saccharate 2.5 MG / dextroamphetamine sulfate 2.5 MG Oral Tablet [Adderall]",
   "IsBrand": true,
   "Brand_RxCUI": "541894",
   "Generic_RxCUI": "541892",
+  "Ingredient_Name": "Amphetamine Aspartate Amphetamine Dextroamphetamine Saccharate Dextroamphetamine",
+  "Manufacturer_Name": "Adderall",
+  "Strength": "2.5 MG",
+  "Form": "",
   "prices": {
     "57844011001": {
       "11/22/2017": 5.64895,
@@ -30,7 +34,8 @@
       "07/23/2025": 11.15756,
       "08/20/2025": 11.15973,
       "09/17/2025": 11.16286,
-      "10/22/2025": 11.14819
+      "10/22/2025": 11.14819,
+      "11/19/2025": 11.1728
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "476362",
-  "Name": "MESALAMINE ER 500 MG CAPSULE",
+  "Name": "mesalamine 500 MG Extended Release Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "580286",
   "Generic_RxCUI": "476362",
+  "Ingredient_Name": "Mesalamine Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "500 MG",
+  "Form": "Capsule",
   "prices": {
     "63304008913": {
       "9/21/2022": 4.52608,

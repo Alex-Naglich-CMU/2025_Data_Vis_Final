@@ -1,9 +1,13 @@
 {
   "RxCUI": "896190",
-  "Name": "ADVAIR 250-50 DISKUS",
+  "Name": "14 ACTUAT fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair]",
   "IsBrand": true,
   "Brand_RxCUI": "896190",
   "Generic_RxCUI": "896186",
+  "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Advair",
+  "Strength": "14 ACTU",
+  "Form": "",
   "prices": {
     "00173069604": {
       "01/01/2018": 10.42096,

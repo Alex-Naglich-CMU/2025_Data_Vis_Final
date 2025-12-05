@@ -1,9 +1,13 @@
 {
   "RxCUI": "1545174",
-  "Name": "CORTIFOAM 10% AEROSOL",
+  "Name": "hydrocortisone acetate 100 MG/ML Rectal Foam [Cortifoam]",
   "IsBrand": true,
   "Brand_RxCUI": "1545174",
   "Generic_RxCUI": "1545172",
+  "Ingredient_Name": "Hydrocortisone Mgml Rectal",
+  "Manufacturer_Name": "Cortifoam",
+  "Strength": "100 MG/ML",
+  "Form": "",
   "prices": {
     "00037683015": {
       "09/28/2017": 25.59043,

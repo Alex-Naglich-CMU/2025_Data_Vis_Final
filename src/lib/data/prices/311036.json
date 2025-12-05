@@ -1,9 +1,13 @@
 {
   "RxCUI": "311036",
-  "Name": "HUMULIN R 100 UNIT/ML VIAL",
+  "Name": "insulin, regular, human 100 UNT/ML Injectable Solution [Humulin R]",
   "IsBrand": true,
   "Brand_RxCUI": "311036",
   "Generic_RxCUI": "311034",
+  "Ingredient_Name": "Insulin, Regular, Human Untml Injectable",
+  "Manufacturer_Name": "Humulin R",
+  "Strength": "100 UNT/ML",
+  "Form": "",
   "prices": {
     "00002821501": {
       "07/21/2021": 14.27129,
@@ -32,7 +36,8 @@
       "07/23/2025": 4.26829,
       "08/20/2025": 4.26721,
       "09/17/2025": 4.26798,
-      "10/22/2025": 4.26839
+      "10/22/2025": 4.26839,
+      "11/19/2025": 4.26821
     }
   }
 }

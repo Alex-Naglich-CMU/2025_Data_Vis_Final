@@ -1,9 +1,13 @@
 {
   "RxCUI": "1739788",
-  "Name": "BRIVIACT 10 MG/ML ORAL SOLN",
+  "Name": "brivaracetam 10 MG/ML Oral Solution [Briviact]",
   "IsBrand": true,
   "Brand_RxCUI": "1739788",
   "Generic_RxCUI": "1739785",
+  "Ingredient_Name": "Brivaracetam Mgml",
+  "Manufacturer_Name": "Briviact",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "50474087015": {
       "01/01/2020": 3.74484,
@@ -31,7 +35,8 @@
       "07/23/2025": 4.69452,
       "08/20/2025": 4.69689,
       "09/17/2025": 4.69595,
-      "10/22/2025": 4.69954
+      "10/22/2025": 4.69954,
+      "11/19/2025": 4.69845
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1650901",
-  "Name": "AVONEX PEN 30 MCG/0.5 ML KIT",
+  "Name": "0.5 ML interferon beta-1a 0.06 MG/ML Auto-Injector [Avonex]",
   "IsBrand": true,
   "Brand_RxCUI": "1650901",
   "Generic_RxCUI": "1650899",
+  "Ingredient_Name": "Interferon Beta-A Mgml Auto-Injector",
+  "Manufacturer_Name": "Avonex",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "59627033304": {
       "07/19/2017": 6034.6075,
@@ -31,7 +35,8 @@
       "11/20/2024": 8016.30923,
       "12/18/2024": 8016.07929,
       "01/03/2025": 8376.80285,
-      "06/18/2025": 8421.86
+      "06/18/2025": 8421.86,
+      "11/19/2025": 8419.7
     }
   }
 }

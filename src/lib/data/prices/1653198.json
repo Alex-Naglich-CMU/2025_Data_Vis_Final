@@ -1,9 +1,13 @@
 {
   "RxCUI": "1653198",
-  "Name": "NOVOLOG 100 UNIT/ML CARTRIDGE",
+  "Name": "3 ML insulin aspart, human 100 UNT/ML Cartridge [NovoLog]",
   "IsBrand": true,
   "Brand_RxCUI": "1653198",
   "Generic_RxCUI": "1653196",
+  "Ingredient_Name": "Insulin Aspart, Human Untml Cartridge",
+  "Manufacturer_Name": "NovoLog",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00169330312": {
       "05/19/2021": 34.49275,
@@ -32,7 +36,8 @@
       "07/23/2025": 8.57743,
       "08/20/2025": 8.57558,
       "09/17/2025": 8.57854,
-      "10/22/2025": 8.57721
+      "10/22/2025": 8.57721,
+      "11/19/2025": 8.57135
     }
   }
 }

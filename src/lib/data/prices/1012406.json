@@ -1,9 +1,13 @@
 {
   "RxCUI": "1012406",
-  "Name": "MARCAINE 0.5% VIAL",
+  "Name": "bupivacaine hydrochloride 5 MG/ML Injectable Solution [Marcaine]",
   "IsBrand": true,
   "Brand_RxCUI": "1012406",
   "Generic_RxCUI": "1012404",
+  "Ingredient_Name": "Bupivacaine Hydrochloride Mgml Injectable",
+  "Manufacturer_Name": "Marcaine",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "00409161050": {
       "04/01/2017": 0.08921,

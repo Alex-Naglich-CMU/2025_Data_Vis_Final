@@ -1,9 +1,13 @@
 {
   "RxCUI": "1806185",
-  "Name": "METHYLPHENIDATE LA 60 MG CAP",
+  "Name": "50/50 Release 24 HR methylphenidate hydrochloride 60 MG Extended Release Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1806185",
+  "Ingredient_Name": "Release Hr Methylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "50 Rele",
+  "Form": "Capsule",
   "prices": {
     "51862061430": {
       "7/20/2022": 8.06821,
@@ -42,7 +46,8 @@
       "07/23/2025": 11.27199,
       "08/20/2025": 11.20982,
       "09/17/2025": 10.81192,
-      "10/22/2025": 10.28427
+      "10/22/2025": 10.28427,
+      "11/19/2025": 9.85034
     },
     "75907005330": {
       "03/19/2025": 9.35509,
@@ -52,7 +57,8 @@
       "07/23/2025": 11.27199,
       "08/20/2025": 11.20982,
       "09/17/2025": 10.81192,
-      "10/22/2025": 10.28427
+      "10/22/2025": 10.28427,
+      "11/19/2025": 9.85034
     }
   }
 }

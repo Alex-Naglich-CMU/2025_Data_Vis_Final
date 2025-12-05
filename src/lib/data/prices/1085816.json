@@ -1,9 +1,13 @@
 {
   "RxCUI": "1085816",
-  "Name": "SPINOSAD 0.9% TOPICAL SUSP",
+  "Name": "spinosad 9 MG/ML Medicated Shampoo",
   "IsBrand": false,
   "Brand_RxCUI": "1085820",
   "Generic_RxCUI": "1085816",
+  "Ingredient_Name": "Spinosad Mgml Medicated",
+  "Manufacturer_Name": "",
+  "Strength": "9 MG/ML",
+  "Form": "",
   "prices": {
     "28595057004": {
       "08/23/2017": 1.58492,
@@ -11,7 +15,11 @@
       "01/17/2018": 1.60076,
       "03/21/2018": 1.67892,
       "05/23/2018": 1.70897,
-      "06/20/2018": 1.72095
+      "06/20/2018": 1.72095,
+      "11/19/2025": 1.88527
+    },
+    "52246057004": {
+      "11/19/2025": 1.88527
     }
   }
 }

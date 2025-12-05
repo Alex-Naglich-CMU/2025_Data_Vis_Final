@@ -1,9 +1,13 @@
 {
   "RxCUI": "993564",
-  "Name": "WELLBUTRIN XL 300 MG TABLET",
+  "Name": "24 HR bupropion hydrochloride 300 MG Extended Release Oral Tablet [Wellbutrin]",
   "IsBrand": true,
   "Brand_RxCUI": "993564",
   "Generic_RxCUI": "993557",
+  "Ingredient_Name": "Hr Bupropion Hydrochloride Extended Release",
+  "Manufacturer_Name": "Wellbutrin",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00187073130": {
       "08/23/2017": 49.74135,

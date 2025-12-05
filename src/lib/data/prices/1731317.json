@@ -1,9 +1,13 @@
 {
   "RxCUI": "1731317",
-  "Name": "HUMULIN R 500 UNIT/ML KWIKPEN",
+  "Name": "3 ML insulin, regular, human 500 UNT/ML Pen Injector [Humulin R]",
   "IsBrand": true,
   "Brand_RxCUI": "1731317",
   "Generic_RxCUI": "1731315",
+  "Ingredient_Name": "Insulin, Regular, Human Untml Pen Injector",
+  "Manufacturer_Name": "Humulin R",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00002882427": {
       "05/19/2021": 91.85315,
@@ -33,7 +37,8 @@
       "07/23/2025": 91.68346,
       "08/20/2025": 91.66497,
       "09/17/2025": 91.68531,
-      "10/22/2025": 91.68839
+      "10/22/2025": 91.68839,
+      "11/19/2025": 91.68292
     }
   }
 }

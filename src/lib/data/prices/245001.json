@@ -1,9 +1,13 @@
 {
   "RxCUI": "245001",
-  "Name": "HEARTBURN RELIEF LIQUID",
+  "Name": "aluminum hydroxide 50.8 MG/ML / magnesium carbonate 47.5 MG/ML Oral Suspension",
   "IsBrand": false,
   "Brand_RxCUI": "404472",
   "Generic_RxCUI": "245001",
+  "Ingredient_Name": "Aluminum Hydroxide Mgml Magnesium Carbonate Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "50.8 MG/ML",
+  "Form": "Suspension",
   "prices": {
     "70000036301": {
       "08/21/2024": 0.01432,

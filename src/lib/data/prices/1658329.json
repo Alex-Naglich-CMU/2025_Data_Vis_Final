@@ -1,9 +1,13 @@
 {
   "RxCUI": "1658329",
-  "Name": "REXULTI 0.5 MG TABLET",
+  "Name": "brexpiprazole 0.5 MG Oral Tablet [Rexulti]",
   "IsBrand": true,
   "Brand_RxCUI": "1658329",
   "Generic_RxCUI": "1658327",
+  "Ingredient_Name": "Brexpiprazole",
+  "Manufacturer_Name": "Rexulti",
+  "Strength": "0.5 MG",
+  "Form": "",
   "prices": {
     "59148003613": {
       "02/21/2018": 32.20584,
@@ -32,7 +36,8 @@
       "07/23/2025": 48.36559,
       "08/20/2025": 48.36229,
       "09/17/2025": 48.35022,
-      "10/22/2025": 48.3659
+      "10/22/2025": 48.3659,
+      "11/19/2025": 48.36899
     }
   }
 }

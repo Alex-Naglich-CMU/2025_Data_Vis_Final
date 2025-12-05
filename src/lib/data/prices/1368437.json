@@ -1,9 +1,13 @@
 {
   "RxCUI": "1368437",
-  "Name": "OSENI 25-30 MG TABLET",
+  "Name": "alogliptin 25 MG / pioglitazone 30 MG Oral Tablet [Oseni]",
   "IsBrand": true,
   "Brand_RxCUI": "1368437",
   "Generic_RxCUI": "1368431",
+  "Ingredient_Name": "Alogliptin Pioglitazone",
+  "Manufacturer_Name": "Oseni",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "64764025303": {
       "01/17/2018": 12.03693,

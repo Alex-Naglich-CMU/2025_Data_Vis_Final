@@ -1,9 +1,13 @@
 {
   "RxCUI": "1364854",
-  "Name": "MULTIVIT-FLUOR 0.5 MG TAB CHEW",
+  "Name": "ascorbic acid 60 MG / cholecalciferol 0.01 MG / folic acid 0.3 MG / niacin 13.5 MG / riboflavin 1.2 MG / sodium fluoride 1.1 MG / thiamine 1.05 MG / vitamin A 0.75 MG / vitamin B12 0.0045 MG / vitamin B6 1.05 MG / vitamin E 6.75 MG Chewable Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1364854",
+  "Ingredient_Name": "Ascorbic Acid Cholecalciferol Folic Acid Niacin Riboflavin Sodium Fluoride Thiamine Vitamin A Vitamin B Vitamin B Vitamin E Chewable",
+  "Manufacturer_Name": "",
+  "Strength": "60 MG",
+  "Form": "Tablet",
   "prices": {
     "58657016401": {
       "05/19/2021": 0.10508,
@@ -84,7 +88,8 @@
       "07/23/2025": 0.0999,
       "08/20/2025": 0.09902,
       "09/17/2025": 0.09696,
-      "10/22/2025": 0.09488
+      "10/22/2025": 0.09488,
+      "11/19/2025": 0.09446
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "810075",
-  "Name": "TOVIAZ ER 4 MG TABLET",
+  "Name": "24 HR fesoterodine fumarate 4 MG Extended Release Oral Tablet [Toviaz]",
   "IsBrand": true,
   "Brand_RxCUI": "810075",
   "Generic_RxCUI": "810071",
+  "Ingredient_Name": "Hr Fesoterodine Fumarate Extended Release",
+  "Manufacturer_Name": "Toviaz",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00069024230": {
       "06/01/2017": 9.55357,
@@ -37,7 +41,8 @@
       "07/23/2025": 9.26964,
       "08/20/2025": 9.27236,
       "09/17/2025": 9.28344,
-      "10/22/2025": 9.26682
+      "10/22/2025": 9.26682,
+      "11/19/2025": 9.26495
     }
   }
 }

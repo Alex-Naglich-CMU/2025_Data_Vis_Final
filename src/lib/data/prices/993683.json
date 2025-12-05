@@ -1,9 +1,13 @@
 {
   "RxCUI": "993683",
-  "Name": "APLENZIN ER 522 MG TABLET",
+  "Name": "24 HR bupropion hydrobromide 522 MG Extended Release Oral Tablet [Aplenzin]",
   "IsBrand": true,
   "Brand_RxCUI": "993683",
   "Generic_RxCUI": "993681",
+  "Ingredient_Name": "Hr Bupropion Hydrobromide Extended Release",
+  "Manufacturer_Name": "Aplenzin",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00187581230": {
       "10/05/2017": 125.65187,

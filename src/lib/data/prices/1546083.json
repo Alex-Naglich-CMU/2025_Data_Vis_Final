@@ -1,9 +1,13 @@
 {
   "RxCUI": "1546083",
-  "Name": "STRIVERDI RESPIMAT INHAL SPRAY",
+  "Name": "60 ACTUAT olodaterol 0.0025 MG/ACTUAT Inhalation Spray [Striverdi]",
   "IsBrand": true,
   "Brand_RxCUI": "1546083",
   "Generic_RxCUI": "1546082",
+  "Ingredient_Name": "Actuat Olodaterol Mgactuat Inhalation",
+  "Manufacturer_Name": "Striverdi",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "00597019261": {
       "12/20/2017": 43.3815,
@@ -34,7 +38,8 @@
       "07/23/2025": 64.04102,
       "08/20/2025": 64.08068,
       "09/17/2025": 64.04576,
-      "10/22/2025": 64.0085
+      "10/22/2025": 64.0085,
+      "11/19/2025": 64.02784
     }
   }
 }

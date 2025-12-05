@@ -1,9 +1,13 @@
 {
   "RxCUI": "1087302",
-  "Name": "FOLIVANE-F CAPSULE",
+  "Name": "ascorbic acid 40 MG / ferrous fumarate 62.5 MG / folic acid 1 MG / niacin 3 MG / polysaccharide iron complex 62.5 MG Oral Capsule [Folivane-F]",
   "IsBrand": false,
   "Brand_RxCUI": "1087298",
   "Generic_RxCUI": "1087302",
+  "Ingredient_Name": "Ascorbic Acid Ferrous Fumarate Folic Acid Niacin Polysaccharide Iron Complex",
+  "Manufacturer_Name": "Folivane-F",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "13811053890": {
       "06/19/2024": 0.31332,
@@ -22,7 +26,8 @@
       "07/23/2025": 0.30876,
       "08/20/2025": 0.30691,
       "09/17/2025": 0.30532,
-      "10/22/2025": 0.30441
+      "10/22/2025": 0.30441,
+      "11/19/2025": 0.30405
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1992171",
-  "Name": "ADMELOG SOLOSTAR 100 UNIT/ML",
+  "Name": "3 ML insulin lispro 100 UNT/ML Pen Injector [Admelog]",
   "IsBrand": true,
   "Brand_RxCUI": "1992171",
   "Generic_RxCUI": "1652639",
+  "Ingredient_Name": "Insulin Lispro Untml Pen Injector",
+  "Manufacturer_Name": "Admelog",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00024592505": {
       "06/19/2019": 28.92514,
@@ -31,7 +35,8 @@
       "07/23/2025": 12.119,
       "08/20/2025": 12.11933,
       "09/17/2025": 12.1152,
-      "10/22/2025": 12.12022
+      "10/22/2025": 12.12022,
+      "11/19/2025": 12.11558
     },
     "24592505": {
       "1/1/2022": 12.14244

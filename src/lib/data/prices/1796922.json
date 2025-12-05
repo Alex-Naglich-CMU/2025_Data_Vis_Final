@@ -4,6 +4,10 @@
   "IsBrand": false,
   "Brand_RxCUI": "749860",
   "Generic_RxCUI": "1796922",
+  "Ingredient_Name": "Femynor",
+  "Manufacturer_Name": "",
+  "Strength": "28 TABL",
+  "Form": "TABLET",
   "prices": {
     "69238155106": {
       "05/19/2021": 0.20724,

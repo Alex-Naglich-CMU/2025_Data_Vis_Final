@@ -1,9 +1,13 @@
 {
   "RxCUI": "834350",
-  "Name": "PACERONE 400 MG TABLET",
+  "Name": "amiodarone hydrochloride 400 MG Oral Tablet [Pacerone]",
   "IsBrand": true,
   "Brand_RxCUI": "834350",
   "Generic_RxCUI": "834348",
+  "Ingredient_Name": "Amiodarone Hydrochloride",
+  "Manufacturer_Name": "Pacerone",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "00245164501": {
       "05/22/2024": 1.87546,

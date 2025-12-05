@@ -1,9 +1,13 @@
 {
   "RxCUI": "744632",
-  "Name": "AZOR 5-20 MG TABLET",
+  "Name": "amlodipine 5 MG / olmesartan medoxomil 20 MG Oral Tablet [Azor]",
   "IsBrand": true,
   "Brand_RxCUI": "744632",
   "Generic_RxCUI": "730869",
+  "Ingredient_Name": "Amlodipine Olmesartan Medoxomil",
+  "Manufacturer_Name": "Azor",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00713087030": {
       "07/17/2024": 11.69833,

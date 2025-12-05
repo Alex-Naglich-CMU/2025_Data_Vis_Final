@@ -1,11 +1,15 @@
 {
   "RxCUI": "860055",
-  "Name": "GAS-X ULTRA STRENGTH SOFTGEL",
+  "Name": "simethicone 180 MG Oral Capsule [Gas-X]",
   "IsBrand": true,
   "Brand_RxCUI": "860055",
   "Generic_RxCUI": "252294",
+  "Ingredient_Name": "Simethicone",
+  "Manufacturer_Name": "Gas-X",
+  "Strength": "180 MG",
+  "Form": "",
   "prices": {
-    "00067627450": {
+    "00067627418": {
       "01/17/2018": 0.25851,
       "09/19/2018": 0.26426,
       "10/17/2018": 0.25871,
@@ -13,7 +17,7 @@
       "08/21/2019": 0.25569,
       "09/18/2019": 0.26247
     },
-    "00067627418": {
+    "00067627450": {
       "01/17/2018": 0.25851,
       "09/19/2018": 0.26426,
       "10/17/2018": 0.25871,

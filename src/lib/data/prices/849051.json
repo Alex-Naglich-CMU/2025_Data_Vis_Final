@@ -1,9 +1,13 @@
 {
   "RxCUI": "849051",
-  "Name": "LAMICTAL ODT 25 MG TABLET",
+  "Name": "lamotrigine 25 MG Disintegrating Oral Tablet [Lamictal]",
   "IsBrand": true,
   "Brand_RxCUI": "849051",
   "Generic_RxCUI": "198430",
+  "Ingredient_Name": "Lamotrigine Disintegrating",
+  "Manufacturer_Name": "Lamictal",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "00173077202": {
       "08/21/2024": 12.77172,
@@ -16,7 +20,8 @@
       "07/23/2025": 12.799,
       "08/20/2025": 12.77392,
       "09/17/2025": 12.80738,
-      "10/22/2025": 12.83283
+      "10/22/2025": 12.83283,
+      "11/19/2025": 12.7965
     }
   }
 }

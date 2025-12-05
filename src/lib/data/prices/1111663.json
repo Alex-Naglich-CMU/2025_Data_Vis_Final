@@ -1,9 +1,13 @@
 {
   "RxCUI": "1111663",
-  "Name": "MUCINEX COUGH-CHEST CONG HBP",
+  "Name": "dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG Oral Capsule",
   "IsBrand": true,
   "Brand_RxCUI": "1111663",
-  "Generic_RxCUI": null,
+  "Generic_RxCUI": "",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide Guaifenesin",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG",
+  "Form": "Capsule",
   "prices": {
     "72854013716": {
       "06/19/2024": 0.77206

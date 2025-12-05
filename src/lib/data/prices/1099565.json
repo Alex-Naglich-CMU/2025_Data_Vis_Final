@@ -1,9 +1,13 @@
 {
   "RxCUI": "1099565",
-  "Name": "DEPAKOTE ER 250 MG TABLET",
+  "Name": "24 HR divalproex sodium 250 MG Extended Release Oral Tablet [Depakote]",
   "IsBrand": true,
   "Brand_RxCUI": "1099565",
   "Generic_RxCUI": "1099563",
+  "Ingredient_Name": "Hr Divalproex Sodium Extended Release",
+  "Manufacturer_Name": "Depakote",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00074740113": {
       "11/22/2023": 3.1891,
@@ -22,7 +26,8 @@
       "07/23/2025": 3.51885,
       "08/20/2025": 3.51943,
       "09/17/2025": 3.51711,
-      "10/22/2025": 3.51397
+      "10/22/2025": 3.51397,
+      "11/19/2025": 3.51312
     }
   }
 }

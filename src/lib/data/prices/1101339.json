@@ -1,9 +1,13 @@
 {
   "RxCUI": "1101339",
-  "Name": "HORIZANT ER 600 MG TABLET",
+  "Name": "gabapentin enacarbil 600 MG Extended Release Oral Tablet [Horizant]",
   "IsBrand": true,
   "Brand_RxCUI": "1101339",
   "Generic_RxCUI": "1101338",
+  "Ingredient_Name": "Gabapentin Enacarbil Extended Release",
+  "Manufacturer_Name": "Horizant",
+  "Strength": "600 MG",
+  "Form": "",
   "prices": {
     "53451010101": {
       "06/01/2017": 12.42121,
@@ -35,7 +39,8 @@
       "07/23/2025": 17.908,
       "08/20/2025": 17.91155,
       "09/17/2025": 17.91872,
-      "10/22/2025": 17.93297
+      "10/22/2025": 17.93297,
+      "11/19/2025": 17.92603
     }
   }
 }

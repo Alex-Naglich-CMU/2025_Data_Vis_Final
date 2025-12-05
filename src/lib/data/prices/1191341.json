@@ -1,9 +1,13 @@
 {
   "RxCUI": "1191341",
-  "Name": "FLEET PEDIA-LAX SUPPOSITORIES",
+  "Name": "glycerin 1000 MG Rectal Suppository [Pedia-Lax Liquid Glycerin Suppositories]",
   "IsBrand": true,
   "Brand_RxCUI": "1191341",
   "Generic_RxCUI": "252062",
+  "Ingredient_Name": "Glycerin Rectal",
+  "Manufacturer_Name": "Pedia-Lax Liquid Glycerin Suppositories",
+  "Strength": "1000 MG",
+  "Form": "",
   "prices": {
     "00132008112": {
       "06/21/2017": 0.10549,

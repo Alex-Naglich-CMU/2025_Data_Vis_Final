@@ -1,9 +1,13 @@
 {
   "RxCUI": "213224",
-  "Name": "CIPRO 5% SUSPENSION",
+  "Name": "ciprofloxacin 50 MG/ML Oral Suspension [Cipro]",
   "IsBrand": true,
   "Brand_RxCUI": "213224",
   "Generic_RxCUI": "309308",
+  "Ingredient_Name": "Ciprofloxacin Mgml",
+  "Manufacturer_Name": "Cipro",
+  "Strength": "50 MG/ML",
+  "Form": "",
   "prices": {
     "50419077701": {
       "08/23/2017": 1.18686,
@@ -29,7 +33,8 @@
       "07/23/2025": 1.25614,
       "08/20/2025": 1.2562,
       "09/17/2025": 1.25487,
-      "10/22/2025": 1.25498
+      "10/22/2025": 1.25498,
+      "11/19/2025": 1.25473
     }
   }
 }

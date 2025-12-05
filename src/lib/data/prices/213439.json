@@ -1,9 +1,13 @@
 {
   "RxCUI": "213439",
-  "Name": "DIURIL 250 MG/5 ML ORAL SUSP",
+  "Name": "chlorothiazide 50 MG/ML Oral Suspension [Diuril]",
   "IsBrand": true,
   "Brand_RxCUI": "213439",
   "Generic_RxCUI": "309198",
+  "Ingredient_Name": "Chlorothiazide Mgml",
+  "Manufacturer_Name": "Diuril",
+  "Strength": "50 MG/ML",
+  "Form": "",
   "prices": {
     "65649031112": {
       "08/23/2017": 0.25259,

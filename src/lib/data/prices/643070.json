@@ -1,9 +1,13 @@
 {
   "RxCUI": "643070",
-  "Name": "ATRIPLA TABLET",
+  "Name": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Atripla]",
   "IsBrand": true,
   "Brand_RxCUI": "643070",
   "Generic_RxCUI": "643066",
+  "Ingredient_Name": "Efavirenz Emtricitabine Tenofovir Disoproxil Fumarate",
+  "Manufacturer_Name": "Atripla",
+  "Strength": "600 MG",
+  "Form": "",
   "prices": {
     "15584010101": {
       "12/27/2017": 82.22363,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "637190",
-  "Name": "CHANTIX 1 MG TABLET",
+  "Name": "varenicline 1 MG Oral Tablet [Chantix]",
   "IsBrand": true,
   "Brand_RxCUI": "637190",
   "Generic_RxCUI": "636676",
+  "Ingredient_Name": "Varenicline",
+  "Manufacturer_Name": "Chantix",
+  "Strength": "1 MG",
+  "Form": "",
   "prices": {
     "00069046956": {
       "06/01/2017": 6.29093,

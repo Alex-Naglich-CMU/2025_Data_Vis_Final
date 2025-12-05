@@ -1,9 +1,13 @@
 {
   "RxCUI": "1670023",
-  "Name": "TRESIBA FLEXTOUCH 200 UNIT/ML",
+  "Name": "3 ML insulin degludec 200 UNT/ML Pen Injector [Tresiba]",
   "IsBrand": true,
   "Brand_RxCUI": "1670023",
   "Generic_RxCUI": "1670021",
+  "Ingredient_Name": "Insulin Degludec Untml Pen Injector",
+  "Manufacturer_Name": "Tresiba",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00169255013": {
       "06/23/2021": 65.09407,
@@ -34,7 +38,8 @@
       "07/23/2025": 65.04987,
       "08/20/2025": 65.04548,
       "09/17/2025": 65.04396,
-      "10/22/2025": 65.05045
+      "10/22/2025": 65.05045,
+      "11/19/2025": 65.03976
     }
   }
 }

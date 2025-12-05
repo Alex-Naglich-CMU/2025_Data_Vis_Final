@@ -1,9 +1,13 @@
 {
   "RxCUI": "1489932",
-  "Name": "GNP ANTIBACTRL-URINARY PAIN TB",
+  "Name": "methenamine 162 MG / sodium salicylate 162.5 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1721434",
   "Generic_RxCUI": "1489932",
+  "Ingredient_Name": "Methenamine Sodium Salicylate",
+  "Manufacturer_Name": "",
+  "Strength": "162 MG",
+  "Form": "Tablet",
   "prices": {
     "46122062262": {
       "04/17/2024": 0.1481,

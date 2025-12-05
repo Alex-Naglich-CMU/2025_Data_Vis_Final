@@ -1,9 +1,13 @@
 {
   "RxCUI": "1115898",
-  "Name": "SUMADAN 9%-4.5% WASH",
+  "Name": "sulfacetamide sodium 90 MG/ML / sulfur 45 MG/ML Medicated Liquid Soap [Sumadan Wash]",
   "IsBrand": true,
   "Brand_RxCUI": "1115898",
   "Generic_RxCUI": "1115894",
+  "Ingredient_Name": "Sulfacetamide Sodium Mgml Sulfur Mgml Medicated Soap",
+  "Manufacturer_Name": "Sumadan Wash",
+  "Strength": "90 MG/ML",
+  "Form": "",
   "prices": {
     "43538019016": {
       "12/29/2017": 1.33202,

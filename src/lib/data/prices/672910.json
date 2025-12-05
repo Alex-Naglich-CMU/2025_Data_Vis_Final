@@ -1,9 +1,13 @@
 {
   "RxCUI": "672910",
-  "Name": "EQUETRO 200 MG CAPSULE",
+  "Name": "12 HR carbamazepine 200 MG Extended Release Oral Capsule [Equetro]",
   "IsBrand": true,
   "Brand_RxCUI": "672910",
   "Generic_RxCUI": "200133",
+  "Ingredient_Name": "Hr Carbamazepine Extended Release",
+  "Manufacturer_Name": "Equetro",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "30698042112": {
       "05/22/2024": 4.1841,
@@ -21,7 +25,8 @@
       "05/21/2025": 4.16165,
       "06/18/2025": 4.16463,
       "08/20/2025": 4.16523,
-      "10/22/2025": 4.16367
+      "10/22/2025": 4.16367,
+      "11/19/2025": 4.16195
     }
   }
 }

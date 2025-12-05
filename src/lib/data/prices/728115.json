@@ -1,9 +1,13 @@
 {
   "RxCUI": "728115",
-  "Name": "TAMIFLU 45 MG CAPSULE",
+  "Name": "oseltamivir 45 MG Oral Capsule [Tamiflu]",
   "IsBrand": true,
   "Brand_RxCUI": "728115",
   "Generic_RxCUI": "728113",
+  "Ingredient_Name": "Oseltamivir",
+  "Manufacturer_Name": "Tamiflu",
+  "Strength": "45 MG",
+  "Form": "",
   "prices": {
     "00004080185": {
       "07/01/2017": 13.34806,

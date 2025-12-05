@@ -1,9 +1,13 @@
 {
   "RxCUI": "352317",
-  "Name": "STRATTERA 10 MG CAPSULE",
+  "Name": "atomoxetine 10 MG Oral Capsule [Strattera]",
   "IsBrand": true,
   "Brand_RxCUI": "352317",
   "Generic_RxCUI": "349591",
+  "Ingredient_Name": "Atomoxetine",
+  "Manufacturer_Name": "Strattera",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "00002322730": {
       "09/20/2017": 12.65413,

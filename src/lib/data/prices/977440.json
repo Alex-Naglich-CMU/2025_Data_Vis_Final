@@ -1,9 +1,13 @@
 {
   "RxCUI": "977440",
-  "Name": "ZORTRESS 0.75 MG TABLET",
+  "Name": "everolimus 0.75 MG Oral Tablet [Zortress]",
   "IsBrand": true,
   "Brand_RxCUI": "977440",
   "Generic_RxCUI": "977438",
+  "Ingredient_Name": "Everolimus",
+  "Manufacturer_Name": "Zortress",
+  "Strength": "0.75 MG",
+  "Form": "",
   "prices": {
     "00078041520": {
       "07/11/2017": 23.95171,

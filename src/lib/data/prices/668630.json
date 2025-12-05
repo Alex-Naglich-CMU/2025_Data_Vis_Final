@@ -1,9 +1,13 @@
 {
   "RxCUI": "668630",
-  "Name": "FENTORA 800 MCG BUCCAL TABLET",
+  "Name": "fentanyl 0.8 MG Buccal Tablet [Fentora]",
   "IsBrand": true,
   "Brand_RxCUI": "668630",
   "Generic_RxCUI": "668367",
+  "Ingredient_Name": "Fentanyl Buccal",
+  "Manufacturer_Name": "Fentora",
+  "Strength": "0.8 MG",
+  "Form": "",
   "prices": {
     "63459054804": {
       "01/01/2018": 140.07728,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1876014",
-  "Name": "ROWEEPRA XR 500 MG TABLET",
+  "Name": "24 HR levetiracetam 500 MG Extended Release Oral Tablet [Roweepra]",
   "IsBrand": false,
   "Brand_RxCUI": "807832",
   "Generic_RxCUI": "1876014",
+  "Ingredient_Name": "Hr Levetiracetam Extended Release",
+  "Manufacturer_Name": "Roweepra",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "69102020060": {
       "04/18/2018": 0.27201,

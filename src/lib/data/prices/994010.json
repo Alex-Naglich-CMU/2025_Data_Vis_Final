@@ -1,9 +1,13 @@
 {
   "RxCUI": "994010",
-  "Name": "VIMOVO DR 500-20 MG TABLET",
+  "Name": "esomeprazole 20 MG / naproxen 500 MG Delayed Release Oral Tablet [Vimovo]",
   "IsBrand": true,
   "Brand_RxCUI": "994010",
   "Generic_RxCUI": "994008",
+  "Ingredient_Name": "Esomeprazole Naproxen Delayed Release",
+  "Manufacturer_Name": "Vimovo",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "75987003004": {
       "09/20/2017": 35.90243,

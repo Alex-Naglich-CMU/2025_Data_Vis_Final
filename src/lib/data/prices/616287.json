@@ -1,9 +1,13 @@
 {
   "RxCUI": "616287",
-  "Name": "SUTENT 25 MG CAPSULE",
+  "Name": "sunitinib 25 MG Oral Capsule [Sutent]",
   "IsBrand": true,
   "Brand_RxCUI": "616287",
   "Generic_RxCUI": "616285",
+  "Ingredient_Name": "Sunitinib",
+  "Manufacturer_Name": "Sutent",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "00069077038": {
       "06/01/2017": 323.79582,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2465556",
-  "Name": "SUTAB 1.479-0.225-0.188 GM TAB",
+  "Name": "magnesium sulfate 225 MG / potassium chloride 188 MG / sodium sulfate 1479 MG Oral Tablet [Sutab]",
   "IsBrand": true,
   "Brand_RxCUI": "2465556",
   "Generic_RxCUI": "2465554",
+  "Ingredient_Name": "Magnesium Potassium Chloride Sodium",
+  "Manufacturer_Name": "Sutab",
+  "Strength": "225 MG",
+  "Form": "",
   "prices": {
     "52268020101": {
       "12/22/2021": 6.00453,
@@ -25,7 +29,8 @@
       "07/23/2025": 6.73966,
       "08/20/2025": 6.73448,
       "09/17/2025": 6.72998,
-      "10/22/2025": 6.73211
+      "10/22/2025": 6.73211,
+      "11/19/2025": 6.72679
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1010931",
-  "Name": "BURN RELIEF 0.5% SPRAY",
+  "Name": "lidocaine hydrochloride 5 MG/ML Topical Spray",
   "IsBrand": false,
   "Brand_RxCUI": "1011767",
   "Generic_RxCUI": "1010931",
+  "Ingredient_Name": "Lidocaine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "37205061311": {
       "07/19/2017": 0.0235,

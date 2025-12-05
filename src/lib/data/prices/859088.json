@@ -1,9 +1,13 @@
 {
   "RxCUI": "859088",
-  "Name": "VENTOLIN HFA 90 MCG INHALER",
+  "Name": "NDA020983 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [Ventolin]",
   "IsBrand": true,
   "Brand_RxCUI": "859088",
   "Generic_RxCUI": "2123076",
+  "Ingredient_Name": "Nda Actuat Albuterol Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Ventolin",
+  "Strength": "200 ACTU",
+  "Form": "",
   "prices": {
     "00173068220": {
       "06/23/2021": 2.95283,
@@ -34,7 +38,8 @@
       "07/23/2025": 3.03684,
       "08/20/2025": 3.03636,
       "09/17/2025": 3.0365,
-      "10/22/2025": 3.03672
+      "10/22/2025": 3.03672,
+      "11/19/2025": 3.03662
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "212390",
-  "Name": "COREG 25 MG TABLET",
+  "Name": "carvedilol 25 MG Oral Tablet [Coreg]",
   "IsBrand": true,
   "Brand_RxCUI": "212390",
   "Generic_RxCUI": "200033",
+  "Ingredient_Name": "Carvedilol",
+  "Manufacturer_Name": "Coreg",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "00007414220": {
       "01/01/2018": 4.60648,

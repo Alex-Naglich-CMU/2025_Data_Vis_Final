@@ -1,9 +1,13 @@
 {
   "RxCUI": "1099871",
-  "Name": "DEPAKOTE DR 500 MG TABLET",
+  "Name": "divalproex sodium 500 MG Delayed Release Oral Tablet [Depakote]",
   "IsBrand": true,
   "Brand_RxCUI": "1099871",
   "Generic_RxCUI": "1099870",
+  "Ingredient_Name": "Divalproex Sodium Delayed Release",
+  "Manufacturer_Name": "Depakote",
+  "Strength": "500 MG",
+  "Form": "",
   "prices": {
     "00074732713": {
       "01/03/2023": 6.45559,
@@ -23,7 +27,8 @@
       "07/23/2025": 7.12659,
       "08/20/2025": 7.12798,
       "09/17/2025": 7.12224,
-      "10/22/2025": 7.11783
+      "10/22/2025": 7.11783,
+      "11/19/2025": 7.11474
     }
   }
 }

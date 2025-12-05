@@ -1,9 +1,13 @@
 {
   "RxCUI": "1482912",
-  "Name": "NOXAFIL DR 100 MG TABLET",
+  "Name": "posaconazole 100 MG Delayed Release Oral Tablet [Noxafil]",
   "IsBrand": true,
   "Brand_RxCUI": "1482912",
   "Generic_RxCUI": "1482908",
+  "Ingredient_Name": "Posaconazole Delayed Release",
+  "Manufacturer_Name": "Noxafil",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "00085432402": {
       "09/20/2017": 60.2704,

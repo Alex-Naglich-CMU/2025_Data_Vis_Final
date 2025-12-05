@@ -1,9 +1,13 @@
 {
   "RxCUI": "1191058",
-  "Name": "ONFI 20 MG TABLET",
+  "Name": "clobazam 20 MG Oral Tablet [Onfi]",
   "IsBrand": true,
   "Brand_RxCUI": "1191058",
   "Generic_RxCUI": "246172",
+  "Ingredient_Name": "Clobazam",
+  "Manufacturer_Name": "Onfi",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "67386031501": {
       "06/23/2021": 46.30276,
@@ -32,7 +36,8 @@
       "07/23/2025": 59.94184,
       "08/20/2025": 60.00645,
       "09/17/2025": 60.07623,
-      "10/22/2025": 59.91154
+      "10/22/2025": 59.91154,
+      "11/19/2025": 59.92534
     }
   }
 }

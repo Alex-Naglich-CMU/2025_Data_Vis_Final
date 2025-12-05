@@ -1,9 +1,13 @@
 {
   "RxCUI": "995443",
-  "Name": "MAR-COF CG LIQUID",
+  "Name": "codeine phosphate 1.5 MG/ML / guaifenesin 45 MG/ML Oral Solution [Mar-cof CG]",
   "IsBrand": false,
   "Brand_RxCUI": "995441",
   "Generic_RxCUI": "995443",
+  "Ingredient_Name": "Codeine Phosphate Mgml Guaifenesin Mgml",
+  "Manufacturer_Name": "Mar-cof CG",
+  "Strength": "1.5 MG/ML",
+  "Form": "",
   "prices": {
     "00682047516": {
       "06/21/2017": 0.14381,

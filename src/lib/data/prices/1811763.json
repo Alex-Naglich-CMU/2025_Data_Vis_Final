@@ -4,6 +4,10 @@
   "IsBrand": false,
   "Brand_RxCUI": "748961",
   "Generic_RxCUI": "1811763",
+  "Ingredient_Name": "Norlyda",
+  "Manufacturer_Name": "",
+  "Strength": "0.35 MG",
+  "Form": "TABLET",
   "prices": {
     "69238158306": {
       "05/19/2021": 0.22327,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "352050",
-  "Name": "VIREAD 300 MG TABLET",
+  "Name": "tenofovir disoproxil fumarate 300 MG Oral Tablet [Viread]",
   "IsBrand": true,
   "Brand_RxCUI": "352050",
   "Generic_RxCUI": "349251",
+  "Ingredient_Name": "Tenofovir Disoproxil Fumarate",
+  "Manufacturer_Name": "Viread",
+  "Strength": "300 MG",
+  "Form": "",
   "prices": {
     "61958040101": {
       "01/01/2018": 36.64468,
@@ -28,7 +32,8 @@
       "07/23/2025": 40.58297,
       "08/20/2025": 40.61547,
       "09/17/2025": 40.66147,
-      "10/22/2025": 40.67378
+      "10/22/2025": 40.67378,
+      "11/19/2025": 40.72019
     }
   }
 }

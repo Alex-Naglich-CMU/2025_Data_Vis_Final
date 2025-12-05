@@ -1,9 +1,13 @@
 {
   "RxCUI": "1653225",
-  "Name": "ENBREL 50 MG/ML SURECLICK",
+  "Name": "1 ML etanercept 50 MG/ML Auto-Injector [Enbrel]",
   "IsBrand": true,
   "Brand_RxCUI": "1653225",
   "Generic_RxCUI": "1653223",
+  "Ingredient_Name": "Etanercept Mgml Auto-Injector",
+  "Manufacturer_Name": "Enbrel",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "58406003204": {
       "01/17/2020": 1352.2991,
@@ -26,7 +30,8 @@
       "07/23/2025": 1984.2803,
       "08/20/2025": 1984.16311,
       "09/17/2025": 1984.16942,
-      "10/22/2025": 1984.06299
+      "10/22/2025": 1984.06299,
+      "11/19/2025": 1984.08975
     }
   }
 }

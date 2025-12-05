@@ -1,9 +1,13 @@
 {
   "RxCUI": "1722355",
-  "Name": "VIVLODEX 5 MG CAPSULE",
+  "Name": "meloxicam 5 MG Oral Capsule [Vivlodex]",
   "IsBrand": true,
   "Brand_RxCUI": "1722355",
   "Generic_RxCUI": "1722349",
+  "Ingredient_Name": "Meloxicam",
+  "Manufacturer_Name": "Vivlodex",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "42211020523": {
       "11/22/2017": 20.84314,

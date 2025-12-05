@@ -1,9 +1,13 @@
 {
   "RxCUI": "1010755",
-  "Name": "XYLOCAINE 1%-EPI 1:100,000",
+  "Name": "epinephrine 0.01 MG/ML / lidocaine hydrochloride 10 MG/ML Injectable Solution [Xylocaine with Epinephrine]",
   "IsBrand": true,
   "Brand_RxCUI": "1010755",
   "Generic_RxCUI": "1010751",
+  "Ingredient_Name": "Epinephrine Mgml Lidocaine Hydrochloride Mgml Injectable",
+  "Manufacturer_Name": "Xylocaine with Epinephrine",
+  "Strength": "0.01 MG/ML",
+  "Form": "",
   "prices": {
     "63323048226": {
       "02/01/2025": 0.2721

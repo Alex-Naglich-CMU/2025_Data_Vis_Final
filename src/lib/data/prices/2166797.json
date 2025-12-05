@@ -1,9 +1,13 @@
 {
   "RxCUI": "2166797",
-  "Name": "PROAIR DIGIHALER 90 MCG INHALR",
+  "Name": "Sensor 200 ACTUAT albuterol 0.09 MG/ACTUAT Dry Powder Inhaler [ProAir]",
   "IsBrand": true,
   "Brand_RxCUI": "2166797",
   "Generic_RxCUI": "2166796",
+  "Ingredient_Name": "Sensor Actuat Albuterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "ProAir",
+  "Strength": "200 ACTU",
+  "Form": "",
   "prices": {
     "59310011720": {
       "1/1/2022": 148.84125,

@@ -1,15 +1,19 @@
 {
   "RxCUI": "402105",
-  "Name": "INSPRA 50 MG TABLET",
+  "Name": "eplerenone 50 MG Oral Tablet [Inspra]",
   "IsBrand": true,
   "Brand_RxCUI": "402105",
   "Generic_RxCUI": "351257",
+  "Ingredient_Name": "Eplerenone",
+  "Manufacturer_Name": "Inspra",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
-    "00025172003": {
+    "00025172001": {
       "06/01/2017": 9.99902,
       "01/01/2018": 10.94285
     },
-    "00025172001": {
+    "00025172003": {
       "06/01/2017": 9.99902,
       "01/01/2018": 10.94285
     }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "966795",
-  "Name": "SILENOR 6 MG TABLET",
+  "Name": "doxepin 6 MG Oral Tablet [Silenor]",
   "IsBrand": true,
   "Brand_RxCUI": "966795",
   "Generic_RxCUI": "966793",
+  "Ingredient_Name": "Doxepin",
+  "Manufacturer_Name": "Silenor",
+  "Strength": "6 MG",
+  "Form": "",
   "prices": {
     "42847010630": {
       "01/02/2018": 13.68891,

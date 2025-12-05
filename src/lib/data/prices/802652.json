@@ -1,9 +1,13 @@
 {
   "RxCUI": "802652",
-  "Name": "ENBREL 50 MG/ML SYRINGE",
+  "Name": "1 ML etanercept 50 MG/ML Prefilled Syringe [Enbrel]",
   "IsBrand": true,
   "Brand_RxCUI": "802652",
   "Generic_RxCUI": "727757",
+  "Ingredient_Name": "Etanercept Mgml Prefilled",
+  "Manufacturer_Name": "Enbrel",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "58406002104": {
       "01/17/2020": 1353.94866,
@@ -25,7 +29,8 @@
       "07/23/2025": 1981.35924,
       "08/20/2025": 1980.81297,
       "09/17/2025": 1980.9669,
-      "10/22/2025": 1981.26291
+      "10/22/2025": 1981.26291,
+      "11/19/2025": 1981.6125
     }
   }
 }

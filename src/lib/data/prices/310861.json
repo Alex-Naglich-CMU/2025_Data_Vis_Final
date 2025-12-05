@@ -1,9 +1,13 @@
 {
   "RxCUI": "310861",
-  "Name": "HYDROCORTISONE 0.5% OINTMENT",
+  "Name": "hydrocortisone 0.005 MG/MG Topical Ointment",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "310861",
+  "Ingredient_Name": "Hydrocortisone Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.005 MG/MG",
+  "Form": "Ointment",
   "prices": {
     "00168001631": {
       "06/21/2017": 0.13092,

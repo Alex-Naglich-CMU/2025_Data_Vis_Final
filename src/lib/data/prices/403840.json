@@ -1,9 +1,13 @@
 {
   "RxCUI": "403840",
-  "Name": "MINOCYCLINE HCL 75 MG TABLET",
+  "Name": "minocycline 75 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "403840",
+  "Ingredient_Name": "Minocycline",
+  "Manufacturer_Name": "",
+  "Strength": "75 MG",
+  "Form": "Tablet",
   "prices": {
     "13668048601": {
       "08/21/2024": 0.37764,

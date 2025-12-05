@@ -1,9 +1,13 @@
 {
   "RxCUI": "1876609",
-  "Name": "SYMPROIC 0.2 MG TABLET",
+  "Name": "naldemedine 0.2 MG Oral Tablet [Symproic]",
   "IsBrand": true,
   "Brand_RxCUI": "1876609",
   "Generic_RxCUI": "1876603",
+  "Ingredient_Name": "Naldemedine",
+  "Manufacturer_Name": "Symproic",
+  "Strength": "0.2 MG",
+  "Form": "",
   "prices": {
     "59385004130": {
       "09/18/2019": 11.48681,
@@ -29,7 +33,8 @@
       "07/23/2025": 15.50755,
       "08/20/2025": 15.50848,
       "09/17/2025": 15.51466,
-      "10/22/2025": 15.50447
+      "10/22/2025": 15.50447,
+      "11/19/2025": 15.50437
     }
   }
 }

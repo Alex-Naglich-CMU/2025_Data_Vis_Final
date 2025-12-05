@@ -1,9 +1,13 @@
 {
   "RxCUI": "207850",
-  "Name": "TOBREX 0.3% EYE OINTMENT",
+  "Name": "tobramycin 0.003 MG/MG Ophthalmic Ointment [Tobrex]",
   "IsBrand": true,
   "Brand_RxCUI": "207850",
   "Generic_RxCUI": "313414",
+  "Ingredient_Name": "Tobramycin Mgmg",
+  "Manufacturer_Name": "Tobrex",
+  "Strength": "0.003 MG/MG",
+  "Form": "",
   "prices": {
     "00065064435": {
       "06/23/2021": 58.74743,
@@ -36,7 +40,8 @@
       "07/23/2025": 76.47828,
       "08/20/2025": 76.44571,
       "09/17/2025": 76.45925,
-      "10/22/2025": 76.41195
+      "10/22/2025": 76.41195,
+      "11/19/2025": 76.54137
     }
   }
 }

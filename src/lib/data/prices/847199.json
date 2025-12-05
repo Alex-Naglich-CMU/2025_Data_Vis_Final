@@ -1,9 +1,13 @@
 {
   "RxCUI": "847199",
-  "Name": "HUMULIN N 100 UNITS/ML KWIKPEN",
+  "Name": "3 ML insulin isophane, human 100 UNT/ML Pen Injector [Humulin N]",
   "IsBrand": true,
   "Brand_RxCUI": "847199",
   "Generic_RxCUI": "1654862",
+  "Ingredient_Name": "Insulin Isophane, Human Untml Pen Injector",
+  "Manufacturer_Name": "Humulin N",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00002880559": {
       "06/21/2017": 30.54451,
@@ -33,7 +37,8 @@
       "07/23/2025": 9.03852,
       "08/20/2025": 9.03808,
       "09/17/2025": 9.04036,
-      "10/22/2025": 9.0387
+      "10/22/2025": 9.0387,
+      "11/19/2025": 9.03677
     }
   }
 }

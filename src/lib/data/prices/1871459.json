@@ -1,9 +1,13 @@
 {
   "RxCUI": "1871459",
-  "Name": "VYVANSE 40 MG CHEWABLE TABLET",
+  "Name": "lisdexamfetamine dimesylate 40 MG Chewable Tablet [Vyvanse]",
   "IsBrand": true,
   "Brand_RxCUI": "1871459",
   "Generic_RxCUI": "1871456",
+  "Ingredient_Name": "Lisdexamfetamine Dimesylate Chewable",
+  "Manufacturer_Name": "Vyvanse",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "59417011801": {
       "04/01/2019": 9.80249,
@@ -32,7 +36,8 @@
       "07/23/2025": 12.36582,
       "08/20/2025": 12.36551,
       "09/17/2025": 12.36209,
-      "10/22/2025": 12.36945
+      "10/22/2025": 12.36945,
+      "11/19/2025": 12.36862
     }
   }
 }

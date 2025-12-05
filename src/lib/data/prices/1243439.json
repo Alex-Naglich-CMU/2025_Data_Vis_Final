@@ -1,9 +1,13 @@
 {
   "RxCUI": "1243439",
-  "Name": "MAPAP ARTHRITIS ER 650 MG CPLT",
+  "Name": "8 HR acetaminophen 650 MG Extended Release Oral Tablet [Mapap]",
   "IsBrand": false,
   "Brand_RxCUI": "1148399",
   "Generic_RxCUI": "1243439",
+  "Ingredient_Name": "Hr Acetaminophen Extended Release",
+  "Manufacturer_Name": "Mapap",
+  "Strength": "8 HR",
+  "Form": "",
   "prices": {
     "00904576960": {
       "05/19/2021": 0.06105,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "284408",
-  "Name": "ZONEGRAN 100 MG CAPSULE",
+  "Name": "zonisamide 100 MG Oral Capsule [Zonegran]",
   "IsBrand": true,
   "Brand_RxCUI": "284408",
   "Generic_RxCUI": "314285",
+  "Ingredient_Name": "Zonisamide",
+  "Manufacturer_Name": "Zonegran",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "59212068010": {
       "08/23/2017": 13.57559,

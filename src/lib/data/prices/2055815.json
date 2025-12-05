@@ -1,9 +1,13 @@
 {
   "RxCUI": "2055815",
-  "Name": "DELSTRIGO 100-300-300 MG TAB",
+  "Name": "doravirine 100 MG / lamivudine 300 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Delstrigo]",
   "IsBrand": true,
   "Brand_RxCUI": "2055815",
   "Generic_RxCUI": "2055813",
+  "Ingredient_Name": "Doravirine Lamivudine Tenofovir Disoproxil Fumarate",
+  "Manufacturer_Name": "Delstrigo",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "00006500701": {
       "01/06/2024": 86.82113,
@@ -21,7 +25,8 @@
       "07/23/2025": 90.85431,
       "08/20/2025": 90.70671,
       "09/17/2025": 90.68086,
-      "10/22/2025": 90.68881
+      "10/22/2025": 90.68881,
+      "11/19/2025": 90.71467
     }
   }
 }

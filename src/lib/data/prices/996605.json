@@ -1,9 +1,13 @@
 {
   "RxCUI": "996605",
-  "Name": "NAMENDA XR 21 MG CAPSULE",
+  "Name": "24 HR memantine hydrochloride 21 MG Extended Release Oral Capsule [Namenda]",
   "IsBrand": true,
   "Brand_RxCUI": "996605",
   "Generic_RxCUI": "996603",
+  "Ingredient_Name": "Hr Memantine Hydrochloride Extended Release",
+  "Manufacturer_Name": "Namenda",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00456342133": {
       "11/22/2017": 12.42082,

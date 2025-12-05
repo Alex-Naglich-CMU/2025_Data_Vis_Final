@@ -1,9 +1,13 @@
 {
   "RxCUI": "213475",
-  "Name": "PROCRIT 40,000 UNITS/ML VIAL",
+  "Name": "1 ML epoetin alfa 40000 UNT/ML Injection [Procrit]",
   "IsBrand": true,
   "Brand_RxCUI": "213475",
   "Generic_RxCUI": "242706",
+  "Ingredient_Name": "Epoetin Alfa Untml",
+  "Manufacturer_Name": "Procrit",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "59676034001": {
       "10/18/2017": 945.4915,
@@ -26,7 +30,8 @@
       "06/18/2025": 1035.57611,
       "07/23/2025": 1037.57167,
       "09/17/2025": 1035.14525,
-      "10/22/2025": 1033.34925
+      "10/22/2025": 1033.34925,
+      "11/19/2025": 1031.4075
     }
   }
 }

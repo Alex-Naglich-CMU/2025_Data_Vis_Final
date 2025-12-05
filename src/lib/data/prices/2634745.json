@@ -1,9 +1,13 @@
 {
   "RxCUI": "2634745",
-  "Name": "GRALISE ER 900 MG TABLET",
+  "Name": "Once-Daily gabapentin 900 MG Oral Tablet [Gralise]",
   "IsBrand": true,
   "Brand_RxCUI": "2634745",
   "Generic_RxCUI": "2634743",
+  "Ingredient_Name": "Once-Daily Gabapentin",
+  "Manufacturer_Name": "Gralise",
+  "Strength": "900 MG",
+  "Form": "",
   "prices": {
     "52427089060": {
       "05/22/2024": 15.20483,
@@ -21,7 +25,8 @@
       "06/18/2025": 15.31536,
       "07/23/2025": 15.3352,
       "08/20/2025": 15.34826,
-      "10/22/2025": 15.32878
+      "10/22/2025": 15.32878,
+      "11/19/2025": 15.33067
     }
   }
 }

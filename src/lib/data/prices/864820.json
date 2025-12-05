@@ -1,9 +1,13 @@
 {
   "RxCUI": "864820",
-  "Name": "GELNIQUE 10% GEL SACHET",
+  "Name": "oxybutynin chloride 0.1 MG/MG Topical Gel [Gelnique]",
   "IsBrand": true,
   "Brand_RxCUI": "864820",
   "Generic_RxCUI": "864818",
+  "Ingredient_Name": "Oxybutynin Chloride Mgmg",
+  "Manufacturer_Name": "Gelnique",
+  "Strength": "0.1 MG/MG",
+  "Form": "",
   "prices": {
     "00023586111": {
       "05/22/2024": 12.56474

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1014024",
-  "Name": "SOLODYN ER 80 MG TABLET",
+  "Name": "24 HR minocycline 80 MG Extended Release Oral Tablet [Solodyn]",
   "IsBrand": true,
   "Brand_RxCUI": "1014024",
   "Generic_RxCUI": "1013665",
+  "Ingredient_Name": "Hr Minocycline Extended Release",
+  "Manufacturer_Name": "Solodyn",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "99207046630": {
       "01/05/2018": 39.05993,

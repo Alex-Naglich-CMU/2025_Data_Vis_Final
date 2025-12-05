@@ -1,9 +1,13 @@
 {
   "RxCUI": "404432",
-  "Name": "RAPAMUNE 2 MG TABLET",
+  "Name": "sirolimus 2 MG Oral Tablet [Rapamune]",
   "IsBrand": true,
   "Brand_RxCUI": "404432",
   "Generic_RxCUI": "360110",
+  "Ingredient_Name": "Sirolimus",
+  "Manufacturer_Name": "Rapamune",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "00008104205": {
       "06/01/2017": 54.36931,

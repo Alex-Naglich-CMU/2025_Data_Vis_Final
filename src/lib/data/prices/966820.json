@@ -1,9 +1,13 @@
 {
   "RxCUI": "966820",
-  "Name": "APEXICON E 0.05% CREAM",
+  "Name": "diflorasone diacetate 0.5 MG/ML Topical Cream [Apexicon]",
   "IsBrand": true,
   "Brand_RxCUI": "966820",
   "Generic_RxCUI": "966577",
+  "Ingredient_Name": "Diflorasone Diacetate Mgml",
+  "Manufacturer_Name": "Apexicon",
+  "Strength": "0.5 MG/ML",
+  "Form": "",
   "prices": {
     "10337039530": {
       "12/31/2017": 18.86506

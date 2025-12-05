@@ -1,9 +1,13 @@
 {
   "RxCUI": "997170",
-  "Name": "CODEINE SULFATE 15 MG TABLET",
+  "Name": "codeine sulfate 15 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "997170",
+  "Ingredient_Name": "Codeine",
+  "Manufacturer_Name": "",
+  "Strength": "15 MG",
+  "Form": "Tablet",
   "prices": {
     "00054024324": {
       "05/22/2024": 0.66855,
@@ -23,7 +27,8 @@
       "07/23/2025": 0.68518,
       "08/20/2025": 0.68511,
       "09/17/2025": 0.68478,
-      "10/22/2025": 0.68455
+      "10/22/2025": 0.68455,
+      "11/19/2025": 0.68457
     }
   }
 }

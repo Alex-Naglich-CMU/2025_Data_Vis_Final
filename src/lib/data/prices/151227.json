@@ -1,9 +1,13 @@
 {
   "RxCUI": "151227",
-  "Name": "TOPAMAX 50 MG TABLET",
+  "Name": "topiramate 50 MG Oral Tablet [Topamax]",
   "IsBrand": true,
   "Brand_RxCUI": "151227",
   "Generic_RxCUI": "151226",
+  "Ingredient_Name": "Topiramate",
+  "Manufacturer_Name": "Topamax",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "50458064065": {
       "01/03/2018": 10.79617,
@@ -32,7 +36,8 @@
       "07/23/2025": 12.76304,
       "08/20/2025": 12.74642,
       "09/17/2025": 12.7574,
-      "10/22/2025": 12.72404
+      "10/22/2025": 12.72404,
+      "11/19/2025": 12.72133
     }
   }
 }

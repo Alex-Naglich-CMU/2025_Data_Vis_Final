@@ -1,9 +1,13 @@
 {
   "RxCUI": "247463",
-  "Name": "MUCINEX INSTASOOTHE CMFT 2.4 MG",
+  "Name": "hexylresorcinol 2.4 MG Oral Lozenge",
   "IsBrand": true,
   "Brand_RxCUI": "247463",
   "Generic_RxCUI": "1039673",
+  "Ingredient_Name": "Hexylresorcinol Lozenge",
+  "Manufacturer_Name": "",
+  "Strength": "2.4 MG",
+  "Form": "",
   "prices": {
     "72854026120": {
       "03/22/2023": 0.1232,

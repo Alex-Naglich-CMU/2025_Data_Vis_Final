@@ -1,9 +1,13 @@
 {
   "RxCUI": "200820",
-  "Name": "ALDACTONE 25 MG TABLET",
+  "Name": "spironolactone 25 MG Oral Tablet [Aldactone]",
   "IsBrand": true,
   "Brand_RxCUI": "200820",
   "Generic_RxCUI": "313096",
+  "Ingredient_Name": "Spironolactone",
+  "Manufacturer_Name": "Aldactone",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "00025100131": {
       "06/01/2017": 2.25814,

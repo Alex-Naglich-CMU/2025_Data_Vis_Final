@@ -1,9 +1,13 @@
 {
   "RxCUI": "1243026",
-  "Name": "JENTADUETO 2.5 MG-1,000 MG TAB",
+  "Name": "linagliptin 2.5 MG / metformin hydrochloride 1000 MG Oral Tablet [Jentadueto]",
   "IsBrand": true,
   "Brand_RxCUI": "1243026",
   "Generic_RxCUI": "1243020",
+  "Ingredient_Name": "Linagliptin Metformin Hydrochloride",
+  "Manufacturer_Name": "Jentadueto",
+  "Strength": "2.5 MG",
+  "Form": "",
   "prices": {
     "00597014818": {
       "01/03/2018": 6.59523,
@@ -36,7 +40,8 @@
       "07/23/2025": 8.43347,
       "08/20/2025": 8.43325,
       "09/17/2025": 8.43474,
-      "10/22/2025": 8.43445
+      "10/22/2025": 8.43445,
+      "11/19/2025": 8.43799
     },
     "00597014860": {
       "01/03/2018": 6.59523,
@@ -69,7 +74,8 @@
       "07/23/2025": 8.43347,
       "08/20/2025": 8.43325,
       "09/17/2025": 8.43474,
-      "10/22/2025": 8.43445
+      "10/22/2025": 8.43445,
+      "11/19/2025": 8.43799
     }
   }
 }

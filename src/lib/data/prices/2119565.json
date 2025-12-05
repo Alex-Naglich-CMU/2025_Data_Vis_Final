@@ -1,9 +1,13 @@
 {
   "RxCUI": "2119565",
-  "Name": "ADHANSIA XR 35 MG CAPSULE",
+  "Name": "20/80 Release 24 HR methylphenidate hydrochloride 35 MG Extended Release Oral Capsule [Adhansia]",
   "IsBrand": true,
   "Brand_RxCUI": "2119565",
   "Generic_RxCUI": "2119563",
+  "Ingredient_Name": "Release Hr Methylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "Adhansia",
+  "Strength": "80 Rele",
+  "Form": "",
   "prices": {
     "72912053530": {
       "01/01/2022": 10.95747,

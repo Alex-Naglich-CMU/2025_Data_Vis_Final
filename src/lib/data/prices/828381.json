@@ -1,9 +1,13 @@
 {
   "RxCUI": "828381",
-  "Name": "TRILIPIX DR 45 MG CAPSULE",
+  "Name": "fenofibric acid 45 MG Delayed Release Oral Capsule [Trilipix]",
   "IsBrand": true,
   "Brand_RxCUI": "828381",
   "Generic_RxCUI": "828379",
+  "Ingredient_Name": "Fenofibric Acid Delayed Release",
+  "Manufacturer_Name": "Trilipix",
+  "Strength": "45 MG",
+  "Form": "",
   "prices": {
     "00074316190": {
       "12/22/2017": 2.66186

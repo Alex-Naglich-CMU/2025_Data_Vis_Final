@@ -1,9 +1,13 @@
 {
   "RxCUI": "284496",
-  "Name": "TAZORAC 0.05% CREAM",
+  "Name": "tazarotene 0.5 MG/ML Topical Cream [Tazorac]",
   "IsBrand": true,
   "Brand_RxCUI": "284496",
   "Generic_RxCUI": "314268",
+  "Ingredient_Name": "Tazarotene Mgml",
+  "Manufacturer_Name": "Tazorac",
+  "Strength": "0.5 MG/ML",
+  "Form": "",
   "prices": {
     "00023915530": {
       "12/20/2017": 10.8991,

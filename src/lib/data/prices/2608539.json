@@ -1,9 +1,13 @@
 {
   "RxCUI": "2608539",
-  "Name": "ZORYVE 0.3% CREAM",
+  "Name": "roflumilast 3 MG/ML Topical Cream [Zoryve]",
   "IsBrand": true,
   "Brand_RxCUI": "2608539",
   "Generic_RxCUI": "2608534",
+  "Ingredient_Name": "Roflumilast Mgml",
+  "Manufacturer_Name": "Zoryve",
+  "Strength": "3 MG/ML",
+  "Form": "",
   "prices": {
     "80610013060": {
       "11/16/2023": 13.77123,
@@ -19,7 +23,8 @@
       "07/23/2025": 14.80394,
       "08/20/2025": 14.80747,
       "09/17/2025": 14.80546,
-      "10/22/2025": 14.79818
+      "10/22/2025": 14.79818,
+      "11/19/2025": 14.79913
     }
   }
 }

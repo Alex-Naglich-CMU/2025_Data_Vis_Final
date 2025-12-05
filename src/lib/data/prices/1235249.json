@@ -1,9 +1,13 @@
 {
   "RxCUI": "1235249",
-  "Name": "LATUDA 20 MG TABLET",
+  "Name": "lurasidone hydrochloride 20 MG Oral Tablet [Latuda]",
   "IsBrand": true,
   "Brand_RxCUI": "1235249",
   "Generic_RxCUI": "1235247",
+  "Ingredient_Name": "Lurasidone Hydrochloride",
+  "Manufacturer_Name": "Latuda",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "63402030230": {
       "01/01/2018": 39.04274,
@@ -34,7 +38,8 @@
       "07/23/2025": 45.11132,
       "08/20/2025": 45.13609,
       "09/17/2025": 45.22235,
-      "10/22/2025": 45.23598
+      "10/22/2025": 45.23598,
+      "11/19/2025": 45.22844
     }
   }
 }

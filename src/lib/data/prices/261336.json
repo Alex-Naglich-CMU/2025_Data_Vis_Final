@@ -1,9 +1,13 @@
 {
   "RxCUI": "261336",
-  "Name": "KEPPRA 500 MG TABLET",
+  "Name": "levetiracetam 500 MG Oral Tablet [Keppra]",
   "IsBrand": true,
   "Brand_RxCUI": "261336",
   "Generic_RxCUI": "311289",
+  "Ingredient_Name": "Levetiracetam",
+  "Manufacturer_Name": "Keppra",
+  "Strength": "500 MG",
+  "Form": "",
   "prices": {
     "50474059540": {
       "05/19/2021": 8.04308,
@@ -42,7 +46,8 @@
       "07/23/2025": 9.66633,
       "08/20/2025": 9.67258,
       "09/17/2025": 9.66877,
-      "10/22/2025": 9.67175
+      "10/22/2025": 9.67175,
+      "11/19/2025": 9.66821
     }
   }
 }

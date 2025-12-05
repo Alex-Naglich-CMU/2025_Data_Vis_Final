@@ -1,9 +1,13 @@
 {
   "RxCUI": "545276",
-  "Name": "MENOSTAR 14 MCG/DAY PATCH",
+  "Name": "168 HR estradiol 0.000583 MG/HR Transdermal System [Menostar]",
   "IsBrand": true,
   "Brand_RxCUI": "545276",
   "Generic_RxCUI": "476545",
+  "Ingredient_Name": "Hr Estradiol Mghr Transdermal System",
+  "Manufacturer_Name": "Menostar",
+  "Strength": "168 HR",
+  "Form": "",
   "prices": {
     "50419045504": {
       "09/20/2017": 35.1995,
@@ -25,7 +29,8 @@
       "07/23/2025": 38.95475,
       "08/20/2025": 38.93883,
       "09/17/2025": 38.95167,
-      "10/22/2025": 38.88971
+      "10/22/2025": 38.88971,
+      "11/19/2025": 38.8566
     }
   }
 }

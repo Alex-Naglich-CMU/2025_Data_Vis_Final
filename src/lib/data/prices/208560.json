@@ -1,9 +1,13 @@
 {
   "RxCUI": "208560",
-  "Name": "BETIMOL 0.25% EYE DROPS",
+  "Name": "timolol hemihydrate 2.5 MG/ML Ophthalmic Solution [Betimol]",
   "IsBrand": true,
   "Brand_RxCUI": "208560",
   "Generic_RxCUI": "2702398",
+  "Ingredient_Name": "Timolol Hemihydrate Mgml",
+  "Manufacturer_Name": "Betimol",
+  "Strength": "2.5 MG/ML",
+  "Form": "",
   "prices": {
     "82584000105": {
       "05/22/2024": 28.28714,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1593058",
-  "Name": "DAPAGLIFLOZIN-METFORMIN ER 10-1,000 MG TABLET",
+  "Name": "24 HR dapagliflozin 10 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1593775",
   "Generic_RxCUI": "1593058",
+  "Ingredient_Name": "Hr Dapagliflozin Metformin Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "66993036230": {
       "05/22/2024": 11.08562,
@@ -23,7 +27,8 @@
       "07/23/2025": 11.77219,
       "08/20/2025": 11.89771,
       "09/17/2025": 11.85636,
-      "10/22/2025": 11.74578
+      "10/22/2025": 11.74578,
+      "11/19/2025": 11.60856
     }
   }
 }

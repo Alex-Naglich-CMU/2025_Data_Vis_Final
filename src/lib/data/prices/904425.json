@@ -1,9 +1,13 @@
 {
   "RxCUI": "904425",
-  "Name": "ALENDRONATE SODIUM 5 MG TABLET",
+  "Name": "alendronic acid 5 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "904425",
+  "Ingredient_Name": "Alendronic Acid",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG",
+  "Form": "Tablet",
   "prices": {
     "00093514001": {
       "09/20/2017": 0.15324,

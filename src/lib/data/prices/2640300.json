@@ -1,12 +1,17 @@
 {
   "RxCUI": "2640300",
-  "Name": "HADLIMA PUSHTOUCH 40 MG/0.8 ML",
+  "Name": "0.8 ML adalimumab-bwwd 50 MG/ML Auto-Injector [Hadlima]",
   "IsBrand": true,
   "Brand_RxCUI": "2640300",
   "Generic_RxCUI": "2640287",
+  "Ingredient_Name": "Adalimumab-Bwwd Mgml Auto-Injector",
+  "Manufacturer_Name": "Hadlima",
+  "Strength": "0.8 ML",
+  "Form": "",
   "prices": {
     "78206018401": {
-      "10/22/2025": 632.24125
+      "10/22/2025": 632.24125,
+      "11/19/2025": 632.28958
     }
   }
 }

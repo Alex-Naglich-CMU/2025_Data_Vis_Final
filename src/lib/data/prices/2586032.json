@@ -1,9 +1,13 @@
 {
   "RxCUI": "2586032",
-  "Name": "DHIVY 25-100 MG TABLET",
+  "Name": "carbidopa 25 MG / levodopa 100 MG Oral Tablet [Dhivy]",
   "IsBrand": true,
   "Brand_RxCUI": "2586032",
   "Generic_RxCUI": "197444",
+  "Ingredient_Name": "Carbidopa Levodopa",
+  "Manufacturer_Name": "Dhivy",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "75854070101": {
       "08/21/2024": 3.12497,

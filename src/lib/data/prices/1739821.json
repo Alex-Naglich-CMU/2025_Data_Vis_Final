@@ -1,9 +1,13 @@
 {
   "RxCUI": "1739821",
-  "Name": "ADZENYS XR-ODT 18.8 MG TABLET",
+  "Name": "24 HR amphetamine 18.8 MG Extended Release Oral Tablet [Adzenys]",
   "IsBrand": true,
   "Brand_RxCUI": "1739821",
   "Generic_RxCUI": "1739819",
+  "Ingredient_Name": "Hr Amphetamine Extended Release",
+  "Manufacturer_Name": "Adzenys",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "70165003030": {
       "01/02/2018": 10.14068,

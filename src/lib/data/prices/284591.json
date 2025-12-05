@@ -1,9 +1,13 @@
 {
   "RxCUI": "284591",
-  "Name": "CELEXA 10 MG TABLET",
+  "Name": "citalopram 10 MG Oral Tablet [Celexa]",
   "IsBrand": true,
   "Brand_RxCUI": "284591",
   "Generic_RxCUI": "283672",
+  "Ingredient_Name": "Citalopram",
+  "Manufacturer_Name": "Celexa",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "00456401001": {
       "01/01/2018": 8.45538,

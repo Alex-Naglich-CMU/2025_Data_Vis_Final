@@ -1,15 +1,21 @@
 {
   "RxCUI": "2265732",
-  "Name": "SECUADO 5.7 MG/24 HR PATCH",
+  "Name": "24 HR asenapine 0.238 MG/HR Transdermal System [Secuado]",
   "IsBrand": true,
   "Brand_RxCUI": "2265732",
   "Generic_RxCUI": "2261750",
+  "Ingredient_Name": "Hr Asenapine Mghr Transdermal System",
+  "Manufacturer_Name": "Secuado",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "68968017301": {
-      "01/01/2025": 46.02962
+      "01/01/2025": 46.02962,
+      "11/19/2025": 46.69787
     },
     "68968017303": {
-      "01/01/2025": 46.02962
+      "01/01/2025": 46.02962,
+      "11/19/2025": 46.69787
     }
   }
 }

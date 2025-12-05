@@ -1,9 +1,13 @@
 {
   "RxCUI": "284404",
-  "Name": "TIKOSYN 125 MCG CAPSULE",
+  "Name": "dofetilide 0.125 MG Oral Capsule [Tikosyn]",
   "IsBrand": true,
   "Brand_RxCUI": "284404",
   "Generic_RxCUI": "310003",
+  "Ingredient_Name": "Dofetilide",
+  "Manufacturer_Name": "Tikosyn",
+  "Strength": "0.125 MG",
+  "Form": "",
   "prices": {
     "00069580043": {
       "06/01/2017": 9.00929,

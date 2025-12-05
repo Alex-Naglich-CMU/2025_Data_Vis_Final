@@ -1,9 +1,13 @@
 {
   "RxCUI": "1488569",
-  "Name": "DAPAGLIFLOZIN 10 MG TABLET",
+  "Name": "dapagliflozin 10 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1486977",
   "Generic_RxCUI": "1488569",
+  "Ingredient_Name": "Dapagliflozin",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG",
+  "Form": "Tablet",
   "prices": {
     "66993045730": {
       "05/22/2024": 11.60358,
@@ -23,7 +27,8 @@
       "07/23/2025": 11.55263,
       "08/20/2025": 11.5408,
       "09/17/2025": 11.51347,
-      "10/22/2025": 11.48991
+      "10/22/2025": 11.48991,
+      "11/19/2025": 11.46311
     }
   }
 }

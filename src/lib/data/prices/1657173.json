@@ -1,9 +1,13 @@
 {
   "RxCUI": "1657173",
-  "Name": "SUMATRIPTAN 4 MG/0.5 ML INJECT",
+  "Name": "0.5 ML sumatriptan 8 MG/ML Cartridge",
   "IsBrand": false,
   "Brand_RxCUI": "758523",
   "Generic_RxCUI": "1657173",
+  "Ingredient_Name": "Sumatriptan Mgml Cartridge",
+  "Manufacturer_Name": "",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "66993008398": {
       "07/21/2021": 158.20143,

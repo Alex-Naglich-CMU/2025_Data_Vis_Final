@@ -1,9 +1,13 @@
 {
   "RxCUI": "866049",
-  "Name": "SEREVENT DISKUS 50 MCG",
+  "Name": "60 ACTUAT salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Serevent]",
   "IsBrand": true,
   "Brand_RxCUI": "866049",
   "Generic_RxCUI": "866048",
+  "Ingredient_Name": "Actuat Salmeterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Serevent",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "00173052100": {
       "11/22/2017": 5.61886,
@@ -36,7 +40,8 @@
       "07/23/2025": 6.75903,
       "08/20/2025": 6.75816,
       "09/17/2025": 6.75416,
-      "10/22/2025": 6.75405
+      "10/22/2025": 6.75405,
+      "11/19/2025": 6.75006
     }
   }
 }

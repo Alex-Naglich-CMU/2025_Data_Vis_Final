@@ -1,13 +1,14 @@
 {
   "RxCUI": "1659967",
-  "Name": "FLU-SEVERE COLD-COUGH DAY PKT",
+  "Name": "acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1659967",
+  "Ingredient_Name": "Acetaminophen Dextromethorphan Hydrobromide Phenylephrine Hydrochloride Granules For",
+  "Manufacturer_Name": "",
+  "Strength": "650 MG",
+  "Form": "Solution",
   "prices": {
-    "36800009691": {
-      "06/23/2021": 0.53267
-    },
     "00113009691": {
       "06/23/2021": 0.53267,
       "04/18/2018": 0.53633,
@@ -25,6 +26,9 @@
       "10/21/2020": 0.54125,
       "01/20/2021": 0.54,
       "02/17/2021": 0.53222
+    },
+    "36800009691": {
+      "06/23/2021": 0.53267
     }
   }
 }

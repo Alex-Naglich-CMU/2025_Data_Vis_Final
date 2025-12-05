@@ -1,9 +1,13 @@
 {
   "RxCUI": "2670447",
-  "Name": "ZITUVIO 100 MG TABLET",
+  "Name": "sitagliptin 100 MG Oral Tablet [Zituvio]",
   "IsBrand": true,
   "Brand_RxCUI": "2670447",
   "Generic_RxCUI": "665033",
+  "Ingredient_Name": "Sitagliptin",
+  "Manufacturer_Name": "Zituvio",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "70710124203": {
       "04/23/2025": 10.09238,
@@ -12,7 +16,8 @@
       "07/23/2025": 10.07163,
       "08/20/2025": 10.07096,
       "09/17/2025": 10.0754,
-      "10/22/2025": 10.08046
+      "10/22/2025": 10.08046,
+      "11/19/2025": 10.0807
     }
   }
 }

@@ -1,13 +1,14 @@
 {
   "RxCUI": "309058",
-  "Name": "CEFIXIME 100 MG/5 ML SUSP",
+  "Name": "cefixime 20 MG/ML Oral Suspension",
   "IsBrand": false,
   "Brand_RxCUI": "581574",
   "Generic_RxCUI": "309058",
+  "Ingredient_Name": "Cefixime Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "20 MG/ML",
+  "Form": "Suspension",
   "prices": {
-    "68180040501": {
-      "12/06/2017": 3.00664
-    },
     "43598067350": {
       "12/06/2017": 3.00664
     },
@@ -22,7 +23,11 @@
       "07/23/2025": 2.14584,
       "08/20/2025": 2.17535,
       "09/17/2025": 2.2147,
-      "10/22/2025": 2.17254
+      "10/22/2025": 2.17254,
+      "11/19/2025": 2.21494
+    },
+    "68180040501": {
+      "12/06/2017": 3.00664
     }
   }
 }

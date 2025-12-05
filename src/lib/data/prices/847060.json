@@ -1,9 +1,13 @@
 {
   "RxCUI": "847060",
-  "Name": "BENICAR HCT 20-12.5 MG TABLET",
+  "Name": "hydrochlorothiazide 12.5 MG / olmesartan medoxomil 20 MG Oral Tablet [Benicar HCT]",
   "IsBrand": true,
   "Brand_RxCUI": "847060",
   "Generic_RxCUI": "403853",
+  "Ingredient_Name": "Hydrochlorothiazide Olmesartan Medoxomil",
+  "Manufacturer_Name": "Benicar HCT",
+  "Strength": "12.5 MG",
+  "Form": "",
   "prices": {
     "00713086330": {
       "09/01/2023": 9.35904,

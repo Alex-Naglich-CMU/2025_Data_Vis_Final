@@ -1,9 +1,13 @@
 {
   "RxCUI": "2262727",
-  "Name": "ABSORICA LD 32 MG CAPSULE",
+  "Name": "Micronized isotretinoin 32 MG Oral Capsule [Absorica]",
   "IsBrand": true,
   "Brand_RxCUI": "2262727",
   "Generic_RxCUI": "2262725",
+  "Ingredient_Name": "Micronized Isotretinoin",
+  "Manufacturer_Name": "Absorica",
+  "Strength": "32 MG",
+  "Form": "",
   "prices": {
     "10631000731": {
       "05/22/2024": 42.34885,

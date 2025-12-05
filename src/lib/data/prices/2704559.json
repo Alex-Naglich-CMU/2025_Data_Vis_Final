@@ -4,11 +4,16 @@
   "IsBrand": false,
   "Brand_RxCUI": "1607990",
   "Generic_RxCUI": "2704559",
+  "Ingredient_Name": "Galbriela - Chew Tb",
+  "Manufacturer_Name": "",
+  "Strength": "0.025 MG",
+  "Form": "",
   "prices": {
     "70700030685": {
       "08/20/2025": 1.86592,
       "09/17/2025": 1.87897,
-      "10/22/2025": 1.78313
+      "10/22/2025": 1.78313,
+      "11/19/2025": 1.81022
     }
   }
 }

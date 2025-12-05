@@ -1,9 +1,13 @@
 {
   "RxCUI": "1487363",
-  "Name": "COPAXONE 40 MG/ML SYRINGE",
+  "Name": "1 ML glatiramer acetate 40 MG/ML Prefilled Syringe [Copaxone]",
   "IsBrand": true,
   "Brand_RxCUI": "1487363",
   "Generic_RxCUI": "1487361",
+  "Ingredient_Name": "Glatiramer Mgml Prefilled",
+  "Manufacturer_Name": "Copaxone",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "68546032512": {
       "07/21/2021": 472.31097,
@@ -32,7 +36,8 @@
       "07/23/2025": 496.18719,
       "08/20/2025": 496.2132,
       "09/17/2025": 495.851,
-      "10/22/2025": 495.33674
+      "10/22/2025": 495.33674,
+      "11/19/2025": 495.16641
     }
   }
 }

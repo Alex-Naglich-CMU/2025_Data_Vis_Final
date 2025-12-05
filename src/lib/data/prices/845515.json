@@ -1,9 +1,13 @@
 {
   "RxCUI": "845515",
-  "Name": "EVEROLIMUS 5 MG TABLET",
+  "Name": "everolimus 5 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "2685206",
   "Generic_RxCUI": "845515",
+  "Ingredient_Name": "Everolimus",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG",
+  "Form": "Tablet",
   "prices": {
     "00054048113": {
       "11/20/2024": 23.31271,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1808224",
-  "Name": "PROPOFOL 200 MG/20 ML VIAL",
+  "Name": "20 ML propofol 10 MG/ML Injection",
   "IsBrand": false,
   "Brand_RxCUI": "1808225",
   "Generic_RxCUI": "1808224",
+  "Ingredient_Name": "Propofol Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "20 ML",
+  "Form": "Injection",
   "prices": {
     "00409601025": {
       "07/17/2024": 0.14215,

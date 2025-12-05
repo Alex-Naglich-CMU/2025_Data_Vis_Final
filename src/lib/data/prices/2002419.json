@@ -1,9 +1,13 @@
 {
   "RxCUI": "2002419",
-  "Name": "INSULIN GLARGINE MAX SOLO U300",
+  "Name": "3 ML insulin glargine 300 UNT/ML Pen Injector",
   "IsBrand": false,
   "Brand_RxCUI": "2002420",
   "Generic_RxCUI": "2002419",
+  "Ingredient_Name": "Insulin Glargine Untml Pen Injector",
+  "Manufacturer_Name": "",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00955290002": {
       "05/22/2024": 36.68442,
@@ -23,7 +27,8 @@
       "07/23/2025": 36.66518,
       "08/20/2025": 36.63873,
       "09/17/2025": 36.67009,
-      "10/22/2025": 36.67975
+      "10/22/2025": 36.67975,
+      "11/19/2025": 36.68193
     }
   }
 }

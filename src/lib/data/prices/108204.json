@@ -1,9 +1,13 @@
 {
   "RxCUI": "108204",
-  "Name": "BETADINE 5% SPRAY",
+  "Name": "povidone-iodine 50 MG/ML Topical Spray [Betadine]",
   "IsBrand": true,
   "Brand_RxCUI": "108204",
   "Generic_RxCUI": "238850",
+  "Ingredient_Name": "Povidone-Iodine Mgml",
+  "Manufacturer_Name": "Betadine",
+  "Strength": "50 MG/ML",
+  "Form": "",
   "prices": {
     "67618016003": {
       "05/22/2019": 0.06773,

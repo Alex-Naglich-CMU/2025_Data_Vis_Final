@@ -1,9 +1,13 @@
 {
   "RxCUI": "1737761",
-  "Name": "LIDOCAINE HCL 2% 100 MG/5 ML",
+  "Name": "5 ML lidocaine hydrochloride 20 MG/ML Injection",
   "IsBrand": false,
   "Brand_RxCUI": "1737762",
   "Generic_RxCUI": "1737761",
+  "Ingredient_Name": "Lidocaine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "5 ML",
+  "Form": "Injection",
   "prices": {
     "00409206605": {
       "05/22/2024": 0.39633,

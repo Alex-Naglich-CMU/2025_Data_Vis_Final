@@ -1,9 +1,13 @@
 {
   "RxCUI": "1649491",
-  "Name": "CORLANOR 5 MG TABLET",
+  "Name": "ivabradine 5 MG Oral Tablet [Corlanor]",
   "IsBrand": true,
   "Brand_RxCUI": "1649491",
   "Generic_RxCUI": "1649485",
+  "Ingredient_Name": "Ivabradine",
+  "Manufacturer_Name": "Corlanor",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "55513080060": {
       "06/21/2017": 6.59727,

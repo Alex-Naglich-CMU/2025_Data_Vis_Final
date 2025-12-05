@@ -1,9 +1,13 @@
 {
   "RxCUI": "1539891",
-  "Name": "BREO ELLIPTA 100-25 MCG INH",
+  "Name": "14 ACTUAT fluticasone furoate 0.1 MG/ACTUAT / vilanterol 0.025 MG/ACTUAT Dry Powder Inhaler [Breo]",
   "IsBrand": true,
   "Brand_RxCUI": "1539891",
   "Generic_RxCUI": "1424899",
+  "Ingredient_Name": "Actuat Fluticasone Furoate Mgactuat Vilanterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Breo",
+  "Strength": "14 ACTU",
+  "Form": "",
   "prices": {
     "00173085914": {
       "01/01/2018": 4.51936,
@@ -31,7 +35,8 @@
       "07/23/2025": 5.38571,
       "08/20/2025": 5.37746,
       "09/17/2025": 5.37598,
-      "10/22/2025": 5.37847
+      "10/22/2025": 5.37847,
+      "11/19/2025": 5.37832
     }
   }
 }

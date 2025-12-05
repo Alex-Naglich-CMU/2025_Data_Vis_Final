@@ -1,9 +1,13 @@
 {
   "RxCUI": "857004",
-  "Name": "NORCO 5-325 TABLET",
+  "Name": "acetaminophen 325 MG / hydrocodone bitartrate 5 MG Oral Tablet [Norco]",
   "IsBrand": true,
   "Brand_RxCUI": "857004",
   "Generic_RxCUI": "857002",
+  "Ingredient_Name": "Acetaminophen Hydrocodone Bitartrate",
+  "Manufacturer_Name": "Norco",
+  "Strength": "325 MG",
+  "Form": "",
   "prices": {
     "52544007101": {
       "01/01/2018": 2.83974

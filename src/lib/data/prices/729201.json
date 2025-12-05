@@ -1,9 +1,13 @@
 {
   "RxCUI": "729201",
-  "Name": "SELZENTRY 150 MG TABLET",
+  "Name": "maraviroc 150 MG Oral Tablet [Selzentry]",
   "IsBrand": true,
   "Brand_RxCUI": "729201",
   "Generic_RxCUI": "728223",
+  "Ingredient_Name": "Maraviroc",
+  "Manufacturer_Name": "Selzentry",
+  "Strength": "150 MG",
+  "Form": "",
   "prices": {
     "49702022318": {
       "01/01/2018": 24.18705,
@@ -28,7 +32,8 @@
       "07/23/2025": 27.9336,
       "08/20/2025": 27.89755,
       "09/17/2025": 27.9336,
-      "10/22/2025": 27.91357
+      "10/22/2025": 27.91357,
+      "11/19/2025": 27.93792
     }
   }
 }

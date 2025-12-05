@@ -1,9 +1,13 @@
 {
   "RxCUI": "1433241",
-  "Name": "FETZIMA ER 80 MG CAPSULE",
+  "Name": "24 HR levomilnacipran 80 MG Extended Release Oral Capsule [Fetzima]",
   "IsBrand": true,
   "Brand_RxCUI": "1433241",
   "Generic_RxCUI": "1433239",
+  "Ingredient_Name": "Hr Levomilnacipran Extended Release",
+  "Manufacturer_Name": "Fetzima",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00456228030": {
       "11/22/2017": 10.44208,
@@ -33,7 +37,8 @@
       "07/23/2025": 16.80784,
       "08/20/2025": 16.80411,
       "09/17/2025": 16.80063,
-      "10/22/2025": 16.80654
+      "10/22/2025": 16.80654,
+      "11/19/2025": 16.80786
     }
   }
 }

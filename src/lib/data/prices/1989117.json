@@ -1,9 +1,13 @@
 {
   "RxCUI": "1989117",
-  "Name": "SYMJEPI 0.3 MG/0.3 ML SYRINGE",
+  "Name": "0.3 ML epinephrine 1 MG/ML Prefilled Syringe [Symjepi]",
   "IsBrand": true,
   "Brand_RxCUI": "1989117",
   "Generic_RxCUI": "1989112",
+  "Ingredient_Name": "Epinephrine Mgml Prefilled",
+  "Manufacturer_Name": "Symjepi",
+  "Strength": "0.3 ML",
+  "Form": "",
   "prices": {
     "00781344220": {
       "06/17/2020": 120.45333

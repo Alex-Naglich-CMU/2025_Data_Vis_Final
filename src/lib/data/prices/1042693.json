@@ -1,9 +1,13 @@
 {
   "RxCUI": "1042693",
-  "Name": "CAPCOF LIQUID",
+  "Name": "chlorpheniramine maleate 0.4 MG/ML / codeine phosphate 2 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution",
   "IsBrand": true,
   "Brand_RxCUI": "1042693",
-  "Generic_RxCUI": null,
+  "Generic_RxCUI": "",
+  "Ingredient_Name": "Chlorpheniramine Maleate Mgml Codeine Phosphate Mgml Phenylephrine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.4 MG/ML",
+  "Form": "Solution",
   "prices": {
     "29978042016": {
       "01/17/2018": 0.07525,

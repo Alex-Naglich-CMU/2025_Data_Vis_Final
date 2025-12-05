@@ -1,9 +1,13 @@
 {
   "RxCUI": "213167",
-  "Name": "ZOMIG 5 MG TABLET",
+  "Name": "zolmitriptan 5 MG Oral Tablet [Zomig]",
   "IsBrand": true,
   "Brand_RxCUI": "213167",
   "Generic_RxCUI": "200194",
+  "Ingredient_Name": "Zolmitriptan",
+  "Manufacturer_Name": "Zomig",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "64896067250": {
       "07/03/2017": 94.16332

@@ -1,9 +1,13 @@
 {
   "RxCUI": "577040",
-  "Name": "CALCIUM CARBONATE 648 MG TAB",
+  "Name": "calcium carbonate 648 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "577040",
+  "Ingredient_Name": "Calcium Carbonate",
+  "Manufacturer_Name": "",
+  "Strength": "648 MG",
+  "Form": "Tablet",
   "prices": {
     "00536120610": {
       "09/18/2024": 0.0073,
@@ -16,7 +20,8 @@
       "04/23/2025": 0.0083,
       "08/20/2025": 0.00786,
       "09/17/2025": 0.00792,
-      "10/22/2025": 0.0079
+      "10/22/2025": 0.0079,
+      "11/19/2025": 0.00789
     }
   }
 }

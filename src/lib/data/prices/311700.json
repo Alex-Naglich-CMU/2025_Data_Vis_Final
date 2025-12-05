@@ -1,9 +1,13 @@
 {
   "RxCUI": "311700",
-  "Name": "MIDAZOLAM HCL 2 MG/2 ML VIAL",
+  "Name": "midazolam 1 MG/ML Injectable Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "311700",
+  "Ingredient_Name": "Midazolam Mgml Injectable",
+  "Manufacturer_Name": "",
+  "Strength": "1 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00641605725": {
       "11/20/2024": 0.19777,

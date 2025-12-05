@@ -1,9 +1,13 @@
 {
   "RxCUI": "1659960",
-  "Name": "THERAFLU NT SEVERE CLD-CGH PKT",
+  "Name": "acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution",
   "IsBrand": true,
   "Brand_RxCUI": "1659960",
-  "Generic_RxCUI": null,
+  "Generic_RxCUI": "",
+  "Ingredient_Name": "Acetaminophen Diphenhydramine Hydrochloride Phenylephrine Hydrochloride Granules For",
+  "Manufacturer_Name": "",
+  "Strength": "650 MG",
+  "Form": "Solution",
   "prices": {
     "00067791806": {
       "06/21/2017": 0.85967,

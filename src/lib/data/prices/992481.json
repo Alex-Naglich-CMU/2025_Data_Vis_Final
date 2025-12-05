@@ -1,9 +1,13 @@
 {
   "RxCUI": "992481",
-  "Name": "PROMETHEGAN 50 MG SUPPOSITORY",
+  "Name": "promethazine hydrochloride 50 MG Rectal Suppository [Promethegan]",
   "IsBrand": false,
   "Brand_RxCUI": "992478",
   "Generic_RxCUI": "992481",
+  "Ingredient_Name": "Promethazine Hydrochloride Rectal",
+  "Manufacturer_Name": "Promethegan",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "00713013212": {
       "12/18/2024": 23.07217,
@@ -15,7 +19,8 @@
       "07/23/2025": 25.91387,
       "08/20/2025": 26.4064,
       "09/17/2025": 26.1407,
-      "10/22/2025": 25.82259
+      "10/22/2025": 25.82259,
+      "11/19/2025": 25.09202
     }
   }
 }

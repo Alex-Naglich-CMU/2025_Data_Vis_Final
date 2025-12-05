@@ -1,9 +1,13 @@
 {
   "RxCUI": "854882",
-  "Name": "AMBIEN CR 12.5 MG TABLET",
+  "Name": "zolpidem tartrate 12.5 MG Extended Release Oral Tablet [Ambien]",
   "IsBrand": true,
   "Brand_RxCUI": "854882",
   "Generic_RxCUI": "854880",
+  "Ingredient_Name": "Zolpidem Tartrate Extended Release",
+  "Manufacturer_Name": "Ambien",
+  "Strength": "12.5 MG",
+  "Form": "",
   "prices": {
     "00024552131": {
       "02/21/2018": 16.08956,

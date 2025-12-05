@@ -1,9 +1,13 @@
 {
   "RxCUI": "827075",
-  "Name": "BYSTOLIC 20 MG TABLET",
+  "Name": "nebivolol 20 MG Oral Tablet [Bystolic]",
   "IsBrand": true,
   "Brand_RxCUI": "827075",
   "Generic_RxCUI": "827073",
+  "Ingredient_Name": "Nebivolol",
+  "Manufacturer_Name": "Bystolic",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "00456142030": {
       "11/22/2017": 3.82706,
@@ -47,7 +51,8 @@
       "07/23/2025": 6.11191,
       "08/20/2025": 6.11604,
       "09/17/2025": 6.12097,
-      "10/22/2025": 6.11856
+      "10/22/2025": 6.11856,
+      "11/19/2025": 6.11346
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1361538",
-  "Name": "BENZEDREX INHALER",
+  "Name": "propylhexedrine 250 MG/ACTUAT Nasal Inhalant [Benzedrex]",
   "IsBrand": true,
   "Brand_RxCUI": "1361538",
   "Generic_RxCUI": "1361536",
+  "Ingredient_Name": "Propylhexedrine Mgactuat Nasal Inhalant",
+  "Manufacturer_Name": "Benzedrex",
+  "Strength": "250 MG/ACTU",
+  "Form": "",
   "prices": {
     "00225061023": {
       "07/19/2017": 3.32591,

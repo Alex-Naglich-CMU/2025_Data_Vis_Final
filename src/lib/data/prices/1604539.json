@@ -1,9 +1,13 @@
 {
   "RxCUI": "1604539",
-  "Name": "INSULIN GLARGINE SOLOSTAR U300",
+  "Name": "1.5 ML insulin glargine 300 UNT/ML Pen Injector",
   "IsBrand": false,
   "Brand_RxCUI": "1604544",
   "Generic_RxCUI": "1604539",
+  "Ingredient_Name": "Insulin Glargine Untml Pen Injector",
+  "Manufacturer_Name": "",
+  "Strength": "1.5 ML",
+  "Form": "",
   "prices": {
     "00955390003": {
       "05/22/2024": 36.64922,
@@ -23,7 +27,8 @@
       "07/23/2025": 36.6246,
       "08/20/2025": 36.683,
       "09/17/2025": 36.70393,
-      "10/22/2025": 36.70495
+      "10/22/2025": 36.70495,
+      "11/19/2025": 36.63367
     }
   }
 }

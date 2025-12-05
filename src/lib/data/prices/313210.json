@@ -1,9 +1,13 @@
 {
   "RxCUI": "313210",
-  "Name": "TEMOZOLOMIDE 250 MG CAPSULE",
+  "Name": "temozolomide 250 MG Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "261291",
   "Generic_RxCUI": "313210",
+  "Ingredient_Name": "Temozolomide",
+  "Manufacturer_Name": "",
+  "Strength": "250 MG",
+  "Form": "Capsule",
   "prices": {
     "16571082151": {
       "08/20/2025": 21.8992,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "828359",
-  "Name": "AMRIX ER 15 MG CAPSULE",
+  "Name": "24 HR cyclobenzaprine hydrochloride 15 MG Extended Release Oral Capsule [Amrix]",
   "IsBrand": true,
   "Brand_RxCUI": "828359",
   "Generic_RxCUI": "828358",
+  "Ingredient_Name": "Hr Cyclobenzaprine Hydrochloride Extended Release",
+  "Manufacturer_Name": "Amrix",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "63459070060": {
       "11/22/2017": 31.66831,

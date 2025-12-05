@@ -1,9 +1,13 @@
 {
   "RxCUI": "2621717",
-  "Name": "CLINDACIN 1% FOAM",
+  "Name": "clindamycin 10 MG/ML Topical Foam [Clindacin]",
   "IsBrand": false,
   "Brand_RxCUI": "477451",
   "Generic_RxCUI": "2621717",
+  "Ingredient_Name": "Clindamycin Mgml",
+  "Manufacturer_Name": "Clindacin",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "43538017910": {
       "05/22/2024": 3.69568,
@@ -23,7 +27,8 @@
       "07/23/2025": 3.26756,
       "08/20/2025": 3.46073,
       "09/17/2025": 3.47886,
-      "10/22/2025": 3.24573
+      "10/22/2025": 3.24573,
+      "11/19/2025": 3.04215
     }
   }
 }

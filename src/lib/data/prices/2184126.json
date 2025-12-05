@@ -1,9 +1,13 @@
 {
   "RxCUI": "2184126",
-  "Name": "KATERZIA 1 MG/ML SUSPENSION",
+  "Name": "amlodipine 1 MG/ML Oral Suspension [Katerzia]",
   "IsBrand": true,
   "Brand_RxCUI": "2184126",
   "Generic_RxCUI": "2184120",
+  "Ingredient_Name": "Amlodipine Mgml",
+  "Manufacturer_Name": "Katerzia",
+  "Strength": "1 MG/ML",
+  "Form": "",
   "prices": {
     "52652500101": {
       "09/01/2020": 3.25162,
@@ -27,7 +31,8 @@
       "07/23/2025": 4.06205,
       "08/20/2025": 4.0635,
       "09/17/2025": 4.06738,
-      "10/22/2025": 4.06774
+      "10/22/2025": 4.06774,
+      "11/19/2025": 4.06941
     }
   }
 }

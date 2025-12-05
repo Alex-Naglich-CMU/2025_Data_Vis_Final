@@ -1,9 +1,13 @@
 {
   "RxCUI": "863562",
-  "Name": "VALCYTE 50 MG/ML SOLUTION",
+  "Name": "valganciclovir 50 MG/ML Oral Solution [Valcyte]",
   "IsBrand": true,
   "Brand_RxCUI": "863562",
   "Generic_RxCUI": "863559",
+  "Ingredient_Name": "Valganciclovir Mgml",
+  "Manufacturer_Name": "Valcyte",
+  "Strength": "50 MG/ML",
+  "Form": "",
   "prices": {
     "00004003909": {
       "01/01/2018": 11.6787,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "211140",
-  "Name": "ELMIRON 100 MG CAPSULE",
+  "Name": "pentosan polysulfate 100 MG Oral Capsule [Elmiron]",
   "IsBrand": true,
   "Brand_RxCUI": "211140",
   "Generic_RxCUI": "199498",
+  "Ingredient_Name": "Pentosan Polysulfate",
+  "Manufacturer_Name": "Elmiron",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "50458009801": {
       "01/03/2018": 8.53476,
@@ -34,7 +38,8 @@
       "07/23/2025": 11.49477,
       "08/20/2025": 11.48738,
       "09/17/2025": 11.48536,
-      "10/22/2025": 11.47431
+      "10/22/2025": 11.47431,
+      "11/19/2025": 11.47578
     }
   }
 }

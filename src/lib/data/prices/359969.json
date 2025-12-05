@@ -1,9 +1,13 @@
 {
   "RxCUI": "359969",
-  "Name": "REFRESH CLASSIC EYE DROPS",
+  "Name": "polyvinyl alcohol 0.014 ML/ML / povidone 6 MG/ML Ophthalmic Solution",
   "IsBrand": true,
   "Brand_RxCUI": "359969",
   "Generic_RxCUI": "1046287",
+  "Ingredient_Name": "Polyvinyl Alcohol Mlml Povidone Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.014 ML/ML",
+  "Form": "Solution",
   "prices": {
     "00023050601": {
       "10/18/2017": 0.2991,
@@ -20,11 +24,13 @@
       "04/03/2023": 0.30626,
       "02/19/2025": 0.30629,
       "09/17/2025": 0.30616,
-      "10/22/2025": 0.30591
+      "10/22/2025": 0.30591,
+      "11/19/2025": 0.3059
     },
     "00023050650": {
       "09/17/2025": 0.27973,
-      "10/22/2025": 0.2797
+      "10/22/2025": 0.2797,
+      "11/19/2025": 0.2794
     }
   }
 }

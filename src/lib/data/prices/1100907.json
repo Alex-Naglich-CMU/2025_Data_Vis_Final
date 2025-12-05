@@ -1,9 +1,13 @@
 {
   "RxCUI": "1100907",
-  "Name": "CAPACET CAPSULE",
+  "Name": "acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule [Capacet]",
   "IsBrand": false,
   "Brand_RxCUI": "238153",
   "Generic_RxCUI": "1100907",
+  "Ingredient_Name": "Acetaminophen Butalbital Caffeine",
+  "Manufacturer_Name": "Capacet",
+  "Strength": "325 MG",
+  "Form": "",
   "prices": {
     "58407053401": {
       "06/21/2017": 1.58007,

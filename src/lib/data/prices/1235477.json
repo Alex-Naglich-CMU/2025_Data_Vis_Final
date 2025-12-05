@@ -1,9 +1,13 @@
 {
   "RxCUI": "1235477",
-  "Name": "CEPACOL SORE THROAT LOZENGE",
+  "Name": "benzocaine 15 MG / menthol 3.6 MG Oral Lozenge [Cepacol Sore Throat Pain Relief]",
   "IsBrand": true,
   "Brand_RxCUI": "1235477",
   "Generic_RxCUI": "824574",
+  "Ingredient_Name": "Benzocaine Menthol Lozenge",
+  "Manufacturer_Name": "Cepacol Sore Throat Pain Relief",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "63824071316": {
       "09/20/2017": 0.1416,

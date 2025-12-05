@@ -1,9 +1,13 @@
 {
   "RxCUI": "1244062",
-  "Name": "RELISTOR 12 MG/0.6 ML SYRINGE",
+  "Name": "0.6 ML methylnaltrexone bromide 20 MG/ML Prefilled Syringe [Relistor]",
   "IsBrand": true,
   "Brand_RxCUI": "1244062",
   "Generic_RxCUI": "1244060",
+  "Ingredient_Name": "Methylnaltrexone Bromide Mgml Prefilled",
+  "Manufacturer_Name": "Relistor",
+  "Strength": "0.6 ML",
+  "Form": "",
   "prices": {
     "65649055103": {
       "10/05/2017": 174.20313,

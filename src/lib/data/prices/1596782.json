@@ -1,13 +1,14 @@
 {
   "RxCUI": "1596782",
-  "Name": "NATESTO NASAL 5.5 MG/0.122 GM",
+  "Name": "60 ACTUAT testosterone 5.5 MG/ACTUAT Nasal Gel [Natesto]",
   "IsBrand": true,
   "Brand_RxCUI": "1596782",
   "Generic_RxCUI": "1596784",
+  "Ingredient_Name": "Actuat Testosterone Mgactuat Nasal",
+  "Manufacturer_Name": "Natesto",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
-    "69654023901": {
-      "06/01/2018": 34.1786
-    },
     "42667551101": {
       "6/1/2022": 39.51577,
       "08/21/2024": 41.18807,
@@ -23,7 +24,11 @@
       "07/23/2025": 41.34836,
       "08/20/2025": 41.30173,
       "09/17/2025": 41.33155,
-      "10/22/2025": 41.32394
+      "10/22/2025": 41.32394,
+      "11/19/2025": 41.3178
+    },
+    "69654023901": {
+      "06/01/2018": 34.1786
     }
   }
 }

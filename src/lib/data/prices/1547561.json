@@ -1,9 +1,13 @@
 {
   "RxCUI": "1547561",
-  "Name": "ISOTRETINOIN 25 MG CAPSULE",
+  "Name": "isotretinoin 25 MG Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "1547563",
   "Generic_RxCUI": "1547561",
+  "Ingredient_Name": "Isotretinoin",
+  "Manufacturer_Name": "",
+  "Strength": "25 MG",
+  "Form": "Capsule",
   "prices": {
     "00591245115": {
       "06/19/2024": 17.39493,

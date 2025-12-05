@@ -1,18 +1,24 @@
 {
   "RxCUI": "1599805",
-  "Name": "MEMANTINE-DONEPEZIL ER 14-10 MG",
+  "Name": "24 HR donepezil hydrochloride 10 MG / memantine hydrochloride 14 MG Extended Release Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "1602588",
   "Generic_RxCUI": "1599805",
+  "Ingredient_Name": "Hr Donepezil Hydrochloride Memantine Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Capsule",
   "prices": {
     "69238124803": {
       "08/20/2025": 16.24689,
       "09/17/2025": 15.92975,
-      "10/22/2025": 15.3499
+      "10/22/2025": 15.3499,
+      "11/19/2025": 14.99391
     },
     "69680018330": {
       "09/17/2025": 15.92975,
-      "10/22/2025": 15.3499
+      "10/22/2025": 15.3499,
+      "11/19/2025": 14.99391
     }
   }
 }

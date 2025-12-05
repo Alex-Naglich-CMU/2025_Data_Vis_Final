@@ -1,9 +1,13 @@
 {
   "RxCUI": "1428622",
-  "Name": "BUPAP 50 MG-300 MG TABLET",
+  "Name": "acetaminophen 300 MG / butalbital 50 MG Oral Tablet [Bupap]",
   "IsBrand": false,
   "Brand_RxCUI": "1249617",
   "Generic_RxCUI": "1428622",
+  "Ingredient_Name": "Acetaminophen Butalbital",
+  "Manufacturer_Name": "Bupap",
+  "Strength": "300 MG",
+  "Form": "",
   "prices": {
     "00095300001": {
       "08/23/2017": 11.40808,

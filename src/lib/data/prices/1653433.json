@@ -1,9 +1,13 @@
 {
   "RxCUI": "1653433",
-  "Name": "DOXYCYCLINE HYC DR 50 MG TAB",
+  "Name": "doxycycline hyclate 50 MG Delayed Release Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1653435",
   "Generic_RxCUI": "1653433",
+  "Ingredient_Name": "Doxycycline Hyclate Delayed Release",
+  "Manufacturer_Name": "",
+  "Strength": "50 MG",
+  "Form": "Tablet",
   "prices": {
     "00591455022": {
       "05/22/2024": 3.0086,

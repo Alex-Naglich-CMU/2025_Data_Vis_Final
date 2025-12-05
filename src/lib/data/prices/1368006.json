@@ -1,9 +1,13 @@
 {
   "RxCUI": "1368006",
-  "Name": "ALOGLIPTIN 25 MG TABLET",
+  "Name": "alogliptin 25 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1368012",
   "Generic_RxCUI": "1368006",
+  "Ingredient_Name": "Alogliptin",
+  "Manufacturer_Name": "",
+  "Strength": "25 MG",
+  "Form": "Tablet",
   "prices": {
     "45802015065": {
       "05/19/2021": 5.32957,
@@ -105,7 +109,8 @@
       "07/23/2025": 4.82644,
       "08/20/2025": 4.69476,
       "09/17/2025": 4.62074,
-      "10/22/2025": 4.53829
+      "10/22/2025": 4.53829,
+      "11/19/2025": 4.64836
     }
   }
 }

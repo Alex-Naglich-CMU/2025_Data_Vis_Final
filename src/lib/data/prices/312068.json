@@ -1,9 +1,13 @@
 {
   "RxCUI": "312068",
-  "Name": "OCTREOTIDE ACET 50 MCG/ML VIAL",
+  "Name": "1 ML octreotide 0.05 MG/ML Injection",
   "IsBrand": false,
   "Brand_RxCUI": "207194",
   "Generic_RxCUI": "312068",
+  "Ingredient_Name": "Octreotide Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 ML",
+  "Form": "Injection",
   "prices": {
     "00641617410": {
       "06/19/2024": 2.93143,

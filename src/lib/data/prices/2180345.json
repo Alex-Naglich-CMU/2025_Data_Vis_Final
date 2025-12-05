@@ -1,9 +1,13 @@
 {
   "RxCUI": "2180345",
-  "Name": "TOVET EMOLLIENT 0.05% FOAM",
+  "Name": "Emollient clobetasol propionate 0.5 MG/ML Topical Foam [Tovet]",
   "IsBrand": false,
   "Brand_RxCUI": "1992273",
   "Generic_RxCUI": "2180345",
+  "Ingredient_Name": "Emollient Clobetasol Propionate Mgml",
+  "Manufacturer_Name": "Tovet",
+  "Strength": "0.5 MG/ML",
+  "Form": "",
   "prices": {
     "43538095210": {
       "2/22/2023": 2.38844,

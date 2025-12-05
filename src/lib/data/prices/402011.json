@@ -1,9 +1,13 @@
 {
   "RxCUI": "402011",
-  "Name": "RISPERIDONE ER 37.5 MG VIAL",
+  "Name": "risperidone 37.5 MG Injection",
   "IsBrand": false,
   "Brand_RxCUI": "2639736",
   "Generic_RxCUI": "402011",
+  "Ingredient_Name": "Risperidone",
+  "Manufacturer_Name": "",
+  "Strength": "37.5 MG",
+  "Form": "Injection",
   "prices": {
     "00480134208": {
       "07/17/2024": 702.48571,

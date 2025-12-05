@@ -1,9 +1,13 @@
 {
   "RxCUI": "1115012",
-  "Name": "GRALISE ER 300 MG TABLET",
+  "Name": "Once-Daily gabapentin 300 MG Oral Tablet [Gralise]",
   "IsBrand": true,
   "Brand_RxCUI": "1115012",
   "Generic_RxCUI": "1806380",
+  "Ingredient_Name": "Once-Daily Gabapentin",
+  "Manufacturer_Name": "Gralise",
+  "Strength": "300 MG",
+  "Form": "",
   "prices": {
     "13913000419": {
       "01/04/2018": 7.405,
@@ -39,7 +43,8 @@
       "07/23/2025": 10.23648,
       "08/20/2025": 10.23166,
       "09/17/2025": 10.22647,
-      "10/22/2025": 10.21341
+      "10/22/2025": 10.21341,
+      "11/19/2025": 10.21207
     }
   }
 }

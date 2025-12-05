@@ -1,9 +1,13 @@
 {
   "RxCUI": "898355",
-  "Name": "LOTREL 5-10 MG CAPSULE",
+  "Name": "amlodipine 5 MG / benazepril hydrochloride 10 MG Oral Capsule [Lotrel]",
   "IsBrand": true,
   "Brand_RxCUI": "898355",
   "Generic_RxCUI": "898353",
+  "Ingredient_Name": "Amlodipine Benazepril Hydrochloride",
+  "Manufacturer_Name": "Lotrel",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00078040505": {
       "07/11/2017": 8.49475,

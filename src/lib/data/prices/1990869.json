@@ -1,9 +1,13 @@
 {
   "RxCUI": "1990869",
-  "Name": "BYDUREON BCISE 2 MG AUTOINJECT",
+  "Name": "0.85 ML exenatide 2.35 MG/ML Auto-Injector [Bydureon]",
   "IsBrand": true,
   "Brand_RxCUI": "1990869",
   "Generic_RxCUI": "1990866",
+  "Ingredient_Name": "Exenatide Mgml Auto-Injector",
+  "Manufacturer_Name": "Bydureon",
+  "Strength": "0.85 ML",
+  "Form": "",
   "prices": {
     "00310654004": {
       "01/01/2019": 197.22023,

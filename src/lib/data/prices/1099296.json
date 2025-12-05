@@ -1,9 +1,13 @@
 {
   "RxCUI": "1099296",
-  "Name": "DESIPRAMINE 150 MG TABLET",
+  "Name": "desipramine hydrochloride 150 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1099298",
   "Generic_RxCUI": "1099296",
+  "Ingredient_Name": "Desipramine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "150 MG",
+  "Form": "Tablet",
   "prices": {
     "23155058325": {
       "04/17/2024": 0.95346,

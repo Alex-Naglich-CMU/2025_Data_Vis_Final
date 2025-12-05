@@ -1,9 +1,13 @@
 {
   "RxCUI": "1359109",
-  "Name": "ARTHROTEC 75 MG-200 MCG TAB",
+  "Name": "diclofenac sodium 75 MG / misoprostol 0.2 MG Delayed Release Oral Tablet [Arthrotec]",
   "IsBrand": true,
   "Brand_RxCUI": "1359109",
   "Generic_RxCUI": "1359105",
+  "Ingredient_Name": "Diclofenac Sodium Misoprostol Delayed Release",
+  "Manufacturer_Name": "Arthrotec",
+  "Strength": "75 MG",
+  "Form": "",
   "prices": {
     "00025142160": {
       "06/01/2017": 7.19377,

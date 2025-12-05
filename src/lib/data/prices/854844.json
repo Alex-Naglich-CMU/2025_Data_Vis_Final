@@ -1,9 +1,13 @@
 {
   "RxCUI": "854844",
-  "Name": "VYVANSE 70 MG CAPSULE",
+  "Name": "lisdexamfetamine dimesylate 70 MG Oral Capsule [Vyvanse]",
   "IsBrand": true,
   "Brand_RxCUI": "854844",
   "Generic_RxCUI": "854842",
+  "Ingredient_Name": "Lisdexamfetamine Dimesylate",
+  "Manufacturer_Name": "Vyvanse",
+  "Strength": "70 MG",
+  "Form": "",
   "prices": {
     "59417010710": {
       "11/22/2017": 8.66787,
@@ -36,7 +40,8 @@
       "07/23/2025": 12.37599,
       "08/20/2025": 12.37267,
       "09/17/2025": 12.37357,
-      "10/22/2025": 12.37349
+      "10/22/2025": 12.37349,
+      "11/19/2025": 12.36893
     }
   }
 }

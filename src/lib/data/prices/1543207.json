@@ -1,9 +1,13 @@
 {
   "RxCUI": "1543207",
-  "Name": "AFREZZA (REGULAR INSULIN) 4 UNIT CARTRIDGE",
+  "Name": "insulin, regular, human 4 UNT Inhalation Powder [Afrezza]",
   "IsBrand": true,
   "Brand_RxCUI": "1543207",
   "Generic_RxCUI": "1543202",
+  "Ingredient_Name": "Insulin, Regular, Human Unt Inhalation",
+  "Manufacturer_Name": "Afrezza",
+  "Strength": "4 UNT",
+  "Form": "",
   "prices": {
     "47918087490": {
       "05/22/2024": 4.80024,

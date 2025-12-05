@@ -1,9 +1,13 @@
 {
   "RxCUI": "1091650",
-  "Name": "EDARBI 40 MG TABLET",
+  "Name": "azilsartan medoxomil 40 MG Oral Tablet [Edarbi]",
   "IsBrand": true,
   "Brand_RxCUI": "1091650",
   "Generic_RxCUI": "1091646",
+  "Ingredient_Name": "Azilsartan Medoxomil",
+  "Manufacturer_Name": "Edarbi",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "60631004030": {
       "07/03/2017": 5.63669,
@@ -33,7 +37,8 @@
       "07/23/2025": 8.29643,
       "08/20/2025": 8.30098,
       "09/17/2025": 8.29811,
-      "10/22/2025": 8.29499
+      "10/22/2025": 8.29499,
+      "11/19/2025": 8.29167
     }
   }
 }

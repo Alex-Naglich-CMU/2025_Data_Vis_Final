@@ -1,9 +1,13 @@
 {
   "RxCUI": "1099808",
-  "Name": "PHOSLYRA 667 MG/5 ML SOLUTION",
+  "Name": "calcium acetate 133 MG/ML Oral Solution [Phoslyra]",
   "IsBrand": true,
   "Brand_RxCUI": "1099808",
   "Generic_RxCUI": "1099804",
+  "Ingredient_Name": "Calcium Mgml",
+  "Manufacturer_Name": "Phoslyra",
+  "Strength": "133 MG/ML",
+  "Form": "",
   "prices": {
     "49230064331": {
       "10/01/2017": 0.27852,

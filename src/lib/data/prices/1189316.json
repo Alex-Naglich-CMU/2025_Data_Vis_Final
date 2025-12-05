@@ -1,9 +1,13 @@
 {
   "RxCUI": "1189316",
-  "Name": "THERAFLU MS SEVERE COLD PCKT",
+  "Name": "acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution",
   "IsBrand": true,
   "Brand_RxCUI": "1189316",
-  "Generic_RxCUI": "1189316",
+  "Generic_RxCUI": "",
+  "Ingredient_Name": "Acetaminophen Dextromethorphan Hydrobromide Phenylephrine Hydrochloride Granules For",
+  "Manufacturer_Name": "",
+  "Strength": "500 MG",
+  "Form": "Solution",
   "prices": {
     "00067642606": {
       "09/19/2018": 0.87834,

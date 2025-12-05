@@ -1,9 +1,13 @@
 {
   "RxCUI": "2599179",
-  "Name": "NORLIQVA 1 MG/ML SOLUTION",
+  "Name": "amlodipine 1 MG/ML Oral Solution [Norliqva]",
   "IsBrand": true,
   "Brand_RxCUI": "2599179",
   "Generic_RxCUI": "2599173",
+  "Ingredient_Name": "Amlodipine Mgml",
+  "Manufacturer_Name": "Norliqva",
+  "Strength": "1 MG/ML",
+  "Form": "",
   "prices": {
     "46287003515": {
       "05/22/2024": 3.27778,
@@ -23,7 +27,8 @@
       "07/23/2025": 3.29913,
       "08/20/2025": 3.29592,
       "09/17/2025": 3.30069,
-      "10/22/2025": 3.29489
+      "10/22/2025": 3.29489,
+      "11/19/2025": 3.28786
     }
   }
 }

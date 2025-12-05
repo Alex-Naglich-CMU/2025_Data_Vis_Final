@@ -1,9 +1,13 @@
 {
   "RxCUI": "744846",
-  "Name": "ISENTRESS 400 MG TABLET",
+  "Name": "raltegravir 400 MG Oral Tablet [Isentress]",
   "IsBrand": true,
   "Brand_RxCUI": "744846",
   "Generic_RxCUI": "744842",
+  "Ingredient_Name": "Raltegravir",
+  "Manufacturer_Name": "Isentress",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "00006022761": {
       "11/22/2017": 22.32865,
@@ -32,7 +36,8 @@
       "07/23/2025": 33.77234,
       "08/20/2025": 33.78045,
       "09/17/2025": 33.77914,
-      "10/22/2025": 33.77965
+      "10/22/2025": 33.77965,
+      "11/19/2025": 33.78757
     },
     "6022761": {
       "1/6/2022": 29.50195

@@ -1,9 +1,13 @@
 {
   "RxCUI": "211637",
-  "Name": "MINTOX PLUS TABLET CHEWABLE",
+  "Name": "aluminum hydroxide 200 MG / magnesium hydroxide 200 MG / simethicone 25 MG Chewable Tablet [Mintox Plus]",
   "IsBrand": false,
   "Brand_RxCUI": "307747",
   "Generic_RxCUI": "211637",
+  "Ingredient_Name": "Aluminum Hydroxide Magnesium Hydroxide Simethicone Chewable",
+  "Manufacturer_Name": "Mintox Plus",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "00904670060": {
       "06/23/2021": 0.02326,
@@ -32,7 +36,8 @@
       "07/23/2025": 0.03869,
       "08/20/2025": 0.03841,
       "09/17/2025": 0.03838,
-      "10/22/2025": 0.03821
+      "10/22/2025": 0.03821,
+      "11/19/2025": 0.03817
     }
   }
 }

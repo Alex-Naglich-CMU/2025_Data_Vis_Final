@@ -1,9 +1,13 @@
 {
   "RxCUI": "1659803",
-  "Name": "FINACEA 15% FOAM",
+  "Name": "azelaic acid 150 MG/ML Topical Foam [Finacea]",
   "IsBrand": true,
   "Brand_RxCUI": "1659803",
   "Generic_RxCUI": "1659800",
+  "Ingredient_Name": "Azelaic Acid Mgml",
+  "Manufacturer_Name": "Finacea",
+  "Strength": "150 MG/ML",
+  "Form": "",
   "prices": {
     "50222030350": {
       "06/23/2021": 7.36683,
@@ -30,7 +34,8 @@
       "07/23/2025": 8.33501,
       "08/20/2025": 8.33178,
       "09/17/2025": 8.33095,
-      "10/22/2025": 8.33284
+      "10/22/2025": 8.33284,
+      "11/19/2025": 8.33097
     }
   }
 }

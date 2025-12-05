@@ -4,6 +4,10 @@
   "IsBrand": false,
   "Brand_RxCUI": "749784",
   "Generic_RxCUI": "753479",
+  "Ingredient_Name": "Tri-Previfem",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "TABLET",
   "prices": {
     "00254203091": {
       "05/19/2021": 0.17414,

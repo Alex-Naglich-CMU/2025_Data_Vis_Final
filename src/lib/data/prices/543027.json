@@ -1,9 +1,13 @@
 {
   "RxCUI": "543027",
-  "Name": "ENABLEX 7.5 MG TABLET",
+  "Name": "24 HR darifenacin 7.5 MG Extended Release Oral Tablet [Enablex]",
   "IsBrand": true,
   "Brand_RxCUI": "543027",
   "Generic_RxCUI": "485423",
+  "Ingredient_Name": "Hr Darifenacin Extended Release",
+  "Manufacturer_Name": "Enablex",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00430017023": {
       "01/01/2018": 12.11502

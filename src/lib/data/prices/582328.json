@@ -1,9 +1,13 @@
 {
   "RxCUI": "582328",
-  "Name": "IMITREX 20 MG NASAL SPRAY",
+  "Name": "sumatriptan 20 MG/ACTUAT Nasal Spray [Imitrex]",
   "IsBrand": true,
   "Brand_RxCUI": "582328",
   "Generic_RxCUI": "314227",
+  "Ingredient_Name": "Sumatriptan Mgactuat Nasal",
+  "Manufacturer_Name": "Imitrex",
+  "Strength": "20 MG/ACTU",
+  "Form": "",
   "prices": {
     "00173052300": {
       "01/01/2018": 77.02563,

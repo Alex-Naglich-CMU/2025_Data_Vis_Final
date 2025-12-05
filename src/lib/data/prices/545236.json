@@ -1,9 +1,13 @@
 {
   "RxCUI": "545236",
-  "Name": "GENTAK 0.3 % EYE OINTMENT",
+  "Name": "gentamicin 0.003 MG/MG Ophthalmic Ointment [Gentak]",
   "IsBrand": false,
   "Brand_RxCUI": "310466",
   "Generic_RxCUI": "545236",
+  "Ingredient_Name": "Gentamicin Mgmg",
+  "Manufacturer_Name": "Gentak",
+  "Strength": "0.003 MG/MG",
+  "Form": "",
   "prices": {
     "17478028435": {
       "06/21/2017": 3.97383,

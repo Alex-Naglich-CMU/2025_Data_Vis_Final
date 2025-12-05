@@ -1,9 +1,13 @@
 {
   "RxCUI": "1790892",
-  "Name": "TRINTELLIX 5 MG TABLET",
+  "Name": "vortioxetine 5 MG Oral Tablet [Trintellix]",
   "IsBrand": true,
   "Brand_RxCUI": "1790892",
   "Generic_RxCUI": "1439812",
+  "Ingredient_Name": "Vortioxetine",
+  "Manufacturer_Name": "Trintellix",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "64764072030": {
       "11/22/2017": 11.03507,
@@ -33,7 +37,8 @@
       "07/23/2025": 16.40795,
       "08/20/2025": 16.40345,
       "09/17/2025": 16.40905,
-      "10/22/2025": 16.41478
+      "10/22/2025": 16.41478,
+      "11/19/2025": 16.41508
     }
   }
 }

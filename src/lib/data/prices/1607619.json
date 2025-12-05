@@ -1,9 +1,13 @@
 {
   "RxCUI": "1607619",
-  "Name": "PRISTIQ ER 25 MG TABLET",
+  "Name": "24 HR desvenlafaxine succinate 25 MG Extended Release Oral Tablet [Pristiq]",
   "IsBrand": true,
   "Brand_RxCUI": "1607619",
   "Generic_RxCUI": "1607617",
+  "Ingredient_Name": "Hr Desvenlafaxine Succinate Extended Release",
+  "Manufacturer_Name": "Pristiq",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00008121030": {
       "06/01/2017": 11.18556,
@@ -29,7 +33,8 @@
       "07/23/2025": 13.98678,
       "08/20/2025": 13.98353,
       "09/17/2025": 13.99531,
-      "10/22/2025": 13.99506
+      "10/22/2025": 13.99506,
+      "11/19/2025": 13.97233
     }
   }
 }

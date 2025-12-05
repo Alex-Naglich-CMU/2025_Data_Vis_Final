@@ -1,9 +1,13 @@
 {
   "RxCUI": "261337",
-  "Name": "ZYPREXA 15 MG TABLET",
+  "Name": "olanzapine 15 MG Oral Tablet [Zyprexa]",
   "IsBrand": true,
   "Brand_RxCUI": "261337",
   "Generic_RxCUI": "312077",
+  "Ingredient_Name": "Olanzapine",
+  "Manufacturer_Name": "Zyprexa",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "00002441530": {
       "01/31/2020": 31.2638,

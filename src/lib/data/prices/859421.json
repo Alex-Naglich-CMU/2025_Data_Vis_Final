@@ -1,9 +1,13 @@
 {
   "RxCUI": "859421",
-  "Name": "CRESTOR 40 MG TABLET",
+  "Name": "rosuvastatin calcium 40 MG Oral Tablet [Crestor]",
   "IsBrand": true,
   "Brand_RxCUI": "859421",
   "Generic_RxCUI": "859419",
+  "Ingredient_Name": "Rosuvastatin Calcium",
+  "Manufacturer_Name": "Crestor",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "00310759030": {
       "6/22/2022": 8.81058,
@@ -17,7 +21,8 @@
       "07/23/2025": 8.83227,
       "08/20/2025": 8.8346,
       "09/17/2025": 8.82854,
-      "10/22/2025": 8.81755
+      "10/22/2025": 8.81755,
+      "11/19/2025": 8.82399
     }
   }
 }

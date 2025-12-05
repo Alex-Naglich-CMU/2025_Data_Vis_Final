@@ -1,9 +1,13 @@
 {
   "RxCUI": "2637035",
-  "Name": "MOTPOLY XR 200 MG CAPSULE",
+  "Name": "24 HR lacosamide 200 MG Extended Release Oral Capsule [Motpoly]",
   "IsBrand": true,
   "Brand_RxCUI": "2637035",
   "Generic_RxCUI": "2637032",
+  "Ingredient_Name": "Hr Lacosamide Extended Release",
+  "Manufacturer_Name": "Motpoly",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "73289006502": {
       "06/18/2025": 20.34388,

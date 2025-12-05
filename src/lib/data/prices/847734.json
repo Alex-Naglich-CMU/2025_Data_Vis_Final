@@ -1,9 +1,13 @@
 {
   "RxCUI": "847734",
-  "Name": "COARTEM TABLETS",
+  "Name": "artemether 20 MG / lumefantrine 120 MG Oral Tablet [Coartem]",
   "IsBrand": true,
   "Brand_RxCUI": "847734",
   "Generic_RxCUI": "847731",
+  "Ingredient_Name": "Artemether Lumefantrine",
+  "Manufacturer_Name": "Coartem",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "00078056845": {
       "05/22/2024": 5.36333,
@@ -21,7 +25,8 @@
       "06/18/2025": 5.36263,
       "07/23/2025": 5.36598,
       "08/20/2025": 5.35828,
-      "10/22/2025": 5.36792
+      "10/22/2025": 5.36792,
+      "11/19/2025": 5.36438
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1946589",
-  "Name": "XHANCE 93 MCG EXHALATION DELIVERY NASAL SPRAY",
+  "Name": "fluticasone propionate 0.093 MG/ACTUAT Metered Dose Nasal Spray [Xhance]",
   "IsBrand": true,
   "Brand_RxCUI": "1946589",
   "Generic_RxCUI": "1946583",
+  "Ingredient_Name": "Fluticasone Propionate Mgactuat Metered Dose Nasal",
+  "Manufacturer_Name": "Xhance",
+  "Strength": "0.093 MG/ACTU",
+  "Form": "",
   "prices": {
     "71143037501": {
       "01/01/2019": 28.08751,
@@ -31,7 +35,8 @@
       "07/23/2025": 39.34966,
       "08/20/2025": 39.35219,
       "09/17/2025": 39.32696,
-      "10/22/2025": 39.33586
+      "10/22/2025": 39.33586,
+      "11/19/2025": 39.33174
     }
   }
 }

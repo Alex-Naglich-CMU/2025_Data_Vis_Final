@@ -1,19 +1,25 @@
 {
   "RxCUI": "861021",
-  "Name": "METFORMIN HCL 625 MG TABLET",
+  "Name": "metformin hydrochloride 625 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "861021",
+  "Ingredient_Name": "Metformin Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "625 MG",
+  "Form": "Tablet",
   "prices": {
     "62135068130": {
       "08/20/2025": 13.10653,
       "09/17/2025": 12.90246,
-      "10/22/2025": 12.58249
+      "10/22/2025": 12.58249,
+      "11/19/2025": 12.51584
     },
     "72336006430": {
       "08/20/2025": 13.10653,
       "09/17/2025": 12.90246,
-      "10/22/2025": 12.58249
+      "10/22/2025": 12.58249,
+      "11/19/2025": 12.51584
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1095725",
-  "Name": "DAYHIST ALLERGY 1.34 MG TABLET",
+  "Name": "clemastine fumarate 1.34 MG Oral Tablet [Dayhist-1]",
   "IsBrand": false,
   "Brand_RxCUI": "857416",
   "Generic_RxCUI": "1095725",
+  "Ingredient_Name": "Clemastine Fumarate",
+  "Manufacturer_Name": "Dayhist-1",
+  "Strength": "1.34 MG",
+  "Form": "",
   "prices": {
     "24385018351": {
       "06/21/2017": 0.26317,

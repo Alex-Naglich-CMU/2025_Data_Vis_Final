@@ -1,9 +1,13 @@
 {
   "RxCUI": "209027",
-  "Name": "FELBATOL 600 MG TABLET",
+  "Name": "felbamate 600 MG Oral Tablet [Felbatol]",
   "IsBrand": true,
   "Brand_RxCUI": "209027",
   "Generic_RxCUI": "198359",
+  "Ingredient_Name": "Felbamate",
+  "Manufacturer_Name": "Felbatol",
+  "Strength": "600 MG",
+  "Form": "",
   "prices": {
     "00037043101": {
       "09/28/2017": 12.97499,
@@ -25,7 +29,8 @@
       "12/18/2024": 16.08372,
       "01/07/2025": 16.88791,
       "09/17/2025": 16.93223,
-      "10/22/2025": 16.90131
+      "10/22/2025": 16.90131,
+      "11/19/2025": 16.83833
     }
   }
 }

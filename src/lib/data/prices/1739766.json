@@ -1,9 +1,13 @@
 {
   "RxCUI": "1739766",
-  "Name": "BRIVIACT 10 MG TABLET",
+  "Name": "brivaracetam 10 MG Oral Tablet [Briviact]",
   "IsBrand": true,
   "Brand_RxCUI": "1739766",
   "Generic_RxCUI": "1739761",
+  "Ingredient_Name": "Brivaracetam",
+  "Manufacturer_Name": "Briviact",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "50474037066": {
       "06/19/2024": 23.00286,

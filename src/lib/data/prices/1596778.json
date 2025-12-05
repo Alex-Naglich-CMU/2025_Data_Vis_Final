@@ -1,9 +1,13 @@
 {
   "RxCUI": "1596778",
-  "Name": "UCERIS 2 MG RECTAL FOAM",
+  "Name": "14 ACTUAT budesonide 2 MG/ACTUAT Rectal Foam [Uceris]",
   "IsBrand": true,
   "Brand_RxCUI": "1596778",
   "Generic_RxCUI": "1596779",
+  "Ingredient_Name": "Actuat Budesonide Mgactuat Rectal",
+  "Manufacturer_Name": "Uceris",
+  "Strength": "14 ACTU",
+  "Form": "",
   "prices": {
     "65649065103": {
       "01/05/2018": 8.47974,

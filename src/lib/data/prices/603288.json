@@ -1,9 +1,13 @@
 {
   "RxCUI": "603288",
-  "Name": "MI-ACID GAS 80 MG TAB CHEW",
+  "Name": "simethicone 80 MG Chewable Tablet [Mi-Acid Gas Relief]",
   "IsBrand": false,
   "Brand_RxCUI": "314216",
   "Generic_RxCUI": "603288",
+  "Ingredient_Name": "Simethicone Chewable",
+  "Manufacturer_Name": "Mi-Acid Gas Relief",
+  "Strength": "80 MG",
+  "Form": "",
   "prices": {
     "00904506860": {
       "05/19/2021": 0.02348,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "901537",
-  "Name": "MIRAPEX ER 4.5 MG TABLET",
+  "Name": "24 HR pramipexole dihydrochloride 4.5 MG Extended Release Oral Tablet [Mirapex]",
   "IsBrand": true,
   "Brand_RxCUI": "901537",
   "Generic_RxCUI": "901534",
+  "Ingredient_Name": "Hr Pramipexole Dihydrochloride Extended Release",
+  "Manufacturer_Name": "Mirapex",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00597011630": {
       "01/03/2018": 17.82923,

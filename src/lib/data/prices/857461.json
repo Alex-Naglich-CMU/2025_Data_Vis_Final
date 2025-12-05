@@ -1,9 +1,13 @@
 {
   "RxCUI": "857461",
-  "Name": "CLEMASTINE FUM 2.68 MG TAB",
+  "Name": "clemastine fumarate 2.68 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "2720338",
   "Generic_RxCUI": "857461",
+  "Ingredient_Name": "Clemastine Fumarate",
+  "Manufacturer_Name": "",
+  "Strength": "2.68 MG",
+  "Form": "Tablet",
   "prices": {
     "00093030801": {
       "10/18/2017": 0.54442,

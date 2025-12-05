@@ -1,9 +1,13 @@
 {
   "RxCUI": "899463",
-  "Name": "FOCALIN XR 15 MG CAPSULE",
+  "Name": "24 HR dexmethylphenidate hydrochloride 15 MG Extended Release Oral Capsule [Focalin]",
   "IsBrand": true,
   "Brand_RxCUI": "899463",
   "Generic_RxCUI": "899461",
+  "Ingredient_Name": "Hr Dexmethylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "Focalin",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00078049305": {
       "07/11/2017": 11.40497,
@@ -30,7 +34,8 @@
       "07/23/2025": 4.91186,
       "08/20/2025": 4.90893,
       "09/17/2025": 4.91635,
-      "10/22/2025": 4.91119
+      "10/22/2025": 4.91119,
+      "11/19/2025": 4.91264
     },
     "66758023701": {
       "02/19/2025": 4.9104,
@@ -41,7 +46,8 @@
       "07/23/2025": 4.91186,
       "08/20/2025": 4.90893,
       "09/17/2025": 4.91635,
-      "10/22/2025": 4.91119
+      "10/22/2025": 4.91119,
+      "11/19/2025": 4.91264
     }
   }
 }

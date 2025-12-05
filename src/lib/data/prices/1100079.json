@@ -1,9 +1,13 @@
 {
   "RxCUI": "1100079",
-  "Name": "ZYTIGA 250 MG TABLET",
+  "Name": "abiraterone acetate 250 MG Oral Tablet [Zytiga]",
   "IsBrand": true,
   "Brand_RxCUI": "1100079",
   "Generic_RxCUI": "1100075",
+  "Ingredient_Name": "Abiraterone",
+  "Manufacturer_Name": "Zytiga",
+  "Strength": "250 MG",
+  "Form": "",
   "prices": {
     "57894015012": {
       "01/03/2018": 82.35474,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "403970",
-  "Name": "OLANZAPINE-FLUOXETINE 12-25 MG",
+  "Name": "fluoxetine 25 MG / olanzapine 12 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "403970",
+  "Ingredient_Name": "Fluoxetine Olanzapine",
+  "Manufacturer_Name": "",
+  "Strength": "25 MG",
+  "Form": "Capsule",
   "prices": {
     "00093550656": {
       "11/20/2024": 7.99028,

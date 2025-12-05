@@ -1,9 +1,13 @@
 {
   "RxCUI": "1038810",
-  "Name": "IFEREX 150 CAPSULE",
+  "Name": "polysaccharide iron complex 326.1 MG Oral Capsule [Iferex]",
   "IsBrand": false,
   "Brand_RxCUI": "2599991",
   "Generic_RxCUI": "1038810",
+  "Ingredient_Name": "Polysaccharide Iron Complex",
+  "Manufacturer_Name": "Iferex",
+  "Strength": "326.1 MG",
+  "Form": "",
   "prices": {
     "63044020301": {
       "05/19/2021": 0.11989,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1117090",
-  "Name": "NEO-POLYCIN EYE OINTMENT",
+  "Name": "bacitracin 0.4 UNT/MG / neomycin 0.0035 MG/MG / polymyxin B 10 UNT/MG Ophthalmic Ointment [Neo-Polycin]",
   "IsBrand": false,
   "Brand_RxCUI": "308493",
   "Generic_RxCUI": "1117090",
+  "Ingredient_Name": "Bacitracin Untmg Neomycin Mgmg Polymyxin B Untmg",
+  "Manufacturer_Name": "Neo-Polycin",
+  "Strength": "0.4 UNT/MG",
+  "Form": "",
   "prices": {
     "00574425035": {
       "05/19/2021": 8.18857,
@@ -72,7 +76,8 @@
       "07/23/2025": 4.58498,
       "08/20/2025": 4.7219,
       "09/17/2025": 5.0029,
-      "10/22/2025": 4.90294
+      "10/22/2025": 4.90294,
+      "11/19/2025": 4.91754
     }
   }
 }

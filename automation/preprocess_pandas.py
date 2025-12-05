@@ -130,36 +130,37 @@ df_ingredient_rel = df_rxnrel[
 product_to_ingredient_map = dict(zip(df_ingredient_rel['Product_RxCUI'], df_ingredient_rel['Ingredient_RxCUI_Found']))
 del df_ingredient_rel
 
-# 2b. Brand/Generic Relationship Mapping (Prioritizing SCD/SBD) (unchanged)
+# 2b. Brand/Generic Relationship Mapping (BIDIRECTIONAL, matching preprocess.py logic)
 RELA_FILTERS = ['tradename_of', 'brand_name_of', 'has_tradename', 'has_brand_name']
 df_relationships = df_rxnrel[df_rxnrel['RELA'].isin(RELA_FILTERS)].copy()
 del df_rxnrel
 
-TTY_PRIORITY = {'SCD': 1, 'SCDG': 1, 'SCDF': 1, 'SBDF': 1, 'SBD': 1, 'GPCK': 2, 'BPCK': 2, 'IN': 3} 
+# Build BIDIRECTIONAL lookup tables (matching the working preprocess.py logic)
+print("    → Building bidirectional relationship lookup tables...")
+brand_to_generic_map = {}
+generic_to_brand_map = {}
 
-def get_tty_rank(rxcui):
-    tty = rxcui_to_tty.get(rxcui, 'Unknown')
-    return TTY_PRIORITY.get(tty, 4)
+for _, row in df_relationships.iterrows():
+    rxcui1 = str(row['RXCUI1']).strip()
+    rxcui2 = str(row['RXCUI2']).strip()
+    rela = str(row['RELA']).strip()
+    
+    if rela in ['tradename_of', 'brand_name_of']:
+        # rxcui1 is brand, rxcui2 is generic
+        brand_to_generic_map[rxcui1] = rxcui2
+        # Also populate reverse direction if not already set
+        if rxcui2 not in generic_to_brand_map:
+            generic_to_brand_map[rxcui2] = rxcui1
+    elif rela in ['has_tradename', 'has_brand_name']:
+        # rxcui1 is generic, rxcui2 is brand
+        generic_to_brand_map[rxcui1] = rxcui2
+        # Also populate reverse direction if not already set
+        if rxcui2 not in brand_to_generic_map:
+            brand_to_generic_map[rxcui2] = rxcui1
 
-df_relationships['TTY_Rank'] = df_relationships['RXCUI2'].apply(get_tty_rank)
-
-def select_best_mate(df):
-    if df.empty:
-        return None
-    best_mate = df.sort_values(by='TTY_Rank', ascending=True).iloc[0]['RXCUI2']
-    return best_mate
-
-df_brand_to_generic_lookup = df_relationships[
-    df_relationships['RELA'].isin(['tradename_of', 'brand_name_of'])
-].groupby('RXCUI1').apply(select_best_mate, include_groups=False).reset_index(name='Generic_RxCUI_Found')
-brand_to_generic_map = dict(zip(df_brand_to_generic_lookup['RXCUI1'], df_brand_to_generic_lookup['Generic_RxCUI_Found']))
-del df_brand_to_generic_lookup
-
-df_generic_to_brand_lookup = df_relationships[
-    df_relationships['RELA'].isin(['has_tradename', 'has_brand_name'])
-].groupby('RXCUI1').apply(select_best_mate, include_groups=False).reset_index(name='Brand_RxCUI_Found')
-generic_to_brand_map = dict(zip(df_generic_to_brand_lookup['RXCUI1'], df_generic_to_brand_lookup['Brand_RxCUI_Found']))
-del df_generic_to_brand_lookup, df_relationships
+print(f"    ✓ Built {len(brand_to_generic_map):,} brand → generic mappings")
+print(f"    ✓ Built {len(generic_to_brand_map):,} generic → brand mappings")
+del df_relationships
 
 
 # --- STEP 3: Load NADAC and Vectorize NDC → RxCUI Mapping ---
@@ -214,26 +215,37 @@ df_processed['Date'] = df_processed['Date'].astype(str).str.strip()
 df_processed['IsBrand'] = (df_processed[classification_col].str.strip().str.upper() == 'B')
 
 
-# 4b. Hyper-Vectorized Relationship Mapping (Brand/Generic Mates) (unchanged)
-print("    → Mapping Brand/Generic Mates (Prioritizing SCD/SBD concepts)...")
+# 4b. Relationship Mapping with Fallback (matching preprocess.py logic)
+print("    → Mapping Brand/Generic relationships with fallback logic...")
 
-df_processed['Mapped_Generic_RxCUI'] = df_processed['RXCUI'].map(brand_to_generic_map)
-df_processed['Mapped_Brand_RxCUI'] = df_processed['RXCUI'].map(generic_to_brand_map)
+def find_related_rxcui(rxcui, is_brand):
+    """Find the related brand or generic RxCUI with fallback checks."""
+    rxcui = str(rxcui).strip()
+    brand_rxcui = None
+    generic_rxcui = None
 
-# Initialize final columns as 'object' (string) dtype
-df_processed['Generic_Mate_RxCUI'] = pd.Series([np.nan] * len(df_processed), dtype='object')
-df_processed['Brand_Mate_RxCUI'] = pd.Series([np.nan] * len(df_processed), dtype='object')
+    if is_brand:
+        brand_rxcui = rxcui
+        generic_rxcui = brand_to_generic_map.get(rxcui)
+        if not generic_rxcui:
+            # Fallback: check the other map
+            generic_rxcui = generic_to_brand_map.get(rxcui)
+    else:
+        generic_rxcui = rxcui
+        brand_rxcui = generic_to_brand_map.get(rxcui)
+        if not brand_rxcui:
+            # Fallback: check the other map
+            brand_rxcui = brand_to_generic_map.get(rxcui)
 
-brand_mask = df_processed['IsBrand']
-generic_mask = ~df_processed['IsBrand']
+    return brand_rxcui, generic_rxcui
 
-df_processed.loc[brand_mask, 'Brand_Mate_RxCUI'] = df_processed.loc[brand_mask, 'RXCUI'] 
-df_processed.loc[brand_mask, 'Generic_Mate_RxCUI'] = df_processed.loc[brand_mask, 'Mapped_Generic_RxCUI'] 
-
-df_processed.loc[generic_mask, 'Generic_Mate_RxCUI'] = df_processed.loc[generic_mask, 'RXCUI']
-df_processed.loc[generic_mask, 'Brand_Mate_RxCUI'] = df_processed.loc[generic_mask, 'Mapped_Brand_RxCUI']
-
-df_processed.drop(columns=['Mapped_Generic_RxCUI', 'Mapped_Brand_RxCUI'], inplace=True)
+# Apply the function row by row
+results = df_processed.apply(
+    lambda row: find_related_rxcui(row['RXCUI'], row['IsBrand']), 
+    axis=1
+)
+df_processed['Brand_RxCUI'] = results.apply(lambda x: x[0] if x[0] else '')
+df_processed['Generic_RxCUI'] = results.apply(lambda x: x[1] if x[1] else '')
 
 
 # 4c. Map Ingredient RxCUI (FOR INTERNAL NAME LOOKUP ONLY) and other attributes
@@ -334,8 +346,8 @@ print(f"    ✓ Data cleaned and attributes mapped. {len(df_processed):,} rows r
 print("\n[5/5] Grouping and writing JSON files...")
 
 # REMOVED: 'VA_Drug_Class', 'Ingredient_RxCUI'
-OUTPUT_COLS = ['NDC', 'Price', 'Date', 'RXCUI', 'Name', 'IsBrand', 'Brand_Mate_RxCUI', 
-               'Generic_Mate_RxCUI', 'Manufacturer_Name', 'Strength', 'Form'] 
+OUTPUT_COLS = ['NDC', 'Price', 'Date', 'RXCUI', 'Name', 'IsBrand', 'Brand_RxCUI', 
+               'Generic_RxCUI', 'Manufacturer_Name', 'Strength', 'Form'] 
 df_final = df_processed[OUTPUT_COLS].copy()
 
 # New patterns for aggressive ingredient name extraction (outside the function for efficiency)
@@ -357,8 +369,8 @@ def build_drug_data(group):
 
     # Get the RxCUI values, ensuring they are not None/NaN before processing
     rxcui = str(first_row['RXCUI'])
-    brand_rxcui = str(first_row['Brand_Mate_RxCUI']) if pd.notna(first_row['Brand_Mate_RxCUI']) else ""
-    generic_rxcui = str(first_row['Generic_Mate_RxCUI']) if pd.notna(first_row['Generic_Mate_RxCUI']) else ""
+    brand_rxcui = str(first_row['Brand_RxCUI']) if pd.notna(first_row['Brand_RxCUI']) else ""
+    generic_rxcui = str(first_row['Generic_RxCUI']) if pd.notna(first_row['Generic_RxCUI']) else ""
     
     # --- MANUFACTURER NAME ---
     best_manufacturer_name = str(first_row['Manufacturer_Name']) if pd.notna(first_row['Manufacturer_Name']) else ""
@@ -421,9 +433,9 @@ def build_drug_data(group):
         "Name": full_drug_name,
         "IsBrand": bool(first_row['IsBrand']),
         
-        "Brand_Mate_RxCUI": brand_rxcui,
-        # CRITICAL FIX: Changed 'generic_mate_rxcui' (undefined) to 'generic_rxcui'
-        "Generic_Mate_RxCUI": generic_rxcui, 
+        "Brand_RxCUI": brand_rxcui,
+        # CRITICAL FIX: Changed 'generic_RxCUI' (undefined) to 'generic_rxcui'
+        "Generic_RxCUI": generic_rxcui, 
         
         "Ingredient_Name": ingredient_name, # FIXED/FALLBACK field
         
@@ -455,26 +467,26 @@ for rxcui, group in tqdm(grouped_data, desc="Writing JSON Files"):
         created_files.add(rxcui)
 
         # 2. Update the Brand/Generic Comparison Map (Symmetrical Pair)
-        brand_mate_rxcui = data['Brand_Mate_RxCUI']
-        generic_mate_rxcui = data['Generic_Mate_RxCUI']
+        brand_RxCUI = data['Brand_RxCUI']
+        generic_RxCUI = data['Generic_RxCUI']
 
-        if brand_mate_rxcui and generic_mate_rxcui and brand_mate_rxcui != generic_mate_rxcui:
+        if brand_RxCUI and generic_RxCUI and brand_RxCUI != generic_RxCUI:
             
             # Using the official name lookup for the comparison map is safest
-            brand_name = name_lookup.get(brand_mate_rxcui, 'Unknown Brand')
-            generic_name = name_lookup.get(generic_mate_rxcui, 'Unknown Generic')
+            brand_name = name_lookup.get(brand_RxCUI, 'Unknown Brand')
+            generic_name = name_lookup.get(generic_RxCUI, 'Unknown Generic')
 
-            comparison_map[brand_mate_rxcui] = {
-                "rxcui": brand_mate_rxcui,
+            comparison_map[brand_RxCUI] = {
+                "rxcui": brand_RxCUI,
                 "name": brand_name,
-                "mate_rxcui": generic_mate_rxcui,
+                "RxCUI": generic_RxCUI,
                 "mate_name": generic_name,
                 "type": "BRAND"
             }
-            comparison_map[generic_mate_rxcui] = {
-                "rxcui": generic_mate_rxcui,
+            comparison_map[generic_RxCUI] = {
+                "rxcui": generic_RxCUI,
                 "name": generic_name,
-                "mate_rxcui": brand_mate_rxcui,
+                "RxCUI": brand_RxCUI,
                 "mate_name": brand_name,
                 "type": "GENERIC"
             }
@@ -509,15 +521,21 @@ if created_files:
                 
                 if drug_name_raw and rxcui:
                     
-                    brand_mate = data.get('Brand_Mate_RxCUI')
-                    generic_mate = data.get('Generic_Mate_RxCUI')
+                    brand_mate = data.get('Brand_RxCUI', '')
+                    generic_mate = data.get('Generic_RxCUI', '')
+                    is_brand = data.get('IsBrand', False)
 
-                    # Determine if this concept is the 'Brand' part of a pair (to avoid redundancy)
-                    is_brand_part_of_pair = (rxcui == brand_mate and brand_mate != generic_mate)
+                    # Determine if this drug has a valid pair (both brand AND generic exist and are different)
+                    has_valid_pair = (brand_mate and generic_mate and brand_mate != generic_mate)
 
-                    # Get the mate info for the search index entry
-                    mate_rxcui = generic_mate if is_brand_part_of_pair else brand_mate
-                    mate_name = name_lookup.get(mate_rxcui, "")
+                    # Get the mate's RxCUI (the "other" one in the pair)
+                    # For a brand drug, mate is the generic; for a generic drug, mate is the brand
+                    if is_brand:
+                        mate_rxcui = generic_mate
+                    else:
+                        mate_rxcui = brand_mate
+                    
+                    mate_name = name_lookup.get(mate_rxcui, "") if mate_rxcui else ""
                     
                     # Ensure all new/fixed attributes are pulled into the index
                     ingredient_name = data.get('Ingredient_Name', "") 
@@ -526,18 +544,19 @@ if created_files:
                     entry = {
                         "rxcui": rxcui,
                         "name": drug_name_raw,
-                        "is_brand": data.get('IsBrand', False),
-                        "mate_rxcui": mate_rxcui, 
+                        "is_brand": is_brand,
+                        "mate_rxcui": mate_rxcui,  # Renamed for clarity
                         "mate_name": mate_name,
                         "ingredient_name": ingredient_name, 
                         "manufacturer_name": manufacturer_name, 
                     }
                     
+                    # Index 1: ALL drugs (keyed by rxcui)
                     search_index_all[rxcui] = entry
                     
-                    if brand_mate and generic_mate and brand_mate != generic_mate:
-                        # Create unique key for the pair-only index
-                        tag = 'BRAND' if is_brand_part_of_pair else 'GENERIC'
+                    # Index 2: Only drugs that have BOTH brand and generic data
+                    if has_valid_pair:
+                        tag = 'BRAND' if is_brand else 'GENERIC'
                         unique_search_key = f"{drug_name_raw.lower()} [{tag}]"
                         search_index_has_pair[unique_search_key] = entry
                         

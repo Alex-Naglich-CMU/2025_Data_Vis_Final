@@ -1,9 +1,13 @@
 {
   "RxCUI": "1665046",
-  "Name": "CEFTRIAXONE 2 GM VIAL",
+  "Name": "ceftriaxone 2000 MG Injection",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1665046",
+  "Ingredient_Name": "Ceftriaxone",
+  "Manufacturer_Name": "",
+  "Strength": "2000 MG",
+  "Form": "Injection",
   "prices": {
     "00409733503": {
       "05/22/2024": 2.6248,

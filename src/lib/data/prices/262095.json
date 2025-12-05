@@ -1,9 +1,13 @@
 {
   "RxCUI": "262095",
-  "Name": "LIPITOR 80 MG TABLET",
+  "Name": "atorvastatin 80 MG Oral Tablet [Lipitor]",
   "IsBrand": true,
   "Brand_RxCUI": "262095",
   "Generic_RxCUI": "259255",
+  "Ingredient_Name": "Atorvastatin",
+  "Manufacturer_Name": "Lipitor",
+  "Strength": "80 MG",
+  "Form": "",
   "prices": {
     "00071015823": {
       "06/01/2017": 12.29973,

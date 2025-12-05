@@ -1,9 +1,13 @@
 {
   "RxCUI": "308749",
-  "Name": "FLEET BISACODYL 10 MG ENEMA",
+  "Name": "bisacodyl 0.333 MG/ML Enema",
   "IsBrand": true,
   "Brand_RxCUI": "308749",
-  "Generic_RxCUI": null,
+  "Generic_RxCUI": "",
+  "Ingredient_Name": "Bisacodyl Mgml Enema",
+  "Manufacturer_Name": "",
+  "Strength": "0.333 MG/ML",
+  "Form": "",
   "prices": {
     "00132070336": {
       "06/21/2017": 0.05631,
@@ -24,7 +28,8 @@
       "12/18/2024": 0.06451,
       "03/19/2025": 0.06452,
       "09/17/2025": 0.06406,
-      "10/22/2025": 0.06426
+      "10/22/2025": 0.06426,
+      "11/19/2025": 0.06435
     }
   }
 }

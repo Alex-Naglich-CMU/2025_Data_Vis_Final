@@ -1,9 +1,13 @@
 {
   "RxCUI": "415974",
-  "Name": "COOLING PAIN RELIEF 4% GEL",
+  "Name": "menthol 0.04 MG/MG Topical Gel",
   "IsBrand": false,
   "Brand_RxCUI": "1111683",
   "Generic_RxCUI": "415974",
+  "Ingredient_Name": "Menthol Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.04 MG/MG",
+  "Form": "Gel",
   "prices": {
     "70000061701": {
       "06/19/2024": 0.07107,
@@ -22,7 +26,8 @@
       "07/23/2025": 0.06664,
       "08/20/2025": 0.0658,
       "09/17/2025": 0.06425,
-      "10/22/2025": 0.06421
+      "10/22/2025": 0.06421,
+      "11/19/2025": 0.06559
     },
     "70000061801": {
       "12/18/2024": 0.0587,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "284509",
-  "Name": "SEROQUEL 300 MG TABLET",
+  "Name": "quetiapine 300 MG Oral Tablet [Seroquel]",
   "IsBrand": true,
   "Brand_RxCUI": "284509",
   "Generic_RxCUI": "312745",
+  "Ingredient_Name": "Quetiapine",
+  "Manufacturer_Name": "Seroquel",
+  "Strength": "300 MG",
+  "Form": "",
   "prices": {
     "00310027460": {
       "05/22/2024": 15.70871,
@@ -20,7 +24,8 @@
       "05/21/2025": 15.77419,
       "06/18/2025": 15.81085,
       "08/20/2025": 15.8202,
-      "10/22/2025": 15.84176
+      "10/22/2025": 15.84176,
+      "11/19/2025": 15.85762
     }
   }
 }

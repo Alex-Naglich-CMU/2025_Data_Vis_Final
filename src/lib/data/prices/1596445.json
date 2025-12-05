@@ -1,9 +1,13 @@
 {
   "RxCUI": "1596445",
-  "Name": "INCRUSE ELLIPTA 62.5 MCG INH",
+  "Name": "7 ACTUAT umeclidinium 0.0625 MG/ACTUAT Dry Powder Inhaler [Incruse]",
   "IsBrand": true,
   "Brand_RxCUI": "1596445",
   "Generic_RxCUI": "1596444",
+  "Ingredient_Name": "Actuat Umeclidinium Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Incruse",
+  "Strength": "7 ACTU",
+  "Form": "",
   "prices": {
     "00173087306": {
       "10/18/2017": 9.41911,
@@ -27,7 +31,8 @@
       "07/23/2025": 10.25572,
       "08/20/2025": 10.28768,
       "09/17/2025": 10.28656,
-      "10/22/2025": 10.2537
+      "10/22/2025": 10.2537,
+      "11/19/2025": 10.24277
     }
   }
 }

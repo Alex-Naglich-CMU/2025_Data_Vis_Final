@@ -1,9 +1,13 @@
 {
   "RxCUI": "2591508",
-  "Name": "QUVIVIQ 25 MG TABLET",
+  "Name": "daridorexant 25 MG Oral Tablet [Quviviq]",
   "IsBrand": true,
   "Brand_RxCUI": "2591508",
   "Generic_RxCUI": "2591502",
+  "Ingredient_Name": "Daridorexant",
+  "Manufacturer_Name": "Quviviq",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "80491782503": {
       "01/01/2023": 15.37521,
@@ -23,7 +27,8 @@
       "07/23/2025": 16.21778,
       "08/20/2025": 16.21641,
       "09/17/2025": 16.22327,
-      "10/22/2025": 16.21083
+      "10/22/2025": 16.21083,
+      "11/19/2025": 16.21067
     }
   }
 }

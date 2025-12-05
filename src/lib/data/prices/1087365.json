@@ -1,9 +1,13 @@
 {
   "RxCUI": "1087365",
-  "Name": "URO-MP CAPSULE",
+  "Name": "hyoscyamine sulfate 0.12 MG / methenamine 118 MG / methylene blue 10 MG / phenyl salicylate 36 MG / sodium phosphate, monobasic 40.8 MG Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "1087367",
   "Generic_RxCUI": "1087365",
+  "Ingredient_Name": "Hyoscyamine Methenamine Methylene Blue Phenyl Salicylate Sodium Phosphate, Monobasic",
+  "Manufacturer_Name": "",
+  "Strength": "0.12 MG",
+  "Form": "Capsule",
   "prices": {
     "58657045601": {
       "05/19/2021": 1.8207,
@@ -51,7 +55,8 @@
       "07/23/2025": 1.618,
       "08/20/2025": 1.64143,
       "09/17/2025": 1.66301,
-      "10/22/2025": 1.69175
+      "10/22/2025": 1.69175,
+      "11/19/2025": 1.71126
     }
   }
 }

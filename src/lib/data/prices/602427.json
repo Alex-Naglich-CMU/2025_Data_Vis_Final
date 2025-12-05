@@ -1,9 +1,13 @@
 {
   "RxCUI": "602427",
-  "Name": "CLINDESSE 2% VAGINAL CREAM",
+  "Name": "clindamycin 20 MG/ML Vaginal Cream [Clindesse]",
   "IsBrand": true,
   "Brand_RxCUI": "602427",
   "Generic_RxCUI": "309337",
+  "Ingredient_Name": "Clindamycin Mgml Vaginal",
+  "Manufacturer_Name": "Clindesse",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "45802004201": {
       "05/19/2021": 24.2724,
@@ -36,7 +40,8 @@
       "07/23/2025": 26.71826,
       "08/20/2025": 26.71616,
       "09/17/2025": 26.73053,
-      "10/22/2025": 26.719
+      "10/22/2025": 26.719,
+      "11/19/2025": 26.70842
     }
   }
 }

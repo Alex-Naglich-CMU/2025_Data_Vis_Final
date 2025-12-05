@@ -1,9 +1,13 @@
 {
   "RxCUI": "848333",
-  "Name": "FEMRING 0.05 MG/DAY VAG RING",
+  "Name": "90 DAY estradiol 0.00208 MG/HR Vaginal System [Femring]",
   "IsBrand": true,
   "Brand_RxCUI": "848333",
   "Generic_RxCUI": "848331",
+  "Ingredient_Name": "Day Estradiol Mghr Vaginal System",
+  "Manufacturer_Name": "Femring",
+  "Strength": "90 DAY",
+  "Form": "",
   "prices": {
     "72495020105": {
       "04/24/2019": 462.53069,
@@ -28,7 +32,8 @@
       "07/23/2025": 794.62313,
       "08/20/2025": 794.871,
       "09/17/2025": 795.85238,
-      "10/22/2025": 796.73458
+      "10/22/2025": 796.73458,
+      "11/19/2025": 796.24429
     }
   }
 }

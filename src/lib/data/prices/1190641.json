@@ -1,9 +1,13 @@
 {
   "RxCUI": "1190641",
-  "Name": "LOMOTIL 2.5-0.025 MG TABLET",
+  "Name": "atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG Oral Tablet [Lomotil]",
   "IsBrand": true,
   "Brand_RxCUI": "1190641",
   "Generic_RxCUI": "1190572",
+  "Ingredient_Name": "Atropine Diphenoxylate Hydrochloride",
+  "Manufacturer_Name": "Lomotil",
+  "Strength": "0.025 MG",
+  "Form": "",
   "prices": {
     "00025006131": {
       "06/01/2017": 2.52335,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "865098",
-  "Name": "HUMALOG 100 UNIT/ML VIAL",
+  "Name": "insulin lispro 100 UNT/ML Injectable Solution [Humalog]",
   "IsBrand": true,
   "Brand_RxCUI": "865098",
   "Generic_RxCUI": "242120",
+  "Ingredient_Name": "Insulin Lispro Untml Injectable",
+  "Manufacturer_Name": "Humalog",
+  "Strength": "100 UNT/ML",
+  "Form": "",
   "prices": {
     "00002751001": {
       "06/23/2021": 26.37712,
@@ -32,7 +36,8 @@
       "07/23/2025": 6.36226,
       "08/20/2025": 6.36119,
       "09/17/2025": 6.36055,
-      "10/22/2025": 6.36134
+      "10/22/2025": 6.36134,
+      "11/19/2025": 6.36103
     },
     "00002751017": {
       "12/19/2018": 26.138,

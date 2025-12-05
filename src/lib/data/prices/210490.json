@@ -1,11 +1,15 @@
 {
   "RxCUI": "210490",
-  "Name": "DHS TAR 0.5% SHAMPOO",
+  "Name": "coal tar 5 MG/ML Medicated Shampoo [DHS Tar Shampoo]",
   "IsBrand": true,
   "Brand_RxCUI": "210490",
   "Generic_RxCUI": "309381",
+  "Ingredient_Name": "Coal Tar Mgml Medicated",
+  "Manufacturer_Name": "DHS Tar Shampoo",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
-    "00096073708": {
+    "00096073608": {
       "06/21/2017": 0.03323,
       "07/19/2017": 0.0321,
       "09/20/2017": 0.03137,
@@ -23,7 +27,7 @@
       "05/21/2025": 0.03799,
       "08/20/2025": 0.03803
     },
-    "00096073608": {
+    "00096073708": {
       "06/21/2017": 0.03323,
       "07/19/2017": 0.0321,
       "09/20/2017": 0.03137,

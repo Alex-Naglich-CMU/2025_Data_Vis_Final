@@ -1,9 +1,13 @@
 {
   "RxCUI": "1012223",
-  "Name": "LIDOCAINE-HC 3-2.5% GEL KIT",
+  "Name": "hydrocortisone acetate 0.025 MG/MG / lidocaine hydrochloride 0.03 MG/MG Rectal Gel",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1012223",
+  "Ingredient_Name": "Hydrocortisone Mgmg Lidocaine Hydrochloride Mgmg Rectal",
+  "Manufacturer_Name": "",
+  "Strength": "0.025 MG/MG",
+  "Form": "Gel",
   "prices": {
     "13925016420": {
       "05/22/2024": 142.40182,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1940498",
-  "Name": "XIGDUO XR 2.5 MG-1,000 MG TAB",
+  "Name": "24 HR dapagliflozin 2.5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet [Xigduo]",
   "IsBrand": true,
   "Brand_RxCUI": "1940498",
   "Generic_RxCUI": "1940496",
+  "Ingredient_Name": "Hr Dapagliflozin Metformin Hydrochloride Extended Release",
+  "Manufacturer_Name": "Xigduo",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00310622560": {
       "01/01/2020": 8.15468,
@@ -28,7 +32,8 @@
       "07/23/2025": 9.5996,
       "08/20/2025": 9.59902,
       "09/17/2025": 9.61026,
-      "10/22/2025": 9.60074
+      "10/22/2025": 9.60074,
+      "11/19/2025": 9.59148
     },
     "310622560": {
       "1/1/2022": 8.76994

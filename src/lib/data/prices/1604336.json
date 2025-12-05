@@ -1,9 +1,13 @@
 {
   "RxCUI": "1604336",
-  "Name": "NUVESSA VAGINAL 1.3% GEL",
+  "Name": "metronidazole 0.013 MG/MG Vaginal Gel [Nuvessa]",
   "IsBrand": true,
   "Brand_RxCUI": "1604336",
   "Generic_RxCUI": "1608253",
+  "Ingredient_Name": "Metronidazole Mgmg Vaginal",
+  "Manufacturer_Name": "Nuvessa",
+  "Strength": "0.013 MG/MG",
+  "Form": "",
   "prices": {
     "00642746605": {
       "05/19/2021": 35.507,
@@ -26,7 +30,8 @@
       "07/23/2025": 41.05971,
       "08/20/2025": 41.12146,
       "09/17/2025": 41.05509,
-      "10/22/2025": 41.03639
+      "10/22/2025": 41.03639,
+      "11/19/2025": 41.05062
     }
   }
 }

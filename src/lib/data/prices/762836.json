@@ -1,9 +1,13 @@
 {
   "RxCUI": "762836",
-  "Name": "GENOTROPIN MINIQUICK 0.4 MG",
+  "Name": "0.25 ML somatropin 1.6 MG/ML Prefilled Syringe [Genotropin]",
   "IsBrand": true,
   "Brand_RxCUI": "762836",
   "Generic_RxCUI": "762834",
+  "Ingredient_Name": "Somatropin Mgml Prefilled",
+  "Manufacturer_Name": "Genotropin",
+  "Strength": "0.25 ML",
+  "Form": "",
   "prices": {
     "00013265002": {
       "07/17/2024": 58.79347,
@@ -14,7 +18,8 @@
       "12/18/2024": 58.68334,
       "01/01/2025": 60.09174,
       "08/20/2025": 59.73343,
-      "09/17/2025": 59.83048
+      "09/17/2025": 59.83048,
+      "11/19/2025": 59.88204
     }
   }
 }

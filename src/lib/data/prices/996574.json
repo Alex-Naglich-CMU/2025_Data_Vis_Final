@@ -1,9 +1,13 @@
 {
   "RxCUI": "996574",
-  "Name": "NAMENDA 5 MG TABLET",
+  "Name": "memantine hydrochloride 5 MG Oral Tablet [Namenda]",
   "IsBrand": true,
   "Brand_RxCUI": "996574",
   "Generic_RxCUI": "996571",
+  "Ingredient_Name": "Memantine Hydrochloride",
+  "Manufacturer_Name": "Namenda",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00456320511": {
       "01/01/2018": 7.05894

@@ -1,9 +1,13 @@
 {
   "RxCUI": "792582",
-  "Name": "SODIUM BICARB 8.4% ABBOJECT",
+  "Name": "50 ML sodium bicarbonate 84 MG/ML Prefilled Syringe",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "792582",
+  "Ingredient_Name": "Sodium Bicarbonate Mgml Prefilled",
+  "Manufacturer_Name": "",
+  "Strength": "50 ML",
+  "Form": "",
   "prices": {
     "00409663714": {
       "10/23/2024": 0.32883

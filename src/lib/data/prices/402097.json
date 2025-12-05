@@ -1,9 +1,13 @@
 {
   "RxCUI": "402097",
-  "Name": "CIALIS 20 MG TABLET",
+  "Name": "tadalafil 20 MG Oral Tablet [Cialis]",
   "IsBrand": true,
   "Brand_RxCUI": "402097",
   "Generic_RxCUI": "402019",
+  "Ingredient_Name": "Tadalafil",
+  "Manufacturer_Name": "Cialis",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "00002446430": {
       "06/21/2017": 58.27389,
@@ -24,7 +28,8 @@
       "07/23/2025": 53.85292,
       "08/20/2025": 53.87705,
       "09/17/2025": 53.79581,
-      "10/22/2025": 53.76544
+      "10/22/2025": 53.76544,
+      "11/19/2025": 53.75592
     }
   }
 }

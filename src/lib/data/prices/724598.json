@@ -1,17 +1,23 @@
 {
   "RxCUI": "724598",
-  "Name": "SINEMET 25-100 MG TABLET",
+  "Name": "carbidopa 25 MG / levodopa 100 MG Oral Tablet [Sinemet]",
   "IsBrand": true,
   "Brand_RxCUI": "724598",
   "Generic_RxCUI": "197444",
+  "Ingredient_Name": "Carbidopa Levodopa",
+  "Manufacturer_Name": "Sinemet",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "78206016801": {
       "12/18/2024": 1.2914,
       "01/01/2025": 1.35601,
-      "09/17/2025": 1.35662
+      "09/17/2025": 1.35662,
+      "11/19/2025": 1.35701
     },
     "78206019001": {
-      "09/17/2025": 1.35662
+      "09/17/2025": 1.35662,
+      "11/19/2025": 1.35701
     }
   }
 }

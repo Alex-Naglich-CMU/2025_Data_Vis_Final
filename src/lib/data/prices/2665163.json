@@ -1,9 +1,13 @@
 {
   "RxCUI": "2665163",
-  "Name": "TACROLIMUS 5 MG CAPSULE (IMMEDIATE RELEASE)",
+  "Name": "BX Rating tacrolimus 5 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "2665163",
+  "Ingredient_Name": "Bx Rating Tacrolimus",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG",
+  "Form": "Capsule",
   "prices": {
     "16729004301": {
       "05/19/2021": 2.67959,
@@ -75,7 +79,8 @@
       "07/23/2025": 0.92296,
       "08/20/2025": 0.86371,
       "09/17/2025": 0.82254,
-      "10/22/2025": 0.82652
+      "10/22/2025": 0.82652,
+      "11/19/2025": 0.80411
     }
   }
 }

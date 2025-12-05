@@ -1,9 +1,13 @@
 {
   "RxCUI": "1664634",
-  "Name": "OXAYDO 7.5 MG TABLET",
+  "Name": "oxycodone hydrochloride 7.5 MG Oral Tablet [Oxaydo]",
   "IsBrand": true,
   "Brand_RxCUI": "1664634",
   "Generic_RxCUI": "1113314",
+  "Ingredient_Name": "Oxycodone Hydrochloride",
+  "Manufacturer_Name": "Oxaydo",
+  "Strength": "7.5 MG",
+  "Form": "",
   "prices": {
     "69344021311": {
       "01/01/2018": 9.60711,

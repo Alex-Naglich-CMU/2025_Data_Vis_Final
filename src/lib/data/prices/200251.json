@@ -1,9 +1,13 @@
 {
   "RxCUI": "200251",
-  "Name": "VIRT-PHOS 250 NEUTRAL TABLET",
+  "Name": "potassium phosphate 155 MG / sodium phosphate, dibasic 852 MG / sodium phosphate, monobasic 130 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1251241",
   "Generic_RxCUI": "200251",
+  "Ingredient_Name": "Potassium Phosphate Sodium Phosphate, Dibasic Sodium Phosphate, Monobasic",
+  "Manufacturer_Name": "",
+  "Strength": "155 MG",
+  "Form": "Tablet",
   "prices": {
     "69543026810": {
       "05/19/2021": 0.24165,

@@ -1,14 +1,18 @@
 {
   "RxCUI": "859128",
-  "Name": "MUSE 1,000 MCG URETHRAL SUPP",
+  "Name": "alprostadil 1 MG Urethral Suppository [Muse]",
   "IsBrand": true,
   "Brand_RxCUI": "859128",
   "Generic_RxCUI": "308051",
+  "Ingredient_Name": "Alprostadil Urethral",
+  "Manufacturer_Name": "Muse",
+  "Strength": "1 MG",
+  "Form": "",
   "prices": {
-    "00037814006": {
+    "00037814001": {
       "05/15/2019": 71.59565
     },
-    "00037814001": {
+    "00037814006": {
       "05/15/2019": 71.59565
     }
   }

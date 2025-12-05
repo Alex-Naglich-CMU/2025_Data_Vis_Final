@@ -1,9 +1,13 @@
 {
   "RxCUI": "1307421",
-  "Name": "LINZESS 290 MCG CAPSULE",
+  "Name": "linaclotide 0.29 MG Oral Capsule [Linzess]",
   "IsBrand": true,
   "Brand_RxCUI": "1307421",
   "Generic_RxCUI": "1307419",
+  "Ingredient_Name": "Linaclotide",
+  "Manufacturer_Name": "Linzess",
+  "Strength": "0.29 MG",
+  "Form": "",
   "prices": {
     "00456120230": {
       "11/22/2017": 11.32327,
@@ -33,7 +37,8 @@
       "07/23/2025": 18.13878,
       "08/20/2025": 18.14017,
       "09/17/2025": 18.1408,
-      "10/22/2025": 18.14623
+      "10/22/2025": 18.14623,
+      "11/19/2025": 18.14544
     }
   }
 }

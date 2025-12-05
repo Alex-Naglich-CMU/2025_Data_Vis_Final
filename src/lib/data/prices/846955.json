@@ -1,9 +1,13 @@
 {
   "RxCUI": "846955",
-  "Name": "RENOVA 0.02% CREAM",
+  "Name": "tretinoin 0.2 MG/ML Topical Cream [Renova]",
   "IsBrand": true,
   "Brand_RxCUI": "846955",
   "Generic_RxCUI": "252265",
+  "Ingredient_Name": "Tretinoin Mgml",
+  "Manufacturer_Name": "Renova",
+  "Strength": "0.2 MG/ML",
+  "Form": "",
   "prices": {
     "00187515020": {
       "05/22/2024": 2.36454,

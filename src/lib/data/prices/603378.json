@@ -1,9 +1,13 @@
 {
   "RxCUI": "603378",
-  "Name": "APTIVUS 250 MG CAPSULE",
+  "Name": "tipranavir 250 MG Oral Capsule [Aptivus]",
   "IsBrand": true,
   "Brand_RxCUI": "603378",
   "Generic_RxCUI": "577212",
+  "Ingredient_Name": "Tipranavir",
+  "Manufacturer_Name": "Aptivus",
+  "Strength": "250 MG",
+  "Form": "",
   "prices": {
     "00597000302": {
       "01/03/2018": 12.64142,

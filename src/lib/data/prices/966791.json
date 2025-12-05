@@ -1,9 +1,13 @@
 {
   "RxCUI": "966791",
-  "Name": "SILENOR 3 MG TABLET",
+  "Name": "doxepin 3 MG Oral Tablet [Silenor]",
   "IsBrand": true,
   "Brand_RxCUI": "966791",
   "Generic_RxCUI": "966787",
+  "Ingredient_Name": "Doxepin",
+  "Manufacturer_Name": "Silenor",
+  "Strength": "3 MG",
+  "Form": "",
   "prices": {
     "42847010330": {
       "01/02/2018": 13.6724,

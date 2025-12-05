@@ -1,9 +1,13 @@
 {
   "RxCUI": "904170",
-  "Name": "PRIMAQUINE 26.3 MG TABLET",
+  "Name": "primaquine phosphate 26.3 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "904170",
+  "Ingredient_Name": "Primaquine Phosphate",
+  "Manufacturer_Name": "",
+  "Strength": "26.3 MG",
+  "Form": "Tablet",
   "prices": {
     "00024159601": {
       "10/23/2024": 1.66378,

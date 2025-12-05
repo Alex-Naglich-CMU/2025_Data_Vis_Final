@@ -1,9 +1,13 @@
 {
   "RxCUI": "2585476",
-  "Name": "DYANAVEL XR 5 MG TABLET",
+  "Name": "24 HR amphetamine 5 MG Extended Release Oral Tablet [Dyanavel]",
   "IsBrand": true,
   "Brand_RxCUI": "2585476",
   "Generic_RxCUI": "2585473",
+  "Ingredient_Name": "Hr Amphetamine Extended Release",
+  "Manufacturer_Name": "Dyanavel",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "24478010601": {
       "01/08/2024": 7.51169,
@@ -21,7 +25,8 @@
       "04/01/2025": 7.71423,
       "08/20/2025": 7.684,
       "09/17/2025": 7.69397,
-      "10/22/2025": 7.69482
+      "10/22/2025": 7.69482,
+      "11/19/2025": 7.69564
     }
   }
 }

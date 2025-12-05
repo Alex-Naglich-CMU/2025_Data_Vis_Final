@@ -1,9 +1,13 @@
 {
   "RxCUI": "999971",
-  "Name": "TRIBENZOR 20-5-12.5 MG TABLET",
+  "Name": "amlodipine 5 MG / hydrochlorothiazide 12.5 MG / olmesartan medoxomil 20 MG Oral Tablet [Tribenzor]",
   "IsBrand": true,
   "Brand_RxCUI": "999971",
   "Generic_RxCUI": "999967",
+  "Ingredient_Name": "Amlodipine Hydrochlorothiazide Olmesartan Medoxomil",
+  "Manufacturer_Name": "Tribenzor",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "65597011490": {
       "06/21/2017": 7.64439,

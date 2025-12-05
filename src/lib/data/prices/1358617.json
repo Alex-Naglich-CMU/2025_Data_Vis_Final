@@ -1,9 +1,13 @@
 {
   "RxCUI": "1358617",
-  "Name": "METHYLPREDNISOLONE 400 MG/5 ML",
+  "Name": "methylprednisolone acetate 80 MG/ML Injectable Suspension",
   "IsBrand": false,
   "Brand_RxCUI": "1358619",
   "Generic_RxCUI": "1358617",
+  "Ingredient_Name": "Methylprednisolone Mgml Injectable",
+  "Manufacturer_Name": "",
+  "Strength": "80 MG/ML",
+  "Form": "Suspension",
   "prices": {
     "00781351675": {
       "10/23/2024": 14.20833,

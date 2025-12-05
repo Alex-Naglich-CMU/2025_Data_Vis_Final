@@ -1,9 +1,13 @@
 {
   "RxCUI": "2669718",
-  "Name": "ZEPBOUND 12.5 MG/0.5 ML PEN",
+  "Name": "0.5 ML tirzepatide 25 MG/ML Auto-Injector [Zepbound]",
   "IsBrand": true,
   "Brand_RxCUI": "2669718",
   "Generic_RxCUI": "2601773",
+  "Ingredient_Name": "Tirzepatide Mgml Auto-Injector",
+  "Manufacturer_Name": "Zepbound",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "00002246080": {
       "04/17/2024": 510.44944,
@@ -21,7 +25,8 @@
       "07/23/2025": 526.08898,
       "08/20/2025": 526.13856,
       "09/17/2025": 526.12335,
-      "10/22/2025": 526.14175
+      "10/22/2025": 526.14175,
+      "11/19/2025": 526.18712
     }
   }
 }

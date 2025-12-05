@@ -4,6 +4,10 @@
   "IsBrand": false,
   "Brand_RxCUI": "749784",
   "Generic_RxCUI": "2471314",
+  "Ingredient_Name": "Tri-Nymyo",
+  "Manufacturer_Name": "",
+  "Strength": "28 TABL",
+  "Form": "TABLET",
   "prices": {
     "51862064601": {
       "11/17/2021": 0.1848,

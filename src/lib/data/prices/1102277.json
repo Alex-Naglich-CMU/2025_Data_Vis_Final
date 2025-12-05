@@ -1,9 +1,13 @@
 {
   "RxCUI": "1102277",
-  "Name": "EDURANT 25 MG TABLET",
+  "Name": "rilpivirine 25 MG Oral Tablet [Edurant]",
   "IsBrand": true,
   "Brand_RxCUI": "1102277",
   "Generic_RxCUI": "1102273",
+  "Ingredient_Name": "Rilpivirine",
+  "Manufacturer_Name": "Edurant",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "59676027801": {
       "12/20/2017": 31.11693,
@@ -36,7 +40,8 @@
       "07/23/2025": 48.00713,
       "08/20/2025": 48.00687,
       "09/17/2025": 48.03556,
-      "10/22/2025": 48.0482
+      "10/22/2025": 48.0482,
+      "11/19/2025": 48.07658
     }
   }
 }

@@ -1,12 +1,17 @@
 {
   "RxCUI": "2052609",
-  "Name": "PROGRAF 0.2 MG GRANULE PACKET",
+  "Name": "tacrolimus 0.2 MG Granules for Oral Suspension [Prograf]",
   "IsBrand": true,
   "Brand_RxCUI": "2052609",
   "Generic_RxCUI": "2052605",
+  "Ingredient_Name": "Tacrolimus Granules For",
+  "Manufacturer_Name": "Prograf",
+  "Strength": "0.2 MG",
+  "Form": "",
   "prices": {
     "00469123050": {
-      "08/20/2025": 5.00532
+      "08/20/2025": 5.00532,
+      "11/19/2025": 5.01436
     }
   }
 }

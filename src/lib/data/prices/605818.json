@@ -1,9 +1,13 @@
 {
   "RxCUI": "605818",
-  "Name": "NICORELIEF 2 MG GUM",
+  "Name": "nicotine 2 MG Chewing Gum [Nicorelief]",
   "IsBrand": false,
   "Brand_RxCUI": "314119",
   "Generic_RxCUI": "605818",
+  "Ingredient_Name": "Nicotine Chewing Gum",
+  "Manufacturer_Name": "Nicorelief",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "00904573611": {
       "06/21/2017": 0.2059,

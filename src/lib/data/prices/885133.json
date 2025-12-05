@@ -1,9 +1,13 @@
 {
   "RxCUI": "885133",
-  "Name": "ACANYA GEL PUMP",
+  "Name": "benzoyl peroxide 0.025 MG/MG / clindamycin phosphate 0.012 MG/MG Topical Gel [Acanya]",
   "IsBrand": true,
   "Brand_RxCUI": "885133",
   "Generic_RxCUI": "885131",
+  "Ingredient_Name": "Benzoyl Peroxide Mgmg Clindamycin Phosphate Mgmg",
+  "Manufacturer_Name": "Acanya",
+  "Strength": "0.025 MG/MG",
+  "Form": "",
   "prices": {
     "13548013250": {
       "01/05/2018": 10.05866

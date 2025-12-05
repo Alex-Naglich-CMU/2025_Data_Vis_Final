@@ -1,9 +1,13 @@
 {
   "RxCUI": "894801",
-  "Name": "MORPHINE SULFATE ER 50 MG CAP",
+  "Name": "morphine sulfate 50 MG Extended Release Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "894803",
   "Generic_RxCUI": "894801",
+  "Ingredient_Name": "Morphine Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "50 MG",
+  "Form": "Capsule",
   "prices": {
     "00115127901": {
       "09/20/2017": 6.40267,

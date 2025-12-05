@@ -1,9 +1,13 @@
 {
   "RxCUI": "896027",
-  "Name": "FLOVENT 250 MCG DISKUS",
+  "Name": "60 ACTUAT fluticasone propionate 0.25 MG/ACTUAT Dry Powder Inhaler [Flovent]",
   "IsBrand": true,
   "Brand_RxCUI": "896027",
   "Generic_RxCUI": "896025",
+  "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Flovent",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "00173060102": {
       "11/22/2017": 3.66891,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "855861",
-  "Name": "PHENYTOIN SOD EXT 200 MG CAP",
+  "Name": "phenytoin sodium 200 MG Extended Release Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "855863",
   "Generic_RxCUI": "855861",
+  "Ingredient_Name": "Phenytoin Sodium Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "200 MG",
+  "Form": "Capsule",
   "prices": {
     "62756029983": {
       "07/21/2021": 1.12595,

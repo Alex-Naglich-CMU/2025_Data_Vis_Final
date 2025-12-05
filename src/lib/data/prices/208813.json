@@ -1,9 +1,13 @@
 {
   "RxCUI": "208813",
-  "Name": "TOBRADEX EYE DROPS",
+  "Name": "dexamethasone 1 MG/ML / tobramycin 3 MG/ML Ophthalmic Suspension [Tobradex]",
   "IsBrand": true,
   "Brand_RxCUI": "208813",
   "Generic_RxCUI": "309683",
+  "Ingredient_Name": "Dexamethasone Mgml Tobramycin Mgml",
+  "Manufacturer_Name": "Tobradex",
+  "Strength": "1 MG/ML",
+  "Form": "",
   "prices": {
     "00065064705": {
       "01/03/2018": 30.36293,

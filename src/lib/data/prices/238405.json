@@ -1,9 +1,13 @@
 {
   "RxCUI": "238405",
-  "Name": "ZINC OXIDE 25% OINTMENT",
+  "Name": "zinc oxide 0.25 MG/MG Topical Ointment",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "238405",
+  "Ingredient_Name": "Zinc Oxide Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.25 MG/MG",
+  "Form": "Ointment",
   "prices": {
     "70000048801": {
       "10/21/2020": 0.03993,
@@ -21,7 +25,8 @@
       "07/23/2025": 0.03827,
       "08/20/2025": 0.03799,
       "09/17/2025": 0.03801,
-      "10/22/2025": 0.03849
+      "10/22/2025": 0.03849,
+      "11/19/2025": 0.03921
     }
   }
 }

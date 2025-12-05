@@ -1,9 +1,13 @@
 {
   "RxCUI": "1872980",
-  "Name": "HUMIRA(CF) PEN 40 MG/0.4 ML",
+  "Name": "0.4 ML adalimumab 100 MG/ML Auto-Injector [Humira]",
   "IsBrand": true,
   "Brand_RxCUI": "1872980",
   "Generic_RxCUI": "1872979",
+  "Ingredient_Name": "Adalimumab Mgml Auto-Injector",
+  "Manufacturer_Name": "Humira",
+  "Strength": "0.4 ML",
+  "Form": "",
   "prices": {
     "00074055402": {
       "01/01/2019": 2519.00878,
@@ -35,7 +39,8 @@
       "07/23/2025": 3363.15468,
       "08/20/2025": 3362.98165,
       "09/17/2025": 3363.95614,
-      "10/22/2025": 3363.69352
+      "10/22/2025": 3363.69352,
+      "11/19/2025": 3364.91689
     }
   }
 }

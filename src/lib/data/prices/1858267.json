@@ -1,9 +1,13 @@
 {
   "RxCUI": "1858267",
-  "Name": "VEMLIDY 25 MG TABLET",
+  "Name": "tenofovir alafenamide 25 MG Oral Tablet [Vemlidy]",
   "IsBrand": true,
   "Brand_RxCUI": "1858267",
   "Generic_RxCUI": "1858261",
+  "Ingredient_Name": "Tenofovir Alafenamide",
+  "Manufacturer_Name": "Vemlidy",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "61958230101": {
       "10/18/2017": 31.98293,
@@ -34,7 +38,8 @@
       "07/23/2025": 49.01247,
       "08/20/2025": 49.02357,
       "09/17/2025": 49.01436,
-      "10/22/2025": 49.02821
+      "10/22/2025": 49.02821,
+      "11/19/2025": 49.03108
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "351993",
-  "Name": "GONAL-F 450 UNITS VIAL",
+  "Name": "follitropin alfa 600 UNT/ML Injectable Solution [Gonal F]",
   "IsBrand": true,
   "Brand_RxCUI": "351993",
   "Generic_RxCUI": "351125",
+  "Ingredient_Name": "Follitropin Alfa Untml Injectable",
+  "Manufacturer_Name": "Gonal F",
+  "Strength": "600 UNT/ML",
+  "Form": "",
   "prices": {
     "44087903001": {
       "09/18/2024": 1392.372

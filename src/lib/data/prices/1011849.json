@@ -1,9 +1,13 @@
 {
   "RxCUI": "1011849",
-  "Name": "ALOE VERA-LIDOCAINE GEL",
+  "Name": "lidocaine hydrochloride 0.005 MG/MG Topical Gel",
   "IsBrand": false,
   "Brand_RxCUI": "1011851",
   "Generic_RxCUI": "1011849",
+  "Ingredient_Name": "Lidocaine Hydrochloride Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.005 MG/MG",
+  "Form": "Gel",
   "prices": {
     "24385008334": {
       "07/19/2017": 0.01004

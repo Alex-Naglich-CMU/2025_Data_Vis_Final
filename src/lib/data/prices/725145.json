@@ -1,9 +1,13 @@
 {
   "RxCUI": "725145",
-  "Name": "BABY SKIN PROTECTANT 41% OINT",
+  "Name": "petrolatum 0.41 MG/MG Topical Ointment",
   "IsBrand": false,
   "Brand_RxCUI": "1052954",
   "Generic_RxCUI": "725145",
+  "Ingredient_Name": "Petrolatum Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.41 MG/MG",
+  "Form": "Ointment",
   "prices": {
     "70000007901": {
       "10/23/2024": 0.04224,

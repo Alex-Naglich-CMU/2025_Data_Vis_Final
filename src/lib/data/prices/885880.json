@@ -1,15 +1,20 @@
 {
   "RxCUI": "885880",
-  "Name": "CLONIDINE HCL ER 0.17 MG TAB",
+  "Name": "24 HR clonidine 0.17 MG Extended Release Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1050338",
   "Generic_RxCUI": "885880",
+  "Ingredient_Name": "Hr Clonidine Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "52817037530": {
       "09/18/2024": 12.99757,
       "10/23/2024": 12.89,
       "08/20/2025": 14.647,
-      "10/22/2025": 14.61302
+      "10/22/2025": 14.61302,
+      "11/19/2025": 14.59604
     },
     "68134060330": {
       "09/18/2024": 12.99757,

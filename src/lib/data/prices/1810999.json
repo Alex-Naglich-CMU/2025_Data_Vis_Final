@@ -1,9 +1,13 @@
 {
   "RxCUI": "1810999",
-  "Name": "INVOKAMET XR 150-1,000 MG TAB",
+  "Name": "24 HR canagliflozin 150 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet [Invokamet]",
   "IsBrand": true,
   "Brand_RxCUI": "1810999",
   "Generic_RxCUI": "1810997",
+  "Ingredient_Name": "Hr Canagliflozin Metformin Hydrochloride Extended Release",
+  "Manufacturer_Name": "Invokamet",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "50458094301": {
       "01/03/2018": 7.42824,
@@ -35,7 +39,8 @@
       "07/23/2025": 9.55138,
       "08/20/2025": 9.53821,
       "09/17/2025": 9.55208,
-      "10/22/2025": 9.54245
+      "10/22/2025": 9.54245,
+      "11/19/2025": 9.5434
     }
   }
 }

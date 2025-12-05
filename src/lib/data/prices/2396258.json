@@ -1,9 +1,13 @@
 {
   "RxCUI": "2396258",
-  "Name": "TWIRLA 120-30 MCG/DAY PATCH",
+  "Name": "168 HR ethinyl estradiol 0.00125 MG/HR / levonorgestrel 0.005 MG/HR Transdermal System [Twirla]",
   "IsBrand": true,
   "Brand_RxCUI": "2396258",
   "Generic_RxCUI": "2396242",
+  "Ingredient_Name": "Hr Ethinyl Estradiol Mghr Levonorgestrel Mghr Transdermal System",
+  "Manufacturer_Name": "Twirla",
+  "Strength": "168 HR",
+  "Form": "",
   "prices": {
     "71671010011": {
       "7/15/2022": 60.60961,
@@ -27,7 +31,8 @@
       "07/23/2025": 65.32475,
       "08/20/2025": 65.33728,
       "09/17/2025": 65.33982,
-      "10/22/2025": 65.26674
+      "10/22/2025": 65.26674,
+      "11/19/2025": 65.25547
     }
   }
 }

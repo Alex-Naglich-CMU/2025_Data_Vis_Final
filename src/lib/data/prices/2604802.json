@@ -1,0 +1,19 @@
+{
+  "RxCUI": "2604802",
+  "Name": "VOQUEZNA DUAL PAK",
+  "IsBrand": true,
+  "Brand_RxCUI": "2604802",
+  "Generic_RxCUI": "2604801",
+  "Ingredient_Name": "Voquezna Dual Pak",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "",
+  "prices": {
+    "81520025001": {
+      "11/19/2025": 7.31017
+    },
+    "81520025014": {
+      "11/19/2025": 7.31017
+    }
+  }
+}

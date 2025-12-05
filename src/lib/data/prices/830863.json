@@ -1,9 +1,13 @@
 {
   "RxCUI": "830863",
-  "Name": "CARDIZEM CD 120 MG CAPSULE",
+  "Name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule [Cardizem]",
   "IsBrand": true,
   "Brand_RxCUI": "830863",
   "Generic_RxCUI": "830861",
+  "Ingredient_Name": "Hr Diltiazem Hydrochloride Extended Release",
+  "Manufacturer_Name": "Cardizem",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00187079530": {
       "05/21/2025": 27.14129,

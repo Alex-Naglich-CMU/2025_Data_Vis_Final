@@ -1,9 +1,13 @@
 {
   "RxCUI": "1722934",
-  "Name": "MEROPENEM IV 500 MG VIAL",
+  "Name": "meropenem 500 MG Injection",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1722934",
+  "Ingredient_Name": "Meropenem",
+  "Manufacturer_Name": "",
+  "Strength": "500 MG",
+  "Form": "Injection",
   "prices": {
     "00409022210": {
       "05/22/2024": 2.8678

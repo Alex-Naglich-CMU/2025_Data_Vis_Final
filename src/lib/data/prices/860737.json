@@ -1,9 +1,13 @@
 {
   "RxCUI": "860737",
-  "Name": "RANEXA ER 1,000 MG TABLET",
+  "Name": "12 HR ranolazine 1000 MG Extended Release Oral Tablet [Ranexa]",
   "IsBrand": true,
   "Brand_RxCUI": "860737",
   "Generic_RxCUI": "728231",
+  "Ingredient_Name": "Hr Ranolazine Extended Release",
+  "Manufacturer_Name": "Ranexa",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "61958100401": {
       "07/01/2017": 9.41116,

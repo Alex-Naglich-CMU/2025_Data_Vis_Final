@@ -1,15 +1,19 @@
 {
   "RxCUI": "208681",
-  "Name": "HALCION 0.25 MG TABLET",
+  "Name": "triazolam 0.25 MG Oral Tablet [Halcion]",
   "IsBrand": true,
   "Brand_RxCUI": "208681",
   "Generic_RxCUI": "198318",
+  "Ingredient_Name": "Triazolam",
+  "Manufacturer_Name": "Halcion",
+  "Strength": "0.25 MG",
+  "Form": "",
   "prices": {
-    "00009001758": {
+    "00009001755": {
       "06/01/2017": 4.86241,
       "01/01/2018": 5.32119
     },
-    "00009001755": {
+    "00009001758": {
       "06/01/2017": 4.86241,
       "01/01/2018": 5.32119
     }

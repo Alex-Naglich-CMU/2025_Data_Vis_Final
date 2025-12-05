@@ -1,9 +1,13 @@
 {
   "RxCUI": "753990",
-  "Name": "MENOPUR 75 UNIT VIAL",
+  "Name": "follicle stimulating hormone 75 UNT / luteinizing hormone 75 UNT Injection [Menopur]",
   "IsBrand": true,
   "Brand_RxCUI": "753990",
   "Generic_RxCUI": "314097",
+  "Ingredient_Name": "Follicle Stimulating Hormone Unt Luteinizing Hormone Unt",
+  "Manufacturer_Name": "Menopur",
+  "Strength": "75 UNT",
+  "Form": "",
   "prices": {
     "55566750102": {
       "07/03/2024": 233.95042,

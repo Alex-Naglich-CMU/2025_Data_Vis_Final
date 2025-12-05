@@ -1,9 +1,13 @@
 {
   "RxCUI": "2102715",
-  "Name": "SYMPAZAN 20 MG FILM",
+  "Name": "clobazam 20 MG Oral Film [Sympazan]",
   "IsBrand": true,
   "Brand_RxCUI": "2102715",
   "Generic_RxCUI": "2058254",
+  "Ingredient_Name": "Clobazam Film",
+  "Manufacturer_Name": "Sympazan",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "10094022001": {
       "01/22/2025": 62.37289,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "825321",
-  "Name": "ZOVIRAX 5% CREAM",
+  "Name": "acyclovir 50 MG/ML Topical Cream [Zovirax]",
   "IsBrand": true,
   "Brand_RxCUI": "825321",
   "Generic_RxCUI": "141859",
+  "Ingredient_Name": "Acyclovir Mgml",
+  "Manufacturer_Name": "Zovirax",
+  "Strength": "50 MG/ML",
+  "Form": "",
   "prices": {
     "00187099445": {
       "07/16/2021": 38.4813,

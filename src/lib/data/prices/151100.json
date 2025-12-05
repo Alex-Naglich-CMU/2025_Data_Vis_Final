@@ -1,9 +1,13 @@
 {
   "RxCUI": "151100",
-  "Name": "TRUSOPT 2% EYE DROPS",
+  "Name": "dorzolamide 20 MG/ML Ophthalmic Solution [Trusopt]",
   "IsBrand": true,
   "Brand_RxCUI": "151100",
   "Generic_RxCUI": "310015",
+  "Ingredient_Name": "Dorzolamide Mgml",
+  "Manufacturer_Name": "Trusopt",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "00006351936": {
       "10/04/2018": 7.31628

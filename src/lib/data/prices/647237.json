@@ -1,9 +1,13 @@
 {
   "RxCUI": "647237",
-  "Name": "PIOGLITAZONE-GLIMEPIRIDE 30-2",
+  "Name": "glimepiride 2 MG / pioglitazone 30 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "731463",
   "Generic_RxCUI": "647237",
+  "Ingredient_Name": "Glimepiride Pioglitazone",
+  "Manufacturer_Name": "",
+  "Strength": "2 MG",
+  "Form": "Tablet",
   "prices": {
     "66993082130": {
       "11/20/2024": 7.69783,

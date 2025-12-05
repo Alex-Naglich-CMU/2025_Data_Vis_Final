@@ -2,8 +2,12 @@
   "RxCUI": "892244",
   "Name": "NICOTINE TRANSDERMAL SYSTEM",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "892244",
+  "Ingredient_Name": "Nicotine Transdermal System",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "",
   "prices": {
     "43598044556": {
       "4/20/2022": 1.455,
@@ -27,7 +31,8 @@
       "07/23/2025": 1.26032,
       "08/20/2025": 1.31902,
       "09/17/2025": 1.3729,
-      "10/22/2025": 1.44324
+      "10/22/2025": 1.44324,
+      "11/19/2025": 1.46992
     }
   }
 }

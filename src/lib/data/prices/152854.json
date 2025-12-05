@@ -1,9 +1,13 @@
 {
   "RxCUI": "152854",
-  "Name": "SPORANOX 10 MG/ML SOLUTION",
+  "Name": "itraconazole 10 MG/ML Oral Solution [Sporanox]",
   "IsBrand": true,
   "Brand_RxCUI": "152854",
   "Generic_RxCUI": "348506",
+  "Ingredient_Name": "Itraconazole Mgml",
+  "Manufacturer_Name": "Sporanox",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "50458029515": {
       "01/03/2018": 2.05576,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "836645",
-  "Name": "EDLUAR 10 MG SL TABLET",
+  "Name": "zolpidem tartrate 10 MG Sublingual Tablet [Edluar]",
   "IsBrand": true,
   "Brand_RxCUI": "836645",
   "Generic_RxCUI": "836641",
+  "Ingredient_Name": "Zolpidem Tartrate Sublingual",
+  "Manufacturer_Name": "Edluar",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "00037601030": {
       "10/18/2017": 11.39183,

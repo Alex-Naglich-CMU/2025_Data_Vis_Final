@@ -1,9 +1,13 @@
 {
   "RxCUI": "1192986",
-  "Name": "ENEMEEZ PLUS MINI ENEMA",
+  "Name": "benzocaine 4 MG/ML / docusate sodium 56.6 MG/ML Enema [Enemeez Plus]",
   "IsBrand": true,
   "Brand_RxCUI": "1192986",
   "Generic_RxCUI": "1192984",
+  "Ingredient_Name": "Benzocaine Mgml Docusate Sodium Mgml Enema",
+  "Manufacturer_Name": "Enemeez Plus",
+  "Strength": "4 MG/ML",
+  "Form": "",
   "prices": {
     "17433987703": {
       "04/17/2024": 0.37032,
@@ -23,7 +27,8 @@
       "07/23/2025": 0.36834,
       "08/20/2025": 0.3728,
       "09/17/2025": 0.36729,
-      "10/22/2025": 0.37061
+      "10/22/2025": 0.37061,
+      "11/19/2025": 0.3705
     }
   }
 }

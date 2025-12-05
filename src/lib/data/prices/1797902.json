@@ -1,9 +1,13 @@
 {
   "RxCUI": "1797902",
-  "Name": "QNASL CHILDREN'S 40 MCG SPRAY",
+  "Name": "beclomethasone dipropionate 0.04 MG/ACTUAT Metered Dose Nasal Spray [Qnasl]",
   "IsBrand": true,
   "Brand_RxCUI": "1797902",
   "Generic_RxCUI": "1797900",
+  "Ingredient_Name": "Beclomethasone Dipropionate Mgactuat Metered Dose Nasal",
+  "Manufacturer_Name": "Qnasl",
+  "Strength": "0.04 MG/ACTU",
+  "Form": "",
   "prices": {
     "59310040606": {
       "01/01/2020": 34.38126,

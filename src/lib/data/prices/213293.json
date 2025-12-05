@@ -1,9 +1,13 @@
 {
   "RxCUI": "213293",
-  "Name": "XELODA 500 MG TABLET",
+  "Name": "capecitabine 500 MG Oral Tablet [Xeloda]",
   "IsBrand": true,
   "Brand_RxCUI": "213293",
   "Generic_RxCUI": "200328",
+  "Ingredient_Name": "Capecitabine",
+  "Manufacturer_Name": "Xeloda",
+  "Strength": "500 MG",
+  "Form": "",
   "prices": {
     "00004110150": {
       "06/28/2017": 43.28632

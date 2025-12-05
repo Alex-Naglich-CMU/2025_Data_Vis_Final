@@ -1,9 +1,13 @@
 {
   "RxCUI": "861008",
-  "Name": "GLUCOPHAGE 500 MG TABLET",
+  "Name": "metformin hydrochloride 500 MG Oral Tablet [Glucophage]",
   "IsBrand": true,
   "Brand_RxCUI": "861008",
   "Generic_RxCUI": "861007",
+  "Ingredient_Name": "Metformin Hydrochloride",
+  "Manufacturer_Name": "Glucophage",
+  "Strength": "500 MG",
+  "Form": "",
   "prices": {
     "00087606005": {
       "08/23/2017": 0.94655

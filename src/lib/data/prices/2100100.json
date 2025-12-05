@@ -4,6 +4,10 @@
   "IsBrand": true,
   "Brand_RxCUI": "2100100",
   "Generic_RxCUI": "2100026",
+  "Ingredient_Name": "Xofluza ( Dose)",
+  "Manufacturer_Name": "",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "50242086002": {
       "11/20/2019": 72.12167,

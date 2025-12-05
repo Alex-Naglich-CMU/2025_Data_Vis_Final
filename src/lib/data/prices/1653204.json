@@ -1,9 +1,13 @@
 {
   "RxCUI": "1653204",
-  "Name": "NOVOLOG 100 UNITS/ML FLEXPEN",
+  "Name": "3 ML insulin aspart, human 100 UNT/ML Pen Injector [NovoLog]",
   "IsBrand": true,
   "Brand_RxCUI": "1653204",
   "Generic_RxCUI": "1653202",
+  "Ingredient_Name": "Insulin Aspart, Human Untml Pen Injector",
+  "Manufacturer_Name": "NovoLog",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00169633910": {
       "02/21/2018": 34.102,
@@ -31,7 +35,8 @@
       "07/23/2025": 8.9385,
       "08/20/2025": 8.93738,
       "09/17/2025": 8.93807,
-      "10/22/2025": 8.93903
+      "10/22/2025": 8.93903,
+      "11/19/2025": 8.93857
     },
     "169633910": {
       "09/22/2021": 35.83585

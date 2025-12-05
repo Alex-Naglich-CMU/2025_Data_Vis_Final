@@ -1,9 +1,13 @@
 {
   "RxCUI": "1298088",
-  "Name": "FLURAZEPAM 15 MG CAPSULE",
+  "Name": "flurazepam hydrochloride 15 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1298088",
+  "Ingredient_Name": "Flurazepam Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "15 MG",
+  "Form": "Capsule",
   "prices": {
     "00378441501": {
       "06/21/2017": 0.40871,

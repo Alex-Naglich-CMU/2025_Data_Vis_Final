@@ -1,9 +1,13 @@
 {
   "RxCUI": "311041",
-  "Name": "INSULIN GLARGINE 100 UNIT/ML VIAL",
+  "Name": "insulin glargine 100 UNT/ML Injectable Solution",
   "IsBrand": false,
   "Brand_RxCUI": "2377134",
   "Generic_RxCUI": "311041",
+  "Ingredient_Name": "Insulin Glargine Untml Injectable",
+  "Manufacturer_Name": "",
+  "Strength": "100 UNT/ML",
+  "Form": "Solution",
   "prices": {
     "00955172901": {
       "9/21/2022": 10.8854,

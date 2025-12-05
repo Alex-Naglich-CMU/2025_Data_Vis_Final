@@ -1,9 +1,13 @@
 {
   "RxCUI": "404725",
-  "Name": "ZONEGRAN 25 MG CAPSULE",
+  "Name": "zonisamide 25 MG Oral Capsule [Zonegran]",
   "IsBrand": true,
   "Brand_RxCUI": "404725",
   "Generic_RxCUI": "403966",
+  "Ingredient_Name": "Zonisamide",
+  "Manufacturer_Name": "Zonegran",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "59212068110": {
       "09/05/2017": 12.31227

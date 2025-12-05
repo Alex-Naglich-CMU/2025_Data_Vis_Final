@@ -1,9 +1,13 @@
 {
   "RxCUI": "724891",
-  "Name": "EXFORGE 5-160 MG TABLET",
+  "Name": "amlodipine 5 MG / valsartan 160 MG Oral Tablet [Exforge]",
   "IsBrand": true,
   "Brand_RxCUI": "724891",
   "Generic_RxCUI": "722134",
+  "Ingredient_Name": "Amlodipine Valsartan",
+  "Manufacturer_Name": "Exforge",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00078048815": {
       "07/11/2017": 7.66356,

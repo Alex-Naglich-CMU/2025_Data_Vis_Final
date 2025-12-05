@@ -1,9 +1,13 @@
 {
   "RxCUI": "2265162",
-  "Name": "SYSTANE PRO PF 0.6% EYE DROP",
+  "Name": "propylene glycol 6 MG/ML Ophthalmic Suspension",
   "IsBrand": true,
   "Brand_RxCUI": "2265162",
-  "Generic_RxCUI": null,
+  "Generic_RxCUI": "",
+  "Ingredient_Name": "Propylene Glycol Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "6 MG/ML",
+  "Form": "Suspension",
   "prices": {
     "00065329003": {
       "03/19/2025": 1.35807,
@@ -13,7 +17,8 @@
       "07/23/2025": 1.3867,
       "08/20/2025": 1.38846,
       "09/17/2025": 1.38154,
-      "10/22/2025": 1.37023
+      "10/22/2025": 1.37023,
+      "11/19/2025": 1.36143
     }
   }
 }

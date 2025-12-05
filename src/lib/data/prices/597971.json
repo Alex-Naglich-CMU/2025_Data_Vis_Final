@@ -1,9 +1,13 @@
 {
   "RxCUI": "597971",
-  "Name": "AMLODIPINE-ATORVAST 2.5-10 MG",
+  "Name": "amlodipine 2.5 MG / atorvastatin 10 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "597971",
+  "Ingredient_Name": "Amlodipine Atorvastatin",
+  "Manufacturer_Name": "",
+  "Strength": "2.5 MG",
+  "Form": "Tablet",
   "prices": {
     "66993026330": {
       "09/18/2024": 3.08133,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "706825",
-  "Name": "RISPERDAL CONSTA 12.5 MG SYR",
+  "Name": "risperidone 12.5 MG Injection [Risperdal]",
   "IsBrand": true,
   "Brand_RxCUI": "706825",
   "Generic_RxCUI": "706822",
+  "Ingredient_Name": "Risperidone",
+  "Manufacturer_Name": "Risperdal",
+  "Strength": "12.5 MG",
+  "Form": "",
   "prices": {
     "50458030911": {
       "07/06/2017": 210.86334,

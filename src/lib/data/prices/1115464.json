@@ -1,9 +1,13 @@
 {
   "RxCUI": "1115464",
-  "Name": "LUPRON DEPOT 7.5 MG KIT",
+  "Name": "1 ML leuprolide acetate 7.5 MG/ML Prefilled Syringe [Lupron]",
   "IsBrand": true,
   "Brand_RxCUI": "1115464",
   "Generic_RxCUI": "1115462",
+  "Ingredient_Name": "Leuprolide Mgml Prefilled",
+  "Manufacturer_Name": "Lupron",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00074364203": {
       "09/20/2017": 1290.88857,
@@ -19,7 +23,8 @@
       "07/17/2024": 1971.64111,
       "08/21/2024": 1965.95364,
       "12/18/2024": 1968.15615,
-      "01/02/2025": 2066.56396
+      "01/02/2025": 2066.56396,
+      "11/19/2025": 2070.636
     }
   }
 }

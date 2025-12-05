@@ -1,9 +1,13 @@
 {
   "RxCUI": "855871",
-  "Name": "DILANTIN 30 MG CAPSULE",
+  "Name": "phenytoin sodium 30 MG Extended Release Oral Capsule [Dilantin]",
   "IsBrand": true,
   "Brand_RxCUI": "855871",
   "Generic_RxCUI": "855869",
+  "Ingredient_Name": "Phenytoin Sodium Extended Release",
+  "Manufacturer_Name": "Dilantin",
+  "Strength": "30 MG",
+  "Form": "",
   "prices": {
     "00071374066": {
       "06/01/2017": 0.93645,
@@ -35,7 +39,8 @@
       "07/23/2025": 1.42561,
       "08/20/2025": 1.42588,
       "09/17/2025": 1.42844,
-      "10/22/2025": 1.42534
+      "10/22/2025": 1.42534,
+      "11/19/2025": 1.42575
     },
     "58151011801": {
       "05/21/2025": 1.4249,
@@ -43,7 +48,8 @@
       "07/23/2025": 1.42561,
       "08/20/2025": 1.42588,
       "09/17/2025": 1.42844,
-      "10/22/2025": 1.42534
+      "10/22/2025": 1.42534,
+      "11/19/2025": 1.42575
     }
   }
 }

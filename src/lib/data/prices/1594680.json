@@ -1,13 +1,18 @@
 {
   "RxCUI": "1594680",
-  "Name": "FERRIC CITRATE 210 MG TABLET",
+  "Name": "ferric citrate 1000 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1596023",
   "Generic_RxCUI": "1594680",
+  "Ingredient_Name": "Ferric Citrate",
+  "Manufacturer_Name": "",
+  "Strength": "1000 MG",
+  "Form": "Tablet",
   "prices": {
     "00378289520": {
       "09/17/2025": 5.8943,
-      "10/22/2025": 5.959
+      "10/22/2025": 5.959,
+      "11/19/2025": 6.09413
     }
   }
 }

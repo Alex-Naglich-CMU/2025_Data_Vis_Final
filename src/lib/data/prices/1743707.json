@@ -1,9 +1,13 @@
 {
   "RxCUI": "1743707",
-  "Name": "SOLU-MEDROL 125 MG VIAL",
+  "Name": "methylprednisolone 125 MG Injection [Solu-Medrol]",
   "IsBrand": true,
   "Brand_RxCUI": "1743707",
   "Generic_RxCUI": "1743704",
+  "Ingredient_Name": "Methylprednisolone",
+  "Manufacturer_Name": "Solu-Medrol",
+  "Strength": "125 MG",
+  "Form": "",
   "prices": {
     "00009004722": {
       "06/01/2017": 8.70064,

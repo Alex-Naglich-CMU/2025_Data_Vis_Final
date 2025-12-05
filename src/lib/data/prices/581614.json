@@ -1,9 +1,13 @@
 {
   "RxCUI": "581614",
-  "Name": "ZYVOX 100 MG/5 ML SUSPENSION",
+  "Name": "linezolid 20 MG/ML Oral Suspension [Zyvox]",
   "IsBrand": true,
   "Brand_RxCUI": "581614",
   "Generic_RxCUI": "311345",
+  "Ingredient_Name": "Linezolid Mgml",
+  "Manufacturer_Name": "Zyvox",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "00009513601": {
       "06/01/2017": 7.95847,

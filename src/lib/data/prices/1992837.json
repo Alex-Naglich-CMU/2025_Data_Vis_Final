@@ -1,9 +1,13 @@
 {
   "RxCUI": "1992837",
-  "Name": "STEGLUJAN 5-100 MG TABLET",
+  "Name": "ertugliflozin 5 MG / sitagliptin 100 MG Oral Tablet [Steglujan]",
   "IsBrand": true,
   "Brand_RxCUI": "1992837",
   "Generic_RxCUI": "1992835",
+  "Ingredient_Name": "Ertugliflozin Sitagliptin",
+  "Manufacturer_Name": "Steglujan",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00006536703": {
       "05/20/2020": 17.54322,

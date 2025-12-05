@@ -1,9 +1,13 @@
 {
   "RxCUI": "311430",
-  "Name": "MAGNESIUM OXIDE 420 MG TABLET",
+  "Name": "magnesium oxide 420 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "311430",
+  "Ingredient_Name": "Magnesium Oxide",
+  "Manufacturer_Name": "",
+  "Strength": "420 MG",
+  "Form": "Tablet",
   "prices": {
     "00603021321": {
       "09/18/2024": 0.03873,
@@ -18,7 +22,8 @@
       "07/23/2025": 0.03926,
       "08/20/2025": 0.03933,
       "09/17/2025": 0.03944,
-      "10/22/2025": 0.03973
+      "10/22/2025": 0.03973,
+      "11/19/2025": 0.03969
     }
   }
 }

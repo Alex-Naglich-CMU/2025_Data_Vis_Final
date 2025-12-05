@@ -1,9 +1,13 @@
 {
   "RxCUI": "1294128",
-  "Name": "PERTZYE DR 16,000 UNIT CAPSULE",
+  "Name": "amylase 60500 UNT / lipase 16000 UNT / protease 57500 UNT Delayed Release Oral Capsule [Pertzye]",
   "IsBrand": true,
   "Brand_RxCUI": "1294128",
   "Generic_RxCUI": "1294122",
+  "Ingredient_Name": "Amylase Unt Lipase Unt Protease Unt Delayed Release",
+  "Manufacturer_Name": "Pertzye",
+  "Strength": "60500 UNT",
+  "Form": "",
   "prices": {
     "59767001601": {
       "05/22/2024": 5.17654,
@@ -22,7 +26,8 @@
       "07/23/2025": 5.22198,
       "08/20/2025": 5.22313,
       "09/17/2025": 5.21531,
-      "10/22/2025": 5.20528
+      "10/22/2025": 5.20528,
+      "11/19/2025": 5.19896
     },
     "59767001602": {
       "05/22/2024": 5.17654,
@@ -41,7 +46,8 @@
       "07/23/2025": 5.22198,
       "08/20/2025": 5.22313,
       "09/17/2025": 5.21531,
-      "10/22/2025": 5.20528
+      "10/22/2025": 5.20528,
+      "11/19/2025": 5.19896
     }
   }
 }

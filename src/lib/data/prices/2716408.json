@@ -1,12 +1,17 @@
 {
   "RxCUI": "2716408",
-  "Name": "BONSITY 560 MCG/2.24 ML PEN",
+  "Name": "28 ACTUAT teriparatide 0.02 MG/ACTUAT Pen Injector [Bonsity]",
   "IsBrand": false,
   "Brand_RxCUI": "1435115",
   "Generic_RxCUI": "2716408",
+  "Ingredient_Name": "Actuat Teriparatide Mgactuat Pen Injector",
+  "Manufacturer_Name": "Bonsity",
+  "Strength": "28 ACTU",
+  "Form": "",
   "prices": {
     "47781085289": {
-      "10/22/2025": 670.52875
+      "10/22/2025": 670.52875,
+      "11/19/2025": 687.25084
     }
   }
 }

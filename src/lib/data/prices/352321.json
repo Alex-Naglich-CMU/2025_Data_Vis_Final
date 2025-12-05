@@ -1,9 +1,13 @@
 {
   "RxCUI": "352321",
-  "Name": "STRATTERA 60 MG CAPSULE",
+  "Name": "atomoxetine 60 MG Oral Capsule [Strattera]",
   "IsBrand": true,
   "Brand_RxCUI": "352321",
   "Generic_RxCUI": "349595",
+  "Ingredient_Name": "Atomoxetine",
+  "Manufacturer_Name": "Strattera",
+  "Strength": "60 MG",
+  "Form": "",
   "prices": {
     "00002323930": {
       "09/20/2017": 13.6785,

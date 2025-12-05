@@ -1,9 +1,13 @@
 {
   "RxCUI": "1092428",
-  "Name": "BANOPHEN ANTI-ITCH 2% CREAM",
+  "Name": "diphenhydramine hydrochloride 20 MG/ML / zinc acetate 1 MG/ML Topical Cream [Banophen Cream]",
   "IsBrand": false,
   "Brand_RxCUI": "1087026",
   "Generic_RxCUI": "1092428",
+  "Ingredient_Name": "Diphenhydramine Hydrochloride Mgml Zinc Mgml",
+  "Manufacturer_Name": "Banophen Cream",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "00904535431": {
       "05/19/2021": 0.06718,
@@ -105,7 +109,8 @@
       "07/23/2025": 0.05372,
       "08/20/2025": 0.05481,
       "09/17/2025": 0.05594,
-      "10/22/2025": 0.05736
+      "10/22/2025": 0.05736,
+      "11/19/2025": 0.05681
     },
     "904535431": {
       "09/22/2021": 0.05579

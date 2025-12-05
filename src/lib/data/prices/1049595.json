@@ -1,9 +1,13 @@
 {
   "RxCUI": "1049595",
-  "Name": "OXYCONTIN 60 MG TABLET",
+  "Name": "Abuse-Deterrent 12 HR oxycodone hydrochloride 60 MG Extended Release Oral Tablet [Oxycontin]",
   "IsBrand": true,
   "Brand_RxCUI": "1049595",
   "Generic_RxCUI": "1860127",
+  "Ingredient_Name": "Abuse-Deterrent Hr Oxycodone Hydrochloride Extended Release",
+  "Manufacturer_Name": "Oxycontin",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "59011046010": {
       "11/22/2017": 14.54732,
@@ -35,7 +39,8 @@
       "07/23/2025": 24.47066,
       "08/20/2025": 24.4719,
       "09/17/2025": 24.47306,
-      "10/22/2025": 24.45624
+      "10/22/2025": 24.45624,
+      "11/19/2025": 24.44956
     },
     "59011046020": {
       "11/22/2017": 14.54732,
@@ -67,7 +72,8 @@
       "07/23/2025": 24.47066,
       "08/20/2025": 24.4719,
       "09/17/2025": 24.47306,
-      "10/22/2025": 24.45624
+      "10/22/2025": 24.45624,
+      "11/19/2025": 24.44956
     }
   }
 }

@@ -1,20 +1,24 @@
 {
   "RxCUI": "894814",
-  "Name": "MORPHINE SULFATE ER 80 MG CAP",
+  "Name": "morphine sulfate 80 MG Extended Release Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "894814",
+  "Ingredient_Name": "Morphine Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "80 MG",
+  "Form": "Capsule",
   "prices": {
+    "00115128101": {
+      "07/19/2017": 8.13857,
+      "09/20/2017": 7.02296,
+      "10/18/2017": 10.07202
+    },
     "00832023000": {
       "07/19/2017": 8.13857,
       "09/20/2017": 7.02296,
       "10/18/2017": 10.07202,
       "06/19/2024": 4.78534
-    },
-    "00115128101": {
-      "07/19/2017": 8.13857,
-      "09/20/2017": 7.02296,
-      "10/18/2017": 10.07202
     }
   }
 }

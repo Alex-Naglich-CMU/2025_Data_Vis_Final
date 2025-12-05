@@ -1,9 +1,13 @@
 {
   "RxCUI": "2597459",
-  "Name": "ADLARITY 10 MG/DAY WEEKLY PATCH",
+  "Name": "168 HR donepezil 0.417 MG/HR Transdermal System [Adlarity]",
   "IsBrand": true,
   "Brand_RxCUI": "2597459",
   "Generic_RxCUI": "2597456",
+  "Ingredient_Name": "Hr Donepezil Mghr Transdermal System",
+  "Manufacturer_Name": "Adlarity",
+  "Strength": "168 HR",
+  "Form": "",
   "prices": {
     "65038005601": {
       "05/22/2024": 107.69729,

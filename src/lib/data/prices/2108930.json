@@ -1,9 +1,13 @@
 {
   "RxCUI": "2108930",
-  "Name": "BIJUVA 1 MG-100 MG CAPSULE",
+  "Name": "estradiol 1 MG / progesterone 100 MG Oral Capsule [Bijuva]",
   "IsBrand": true,
   "Brand_RxCUI": "2108930",
   "Generic_RxCUI": "2108924",
+  "Ingredient_Name": "Estradiol Progesterone",
+  "Manufacturer_Name": "Bijuva",
+  "Strength": "1 MG",
+  "Form": "",
   "prices": {
     "50261021130": {
       "12/23/2020": 6.87867,
@@ -32,7 +36,8 @@
       "07/23/2025": 8.1163,
       "08/20/2025": 8.11922,
       "09/17/2025": 8.11853,
-      "10/22/2025": 8.11704
+      "10/22/2025": 8.11704,
+      "11/19/2025": 8.12293
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1190433",
-  "Name": "FLEET PEDIA-LAX SUPPOSITORIES",
+  "Name": "glycerin 1037 MG/ML Enema [Pedia-Lax Liquid Glycerin Suppositories]",
   "IsBrand": true,
   "Brand_RxCUI": "1190433",
   "Generic_RxCUI": "895966",
+  "Ingredient_Name": "Glycerin Mgml Enema",
+  "Manufacturer_Name": "Pedia-Lax Liquid Glycerin Suppositories",
+  "Strength": "1037 MG/ML",
+  "Form": "",
   "prices": {
     "00132019012": {
       "07/19/2017": 0.20317,
@@ -31,7 +35,8 @@
       "03/19/2025": 0.20873,
       "05/21/2025": 0.20891,
       "09/17/2025": 0.20785,
-      "10/22/2025": 0.20833
+      "10/22/2025": 0.20833,
+      "11/19/2025": 0.20841
     }
   }
 }

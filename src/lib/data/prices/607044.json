@@ -1,9 +1,13 @@
 {
   "RxCUI": "607044",
-  "Name": "LOVAZA 1 GM CAPSULE",
+  "Name": "omega-3 acid ethyl esters (USP) 1000 MG Oral Capsule [Lovaza]",
   "IsBrand": true,
   "Brand_RxCUI": "607044",
   "Generic_RxCUI": "577208",
+  "Ingredient_Name": "Omega- Acid Ethyl Esters (Usp)",
+  "Manufacturer_Name": "Lovaza",
+  "Strength": "3 acid",
+  "Form": "",
   "prices": {
     "69784042012": {
       "08/18/2021": 2.78098,

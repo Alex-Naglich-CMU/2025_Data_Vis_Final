@@ -1,9 +1,13 @@
 {
   "RxCUI": "2118741",
-  "Name": "TREMFYA 100 MG/ML INJECTOR",
+  "Name": "1 ML guselkumab 100 MG/ML Auto-Injector [Tremfya]",
   "IsBrand": true,
   "Brand_RxCUI": "2118741",
   "Generic_RxCUI": "2118739",
+  "Ingredient_Name": "Guselkumab Mgml Auto-Injector",
+  "Manufacturer_Name": "Tremfya",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "57894064011": {
       "1/20/2023": 12851.4981,
@@ -19,7 +23,8 @@
       "01/28/2025": 14013.62317,
       "06/18/2025": 14009.27375,
       "07/23/2025": 14019.59167,
-      "09/17/2025": 14031.25118
+      "09/17/2025": 14031.25118,
+      "11/19/2025": 14051.079
     }
   }
 }

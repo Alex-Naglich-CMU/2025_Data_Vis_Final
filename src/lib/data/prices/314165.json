@@ -1,9 +1,13 @@
 {
   "RxCUI": "314165",
-  "Name": "PREDNISOLONE SOD 1% EYE DROP",
+  "Name": "prednisolone 10 MG/ML Ophthalmic Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "314165",
+  "Ingredient_Name": "Prednisolone Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Solution",
   "prices": {
     "24208071510": {
       "06/21/2017": 4.7709,
@@ -39,7 +43,8 @@
       "07/23/2025": 4.13617,
       "08/20/2025": 4.28592,
       "09/17/2025": 4.30656,
-      "10/22/2025": 4.35826
+      "10/22/2025": 4.35826,
+      "11/19/2025": 4.37507
     }
   }
 }

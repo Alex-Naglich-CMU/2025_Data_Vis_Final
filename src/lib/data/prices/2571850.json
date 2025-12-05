@@ -1,9 +1,13 @@
 {
   "RxCUI": "2571850",
-  "Name": "QULIPTA 60 MG TABLET",
+  "Name": "atogepant 60 MG Oral Tablet [Qulipta]",
   "IsBrand": true,
   "Brand_RxCUI": "2571850",
   "Generic_RxCUI": "2571848",
+  "Ingredient_Name": "Atogepant",
+  "Manufacturer_Name": "Qulipta",
+  "Strength": "60 MG",
+  "Form": "",
   "prices": {
     "00074709430": {
       "01/03/2023": 33.4259,
@@ -23,7 +27,8 @@
       "07/23/2025": 36.63234,
       "08/20/2025": 36.63009,
       "09/17/2025": 36.63574,
-      "10/22/2025": 36.64425
+      "10/22/2025": 36.64425,
+      "11/19/2025": 36.64249
     }
   }
 }

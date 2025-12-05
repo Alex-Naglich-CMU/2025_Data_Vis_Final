@@ -1,9 +1,13 @@
 {
   "RxCUI": "251374",
-  "Name": "CHILD'S PAIN RELIEVER RAPID TB",
+  "Name": "acetaminophen 80 MG Disintegrating Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "251374",
+  "Ingredient_Name": "Acetaminophen Disintegrating",
+  "Manufacturer_Name": "",
+  "Strength": "80 MG",
+  "Form": "Tablet",
   "prices": {
     "37205051665": {
       "06/21/2017": 0.0485,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1860500",
-  "Name": "ZOHYDRO ER 40 MG CAPSULE",
+  "Name": "12 HR hydrocodone bitartrate 40 MG Extended Release Oral Capsule [Zohydro]",
   "IsBrand": true,
   "Brand_RxCUI": "1860500",
   "Generic_RxCUI": "1860499",
+  "Ingredient_Name": "Hr Hydrocodone Bitartrate Extended Release",
+  "Manufacturer_Name": "Zohydro",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "65224034060": {
       "01/02/2018": 9.63972,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1047895",
-  "Name": "HYOSCYAMINE 0.125 MG/ML DROP",
+  "Name": "hyoscyamine sulfate 0.125 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1047895",
+  "Ingredient_Name": "Hyoscyamine Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "0.125 MG/ML",
+  "Form": "Solution",
   "prices": {
     "39328004715": {
       "06/21/2017": 1.0128,

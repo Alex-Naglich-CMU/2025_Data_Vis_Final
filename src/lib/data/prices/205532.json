@@ -1,9 +1,13 @@
 {
   "RxCUI": "205532",
-  "Name": "PULMOZYME 1 MG/ML AMPUL",
+  "Name": "dornase alfa 1 MG/ML Inhalation Solution [Pulmozyme]",
   "IsBrand": true,
   "Brand_RxCUI": "205532",
   "Generic_RxCUI": "310014",
+  "Ingredient_Name": "Dornase Alfa Mgml Inhalation",
+  "Manufacturer_Name": "Pulmozyme",
+  "Strength": "1 MG/ML",
+  "Form": "",
   "prices": {
     "50242010040": {
       "07/21/2021": 44.5801,
@@ -38,7 +42,8 @@
       "07/23/2025": 51.54088,
       "08/20/2025": 51.55798,
       "09/17/2025": 51.56663,
-      "10/22/2025": 51.62316
+      "10/22/2025": 51.62316,
+      "11/19/2025": 51.66091
     }
   }
 }

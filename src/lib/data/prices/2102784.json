@@ -1,9 +1,13 @@
 {
   "RxCUI": "2102784",
-  "Name": "YUPELRI 175 MCG/3 ML SOLUTION",
+  "Name": "revefenacin 0.0583 MG/ML Inhalation Solution [Yupelri]",
   "IsBrand": true,
   "Brand_RxCUI": "2102784",
   "Generic_RxCUI": "2102779",
+  "Ingredient_Name": "Revefenacin Mgml Inhalation",
+  "Manufacturer_Name": "Yupelri",
+  "Strength": "0.0583 MG/ML",
+  "Form": "",
   "prices": {
     "49502080693": {
       "07/01/2021": 12.32409,
@@ -26,7 +30,8 @@
       "07/23/2025": 16.5839,
       "08/20/2025": 16.59132,
       "09/17/2025": 16.59827,
-      "10/22/2025": 16.59793
+      "10/22/2025": 16.59793,
+      "11/19/2025": 16.61362
     }
   }
 }

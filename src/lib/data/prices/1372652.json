@@ -1,9 +1,13 @@
 {
   "RxCUI": "1372652",
-  "Name": "MUCINEX FAST-MAX CONGEST-COUGH",
+  "Name": "dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Tablet",
   "IsBrand": true,
   "Brand_RxCUI": "1372652",
-  "Generic_RxCUI": null,
+  "Generic_RxCUI": "",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide Guaifenesin Phenylephrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG",
+  "Form": "Tablet",
   "prices": {
     "63824019320": {
       "03/01/2019": 0.51228

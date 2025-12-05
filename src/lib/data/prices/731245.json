@@ -1,9 +1,13 @@
 {
   "RxCUI": "731245",
-  "Name": "ARANESP 25 MCG/0.42 ML SYRING",
+  "Name": "0.42 ML darbepoetin alfa 0.06 MG/ML Prefilled Syringe [Aranesp]",
   "IsBrand": true,
   "Brand_RxCUI": "731245",
   "Generic_RxCUI": "731176",
+  "Ingredient_Name": "Darbepoetin Alfa Mgml Prefilled",
+  "Manufacturer_Name": "Aranesp",
+  "Strength": "0.42 ML",
+  "Form": "",
   "prices": {
     "55513005704": {
       "05/22/2024": 446.81746,

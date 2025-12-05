@@ -1,9 +1,13 @@
 {
   "RxCUI": "847254",
-  "Name": "HUMALOG MIX 75-25 KWIKPEN",
+  "Name": "3 ML insulin lispro 25 UNT/ML / insulin lispro protamine, human 75 UNT/ML Pen Injector [Humalog Mix]",
   "IsBrand": true,
   "Brand_RxCUI": "847254",
   "Generic_RxCUI": "847252",
+  "Ingredient_Name": "Insulin Lispro Untml Insulin Lispro Protamine, Human Untml Pen Injector",
+  "Manufacturer_Name": "Humalog Mix",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00002879759": {
       "07/21/2021": 33.95867,
@@ -32,7 +36,8 @@
       "07/23/2025": 10.16922,
       "08/20/2025": 10.16669,
       "09/17/2025": 10.16916,
-      "10/22/2025": 10.17021
+      "10/22/2025": 10.17021,
+      "11/19/2025": 10.17017
     }
   }
 }

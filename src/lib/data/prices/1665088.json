@@ -1,9 +1,13 @@
 {
   "RxCUI": "1665088",
-  "Name": "CEFEPIME HCL 2 GRAM VIAL",
+  "Name": "cefepime 2000 MG Injection",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1665088",
+  "Ingredient_Name": "Cefepime",
+  "Manufacturer_Name": "",
+  "Strength": "2000 MG",
+  "Form": "Injection",
   "prices": {
     "00409973510": {
       "12/18/2024": 5.54774,

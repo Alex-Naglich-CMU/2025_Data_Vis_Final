@@ -1,9 +1,13 @@
 {
   "RxCUI": "823938",
-  "Name": "AVALIDE 300-12.5 MG TABLET",
+  "Name": "hydrochlorothiazide 12.5 MG / irbesartan 300 MG Oral Tablet [Avalide]",
   "IsBrand": true,
   "Brand_RxCUI": "823938",
   "Generic_RxCUI": "310793",
+  "Ingredient_Name": "Hydrochlorothiazide Irbesartan",
+  "Manufacturer_Name": "Avalide",
+  "Strength": "12.5 MG",
+  "Form": "",
   "prices": {
     "00024585630": {
       "05/22/2024": 9.67578,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "857226",
-  "Name": "RENAGEL 800 MG TABLET",
+  "Name": "sevelamer hydrochloride 800 MG Oral Tablet [RenaGel]",
   "IsBrand": true,
   "Brand_RxCUI": "857226",
   "Generic_RxCUI": "857224",
+  "Ingredient_Name": "Sevelamer Hydrochloride",
+  "Manufacturer_Name": "RenaGel",
+  "Strength": "800 MG",
+  "Form": "",
   "prices": {
     "58468002101": {
       "09/20/2017": 6.78189,

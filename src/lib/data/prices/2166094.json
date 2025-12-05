@@ -1,9 +1,13 @@
 {
   "RxCUI": "2166094",
-  "Name": "DUOBRII 0.01%-0.045% LOTION",
+  "Name": "halobetasol propionate 0.1 MG/ML / tazarotene 0.45 MG/ML Topical Lotion [Duobrii]",
   "IsBrand": true,
   "Brand_RxCUI": "2166094",
   "Generic_RxCUI": "2166089",
+  "Ingredient_Name": "Halobetasol Propionate Mgml Tazarotene Mgml",
+  "Manufacturer_Name": "Duobrii",
+  "Strength": "0.1 MG/ML",
+  "Form": "",
   "prices": {
     "00187065301": {
       "01/01/2021": 8.36535,

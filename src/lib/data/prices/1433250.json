@@ -4,6 +4,10 @@
   "IsBrand": true,
   "Brand_RxCUI": "1433250",
   "Generic_RxCUI": "1433249",
+  "Ingredient_Name": "Fetzima - Titration Pak",
+  "Manufacturer_Name": "",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "00456220228": {
       "01/01/2018": 11.53915,

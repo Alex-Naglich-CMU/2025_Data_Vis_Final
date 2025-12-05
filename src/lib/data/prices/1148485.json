@@ -1,9 +1,13 @@
 {
   "RxCUI": "1148485",
-  "Name": "TRAMADOL HCL ER 200 MG CAPSULE",
+  "Name": "24 HR tramadol hydrochloride 200 MG Extended Release Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "1148487",
   "Generic_RxCUI": "1148485",
+  "Ingredient_Name": "Hr Tramadol Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Capsule",
   "prices": {
     "13811069030": {
       "06/19/2024": 9.02628,

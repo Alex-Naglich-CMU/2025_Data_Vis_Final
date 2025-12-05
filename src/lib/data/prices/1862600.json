@@ -4,6 +4,10 @@
   "IsBrand": false,
   "Brand_RxCUI": "749784",
   "Generic_RxCUI": "1862600",
+  "Ingredient_Name": "Tri Femynor",
+  "Manufacturer_Name": "",
+  "Strength": "28 TABL",
+  "Form": "TABLET",
   "prices": {
     "69238160706": {
       "05/19/2021": 0.17414,

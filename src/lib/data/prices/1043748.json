@@ -1,9 +1,13 @@
 {
   "RxCUI": "1043748",
-  "Name": "FINACEA 15% GEL",
+  "Name": "azelaic acid 0.15 MG/MG Topical Gel [Finacea]",
   "IsBrand": true,
   "Brand_RxCUI": "1043748",
   "Generic_RxCUI": "1041518",
+  "Ingredient_Name": "Azelaic Acid Mgmg",
+  "Manufacturer_Name": "Finacea",
+  "Strength": "0.15 MG/MG",
+  "Form": "",
   "prices": {
     "50222050550": {
       "02/20/2019": 6.60509,

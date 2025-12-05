@@ -1,9 +1,13 @@
 {
   "RxCUI": "152880",
-  "Name": "FARESTON 60 MG TABLET",
+  "Name": "toremifene 60 MG Oral Tablet [Fareston]",
   "IsBrand": true,
   "Brand_RxCUI": "152880",
   "Generic_RxCUI": "313428",
+  "Ingredient_Name": "Toremifene",
+  "Manufacturer_Name": "Fareston",
+  "Strength": "60 MG",
+  "Form": "",
   "prices": {
     "42747032730": {
       "02/01/2018": 41.12652

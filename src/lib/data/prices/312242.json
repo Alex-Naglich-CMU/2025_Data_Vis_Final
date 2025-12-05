@@ -1,9 +1,13 @@
 {
   "RxCUI": "312242",
-  "Name": "PAROXETINE HCL 10 MG/5 ML SUSP",
+  "Name": "paroxetine hydrochloride 2 MG/ML Oral Suspension",
   "IsBrand": false,
   "Brand_RxCUI": "213291",
   "Generic_RxCUI": "312242",
+  "Ingredient_Name": "Paroxetine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "2 MG/ML",
+  "Form": "Suspension",
   "prices": {
     "70954031910": {
       "05/22/2024": 1.32071,
@@ -23,7 +27,8 @@
       "07/23/2025": 1.34259,
       "08/20/2025": 1.32739,
       "09/17/2025": 1.32796,
-      "10/22/2025": 1.34285
+      "10/22/2025": 1.34285,
+      "11/19/2025": 1.36729
     }
   }
 }

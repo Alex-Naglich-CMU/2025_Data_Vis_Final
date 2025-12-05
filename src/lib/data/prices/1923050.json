@@ -1,9 +1,13 @@
 {
   "RxCUI": "1923050",
-  "Name": "LEVOTHYROXINE 200 MCG CAPSULE",
+  "Name": "levothyroxine sodium 0.2 MG Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "1923052",
   "Generic_RxCUI": "1923050",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "",
+  "Strength": "0.2 MG",
+  "Form": "Capsule",
   "prices": {
     "00527496232": {
       "05/22/2024": 2.33539,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "858118",
-  "Name": "NALFON 400 MG CAPSULE",
+  "Name": "fenoprofen 400 MG Oral Capsule [Nalfon]",
   "IsBrand": true,
   "Brand_RxCUI": "858118",
   "Generic_RxCUI": "858116",
+  "Ingredient_Name": "Fenoprofen",
+  "Manufacturer_Name": "Nalfon",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "42195030809": {
       "10/18/2017": 4.45418,

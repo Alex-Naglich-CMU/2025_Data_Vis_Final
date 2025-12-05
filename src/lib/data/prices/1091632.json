@@ -1,9 +1,13 @@
 {
   "RxCUI": "1091632",
-  "Name": "MATZIM LA 180 MG TABLET",
+  "Name": "24 HR diltiazem hydrochloride 180 MG Extended Release Oral Tablet [Matzim]",
   "IsBrand": false,
   "Brand_RxCUI": "830877",
   "Generic_RxCUI": "1091632",
+  "Ingredient_Name": "Hr Diltiazem Hydrochloride Extended Release",
+  "Manufacturer_Name": "Matzim",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "52544069119": {
       "05/19/2021": 1.98524,
@@ -86,7 +90,8 @@
       "07/23/2025": 1.66031,
       "08/20/2025": 1.61952,
       "09/17/2025": 1.63177,
-      "10/22/2025": 1.56816
+      "10/22/2025": 1.56816,
+      "11/19/2025": 1.3766
     },
     "52544069130": {
       "05/19/2021": 1.98524,
@@ -169,7 +174,8 @@
       "07/23/2025": 1.66031,
       "08/20/2025": 1.61952,
       "09/17/2025": 1.63177,
-      "10/22/2025": 1.56816
+      "10/22/2025": 1.56816,
+      "11/19/2025": 1.3766
     }
   }
 }

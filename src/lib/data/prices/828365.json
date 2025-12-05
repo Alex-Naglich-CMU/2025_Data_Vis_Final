@@ -1,9 +1,13 @@
 {
   "RxCUI": "828365",
-  "Name": "PRAMOXINE HCL 1% FOAM",
+  "Name": "pramoxine hydrochloride 10 MG/ML Rectal Foam",
   "IsBrand": false,
   "Brand_RxCUI": "828367",
   "Generic_RxCUI": "828365",
+  "Ingredient_Name": "Pramoxine Hydrochloride Mgml Rectal",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "51862018015": {
       "06/21/2017": 2.53922,

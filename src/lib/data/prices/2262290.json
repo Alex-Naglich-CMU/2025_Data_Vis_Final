@@ -1,9 +1,13 @@
 {
   "RxCUI": "2262290",
-  "Name": "ALA-HIST PE TABLET",
+  "Name": "dexbrompheniramine maleate 2 MG / phenylephrine hydrochloride 10 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "2262290",
+  "Ingredient_Name": "Dexbrompheniramine Maleate Phenylephrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "2 MG",
+  "Form": "Tablet",
   "prices": {
     "50991078260": {
       "06/21/2017": 0.61569,

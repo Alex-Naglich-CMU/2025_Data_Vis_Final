@@ -1,9 +1,13 @@
 {
   "RxCUI": "404473",
-  "Name": "VIGAMOX 0.5% EYE DROPS",
+  "Name": "moxifloxacin 5 MG/ML Ophthalmic Solution [Vigamox]",
   "IsBrand": true,
   "Brand_RxCUI": "404473",
   "Generic_RxCUI": "403818",
+  "Ingredient_Name": "Moxifloxacin Mgml",
+  "Manufacturer_Name": "Vigamox",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "00078093926": {
       "7/20/2022": 55.73889,

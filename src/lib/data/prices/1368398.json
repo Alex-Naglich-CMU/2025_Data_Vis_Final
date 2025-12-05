@@ -1,9 +1,13 @@
 {
   "RxCUI": "1368398",
-  "Name": "KAZANO 12.5-500 MG TABLET",
+  "Name": "alogliptin 12.5 MG / metformin hydrochloride 500 MG Oral Tablet [Kazano]",
   "IsBrand": true,
   "Brand_RxCUI": "1368398",
   "Generic_RxCUI": "1368392",
+  "Ingredient_Name": "Alogliptin Metformin Hydrochloride",
+  "Manufacturer_Name": "Kazano",
+  "Strength": "12.5 MG",
+  "Form": "",
   "prices": {
     "64764033560": {
       "07/17/2024": 6.59083,

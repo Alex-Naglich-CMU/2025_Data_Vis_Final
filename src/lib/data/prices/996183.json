@@ -1,9 +1,13 @@
 {
   "RxCUI": "996183",
-  "Name": "STAXYN 10 MG ODT",
+  "Name": "vardenafil 10 MG Disintegrating Oral Tablet [Staxyn]",
   "IsBrand": true,
   "Brand_RxCUI": "996183",
   "Generic_RxCUI": "996179",
+  "Ingredient_Name": "Vardenafil Disintegrating",
+  "Manufacturer_Name": "Staxyn",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "00173082204": {
       "11/22/2017": 29.54458,

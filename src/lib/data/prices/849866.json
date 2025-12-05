@@ -1,9 +1,13 @@
 {
   "RxCUI": "849866",
-  "Name": "ADCIRCA 20 MG TABLET",
+  "Name": "Pulmonary Hypertension tadalafil 20 MG Oral Tablet [Adcirca]",
   "IsBrand": true,
   "Brand_RxCUI": "849866",
   "Generic_RxCUI": "2123194",
+  "Ingredient_Name": "Pulmonary Hypertension Tadalafil",
+  "Manufacturer_Name": "Adcirca",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "66302046760": {
       "01/04/2018": 64.37655,

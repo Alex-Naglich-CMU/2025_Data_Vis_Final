@@ -1,9 +1,13 @@
 {
   "RxCUI": "847741",
-  "Name": "KALETRA 200-50 MG TABLET",
+  "Name": "lopinavir 200 MG / ritonavir 50 MG Oral Tablet [Kaletra]",
   "IsBrand": true,
   "Brand_RxCUI": "847741",
   "Generic_RxCUI": "597730",
+  "Ingredient_Name": "Lopinavir Ritonavir",
+  "Manufacturer_Name": "Kaletra",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "00074679922": {
       "09/20/2017": 7.78496,

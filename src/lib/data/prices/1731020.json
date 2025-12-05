@@ -1,9 +1,13 @@
 {
   "RxCUI": "1731020",
-  "Name": "ROWEEPRA 500 MG TABLET",
+  "Name": "levetiracetam 500 MG Oral Tablet [Roweepra]",
   "IsBrand": false,
   "Brand_RxCUI": "311289",
   "Generic_RxCUI": "1731020",
+  "Ingredient_Name": "Levetiracetam",
+  "Manufacturer_Name": "Roweepra",
+  "Strength": "500 MG",
+  "Form": "",
   "prices": {
     "69102010501": {
       "05/19/2021": 0.11354,
@@ -61,7 +65,8 @@
       "07/23/2025": 0.07979,
       "08/20/2025": 0.07995,
       "09/17/2025": 0.0773,
-      "10/22/2025": 0.07674
+      "10/22/2025": 0.07674,
+      "11/19/2025": 0.07533
     }
   }
 }

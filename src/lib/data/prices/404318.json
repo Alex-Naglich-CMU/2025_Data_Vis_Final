@@ -1,9 +1,13 @@
 {
   "RxCUI": "404318",
-  "Name": "PERDIEM OVERNIGHT RELIEF TB",
+  "Name": "sennosides, USP 15 MG Oral Tablet [Perdiem Overnight]",
   "IsBrand": false,
   "Brand_RxCUI": "200162",
   "Generic_RxCUI": "404318",
+  "Ingredient_Name": "Sennosides, Usp",
+  "Manufacturer_Name": "Perdiem Overnight",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "00067602560": {
       "06/21/2017": 0.12915,

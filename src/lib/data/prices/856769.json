@@ -1,9 +1,13 @@
 {
   "RxCUI": "856769",
-  "Name": "CHLORDIAZEPO-AMITRIPTYL 5-12.5",
+  "Name": "amitriptyline hydrochloride 12.5 MG / chlordiazepoxide 5 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "856769",
+  "Ingredient_Name": "Amitriptyline Hydrochloride Chlordiazepoxide",
+  "Manufacturer_Name": "",
+  "Strength": "12.5 MG",
+  "Form": "Tablet",
   "prices": {
     "00378021101": {
       "10/18/2017": 1.1191,

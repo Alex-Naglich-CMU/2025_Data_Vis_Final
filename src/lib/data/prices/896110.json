@@ -1,9 +1,13 @@
 {
   "RxCUI": "896110",
-  "Name": "NAFTIFINE HCL 1% CREAM",
+  "Name": "naftifine hydrochloride 10 MG/ML Topical Cream",
   "IsBrand": false,
   "Brand_RxCUI": "896112",
   "Generic_RxCUI": "896110",
+  "Ingredient_Name": "Naftifine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Cream",
   "prices": {
     "51672136203": {
       "05/22/2024": 4.47283,
@@ -22,7 +26,8 @@
       "07/23/2025": 4.7447,
       "08/20/2025": 4.77153,
       "09/17/2025": 4.76223,
-      "10/22/2025": 4.6178
+      "10/22/2025": 4.6178,
+      "11/19/2025": 4.59553
     }
   }
 }

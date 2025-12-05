@@ -1,9 +1,13 @@
 {
   "RxCUI": "2001506",
-  "Name": "SUBVENITE 150 MG TABLET",
+  "Name": "lamotrigine 150 MG Oral Tablet [Subvenite]",
   "IsBrand": false,
   "Brand_RxCUI": "198428",
   "Generic_RxCUI": "2001506",
+  "Ingredient_Name": "Lamotrigine",
+  "Manufacturer_Name": "Subvenite",
+  "Strength": "150 MG",
+  "Form": "",
   "prices": {
     "69102015006": {
       "05/19/2021": 0.0874,
@@ -91,7 +95,8 @@
       "07/23/2025": 0.06803,
       "08/20/2025": 0.067,
       "09/17/2025": 0.06517,
-      "10/22/2025": 0.06296
+      "10/22/2025": 0.06296,
+      "11/19/2025": 0.06544
     }
   }
 }

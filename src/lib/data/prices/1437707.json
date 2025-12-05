@@ -1,9 +1,13 @@
 {
   "RxCUI": "1437707",
-  "Name": "BRIMONIDINE 0.33% GEL PUMP",
+  "Name": "brimonidine 0.0033 MG/MG Topical Gel",
   "IsBrand": false,
   "Brand_RxCUI": "1437709",
   "Generic_RxCUI": "1437707",
+  "Ingredient_Name": "Brimonidine Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.0033 MG/MG",
+  "Form": "Gel",
   "prices": {
     "45802007830": {
       "04/17/2024": 13.41815,
@@ -24,7 +28,8 @@
       "07/23/2025": 13.91495,
       "08/20/2025": 14.04457,
       "09/17/2025": 14.22172,
-      "10/22/2025": 14.44787
+      "10/22/2025": 14.44787,
+      "11/19/2025": 14.32638
     }
   }
 }

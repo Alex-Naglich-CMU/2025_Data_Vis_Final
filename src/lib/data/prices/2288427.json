@@ -1,9 +1,13 @@
 {
   "RxCUI": "2288427",
-  "Name": "DAYVIGO 10 MG TABLET",
+  "Name": "lemborexant 10 MG Oral Tablet [Dayvigo]",
   "IsBrand": true,
   "Brand_RxCUI": "2288427",
   "Generic_RxCUI": "2288425",
+  "Ingredient_Name": "Lemborexant",
+  "Manufacturer_Name": "Dayvigo",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "62856041030": {
       "06/23/2021": 9.44181,
@@ -26,7 +30,8 @@
       "07/23/2025": 11.259,
       "08/20/2025": 11.25935,
       "09/17/2025": 11.26203,
-      "10/22/2025": 11.25748
+      "10/22/2025": 11.25748,
+      "11/19/2025": 11.25491
     }
   }
 }

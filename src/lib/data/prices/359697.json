@@ -1,9 +1,13 @@
 {
   "RxCUI": "359697",
-  "Name": "KETOPROFEN ER 200 MG CAPSULE",
+  "Name": "24 HR ketoprofen 200 MG Extended Release Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "359697",
+  "Ingredient_Name": "Hr Ketoprofen Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Capsule",
   "prices": {
     "00378820001": {
       "05/21/2025": 6.10972,

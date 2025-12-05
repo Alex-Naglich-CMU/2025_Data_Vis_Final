@@ -1,9 +1,13 @@
 {
   "RxCUI": "1095588",
-  "Name": "KONSYL 520 MG CAPSULE",
+  "Name": "psyllium 520 MG Oral Capsule [Konsyl]",
   "IsBrand": false,
   "Brand_RxCUI": "581417",
   "Generic_RxCUI": "1095588",
+  "Ingredient_Name": "Psyllium",
+  "Manufacturer_Name": "Konsyl",
+  "Strength": "520 MG",
+  "Form": "",
   "prices": {
     "00224184780": {
       "06/21/2017": 0.05084,

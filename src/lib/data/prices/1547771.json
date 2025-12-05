@@ -1,14 +1,14 @@
 {
   "RxCUI": "1547771",
-  "Name": "TETRACAINE 0.5% EYE DROP",
+  "Name": "tetracaine hydrochloride 5 MG/ML Ophthalmic Solution",
   "IsBrand": false,
   "Brand_RxCUI": "1547775",
   "Generic_RxCUI": "1547771",
+  "Ingredient_Name": "Tetracaine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG/ML",
+  "Form": "Solution",
   "prices": {
-    "68682092064": {
-      "07/22/2020": 5.24453,
-      "05/22/2024": 5.04278
-    },
     "68682092005": {
       "05/22/2024": 4.4002,
       "06/19/2024": 4.3912,
@@ -28,8 +28,13 @@
       "08/20/2025": 4.7952,
       "09/17/2025": 4.7644
     },
+    "68682092064": {
+      "07/22/2020": 5.24453,
+      "05/22/2024": 5.04278
+    },
     "70069059601": {
-      "10/22/2025": 4.80575
+      "10/22/2025": 4.80575,
+      "11/19/2025": 4.75422
     }
   }
 }

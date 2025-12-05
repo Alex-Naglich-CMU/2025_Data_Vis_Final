@@ -1,9 +1,13 @@
 {
   "RxCUI": "847252",
-  "Name": "INSULIN LISPRO MIX 75-25 KWKPN",
+  "Name": "3 ML insulin lispro 25 UNT/ML / insulin lispro protamine, human 75 UNT/ML Pen Injector",
   "IsBrand": false,
   "Brand_RxCUI": "847254",
   "Generic_RxCUI": "847252",
+  "Ingredient_Name": "Insulin Lispro Untml Insulin Lispro Protamine, Human Untml Pen Injector",
+  "Manufacturer_Name": "",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00002823305": {
       "05/19/2021": 16.97713,
@@ -65,7 +69,8 @@
       "07/23/2025": 10.20714,
       "08/20/2025": 10.19881,
       "09/17/2025": 10.20259,
-      "10/22/2025": 10.18914
+      "10/22/2025": 10.18914,
+      "11/19/2025": 10.19368
     },
     "2823305": {
       "09/22/2021": 16.96747,

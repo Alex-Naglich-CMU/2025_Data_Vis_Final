@@ -1,9 +1,13 @@
 {
   "RxCUI": "197520",
-  "Name": "CLOCORTOLONE PIVALATE 0.1% CRM",
+  "Name": "clocortolone 1 MG/ML Topical Cream",
   "IsBrand": false,
   "Brand_RxCUI": "206048",
   "Generic_RxCUI": "197520",
+  "Ingredient_Name": "Clocortolone Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 MG/ML",
+  "Form": "Cream",
   "prices": {
     "51672416606": {
       "05/22/2024": 2.86802,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1483679",
-  "Name": "ZOMIG 2.5 MG NASAL SPRAY",
+  "Name": "zolmitriptan 2.5 MG/ACTUAT Nasal Spray [Zomig]",
   "IsBrand": true,
   "Brand_RxCUI": "1483679",
   "Generic_RxCUI": "1483677",
+  "Ingredient_Name": "Zolmitriptan Mgactuat Nasal",
+  "Manufacturer_Name": "Zomig",
+  "Strength": "2.5 MG/ACTU",
+  "Form": "",
   "prices": {
     "64896068251": {
       "08/01/2018": 70.5678,

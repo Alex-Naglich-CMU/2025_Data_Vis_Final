@@ -1,9 +1,13 @@
 {
   "RxCUI": "1792398",
-  "Name": "RENACIDIN IRRIGATION SOLUTION",
+  "Name": "citric acid 66 MG/ML / gluconolactone 1.98 MG/ML / magnesium carbonate 32.7 MG/ML Irrigation Solution [Renacidin]",
   "IsBrand": true,
   "Brand_RxCUI": "1792398",
   "Generic_RxCUI": "1792396",
+  "Ingredient_Name": "Citric Acid Mgml Gluconolactone Mgml Magnesium Carbonate Mgml Irrigation",
+  "Manufacturer_Name": "Renacidin",
+  "Strength": "66 MG/ML",
+  "Form": "",
   "prices": {
     "00327001230": {
       "12/01/2019": 0.17542,

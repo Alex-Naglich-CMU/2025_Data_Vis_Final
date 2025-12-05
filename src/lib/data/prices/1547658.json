@@ -1,0 +1,16 @@
+{
+  "RxCUI": "1547658",
+  "Name": "30 ACTUAT fluticasone furoate 0.1 MG/ACTUAT Dry Powder Inhaler",
+  "IsBrand": false,
+  "Brand_RxCUI": "1547660",
+  "Generic_RxCUI": "1547658",
+  "Ingredient_Name": "Actuat Fluticasone Furoate Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "",
+  "Strength": "30 ACTU",
+  "Form": "",
+  "prices": {
+    "66993016797": {
+      "11/19/2025": 4.18598
+    }
+  }
+}

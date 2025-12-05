@@ -1,9 +1,13 @@
 {
   "RxCUI": "763489",
-  "Name": "GENOTROPIN 5 MG CARTRIDGE",
+  "Name": "1 ML somatropin 5 MG/ML Cartridge [Genotropin]",
   "IsBrand": true,
   "Brand_RxCUI": "763489",
   "Generic_RxCUI": "763488",
+  "Ingredient_Name": "Somatropin Mgml Cartridge",
+  "Manufacturer_Name": "Genotropin",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00013262681": {
       "01/01/2018": 591.37372,
@@ -22,7 +26,8 @@
       "01/01/2025": 726.42875,
       "06/18/2025": 723.62,
       "07/23/2025": 727.07143,
-      "08/20/2025": 728.29125
+      "08/20/2025": 728.29125,
+      "11/19/2025": 726.55
     }
   }
 }

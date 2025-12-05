@@ -1,9 +1,13 @@
 {
   "RxCUI": "860092",
-  "Name": "KETOROLAC 15 MG/ML VIAL",
+  "Name": "1 ML ketorolac tromethamine 15 MG/ML Injection",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "860092",
+  "Ingredient_Name": "Ketorolac Tromethamine Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "1 ML",
+  "Form": "Injection",
   "prices": {
     "00409379301": {
       "07/17/2024": 0.96176,

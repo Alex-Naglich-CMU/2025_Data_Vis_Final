@@ -1,9 +1,13 @@
 {
   "RxCUI": "1300014",
-  "Name": "ABSORICA 30 MG CAPSULE",
+  "Name": "isotretinoin 30 MG Oral Capsule [Absorica]",
   "IsBrand": true,
   "Brand_RxCUI": "1300014",
   "Generic_RxCUI": "403930",
+  "Ingredient_Name": "Isotretinoin",
+  "Manufacturer_Name": "Absorica",
+  "Strength": "30 MG",
+  "Form": "",
   "prices": {
     "10631011731": {
       "11/22/2017": 32.23063,

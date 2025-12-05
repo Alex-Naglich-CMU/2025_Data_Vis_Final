@@ -1,9 +1,13 @@
 {
   "RxCUI": "749833",
-  "Name": "MICARDIS HCT 40-12.5 MG TABLET",
+  "Name": "hydrochlorothiazide 12.5 MG / telmisartan 40 MG Oral Tablet [Micardis-HCT]",
   "IsBrand": true,
   "Brand_RxCUI": "749833",
   "Generic_RxCUI": "283316",
+  "Ingredient_Name": "Hydrochlorothiazide Telmisartan",
+  "Manufacturer_Name": "Micardis-HCT",
+  "Strength": "12.5 MG",
+  "Form": "",
   "prices": {
     "00597004337": {
       "01/03/2018": 6.57513,

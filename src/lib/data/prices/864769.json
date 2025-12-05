@@ -1,9 +1,13 @@
 {
   "RxCUI": "864769",
-  "Name": "METHADONE 10 MG/5 ML SOLUTION",
+  "Name": "methadone hydrochloride 2 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "864769",
+  "Ingredient_Name": "Methadone Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "2 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00054355663": {
       "04/23/2025": 0.10204,

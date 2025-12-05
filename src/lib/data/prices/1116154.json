@@ -1,9 +1,13 @@
 {
   "RxCUI": "1116154",
-  "Name": "NEO-POLYCIN HC EYE OINTMENT",
+  "Name": "bacitracin zinc 0.4 UNT/MG / hydrocortisone acetate 0.01 MG/MG / neomycin sulfate 0.0035 MG/MG / polymyxin B sulfate 10 UNT/MG Ophthalmic Ointment [Neo-Polycin HC]",
   "IsBrand": false,
   "Brand_RxCUI": "1116150",
   "Generic_RxCUI": "1116154",
+  "Ingredient_Name": "Bacitracin Zinc Untmg Hydrocortisone Mgmg Neomycin Mgmg Polymyxin B Untmg",
+  "Manufacturer_Name": "Neo-Polycin HC",
+  "Strength": "0.4 UNT/MG",
+  "Form": "",
   "prices": {
     "00574414435": {
       "02/19/2020": 14.168,
@@ -43,7 +47,8 @@
       "07/23/2025": 5.94943,
       "08/20/2025": 6.27043,
       "09/17/2025": 6.07252,
-      "10/22/2025": 5.81667
+      "10/22/2025": 5.81667,
+      "11/19/2025": 5.61974
     }
   }
 }

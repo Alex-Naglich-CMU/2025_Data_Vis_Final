@@ -1,9 +1,13 @@
 {
   "RxCUI": "1737789",
-  "Name": "EMVERM 100 MG TABLET CHEW",
+  "Name": "mebendazole 100 MG Chewable Tablet [Emverm]",
   "IsBrand": true,
   "Brand_RxCUI": "1737789",
   "Generic_RxCUI": "105347",
+  "Ingredient_Name": "Mebendazole Chewable",
+  "Manufacturer_Name": "Emverm",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "52054010701": {
       "02/21/2018": 353.05,
@@ -45,7 +49,8 @@
       "07/23/2025": 710.228,
       "08/20/2025": 710.56409,
       "09/17/2025": 710.62571,
-      "10/22/2025": 710.22121
+      "10/22/2025": 710.22121,
+      "11/19/2025": 712.33262
     }
   }
 }

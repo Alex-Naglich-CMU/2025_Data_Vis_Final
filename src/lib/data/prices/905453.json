@@ -1,9 +1,13 @@
 {
   "RxCUI": "905453",
-  "Name": "TIROSINT 112 MCG CAPSULE",
+  "Name": "levothyroxine sodium 0.112 MG Oral Capsule [Tirosint]",
   "IsBrand": true,
   "Brand_RxCUI": "905453",
   "Generic_RxCUI": "905451",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "Tirosint",
+  "Strength": "0.112 MG",
+  "Form": "",
   "prices": {
     "71858003504": {
       "03/20/2019": 4.10019,

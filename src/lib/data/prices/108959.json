@@ -1,9 +1,13 @@
 {
   "RxCUI": "108959",
-  "Name": "DOVONEX 0.005% CREAM",
+  "Name": "calcipotriene 0.05 MG/ML Topical Cream [Dovonex]",
   "IsBrand": true,
   "Brand_RxCUI": "108959",
   "Generic_RxCUI": "313921",
+  "Ingredient_Name": "Calcipotriene Mgml",
+  "Manufacturer_Name": "Dovonex",
+  "Strength": "0.05 MG/ML",
+  "Form": "",
   "prices": {
     "50222026006": {
       "01/01/2018": 11.06304,

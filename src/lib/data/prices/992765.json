@@ -1,9 +1,13 @@
 {
   "RxCUI": "992765",
-  "Name": "MICONAZOLE 3 200 MG VAG SUPP",
+  "Name": "miconazole nitrate 200 MG Vaginal Insert",
   "IsBrand": false,
   "Brand_RxCUI": "992791",
   "Generic_RxCUI": "992765",
+  "Ingredient_Name": "Miconazole Nitrate Vaginal Insert",
+  "Manufacturer_Name": "",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "00472173803": {
       "06/21/2017": 12.35667,
@@ -24,7 +28,8 @@
       "07/23/2025": 13.65761,
       "08/20/2025": 14.22589,
       "09/17/2025": 14.34132,
-      "10/22/2025": 14.38245
+      "10/22/2025": 14.38245,
+      "11/19/2025": 14.14106
     }
   }
 }

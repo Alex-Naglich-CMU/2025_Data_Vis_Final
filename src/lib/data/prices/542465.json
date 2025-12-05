@@ -1,14 +1,18 @@
 {
   "RxCUI": "542465",
-  "Name": "FOSRENOL 500 MG TABLET CHEW",
+  "Name": "lanthanum carbonate 500 MG Chewable Tablet [Fosrenol]",
   "IsBrand": true,
   "Brand_RxCUI": "542465",
   "Generic_RxCUI": "477347",
+  "Ingredient_Name": "Lanthanum Carbonate Chewable",
+  "Manufacturer_Name": "Fosrenol",
+  "Strength": "500 MG",
+  "Form": "",
   "prices": {
-    "54092025290": {
+    "54092025245": {
       "06/02/2017": 11.6417
     },
-    "54092025245": {
+    "54092025290": {
       "06/02/2017": 11.6417
     }
   }

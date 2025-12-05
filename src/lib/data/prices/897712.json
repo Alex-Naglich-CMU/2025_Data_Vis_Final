@@ -1,9 +1,13 @@
 {
   "RxCUI": "897712",
-  "Name": "DILAUDID 8 MG TABLET",
+  "Name": "hydromorphone hydrochloride 8 MG Oral Tablet [Dilaudid]",
   "IsBrand": true,
   "Brand_RxCUI": "897712",
   "Generic_RxCUI": "897710",
+  "Ingredient_Name": "Hydromorphone Hydrochloride",
+  "Manufacturer_Name": "Dilaudid",
+  "Strength": "8 MG",
+  "Form": "",
   "prices": {
     "42858033801": {
       "05/22/2024": 6.64048,

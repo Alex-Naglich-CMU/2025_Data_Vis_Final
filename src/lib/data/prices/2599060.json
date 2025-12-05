@@ -1,9 +1,13 @@
 {
   "RxCUI": "2599060",
-  "Name": "TLANDO 112.5 MG CAPSULE",
+  "Name": "testosterone undecanoate 112.5 MG Oral Capsule [Tlando]",
   "IsBrand": true,
   "Brand_RxCUI": "2599060",
   "Generic_RxCUI": "2599054",
+  "Ingredient_Name": "Testosterone Undecanoate",
+  "Manufacturer_Name": "Tlando",
+  "Strength": "112.5 MG",
+  "Form": "",
   "prices": {
     "54436011220": {
       "05/22/2024": 5.93324,

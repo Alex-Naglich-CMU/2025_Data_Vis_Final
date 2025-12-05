@@ -1,9 +1,13 @@
 {
   "RxCUI": "578457",
-  "Name": "BARACLUDE 0.5 MG TABLET",
+  "Name": "entecavir 0.5 MG Oral Tablet [Baraclude]",
   "IsBrand": true,
   "Brand_RxCUI": "578457",
   "Generic_RxCUI": "485434",
+  "Ingredient_Name": "Entecavir",
+  "Manufacturer_Name": "Baraclude",
+  "Strength": "0.5 MG",
+  "Form": "",
   "prices": {
     "00003161112": {
       "06/19/2024": 44.29072,

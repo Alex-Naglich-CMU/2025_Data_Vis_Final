@@ -1,9 +1,13 @@
 {
   "RxCUI": "1807632",
-  "Name": "SODIUM CHLORIDE 0.9% SOLUTION",
+  "Name": "100 ML sodium chloride 9 MG/ML Injection",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1807632",
+  "Ingredient_Name": "Sodium Chloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "100 ML",
+  "Form": "Injection",
   "prices": {
     "00264180032": {
       "05/21/2025": 0.02595,

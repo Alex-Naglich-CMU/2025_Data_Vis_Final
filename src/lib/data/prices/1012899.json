@@ -1,9 +1,13 @@
 {
   "RxCUI": "1012899",
-  "Name": "GILENYA 0.5 MG CAPSULE",
+  "Name": "fingolimod 0.5 MG Oral Capsule [Gilenya]",
   "IsBrand": true,
   "Brand_RxCUI": "1012899",
   "Generic_RxCUI": "1012895",
+  "Ingredient_Name": "Fingolimod",
+  "Manufacturer_Name": "Gilenya",
+  "Strength": "0.5 MG",
+  "Form": "",
   "prices": {
     "00078060715": {
       "06/21/2017": 228.8585,

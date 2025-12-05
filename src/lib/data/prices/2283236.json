@@ -1,9 +1,13 @@
 {
   "RxCUI": "2283236",
-  "Name": "NEXLIZET 180-10 MG TABLET",
+  "Name": "bempedoic acid 180 MG / ezetimibe 10 MG Oral Tablet [Nexlizet]",
   "IsBrand": true,
   "Brand_RxCUI": "2283236",
   "Generic_RxCUI": "2283230",
+  "Ingredient_Name": "Bempedoic Acid Ezetimibe",
+  "Manufacturer_Name": "Nexlizet",
+  "Strength": "180 MG",
+  "Form": "",
   "prices": {
     "72426081803": {
       "04/01/2021": 11.18977,
@@ -25,7 +29,8 @@
       "07/23/2025": 13.43593,
       "08/20/2025": 13.43617,
       "09/17/2025": 13.43739,
-      "10/22/2025": 13.43517
+      "10/22/2025": 13.43517,
+      "11/19/2025": 13.43757
     }
   }
 }

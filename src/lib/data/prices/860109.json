@@ -1,9 +1,13 @@
 {
   "RxCUI": "860109",
-  "Name": "ACULAR 0.5% EYE DROPS",
+  "Name": "ketorolac tromethamine 5 MG/ML Ophthalmic Solution [Acular]",
   "IsBrand": true,
   "Brand_RxCUI": "860109",
   "Generic_RxCUI": "860107",
+  "Ingredient_Name": "Ketorolac Tromethamine Mgml",
+  "Manufacturer_Name": "Acular",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "00023218105": {
       "01/01/2018": 50.53694,

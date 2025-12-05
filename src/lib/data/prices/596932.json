@@ -1,9 +1,13 @@
 {
   "RxCUI": "596932",
-  "Name": "CYMBALTA 30 MG CAPSULE",
+  "Name": "duloxetine 30 MG Delayed Release Oral Capsule [Cymbalta]",
   "IsBrand": true,
   "Brand_RxCUI": "596932",
   "Generic_RxCUI": "596930",
+  "Ingredient_Name": "Duloxetine Delayed Release",
+  "Manufacturer_Name": "Cymbalta",
+  "Strength": "30 MG",
+  "Form": "",
   "prices": {
     "00002324030": {
       "09/20/2017": 6.90354,

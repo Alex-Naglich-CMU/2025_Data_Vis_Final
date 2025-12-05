@@ -1,9 +1,13 @@
 {
   "RxCUI": "1865295",
-  "Name": "NOVAREL 5,000 UNIT VIAL",
+  "Name": "chorionic gonadotropin 5000 UNT/ML Injectable Solution [Novarel]",
   "IsBrand": true,
   "Brand_RxCUI": "1865295",
   "Generic_RxCUI": "310587",
+  "Ingredient_Name": "Chorionic Gonadotropin Untml Injectable",
+  "Manufacturer_Name": "Novarel",
+  "Strength": "5000 UNT/ML",
+  "Form": "",
   "prices": {
     "55566150201": {
       "08/21/2024": 154.90333,
@@ -15,7 +19,8 @@
       "02/07/2025": 161.18427,
       "07/23/2025": 161.89167,
       "09/17/2025": 161.98429,
-      "10/22/2025": 161.469
+      "10/22/2025": 161.469,
+      "11/19/2025": 161.78833
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "351992",
-  "Name": "TRILEPTAL 300 MG/5 ML SUSP",
+  "Name": "oxcarbazepine 60 MG/ML Oral Suspension [Trileptal]",
   "IsBrand": true,
   "Brand_RxCUI": "351992",
   "Generic_RxCUI": "283536",
+  "Ingredient_Name": "Oxcarbazepine Mgml",
+  "Manufacturer_Name": "Trileptal",
+  "Strength": "60 MG/ML",
+  "Form": "",
   "prices": {
     "00078035752": {
       "07/11/2017": 1.38874,
@@ -36,7 +40,8 @@
       "07/23/2025": 1.87528,
       "08/20/2025": 1.87518,
       "09/17/2025": 1.87587,
-      "10/22/2025": 1.87747
+      "10/22/2025": 1.87747,
+      "11/19/2025": 1.87713
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "476827",
-  "Name": "SENNA 8.6 MG SOFTGEL",
+  "Name": "sennosides, USP 8.6 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "476827",
+  "Ingredient_Name": "Sennosides, Usp",
+  "Manufacturer_Name": "",
+  "Strength": "8.6 MG",
+  "Form": "Capsule",
   "prices": {
     "70000044101": {
       "04/17/2024": 0.06692,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "977842",
-  "Name": "NOVOLOG MIX 70-30 VIAL",
+  "Name": "insulin aspart protamine, human 70 UNT/ML / insulin aspart, human 30 UNT/ML Injectable Suspension [NovoLog Mix]",
   "IsBrand": true,
   "Brand_RxCUI": "977842",
   "Generic_RxCUI": "351297",
+  "Ingredient_Name": "Insulin Aspart Protamine, Human Untml Insulin Aspart, Human Untml Injectable",
+  "Manufacturer_Name": "NovoLog Mix",
+  "Strength": "70 UNT/ML",
+  "Form": "",
   "prices": {
     "00169368512": {
       "02/21/2018": 27.41099,
@@ -31,7 +35,8 @@
       "07/23/2025": 6.9449,
       "08/20/2025": 6.94153,
       "09/17/2025": 6.94199,
-      "10/22/2025": 6.94031
+      "10/22/2025": 6.94031,
+      "11/19/2025": 6.94136
     },
     "169368512": {
       "09/22/2021": 28.90748

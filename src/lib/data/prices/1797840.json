@@ -1,9 +1,13 @@
 {
   "RxCUI": "1797840",
-  "Name": "ZETONNA 37 MCG NASAL SPRAY",
+  "Name": "ciclesonide 0.037 MG/ACTUAT Metered Dose Nasal Spray [Zetonna]",
   "IsBrand": true,
   "Brand_RxCUI": "1797840",
   "Generic_RxCUI": "1797838",
+  "Ingredient_Name": "Ciclesonide Mgactuat Metered Dose Nasal",
+  "Manufacturer_Name": "Zetonna",
+  "Strength": "0.037 MG/ACTU",
+  "Form": "",
   "prices": {
     "63402073760": {
       "12/27/2017": 39.96001,

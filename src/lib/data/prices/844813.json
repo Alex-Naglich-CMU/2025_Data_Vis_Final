@@ -1,9 +1,13 @@
 {
   "RxCUI": "844813",
-  "Name": "THEO-24 ER 200 MG CAPSULE",
+  "Name": "theophylline 200 MG Extended Release Oral Capsule [Theo-24]",
   "IsBrand": true,
   "Brand_RxCUI": "844813",
   "Generic_RxCUI": "313272",
+  "Ingredient_Name": "Theophylline Extended Release",
+  "Manufacturer_Name": "Theo-24",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "52244020010": {
       "07/01/2017": 2.58779,

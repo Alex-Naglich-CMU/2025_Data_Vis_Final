@@ -1,9 +1,13 @@
 {
   "RxCUI": "153095",
-  "Name": "GLUCAGEN 1 MG HYPOKIT",
+  "Name": "glucagon (rDNA) 1 MG Injection [GlucaGen]",
   "IsBrand": true,
   "Brand_RxCUI": "153095",
   "Generic_RxCUI": "310497",
+  "Ingredient_Name": "Glucagon (Rdna)",
+  "Manufacturer_Name": "GlucaGen",
+  "Strength": "1 MG",
+  "Form": "",
   "prices": {
     "00169706515": {
       "12/20/2017": 250.27,

@@ -1,21 +1,14 @@
 {
   "RxCUI": "866912",
-  "Name": "WELCHOL 625 MG TABLET",
+  "Name": "colesevelam hydrochloride 625 MG Oral Tablet [Welchol]",
   "IsBrand": true,
   "Brand_RxCUI": "866912",
   "Generic_RxCUI": "866910",
+  "Ingredient_Name": "Colesevelam Hydrochloride",
+  "Manufacturer_Name": "Welchol",
+  "Strength": "625 MG",
+  "Form": "",
   "prices": {
-    "65597070118": {
-      "02/21/2018": 3.1724,
-      "02/23/2018": 3.33584,
-      "12/19/2018": 3.33695,
-      "01/04/2019": 3.51004,
-      "10/23/2019": 3.49934,
-      "04/03/2020": 3.56646,
-      "01/20/2021": 3.56403,
-      "11/17/2021": 3.58682,
-      "8/17/2022": 3.56234
-    },
     "00713087981": {
       "09/01/2023": 4.29861,
       "04/17/2024": 4.27302,

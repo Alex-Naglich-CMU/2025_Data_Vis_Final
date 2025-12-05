@@ -1,9 +1,13 @@
 {
   "RxCUI": "2049677",
-  "Name": "SYMTUZA 800-150-200-10 MG TAB",
+  "Name": "cobicistat 150 MG / darunavir 800 MG / emtricitabine 200 MG / tenofovir alafenamide 10 MG Oral Tablet [Symtuza]",
   "IsBrand": true,
   "Brand_RxCUI": "2049677",
   "Generic_RxCUI": "2049671",
+  "Ingredient_Name": "Cobicistat Darunavir Emtricitabine Tenofovir Alafenamide",
+  "Manufacturer_Name": "Symtuza",
+  "Strength": "150 MG",
+  "Form": "",
   "prices": {
     "59676080030": {
       "01/10/2019": 119.1278,
@@ -32,7 +36,8 @@
       "07/23/2025": 152.30218,
       "08/20/2025": 152.30424,
       "09/17/2025": 152.29764,
-      "10/22/2025": 152.67063
+      "10/22/2025": 152.67063,
+      "11/19/2025": 152.83655
     }
   }
 }

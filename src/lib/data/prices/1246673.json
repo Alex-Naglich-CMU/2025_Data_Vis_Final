@@ -1,9 +1,13 @@
 {
   "RxCUI": "1246673",
-  "Name": "IVERMECTIN 0.5% LOTION",
+  "Name": "ivermectin 5 MG/ML Topical Lotion",
   "IsBrand": false,
   "Brand_RxCUI": "1298427",
   "Generic_RxCUI": "1246673",
+  "Ingredient_Name": "Ivermectin Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG/ML",
+  "Form": "Lotion",
   "prices": {
     "51672423008": {
       "08/21/2024": 1.32675,
@@ -19,7 +23,8 @@
       "07/23/2025": 1.26355,
       "08/20/2025": 1.22188,
       "09/17/2025": 1.17549,
-      "10/22/2025": 1.16398
+      "10/22/2025": 1.16398,
+      "11/19/2025": 1.16787
     }
   }
 }

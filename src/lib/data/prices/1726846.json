@@ -1,9 +1,13 @@
 {
   "RxCUI": "1726846",
-  "Name": "HUMIRA(CF) 40 MG/0.4 ML SYRINGE",
+  "Name": "0.4 ML adalimumab 100 MG/ML Prefilled Syringe [Humira]",
   "IsBrand": true,
   "Brand_RxCUI": "1726846",
   "Generic_RxCUI": "1726844",
+  "Ingredient_Name": "Adalimumab Mgml Prefilled",
+  "Manufacturer_Name": "Humira",
+  "Strength": "0.4 ML",
+  "Form": "",
   "prices": {
     "00074024302": {
       "09/18/2019": 2524.74125,
@@ -34,7 +38,8 @@
       "07/23/2025": 3363.78949,
       "08/20/2025": 3365.11051,
       "09/17/2025": 3364.9888,
-      "10/22/2025": 3364.74753
+      "10/22/2025": 3364.74753,
+      "11/19/2025": 3365.52169
     }
   }
 }

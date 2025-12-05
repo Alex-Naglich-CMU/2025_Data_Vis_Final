@@ -1,9 +1,13 @@
 {
   "RxCUI": "106892",
-  "Name": "HUMULIN 70-30 VIAL",
+  "Name": "insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension [Humulin]",
   "IsBrand": true,
   "Brand_RxCUI": "106892",
   "Generic_RxCUI": "311048",
+  "Ingredient_Name": "Insulin Isophane, Human Untml Insulin, Regular, Human Untml Injectable",
+  "Manufacturer_Name": "Humulin",
+  "Strength": "70 UNT/ML",
+  "Form": "",
   "prices": {
     "00002871501": {
       "07/21/2021": 14.30359,
@@ -32,7 +36,8 @@
       "07/23/2025": 4.27055,
       "08/20/2025": 4.26998,
       "09/17/2025": 4.26953,
-      "10/22/2025": 4.26845
+      "10/22/2025": 4.26845,
+      "11/19/2025": 4.26656
     }
   }
 }

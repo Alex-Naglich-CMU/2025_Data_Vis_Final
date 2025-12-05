@@ -1,9 +1,13 @@
 {
   "RxCUI": "830876",
-  "Name": "CARDIZEM LA 120 MG TABLET",
+  "Name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Tablet [Cardizem]",
   "IsBrand": true,
   "Brand_RxCUI": "830876",
   "Generic_RxCUI": "830874",
+  "Ingredient_Name": "Hr Diltiazem Hydrochloride Extended Release",
+  "Manufacturer_Name": "Cardizem",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00187204530": {
       "09/20/2017": 3.6311,

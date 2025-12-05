@@ -1,9 +1,13 @@
 {
   "RxCUI": "849383",
-  "Name": "ASACOL HD DR 800 MG TABLET",
+  "Name": "mesalamine 800 MG Delayed Release Oral Tablet [Asacol]",
   "IsBrand": true,
   "Brand_RxCUI": "849383",
   "Generic_RxCUI": "833234",
+  "Ingredient_Name": "Mesalamine Delayed Release",
+  "Manufacturer_Name": "Asacol",
+  "Strength": "800 MG",
+  "Form": "",
   "prices": {
     "00023590118": {
       "07/19/2017": 7.64202,

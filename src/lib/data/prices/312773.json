@@ -1,9 +1,13 @@
 {
   "RxCUI": "312773",
-  "Name": "RANITIDINE 75 MG TABLET",
+  "Name": "ranitidine 75 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "312773",
+  "Ingredient_Name": "Ranitidine",
+  "Manufacturer_Name": "",
+  "Strength": "75 MG",
+  "Form": "Tablet",
   "prices": {
     "55111013160": {
       "08/21/2019": 0.07988,

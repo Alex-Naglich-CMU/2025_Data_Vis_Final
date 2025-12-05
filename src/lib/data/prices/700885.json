@@ -1,9 +1,13 @@
 {
   "RxCUI": "700885",
-  "Name": "TEMOZOLOMIDE 180 MG CAPSULE",
+  "Name": "temozolomide 180 MG Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "705619",
   "Generic_RxCUI": "700885",
+  "Ingredient_Name": "Temozolomide",
+  "Manufacturer_Name": "",
+  "Strength": "180 MG",
+  "Form": "Capsule",
   "prices": {
     "16571082041": {
       "12/18/2024": 19.2434,

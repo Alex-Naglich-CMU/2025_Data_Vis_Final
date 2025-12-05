@@ -1,9 +1,13 @@
 {
   "RxCUI": "404589",
-  "Name": "GLEEVEC 400 MG TABLET",
+  "Name": "imatinib 400 MG Oral Tablet [Gleevec]",
   "IsBrand": true,
   "Brand_RxCUI": "404589",
   "Generic_RxCUI": "403879",
+  "Ingredient_Name": "Imatinib",
+  "Manufacturer_Name": "Gleevec",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "00078064930": {
       "11/22/2017": 328.095,

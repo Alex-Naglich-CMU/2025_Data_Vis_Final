@@ -1,9 +1,13 @@
 {
   "RxCUI": "2101715",
-  "Name": "BRYHALI 0.01% LOTION",
+  "Name": "halobetasol propionate 0.1 MG/ML Topical Lotion [Bryhali]",
   "IsBrand": true,
   "Brand_RxCUI": "2101715",
   "Generic_RxCUI": "2101710",
+  "Ingredient_Name": "Halobetasol Propionate Mgml",
+  "Manufacturer_Name": "Bryhali",
+  "Strength": "0.1 MG/ML",
+  "Form": "",
   "prices": {
     "00187000201": {
       "01/01/2021": 4.29364,

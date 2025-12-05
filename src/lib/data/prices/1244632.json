@@ -4,6 +4,10 @@
   "IsBrand": false,
   "Brand_RxCUI": "810096",
   "Generic_RxCUI": "1244632",
+  "Ingredient_Name": "Amethia Lo",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "TABLET",
   "prices": {
     "51862004501": {
       "05/19/2021": 0.31704,

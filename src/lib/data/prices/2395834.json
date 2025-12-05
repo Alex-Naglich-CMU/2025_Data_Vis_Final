@@ -1,9 +1,13 @@
 {
   "RxCUI": "2395834",
-  "Name": "AIRDUO DIGIHALER 232-14 MCG",
+  "Name": "Sensor 60 ACTUAT fluticasone propionate 0.232 MG/ACTUAT / salmeterol 0.014 MG/ACTUAT Dry Powder Inhaler [AirDuo]",
   "IsBrand": true,
   "Brand_RxCUI": "2395834",
   "Generic_RxCUI": "2395832",
+  "Ingredient_Name": "Sensor Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "AirDuo",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "59310013606": {
       "01/01/2023": 476.13061,

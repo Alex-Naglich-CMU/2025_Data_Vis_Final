@@ -1,9 +1,13 @@
 {
   "RxCUI": "284400",
-  "Name": "PROTONIX DR 40 MG TABLET",
+  "Name": "pantoprazole 40 MG Delayed Release Oral Tablet [Protonix]",
   "IsBrand": true,
   "Brand_RxCUI": "284400",
   "Generic_RxCUI": "314200",
+  "Ingredient_Name": "Pantoprazole Delayed Release",
+  "Manufacturer_Name": "Protonix",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "00008084181": {
       "06/01/2017": 12.47925,
@@ -40,7 +44,8 @@
       "07/23/2025": 13.88123,
       "08/20/2025": 13.87861,
       "09/17/2025": 13.87077,
-      "10/22/2025": 13.8341
+      "10/22/2025": 13.8341,
+      "11/19/2025": 13.80697
     },
     "8084181": {
       "09/22/2021": 15.96595

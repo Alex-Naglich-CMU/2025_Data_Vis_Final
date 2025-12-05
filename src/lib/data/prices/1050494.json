@@ -4,6 +4,10 @@
   "IsBrand": true,
   "Brand_RxCUI": "1050494",
   "Generic_RxCUI": "1050493",
+  "Ingredient_Name": "Safyral",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "TABLET",
   "prices": {
     "50419040303": {
       "01/01/2018": 6.82013

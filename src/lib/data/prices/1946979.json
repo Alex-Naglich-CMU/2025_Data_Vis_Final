@@ -1,9 +1,13 @@
 {
   "RxCUI": "1946979",
-  "Name": "ALAHIST CF TABLET",
+  "Name": "dexbrompheniramine maleate 2 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1946979",
+  "Ingredient_Name": "Dexbrompheniramine Maleate Dextromethorphan Hydrobromide Phenylephrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "2 MG",
+  "Form": "Tablet",
   "prices": {
     "50991078490": {
       "07/17/2024": 0.66063,
@@ -11,7 +15,8 @@
       "06/18/2025": 0.67209,
       "07/23/2025": 0.6721,
       "09/17/2025": 0.67149,
-      "10/22/2025": 0.67074
+      "10/22/2025": 0.67074,
+      "11/19/2025": 0.67043
     }
   }
 }

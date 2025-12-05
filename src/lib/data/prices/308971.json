@@ -1,9 +1,13 @@
 {
   "RxCUI": "308971",
-  "Name": "TEGRETOL 100 MG/5 ML SUSP",
+  "Name": "carbamazepine 20 MG/ML Oral Suspension [Tegretol]",
   "IsBrand": true,
   "Brand_RxCUI": "308971",
   "Generic_RxCUI": "308976",
+  "Ingredient_Name": "Carbamazepine Mgml",
+  "Manufacturer_Name": "Tegretol",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "00078050883": {
       "07/21/2021": 0.34669,
@@ -31,7 +35,8 @@
       "06/18/2025": 0.42484,
       "07/23/2025": 0.42405,
       "09/17/2025": 0.42467,
-      "10/22/2025": 0.42416
+      "10/22/2025": 0.42416,
+      "11/19/2025": 0.42383
     }
   }
 }

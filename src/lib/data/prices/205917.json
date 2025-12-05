@@ -1,9 +1,13 @@
 {
   "RxCUI": "205917",
-  "Name": "EPOGEN 2,000 UNITS/ML VIAL",
+  "Name": "1 ML epoetin alfa 2000 UNT/ML Injection [Epogen]",
   "IsBrand": true,
   "Brand_RxCUI": "205917",
   "Generic_RxCUI": "239998",
+  "Ingredient_Name": "Epoetin Alfa Untml",
+  "Manufacturer_Name": "Epogen",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "55513012610": {
       "07/17/2024": 32.02433,

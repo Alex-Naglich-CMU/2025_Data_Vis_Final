@@ -1,9 +1,13 @@
 {
   "RxCUI": "1098666",
-  "Name": "NEFAZODONE HCL 150 MG TABLET",
+  "Name": "nefazodone hydrochloride 150 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1098666",
+  "Ingredient_Name": "Nefazodone Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "150 MG",
+  "Form": "Tablet",
   "prices": {
     "00093711306": {
       "10/18/2017": 1.1626,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1119573",
-  "Name": "VITAFOL-ONE CAPSULE",
+  "Name": "ascorbic acid 30 MG / cholecalciferol 1000 UNT / cuprous oxide 2 MG / folic acid 1 MG / magnesium oxide 20 MG / niacin 15 MG / polysaccharide iron complex 29 MG / potassium iodide 0.15 MG / pyridoxine hydrochloride 2.5 MG / riboflavin 1.8 MG / thiamine mononitrate 1.6 MG / vitamin A 1100 UNT / vitamin B12 0.012 MG / vitamin E 20 UNT / zinc oxide 25 MG Oral Capsule [Vitafol-One]",
   "IsBrand": true,
   "Brand_RxCUI": "1119573",
   "Generic_RxCUI": "1119569",
+  "Ingredient_Name": "Ascorbic Acid Cholecalciferol Unt Cuprous Oxide Folic Acid Magnesium Oxide Niacin Polysaccharide Iron Complex Potassium Iodide Pyridoxine Hydrochloride Riboflavin Thiamine Mononitrate Vitamin A Unt Vitamin B Vitamin E Unt Zinc Oxide",
+  "Manufacturer_Name": "Vitafol-One",
+  "Strength": "30 MG",
+  "Form": "",
   "prices": {
     "00642007030": {
       "11/22/2017": 3.5663,
@@ -27,7 +31,8 @@
       "07/23/2025": 4.3615,
       "08/20/2025": 4.36597,
       "09/17/2025": 4.36014,
-      "10/22/2025": 4.35172
+      "10/22/2025": 4.35172,
+      "11/19/2025": 4.35076
     }
   }
 }

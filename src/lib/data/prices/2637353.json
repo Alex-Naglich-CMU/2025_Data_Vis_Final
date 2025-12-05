@@ -1,9 +1,13 @@
 {
   "RxCUI": "2637353",
-  "Name": "ZOLPIDEM TARTRATE 7.5 MG CAP",
+  "Name": "zolpidem tartrate 7.5 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "2637353",
+  "Ingredient_Name": "Zolpidem Tartrate",
+  "Manufacturer_Name": "",
+  "Strength": "7.5 MG",
+  "Form": "Capsule",
   "prices": {
     "52427077530": {
       "06/19/2024": 8.00207,
@@ -20,7 +24,8 @@
       "07/23/2025": 7.94639,
       "08/20/2025": 7.94007,
       "09/17/2025": 7.94075,
-      "10/22/2025": 7.94568
+      "10/22/2025": 7.94568,
+      "11/19/2025": 7.95873
     }
   }
 }

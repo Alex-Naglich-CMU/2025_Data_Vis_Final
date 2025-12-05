@@ -1,9 +1,13 @@
 {
   "RxCUI": "2637556",
-  "Name": "MIEBO 100% EYE DROP",
+  "Name": "perfluorohexyloctane 1340 MG/ML Ophthalmic Solution [Miebo]",
   "IsBrand": true,
   "Brand_RxCUI": "2637556",
   "Generic_RxCUI": "2637551",
+  "Ingredient_Name": "Perfluorohexyloctane Mgml",
+  "Manufacturer_Name": "Miebo",
+  "Strength": "1340 MG/ML",
+  "Form": "",
   "prices": {
     "24208037705": {
       "04/17/2024": 247.13654,
@@ -21,7 +25,8 @@
       "07/23/2025": 255.87507,
       "08/20/2025": 256.0952,
       "09/17/2025": 256.05267,
-      "10/22/2025": 256.12609
+      "10/22/2025": 256.12609,
+      "11/19/2025": 256.12246
     }
   }
 }

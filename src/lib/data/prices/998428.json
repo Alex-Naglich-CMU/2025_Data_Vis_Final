@@ -1,9 +1,13 @@
 {
   "RxCUI": "998428",
-  "Name": "ATHLETE'S FOOT 2% POWDER SPRAY",
+  "Name": "miconazole nitrate 0.02 MG/MG Powder Spray",
   "IsBrand": false,
   "Brand_RxCUI": "998530",
   "Generic_RxCUI": "998428",
+  "Ingredient_Name": "Miconazole Nitrate Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.02 MG/MG",
+  "Form": "",
   "prices": {
     "70000032101": {
       "02/20/2019": 0.0244,
@@ -24,7 +28,8 @@
       "07/23/2025": 0.03621,
       "08/20/2025": 0.03617,
       "09/17/2025": 0.03615,
-      "10/22/2025": 0.03616
+      "10/22/2025": 0.03616,
+      "11/19/2025": 0.03617
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1734686",
-  "Name": "INVANZ 1 GM VIAL",
+  "Name": "ertapenem 1000 MG Injection [Invanz]",
   "IsBrand": true,
   "Brand_RxCUI": "1734686",
   "Generic_RxCUI": "1734683",
+  "Ingredient_Name": "Ertapenem",
+  "Manufacturer_Name": "Invanz",
+  "Strength": "1000 MG",
+  "Form": "",
   "prices": {
     "00006384371": {
       "07/27/2017": 111.39169,

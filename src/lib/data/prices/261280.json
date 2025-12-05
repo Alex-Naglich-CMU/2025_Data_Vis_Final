@@ -1,9 +1,13 @@
 {
   "RxCUI": "261280",
-  "Name": "NEURONTIN 600 MG TABLET",
+  "Name": "gabapentin 600 MG Oral Tablet [Neurontin]",
   "IsBrand": true,
   "Brand_RxCUI": "261280",
   "Generic_RxCUI": "310433",
+  "Ingredient_Name": "Gabapentin",
+  "Manufacturer_Name": "Neurontin",
+  "Strength": "600 MG",
+  "Form": "",
   "prices": {
     "00071051324": {
       "06/01/2017": 8.90631,
@@ -24,7 +28,8 @@
       "06/18/2025": 13.37944,
       "07/23/2025": 13.4286,
       "09/17/2025": 13.43688,
-      "10/22/2025": 13.39811
+      "10/22/2025": 13.39811,
+      "11/19/2025": 13.41208
     }
   }
 }

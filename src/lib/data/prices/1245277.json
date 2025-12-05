@@ -1,9 +1,13 @@
 {
   "RxCUI": "1245277",
-  "Name": "AEROSPAN 80 MCG INHALER",
+  "Name": "120 ACTUAT flunisolide 0.08 MG/ACTUAT Metered Dose Inhaler [Aerospan]",
   "IsBrand": true,
   "Brand_RxCUI": "1245277",
   "Generic_RxCUI": "1245276",
+  "Ingredient_Name": "Actuat Flunisolide Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Aerospan",
+  "Strength": "120 ACTU",
+  "Form": "",
   "prices": {
     "00037759012": {
       "01/17/2018": 21.05609

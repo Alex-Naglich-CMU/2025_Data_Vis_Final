@@ -1,9 +1,13 @@
 {
   "RxCUI": "1648160",
-  "Name": "ZOMACTON 10 MG VIAL",
+  "Name": "somatropin 10 MG/ML Injectable Solution [Zomacton]",
   "IsBrand": true,
   "Brand_RxCUI": "1648160",
   "Generic_RxCUI": "284989",
+  "Ingredient_Name": "Somatropin Mgml Injectable",
+  "Manufacturer_Name": "Zomacton",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "55566190101": {
       "09/18/2024": 562.40833,

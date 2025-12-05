@@ -1,9 +1,13 @@
 {
   "RxCUI": "2049343",
-  "Name": "ARISTADA INITIO ER 675 MG/2.4",
+  "Name": "2.4 ML aripiprazole lauroxil 281.3 MG/ML Prefilled Syringe [Aristada]",
   "IsBrand": true,
   "Brand_RxCUI": "2049343",
   "Generic_RxCUI": "2049341",
+  "Ingredient_Name": "Aripiprazole Lauroxil Mgml Prefilled",
+  "Manufacturer_Name": "Aristada",
+  "Strength": "2.4 ML",
+  "Form": "",
   "prices": {
     "65757050003": {
       "12/18/2024": 939.52083,

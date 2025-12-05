@@ -1,9 +1,13 @@
 {
   "RxCUI": "1149364",
-  "Name": "OSCIMIN SR 0.375 MG TABLET",
+  "Name": "12 HR hyoscyamine sulfate 0.375 MG Extended Release Oral Tablet [Oscimin]",
   "IsBrand": false,
   "Brand_RxCUI": "1046770",
   "Generic_RxCUI": "1149364",
+  "Ingredient_Name": "Hr Hyoscyamine Extended Release",
+  "Manufacturer_Name": "Oscimin",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "68047025501": {
       "09/19/2018": 0.4481

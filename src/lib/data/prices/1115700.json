@@ -1,9 +1,13 @@
 {
   "RxCUI": "1115700",
-  "Name": "TAMIFLU 6 MG/ML SUSPENSION",
+  "Name": "oseltamivir 6 MG/ML Oral Suspension [Tamiflu]",
   "IsBrand": true,
   "Brand_RxCUI": "1115700",
   "Generic_RxCUI": "1115698",
+  "Ingredient_Name": "Oseltamivir Mgml",
+  "Manufacturer_Name": "Tamiflu",
+  "Strength": "6 MG/ML",
+  "Form": "",
   "prices": {
     "00004082205": {
       "07/01/2017": 2.43594,

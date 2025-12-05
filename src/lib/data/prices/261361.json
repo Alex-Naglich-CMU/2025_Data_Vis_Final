@@ -1,9 +1,13 @@
 {
   "RxCUI": "261361",
-  "Name": "EVOXAC 30 MG CAPSULE",
+  "Name": "cevimeline hydrochloride 30 MG Oral Capsule [Evoxac]",
   "IsBrand": true,
   "Brand_RxCUI": "261361",
   "Generic_RxCUI": "309140",
+  "Ingredient_Name": "Cevimeline Hydrochloride",
+  "Manufacturer_Name": "Evoxac",
+  "Strength": "30 MG",
+  "Form": "",
   "prices": {
     "00713088301": {
       "04/23/2025": 7.80357,

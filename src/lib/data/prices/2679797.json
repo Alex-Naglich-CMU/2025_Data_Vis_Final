@@ -1,9 +1,13 @@
 {
   "RxCUI": "2679797",
-  "Name": "ENTRESTO SPRINKLE 15-16 MG PLT",
+  "Name": "sacubitril 15 MG / valsartan 16 MG Oral Pellet [Entresto]",
   "IsBrand": true,
   "Brand_RxCUI": "2679797",
   "Generic_RxCUI": "2679793",
+  "Ingredient_Name": "Sacubitril Valsartan Pellet",
+  "Manufacturer_Name": "Entresto",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "00078123820": {
       "09/17/2025": 11.28165,

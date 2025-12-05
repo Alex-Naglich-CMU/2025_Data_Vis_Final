@@ -1,9 +1,13 @@
 {
   "RxCUI": "1441740",
-  "Name": "DUAVEE 0.45-20 MG TABLET",
+  "Name": "bazedoxifene 20 MG / estrogens, conjugated (USP) 0.45 MG Oral Tablet [Duavee]",
   "IsBrand": true,
   "Brand_RxCUI": "1441740",
   "Generic_RxCUI": "1441392",
+  "Ingredient_Name": "Bazedoxifene Estrogens, Conjugated (Usp)",
+  "Manufacturer_Name": "Duavee",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "00008112312": {
       "11/22/2017": 5.09281,
@@ -28,7 +32,8 @@
       "07/23/2025": 6.49126,
       "08/20/2025": 6.49252,
       "09/17/2025": 6.48707,
-      "10/22/2025": 6.48045
+      "10/22/2025": 6.48045,
+      "11/19/2025": 6.48354
     }
   }
 }

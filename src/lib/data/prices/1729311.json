@@ -1,9 +1,13 @@
 {
   "RxCUI": "1729311",
-  "Name": "EMEND 125 MG POWDER PACKET",
+  "Name": "aprepitant 125 MG Powder for Oral Suspension [Emend]",
   "IsBrand": true,
   "Brand_RxCUI": "1729311",
   "Generic_RxCUI": "1729308",
+  "Ingredient_Name": "Aprepitant For",
+  "Manufacturer_Name": "Emend",
+  "Strength": "125 MG",
+  "Form": "",
   "prices": {
     "00006306601": {
       "09/18/2024": 324.69571,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2572371",
-  "Name": "TYRVAYA 0.03 MG NASAL SPRAY",
+  "Name": "varenicline 0.03 MG/ACTUAT Nasal Spray [Tyrvaya]",
   "IsBrand": true,
   "Brand_RxCUI": "2572371",
   "Generic_RxCUI": "2572365",
+  "Ingredient_Name": "Varenicline Mgactuat Nasal",
+  "Manufacturer_Name": "Tyrvaya",
+  "Strength": "0.03 MG/ACTU",
+  "Form": "",
   "prices": {
     "73521003002": {
       "1/13/2023": 72.48316,
@@ -23,7 +27,8 @@
       "07/23/2025": 77.94864,
       "08/20/2025": 78.00565,
       "09/17/2025": 78.02006,
-      "10/22/2025": 78.03915
+      "10/22/2025": 78.03915,
+      "11/19/2025": 77.99421
     }
   }
 }

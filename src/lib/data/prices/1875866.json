@@ -1,9 +1,13 @@
 {
   "RxCUI": "1875866",
-  "Name": "ROWEEPRA 1,000 MG TABLET",
+  "Name": "levetiracetam 1000 MG Oral Tablet [Roweepra]",
   "IsBrand": false,
   "Brand_RxCUI": "387003",
   "Generic_RxCUI": "1875866",
+  "Ingredient_Name": "Levetiracetam",
+  "Manufacturer_Name": "Roweepra",
+  "Strength": "1000 MG",
+  "Form": "",
   "prices": {
     "69102010301": {
       "06/21/2017": 0.28691,

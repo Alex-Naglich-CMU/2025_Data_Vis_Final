@@ -1,9 +1,13 @@
 {
   "RxCUI": "616817",
-  "Name": "PULMICORT 0.5 MG/2 ML RESPULE",
+  "Name": "budesonide 0.25 MG/ML Inhalation Suspension [Pulmicort]",
   "IsBrand": true,
   "Brand_RxCUI": "616817",
   "Generic_RxCUI": "351109",
+  "Ingredient_Name": "Budesonide Mgml Inhalation",
+  "Manufacturer_Name": "Pulmicort",
+  "Strength": "0.25 MG/ML",
+  "Form": "",
   "prices": {
     "00186198904": {
       "08/23/2017": 4.93345,
@@ -28,7 +32,8 @@
       "07/23/2025": 4.9215,
       "08/20/2025": 4.92398,
       "09/17/2025": 4.91988,
-      "10/22/2025": 4.92198
+      "10/22/2025": 4.92198,
+      "11/19/2025": 4.92208
     }
   }
 }

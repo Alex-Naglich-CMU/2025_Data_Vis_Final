@@ -1,9 +1,13 @@
 {
   "RxCUI": "1734942",
-  "Name": "Z-BUM 22% DIAPER RASH CREAM",
+  "Name": "zinc oxide 220 MG/ML Topical Cream [Z-Bum]",
   "IsBrand": false,
   "Brand_RxCUI": "1734937",
   "Generic_RxCUI": "1734942",
+  "Ingredient_Name": "Zinc Oxide Mgml",
+  "Manufacturer_Name": "Z-Bum",
+  "Strength": "220 MG/ML",
+  "Form": "",
   "prices": {
     "58809037504": {
       "08/21/2024": 0.32829,
@@ -15,7 +19,8 @@
       "02/19/2025": 0.33217,
       "06/18/2025": 0.33789,
       "08/20/2025": 0.34127,
-      "09/17/2025": 0.34548
+      "09/17/2025": 0.34548,
+      "11/19/2025": 0.34736
     }
   }
 }

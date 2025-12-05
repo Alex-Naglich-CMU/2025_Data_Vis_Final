@@ -1,10 +1,19 @@
 {
   "RxCUI": "799040",
-  "Name": "ALVESCO 80 MCG INHALER",
+  "Name": "60 ACTUAT ciclesonide 0.08 MG/ACTUAT Metered Dose Inhaler [Alvesco]",
   "IsBrand": true,
   "Brand_RxCUI": "799040",
   "Generic_RxCUI": "799038",
+  "Ingredient_Name": "Actuat Ciclesonide Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Alvesco",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
+    "63402071101": {
+      "12/27/2017": 39.55031,
+      "11/01/2018": 43.10984,
+      "03/20/2019": 43.34853
+    },
     "70515071101": {
       "05/19/2021": 42.77705,
       "11/01/2018": 43.10984,
@@ -33,12 +42,8 @@
       "07/23/2025": 42.96673,
       "08/20/2025": 42.96501,
       "09/17/2025": 42.93987,
-      "10/22/2025": 42.9641
-    },
-    "63402071101": {
-      "12/27/2017": 39.55031,
-      "11/01/2018": 43.10984,
-      "03/20/2019": 43.34853
+      "10/22/2025": 42.9641,
+      "11/19/2025": 42.97207
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "705934",
-  "Name": "JOCK ITCH 1% POWDER SPRAY",
+  "Name": "tolnaftate 0.01 MG/MG Powder Spray",
   "IsBrand": false,
   "Brand_RxCUI": "1037248",
   "Generic_RxCUI": "705934",
+  "Ingredient_Name": "Tolnaftate Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.01 MG/MG",
+  "Form": "",
   "prices": {
     "00113069590": {
       "06/21/2017": 0.02529,
@@ -35,7 +39,8 @@
       "07/23/2025": 0.03291,
       "08/20/2025": 0.03296,
       "09/17/2025": 0.03315,
-      "10/22/2025": 0.03333
+      "10/22/2025": 0.03333,
+      "11/19/2025": 0.03331
     }
   }
 }

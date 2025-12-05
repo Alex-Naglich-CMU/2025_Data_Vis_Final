@@ -1,9 +1,13 @@
 {
   "RxCUI": "856471",
-  "Name": "INNOPRAN XL 120 MG CAPSULE",
+  "Name": "24 HR propranolol hydrochloride 120 MG Extended Release Oral Capsule [InnoPran]",
   "IsBrand": true,
   "Brand_RxCUI": "856471",
   "Generic_RxCUI": "856460",
+  "Ingredient_Name": "Hr Propranolol Hydrochloride Extended Release",
+  "Manufacturer_Name": "InnoPran",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "62559059130": {
       "05/22/2024": 68.68006,

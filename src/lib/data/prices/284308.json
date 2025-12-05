@@ -1,9 +1,13 @@
 {
   "RxCUI": "284308",
-  "Name": "FIBER TABLET",
+  "Name": "calcium polycarbophil 625 MG Oral Tablet [Fiber Tab]",
   "IsBrand": false,
   "Brand_RxCUI": "308934",
   "Generic_RxCUI": "284308",
+  "Ingredient_Name": "Calcium Polycarbophil",
+  "Manufacturer_Name": "Fiber Tab",
+  "Strength": "625 MG",
+  "Form": "",
   "prices": {
     "00904250091": {
       "05/19/2021": 0.05229,
@@ -105,7 +109,8 @@
       "07/23/2025": 0.05966,
       "08/20/2025": 0.05841,
       "09/17/2025": 0.057,
-      "10/22/2025": 0.05596
+      "10/22/2025": 0.05596,
+      "11/19/2025": 0.05872
     },
     "904250091": {
       "09/22/2021": 0.06676

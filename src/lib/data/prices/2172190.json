@@ -1,9 +1,13 @@
 {
   "RxCUI": "2172190",
-  "Name": "DECONEX DMX 17.5-400-10 MG TAB",
+  "Name": "dextromethorphan hydrobromide 17.5 MG / guaifenesin 400 MG / phenylephrine hydrochloride 10 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "2172190",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide Guaifenesin Phenylephrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "17.5 MG",
+  "Form": "Tablet",
   "prices": {
     "50991074001": {
       "03/18/2020": 0.66248,
@@ -11,7 +15,8 @@
       "06/17/2020": 0.64964,
       "12/18/2024": 0.6735,
       "09/17/2025": 0.6717,
-      "10/22/2025": 0.67058
+      "10/22/2025": 0.67058,
+      "11/19/2025": 0.67101
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2597673",
-  "Name": "BREYNA 80-4.5 MCG INHALER",
+  "Name": "120 ACTUAT budesonide 0.08 MG/ACTUAT / formoterol fumarate 0.0045 MG/ACTUAT Metered Dose Inhaler [Breyna]",
   "IsBrand": false,
   "Brand_RxCUI": "1246288",
   "Generic_RxCUI": "2597673",
+  "Ingredient_Name": "Actuat Budesonide Mgactuat Formoterol Fumarate Mgactuat Metered Dose Inhaler",
+  "Manufacturer_Name": "Breyna",
+  "Strength": "120 ACTU",
+  "Form": "",
   "prices": {
     "00378750232": {
       "11/22/2023": 20.8132,
@@ -29,7 +33,8 @@
       "07/23/2025": 20.49903,
       "08/20/2025": 20.39272,
       "09/17/2025": 20.23301,
-      "10/22/2025": 20.0498
+      "10/22/2025": 20.0498,
+      "11/19/2025": 20.38665
     }
   }
 }

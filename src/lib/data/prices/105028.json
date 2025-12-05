@@ -1,9 +1,13 @@
 {
   "RxCUI": "105028",
-  "Name": "NEURONTIN 100 MG CAPSULE",
+  "Name": "gabapentin 100 MG Oral Capsule [Neurontin]",
   "IsBrand": true,
   "Brand_RxCUI": "105028",
   "Generic_RxCUI": "310430",
+  "Ingredient_Name": "Gabapentin",
+  "Manufacturer_Name": "Neurontin",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "00071080324": {
       "06/01/2017": 1.89827,

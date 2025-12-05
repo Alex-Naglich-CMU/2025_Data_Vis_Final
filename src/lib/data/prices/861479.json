@@ -1,9 +1,13 @@
 {
   "RxCUI": "861479",
-  "Name": "MEPERIDINE 50 MG/5 ML SOLUTION",
+  "Name": "meperidine hydrochloride 10 MG/ML Oral Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "861479",
+  "Ingredient_Name": "Meperidine Hydrochloride Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00054354563": {
       "06/19/2024": 0.15541,

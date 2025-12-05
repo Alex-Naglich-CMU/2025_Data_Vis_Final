@@ -1,13 +1,18 @@
 {
   "RxCUI": "2702393",
-  "Name": "TIMOLOL 0.5% EYE DROPS",
+  "Name": "timolol hemihydrate 5 MG/ML Ophthalmic Solution",
   "IsBrand": false,
   "Brand_RxCUI": "1992305",
   "Generic_RxCUI": "2702393",
+  "Ingredient_Name": "Timolol Hemihydrate Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG/ML",
+  "Form": "Solution",
   "prices": {
     "70069069601": {
       "09/17/2025": 21.93218,
-      "10/22/2025": 21.78049
+      "10/22/2025": 21.78049,
+      "11/19/2025": 21.40272
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2282320",
-  "Name": "NURTEC ODT 75 MG TABLET",
+  "Name": "rimegepant 75 MG Disintegrating Oral Tablet [Nurtec]",
   "IsBrand": true,
   "Brand_RxCUI": "2282320",
   "Generic_RxCUI": "2282313",
+  "Ingredient_Name": "Rimegepant Disintegrating",
+  "Manufacturer_Name": "Nurtec",
+  "Strength": "75 MG",
+  "Form": "",
   "prices": {
     "72618300002": {
       "01/06/2021": 106.99644,
@@ -26,7 +30,8 @@
       "07/23/2025": 123.17234,
       "08/20/2025": 123.1806,
       "09/17/2025": 123.17245,
-      "10/22/2025": 123.18493
+      "10/22/2025": 123.18493,
+      "11/19/2025": 123.18761
     }
   }
 }

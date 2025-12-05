@@ -1,9 +1,13 @@
 {
   "RxCUI": "904495",
-  "Name": "FOSAMAX PLUS D 70 MG-2800 UNIT",
+  "Name": "alendronic acid 70 MG / cholecalciferol 2800 UNT Oral Tablet [Fosamax Plus D]",
   "IsBrand": true,
   "Brand_RxCUI": "904495",
   "Generic_RxCUI": "904492",
+  "Ingredient_Name": "Alendronic Acid Cholecalciferol Unt",
+  "Manufacturer_Name": "Fosamax Plus D",
+  "Strength": "70 MG",
+  "Form": "",
   "prices": {
     "78206013701": {
       "08/21/2024": 47.86833,

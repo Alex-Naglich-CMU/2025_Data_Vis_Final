@@ -1,9 +1,13 @@
 {
   "RxCUI": "212437",
-  "Name": "TAZORAC 0.05% GEL",
+  "Name": "tazarotene 0.0005 MG/MG Topical Gel [Tazorac]",
   "IsBrand": true,
   "Brand_RxCUI": "212437",
   "Generic_RxCUI": "313199",
+  "Ingredient_Name": "Tazarotene Mgmg",
+  "Manufacturer_Name": "Tazorac",
+  "Strength": "0.0005 MG/MG",
+  "Form": "",
   "prices": {
     "00023833503": {
       "09/20/2017": 10.9414,

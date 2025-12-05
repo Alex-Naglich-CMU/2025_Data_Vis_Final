@@ -1,9 +1,13 @@
 {
   "RxCUI": "261287",
-  "Name": "PROZAC 40 MG PULVULE",
+  "Name": "fluoxetine 40 MG Oral Capsule [Prozac]",
   "IsBrand": true,
   "Brand_RxCUI": "261287",
   "Generic_RxCUI": "313989",
+  "Ingredient_Name": "Fluoxetine",
+  "Manufacturer_Name": "Prozac",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "00777310730": {
       "06/21/2017": 26.46885,

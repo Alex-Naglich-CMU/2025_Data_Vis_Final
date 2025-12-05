@@ -1,9 +1,13 @@
 {
   "RxCUI": "1494766",
-  "Name": "QUDEXY XR 100 MG CAPSULE",
+  "Name": "Sprinkle 24 HR topiramate 100 MG Extended Release Oral Capsule [Qudexy]",
   "IsBrand": true,
   "Brand_RxCUI": "1494766",
   "Generic_RxCUI": "1812427",
+  "Ingredient_Name": "Sprinkle Hr Topiramate Extended Release",
+  "Manufacturer_Name": "Qudexy",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00245107430": {
       "06/25/2018": 18.5437,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2056700",
-  "Name": "AJOVY 225 MG/1.5 ML SYRINGE",
+  "Name": "1.5 ML fremanezumab-vfrm 150 MG/ML Prefilled Syringe [Ajovy]",
   "IsBrand": true,
   "Brand_RxCUI": "2056700",
   "Generic_RxCUI": "2056695",
+  "Ingredient_Name": "Fremanezumab-Vfrm Mgml Prefilled",
+  "Manufacturer_Name": "Ajovy",
+  "Strength": "1.5 ML",
+  "Form": "",
   "prices": {
     "51759020410": {
       "10/23/2019": 369.41057,
@@ -29,7 +33,8 @@
       "07/23/2025": 484.67473,
       "08/20/2025": 484.49446,
       "09/17/2025": 484.35889,
-      "10/22/2025": 484.38771
+      "10/22/2025": 484.38771,
+      "11/19/2025": 484.2645
     }
   }
 }

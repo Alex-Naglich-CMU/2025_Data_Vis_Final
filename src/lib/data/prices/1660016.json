@@ -1,9 +1,13 @@
 {
   "RxCUI": "1660016",
-  "Name": "ADRENALIN 1 MG/ML VIAL",
+  "Name": "1 ML epinephrine 1 MG/ML Injection [Adrenalin]",
   "IsBrand": true,
   "Brand_RxCUI": "1660016",
   "Generic_RxCUI": "1660014",
+  "Ingredient_Name": "Epinephrine Mgml",
+  "Manufacturer_Name": "Adrenalin",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "42023015925": {
       "05/22/2024": 14.09593,

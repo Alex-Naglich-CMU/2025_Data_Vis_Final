@@ -1,9 +1,13 @@
 {
   "RxCUI": "850309",
-  "Name": "BESIVANCE 0.6% SUSP",
+  "Name": "besifloxacin 6 MG/ML Ophthalmic Suspension [Besivance]",
   "IsBrand": true,
   "Brand_RxCUI": "850309",
   "Generic_RxCUI": "850305",
+  "Ingredient_Name": "Besifloxacin Mgml",
+  "Manufacturer_Name": "Besivance",
+  "Strength": "6 MG/ML",
+  "Form": "",
   "prices": {
     "24208044605": {
       "11/22/2017": 28.11025,
@@ -33,7 +37,8 @@
       "07/23/2025": 44.21429,
       "08/20/2025": 44.20239,
       "09/17/2025": 44.22662,
-      "10/22/2025": 44.146
+      "10/22/2025": 44.146,
+      "11/19/2025": 44.13849
     }
   }
 }

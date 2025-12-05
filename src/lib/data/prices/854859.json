@@ -1,9 +1,13 @@
 {
   "RxCUI": "854859",
-  "Name": "MULTAQ 400 MG TABLET",
+  "Name": "dronedarone 400 MG Oral Tablet [Multaq]",
   "IsBrand": true,
   "Brand_RxCUI": "854859",
   "Generic_RxCUI": "854856",
+  "Ingredient_Name": "Dronedarone",
+  "Manufacturer_Name": "Multaq",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "00024414210": {
       "05/21/2021": 11.03771,
@@ -37,7 +41,8 @@
       "07/23/2025": 12.92656,
       "08/20/2025": 12.93041,
       "09/17/2025": 12.93215,
-      "10/22/2025": 12.93477
+      "10/22/2025": 12.93477,
+      "11/19/2025": 12.93438
     },
     "24414260": {
       "1/3/2022": 11.55648

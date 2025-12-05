@@ -1,9 +1,13 @@
 {
   "RxCUI": "860771",
-  "Name": "TRIMETHOBENZAMIDE 300 MG CAP",
+  "Name": "trimethobenzamide hydrochloride 300 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "860771",
+  "Ingredient_Name": "Trimethobenzamide Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "300 MG",
+  "Form": "Capsule",
   "prices": {
     "43386066003": {
       "02/21/2018": 1.18104,
@@ -16,7 +20,7 @@
       "02/19/2020": 1.10895,
       "10/21/2020": 1.29412
     },
-    "53489037601": {
+    "43386066024": {
       "02/21/2018": 1.18104,
       "06/20/2018": 1.25089,
       "07/18/2018": 1.17794,
@@ -27,7 +31,7 @@
       "02/19/2020": 1.10895,
       "10/21/2020": 1.29412
     },
-    "43386066024": {
+    "53489037601": {
       "02/21/2018": 1.18104,
       "06/20/2018": 1.25089,
       "07/18/2018": 1.17794,

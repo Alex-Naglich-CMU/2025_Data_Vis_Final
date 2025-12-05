@@ -1,9 +1,13 @@
 {
   "RxCUI": "153639",
-  "Name": "SEROQUEL 100 MG TABLET",
+  "Name": "quetiapine 100 MG Oral Tablet [Seroquel]",
   "IsBrand": true,
   "Brand_RxCUI": "153639",
   "Generic_RxCUI": "312743",
+  "Ingredient_Name": "Quetiapine",
+  "Manufacturer_Name": "Seroquel",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "00310027110": {
       "05/22/2024": 6.4114,
@@ -23,7 +27,8 @@
       "07/23/2025": 6.42346,
       "08/20/2025": 6.42222,
       "09/17/2025": 6.38888,
-      "10/22/2025": 6.37185
+      "10/22/2025": 6.37185,
+      "11/19/2025": 6.36194
     }
   }
 }

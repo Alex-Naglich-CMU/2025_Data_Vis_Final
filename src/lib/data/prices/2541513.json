@@ -1,9 +1,13 @@
 {
   "RxCUI": "2541513",
-  "Name": "INGREZZA 60 MG CAPSULE",
+  "Name": "valbenazine 60 MG Oral Capsule [Ingrezza]",
   "IsBrand": true,
   "Brand_RxCUI": "2541513",
   "Generic_RxCUI": "2541511",
+  "Ingredient_Name": "Valbenazine",
+  "Manufacturer_Name": "Ingrezza",
+  "Strength": "60 MG",
+  "Form": "",
   "prices": {
     "70370106001": {
       "06/05/2024": 265.53567,

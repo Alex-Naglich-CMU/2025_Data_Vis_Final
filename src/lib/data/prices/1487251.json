@@ -1,9 +1,13 @@
 {
   "RxCUI": "1487251",
-  "Name": "ZEBUTAL 50-325-40 MG CAPSULE",
+  "Name": "acetaminophen 325 MG / butalbital 50 MG / caffeine 40 MG Oral Capsule [Zebutal]",
   "IsBrand": false,
   "Brand_RxCUI": "238153",
   "Generic_RxCUI": "1487251",
+  "Ingredient_Name": "Acetaminophen Butalbital Caffeine",
+  "Manufacturer_Name": "Zebutal",
+  "Strength": "325 MG",
+  "Form": "",
   "prices": {
     "68308055410": {
       "06/21/2017": 1.58007,

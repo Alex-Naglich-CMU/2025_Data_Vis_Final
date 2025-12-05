@@ -1,9 +1,13 @@
 {
   "RxCUI": "824303",
-  "Name": "BANZEL 400 MG TABLET",
+  "Name": "rufinamide 400 MG Oral Tablet [Banzel]",
   "IsBrand": true,
   "Brand_RxCUI": "824303",
   "Generic_RxCUI": "824301",
+  "Ingredient_Name": "Rufinamide",
+  "Manufacturer_Name": "Banzel",
+  "Strength": "400 MG",
+  "Form": "",
   "prices": {
     "62856058352": {
       "12/15/2017": 21.01966,
@@ -43,7 +47,8 @@
       "07/23/2025": 25.28433,
       "08/20/2025": 25.30529,
       "09/17/2025": 25.31616,
-      "10/22/2025": 25.2857
+      "10/22/2025": 25.2857,
+      "11/19/2025": 25.2888
     }
   }
 }

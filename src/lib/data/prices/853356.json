@@ -1,9 +1,13 @@
 {
   "RxCUI": "853356",
-  "Name": "STELARA 90 MG/ML SYRINGE",
+  "Name": "1 ML ustekinumab 90 MG/ML Prefilled Syringe [Stelara]",
   "IsBrand": true,
   "Brand_RxCUI": "853356",
   "Generic_RxCUI": "853355",
+  "Ingredient_Name": "Ustekinumab Mgml Prefilled",
+  "Manufacturer_Name": "Stelara",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "57894006103": {
       "10/25/2017": 18374.09889,
@@ -36,7 +40,8 @@
       "07/23/2025": 28371.65731,
       "08/20/2025": 28361.00577,
       "09/17/2025": 28373.54667,
-      "10/22/2025": 28364.36966
+      "10/22/2025": 28364.36966,
+      "11/19/2025": 28372.62933
     }
   }
 }

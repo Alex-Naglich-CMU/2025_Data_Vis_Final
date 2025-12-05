@@ -1,9 +1,13 @@
 {
   "RxCUI": "2380551",
-  "Name": "RUKOBIA ER 600 MG TABLET",
+  "Name": "12 HR fostemsavir 600 MG Extended Release Oral Tablet [Rukobia]",
   "IsBrand": true,
   "Brand_RxCUI": "2380551",
   "Generic_RxCUI": "2380549",
+  "Ingredient_Name": "Hr Fostemsavir Extended Release",
+  "Manufacturer_Name": "Rukobia",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "49702025018": {
       "06/19/2024": 145.8824,
@@ -19,7 +23,8 @@
       "07/23/2025": 149.64405,
       "08/20/2025": 149.89261,
       "09/17/2025": 149.98105,
-      "10/22/2025": 150.46728
+      "10/22/2025": 150.46728,
+      "11/19/2025": 150.485
     }
   }
 }

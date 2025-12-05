@@ -1,9 +1,13 @@
 {
   "RxCUI": "208406",
-  "Name": "SULFATRIM PEDIATRIC SUSPENSION",
+  "Name": "sulfamethoxazole 40 MG/ML / trimethoprim 8 MG/ML Oral Suspension [Sulfatrim]",
   "IsBrand": false,
   "Brand_RxCUI": "313134",
   "Generic_RxCUI": "208406",
+  "Ingredient_Name": "Sulfamethoxazole Mgml Trimethoprim Mgml",
+  "Manufacturer_Name": "Sulfatrim",
+  "Strength": "40 MG/ML",
+  "Form": "",
   "prices": {
     "00121085416": {
       "05/19/2021": 0.0894,
@@ -89,7 +93,11 @@
       "07/23/2025": 0.05748,
       "08/20/2025": 0.05822,
       "09/17/2025": 0.05846,
-      "10/22/2025": 0.05807
+      "10/22/2025": 0.05807,
+      "11/19/2025": 0.0585
+    },
+    "121085416": {
+      "09/22/2021": 0.07875
     },
     "54879000716": {
       "06/21/2017": 0.17706,
@@ -138,9 +146,6 @@
       "01/20/2021": 0.08258,
       "02/17/2021": 0.09852,
       "03/17/2021": 0.09873
-    },
-    "121085416": {
-      "09/22/2021": 0.07875
     }
   }
 }

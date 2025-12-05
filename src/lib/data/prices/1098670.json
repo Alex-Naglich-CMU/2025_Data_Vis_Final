@@ -1,9 +1,13 @@
 {
   "RxCUI": "1098670",
-  "Name": "NEFAZODONE HCL 200 MG TABLET",
+  "Name": "nefazodone hydrochloride 200 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1098670",
+  "Ingredient_Name": "Nefazodone Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "200 MG",
+  "Form": "Tablet",
   "prices": {
     "00093102506": {
       "07/19/2017": 1.2779,

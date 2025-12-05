@@ -1,9 +1,13 @@
 {
   "RxCUI": "581574",
-  "Name": "SUPRAX 100 MG/5 ML SUSPENSION",
+  "Name": "cefixime 20 MG/ML Oral Suspension [Suprax]",
   "IsBrand": true,
   "Brand_RxCUI": "581574",
   "Generic_RxCUI": "309058",
+  "Ingredient_Name": "Cefixime Mgml",
+  "Manufacturer_Name": "Suprax",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "68180020203": {
       "02/21/2018": 4.34403

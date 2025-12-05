@@ -1,19 +1,25 @@
 {
   "RxCUI": "1251190",
-  "Name": "LACTULOSE 10 GM PACKET",
+  "Name": "lactulose 10000 MG Powder for Oral Solution",
   "IsBrand": false,
   "Brand_RxCUI": "1251192",
   "Generic_RxCUI": "1251190",
+  "Ingredient_Name": "Lactulose For",
+  "Manufacturer_Name": "",
+  "Strength": "10000 MG",
+  "Form": "Solution",
   "prices": {
     "00121096501": {
       "08/20/2025": 7.45896,
       "09/17/2025": 7.51037,
-      "10/22/2025": 7.56171
+      "10/22/2025": 7.56171,
+      "11/19/2025": 7.50806
     },
     "00121096530": {
       "08/20/2025": 7.45896,
       "09/17/2025": 7.51037,
-      "10/22/2025": 7.56171
+      "10/22/2025": 7.56171,
+      "11/19/2025": 7.50806
     }
   }
 }

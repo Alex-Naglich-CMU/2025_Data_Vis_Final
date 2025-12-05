@@ -1,9 +1,13 @@
 {
   "RxCUI": "1659283",
-  "Name": "CEFTAZIDIME 1 GM VIAL",
+  "Name": "ceftazidime 1000 MG Injection",
   "IsBrand": false,
   "Brand_RxCUI": "1659292",
   "Generic_RxCUI": "1659283",
+  "Ingredient_Name": "Ceftazidime",
+  "Manufacturer_Name": "",
+  "Strength": "1000 MG",
+  "Form": "Injection",
   "prices": {
     "25021012720": {
       "10/22/2025": 3.70448

@@ -1,9 +1,13 @@
 {
   "RxCUI": "213431",
-  "Name": "MICARDIS 40 MG TABLET",
+  "Name": "telmisartan 40 MG Oral Tablet [Micardis]",
   "IsBrand": true,
   "Brand_RxCUI": "213431",
   "Generic_RxCUI": "205304",
+  "Ingredient_Name": "Telmisartan",
+  "Manufacturer_Name": "Micardis",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "00597004037": {
       "09/20/2017": 6.02305,
@@ -27,7 +31,8 @@
       "07/23/2025": 4.49373,
       "08/20/2025": 4.49511,
       "09/17/2025": 4.50185,
-      "10/22/2025": 4.49789
+      "10/22/2025": 4.49789,
+      "11/19/2025": 4.49678
     }
   }
 }

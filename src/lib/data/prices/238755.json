@@ -1,9 +1,13 @@
 {
   "RxCUI": "238755",
-  "Name": "HYDROCORTISONE SS 100 MG VIAL",
+  "Name": "hydrocortisone 100 MG Injection",
   "IsBrand": false,
   "Brand_RxCUI": "105398",
   "Generic_RxCUI": "238755",
+  "Ingredient_Name": "Hydrocortisone",
+  "Manufacturer_Name": "",
+  "Strength": "100 MG",
+  "Form": "Injection",
   "prices": {
     "69097000467": {
       "05/21/2025": 15.17521,
@@ -11,7 +15,8 @@
       "07/23/2025": 15.21504,
       "08/20/2025": 15.16184,
       "09/17/2025": 15.07881,
-      "10/22/2025": 15.01734
+      "10/22/2025": 15.01734,
+      "11/19/2025": 14.84909
     }
   }
 }

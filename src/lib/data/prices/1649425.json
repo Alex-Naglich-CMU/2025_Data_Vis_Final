@@ -1,9 +1,13 @@
 {
   "RxCUI": "1649425",
-  "Name": "DOXYCYCLINE HYCLATE 75 MG TAB",
+  "Name": "doxycycline hyclate 75 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1543955",
   "Generic_RxCUI": "1649425",
+  "Ingredient_Name": "Doxycycline Hyclate",
+  "Manufacturer_Name": "",
+  "Strength": "75 MG",
+  "Form": "Tablet",
   "prices": {
     "27241015302": {
       "01/22/2025": 0.59482,

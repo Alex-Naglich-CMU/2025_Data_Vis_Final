@@ -1,9 +1,13 @@
 {
   "RxCUI": "1737245",
-  "Name": "CLEOCIN PHOS 150 MG/ML VIAL",
+  "Name": "2 ML clindamycin 150 MG/ML Injection [Cleocin]",
   "IsBrand": true,
   "Brand_RxCUI": "1737245",
   "Generic_RxCUI": "1737244",
+  "Ingredient_Name": "Clindamycin Mgml",
+  "Manufacturer_Name": "Cleocin",
+  "Strength": "2 ML",
+  "Form": "",
   "prices": {
     "00009087026": {
       "02/19/2025": 1.22423

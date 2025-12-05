@@ -4,6 +4,10 @@
   "IsBrand": true,
   "Brand_RxCUI": "1873995",
   "Generic_RxCUI": "1873994",
+  "Ingredient_Name": "Kisqali Daily Dose",
+  "Manufacturer_Name": "",
+  "Strength": "600 MG",
+  "Form": "",
   "prices": {
     "00078087421": {
       "01/14/2025": 292.67615

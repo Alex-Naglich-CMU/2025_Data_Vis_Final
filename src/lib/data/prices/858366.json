@@ -1,9 +1,13 @@
 {
   "RxCUI": "858366",
-  "Name": "ACUVAIL 0.45% OPHTH SOLUTION",
+  "Name": "ketorolac tromethamine 4.5 MG/ML Ophthalmic Solution [Acuvail]",
   "IsBrand": true,
   "Brand_RxCUI": "858366",
   "Generic_RxCUI": "858364",
+  "Ingredient_Name": "Ketorolac Tromethamine Mgml",
+  "Manufacturer_Name": "Acuvail",
+  "Strength": "4.5 MG/ML",
+  "Form": "",
   "prices": {
     "00023350730": {
       "01/01/2018": 9.81728,

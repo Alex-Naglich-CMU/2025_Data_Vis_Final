@@ -1,9 +1,13 @@
 {
   "RxCUI": "2359285",
-  "Name": "TRIJARDY XR 10-5-1,000 MG TAB",
+  "Name": "24 HR empagliflozin 10 MG / linagliptin 5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet [Trijardy]",
   "IsBrand": true,
   "Brand_RxCUI": "2359285",
   "Generic_RxCUI": "2359279",
+  "Ingredient_Name": "Hr Empagliflozin Linagliptin Metformin Hydrochloride Extended Release",
+  "Manufacturer_Name": "Trijardy",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00597038013": {
       "01/01/2023": 18.9461,
@@ -23,7 +27,8 @@
       "07/23/2025": 20.18712,
       "08/20/2025": 20.17749,
       "09/17/2025": 20.20457,
-      "10/22/2025": 20.20222
+      "10/22/2025": 20.20222,
+      "11/19/2025": 20.21219
     },
     "00597038068": {
       "01/01/2023": 18.9461,
@@ -43,7 +48,8 @@
       "07/23/2025": 20.18712,
       "08/20/2025": 20.17749,
       "09/17/2025": 20.20457,
-      "10/22/2025": 20.20222
+      "10/22/2025": 20.20222,
+      "11/19/2025": 20.21219
     }
   }
 }

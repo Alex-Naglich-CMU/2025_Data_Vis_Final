@@ -1,9 +1,13 @@
 {
   "RxCUI": "687024",
-  "Name": "XANAX XR 1 MG TABLET",
+  "Name": "24 HR alprazolam 1 MG Extended Release Oral Tablet [Xanax]",
   "IsBrand": true,
   "Brand_RxCUI": "687024",
   "Generic_RxCUI": "433800",
+  "Ingredient_Name": "Hr Alprazolam Extended Release",
+  "Manufacturer_Name": "Xanax",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00009005907": {
       "06/01/2017": 8.59613,

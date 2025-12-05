@@ -1,9 +1,13 @@
 {
   "RxCUI": "1860172",
-  "Name": "XULTOPHY 100 UNIT-3.6 MG/ML PEN",
+  "Name": "3 ML insulin degludec 100 UNT/ML / liraglutide 3.6 MG/ML Pen Injector [Xultophy]",
   "IsBrand": true,
   "Brand_RxCUI": "1860172",
   "Generic_RxCUI": "1860167",
+  "Ingredient_Name": "Insulin Degludec Untml Liraglutide Mgml Pen Injector",
+  "Manufacturer_Name": "Xultophy",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00169291115": {
       "01/03/2018": 63.84583,
@@ -31,7 +35,8 @@
       "07/23/2025": 85.77163,
       "08/20/2025": 85.80014,
       "09/17/2025": 85.81127,
-      "10/22/2025": 85.83167
+      "10/22/2025": 85.83167,
+      "11/19/2025": 85.82312
     },
     "169291115": {
       "1/6/2022": 75.69017

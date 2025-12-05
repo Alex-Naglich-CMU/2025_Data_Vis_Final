@@ -1,9 +1,13 @@
 {
   "RxCUI": "205535",
-  "Name": "PROZAC 10 MG PULVULE",
+  "Name": "fluoxetine 10 MG Oral Capsule [Prozac]",
   "IsBrand": true,
   "Brand_RxCUI": "205535",
   "Generic_RxCUI": "310384",
+  "Ingredient_Name": "Fluoxetine",
+  "Manufacturer_Name": "Prozac",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "00777310402": {
       "12/15/2017": 14.45783,

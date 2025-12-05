@@ -1,9 +1,13 @@
 {
   "RxCUI": "1090992",
-  "Name": "NORETHIN-ETH ESTRAD 1 MG-5 MCG",
+  "Name": "ethinyl estradiol 0.005 MG / norethindrone acetate 1 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1736656",
   "Generic_RxCUI": "1090992",
+  "Ingredient_Name": "Ethinyl Estradiol Norethindrone",
+  "Manufacturer_Name": "",
+  "Strength": "0.005 MG",
+  "Form": "Tablet",
   "prices": {
     "68462065790": {
       "05/19/2021": 1.26355,
@@ -100,7 +104,8 @@
       "07/23/2025": 1.05969,
       "08/20/2025": 1.12311,
       "09/17/2025": 1.05291,
-      "10/22/2025": 1.10097
+      "10/22/2025": 1.10097,
+      "11/19/2025": 1.09649
     }
   }
 }

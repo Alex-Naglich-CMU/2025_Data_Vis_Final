@@ -1,9 +1,13 @@
 {
   "RxCUI": "1085752",
-  "Name": "KENALOG-10 10 MG/ML VIAL",
+  "Name": "triamcinolone acetonide 10 MG/ML Injectable Suspension [Kenalog]",
   "IsBrand": true,
   "Brand_RxCUI": "1085752",
   "Generic_RxCUI": "1085750",
+  "Ingredient_Name": "Triamcinolone Acetonide Mgml Injectable",
+  "Manufacturer_Name": "Kenalog",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "00003049420": {
       "01/01/2018": 2.32031,
@@ -25,7 +29,8 @@
       "07/23/2025": 2.32882,
       "08/20/2025": 2.32955,
       "09/17/2025": 2.32756,
-      "10/22/2025": 2.32665
+      "10/22/2025": 2.32665,
+      "11/19/2025": 2.32738
     }
   }
 }

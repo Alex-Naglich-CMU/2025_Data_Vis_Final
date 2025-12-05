@@ -1,9 +1,13 @@
 {
   "RxCUI": "1367426",
-  "Name": "SINUS AND COLD-D CAPLET",
+  "Name": "12 HR naproxen sodium 220 MG / pseudoephedrine hydrochloride 120 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1367426",
+  "Ingredient_Name": "Hr Naproxen Sodium Pseudoephedrine Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "12 HR",
+  "Form": "Tablet",
   "prices": {
     "46122019752": {
       "04/18/2018": 0.299,

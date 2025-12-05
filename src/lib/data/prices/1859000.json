@@ -1,9 +1,13 @@
 {
   "RxCUI": "1859000",
-  "Name": "SOLIQUA 100 UNIT-33 MCG/ML PEN",
+  "Name": "3 ML insulin glargine 100 UNT/ML / lixisenatide 0.033 MG/ML Pen Injector [Soliqua]",
   "IsBrand": true,
   "Brand_RxCUI": "1859000",
   "Generic_RxCUI": "1858995",
+  "Ingredient_Name": "Insulin Glargine Untml Lixisenatide Mgml Pen Injector",
+  "Manufacturer_Name": "Soliqua",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00024576105": {
       "01/05/2018": 42.74906,
@@ -34,7 +38,8 @@
       "07/23/2025": 57.07501,
       "08/20/2025": 57.0661,
       "09/17/2025": 57.0759,
-      "10/22/2025": 57.08305
+      "10/22/2025": 57.08305,
+      "11/19/2025": 57.0824
     },
     "24576105": {
       "1/3/2022": 51.68669

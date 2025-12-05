@@ -1,0 +1,16 @@
+{
+  "RxCUI": "2711795",
+  "Name": "meloxicam 20 MG / rizatriptan 10 MG Oral Tablet [Symbravo]",
+  "IsBrand": true,
+  "Brand_RxCUI": "2711795",
+  "Generic_RxCUI": "2711789",
+  "Ingredient_Name": "Meloxicam Rizatriptan",
+  "Manufacturer_Name": "Symbravo",
+  "Strength": "20 MG",
+  "Form": "",
+  "prices": {
+    "81968002009": {
+      "11/19/2025": 122.88143
+    }
+  }
+}

@@ -1,13 +1,18 @@
 {
   "RxCUI": "2690292",
-  "Name": "CREXONT ER 87.5 MG-350 MG CAP",
+  "Name": "carbidopa 87.5 MG / levodopa 350 MG Extended Release Oral Capsule [Crexont]",
   "IsBrand": true,
   "Brand_RxCUI": "2690292",
   "Generic_RxCUI": "2690290",
+  "Ingredient_Name": "Carbidopa Levodopa Extended Release",
+  "Manufacturer_Name": "Crexont",
+  "Strength": "87.5 MG",
+  "Form": "",
   "prices": {
     "64896097016": {
       "05/21/2025": 4.13556,
-      "07/01/2025": 4.3423
+      "07/01/2025": 4.3423,
+      "11/19/2025": 4.36281
     }
   }
 }

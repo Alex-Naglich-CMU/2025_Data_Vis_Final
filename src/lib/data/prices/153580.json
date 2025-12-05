@@ -1,9 +1,13 @@
 {
   "RxCUI": "153580",
-  "Name": "CRINONE 8% GEL",
+  "Name": "progesterone 0.08 MG/MG Vaginal Gel [Crinone]",
   "IsBrand": true,
   "Brand_RxCUI": "153580",
   "Generic_RxCUI": "312645",
+  "Ingredient_Name": "Progesterone Mgmg Vaginal",
+  "Manufacturer_Name": "Crinone",
+  "Strength": "0.08 MG/MG",
+  "Form": "",
   "prices": {
     "00023615108": {
       "05/22/2024": 25.52812,
@@ -15,7 +19,8 @@
       "12/18/2024": 25.47674,
       "01/02/2025": 26.75058,
       "09/17/2025": 26.84456,
-      "10/22/2025": 26.59259
+      "10/22/2025": 26.59259,
+      "11/19/2025": 26.59311
     }
   }
 }

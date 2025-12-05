@@ -1,11 +1,15 @@
 {
   "RxCUI": "404472",
-  "Name": "GAVISCON EXTRA STRENGTH LIQUID",
+  "Name": "aluminum hydroxide 50.8 MG/ML / magnesium carbonate 47.5 MG/ML Oral Suspension [Gaviscon]",
   "IsBrand": true,
   "Brand_RxCUI": "404472",
   "Generic_RxCUI": "245001",
+  "Ingredient_Name": "Aluminum Hydroxide Mgml Magnesium Carbonate Mgml",
+  "Manufacturer_Name": "Gaviscon",
+  "Strength": "50.8 MG/ML",
+  "Form": "",
   "prices": {
-    "00135057401": {
+    "00135009541": {
       "07/19/2017": 0.02055,
       "04/18/2018": 0.02114,
       "07/18/2018": 0.02165,
@@ -18,7 +22,7 @@
       "10/23/2019": 0.02189,
       "04/22/2020": 0.02161
     },
-    "00135009541": {
+    "00135057401": {
       "07/19/2017": 0.02055,
       "04/18/2018": 0.02114,
       "07/18/2018": 0.02165,

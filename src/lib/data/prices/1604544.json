@@ -1,9 +1,13 @@
 {
   "RxCUI": "1604544",
-  "Name": "TOUJEO SOLOSTAR 300 UNIT/ML",
+  "Name": "1.5 ML insulin glargine 300 UNT/ML Pen Injector [Toujeo]",
   "IsBrand": true,
   "Brand_RxCUI": "1604544",
   "Generic_RxCUI": "1604539",
+  "Ingredient_Name": "Insulin Glargine Untml Pen Injector",
+  "Manufacturer_Name": "Toujeo",
+  "Strength": "1.5 ML",
+  "Form": "",
   "prices": {
     "00024586903": {
       "06/23/2021": 82.9503,
@@ -33,7 +37,8 @@
       "07/23/2025": 91.36991,
       "08/20/2025": 91.35977,
       "09/17/2025": 91.35347,
-      "10/22/2025": 91.37529
+      "10/22/2025": 91.37529,
+      "11/19/2025": 91.36728
     }
   }
 }

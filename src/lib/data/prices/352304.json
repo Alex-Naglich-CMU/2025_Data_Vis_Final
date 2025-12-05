@@ -1,9 +1,13 @@
 {
   "RxCUI": "352304",
-  "Name": "ZETIA 10 MG TABLET",
+  "Name": "ezetimibe 10 MG Oral Tablet [Zetia]",
   "IsBrand": true,
   "Brand_RxCUI": "352304",
   "Generic_RxCUI": "349556",
+  "Ingredient_Name": "Ezetimibe",
+  "Manufacturer_Name": "Zetia",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "66582041431": {
       "01/05/2018": 10.99458,
@@ -36,7 +40,8 @@
       "07/23/2025": 13.35838,
       "08/20/2025": 13.35078,
       "09/17/2025": 13.32905,
-      "10/22/2025": 13.33026
+      "10/22/2025": 13.33026,
+      "11/19/2025": 13.32168
     }
   }
 }

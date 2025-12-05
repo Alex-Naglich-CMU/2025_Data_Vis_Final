@@ -1,9 +1,13 @@
 {
   "RxCUI": "153640",
-  "Name": "SEROQUEL 200 MG TABLET",
+  "Name": "quetiapine 200 MG Oral Tablet [Seroquel]",
   "IsBrand": true,
   "Brand_RxCUI": "153640",
   "Generic_RxCUI": "317174",
+  "Ingredient_Name": "Quetiapine",
+  "Manufacturer_Name": "Seroquel",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "00310027210": {
       "05/22/2024": 11.9653,
@@ -17,7 +21,8 @@
       "04/23/2025": 11.94132,
       "05/21/2025": 11.96571,
       "08/20/2025": 11.9793,
-      "10/22/2025": 11.99405
+      "10/22/2025": 11.99405,
+      "11/19/2025": 11.97735
     }
   }
 }

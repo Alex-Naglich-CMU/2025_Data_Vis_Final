@@ -1,9 +1,13 @@
 {
   "RxCUI": "2173500",
-  "Name": "NAYZILAM 5 MG NASAL SPRAY",
+  "Name": "midazolam 50 MG/ML Nasal Spray [Nayzilam]",
   "IsBrand": true,
   "Brand_RxCUI": "2173500",
   "Generic_RxCUI": "2173494",
+  "Ingredient_Name": "Midazolam Mgml Nasal",
+  "Manufacturer_Name": "Nayzilam",
+  "Strength": "50 MG/ML",
+  "Form": "",
   "prices": {
     "50474050015": {
       "01/20/2021": 263.83929,
@@ -26,7 +30,8 @@
       "07/23/2025": 319.14867,
       "08/20/2025": 319.21223,
       "09/17/2025": 319.27918,
-      "10/22/2025": 319.32849
+      "10/22/2025": 319.32849,
+      "11/19/2025": 319.33851
     }
   }
 }

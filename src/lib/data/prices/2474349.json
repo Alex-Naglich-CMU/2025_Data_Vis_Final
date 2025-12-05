@@ -1,9 +1,13 @@
 {
   "RxCUI": "2474349",
-  "Name": "WINLEVI 1% CREAM",
+  "Name": "clascoterone 10 MG/ML Topical Cream [Winlevi]",
   "IsBrand": true,
   "Brand_RxCUI": "2474349",
   "Generic_RxCUI": "2474344",
+  "Ingredient_Name": "Clascoterone Mgml",
+  "Manufacturer_Name": "Winlevi",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "47335099436": {
       "11/02/2022": 9.35855,
@@ -22,7 +26,8 @@
       "07/23/2025": 9.79433,
       "08/20/2025": 9.8057,
       "09/17/2025": 9.80383,
-      "10/22/2025": 9.79556
+      "10/22/2025": 9.79556,
+      "11/19/2025": 9.7951
     }
   }
 }

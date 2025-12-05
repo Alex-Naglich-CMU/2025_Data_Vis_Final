@@ -1,9 +1,13 @@
 {
   "RxCUI": "1597132",
-  "Name": "TESTIM 1% (50 MG) GEL",
+  "Name": "5000 MG testosterone 0.01 MG/MG Topical Gel [Testim]",
   "IsBrand": true,
   "Brand_RxCUI": "1597132",
   "Generic_RxCUI": "1597129",
+  "Ingredient_Name": "Testosterone Mgmg",
+  "Manufacturer_Name": "Testim",
+  "Strength": "5000 MG",
+  "Form": "",
   "prices": {
     "66887000105": {
       "07/21/2021": 3.81354,
@@ -34,7 +38,8 @@
       "07/23/2025": 3.77858,
       "08/20/2025": 3.77878,
       "09/17/2025": 3.77933,
-      "10/22/2025": 3.77924
+      "10/22/2025": 3.77924,
+      "11/19/2025": 3.77645
     }
   }
 }

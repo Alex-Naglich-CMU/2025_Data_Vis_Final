@@ -1,9 +1,13 @@
 {
   "RxCUI": "2395836",
-  "Name": "ARMONAIR DIGIHALER 113 MCG",
+  "Name": "Sensor 60 ACTUAT fluticasone propionate 0.113 MG/ACTUAT Dry Powder Inhaler [Armonair]",
   "IsBrand": true,
   "Brand_RxCUI": "2395836",
   "Generic_RxCUI": "2395835",
+  "Ingredient_Name": "Sensor Actuat Fluticasone Propionate Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Armonair",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "59310020006": {
       "05/22/2024": 252.29889,

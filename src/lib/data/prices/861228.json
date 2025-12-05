@@ -1,9 +1,13 @@
 {
   "RxCUI": "861228",
-  "Name": "ADDERALL XR 25 MG CAPSULE",
+  "Name": "24 HR amphetamine aspartate 6.25 MG / amphetamine sulfate 6.25 MG / dextroamphetamine saccharate 6.25 MG / dextroamphetamine sulfate 6.25 MG Extended Release Oral Capsule [Adderall]",
   "IsBrand": true,
   "Brand_RxCUI": "861228",
   "Generic_RxCUI": "861227",
+  "Ingredient_Name": "Hr Amphetamine Aspartate Amphetamine Dextroamphetamine Saccharate Dextroamphetamine Extended Release",
+  "Manufacturer_Name": "Adderall",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "54092038901": {
       "09/20/2017": 6.8356,
@@ -32,7 +36,8 @@
       "07/23/2025": 6.81984,
       "08/20/2025": 6.81817,
       "09/17/2025": 6.8202,
-      "10/22/2025": 6.82272
+      "10/22/2025": 6.82272,
+      "11/19/2025": 6.81731
     }
   }
 }

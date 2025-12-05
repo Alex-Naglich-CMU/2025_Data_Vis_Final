@@ -1,9 +1,13 @@
 {
   "RxCUI": "404638",
-  "Name": "LEVITRA 10 MG TABLET",
+  "Name": "vardenafil 10 MG Oral Tablet [Levitra]",
   "IsBrand": true,
   "Brand_RxCUI": "404638",
   "Generic_RxCUI": "349479",
+  "Ingredient_Name": "Vardenafil",
+  "Manufacturer_Name": "Levitra",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "00173083013": {
       "11/22/2017": 47.42089,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1648192",
-  "Name": "APTENSIO XR 30 MG CAPSULE",
+  "Name": "40/60 Release 24 HR methylphenidate hydrochloride 30 MG Extended Release Oral Capsule [Aptensio]",
   "IsBrand": true,
   "Brand_RxCUI": "1648192",
   "Generic_RxCUI": "1806206",
+  "Ingredient_Name": "Release Hr Methylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "Aptensio",
+  "Strength": "60 Rele",
+  "Form": "",
   "prices": {
     "42858040445": {
       "08/01/2019": 8.01093,

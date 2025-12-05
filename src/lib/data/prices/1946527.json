@@ -1,9 +1,13 @@
 {
   "RxCUI": "1946527",
-  "Name": "TRAMADOL ER 200 MG TABLET",
+  "Name": "Matrix Delivery 24 HR tramadol hydrochloride 200 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1946527",
+  "Ingredient_Name": "Matrix Delivery Hr Tramadol Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "47335053383": {
       "05/19/2021": 2.46527,

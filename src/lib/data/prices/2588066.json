@@ -1,15 +1,20 @@
 {
   "RxCUI": "2588066",
-  "Name": "XARELTO 1 MG/ML SUSPENSION",
+  "Name": "rivaroxaban 1 MG/ML Oral Suspension [Xarelto]",
   "IsBrand": true,
   "Brand_RxCUI": "2588066",
   "Generic_RxCUI": "2588062",
+  "Ingredient_Name": "Rivaroxaban Mgml",
+  "Manufacturer_Name": "Xarelto",
+  "Strength": "1 MG/ML",
+  "Form": "",
   "prices": {
     "50458057501": {
       "06/18/2025": 3.68745,
       "08/20/2025": 3.67895,
       "09/17/2025": 3.68484,
-      "10/22/2025": 3.68276
+      "10/22/2025": 3.68276,
+      "11/19/2025": 3.68122
     }
   }
 }

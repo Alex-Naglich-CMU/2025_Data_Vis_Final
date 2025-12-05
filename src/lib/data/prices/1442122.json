@@ -1,9 +1,13 @@
 {
   "RxCUI": "1442122",
-  "Name": "ZORVOLEX 18 MG CAPSULE",
+  "Name": "diclofenac 18 MG Oral Capsule [Zorvolex]",
   "IsBrand": true,
   "Brand_RxCUI": "1442122",
   "Generic_RxCUI": "1442116",
+  "Ingredient_Name": "Diclofenac",
+  "Manufacturer_Name": "Zorvolex",
+  "Strength": "18 MG",
+  "Form": "",
   "prices": {
     "42211020329": {
       "12/20/2017": 3.37088,

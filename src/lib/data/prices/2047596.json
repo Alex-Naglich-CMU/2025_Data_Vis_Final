@@ -1,9 +1,13 @@
 {
   "RxCUI": "2047596",
-  "Name": "RETACRIT 10,000 UNIT/ML VIAL",
+  "Name": "1 ML epoetin alfa-epbx 10000 UNT/ML Injection [Retacrit]",
   "IsBrand": true,
   "Brand_RxCUI": "2047596",
   "Generic_RxCUI": "2047591",
+  "Ingredient_Name": "Epoetin Alfa-Epbx Untml",
+  "Manufacturer_Name": "Retacrit",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00069130810": {
       "08/21/2024": 107.58883,
@@ -18,7 +22,8 @@
       "07/23/2025": 107.10677,
       "08/20/2025": 107.07042,
       "09/17/2025": 107.0245,
-      "10/22/2025": 107.33336
+      "10/22/2025": 107.33336,
+      "11/19/2025": 107.3024
     }
   }
 }

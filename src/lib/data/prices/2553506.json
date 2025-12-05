@@ -1,9 +1,13 @@
 {
   "RxCUI": "2553506",
-  "Name": "WEGOVY 0.25 MG/0.5 ML PEN",
+  "Name": "0.5 ML semaglutide 0.5 MG/ML Auto-Injector [Wegovy]",
   "IsBrand": true,
   "Brand_RxCUI": "2553506",
   "Generic_RxCUI": "2553501",
+  "Ingredient_Name": "Semaglutide Mgml Auto-Injector",
+  "Manufacturer_Name": "Wegovy",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "00169452514": {
       "7/20/2022": 657.378,
@@ -27,7 +31,8 @@
       "07/23/2025": 652.21556,
       "08/20/2025": 652.41508,
       "09/17/2025": 652.72518,
-      "10/22/2025": 652.88715
+      "10/22/2025": 652.88715,
+      "11/19/2025": 653.26526
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "790284",
-  "Name": "ASMANEX TWISTHALER 110 MCG #30",
+  "Name": "30 ACTUAT mometasone furoate 0.11 MG/ACTUAT Dry Powder Inhaler [Asmanex]",
   "IsBrand": true,
   "Brand_RxCUI": "790284",
   "Generic_RxCUI": "790283",
+  "Ingredient_Name": "Actuat Mometasone Furoate Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "Asmanex",
+  "Strength": "30 ACTU",
+  "Form": "",
   "prices": {
     "78206011501": {
       "12/22/2021": 170.293,
@@ -27,7 +31,8 @@
       "07/23/2025": 89.06932,
       "08/20/2025": 89.04445,
       "09/17/2025": 89.04523,
-      "10/22/2025": 89.00327
+      "10/22/2025": 89.00327,
+      "11/19/2025": 88.93166
     }
   }
 }

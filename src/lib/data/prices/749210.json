@@ -1,9 +1,13 @@
 {
   "RxCUI": "749210",
-  "Name": "RENVELA 800 MG TABLET",
+  "Name": "sevelamer carbonate 800 MG Oral Tablet [Renvela]",
   "IsBrand": true,
   "Brand_RxCUI": "749210",
   "Generic_RxCUI": "749206",
+  "Ingredient_Name": "Sevelamer Carbonate",
+  "Manufacturer_Name": "Renvela",
+  "Strength": "800 MG",
+  "Form": "",
   "prices": {
     "58468013001": {
       "09/20/2017": 5.40116,
@@ -56,7 +60,8 @@
       "07/23/2025": 5.71336,
       "08/20/2025": 5.70829,
       "09/17/2025": 5.71055,
-      "10/22/2025": 5.70806
+      "10/22/2025": 5.70806,
+      "11/19/2025": 5.70645
     }
   }
 }

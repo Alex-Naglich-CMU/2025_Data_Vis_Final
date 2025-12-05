@@ -1,9 +1,13 @@
 {
   "RxCUI": "1145988",
-  "Name": "VIRT-GARD TABLET",
+  "Name": "folic acid 2.2 MG / pyridoxine 25 MG / vitamin B12 1 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1145988",
+  "Ingredient_Name": "Folic Acid Pyridoxine Vitamin B",
+  "Manufacturer_Name": "",
+  "Strength": "2.2 MG",
+  "Form": "Tablet",
   "prices": {
     "76439035310": {
       "05/23/2018": 0.2139,

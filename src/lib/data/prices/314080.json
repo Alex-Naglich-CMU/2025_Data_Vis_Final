@@ -1,9 +1,13 @@
 {
   "RxCUI": "314080",
-  "Name": "LEVOFLOXACIN 0.5% EYE DROPS",
+  "Name": "levofloxacin 5 MG/ML Ophthalmic Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "314080",
+  "Ingredient_Name": "Levofloxacin Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG/ML",
+  "Form": "Solution",
   "prices": {
     "16571015050": {
       "09/20/2017": 6.3032,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1719766",
-  "Name": "VIBERZI 100 MG TABLET",
+  "Name": "eluxadoline 100 MG Oral Tablet [Viberzi]",
   "IsBrand": true,
   "Brand_RxCUI": "1719766",
   "Generic_RxCUI": "1719764",
+  "Ingredient_Name": "Eluxadoline",
+  "Manufacturer_Name": "Viberzi",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "61874010060": {
       "11/22/2017": 16.73626,
@@ -33,7 +37,8 @@
       "07/23/2025": 26.80625,
       "08/20/2025": 26.80387,
       "09/17/2025": 26.80351,
-      "10/22/2025": 26.79319
+      "10/22/2025": 26.79319,
+      "11/19/2025": 26.79452
     }
   }
 }

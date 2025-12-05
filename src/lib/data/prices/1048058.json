@@ -1,9 +1,13 @@
 {
   "RxCUI": "1048058",
-  "Name": "ED-SPAZ 0.125 MG ODT",
+  "Name": "hyoscyamine sulfate 0.125 MG Disintegrating Oral Tablet [Ed Spaz]",
   "IsBrand": false,
   "Brand_RxCUI": "1046985",
   "Generic_RxCUI": "1048058",
+  "Ingredient_Name": "Hyoscyamine Disintegrating",
+  "Manufacturer_Name": "Ed Spaz",
+  "Strength": "0.125 MG",
+  "Form": "",
   "prices": {
     "00485008201": {
       "05/19/2021": 0.19303,
@@ -105,7 +109,8 @@
       "07/23/2025": 0.20497,
       "08/20/2025": 0.21643,
       "09/17/2025": 0.22797,
-      "10/22/2025": 0.22626
+      "10/22/2025": 0.22626,
+      "11/19/2025": 0.21777
     },
     "485008201": {
       "09/22/2021": 0.21733

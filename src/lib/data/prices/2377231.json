@@ -1,9 +1,13 @@
 {
   "RxCUI": "2377231",
-  "Name": "SEMGLEE 100 UNIT/ML PEN",
+  "Name": "3 ML insulin glargine 100 UNT/ML Pen Injector [Semglee]",
   "IsBrand": true,
   "Brand_RxCUI": "2377231",
   "Generic_RxCUI": "847230",
+  "Ingredient_Name": "Insulin Glargine Untml Pen Injector",
+  "Manufacturer_Name": "Semglee",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "49502019675": {
       "01/20/2021": 9.55309,

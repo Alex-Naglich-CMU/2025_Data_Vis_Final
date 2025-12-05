@@ -1,15 +1,19 @@
 {
   "RxCUI": "828537",
-  "Name": "MAXALT MLT 10 MG TABLET",
+  "Name": "rizatriptan 10 MG Disintegrating Oral Tablet [Maxalt]",
   "IsBrand": true,
   "Brand_RxCUI": "828537",
   "Generic_RxCUI": "312837",
+  "Ingredient_Name": "Rizatriptan Disintegrating",
+  "Manufacturer_Name": "Maxalt",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
-    "00006380118": {
-      "07/19/2017": 34.9888,
+    "00006380101": {
       "05/23/2018": 34.96678
     },
-    "00006380101": {
+    "00006380118": {
+      "07/19/2017": 34.9888,
       "05/23/2018": 34.96678
     },
     "78206014301": {

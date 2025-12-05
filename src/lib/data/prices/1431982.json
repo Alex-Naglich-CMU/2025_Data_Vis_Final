@@ -1,9 +1,13 @@
 {
   "RxCUI": "1431982",
-  "Name": "ASTAGRAF XL 1 MG CAPSULE",
+  "Name": "24 HR tacrolimus 1 MG Extended Release Oral Capsule [Astagraf]",
   "IsBrand": true,
   "Brand_RxCUI": "1431982",
   "Generic_RxCUI": "1431980",
+  "Ingredient_Name": "Hr Tacrolimus Extended Release",
+  "Manufacturer_Name": "Astagraf",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00469067773": {
       "01/05/2021": 4.68513,

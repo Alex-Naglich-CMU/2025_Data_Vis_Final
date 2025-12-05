@@ -1,9 +1,13 @@
 {
   "RxCUI": "799048",
-  "Name": "DOXYCYCLINE HYC DR 150 MG TAB",
+  "Name": "doxycycline hyclate 150 MG Delayed Release Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "800493",
   "Generic_RxCUI": "799048",
+  "Ingredient_Name": "Doxycycline Hyclate Delayed Release",
+  "Manufacturer_Name": "",
+  "Strength": "150 MG",
+  "Form": "Tablet",
   "prices": {
     "00378303001": {
       "04/18/2018": 8.82364
@@ -16,14 +20,14 @@
       "04/18/2018": 8.82364,
       "11/20/2024": 1.13074
     },
+    "62332048331": {
+      "11/20/2024": 1.13074
+    },
     "68308071510": {
       "04/18/2018": 8.82364
     },
     "68308071530": {
       "04/18/2018": 8.82364
-    },
-    "62332048331": {
-      "11/20/2024": 1.13074
     }
   }
 }

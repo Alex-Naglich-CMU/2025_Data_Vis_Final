@@ -1,9 +1,13 @@
 {
   "RxCUI": "643175",
-  "Name": "SPRYCEL 50 MG TABLET",
+  "Name": "dasatinib 50 MG Oral Tablet [Sprycel]",
   "IsBrand": true,
   "Brand_RxCUI": "643175",
   "Generic_RxCUI": "643107",
+  "Ingredient_Name": "Dasatinib",
+  "Manufacturer_Name": "Sprycel",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "00003052811": {
       "01/01/2018": 230.72631,

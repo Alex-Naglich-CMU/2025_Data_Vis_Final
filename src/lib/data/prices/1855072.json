@@ -1,9 +1,13 @@
 {
   "RxCUI": "1855072",
-  "Name": "RAYALDEE ER 30 MCG CAPSULE",
+  "Name": "24 HR calcifediol 0.03 MG Extended Release Oral Capsule [Rayaldee]",
   "IsBrand": true,
   "Brand_RxCUI": "1855072",
   "Generic_RxCUI": "1855066",
+  "Ingredient_Name": "Hr Calcifediol Extended Release",
+  "Manufacturer_Name": "Rayaldee",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "70301100101": {
       "04/18/2018": 29.50011,
@@ -66,7 +70,8 @@
       "07/23/2025": 40.06265,
       "08/20/2025": 40.04004,
       "09/17/2025": 40.03454,
-      "10/22/2025": 40.00962
+      "10/22/2025": 40.00962,
+      "11/19/2025": 40.04015
     }
   }
 }

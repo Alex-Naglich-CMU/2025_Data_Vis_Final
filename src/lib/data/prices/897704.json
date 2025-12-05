@@ -1,9 +1,13 @@
 {
   "RxCUI": "897704",
-  "Name": "DILAUDID 4 MG TABLET",
+  "Name": "hydromorphone hydrochloride 4 MG Oral Tablet [Dilaudid]",
   "IsBrand": true,
   "Brand_RxCUI": "897704",
   "Generic_RxCUI": "897702",
+  "Ingredient_Name": "Hydromorphone Hydrochloride",
+  "Manufacturer_Name": "Dilaudid",
+  "Strength": "4 MG",
+  "Form": "",
   "prices": {
     "42858023401": {
       "05/22/2024": 3.6293,

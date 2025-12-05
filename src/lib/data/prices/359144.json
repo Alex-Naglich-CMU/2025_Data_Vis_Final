@@ -1,9 +1,13 @@
 {
   "RxCUI": "359144",
-  "Name": "ALBUTEROL SULFATE ER 4 MG TAB",
+  "Name": "12 HR albuterol 4 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "359144",
+  "Ingredient_Name": "Hr Albuterol Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "12 HR",
+  "Form": "Tablet",
   "prices": {
     "00378412201": {
       "07/19/2017": 1.3342,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "208544",
-  "Name": "ARMOUR THYROID 120 MG TABLET",
+  "Name": "thyroid (USP) 120 MG Oral Tablet [Armour Thyroid]",
   "IsBrand": true,
   "Brand_RxCUI": "208544",
   "Generic_RxCUI": "208545",
+  "Ingredient_Name": "Thyroid (Usp)",
+  "Manufacturer_Name": "Armour Thyroid",
+  "Strength": "120 MG",
+  "Form": "",
   "prices": {
     "00456046101": {
       "11/22/2017": 1.23,
@@ -33,7 +37,8 @@
       "07/23/2025": 1.97267,
       "08/20/2025": 1.97215,
       "09/17/2025": 1.97192,
-      "10/22/2025": 1.96914
+      "10/22/2025": 1.96914,
+      "11/19/2025": 1.96953
     }
   }
 }

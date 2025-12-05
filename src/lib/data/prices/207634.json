@@ -1,9 +1,13 @@
 {
   "RxCUI": "207634",
-  "Name": "PROGLYCEM 50 MG/ML ORAL SUSP",
+  "Name": "diazoxide 50 MG/ML Oral Suspension [Proglycem]",
   "IsBrand": true,
   "Brand_RxCUI": "207634",
   "Generic_RxCUI": "197593",
+  "Ingredient_Name": "Diazoxide Mgml",
+  "Manufacturer_Name": "Proglycem",
+  "Strength": "50 MG/ML",
+  "Form": "",
   "prices": {
     "00575620030": {
       "09/20/2017": 9.13833,

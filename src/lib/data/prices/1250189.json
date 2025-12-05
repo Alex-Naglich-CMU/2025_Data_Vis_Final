@@ -1,9 +1,13 @@
 {
   "RxCUI": "1250189",
-  "Name": "SM COUGH DROPS 7.5 MG",
+  "Name": "menthol 7.5 MG Oral Lozenge",
   "IsBrand": false,
   "Brand_RxCUI": "2548891",
   "Generic_RxCUI": "1250189",
+  "Ingredient_Name": "Menthol Lozenge",
+  "Manufacturer_Name": "",
+  "Strength": "7.5 MG",
+  "Form": "",
   "prices": {
     "49348098844": {
       "05/19/2021": 0.02606,
@@ -54,7 +58,8 @@
       "07/23/2025": 0.03117,
       "08/20/2025": 0.0316,
       "09/17/2025": 0.03192,
-      "10/22/2025": 0.03226
+      "10/22/2025": 0.03226,
+      "11/19/2025": 0.03224
     }
   }
 }

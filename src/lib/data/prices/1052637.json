@@ -1,9 +1,13 @@
 {
   "RxCUI": "1052637",
-  "Name": "MENSTRUAL RELIEF CAPLET",
+  "Name": "acetaminophen 500 MG / pamabrom 25 MG / pyrilamine maleate 15 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1053852",
   "Generic_RxCUI": "1052637",
+  "Ingredient_Name": "Acetaminophen Pamabrom Pyrilamine Maleate",
+  "Manufacturer_Name": "",
+  "Strength": "500 MG",
+  "Form": "Tablet",
   "prices": {
     "70000014501": {
       "03/17/2021": 0.0876,
@@ -22,7 +26,8 @@
       "07/23/2025": 0.09023,
       "08/20/2025": 0.09043,
       "09/17/2025": 0.09046,
-      "10/22/2025": 0.09047
+      "10/22/2025": 0.09047,
+      "11/19/2025": 0.0905
     },
     "83324005720": {
       "12/18/2024": 0.09046,
@@ -35,7 +40,8 @@
       "07/23/2025": 0.09023,
       "08/20/2025": 0.09043,
       "09/17/2025": 0.09046,
-      "10/22/2025": 0.09047
+      "10/22/2025": 0.09047,
+      "11/19/2025": 0.0905
     }
   }
 }

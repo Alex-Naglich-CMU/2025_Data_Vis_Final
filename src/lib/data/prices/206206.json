@@ -1,9 +1,13 @@
 {
   "RxCUI": "206206",
-  "Name": "PREVACID DR 30 MG CAPSULE",
+  "Name": "lansoprazole 30 MG Delayed Release Oral Capsule [Prevacid]",
   "IsBrand": true,
   "Brand_RxCUI": "206206",
   "Generic_RxCUI": "311277",
+  "Ingredient_Name": "Lansoprazole Delayed Release",
+  "Manufacturer_Name": "Prevacid",
+  "Strength": "30 MG",
+  "Form": "",
   "prices": {
     "64764004613": {
       "10/18/2017": 13.34674,
@@ -25,7 +29,8 @@
       "07/23/2025": 13.26019,
       "08/20/2025": 13.25931,
       "09/17/2025": 13.24877,
-      "10/22/2025": 13.25781
+      "10/22/2025": 13.25781,
+      "11/19/2025": 13.25601
     }
   }
 }

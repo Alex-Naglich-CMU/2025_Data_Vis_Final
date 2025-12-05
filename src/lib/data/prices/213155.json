@@ -1,9 +1,13 @@
 {
   "RxCUI": "213155",
-  "Name": "ROBAFEN 200 MG/10 ML SYRUP",
+  "Name": "guaifenesin 20 MG/ML Oral Solution [Robafen]",
   "IsBrand": false,
   "Brand_RxCUI": "310604",
   "Generic_RxCUI": "213155",
+  "Ingredient_Name": "Guaifenesin Mgml",
+  "Manufacturer_Name": "Robafen",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "00904676320": {
       "05/19/2021": 0.01175,

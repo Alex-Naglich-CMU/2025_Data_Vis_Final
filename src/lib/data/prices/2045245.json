@@ -4,6 +4,10 @@
   "IsBrand": true,
   "Brand_RxCUI": "2045245",
   "Generic_RxCUI": "2045244",
+  "Ingredient_Name": "Plenvu Packets",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "",
   "prices": {
     "65649040001": {
       "10/23/2019": 35.22,

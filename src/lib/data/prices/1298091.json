@@ -1,9 +1,13 @@
 {
   "RxCUI": "1298091",
-  "Name": "FLURAZEPAM 30 MG CAPSULE",
+  "Name": "flurazepam hydrochloride 30 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1298091",
+  "Ingredient_Name": "Flurazepam Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "30 MG",
+  "Form": "Capsule",
   "prices": {
     "00378443001": {
       "09/20/2017": 0.56652,

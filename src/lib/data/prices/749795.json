@@ -1,9 +1,13 @@
 {
   "RxCUI": "749795",
-  "Name": "ST. JOSEPH ASPIRIN EC 81 MG TB",
+  "Name": "aspirin 81 MG Delayed Release Oral Tablet [St. Joseph Aspirin]",
   "IsBrand": false,
   "Brand_RxCUI": "308416",
   "Generic_RxCUI": "749795",
+  "Ingredient_Name": "Aspirin Delayed Release",
+  "Manufacturer_Name": "St. Joseph Aspirin",
+  "Strength": "81 MG",
+  "Form": "",
   "prices": {
     "69536018112": {
       "10/17/2018": 0.01522,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2604628",
-  "Name": "SKYRIZI 360 MG/2.4 ML ON-BODY",
+  "Name": "2.4 ML risankizumab-rzaa 150 MG/ML Cartridge [Skyrizi]",
   "IsBrand": true,
   "Brand_RxCUI": "2604628",
   "Generic_RxCUI": "2604625",
+  "Ingredient_Name": "Risankizumab-Rzaa Mgml Cartridge",
+  "Manufacturer_Name": "Skyrizi",
+  "Strength": "2.4 ML",
+  "Form": "",
   "prices": {
     "00074106901": {
       "01/02/2025": 9069.04478

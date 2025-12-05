@@ -1,9 +1,13 @@
 {
   "RxCUI": "891522",
-  "Name": "RENO CAPS SOFTGEL",
+  "Name": "ascorbic acid 100 MG / biotin 0.15 MG / calcium pantothenate 5 MG / folic acid 1 MG / niacin 20 MG / pyridoxine 10 MG / riboflavin 1.7 MG / thiamine mononitrate 1.5 MG / vitamin B12 0.006 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "891522",
+  "Ingredient_Name": "Ascorbic Acid Biotin Calcium Pantothenate Folic Acid Niacin Pyridoxine Riboflavin Thiamine Mononitrate Vitamin B",
+  "Manufacturer_Name": "",
+  "Strength": "100 MG",
+  "Form": "Capsule",
   "prices": {
     "63044062201": {
       "05/19/2021": 0.15407,

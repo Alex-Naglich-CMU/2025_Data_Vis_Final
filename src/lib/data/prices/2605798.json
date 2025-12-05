@@ -1,9 +1,13 @@
 {
   "RxCUI": "2605798",
-  "Name": "METHYLPHENIDATE ER 45 MG TAB",
+  "Name": "24 HR methylphenidate hydrochloride 45 MG Extended Release Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "2605943",
   "Generic_RxCUI": "2605798",
+  "Ingredient_Name": "Hr Methylphenidate Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "13811071130": {
       "05/22/2024": 14.1626,
@@ -21,7 +25,8 @@
       "07/23/2025": 18.02102,
       "08/20/2025": 18.19842,
       "09/17/2025": 18.22652,
-      "10/22/2025": 18.21974
+      "10/22/2025": 18.21974,
+      "11/19/2025": 18.07621
     }
   }
 }

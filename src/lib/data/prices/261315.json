@@ -1,9 +1,13 @@
 {
   "RxCUI": "261315",
-  "Name": "TAMIFLU 75 MG CAPSULE",
+  "Name": "oseltamivir 75 MG Oral Capsule [Tamiflu]",
   "IsBrand": true,
   "Brand_RxCUI": "261315",
   "Generic_RxCUI": "312122",
+  "Ingredient_Name": "Oseltamivir",
+  "Manufacturer_Name": "Tamiflu",
+  "Strength": "75 MG",
+  "Form": "",
   "prices": {
     "00004080085": {
       "07/01/2017": 14.61607,
@@ -19,7 +23,8 @@
       "02/19/2025": 14.6168,
       "03/19/2025": 14.61764,
       "04/23/2025": 14.5912,
-      "05/21/2025": 14.59338
+      "05/21/2025": 14.59338,
+      "11/19/2025": 14.58744
     }
   }
 }

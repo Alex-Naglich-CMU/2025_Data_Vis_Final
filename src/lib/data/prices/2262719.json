@@ -1,9 +1,13 @@
 {
   "RxCUI": "2262719",
-  "Name": "ABSORICA LD 24 MG CAPSULE",
+  "Name": "Micronized isotretinoin 24 MG Oral Capsule [Absorica]",
   "IsBrand": true,
   "Brand_RxCUI": "2262719",
   "Generic_RxCUI": "2262717",
+  "Ingredient_Name": "Micronized Isotretinoin",
+  "Manufacturer_Name": "Absorica",
+  "Strength": "24 MG",
+  "Form": "",
   "prices": {
     "10631000531": {
       "08/21/2024": 41.74278,
@@ -15,7 +19,8 @@
       "04/23/2025": 41.65247,
       "07/23/2025": 41.58906,
       "08/20/2025": 41.66261,
-      "09/17/2025": 41.498
+      "09/17/2025": 41.498,
+      "11/19/2025": 41.59278
     }
   }
 }

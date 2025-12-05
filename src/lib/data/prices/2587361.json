@@ -1,9 +1,13 @@
 {
   "RxCUI": "2587361",
-  "Name": "GVOKE 1 MG/0.2 ML KIT",
+  "Name": "0.2 ML glucagon 5 MG/ML Injection [Gvoke]",
   "IsBrand": true,
   "Brand_RxCUI": "2587361",
   "Generic_RxCUI": "2587358",
+  "Ingredient_Name": "Glucagon Mgml",
+  "Manufacturer_Name": "Gvoke",
+  "Strength": "0.2 ML",
+  "Form": "",
   "prices": {
     "72065014011": {
       "07/17/2024": 1519.385,

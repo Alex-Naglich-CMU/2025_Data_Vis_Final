@@ -4,6 +4,10 @@
   "IsBrand": false,
   "Brand_RxCUI": "759742",
   "Generic_RxCUI": "834768",
+  "Ingredient_Name": "Caziant Day",
+  "Manufacturer_Name": "",
+  "Strength": "28 DAY",
+  "Form": "TABLET",
   "prices": {
     "51862023801": {
       "05/19/2021": 0.75311,

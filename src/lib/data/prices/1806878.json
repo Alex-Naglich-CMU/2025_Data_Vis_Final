@@ -1,9 +1,13 @@
 {
   "RxCUI": "1806878",
-  "Name": "MYTESI 125 MG DR TABLET",
+  "Name": "crofelemer 125 MG Delayed Release Oral Tablet [Mytesi]",
   "IsBrand": true,
   "Brand_RxCUI": "1806878",
   "Generic_RxCUI": "1364454",
+  "Ingredient_Name": "Crofelemer Delayed Release",
+  "Manufacturer_Name": "Mytesi",
+  "Strength": "125 MG",
+  "Form": "",
   "prices": {
     "70564080260": {
       "04/09/2020": 35.72656

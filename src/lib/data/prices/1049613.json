@@ -1,9 +1,13 @@
 {
   "RxCUI": "1049613",
-  "Name": "ROXICODONE 15 MG TABLET",
+  "Name": "oxycodone hydrochloride 15 MG Oral Tablet [Roxicodone]",
   "IsBrand": true,
   "Brand_RxCUI": "1049613",
   "Generic_RxCUI": "1049611",
+  "Ingredient_Name": "Oxycodone Hydrochloride",
+  "Manufacturer_Name": "Roxicodone",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "23635058110": {
       "05/22/2024": 4.99731,

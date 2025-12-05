@@ -1,9 +1,13 @@
 {
   "RxCUI": "477282",
-  "Name": "QC JR. NON-ASPIRIN 160 MG TAB",
+  "Name": "acetaminophen 160 MG Disintegrating Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "477282",
+  "Ingredient_Name": "Acetaminophen Disintegrating",
+  "Manufacturer_Name": "",
+  "Strength": "160 MG",
+  "Form": "Tablet",
   "prices": {
     "63868015824": {
       "06/21/2017": 0.07724,

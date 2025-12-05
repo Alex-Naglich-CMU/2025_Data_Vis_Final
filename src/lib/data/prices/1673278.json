@@ -1,9 +1,13 @@
 {
   "RxCUI": "1673278",
-  "Name": "ARISTADA ER 662 MG/2.4 ML SYRN",
+  "Name": "2.4 ML aripiprazole lauroxil 276 MG/ML Prefilled Syringe [Aristada]",
   "IsBrand": true,
   "Brand_RxCUI": "1673278",
   "Generic_RxCUI": "1673277",
+  "Ingredient_Name": "Aripiprazole Lauroxil Mgml Prefilled",
+  "Manufacturer_Name": "Aristada",
+  "Strength": "2.4 ML",
+  "Form": "",
   "prices": {
     "65757040203": {
       "08/30/2017": 683.67333,
@@ -37,7 +41,8 @@
       "07/23/2025": 943.80146,
       "08/20/2025": 943.85357,
       "09/17/2025": 943.93967,
-      "10/22/2025": 945.27453
+      "10/22/2025": 945.27453,
+      "11/19/2025": 944.98139
     }
   }
 }

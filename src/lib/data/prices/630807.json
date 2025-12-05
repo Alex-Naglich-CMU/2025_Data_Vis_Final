@@ -1,9 +1,13 @@
 {
   "RxCUI": "630807",
-  "Name": "KEPPRA 1,000 MG TABLET",
+  "Name": "levetiracetam 1000 MG Oral Tablet [Keppra]",
   "IsBrand": true,
   "Brand_RxCUI": "630807",
   "Generic_RxCUI": "387003",
+  "Ingredient_Name": "Levetiracetam",
+  "Manufacturer_Name": "Keppra",
+  "Strength": "1000 MG",
+  "Form": "",
   "prices": {
     "50474059766": {
       "06/23/2021": 16.01481,
@@ -43,7 +47,8 @@
       "07/23/2025": 19.36817,
       "08/20/2025": 19.37479,
       "09/17/2025": 19.38397,
-      "10/22/2025": 19.39607
+      "10/22/2025": 19.39607,
+      "11/19/2025": 19.3957
     }
   }
 }

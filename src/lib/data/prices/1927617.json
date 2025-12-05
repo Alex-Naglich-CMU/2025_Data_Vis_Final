@@ -1,9 +1,13 @@
 {
   "RxCUI": "1927617",
-  "Name": "DEXTROAMPH-AMPHET ER 25 MG CAP",
+  "Name": "3-Bead 24 HR amphetamine aspartate 6.25 MG / amphetamine sulfate 6.25 MG / dextroamphetamine saccharate 6.25 MG / dextroamphetamine sulfate 6.25 MG Extended Release Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "1927619",
   "Generic_RxCUI": "1927617",
+  "Ingredient_Name": "-Bead Hr Amphetamine Aspartate Amphetamine Dextroamphetamine Saccharate Dextroamphetamine Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Capsule",
   "prices": {
     "00406080301": {
       "05/22/2024": 7.81351,
@@ -23,7 +27,8 @@
       "07/23/2025": 8.70945,
       "08/20/2025": 8.62322,
       "09/17/2025": 8.52218,
-      "10/22/2025": 8.47961
+      "10/22/2025": 8.47961,
+      "11/19/2025": 8.49387
     },
     "00480368401": {
       "05/22/2024": 7.81351,
@@ -43,7 +48,8 @@
       "07/23/2025": 8.70945,
       "08/20/2025": 8.62322,
       "09/17/2025": 8.52218,
-      "10/22/2025": 8.47961
+      "10/22/2025": 8.47961,
+      "11/19/2025": 8.49387
     },
     "57664095188": {
       "05/22/2024": 7.81351,
@@ -63,7 +69,8 @@
       "07/23/2025": 8.70945,
       "08/20/2025": 8.62322,
       "09/17/2025": 8.52218,
-      "10/22/2025": 8.47961
+      "10/22/2025": 8.47961,
+      "11/19/2025": 8.49387
     }
   }
 }

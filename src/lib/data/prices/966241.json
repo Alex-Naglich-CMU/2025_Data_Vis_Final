@@ -1,9 +1,13 @@
 {
   "RxCUI": "966241",
-  "Name": "UNITHROID 200 MCG TABLET",
+  "Name": "levothyroxine sodium 0.2 MG Oral Tablet [Unithroid]",
   "IsBrand": true,
   "Brand_RxCUI": "966241",
   "Generic_RxCUI": "892251",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "Unithroid",
+  "Strength": "0.2 MG",
+  "Form": "",
   "prices": {
     "60846081101": {
       "06/19/2024": 4.26326,
@@ -21,7 +25,8 @@
       "07/23/2025": 4.24699,
       "08/20/2025": 4.24519,
       "09/17/2025": 4.24412,
-      "10/22/2025": 4.24355
+      "10/22/2025": 4.24355,
+      "11/19/2025": 4.23838
     }
   }
 }

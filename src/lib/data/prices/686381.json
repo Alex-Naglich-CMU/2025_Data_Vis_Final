@@ -1,9 +1,13 @@
 {
   "RxCUI": "686381",
-  "Name": "CELEBREX 50 MG CAPSULE",
+  "Name": "celecoxib 50 MG Oral Capsule [Celebrex]",
   "IsBrand": true,
   "Brand_RxCUI": "686381",
   "Generic_RxCUI": "686379",
+  "Ingredient_Name": "Celecoxib",
+  "Manufacturer_Name": "Celebrex",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "00025151501": {
       "01/01/2018": 3.34303,

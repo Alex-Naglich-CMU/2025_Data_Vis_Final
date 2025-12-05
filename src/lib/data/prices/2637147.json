@@ -1,9 +1,13 @@
 {
   "RxCUI": "2637147",
-  "Name": "VEOZAH 45 MG TABLET",
+  "Name": "fezolinetant 45 MG Oral Tablet [Veozah]",
   "IsBrand": true,
   "Brand_RxCUI": "2637147",
   "Generic_RxCUI": "2637141",
+  "Ingredient_Name": "Fezolinetant",
+  "Manufacturer_Name": "Veozah",
+  "Strength": "45 MG",
+  "Form": "",
   "prices": {
     "00469266030": {
       "04/17/2024": 17.58895,
@@ -21,7 +25,8 @@
       "07/23/2025": 18.07578,
       "08/20/2025": 18.07867,
       "09/17/2025": 18.07872,
-      "10/22/2025": 18.05859
+      "10/22/2025": 18.05859,
+      "11/19/2025": 18.06013
     }
   }
 }

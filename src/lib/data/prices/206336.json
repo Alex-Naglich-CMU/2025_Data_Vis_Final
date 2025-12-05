@@ -1,9 +1,13 @@
 {
   "RxCUI": "206336",
-  "Name": "TEXACORT 2.5% SOLUTION",
+  "Name": "hydrocortisone 25 MG/ML Topical Solution [Texacort]",
   "IsBrand": true,
   "Brand_RxCUI": "206336",
   "Generic_RxCUI": "197786",
+  "Ingredient_Name": "Hydrocortisone Mgml",
+  "Manufacturer_Name": "Texacort",
+  "Strength": "25 MG/ML",
+  "Form": "",
   "prices": {
     "00178045501": {
       "05/22/2024": 6.22396,

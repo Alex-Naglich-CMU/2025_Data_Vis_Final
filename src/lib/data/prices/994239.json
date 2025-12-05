@@ -1,9 +1,13 @@
 {
   "RxCUI": "994239",
-  "Name": "ASCOMP WITH CODEINE CAPSULE",
+  "Name": "aspirin 325 MG / butalbital 50 MG / caffeine 40 MG / codeine phosphate 30 MG Oral Capsule [Ascomp]",
   "IsBrand": false,
   "Brand_RxCUI": "994237",
   "Generic_RxCUI": "994239",
+  "Ingredient_Name": "Aspirin Butalbital Caffeine Codeine Phosphate",
+  "Manufacturer_Name": "Ascomp",
+  "Strength": "325 MG",
+  "Form": "",
   "prices": {
     "51991007401": {
       "05/19/2021": 1.27932,
@@ -107,7 +111,8 @@
       "07/23/2025": 1.007,
       "08/20/2025": 0.94756,
       "09/17/2025": 0.951,
-      "10/22/2025": 0.96528
+      "10/22/2025": 0.96528,
+      "11/19/2025": 1.01621
     },
     "51991007405": {
       "05/19/2021": 1.27932,
@@ -211,7 +216,8 @@
       "07/23/2025": 1.007,
       "08/20/2025": 0.94756,
       "09/17/2025": 0.951,
-      "10/22/2025": 0.96528
+      "10/22/2025": 0.96528,
+      "11/19/2025": 1.01621
     }
   }
 }

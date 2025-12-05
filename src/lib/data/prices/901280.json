@@ -1,9 +1,13 @@
 {
   "RxCUI": "901280",
-  "Name": "LUDENT FLUORIDE 0.25 MG TB CHW",
+  "Name": "sodium fluoride 0.55 MG Chewable Tablet [Ludent]",
   "IsBrand": false,
   "Brand_RxCUI": "198215",
   "Generic_RxCUI": "901280",
+  "Ingredient_Name": "Sodium Fluoride Chewable",
+  "Manufacturer_Name": "Ludent",
+  "Strength": "0.55 MG",
+  "Form": "",
   "prices": {
     "44946100803": {
       "06/21/2017": 0.03891,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1441831",
-  "Name": "POLY HIST FORTE TABLET",
+  "Name": "doxylamine succinate 7.5 MG / phenylephrine hydrochloride 10 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1441831",
+  "Ingredient_Name": "Doxylamine Succinate Phenylephrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "7.5 MG",
+  "Form": "Tablet",
   "prices": {
     "50991021601": {
       "06/21/2017": 0.61654,

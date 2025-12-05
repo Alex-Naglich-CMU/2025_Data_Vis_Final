@@ -1,0 +1,18 @@
+{
+  "RxCUI": "2724372",
+  "Name": "CIMZIA 2X200 MG/ML(X3)START KT",
+  "IsBrand": true,
+  "Brand_RxCUI": "2724372",
+  "Generic_RxCUI": "2724371",
+  "Ingredient_Name": "Cimzia X Mgml(X)Start Kt",
+  "Manufacturer_Name": "",
+  "Strength": "2X",
+  "Form": "",
+  "prices": {
+    "50474071081": {
+      "08/21/2024": 5512.36762,
+      "10/23/2024": 5513.19958,
+      "01/01/2025": 5783.34636
+    }
+  }
+}

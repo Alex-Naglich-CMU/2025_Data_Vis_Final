@@ -1,9 +1,13 @@
 {
   "RxCUI": "352086",
-  "Name": "CLARINEX 5 MG TABLET",
+  "Name": "desloratadine 5 MG Oral Tablet [Clarinex]",
   "IsBrand": true,
   "Brand_RxCUI": "352086",
   "Generic_RxCUI": "349420",
+  "Ingredient_Name": "Desloratadine",
+  "Manufacturer_Name": "Clarinex",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "78206018801": {
       "09/18/2024": 8.058,

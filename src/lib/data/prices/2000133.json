@@ -1,9 +1,13 @@
 {
   "RxCUI": "2000133",
-  "Name": "FIRVANQ 25 MG/ML SOLUTION",
+  "Name": "vancomycin 25 MG/ML Oral Solution [Firvanq]",
   "IsBrand": true,
   "Brand_RxCUI": "2000133",
   "Generic_RxCUI": "2000127",
+  "Ingredient_Name": "Vancomycin Mgml",
+  "Manufacturer_Name": "Firvanq",
+  "Strength": "25 MG/ML",
+  "Form": "",
   "prices": {
     "65628020510": {
       "07/01/2021": 0.4709,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1244616",
-  "Name": "ZIOPTAN 0.0015% EYE DROPS",
+  "Name": "tafluprost 0.015 MG/ML Ophthalmic Solution [Zioptan]",
   "IsBrand": true,
   "Brand_RxCUI": "1244616",
   "Generic_RxCUI": "1244611",
+  "Ingredient_Name": "Tafluprost Mgml",
+  "Manufacturer_Name": "Zioptan",
+  "Strength": "0.015 MG/ML",
+  "Form": "",
   "prices": {
     "17478060930": {
       "07/21/2021": 6.80337,
@@ -33,7 +37,8 @@
       "07/23/2025": 8.49804,
       "08/20/2025": 8.49622,
       "09/17/2025": 8.49604,
-      "10/22/2025": 8.49176
+      "10/22/2025": 8.49176,
+      "11/19/2025": 8.48568
     }
   }
 }

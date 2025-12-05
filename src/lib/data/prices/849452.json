@@ -1,20 +1,24 @@
 {
   "RxCUI": "849452",
-  "Name": "TREXIMET 85-500 MG TABLET",
+  "Name": "naproxen sodium 500 MG / sumatriptan 85 MG Oral Tablet [Treximet]",
   "IsBrand": true,
   "Brand_RxCUI": "849452",
   "Generic_RxCUI": "849450",
+  "Ingredient_Name": "Naproxen Sodium Sumatriptan",
+  "Manufacturer_Name": "Treximet",
+  "Strength": "500 MG",
+  "Form": "",
   "prices": {
+    "42847085009": {
+      "06/26/2020": 123.99773,
+      "02/16/2021": 133.91754
+    },
     "65224085009": {
       "07/03/2017": 94.11106,
       "08/23/2017": 94.42585,
       "05/23/2018": 93.16325,
       "07/18/2018": 94.16185,
       "11/01/2018": 103.48482,
-      "06/26/2020": 123.99773,
-      "02/16/2021": 133.91754
-    },
-    "42847085009": {
       "06/26/2020": 123.99773,
       "02/16/2021": 133.91754
     }

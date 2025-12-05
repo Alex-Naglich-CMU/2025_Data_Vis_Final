@@ -1,9 +1,13 @@
 {
   "RxCUI": "1088249",
-  "Name": "FLEET PEDIA-LAX STOOL SOFTENER",
+  "Name": "docusate sodium 3.33 MG/ML Oral Solution [Pedia-Lax Liquid]",
   "IsBrand": true,
   "Brand_RxCUI": "1088249",
   "Generic_RxCUI": "1088245",
+  "Ingredient_Name": "Docusate Sodium Mgml",
+  "Manufacturer_Name": "Pedia-Lax Liquid",
+  "Strength": "3.33 MG/ML",
+  "Form": "",
   "prices": {
     "00132010624": {
       "08/23/2017": 0.04026,

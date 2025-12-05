@@ -1,9 +1,13 @@
 {
   "RxCUI": "104836",
-  "Name": "NARDIL 15 MG TABLET",
+  "Name": "phenelzine 15 MG Oral Tablet [Nardil]",
   "IsBrand": true,
   "Brand_RxCUI": "104836",
   "Generic_RxCUI": "312347",
+  "Ingredient_Name": "Phenelzine",
+  "Manufacturer_Name": "Nardil",
+  "Strength": "15 MG",
+  "Form": "",
   "prices": {
     "00071035060": {
       "06/01/2017": 2.13535,

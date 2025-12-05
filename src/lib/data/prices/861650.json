@@ -1,9 +1,13 @@
 {
   "RxCUI": "861650",
-  "Name": "LIVALO 2 MG TABLET",
+  "Name": "pitavastatin calcium 2 MG Oral Tablet [Livalo]",
   "IsBrand": true,
   "Brand_RxCUI": "861650",
   "Generic_RxCUI": "861648",
+  "Ingredient_Name": "Pitavastatin Calcium",
+  "Manufacturer_Name": "Livalo",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "66869020490": {
       "08/30/2017": 8.33325,
@@ -35,7 +39,8 @@
       "07/23/2025": 10.21605,
       "08/20/2025": 10.21719,
       "09/17/2025": 10.20697,
-      "10/22/2025": 10.2065
+      "10/22/2025": 10.2065,
+      "11/19/2025": 10.20946
     }
   }
 }

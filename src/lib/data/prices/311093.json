@@ -1,9 +1,13 @@
 {
   "RxCUI": "311093",
-  "Name": "SM IODINE 2% TINCTURE",
+  "Name": "iodine 20 MG/ML Topical Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "311093",
+  "Ingredient_Name": "Iodine Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "20 MG/ML",
+  "Form": "Solution",
   "prices": {
     "49348013327": {
       "06/23/2021": 0.07385,
@@ -63,7 +67,8 @@
       "07/23/2025": 0.06612,
       "08/20/2025": 0.06683,
       "09/17/2025": 0.07004,
-      "10/22/2025": 0.0739
+      "10/22/2025": 0.0739,
+      "11/19/2025": 0.07661
     }
   }
 }

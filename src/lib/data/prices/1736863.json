@@ -1,9 +1,13 @@
 {
   "RxCUI": "1736863",
-  "Name": "BASAGLAR 100 UNIT/ML KWIKPEN",
+  "Name": "3 ML insulin glargine 100 UNT/ML Pen Injector [Basaglar]",
   "IsBrand": true,
   "Brand_RxCUI": "1736863",
   "Generic_RxCUI": "847230",
+  "Ingredient_Name": "Insulin Glargine Untml Pen Injector",
+  "Manufacturer_Name": "Basaglar",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "00002771559": {
       "05/19/2021": 20.95329,
@@ -34,7 +38,8 @@
       "07/23/2025": 20.93143,
       "08/20/2025": 20.93047,
       "09/17/2025": 20.9322,
-      "10/22/2025": 20.93251
+      "10/22/2025": 20.93251,
+      "11/19/2025": 20.92995
     }
   }
 }

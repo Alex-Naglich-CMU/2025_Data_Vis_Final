@@ -1,9 +1,13 @@
 {
   "RxCUI": "845479",
-  "Name": "TOPAMAX 25 MG SPRINKLE CAP",
+  "Name": "topiramate 25 MG Oral Capsule [Topamax]",
   "IsBrand": true,
   "Brand_RxCUI": "845479",
   "Generic_RxCUI": "205315",
+  "Ingredient_Name": "Topiramate",
+  "Manufacturer_Name": "Topamax",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "50458064565": {
       "01/03/2018": 6.33101,
@@ -17,7 +21,8 @@
       "11/20/2024": 7.19105,
       "01/03/2025": 7.33487,
       "09/17/2025": 7.32489,
-      "10/22/2025": 7.32936
+      "10/22/2025": 7.32936,
+      "11/19/2025": 7.33045
     }
   }
 }

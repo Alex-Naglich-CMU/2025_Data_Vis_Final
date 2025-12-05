@@ -1,9 +1,13 @@
 {
   "RxCUI": "860195",
-  "Name": "BOTOX 100 UNITS VIAL",
+  "Name": "onabotulinumtoxinA 100 UNT Injection [Botox]",
   "IsBrand": true,
   "Brand_RxCUI": "860195",
   "Generic_RxCUI": "860192",
+  "Ingredient_Name": "Onabotulinumtoxina Unt",
+  "Manufacturer_Name": "Botox",
+  "Strength": "100 UNT",
+  "Form": "",
   "prices": {
     "00023114501": {
       "07/05/2017": 597.51847

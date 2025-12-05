@@ -1,10 +1,17 @@
 {
   "RxCUI": "805659",
-  "Name": "NUVIGIL 150 MG TABLET",
+  "Name": "armodafinil 150 MG Oral Tablet [Nuvigil]",
   "IsBrand": true,
   "Brand_RxCUI": "805659",
   "Generic_RxCUI": "724859",
+  "Ingredient_Name": "Armodafinil",
+  "Manufacturer_Name": "Nuvigil",
+  "Strength": "150 MG",
+  "Form": "",
   "prices": {
+    "60505484703": {
+      "11/19/2025": 34.752
+    },
     "63459021530": {
       "01/17/2018": 21.21013,
       "06/30/2018": 23.20367,
@@ -21,7 +28,8 @@
       "05/21/2025": 34.91043,
       "06/18/2025": 34.99319,
       "09/17/2025": 34.90779,
-      "10/22/2025": 34.88229
+      "10/22/2025": 34.88229,
+      "11/19/2025": 34.752
     }
   }
 }

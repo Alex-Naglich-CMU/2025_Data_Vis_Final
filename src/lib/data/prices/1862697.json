@@ -1,9 +1,13 @@
 {
   "RxCUI": "1862697",
-  "Name": "SYNJARDY XR 25-1,000 MG TABLET",
+  "Name": "24 HR empagliflozin 25 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet [Synjardy]",
   "IsBrand": true,
   "Brand_RxCUI": "1862697",
   "Generic_RxCUI": "1862695",
+  "Ingredient_Name": "Hr Empagliflozin Metformin Hydrochloride Extended Release",
+  "Manufacturer_Name": "Synjardy",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00597029578": {
       "01/03/2018": 15.03957,
@@ -32,7 +36,8 @@
       "07/23/2025": 20.14429,
       "08/20/2025": 20.14371,
       "09/17/2025": 20.14641,
-      "10/22/2025": 20.1411
+      "10/22/2025": 20.1411,
+      "11/19/2025": 20.1449
     },
     "00597029588": {
       "01/03/2018": 15.03957,
@@ -61,7 +66,8 @@
       "07/23/2025": 20.14429,
       "08/20/2025": 20.14371,
       "09/17/2025": 20.14641,
-      "10/22/2025": 20.1411
+      "10/22/2025": 20.1411,
+      "11/19/2025": 20.1449
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "995232",
-  "Name": "HYDROXYZINE PAM 100 MG CAP",
+  "Name": "hydroxyzine pamoate 100 MG Oral Capsule",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "995232",
+  "Ingredient_Name": "Hydroxyzine Pamoate",
+  "Manufacturer_Name": "",
+  "Strength": "100 MG",
+  "Form": "Capsule",
   "prices": {
     "00555032402": {
       "06/23/2021": 0.44224,
@@ -76,7 +80,8 @@
       "07/23/2025": 0.423,
       "08/20/2025": 0.41732,
       "09/17/2025": 0.41862,
-      "10/22/2025": 0.40949
+      "10/22/2025": 0.40949,
+      "11/19/2025": 0.40566
     },
     "555032402": {
       "09/22/2021": 0.43344

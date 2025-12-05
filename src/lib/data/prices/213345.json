@@ -1,9 +1,13 @@
 {
   "RxCUI": "213345",
-  "Name": "CELEXA 40 MG TABLET",
+  "Name": "citalopram 40 MG Oral Tablet [Celexa]",
   "IsBrand": true,
   "Brand_RxCUI": "213345",
   "Generic_RxCUI": "309314",
+  "Ingredient_Name": "Citalopram",
+  "Manufacturer_Name": "Celexa",
+  "Strength": "40 MG",
+  "Form": "",
   "prices": {
     "00456404001": {
       "01/01/2018": 9.04456,
@@ -20,7 +24,8 @@
       "06/18/2025": 9.47972,
       "07/23/2025": 9.48114,
       "09/17/2025": 9.47326,
-      "10/22/2025": 9.44186
+      "10/22/2025": 9.44186,
+      "11/19/2025": 9.43456
     }
   }
 }

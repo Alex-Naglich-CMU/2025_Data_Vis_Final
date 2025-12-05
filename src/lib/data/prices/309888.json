@@ -1,9 +1,13 @@
 {
   "RxCUI": "309888",
-  "Name": "LANOXIN 125 MCG TABLET",
+  "Name": "digoxin 0.125 MG Oral Tablet [Lanoxin]",
   "IsBrand": true,
   "Brand_RxCUI": "309888",
   "Generic_RxCUI": "197604",
+  "Ingredient_Name": "Digoxin",
+  "Manufacturer_Name": "Lanoxin",
+  "Strength": "0.125 MG",
+  "Form": "",
   "prices": {
     "59212024255": {
       "07/01/2017": 11.36507

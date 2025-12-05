@@ -1,9 +1,13 @@
 {
   "RxCUI": "284531",
-  "Name": "MICARDIS 20 MG TABLET",
+  "Name": "telmisartan 20 MG Oral Tablet [Micardis]",
   "IsBrand": true,
   "Brand_RxCUI": "284531",
   "Generic_RxCUI": "282755",
+  "Ingredient_Name": "Telmisartan",
+  "Manufacturer_Name": "Micardis",
+  "Strength": "20 MG",
+  "Form": "",
   "prices": {
     "00597003937": {
       "01/03/2018": 6.42405,

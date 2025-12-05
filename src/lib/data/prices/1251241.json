@@ -1,9 +1,13 @@
 {
   "RxCUI": "1251241",
-  "Name": "K-PHOS NEUTRAL TABLET",
+  "Name": "potassium phosphate 155 MG / sodium phosphate, dibasic 852 MG / sodium phosphate, monobasic 130 MG Oral Tablet [K-Phos Neutral]",
   "IsBrand": false,
   "Brand_RxCUI": "200251",
   "Generic_RxCUI": "1251241",
+  "Ingredient_Name": "Potassium Phosphate Sodium Phosphate, Dibasic Sodium Phosphate, Monobasic",
+  "Manufacturer_Name": "K-Phos Neutral",
+  "Strength": "155 MG",
+  "Form": "",
   "prices": {
     "00486112501": {
       "05/19/2021": 0.24165,
@@ -103,7 +107,8 @@
       "07/23/2025": 0.19533,
       "08/20/2025": 0.19706,
       "09/17/2025": 0.18969,
-      "10/22/2025": 0.20064
+      "10/22/2025": 0.20064,
+      "11/19/2025": 0.21157
     },
     "00486112505": {
       "05/19/2021": 0.24165,
@@ -203,7 +208,8 @@
       "07/23/2025": 0.19533,
       "08/20/2025": 0.19706,
       "09/17/2025": 0.18969,
-      "10/22/2025": 0.20064
+      "10/22/2025": 0.20064,
+      "11/19/2025": 0.21157
     },
     "486112501": {
       "09/22/2021": 0.22205

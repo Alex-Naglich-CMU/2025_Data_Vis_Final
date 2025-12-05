@@ -1,21 +1,27 @@
 {
   "RxCUI": "1297658",
-  "Name": "ESOMEPRAZOLE DR 2.5 MG PACKET",
+  "Name": "esomeprazole 2.5 MG Granules for Oral Suspension",
   "IsBrand": false,
   "Brand_RxCUI": "1297660",
   "Generic_RxCUI": "1297658",
+  "Ingredient_Name": "Esomeprazole Granules For",
+  "Manufacturer_Name": "",
+  "Strength": "2.5 MG",
+  "Form": "Suspension",
   "prices": {
     "13668054694": {
       "07/23/2025": 7.5384,
       "08/20/2025": 7.35244,
       "09/17/2025": 7.25895,
-      "10/22/2025": 7.19802
+      "10/22/2025": 7.19802,
+      "11/19/2025": 7.14193
     },
     "69097050731": {
       "07/23/2025": 7.5384,
       "08/20/2025": 7.35244,
       "09/17/2025": 7.25895,
-      "10/22/2025": 7.19802
+      "10/22/2025": 7.19802,
+      "11/19/2025": 7.14193
     }
   }
 }

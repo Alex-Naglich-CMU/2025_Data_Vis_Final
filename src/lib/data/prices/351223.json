@@ -1,9 +1,13 @@
 {
   "RxCUI": "351223",
-  "Name": "ZIPRASIDONE 20 MG/ML VIAL",
+  "Name": "ziprasidone 20 MG Injection",
   "IsBrand": false,
   "Brand_RxCUI": "352228",
   "Generic_RxCUI": "351223",
+  "Ingredient_Name": "Ziprasidone",
+  "Manufacturer_Name": "",
+  "Strength": "20 MG",
+  "Form": "Injection",
   "prices": {
     "43598006158": {
       "07/23/2025": 16.8267,

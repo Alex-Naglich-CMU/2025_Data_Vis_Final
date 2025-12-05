@@ -1,9 +1,13 @@
 {
   "RxCUI": "809030",
-  "Name": "DIOVAN HCT 320-25 MG TABLET",
+  "Name": "hydrochlorothiazide 25 MG / valsartan 320 MG Oral Tablet [Diovan HCT]",
   "IsBrand": true,
   "Brand_RxCUI": "809030",
   "Generic_RxCUI": "636045",
+  "Ingredient_Name": "Hydrochlorothiazide Valsartan",
+  "Manufacturer_Name": "Diovan HCT",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "00078047234": {
       "01/03/2018": 12.54588,

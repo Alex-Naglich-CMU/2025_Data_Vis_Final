@@ -1,9 +1,13 @@
 {
   "RxCUI": "617945",
-  "Name": "STRATTERA 100 MG CAPSULE",
+  "Name": "atomoxetine 100 MG Oral Capsule [Strattera]",
   "IsBrand": true,
   "Brand_RxCUI": "617945",
   "Generic_RxCUI": "608139",
+  "Ingredient_Name": "Atomoxetine",
+  "Manufacturer_Name": "Strattera",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "00002325130": {
       "09/20/2017": 14.78389,

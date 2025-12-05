@@ -1,9 +1,13 @@
 {
   "RxCUI": "2668204",
-  "Name": "CABTREO 1.2%-0.15%-3.15% GEL",
+  "Name": "adapalene 0.0015 MG/MG / benzoyl peroxide 0.031 MG/MG / clindamycin phosphate 0.012 MG/MG Topical Gel [Cabtreo]",
   "IsBrand": true,
   "Brand_RxCUI": "2668204",
   "Generic_RxCUI": "2668198",
+  "Ingredient_Name": "Adapalene Mgmg Benzoyl Peroxide Mgmg Clindamycin Phosphate Mgmg",
+  "Manufacturer_Name": "Cabtreo",
+  "Strength": "0.0015 MG/MG",
+  "Form": "",
   "prices": {
     "00187000625": {
       "07/17/2024": 18.1712,

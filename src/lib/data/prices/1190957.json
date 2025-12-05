@@ -1,9 +1,13 @@
 {
   "RxCUI": "1190957",
-  "Name": "ANDRODERM 4 MG/24HR PATCH",
+  "Name": "24 HR testosterone 0.167 MG/HR Transdermal System [Androderm]",
   "IsBrand": true,
   "Brand_RxCUI": "1190957",
   "Generic_RxCUI": "313233",
+  "Ingredient_Name": "Hr Testosterone Mghr Transdermal System",
+  "Manufacturer_Name": "Androderm",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00023599204": {
       "06/23/2021": 19.64948,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "753443",
-  "Name": "DAYTRANA 30 MG/9 HOUR PATCH",
+  "Name": "9 HR methylphenidate 3.33 MG/HR Transdermal System [Daytrana]",
   "IsBrand": true,
   "Brand_RxCUI": "753443",
   "Generic_RxCUI": "753441",
+  "Ingredient_Name": "Hr Methylphenidate Mghr Transdermal System",
+  "Manufacturer_Name": "Daytrana",
+  "Strength": "9 HR",
+  "Form": "",
   "prices": {
     "68968555503": {
       "11/22/2017": 9.69549,
@@ -37,7 +41,8 @@
       "07/23/2025": 5.77938,
       "08/20/2025": 5.77906,
       "09/17/2025": 5.7779,
-      "10/22/2025": 5.77352
+      "10/22/2025": 5.77352,
+      "11/19/2025": 5.77446
     }
   }
 }

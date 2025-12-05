@@ -1,9 +1,13 @@
 {
   "RxCUI": "207136",
-  "Name": "MEDROL 2 MG TABLET",
+  "Name": "methylprednisolone 2 MG Oral Tablet [Medrol]",
   "IsBrand": true,
   "Brand_RxCUI": "207136",
   "Generic_RxCUI": "197969",
+  "Ingredient_Name": "Methylprednisolone",
+  "Manufacturer_Name": "Medrol",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "00009002001": {
       "06/01/2017": 1.4161,

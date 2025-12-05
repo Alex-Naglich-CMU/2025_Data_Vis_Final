@@ -1,9 +1,13 @@
 {
   "RxCUI": "284254",
-  "Name": "COMPRO 25 MG SUPPOSITORY",
+  "Name": "prochlorperazine 25 MG Rectal Suppository [Compro]",
   "IsBrand": false,
   "Brand_RxCUI": "198159",
   "Generic_RxCUI": "284254",
+  "Ingredient_Name": "Prochlorperazine Rectal",
+  "Manufacturer_Name": "Compro",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "00574722612": {
       "05/19/2021": 6.789,
@@ -91,7 +95,8 @@
       "07/23/2025": 5.15459,
       "08/20/2025": 5.27325,
       "09/17/2025": 5.23272,
-      "10/22/2025": 5.27026
+      "10/22/2025": 5.27026,
+      "11/19/2025": 5.55657
     },
     "574722612": {
       "09/22/2021": 6.68894

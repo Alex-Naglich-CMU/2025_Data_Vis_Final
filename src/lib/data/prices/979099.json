@@ -1,9 +1,13 @@
 {
   "RxCUI": "979099",
-  "Name": "GAVILYTE-N SOLUTION",
+  "Name": "polyethylene glycol 3350 420000 MG / potassium chloride 1480 MG / sodium bicarbonate 5720 MG / sodium chloride 11200 MG Powder for Oral Solution [GaviLyte-N]",
   "IsBrand": false,
   "Brand_RxCUI": "801054",
   "Generic_RxCUI": "979099",
+  "Ingredient_Name": "Polyethylene Glycol Potassium Chloride Sodium Bicarbonate Sodium Chloride For",
+  "Manufacturer_Name": "GaviLyte-N",
+  "Strength": "420000 MG",
+  "Form": "",
   "prices": {
     "43386005019": {
       "05/19/2021": 0.00474,
@@ -104,7 +108,8 @@
       "07/23/2025": 0.00586,
       "08/20/2025": 0.00567,
       "09/17/2025": 0.00522,
-      "10/22/2025": 0.00534
+      "10/22/2025": 0.00534,
+      "11/19/2025": 0.00569
     }
   }
 }

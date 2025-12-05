@@ -1,9 +1,13 @@
 {
   "RxCUI": "206160",
-  "Name": "KLONOPIN 2 MG TABLET",
+  "Name": "clonazepam 2 MG Oral Tablet [Klonopin]",
   "IsBrand": true,
   "Brand_RxCUI": "206160",
   "Generic_RxCUI": "197529",
+  "Ingredient_Name": "Clonazepam",
+  "Manufacturer_Name": "Klonopin",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "61269062010": {
       "05/22/2024": 3.87984,

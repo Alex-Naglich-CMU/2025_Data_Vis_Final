@@ -1,9 +1,13 @@
 {
   "RxCUI": "966177",
-  "Name": "EUTHYROX 100 MCG TABLET",
+  "Name": "levothyroxine sodium 0.1 MG Oral Tablet [Euthyrox]",
   "IsBrand": true,
   "Brand_RxCUI": "966177",
   "Generic_RxCUI": "892246",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "Euthyrox",
+  "Strength": "0.1 MG",
+  "Form": "",
   "prices": {
     "72305010030": {
       "11/24/2022": 0.08133,

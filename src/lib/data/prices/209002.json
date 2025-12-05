@@ -1,9 +1,13 @@
 {
   "RxCUI": "209002",
-  "Name": "PRED MILD 0.12% EYE DROPS",
+  "Name": "prednisolone 1.2 MG/ML Ophthalmic Suspension [Pred Mild]",
   "IsBrand": true,
   "Brand_RxCUI": "209002",
   "Generic_RxCUI": "562379",
+  "Ingredient_Name": "Prednisolone Mgml",
+  "Manufacturer_Name": "Pred Mild",
+  "Strength": "1.2 MG/ML",
+  "Form": "",
   "prices": {
     "11980017405": {
       "11/22/2017": 24.4556,
@@ -31,7 +35,8 @@
       "07/23/2025": 30.76333,
       "08/20/2025": 30.7656,
       "09/17/2025": 30.78845,
-      "10/22/2025": 30.77376
+      "10/22/2025": 30.77376,
+      "11/19/2025": 30.74742
     },
     "11980017410": {
       "01/01/2018": 27.12537,

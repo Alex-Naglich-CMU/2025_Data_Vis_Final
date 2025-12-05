@@ -1,9 +1,13 @@
 {
   "RxCUI": "1050325",
-  "Name": "ME-NAPHOS-MB-HYO 1 TABLET",
+  "Name": "hyoscyamine sulfate 0.12 MG / methenamine 81.6 MG / methylene blue 10.8 MG / sodium phosphate, monobasic 40.8 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1597581",
   "Generic_RxCUI": "1050325",
+  "Ingredient_Name": "Hyoscyamine Methenamine Methylene Blue Sodium Phosphate, Monobasic",
+  "Manufacturer_Name": "",
+  "Strength": "0.12 MG",
+  "Form": "Tablet",
   "prices": {
     "58657045401": {
       "05/19/2021": 3.54321,
@@ -52,7 +56,8 @@
       "07/23/2025": 3.86549,
       "08/20/2025": 3.7894,
       "09/17/2025": 3.84672,
-      "10/22/2025": 4.06049
+      "10/22/2025": 4.06049,
+      "11/19/2025": 4.29555
     }
   }
 }

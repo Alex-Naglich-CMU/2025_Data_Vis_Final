@@ -1,9 +1,13 @@
 {
   "RxCUI": "1536833",
-  "Name": "EFFERVESCENT ANTACID-PAIN RLF",
+  "Name": "aspirin 500 MG / citric acid 1000 MG / sodium bicarbonate 1985 MG Effervescent Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1536835",
   "Generic_RxCUI": "1536833",
+  "Ingredient_Name": "Aspirin Citric Acid Sodium Bicarbonate Effervescent",
+  "Manufacturer_Name": "",
+  "Strength": "500 MG",
+  "Form": "Tablet",
   "prices": {
     "70000057401": {
       "12/18/2024": 0.08373,

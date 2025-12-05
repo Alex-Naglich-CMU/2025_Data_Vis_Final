@@ -1,9 +1,13 @@
 {
   "RxCUI": "1597570",
-  "Name": "ZUBSOLV 11.4-2.9 MG TABLET SL",
+  "Name": "buprenorphine 11.4 MG / naloxone 2.9 MG Sublingual Tablet [Zubsolv]",
   "IsBrand": true,
   "Brand_RxCUI": "1597570",
   "Generic_RxCUI": "1597568",
+  "Ingredient_Name": "Buprenorphine Naloxone Sublingual",
+  "Manufacturer_Name": "Zubsolv",
+  "Strength": "11.4 MG",
+  "Form": "",
   "prices": {
     "54123011430": {
       "01/01/2018": 15.99328,
@@ -32,7 +36,8 @@
       "07/23/2025": 20.3002,
       "08/20/2025": 20.30065,
       "09/17/2025": 20.30585,
-      "10/22/2025": 20.31837
+      "10/22/2025": 20.31837,
+      "11/19/2025": 20.30545
     }
   }
 }

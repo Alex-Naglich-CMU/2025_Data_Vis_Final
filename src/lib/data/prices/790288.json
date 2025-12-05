@@ -1,9 +1,13 @@
 {
   "RxCUI": "790288",
-  "Name": "DESVENLAFAXINE ER 50 MG TAB",
+  "Name": "24 HR desvenlafaxine 50 MG Extended Release Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1435483",
   "Generic_RxCUI": "790288",
+  "Ingredient_Name": "Hr Desvenlafaxine Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "63304019130": {
       "06/23/2021": 4.17693,
@@ -35,7 +39,8 @@
       "07/23/2025": 3.74544,
       "08/20/2025": 3.76404,
       "09/17/2025": 3.7808,
-      "10/22/2025": 3.81639
+      "10/22/2025": 3.81639,
+      "11/19/2025": 3.8349
     }
   }
 }

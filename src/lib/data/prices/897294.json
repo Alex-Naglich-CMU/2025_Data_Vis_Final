@@ -1,9 +1,13 @@
 {
   "RxCUI": "897294",
-  "Name": "ALOCRIL 2% EYE DROPS",
+  "Name": "nedocromil sodium 20 MG/ML Ophthalmic Solution [Alocril]",
   "IsBrand": true,
   "Brand_RxCUI": "897294",
   "Generic_RxCUI": "897292",
+  "Ingredient_Name": "Nedocromil Sodium Mgml",
+  "Manufacturer_Name": "Alocril",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "00023884205": {
       "01/01/2018": 41.79

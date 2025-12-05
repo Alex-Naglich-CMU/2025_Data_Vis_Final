@@ -1,9 +1,13 @@
 {
   "RxCUI": "905458",
-  "Name": "LEVOTHYROXINE 75 MCG CAPSULE",
+  "Name": "levothyroxine sodium 0.075 MG Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "905460",
   "Generic_RxCUI": "905458",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "",
+  "Strength": "0.075 MG",
+  "Form": "Capsule",
   "prices": {
     "00527495432": {
       "10/18/2023": 3.89261,

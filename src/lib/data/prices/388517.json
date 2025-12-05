@@ -1,9 +1,13 @@
 {
   "RxCUI": "388517",
-  "Name": "CALCITRIOL 3 MCG/G OINTMENT",
+  "Name": "calcitriol 0.000003 MG/MG Topical Ointment",
   "IsBrand": false,
   "Brand_RxCUI": "883358",
   "Generic_RxCUI": "388517",
+  "Ingredient_Name": "Calcitriol Mgmg",
+  "Manufacturer_Name": "",
+  "Strength": "0.000003 MG/MG",
+  "Form": "Ointment",
   "prices": {
     "45802060801": {
       "09/18/2024": 4.6995,

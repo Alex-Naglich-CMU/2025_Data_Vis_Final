@@ -1,9 +1,13 @@
 {
   "RxCUI": "1670011",
-  "Name": "INSULIN DEGLUDEC FLEXTOUCH 100 UNIT/ML PEN",
+  "Name": "3 ML insulin degludec 100 UNT/ML Pen Injector",
   "IsBrand": false,
   "Brand_RxCUI": "1670016",
   "Generic_RxCUI": "1670011",
+  "Ingredient_Name": "Insulin Degludec Untml Pen Injector",
+  "Manufacturer_Name": "",
+  "Strength": "3 ML",
+  "Form": "",
   "prices": {
     "73070040315": {
       "2/22/2023": 11.36233,
@@ -38,7 +42,8 @@
       "07/23/2025": 11.36225,
       "08/20/2025": 11.37853,
       "09/17/2025": 11.37779,
-      "10/22/2025": 11.37841
+      "10/22/2025": 11.37841,
+      "11/19/2025": 11.37009
     }
   }
 }

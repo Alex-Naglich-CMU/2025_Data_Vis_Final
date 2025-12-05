@@ -1,11 +1,15 @@
 {
   "RxCUI": "198750",
-  "Name": "HM FIBER 500 MG CAPLET",
+  "Name": "methylcellulose 500 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "352178",
   "Generic_RxCUI": "198750",
+  "Ingredient_Name": "Methylcellulose",
+  "Manufacturer_Name": "",
+  "Strength": "500 MG",
+  "Form": "Tablet",
   "prices": {
-    "62011013401": {
+    "24385046678": {
       "05/19/2021": 0.05877,
       "06/23/2021": 0.05846,
       "07/21/2021": 0.05829,
@@ -157,7 +161,7 @@
       "07/19/2023": 0.06297,
       "08/23/2023": 0.066
     },
-    "24385046678": {
+    "62011013401": {
       "05/19/2021": 0.05877,
       "06/23/2021": 0.05846,
       "07/21/2021": 0.05829,

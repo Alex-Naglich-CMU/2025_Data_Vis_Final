@@ -1,9 +1,13 @@
 {
   "RxCUI": "727816",
-  "Name": "AVONEX PREFILLED SYR 30 MCG KIT",
+  "Name": "0.5 ML interferon beta-1a 0.06 MG/ML Prefilled Syringe [Avonex]",
   "IsBrand": true,
   "Brand_RxCUI": "727816",
   "Generic_RxCUI": "727813",
+  "Ingredient_Name": "Interferon Beta-A Mgml Prefilled",
+  "Manufacturer_Name": "Avonex",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "59627022205": {
       "07/19/2017": 6037.40857,
@@ -34,7 +38,8 @@
       "07/23/2025": 8373.61,
       "08/20/2025": 8379.53333,
       "09/17/2025": 8383.766,
-      "10/22/2025": 8397.385
+      "10/22/2025": 8397.385,
+      "11/19/2025": 8399.40067
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "860088",
-  "Name": "IMITREX 6 MG/0.5 ML CARTRIDGES",
+  "Name": "0.5 ML sumatriptan 12 MG/ML Cartridge [Imitrex]",
   "IsBrand": true,
   "Brand_RxCUI": "860088",
   "Generic_RxCUI": "1657160",
+  "Ingredient_Name": "Sumatriptan Mgml Cartridge",
+  "Manufacturer_Name": "Imitrex",
+  "Strength": "0.5 ML",
+  "Form": "",
   "prices": {
     "00173047800": {
       "01/01/2018": 363.67854,
@@ -23,7 +27,8 @@
       "05/21/2025": 436.53385,
       "07/23/2025": 436.05545,
       "08/20/2025": 435.91923,
-      "10/22/2025": 436.74846
+      "10/22/2025": 436.74846,
+      "11/19/2025": 436.736
     },
     "00173047900": {
       "01/01/2018": 373.4325,

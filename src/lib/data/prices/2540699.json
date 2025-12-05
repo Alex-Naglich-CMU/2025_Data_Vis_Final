@@ -1,9 +1,13 @@
 {
   "RxCUI": "2540699",
-  "Name": "SKYRIZI 150 MG/ML SYRINGE",
+  "Name": "1 ML risankizumab-rzaa 150 MG/ML Prefilled Syringe [Skyrizi]",
   "IsBrand": true,
   "Brand_RxCUI": "2540699",
   "Generic_RxCUI": "2540698",
+  "Ingredient_Name": "Risankizumab-Rzaa Mgml Prefilled",
+  "Manufacturer_Name": "Skyrizi",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00074105001": {
       "01/03/2023": 19262.39616,
@@ -19,7 +23,8 @@
       "06/18/2025": 21502.85714,
       "07/23/2025": 21534.19571,
       "08/20/2025": 21504.564,
-      "09/17/2025": 21524.5225
+      "09/17/2025": 21524.5225,
+      "11/19/2025": 21542.13294
     }
   }
 }

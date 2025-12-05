@@ -1,11 +1,15 @@
 {
   "RxCUI": "1946529",
-  "Name": "TRAMADOL ER 100 MG TABLET",
+  "Name": "Matrix Delivery 24 HR tramadol hydrochloride 100 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1946529",
+  "Ingredient_Name": "Matrix Delivery Hr Tramadol Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
-    "47335053188": {
+    "47335053183": {
       "06/21/2017": 2.09354,
       "07/19/2017": 2.183,
       "08/23/2017": 1.96548,
@@ -49,7 +53,7 @@
       "02/17/2021": 1.64344,
       "12/21/2022": 1.59653
     },
-    "47335053183": {
+    "47335053188": {
       "06/21/2017": 2.09354,
       "07/19/2017": 2.183,
       "08/23/2017": 1.96548,

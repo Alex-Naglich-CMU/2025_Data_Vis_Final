@@ -1,9 +1,13 @@
 {
   "RxCUI": "798133",
-  "Name": "ERY 2% PADS",
+  "Name": "erythromycin 20 MG/ML Medicated Pad [Ery]",
   "IsBrand": false,
   "Brand_RxCUI": "797452",
   "Generic_RxCUI": "798133",
+  "Ingredient_Name": "Erythromycin Mgml Medicated Pad",
+  "Manufacturer_Name": "Ery",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "45802096272": {
       "06/21/2017": 0.90709,
@@ -27,7 +31,8 @@
       "07/23/2025": 1.22222,
       "08/20/2025": 1.22177,
       "09/17/2025": 1.21212,
-      "10/22/2025": 1.21789
+      "10/22/2025": 1.21789,
+      "11/19/2025": 1.2148
     }
   }
 }

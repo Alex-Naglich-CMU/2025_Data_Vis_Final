@@ -1,11 +1,15 @@
 {
   "RxCUI": "997415",
-  "Name": "24HR ALLERGY-CONGST 180-240 MG",
+  "Name": "24 HR fexofenadine hydrochloride 180 MG / pseudoephedrine hydrochloride 240 MG Extended Release Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1190334",
   "Generic_RxCUI": "997415",
+  "Ingredient_Name": "Hr Fexofenadine Hydrochloride Pseudoephedrine Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
-    "70000060701": {
+    "00536139426": {
       "06/19/2024": 1.02918,
       "07/17/2024": 0.99,
       "08/21/2024": 0.90428,
@@ -13,8 +17,7 @@
       "12/18/2024": 0.88559,
       "01/22/2025": 0.8669
     },
-    "00536139426": {
-      "06/19/2024": 1.02918,
+    "43598089235": {
       "07/17/2024": 0.99,
       "08/21/2024": 0.90428,
       "11/20/2024": 0.8669,
@@ -29,7 +32,8 @@
       "12/18/2024": 0.88559,
       "01/22/2025": 0.8669
     },
-    "43598089235": {
+    "70000060701": {
+      "06/19/2024": 1.02918,
       "07/17/2024": 0.99,
       "08/21/2024": 0.90428,
       "11/20/2024": 0.8669,

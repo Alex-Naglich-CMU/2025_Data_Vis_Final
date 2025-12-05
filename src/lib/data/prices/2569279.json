@@ -1,9 +1,13 @@
 {
   "RxCUI": "2569279",
-  "Name": "MUCINEX INSTASOOTHE PAIN 2 MG",
+  "Name": "hexylresorcinol 2 MG Oral Lozenge",
   "IsBrand": true,
   "Brand_RxCUI": "2569279",
-  "Generic_RxCUI": null,
+  "Generic_RxCUI": "",
+  "Ingredient_Name": "Hexylresorcinol Lozenge",
+  "Manufacturer_Name": "",
+  "Strength": "2 MG",
+  "Form": "",
   "prices": {
     "72854026220": {
       "04/19/2023": 0.11615,

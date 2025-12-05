@@ -1,9 +1,13 @@
 {
   "RxCUI": "1544856",
-  "Name": "BUNAVAIL 6.3-1 MG FILM",
+  "Name": "buprenorphine 6.3 MG / naloxone 1 MG Buccal Film [Bunavail]",
   "IsBrand": true,
   "Brand_RxCUI": "1544856",
   "Generic_RxCUI": "1544854",
+  "Ingredient_Name": "Buprenorphine Naloxone Buccal Film",
+  "Manufacturer_Name": "Bunavail",
+  "Strength": "6.3 MG",
+  "Form": "",
   "prices": {
     "59385001630": {
       "08/01/2019": 15.79401,

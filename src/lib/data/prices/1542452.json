@@ -1,17 +1,14 @@
 {
   "RxCUI": "1542452",
-  "Name": "TUSSIN DM MAX LIQUID",
+  "Name": "dextromethorphan hydrobromide 2 MG/ML / guaifenesin 40 MG/ML Oral Suspension",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "1542452",
+  "Ingredient_Name": "Dextromethorphan Hydrobromide Mgml Guaifenesin Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "2 MG/ML",
+  "Form": "Suspension",
   "prices": {
-    "36800079934": {
-      "07/19/2017": 0.01278,
-      "10/18/2017": 0.01243,
-      "04/18/2018": 0.0131,
-      "08/22/2018": 0.01315,
-      "10/17/2018": 0.01309
-    },
     "36800079926": {
       "12/20/2017": 0.01672,
       "01/17/2018": 0.01663,
@@ -21,6 +18,13 @@
       "02/20/2019": 0.01782,
       "03/20/2019": 0.01784,
       "04/17/2019": 0.01713
+    },
+    "36800079934": {
+      "07/19/2017": 0.01278,
+      "10/18/2017": 0.01243,
+      "04/18/2018": 0.0131,
+      "08/22/2018": 0.01315,
+      "10/17/2018": 0.01309
     },
     "46122013926": {
       "12/20/2017": 0.01672,

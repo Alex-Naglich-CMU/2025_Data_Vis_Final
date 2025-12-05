@@ -1,15 +1,20 @@
 {
   "RxCUI": "2590643",
-  "Name": "DESCOVY 120-15 MG TABLET",
+  "Name": "emtricitabine 120 MG / tenofovir alafenamide 15 MG Oral Tablet [Descovy]",
   "IsBrand": true,
   "Brand_RxCUI": "2590643",
   "Generic_RxCUI": "2590641",
+  "Ingredient_Name": "Emtricitabine Tenofovir Alafenamide",
+  "Manufacturer_Name": "Descovy",
+  "Strength": "120 MG",
+  "Form": "",
   "prices": {
     "61958200501": {
       "04/23/2025": 71.07407,
       "05/21/2025": 71.2171,
       "07/23/2025": 71.27008,
-      "10/22/2025": 71.24258
+      "10/22/2025": 71.24258,
+      "11/19/2025": 71.27948
     }
   }
 }

@@ -4,11 +4,15 @@
   "IsBrand": true,
   "Brand_RxCUI": "1373504",
   "Generic_RxCUI": "1373503",
+  "Ingredient_Name": "Quartette",
+  "Manufacturer_Name": "",
+  "Strength": "",
+  "Form": "TABLET",
   "prices": {
-    "51285043187": {
+    "51285043165": {
       "06/21/2017": 4.04374
     },
-    "51285043165": {
+    "51285043187": {
       "06/21/2017": 4.04374
     }
   }

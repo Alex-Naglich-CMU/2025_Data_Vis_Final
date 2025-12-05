@@ -1,9 +1,13 @@
 {
   "RxCUI": "1013636",
-  "Name": "CALCITRENE 0.005% OINTMENT",
+  "Name": "calcipotriene 0.00005 MG/MG Topical Ointment [Calcitrene]",
   "IsBrand": false,
   "Brand_RxCUI": "198373",
   "Generic_RxCUI": "1013636",
+  "Ingredient_Name": "Calcipotriene Mgmg",
+  "Manufacturer_Name": "Calcitrene",
+  "Strength": "0.00005 MG/MG",
+  "Form": "",
   "prices": {
     "51672527803": {
       "06/21/2017": 3.41397,

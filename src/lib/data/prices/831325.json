@@ -1,9 +1,13 @@
 {
   "RxCUI": "831325",
-  "Name": "TAZTIA XT 300 MG CAPSULE",
+  "Name": "24 HR diltiazem hydrochloride 300 MG Extended Release Oral Capsule [Taztia]",
   "IsBrand": false,
   "Brand_RxCUI": "830801",
   "Generic_RxCUI": "831325",
+  "Ingredient_Name": "Hr Diltiazem Hydrochloride Extended Release",
+  "Manufacturer_Name": "Taztia",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "62037069930": {
       "05/19/2021": 0.6783,

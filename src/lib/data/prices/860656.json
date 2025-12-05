@@ -1,9 +1,13 @@
 {
   "RxCUI": "860656",
-  "Name": "ELESTAT 0.05% EYE DROPS",
+  "Name": "epinastine hydrochloride 0.5 MG/ML Ophthalmic Solution [Elestat]",
   "IsBrand": true,
   "Brand_RxCUI": "860656",
   "Generic_RxCUI": "860654",
+  "Ingredient_Name": "Epinastine Hydrochloride Mgml",
+  "Manufacturer_Name": "Elestat",
+  "Strength": "0.5 MG/ML",
+  "Form": "",
   "prices": {
     "00023920105": {
       "01/01/2018": 44.05737

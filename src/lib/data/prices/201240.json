@@ -1,9 +1,13 @@
 {
   "RxCUI": "201240",
-  "Name": "LAMICTAL 25 MG DISPER TABLET",
+  "Name": "lamotrigine 25 MG Tablet for Oral Suspension [Lamictal]",
   "IsBrand": true,
   "Brand_RxCUI": "201240",
   "Generic_RxCUI": "311264",
+  "Ingredient_Name": "Lamotrigine For",
+  "Manufacturer_Name": "Lamictal",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "00173052700": {
       "01/01/2019": 12.66961,

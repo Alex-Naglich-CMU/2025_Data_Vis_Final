@@ -1,9 +1,13 @@
 {
   "RxCUI": "1000128",
-  "Name": "DEPO-PROVERA 150 MG/ML VIAL",
+  "Name": "1 ML medroxyprogesterone acetate 150 MG/ML Injection [Depo-Provera]",
   "IsBrand": true,
   "Brand_RxCUI": "1000128",
   "Generic_RxCUI": "1000126",
+  "Ingredient_Name": "Medroxyprogesterone Mgml",
+  "Manufacturer_Name": "Depo-Provera",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00009074630": {
       "06/01/2017": 187.62963,
@@ -11,7 +15,8 @@
       "05/21/2025": 51.032,
       "06/18/2025": 50.716,
       "07/23/2025": 50.71,
-      "10/22/2025": 50.68167
+      "10/22/2025": 50.68167,
+      "11/19/2025": 50.7
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1790533",
-  "Name": "XTAMPZA ER 9 MG CAPSULE",
+  "Name": "Abuse-Deterrent 12 HR oxycodone 9 MG Extended Release Oral Capsule [Xtampza]",
   "IsBrand": true,
   "Brand_RxCUI": "1790533",
   "Generic_RxCUI": "1790527",
+  "Ingredient_Name": "Abuse-Deterrent Hr Oxycodone Extended Release",
+  "Manufacturer_Name": "Xtampza",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "24510011010": {
       "06/23/2021": 5.15533,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "2670449",
-  "Name": "ZITUVIO 25 MG TABLET",
+  "Name": "sitagliptin 25 MG Oral Tablet [Zituvio]",
   "IsBrand": true,
   "Brand_RxCUI": "2670449",
   "Generic_RxCUI": "665038",
+  "Ingredient_Name": "Sitagliptin",
+  "Manufacturer_Name": "Zituvio",
+  "Strength": "25 MG",
+  "Form": "",
   "prices": {
     "70710124003": {
       "06/18/2025": 10.09989,

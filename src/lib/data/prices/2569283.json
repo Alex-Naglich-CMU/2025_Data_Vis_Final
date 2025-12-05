@@ -1,9 +1,13 @@
 {
   "RxCUI": "2569283",
-  "Name": "HYDROXYCHLOROQUINE 300 MG TAB",
+  "Name": "hydroxychloroquine sulfate 300 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "2665284",
   "Generic_RxCUI": "2569283",
+  "Ingredient_Name": "Hydroxychloroquine",
+  "Manufacturer_Name": "",
+  "Strength": "300 MG",
+  "Form": "Tablet",
   "prices": {
     "16729056201": {
       "05/22/2024": 0.44337,
@@ -31,7 +35,8 @@
       "07/23/2025": 0.50394,
       "08/20/2025": 0.53327,
       "09/17/2025": 0.53423,
-      "10/22/2025": 0.53923
+      "10/22/2025": 0.53923,
+      "11/19/2025": 0.53896
     }
   }
 }

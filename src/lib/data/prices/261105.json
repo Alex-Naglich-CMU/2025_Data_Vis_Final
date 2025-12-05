@@ -1,9 +1,13 @@
 {
   "RxCUI": "261105",
-  "Name": "ENBREL 25 MG KIT",
+  "Name": "etanercept 25 MG/ML Injectable Solution [Enbrel]",
   "IsBrand": true,
   "Brand_RxCUI": "261105",
   "Generic_RxCUI": "253014",
+  "Ingredient_Name": "Etanercept Mgml Injectable",
+  "Manufacturer_Name": "Enbrel",
+  "Strength": "25 MG/ML",
+  "Form": "",
   "prices": {
     "58406042534": {
       "09/20/2017": 537.08643,

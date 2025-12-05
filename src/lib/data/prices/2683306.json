@@ -1,9 +1,13 @@
 {
   "RxCUI": "2683306",
-  "Name": "FUROSEMIDE 1,000 MG/100 ML VL",
+  "Name": "100 ML furosemide 10 MG/ML Injection",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "2683306",
+  "Ingredient_Name": "Furosemide Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "100 ML",
+  "Form": "Injection",
   "prices": {
     "00143915901": {
       "01/22/2025": 0.23341,

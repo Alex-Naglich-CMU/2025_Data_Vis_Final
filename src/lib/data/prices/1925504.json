@@ -1,9 +1,13 @@
 {
   "RxCUI": "1925504",
-  "Name": "QTERN 10 MG-5 MG TABLET",
+  "Name": "dapagliflozin 10 MG / saxagliptin 5 MG Oral Tablet [Qtern]",
   "IsBrand": true,
   "Brand_RxCUI": "1925504",
   "Generic_RxCUI": "1925498",
+  "Ingredient_Name": "Dapagliflozin Saxagliptin",
+  "Manufacturer_Name": "Qtern",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "00310678030": {
       "01/01/2019": 15.81547,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1145932",
-  "Name": "ORENCIA 125 MG/ML SYRINGE",
+  "Name": "1 ML abatacept 125 MG/ML Prefilled Syringe [Orencia]",
   "IsBrand": true,
   "Brand_RxCUI": "1145932",
   "Generic_RxCUI": "1145929",
+  "Ingredient_Name": "Abatacept Mgml Prefilled",
+  "Manufacturer_Name": "Orencia",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00003218811": {
       "08/23/2017": 917.92809,
@@ -35,7 +39,8 @@
       "07/23/2025": 1439.8905,
       "08/20/2025": 1440.9388,
       "09/17/2025": 1440.73632,
-      "10/22/2025": 1443.69066
+      "10/22/2025": 1443.69066,
+      "11/19/2025": 1443.76987
     },
     "3218811": {
       "1/1/2022": 1231.28693

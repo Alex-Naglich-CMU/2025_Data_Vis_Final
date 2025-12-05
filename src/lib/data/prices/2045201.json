@@ -1,9 +1,13 @@
 {
   "RxCUI": "2045201",
-  "Name": "FLAC OTIC OIL 0.01% EAR DROP",
+  "Name": "fluocinolone acetonide 0.1 MG/ML Otic Solution [Flac]",
   "IsBrand": false,
   "Brand_RxCUI": "1191299",
   "Generic_RxCUI": "2045201",
+  "Ingredient_Name": "Fluocinolone Acetonide Mgml Otic",
+  "Manufacturer_Name": "Flac",
+  "Strength": "0.1 MG/ML",
+  "Form": "",
   "prices": {
     "39328007920": {
       "05/19/2021": 2.02833,

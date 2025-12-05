@@ -1,9 +1,13 @@
 {
   "RxCUI": "639888",
-  "Name": "TRUVADA 200 MG-300 MG TABLET",
+  "Name": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]",
   "IsBrand": true,
   "Brand_RxCUI": "639888",
   "Generic_RxCUI": "476556",
+  "Ingredient_Name": "Emtricitabine Tenofovir Disoproxil Fumarate",
+  "Manufacturer_Name": "Truvada",
+  "Strength": "200 MG",
+  "Form": "",
   "prices": {
     "61958070101": {
       "12/20/2017": 50.61128,
@@ -34,7 +38,8 @@
       "07/23/2025": 59.49623,
       "08/20/2025": 59.50049,
       "09/17/2025": 59.57137,
-      "10/22/2025": 59.58095
+      "10/22/2025": 59.58095,
+      "11/19/2025": 59.64498
     }
   }
 }

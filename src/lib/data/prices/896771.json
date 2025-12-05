@@ -1,9 +1,13 @@
 {
   "RxCUI": "896771",
-  "Name": "LABETALOL HCL 100 MG/20 ML VL",
+  "Name": "labetalol hydrochloride 5 MG/ML Injectable Solution",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "896771",
+  "Ingredient_Name": "Labetalol Hydrochloride Mgml Injectable",
+  "Manufacturer_Name": "",
+  "Strength": "5 MG/ML",
+  "Form": "Solution",
   "prices": {
     "00143932001": {
       "10/23/2024": 0.1736,

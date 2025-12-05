@@ -1,9 +1,13 @@
 {
   "RxCUI": "998254",
-  "Name": "SUDOGEST COLD & ALLERGY TAB",
+  "Name": "chlorpheniramine maleate 4 MG / pseudoephedrine hydrochloride 60 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "998254",
+  "Ingredient_Name": "Chlorpheniramine Maleate Pseudoephedrine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "4 MG",
+  "Form": "Tablet",
   "prices": {
     "00904535124": {
       "06/21/2017": 0.05037,
@@ -62,7 +66,8 @@
       "07/23/2025": 0.0459,
       "08/20/2025": 0.04598,
       "09/17/2025": 0.04668,
-      "10/22/2025": 0.04659
+      "10/22/2025": 0.04659,
+      "11/19/2025": 0.0469
     },
     "00904535196": {
       "06/21/2017": 0.05037,

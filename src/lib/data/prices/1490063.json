@@ -1,9 +1,13 @@
 {
   "RxCUI": "1490063",
-  "Name": "TAKE ACTION 1.5 MG TABLET",
+  "Name": "levonorgestrel 1.5 MG Oral Tablet [Take Action]",
   "IsBrand": false,
   "Brand_RxCUI": "483325",
   "Generic_RxCUI": "1490063",
+  "Ingredient_Name": "Levonorgestrel",
+  "Manufacturer_Name": "Take Action",
+  "Strength": "1.5 MG",
+  "Form": "",
   "prices": {
     "51285010088": {
       "05/19/2021": 8.69276,

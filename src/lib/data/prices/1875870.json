@@ -1,9 +1,13 @@
 {
   "RxCUI": "1875870",
-  "Name": "ROWEEPRA 750 MG TABLET",
+  "Name": "levetiracetam 750 MG Oral Tablet [Roweepra]",
   "IsBrand": false,
   "Brand_RxCUI": "311290",
   "Generic_RxCUI": "1875870",
+  "Ingredient_Name": "Levetiracetam",
+  "Manufacturer_Name": "Roweepra",
+  "Strength": "750 MG",
+  "Form": "",
   "prices": {
     "69102010201": {
       "06/21/2017": 0.16503,

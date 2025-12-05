@@ -1,9 +1,13 @@
 {
   "RxCUI": "866303",
-  "Name": "TEGRETOL XR 100 MG TABLET",
+  "Name": "12 HR carbamazepine 100 MG Extended Release Oral Tablet [Tegretol]",
   "IsBrand": true,
   "Brand_RxCUI": "866303",
   "Generic_RxCUI": "199378",
+  "Ingredient_Name": "Hr Carbamazepine Extended Release",
+  "Manufacturer_Name": "Tegretol",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "00078051005": {
       "06/23/2021": 1.31099,
@@ -33,7 +37,8 @@
       "07/23/2025": 1.59116,
       "08/20/2025": 1.58993,
       "09/17/2025": 1.58621,
-      "10/22/2025": 1.58658
+      "10/22/2025": 1.58658,
+      "11/19/2025": 1.58717
     }
   }
 }

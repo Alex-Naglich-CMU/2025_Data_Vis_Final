@@ -4,6 +4,10 @@
   "IsBrand": true,
   "Brand_RxCUI": "749785",
   "Generic_RxCUI": "749784",
+  "Ingredient_Name": "Ortho Tri-Cyclen",
+  "Manufacturer_Name": "",
+  "Strength": "28 TABL",
+  "Form": "TABLET",
   "prices": {
     "50458019120": {
       "01/03/2018": 1.72176,

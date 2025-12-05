@@ -1,11 +1,15 @@
 {
   "RxCUI": "831196",
-  "Name": "TAZTIA XT 120 MG CAPSULE",
+  "Name": "24 HR diltiazem hydrochloride 120 MG Extended Release Oral Capsule [Taztia]",
   "IsBrand": false,
   "Brand_RxCUI": "830861",
   "Generic_RxCUI": "831196",
+  "Ingredient_Name": "Hr Diltiazem Hydrochloride Extended Release",
+  "Manufacturer_Name": "Taztia",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
-    "62037069690": {
+    "62037069630": {
       "05/19/2021": 0.2877,
       "06/23/2021": 0.29506,
       "07/21/2021": 0.28752,
@@ -93,7 +97,7 @@
       "06/19/2024": 0.21144,
       "07/17/2024": 0.17882
     },
-    "62037069630": {
+    "62037069690": {
       "05/19/2021": 0.2877,
       "06/23/2021": 0.29506,
       "07/21/2021": 0.28752,

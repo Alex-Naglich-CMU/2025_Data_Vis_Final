@@ -1,9 +1,13 @@
 {
   "RxCUI": "1918199",
-  "Name": "AIRDUO RESPICLICK 113-14 MCG",
+  "Name": "60 ACTUAT fluticasone propionate 0.113 MG/ACTUAT / salmeterol 0.014 MG/ACTUAT Dry Powder Inhaler [AirDuo]",
   "IsBrand": true,
   "Brand_RxCUI": "1918199",
   "Generic_RxCUI": "1918194",
+  "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Dry Inhaler",
+  "Manufacturer_Name": "AirDuo",
+  "Strength": "60 ACTU",
+  "Form": "",
   "prices": {
     "59310081206": {
       "01/01/2023": 385.20767,

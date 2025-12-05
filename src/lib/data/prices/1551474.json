@@ -1,9 +1,13 @@
 {
   "RxCUI": "1551474",
-  "Name": "CONTRAVE ER 8-90 MG TABLET",
+  "Name": "12 HR bupropion hydrochloride 90 MG / naltrexone hydrochloride 8 MG Extended Release Oral Tablet [Contrave]",
   "IsBrand": true,
   "Brand_RxCUI": "1551474",
   "Generic_RxCUI": "1551468",
+  "Ingredient_Name": "Hr Bupropion Hydrochloride Naltrexone Hydrochloride Extended Release",
+  "Manufacturer_Name": "Contrave",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "51267089099": {
       "07/21/2021": 2.42203,

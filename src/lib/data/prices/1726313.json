@@ -1,9 +1,13 @@
 {
   "RxCUI": "1726313",
-  "Name": "BOTOX COSMETIC 100 UNITS VIAL",
+  "Name": "onabotulinumtoxinA 100 UNT Injection [Botox Cosmetic]",
   "IsBrand": true,
   "Brand_RxCUI": "1726313",
   "Generic_RxCUI": "860192",
+  "Ingredient_Name": "Onabotulinumtoxina Unt",
+  "Manufacturer_Name": "Botox Cosmetic",
+  "Strength": "100 UNT",
+  "Form": "",
   "prices": {
     "00023923201": {
       "07/05/2017": 597.51847

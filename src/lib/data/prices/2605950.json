@@ -1,9 +1,13 @@
 {
   "RxCUI": "2605950",
-  "Name": "VENLAFAXINE BES ER 112.5 MG TB",
+  "Name": "24 HR venlafaxine 112.5 MG Extended Release Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "2605950",
+  "Ingredient_Name": "Hr Venlafaxine Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "52427063230": {
       "05/22/2024": 6.21628,
@@ -23,7 +27,8 @@
       "07/23/2025": 6.18689,
       "08/20/2025": 6.18783,
       "09/17/2025": 6.19044,
-      "10/22/2025": 6.19284
+      "10/22/2025": 6.19284,
+      "11/19/2025": 6.19026
     }
   }
 }

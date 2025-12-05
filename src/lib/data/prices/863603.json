@@ -1,9 +1,13 @@
 {
   "RxCUI": "863603",
-  "Name": "E.E.S. 200 MG/5 ML GRANULES",
+  "Name": "erythromycin ethylsuccinate 40 MG/ML Oral Suspension [E.E.S.]",
   "IsBrand": true,
   "Brand_RxCUI": "863603",
   "Generic_RxCUI": "686400",
+  "Ingredient_Name": "Erythromycin Ethylsuccinate Mgml",
+  "Manufacturer_Name": "E.E.S.",
+  "Strength": "40 MG/ML",
+  "Form": "",
   "prices": {
     "24338013402": {
       "07/19/2017": 3.64522,

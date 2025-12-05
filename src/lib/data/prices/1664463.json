@@ -1,9 +1,13 @@
 {
   "RxCUI": "1664463",
-  "Name": "ENVARSUS XR 1 MG TABLET",
+  "Name": "24 HR tacrolimus 1 MG Extended Release Oral Tablet [Envarsus]",
   "IsBrand": true,
   "Brand_RxCUI": "1664463",
   "Generic_RxCUI": "1664461",
+  "Ingredient_Name": "Hr Tacrolimus Extended Release",
+  "Manufacturer_Name": "Envarsus",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "68992301001": {
       "12/17/2021": 5.77873,

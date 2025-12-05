@@ -1,9 +1,13 @@
 {
   "RxCUI": "979115",
-  "Name": "RELISTOR 12 MG/0.6 ML VIAL",
+  "Name": "0.6 ML methylnaltrexone bromide 20 MG/ML Injection [Relistor]",
   "IsBrand": true,
   "Brand_RxCUI": "979115",
   "Generic_RxCUI": "979113",
+  "Ingredient_Name": "Methylnaltrexone Bromide Mgml",
+  "Manufacturer_Name": "Relistor",
+  "Strength": "0.6 ML",
+  "Form": "",
   "prices": {
     "65649055102": {
       "01/01/2023": 244.39591,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1091379",
-  "Name": "RITALIN 10 MG TABLET",
+  "Name": "methylphenidate hydrochloride 10 MG Oral Tablet [Ritalin]",
   "IsBrand": true,
   "Brand_RxCUI": "1091379",
   "Generic_RxCUI": "1091150",
+  "Ingredient_Name": "Methylphenidate Hydrochloride",
+  "Manufacturer_Name": "Ritalin",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "00078044005": {
       "07/21/2021": 0.90224,
@@ -19,12 +23,14 @@
       "09/18/2024": 1.13724,
       "07/23/2025": 1.13203,
       "08/20/2025": 1.1322,
-      "10/22/2025": 1.13173
+      "10/22/2025": 1.13173,
+      "11/19/2025": 1.13228
     },
     "66758027401": {
       "07/23/2025": 1.13203,
       "08/20/2025": 1.1322,
-      "10/22/2025": 1.13173
+      "10/22/2025": 1.13173,
+      "11/19/2025": 1.13228
     }
   }
 }

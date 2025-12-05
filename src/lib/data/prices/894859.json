@@ -1,9 +1,13 @@
 {
   "RxCUI": "894859",
-  "Name": "ACITRETIN 17.5 MG CAPSULE",
+  "Name": "acitretin 17.5 MG Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "894861",
   "Generic_RxCUI": "894859",
+  "Ingredient_Name": "Acitretin",
+  "Manufacturer_Name": "",
+  "Strength": "17.5 MG",
+  "Form": "Capsule",
   "prices": {
     "00093113856": {
       "12/18/2024": 12.74832,

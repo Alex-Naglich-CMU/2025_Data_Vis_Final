@@ -1,9 +1,13 @@
 {
   "RxCUI": "1988319",
-  "Name": "TIADYLT ER 300 MG CAPSULE",
+  "Name": "24 HR diltiazem hydrochloride 300 MG Extended Release Oral Capsule [Tiadylt]",
   "IsBrand": false,
   "Brand_RxCUI": "830801",
   "Generic_RxCUI": "1988319",
+  "Ingredient_Name": "Hr Diltiazem Hydrochloride Extended Release",
+  "Manufacturer_Name": "Tiadylt",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "68382074816": {
       "05/19/2021": 0.6783,
@@ -72,7 +76,8 @@
       "07/23/2025": 0.58182,
       "08/20/2025": 0.53943,
       "09/17/2025": 0.49306,
-      "10/22/2025": 0.43386
+      "10/22/2025": 0.43386,
+      "11/19/2025": 0.33742
     }
   }
 }

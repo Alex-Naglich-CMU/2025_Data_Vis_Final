@@ -1,9 +1,13 @@
 {
   "RxCUI": "1235049",
-  "Name": "HYDROCORT-PRAMOXINE 1%-1% CRM",
+  "Name": "hydrocortisone acetate 10 MG/ML / pramoxine hydrochloride 10 MG/ML Rectal Cream",
   "IsBrand": false,
   "Brand_RxCUI": "1360954",
   "Generic_RxCUI": "1235049",
+  "Ingredient_Name": "Hydrocortisone Mgml Pramoxine Hydrochloride Mgml Rectal",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG/ML",
+  "Form": "Cream",
   "prices": {
     "45802014464": {
       "05/19/2021": 3.75319,
@@ -63,7 +67,8 @@
       "07/23/2025": 3.42086,
       "08/20/2025": 3.47343,
       "09/17/2025": 3.44644,
-      "10/22/2025": 3.34587
+      "10/22/2025": 3.34587,
+      "11/19/2025": 3.25527
     }
   }
 }

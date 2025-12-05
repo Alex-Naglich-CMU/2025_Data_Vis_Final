@@ -1,9 +1,13 @@
 {
   "RxCUI": "1300272",
-  "Name": "KETODAN 2% FOAM",
+  "Name": "ketoconazole 20 MG/ML Topical Foam [Ketodan]",
   "IsBrand": false,
   "Brand_RxCUI": "728550",
   "Generic_RxCUI": "1300272",
+  "Ingredient_Name": "Ketoconazole Mgml",
+  "Manufacturer_Name": "Ketodan",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "43538053010": {
       "05/22/2024": 3.2135,
@@ -23,7 +27,8 @@
       "07/23/2025": 2.79004,
       "08/20/2025": 2.47227,
       "09/17/2025": 2.40461,
-      "10/22/2025": 2.361
+      "10/22/2025": 2.361,
+      "11/19/2025": 2.37678
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "1663728",
-  "Name": "MYORISAN 30 MG CAPSULE",
+  "Name": "isotretinoin 30 MG Oral Capsule [Myorisan]",
   "IsBrand": false,
   "Brand_RxCUI": "403930",
   "Generic_RxCUI": "1663728",
+  "Ingredient_Name": "Isotretinoin",
+  "Manufacturer_Name": "Myorisan",
+  "Strength": "30 MG",
+  "Form": "",
   "prices": {
     "61748030313": {
       "05/19/2021": 3.70893,

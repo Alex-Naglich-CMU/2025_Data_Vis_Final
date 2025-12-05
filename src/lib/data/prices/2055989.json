@@ -1,9 +1,13 @@
 {
   "RxCUI": "2055989",
-  "Name": "ANNOVERA VAGINAL RING",
+  "Name": "273 DAY ethinyl estradiol 0.000542 MG/HR / segesterone acetate 0.00625 MG/HR Vaginal System [Annovera]",
   "IsBrand": true,
   "Brand_RxCUI": "2055989",
   "Generic_RxCUI": "2055983",
+  "Ingredient_Name": "Day Ethinyl Estradiol Mghr Segesterone Mghr Vaginal System",
+  "Manufacturer_Name": "Annovera",
+  "Strength": "273 DAY",
+  "Form": "",
   "prices": {
     "50261031301": {
       "5/1/2022": 2109.7923,
@@ -22,7 +26,8 @@
       "07/23/2025": 2317.94024,
       "08/20/2025": 2317.45277,
       "09/17/2025": 2318.48926,
-      "10/22/2025": 2316.10463
+      "10/22/2025": 2316.10463,
+      "11/19/2025": 2314.75074
     },
     "68308075201": {
       "12/18/2024": 2320.12731,
@@ -35,7 +40,8 @@
       "07/23/2025": 2317.94024,
       "08/20/2025": 2317.45277,
       "09/17/2025": 2318.48926,
-      "10/22/2025": 2316.10463
+      "10/22/2025": 2316.10463,
+      "11/19/2025": 2314.75074
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "RxCUI": "876523",
-  "Name": "TWYNSTA 80-10 MG TABLET",
+  "Name": "amlodipine 10 MG / telmisartan 80 MG Oral Tablet [Twynsta]",
   "IsBrand": true,
   "Brand_RxCUI": "876523",
   "Generic_RxCUI": "876519",
+  "Ingredient_Name": "Amlodipine Telmisartan",
+  "Manufacturer_Name": "Twynsta",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "00597012737": {
       "01/03/2018": 6.91374,

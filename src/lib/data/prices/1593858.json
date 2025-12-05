@@ -1,9 +1,13 @@
 {
   "RxCUI": "1593858",
-  "Name": "VYVANSE 10 MG CAPSULE",
+  "Name": "lisdexamfetamine dimesylate 10 MG Oral Capsule [Vyvanse]",
   "IsBrand": true,
   "Brand_RxCUI": "1593858",
   "Generic_RxCUI": "1593856",
+  "Ingredient_Name": "Lisdexamfetamine Dimesylate",
+  "Manufacturer_Name": "Vyvanse",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
     "59417010110": {
       "11/22/2017": 8.64815,
@@ -36,7 +40,8 @@
       "07/23/2025": 12.36088,
       "08/20/2025": 12.35828,
       "09/17/2025": 12.35771,
-      "10/22/2025": 12.35482
+      "10/22/2025": 12.35482,
+      "11/19/2025": 12.35405
     }
   }
 }

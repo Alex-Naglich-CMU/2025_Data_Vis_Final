@@ -1,9 +1,13 @@
 {
   "RxCUI": "1091500",
-  "Name": "RITALIN 5 MG TABLET",
+  "Name": "methylphenidate hydrochloride 5 MG Oral Tablet [Ritalin]",
   "IsBrand": true,
   "Brand_RxCUI": "1091500",
   "Generic_RxCUI": "1091497",
+  "Ingredient_Name": "Methylphenidate Hydrochloride",
+  "Manufacturer_Name": "Ritalin",
+  "Strength": "5 MG",
+  "Form": "",
   "prices": {
     "00078043905": {
       "03/15/2024": 0.79858,

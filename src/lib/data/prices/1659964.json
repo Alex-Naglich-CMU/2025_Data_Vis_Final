@@ -1,9 +1,13 @@
 {
   "RxCUI": "1659964",
-  "Name": "THERAFLU FLU & SORE THROAT",
+  "Name": "acetaminophen 650 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution",
   "IsBrand": true,
   "Brand_RxCUI": "1659964",
-  "Generic_RxCUI": null,
+  "Generic_RxCUI": "",
+  "Ingredient_Name": "Acetaminophen Pheniramine Maleate Phenylephrine Hydrochloride For",
+  "Manufacturer_Name": "",
+  "Strength": "650 MG",
+  "Form": "Solution",
   "prices": {
     "00067791606": {
       "06/21/2017": 0.90445,

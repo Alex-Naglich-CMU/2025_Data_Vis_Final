@@ -1,9 +1,13 @@
 {
   "RxCUI": "206715",
-  "Name": "DELESTROGEN 100 MG/5 ML VIAL",
+  "Name": "estradiol valerate 20 MG/ML Injectable Solution [Delestrogen]",
   "IsBrand": true,
   "Brand_RxCUI": "206715",
   "Generic_RxCUI": "310190",
+  "Ingredient_Name": "Estradiol Valerate Mgml Injectable",
+  "Manufacturer_Name": "Delestrogen",
+  "Strength": "20 MG/ML",
+  "Form": "",
   "prices": {
     "42023011101": {
       "05/19/2021": 35.849,
@@ -21,7 +25,8 @@
       "07/23/2025": 35.92835,
       "08/20/2025": 35.88987,
       "09/17/2025": 35.92059,
-      "10/22/2025": 35.92075
+      "10/22/2025": 35.92075,
+      "11/19/2025": 35.87214
     }
   }
 }

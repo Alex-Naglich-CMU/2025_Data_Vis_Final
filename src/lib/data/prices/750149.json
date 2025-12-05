@@ -4,6 +4,10 @@
   "IsBrand": true,
   "Brand_RxCUI": "750149",
   "Generic_RxCUI": "749783",
+  "Ingredient_Name": "Zithromax Z-Pak",
+  "Manufacturer_Name": "",
+  "Strength": "250 MG",
+  "Form": "TABLET",
   "prices": {
     "00069306075": {
       "06/01/2017": 30.03971,

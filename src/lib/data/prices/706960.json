@@ -1,9 +1,13 @@
 {
   "RxCUI": "706960",
-  "Name": "SENSIPAR 90 MG TABLET",
+  "Name": "cinacalcet 90 MG Oral Tablet [Sensipar]",
   "IsBrand": true,
   "Brand_RxCUI": "706960",
   "Generic_RxCUI": "432400",
+  "Ingredient_Name": "Cinacalcet",
+  "Manufacturer_Name": "Sensipar",
+  "Strength": "90 MG",
+  "Form": "",
   "prices": {
     "55513007530": {
       "11/15/2017": 77.96076,

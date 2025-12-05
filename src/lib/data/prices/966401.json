@@ -1,9 +1,13 @@
 {
   "RxCUI": "966401",
-  "Name": "LEVO-T 88 MCG TABLET",
+  "Name": "levothyroxine sodium 0.088 MG Oral Tablet [Levo-T]",
   "IsBrand": false,
   "Brand_RxCUI": "966253",
   "Generic_RxCUI": "966401",
+  "Ingredient_Name": "Levothyroxine Sodium",
+  "Manufacturer_Name": "Levo-T",
+  "Strength": "0.088 MG",
+  "Form": "",
   "prices": {
     "55466010711": {
       "05/19/2021": 0.23326,
@@ -106,7 +110,8 @@
       "07/23/2025": 0.0604,
       "08/20/2025": 0.06076,
       "09/17/2025": 0.058,
-      "10/22/2025": 0.05764
+      "10/22/2025": 0.05764,
+      "11/19/2025": 0.05605
     }
   }
 }

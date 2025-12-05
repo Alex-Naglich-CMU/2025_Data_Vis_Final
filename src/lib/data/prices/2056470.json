@@ -1,9 +1,13 @@
 {
   "RxCUI": "2056470",
-  "Name": "TIROSINT-SOL 50 MCG/ML SOLN",
+  "Name": "levothyroxine sodium 0.05 MG/ML Oral Solution [Tirosint]",
   "IsBrand": true,
   "Brand_RxCUI": "2056470",
   "Generic_RxCUI": "2056468",
+  "Ingredient_Name": "Levothyroxine Sodium Mgml",
+  "Manufacturer_Name": "Tirosint",
+  "Strength": "0.05 MG/ML",
+  "Form": "",
   "prices": {
     "71858011505": {
       "05/22/2024": 4.39344,

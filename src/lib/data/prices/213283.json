@@ -1,9 +1,13 @@
 {
   "RxCUI": "213283",
-  "Name": "DROXIA 300 MG CAPSULE",
+  "Name": "hydroxyurea 300 MG Oral Capsule [Droxia]",
   "IsBrand": true,
   "Brand_RxCUI": "213283",
   "Generic_RxCUI": "200343",
+  "Ingredient_Name": "Hydroxyurea",
+  "Manufacturer_Name": "Droxia",
+  "Strength": "300 MG",
+  "Form": "",
   "prices": {
     "00003633617": {
       "05/22/2024": 0.72712,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "828353",
-  "Name": "CYCLOBENZAPRINE ER 30 MG CAP",
+  "Name": "24 HR cyclobenzaprine hydrochloride 30 MG Extended Release Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "828355",
   "Generic_RxCUI": "828353",
+  "Ingredient_Name": "Hr Cyclobenzaprine Hydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Capsule",
   "prices": {
     "00093192106": {
       "06/19/2024": 1.52034,

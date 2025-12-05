@@ -1,9 +1,13 @@
 {
   "RxCUI": "1745114",
-  "Name": "TALTZ 80 MG/ML SYRINGE",
+  "Name": "1 ML ixekizumab 80 MG/ML Prefilled Syringe [Taltz]",
   "IsBrand": true,
   "Brand_RxCUI": "1745114",
   "Generic_RxCUI": "1745112",
+  "Ingredient_Name": "Ixekizumab Mgml Prefilled",
+  "Manufacturer_Name": "Taltz",
+  "Strength": "1 ML",
+  "Form": "",
   "prices": {
     "00002772401": {
       "08/21/2024": 6704.09833,

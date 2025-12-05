@@ -1,15 +1,19 @@
 {
   "RxCUI": "282465",
-  "Name": "CALCIUM CARBONATE 1.25 GM TAB",
+  "Name": "calcium carbonate 1250 MG Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "346210",
   "Generic_RxCUI": "282465",
+  "Ingredient_Name": "Calcium Carbonate",
+  "Manufacturer_Name": "",
+  "Strength": "1250 MG",
+  "Form": "Tablet",
   "prices": {
-    "00054812025": {
+    "00054412025": {
       "06/21/2017": 0.05443,
       "07/19/2017": 0.07653
     },
-    "00054412025": {
+    "00054812025": {
       "06/21/2017": 0.05443,
       "07/19/2017": 0.07653
     }

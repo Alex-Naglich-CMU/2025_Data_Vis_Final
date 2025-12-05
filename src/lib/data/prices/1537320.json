@@ -1,9 +1,13 @@
 {
   "RxCUI": "1537320",
-  "Name": "PHAZYME 250 MG SOFTGEL",
+  "Name": "simethicone 250 MG Oral Capsule [Phazyme]",
   "IsBrand": true,
   "Brand_RxCUI": "1537320",
   "Generic_RxCUI": "412111",
+  "Ingredient_Name": "Simethicone",
+  "Manufacturer_Name": "Phazyme",
+  "Strength": "250 MG",
+  "Form": "",
   "prices": {
     "00132021112": {
       "09/18/2024": 0.25984,
@@ -17,7 +21,8 @@
       "07/23/2025": 0.25417,
       "08/20/2025": 0.25667,
       "09/17/2025": 0.25214,
-      "10/22/2025": 0.25875
+      "10/22/2025": 0.25875,
+      "11/19/2025": 0.2581
     }
   }
 }

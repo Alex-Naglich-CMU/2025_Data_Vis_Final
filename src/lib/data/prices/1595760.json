@@ -1,9 +1,13 @@
 {
   "RxCUI": "1595760",
-  "Name": "HYSINGLA ER 80 MG TABLET",
+  "Name": "Abuse-Deterrent 24 HR hydrocodone bitartrate 80 MG Extended Release Oral Tablet [Hysingla]",
   "IsBrand": true,
   "Brand_RxCUI": "1595760",
   "Generic_RxCUI": "1595758",
+  "Ingredient_Name": "Abuse-Deterrent Hr Hydrocodone Bitartrate Extended Release",
+  "Manufacturer_Name": "Hysingla",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "59011027560": {
       "06/21/2017": 27.76643,

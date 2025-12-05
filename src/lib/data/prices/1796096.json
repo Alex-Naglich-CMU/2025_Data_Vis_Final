@@ -1,9 +1,13 @@
 {
   "RxCUI": "1796096",
-  "Name": "JENTADUETO XR 5 MG-1,000 MG TB",
+  "Name": "24 HR linagliptin 5 MG / metformin hydrochloride 1000 MG Extended Release Oral Tablet [Jentadueto]",
   "IsBrand": true,
   "Brand_RxCUI": "1796096",
   "Generic_RxCUI": "1796094",
+  "Ingredient_Name": "Hr Linagliptin Metformin Hydrochloride Extended Release",
+  "Manufacturer_Name": "Jentadueto",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "00597027533": {
       "11/22/2017": 12.16667,
@@ -38,7 +42,8 @@
       "07/23/2025": 16.89448,
       "08/20/2025": 16.89839,
       "09/17/2025": 16.89658,
-      "10/22/2025": 16.89683
+      "10/22/2025": 16.89683,
+      "11/19/2025": 16.89003
     },
     "00597027581": {
       "11/22/2017": 12.16667,
@@ -73,7 +78,8 @@
       "07/23/2025": 16.89448,
       "08/20/2025": 16.89839,
       "09/17/2025": 16.89658,
-      "10/22/2025": 16.89683
+      "10/22/2025": 16.89683,
+      "11/19/2025": 16.89003
     }
   }
 }

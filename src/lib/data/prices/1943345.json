@@ -1,9 +1,13 @@
 {
   "RxCUI": "1943345",
-  "Name": "CAROSPIR 25 MG/5 ML SUSPENSION",
+  "Name": "spironolactone 5 MG/ML Oral Suspension [Carospir]",
   "IsBrand": true,
   "Brand_RxCUI": "1943345",
   "Generic_RxCUI": "104232",
+  "Ingredient_Name": "Spironolactone Mgml",
+  "Manufacturer_Name": "Carospir",
+  "Strength": "5 MG/ML",
+  "Form": "",
   "prices": {
     "46287002004": {
       "10/01/2021": 3.13498,

@@ -1,9 +1,13 @@
 {
   "RxCUI": "849052",
-  "Name": "LAMICTAL ODT 50 MG TABLET",
+  "Name": "lamotrigine 50 MG Disintegrating Oral Tablet [Lamictal]",
   "IsBrand": true,
   "Brand_RxCUI": "849052",
   "Generic_RxCUI": "252478",
+  "Ingredient_Name": "Lamotrigine Disintegrating",
+  "Manufacturer_Name": "Lamictal",
+  "Strength": "50 MG",
+  "Form": "",
   "prices": {
     "00173077402": {
       "01/01/2018": 10.69935,

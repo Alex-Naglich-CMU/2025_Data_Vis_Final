@@ -1,9 +1,13 @@
 {
   "RxCUI": "890918",
-  "Name": "ESTRACE 0.01% CREAM",
+  "Name": "estradiol 0.1 MG/ML Vaginal Cream [Estrace]",
   "IsBrand": true,
   "Brand_RxCUI": "890918",
   "Generic_RxCUI": "310169",
+  "Ingredient_Name": "Estradiol Mgml Vaginal",
+  "Manufacturer_Name": "Estrace",
+  "Strength": "0.1 MG/ML",
+  "Form": "",
   "prices": {
     "00430375414": {
       "06/23/2021": 7.81572,

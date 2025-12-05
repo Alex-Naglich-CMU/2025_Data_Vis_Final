@@ -1,9 +1,13 @@
 {
   "RxCUI": "1014675",
-  "Name": "GNP ALL DAY ALLERGY 10 MG SFGL",
+  "Name": "cetirizine hydrochloride 10 MG Oral Capsule",
   "IsBrand": false,
   "Brand_RxCUI": "1549337",
   "Generic_RxCUI": "1014675",
+  "Ingredient_Name": "Cetirizine Hydrochloride",
+  "Manufacturer_Name": "",
+  "Strength": "10 MG",
+  "Form": "Capsule",
   "prices": {
     "46122061363": {
       "7/20/2022": 0.16008,
@@ -21,7 +25,8 @@
       "05/21/2025": 0.19462,
       "06/18/2025": 0.19396,
       "07/23/2025": 0.19347,
-      "08/20/2025": 0.19313
+      "08/20/2025": 0.19313,
+      "11/19/2025": 0.1938
     }
   }
 }

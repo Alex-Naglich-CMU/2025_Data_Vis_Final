@@ -1,9 +1,13 @@
 {
   "RxCUI": "686441",
-  "Name": "INVEGA ER 3 MG TABLET",
+  "Name": "24 HR paliperidone 3 MG Extended Release Oral Tablet [Invega]",
   "IsBrand": true,
   "Brand_RxCUI": "686441",
   "Generic_RxCUI": "672567",
+  "Ingredient_Name": "Hr Paliperidone Extended Release",
+  "Manufacturer_Name": "Invega",
+  "Strength": "24 HR",
+  "Form": "",
   "prices": {
     "50458055001": {
       "05/19/2021": 39.20411,

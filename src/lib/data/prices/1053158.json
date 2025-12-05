@@ -1,9 +1,13 @@
 {
   "RxCUI": "1053158",
-  "Name": "BAZA PROTECT CREAM",
+  "Name": "dimethicone 10 MG/ML / zinc oxide 120 MG/ML Topical Cream [Baza-Protect]",
   "IsBrand": false,
   "Brand_RxCUI": "637565",
   "Generic_RxCUI": "1053158",
+  "Ingredient_Name": "Dimethicone Mgml Zinc Oxide Mgml",
+  "Manufacturer_Name": "Baza-Protect",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "11701004614": {
       "07/19/2017": 0.06014,

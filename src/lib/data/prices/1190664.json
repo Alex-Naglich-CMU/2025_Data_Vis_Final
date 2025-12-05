@@ -1,9 +1,13 @@
 {
   "RxCUI": "1190664",
-  "Name": "ISOPTO ATROPINE 1% EYE DROP",
+  "Name": "atropine sulfate 10 MG/ML Ophthalmic Solution [Isopto Atropine]",
   "IsBrand": true,
   "Brand_RxCUI": "1190664",
   "Generic_RxCUI": "1190655",
+  "Ingredient_Name": "Atropine Mgml",
+  "Manufacturer_Name": "Isopto Atropine",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "00065030355": {
       "10/23/2019": 8.922,

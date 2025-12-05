@@ -1,9 +1,13 @@
 {
   "RxCUI": "1114485",
-  "Name": "PRAMIPEXOLE ER 3.75 MG TABLET",
+  "Name": "24 HR pramipexole dihydrochloride 3.75 MG Extended Release Oral Tablet",
   "IsBrand": false,
   "Brand_RxCUI": "1114487",
   "Generic_RxCUI": "1114485",
+  "Ingredient_Name": "Hr Pramipexole Dihydrochloride Extended Release",
+  "Manufacturer_Name": "",
+  "Strength": "24 HR",
+  "Form": "Tablet",
   "prices": {
     "33342021307": {
       "05/22/2024": 5.71186,

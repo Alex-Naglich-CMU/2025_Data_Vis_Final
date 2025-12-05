@@ -1,9 +1,13 @@
 {
   "RxCUI": "328176",
-  "Name": "PRIMIDONE 125 MG TABLET",
+  "Name": "primidone 125 MG Oral Tablet",
   "IsBrand": false,
-  "Brand_RxCUI": null,
+  "Brand_RxCUI": "",
   "Generic_RxCUI": "328176",
+  "Ingredient_Name": "Primidone",
+  "Manufacturer_Name": "",
+  "Strength": "125 MG",
+  "Form": "Tablet",
   "prices": {
     "52817011710": {
       "05/22/2024": 1.24554,
@@ -23,7 +27,8 @@
       "07/23/2025": 1.31762,
       "08/20/2025": 1.31712,
       "09/17/2025": 1.31187,
-      "10/22/2025": 1.29988
+      "10/22/2025": 1.29988,
+      "11/19/2025": 1.30322
     }
   }
 }

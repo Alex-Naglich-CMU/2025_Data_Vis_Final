@@ -1,9 +1,13 @@
 {
   "RxCUI": "835835",
-  "Name": "GENGRAF 100 MG CAPSULE",
+  "Name": "cyclosporine, modified 100 MG Oral Capsule [Gengraf]",
   "IsBrand": true,
   "Brand_RxCUI": "835835",
   "Generic_RxCUI": "241834",
+  "Ingredient_Name": "Cyclosporine, Modified",
+  "Manufacturer_Name": "Gengraf",
+  "Strength": "100 MG",
+  "Form": "",
   "prices": {
     "00074310932": {
       "05/22/2024": 6.70291,

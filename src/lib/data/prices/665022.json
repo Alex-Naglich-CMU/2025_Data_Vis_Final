@@ -1,9 +1,13 @@
 {
   "RxCUI": "665022",
-  "Name": "NOXAFIL 40 MG/ML SUSPENSION",
+  "Name": "posaconazole 40 MG/ML Oral Suspension [Noxafil]",
   "IsBrand": true,
   "Brand_RxCUI": "665022",
   "Generic_RxCUI": "665019",
+  "Ingredient_Name": "Posaconazole Mgml",
+  "Manufacturer_Name": "Noxafil",
+  "Strength": "40 MG/ML",
+  "Form": "",
   "prices": {
     "00085132801": {
       "01/05/2018": 12.73321,

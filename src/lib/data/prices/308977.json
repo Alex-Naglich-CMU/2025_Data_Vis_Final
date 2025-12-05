@@ -1,9 +1,13 @@
 {
   "RxCUI": "308977",
-  "Name": "CARBATROL ER 200 MG CAPSULE",
+  "Name": "12 HR carbamazepine 200 MG Extended Release Oral Capsule [Carbatrol]",
   "IsBrand": true,
   "Brand_RxCUI": "308977",
   "Generic_RxCUI": "200133",
+  "Ingredient_Name": "Hr Carbamazepine Extended Release",
+  "Manufacturer_Name": "Carbatrol",
+  "Strength": "12 HR",
+  "Form": "",
   "prices": {
     "54092017212": {
       "05/19/2021": 1.70584,
@@ -32,7 +36,8 @@
       "07/23/2025": 1.69691,
       "08/20/2025": 1.69677,
       "09/17/2025": 1.69615,
-      "10/22/2025": 1.69136
+      "10/22/2025": 1.69136,
+      "11/19/2025": 1.69115
     }
   }
 }

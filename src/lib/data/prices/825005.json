@@ -1,9 +1,13 @@
 {
   "RxCUI": "825005",
-  "Name": "SANCUSO 3.1 MG/24 HR PATCH",
+  "Name": "168 HR granisetron 0.129 MG/HR Transdermal System [Sancuso]",
   "IsBrand": true,
   "Brand_RxCUI": "825005",
   "Generic_RxCUI": "825003",
+  "Ingredient_Name": "Hr Granisetron Mghr Transdermal System",
+  "Manufacturer_Name": "Sancuso",
+  "Strength": "168 HR",
+  "Form": "",
   "prices": {
     "42747072601": {
       "02/01/2018": 506.28699,

@@ -1,16 +1,21 @@
 {
   "RxCUI": "1943497",
-  "Name": "NINJACOF-D LIQUID",
+  "Name": "chlophedianol hydrochloride 2.5 MG/ML / pseudoephedrine hydrochloride 6 MG/ML / pyrilamine maleate 2.5 MG/ML Oral Solution",
   "IsBrand": true,
   "Brand_RxCUI": "1943497",
-  "Generic_RxCUI": null,
+  "Generic_RxCUI": "",
+  "Ingredient_Name": "Chlophedianol Hydrochloride Mgml Pseudoephedrine Hydrochloride Mgml Pyrilamine Maleate Mgml",
+  "Manufacturer_Name": "",
+  "Strength": "2.5 MG/ML",
+  "Form": "Solution",
   "prices": {
     "23359003416": {
       "02/19/2025": 0.08333,
       "03/19/2025": 0.08324,
       "08/20/2025": 0.08344,
       "09/17/2025": 0.08266,
-      "10/22/2025": 0.08344
+      "10/22/2025": 0.08344,
+      "11/19/2025": 0.08304
     }
   }
 }

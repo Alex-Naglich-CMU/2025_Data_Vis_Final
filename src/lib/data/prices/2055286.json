@@ -1,9 +1,13 @@
 {
   "RxCUI": "2055286",
-  "Name": "INVELTYS 1% EYE DROP",
+  "Name": "loteprednol etabonate 10 MG/ML Ophthalmic Suspension [Inveltys]",
   "IsBrand": true,
   "Brand_RxCUI": "2055286",
   "Generic_RxCUI": "2055281",
+  "Ingredient_Name": "Loteprednol Etabonate Mgml",
+  "Manufacturer_Name": "Inveltys",
+  "Strength": "10 MG/ML",
+  "Form": "",
   "prices": {
     "71571012128": {
       "07/01/2019": 83.66557,
@@ -32,7 +36,8 @@
       "07/23/2025": 103.02679,
       "08/20/2025": 103.045,
       "09/17/2025": 103.098,
-      "10/22/2025": 103.01867
+      "10/22/2025": 103.01867,
+      "11/19/2025": 102.99235
     }
   }
 }

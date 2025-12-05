@@ -1,16 +1,14 @@
 {
   "RxCUI": "1245449",
-  "Name": "VYTORIN 10-80 MG TABLET",
+  "Name": "ezetimibe 10 MG / simvastatin 80 MG Oral Tablet [Vytorin]",
   "IsBrand": true,
   "Brand_RxCUI": "1245449",
   "Generic_RxCUI": "476351",
+  "Ingredient_Name": "Ezetimibe Simvastatin",
+  "Manufacturer_Name": "Vytorin",
+  "Strength": "10 MG",
+  "Form": "",
   "prices": {
-    "66582031531": {
-      "01/05/2018": 10.90061
-    },
-    "66582031554": {
-      "01/05/2018": 10.90061
-    },
     "78206017701": {
       "01/01/2025": 13.15243
     },
