@@ -58,11 +58,12 @@
 	const colors = { red: '#C9381A', blue: '#3A7CA5', green: '#2D6A4F' };
 	let containerWidth = $state(0);
 	const availableWidth = $derived(containerWidth - 40); // Account for content-wrapper padding
-	const width = $derived(availableWidth * 0.6 || 900);
-	const height = $derived(width * 0.6);
-	const margin = { top: 40, right: 40, bottom: 60, left: 80 };
-	const smallWidth = $derived(availableWidth * 0.35); // Slightly less to account for sidebar padding
-	const smallHeight = $derived(smallWidth * 0.5);
+	const width = $derived(availableWidth * 0.58 || 900);
+	const height = $derived(width * 0.7);
+	const margin = { top: 40, right: 5, bottom: 40, left: 40 };
+	const smallWidth = $derived(availableWidth * 0.4); // Slightly less to account for sidebar padding
+	const smallHeight = $derived(smallWidth * 0.7);
+	const smallMargin = { top: 40, right: 20, bottom: 40, left: 0 };
 
 	// ================================================================================================
 	// DATA LOADING
@@ -143,49 +144,49 @@
 	// ================================================================================================
 	// EFFECTS - ZOOM BEHAVIOR
 	// ================================================================================================
-	function setupZoom(
-		svgRef: SVGSVGElement,
-		baseX: d3.ScaleTime<number, number>,
-		baseY: d3.ScaleLinear<number, number>,
-		w: number,
-		h: number,
-		onZoom: (newX: any, newY: any) => void
-	) {
-		const zoomBehavior = d3
-			.zoom<SVGSVGElement, unknown>()
-			.scaleExtent([1, 10])
-			.translateExtent([
-				[0, 0],
-				[w, h]
-			])
-			.on('zoom', (event: any) => {
-				onZoom(event.transform.rescaleX(baseX), event.transform.rescaleY(baseY));
-			});
-		d3.select(svgRef).call(zoomBehavior);
-	}
+	// function setupZoom(
+	// 	svgRef: SVGSVGElement,
+	// 	baseX: d3.ScaleTime<number, number>,
+	// 	baseY: d3.ScaleLinear<number, number>,
+	// 	w: number,
+	// 	h: number,
+	// 	onZoom: (newX: any, newY: any) => void
+	// ) {
+	// 	const zoomBehavior = d3
+	// 		.zoom<SVGSVGElement, unknown>()
+	// 		.scaleExtent([1, 10])
+	// 		.translateExtent([
+	// 			[0, 0],
+	// 			[w, h]
+	// 		])
+	// 		.on('zoom', (event: any) => {
+	// 			onZoom(event.transform.rescaleX(baseX), event.transform.rescaleY(baseY));
+	// 		});
+	// 	d3.select(svgRef).call(zoomBehavior);
+	// }
 
-	$effect(() => {
-		if (mainSvgRef)
-			setupZoom(mainSvgRef, baseXScale, baseYScale, width, height, (x, y) => {
-				xScale = x;
-				yScale = y;
-			});
-	});
+	// $effect(() => {
+	// 	if (mainSvgRef)
+	// 		setupZoom(mainSvgRef, baseXScale, baseYScale, width, height, (x, y) => {
+	// 			xScale = x;
+	// 			yScale = y;
+	// 		});
+	// });
 
-	$effect(() => {
-		if (genericSvgRef)
-			setupZoom(
-				genericSvgRef,
-				baseGenericXScale,
-				baseGenericYScale,
-				smallWidth,
-				smallHeight,
-				(x, y) => {
-					genericXScale = x;
-					genericYScale = y;
-				}
-			);
-	});
+	// $effect(() => {
+	// 	if (genericSvgRef)
+	// 		setupZoom(
+	// 			genericSvgRef,
+	// 			baseGenericXScale,
+	// 			baseGenericYScale,
+	// 			smallWidth,
+	// 			smallHeight,
+	// 			(x, y) => {
+	// 				genericXScale = x;
+	// 				genericYScale = y;
+	// 			}
+	// 		);
+	// });
 
 	// ================================================================================================
 	// HELPER FUNCTIONS
@@ -242,24 +243,24 @@
 	) {
 		if (!ref || dataLength === 0) return;
 
-		const multiFormat = (date: Date) =>
-			(d3.timeSecond(date) < date
-				? d3.timeFormat('.%L')
-				: d3.timeMinute(date) < date
-					? d3.timeFormat(':%S')
-					: d3.timeHour(date) < date
-						? d3.timeFormat('%I:%M')
-						: d3.timeDay(date) < date
-							? d3.timeFormat('%I %p')
-							: d3.timeMonth(date) < date
-								? d3.timeWeek(date) < date
-									? d3.timeFormat('%a %d')
-									: d3.timeFormat('%b %d')
-								: d3.timeYear(date) < date
-									? d3.timeFormat('%b')
-									: d3.timeFormat('%Y'))(date);
+		// const multiFormat = (date: Date) =>
+		// 	(d3.timeSecond(date) < date
+		// 		? d3.timeFormat('.%L')
+		// 		: d3.timeMinute(date) < date
+		// 			? d3.timeFormat(':%S')
+		// 			: d3.timeHour(date) < date
+		// 				? d3.timeFormat('%I:%M')
+		// 				: d3.timeDay(date) < date
+		// 					? d3.timeFormat('%I %p')
+		// 					: d3.timeMonth(date) < date
+		// 						? d3.timeWeek(date) < date
+		// 							? d3.timeFormat('%a %d')
+		// 							: d3.timeFormat('%b %d')
+		// 						: d3.timeYear(date) < date
+		// 							? d3.timeFormat('%b')
+		// 							: d3.timeFormat('%Y'))(date);
 
-		d3.select(ref).call(d3.axisBottom(scale).tickFormat(multiFormat as any));
+		d3.select(ref).call(d3.axisBottom(scale).tickFormat(d3.timeFormat('%Y') as any));
 	}
 
 	function renderYAxis(
@@ -283,18 +284,16 @@
 		<p>Error loading data: {error}</p>
 	</div>
 {:else}
-	<div class="text-center text-5xl">How much cheaper are generics?</div>
+	<h3>How much cheaper are generics?</h3>
 	<div class="width-tracker" bind:clientWidth={containerWidth}>
 		<div class="content-wrapper" bind:this={contentWrapperRef}>
 			<!---------------------------------- MAIN CHART ---------------------------------->
 			<div class="chart-wrapper relative">
-				<div
-					class="absolute z-10 w-full text-center text-3xl"
-					style="font-family: Calibri, sans-serif; font-weight: bold; color: {colors.red};"
-				>
+				<h5 class='generic-label'>Brand Version:</h5>
+				<h4 class='drug-label-brand -top-10 z-10 w-full text-center'>
 					{brandDrug ? brandDrug.friendlyName.toUpperCase() : 'Brand'}
-				</div>
-				<svg {width} {height} role="img" bind:this={mainSvgRef}>
+				</h4>
+				<svg class='chart' {width} {height} role="img" bind:this={mainSvgRef}>
 					<defs>
 						<clipPath id="timeseries-plot-clip">
 							<rect
@@ -330,21 +329,17 @@
 						)}
 					</g>
 
-					<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}
-					></g>
+					<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}></g>
 					<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
 					{@render axisLabels(width, height)}
 				</svg>
-				<span class="text-center text-sm text-gray-500">
-					Left click to drag, mouse wheel to zoom, mouseover for tooltip</span
-				>
 			</div>
 
 			<!---------------------------------- SIDE BAR ---------------------------------->
 			<div class="side-bar">
-				<div class="controls mb-6">
+				<div class="controls">
 					<div class="flex items-center justify-between">
-						<label for="drug-select" class="text-xl">Select Drug:</label>
+						<label for="drug-select">Select Drug:</label>
 						<span class="text-sm text-gray-500"> * For a 30 day supply</span>
 					</div>
 					<ul class="drug-list" role="listbox">
@@ -371,13 +366,10 @@
 
 				<!---------------------------------- GENERIC CHART ---------------------------------->
 				<div class="individual-charts-container">
-					<div class="small-chart-wrapper relative">
-						<div
-							class="absolute -top-10 z-10 w-full text-center text-3xl"
-							style="font-family: Calibri, sans-serif; font-weight: bold; color: {colors.blue};"
-						>
-							<div>Generic:</div>
-							<div>{genericDrug ? genericDrug.friendlyName.toUpperCase() : ''}</div>
+					<div class='relative'>
+						<div>
+							<h5 class='generic-label'>Generic Version:</h5>
+							<h4 class='drug-label -top-10 z-10 w-full text-center'>{genericDrug ? genericDrug.friendlyName : ''}</h4>
 						</div>
 						<svg width={smallWidth} height={smallHeight} role="img" bind:this={genericSvgRef}>
 							<!-- Clipping Path Definition -->
@@ -386,8 +378,8 @@
 									<rect
 										x={margin.left}
 										y={margin.top}
-										width={smallWidth - margin.left - margin.right}
-										height={smallHeight - margin.top - margin.bottom}
+										width={smallWidth - smallMargin.left - smallMargin.right}
+										height={smallHeight - smallMargin.top - smallMargin.bottom}
 									/>
 								</clipPath>
 							</defs>
@@ -420,8 +412,7 @@
 								transform="translate(0,{smallHeight - margin.bottom})"
 								bind:this={genericXAxisRef}
 							></g>
-							<g class="y-axis" transform="translate({margin.left},0)" bind:this={genericYAxisRef}
-							></g>
+							<g class="y-axis" transform="translate({margin.left},0)" bind:this={genericYAxisRef}></g>
 
 							{@render axisLabels(smallWidth, smallHeight)}
 						</svg>
@@ -468,8 +459,7 @@
 					{#if savings !== undefined && savingsPercent !== undefined}
 						<div class="tooltip-row savings">
 							<span class="label" style="color: {colors.green}">Savings:</span>
-							<span class="value" style="color: {colors.green}"
-								>${savings.toFixed(2)} ({savingsPercent.toFixed(2)}%)</span
+							<span class="value" style="color: {colors.green}">${savings.toFixed(2)} ({savingsPercent.toFixed(2)}%)</span
 							>
 						</div>
 					{/if}
@@ -481,35 +471,12 @@
 
 <!---------------------------------- SNIPPETS ---------------------------------->
 {#snippet axisLabels(width: number, height: number)}
-	<!-- X Axis Label -->
-	<!-- <text
-		text-anchor="middle"
-		x={width / 2}
-		y={height - 10}
-		font-family="Arial, sans-serif"
-		font-size="14px"
-		font-weight="600"
-	>
-		Time
-	</text> -->
 
-	<!-- Y Axis Label -->
-	<!-- <text
-		text-anchor="middle"
-		transform="rotate(-90)"
-		x={-height / 2}
-		y={20}
-		font-family="Arial, sans-serif"
-		font-size="14px"
-		font-weight="600"
-	>
-		Price ($ Per 30 Day Supply)
-	</text> -->
 {/snippet}
 
 {#snippet chartLine(linePath: string, color: string, generic: boolean)}
 	{#if linePath}
-		<path d={linePath} fill="none" style="stroke: {color}" stroke-width={generic ? 4 : 2} />
+		<path d={linePath} fill="none" style="stroke: {color}" stroke-width=2 />
 	{/if}
 {/snippet}
 
@@ -602,11 +569,54 @@
 		color: red;
 	}
 
-	/* p {
+	h1 {
+		font-size: 5em;
+		font-weight: bold;
+	}
+
+	h2 {
+		font-size: 2.5em;
+		font-weight: bold;
+	}
+
+	h3 {
+		font-size: 1.75em;
+		font-weight: bold;
+	}
+
+	h4 {
+		font-family: fustat;
+		font-size: 1.3em;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	
+	h5  {
+		font-family: fustat;
+		font-size: 1em;
+		font-weight: normal;
+		text-transform: uppercase;
+	}
+
+	p {
+		font-family: fustat;
+		font-size: 1em;
+		font-weight: normal;
+	}
+
+	p a {
 		font-family: fustat;
 		font-size: 16px;
 		font-weight: normal;
-	} */
+		color: inherit;
+		text-decoration: underline;
+	}
+
+	p b {
+		font-family: fustat;
+		font-size: 16px;
+		font-weight: bold;
+	}
 
 	.drug-list {
 		list-style: none;
@@ -614,7 +624,7 @@
 		margin: 10px 0;
 		max-height: 200px;
 		overflow-y: auto;
-		border: 2px solid rgba(128, 128, 128, 0.5);
+		border: 1px solid #989898;
 		border-radius: 4px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -627,8 +637,8 @@
 		font-family: fustat;
 		font-size: 14px;
 		background-color: rgba(75, 75, 75, 0.2);
-		border-bottom: 1px solid rgba(128, 128, 128, 0.5);
-		border-right: 1px solid rgba(128, 128, 128, 0.5);
+		border-bottom: 1px solid #989898;
+		border-right: 1px solid #989898;
 	}
 
 	.drug-list-item:nth-child(even) {
@@ -663,15 +673,15 @@
 	.content-wrapper {
 		display: flex;
 		justify-content: left;
-		align-items: top;
-		border: 3px solid #aaa;
-		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+		align-items: start;
+		border: 1px solid #ccc;
+		box-shadow: 0 0 3px #ccc inset;
 		box-sizing: border-box;
 		position: relative;
 	}
 
 	.chart-wrapper {
-		padding: 10px 0 0 0;
+		padding: 15px;
 		flex: 1;
 		display: flex;
 		flex-direction: column;
@@ -679,10 +689,10 @@
 	}
 
 	.side-bar {
-		padding: 10px 10px 0 20px;
+		padding: 15px 15px 15px 15px;
 		display: flex;
 		flex-direction: column;
-		border-left: 3px solid #aaa;
+		border-left: 1px solid #ccc;
 	}
 
 	svg {
@@ -693,11 +703,11 @@
 		position: absolute;
 		background: white;
 		color: #000;
-		border: 2px solid #333;
+		border: 1px solid #ccc;
 		border-radius: 8px;
 		padding: 12px;
 		pointer-events: none;
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+		box-shadow: 0 0 3px #ccc;
 		z-index: 1000;
 		min-width: 200px;
 		transform: translateY(-50%);
@@ -747,7 +757,21 @@
 		justify-content: space-between;
 		align-items: flex-start;
 		margin-top: 40px;
-		gap: 60px;
 		max-width: 1200px;
 	}
+
+	.generic-label {
+		font-family: Antonio;
+	}
+
+	.drug-label {
+		font-size: 1.3em;
+		color: #3A7CA5;
+	}
+
+	.drug-label-brand {
+		font-size: 1.3em;
+		color: #C9381A;
+	}
+
 </style>

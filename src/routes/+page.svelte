@@ -18,21 +18,6 @@
 		}
 	});
 
-	let clicked = false;
-
-	let spinDiv = () => {
-		const div = document.getElementById('you-spin-me-right-round');
-		if (div) {
-			div.style.transition = 'transform 2s';
-			if (clicked) {
-				div.style.transform = 'rotateY(180deg)';
-			} else {
-				div.style.transform = 'rotateY(0deg)';
-			}
-			clicked = !clicked;
-		}
-	};
-
 </script>
 
 <div class="title-holder">
@@ -124,11 +109,8 @@
 	</p>
 </div>
 
-<div id="you-spin-me-right-round" style="perspective: 2000px; transform-style: preserve-3d;">
+<div>
 	<TimeSeriesComparison /> 
-
-	<button onclick={() => spinDiv()}>Click</button>
-
 	<AnimatedSeries />
 </div>
 
@@ -138,44 +120,43 @@
 	}
 
 	h1 {
-		font-size: 96px;
+		font-size: 5em;
 		font-weight: bold;
 	}
 
 	h2 {
-		font-size: 40px;
+		font-size: 2.5em;
 		font-weight: bold;
 	}
 
 	h3 {
-		font-family: antonio;
-		font-size: 32px;
+		font-size: 1.75em;
 		font-weight: bold;
 	}
 
 	h4 {
 		font-family: fustat;
-		font-size: 20px;
+		font-size: 1.3em;
 		font-weight: 700;
 		text-transform: uppercase;
 	}
-	/* 
+	
 	h5 {
 		font-family: fustat;
-		font-size: 20px;
+		font-size: 1em;
 		font-weight: normal;
 		text-transform: uppercase;
-	} */
+	}
 
 	p {
 		font-family: fustat;
-		font-size: 16px;
+		font-size: 1em;
 		font-weight: normal;
 	}
 
 	p a {
 		font-family: fustat;
-		font-size: 16px;
+		font-size: 1em;
 		font-weight: normal;
 		color: inherit;
 		text-decoration: underline;
@@ -183,7 +164,7 @@
 
 	p b {
 		font-family: fustat;
-		font-size: 16px;
+		font-size: 1em;
 		font-weight: bold;
 	}
 

@@ -32,9 +32,8 @@ body[data-theme='dark'] {
 /* Axis Labels styling */
 .x-axis text,
 .y-axis text {
-	font-family: Calibri, sans-serif;
-	font-size: 5em;
-	font-weight: bold;
+	font-family: fustat;
+	font-size: 4em;
 }
 
 /* Tick Marks */
@@ -48,8 +47,7 @@ body[data-theme='dark'] {
 /* Tick labels */
 .x-axis .tick text,
 .y-axis .tick text {
-	font-family: Calibri, sans-serif;
-	font-size: 1.6em;
-	font-weight: bold;
+	font-family: fustat;
+	font-size: 1.1em;
 	fill: currentColor;
 }
