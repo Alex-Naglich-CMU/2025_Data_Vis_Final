@@ -6,9 +6,7 @@
 	import { isDarkMode } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
 
-	// ================================================================================================
 	// PROPS & STATE
-	// ================================================================================================
 	const drugSearchTerms: Record<string, string> = {
 		'617320': 'lipitor', // brand - LIPITOR 40 MG TABLET
 		'617311': 'atorvastatin', // generic - ATORVASTATIN 40 MG TABLET
@@ -52,9 +50,7 @@
 	let cursorY = $state(0);
 	let contentWrapperRef = $state<HTMLDivElement>();
 
-	// ================================================================================================
 	// LAYOUT CONSTANTS
-	// ================================================================================================
 	const colors = { red: '#C9381A', blue: '#3A7CA5', green: '#2D6A4F' };
 	let containerWidth = $state(0);
 	const availableWidth = $derived(containerWidth - 40); // Account for content-wrapper padding
@@ -65,9 +61,7 @@
 	const smallHeight = $derived(smallWidth * 0.7);
 	const smallMargin = { top: 40, right: 20, bottom: 40, left: 0 };
 
-	// ================================================================================================
 	// DATA LOADING
-	// ================================================================================================
 	onMount(async () => {
 		try {
 			drugsData = await loadDrugData(drugSearchTerms);
@@ -86,9 +80,7 @@
 		}
 	});
 
-	// ================================================================================================
 	// DATA PROCESSING
-	// ================================================================================================
 	const selectedDrug = $derived(drugsData[selectedDrugIndex]);
 	const brandDrug = $derived(
 		selectedDrug ? drugsData.find((d) => d.rxcui === selectedDrug.brandRxcui) || null : null
@@ -101,9 +93,7 @@
 	const genericChartData = $derived(getChartPoints(genericDrug));
 	const allDataPoints = $derived([...brandChartData, ...genericChartData]);
 
-	// ================================================================================================
 	// CHART SCALES & PATHS
-	// ================================================================================================
 	// Main chart
 	const mainScales = $derived(createScales(allDataPoints, width, height, margin));
 	const baseXScale = $derived(mainScales.xScale);
@@ -131,9 +121,7 @@
 	let genericXAxisRef = $state<SVGGElement>();
 	let genericYAxisRef = $state<SVGGElement>();
 
-	// ================================================================================================
 	// EFFECTS - AXES RENDERING
-	// ================================================================================================
 	$effect(() => {
 		renderXAxis(xAxisRef, xScale, allDataPoints.length);
 		renderYAxis(yAxisRef, yScale, allDataPoints.length);
@@ -141,56 +129,7 @@
 		renderYAxis(genericYAxisRef, genericYScale, genericChartData.length);
 	});
 
-	// ================================================================================================
-	// EFFECTS - ZOOM BEHAVIOR
-	// ================================================================================================
-	// function setupZoom(
-	// 	svgRef: SVGSVGElement,
-	// 	baseX: d3.ScaleTime<number, number>,
-	// 	baseY: d3.ScaleLinear<number, number>,
-	// 	w: number,
-	// 	h: number,
-	// 	onZoom: (newX: any, newY: any) => void
-	// ) {
-	// 	const zoomBehavior = d3
-	// 		.zoom<SVGSVGElement, unknown>()
-	// 		.scaleExtent([1, 10])
-	// 		.translateExtent([
-	// 			[0, 0],
-	// 			[w, h]
-	// 		])
-	// 		.on('zoom', (event: any) => {
-	// 			onZoom(event.transform.rescaleX(baseX), event.transform.rescaleY(baseY));
-	// 		});
-	// 	d3.select(svgRef).call(zoomBehavior);
-	// }
-
-	// $effect(() => {
-	// 	if (mainSvgRef)
-	// 		setupZoom(mainSvgRef, baseXScale, baseYScale, width, height, (x, y) => {
-	// 			xScale = x;
-	// 			yScale = y;
-	// 		});
-	// });
-
-	// $effect(() => {
-	// 	if (genericSvgRef)
-	// 		setupZoom(
-	// 			genericSvgRef,
-	// 			baseGenericXScale,
-	// 			baseGenericYScale,
-	// 			smallWidth,
-	// 			smallHeight,
-	// 			(x, y) => {
-	// 				genericXScale = x;
-	// 				genericYScale = y;
-	// 			}
-	// 		);
-	// });
-
-	// ================================================================================================
 	// HELPER FUNCTIONS
-	// ================================================================================================
 	function createScales(
 		data: ChartPoint[],
 		widthVal: number,
@@ -243,23 +182,6 @@
 	) {
 		if (!ref || dataLength === 0) return;
 
-		// const multiFormat = (date: Date) =>
-		// 	(d3.timeSecond(date) < date
-		// 		? d3.timeFormat('.%L')
-		// 		: d3.timeMinute(date) < date
-		// 			? d3.timeFormat(':%S')
-		// 			: d3.timeHour(date) < date
-		// 				? d3.timeFormat('%I:%M')
-		// 				: d3.timeDay(date) < date
-		// 					? d3.timeFormat('%I %p')
-		// 					: d3.timeMonth(date) < date
-		// 						? d3.timeWeek(date) < date
-		// 							? d3.timeFormat('%a %d')
-		// 							: d3.timeFormat('%b %d')
-		// 						: d3.timeYear(date) < date
-		// 							? d3.timeFormat('%b')
-		// 							: d3.timeFormat('%Y'))(date);
-
 		d3.select(ref).call(d3.axisBottom(scale).tickFormat(d3.timeFormat('%Y') as any));
 	}
 
@@ -274,7 +196,7 @@
 	}
 </script>
 
-<!---------------------------------- CONTENT AREA ---------------------------------->
+<!--- CONTENT AREA --->
 {#if loading}
 	<div class="loading">
 		<p>Loading drug data...</p>
@@ -287,12 +209,14 @@
 	<h3>How much cheaper are generics?</h3>
 	<div class="width-tracker" bind:clientWidth={containerWidth}>
 		<div class="content-wrapper" bind:this={contentWrapperRef}>
-			<!---------------------------------- MAIN CHART ---------------------------------->
+			<!--- MAIN CHART --->
 			<div class="chart-wrapper relative">
-				<h5 class='generic-label'>Brand Version:</h5>
-				<h4 class='drug-label-brand -top-10 z-10 w-full text-center'>
-					{brandDrug ? brandDrug.friendlyName.toUpperCase() : 'Brand'}
-				</h4>
+				<div class="chart-header">
+					<h5 class='generic-label'>Brand Version:</h5>
+					<h4 class='drug-label-brand'>
+						{brandDrug ? brandDrug.friendlyName.toUpperCase() : 'Brand'}
+					</h4>
+				</div>
 				<svg class='chart' {width} {height} role="img" bind:this={mainSvgRef}>
 					<defs>
 						<clipPath id="timeseries-plot-clip">
@@ -308,25 +232,8 @@
 					<g clip-path="url(#timeseries-plot-clip)">
 						{@render chartLine(brandLinePath, colors.red, true)}
 						{@render chartLine(genericLinePath, colors.blue, false)}
-						{@render dataPoints(brandChartData, xScale, yScale, colors.red)}
-						{@render dataPoints(genericChartData, xScale, yScale, colors.blue)}
-						{@render monthlyHoverZones(
-							allDataPoints,
-							xScale,
-							margin,
-							height,
-							width,
-							(monthDate) => {
-								const brandPrice = findPriceForMonth(brandChartData, monthDate);
-								const genericPrice = findPriceForMonth(genericChartData, monthDate);
-								if (brandPrice !== undefined || genericPrice !== undefined) {
-									tooltipData = { date: monthDate, brandPrice, genericPrice };
-								}
-							},
-							() => {
-								tooltipData = null;
-							}
-						)}
+						{@render dataPoints(brandChartData, xScale, yScale, colors.red, true)}
+						{@render dataPoints(genericChartData, xScale, yScale, colors.blue, false)}
 					</g>
 
 					<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}></g>
@@ -335,7 +242,7 @@
 				</svg>
 			</div>
 
-			<!---------------------------------- SIDE BAR ---------------------------------->
+			<!--- SIDE BAR --->
 			<div class="side-bar">
 				<div class="controls">
 					<div class="flex items-center justify-between">
@@ -364,12 +271,12 @@
 					</ul>
 				</div>
 
-				<!---------------------------------- GENERIC CHART ---------------------------------->
+				<!--- GENERIC CHART --->
 				<div class="individual-charts-container">
 					<div class='relative'>
-						<div>
+						<div class="chart-header">
 							<h5 class='generic-label'>Generic Version:</h5>
-							<h4 class='drug-label -top-10 z-10 w-full text-center'>{genericDrug ? genericDrug.friendlyName : ''}</h4>
+							<h4 class='drug-label'>{genericDrug ? genericDrug.friendlyName : ''}</h4>
 						</div>
 						<svg width={smallWidth} height={smallHeight} role="img" bind:this={genericSvgRef}>
 							<!-- Clipping Path Definition -->
@@ -387,23 +294,7 @@
 							<!-- Data Drawing Elements with clipping -->
 							<g clip-path="url(#generic-plot-clip)">
 								{@render chartLine(smallGenericLinePath, colors.blue, false)}
-								<!-- {@render dataPoints(genericChartData, genericXScale, genericYScale, colors.blue)} -->
-								{@render monthlyHoverZones(
-									genericChartData,
-									genericXScale,
-									margin,
-									smallHeight,
-									smallWidth,
-									(monthDate) => {
-										const price = findPriceForMonth(genericChartData, monthDate);
-										if (price !== undefined) {
-											tooltipData = { date: monthDate, genericPrice: price };
-										}
-									},
-									() => {
-										tooltipData = null;
-									}
-								)}
+								{@render dataPoints(genericChartData, genericXScale, genericYScale, colors.blue, false)}
 							</g>
 
 							<!-- Axes -->
@@ -420,7 +311,7 @@
 				</div>
 			</div>
 
-			<!---------------------------------- TOOLTIP (inside content-wrapper for proper positioning because oh my god it hates scrolling otherwise)) ---------------------------------->
+			<!--- TOOLTIP --->
 			{#if tooltipData}
 				{@const dateStr = tooltipData.date.toLocaleDateString('en-US', {
 					month: 'long',
@@ -469,7 +360,7 @@
 	</div>
 {/if}
 
-<!---------------------------------- SNIPPETS ---------------------------------->
+<!--- SNIPPETS --->
 {#snippet axisLabels(width: number, height: number)}
 
 {/snippet}
@@ -484,73 +375,37 @@
 	data: ChartPoint[],
 	xScale: d3.ScaleTime<number, number>,
 	yScale: d3.ScaleLinear<number, number>,
-	color: string
+	color: string,
+	isBrand: boolean
 )}
 	{#each data as point}
 		<circle
 			cx={xScale(point.date)}
 			cy={yScale(point.price)}
-			r="0"
+			r="3"
 			fill={color}
 			stroke={$isDarkMode ? '#ddd' : '#222'}
-			stroke-width="0.0"
-			style="pointer-events: none;"
+			style="cursor: pointer; pointer-events: all;"
+			onmouseenter={(e) => {
+				if (isBrand) {
+					const genericPrice = findPriceForMonth(genericChartData, point.date);
+					tooltipData = { date: point.date, brandPrice: point.price, genericPrice };
+				} else {
+					const brandPrice = findPriceForMonth(brandChartData, point.date);
+					tooltipData = { date: point.date, brandPrice, genericPrice: point.price };
+				}
+				cursorX = e.clientX;
+				cursorY = e.clientY;
+			}}
+			onmouseleave={() => {
+				tooltipData = null;
+			}}
+			onmousemove={(e) => {
+				cursorX = e.clientX;
+				cursorY = e.clientY;
+			}}
 		/>
 	{/each}
-{/snippet}
-
-{#snippet monthlyHoverZones(
-	data: ChartPoint[],
-	xScale: d3.ScaleTime<number, number>,
-	margin: { top: number; bottom: number },
-	height: number,
-	width: number,
-	onHover: (monthDate: Date) => void,
-	onLeave: () => void
-)}
-	{#if data.length > 0}
-		{@const minDate = d3.min(data, (d) => d.date) ?? new Date()}
-		{@const maxDate = d3.max(data, (d) => d.date) ?? new Date()}
-		{@const monthStarts = d3.utcMonth.range(d3.utcMonth.floor(minDate), d3.utcMonth.ceil(maxDate))}
-		{#each monthStarts as monthStart}
-			{@const nextMonth = d3.utcMonth.offset(monthStart, 1)}
-			{@const midMonth = new Date(
-				Date.UTC(monthStart.getUTCFullYear(), monthStart.getUTCMonth(), 15)
-			)}
-			{@const x1 = xScale(monthStart)}
-			{@const x2 = xScale(nextMonth)}
-			{@const xMid = xScale(midMonth)}
-			{@const isActive = tooltipData?.date === midMonth}
-
-			<rect
-				x={x1}
-				y={margin.top}
-				width={x2 - x1}
-				height={height - margin.top - margin.bottom}
-				fill="grey"
-				opacity={isActive ? 0.3 : 0}
-				style="cursor: crosshair; pointer-events: all;"
-				role="button"
-				tabindex="0"
-				onmouseenter={() => onHover(midMonth)}
-				onmouseleave={onLeave}
-				onmousemove={(e) => {
-					cursorX = e.clientX;
-					cursorY = e.clientY;
-				}}
-			/>
-			<line
-				x1={xMid}
-				x2={xMid}
-				y1={margin.top}
-				y2={height - margin.bottom}
-				stroke={$isDarkMode ? '#ddd' : '#222'}
-				stroke-width="2"
-				opacity={isActive ? 0.3 : 0}
-				style="pointer-events: none;"
-			/>
-		{/each}
-	{/if}
 {/snippet}
 
 <style>
@@ -664,8 +519,6 @@
 		outline-offset: -2px;
 	}
 
-	/* Axis styling is in app.css */
-
 	.width-tracker {
 		margin: 20px 40px;
 	}
@@ -673,11 +526,13 @@
 	.content-wrapper {
 		display: flex;
 		justify-content: left;
-		align-items: start;
+		align-items: stretch;
 		border: 1px solid #ccc;
 		box-shadow: 0 0 3px #ccc inset;
 		box-sizing: border-box;
 		position: relative;
+		user-select: none;
+		-webkit-user-select: none;
 	}
 
 	.chart-wrapper {
@@ -688,11 +543,43 @@
 		min-width: 0;
 	}
 
+	.chart-header {
+		margin-bottom: 10px;
+	}
+
+	.chart-header h5 {
+		margin: 0 0 4px 0;
+	}
+
+	.chart-header h4 {
+		margin: 0;
+		text-align: center;
+	}
+
+	.chart-wrapper svg {
+		margin-top: auto;
+	}
+
 	.side-bar {
-		padding: 15px 15px 15px 15px;
+		padding: 15px;
 		display: flex;
 		flex-direction: column;
 		border-left: 1px solid #ccc;
+	}
+
+	.controls {
+		flex-shrink: 0;
+		padding-bottom: 40px;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.controls > div:first-child {
+		margin-bottom: 8px;
+	}
+
+	.individual-charts-container {
+		margin-top: auto;
+		padding-top: 40px;
 	}
 
 	svg {
@@ -752,14 +639,6 @@
 		color: #000;
 	}
 
-	.individual-charts-container {
-		display: flex;
-		justify-content: space-between;
-		align-items: flex-start;
-		margin-top: 40px;
-		max-width: 1200px;
-	}
-
 	.generic-label {
 		font-family: Antonio;
 	}
@@ -773,5 +652,4 @@
 		font-size: 1.3em;
 		color: #C9381A;
 	}
-
 </style>
