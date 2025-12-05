@@ -33,6 +33,7 @@
 	let cursorX = $state(0);
 	let cursorY = $state(0);
 	let animationprogress = $state(0);
+	let chartContainerRef = $state<HTMLDivElement>();
 
 	// ================================================================================================
 	// LAYOUT CONSTANTS
@@ -215,7 +216,7 @@
 		const yScale = d3
 			.scaleLinear()
 			.range([heightVal - marginVal.bottom, marginVal.top])
-			.domain([0, hasData ? (d3.max(data, (d) => d.price * 1.2) ?? 100) : 100])
+			.domain([0, hasData ? (d3.max(data, (d) => d.price * 1.04) ?? 100) : 100])
 			.nice();
 
 		return { xScale, yScale };
@@ -305,7 +306,7 @@
 	<div class="width-tracker" bind:clientWidth={containerWidth}>
 		<div class="content-wrapper">
 			<!---------------------------------- MAIN CHART ---------------------------------->
-			<div class="chart-wrapper">
+			<div class="chart-wrapper" bind:this={chartContainerRef}>
 				<svg {width} {height} role="img" bind:this={mainSvgRef}>
 					<defs>
 						<clipPath id="animated-series-clip">
@@ -361,6 +362,31 @@
 				<span class="text-center text-sm text-gray-500">
 					Left click to drag, mouse wheel to zoom, mouseover for tooltip
 				</span>
+
+				<!---------------------------------- TOOLTIP (inside chart-wrapper for proper positioning because oh my god it hates scrolling otherwise) ---------------------------------->
+				{#if tooltipData}
+					{@const dateStr = tooltipData.date.toLocaleDateString('en-US', {
+						month: 'long',
+						year: 'numeric'
+					})}
+					{@const containerRect = chartContainerRef?.getBoundingClientRect()}
+					{@const tooltipX = containerRect ? cursorX - containerRect.left + 15 : 0}
+					{@const tooltipY = containerRect ? cursorY - containerRect.top : 0}
+
+					<div class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
+						<div class="tooltip-date"><strong>{dateStr}</strong></div>
+
+						{#each Array.from(tooltipData.prices.entries()) as [label, price]}
+							{@const lineData = linePaths.find((l) => l.label === label)}
+							<div class="tooltip-row">
+								<span class="label" style="color: {lineData?.color || '#000'}">
+									{label}:
+								</span>
+								<span class="value">${price.toFixed(2)}</span>
+							</div>
+						{/each}
+					</div>
+				{/if}
 			</div>
 
 			<!---------------------------------- SIDE BAR ---------------------------------->
@@ -387,7 +413,7 @@
 								aria-selected={isSelected}
 								tabindex="0"
 								style="border-left: 4px solid {color}; {isSelected
-									? `background-color: ${color}20; color: ${color};`
+									? `background-color: ${color}70; color: ${color};`
 									: ''}"
 							>
 								<span class="checkmark">{isSelected ? '✓' : ''}</span>
@@ -395,7 +421,12 @@
 
 								<div style="flex-grow: 1; text-align: right;">
 									<!-- This is for showing the inflation info if you like -->
-									<input type="checkbox" aria-hidden="true" onclick={(e) => e.stopPropagation()} />
+									<input
+										type="checkbox"
+										class="rounded"
+										aria-hidden="true"
+										onclick={(e) => e.stopPropagation()}
+									/>
 								</div>
 							</li>
 						{/each}
@@ -406,32 +437,10 @@
 	</div>
 {/if}
 
-<!---------------------------------- TOOLTIP ---------------------------------->
-{#if tooltipData}
-	{@const dateStr = tooltipData.date.toLocaleDateString('en-US', {
-		month: 'long',
-		year: 'numeric'
-	})}
-
-	<div class="tooltip" style="left: {cursorX}px; top: {cursorY}px;">
-		<div class="tooltip-date"><strong>{dateStr}</strong></div>
-
-		{#each Array.from(tooltipData.prices.entries()) as [label, price]}
-			{@const lineData = linePaths.find((l) => l.label === label)}
-			<div class="tooltip-row">
-				<span class="label" style="color: {lineData?.color || '#000'}">
-					{label}:
-				</span>
-				<span class="value">${price.toFixed(2)}</span>
-			</div>
-		{/each}
-	</div>
-{/if}
-
 <!---------------------------------- SNIPPETS ---------------------------------->
 {#snippet chartLine(linePath: string, color: string, isBrand: boolean)}
 	{#if linePath}
-		<path d={linePath} fill="none" style="stroke: {color}" stroke-width="4" />
+		<path d={linePath} fill="none" style="stroke: {color}" stroke-width="3" />
 	{/if}
 {/snippet}
 
@@ -531,7 +540,7 @@
 		margin: 10px 0;
 		max-height: 400px;
 		overflow-y: auto;
-		border: 1px solid #ccc;
+		border: 2px solid rgba(128, 128, 128, 0.5);
 		border-radius: 4px;
 	}
 
@@ -544,6 +553,12 @@
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
+		background-color: rgba(75, 75, 75, 0.2);
+		border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+	}
+
+	.drug-list-item:last-child {
+		border-bottom: none;
 	}
 
 	.drug-list-item .checkmark {
@@ -552,7 +567,7 @@
 	}
 
 	.drug-list-item:hover {
-		background-color: #f0f0f0;
+		background-color: rgba(128, 128, 128, 0.15);
 	}
 
 	.drug-list-item.selected {
@@ -562,15 +577,6 @@
 	.drug-list-item:focus {
 		outline: 2px solid #54707c;
 		outline-offset: -2px;
-	}
-
-	:global(body[data-theme='dark']) .drug-list {
-		background-color: #2a2a2a;
-		border-color: #444;
-	}
-
-	:global(body[data-theme='dark']) .drug-list-item:hover:not(.selected) {
-		background-color: #3a3a3a;
 	}
 
 	/* Axis styling is in app.css */
@@ -583,33 +589,34 @@
 		display: flex;
 		justify-content: left;
 		align-items: top;
-		padding: 10px;
-		border: 2px solid #ccc;
+		border: 3px solid #aaa;
 		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 		box-sizing: border-box;
 	}
 
 	.chart-wrapper {
+		padding: 10px 0 0 0;
 		flex: 1;
 		display: flex;
 		flex-direction: column;
 		min-width: 0;
+		position: relative;
 	}
 
 	.side-bar {
-		padding: 0 0 0 20px;
+		padding: 10px 10px 0 20px;
 		width: 25%;
 		display: flex;
 		flex-direction: column;
-		border-left: 2px solid #ccc;
+		border-left: 3px solid #aaa;
 	}
 
 	svg {
 		display: block;
 	}
 
-	:global(.tooltip) {
-		position: fixed;
+	.tooltip {
+		position: absolute;
 		background: white;
 		color: #000;
 		border: 2px solid #333;
@@ -621,10 +628,10 @@
 		min-width: 200px;
 		max-height: 400px;
 		overflow-y: auto;
-		transform: translate(15px, -50%);
+		transform: translateY(-50%);
 	}
 
-	:global(.tooltip-date) {
+	.tooltip-date {
 		margin-bottom: 8px;
 		padding-bottom: 8px;
 		border-bottom: 1px solid #ddd;
@@ -633,7 +640,7 @@
 		font-weight: bold;
 	}
 
-	:global(.tooltip-row) {
+	.tooltip-row {
 		display: flex;
 		justify-content: space-between;
 		margin: 6px 0;
@@ -641,11 +648,11 @@
 		color: #000;
 	}
 
-	:global(.tooltip-row .label) {
+	.tooltip-row .label {
 		font-weight: 600;
 	}
 
-	:global(.tooltip-row .value) {
+	.tooltip-row .value {
 		font-weight: 600;
 		color: #000;
 	}

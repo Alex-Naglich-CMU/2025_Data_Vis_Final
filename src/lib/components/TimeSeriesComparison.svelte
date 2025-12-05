@@ -50,6 +50,7 @@
 	let tooltipData = $state<{ date: Date; brandPrice?: number; genericPrice?: number } | null>(null);
 	let cursorX = $state(0);
 	let cursorY = $state(0);
+	let contentWrapperRef = $state<HTMLDivElement>();
 
 	// ================================================================================================
 	// LAYOUT CONSTANTS
@@ -60,7 +61,7 @@
 	const width = $derived(availableWidth * 0.6 || 900);
 	const height = $derived(width * 0.6);
 	const margin = { top: 40, right: 40, bottom: 60, left: 80 };
-	const smallWidth = $derived(availableWidth * 0.4); // Slightly less to account for sidebar padding
+	const smallWidth = $derived(availableWidth * 0.35); // Slightly less to account for sidebar padding
 	const smallHeight = $derived(smallWidth * 0.5);
 
 	// ================================================================================================
@@ -284,7 +285,7 @@
 {:else}
 	<div class="text-center text-5xl">How much cheaper are generics?</div>
 	<div class="width-tracker" bind:clientWidth={containerWidth}>
-		<div class="content-wrapper">
+		<div class="content-wrapper" bind:this={contentWrapperRef}>
 			<!---------------------------------- MAIN CHART ---------------------------------->
 			<div class="chart-wrapper relative">
 				<div
@@ -427,49 +428,54 @@
 					</div>
 				</div>
 			</div>
+
+			<!---------------------------------- TOOLTIP (inside content-wrapper for proper positioning because oh my god it hates scrolling otherwise)) ---------------------------------->
+			{#if tooltipData}
+				{@const dateStr = tooltipData.date.toLocaleDateString('en-US', {
+					month: 'long',
+					year: 'numeric'
+				})}
+				{@const savings =
+					tooltipData.brandPrice !== undefined && tooltipData.genericPrice !== undefined
+						? tooltipData.brandPrice - tooltipData.genericPrice
+						: undefined}
+				{@const savingsPercent =
+					savings !== undefined && tooltipData.brandPrice !== undefined
+						? (Math.abs(savings) / Math.max(tooltipData.brandPrice, tooltipData.genericPrice!)) *
+							100
+						: undefined}
+				{@const containerRect = contentWrapperRef?.getBoundingClientRect()}
+				{@const tooltipX = containerRect ? cursorX - containerRect.left + 15 : 0}
+				{@const tooltipY = containerRect ? cursorY - containerRect.top : 0}
+
+				<div class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
+					<div class="tooltip-date"><strong>{dateStr}</strong></div>
+
+					{#if tooltipData.brandPrice !== undefined}
+						<div class="tooltip-row brand">
+							<span class="label" style="color: {colors.red}">Brand:</span>
+							<span class="value">${tooltipData.brandPrice.toFixed(2)}</span>
+						</div>
+					{/if}
+
+					{#if tooltipData.genericPrice !== undefined}
+						<div class="tooltip-row generic">
+							<span class="label" style="color: {colors.blue}">Generic:</span>
+							<span class="value">${tooltipData.genericPrice.toFixed(2)}</span>
+						</div>
+					{/if}
+
+					{#if savings !== undefined && savingsPercent !== undefined}
+						<div class="tooltip-row savings">
+							<span class="label" style="color: {colors.green}">Savings:</span>
+							<span class="value" style="color: {colors.green}"
+								>${savings.toFixed(2)} ({savingsPercent.toFixed(2)}%)</span
+							>
+						</div>
+					{/if}
+				</div>
+			{/if}
 		</div>
-	</div>
-{/if}
-<!---------------------------------- TOOLTIP ---------------------------------->
-{#if tooltipData}
-	{@const dateStr = tooltipData.date.toLocaleDateString('en-US', {
-		month: 'long',
-		year: 'numeric'
-	})}
-	{@const savings =
-		tooltipData.brandPrice !== undefined && tooltipData.genericPrice !== undefined
-			? tooltipData.brandPrice - tooltipData.genericPrice
-			: undefined}
-	{@const savingsPercent =
-		savings !== undefined && tooltipData.brandPrice !== undefined
-			? (Math.abs(savings) / Math.max(tooltipData.brandPrice, tooltipData.genericPrice!)) * 100
-			: undefined}
-
-	<div class="tooltip" style="left: {cursorX}px; top: {cursorY}px;">
-		<div class="tooltip-date"><strong>{dateStr}</strong></div>
-
-		{#if tooltipData.brandPrice !== undefined}
-			<div class="tooltip-row brand">
-				<span class="label" style="color: {colors.red}">Brand:</span>
-				<span class="value">${tooltipData.brandPrice.toFixed(2)}</span>
-			</div>
-		{/if}
-
-		{#if tooltipData.genericPrice !== undefined}
-			<div class="tooltip-row generic">
-				<span class="label" style="color: {colors.blue}">Generic:</span>
-				<span class="value">${tooltipData.genericPrice.toFixed(2)}</span>
-			</div>
-		{/if}
-
-		{#if savings !== undefined && savingsPercent !== undefined}
-			<div class="tooltip-row savings">
-				<span class="label" style="color: {colors.green}">Savings:</span>
-				<span class="value" style="color: {colors.green}"
-					>${savings.toFixed(2)} ({savingsPercent.toFixed(2)}%)</span
-				>
-			</div>
-		{/if}
 	</div>
 {/if}
 
@@ -503,7 +509,7 @@
 
 {#snippet chartLine(linePath: string, color: string, generic: boolean)}
 	{#if linePath}
-		<path d={linePath} fill="none" style="stroke: {color}" stroke-width="{generic ? 4 : 2}" />
+		<path d={linePath} fill="none" style="stroke: {color}" stroke-width={generic ? 4 : 2} />
 	{/if}
 {/snippet}
 
@@ -608,7 +614,7 @@
 		margin: 10px 0;
 		max-height: 200px;
 		overflow-y: auto;
-		border: 1px solid #ccc;
+		border: 2px solid rgba(128, 128, 128, 0.5);
 		border-radius: 4px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -620,10 +626,21 @@
 		transition: background-color 0.2s;
 		font-family: fustat;
 		font-size: 14px;
+		background-color: rgba(75, 75, 75, 0.2);
+		border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+		border-right: 1px solid rgba(128, 128, 128, 0.5);
+	}
+
+	.drug-list-item:nth-child(even) {
+		border-right: none;
+	}
+
+	.drug-list-item:nth-last-child(-n + 2) {
+		border-bottom: none;
 	}
 
 	.drug-list-item:hover {
-		background-color: #f0f0f0;
+		background-color: rgba(128, 128, 128, 0.15);
 	}
 
 	.drug-list-item.selected {
@@ -637,16 +654,7 @@
 		outline-offset: -2px;
 	}
 
-	:global(body[data-theme='dark']) .drug-list {
-		background-color: #2a2a2a;
-		border-color: #444;
-	}
-
-	:global(body[data-theme='dark']) .drug-list-item:hover {
-		background-color: #3a3a3a;
-	}
-
-	/* Axis styling is in app.css */	
+	/* Axis styling is in app.css */
 
 	.width-tracker {
 		margin: 20px 40px;
@@ -656,13 +664,14 @@
 		display: flex;
 		justify-content: left;
 		align-items: top;
-		padding: 10px;
-		border: 2px solid #ccc;
+		border: 3px solid #aaa;
 		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 		box-sizing: border-box;
+		position: relative;
 	}
 
 	.chart-wrapper {
+		padding: 10px 0 0 0;
 		flex: 1;
 		display: flex;
 		flex-direction: column;
@@ -670,18 +679,18 @@
 	}
 
 	.side-bar {
-		padding: 0 0 0 20px;
+		padding: 10px 10px 0 20px;
 		display: flex;
 		flex-direction: column;
-		border-left: 2px solid #ccc;
+		border-left: 3px solid #aaa;
 	}
 
 	svg {
 		display: block;
 	}
 
-	:global(.tooltip) {
-		position: fixed;
+	.tooltip {
+		position: absolute;
 		background: white;
 		color: #000;
 		border: 2px solid #333;
@@ -691,10 +700,10 @@
 		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 		z-index: 1000;
 		min-width: 200px;
-		transform: translate(15px, -50%);
+		transform: translateY(-50%);
 	}
 
-	:global(.tooltip-date) {
+	.tooltip-date {
 		margin-bottom: 8px;
 		padding-bottom: 8px;
 		border-bottom: 1px solid #ddd;
@@ -702,7 +711,7 @@
 		color: #000;
 	}
 
-	:global(.tooltip-row) {
+	.tooltip-row {
 		display: flex;
 		justify-content: space-between;
 		margin: 6px 0;
@@ -710,17 +719,17 @@
 		color: #000;
 	}
 
-	:global(.tooltip-row.brand .label) {
+	.tooltip-row.brand .label {
 		font-weight: 600;
 		color: inherit;
 	}
 
-	:global(.tooltip-row.generic .label) {
+	.tooltip-row.generic .label {
 		font-weight: 600;
 		color: inherit;
 	}
 
-	:global(.tooltip-row.savings) {
+	.tooltip-row.savings {
 		margin-top: 8px;
 		padding-top: 8px;
 		border-top: 1px solid #ddd;
@@ -728,7 +737,7 @@
 		color: #059669;
 	}
 
-	:global(.tooltip-row .value) {
+	.tooltip-row .value {
 		font-weight: 600;
 		color: #000;
 	}
