@@ -8,7 +8,8 @@
 	import InsulinComparison from '$lib/components/Insulin.svelte';
 	import AnimatedSeries from '$lib/components/AnimatedSeries.svelte';
 	import PricePerUnitComparison from '$lib/components/PricePerUnitComparison.svelte';
-	import AutomatedSeriesPaginated from '$lib/components/AutomatedSeriesPaginated.svelte';
+	import PricePerCapsuleComparison from '$lib/components/PricePerCapsuleComparison.svelte';
+	import AnimatedSeriesPaginated from '$lib/components/AnimatedSeriesPaginated.svelte';
 
 	onMount(() => {
 		isDarkMode.init();
@@ -123,7 +124,9 @@
 
 <br />
 
-<AutomatedSeriesPaginated />
+<AnimatedSeriesPaginated />
+
+<br />
 
 <br />
 <div class="headers">
@@ -133,6 +136,10 @@
 <br />
 
 <PricePerUnitComparison />
+
+<br />
+
+<PricePerCapsuleComparison />
 
 <style>
 	* {
