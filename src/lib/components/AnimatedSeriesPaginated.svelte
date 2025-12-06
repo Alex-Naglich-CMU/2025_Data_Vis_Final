@@ -185,11 +185,13 @@ y-axis shows percent change instead of absolute price
 			console.log('loaded', loadedDrugs.length, 'drugs with price data');
 
 			// select all drugs on current page by default
-			const initialSelection = new Set<number>();
-			for (let i = 0; i < drugsData.length; i++) {
-				initialSelection.add(i);
-			}
-			selectedDrugIndices = initialSelection;
+			// const initialSelection = new Set<number>();
+			// for (let i = 0; i < drugsData.length; i++) {
+			// 	initialSelection.add(i);
+			// }
+			// selectedDrugIndices = initialSelection;
+			selectedDrugIndices = new Set<number>();
+
 			loadingPage = false;
 		} catch (err) {
 			console.error('error loading page data:', err);
@@ -251,19 +253,17 @@ y-axis shows percent change instead of absolute price
 	const selectedLines = $derived.by(() => {
 		const lines: LineData[] = [];
 
-		selectedDrugIndices.forEach((drugIndex) => {
-			const selectedDrug = drugsData[drugIndex];
-			if (!selectedDrug) return;
-
+		drugsData.forEach((drug, drugIndex) => {
 			const brandDrugPosition = brandDrugs.findIndex(({ i }) => i === drugIndex);
 			const color = drugColors[brandDrugPosition % drugColors.length];
 
-			const chartData = getChartPoints(selectedDrug);
+
+			const chartData = getChartPoints(drug);
 			if (chartData.length > 0) {
 				lines.push({
 					data: chartData,
 					color,
-					label: selectedDrug.friendlyName,
+					label: drug.friendlyName,
 					drugIndex
 				});
 			}
@@ -424,21 +424,41 @@ y-axis shows percent change instead of absolute price
 					<g clip-path="url(#animated-series-clip)">
 						<!-- draw all lines -->
 						{#each linePaths as line}
+							{@const isSelected = selectedDrugIndices.has(line.drugIndex)}
 							{#if line.path}
-								<path d={line.path} fill="none" style="stroke: {line.color}" stroke-width="2" />
+								<!-- invisible wider path for easier clicking -->
+								<path 
+									d={line.path} 
+									fill="none" 
+									stroke="transparent"
+									stroke-width="10"
+									style="cursor: pointer;"
+									onclick={() => toggleDrugSelection(line.drugIndex)}
+								/>
+								<!-- visible path -->
+								<path 
+									d={line.path} 
+									fill="none" 
+									style="stroke: {isSelected ? line.color : '#999'}; pointer-events: none;" 
+									stroke-width="2"
+									opacity={isSelected ? 1 : 0.3}
+								/>
 							{/if}
 						{/each}
 
 						<!-- draw all data points -->
 						{#each linePaths as line}
+							{@const isSelected = selectedDrugIndices.has(line.drugIndex)}
 							{#each line.data as point}
 								<circle
 									cx={xScale(point.date)}
 									cy={yScale(point.percentChange)}
 									r="2"
-									fill={line.color}
+									fill={isSelected ? line.color : '#999'}
 									stroke={$isDarkMode ? '#ddd' : '#222'}
+									opacity={isSelected ? 1 : 0.3}
 									style="cursor: pointer; pointer-events: all;"
+									onclick={() => toggleDrugSelection(line.drugIndex)}
 									onmouseenter={(e) => {
 										const prices = new Map<string, number>();
 										prices.set(line.label, point.percentChange);
@@ -523,13 +543,23 @@ y-axis shows percent change instead of absolute price
 						<span class="text-sm text-gray-500">* % change from first price</span>
 					</div>
 					<ul class="drug-list" role="listbox">
-						{#each brandDrugs as { drug, i, price }}
+						{#each brandDrugs
+							.sort((a, b) => {
+								const aSelected = selectedDrugIndices.has(a.i);
+								const bSelected = selectedDrugIndices.has(b.i);
+								// selected items first
+								if (aSelected && !bSelected) return -1;
+								if (!aSelected && bSelected) return 1;
+								// within each group, maintain price order
+								return 0;
+							}) as { drug, i, price }}
 							{@const brandDrugPosition = brandDrugs.findIndex(({ i: idx }) => idx === i)}
 							{@const color = drugColors[brandDrugPosition % drugColors.length]}
 							{@const isSelected = selectedDrugIndices.has(i)}
 							<li
 								class="drug-list-item"
 								class:selected={isSelected}
+								class:unselected={!isSelected}
 								onclick={() => toggleDrugSelection(i)}
 								onkeydown={(e) => {
 									if (e.key === 'Enter' || e.key === ' ') toggleDrugSelection(i);
@@ -539,8 +569,7 @@ y-axis shows percent change instead of absolute price
 								tabindex="0"
 								style="border-left: 4px solid {color}; {isSelected
 									? `background-color: ${color}70; color: ${color};`
-									: ''}"
-							>
+									: ''}">
 								<span class="checkmark">{isSelected ? '✓' : ''}</span>
 								<span class="drug-name">{drug.friendlyName.toUpperCase()}</span>
 								<span class="drug-price">${price.toFixed(2)}</span>
@@ -757,5 +786,19 @@ y-axis shows percent change instead of absolute price
 	.tooltip-row .value {
 		font-weight: 600;
 		color: #000;
+	}
+
+	.drug-list-item.unselected {
+		opacity: 0.4;
+		color: #999;
+	}
+
+	.drug-list-item.unselected .drug-name,
+	.drug-list-item.unselected .drug-price {
+		color: #999;
+	}
+
+	.drug-list-item.unselected:hover {
+		opacity: 0.6;
 	}
 </style>
