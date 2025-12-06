@@ -206,7 +206,6 @@
 		<p>Error loading data: {error}</p>
 	</div>
 {:else}
-	<h3>How much cheaper are generics?</h3>
 	<div class="width-tracker" bind:clientWidth={containerWidth}>
 		<div class="content-wrapper" bind:this={contentWrapperRef}>
 			<!--- MAIN CHART --->

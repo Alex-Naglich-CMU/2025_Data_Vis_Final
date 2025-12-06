@@ -465,8 +465,6 @@
 		outline-offset: -2px;
 	}
 
-	/* Axis styling is in app.css */
-
 	.width-tracker {
 		margin: 20px 40px;
 	}

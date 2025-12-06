@@ -107,7 +107,11 @@
 		affect affordability and policy decisions. Use the dashboard to select different drugs and
 		compare how their prices change across brands, generics, and time.
 	</p>
+	<br />
+	<h3>How much cheaper are generics?</h3>
 </div>
+
+
 
 <div>
 	<TimeSeriesComparison /> 
@@ -208,7 +212,7 @@
 
 	.news-holder {
 		margin-left: 40px;
-		margin-bottom: 100px;
+		margin-bottom: 40px;
 		max-width: 750px;
 	}
 
