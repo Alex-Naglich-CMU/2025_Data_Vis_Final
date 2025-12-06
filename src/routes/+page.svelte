@@ -7,8 +7,8 @@
 	import Headlines from '$lib/components/Headlines.svelte';
 	import InsulinComparison from '$lib/components/Insulin.svelte';
 	import AnimatedSeries from '$lib/components/AnimatedSeries.svelte';
-	import DosageFormComparison from '$lib/components/DosageFormComparison.svelte';
 	import PricePerUnitComparison from '$lib/components/PricePerUnitComparison.svelte';
+	import AutomatedSeriesPaginated from '$lib/components/AutomatedSeriesPaginated.svelte';
 
 	onMount(() => {
 		isDarkMode.init();
@@ -122,11 +122,13 @@
 <AnimatedSeries />
 
 <br />
+
+<AutomatedSeriesPaginated />
+
+<br />
 <div class="headers">
 	<h3> What is the cheapest option for a specific drug? </h3>
 </div>
-
-<DosageFormComparison />
 
 <br />
 
