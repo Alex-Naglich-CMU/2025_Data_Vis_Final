@@ -54,12 +54,12 @@
 	const colors = { red: '#C9381A', blue: '#3A7CA5', green: '#2D6A4F' };
 	let containerWidth = $state(0);
 	const availableWidth = $derived(containerWidth - 40); // Account for content-wrapper padding
-	const width = $derived(availableWidth * 0.58 || 900);
-	const height = $derived(width * 0.7);
-	const margin = { top: 40, right: 5, bottom: 40, left: 40 };
-	const smallWidth = $derived(availableWidth * 0.4); // Slightly less to account for sidebar padding
-	const smallHeight = $derived(smallWidth * 0.7);
-	const smallMargin = { top: 40, right: 20, bottom: 40, left: 0 };
+	const width = $derived(availableWidth * 0.62 || 900);
+	const height = $derived(width * 0.62);
+	const margin = { top: 10, right: 5, bottom: 40, left: 40 };
+	const smallWidth = $derived(availableWidth * 0.35); // Slightly less to account for sidebar padding
+	const smallHeight = $derived(smallWidth * 0.6);
+	const smallMargin = { top: 10, right: 20, bottom: 40, left: 0 };
 
 	// DATA LOADING
 	onMount(async () => {
@@ -212,33 +212,36 @@
 			<div class="chart-wrapper relative">
 				<div class="chart-header">
 					<h5 class='generic-label'>Brand Version:</h5>
+				</div>
+				<div>
 					<h4 class='drug-label-brand'>
 						{brandDrug ? brandDrug.friendlyName.toUpperCase() : 'Brand'}
 					</h4>
+					<svg class='chart' {width} {height} role="img" bind:this={mainSvgRef}>
+						<defs>
+							<clipPath id="timeseries-plot-clip">
+								<rect
+									x={margin.left}
+									y={margin.top}
+									width={width - margin.left - margin.right}
+									height={height - margin.top - margin.bottom}
+								/>
+							</clipPath>
+						</defs>
+
+						<g clip-path="url(#timeseries-plot-clip)">
+							{@render chartLine(brandLinePath, colors.red, true)}
+							{@render chartLine(genericLinePath, colors.blue, false)}
+							{@render dataPoints(brandChartData, xScale, yScale, colors.red, true)}
+							{@render dataPoints(genericChartData, xScale, yScale, colors.blue, false)}
+						</g>
+
+						<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}></g>
+						<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
+						{@render axisLabels(width, height)}
+					</svg>
 				</div>
-				<svg class='chart' {width} {height} role="img" bind:this={mainSvgRef}>
-					<defs>
-						<clipPath id="timeseries-plot-clip">
-							<rect
-								x={margin.left}
-								y={margin.top}
-								width={width - margin.left - margin.right}
-								height={height - margin.top - margin.bottom}
-							/>
-						</clipPath>
-					</defs>
-
-					<g clip-path="url(#timeseries-plot-clip)">
-						{@render chartLine(brandLinePath, colors.red, true)}
-						{@render chartLine(genericLinePath, colors.blue, false)}
-						{@render dataPoints(brandChartData, xScale, yScale, colors.red, true)}
-						{@render dataPoints(genericChartData, xScale, yScale, colors.blue, false)}
-					</g>
-
-					<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}></g>
-					<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
-					{@render axisLabels(width, height)}
-				</svg>
+				
 			</div>
 
 			<!--- SIDE BAR --->
@@ -275,37 +278,42 @@
 					<div class='relative'>
 						<div class="chart-header">
 							<h5 class='generic-label'>Generic Version:</h5>
-							<h4 class='drug-label'>{genericDrug ? genericDrug.friendlyName : ''}</h4>
 						</div>
-						<svg width={smallWidth} height={smallHeight} role="img" bind:this={genericSvgRef}>
-							<!-- Clipping Path Definition -->
-							<defs>
-								<clipPath id="generic-plot-clip">
-									<rect
-										x={margin.left}
-										y={margin.top}
-										width={smallWidth - smallMargin.left - smallMargin.right}
-										height={smallHeight - smallMargin.top - smallMargin.bottom}
-									/>
-								</clipPath>
-							</defs>
+						<div>
+							<div class='drug-title'>
+								<h4 class='drug-label'>{genericDrug ? genericDrug.friendlyName : ''}</h4>
+							</div>
+							<svg width={smallWidth} height={smallHeight} role="img" bind:this={genericSvgRef}>
+								<!-- Clipping Path Definition -->
+								<defs>
+									<clipPath id="generic-plot-clip">
+										<rect
+											x={margin.left}
+											y={margin.top}
+											width={smallWidth - smallMargin.left - smallMargin.right}
+											height={smallHeight - smallMargin.top - smallMargin.bottom}
+										/>
+									</clipPath>
+								</defs>
 
-							<!-- Data Drawing Elements with clipping -->
-							<g clip-path="url(#generic-plot-clip)">
-								{@render chartLine(smallGenericLinePath, colors.blue, false)}
-								{@render dataPoints(genericChartData, genericXScale, genericYScale, colors.blue, false)}
-							</g>
+								<!-- Data Drawing Elements with clipping -->
+								<g clip-path="url(#generic-plot-clip)">
+									{@render chartLine(smallGenericLinePath, colors.blue, false)}
+									{@render dataPoints(genericChartData, genericXScale, genericYScale, colors.blue, false)}
+								</g>
 
-							<!-- Axes -->
-							<g
-								class="x-axis"
-								transform="translate(0,{smallHeight - margin.bottom})"
-								bind:this={genericXAxisRef}
-							></g>
-							<g class="y-axis" transform="translate({margin.left},0)" bind:this={genericYAxisRef}></g>
+								<!-- Axes -->
+								<g
+									class="x-axis"
+									transform="translate(0,{smallHeight - margin.bottom})"
+									bind:this={genericXAxisRef}
+								></g>
+								<g class="y-axis" transform="translate({margin.left},0)" bind:this={genericYAxisRef}></g>
 
-							{@render axisLabels(smallWidth, smallHeight)}
-						</svg>
+								{@render axisLabels(smallWidth, smallHeight)}
+							</svg>
+						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -539,11 +547,22 @@
 		flex: 1;
 		display: flex;
 		flex-direction: column;
+		justify-content: space-between;
 		min-width: 0;
 	}
 
 	.chart-header {
 		margin-bottom: 10px;
+	}
+
+	.drug-title {
+		margin-top: auto;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.drug-label-brand {
+		text-align: center;
 	}
 
 	.chart-header h5 {
@@ -555,9 +574,9 @@
 		text-align: center;
 	}
 
-	.chart-wrapper svg {
+	/* .chart-wrapper svg {
 		margin-top: auto;
-	}
+	} */
 
 	.side-bar {
 		padding: 15px;
@@ -568,7 +587,7 @@
 
 	.controls {
 		flex-shrink: 0;
-		padding-bottom: 40px;
+		padding-bottom: 10px;
 		border-bottom: 1px solid #ccc;
 	}
 
@@ -578,7 +597,7 @@
 
 	.individual-charts-container {
 		margin-top: auto;
-		padding-top: 40px;
+		padding-top: 10px;
 	}
 
 	svg {
@@ -643,12 +662,12 @@
 	}
 
 	.drug-label {
-		font-size: 1.3em;
+		font-size: 1.1em;
 		color: #3A7CA5;
 	}
 
 	.drug-label-brand {
-		font-size: 1.3em;
+		font-size: 1.1em;
 		color: #C9381A;
 	}
 </style>
