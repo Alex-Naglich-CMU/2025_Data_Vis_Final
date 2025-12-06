@@ -10,6 +10,8 @@
 	import PricePerUnitComparison from '$lib/components/PricePerUnitComparison.svelte';
 	import PricePerCapsuleComparison from '$lib/components/PricePerCapsuleComparison.svelte';
 	import AnimatedSeriesPaginated from '$lib/components/AnimatedSeriesPaginated.svelte';
+ 	import AnimatedSeriesPaginated2 from '$lib/components/AnimatedSeriesPaginated2.svelte';
+
 
 	onMount(() => {
 		isDarkMode.init();
@@ -125,6 +127,10 @@
 <br />
 
 <AnimatedSeriesPaginated />
+
+<br />
+
+<AnimatedSeriesPaginated2 />
 
 <br />
 
