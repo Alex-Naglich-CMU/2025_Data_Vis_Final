@@ -7,6 +7,8 @@
 	import Headlines from '$lib/components/Headlines.svelte';
 	import InsulinComparison from '$lib/components/Insulin.svelte';
 	import AnimatedSeries from '$lib/components/AnimatedSeries.svelte';
+	import DosageFormComparison from '$lib/components/DosageFormComparison.svelte';
+	import PricePerUnitComparison from '$lib/components/PricePerUnitComparison.svelte';
 
 	onMount(() => {
 		isDarkMode.init();
@@ -114,10 +116,21 @@
 <!-- I know this syntax is a bit wonky -->
 <TimeSeriesComparison /> 
 <br />
-<div class="series-charts">
+<div class="headers">
 	<h3> How did drug prices change over time? </h3>
 </div>
 <AnimatedSeries />
+
+<br />
+<div class="headers">
+	<h3> What is the cheapest option for a specific drug? </h3>
+</div>
+
+<DosageFormComparison />
+
+<br />
+
+<PricePerUnitComparison />
 
 <style>
 	* {
@@ -228,7 +241,7 @@
 		max-width: 750px;
 	}
 
-	.series-charts {
+	.headers {
 		margin-left: 40px;
 	}
 </style>
