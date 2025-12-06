@@ -382,7 +382,7 @@
 		<circle
 			cx={xScale(point.date)}
 			cy={yScale(point.price)}
-			r="3"
+			r="2"
 			fill={color}
 			stroke={$isDarkMode ? '#ddd' : '#222'}
 			style="cursor: pointer; pointer-events: all;"
