@@ -256,7 +256,6 @@
 		<p>Error loading data: {error}</p>
 	</div>
 {:else}
-	<div class="mt-20 text-center text-5xl">How did drug prices change over time?</div>
 	<div class="width-tracker" bind:clientWidth={containerWidth}>
 		<div class="content-wrapper">
 			<!---MAIN CHART --->
@@ -320,7 +319,7 @@
 			<div class="side-bar">
 				<div class="controls">
 					<div class="mb-2 flex items-center justify-between">
-						<label for="drug-list" class="text-xl">Select Drugs:</label>
+						<label for="drug-list">Select Drugs:</label>
 						<span class="text-sm text-gray-500">* For a 30 day supply</span>
 					</div>
 					<ul class="drug-list" role="listbox">
@@ -347,13 +346,6 @@
 								{drug.friendlyName.toUpperCase()}
 
 								<div style="flex-grow: 1; text-align: right;">
-									<!-- This is for showing the inflation info if you like -->
-									<input
-										type="checkbox"
-										class="rounded"
-										aria-hidden="true"
-										onclick={(e) => e.stopPropagation()}
-									/>
 								</div>
 							</li>
 						{/each}
@@ -473,7 +465,7 @@
 		display: flex;
 		justify-content: left;
 		align-items: top;
-		border: 3px solid #aaa;
+		border: 1px solid #ccc;
 		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 		box-sizing: border-box;
 		user-select: none;
@@ -494,7 +486,7 @@
 		width: 25%;
 		display: flex;
 		flex-direction: column;
-		border-left: 3px solid #aaa;
+		border-left: 1px solid #ccc;
 	}
 
 	svg {

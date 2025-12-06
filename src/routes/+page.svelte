@@ -111,12 +111,13 @@
 	<h3>How much cheaper are generics?</h3>
 </div>
 
-
-
-<div>
-	<TimeSeriesComparison /> 
-	<AnimatedSeries />
+<!-- I know this syntax is a bit wonky -->
+<TimeSeriesComparison /> 
+<br />
+<div class="series-charts">
+	<h3> How did drug prices change over time? </h3>
 </div>
+<AnimatedSeries />
 
 <style>
 	* {
@@ -225,5 +226,9 @@
 	.chart-intro {
 		margin-left: 40px;
 		max-width: 750px;
+	}
+
+	.series-charts {
+		margin-left: 40px;
 	}
 </style>
