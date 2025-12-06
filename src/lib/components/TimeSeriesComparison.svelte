@@ -527,7 +527,7 @@
 		justify-content: left;
 		align-items: stretch;
 		border: 1px solid #ccc;
-		box-shadow: 0 0 3px #ccc inset;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 		box-sizing: border-box;
 		position: relative;
 		user-select: none;
