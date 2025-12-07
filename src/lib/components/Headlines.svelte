@@ -111,7 +111,7 @@
 	*/
 
 	.background-scroll {
-		width: 900px;
+		width: 840px;
 		height: 250px;
 		overflow-y: auto;
 		border: 1px solid #ccc;

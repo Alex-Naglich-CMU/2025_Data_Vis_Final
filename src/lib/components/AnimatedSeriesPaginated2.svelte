@@ -2,6 +2,7 @@
 shows groups of 250 brand drugs at a time with prev/next buttons
 loads all brand drugs from search_index_all.json
 TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
+MODIFIED: Shows average price per year instead of all data points
 -->
 
 <script lang="ts">
@@ -100,40 +101,41 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		}
 	});
 
-	// convert prices object to chart points
+	// convert prices object to chart points - averaged by year
 	function getChartPoints(drug: DrugData): ChartPoint[] {
-		const points: ChartPoint[] = [];
+		const yearPrices = new Map<number, number[]>();
 		
-		// iterate through all NDCs and their dates
+		// iterate through all NDCs and their dates, grouping by year
 		for (const ndc in drug.prices) {
 			for (const [dateStr, price] of Object.entries(drug.prices[ndc])) {
 				const date = parseDate(dateStr);
 				if (date) {
-					// Adjust price based on form type
-					let singleDosePrice = price;
-					// if (drug.form !== "Oral Capsule" && 
-					// 	drug.form !== "Oral Tablet" && 
-					// 	drug.form !== "Delayed/Extended Release Oral Tablet" && 
-					// 	drug.form !== "Delayed/Extended Release Oral Capsule") {
-						singleDosePrice = price / 30;
-					// }
-				
-					points.push({ date, price: singleDosePrice });
+					const year = date.getFullYear();
+					const singleDosePrice = price / 30;
+					
+					if (!yearPrices.has(year)) {
+						yearPrices.set(year, []);
+					}
+					yearPrices.get(year)!.push(singleDosePrice);
 				}
 			}
+		}
+		
+		// calculate average price for each year
+		const points: ChartPoint[] = [];
+		for (const [year, prices] of yearPrices.entries()) {
+			const avgPrice = prices.reduce((sum, p) => sum + p, 0) / prices.length;
+			// use January 1st of each year as the date
+			points.push({ 
+				date: new Date(year, 0, 1), 
+				price: avgPrice 
+			});
 		}
 		
 		// sort by date
 		points.sort((a, b) => a.date.getTime() - b.date.getTime());
 		
-		// remove duplicates (keep last price for each date)
-		const dateMap = new Map<string, ChartPoint>();
-		for (const point of points) {
-			const dateKey = point.date.toISOString().split('T')[0];
-			dateMap.set(dateKey, point);
-		}
-		
-		return Array.from(dateMap.values()).sort((a, b) => a.date.getTime() - b.date.getTime());
+		return points;
 	}
 
 	// parse date string
@@ -245,11 +247,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 				const date = parseDate(dateStr);
 				if (date && (mostRecentDate === null || date > mostRecentDate)) {
 					mostRecentDate = date;
-					// if (drug.form !== "Oral Capsule" && drug.form !== "Oral Tablet" && drug.form !== "Delayed/Extended Release Oral Tablet" && drug.form !== "Delayed/Extended Release Oral Capsule") {
-					// 	mostRecentPrice = price/30;
-					// } else {
 					mostRecentPrice = price/30;		
-					// }	
 				}
 			}
 		}
@@ -495,7 +493,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 								<circle
 									cx={xScale(point.date)}
 									cy={yScale(point.price)}
-									r="2"
+									r="4"
 									fill={line.color}
 									stroke={$isDarkMode ? '#ddd' : '#222'}
 									style="cursor: pointer; pointer-events: all;"
@@ -526,7 +524,6 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 				<!--- tooltip --->
 				{#if tooltipData}
 					{@const dateStr = tooltipData.date.toLocaleDateString('en-US', {
-						month: 'long',
 						year: 'numeric'
 					})}
 					{@const containerRect = chartContainerRef?.getBoundingClientRect()}
@@ -534,7 +531,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 					{@const tooltipY = containerRect ? cursorY - containerRect.top : 0}
 
 					<div class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
-						<div class="tooltip-date"><strong>{dateStr}</strong></div>
+						<div class="tooltip-date"><strong>{dateStr} Average</strong></div>
 
 						{#each Array.from(tooltipData.prices.entries()) as [label, price]}
 							{@const lineData = linePaths.find((l) => l.label === label)}
