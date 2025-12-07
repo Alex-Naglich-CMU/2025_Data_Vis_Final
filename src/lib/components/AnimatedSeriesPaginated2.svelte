@@ -2,7 +2,6 @@
 shows groups of 250 brand drugs at a time with prev/next buttons
 loads all brand drugs from search_index_all.json
 TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
-MODIFIED: Shows average price per year instead of all data points
 -->
 
 <script lang="ts">
@@ -101,41 +100,40 @@ MODIFIED: Shows average price per year instead of all data points
 		}
 	});
 
-	// convert prices object to chart points - averaged by year
+	// convert prices object to chart points
 	function getChartPoints(drug: DrugData): ChartPoint[] {
-		const yearPrices = new Map<number, number[]>();
+		const points: ChartPoint[] = [];
 		
-		// iterate through all NDCs and their dates, grouping by year
+		// iterate through all NDCs and their dates
 		for (const ndc in drug.prices) {
 			for (const [dateStr, price] of Object.entries(drug.prices[ndc])) {
 				const date = parseDate(dateStr);
 				if (date) {
-					const year = date.getFullYear();
-					const singleDosePrice = price / 30;
-					
-					if (!yearPrices.has(year)) {
-						yearPrices.set(year, []);
-					}
-					yearPrices.get(year)!.push(singleDosePrice);
+					// Adjust price based on form type
+					let singleDosePrice = price;
+					// if (drug.form !== "Oral Capsule" && 
+					// 	drug.form !== "Oral Tablet" && 
+					// 	drug.form !== "Delayed/Extended Release Oral Tablet" && 
+					// 	drug.form !== "Delayed/Extended Release Oral Capsule") {
+						singleDosePrice = price / 30;
+					// }
+				
+					points.push({ date, price: singleDosePrice });
 				}
 			}
-		}
-		
-		// calculate average price for each year
-		const points: ChartPoint[] = [];
-		for (const [year, prices] of yearPrices.entries()) {
-			const avgPrice = prices.reduce((sum, p) => sum + p, 0) / prices.length;
-			// use January 1st of each year as the date
-			points.push({ 
-				date: new Date(year, 0, 1), 
-				price: avgPrice 
-			});
 		}
 		
 		// sort by date
 		points.sort((a, b) => a.date.getTime() - b.date.getTime());
 		
-		return points;
+		// remove duplicates (keep last price for each date)
+		const dateMap = new Map<string, ChartPoint>();
+		for (const point of points) {
+			const dateKey = point.date.toISOString().split('T')[0];
+			dateMap.set(dateKey, point);
+		}
+		
+		return Array.from(dateMap.values()).sort((a, b) => a.date.getTime() - b.date.getTime());
 	}
 
 	// parse date string
@@ -247,7 +245,11 @@ MODIFIED: Shows average price per year instead of all data points
 				const date = parseDate(dateStr);
 				if (date && (mostRecentDate === null || date > mostRecentDate)) {
 					mostRecentDate = date;
+					// if (drug.form !== "Oral Capsule" && drug.form !== "Oral Tablet" && drug.form !== "Delayed/Extended Release Oral Tablet" && drug.form !== "Delayed/Extended Release Oral Capsule") {
+					// 	mostRecentPrice = price/30;
+					// } else {
 					mostRecentPrice = price/30;		
+					// }	
 				}
 			}
 		}
@@ -431,6 +433,15 @@ MODIFIED: Shows average price per year instead of all data points
 		}
 		selectedFormCategories = newSet;
 	}
+
+	// count how many drugs match each category
+	const categoryCounts = $derived.by(() => {
+		const counts = new Map<string, number>();
+		for (const drug of drugsData) {
+			counts.set(drug.formCategory, (counts.get(drug.formCategory) || 0) + 1);
+		}
+		return counts;
+	});
 </script>
 
 <!--- content area --->
@@ -452,20 +463,6 @@ MODIFIED: Shows average price per year instead of all data points
 						<p>Loading page data...</p>
 					</div>
 				{/if}
-
-				<!-- form filter chips above chart -->
-				<div class="form-filter-chips">
-					{#each availableFormCategories as category}
-						{@const isSelected = selectedFormCategories.has(category)}
-						<button
-							class="form-chip"
-							class:selected={isSelected}
-							onclick={() => toggleFormCategorySelection(category)}
-						>
-							{category}
-						</button>
-					{/each}
-				</div>
 				
 				<svg {width} {height} role="img" bind:this={mainSvgRef}>
 					<defs>
@@ -493,7 +490,7 @@ MODIFIED: Shows average price per year instead of all data points
 								<circle
 									cx={xScale(point.date)}
 									cy={yScale(point.price)}
-									r="4"
+									r="2"
 									fill={line.color}
 									stroke={$isDarkMode ? '#ddd' : '#222'}
 									style="cursor: pointer; pointer-events: all;"
@@ -524,6 +521,7 @@ MODIFIED: Shows average price per year instead of all data points
 				<!--- tooltip --->
 				{#if tooltipData}
 					{@const dateStr = tooltipData.date.toLocaleDateString('en-US', {
+						month: 'long',
 						year: 'numeric'
 					})}
 					{@const containerRect = chartContainerRef?.getBoundingClientRect()}
@@ -531,7 +529,7 @@ MODIFIED: Shows average price per year instead of all data points
 					{@const tooltipY = containerRect ? cursorY - containerRect.top : 0}
 
 					<div class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
-						<div class="tooltip-date"><strong>{dateStr} Average</strong></div>
+						<div class="tooltip-date"><strong>{dateStr}</strong></div>
 
 						{#each Array.from(tooltipData.prices.entries()) as [label, price]}
 							{@const lineData = linePaths.find((l) => l.label === label)}
@@ -573,6 +571,37 @@ MODIFIED: Shows average price per year instead of all data points
 								Next →
 							</button>
 						</div>
+					</div>
+
+					<!-- form filter section -->
+					<div class="form-filter-section">
+						<div class="mb-2">
+							<label>Filter by Dosage Form Category:</label>
+							<div class="text-sm text-gray-500">
+								{selectedFormCategories.size > 0 
+									? `${filteredDrugs.length} of ${drugsData.length} drugs` 
+									: 'All forms'}
+							</div>
+						</div>
+						<ul class="form-list">
+							{#each availableFormCategories as category}
+								{@const isSelected = selectedFormCategories.has(category)}
+								{@const count = categoryCounts.get(category) || 0}
+								<li
+									class="form-list-item"
+									class:selected={isSelected}
+									class:unselected={!isSelected}
+									onclick={() => toggleFormCategorySelection(category)}
+									role="option"
+									aria-selected={isSelected}
+									tabindex="0"
+								>
+									<span class="checkmark">{isSelected ? '✓' : ''}</span>
+									<span class="form-name">{category}</span>
+									<span class="form-count">({count})</span>
+								</li>
+							{/each}
+						</ul>
 					</div>
 
 					<!-- drug selection section -->
@@ -637,53 +666,15 @@ MODIFIED: Shows average price per year instead of all data points
 		background: rgba(255, 255, 255, 0.9);
 		padding: 2rem;
 		border-radius: 8px;
-		border: 1px solid #ccc;
+		border: 2px solid #ccc;
 		z-index: 100;
 		font-family: fustat;
-	}
-
-	.form-filter-chips {
-		display: flex;
-		flex-wrap: nowrap;
-		gap: 0.5rem;
-		padding: 0.75rem 1rem;
-		border-bottom: 1px solid #ccc;
-		margin-bottom: 1rem;
-		width: 100%;
-		box-sizing: border-box;
-		overflow-x: hidden;
-	}
-
-	.form-chip {
-		font-family: fustat;
-		padding: 0.45rem 0.65rem;
-		border: 1px solid #ccc;
-		background-color: rgba(75, 75, 75, 0.1);
-		cursor: pointer;
-		border-radius: 20px;
-		font-size: 0.80em;
-		transition: all 0.2s;
-		white-space: nowrap;
-		text-align: center;
-		flex-shrink: 1;
-	}
-
-	.form-chip:hover {
-		background-color: rgba(75, 75, 75, 0.2);
-		border-color: #999;
-	}
-
-	.form-chip.selected {
-		background-color: #2D6A4F;
-		color: white;
-		border-color: #2D6A4F;
-		font-weight: 600;
 	}
 
 	.pagination-controls {
 		margin-bottom: 1rem;
 		padding-bottom: 1rem;
-		border-bottom: 1px solid #ccc;
+		border-bottom: 2px solid #ccc;
 	}
 
 	.pagination-info {
@@ -724,6 +715,68 @@ MODIFIED: Shows average price per year instead of all data points
 		cursor: not-allowed;
 	}
 
+	.form-filter-section {
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
+		border-bottom: 2px solid #ccc;
+	}
+
+	.form-list {
+		list-style: none;
+		padding: 0;
+		margin: 10px 0;
+		max-height: 200px;
+		overflow-y: auto;
+		border: 2px solid rgba(128, 128, 128, 0.5);
+		border-radius: 4px;
+	}
+
+	.form-list-item {
+		padding: 0.4rem 0.8rem;
+		cursor: pointer;
+		transition: background-color 0.2s;
+		font-family: fustat;
+		font-size: 13px;
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		background-color: rgba(75, 75, 75, 0.2);
+		border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+	}
+
+	.form-list-item:last-child {
+		border-bottom: none;
+	}
+
+	.form-list-item .checkmark {
+		width: 1rem;
+		font-weight: bold;
+	}
+
+	.form-list-item .form-name {
+		flex: 1;
+	}
+
+	.form-list-item .form-count {
+		margin-left: auto;
+		font-size: 0.85em;
+		color: #666;
+	}
+
+	.form-list-item:hover {
+		background-color: rgba(128, 128, 128, 0.15);
+	}
+
+	.form-list-item.selected {
+		font-weight: 600;
+		background-color: rgba(45, 106, 79, 0.15);
+		border-left: 3px solid #2D6A4F;
+	}
+
+	.form-list-item.unselected {
+		opacity: 0.7;
+	}
+
 	.drug-selection-section {
 		flex: 1;
 		display: flex;
@@ -736,7 +789,7 @@ MODIFIED: Shows average price per year instead of all data points
 		margin: 10px 0;
 		max-height: 300px;
 		overflow-y: auto;
-		border: 1px solid rgba(128, 128, 128, 0.5);
+		border: 2px solid rgba(128, 128, 128, 0.5);
 		border-radius: 4px;
 		flex: 1;
 	}
@@ -782,7 +835,7 @@ MODIFIED: Shows average price per year instead of all data points
 	}
 
 	.drug-list-item:focus {
-		outline: 1px solid #54707c;
+		outline: 2px solid #54707c;
 		outline-offset: -2px;
 	}
 
@@ -802,7 +855,7 @@ MODIFIED: Shows average price per year instead of all data points
 	}
 
 	.chart-wrapper {
-		padding: 0;
+		padding: 10px 0 0 0;
 		flex: 1;
 		display: flex;
 		flex-direction: column;
@@ -857,7 +910,7 @@ MODIFIED: Shows average price per year instead of all data points
 		display: flex;
 		justify-content: space-between;
 		margin: 6px 0;
-		font-size: 14px;
+		font-size: 13px;
 		color: #000;
 	}
 
