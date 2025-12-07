@@ -85,9 +85,18 @@
 		</div>
 
 		<br />
+		<!-- drug selector -->
+		<div class="drug-selector">
+			<label for="drug-select">Select Drug:</label>
+			<select id="drug-select" bind:value={selectedDrugIndex} class="drug-dropdown">
+				{#each brandDrugs as drug, i}
+					<option value={i}>{drug.name}</option>
+				{/each}
+			</select>
+		</div>
 		<div class="width-tracker">
 			<div class="charts-container">
-				<PricePerMgStrength bind:selectedDrugIndex={selectedDrugIndex} />
+				<PricePerMgStrength {selectedDrugIndex} />
 				<PricePerCapsuleStrength {selectedDrugIndex}/>
 			</div>
 		</div>
@@ -120,7 +129,7 @@
 					href="https://www.ama-assn.org/about/leadership/unchecked-power-pbm-industry-puts-patients-risk-harm"
 					target="_blank"
 					rel="noopener noreferrer">American Medical Association</a
-				> noted that many patients complain about how they can’t afford their medications. When the patents
+				> noted that many patients complain about how they can't afford their medications. When the patents
 				expire and generic drugs join the market, those options are usually much more affordable, and are
 				often even cheaper than they are in other countries.
 			</p>
@@ -131,37 +140,6 @@
 				course, the cost of insulin is still very high, but it decreased significantly.
 			</p>
 		</div>
-<div class="insulin-graphic-intro">
-	<h3>How high are they really?</h3>
-	<br />
-	<p>
-		What's causing drug prices to be so high? Does this public perception reflect the actual price
-		trends?
-	</p>
-	<br />
-	<p>
-		Part of the problem is that information about how drugs are priced or even what they cost is
-		largely hidden to the public. Also, since the US allows pharmaceutical companies to patent
-		medications when they first go to market, patients have no choice but to pay their high fees.
-	</p>
-	<br />
-	<p>
-		Then the administrators of prescription drugs have little role in determining the costs their
-		patients pay. The <a
-			href="https://www.ama-assn.org/about/leadership/unchecked-power-pbm-industry-puts-patients-risk-harm"
-			target="_blank"
-			rel="noopener noreferrer">American Medical Association</a
-		> noted that many patients complain about how they can't afford their medications. When the patents
-		expire and generic drugs join the market, those options are usually much more affordable, and are
-		often even cheaper than they are in other countries.
-	</p>
-	<br />
-	<p>
-		For example, look at insulin: when the brand Lantus had no generic drug competitor in 2018 when
-		there was no generic drug available, and 2025 after it took the place of the generic option. Of
-		course, the cost of insulin is still very high, but it decreased significantly.
-	</p>
-</div>
 
 		<h4 class="section-title">Look at Insulin Lantus ↓</h4>
 		<InsulinComparison />
@@ -204,45 +182,12 @@
 
 	<br />
 
-	<br />
-	<div class="headers">
-		<h3> What is the cheapest option for a specific drug? </h3>
-	</div>
-<br />
 <div class="headers">
 	<h3> What is the cheapest option for a specific drug? </h3>
 </div>
-
-<!-- drug selector -->
-<div class="drug-selector">
-	<label for="drug-select">Select Drug:</label>
-	<select id="drug-select" bind:value={selectedDrugIndex} class="drug-dropdown">
-		{#each brandDrugs as drug, i}
-			<option value={i}>{drug.name}</option>
-		{/each}
-	</select>
-</div>
-
 	<InflationComparison />
 </div>
 <br />
-<div class="width-tracker">
-	<div class="charts-container">
-		<PricePerMgStrength {selectedDrugIndex} />
-		<PricePerCapsuleStrength {selectedDrugIndex}/>
-	</div>
-</div>
-
-<br />
-<div class="width-tracker">
-	<div class="charts-container">
-		<PricePerMgForm {selectedDrugIndex} />
-		<PricePerCapsuleForm {selectedDrugIndex} />
-	</div>
-</div>
-
-<InflationComparison />
-
 <AveragePriceFormCategories />
 
 <style>
