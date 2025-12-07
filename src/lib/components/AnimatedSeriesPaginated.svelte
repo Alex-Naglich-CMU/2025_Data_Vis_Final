@@ -1,11 +1,13 @@
-<!-- paginated version showing percent increase from starting price
+<!-- paginated version of automated series chart
 shows groups of 250 brand drugs at a time with prev/next buttons
-y-axis shows percent change instead of absolute price
+loads all brand drugs from search_index_all.json
 TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
+MODIFIED: Shows average price per year instead of all data points
 -->
 
 <script lang="ts">
 	import * as d3 from 'd3';
+	import type { ChartPoint } from '$lib/scripts/types';
 	import { isDarkMode } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
 	import { categorizeDosageForm } from '$lib/scripts/formCategorizer';
@@ -28,11 +30,6 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		form: string; // detailed dosage form
 		formCategory: string; // broad category bucket
 		prices: Record<string, Record<string, number>>;
-	}
-
-	interface ChartPoint {
-		date: Date;
-		percentChange: number; // percent change from first price
 	}
 	
 	let drugsData = $state<DrugData[]>([]);
@@ -104,42 +101,41 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		}
 	});
 
-	// convert prices object to chart points with percent change
+	// convert prices object to chart points - averaged by year
 	function getChartPoints(drug: DrugData): ChartPoint[] {
-		const pricePoints: { date: Date; price: number }[] = [];
+		const yearPrices = new Map<number, number[]>();
 		
-		// iterate through all NDCs and their dates
+		// iterate through all NDCs and their dates, grouping by year
 		for (const ndc in drug.prices) {
 			for (const [dateStr, price] of Object.entries(drug.prices[ndc])) {
 				const date = parseDate(dateStr);
 				if (date) {
-					pricePoints.push({ date, price });
+					const year = date.getFullYear();
+					const singleDosePrice = price / 30;
+					
+					if (!yearPrices.has(year)) {
+						yearPrices.set(year, []);
+					}
+					yearPrices.get(year)!.push(singleDosePrice);
 				}
 			}
 		}
 		
-		// sort by date
-		pricePoints.sort((a, b) => a.date.getTime() - b.date.getTime());
-		
-		// remove duplicates (keep last price for each date)
-		const dateMap = new Map<string, { date: Date; price: number }>();
-		for (const point of pricePoints) {
-			const dateKey = point.date.toISOString().split('T')[0];
-			dateMap.set(dateKey, point);
+		// calculate average price for each year
+		const points: ChartPoint[] = [];
+		for (const [year, prices] of yearPrices.entries()) {
+			const avgPrice = prices.reduce((sum, p) => sum + p, 0) / prices.length;
+			// use January 1st of each year as the date
+			points.push({ 
+				date: new Date(year, 0, 1), 
+				price: avgPrice 
+			});
 		}
 		
-		const sortedPrices = Array.from(dateMap.values()).sort((a, b) => a.date.getTime() - b.date.getTime());
+		// sort by date
+		points.sort((a, b) => a.date.getTime() - b.date.getTime());
 		
-		if (sortedPrices.length === 0) return [];
-		
-		// calculate percent change from first price
-		const firstPrice = sortedPrices[0].price;
-		const percentPoints: ChartPoint[] = sortedPrices.map(point => ({
-			date: point.date,
-			percentChange: ((point.price - firstPrice) / firstPrice) * 100
-		}));
-		
-		return percentPoints;
+		return points;
 	}
 
 	// parse date string
@@ -211,10 +207,14 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 			console.log('loaded', loadedDrugs.length, 'drugs with', availableFormCategories.length, 'unique form categories');
 			console.log('categories:', availableFormCategories);
 
-			// reset selections when changing pages
-			selectedDrugIndices = new Set<number>();
+			// select all drugs on current page by default
+			const initialSelection = new Set<number>();
+			for (let i = 0; i < drugsData.length; i++) {
+				initialSelection.add(i);
+			}
+			selectedDrugIndices = initialSelection;
 			selectedFormCategories = new Set<string>();
-
+			
 			loadingPage = false;
 		} catch (err) {
 			console.error('error loading page data:', err);
@@ -247,15 +247,14 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 				const date = parseDate(dateStr);
 				if (date && (mostRecentDate === null || date > mostRecentDate)) {
 					mostRecentDate = date;
-					mostRecentPrice = price;
+					mostRecentPrice = price/30;		
 				}
 			}
 		}
-
 		return mostRecentPrice;
 	}
 
-	// filter drugs by selected form categories
+	// filter drugs by selected categories
 	const filteredDrugs = $derived(
 		drugsData.filter((drug, i) => {
 			// if no categories selected, show all drugs
@@ -324,23 +323,17 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 	) {
 		const hasData = data.length > 0;
 
-		// get date range from all data points
-		const dates = data.map(d => d.date);
 		const xScale = d3
 			.scaleTime()
 			.range([marginVal.left, widthVal - marginVal.right])
 			.domain(
-				hasData ? (d3.extent(dates) as [Date, Date]) : [new Date(), new Date()]
+				hasData ? (d3.extent(data, (d) => d.date) as [Date, Date]) : [new Date(), new Date()]
 			);
 
-		// y-axis shows percent change
-		const minPercent = hasData ? d3.min(data, (d) => d.percentChange) ?? 0 : 0;
-		const maxPercent = hasData ? d3.max(data, (d) => d.percentChange) ?? 100 : 100;
-		
 		const yScale = d3
 			.scaleLinear()
 			.range([heightVal - marginVal.bottom, marginVal.top])
-			.domain([minPercent * 1.1, maxPercent * 1.1])
+			.domain([0, hasData ? (d3.max(data, (d) => d.price * 1.04) ?? 100) : 100])
 			.nice();
 
 		return { xScale, yScale };
@@ -359,7 +352,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		const lineGen = d3
 			.line<ChartPoint>()
 			.x((d) => xScale(d.date))
-			.y((d) => yScale(d.percentChange))
+			.y((d) => yScale(d.price))
 			.curve(d3.curveLinear);
 		return lineGen(data) || '';
 	}
@@ -415,7 +408,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		dataLength: number
 	) {
 		if (!ref || dataLength === 0) return;
-		const yAxis = d3.axisLeft(scale).tickFormat((d) => `${d}%`);
+		const yAxis = d3.axisLeft(scale).tickFormat((d) => `$${d}`);
 		d3.select(ref).call(yAxis);
 	}
 
@@ -438,15 +431,6 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		}
 		selectedFormCategories = newSet;
 	}
-
-	// count how many drugs match each category
-	const categoryCounts = $derived.by(() => {
-		const counts = new Map<string, number>();
-		for (const drug of drugsData) {
-			counts.set(drug.formCategory, (counts.get(drug.formCategory) || 0) + 1);
-		}
-		return counts;
-	});
 </script>
 
 <!--- content area --->
@@ -468,6 +452,20 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 						<p>Loading page data...</p>
 					</div>
 				{/if}
+
+				<!-- form filter chips above chart -->
+				<div class="form-filter-chips">
+					{#each availableFormCategories as category}
+						{@const isSelected = selectedFormCategories.has(category)}
+						<button
+							class="form-chip"
+							class:selected={isSelected}
+							onclick={() => toggleFormCategorySelection(category)}
+						>
+							{category}
+						</button>
+					{/each}
+				</div>
 				
 				<svg {width} {height} role="img" bind:this={mainSvgRef}>
 					<defs>
@@ -484,44 +482,24 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 					<g clip-path="url(#animated-series-clip)">
 						<!-- draw all lines -->
 						{#each linePaths as line}
-							{@const isSelected = selectedDrugIndices.has(line.drugIndex)}
 							{#if line.path}
-								<!-- invisible wider path for easier clicking -->
-								<path 
-									d={line.path} 
-									fill="none" 
-									stroke="transparent"
-									stroke-width="10"
-									style="cursor: pointer;"
-									onclick={() => toggleDrugSelection(line.drugIndex)}
-								/>
-								<!-- visible path -->
-								<path 
-									d={line.path} 
-									fill="none" 
-									style="stroke: {isSelected ? line.color : '#999'}; pointer-events: none;" 
-									stroke-width="2"
-									opacity={isSelected ? 1 : 0.3}
-								/>
+								<path d={line.path} fill="none" style="stroke: {line.color}" stroke-width="2" />
 							{/if}
 						{/each}
 
 						<!-- draw all data points -->
 						{#each linePaths as line}
-							{@const isSelected = selectedDrugIndices.has(line.drugIndex)}
 							{#each line.data as point}
 								<circle
 									cx={xScale(point.date)}
-									cy={yScale(point.percentChange)}
-									r="2"
-									fill={isSelected ? line.color : '#999'}
+									cy={yScale(point.price)}
+									r="4"
+									fill={line.color}
 									stroke={$isDarkMode ? '#ddd' : '#222'}
-									opacity={isSelected ? 1 : 0.3}
 									style="cursor: pointer; pointer-events: all;"
-									onclick={() => toggleDrugSelection(line.drugIndex)}
 									onmouseenter={(e) => {
 										const prices = new Map<string, number>();
-										prices.set(line.label, point.percentChange);
+										prices.set(line.label, point.price);
 										tooltipData = { date: point.date, prices };
 										cursorX = e.clientX;
 										cursorY = e.clientY;
@@ -546,7 +524,6 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 				<!--- tooltip --->
 				{#if tooltipData}
 					{@const dateStr = tooltipData.date.toLocaleDateString('en-US', {
-						month: 'long',
 						year: 'numeric'
 					})}
 					{@const containerRect = chartContainerRef?.getBoundingClientRect()}
@@ -554,15 +531,15 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 					{@const tooltipY = containerRect ? cursorY - containerRect.top : 0}
 
 					<div class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
-						<div class="tooltip-date"><strong>{dateStr}</strong></div>
+						<div class="tooltip-date"><strong>{dateStr} Average</strong></div>
 
-						{#each Array.from(tooltipData.prices.entries()) as [label, percentChange]}
+						{#each Array.from(tooltipData.prices.entries()) as [label, price]}
 							{@const lineData = linePaths.find((l) => l.label === label)}
 							<div class="tooltip-row">
 								<span class="label" style="color: {lineData?.color || '#000'}">
 									{label}:
 								</span>
-								<span class="value">{percentChange > 0 ? '+' : ''}{percentChange.toFixed(1)}%</span>
+								<span class="value">${price.toFixed(2)}</span>
 							</div>
 						{/each}
 					</div>
@@ -598,61 +575,20 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 						</div>
 					</div>
 
-					<!-- form filter section -->
-					<div class="form-filter-section">
-						<div class="mb-2">
-							<label>Filter by Dosage Form Category:</label>
-							<div class="text-sm text-gray-500">
-								{selectedFormCategories.size > 0 
-									? `${filteredDrugs.length} of ${drugsData.length} drugs` 
-									: 'All forms'}
-							</div>
-						</div>
-						<ul class="form-list">
-							{#each availableFormCategories as category}
-								{@const isSelected = selectedFormCategories.has(category)}
-								{@const count = categoryCounts.get(category) || 0}
-								<li
-									class="form-list-item"
-									class:selected={isSelected}
-									class:unselected={!isSelected}
-									onclick={() => toggleFormCategorySelection(category)}
-									role="option"
-									aria-selected={isSelected}
-									tabindex="0"
-								>
-									<span class="checkmark">{isSelected ? '✓' : ''}</span>
-									<span class="form-name">{category}</span>
-									<span class="form-count">({count})</span>
-								</li>
-							{/each}
-						</ul>
-					</div>
-
 					<!-- drug selection section -->
 					<div class="drug-selection-section">
 						<div class="mb-2 flex items-center justify-between">
 							<label for="drug-list">Select Drugs:</label>
-							<span class="text-sm text-gray-500">* % change from first price</span>
+							<span class="text-sm text-gray-500">* For a single dose</span>
 						</div>
 						<ul class="drug-list" role="listbox">
-							{#each brandDrugs
-								.sort((a, b) => {
-									const aSelected = selectedDrugIndices.has(a.i);
-									const bSelected = selectedDrugIndices.has(b.i);
-									// selected items first
-									if (aSelected && !bSelected) return -1;
-									if (!aSelected && bSelected) return 1;
-									// within each group, maintain price order
-									return 0;
-								}) as { drug, i, price }}
+							{#each brandDrugs as { drug, i, price }}
 								{@const brandDrugPosition = brandDrugs.findIndex(({ i: idx }) => idx === i)}
 								{@const color = drugColors[brandDrugPosition % drugColors.length]}
 								{@const isSelected = selectedDrugIndices.has(i)}
 								<li
 									class="drug-list-item"
 									class:selected={isSelected}
-									class:unselected={!isSelected}
 									onclick={() => toggleDrugSelection(i)}
 									onkeydown={(e) => {
 										if (e.key === 'Enter' || e.key === ' ') toggleDrugSelection(i);
@@ -662,7 +598,8 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 									tabindex="0"
 									style="border-left: 4px solid {color}; {isSelected
 										? `background-color: ${color}70; color: ${color};`
-										: ''}">
+										: ''}"
+								>
 									<span class="checkmark">{isSelected ? '✓' : ''}</span>
 									<span class="drug-name">{drug.friendlyName.toUpperCase()}</span>
 									<span class="drug-price">${price.toFixed(2)}</span>
@@ -700,15 +637,53 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		background: rgba(255, 255, 255, 0.9);
 		padding: 2rem;
 		border-radius: 8px;
-		border: 2px solid #ccc;
+		border: 1px solid #ccc;
 		z-index: 100;
 		font-family: fustat;
+	}
+
+	.form-filter-chips {
+		display: flex;
+		flex-wrap: nowrap;
+		gap: 0.5rem;
+		padding: 0.75rem 1rem;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 1rem;
+		width: 100%;
+		box-sizing: border-box;
+		overflow-x: hidden;
+	}
+
+	.form-chip {
+		font-family: fustat;
+		padding: 0.45rem 0.65rem;
+		border: 1px solid #ccc;
+		background-color: rgba(75, 75, 75, 0.1);
+		cursor: pointer;
+		border-radius: 20px;
+		font-size: 0.80em;
+		transition: all 0.2s;
+		white-space: nowrap;
+		text-align: center;
+		flex-shrink: 1;
+	}
+
+	.form-chip:hover {
+		background-color: rgba(75, 75, 75, 0.2);
+		border-color: #999;
+	}
+
+	.form-chip.selected {
+		background-color: #2D6A4F;
+		color: white;
+		border-color: #2D6A4F;
+		font-weight: 600;
 	}
 
 	.pagination-controls {
 		margin-bottom: 1rem;
 		padding-bottom: 1rem;
-		border-bottom: 2px solid #ccc;
+		border-bottom: 1px solid #ccc;
 	}
 
 	.pagination-info {
@@ -749,68 +724,6 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		cursor: not-allowed;
 	}
 
-	.form-filter-section {
-		margin-bottom: 1rem;
-		padding-bottom: 1rem;
-		border-bottom: 2px solid #ccc;
-	}
-
-	.form-list {
-		list-style: none;
-		padding: 0;
-		margin: 10px 0;
-		max-height: 200px;
-		overflow-y: auto;
-		border: 2px solid rgba(128, 128, 128, 0.5);
-		border-radius: 4px;
-	}
-
-	.form-list-item {
-		padding: 0.4rem 0.8rem;
-		cursor: pointer;
-		transition: background-color 0.2s;
-		font-family: fustat;
-		font-size: 13px;
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		background-color: rgba(75, 75, 75, 0.2);
-		border-bottom: 1px solid rgba(128, 128, 128, 0.5);
-	}
-
-	.form-list-item:last-child {
-		border-bottom: none;
-	}
-
-	.form-list-item .checkmark {
-		width: 1rem;
-		font-weight: bold;
-	}
-
-	.form-list-item .form-name {
-		flex: 1;
-	}
-
-	.form-list-item .form-count {
-		margin-left: auto;
-		font-size: 0.85em;
-		color: #666;
-	}
-
-	.form-list-item:hover {
-		background-color: rgba(128, 128, 128, 0.15);
-	}
-
-	.form-list-item.selected {
-		font-weight: 600;
-		background-color: rgba(45, 106, 79, 0.15);
-		border-left: 3px solid #2D6A4F;
-	}
-
-	.form-list-item.unselected {
-		opacity: 0.7;
-	}
-
 	.drug-selection-section {
 		flex: 1;
 		display: flex;
@@ -823,7 +736,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		margin: 10px 0;
 		max-height: 300px;
 		overflow-y: auto;
-		border: 2px solid rgba(128, 128, 128, 0.5);
+		border: 1px solid rgba(128, 128, 128, 0.5);
 		border-radius: 4px;
 		flex: 1;
 	}
@@ -869,7 +782,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 	}
 
 	.drug-list-item:focus {
-		outline: 2px solid #54707c;
+		outline: 1px solid #54707c;
 		outline-offset: -2px;
 	}
 
@@ -889,7 +802,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 	}
 
 	.chart-wrapper {
-		padding: 10px 0 0 0;
+		padding: 0;
 		flex: 1;
 		display: flex;
 		flex-direction: column;
@@ -944,7 +857,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		display: flex;
 		justify-content: space-between;
 		margin: 6px 0;
-		font-size: 13px;
+		font-size: 14px;
 		color: #000;
 	}
 
@@ -955,20 +868,6 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 	.tooltip-row .value {
 		font-weight: 600;
 		color: #000;
-	}
-
-	.drug-list-item.unselected {
-		opacity: 0.4;
-		color: #999;
-	}
-
-	.drug-list-item.unselected .drug-name,
-	.drug-list-item.unselected .drug-price {
-		color: #999;
-	}
-
-	.drug-list-item.unselected:hover {
-		opacity: 0.6;
 	}
 
 	.text-sm {

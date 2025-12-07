@@ -257,7 +257,7 @@
 	}
 
 	.title-holder {
-		padding: 40px 40px 40px 40px;
+		padding: 40px 0;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -286,34 +286,25 @@
 
 	.section-title {
 		margin-bottom: 20px;
-		margin-left: 40px;
 	}
 
 	.intro-holder {
-		margin-left: 40px;
 		margin-bottom: 40px;
 		max-width: 850px;
 	}
 
 	.news-holder {
-		margin-left: 40px;
 		margin-bottom: 40px;
 		max-width: 850px;
 	}
 
 	.insulin-graphic-intro {
-		margin-left: 40px;
 		margin-bottom: 40px;
 		max-width: 850px;
 	}
 
 	.chart-intro {
-		margin-left: 40px;
 		max-width: 850px;
-	}
-
-	.headers {
-		margin-left: 40px;
 	}
 
 	.drug-selector {
