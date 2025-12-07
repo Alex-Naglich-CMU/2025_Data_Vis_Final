@@ -7,11 +7,13 @@
 	import Headlines from '$lib/components/Headlines.svelte';
 	import InsulinComparison from '$lib/components/Insulin.svelte';
 	import AnimatedSeries from '$lib/components/AnimatedSeries.svelte';
-	import PricePerUnitComparison from '$lib/components/PricePerUnitComparison.svelte';
+	import PricePerUnitComparison from '$lib/components/PricePerMgForm.svelte';
+	import PricePerMgStrength from '$lib/components/PricePerMgStrength.svelte';
 	import PricePerCapsuleComparison from '$lib/components/PricePerCapsuleComparison.svelte';
 	import AnimatedSeriesPaginated from '$lib/components/AnimatedSeriesPaginated.svelte';
  	import AnimatedSeriesPaginated2 from '$lib/components/AnimatedSeriesPaginated2.svelte';
 
+	let selectedDrugIndex = $state(8);
 
 	onMount(() => {
 		isDarkMode.init();
@@ -140,8 +142,12 @@
 </div>
 
 <br />
-
-<PricePerUnitComparison />
+	<div class="width-tracker">
+		<div class="charts-container">
+			<PricePerUnitComparison bind:selectedDrugIndex={selectedDrugIndex} />
+			<PricePerMgStrength {selectedDrugIndex} />
+		</div>
+	</div>
 
 <br />
 
