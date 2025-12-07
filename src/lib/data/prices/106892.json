@@ -7,7 +7,7 @@
   "Ingredient_Name": "Insulin Isophane, Human Untml Insulin, Regular, Human Untml Injectable",
   "Manufacturer_Name": "Humulin",
   "Strength": "70 UNT/ML",
-  "Form": "",
+  "Form": "Injectable Suspension",
   "prices": {
     "00002871501": {
       "07/21/2021": 14.30359,
@@ -36,8 +36,7 @@
       "07/23/2025": 4.27055,
       "08/20/2025": 4.26998,
       "09/17/2025": 4.26953,
-      "10/22/2025": 4.26845,
-      "11/19/2025": 4.26656
+      "10/22/2025": 4.26845
     }
   }
 }

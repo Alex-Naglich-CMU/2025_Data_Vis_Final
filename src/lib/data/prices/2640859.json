@@ -7,13 +7,12 @@
   "Ingredient_Name": "Adalimumab-Aacf Mgml Auto-Injector",
   "Manufacturer_Name": "",
   "Strength": "0.8 ML",
-  "Form": "",
+  "Form": "Injector",
   "prices": {
     "65219061299": {
       "08/20/2025": 871.78389,
       "09/17/2025": 872.49056,
-      "10/22/2025": 873.1296,
-      "11/19/2025": 873.25905
+      "10/22/2025": 873.1296
     }
   }
 }

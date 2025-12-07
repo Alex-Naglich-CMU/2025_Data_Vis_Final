@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Divalproex Sodium Extended Release",
   "Manufacturer_Name": "Depakote",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "00074712611": {
       "12/22/2017": 5.38637,
@@ -43,8 +43,7 @@
       "07/23/2025": 6.19338,
       "08/20/2025": 6.19855,
       "09/17/2025": 6.19995,
-      "10/22/2025": 6.20427,
-      "11/19/2025": 6.20032
+      "10/22/2025": 6.20427
     }
   }
 }

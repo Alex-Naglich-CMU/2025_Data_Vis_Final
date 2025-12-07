@@ -7,7 +7,7 @@
   "Ingredient_Name": "Cobicistat Elvitegravir Emtricitabine Tenofovir Alafenamide",
   "Manufacturer_Name": "Genvoya",
   "Strength": "150 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "61958190101": {
       "12/20/2017": 89.14437,
@@ -37,8 +37,7 @@
       "07/23/2025": 136.5247,
       "08/20/2025": 136.60834,
       "09/17/2025": 136.65214,
-      "10/22/2025": 136.6547,
-      "11/19/2025": 136.64954
+      "10/22/2025": 136.6547
     }
   }
 }

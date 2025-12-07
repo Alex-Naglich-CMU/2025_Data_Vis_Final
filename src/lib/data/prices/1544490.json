@@ -7,13 +7,12 @@
   "Ingredient_Name": "Insulin, Regular, Human Unt Inhalation",
   "Manufacturer_Name": "Afrezza",
   "Strength": "8 UNT",
-  "Form": "",
+  "Form": "Powder",
   "prices": {
     "47918087890": {
       "11/20/2024": 9.62449,
       "12/16/2024": 10.10571,
-      "10/22/2025": 10.06305,
-      "11/19/2025": 10.10198
+      "10/22/2025": 10.06305
     }
   }
 }

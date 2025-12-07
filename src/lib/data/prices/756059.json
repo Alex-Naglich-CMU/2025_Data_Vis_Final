@@ -7,15 +7,14 @@
   "Ingredient_Name": "Lithium Citrate Mgml",
   "Manufacturer_Name": "",
   "Strength": "60 MG/ML",
-  "Form": "Solution",
+  "Form": "Oral Solution",
   "prices": {
     "00054352763": {
       "11/08/2017": 0.25425
     },
     "72888017246": {
       "09/17/2025": 0.47324,
-      "10/22/2025": 0.4731,
-      "11/19/2025": 0.47411
+      "10/22/2025": 0.4731
     }
   }
 }

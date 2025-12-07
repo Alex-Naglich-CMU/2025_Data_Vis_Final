@@ -7,7 +7,7 @@
   "Ingredient_Name": "Mycophenolic Acid Delayed Release",
   "Manufacturer_Name": "Myfortic",
   "Strength": "360 MG",
-  "Form": "",
+  "Form": "Delayed Release Oral Tablet",
   "prices": {
     "00078038666": {
       "07/11/2017": 9.78491,
@@ -23,8 +23,7 @@
       "07/23/2025": 14.42828,
       "08/20/2025": 14.39437,
       "09/17/2025": 14.37809,
-      "10/22/2025": 14.38808,
-      "11/19/2025": 14.35429
+      "10/22/2025": 14.38808
     }
   }
 }

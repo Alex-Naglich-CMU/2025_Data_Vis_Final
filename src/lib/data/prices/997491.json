@@ -7,7 +7,7 @@
   "Ingredient_Name": "Fexofenadine Hydrochloride Mgml",
   "Manufacturer_Name": "",
   "Strength": "6 MG/ML",
-  "Form": "Suspension",
+  "Form": "Oral Suspension",
   "prices": {
     "00472052794": {
       "06/21/2017": 0.05166,
@@ -32,8 +32,7 @@
       "07/23/2025": 0.06206,
       "08/20/2025": 0.06155,
       "09/17/2025": 0.06109,
-      "10/22/2025": 0.06064,
-      "11/19/2025": 0.05983
+      "10/22/2025": 0.06064
     }
   }
 }

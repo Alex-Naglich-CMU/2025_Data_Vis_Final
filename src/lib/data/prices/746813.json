@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Mometasone Furoate Mgactuat Dry Inhaler",
   "Manufacturer_Name": "Asmanex",
   "Strength": "30 ACTU",
-  "Form": "",
+  "Form": "Dry Powder Inhaler",
   "prices": {
     "00085134107": {
       "05/19/2021": 184.28375,
@@ -42,8 +42,7 @@
       "07/23/2025": 95.95438,
       "08/20/2025": 95.97951,
       "09/17/2025": 95.99508,
-      "10/22/2025": 95.90741,
-      "11/19/2025": 95.93158
+      "10/22/2025": 95.90741
     }
   }
 }

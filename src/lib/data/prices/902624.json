@@ -7,7 +7,7 @@
   "Ingredient_Name": "Dexlansoprazole Delayed Release",
   "Manufacturer_Name": "Dexilant",
   "Strength": "30 MG",
-  "Form": "",
+  "Form": "Delayed Release Oral Capsule",
   "prices": {
     "64764017130": {
       "01/02/2018": 8.76659,
@@ -38,8 +38,7 @@
       "07/23/2025": 9.84743,
       "08/20/2025": 9.84322,
       "09/17/2025": 9.84676,
-      "10/22/2025": 9.84433,
-      "11/19/2025": 9.84777
+      "10/22/2025": 9.84433
     }
   }
 }

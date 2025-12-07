@@ -7,7 +7,7 @@
   "Ingredient_Name": "Dextromethorphan Hydrobromide Mgml Phenylephrine Hydrochloride Mgml Pyrilamine Maleate Mgml",
   "Manufacturer_Name": "",
   "Strength": "1.5 MG/ML",
-  "Form": "Solution",
+  "Form": "Oral Solution",
   "prices": {
     "50991013216": {
       "04/17/2024": 0.05681,
@@ -20,8 +20,7 @@
       "07/23/2025": 0.06942,
       "08/20/2025": 0.06965,
       "09/17/2025": 0.06943,
-      "10/22/2025": 0.06961,
-      "11/19/2025": 0.06229
+      "10/22/2025": 0.06961
     }
   }
 }

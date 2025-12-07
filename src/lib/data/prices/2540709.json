@@ -7,7 +7,7 @@
   "Ingredient_Name": "Naloxone Hydrochloride Mgml Nasal",
   "Manufacturer_Name": "Kloxxado",
   "Strength": "80 MG/ML",
-  "Form": "",
+  "Form": "Nasal Spray",
   "prices": {
     "59467067901": {
       "2/22/2023": 59.785,
@@ -30,8 +30,7 @@
       "07/23/2025": 59.98797,
       "08/20/2025": 59.99127,
       "09/17/2025": 59.95016,
-      "10/22/2025": 59.9278,
-      "11/19/2025": 59.9362
+      "10/22/2025": 59.9278
     }
   }
 }

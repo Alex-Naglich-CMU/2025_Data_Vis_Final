@@ -7,7 +7,7 @@
   "Ingredient_Name": "Lisdexamfetamine Dimesylate Chewable",
   "Manufacturer_Name": "Vyvanse",
   "Strength": "20 MG",
-  "Form": "",
+  "Form": "Chewable Tablet",
   "prices": {
     "59417011601": {
       "01/01/2018": 9.40411,
@@ -39,8 +39,7 @@
       "07/23/2025": 12.35219,
       "08/20/2025": 12.35034,
       "09/17/2025": 12.34898,
-      "10/22/2025": 12.35527,
-      "11/19/2025": 12.34719
+      "10/22/2025": 12.35527
     }
   }
 }

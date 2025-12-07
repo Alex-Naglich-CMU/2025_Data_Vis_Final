@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Canagliflozin Metformin Hydrochloride Extended Release",
   "Manufacturer_Name": "Invokamet",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "50458094101": {
       "01/03/2018": 7.46429,
@@ -35,8 +35,7 @@
       "07/23/2025": 9.56306,
       "08/20/2025": 9.55575,
       "09/17/2025": 9.56698,
-      "10/22/2025": 9.54813,
-      "11/19/2025": 9.54227
+      "10/22/2025": 9.54813
     }
   }
 }

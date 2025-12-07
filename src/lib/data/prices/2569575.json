@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Lorazepam Extended Release",
   "Manufacturer_Name": "Loreev",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "52427066330": {
       "05/22/2024": 14.18713,
@@ -26,8 +26,7 @@
       "07/23/2025": 14.25584,
       "08/20/2025": 14.23261,
       "09/17/2025": 14.2408,
-      "10/22/2025": 14.25066,
-      "11/19/2025": 14.23211
+      "10/22/2025": 14.25066
     }
   }
 }

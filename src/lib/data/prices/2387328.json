@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Budesonide Mgactuat Formoterol Fumarate Mgactuat Glycopyrrolate Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "Breztri",
   "Strength": "28 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "00310461639": {
       "01/01/2023": 56.43359,
@@ -21,8 +21,7 @@
       "07/23/2025": 59.21729,
       "08/20/2025": 59.40363,
       "09/17/2025": 59.34482,
-      "10/22/2025": 59.24814,
-      "11/19/2025": 59.29892
+      "10/22/2025": 59.24814
     },
     "310461639": {
       "1/1/2022": 54.7899

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Doxycycline Anhydrous Delayed Release",
   "Manufacturer_Name": "Oracea",
   "Strength": "40 MG",
-  "Form": "",
+  "Form": "Delayed Release Oral Capsule",
   "prices": {
     "00299382230": {
       "02/21/2018": 20.5135,
@@ -25,8 +25,7 @@
       "07/23/2025": 29.14052,
       "08/20/2025": 29.14467,
       "09/17/2025": 29.14038,
-      "10/22/2025": 29.12612,
-      "11/19/2025": 29.10208
+      "10/22/2025": 29.12612
     }
   }
 }

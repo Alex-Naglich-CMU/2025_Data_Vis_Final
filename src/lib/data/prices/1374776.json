@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Carbinoxamine Maleate Mgml Extended Release",
   "Manufacturer_Name": "Karbinal",
   "Strength": "12 HR",
-  "Form": "",
+  "Form": "Suspension",
   "prices": {
     "13551010105": {
       "06/21/2017": 0.89716,
@@ -34,8 +34,7 @@
       "05/21/2025": 1.19708,
       "06/18/2025": 1.19681,
       "07/23/2025": 1.19545,
-      "09/17/2025": 1.19367,
-      "11/19/2025": 1.19695
+      "09/17/2025": 1.19367
     }
   }
 }

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Nda Actuat Albuterol Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "Ventolin",
   "Strength": "200 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "00173068220": {
       "06/23/2021": 2.95283,
@@ -38,8 +38,7 @@
       "07/23/2025": 3.03684,
       "08/20/2025": 3.03636,
       "09/17/2025": 3.0365,
-      "10/22/2025": 3.03672,
-      "11/19/2025": 3.03662
+      "10/22/2025": 3.03672
     }
   }
 }

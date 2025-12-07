@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Pseudoephedrine Hydrochloride Extended Release",
   "Manufacturer_Name": "Sudogest",
   "Strength": "12 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "00904675415": {
       "05/19/2021": 0.29058,
@@ -83,8 +83,7 @@
       "07/23/2025": 0.27471,
       "08/20/2025": 0.27216,
       "09/17/2025": 0.26848,
-      "10/22/2025": 0.26646,
-      "11/19/2025": 0.26215
+      "10/22/2025": 0.26646
     },
     "904675415": {
       "09/22/2021": 0.29166

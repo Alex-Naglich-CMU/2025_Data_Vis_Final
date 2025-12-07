@@ -1,6 +1,6 @@
 <!-- price per capsule comparison
-shows the cheapest dosage strength and form for a selected drug
-by displaying the actual price per capsule/tablet (not divided by strength)
+shows the most cost-effective dosage strength and form for a selected drug
+by displaying absolute price per capsule (not divided by strength)
 -->
 
 <script lang="ts">
@@ -24,8 +24,7 @@ by displaying the actual price per capsule/tablet (not divided by strength)
 	interface DrugVariation {
 		rxcui: string;
 		name: string;
-		strengthValue: number; // numeric value extracted from strength
-		strengthLabel: string; // display label (e.g., "20 MG")
+		strengthLabel: string;
 		form: string;
 		mostRecentPrice: number;
 	}
@@ -76,19 +75,27 @@ by displaying the actual price per capsule/tablet (not divided by strength)
 					drugData.manufacturer_name.toLowerCase().includes(selectedDrug.manufacturer) &&
 					drugData.is_brand === true
 				) {
-					const { strengthValue, strengthLabel, form } = parseDrugName(drugData.name);
+					console.log('found variation:', rxcui, drugData.name);
+					
+					try {
+						const priceResponse = await import(`$lib/data/prices/${rxcui}.json`);
+						const priceData = priceResponse.default;
+						
+						console.log('price data structure:', Object.keys(priceData));
+						console.log('Strength field:', priceData.Strength);
+						console.log('Form field:', priceData.Form);
+						
+						// get strength and form directly from JSON
+						const strengthLabel = priceData.Strength || '';
+						const form = priceData.Form || '';
 
-					if (strengthValue && strengthLabel && form) {
-						try {
-							const priceResponse = await import(`$lib/data/prices/${rxcui}.json`);
-							const priceData = priceResponse.default;
+						if (strengthLabel && form && priceData.prices) {
 							const mostRecentPrice = getMostRecentPrice(priceData.prices);
 
 							if (mostRecentPrice !== null) {
 								variations.push({
 									rxcui,
 									name: drugData.name,
-									strengthValue,
 									strengthLabel,
 									form,
 									mostRecentPrice
@@ -96,9 +103,9 @@ by displaying the actual price per capsule/tablet (not divided by strength)
 								
 								console.log(`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} per capsule`);
 							}
-						} catch (e) {
-							console.warn(`no price data for ${rxcui}`);
 						}
+					} catch (e) {
+						console.warn(`no price data for ${rxcui}`);
 					}
 				}
 			}
@@ -111,24 +118,6 @@ by displaying the actual price per capsule/tablet (not divided by strength)
 			loading = false;
 			console.error('error loading drug data:', err);
 		}
-	}
-
-	// parse drug name to extract strength value, label, and form
-	function parseDrugName(name: string): {
-		strengthValue: number;
-		strengthLabel: string;
-		form: string;
-	} {
-		const strengthMatch = name.match(/(\d+\.?\d*)\s*(MG|ML|UNIT)/i);
-		const formMatch = name.match(
-			/(Oral Capsule|Oral Tablet|Chewable Tablet|Oral Solution|Injection|Topical|Transdermal)/i
-		);
-
-		return {
-			strengthValue: strengthMatch ? parseFloat(strengthMatch[1]) : 0,
-			strengthLabel: strengthMatch ? `${strengthMatch[1]} ${strengthMatch[2].toUpperCase()}` : '',
-			form: formMatch ? formMatch[1] : ''
-		};
 	}
 
 	// get most recent price from price data
@@ -168,12 +157,12 @@ by displaying the actual price per capsule/tablet (not divided by strength)
 
 	// group and calculate average price per capsule by strength
 	const strengthBars = $derived.by(() => {
-		const strengthMap = new Map<string, { total: number; count: number; strengthValue: number }>();
+		const strengthMap = new Map<string, { total: number; count: number }>();
 
 		for (const variation of drugVariations) {
 			const key = variation.strengthLabel;
 			if (!strengthMap.has(key)) {
-				strengthMap.set(key, { total: 0, count: 0, strengthValue: variation.strengthValue });
+				strengthMap.set(key, { total: 0, count: 0 });
 			}
 			const entry = strengthMap.get(key)!;
 			entry.total += variation.mostRecentPrice;
@@ -182,8 +171,7 @@ by displaying the actual price per capsule/tablet (not divided by strength)
 
 		const bars = Array.from(strengthMap.entries()).map(([label, data]) => ({
 			label,
-			value: data.total / data.count,
-			strengthValue: data.strengthValue
+			value: data.total / data.count
 		}));
 
 		// sort by price (highest to lowest)
@@ -271,19 +259,15 @@ by displaying the actual price per capsule/tablet (not divided by strength)
 			d3.select(strengthXAxisRef).call(d3.axisBottom(strengthScales.xScale));
 		}
 		if (strengthYAxisRef && strengthBars.length > 0) {
-			d3.select(strengthYAxisRef)
-				.call(d3.axisLeft(strengthScales.yScale).tickFormat((d) => `$${d}`))
-				.selectAll('text')
-				.style('font-family', 'Antonio');
+			d3.select(strengthYAxisRef).call(
+				d3.axisLeft(strengthScales.yScale).tickFormat((d) => `$${d}`)
+			);
 		}
 		if (formXAxisRef && formBars.length > 0) {
 			d3.select(formXAxisRef).call(d3.axisBottom(formScales.xScale));
 		}
 		if (formYAxisRef && formBars.length > 0) {
-			d3.select(formYAxisRef)
-				.call(d3.axisLeft(formScales.yScale).tickFormat((d) => `$${d}`))
-				.selectAll('text')
-				.style('font-family', 'Antonio');
+			d3.select(formYAxisRef).call(d3.axisLeft(formScales.yScale).tickFormat((d) => `$${d}`));
 		}
 	});
 
@@ -359,7 +343,7 @@ by displaying the actual price per capsule/tablet (not divided by strength)
 						<g class="y-axis" transform="translate({margin.left},0)" bind:this={strengthYAxisRef}
 						></g>
 
-						<!-- y-axis label -->
+						<!-- Y-axis label -->
 						<text
 							transform="rotate(-90)"
 							x={-(chartHeight / 2)}
@@ -419,7 +403,7 @@ by displaying the actual price per capsule/tablet (not divided by strength)
 						></g>
 						<g class="y-axis" transform="translate({margin.left},0)" bind:this={formYAxisRef}></g>
 
-						<!-- y-axis label -->
+						<!-- Y-axis label -->
 						<text
 							transform="rotate(-90)"
 							x={-(chartHeight / 2)}
@@ -544,8 +528,6 @@ by displaying the actual price per capsule/tablet (not divided by strength)
 	}
 
 	.best-value {
-		margin-top: 1.5rem;
-		padding: 1rem;
 		font-family: Antonio;
 		font-size: 1em;
 		text-align: center;

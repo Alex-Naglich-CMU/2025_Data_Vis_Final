@@ -7,7 +7,7 @@
   "Ingredient_Name": "Carbidopa Levodopa Disintegrating",
   "Manufacturer_Name": "",
   "Strength": "25 MG",
-  "Form": "Tablet",
+  "Form": "Disintegrating Oral Tablet",
   "prices": {
     "00378505201": {
       "06/23/2021": 0.62394,
@@ -54,8 +54,7 @@
       "04/19/2023": 0.72132,
       "08/20/2025": 0.81974,
       "09/17/2025": 0.81244,
-      "10/22/2025": 0.81517,
-      "11/19/2025": 0.80443
+      "10/22/2025": 0.81517
     },
     "62756018788": {
       "11/22/2017": 0.70263,

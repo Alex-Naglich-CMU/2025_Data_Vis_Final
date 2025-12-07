@@ -7,7 +7,7 @@
   "Ingredient_Name": "Dorzolamide Mgml Timolol Mgml",
   "Manufacturer_Name": "Cosopt",
   "Strength": "20 MG/ML",
-  "Form": "",
+  "Form": "Ophthalmic Solution",
   "prices": {
     "17478060510": {
       "09/20/2017": 18.32171,
@@ -26,8 +26,7 @@
       "07/23/2025": 23.22492,
       "08/20/2025": 23.27431,
       "09/17/2025": 23.262,
-      "10/22/2025": 23.22533,
-      "11/19/2025": 23.20992
+      "10/22/2025": 23.22533
     }
   }
 }

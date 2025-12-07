@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Dry Inhaler",
   "Manufacturer_Name": "",
   "Strength": "60 ACTU",
-  "Form": "",
+  "Form": "Dry Powder Inhaler",
   "prices": {
     "66993079297": {
       "04/17/2024": 2.75283,
@@ -28,8 +28,7 @@
       "07/23/2025": 2.69506,
       "08/20/2025": 2.68172,
       "09/17/2025": 2.66132,
-      "10/22/2025": 2.66229,
-      "11/19/2025": 2.66275
+      "10/22/2025": 2.66229
     }
   }
 }

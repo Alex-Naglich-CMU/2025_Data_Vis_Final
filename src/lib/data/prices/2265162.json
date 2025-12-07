@@ -7,7 +7,7 @@
   "Ingredient_Name": "Propylene Glycol Mgml",
   "Manufacturer_Name": "",
   "Strength": "6 MG/ML",
-  "Form": "Suspension",
+  "Form": "Ophthalmic Suspension",
   "prices": {
     "00065329003": {
       "03/19/2025": 1.35807,
@@ -17,8 +17,7 @@
       "07/23/2025": 1.3867,
       "08/20/2025": 1.38846,
       "09/17/2025": 1.38154,
-      "10/22/2025": 1.37023,
-      "11/19/2025": 1.36143
+      "10/22/2025": 1.37023
     }
   }
 }

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Insulin Glargine-Aglr Untml Pen Injector",
   "Manufacturer_Name": "Rezvoglar",
   "Strength": "3 ML",
-  "Form": "",
+  "Form": "Pen Injector",
   "prices": {
     "00002898005": {
       "05/22/2024": 5.93106,
@@ -27,8 +27,7 @@
       "07/23/2025": 5.93421,
       "08/20/2025": 5.93206,
       "09/17/2025": 5.93164,
-      "10/22/2025": 5.92575,
-      "11/19/2025": 5.92527
+      "10/22/2025": 5.92575
     }
   }
 }

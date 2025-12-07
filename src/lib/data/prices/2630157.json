@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Deutetrabenazine Extended Release",
   "Manufacturer_Name": "Austedo",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "68546047056": {
       "05/22/2024": 77.66036,
@@ -22,8 +22,7 @@
       "06/18/2025": 79.8182,
       "07/23/2025": 79.92843,
       "09/17/2025": 79.65509,
-      "10/22/2025": 79.73939,
-      "11/19/2025": 79.59302
+      "10/22/2025": 79.73939
     }
   }
 }

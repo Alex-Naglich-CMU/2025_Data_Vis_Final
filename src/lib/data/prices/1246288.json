@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Budesonide Mgactuat Formoterol Fumarate Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "",
   "Strength": "120 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "00310737220": {
       "05/19/2021": 20.16395,
@@ -75,8 +75,7 @@
       "07/23/2025": 16.47107,
       "08/20/2025": 16.66833,
       "09/17/2025": 16.40037,
-      "10/22/2025": 16.72299,
-      "11/19/2025": 17.06709
+      "10/22/2025": 16.72299
     },
     "310737220": {
       "09/22/2021": 20.44155

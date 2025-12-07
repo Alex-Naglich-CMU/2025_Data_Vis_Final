@@ -7,12 +7,11 @@
   "Ingredient_Name": "Sprinkle Duloxetine Delayed Release",
   "Manufacturer_Name": "Drizalma",
   "Strength": "20 MG",
-  "Form": "",
+  "Form": "Delayed Release Oral Capsule",
   "prices": {
     "47335061630": {
       "04/01/2025": 7.16399,
-      "10/22/2025": 7.20627,
-      "11/19/2025": 7.16788
+      "10/22/2025": 7.20627
     }
   }
 }

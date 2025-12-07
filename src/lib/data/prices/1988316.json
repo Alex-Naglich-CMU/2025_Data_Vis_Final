@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Diltiazem Hydrochloride Extended Release",
   "Manufacturer_Name": "Tiadylt",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "68382074716": {
       "05/19/2021": 0.59724,
@@ -76,8 +76,7 @@
       "07/23/2025": 0.39112,
       "08/20/2025": 0.37912,
       "09/17/2025": 0.37336,
-      "10/22/2025": 0.36484,
-      "11/19/2025": 0.28837
+      "10/22/2025": 0.36484
     }
   }
 }

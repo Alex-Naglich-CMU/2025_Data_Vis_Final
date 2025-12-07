@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Levomilnacipran Extended Release",
   "Manufacturer_Name": "Fetzima",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "00456224030": {
       "11/22/2017": 10.44241,
@@ -37,8 +37,7 @@
       "07/23/2025": 16.81149,
       "08/20/2025": 16.80526,
       "09/17/2025": 16.8025,
-      "10/22/2025": 16.79602,
-      "11/19/2025": 16.79267
+      "10/22/2025": 16.79602
     }
   }
 }

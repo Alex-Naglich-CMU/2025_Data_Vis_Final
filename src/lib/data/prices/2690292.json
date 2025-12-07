@@ -7,12 +7,11 @@
   "Ingredient_Name": "Carbidopa Levodopa Extended Release",
   "Manufacturer_Name": "Crexont",
   "Strength": "87.5 MG",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "64896097016": {
       "05/21/2025": 4.13556,
-      "07/01/2025": 4.3423,
-      "11/19/2025": 4.36281
+      "07/01/2025": 4.3423
     }
   }
 }

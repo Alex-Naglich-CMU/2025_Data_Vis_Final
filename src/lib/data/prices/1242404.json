@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Doxazosin Extended Release",
   "Manufacturer_Name": "Cardura",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "00049204010": {
       "06/19/2024": 6.67285,
@@ -34,8 +34,7 @@
       "05/21/2025": 6.66844,
       "06/18/2025": 6.65792,
       "08/20/2025": 6.64878,
-      "09/17/2025": 6.64147,
-      "11/19/2025": 6.642
+      "09/17/2025": 6.64147
     }
   }
 }

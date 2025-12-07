@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Clonidine Hydrochloride Mgml Extended Release",
   "Manufacturer_Name": "Onyda",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Suspension",
   "prices": {
     "24478014803": {
       "02/19/2025": 15.35918,
@@ -15,8 +15,7 @@
       "07/23/2025": 12.85303,
       "08/20/2025": 12.8503,
       "09/17/2025": 12.84204,
-      "10/22/2025": 12.84145,
-      "11/19/2025": 12.83689
+      "10/22/2025": 12.84145
     }
   }
 }

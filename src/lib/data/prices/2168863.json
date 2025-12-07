@@ -7,7 +7,7 @@
   "Ingredient_Name": "Evening Dosing Hr Methylphenidate Hydrochloride Extended Release",
   "Manufacturer_Name": "Jornay",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "71376020403": {
       "07/01/2021": 12.98365,
@@ -33,8 +33,7 @@
       "07/23/2025": 14.96748,
       "08/20/2025": 14.96975,
       "09/17/2025": 14.97144,
-      "10/22/2025": 14.94494,
-      "11/19/2025": 14.94665
+      "10/22/2025": 14.94494
     }
   }
 }

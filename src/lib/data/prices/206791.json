@@ -7,7 +7,7 @@
   "Ingredient_Name": "Mesalamine Extended Release",
   "Manufacturer_Name": "Pentasa",
   "Strength": "250 MG",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "54092018981": {
       "06/02/2017": 2.67226,
@@ -35,8 +35,7 @@
       "07/23/2025": 2.91153,
       "08/20/2025": 2.91197,
       "09/17/2025": 2.91261,
-      "10/22/2025": 2.91109,
-      "11/19/2025": 2.91117
+      "10/22/2025": 2.91109
     }
   }
 }

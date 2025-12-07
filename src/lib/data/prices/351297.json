@@ -7,7 +7,7 @@
   "Ingredient_Name": "Insulin Aspart Protamine, Human Untml Insulin Aspart, Human Untml Injectable",
   "Manufacturer_Name": "",
   "Strength": "70 UNT/ML",
-  "Form": "Suspension",
+  "Form": "Injectable Suspension",
   "prices": {
     "73070020011": {
       "06/17/2020": 14.3476,
@@ -46,8 +46,7 @@
       "07/23/2025": 6.9631,
       "08/20/2025": 6.95978,
       "09/17/2025": 6.95622,
-      "10/22/2025": 6.95188,
-      "11/19/2025": 6.94212
+      "10/22/2025": 6.95188
     }
   }
 }

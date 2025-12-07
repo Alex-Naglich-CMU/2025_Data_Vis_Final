@@ -7,7 +7,7 @@
   "Ingredient_Name": "Fluoxetine Delayed Release",
   "Manufacturer_Name": "",
   "Strength": "90 MG",
-  "Form": "Capsule",
+  "Form": "Delayed Release Oral Capsule",
   "prices": {
     "55111028448": {
       "06/21/2017": 30.85571,
@@ -51,8 +51,7 @@
       "07/23/2025": 29.99848,
       "08/20/2025": 30.02346,
       "09/17/2025": 30.12829,
-      "10/22/2025": 30.17779,
-      "11/19/2025": 30.15529
+      "10/22/2025": 30.17779
     }
   }
 }

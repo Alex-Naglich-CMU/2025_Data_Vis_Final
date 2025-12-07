@@ -7,12 +7,11 @@
   "Ingredient_Name": "Mirtazapine",
   "Manufacturer_Name": "Remeron",
   "Strength": "30 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "78206016101": {
       "01/01/2025": 6.37698,
-      "10/22/2025": 6.3456,
-      "11/19/2025": 6.34339
+      "10/22/2025": 6.3456
     }
   }
 }

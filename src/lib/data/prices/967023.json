@@ -7,7 +7,7 @@
   "Ingredient_Name": "Polyethylene Glycol Potassium Chloride Sodium Bicarbonate Sodium Chloride Sodium For",
   "Manufacturer_Name": "GaviLyte-C",
   "Strength": "240000 MG",
-  "Form": "",
+  "Form": "Oral Solution",
   "prices": {
     "43386006019": {
       "06/21/2017": 0.00229,
@@ -100,8 +100,7 @@
       "07/23/2025": 0.00361,
       "08/20/2025": 0.00363,
       "09/17/2025": 0.00364,
-      "10/22/2025": 0.00362,
-      "11/19/2025": 0.0037
+      "10/22/2025": 0.00362
     }
   }
 }

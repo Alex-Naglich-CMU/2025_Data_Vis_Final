@@ -7,7 +7,7 @@
   "Ingredient_Name": "Theophylline Extended Release",
   "Manufacturer_Name": "",
   "Strength": "600 MG",
-  "Form": "Tablet",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "00378048701": {
       "08/23/2017": 1.26794,
@@ -126,8 +126,7 @@
       "07/23/2025": 1.04961,
       "08/20/2025": 1.15073,
       "09/17/2025": 1.22581,
-      "10/22/2025": 1.28198,
-      "11/19/2025": 1.39516
+      "10/22/2025": 1.28198
     }
   }
 }

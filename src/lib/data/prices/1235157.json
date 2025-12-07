@@ -7,7 +7,7 @@
   "Ingredient_Name": "Azilsartan Medoxomil Chlorthalidone",
   "Manufacturer_Name": "Edarbyclor",
   "Strength": "40 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "60631042530": {
       "07/03/2017": 5.82764,
@@ -37,8 +37,7 @@
       "07/23/2025": 8.444,
       "08/20/2025": 8.451,
       "09/17/2025": 8.46178,
-      "10/22/2025": 8.49481,
-      "11/19/2025": 8.49421
+      "10/22/2025": 8.49481
     }
   }
 }

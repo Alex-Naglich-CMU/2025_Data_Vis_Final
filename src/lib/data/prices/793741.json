@@ -7,14 +7,13 @@
   "Ingredient_Name": "Sodium Polystyrene Sulfonate Mgml",
   "Manufacturer_Name": "Kionex",
   "Strength": "250 MG/ML",
-  "Form": "",
+  "Form": "Oral Suspension",
   "prices": {
     "62559035601": {
       "06/19/2024": 0.40889,
       "07/23/2025": 0.32955,
       "09/17/2025": 0.32728,
-      "10/22/2025": 0.32133,
-      "11/19/2025": 0.33767
+      "10/22/2025": 0.32133
     }
   }
 }

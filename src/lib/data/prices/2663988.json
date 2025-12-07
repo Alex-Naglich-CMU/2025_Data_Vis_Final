@@ -7,12 +7,11 @@
   "Ingredient_Name": "Colchicine",
   "Manufacturer_Name": "Lodoco",
   "Strength": "0.5 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "82867000101": {
       "08/20/2025": 16.36639,
-      "09/17/2025": 16.36624,
-      "11/19/2025": 16.34567
+      "09/17/2025": 16.36624
     }
   }
 }

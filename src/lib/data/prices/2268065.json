@@ -7,7 +7,7 @@
   "Ingredient_Name": "Sensor Insulin Glargine Untml Pen Injector",
   "Manufacturer_Name": "Basaglar",
   "Strength": "3 ML",
-  "Form": "",
+  "Form": "Pen Injector",
   "prices": {
     "00002821405": {
       "2/22/2023": 20.90137,
@@ -29,8 +29,7 @@
       "07/23/2025": 20.94103,
       "08/20/2025": 20.93978,
       "09/17/2025": 20.94656,
-      "10/22/2025": 20.9592,
-      "11/19/2025": 20.95489
+      "10/22/2025": 20.9592
     }
   }
 }

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Bictegravir Emtricitabine Tenofovir Alafenamide",
   "Manufacturer_Name": "Biktarvy",
   "Strength": "30 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "61958250501": {
       "07/17/2024": 128.80138,
@@ -21,8 +21,7 @@
       "07/23/2025": 136.51906,
       "08/20/2025": 136.61964,
       "09/17/2025": 136.55984,
-      "10/22/2025": 136.50435,
-      "11/19/2025": 136.62868
+      "10/22/2025": 136.50435
     }
   }
 }

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Fluorometholone Mgml",
   "Manufacturer_Name": "Flarex",
   "Strength": "1 MG/ML",
-  "Form": "",
+  "Form": "Ophthalmic Suspension",
   "prices": {
     "00065009605": {
       "10/18/2017": 12.6296,
@@ -44,8 +44,7 @@
       "07/23/2025": 23.9662,
       "08/20/2025": 23.96538,
       "09/17/2025": 23.96471,
-      "10/22/2025": 23.952,
-      "11/19/2025": 23.94836
+      "10/22/2025": 23.952
     }
   }
 }

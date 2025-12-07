@@ -7,7 +7,7 @@
   "Ingredient_Name": "Theophylline Extended Release",
   "Manufacturer_Name": "Theo-24",
   "Strength": "300 MG",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "52244030010": {
       "07/01/2017": 3.23252,
@@ -31,8 +31,7 @@
       "07/23/2025": 6.77188,
       "08/20/2025": 6.76873,
       "09/17/2025": 6.76225,
-      "10/22/2025": 6.74269,
-      "11/19/2025": 6.74757
+      "10/22/2025": 6.74269
     }
   }
 }

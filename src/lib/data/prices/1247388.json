@@ -7,7 +7,7 @@
   "Ingredient_Name": "Amylase Unt Lipase Unt Protease Unt",
   "Manufacturer_Name": "Viokace",
   "Strength": "39150 UNT",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "73562010410": {
       "11/20/2024": 4.03554,
@@ -20,8 +20,7 @@
       "06/18/2025": 4.04136,
       "07/23/2025": 4.04271,
       "08/20/2025": 4.04226,
-      "10/22/2025": 4.04295,
-      "11/19/2025": 4.0411
+      "10/22/2025": 4.04295
     }
   }
 }

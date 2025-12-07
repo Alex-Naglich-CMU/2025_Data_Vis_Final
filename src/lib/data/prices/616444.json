@@ -7,7 +7,7 @@
   "Ingredient_Name": "Mycophenolate Mofetil Mgml",
   "Manufacturer_Name": "Cellcept",
   "Strength": "200 MG/ML",
-  "Form": "",
+  "Form": "Oral Suspension",
   "prices": {
     "00004026129": {
       "01/01/2018": 8.27764,
@@ -28,8 +28,7 @@
       "06/18/2025": 8.33012,
       "07/23/2025": 8.32781,
       "09/17/2025": 8.33012,
-      "10/22/2025": 8.33352,
-      "11/19/2025": 8.34215
+      "10/22/2025": 8.33352
     }
   }
 }

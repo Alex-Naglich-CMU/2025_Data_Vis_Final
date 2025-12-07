@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Ipratropium Bromide Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "Atrovent",
   "Strength": "200 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "00597008717": {
       "11/22/2017": 24.76162,
@@ -38,8 +38,7 @@
       "07/23/2025": 22.7925,
       "08/20/2025": 22.79456,
       "09/17/2025": 22.79464,
-      "10/22/2025": 22.79478,
-      "11/19/2025": 22.79511
+      "10/22/2025": 22.79478
     }
   }
 }

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Metoprolol Succinate Extended Release",
   "Manufacturer_Name": "Kapspargo",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "10631001030": {
       "05/22/2024": 2.10811,
@@ -22,8 +22,7 @@
       "04/01/2025": 2.21185,
       "08/20/2025": 2.21093,
       "09/17/2025": 2.21067,
-      "10/22/2025": 2.20212,
-      "11/19/2025": 2.20265
+      "10/22/2025": 2.20212
     }
   }
 }

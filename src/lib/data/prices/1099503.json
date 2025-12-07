@@ -7,7 +7,7 @@
   "Ingredient_Name": "Loteprednol Etabonate Mgmg",
   "Manufacturer_Name": "Lotemax",
   "Strength": "0.005 MG/MG",
-  "Form": "",
+  "Form": "Ophthalmic Ointment",
   "prices": {
     "24208044335": {
       "11/22/2017": 63.52714,
@@ -37,8 +37,7 @@
       "07/23/2025": 99.65397,
       "08/20/2025": 99.64697,
       "09/17/2025": 99.67139,
-      "10/22/2025": 99.63793,
-      "11/19/2025": 99.69128
+      "10/22/2025": 99.63793
     }
   }
 }

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Methylphenidate Disintegrating",
   "Manufacturer_Name": "Cotempla",
   "Strength": "8.6 MG",
-  "Form": "",
+  "Form": "Disintegrating Oral Tablet",
   "prices": {
     "70165010030": {
       "08/07/2018": 10.99552,
@@ -31,8 +31,7 @@
       "04/01/2025": 17.1442,
       "08/20/2025": 17.19432,
       "09/17/2025": 17.09807,
-      "10/22/2025": 17.12277,
-      "11/19/2025": 17.14094
+      "10/22/2025": 17.12277
     }
   }
 }

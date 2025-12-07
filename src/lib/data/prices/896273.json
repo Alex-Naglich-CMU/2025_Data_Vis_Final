@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "Advair",
   "Strength": "120 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "00173071720": {
       "11/22/2017": 37.94532,
@@ -37,8 +37,7 @@
       "07/23/2025": 35.07476,
       "08/20/2025": 35.06834,
       "09/17/2025": 35.07013,
-      "10/22/2025": 35.07076,
-      "11/19/2025": 35.06044
+      "10/22/2025": 35.07076
     }
   }
 }

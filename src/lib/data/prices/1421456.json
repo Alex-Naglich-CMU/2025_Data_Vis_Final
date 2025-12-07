@@ -7,7 +7,7 @@
   "Ingredient_Name": "Brimonidine Tartrate Mgml Brinzolamide Mgml",
   "Manufacturer_Name": "Simbrinza",
   "Strength": "2 MG/ML",
-  "Form": "",
+  "Form": "Ophthalmic Suspension",
   "prices": {
     "00065414727": {
       "07/11/2017": 17.39753,
@@ -40,8 +40,7 @@
       "07/23/2025": 25.2868,
       "08/20/2025": 25.29952,
       "09/17/2025": 25.29776,
-      "10/22/2025": 25.28999,
-      "11/19/2025": 25.30524
+      "10/22/2025": 25.28999
     },
     "00078090438": {
       "01/06/2021": 21.70557,

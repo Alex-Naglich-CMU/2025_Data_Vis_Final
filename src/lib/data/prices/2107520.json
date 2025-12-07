@@ -7,7 +7,7 @@
   "Ingredient_Name": "Insulin Degludec Untml Injectable",
   "Manufacturer_Name": "",
   "Strength": "100 UNT/ML",
-  "Form": "Solution",
+  "Form": "Injectable Solution",
   "prices": {
     "73070040011": {
       "05/22/2024": 11.40458,
@@ -27,8 +27,7 @@
       "07/23/2025": 11.35253,
       "08/20/2025": 11.35557,
       "09/17/2025": 11.36232,
-      "10/22/2025": 11.37285,
-      "11/19/2025": 11.37242
+      "10/22/2025": 11.37285
     }
   }
 }

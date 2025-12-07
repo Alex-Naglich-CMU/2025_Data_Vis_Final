@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Formoterol Fumarate Mgactuat Glycopyrrolate Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "Bevespi",
   "Strength": "120 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "00310460012": {
       "01/01/2018": 31.83667,
@@ -35,8 +35,7 @@
       "07/23/2025": 39.81189,
       "08/20/2025": 39.7794,
       "09/17/2025": 39.77958,
-      "10/22/2025": 39.786,
-      "11/19/2025": 39.78815
+      "10/22/2025": 39.786
     },
     "00310460039": {
       "01/01/2021": 35.51125

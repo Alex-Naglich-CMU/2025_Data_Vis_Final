@@ -7,7 +7,7 @@
   "Ingredient_Name": "Ascorbic Acid Polyethylene Glycol Potassium Chloride Sodium Ascorbate Sodium Chloride Sodium For",
   "Manufacturer_Name": "",
   "Strength": "4700 MG",
-  "Form": "Solution",
+  "Form": "Oral Solution",
   "prices": {
     "00093356026": {
       "05/19/2021": 85.931,
@@ -62,8 +62,7 @@
       "07/23/2025": 79.44533,
       "08/20/2025": 78.6065,
       "09/17/2025": 77.461,
-      "10/22/2025": 75.90183,
-      "11/19/2025": 73.89405
+      "10/22/2025": 75.90183
     },
     "68682020175": {
       "05/19/2021": 85.931,

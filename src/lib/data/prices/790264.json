@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Desvenlafaxine Extended Release",
   "Manufacturer_Name": "",
   "Strength": "24 HR",
-  "Form": "Tablet",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "63304019230": {
       "06/21/2017": 4.11564,
@@ -40,8 +40,7 @@
       "07/23/2025": 3.76625,
       "08/20/2025": 3.78661,
       "09/17/2025": 3.78918,
-      "10/22/2025": 3.77961,
-      "11/19/2025": 3.78444
+      "10/22/2025": 3.77961
     }
   }
 }

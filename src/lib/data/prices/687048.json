@@ -7,14 +7,11 @@
   "Ingredient_Name": "Hr Fluvastatin Extended Release",
   "Manufacturer_Name": "Lescol",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "00078035415": {
       "07/11/2017": 9.96264,
       "01/03/2018": 10.45088
-    },
-    "66758021131": {
-      "11/19/2025": 13.06233
     }
   }
 }

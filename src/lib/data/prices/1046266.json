@@ -7,7 +7,7 @@
   "Ingredient_Name": "Naphazoline Hydrochloride Mgml Pheniramine Maleate Mgml",
   "Manufacturer_Name": "Naphcon A",
   "Strength": "0.25 MG/ML",
-  "Form": "",
+  "Form": "Ophthalmic Solution",
   "prices": {
     "00065008515": {
       "07/21/2021": 0.52602,
@@ -54,8 +54,7 @@
       "07/23/2025": 0.54912,
       "08/20/2025": 0.55094,
       "09/17/2025": 0.5539,
-      "10/22/2025": 0.55612,
-      "11/19/2025": 0.55658
+      "10/22/2025": 0.55612
     },
     "00065008542": {
       "06/23/2021": 0.58967,

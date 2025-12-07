@@ -7,7 +7,7 @@
   "Ingredient_Name": "Iodine Mgml Sodium Iodide Mgml",
   "Manufacturer_Name": "",
   "Strength": "20 MG/ML",
-  "Form": "Solution",
+  "Form": "Topical Solution",
   "prices": {
     "70000040101": {
       "06/23/2021": 0.07385,
@@ -76,8 +76,7 @@
       "07/23/2025": 0.06612,
       "08/20/2025": 0.06683,
       "09/17/2025": 0.07004,
-      "10/22/2025": 0.0739,
-      "11/19/2025": 0.07661
+      "10/22/2025": 0.0739
     }
   }
 }

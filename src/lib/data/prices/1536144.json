@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Mometasone Furoate Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "Asmanex",
   "Strength": "120 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "00085433301": {
       "07/21/2021": 14.1372,
@@ -44,8 +44,7 @@
       "07/23/2025": 7.39164,
       "08/20/2025": 7.38832,
       "09/17/2025": 7.38912,
-      "10/22/2025": 7.38282,
-      "11/19/2025": 7.38612
+      "10/22/2025": 7.38282
     }
   }
 }

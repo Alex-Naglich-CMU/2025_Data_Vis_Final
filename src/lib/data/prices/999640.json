@@ -7,7 +7,7 @@
   "Ingredient_Name": "Oxyquinoline Mgmg Sodium Dodecyl Mgmg Vaginal",
   "Manufacturer_Name": "Trimo San",
   "Strength": "0.00025 MG/MG",
-  "Form": "",
+  "Form": "Gel",
   "prices": {
     "59365503000": {
       "10/17/2018": 0.16852,
@@ -29,8 +29,7 @@
       "10/23/2024": 0.23444,
       "11/20/2024": 0.23547,
       "12/18/2024": 0.23656,
-      "01/22/2025": 0.23754,
-      "11/19/2025": 0.24234
+      "01/22/2025": 0.23754
     }
   }
 }

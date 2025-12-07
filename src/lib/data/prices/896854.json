@@ -7,7 +7,7 @@
   "Ingredient_Name": "Chorionic Gonadotropin Untml Injectable",
   "Manufacturer_Name": "",
   "Strength": "10000 UNT/ML",
-  "Form": "Solution",
+  "Form": "Injectable Solution",
   "prices": {
     "63323003011": {
       "05/22/2024": 273.33059,
@@ -25,8 +25,7 @@
       "06/18/2025": 264.955,
       "07/23/2025": 250.3025,
       "09/17/2025": 250.17941,
-      "10/22/2025": 251.43813,
-      "11/19/2025": 250.63474
+      "10/22/2025": 251.43813
     }
   }
 }

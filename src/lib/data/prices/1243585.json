@@ -7,7 +7,7 @@
   "Ingredient_Name": "Flurbiprofen Sodium Mgml",
   "Manufacturer_Name": "",
   "Strength": "0.3 MG/ML",
-  "Form": "Solution",
+  "Form": "Ophthalmic Solution",
   "prices": {
     "24208031425": {
       "06/21/2017": 1.38585,
@@ -73,8 +73,7 @@
       "07/23/2025": 11.0652,
       "08/20/2025": 10.7696,
       "09/17/2025": 10.67887,
-      "10/22/2025": 10.55741,
-      "11/19/2025": 10.70734
+      "10/22/2025": 10.55741
     }
   }
 }

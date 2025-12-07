@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Ethinyl Estradiol Mghr Levonorgestrel Mghr Transdermal System",
   "Manufacturer_Name": "Twirla",
   "Strength": "168 HR",
-  "Form": "",
+  "Form": "Transdermal System",
   "prices": {
     "71671010011": {
       "7/15/2022": 60.60961,
@@ -31,8 +31,7 @@
       "07/23/2025": 65.32475,
       "08/20/2025": 65.33728,
       "09/17/2025": 65.33982,
-      "10/22/2025": 65.26674,
-      "11/19/2025": 65.25547
+      "10/22/2025": 65.26674
     }
   }
 }

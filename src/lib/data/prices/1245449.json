@@ -7,8 +7,14 @@
   "Ingredient_Name": "Ezetimibe Simvastatin",
   "Manufacturer_Name": "Vytorin",
   "Strength": "10 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
+    "66582031531": {
+      "01/05/2018": 10.90061
+    },
+    "66582031554": {
+      "01/05/2018": 10.90061
+    },
     "78206017701": {
       "01/01/2025": 13.15243
     },

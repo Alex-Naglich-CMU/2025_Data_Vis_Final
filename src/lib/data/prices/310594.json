@@ -7,7 +7,7 @@
   "Ingredient_Name": "Gramicidin Mgml Neomycin Mgml Polymyxin B Untml",
   "Manufacturer_Name": "",
   "Strength": "0.025 MG/ML",
-  "Form": "Solution",
+  "Form": "Ophthalmic Solution",
   "prices": {
     "24208079062": {
       "06/21/2017": 4.47217,
@@ -56,8 +56,7 @@
       "07/23/2025": 4.44708,
       "08/20/2025": 4.46683,
       "09/17/2025": 4.43659,
-      "10/22/2025": 4.38707,
-      "11/19/2025": 4.31544
+      "10/22/2025": 4.38707
     }
   }
 }

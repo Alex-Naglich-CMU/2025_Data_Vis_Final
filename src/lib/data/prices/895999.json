@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "",
   "Strength": "120 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "66993007996": {
       "9/21/2022": 13.95568,
@@ -47,8 +47,7 @@
       "07/23/2025": 13.52422,
       "08/20/2025": 13.68214,
       "09/17/2025": 13.65952,
-      "10/22/2025": 13.65387,
-      "11/19/2025": 13.58322
+      "10/22/2025": 13.65387
     }
   }
 }

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Fluticasone Furoate Mgactuat Vilanterol Mgactuat Dry Inhaler",
   "Manufacturer_Name": "",
   "Strength": "30 ACTU",
-  "Form": "",
+  "Form": "Dry Powder Inhaler",
   "prices": {
     "66993013697": {
       "9/21/2022": 3.76006,
@@ -47,8 +47,7 @@
       "07/23/2025": 3.88981,
       "08/20/2025": 3.8698,
       "09/17/2025": 3.82731,
-      "10/22/2025": 3.76381,
-      "11/19/2025": 3.79219
+      "10/22/2025": 3.76381
     }
   }
 }

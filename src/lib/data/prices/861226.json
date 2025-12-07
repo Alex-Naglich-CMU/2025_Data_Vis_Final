@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Amphetamine Aspartate Amphetamine Dextroamphetamine Saccharate Dextroamphetamine Extended Release",
   "Manufacturer_Name": "Adderall",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "54092038701": {
       "09/20/2017": 6.83334,
@@ -37,8 +37,7 @@
       "07/23/2025": 6.81928,
       "08/20/2025": 6.8187,
       "09/17/2025": 6.81973,
-      "10/22/2025": 6.81814,
-      "11/19/2025": 6.8123
+      "10/22/2025": 6.81814
     }
   }
 }

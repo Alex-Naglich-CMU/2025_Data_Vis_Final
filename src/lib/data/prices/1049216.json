@@ -7,7 +7,7 @@
   "Ingredient_Name": "Acetaminophen Oxycodone Hydrochloride",
   "Manufacturer_Name": "Endocet",
   "Strength": "325 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "60951071270": {
       "05/19/2021": 0.18049,
@@ -107,8 +107,7 @@
       "07/23/2025": 0.26279,
       "08/20/2025": 0.25153,
       "09/17/2025": 0.24708,
-      "10/22/2025": 0.24724,
-      "11/19/2025": 0.2467
+      "10/22/2025": 0.24724
     }
   }
 }

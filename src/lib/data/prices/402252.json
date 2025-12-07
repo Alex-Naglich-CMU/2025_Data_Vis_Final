@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Estradiol Mghr Levonorgestrel Mghr Transdermal System",
   "Manufacturer_Name": "Climara Pro",
   "Strength": "168 HR",
-  "Form": "",
+  "Form": "Transdermal System",
   "prices": {
     "50419049104": {
       "01/01/2018": 48.19233,
@@ -39,8 +39,7 @@
       "07/23/2025": 59.78903,
       "08/20/2025": 59.77517,
       "09/17/2025": 59.77982,
-      "10/22/2025": 59.78783,
-      "11/19/2025": 59.77075
+      "10/22/2025": 59.78783
     }
   }
 }

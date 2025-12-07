@@ -7,7 +7,7 @@
   "Ingredient_Name": "Sensor Insulin Lispro Untml Pen Injector",
   "Manufacturer_Name": "Humalog",
   "Strength": "3 ML",
-  "Form": "",
+  "Form": "Pen Injector",
   "prices": {
     "00002821305": {
       "06/21/2023": 33.92045,
@@ -27,8 +27,7 @@
       "07/23/2025": 10.15287,
       "08/20/2025": 10.15971,
       "09/17/2025": 10.16067,
-      "10/22/2025": 10.15716,
-      "11/19/2025": 10.15113
+      "10/22/2025": 10.15716
     }
   }
 }

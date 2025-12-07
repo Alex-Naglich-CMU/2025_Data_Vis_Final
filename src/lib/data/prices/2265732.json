@@ -7,15 +7,13 @@
   "Ingredient_Name": "Hr Asenapine Mghr Transdermal System",
   "Manufacturer_Name": "Secuado",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Transdermal System",
   "prices": {
     "68968017301": {
-      "01/01/2025": 46.02962,
-      "11/19/2025": 46.69787
+      "01/01/2025": 46.02962
     },
     "68968017303": {
-      "01/01/2025": 46.02962,
-      "11/19/2025": 46.69787
+      "01/01/2025": 46.02962
     }
   }
 }

@@ -7,11 +7,10 @@
   "Ingredient_Name": "Ketorolac Tromethamine Mgml",
   "Manufacturer_Name": "Acular",
   "Strength": "4 MG/ML",
-  "Form": "",
+  "Form": "Ophthalmic Solution",
   "prices": {
     "00023927705": {
-      "01/01/2018": 52.03202,
-      "11/19/2025": 54.5432
+      "01/01/2018": 52.03202
     }
   }
 }

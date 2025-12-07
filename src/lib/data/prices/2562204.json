@@ -7,7 +7,7 @@
   "Ingredient_Name": "Dexmethylphenidate Serdexmethylphenidate",
   "Manufacturer_Name": "Azstarys",
   "Strength": "7.8 MG",
-  "Form": "",
+  "Form": "Oral Capsule",
   "prices": {
     "65038042999": {
       "2/22/2023": 12.37562,
@@ -27,8 +27,7 @@
       "07/23/2025": 13.90796,
       "08/20/2025": 13.91023,
       "09/17/2025": 13.91177,
-      "10/22/2025": 13.89047,
-      "11/19/2025": 13.88882
+      "10/22/2025": 13.89047
     }
   }
 }

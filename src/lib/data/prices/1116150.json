@@ -7,7 +7,7 @@
   "Ingredient_Name": "Bacitracin Zinc Untmg Hydrocortisone Mgmg Neomycin Mgmg Polymyxin B Untmg",
   "Manufacturer_Name": "",
   "Strength": "0.4 UNT/MG",
-  "Form": "Ointment",
+  "Form": "Ophthalmic Ointment",
   "prices": {
     "17478071935": {
       "02/19/2020": 14.168,
@@ -63,8 +63,7 @@
       "07/23/2025": 5.94943,
       "08/20/2025": 6.27043,
       "09/17/2025": 6.07252,
-      "10/22/2025": 5.81667,
-      "11/19/2025": 5.61974
+      "10/22/2025": 5.81667
     }
   }
 }

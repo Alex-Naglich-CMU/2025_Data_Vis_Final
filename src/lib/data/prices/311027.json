@@ -7,7 +7,7 @@
   "Ingredient_Name": "Insulin Isophane, Human Untml Injectable",
   "Manufacturer_Name": "Novolin N",
   "Strength": "100 UNT/ML",
-  "Form": "",
+  "Form": "Injectable Suspension",
   "prices": {
     "00169183402": {
       "02/21/2018": 13.47486
@@ -38,8 +38,7 @@
       "07/23/2025": 4.63019,
       "08/20/2025": 4.62838,
       "09/17/2025": 4.62879,
-      "10/22/2025": 4.62955,
-      "11/19/2025": 4.62768
+      "10/22/2025": 4.62955
     }
   }
 }

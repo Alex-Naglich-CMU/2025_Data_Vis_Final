@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Carbamazepine Extended Release",
   "Manufacturer_Name": "Tegretol",
   "Strength": "12 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "00078051105": {
       "07/11/2017": 2.32573,
@@ -37,8 +37,7 @@
       "07/23/2025": 3.15825,
       "08/20/2025": 3.15784,
       "09/17/2025": 3.15976,
-      "10/22/2025": 3.15811,
-      "11/19/2025": 3.15693
+      "10/22/2025": 3.15811
     }
   }
 }

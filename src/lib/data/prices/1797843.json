@@ -7,7 +7,7 @@
   "Ingredient_Name": "Ciclesonide Mgactuat Metered Dose Nasal",
   "Manufacturer_Name": "Omnaris",
   "Strength": "0.05 MG/ACTU",
-  "Form": "",
+  "Form": "Metered Dose Nasal Spray",
   "prices": {
     "63402070101": {
       "09/20/2017": 18.11552,
@@ -43,8 +43,7 @@
       "07/23/2025": 22.55226,
       "08/20/2025": 22.54394,
       "09/17/2025": 22.56363,
-      "10/22/2025": 22.56388,
-      "11/19/2025": 22.56213
+      "10/22/2025": 22.56388
     }
   }
 }

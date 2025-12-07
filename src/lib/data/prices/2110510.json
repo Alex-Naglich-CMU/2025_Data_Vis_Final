@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Dry Inhaler",
   "Manufacturer_Name": "Wixela",
   "Strength": "60 ACTU",
-  "Form": "",
+  "Form": "Dry Powder Inhaler",
   "prices": {
     "00378932032": {
       "05/19/2021": 2.25579,
@@ -86,8 +86,7 @@
       "07/23/2025": 1.21502,
       "08/20/2025": 1.22552,
       "09/17/2025": 1.17244,
-      "10/22/2025": 1.15576,
-      "11/19/2025": 1.14896
+      "10/22/2025": 1.15576
     },
     "378932032": {
       "09/22/2021": 1.85185

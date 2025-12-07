@@ -7,7 +7,7 @@
   "Ingredient_Name": "-Bead Hr Amphetamine Aspartate Amphetamine Dextroamphetamine Saccharate Dextroamphetamine Extended Release",
   "Manufacturer_Name": "",
   "Strength": "24 HR",
-  "Form": "Capsule",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "00480368301": {
       "06/19/2024": 8.35249,
@@ -26,8 +26,7 @@
       "07/23/2025": 8.84371,
       "08/20/2025": 8.79206,
       "09/17/2025": 8.67516,
-      "10/22/2025": 8.55888,
-      "11/19/2025": 8.45861
+      "10/22/2025": 8.55888
     },
     "57664095088": {
       "06/19/2024": 8.35249,
@@ -46,8 +45,7 @@
       "07/23/2025": 8.84371,
       "08/20/2025": 8.79206,
       "09/17/2025": 8.67516,
-      "10/22/2025": 8.55888,
-      "11/19/2025": 8.45861
+      "10/22/2025": 8.55888
     }
   }
 }

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Cobicistat Elvitegravir Emtricitabine Tenofovir Disoproxil Fumarate",
   "Manufacturer_Name": "Stribild",
   "Strength": "150 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "61958120101": {
       "07/01/2017": 99.47882,
@@ -37,8 +37,7 @@
       "07/23/2025": 143.12797,
       "08/20/2025": 143.02522,
       "09/17/2025": 143.23231,
-      "10/22/2025": 143.31852,
-      "11/19/2025": 143.38472
+      "10/22/2025": 143.31852
     }
   }
 }

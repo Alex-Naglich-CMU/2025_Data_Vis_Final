@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Venlafaxine Extended Release",
   "Manufacturer_Name": "",
   "Strength": "24 HR",
-  "Form": "Tablet",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "52427063230": {
       "05/22/2024": 6.21628,
@@ -27,8 +27,7 @@
       "07/23/2025": 6.18689,
       "08/20/2025": 6.18783,
       "09/17/2025": 6.19044,
-      "10/22/2025": 6.19284,
-      "11/19/2025": 6.19026
+      "10/22/2025": 6.19284
     }
   }
 }

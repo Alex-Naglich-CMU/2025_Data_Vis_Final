@@ -7,7 +7,7 @@
   "Ingredient_Name": "Breath-Actuated Actuat Beclomethasone Dipropionate Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "Qvar",
   "Strength": "120 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "59310030240": {
       "01/01/2019": 16.1705,
@@ -34,8 +34,7 @@
       "07/23/2025": 19.77987,
       "08/20/2025": 19.78544,
       "09/17/2025": 19.78189,
-      "10/22/2025": 19.77893,
-      "11/19/2025": 19.77684
+      "10/22/2025": 19.77893
     }
   }
 }

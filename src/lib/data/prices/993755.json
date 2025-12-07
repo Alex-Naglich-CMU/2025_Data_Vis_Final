@@ -7,7 +7,7 @@
   "Ingredient_Name": "Acetaminophen Mgml Codeine Phosphate Mgml",
   "Manufacturer_Name": "",
   "Strength": "24 MG/ML",
-  "Form": "Solution",
+  "Form": "Oral Solution",
   "prices": {
     "00121050404": {
       "07/19/2017": 0.0183,
@@ -272,8 +272,7 @@
       "07/23/2025": 0.44248,
       "08/20/2025": 0.44721,
       "09/17/2025": 0.44921,
-      "10/22/2025": 0.45224,
-      "11/19/2025": 0.45621
+      "10/22/2025": 0.45224
     }
   }
 }

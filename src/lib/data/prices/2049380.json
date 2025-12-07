@@ -7,7 +7,7 @@
   "Ingredient_Name": "Insulin Isophane, Human Untml Insulin, Regular, Human Untml Pen Injector",
   "Manufacturer_Name": "Novolin",
   "Strength": "3 ML",
-  "Form": "",
+  "Form": "Pen Injector",
   "prices": {
     "00169300715": {
       "07/21/2021": 16.71803,
@@ -34,8 +34,7 @@
       "07/23/2025": 5.82779,
       "08/20/2025": 5.82624,
       "09/17/2025": 5.82764,
-      "10/22/2025": 5.82838,
-      "11/19/2025": 5.82792
+      "10/22/2025": 5.82838
     }
   }
 }

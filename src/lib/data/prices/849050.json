@@ -7,7 +7,7 @@
   "Ingredient_Name": "Lamotrigine Disintegrating",
   "Manufacturer_Name": "Lamictal",
   "Strength": "200 MG",
-  "Form": "",
+  "Form": "Disintegrating Oral Tablet",
   "prices": {
     "00173077702": {
       "01/01/2018": 13.68963,
@@ -32,8 +32,7 @@
       "06/18/2025": 17.49918,
       "07/23/2025": 17.499,
       "09/17/2025": 17.49062,
-      "10/22/2025": 17.44953,
-      "11/19/2025": 17.44263
+      "10/22/2025": 17.44953
     }
   }
 }

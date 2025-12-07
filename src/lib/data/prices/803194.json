@@ -7,7 +7,7 @@
   "Ingredient_Name": "Insulin Glulisine, Human Untml Injectable",
   "Manufacturer_Name": "Apidra",
   "Strength": "100 UNT/ML",
-  "Form": "",
+  "Form": "Injectable Solution",
   "prices": {
     "00088250033": {
       "07/21/2021": 27.18143,
@@ -37,8 +37,7 @@
       "07/23/2025": 8.1701,
       "08/20/2025": 8.16932,
       "09/17/2025": 8.17337,
-      "10/22/2025": 8.1715,
-      "11/19/2025": 8.16312
+      "10/22/2025": 8.1715
     }
   }
 }

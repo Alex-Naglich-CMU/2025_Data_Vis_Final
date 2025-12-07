@@ -7,7 +7,7 @@
   "Ingredient_Name": "Buprenorphine Naloxone Sublingual",
   "Manufacturer_Name": "Zubsolv",
   "Strength": "8.6 MG",
-  "Form": "",
+  "Form": "Sublingual Tablet",
   "prices": {
     "54123098630": {
       "01/01/2018": 11.96206,
@@ -36,8 +36,7 @@
       "07/23/2025": 15.22308,
       "08/20/2025": 15.21981,
       "09/17/2025": 15.21504,
-      "10/22/2025": 15.23176,
-      "11/19/2025": 15.22783
+      "10/22/2025": 15.23176
     }
   }
 }

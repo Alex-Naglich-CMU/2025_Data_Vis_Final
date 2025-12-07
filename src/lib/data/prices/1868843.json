@@ -7,7 +7,7 @@
   "Ingredient_Name": "Methylcellulose For",
   "Manufacturer_Name": "",
   "Strength": "2000 MG",
-  "Form": "Suspension",
+  "Form": "Powder for Oral Suspension",
   "prices": {
     "00904567516": {
       "02/20/2019": 0.01285,
@@ -27,8 +27,7 @@
       "06/18/2025": 0.01355,
       "08/20/2025": 0.01349,
       "09/17/2025": 0.01355,
-      "10/22/2025": 0.01344,
-      "11/19/2025": 0.01325
+      "10/22/2025": 0.01344
     }
   }
 }

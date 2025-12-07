@@ -7,7 +7,7 @@
   "Ingredient_Name": "Chlophedianol Hydrochloride Mgml Pyrilamine Maleate Mgml",
   "Manufacturer_Name": "Ninjacof",
   "Strength": "2.5 MG/ML",
-  "Form": "",
+  "Form": "Oral Solution",
   "prices": {
     "23359003216": {
       "11/22/2017": 0.08348,
@@ -19,8 +19,7 @@
       "11/20/2019": 0.084,
       "03/19/2025": 0.07911,
       "09/17/2025": 0.07893,
-      "10/22/2025": 0.07907,
-      "11/19/2025": 0.07918
+      "10/22/2025": 0.07907
     }
   }
 }

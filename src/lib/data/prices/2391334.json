@@ -7,7 +7,7 @@
   "Ingredient_Name": "Dexbrompheniramine Maleate Phenylephrine Hydrochloride",
   "Manufacturer_Name": "",
   "Strength": "2 MG",
-  "Form": "Tablet",
+  "Form": "Oral Tablet",
   "prices": {
     "50991078890": {
       "10/18/2023": 0.62724,
@@ -27,8 +27,7 @@
       "07/23/2025": 0.66304,
       "08/20/2025": 0.66348,
       "09/17/2025": 0.66326,
-      "10/22/2025": 0.66141,
-      "11/19/2025": 0.66019
+      "10/22/2025": 0.66141
     }
   }
 }

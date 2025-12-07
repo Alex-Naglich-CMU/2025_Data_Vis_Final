@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Fluticasone Propionate Mgactuat Salmeterol Mgactuat Dry Inhaler",
   "Manufacturer_Name": "",
   "Strength": "60 ACTU",
-  "Form": "",
+  "Form": "Dry Powder Inhaler",
   "prices": {
     "00093360782": {
       "06/23/2021": 87.238,
@@ -77,8 +77,7 @@
       "07/23/2025": 107.7794,
       "08/20/2025": 108.62496,
       "09/17/2025": 109.18029,
-      "10/22/2025": 109.69446,
-      "11/19/2025": 109.81117
+      "10/22/2025": 109.69446
     }
   }
 }

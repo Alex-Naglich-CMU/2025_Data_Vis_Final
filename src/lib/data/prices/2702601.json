@@ -7,11 +7,10 @@
   "Ingredient_Name": "Abiraterone",
   "Manufacturer_Name": "Abirtega",
   "Strength": "250 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "82249001112": {
-      "10/22/2025": 1.04916,
-      "11/19/2025": 0.97941
+      "10/22/2025": 1.04916
     }
   }
 }

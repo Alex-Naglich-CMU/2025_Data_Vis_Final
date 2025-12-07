@@ -7,7 +7,7 @@
   "Ingredient_Name": "Gabapentin Enacarbil Extended Release",
   "Manufacturer_Name": "Horizant",
   "Strength": "300 MG",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "53451010301": {
       "06/01/2017": 12.34758,
@@ -36,8 +36,7 @@
       "07/23/2025": 17.95556,
       "08/20/2025": 17.95351,
       "09/17/2025": 17.94635,
-      "10/22/2025": 17.93597,
-      "11/19/2025": 17.94686
+      "10/22/2025": 17.93597
     }
   }
 }

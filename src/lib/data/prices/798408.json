@@ -7,7 +7,7 @@
   "Ingredient_Name": "Purified Protein Derivative Of Tuberculin Untml Injectable",
   "Manufacturer_Name": "Aplisol",
   "Strength": "50 UNT/ML",
-  "Form": "",
+  "Form": "Injectable Solution",
   "prices": {
     "42023010401": {
       "07/19/2017": 65.41556,
@@ -36,8 +36,7 @@
       "01/22/2025": 89.89296,
       "02/19/2025": 89.94037,
       "02/24/2025": 103.33699,
-      "07/07/2025": 108.50281,
-      "11/19/2025": 109.70773
+      "07/07/2025": 108.50281
     },
     "42023010405": {
       "12/01/2017": 58.80116,

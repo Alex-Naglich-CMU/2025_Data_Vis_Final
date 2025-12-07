@@ -7,7 +7,7 @@
   "Ingredient_Name": "-Bead Hr Amphetamine Aspartate Amphetamine Dextroamphetamine Saccharate Dextroamphetamine Extended Release",
   "Manufacturer_Name": "Mydayis",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "54092046801": {
       "09/19/2018": 8.61604,
@@ -35,8 +35,7 @@
       "05/21/2025": 10.84492,
       "07/23/2025": 10.77884,
       "09/17/2025": 10.79604,
-      "10/22/2025": 10.78957,
-      "11/19/2025": 10.75163
+      "10/22/2025": 10.78957
     }
   }
 }

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Buprenorphine Mghr Transdermal System",
   "Manufacturer_Name": "BuTrans",
   "Strength": "168 HR",
-  "Form": "",
+  "Form": "Transdermal System",
   "prices": {
     "59011075004": {
       "11/22/2017": 59.01662,
@@ -42,8 +42,7 @@
       "07/23/2025": 48.97934,
       "08/20/2025": 48.94736,
       "09/17/2025": 48.94351,
-      "10/22/2025": 48.95186,
-      "11/19/2025": 48.92755
+      "10/22/2025": 48.95186
     }
   }
 }

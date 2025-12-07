@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Donepezil Hydrochloride Memantine Hydrochloride Extended Release",
   "Manufacturer_Name": "Namzaric",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "00456122130": {
       "01/01/2018": 13.5041,
@@ -34,8 +34,7 @@
       "05/21/2025": 19.82014,
       "07/23/2025": 19.834,
       "09/17/2025": 19.81349,
-      "10/22/2025": 19.84618,
-      "11/19/2025": 19.86493
+      "10/22/2025": 19.84618
     }
   }
 }

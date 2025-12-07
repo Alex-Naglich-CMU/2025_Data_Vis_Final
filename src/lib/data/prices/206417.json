@@ -7,7 +7,7 @@
   "Ingredient_Name": "Estradiol Cypionate Mgml Injectable",
   "Manufacturer_Name": "Depo-estradiol",
   "Strength": "5 MG/ML",
-  "Form": "",
+  "Form": "Injectable Solution",
   "prices": {
     "00009027101": {
       "06/01/2017": 18.54642,
@@ -31,8 +31,7 @@
       "01/01/2025": 44.08777,
       "05/15/2025": 48.49655,
       "09/17/2025": 47.1281,
-      "10/22/2025": 46.99552,
-      "11/19/2025": 47.01232
+      "10/22/2025": 46.99552
     }
   }
 }

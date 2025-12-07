@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Carbidopa Levodopa Extended Release",
   "Manufacturer_Name": "Rytary",
   "Strength": "8 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "64896066101": {
       "09/01/2017": 2.53026,
@@ -41,8 +41,7 @@
       "07/23/2025": 3.97706,
       "08/20/2025": 3.97637,
       "09/17/2025": 3.97876,
-      "10/22/2025": 3.98,
-      "11/19/2025": 3.98121
+      "10/22/2025": 3.98
     },
     "64896066143": {
       "09/01/2017": 2.53026,

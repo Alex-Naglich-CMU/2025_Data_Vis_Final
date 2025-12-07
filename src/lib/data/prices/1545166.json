@@ -7,7 +7,7 @@
   "Ingredient_Name": "Canagliflozin Metformin Hydrochloride",
   "Manufacturer_Name": "Invokamet",
   "Strength": "50 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "50458054060": {
       "01/03/2018": 7.44404,
@@ -34,8 +34,7 @@
       "07/23/2025": 9.53357,
       "08/20/2025": 9.52318,
       "09/17/2025": 9.57086,
-      "10/22/2025": 9.54579,
-      "11/19/2025": 9.56262
+      "10/22/2025": 9.54579
     }
   }
 }

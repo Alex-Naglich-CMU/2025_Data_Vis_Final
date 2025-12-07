@@ -7,11 +7,10 @@
   "Ingredient_Name": "Tacrolimus Granules For",
   "Manufacturer_Name": "Prograf",
   "Strength": "0.2 MG",
-  "Form": "",
+  "Form": "Oral Suspension",
   "prices": {
     "00469123050": {
-      "08/20/2025": 5.00532,
-      "11/19/2025": 5.01436
+      "08/20/2025": 5.00532
     }
   }
 }

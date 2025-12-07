@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Hyoscyamine Extended Release",
   "Manufacturer_Name": "",
   "Strength": "12 HR",
-  "Form": "Tablet",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "62559042301": {
       "07/17/2024": 0.86264,
@@ -23,8 +23,7 @@
       "05/21/2025": 0.90169,
       "06/18/2025": 0.72801,
       "07/23/2025": 0.54984,
-      "10/22/2025": 0.57434,
-      "11/19/2025": 0.58835
+      "10/22/2025": 0.57434
     }
   }
 }

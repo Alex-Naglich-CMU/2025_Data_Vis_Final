@@ -7,7 +7,7 @@
   "Ingredient_Name": "Dornase Alfa Mgml Inhalation",
   "Manufacturer_Name": "Pulmozyme",
   "Strength": "1 MG/ML",
-  "Form": "",
+  "Form": "Inhalation Solution",
   "prices": {
     "50242010040": {
       "07/21/2021": 44.5801,
@@ -42,8 +42,7 @@
       "07/23/2025": 51.54088,
       "08/20/2025": 51.55798,
       "09/17/2025": 51.56663,
-      "10/22/2025": 51.62316,
-      "11/19/2025": 51.66091
+      "10/22/2025": 51.62316
     }
   }
 }

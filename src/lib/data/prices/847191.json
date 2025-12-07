@@ -7,7 +7,7 @@
   "Ingredient_Name": "Insulin Aspart Protamine, Human Untml Insulin Aspart, Human Untml Pen Injector",
   "Manufacturer_Name": "",
   "Strength": "3 ML",
-  "Form": "",
+  "Form": "Pen Injector",
   "prices": {
     "73070020315": {
       "05/19/2021": 17.87179,
@@ -73,8 +73,7 @@
       "07/23/2025": 8.96745,
       "08/20/2025": 8.96076,
       "09/17/2025": 8.9653,
-      "10/22/2025": 8.95721,
-      "11/19/2025": 8.95588
+      "10/22/2025": 8.95721
     }
   }
 }

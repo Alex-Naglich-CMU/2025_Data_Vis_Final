@@ -1,0 +1,17 @@
+{
+  "RxCUI": "1597121",
+  "Name": "1250 MG testosterone 0.0162 MG/MG Topical Gel [Androgel]",
+  "IsBrand": true,
+  "Brand_RxCUI": "1597121",
+  "Generic_RxCUI": "1597120",
+  "Ingredient_Name": "Testosterone Mgmg",
+  "Manufacturer_Name": "Androgel",
+  "Strength": "1250 MG",
+  "Form": "Topical Gel",
+  "prices": {
+    "00051846231": {
+      "01/01/2018": 15.84443,
+      "10/17/2018": 16.07889
+    }
+  }
+}

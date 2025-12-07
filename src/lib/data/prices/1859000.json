@@ -7,7 +7,7 @@
   "Ingredient_Name": "Insulin Glargine Untml Lixisenatide Mgml Pen Injector",
   "Manufacturer_Name": "Soliqua",
   "Strength": "3 ML",
-  "Form": "",
+  "Form": "Pen Injector",
   "prices": {
     "00024576105": {
       "01/05/2018": 42.74906,
@@ -38,8 +38,7 @@
       "07/23/2025": 57.07501,
       "08/20/2025": 57.0661,
       "09/17/2025": 57.0759,
-      "10/22/2025": 57.08305,
-      "11/19/2025": 57.0824
+      "10/22/2025": 57.08305
     },
     "24576105": {
       "1/3/2022": 51.68669

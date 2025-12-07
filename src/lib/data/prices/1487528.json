@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Umeclidinium Mgactuat Vilanterol Mgactuat Dry Inhaler",
   "Manufacturer_Name": "Anoro",
   "Strength": "30 ACTU",
-  "Form": "",
+  "Form": "Dry Powder Inhaler",
   "prices": {
     "00173086910": {
       "08/01/2017": 5.90479,
@@ -38,8 +38,7 @@
       "07/23/2025": 7.81225,
       "08/20/2025": 7.81163,
       "09/17/2025": 7.81148,
-      "10/22/2025": 7.8123,
-      "11/19/2025": 7.81137
+      "10/22/2025": 7.8123
     }
   }
 }

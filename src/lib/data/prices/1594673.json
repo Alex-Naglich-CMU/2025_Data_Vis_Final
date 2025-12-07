@@ -7,7 +7,7 @@
   "Ingredient_Name": "Amylase Unt Lipase Unt Protease Unt Delayed Release",
   "Manufacturer_Name": "Zenpep",
   "Strength": "105000 UNT",
-  "Form": "",
+  "Form": "Delayed Release Oral Capsule",
   "prices": {
     "00023611601": {
       "06/23/2021": 8.76403,
@@ -40,8 +40,7 @@
       "07/23/2025": 9.76633,
       "08/20/2025": 9.76845,
       "09/17/2025": 9.76705,
-      "10/22/2025": 9.77109,
-      "11/19/2025": 9.76704
+      "10/22/2025": 9.77109
     }
   }
 }

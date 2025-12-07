@@ -7,7 +7,7 @@
   "Ingredient_Name": "Epoetin Alfa Untml Injectable",
   "Manufacturer_Name": "Procrit",
   "Strength": "20000 UNT/ML",
-  "Form": "",
+  "Form": "Injectable Solution",
   "prices": {
     "59676032004": {
       "06/23/2021": 520.6035,
@@ -34,8 +34,7 @@
       "07/23/2025": 519.58567,
       "08/20/2025": 519.37929,
       "09/17/2025": 518.61359,
-      "10/22/2025": 519.37946,
-      "11/19/2025": 519.18857
+      "10/22/2025": 519.37946
     }
   }
 }

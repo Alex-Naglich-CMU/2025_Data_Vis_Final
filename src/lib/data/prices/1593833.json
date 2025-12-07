@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Dapagliflozin Metformin Hydrochloride Extended Release",
   "Manufacturer_Name": "Xigduo",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "00310626060": {
       "11/22/2017": 6.89332,
@@ -36,8 +36,7 @@
       "07/23/2025": 9.57947,
       "08/20/2025": 9.58626,
       "09/17/2025": 9.58422,
-      "10/22/2025": 9.58644,
-      "11/19/2025": 9.58895
+      "10/22/2025": 9.58644
     },
     "310626060": {
       "1/1/2022": 8.79891

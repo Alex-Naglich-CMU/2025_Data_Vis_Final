@@ -7,14 +7,13 @@
   "Ingredient_Name": "Emtricitabine Tenofovir Alafenamide",
   "Manufacturer_Name": "Descovy",
   "Strength": "120 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "61958200501": {
       "04/23/2025": 71.07407,
       "05/21/2025": 71.2171,
       "07/23/2025": 71.27008,
-      "10/22/2025": 71.24258,
-      "11/19/2025": 71.27948
+      "10/22/2025": 71.24258
     }
   }
 }

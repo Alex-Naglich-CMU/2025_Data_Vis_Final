@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Viloxazine Extended Release",
   "Manufacturer_Name": "Qelbree",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "17772013230": {
       "01/01/2023": 10.72156,
@@ -27,8 +27,7 @@
       "07/23/2025": 12.03653,
       "08/20/2025": 12.0364,
       "09/17/2025": 12.03679,
-      "10/22/2025": 12.01398,
-      "11/19/2025": 12.01979
+      "10/22/2025": 12.01398
     }
   }
 }

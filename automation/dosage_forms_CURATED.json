@@ -1,0 +1,451 @@
+{
+  "total_unique_forms": 111,
+  "total_extractions": 30713,
+  "coverage_percent": 99.98,
+  "forms": [
+    {
+      "form": "Chewable Extended Release Oral Tablet",
+      "count": 8
+    },
+    {
+      "form": "Mucous Membrane Topical Solution",
+      "count": 68
+    },
+    {
+      "form": "Ophthalmic Irrigation Solution",
+      "count": 11
+    },
+    {
+      "form": "Extended Release Oral Capsule",
+      "count": 523
+    },
+    {
+      "form": "Delayed Release Oral Granules",
+      "count": 6
+    },
+    {
+      "form": "Extended Release Oral Tablet",
+      "count": 1019
+    },
+    {
+      "form": "Delayed Release Oral Capsule",
+      "count": 162
+    },
+    {
+      "form": "Extended Release Suspension",
+      "count": 35
+    },
+    {
+      "form": "Delayed Release Oral Tablet",
+      "count": 211
+    },
+    {
+      "form": "Disintegrating Oral Tablet",
+      "count": 253
+    },
+    {
+      "form": "Metered Dose Nasal Spray",
+      "count": 119
+    },
+    {
+      "form": "Intratracheal Suspension",
+      "count": 16
+    },
+    {
+      "form": "Intraperitoneal Solution",
+      "count": 19
+    },
+    {
+      "form": "Effervescent Oral Tablet",
+      "count": 58
+    },
+    {
+      "form": "Intravesical Suspension",
+      "count": 8
+    },
+    {
+      "form": "Pyelocalyceal Solution",
+      "count": 4
+    },
+    {
+      "form": "Ophthalmic Suspension",
+      "count": 108
+    },
+    {
+      "form": "Medicated Liquid Soap",
+      "count": 137
+    },
+    {
+      "form": "Intravesical Solution",
+      "count": 12
+    },
+    {
+      "form": "Injectable Suspension",
+      "count": 128
+    },
+    {
+      "form": "Inhalation Suspension",
+      "count": 16
+    },
+    {
+      "form": "Urethral Suppository",
+      "count": 10
+    },
+    {
+      "form": "Metered Dose Inhaler",
+      "count": 115
+    },
+    {
+      "form": "Ophthalmic Solution",
+      "count": 529
+    },
+    {
+      "form": "Ophthalmic Ointment",
+      "count": 79
+    },
+    {
+      "form": "Irrigation Solution",
+      "count": 45
+    },
+    {
+      "form": "Intrauterine System",
+      "count": 13
+    },
+    {
+      "form": "Injectable Solution",
+      "count": 1902
+    },
+    {
+      "form": "Inhalation Solution",
+      "count": 127
+    },
+    {
+      "form": "Transdermal System",
+      "count": 210
+    },
+    {
+      "form": "Topical Suspension",
+      "count": 4
+    },
+    {
+      "form": "Rectal Suppository",
+      "count": 116
+    },
+    {
+      "form": "Medicated Bar Soap",
+      "count": 21
+    },
+    {
+      "form": "Dry Powder Inhaler",
+      "count": 139
+    },
+    {
+      "form": "Sublingual Tablet",
+      "count": 133
+    },
+    {
+      "form": "Sublingual Powder",
+      "count": 4
+    },
+    {
+      "form": "Prefilled Syringe",
+      "count": 1362
+    },
+    {
+      "form": "Medicated Shampoo",
+      "count": 155
+    },
+    {
+      "form": "Inhalation Powder",
+      "count": 45
+    },
+    {
+      "form": "Vaginal Ointment",
+      "count": 6
+    },
+    {
+      "form": "Topical Solution",
+      "count": 448
+    },
+    {
+      "form": "Topical Ointment",
+      "count": 492
+    },
+    {
+      "form": "Ophthalmic Spray",
+      "count": 4
+    },
+    {
+      "form": "Inhalation Spray",
+      "count": 28
+    },
+    {
+      "form": "Sublingual Film",
+      "count": 28
+    },
+    {
+      "form": "Rectal Ointment",
+      "count": 20
+    },
+    {
+      "form": "Otic Suspension",
+      "count": 20
+    },
+    {
+      "form": "Oral Suspension",
+      "count": 765
+    },
+    {
+      "form": "Medicated Patch",
+      "count": 172
+    },
+    {
+      "form": "Injectable Foam",
+      "count": 4
+    },
+    {
+      "form": "Chewable Tablet",
+      "count": 518
+    },
+    {
+      "form": "Vaginal System",
+      "count": 23
+    },
+    {
+      "form": "Vaginal Insert",
+      "count": 41
+    },
+    {
+      "form": "Topical Powder",
+      "count": 63
+    },
+    {
+      "form": "Topical Lotion",
+      "count": 407
+    },
+    {
+      "form": "Ophthalmic Gel",
+      "count": 47
+    },
+    {
+      "form": "Nasal Solution",
+      "count": 38
+    },
+    {
+      "form": "Nasal Ointment",
+      "count": 4
+    },
+    {
+      "form": "Nasal Inhalant",
+      "count": 9
+    },
+    {
+      "form": "Medicated Tape",
+      "count": 4
+    },
+    {
+      "form": "Vaginal Cream",
+      "count": 51
+    },
+    {
+      "form": "Topical Spray",
+      "count": 263
+    },
+    {
+      "form": "Topical Cream",
+      "count": 953
+    },
+    {
+      "form": "Otic Solution",
+      "count": 61
+    },
+    {
+      "form": "Oral Solution",
+      "count": 1352
+    },
+    {
+      "form": "Oral Ointment",
+      "count": 11
+    },
+    {
+      "form": "Oral Granules",
+      "count": 105
+    },
+    {
+      "form": "Mucosal Spray",
+      "count": 64
+    },
+    {
+      "form": "Medicated Pad",
+      "count": 177
+    },
+    {
+      "form": "Buccal Tablet",
+      "count": 20
+    },
+    {
+      "form": "Vaginal Foam",
+      "count": 4
+    },
+    {
+      "form": "Vaginal Film",
+      "count": 4
+    },
+    {
+      "form": "Topical Foam",
+      "count": 151
+    },
+    {
+      "form": "Rectal Spray",
+      "count": 4
+    },
+    {
+      "form": "Rectal Cream",
+      "count": 50
+    },
+    {
+      "form": "Powder Spray",
+      "count": 18
+    },
+    {
+      "form": "Pen Injector",
+      "count": 221
+    },
+    {
+      "form": "Oral Lozenge",
+      "count": 182
+    },
+    {
+      "form": "Oral Capsule",
+      "count": 2514
+    },
+    {
+      "form": "Nasal Powder",
+      "count": 12
+    },
+    {
+      "form": "Jet Injector",
+      "count": 4
+    },
+    {
+      "form": "Ia Injection",
+      "count": 3
+    },
+    {
+      "form": "Drug Implant",
+      "count": 90
+    },
+    {
+      "form": "Vaginal Gel",
+      "count": 51
+    },
+    {
+      "form": "Topical Oil",
+      "count": 20
+    },
+    {
+      "form": "Topical Gel",
+      "count": 599
+    },
+    {
+      "form": "Rectal Foam",
+      "count": 16
+    },
+    {
+      "form": "Oral Tablet",
+      "count": 6668
+    },
+    {
+      "form": "Oral Powder",
+      "count": 92
+    },
+    {
+      "form": "Oral Pellet",
+      "count": 70
+    },
+    {
+      "form": "Nasal Spray",
+      "count": 169
+    },
+    {
+      "form": "Chewing Gum",
+      "count": 16
+    },
+    {
+      "form": "Buccal Film",
+      "count": 36
+    },
+    {
+      "form": "Toothpaste",
+      "count": 48
+    },
+    {
+      "form": "Rectal Gel",
+      "count": 17
+    },
+    {
+      "form": "Oral Wafer",
+      "count": 20
+    },
+    {
+      "form": "Oral Spray",
+      "count": 7
+    },
+    {
+      "form": "Oral Paste",
+      "count": 16
+    },
+    {
+      "form": "Oral Cream",
+      "count": 6
+    },
+    {
+      "form": "Inhalation",
+      "count": 85
+    },
+    {
+      "form": "Oral Foam",
+      "count": 11
+    },
+    {
+      "form": "Oral Film",
+      "count": 40
+    },
+    {
+      "form": "Nasal Gel",
+      "count": 14
+    },
+    {
+      "form": "Mouthwash",
+      "count": 87
+    },
+    {
+      "form": "Injection",
+      "count": 4451
+    },
+    {
+      "form": "Cartridge",
+      "count": 230
+    },
+    {
+      "form": "Oral Gel",
+      "count": 91
+    },
+    {
+      "form": "Injector",
+      "count": 389
+    },
+    {
+      "form": "Douche",
+      "count": 4
+    },
+    {
+      "form": "Paste",
+      "count": 37
+    },
+    {
+      "form": "Enema",
+      "count": 38
+    }
+  ]
+}

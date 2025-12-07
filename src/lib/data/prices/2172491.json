@@ -7,11 +7,10 @@
   "Ingredient_Name": "Doxylamine Succinate Phenylephrine Hydrochloride",
   "Manufacturer_Name": "",
   "Strength": "10.5 MG",
-  "Form": "Tablet",
+  "Form": "Oral Tablet",
   "prices": {
     "50991062601": {
-      "03/19/2025": 0.66173,
-      "11/19/2025": 0.66379
+      "03/19/2025": 0.66173
     }
   }
 }

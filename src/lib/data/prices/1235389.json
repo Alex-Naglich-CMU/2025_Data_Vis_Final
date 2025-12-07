@@ -7,7 +7,7 @@
   "Ingredient_Name": "Ascorbic Acid Cholecalciferol Folic Acid Niacin Riboflavin Sodium Fluoride Thiamine Vitamin A Vitamin B Vitamin B Vitamin E Chewable",
   "Manufacturer_Name": "",
   "Strength": "60 MG",
-  "Form": "Tablet",
+  "Form": "Chewable Tablet",
   "prices": {
     "58657016301": {
       "05/19/2021": 0.10031,
@@ -78,8 +78,7 @@
       "07/23/2025": 0.09869,
       "08/20/2025": 0.09891,
       "09/17/2025": 0.09994,
-      "10/22/2025": 0.10006,
-      "11/19/2025": 0.10216
+      "10/22/2025": 0.10006
     }
   }
 }

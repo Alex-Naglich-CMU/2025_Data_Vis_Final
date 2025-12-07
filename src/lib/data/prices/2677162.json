@@ -7,7 +7,7 @@
   "Ingredient_Name": "Metformin Hydrochloride Sitagliptin",
   "Manufacturer_Name": "Zituvimet",
   "Strength": "1000 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "70710178706": {
       "05/21/2025": 5.04473,
@@ -15,8 +15,7 @@
       "07/23/2025": 5.04691,
       "08/20/2025": 5.04051,
       "09/17/2025": 5.03747,
-      "10/22/2025": 5.03857,
-      "11/19/2025": 5.03784
+      "10/22/2025": 5.03857
     }
   }
 }

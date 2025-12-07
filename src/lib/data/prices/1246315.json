@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Budesonide Mgactuat Formoterol Fumarate Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "Symbicort",
   "Strength": "60 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "00186037228": {
       "11/22/2017": 25.31471,
@@ -39,8 +39,7 @@
       "07/23/2025": 19.22377,
       "08/20/2025": 19.22916,
       "09/17/2025": 19.22609,
-      "10/22/2025": 19.22415,
-      "11/19/2025": 19.20461
+      "10/22/2025": 19.22415
     },
     "186037228": {
       "1/1/2022": 31.08014

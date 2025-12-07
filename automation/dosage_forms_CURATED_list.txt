@@ -1,0 +1,117 @@
+# Curated dosage forms (appearing 3+ times in actual data)
+# 111 forms covering 100.0% of drugs
+# Sorted by length (longest first) for regex matching
+
+form_words = [
+    'Chewable Extended Release Oral Tablet',  # 8 occurrences
+    'Mucous Membrane Topical Solution',  # 68 occurrences
+    'Ophthalmic Irrigation Solution',  # 11 occurrences
+    'Extended Release Oral Capsule',  # 523 occurrences
+    'Delayed Release Oral Granules',  # 6 occurrences
+    'Extended Release Oral Tablet',  # 1019 occurrences
+    'Delayed Release Oral Capsule',  # 162 occurrences
+    'Extended Release Suspension',  # 35 occurrences
+    'Delayed Release Oral Tablet',  # 211 occurrences
+    'Disintegrating Oral Tablet',  # 253 occurrences
+    'Metered Dose Nasal Spray',  # 119 occurrences
+    'Intratracheal Suspension',  # 16 occurrences
+    'Intraperitoneal Solution',  # 19 occurrences
+    'Effervescent Oral Tablet',  # 58 occurrences
+    'Intravesical Suspension',  # 8 occurrences
+    'Pyelocalyceal Solution',  # 4 occurrences
+    'Ophthalmic Suspension',  # 108 occurrences
+    'Medicated Liquid Soap',  # 137 occurrences
+    'Intravesical Solution',  # 12 occurrences
+    'Injectable Suspension',  # 128 occurrences
+    'Inhalation Suspension',  # 16 occurrences
+    'Urethral Suppository',  # 10 occurrences
+    'Metered Dose Inhaler',  # 115 occurrences
+    'Ophthalmic Solution',  # 529 occurrences
+    'Ophthalmic Ointment',  # 79 occurrences
+    'Irrigation Solution',  # 45 occurrences
+    'Intrauterine System',  # 13 occurrences
+    'Injectable Solution',  # 1902 occurrences
+    'Inhalation Solution',  # 127 occurrences
+    'Transdermal System',  # 210 occurrences
+    'Topical Suspension',  # 4 occurrences
+    'Rectal Suppository',  # 116 occurrences
+    'Medicated Bar Soap',  # 21 occurrences
+    'Dry Powder Inhaler',  # 139 occurrences
+    'Sublingual Tablet',  # 133 occurrences
+    'Sublingual Powder',  # 4 occurrences
+    'Prefilled Syringe',  # 1362 occurrences
+    'Medicated Shampoo',  # 155 occurrences
+    'Inhalation Powder',  # 45 occurrences
+    'Vaginal Ointment',  # 6 occurrences
+    'Topical Solution',  # 448 occurrences
+    'Topical Ointment',  # 492 occurrences
+    'Ophthalmic Spray',  # 4 occurrences
+    'Inhalation Spray',  # 28 occurrences
+    'Sublingual Film',  # 28 occurrences
+    'Rectal Ointment',  # 20 occurrences
+    'Otic Suspension',  # 20 occurrences
+    'Oral Suspension',  # 765 occurrences
+    'Medicated Patch',  # 172 occurrences
+    'Injectable Foam',  # 4 occurrences
+    'Chewable Tablet',  # 518 occurrences
+    'Vaginal System',  # 23 occurrences
+    'Vaginal Insert',  # 41 occurrences
+    'Topical Powder',  # 63 occurrences
+    'Topical Lotion',  # 407 occurrences
+    'Ophthalmic Gel',  # 47 occurrences
+    'Nasal Solution',  # 38 occurrences
+    'Nasal Ointment',  # 4 occurrences
+    'Nasal Inhalant',  # 9 occurrences
+    'Medicated Tape',  # 4 occurrences
+    'Vaginal Cream',  # 51 occurrences
+    'Topical Spray',  # 263 occurrences
+    'Topical Cream',  # 953 occurrences
+    'Otic Solution',  # 61 occurrences
+    'Oral Solution',  # 1352 occurrences
+    'Oral Ointment',  # 11 occurrences
+    'Oral Granules',  # 105 occurrences
+    'Mucosal Spray',  # 64 occurrences
+    'Medicated Pad',  # 177 occurrences
+    'Buccal Tablet',  # 20 occurrences
+    'Vaginal Foam',  # 4 occurrences
+    'Vaginal Film',  # 4 occurrences
+    'Topical Foam',  # 151 occurrences
+    'Rectal Spray',  # 4 occurrences
+    'Rectal Cream',  # 50 occurrences
+    'Powder Spray',  # 18 occurrences
+    'Pen Injector',  # 221 occurrences
+    'Oral Lozenge',  # 182 occurrences
+    'Oral Capsule',  # 2514 occurrences
+    'Nasal Powder',  # 12 occurrences
+    'Jet Injector',  # 4 occurrences
+    'Ia Injection',  # 3 occurrences
+    'Drug Implant',  # 90 occurrences
+    'Vaginal Gel',  # 51 occurrences
+    'Topical Oil',  # 20 occurrences
+    'Topical Gel',  # 599 occurrences
+    'Rectal Foam',  # 16 occurrences
+    'Oral Tablet',  # 6668 occurrences
+    'Oral Powder',  # 92 occurrences
+    'Oral Pellet',  # 70 occurrences
+    'Nasal Spray',  # 169 occurrences
+    'Chewing Gum',  # 16 occurrences
+    'Buccal Film',  # 36 occurrences
+    'Toothpaste',  # 48 occurrences
+    'Rectal Gel',  # 17 occurrences
+    'Oral Wafer',  # 20 occurrences
+    'Oral Spray',  # 7 occurrences
+    'Oral Paste',  # 16 occurrences
+    'Oral Cream',  # 6 occurrences
+    'Inhalation',  # 85 occurrences
+    'Oral Foam',  # 11 occurrences
+    'Oral Film',  # 40 occurrences
+    'Nasal Gel',  # 14 occurrences
+    'Mouthwash',  # 87 occurrences
+    'Injection',  # 4451 occurrences
+    'Cartridge',  # 230 occurrences
+    'Oral Gel',  # 91 occurrences
+    'Injector',  # 389 occurrences
+    'Douche',  # 4 occurrences
+    'Paste',  # 37 occurrences
+    'Enema',  # 38 occurrences
+]

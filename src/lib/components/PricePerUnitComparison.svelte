@@ -77,12 +77,17 @@ by calculating price per MG and displaying as sorted bar charts
 					drugData.manufacturer_name.toLowerCase().includes(selectedDrug.manufacturer) &&
 					drugData.is_brand === true
 				) {
-					const { strengthValue, strengthLabel, form } = parseDrugName(drugData.name);
+					try {
+						const priceResponse = await import(`$lib/data/prices/${rxcui}.json`);
+						const priceData = priceResponse.default;
 
-					if (strengthValue && strengthLabel && form) {
-						try {
-							const priceResponse = await import(`$lib/data/prices/${rxcui}.json`);
-							const priceData = priceResponse.default;
+						// extract strength value and label from Strength field
+						const strengthValue = extractStrengthValue(priceData.Strength);
+						const strengthLabel = priceData.Strength || '';
+						const form = priceData.Form || '';
+
+						// only include if we have valid data
+						if (strengthValue && strengthLabel && form) {
 							const mostRecentPrice = getMostRecentPrice(priceData.prices);
 
 							if (mostRecentPrice !== null) {
@@ -100,9 +105,9 @@ by calculating price per MG and displaying as sorted bar charts
 								
 								console.log(`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} = $${pricePerUnit.toFixed(3)}/MG`);
 							}
-						} catch (e) {
-							console.warn(`no price data for ${rxcui}`);
 						}
+					} catch (e) {
+						console.warn(`no price data for ${rxcui}`);
 					}
 				}
 			}
@@ -117,22 +122,11 @@ by calculating price per MG and displaying as sorted bar charts
 		}
 	}
 
-	// parse drug name to extract strength value, label, and form
-	function parseDrugName(name: string): {
-		strengthValue: number;
-		strengthLabel: string;
-		form: string;
-	} {
-		const strengthMatch = name.match(/(\d+\.?\d*)\s*(MG|ML|UNIT)/i);
-		const formMatch = name.match(
-			/(Oral Capsule|Oral Tablet|Chewable Tablet|Oral Solution|Injection|Topical|Transdermal)/i
-		);
-
-		return {
-			strengthValue: strengthMatch ? parseFloat(strengthMatch[1]) : 0,
-			strengthLabel: strengthMatch ? `${strengthMatch[1]} ${strengthMatch[2].toUpperCase()}` : '',
-			form: formMatch ? formMatch[1] : ''
-		};
+	// extract numeric value from strength string (e.g., "20 MG" -> 20)
+	function extractStrengthValue(strengthStr: string): number {
+		if (!strengthStr) return 0;
+		const match = strengthStr.match(/(\d+\.?\d*)/);
+		return match ? parseFloat(match[1]) : 0;
 	}
 
 	// get most recent price from price data

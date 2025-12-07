@@ -7,7 +7,7 @@
   "Ingredient_Name": "Methylphenidate Hydrochloride Mgml",
   "Manufacturer_Name": "Methylin",
   "Strength": "1 MG/ML",
-  "Form": "",
+  "Form": "Oral Solution",
   "prices": {
     "59630075050": {
       "01/17/2018": 0.13424,
@@ -27,8 +27,7 @@
       "05/21/2025": 0.14751,
       "06/18/2025": 0.14719,
       "09/17/2025": 0.14731,
-      "10/22/2025": 0.14736,
-      "11/19/2025": 0.1474
+      "10/22/2025": 0.14736
     }
   }
 }

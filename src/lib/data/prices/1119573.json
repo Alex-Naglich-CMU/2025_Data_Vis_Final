@@ -7,7 +7,7 @@
   "Ingredient_Name": "Ascorbic Acid Cholecalciferol Unt Cuprous Oxide Folic Acid Magnesium Oxide Niacin Polysaccharide Iron Complex Potassium Iodide Pyridoxine Hydrochloride Riboflavin Thiamine Mononitrate Vitamin A Unt Vitamin B Vitamin E Unt Zinc Oxide",
   "Manufacturer_Name": "Vitafol-One",
   "Strength": "30 MG",
-  "Form": "",
+  "Form": "Oral Capsule",
   "prices": {
     "00642007030": {
       "11/22/2017": 3.5663,
@@ -31,8 +31,7 @@
       "07/23/2025": 4.3615,
       "08/20/2025": 4.36597,
       "09/17/2025": 4.36014,
-      "10/22/2025": 4.35172,
-      "11/19/2025": 4.35076
+      "10/22/2025": 4.35172
     }
   }
 }

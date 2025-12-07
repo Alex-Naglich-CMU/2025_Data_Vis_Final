@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Metoprolol Succinate Extended Release",
   "Manufacturer_Name": "Toprol",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "70347010002": {
       "05/22/2019": 1.89537,
@@ -60,8 +60,7 @@
       "07/23/2025": 1.97832,
       "08/20/2025": 1.97806,
       "09/17/2025": 1.97959,
-      "10/22/2025": 1.98071,
-      "11/19/2025": 1.98156
+      "10/22/2025": 1.98071
     }
   }
 }

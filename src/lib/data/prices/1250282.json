@@ -7,7 +7,7 @@
   "Ingredient_Name": "Aluminum Hydroxide Magnesium Carbonate Chewable",
   "Manufacturer_Name": "Acid Gone",
   "Strength": "160 MG",
-  "Form": "",
+  "Form": "Chewable Tablet",
   "prices": {
     "00904536560": {
       "05/19/2021": 0.03178,
@@ -96,8 +96,7 @@
       "07/23/2025": 0.04242,
       "08/20/2025": 0.04397,
       "09/17/2025": 0.04447,
-      "10/22/2025": 0.04505,
-      "11/19/2025": 0.04571
+      "10/22/2025": 0.04505
     },
     "904536560": {
       "09/22/2021": 0.03278

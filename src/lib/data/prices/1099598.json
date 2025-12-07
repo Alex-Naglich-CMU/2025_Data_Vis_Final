@@ -7,7 +7,7 @@
   "Ingredient_Name": "Divalproex Sodium Delayed Release",
   "Manufacturer_Name": "Depakote",
   "Strength": "125 MG",
-  "Form": "",
+  "Form": "Delayed Release Oral Capsule",
   "prices": {
     "00074611411": {
       "09/20/2017": 1.5307,
@@ -42,8 +42,7 @@
       "06/18/2025": 1.87945,
       "08/20/2025": 1.87897,
       "09/17/2025": 1.87828,
-      "10/22/2025": 1.87869,
-      "11/19/2025": 1.87846
+      "10/22/2025": 1.87869
     }
   }
 }

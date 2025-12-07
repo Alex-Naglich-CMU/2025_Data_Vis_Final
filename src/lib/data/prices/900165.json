@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Lamotrigine Extended Release",
   "Manufacturer_Name": "Lamictal",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "00173075400": {
       "05/22/2024": 13.43753,
@@ -18,8 +18,7 @@
       "11/20/2024": 13.4205,
       "12/18/2024": 13.39767,
       "01/01/2025": 13.7996,
-      "10/22/2025": 13.7596,
-      "11/19/2025": 13.74239
+      "10/22/2025": 13.7596
     }
   }
 }

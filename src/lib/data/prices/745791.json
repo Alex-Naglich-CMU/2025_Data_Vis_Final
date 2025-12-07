@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Levalbuterol Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "",
   "Strength": "200 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "00591292754": {
       "05/19/2021": 3.80544,
@@ -109,8 +109,7 @@
       "07/23/2025": 3.50395,
       "08/20/2025": 3.42454,
       "09/17/2025": 3.31292,
-      "10/22/2025": 3.32817,
-      "11/19/2025": 3.41832
+      "10/22/2025": 3.32817
     },
     "591292754": {
       "09/22/2021": 3.78413

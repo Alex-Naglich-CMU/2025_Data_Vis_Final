@@ -7,7 +7,7 @@
   "Ingredient_Name": "Sulfamethoxazole Mgml Trimethoprim Mgml",
   "Manufacturer_Name": "Sulfatrim",
   "Strength": "40 MG/ML",
-  "Form": "",
+  "Form": "Oral Suspension",
   "prices": {
     "00121085416": {
       "05/19/2021": 0.0894,
@@ -93,8 +93,7 @@
       "07/23/2025": 0.05748,
       "08/20/2025": 0.05822,
       "09/17/2025": 0.05846,
-      "10/22/2025": 0.05807,
-      "11/19/2025": 0.0585
+      "10/22/2025": 0.05807
     },
     "121085416": {
       "09/22/2021": 0.07875

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Acetaminophen Chlorpheniramine Maleate Dextromethorphan Hydrobromide",
   "Manufacturer_Name": "",
   "Strength": "325 MG",
-  "Form": "Tablet",
+  "Form": "Oral Tablet",
   "prices": {
     "63868056720": {
       "04/19/2023": 0.10317
@@ -27,8 +27,7 @@
       "07/23/2025": 0.13968,
       "08/20/2025": 0.13073,
       "09/17/2025": 0.12406,
-      "10/22/2025": 0.11434,
-      "11/19/2025": 0.10994
+      "10/22/2025": 0.11434
     }
   }
 }

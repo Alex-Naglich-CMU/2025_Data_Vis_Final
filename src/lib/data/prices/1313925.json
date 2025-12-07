@@ -7,7 +7,7 @@
   "Ingredient_Name": "Alpha-Tocopherol Unt Ascorbic Acid Beta Carotene Unt Calcium Carbonate Calcium Pantothenate Cholecalciferol Unt Docusate Sodium Ferrous Fumarate Folic Acid Niacinamide Pyridoxine Hydrochloride Riboflavin Thiamine Vitamin B Zinc Oxide",
   "Manufacturer_Name": "",
   "Strength": "30 UNT",
-  "Form": "Tablet",
+  "Form": "Oral Tablet",
   "prices": {
     "13925011601": {
       "11/20/2019": 0.45623,
@@ -33,8 +33,7 @@
       "07/23/2025": 0.46757,
       "08/20/2025": 0.4758,
       "09/17/2025": 0.48306,
-      "10/22/2025": 0.48427,
-      "11/19/2025": 0.47632
+      "10/22/2025": 0.48427
     }
   }
 }

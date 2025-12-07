@@ -1,6 +1,7 @@
 <!-- paginated version showing percent increase from starting price
 shows groups of 250 brand drugs at a time with prev/next buttons
 y-axis shows percent change instead of absolute price
+TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 -->
 
 <script lang="ts">
@@ -23,6 +24,7 @@ y-axis shows percent change instead of absolute price
 	interface DrugData {
 		rxcui: string;
 		friendlyName: string;
+		form: string; // dosage form
 		prices: Record<string, Record<string, number>>;
 	}
 
@@ -33,6 +35,8 @@ y-axis shows percent change instead of absolute price
 	
 	let drugsData = $state<DrugData[]>([]);
 	let selectedDrugIndices = $state<Set<number>>(new Set());
+	let selectedForms = $state<Set<string>>(new Set());
+	let availableForms = $state<string[]>([]);
 
 	let tooltipData = $state<{ date: Date; prices: Map<string, number> } | null>(null);
 	let cursorX = $state(0);
@@ -160,6 +164,8 @@ y-axis shows percent change instead of absolute price
 
 			// load drug data for current page
 			const loadedDrugs: DrugData[] = [];
+			const formsSet = new Set<string>();
+			
 			for (const drug of currentPageDrugs) {
 				try {
 					// load price data
@@ -171,9 +177,16 @@ y-axis shows percent change instead of absolute price
 						continue;
 					}
 
+					// get form from JSON
+					const form = priceData.Form || 'Unknown';
+					if (form && form !== 'Unknown') {
+						formsSet.add(form);
+					}
+
 					loadedDrugs.push({
 						rxcui: drug.rxcui,
 						friendlyName: drug.name,
+						form: form,
 						prices: priceData.prices
 					});
 				} catch (e) {
@@ -182,15 +195,14 @@ y-axis shows percent change instead of absolute price
 			}
 
 			drugsData = loadedDrugs;
-			console.log('loaded', loadedDrugs.length, 'drugs with price data');
+			
+			// update available forms (sorted alphabetically)
+			availableForms = Array.from(formsSet).sort();
+			console.log('loaded', loadedDrugs.length, 'drugs with', availableForms.length, 'unique forms');
 
-			// select all drugs on current page by default
-			// const initialSelection = new Set<number>();
-			// for (let i = 0; i < drugsData.length; i++) {
-			// 	initialSelection.add(i);
-			// }
-			// selectedDrugIndices = initialSelection;
+			// reset selections when changing pages
 			selectedDrugIndices = new Set<number>();
+			selectedForms = new Set<string>();
 
 			loadingPage = false;
 		} catch (err) {
@@ -232,14 +244,28 @@ y-axis shows percent change instead of absolute price
 		return mostRecentPrice;
 	}
 
-	// data processing - sort by price (highest to lowest)
+	// filter drugs by selected forms
+	const filteredDrugs = $derived(
+		drugsData.filter((drug, i) => {
+			// if no forms selected, show all drugs
+			if (selectedForms.size === 0) return true;
+			// otherwise, only show drugs matching selected forms
+			return selectedForms.has(drug.form);
+		})
+	);
+
+	// data processing - sort by price (highest to lowest) - ONLY FILTERED DRUGS
 	const brandDrugs = $derived(
-		drugsData
-			.map((drug, i) => ({ 
-				drug, 
-				i,
-				price: getMostRecentPrice(drug)
-			}))
+		filteredDrugs
+			.map((drug, i) => {
+				// need to find original index in drugsData for selection tracking
+				const originalIndex = drugsData.indexOf(drug);
+				return { 
+					drug, 
+					i: originalIndex,
+					price: getMostRecentPrice(drug)
+				};
+			})
 			.sort((a, b) => b.price - a.price)
 	);
 
@@ -253,10 +279,14 @@ y-axis shows percent change instead of absolute price
 	const selectedLines = $derived.by(() => {
 		const lines: LineData[] = [];
 
-		drugsData.forEach((drug, drugIndex) => {
-			const brandDrugPosition = brandDrugs.findIndex(({ i }) => i === drugIndex);
+		filteredDrugs.forEach((drug) => {
+			const originalIndex = drugsData.indexOf(drug);
+			
+			// only show if drug is selected
+			if (!selectedDrugIndices.has(originalIndex)) return;
+			
+			const brandDrugPosition = brandDrugs.findIndex(({ i }) => i === originalIndex);
 			const color = drugColors[brandDrugPosition % drugColors.length];
-
 
 			const chartData = getChartPoints(drug);
 			if (chartData.length > 0) {
@@ -264,7 +294,7 @@ y-axis shows percent change instead of absolute price
 					data: chartData,
 					color,
 					label: drug.friendlyName,
-					drugIndex
+					drugIndex: originalIndex
 				});
 			}
 		});
@@ -387,6 +417,25 @@ y-axis shows percent change instead of absolute price
 		}
 		selectedDrugIndices = newSet;
 	}
+
+	function toggleFormSelection(form: string) {
+		const newSet = new Set(selectedForms);
+		if (newSet.has(form)) {
+			newSet.delete(form);
+		} else {
+			newSet.add(form);
+		}
+		selectedForms = newSet;
+	}
+
+	// count how many drugs match each form
+	const formCounts = $derived.by(() => {
+		const counts = new Map<string, number>();
+		for (const drug of drugsData) {
+			counts.set(drug.form, (counts.get(drug.form) || 0) + 1);
+		}
+		return counts;
+	});
 </script>
 
 <!--- content area --->
@@ -538,44 +587,78 @@ y-axis shows percent change instead of absolute price
 						</div>
 					</div>
 
-					<div class="mb-2 flex items-center justify-between">
-						<label for="drug-list">Select Drugs:</label>
-						<span class="text-sm text-gray-500">* % change from first price</span>
+					<!-- form filter section -->
+					<div class="form-filter-section">
+						<div class="mb-2">
+							<label>Filter by Dosage Form:</label>
+							<div class="text-sm text-gray-500">
+								{selectedForms.size > 0 
+									? `${filteredDrugs.length} of ${drugsData.length} drugs` 
+									: 'All forms'}
+							</div>
+						</div>
+						<ul class="form-list">
+							{#each availableForms as form}
+								{@const isSelected = selectedForms.has(form)}
+								{@const count = formCounts.get(form) || 0}
+								<li
+									class="form-list-item"
+									class:selected={isSelected}
+									class:unselected={!isSelected}
+									onclick={() => toggleFormSelection(form)}
+									role="option"
+									aria-selected={isSelected}
+									tabindex="0"
+								>
+									<span class="checkmark">{isSelected ? '✓' : ''}</span>
+									<span class="form-name">{form}</span>
+									<span class="form-count">({count})</span>
+								</li>
+							{/each}
+						</ul>
 					</div>
-					<ul class="drug-list" role="listbox">
-						{#each brandDrugs
-							.sort((a, b) => {
-								const aSelected = selectedDrugIndices.has(a.i);
-								const bSelected = selectedDrugIndices.has(b.i);
-								// selected items first
-								if (aSelected && !bSelected) return -1;
-								if (!aSelected && bSelected) return 1;
-								// within each group, maintain price order
-								return 0;
-							}) as { drug, i, price }}
-							{@const brandDrugPosition = brandDrugs.findIndex(({ i: idx }) => idx === i)}
-							{@const color = drugColors[brandDrugPosition % drugColors.length]}
-							{@const isSelected = selectedDrugIndices.has(i)}
-							<li
-								class="drug-list-item"
-								class:selected={isSelected}
-								class:unselected={!isSelected}
-								onclick={() => toggleDrugSelection(i)}
-								onkeydown={(e) => {
-									if (e.key === 'Enter' || e.key === ' ') toggleDrugSelection(i);
-								}}
-								role="option"
-								aria-selected={isSelected}
-								tabindex="0"
-								style="border-left: 4px solid {color}; {isSelected
-									? `background-color: ${color}70; color: ${color};`
-									: ''}">
-								<span class="checkmark">{isSelected ? '✓' : ''}</span>
-								<span class="drug-name">{drug.friendlyName.toUpperCase()}</span>
-								<span class="drug-price">${price.toFixed(2)}</span>
-							</li>
-						{/each}
-					</ul>
+
+					<!-- drug selection section -->
+					<div class="drug-selection-section">
+						<div class="mb-2 flex items-center justify-between">
+							<label for="drug-list">Select Drugs:</label>
+							<span class="text-sm text-gray-500">* % change from first price</span>
+						</div>
+						<ul class="drug-list" role="listbox">
+							{#each brandDrugs
+								.sort((a, b) => {
+									const aSelected = selectedDrugIndices.has(a.i);
+									const bSelected = selectedDrugIndices.has(b.i);
+									// selected items first
+									if (aSelected && !bSelected) return -1;
+									if (!aSelected && bSelected) return 1;
+									// within each group, maintain price order
+									return 0;
+								}) as { drug, i, price }}
+								{@const brandDrugPosition = brandDrugs.findIndex(({ i: idx }) => idx === i)}
+								{@const color = drugColors[brandDrugPosition % drugColors.length]}
+								{@const isSelected = selectedDrugIndices.has(i)}
+								<li
+									class="drug-list-item"
+									class:selected={isSelected}
+									class:unselected={!isSelected}
+									onclick={() => toggleDrugSelection(i)}
+									onkeydown={(e) => {
+										if (e.key === 'Enter' || e.key === ' ') toggleDrugSelection(i);
+									}}
+									role="option"
+									aria-selected={isSelected}
+									tabindex="0"
+									style="border-left: 4px solid {color}; {isSelected
+										? `background-color: ${color}70; color: ${color};`
+										: ''}">
+									<span class="checkmark">{isSelected ? '✓' : ''}</span>
+									<span class="drug-name">{drug.friendlyName.toUpperCase()}</span>
+									<span class="drug-price">${price.toFixed(2)}</span>
+								</li>
+							{/each}
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -655,14 +738,83 @@ y-axis shows percent change instead of absolute price
 		cursor: not-allowed;
 	}
 
+	.form-filter-section {
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
+		border-bottom: 2px solid #ccc;
+	}
+
+	.form-list {
+		list-style: none;
+		padding: 0;
+		margin: 10px 0;
+		max-height: 200px;
+		overflow-y: auto;
+		border: 2px solid rgba(128, 128, 128, 0.5);
+		border-radius: 4px;
+	}
+
+	.form-list-item {
+		padding: 0.4rem 0.8rem;
+		cursor: pointer;
+		transition: background-color 0.2s;
+		font-family: fustat;
+		font-size: 13px;
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		background-color: rgba(75, 75, 75, 0.2);
+		border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+	}
+
+	.form-list-item:last-child {
+		border-bottom: none;
+	}
+
+	.form-list-item .checkmark {
+		width: 1rem;
+		font-weight: bold;
+	}
+
+	.form-list-item .form-name {
+		flex: 1;
+	}
+
+	.form-list-item .form-count {
+		margin-left: auto;
+		font-size: 0.85em;
+		color: #666;
+	}
+
+	.form-list-item:hover {
+		background-color: rgba(128, 128, 128, 0.15);
+	}
+
+	.form-list-item.selected {
+		font-weight: 600;
+		background-color: rgba(45, 106, 79, 0.15);
+		border-left: 3px solid #2D6A4F;
+	}
+
+	.form-list-item.unselected {
+		opacity: 0.7;
+	}
+
+	.drug-selection-section {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+	}
+
 	.drug-list {
 		list-style: none;
 		padding: 0;
 		margin: 10px 0;
-		max-height: 400px;
+		max-height: 300px;
 		overflow-y: auto;
 		border: 2px solid rgba(128, 128, 128, 0.5);
 		border-radius: 4px;
+		flex: 1;
 	}
 
 	.drug-list-item {
@@ -742,6 +894,12 @@ y-axis shows percent change instead of absolute price
 		border-left: 1px solid #ccc;
 	}
 
+	.controls {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+
 	svg {
 		display: block;
 	}
@@ -800,5 +958,29 @@ y-axis shows percent change instead of absolute price
 
 	.drug-list-item.unselected:hover {
 		opacity: 0.6;
+	}
+
+	.text-sm {
+		font-size: 0.85em;
+	}
+
+	.text-gray-500 {
+		color: #666;
+	}
+
+	.mb-2 {
+		margin-bottom: 0.5rem;
+	}
+
+	.flex {
+		display: flex;
+	}
+
+	.items-center {
+		align-items: center;
+	}
+
+	.justify-between {
+		justify-content: space-between;
 	}
 </style>

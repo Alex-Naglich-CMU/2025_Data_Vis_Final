@@ -1,9 +1,8 @@
 <!-- how this works:
 1. loads search_index_all.json to find all RxCUIs for the selected drug
-2. parses drug names to extract strength (e.g "20 MG") and form (e.g "Oral Capsule")
-3. loads individual json files for each RxCUI
-4. averages the prices across multiple NDCs and groups them by strength or form
-5. renders two separate side by side line charts 
+2. loads individual json files for each RxCUI to get Strength and Form fields
+3. averages the prices across multiple NDCs and groups them by strength or form
+4. renders two separate side by side line charts 
 -->
 
 <script lang="ts">
@@ -35,7 +34,7 @@
 		prices: { date: Date; price: number }[];
 	}
 
-	let selectedDrugIndex = $state(8); // default to VYVANSE
+	let selectedDrugIndex = $state(8); // Default to VYVANSE
 	let loading = $state(true);
 	let error = $state<string | null>(null);
 	let searchIndex = $state<any>({});
@@ -57,19 +56,20 @@
 	// DATA LOADING
 onMount(async () => {
 	try {
-		// import search index directly
+		// Import search index directly
 		const searchIndexModule = await import('$lib/data/search_index_all.json');
 		searchIndex = searchIndexModule.default;
+		console.log('✅ Search index loaded:', Object.keys(searchIndex).length, 'entries');
 		loading = false;
 		await loadDrugData();
 	} catch (err) {
 		error = err instanceof Error ? err.message : 'Unknown error';
 		loading = false;
-		console.error('Error loading search index:', err);
+		console.error('❌ Error loading search index:', err);
 	}
 });
 
-	// load data for selected drug
+	// Load data for selected drug
 	async function loadDrugData() {
 		loading = true;
 		error = null;
@@ -77,9 +77,10 @@ onMount(async () => {
 
 		try {
 			const selectedDrug = brandDrugs[selectedDrugIndex];
+			console.log('🔍 Loading data for:', selectedDrug.name);
 			const variations: DrugVariation[] = [];
 
-			// find all RxCUIs for this drug
+			// Find all RxCUIs for this drug
 			for (const [rxcui, data] of Object.entries(searchIndex)) {
 				const drugData = data as any;
 				if (
@@ -87,15 +88,21 @@ onMount(async () => {
 					drugData.manufacturer_name.toLowerCase().includes(selectedDrug.manufacturer) &&
 					drugData.is_brand === true
 				) {
-					// parse strength and form from name
-					const { strength, form } = parseDrugName(drugData.name);
+					console.log('  ✓ Found variation:', rxcui, drugData.name);
 					
-					if (strength && form) {
-						// load price data
-						try {
-							const priceResponse = await import(`$lib/data/prices/${rxcui}.json`);
-							const priceData = priceResponse.default;
+					// load price data to get strength and form from JSON
+					try {
+						const priceResponse = await import(`$lib/data/prices/${rxcui}.json`);
+						const priceData = priceResponse.default;
+						
+						// get strength and form directly from JSON
+						const strength = priceData.Strength || '';
+						const form = priceData.Form || '';
+						console.log('    → Strength from JSON:', strength, '| Form from JSON:', form);
+						
+						if (strength && form) {
 							const prices = parsePrices(priceData.prices);
+							console.log('    → Loaded', prices.length, 'price points');
 
 							variations.push({
 								rxcui,
@@ -104,39 +111,30 @@ onMount(async () => {
 								form,
 								prices
 							});
-						} catch (e) {
-							console.warn(`No price data for ${rxcui}`);
 						}
+					} catch (e) {
+						console.warn(`    ⚠️ No price data for ${rxcui}`);
 					}
 				}
 			}
 
 			drugVariations = variations;
+			console.log('📊 Total variations loaded:', variations.length);
+			console.log('📦 Variations:', variations);
 			loading = false;
 		} catch (err) {
 			error = err instanceof Error ? err.message : 'Error loading drug data';
 			loading = false;
+			console.error('❌ Error loading drug data:', err);
 		}
 	}
 
-	// parse drug name to extract strength and form
-	function parseDrugName(name: string): { strength: string; form: string } {
-		// example: "lisdexamfetamine dimesylate 20 MG Oral Capsule [Vyvanse]"
-		const strengthMatch = name.match(/(\d+\.?\d*\s*(?:MG|ML|UNIT))/i);
-		const formMatch = name.match(/(Oral Capsule|Oral Tablet|Chewable Tablet|Oral Solution|Injection|Topical|Transdermal)/i);
-		
-		return {
-			strength: strengthMatch ? strengthMatch[1] : '',
-			form: formMatch ? formMatch[1] : ''
-		};
-	}
-
-	// parse prices from JSON format
+	// Parse prices from JSON format
 	function parsePrices(pricesObj: any): { date: Date; price: number }[] {
 		const allPrices: { date: Date; price: number }[] = [];
 		const priceMap = new Map<string, number[]>();
 
-		// aggregate prices across all NDCs for each date
+		// Aggregate prices across all NDCs for each date
 		for (const ndc in pricesObj) {
 			for (const [dateStr, price] of Object.entries(pricesObj[ndc])) {
 				if (!priceMap.has(dateStr)) {
@@ -146,7 +144,7 @@ onMount(async () => {
 			}
 		}
 
-		// average prices for each date
+		// Average prices for each date
 		for (const [dateStr, prices] of priceMap.entries()) {
 			const avgPrice = prices.reduce((a, b) => a + b, 0) / prices.length;
 			const date = parseDate(dateStr);
@@ -158,7 +156,7 @@ onMount(async () => {
 		return allPrices.sort((a, b) => a.date.getTime() - b.date.getTime());
 	}
 
-	// parse date string
+	// Parse date string
 	function parseDate(dateStr: string): Date | null {
 		try {
 			const parts = dateStr.split('/');
@@ -174,7 +172,7 @@ onMount(async () => {
 		return null;
 	}
 
-	// group variations by strength
+	// Group variations by strength
 	const strengthGroups = $derived.by(() => {
 		const groups = new Map<string, DrugVariation[]>();
 		for (const variation of drugVariations) {
@@ -186,7 +184,7 @@ onMount(async () => {
 		return groups;
 	});
 
-	// group variations by form
+	// Group variations by form
 	const formGroups = $derived.by(() => {
 		const groups = new Map<string, DrugVariation[]>();
 		for (const variation of drugVariations) {
@@ -198,13 +196,13 @@ onMount(async () => {
 		return groups;
 	});
 
-	// create line data for strength comparison
+	// Create line data for strength comparison
 	const strengthLines = $derived.by(() => {
 		const lines: { label: string; data: { date: Date; price: number }[]; color: string }[] = [];
 		let colorIndex = 0;
 
 		for (const [strength, variations] of strengthGroups.entries()) {
-			// average prices across all forms for this strength
+			// Average prices across all forms for this strength
 			const priceMap = new Map<number, number[]>();
 			
 			for (const variation of variations) {
@@ -236,13 +234,13 @@ onMount(async () => {
 		return lines;
 	});
 
-	// create line data for form comparison
+	// Create line data for form comparison
 	const formLines = $derived.by(() => {
 		const lines: { label: string; data: { date: Date; price: number }[]; color: string }[] = [];
 		let colorIndex = 0;
 
 		for (const [form, variations] of formGroups.entries()) {
-			// average prices across all strengths for this form
+			// Average prices across all strengths for this form
 			const priceMap = new Map<number, number[]>();
 			
 			for (const variation of variations) {
@@ -274,9 +272,17 @@ onMount(async () => {
 		return lines;
 	});
 
-	// bombined data points for scales
+	// Combined data points for scales
 	const allStrengthPoints = $derived(strengthLines.flatMap((line) => line.data));
 	const allFormPoints = $derived(formLines.flatMap((line) => line.data));
+
+	// Debug effect to log groups and lines
+	$effect(() => {
+		console.log('💪 Strength groups:', strengthGroups);
+		console.log('📝 Form groups:', formGroups);
+		console.log('📈 Strength lines:', strengthLines);
+		console.log('📉 Form lines:', formLines);
+	});
 
 	// CHART SCALES
 	function createScales(data: { date: Date; price: number }[], width: number, height: number) {
@@ -315,7 +321,7 @@ onMount(async () => {
 		renderYAxis(formYAxisRef, formScales.yScale, allFormPoints.length);
 	});
 
-	// watch for drug selection changes
+	// Watch for drug selection changes
 	$effect(() => {
 		if (selectedDrugIndex !== undefined && Object.keys(searchIndex).length > 0) {
 			loadDrugData();
@@ -369,7 +375,7 @@ onMount(async () => {
 {:else}
 	<div class="mt-20">
 		
-		<!-- drug selector -->
+		<!-- Drug Selector -->
 		<div class="drug-selector">
 			<label for="drug-select">Select Drug:</label>
 			<select 
@@ -413,7 +419,7 @@ onMount(async () => {
 						<g class="y-axis" transform="translate({margin.left},0)" bind:this={strengthYAxisRef}></g>
 					</svg>
 
-					<!-- legend -->
+					<!-- Legend -->
 					<div class="legend">
 						{#each strengthLines as line}
 							<div class="legend-item">
@@ -452,7 +458,7 @@ onMount(async () => {
 						<g class="y-axis" transform="translate({margin.left},0)" bind:this={formYAxisRef}></g>
 					</svg>
 
-					<!-- legend -->
+					<!-- Legend -->
 					<div class="legend">
 						{#each formLines as line}
 							<div class="legend-item">
@@ -570,4 +576,6 @@ onMount(async () => {
 		width: 20px;
 		height: 3px;
 	}
+
+	/* Axis styling is in app.css */
 </style>

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Insulin, Regular, Human Untml Injectable",
   "Manufacturer_Name": "Novolin R",
   "Strength": "100 UNT/ML",
-  "Form": "",
+  "Form": "Injectable Solution",
   "prices": {
     "00169183302": {
       "02/21/2018": 13.48828
@@ -38,8 +38,7 @@
       "07/23/2025": 4.62733,
       "08/20/2025": 4.62552,
       "09/17/2025": 4.62757,
-      "10/22/2025": 4.62745,
-      "11/19/2025": 4.62778
+      "10/22/2025": 4.62745
     }
   }
 }

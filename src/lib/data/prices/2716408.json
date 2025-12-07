@@ -7,11 +7,10 @@
   "Ingredient_Name": "Actuat Teriparatide Mgactuat Pen Injector",
   "Manufacturer_Name": "Bonsity",
   "Strength": "28 ACTU",
-  "Form": "",
+  "Form": "Pen Injector",
   "prices": {
     "47781085289": {
-      "10/22/2025": 670.52875,
-      "11/19/2025": 687.25084
+      "10/22/2025": 670.52875
     }
   }
 }

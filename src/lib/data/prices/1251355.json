@@ -7,7 +7,7 @@
   "Ingredient_Name": "Aluminum Hydroxide Mgml Magnesium Carbonate Mgml",
   "Manufacturer_Name": "Acid Gone",
   "Strength": "6.33 MG/ML",
-  "Form": "",
+  "Form": "Oral Suspension",
   "prices": {
     "00904772714": {
       "09/20/2017": 0.01088,
@@ -64,8 +64,7 @@
       "07/23/2025": 0.01185,
       "08/20/2025": 0.01211,
       "09/17/2025": 0.01207,
-      "10/22/2025": 0.0121,
-      "11/19/2025": 0.01212
+      "10/22/2025": 0.0121
     },
     "904772714": {
       "09/22/2021": 0.01046

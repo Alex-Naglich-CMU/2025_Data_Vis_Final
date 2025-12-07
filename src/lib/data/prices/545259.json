@@ -7,7 +7,7 @@
   "Ingredient_Name": "Loteprednol Etabonate Mgml Tobramycin Mgml",
   "Manufacturer_Name": "Zylet",
   "Strength": "5 MG/ML",
-  "Form": "",
+  "Form": "Ophthalmic Suspension",
   "prices": {
     "24208035805": {
       "05/19/2021": 53.1786,
@@ -36,8 +36,7 @@
       "07/23/2025": 64.66117,
       "08/20/2025": 64.60464,
       "09/17/2025": 64.579,
-      "10/22/2025": 64.51868,
-      "11/19/2025": 64.53824
+      "10/22/2025": 64.51868
     },
     "24208035810": {
       "08/21/2024": 63.72733,

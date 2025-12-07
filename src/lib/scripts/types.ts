@@ -14,7 +14,12 @@ export interface DrugAllData {
 	isBrand: boolean;
 	brandRxcui: string | null;
 	genericRxcui: string | null;
+	ingredientName: string;
+	manufacturerName: string | null;
+	strength: string | null;
+	form: string | null;
 	prices: SinglePriceDataPoint[];
+
 }
 
 // Individual price point with metadata

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Minocycline Extended Release",
   "Manufacturer_Name": "",
   "Strength": "24 HR",
-  "Form": "Tablet",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "67877057630": {
       "04/23/2025": 2.52367,
@@ -16,8 +16,7 @@
       "07/23/2025": 2.77006,
       "08/20/2025": 2.81305,
       "09/17/2025": 2.88552,
-      "10/22/2025": 2.92176,
-      "11/19/2025": 3.03047
+      "10/22/2025": 2.92176
     }
   }
 }

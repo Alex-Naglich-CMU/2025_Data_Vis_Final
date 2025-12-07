@@ -7,7 +7,7 @@
   "Ingredient_Name": "Insulin Aspart, Human Untml Injectable",
   "Manufacturer_Name": "Fiasp",
   "Strength": "100 UNT/ML",
-  "Form": "",
+  "Form": "Injectable Solution",
   "prices": {
     "00169320111": {
       "07/17/2019": 27.66138,
@@ -34,8 +34,7 @@
       "07/23/2025": 27.73559,
       "08/20/2025": 27.73919,
       "09/17/2025": 27.73719,
-      "10/22/2025": 27.74115,
-      "11/19/2025": 27.73826
+      "10/22/2025": 27.74115
     }
   }
 }

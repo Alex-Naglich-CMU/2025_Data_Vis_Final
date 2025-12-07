@@ -7,12 +7,11 @@
   "Ingredient_Name": "Epinephrine Mgml Nasal",
   "Manufacturer_Name": "Neffy",
   "Strength": "10 MG/ML",
-  "Form": "",
+  "Form": "Nasal Spray",
   "prices": {
     "82580001002": {
       "09/17/2025": 339.82417,
-      "10/22/2025": 340.093,
-      "11/19/2025": 339.935
+      "10/22/2025": 340.093
     }
   }
 }

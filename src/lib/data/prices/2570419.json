@@ -7,11 +7,10 @@
   "Ingredient_Name": "Paliperidone Palmitate Mgml Prefilled",
   "Manufacturer_Name": "Invega",
   "Strength": "3.5 ML",
-  "Form": "",
+  "Form": "Prefilled Syringe",
   "prices": {
     "50458061101": {
-      "09/17/2025": 3923.2751,
-      "11/19/2025": 3923.89036
+      "09/17/2025": 3923.2751
     }
   }
 }

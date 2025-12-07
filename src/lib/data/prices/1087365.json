@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hyoscyamine Methenamine Methylene Blue Phenyl Salicylate Sodium Phosphate, Monobasic",
   "Manufacturer_Name": "",
   "Strength": "0.12 MG",
-  "Form": "Capsule",
+  "Form": "Oral Capsule",
   "prices": {
     "58657045601": {
       "05/19/2021": 1.8207,
@@ -55,8 +55,7 @@
       "07/23/2025": 1.618,
       "08/20/2025": 1.64143,
       "09/17/2025": 1.66301,
-      "10/22/2025": 1.69175,
-      "11/19/2025": 1.71126
+      "10/22/2025": 1.69175
     }
   }
 }

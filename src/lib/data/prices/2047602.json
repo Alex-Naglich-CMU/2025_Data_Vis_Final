@@ -7,11 +7,10 @@
   "Ingredient_Name": "Epoetin Alfa-Epbx Untml",
   "Manufacturer_Name": "Retacrit",
   "Strength": "1 ML",
-  "Form": "",
+  "Form": "Injection",
   "prices": {
     "00069130510": {
-      "08/20/2025": 21.4035,
-      "11/19/2025": 21.42183
+      "08/20/2025": 21.4035
     }
   }
 }

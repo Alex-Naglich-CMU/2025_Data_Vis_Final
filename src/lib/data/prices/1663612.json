@@ -7,7 +7,7 @@
   "Ingredient_Name": "Brompheniramine Maleate Mgml Phenylephrine Hydrochloride Mgml",
   "Manufacturer_Name": "",
   "Strength": "0.2 MG/ML",
-  "Form": "Suspension",
+  "Form": "Oral Suspension",
   "prices": {
     "70000005701": {
       "1/19/2022": 0.0168,
@@ -33,8 +33,7 @@
       "07/23/2025": 0.02305,
       "08/20/2025": 0.02319,
       "09/17/2025": 0.02324,
-      "10/22/2025": 0.02314,
-      "11/19/2025": 0.02306
+      "10/22/2025": 0.02314
     }
   }
 }

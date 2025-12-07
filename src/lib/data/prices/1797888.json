@@ -7,7 +7,7 @@
   "Ingredient_Name": "Nicotine Mgactuat Metered Dose Nasal",
   "Manufacturer_Name": "Nicotrol",
   "Strength": "0.5 MG/ACTU",
-  "Form": "",
+  "Form": "Metered Dose Nasal Spray",
   "prices": {
     "00009540101": {
       "06/01/2017": 9.60576,
@@ -41,8 +41,7 @@
       "07/23/2025": 12.96308,
       "08/20/2025": 12.97011,
       "09/17/2025": 12.9648,
-      "10/22/2025": 12.96731,
-      "11/19/2025": 12.96532
+      "10/22/2025": 12.96731
     }
   }
 }

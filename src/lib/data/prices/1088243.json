@@ -7,7 +7,7 @@
   "Ingredient_Name": "Magnesium Hydroxide Chewable",
   "Manufacturer_Name": "Pedia-Lax Chewable",
   "Strength": "400 MG",
-  "Form": "",
+  "Form": "Chewable Tablet",
   "prices": {
     "00132065501": {
       "12/18/2024": 0.15219,
@@ -16,8 +16,7 @@
       "03/19/2025": 0.15208,
       "05/21/2025": 0.15083,
       "06/18/2025": 0.15179,
-      "09/17/2025": 0.15111,
-      "11/19/2025": 0.15083
+      "09/17/2025": 0.15111
     }
   }
 }

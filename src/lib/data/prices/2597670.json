@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Budesonide Mgactuat Formoterol Fumarate Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "Breyna",
   "Strength": "120 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "00378750332": {
       "11/22/2023": 23.2433,
@@ -33,8 +33,7 @@
       "07/23/2025": 22.94356,
       "08/20/2025": 22.95236,
       "09/17/2025": 23.12086,
-      "10/22/2025": 22.97002,
-      "11/19/2025": 23.16479
+      "10/22/2025": 22.97002
     }
   }
 }

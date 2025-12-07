@@ -7,11 +7,10 @@
   "Ingredient_Name": "Clemastine Fumarate Mgml",
   "Manufacturer_Name": "",
   "Strength": "0.134 MG/ML",
-  "Form": "Solution",
+  "Form": "Oral Solution",
   "prices": {
     "64950032412": {
-      "10/22/2025": 5.58473,
-      "11/19/2025": 5.56204
+      "10/22/2025": 5.58473
     }
   }
 }

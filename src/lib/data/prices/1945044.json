@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Fluticasone Furoate Mgactuat Umeclidinium Mgactuat Vilanterol Mgactuat Dry Inhaler",
   "Manufacturer_Name": "Trelegy",
   "Strength": "14 ACTU",
-  "Form": "",
+  "Form": "Dry Powder Inhaler",
   "prices": {
     "00173088714": {
       "01/01/2019": 8.70281,
@@ -33,8 +33,7 @@
       "07/23/2025": 10.80518,
       "08/20/2025": 10.79954,
       "09/17/2025": 10.81321,
-      "10/22/2025": 10.8275,
-      "11/19/2025": 10.82035
+      "10/22/2025": 10.8275
     }
   }
 }

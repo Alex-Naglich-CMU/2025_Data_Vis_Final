@@ -7,7 +7,7 @@
   "Ingredient_Name": "Estradiol Norethindrone Relugolix",
   "Manufacturer_Name": "Myfembree",
   "Strength": "1 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "72974041501": {
       "12/30/2022": 37.45643,
@@ -27,8 +27,7 @@
       "07/23/2025": 42.86605,
       "08/20/2025": 42.85337,
       "09/17/2025": 42.86112,
-      "10/22/2025": 42.78885,
-      "11/19/2025": 42.79433
+      "10/22/2025": 42.78885
     }
   }
 }

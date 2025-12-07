@@ -7,7 +7,7 @@
   "Ingredient_Name": "Dexchlorpheniramine Maleate Mgml Dextromethorphan Hydrobromide Mgml Phenylephrine Hydrochloride Mgml",
   "Manufacturer_Name": "",
   "Strength": "0.2 MG/ML",
-  "Form": "Solution",
+  "Form": "Oral Solution",
   "prices": {
     "50991049216": {
       "08/22/2018": 0.05343,
@@ -67,8 +67,7 @@
       "07/23/2025": 0.04115,
       "08/20/2025": 0.04126,
       "09/17/2025": 0.04138,
-      "10/22/2025": 0.04139,
-      "11/19/2025": 0.04125
+      "10/22/2025": 0.04139
     }
   }
 }

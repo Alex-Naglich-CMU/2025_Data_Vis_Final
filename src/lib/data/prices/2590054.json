@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Upadacitinib Extended Release",
   "Manufacturer_Name": "Rinvoq",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "00074231030": {
       "05/22/2024": 207.21896,
@@ -24,8 +24,7 @@
       "07/23/2025": 218.68485,
       "08/20/2025": 218.62632,
       "09/17/2025": 218.7348,
-      "10/22/2025": 218.26249,
-      "11/19/2025": 218.47284
+      "10/22/2025": 218.26249
     }
   }
 }

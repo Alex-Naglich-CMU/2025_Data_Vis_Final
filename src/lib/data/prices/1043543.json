@@ -7,7 +7,7 @@
   "Ingredient_Name": "Dextromethorphan Hydrobromide Mgml Guaifenesin Mgml Phenylephrine Hydrochloride Mgml",
   "Manufacturer_Name": "",
   "Strength": "1 MG/ML",
-  "Form": "Solution",
+  "Form": "Oral Solution",
   "prices": {
     "00113083926": {
       "01/23/2019": 0.03496,
@@ -161,8 +161,7 @@
       "07/23/2025": 0.03761,
       "08/20/2025": 0.03928,
       "09/17/2025": 0.04184,
-      "10/22/2025": 0.04369,
-      "11/19/2025": 0.04685
+      "10/22/2025": 0.04369
     },
     "72854013466": {
       "02/21/2024": 0.06033,

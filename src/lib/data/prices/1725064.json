@@ -7,7 +7,7 @@
   "Ingredient_Name": "Naloxone Hydrochloride Mgml Nasal",
   "Manufacturer_Name": "Narcan",
   "Strength": "40 MG/ML",
-  "Form": "",
+  "Form": "Nasal Spray",
   "prices": {
     "69547035302": {
       "11/22/2017": 59.796,
@@ -45,8 +45,7 @@
       "07/23/2025": 20.53012,
       "08/20/2025": 20.54257,
       "09/17/2025": 20.55016,
-      "10/22/2025": 20.5549,
-      "11/19/2025": 19.83731
+      "10/22/2025": 20.5549
     }
   }
 }

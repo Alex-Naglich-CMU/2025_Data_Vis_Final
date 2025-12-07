@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Dapagliflozin Metformin Hydrochloride Extended Release",
   "Manufacturer_Name": "",
   "Strength": "24 HR",
-  "Form": "Tablet",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "66993036160": {
       "05/22/2024": 5.57084,
@@ -27,8 +27,7 @@
       "07/23/2025": 5.91834,
       "08/20/2025": 5.91021,
       "09/17/2025": 5.88869,
-      "10/22/2025": 5.87105,
-      "11/19/2025": 5.83598
+      "10/22/2025": 5.87105
     }
   }
 }

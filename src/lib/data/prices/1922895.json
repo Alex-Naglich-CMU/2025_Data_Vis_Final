@@ -7,7 +7,7 @@
   "Ingredient_Name": "Preservative-Free Timolol Mgml",
   "Manufacturer_Name": "Timoptic",
   "Strength": "5 MG/ML",
-  "Form": "",
+  "Form": "Ophthalmic Solution",
   "prices": {
     "00187149605": {
       "09/20/2017": 6.61389,
@@ -58,8 +58,7 @@
       "07/23/2025": 10.21654,
       "08/20/2025": 10.24486,
       "09/17/2025": 10.26592,
-      "10/22/2025": 10.25199,
-      "11/19/2025": 10.26247
+      "10/22/2025": 10.25199
     }
   }
 }

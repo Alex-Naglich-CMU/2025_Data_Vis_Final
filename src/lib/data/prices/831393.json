@@ -7,11 +7,10 @@
   "Ingredient_Name": "Miconazole Nitrate Mgmg Petrolatum Mgmg Zinc Oxide Mgmg",
   "Manufacturer_Name": "Vusion",
   "Strength": "0.0025 MG/MG",
-  "Form": "",
+  "Form": "Topical Ointment",
   "prices": {
     "00378822250": {
-      "10/22/2025": 9.1105,
-      "11/19/2025": 9.1139
+      "10/22/2025": 9.1105
     },
     "40076000250": {
       "10/18/2017": 10.34783,

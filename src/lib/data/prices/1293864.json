@@ -7,11 +7,10 @@
   "Ingredient_Name": "Ergotamine Tartrate Sublingual",
   "Manufacturer_Name": "Ergomar",
   "Strength": "2 MG",
-  "Form": "",
+  "Form": "Sublingual Tablet",
   "prices": {
     "81279010420": {
-      "10/22/2025": 41.73708,
-      "11/19/2025": 42.04607
+      "10/22/2025": 41.73708
     }
   }
 }

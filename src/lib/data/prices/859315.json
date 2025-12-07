@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hydrocodone Bitartrate Ibuprofen",
   "Manufacturer_Name": "",
   "Strength": "10 MG",
-  "Form": "Tablet",
+  "Form": "Oral Tablet",
   "prices": {
     "53746011701": {
       "06/21/2017": 1.91203,
@@ -56,8 +56,7 @@
       "07/23/2025": 3.38858,
       "08/20/2025": 3.43443,
       "09/17/2025": 3.40614,
-      "10/22/2025": 3.38512,
-      "11/19/2025": 3.37443
+      "10/22/2025": 3.38512
     }
   }
 }

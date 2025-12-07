@@ -7,7 +7,7 @@
   "Ingredient_Name": "Actuat Formoterol Fumarate Mgactuat Mometasone Furoate Mgactuat Metered Dose Inhaler",
   "Manufacturer_Name": "Dulera",
   "Strength": "120 ACTU",
-  "Form": "",
+  "Form": "Metered Dose Inhaler",
   "prices": {
     "78206012601": {
       "12/22/2021": 22.98974,
@@ -32,8 +32,7 @@
       "07/23/2025": 25.23881,
       "08/20/2025": 25.23538,
       "09/17/2025": 25.23767,
-      "10/22/2025": 25.23959,
-      "11/19/2025": 25.23656
+      "10/22/2025": 25.23959
     }
   }
 }

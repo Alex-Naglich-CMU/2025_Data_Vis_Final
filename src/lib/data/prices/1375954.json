@@ -7,7 +7,7 @@
   "Ingredient_Name": "Doxylamine Succinate Pyridoxine Hydrochloride Delayed Release",
   "Manufacturer_Name": "Diclegis",
   "Strength": "10 MG",
-  "Form": "",
+  "Form": "Delayed Release Oral Tablet",
   "prices": {
     "55494010010": {
       "07/01/2017": 6.03901,
@@ -33,8 +33,7 @@
       "01/01/2025": 2.48962,
       "05/21/2025": 2.49334,
       "06/18/2025": 2.49464,
-      "07/01/2025": 1.99571,
-      "11/19/2025": 1.99551
+      "07/01/2025": 1.99571
     }
   }
 }

@@ -7,7 +7,7 @@
   "Ingredient_Name": "Amphetamine Aspartate Amphetamine Dextroamphetamine Saccharate Dextroamphetamine",
   "Manufacturer_Name": "Adderall",
   "Strength": "7.5 MG",
-  "Form": "",
+  "Form": "Oral Tablet",
   "prices": {
     "57844013001": {
       "01/01/2018": 5.8406,
@@ -33,8 +33,7 @@
       "07/23/2025": 11.19247,
       "08/20/2025": 11.16808,
       "09/17/2025": 11.17195,
-      "10/22/2025": 11.18377,
-      "11/19/2025": 11.17687
+      "10/22/2025": 11.18377
     }
   }
 }

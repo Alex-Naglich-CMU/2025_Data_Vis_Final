@@ -7,14 +7,13 @@
   "Ingredient_Name": "Allantoin Mgml",
   "Manufacturer_Name": "",
   "Strength": "5 MG/ML",
-  "Form": "Cream",
+  "Form": "Topical Cream",
   "prices": {
     "70211070304": {
       "07/23/2025": 0.17448,
       "08/20/2025": 0.17659,
       "09/17/2025": 0.17869,
-      "10/22/2025": 0.18144,
-      "11/19/2025": 0.18215
+      "10/22/2025": 0.18144
     }
   }
 }

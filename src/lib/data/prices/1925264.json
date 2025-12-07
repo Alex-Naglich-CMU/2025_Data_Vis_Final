@@ -7,7 +7,7 @@
   "Ingredient_Name": "Aripiprazole Lauroxil Mgml Prefilled",
   "Manufacturer_Name": "Aristada",
   "Strength": "3.9 ML",
-  "Form": "",
+  "Form": "Prefilled Syringe",
   "prices": {
     "65757040403": {
       "07/06/2018": 718.22444,
@@ -40,8 +40,7 @@
       "07/23/2025": 932.88138,
       "08/20/2025": 933.19454,
       "09/17/2025": 933.3059,
-      "10/22/2025": 933.14984,
-      "11/19/2025": 932.94216
+      "10/22/2025": 933.14984
     }
   }
 }

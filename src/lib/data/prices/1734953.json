@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Methylphenidate Hydrochloride Chewable Extended Release",
   "Manufacturer_Name": "QuilliChew",
   "Strength": "24 HR",
-  "Form": "",
+  "Form": "Extended Release Oral Tablet",
   "prices": {
     "24478007601": {
       "07/21/2021": 11.92723,
@@ -38,8 +38,7 @@
       "07/23/2025": 11.89981,
       "08/20/2025": 11.89518,
       "09/17/2025": 11.88672,
-      "10/22/2025": 11.88831,
-      "11/19/2025": 11.88626
+      "10/22/2025": 11.88831
     }
   }
 }

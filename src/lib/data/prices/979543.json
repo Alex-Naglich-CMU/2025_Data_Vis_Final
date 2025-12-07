@@ -7,7 +7,7 @@
   "Ingredient_Name": "Hr Phendimetrazine Tartrate Extended Release",
   "Manufacturer_Name": "",
   "Strength": "24 HR",
-  "Form": "Capsule",
+  "Form": "Extended Release Oral Capsule",
   "prices": {
     "00185525401": {
       "06/21/2017": 0.66115,
@@ -76,8 +76,7 @@
       "07/23/2025": 2.92893,
       "08/20/2025": 3.00919,
       "09/17/2025": 3.07589,
-      "10/22/2025": 3.12615,
-      "11/19/2025": 3.14116
+      "10/22/2025": 3.12615
     }
   }
 }
