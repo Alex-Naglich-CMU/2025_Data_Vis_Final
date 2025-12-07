@@ -7,9 +7,10 @@
 	import Headlines from '$lib/components/Headlines.svelte';
 	import InsulinComparison from '$lib/components/Insulin.svelte';
 	import AnimatedSeries from '$lib/components/AnimatedSeries.svelte';
-	import PricePerUnitComparison from '$lib/components/PricePerMgForm.svelte';
+	import PricePerMgForm from '$lib/components/PricePerMgForm.svelte';
 	import PricePerMgStrength from '$lib/components/PricePerMgStrength.svelte';
-	import PricePerCapsuleComparison from '$lib/components/PricePerCapsuleComparison.svelte';
+	import PricePerCapsuleForm from '$lib/components/PricePerCapsuleForm.svelte';
+	import PricePerCapsuleStrength from '$lib/components/PricePerCapsuleStrength.svelte';
 	import AnimatedSeriesPaginated from '$lib/components/AnimatedSeriesPaginated.svelte';
  	import AnimatedSeriesPaginated2 from '$lib/components/AnimatedSeriesPaginated2.svelte';
 
@@ -144,14 +145,18 @@
 <br />
 	<div class="width-tracker">
 		<div class="charts-container">
-			<PricePerUnitComparison bind:selectedDrugIndex={selectedDrugIndex} />
-			<PricePerMgStrength {selectedDrugIndex} />
+			<PricePerMgStrength bind:selectedDrugIndex={selectedDrugIndex} />
+			<PricePerCapsuleStrength {selectedDrugIndex}/>
 		</div>
 	</div>
 
 <br />
-
-<PricePerCapsuleComparison />
+<div class="width-tracker">
+		<div class="charts-container">
+			<PricePerMgForm {selectedDrugIndex} />
+			<PricePerCapsuleForm {selectedDrugIndex} />
+		</div>
+	</div>
 
 <style>
 	* {

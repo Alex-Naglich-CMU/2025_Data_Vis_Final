@@ -35,7 +35,7 @@ by calculating price per MG and displaying as sorted bar charts
 		selectedDrugIndex: number;
 	}
 
-	let { selectedDrugIndex = $bindable(8) }: Props = $props();
+    let { selectedDrugIndex = 8 }: Props = $props(); 
 
 	let loading = $state(true);
 	let error = $state<string | null>(null);
@@ -288,7 +288,9 @@ by calculating price per MG and displaying as sorted bar charts
 
 	// watch for drug selection changes
 	$effect(() => {
-		if (selectedDrugIndex !== undefined && Object.keys(searchIndex).length > 0) {
+		const currentIndex = selectedDrugIndex;
+
+		if (currentIndex !== undefined && Object.keys(searchIndex).length > 0) {
 			loadDrugData();
 		}
 	});
@@ -304,18 +306,7 @@ by calculating price per MG and displaying as sorted bar charts
 		<p>Error loading data: {error}</p>
 	</div>
 {:else}
-	<div class="mt-20">
-		<!-- drug selector -->
-		<div class="drug-selector">
-			<label for="drug-select">Select Drug:</label>
-			<select id="drug-select" bind:value={selectedDrugIndex} class="drug-dropdown">
-				{#each brandDrugs as drug, i}
-					<option value={i}>{drug.name}</option>
-				{/each}
-			</select>
-		</div>
-
-		
+	<div class="mt-20">		
 		<!-- form comparison chart -->
 		<div class="chart-wrapper">
 			<h4 class="chart-title">Price Per MG by Form</h4>

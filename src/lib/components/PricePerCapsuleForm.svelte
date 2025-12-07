@@ -29,7 +29,12 @@ by displaying absolute price per capsule (not divided by strength)
 		mostRecentPrice: number;
 	}
 
-	let selectedDrugIndex = $state(8); // default to vyvanse
+    interface Props {
+        selectedDrugIndex?: number;
+    }   
+
+    let { selectedDrugIndex = 8 }: Props = $props(); 
+
 	let loading = $state(true);
 	let error = $state<string | null>(null);
 	let searchIndex = $state<any>({});
@@ -273,7 +278,9 @@ by displaying absolute price per capsule (not divided by strength)
 
 	// watch for drug selection changes
 	$effect(() => {
-		if (selectedDrugIndex !== undefined && Object.keys(searchIndex).length > 0) {
+		const currentIndex = selectedDrugIndex;
+
+		if (currentIndex !== undefined && Object.keys(searchIndex).length > 0) {
 			loadDrugData();
 		}
 	});
@@ -290,141 +297,65 @@ by displaying absolute price per capsule (not divided by strength)
 	</div>
 {:else}
 	<div class="mt-20">
-		<!-- drug selector -->
-		<div class="drug-selector">
-			<label for="drug-select">Select Drug:</label>
-			<select id="drug-select" bind:value={selectedDrugIndex} class="drug-dropdown">
-				{#each brandDrugs as drug, i}
-					<option value={i}>{drug.name}</option>
-				{/each}
-			</select>
-		</div>
+        <div class="chart-wrapper">
+            <h4 class="chart-title">Price Per Capsule by Form</h4>
+            <svg width={chartWidth} height={chartHeight} role="img">
+                <g>
+                    {#each formBars as bar}
+                        {@const x = formScales.xScale(bar.label) ?? 0}
+                        {@const y = formScales.yScale(bar.value)}
+                        {@const barWidth = formScales.xScale.bandwidth()}
+                        {@const barHeight = chartHeight - margin.bottom - y}
+                        {@const isCheapest = cheapestForm && bar.label === cheapestForm.label}
 
-		<div class="width-tracker" bind:clientWidth={containerWidth}>
-			<div class="charts-container">
-				<!-- strength comparison chart -->
-				<div class="chart-wrapper">
-					<h4 class="chart-title">Price Per Capsule by Dosage Strength</h4>
-					<svg width={chartWidth} height={chartHeight} role="img">
-						<g>
-							{#each strengthBars as bar}
-								{@const x = strengthScales.xScale(bar.label) ?? 0}
-								{@const y = strengthScales.yScale(bar.value)}
-								{@const barWidth = strengthScales.xScale.bandwidth()}
-								{@const barHeight = chartHeight - margin.bottom - y}
-								{@const isCheapest = cheapestStrength && bar.label === cheapestStrength.label}
+                        <rect
+                            {x}
+                            {y}
+                            width={barWidth}
+                            height={barHeight}
+                            fill={isCheapest ? '#2D6A4F' : '#9a2f1f'}
+                            opacity={isCheapest ? 1 : 0.8}
+                        />
+                        <text
+                            x={x + barWidth / 2}
+                            y={y - 5}
+                            text-anchor="middle"
+                            class="bar-label"
+                            fill={isCheapest ? '#2D6A4F' : '#333'}
+                            font-weight={isCheapest ? 'bold' : 'normal'}
+                        >
+                            ${bar.value.toFixed(2)}
+                        </text>
+                    {/each}
+                </g>
 
-								<rect
-									{x}
-									{y}
-									width={barWidth}
-									height={barHeight}
-									fill={isCheapest ? '#2D6A4F' : '#9a2f1f'}
-									opacity={isCheapest ? 1 : 0.8}
-								/>
-								<text
-									x={x + barWidth / 2}
-									y={y - 5}
-									text-anchor="middle"
-									class="bar-label"
-									fill={isCheapest ? '#2D6A4F' : '#333'}
-									font-weight={isCheapest ? 'bold' : 'normal'}
-								>
-									${bar.value.toFixed(2)}
-								</text>
-							{/each}
-						</g>
+                <g
+                    class="x-axis"
+                    transform="translate(0,{chartHeight - margin.bottom})"
+                    bind:this={formXAxisRef}
+                ></g>
+                <g class="y-axis" transform="translate({margin.left},0)" bind:this={formYAxisRef}></g>
 
-						<g
-							class="x-axis"
-							transform="translate(0,{chartHeight - margin.bottom})"
-							bind:this={strengthXAxisRef}
-						></g>
-						<g class="y-axis" transform="translate({margin.left},0)" bind:this={strengthYAxisRef}
-						></g>
+                <!-- Y-axis label -->
+                <text
+                    transform="rotate(-90)"
+                    x={-(chartHeight / 2)}
+                    y={15}
+                    text-anchor="middle"
+                    class="axis-label"
+                >
+                    Price per Capsule
+                </text>
+            </svg>
 
-						<!-- Y-axis label -->
-						<text
-							transform="rotate(-90)"
-							x={-(chartHeight / 2)}
-							y={15}
-							text-anchor="middle"
-							class="axis-label"
-						>
-							Price per Capsule
-						</text>
-					</svg>
-
-					{#if cheapestStrength}
-						<div class="best-value">
-							Best Value: <strong>{cheapestStrength.label}</strong> at
-							<strong>${cheapestStrength.value.toFixed(2)}</strong>
-						</div>
-					{/if}
-				</div>
-
-				<!-- form comparison chart -->
-				<div class="chart-wrapper">
-					<h4 class="chart-title">Price Per Capsule by Form</h4>
-					<svg width={chartWidth} height={chartHeight} role="img">
-						<g>
-							{#each formBars as bar}
-								{@const x = formScales.xScale(bar.label) ?? 0}
-								{@const y = formScales.yScale(bar.value)}
-								{@const barWidth = formScales.xScale.bandwidth()}
-								{@const barHeight = chartHeight - margin.bottom - y}
-								{@const isCheapest = cheapestForm && bar.label === cheapestForm.label}
-
-								<rect
-									{x}
-									{y}
-									width={barWidth}
-									height={barHeight}
-									fill={isCheapest ? '#2D6A4F' : '#9a2f1f'}
-									opacity={isCheapest ? 1 : 0.8}
-								/>
-								<text
-									x={x + barWidth / 2}
-									y={y - 5}
-									text-anchor="middle"
-									class="bar-label"
-									fill={isCheapest ? '#2D6A4F' : '#333'}
-									font-weight={isCheapest ? 'bold' : 'normal'}
-								>
-									${bar.value.toFixed(2)}
-								</text>
-							{/each}
-						</g>
-
-						<g
-							class="x-axis"
-							transform="translate(0,{chartHeight - margin.bottom})"
-							bind:this={formXAxisRef}
-						></g>
-						<g class="y-axis" transform="translate({margin.left},0)" bind:this={formYAxisRef}></g>
-
-						<!-- Y-axis label -->
-						<text
-							transform="rotate(-90)"
-							x={-(chartHeight / 2)}
-							y={15}
-							text-anchor="middle"
-							class="axis-label"
-						>
-							Price per Capsule
-						</text>
-					</svg>
-
-					{#if cheapestForm}
-						<div class="best-value">
-							Best Value: <strong>{cheapestForm.label}</strong> at
-							<strong>${cheapestForm.value.toFixed(2)}</strong>
-						</div>
-					{/if}
-				</div>
-			</div>
-		</div>
-	</div>
+            {#if cheapestForm}
+                <div class="best-value">
+                    Best Value: <strong>{cheapestForm.label}</strong> at
+                    <strong>${cheapestForm.value.toFixed(2)}</strong>
+                </div>
+            {/if}
+        </div>
+    </div>
 {/if}
 
 <style>
