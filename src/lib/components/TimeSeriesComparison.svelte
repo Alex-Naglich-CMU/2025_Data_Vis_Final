@@ -36,7 +36,10 @@
 		'311041': 'insulin glargine', // generic - INSULIN GLARGINE 100 UNIT/ML VIAL
 
 		'213471': 'provigil', // brand - PROVIGIL 200 MG TABLET
-		'205324': 'modafinil' // generic - MODAFINIL 200 MG TABLET
+		'205324': 'modafinil', // generic - MODAFINIL 200 MG TABLET
+
+		'966158': "synthroid", // brand - SYNTHROID 25 MG TABLET
+		'966220': "levothyroxine sodium" //LEVOTHYROXINE SODIUM - MODAFINIL 25 MG TABLET
 	};
 
 	let drugsData = $state<DrugAllData[]>([]);
