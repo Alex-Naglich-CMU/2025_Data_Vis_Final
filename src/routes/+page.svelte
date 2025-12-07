@@ -1,3 +1,5 @@
+<!-- page.svelte file -->
+
 <script lang="ts">
 	import type { PageProps } from './$types';
 	import { asset } from '$app/paths';
@@ -13,9 +15,23 @@
 	import PricePerCapsuleStrength from '$lib/components/PricePerCapsuleStrength.svelte';
 	import AnimatedSeriesPaginated from '$lib/components/AnimatedSeriesPaginated.svelte';
  	import AnimatedSeriesPaginated2 from '$lib/components/AnimatedSeriesPaginated2.svelte';
+	import InflationComparison from '$lib/components/InflationComparison.svelte';
+	import AveragePriceFormCategories from '$lib/components/AveragePriceFormCategories.svelte';
 
 	let selectedDrugIndex = $state(8);
-	import InflationComparison from '$lib/components/InflationComparison.svelte';
+	
+	const brandDrugs = [
+		{ name: 'GLUCOPHAGE' },
+		{ name: 'LANTUS' },
+		{ name: 'LEXAPRO' },
+		{ name: 'LIPITOR' },
+		{ name: 'LYRICA' },
+		{ name: 'NORVASC' },
+		{ name: 'PROVIGIL' },
+		{ name: 'PROZAC' },
+		{ name: 'VYVANSE' },
+		{ name: 'ZOLOFT' }
+	];
 
 	onMount(() => {
 		isDarkMode.init();
@@ -87,7 +103,7 @@
 			href="https://www.ama-assn.org/about/leadership/unchecked-power-pbm-industry-puts-patients-risk-harm"
 			target="_blank"
 			rel="noopener noreferrer">American Medical Association</a
-		> noted that many patients complain about how they can’t afford their medications. When the patents
+		> noted that many patients complain about how they can't afford their medications. When the patents
 		expire and generic drugs join the market, those options are usually much more affordable, and are
 		often even cheaper than they are in other countries.
 	</p>
@@ -143,26 +159,35 @@
 	<h3> What is the cheapest option for a specific drug? </h3>
 </div>
 
-<br />
-	<div class="width-tracker">
-		<div class="charts-container">
-			<PricePerMgStrength bind:selectedDrugIndex={selectedDrugIndex} />
-			<PricePerCapsuleStrength {selectedDrugIndex}/>
-		</div>
-	</div>
+<!-- drug selector -->
+<div class="drug-selector">
+	<label for="drug-select">Select Drug:</label>
+	<select id="drug-select" bind:value={selectedDrugIndex} class="drug-dropdown">
+		{#each brandDrugs as drug, i}
+			<option value={i}>{drug.name}</option>
+		{/each}
+	</select>
+</div>
 
 <br />
 <div class="width-tracker">
-		<div class="charts-container">
-			<PricePerMgForm {selectedDrugIndex} />
-			<PricePerCapsuleForm {selectedDrugIndex} />
-		</div>
+	<div class="charts-container">
+		<PricePerMgStrength {selectedDrugIndex} />
+		<PricePerCapsuleStrength {selectedDrugIndex}/>
 	</div>
+</div>
 
-<PricePerCapsuleComparison />
-
+<br />
+<div class="width-tracker">
+	<div class="charts-container">
+		<PricePerMgForm {selectedDrugIndex} />
+		<PricePerCapsuleForm {selectedDrugIndex} />
+	</div>
+</div>
 
 <InflationComparison />
+
+<AveragePriceFormCategories />
 
 <style>
 	* {
@@ -275,5 +300,33 @@
 
 	.headers {
 		margin-left: 40px;
+	}
+
+	.drug-selector {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		margin: 2rem 40px;
+	}
+
+	.drug-selector label {
+		font-family: Antonio;
+		font-size: 1em;
+		font-weight: 600;
+	}
+
+	.drug-dropdown {
+		font-family: fustat;
+		font-size: 1em;
+		padding: 0.5rem 1rem;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		background-color: rgba(75, 75, 75, 0.1);
+		cursor: pointer;
+		min-width: 200px;
+	}
+
+	.drug-dropdown:focus {
+		outline: 2px solid #54707c;
 	}
 </style>

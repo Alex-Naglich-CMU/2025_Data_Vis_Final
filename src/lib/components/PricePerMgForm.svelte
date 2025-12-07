@@ -1,4 +1,4 @@
-<!-- price per unit comparison
+<!-- price per mg form file
 shows the most cost-effective dosage strength and form for a selected drug
 by calculating price per MG and displaying as sorted bar charts
 -->

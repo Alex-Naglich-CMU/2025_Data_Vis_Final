@@ -1,4 +1,4 @@
-<!-- price per capsule comparison
+<!-- price per capsule strength file
 shows the most cost-effective dosage strength and form for a selected drug
 by displaying absolute price per capsule (not divided by strength)
 -->

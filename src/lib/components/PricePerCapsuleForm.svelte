@@ -1,4 +1,4 @@
-<!-- price per capsule comparison
+<!-- price per capsule form file 
 shows the most cost-effective dosage strength and form for a selected drug
 by displaying absolute price per capsule (not divided by strength)
 -->
@@ -33,6 +33,7 @@ by displaying absolute price per capsule (not divided by strength)
         selectedDrugIndex?: number;
     }   
 
+	// take bindable line from other file, put this line in other file 
     let { selectedDrugIndex = 8 }: Props = $props(); 
 
 	let loading = $state(true);

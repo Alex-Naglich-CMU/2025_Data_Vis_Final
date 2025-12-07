@@ -1,4 +1,4 @@
-<!-- price per unit comparison
+<!-- price per mg strength file
 shows the most cost-effective dosage strength and form for a selected drug
 by calculating price per MG and displaying as sorted bar charts
 -->
@@ -31,11 +31,15 @@ by calculating price per MG and displaying as sorted bar charts
 		pricePerUnit: number;
 	}
 
+	// new interface for props
     interface Props {
         selectedDrugIndex?: number;
     }   
 
-	let { selectedDrugIndex = $bindable(8) }: Props = $props();
+	// where you make value bindable, set default to 8, then pass the props
+	//let { selectedDrugIndex = $bindable(8) }: Props = $props();
+	let { selectedDrugIndex = 8 }: Props = $props();
+
 
 	let loading = $state(true);
 	let error = $state<string | null>(null);
@@ -307,15 +311,6 @@ by calculating price per MG and displaying as sorted bar charts
 		<p>Error loading data: {error}</p>
 	</div>
 {:else}
-    <!-- drug selector -->
-	<div class="drug-selector">
-		<label for="drug-select">Select Drug:</label>
-		<select id="drug-select" bind:value={selectedDrugIndex} class="drug-dropdown">
-			{#each brandDrugs as drug, i}
-				<option value={i}>{drug.name}</option>
-			{/each}
-		</select>
-	</div>
 	<div class="mt-20">
         <!-- strength comparison chart -->
         <div class="chart-wrapper">
