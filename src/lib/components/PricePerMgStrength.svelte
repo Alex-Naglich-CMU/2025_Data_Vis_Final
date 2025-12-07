@@ -1,6 +1,6 @@
-<!-- price per capsule comparison
+<!-- price per unit comparison
 shows the most cost-effective dosage strength and form for a selected drug
-by displaying absolute price per capsule (not divided by strength)
+by calculating price per MG and displaying as sorted bar charts
 -->
 
 <script lang="ts">
@@ -24,12 +24,19 @@ by displaying absolute price per capsule (not divided by strength)
 	interface DrugVariation {
 		rxcui: string;
 		name: string;
-		strengthLabel: string;
+		strengthValue: number; // numeric value extracted from strength
+		strengthLabel: string; // display label (e.g 20 MG)
 		form: string;
 		mostRecentPrice: number;
+		pricePerUnit: number;
 	}
 
-	let selectedDrugIndex = $state(8); // default to vyvanse
+    interface Props {
+        selectedDrugIndex?: number;
+    }   
+
+	let { selectedDrugIndex = $bindable(8) }: Props = $props();
+
 	let loading = $state(true);
 	let error = $state<string | null>(null);
 	let searchIndex = $state<any>({});
@@ -75,33 +82,33 @@ by displaying absolute price per capsule (not divided by strength)
 					drugData.manufacturer_name.toLowerCase().includes(selectedDrug.manufacturer) &&
 					drugData.is_brand === true
 				) {
-					console.log('found variation:', rxcui, drugData.name);
-					
 					try {
 						const priceResponse = await import(`$lib/data/prices/${rxcui}.json`);
 						const priceData = priceResponse.default;
-						
-						console.log('price data structure:', Object.keys(priceData));
-						console.log('Strength field:', priceData.Strength);
-						console.log('Form field:', priceData.Form);
-						
-						// get strength and form directly from JSON
+
+						// extract strength value and label from Strength field
+						const strengthValue = extractStrengthValue(priceData.Strength);
 						const strengthLabel = priceData.Strength || '';
 						const form = priceData.Form || '';
 
-						if (strengthLabel && form && priceData.prices) {
+						// only include if we have valid data
+						if (strengthValue && strengthLabel && form) {
 							const mostRecentPrice = getMostRecentPrice(priceData.prices);
 
 							if (mostRecentPrice !== null) {
+								const pricePerUnit = mostRecentPrice / strengthValue;
+
 								variations.push({
 									rxcui,
 									name: drugData.name,
+									strengthValue,
 									strengthLabel,
 									form,
-									mostRecentPrice
+									mostRecentPrice,
+									pricePerUnit
 								});
 								
-								console.log(`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} per capsule`);
+								console.log(`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} = $${pricePerUnit.toFixed(3)}/MG`);
 							}
 						}
 					} catch (e) {
@@ -118,6 +125,13 @@ by displaying absolute price per capsule (not divided by strength)
 			loading = false;
 			console.error('error loading drug data:', err);
 		}
+	}
+
+	// extract numeric value from strength string (e.g., "20 MG" -> 20)
+	function extractStrengthValue(strengthStr: string): number {
+		if (!strengthStr) return 0;
+		const match = strengthStr.match(/(\d+\.?\d*)/);
+		return match ? parseFloat(match[1]) : 0;
 	}
 
 	// get most recent price from price data
@@ -155,30 +169,31 @@ by displaying absolute price per capsule (not divided by strength)
 		return null;
 	}
 
-	// group and calculate average price per capsule by strength
+	// group and calculate average price per mg by strength
 	const strengthBars = $derived.by(() => {
-		const strengthMap = new Map<string, { total: number; count: number }>();
+		const strengthMap = new Map<string, { total: number; count: number; strengthValue: number }>();
 
 		for (const variation of drugVariations) {
 			const key = variation.strengthLabel;
 			if (!strengthMap.has(key)) {
-				strengthMap.set(key, { total: 0, count: 0 });
+				strengthMap.set(key, { total: 0, count: 0, strengthValue: variation.strengthValue });
 			}
 			const entry = strengthMap.get(key)!;
-			entry.total += variation.mostRecentPrice;
+			entry.total += variation.pricePerUnit;
 			entry.count += 1;
 		}
 
 		const bars = Array.from(strengthMap.entries()).map(([label, data]) => ({
 			label,
-			value: data.total / data.count
+			value: data.total / data.count,
+			strengthValue: data.strengthValue
 		}));
 
-		// sort by price (highest to lowest)
-		return bars.sort((a, b) => b.value - a.value);
+		// sort by strengthValue (numeric) for proper ordering
+		return bars.sort((a, b) => a.strengthValue - b.strengthValue);
 	});
 
-	// group and calculate average price per capsule by form
+	// group and calculate average price per mg by form
 	const formBars = $derived.by(() => {
 		const formMap = new Map<string, { total: number; count: number }>();
 
@@ -188,7 +203,7 @@ by displaying absolute price per capsule (not divided by strength)
 				formMap.set(key, { total: 0, count: 0 });
 			}
 			const entry = formMap.get(key)!;
-			entry.total += variation.mostRecentPrice;
+			entry.total += variation.pricePerUnit;
 			entry.count += 1;
 		}
 
@@ -197,7 +212,7 @@ by displaying absolute price per capsule (not divided by strength)
 			value: data.total / data.count
 		}));
 
-		// sort by price (highest to lowest)
+		// sort by price (lowest to highest)
 		return bars.sort((a, b) => b.value - a.value);
 	});
 
@@ -273,10 +288,13 @@ by displaying absolute price per capsule (not divided by strength)
 
 	// watch for drug selection changes
 	$effect(() => {
-		if (selectedDrugIndex !== undefined && Object.keys(searchIndex).length > 0) {
+        const currentIndex = selectedDrugIndex;
+        
+        if (currentIndex !== undefined && Object.keys(searchIndex).length > 0) {
 			loadDrugData();
 		}
 	});
+
 </script>
 
 <!--- content area --->
@@ -289,142 +307,78 @@ by displaying absolute price per capsule (not divided by strength)
 		<p>Error loading data: {error}</p>
 	</div>
 {:else}
-	<div class="mt-20">
-		<!-- drug selector -->
-		<div class="drug-selector">
-			<label for="drug-select">Select Drug:</label>
-			<select id="drug-select" bind:value={selectedDrugIndex} class="drug-dropdown">
-				{#each brandDrugs as drug, i}
-					<option value={i}>{drug.name}</option>
-				{/each}
-			</select>
-		</div>
-
-		<div class="width-tracker" bind:clientWidth={containerWidth}>
-			<div class="charts-container">
-				<!-- strength comparison chart -->
-				<div class="chart-wrapper">
-					<h4 class="chart-title">Price Per Capsule by Dosage Strength</h4>
-					<svg width={chartWidth} height={chartHeight} role="img">
-						<g>
-							{#each strengthBars as bar}
-								{@const x = strengthScales.xScale(bar.label) ?? 0}
-								{@const y = strengthScales.yScale(bar.value)}
-								{@const barWidth = strengthScales.xScale.bandwidth()}
-								{@const barHeight = chartHeight - margin.bottom - y}
-								{@const isCheapest = cheapestStrength && bar.label === cheapestStrength.label}
-
-								<rect
-									{x}
-									{y}
-									width={barWidth}
-									height={barHeight}
-									fill={isCheapest ? '#2D6A4F' : '#9a2f1f'}
-									opacity={isCheapest ? 1 : 0.8}
-								/>
-								<text
-									x={x + barWidth / 2}
-									y={y - 5}
-									text-anchor="middle"
-									class="bar-label"
-									fill={isCheapest ? '#2D6A4F' : '#333'}
-									font-weight={isCheapest ? 'bold' : 'normal'}
-								>
-									${bar.value.toFixed(2)}
-								</text>
-							{/each}
-						</g>
-
-						<g
-							class="x-axis"
-							transform="translate(0,{chartHeight - margin.bottom})"
-							bind:this={strengthXAxisRef}
-						></g>
-						<g class="y-axis" transform="translate({margin.left},0)" bind:this={strengthYAxisRef}
-						></g>
-
-						<!-- Y-axis label -->
-						<text
-							transform="rotate(-90)"
-							x={-(chartHeight / 2)}
-							y={15}
-							text-anchor="middle"
-							class="axis-label"
-						>
-							Price per Capsule
-						</text>
-					</svg>
-
-					{#if cheapestStrength}
-						<div class="best-value">
-							Best Value: <strong>{cheapestStrength.label}</strong> at
-							<strong>${cheapestStrength.value.toFixed(2)}</strong>
-						</div>
-					{/if}
-				</div>
-
-				<!-- form comparison chart -->
-				<div class="chart-wrapper">
-					<h4 class="chart-title">Price Per Capsule by Form</h4>
-					<svg width={chartWidth} height={chartHeight} role="img">
-						<g>
-							{#each formBars as bar}
-								{@const x = formScales.xScale(bar.label) ?? 0}
-								{@const y = formScales.yScale(bar.value)}
-								{@const barWidth = formScales.xScale.bandwidth()}
-								{@const barHeight = chartHeight - margin.bottom - y}
-								{@const isCheapest = cheapestForm && bar.label === cheapestForm.label}
-
-								<rect
-									{x}
-									{y}
-									width={barWidth}
-									height={barHeight}
-									fill={isCheapest ? '#2D6A4F' : '#9a2f1f'}
-									opacity={isCheapest ? 1 : 0.8}
-								/>
-								<text
-									x={x + barWidth / 2}
-									y={y - 5}
-									text-anchor="middle"
-									class="bar-label"
-									fill={isCheapest ? '#2D6A4F' : '#333'}
-									font-weight={isCheapest ? 'bold' : 'normal'}
-								>
-									${bar.value.toFixed(2)}
-								</text>
-							{/each}
-						</g>
-
-						<g
-							class="x-axis"
-							transform="translate(0,{chartHeight - margin.bottom})"
-							bind:this={formXAxisRef}
-						></g>
-						<g class="y-axis" transform="translate({margin.left},0)" bind:this={formYAxisRef}></g>
-
-						<!-- Y-axis label -->
-						<text
-							transform="rotate(-90)"
-							x={-(chartHeight / 2)}
-							y={15}
-							text-anchor="middle"
-							class="axis-label"
-						>
-							Price per Capsule
-						</text>
-					</svg>
-
-					{#if cheapestForm}
-						<div class="best-value">
-							Best Value: <strong>{cheapestForm.label}</strong> at
-							<strong>${cheapestForm.value.toFixed(2)}</strong>
-						</div>
-					{/if}
-				</div>
-			</div>
-		</div>
+    <!-- drug selector -->
+	<div class="drug-selector">
+		<label for="drug-select">Select Drug:</label>
+		<select id="drug-select" bind:value={selectedDrugIndex} class="drug-dropdown">
+			{#each brandDrugs as drug, i}
+				<option value={i}>{drug.name}</option>
+			{/each}
+		</select>
 	</div>
+	<div class="mt-20">
+        <!-- strength comparison chart -->
+        <div class="chart-wrapper">
+            <h4 class="chart-title">Price Per MG by Dosage Strength</h4>
+            <svg width={chartWidth} height={chartHeight} role="img">
+                <g>
+                    {#each strengthBars as bar}
+                        {@const x = strengthScales.xScale(bar.label) ?? 0}
+                        {@const y = strengthScales.yScale(bar.value)}
+                        {@const barWidth = strengthScales.xScale.bandwidth()}
+                        {@const barHeight = chartHeight - margin.bottom - y}
+                        {@const isCheapest = cheapestStrength && bar.label === cheapestStrength.label}
+
+                        <rect
+                            {x}
+                            {y}
+                            width={barWidth}
+                            height={barHeight}
+                            fill={isCheapest ? '#2D6A4F' : '#9a2f1f'}
+                            opacity={isCheapest ? 1 : 0.8}
+                        />
+                        <text
+                            x={x + barWidth / 2}
+                            y={y - 5}
+                            text-anchor="middle"
+                            class="bar-label"
+                            fill={isCheapest ? '#2D6A4F' : '#333'}
+                            font-weight={isCheapest ? 'bold' : 'normal'}
+                        >
+                            ${bar.value.toFixed(3)}
+                        </text>
+                    {/each}
+                </g>
+
+                <g
+                    class="x-axis"
+                    transform="translate(0,{chartHeight - margin.bottom})"
+                    bind:this={strengthXAxisRef}
+                ></g>
+                <g class="y-axis" transform="translate({margin.left},0)" bind:this={strengthYAxisRef}
+                ></g>
+
+                <!-- Y-axis label -->
+                <text
+                    transform="rotate(-90)"
+                    x={-(chartHeight / 2)}
+                    y={15}
+                    text-anchor="middle"
+                    class="axis-label"
+                >
+                    Price per MG
+                </text>
+            </svg>
+
+            {#if cheapestStrength}
+                <div class="best-value">
+                    Best Value: <strong>{cheapestStrength.label}</strong> at
+                    <strong>${cheapestStrength.value.toFixed(3)}/MG</strong>
+                </div>
+            {/if}
+        </div>
+    </div>
+
 {/if}
 
 <style>
@@ -440,7 +394,7 @@ by displaying absolute price per capsule (not divided by strength)
 	}
 
 	.error {
-		color: #9a2f1f;
+		color: 9a2f1f;
 	}
 
 	h3 {
@@ -542,4 +496,5 @@ by displaying absolute price per capsule (not divided by strength)
 	:global(.y-axis text) {
 		font-family: Antonio;
 	}
+
 </style>

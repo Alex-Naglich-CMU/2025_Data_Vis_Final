@@ -7,10 +7,14 @@
 	import Headlines from '$lib/components/Headlines.svelte';
 	import InsulinComparison from '$lib/components/Insulin.svelte';
 	import AnimatedSeries from '$lib/components/AnimatedSeries.svelte';
-	import PricePerUnitComparison from '$lib/components/PricePerUnitComparison.svelte';
-	import PricePerCapsuleComparison from '$lib/components/PricePerCapsuleComparison.svelte';
+	import PricePerMgForm from '$lib/components/PricePerMgForm.svelte';
+	import PricePerMgStrength from '$lib/components/PricePerMgStrength.svelte';
+	import PricePerCapsuleForm from '$lib/components/PricePerCapsuleForm.svelte';
+	import PricePerCapsuleStrength from '$lib/components/PricePerCapsuleStrength.svelte';
 	import AnimatedSeriesPaginated from '$lib/components/AnimatedSeriesPaginated.svelte';
  	import AnimatedSeriesPaginated2 from '$lib/components/AnimatedSeriesPaginated2.svelte';
+
+	let selectedDrugIndex = $state(8);
 	import InflationComparison from '$lib/components/InflationComparison.svelte';
 
 	onMount(() => {
@@ -140,10 +144,20 @@
 </div>
 
 <br />
-
-<PricePerUnitComparison />
+	<div class="width-tracker">
+		<div class="charts-container">
+			<PricePerMgStrength bind:selectedDrugIndex={selectedDrugIndex} />
+			<PricePerCapsuleStrength {selectedDrugIndex}/>
+		</div>
+	</div>
 
 <br />
+<div class="width-tracker">
+		<div class="charts-container">
+			<PricePerMgForm {selectedDrugIndex} />
+			<PricePerCapsuleForm {selectedDrugIndex} />
+		</div>
+	</div>
 
 <PricePerCapsuleComparison />
 

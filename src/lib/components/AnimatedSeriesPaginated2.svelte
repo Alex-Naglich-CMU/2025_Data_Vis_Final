@@ -109,7 +109,16 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 			for (const [dateStr, price] of Object.entries(drug.prices[ndc])) {
 				const date = parseDate(dateStr);
 				if (date) {
-					points.push({ date, price });
+					// Adjust price based on form type
+					let singleDosePrice = price;
+					// if (drug.form !== "Oral Capsule" && 
+					// 	drug.form !== "Oral Tablet" && 
+					// 	drug.form !== "Delayed/Extended Release Oral Tablet" && 
+					// 	drug.form !== "Delayed/Extended Release Oral Capsule") {
+						singleDosePrice = price / 30;
+					// }
+				
+					points.push({ date, price: singleDosePrice });
 				}
 			}
 		}
@@ -236,15 +245,18 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 				const date = parseDate(dateStr);
 				if (date && (mostRecentDate === null || date > mostRecentDate)) {
 					mostRecentDate = date;
-					mostRecentPrice = price;
+					// if (drug.form !== "Oral Capsule" && drug.form !== "Oral Tablet" && drug.form !== "Delayed/Extended Release Oral Tablet" && drug.form !== "Delayed/Extended Release Oral Capsule") {
+					// 	mostRecentPrice = price/30;
+					// } else {
+					mostRecentPrice = price/30;		
+					// }	
 				}
 			}
 		}
-
 		return mostRecentPrice;
 	}
 
-	// filter drugs by selected form categories
+	// filter drugs by selected categories
 	const filteredDrugs = $derived(
 		drugsData.filter((drug, i) => {
 			// if no categories selected, show all drugs
@@ -570,7 +582,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 					<div class="drug-selection-section">
 						<div class="mb-2 flex items-center justify-between">
 							<label for="drug-list">Select Drugs:</label>
-							<span class="text-sm text-gray-500">* For a 30 day supply</span>
+							<span class="text-sm text-gray-500">* For a single dose</span>
 						</div>
 						<ul class="drug-list" role="listbox">
 							{#each brandDrugs as { drug, i, price }}
