@@ -8,6 +8,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 	import * as d3 from 'd3';
 	import { isDarkMode } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
+	import { categorizeDosageForm } from '$lib/scripts/formCategorizer';
 
 	// pagination settings
 	const DRUGS_PER_PAGE = 250;
@@ -24,7 +25,8 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 	interface DrugData {
 		rxcui: string;
 		friendlyName: string;
-		form: string; // dosage form
+		form: string; // detailed dosage form
+		formCategory: string; // broad category bucket
 		prices: Record<string, Record<string, number>>;
 	}
 
@@ -35,8 +37,8 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 	
 	let drugsData = $state<DrugData[]>([]);
 	let selectedDrugIndices = $state<Set<number>>(new Set());
-	let selectedForms = $state<Set<string>>(new Set());
-	let availableForms = $state<string[]>([]);
+	let selectedFormCategories = $state<Set<string>>(new Set());
+	let availableFormCategories = $state<string[]>([]);
 
 	let tooltipData = $state<{ date: Date; prices: Map<string, number> } | null>(null);
 	let cursorX = $state(0);
@@ -164,7 +166,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 
 			// load drug data for current page
 			const loadedDrugs: DrugData[] = [];
-			const formsSet = new Set<string>();
+			const categoriesSet = new Set<string>();
 			
 			for (const drug of currentPageDrugs) {
 				try {
@@ -177,18 +179,26 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 						continue;
 					}
 
-					// get form from JSON
+					// get form from JSON and categorize it
 					const form = priceData.Form || 'Unknown';
-					if (form && form !== 'Unknown') {
-						formsSet.add(form);
+					const formCategory = categorizeDosageForm(form);
+					
+					if (formCategory && formCategory !== 'Other') {
+						categoriesSet.add(formCategory);
 					}
 
 					loadedDrugs.push({
 						rxcui: drug.rxcui,
 						friendlyName: drug.name,
 						form: form,
+						formCategory: formCategory,
 						prices: priceData.prices
 					});
+					
+					// log first few for debugging
+					if (loadedDrugs.length <= 5) {
+						console.log(`${drug.name}: "${form}" → "${formCategory}"`);
+					}
 				} catch (e) {
 					// skip drugs without price data
 				}
@@ -196,13 +206,14 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 
 			drugsData = loadedDrugs;
 			
-			// update available forms (sorted alphabetically)
-			availableForms = Array.from(formsSet).sort();
-			console.log('loaded', loadedDrugs.length, 'drugs with', availableForms.length, 'unique forms');
+			// update available categories (sorted alphabetically)
+			availableFormCategories = Array.from(categoriesSet).sort();
+			console.log('loaded', loadedDrugs.length, 'drugs with', availableFormCategories.length, 'unique form categories');
+			console.log('categories:', availableFormCategories);
 
 			// reset selections when changing pages
 			selectedDrugIndices = new Set<number>();
-			selectedForms = new Set<string>();
+			selectedFormCategories = new Set<string>();
 
 			loadingPage = false;
 		} catch (err) {
@@ -244,13 +255,13 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		return mostRecentPrice;
 	}
 
-	// filter drugs by selected forms
+	// filter drugs by selected form categories
 	const filteredDrugs = $derived(
 		drugsData.filter((drug, i) => {
-			// if no forms selected, show all drugs
-			if (selectedForms.size === 0) return true;
-			// otherwise, only show drugs matching selected forms
-			return selectedForms.has(drug.form);
+			// if no categories selected, show all drugs
+			if (selectedFormCategories.size === 0) return true;
+			// otherwise, only show drugs matching selected categories
+			return selectedFormCategories.has(drug.formCategory);
 		})
 	);
 
@@ -418,21 +429,21 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		selectedDrugIndices = newSet;
 	}
 
-	function toggleFormSelection(form: string) {
-		const newSet = new Set(selectedForms);
-		if (newSet.has(form)) {
-			newSet.delete(form);
+	function toggleFormCategorySelection(category: string) {
+		const newSet = new Set(selectedFormCategories);
+		if (newSet.has(category)) {
+			newSet.delete(category);
 		} else {
-			newSet.add(form);
+			newSet.add(category);
 		}
-		selectedForms = newSet;
+		selectedFormCategories = newSet;
 	}
 
-	// count how many drugs match each form
-	const formCounts = $derived.by(() => {
+	// count how many drugs match each category
+	const categoryCounts = $derived.by(() => {
 		const counts = new Map<string, number>();
 		for (const drug of drugsData) {
-			counts.set(drug.form, (counts.get(drug.form) || 0) + 1);
+			counts.set(drug.formCategory, (counts.get(drug.formCategory) || 0) + 1);
 		}
 		return counts;
 	});
@@ -590,28 +601,28 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 					<!-- form filter section -->
 					<div class="form-filter-section">
 						<div class="mb-2">
-							<label>Filter by Dosage Form:</label>
+							<label>Filter by Dosage Form Category:</label>
 							<div class="text-sm text-gray-500">
-								{selectedForms.size > 0 
+								{selectedFormCategories.size > 0 
 									? `${filteredDrugs.length} of ${drugsData.length} drugs` 
 									: 'All forms'}
 							</div>
 						</div>
 						<ul class="form-list">
-							{#each availableForms as form}
-								{@const isSelected = selectedForms.has(form)}
-								{@const count = formCounts.get(form) || 0}
+							{#each availableFormCategories as category}
+								{@const isSelected = selectedFormCategories.has(category)}
+								{@const count = categoryCounts.get(category) || 0}
 								<li
 									class="form-list-item"
 									class:selected={isSelected}
 									class:unselected={!isSelected}
-									onclick={() => toggleFormSelection(form)}
+									onclick={() => toggleFormCategorySelection(category)}
 									role="option"
 									aria-selected={isSelected}
 									tabindex="0"
 								>
 									<span class="checkmark">{isSelected ? '✓' : ''}</span>
-									<span class="form-name">{form}</span>
+									<span class="form-name">{category}</span>
 									<span class="form-count">({count})</span>
 								</li>
 							{/each}
