@@ -24,42 +24,42 @@ export const inflationCalc = async (rxcui: string) => {
 				newPrice: 0,
 				oldYear: 2018,
 				newYear: 2025,
-				// Actual change
+				// actual change
 				actualDollarChange: 0,
 				actualPercentChange: 0,
-				// Inflation-adjusted
+				// inflation-adjusted
 				inflationAdjustedPrice: 0,
 				inflationPercentChange: 0,
-				// Difference: actual vs inflation
+				// difference: actual vs inflation
 				differenceVsInflationDollars: 0,
 				differenceVsInflationPercent: 0
 			};
 		}
 
-        // Original price points and dates
+        // original price points and dates
 		const oldPrice = drugData.prices[0].price;
 		const newPrice = drugData.prices[drugData.prices.length - 1].price;
 		const oldYear = new Date(drugData.prices[0].date).getFullYear();
 		const newYear = new Date(drugData.prices[drugData.prices.length - 1].date).getFullYear();
 
-		// How much time has passed
+		// ow much time has passed
 		const startDate = new Date(drugData.prices[0].date);
 		const endDate = new Date(drugData.prices[drugData.prices.length - 1].date);
 		const years = (endDate.getTime() - startDate.getTime()) / (365.25 * 24 * 60 * 60 * 1000);
 
-		// What the price SHOULD be
+		// what the price SHOULD be
 		const inflationRate = 0.03;
 		const inflationAdjustedPrice = oldPrice * Math.pow(1 + inflationRate, years);
 
-		// Actual price change
+		// actual price change
 		const actualDollarChange = newPrice - oldPrice;
 		const actualPercentChange = oldPrice > 0 ? ((newPrice - oldPrice) / oldPrice) * 100 : 0;
 
-		// Inflation predicted price change
+		// inflation predicted price change
 		const inflationPercentChange =
 			oldPrice > 0 ? ((inflationAdjustedPrice - oldPrice) / oldPrice) * 100 : 0;
 
-		// Difference between actual final price inflation final price
+		// difference between actual final price inflation final price
 		const differenceVsInflationDollars = newPrice - inflationAdjustedPrice;
 		const differenceVsInflationPercent =
 			inflationAdjustedPrice > 0
@@ -67,16 +67,16 @@ export const inflationCalc = async (rxcui: string) => {
 				: 0;
 
 		return {
-			oldPrice: Math.round(oldPrice * 100) / 100, // Round to 2 decimal places, cents
-			newPrice: Math.round(newPrice * 100) / 100, // Round to 2 decimal places, cents
+			oldPrice: Math.round(oldPrice * 100) / 100, // round to 2 decimal places, cents
+			newPrice: Math.round(newPrice * 100) / 100, // round to 2 decimal places, cents
 			oldYear,
 			newYear,
-			actualDollarChange: Math.round(actualDollarChange * 100) / 100, // Round to 2 decimal places, cents
-			actualPercentChange: Math.round(actualPercentChange * 10) / 10, // Round to 1 decimal place, tenths of a percent
-			inflationAdjustedPrice: Math.round(inflationAdjustedPrice * 100) / 100, // Round to 2 decimal places, cents
-			inflationPercentChange: Math.round(inflationPercentChange * 10) / 10, // Round to 1 decimal place, tenths of a percent
-			differenceVsInflationDollars: Math.round(differenceVsInflationDollars * 100) / 100, // Round to 2 decimal places, cents
-			differenceVsInflationPercent: Math.round(differenceVsInflationPercent * 10) / 10 // Round to 1 decimal place, tenths of a percent
+			actualDollarChange: Math.round(actualDollarChange * 100) / 100, // round to 2 decimal places, cents
+			actualPercentChange: Math.round(actualPercentChange * 10) / 10, // round to 1 decimal place, tenths of a percent
+			inflationAdjustedPrice: Math.round(inflationAdjustedPrice * 100) / 100, // round to 2 decimal places, cents
+			inflationPercentChange: Math.round(inflationPercentChange * 10) / 10, // round to 1 decimal place, tenths of a percent
+			differenceVsInflationDollars: Math.round(differenceVsInflationDollars * 100) / 100, // round to 2 decimal places, cents
+			differenceVsInflationPercent: Math.round(differenceVsInflationPercent * 10) / 10 // round to 1 decimal place, tenths of a percent
 		};
 	} catch (err) {
 		console.error('Error loading data:', err);

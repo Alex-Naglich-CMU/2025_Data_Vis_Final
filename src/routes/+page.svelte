@@ -11,7 +11,7 @@
 	import PricePerCapsuleComparison from '$lib/components/PricePerCapsuleComparison.svelte';
 	import AnimatedSeriesPaginated from '$lib/components/AnimatedSeriesPaginated.svelte';
  	import AnimatedSeriesPaginated2 from '$lib/components/AnimatedSeriesPaginated2.svelte';
-
+	import InflationComparison from '$lib/components/InflationComparison.svelte';
 
 	onMount(() => {
 		isDarkMode.init();
@@ -146,6 +146,9 @@
 <br />
 
 <PricePerCapsuleComparison />
+
+
+<InflationComparison />
 
 <style>
 	* {
