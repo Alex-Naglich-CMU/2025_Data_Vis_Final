@@ -17,6 +17,8 @@
  	import AnimatedSeriesPaginated2 from '$lib/components/AnimatedSeriesPaginated2.svelte';
 	import InflationComparison from '$lib/components/InflationComparison.svelte';
 	import AveragePriceFormCategories from '$lib/components/AveragePriceFormCategories.svelte';
+	import AnimatedIntroChart from '$lib/components/AnimatedIntroChart.svelte';
+	import DropChart from '$lib/components/DropChart.svelte';
 
 	let selectedDrugIndex = $state(8);
 	
@@ -237,6 +239,12 @@
 	<InflationComparison />
 </div>
 <br />
+
+<AnimatedIntroChart />
+
+<br />
+
+<DropChart />
 
 <style>
 	* {
