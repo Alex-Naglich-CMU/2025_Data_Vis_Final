@@ -21,8 +21,8 @@
 	// layout constants
 	let containerWidth = $state(0);
 	const chartWidth = $derived(containerWidth || 900);
-	const chartHeight = $derived(chartWidth * 0.6);
-	const margin = { top: 40, right: 40, bottom: 100, left: 80 };
+	const chartHeight = $derived(chartWidth * 0.65);
+	const margin = { top: 8, right: 10, bottom: 60, left: 60 };
 
 	onMount(async () => {
 		try {
@@ -207,7 +207,7 @@
 							{y}
 							width={barWidth}
 							height={barHeight}
-							fill="#54707c"
+							fill="#355B75"
 							opacity="0.9"
 						/>
 						<text
@@ -231,12 +231,12 @@
 				<!-- Y-axis label -->
 				<text
 					transform="rotate(-90)"
-					x={-(chartHeight / 2)}
+					x={-(chartHeight / 2) + 30}
 					y={15}
 					text-anchor="middle"
 					class="axis-label"
 				>
-					Average Daily Price
+					Average Price Per Dose
 				</text>
 
 				<!-- X-axis label -->
@@ -264,24 +264,20 @@
 		color: #9a2f1f;
 	}
 
-	.chart-container {
-		margin: 20px 40px;
-	}
-
 	h3 {
 		font-size: 1.75em;
 		font-weight: bold;
 		margin-bottom: 2rem;
 		text-align: center;
 	}
-
+/* 
 	.width-tracker {
 		border: 1px solid #ccc;
 		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 		padding: 2rem;
 		user-select: none;
 		-webkit-user-select: none;
-	}
+	} */
 
 	svg {
 		display: block;
@@ -291,13 +287,13 @@
 		font-family: fustat;
 		font-size: 0.85em;
 		font-weight: 600;
-		fill: #333;
+		fill: #355B75;
 	}
 
 	.axis-label {
 		font-family: fustat;
-		font-size: 1em;
-		font-weight: 600;
+		font-size: .9em;
+		font-weight: 400;
 	}
 
 	:global(.x-axis text) {

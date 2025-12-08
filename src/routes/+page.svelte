@@ -83,31 +83,80 @@
 		<div class="news-holder">
 			<Headlines />
 		</div>
-
 		<br />
+		<h2>What is driving drug prices?</h2>
+		<br />
+		<p>
+			Looking for trends in what contributes to higher drug prices is complicated. Prescription drugs cover a wide spectrum so they are not always easy to compare. Some medications only require a short course and some require lifelong use. Some need to be taken every day and others monthly or only as-needed. Prescriptions also span types ranging anywhere from oral tablets to topical foams. 
+		</p>
+		<br />
+		<p>
+			These are some of the most common drugs used by patients in the US. 
+		</p>
+		<div class='drug-select-container'>
+			<h4>Pick one to learn more about its price. </h4>
+			<br />
 		<!-- drug selector -->
-		<div class="drug-selector">
-			<label for="drug-select">Select Drug:</label>
-			<select id="drug-select" bind:value={selectedDrugIndex} class="drug-dropdown">
-				{#each brandDrugs as drug, i}
-					<option value={i}>{drug.name}</option>
-				{/each}
-			</select>
-		</div>
-		<div class="width-tracker">
-			<div class="charts-container">
-				<PricePerMgStrength {selectedDrugIndex} />
-				<PricePerCapsuleStrength {selectedDrugIndex}/>
+			<div class="drug-selector">
+				<div class="drug-radios">
+					{#each brandDrugs as drug, i}
+						<label class="radio-label">
+							<input
+								type="radio"
+								name="drug-selection"
+								value={i}
+								bind:group={selectedDrugIndex}
+								class="radio-input"
+							/>
+							<span class="radio-text">{drug.name}</span>
+						</label>
+					{/each}
+				</div>
 			</div>
 		</div>
+		<div class="cause-section-container">
+			<h3>Does dosage affect cost?</h3>
+			<br /> 
+			<p>
+				Even though the amount patients pay per MG may decrease as dosage increases, the price of each pill remains relatively constant independent of dosage. When a certain dosage is unusually high, it is usually due to market exclusivity rather than the drug's formulation. 
+			</p>
+			<div class="width-tracker mid-chart">
+				<div class="charts-container">
+					<PricePerMgStrength {selectedDrugIndex} />
+					<PricePerCapsuleStrength {selectedDrugIndex}/>
+				</div>
+			</div>
+		</div>
+		
 
 		<br />
-		<div class="width-tracker">
-			<div class="charts-container">
-				<PricePerMgForm {selectedDrugIndex} />
-				<PricePerCapsuleForm {selectedDrugIndex} />
+		<div class="cause-section-container">
+			<h3>What about the delivery form?</h3>
+			<br /> 
+			<p>
+				For oral medications, the differences between price in delivery method are also relatively minor for different versions of the same drug. Forms that do affect cost generally have specialized or patented technologies.
+			</p>
+			<!-- add a couple sentences if the person's selected drug doesn't have a second form and have it default to a different drug -->
+			<div class="width-tracker mid-chart">
+				<div class="charts-container">
+					<PricePerMgForm {selectedDrugIndex} />
+					<PricePerCapsuleForm {selectedDrugIndex} />
+				</div>
+			</div>
+			<br /> 
+			<p>
+				Forms between different medications play a much larger role in predicting the cost. By far the most expensive form of drug delivery is injections, such as for insulin or epinepherine. Injections are followed by inhalation, such as for asthma medication, and then delayed or extended release capsules. Again, exclusive or proprietary technology plays a role. 
+			</p>
+			<div class="mid-chart">
+				<AveragePriceFormCategories />
 			</div>
 		</div>
+		
+		<div class="cause-section-container">
+			<h3>Do these numbers </h3>
+		</div>
+
+
 
 		<div class="insulin-graphic-intro">
 			<h3>How high are they really?</h3>
@@ -188,7 +237,6 @@
 	<InflationComparison />
 </div>
 <br />
-<AveragePriceFormCategories />
 
 <style>
 	* {
@@ -214,7 +262,6 @@
 		font-family: fustat;
 		font-size: 1.3em;
 		font-weight: 700;
-		text-transform: uppercase;
 	}
 	
 	h5 {
@@ -232,7 +279,6 @@
 
 	p a {
 		font-family: fustat;
-		font-size: 1.1em;
 		font-weight: normal;
 		color: inherit;
 		text-decoration: underline;
@@ -307,11 +353,16 @@
 		max-width: 850px;
 	}
 
+	.drug-select-container {
+		display: flex;
+		flex-direction: column;
+		margin: 5em 0;
+	}
+
 	.drug-selector {
 		display: flex;
 		align-items: center;
-		gap: 1rem;
-		margin: 2rem 40px;
+		margin: 0 0 2em 0;
 	}
 
 	.drug-selector label {
@@ -323,7 +374,7 @@
 	.drug-dropdown {
 		font-family: fustat;
 		font-size: 1em;
-		padding: 0.5rem 1rem;
+		padding: 0.2rem 1rem;
 		border: 1px solid #ccc;
 		border-radius: 4px;
 		background-color: rgba(75, 75, 75, 0.1);
@@ -334,4 +385,94 @@
 	.drug-dropdown:focus {
 		outline: 2px solid #54707c;
 	}
+
+	.charts-container {
+		display: flex;
+		justify-content: space-between;
+		/* border: 1px solid #ccc;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+		user-select: none;
+		-webkit-user-select: none;
+	}
+
+	.drug-selector {
+		margin-bottom: 2rem;
+		border: 1px solid #ccc;
+	}
+
+	.drug-radios {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.8em 8em;
+		max-width: 850px;
+		margin: 0 auto;
+		padding: 3.5em 0;
+		
+	}
+
+	.radio-label {
+		display: flex;
+		align-items: center;
+		padding: 0.1rem .1rem;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+
+	.radio-label:hover .radio-text {
+		font-weight: 800;
+	}
+
+	.radio-label:has(.radio-input:checked) .radio-text {
+		font-weight: 800;
+	}
+
+	.radio-input {
+		margin-right: 0.6rem;
+		appearance: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		border: 2px solid #ccc;
+		border-radius: 50%;
+		position: relative;
+		outline: none;
+		background-color: white;
+		box-shadow: none;
+	}
+
+	.radio-input:focus-visible {
+		outline: none;
+		box-shadow: none;
+	}
+
+	.radio-input:checked {
+		border-color: #C9381A;
+		outline: none;
+
+	}
+	.radio-input:checked::before {
+		content: '';
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background-color: #C9381A;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.radio-text {
+		font-family: fustat;
+		font-size: 1em;
+	}
+
+	.cause-section-container {
+		margin-bottom: 10em;
+	}
+
+	.mid-chart {
+		margin-bottom: 6em;
+		margin-top: 6em;
+	}
+
 </style>

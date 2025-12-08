@@ -42,9 +42,12 @@ by displaying absolute price per capsule (not divided by strength)
 
 	// layout constants for the charts
 	let containerWidth = $state(0);
-	const chartWidth = $derived((containerWidth * 0.48) || 500);
+	const chartWidth = $derived((containerWidth * 0.48) || 410);
 	const chartHeight = $derived(chartWidth * 0.8);
-	const margin = { top: 40, right: 40, bottom: 80, left: 80 };
+	const margin = { top: 10, right: 8, bottom: 30, left: 40 };
+
+	const colors = { red: '#C9381A', blue: '#3A7CA5', green: '#2D6A4F' };
+
 
 	// data loading on mount
 	onMount(async () => {
@@ -136,7 +139,7 @@ by displaying absolute price per capsule (not divided by strength)
 				const date = parseDate(dateStr);
 				if (date && (mostRecentDate === null || date > mostRecentDate)) {
 					mostRecentDate = date;
-					mostRecentPrice = price as number;
+					mostRecentPrice = (price as number) / 30;;
 				}
 			}
 		}
@@ -180,9 +183,8 @@ by displaying absolute price per capsule (not divided by strength)
 
 		const bars = Array.from(strengthMap.entries()).map(([label, data]) => ({
 			label,
-			value: data.total / data.count,
+			value: Math.round((data.total / data.count) * 100) / 100,
 			dosage: data.dosage
-
 		}));
 
 		// sort by price (highest to lowest)
@@ -271,7 +273,7 @@ by displaying absolute price per capsule (not divided by strength)
 		}
 		if (strengthYAxisRef && strengthBars.length > 0) {
 			d3.select(strengthYAxisRef).call(
-				d3.axisLeft(strengthScales.yScale).tickFormat((d) => `$${d}`)
+				d3.axisLeft(strengthScales.yScale).tickFormat((d) => `$${Number(d).toFixed(2)}`)
 			);
 		}
 		if (formXAxisRef && formBars.length > 0) {
@@ -302,9 +304,9 @@ by displaying absolute price per capsule (not divided by strength)
 		<p>Error loading data: {error}</p>
 	</div>
 {:else}
-	<div class="mt-20">
+	<div>
 		<div class="chart-wrapper">
-			<h4 class="chart-title">Price Per Capsule by Dosage Strength</h4>
+			<h6 class="chart-title">Price Per Dose</h6>
 			<svg width={chartWidth} height={chartHeight} role="img">
 				<g>
 					{#each strengthBars as bar}
@@ -319,7 +321,7 @@ by displaying absolute price per capsule (not divided by strength)
 							{y}
 							width={barWidth}
 							height={barHeight}
-							fill={isCheapest ? '#2D6A4F' : '#9a2f1f'}
+							fill={isCheapest ? '#355B75' : '#9a2f1f'}
 							opacity={isCheapest ? 1 : 0.8}
 						/>
 						<text
@@ -327,7 +329,7 @@ by displaying absolute price per capsule (not divided by strength)
 							y={y - 5}
 							text-anchor="middle"
 							class="bar-label"
-							fill={isCheapest ? '#2D6A4F' : '#333'}
+							fill={isCheapest ? '#355B75' : '#333'}
 							font-weight={isCheapest ? 'bold' : 'normal'}
 						>
 							${bar.value.toFixed(2)}
@@ -344,7 +346,7 @@ by displaying absolute price per capsule (not divided by strength)
 				></g>
 
 				<!-- Y-axis label -->
-				<text
+				<!-- <text
 					transform="rotate(-90)"
 					x={-(chartHeight / 2)}
 					y={15}
@@ -352,15 +354,15 @@ by displaying absolute price per capsule (not divided by strength)
 					class="axis-label"
 				>
 					Price per Capsule
-				</text>
+				</text> -->
 			</svg>
 
-			{#if cheapestStrength}
+			<!-- {#if cheapestStrength}
 				<div class="best-value">
 					Best Value: <strong>{cheapestStrength.label}</strong> at
 					<strong>${cheapestStrength.value.toFixed(2)}</strong>
 				</div>
-			{/if}
+			{/if} -->
 		</div>
 	</div>
 {/if}
@@ -394,6 +396,13 @@ by displaying absolute price per capsule (not divided by strength)
 		text-transform: uppercase;
 	}
 
+	h6 {
+		font-family: fustat;
+		font-size: 1em;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
 	.drug-selector {
 		display: flex;
 		align-items: center;
@@ -423,20 +432,6 @@ by displaying absolute price per capsule (not divided by strength)
 		outline: 2px solid #54707c;
 	}
 
-	.width-tracker {
-		margin: 20px 40px;
-	}
-
-	.charts-container {
-		display: flex;
-		gap: 2rem;
-		justify-content: space-between;
-		border: 1px solid #ccc;
-		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-		padding: 2rem;
-		user-select: none;
-		-webkit-user-select: none;
-	}
 
 	.chart-wrapper {
 		flex: 1;
@@ -461,8 +456,8 @@ by displaying absolute price per capsule (not divided by strength)
 
 	.axis-label {
 		font-family: fustat;
-		font-size: 1em;
-		font-weight: 600;
+		font-size: .9em;
+		font-weight: 500;
 	}
 
 	.best-value {
@@ -473,7 +468,7 @@ by displaying absolute price per capsule (not divided by strength)
 	}
 
 	.best-value strong {
-		color: #2D6A4F;
+		color: #355B75;
 	}
 
 	/* y-axis font */

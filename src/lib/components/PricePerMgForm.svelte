@@ -44,9 +44,9 @@ by calculating price per MG and displaying as sorted bar charts
 
 	// layout constants for the charts
 	let containerWidth = $state(0);
-	const chartWidth = $derived((containerWidth * 0.48) || 500);
+	const chartWidth = $derived((containerWidth * 0.48) || 410);
 	const chartHeight = $derived(chartWidth * 0.8);
-	const margin = { top: 40, right: 40, bottom: 80, left: 80 };
+	const margin = { top: 10, right: 8, bottom: 30, left: 40 };
 
 	// data loading on mount
 	onMount(async () => {
@@ -108,7 +108,7 @@ by calculating price per MG and displaying as sorted bar charts
 									pricePerUnit
 								});
 								
-								console.log(`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} = $${pricePerUnit.toFixed(3)}/MG`);
+								console.log(`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} = $${pricePerUnit.toFixed(2)}/MG`);
 							}
 						}
 					} catch (e) {
@@ -185,7 +185,7 @@ by calculating price per MG and displaying as sorted bar charts
 
 		const bars = Array.from(strengthMap.entries()).map(([label, data]) => ({
 			label,
-			value: data.total / data.count,
+			value: Math.round((data.total / data.count) * 100) / 100,
 			strengthValue: data.strengthValue
 		}));
 
@@ -212,8 +212,8 @@ by calculating price per MG and displaying as sorted bar charts
 			value: data.total / data.count
 		}));
 
-		// sort by price (lowest to highest)
-		return bars.sort((a, b) => b.value - a.value);
+		/// sort alphabetically for easier side-by-side comparison 
+		return bars.sort((a, b) => a.label.localeCompare(b.label));
 	});
 
 	// find cheapest options
@@ -275,7 +275,7 @@ by calculating price per MG and displaying as sorted bar charts
 		}
 		if (strengthYAxisRef && strengthBars.length > 0) {
 			d3.select(strengthYAxisRef).call(
-				d3.axisLeft(strengthScales.yScale).tickFormat((d) => `$${d}`)
+				d3.axisLeft(strengthScales.yScale).tickFormat((d) => `$${Number(d).toFixed(2)}`)
 			);
 		}
 		if (formXAxisRef && formBars.length > 0) {
@@ -306,10 +306,10 @@ by calculating price per MG and displaying as sorted bar charts
 		<p>Error loading data: {error}</p>
 	</div>
 {:else}
-	<div class="mt-20">		
+	<div>		
 		<!-- form comparison chart -->
 		<div class="chart-wrapper">
-			<h4 class="chart-title">Price Per MG by Form</h4>
+			<h6 class="chart-title">Price Per MG by Form</h6>
 			<svg width={chartWidth} height={chartHeight} role="img">
 				<g>
 					{#each formBars as bar}
@@ -324,7 +324,7 @@ by calculating price per MG and displaying as sorted bar charts
 							{y}
 							width={barWidth}
 							height={barHeight}
-							fill={isCheapest ? '#2D6A4F' : '#9a2f1f'}
+							fill={isCheapest ? '#355B75' : '#9a2f1f'}
 							opacity={isCheapest ? 1 : 0.8}
 						/>
 						<text
@@ -332,10 +332,10 @@ by calculating price per MG and displaying as sorted bar charts
 							y={y - 5}
 							text-anchor="middle"
 							class="bar-label"
-							fill={isCheapest ? '#2D6A4F' : '#333'}
+							fill={isCheapest ? '#355B75' : '#333'}
 							font-weight={isCheapest ? 'bold' : 'normal'}
 						>
-							${bar.value.toFixed(3)}
+							${bar.value.toFixed(2)}
 						</text>
 					{/each}
 				</g>
@@ -348,7 +348,7 @@ by calculating price per MG and displaying as sorted bar charts
 				<g class="y-axis" transform="translate({margin.left},0)" bind:this={formYAxisRef}></g>
 
 				<!-- Y-axis label -->
-				<text
+				<!-- <text
 					transform="rotate(-90)"
 					x={-(chartHeight / 2)}
 					y={15}
@@ -356,15 +356,15 @@ by calculating price per MG and displaying as sorted bar charts
 					class="axis-label"
 				>
 					Price per MG
-				</text>
+				</text> -->
 			</svg>
 
-			{#if cheapestForm}
+			<!-- {#if cheapestForm}
 				<div class="best-value">
 					Best Value: <strong>{cheapestForm.label}</strong> at
 					<strong>${cheapestForm.value.toFixed(3)}/MG</strong>
 				</div>
-			{/if}
+			{/if} -->
 		</div>
 	</div>
 {/if}
@@ -397,6 +397,14 @@ by calculating price per MG and displaying as sorted bar charts
 		font-weight: 700;
 		text-transform: uppercase;
 	}
+
+	h6 {
+		font-family: fustat;
+		font-size: 1em;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
 
 	.drug-selector {
 		display: flex;
@@ -465,8 +473,8 @@ by calculating price per MG and displaying as sorted bar charts
 
 	.axis-label {
 		font-family: fustat;
-		font-size: 1em;
-		font-weight: 600;
+		font-size: .9em;
+		font-weight: 500;
 	}
 
 	.best-value {
@@ -477,7 +485,7 @@ by calculating price per MG and displaying as sorted bar charts
 	}
 
 	.best-value strong {
-		color: #2D6A4F;
+		color: #355B75;
 	}
 
 	/* y-axis font */
