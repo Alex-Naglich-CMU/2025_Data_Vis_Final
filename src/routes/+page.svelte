@@ -20,24 +20,28 @@
 	import IntroChart from '$lib/components/IntroChart.svelte';
 	import IntroChart2 from '$lib/components/IntroChart2.svelte';
 	import PeopleImpact from '$lib/components/PeopleImpact.svelte';
-
+	import DrugSelector from '$lib/components/DrugSelector.svelte';
 
 
 
 	let selectedDrugIndex = $state(8);
 	
-	const brandDrugs = [
-		{ name: 'GLUCOPHAGE', image: '/images/pills/pill01.png' },
-		{ name: 'LANTUS' },
-		{ name: 'LEXAPRO' },
-		{ name: 'LIPITOR' },
-		{ name: 'LYRICA' },
-		{ name: 'NORVASC' },
-		{ name: 'PROVIGIL' },
-		{ name: 'PROZAC' },
-		{ name: 'VYVANSE' },
-		{ name: 'ZOLOFT' }
-	];
+    const brandDrugs = [
+        // { name: 'GLUCOPHAGE', image: '/images/pills/pill01.png' },
+        { name: 'LAMICTAL' },
+        { name: 'LANTUS' },
+        { name: 'LEXAPRO' },
+        { name: 'LIPITOR' },
+        { name: 'LYRICA' },
+        { name: 'NEURONTIN' },
+        { name: 'NORVASC' },
+        { name: 'PROVIGIL' },
+        { name: 'PROZAC' },
+        { name: 'SYNTHROID' },
+        { name: 'VYVANSE' },
+        { name: 'ZOLOFT' }
+    ];
+
 
 	//default values for scrolling effect
 	let currentSection = $state(0);
@@ -375,7 +379,9 @@
 		
 
 		<!-- I know this syntax is a bit wonky -->
-		<TimeSeriesComparison /> 
+		 <DrugSelector bind:selectedDrugIndex label="Select drug:" />
+        <TimeSeriesComparison {selectedDrugIndex} /> 
+        <br />
 		<br />
 		<div class="headers">
 			<h3> How did drug prices change over time? </h3>
