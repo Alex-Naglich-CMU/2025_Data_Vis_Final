@@ -14,20 +14,24 @@ function createDarkModeStore() {
 	return {
 		subscribe,
 		init: () => {
-            // Check OS preference on init
+			// Check OS preference on init
 			if (browser) {
-				const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-				set(isDark);
-				syncTheme(isDark);
+				// const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+				// set(isDark);
+				// syncTheme(isDark);
 
-				// Listen for OS preference changes
-				window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-					set(e.matches);
-					syncTheme(e.matches);
-				});
+				// // Listen for OS preference changes
+				// window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+				// 	set(e.matches);
+				// 	syncTheme(e.matches);
+				// });
+
+				// Force light mode for now
+				set(false);
+				syncTheme(false);
 			}
 		},
-        // Manually set mode 
+		// Manually set mode
 		toggle: () => {
 			update((value) => {
 				const newValue = !value;

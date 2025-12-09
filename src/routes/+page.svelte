@@ -198,7 +198,7 @@
 					<br>
 					<p>
 						Prescription drug use is at an all-time high in the United States, in part due to increases in
-						medicalization, population aging, and growing rates of diagnoses of chronic diseases.At
+						medicalization, population aging, and growing rates of diagnoses of chronic diseases. At
 						the same time, everyone in the US seems to agree that 
 						<b>the current cost of prescription medications is too high.</b>
 						Just look at the sample of news articles from this year alone ↓
@@ -229,8 +229,9 @@
 			<div class='slide-section'>
 				<div class="price-increase-section">
 					<p>
-						For now, lets ignore the drugs whose prices stay the same. If we look the actual price amount each drug increased or decreased by, the data looks very different.
-					<IntroChart2 />
+						For now, lets ignore the drugs whose prices stay the same. If we look at the actual price amount each drug increased or decreased by, the data looks very different. Although slightly 
+						more drugs decreased in price than increased, the total dollar increase is much larger than the total dollar decrease.
+						<IntroChart2 />
 					<p>
 						When we only look at the number of drugs whose prices have increased or decreased, we're missing critical context.
 						Let's be clear, 

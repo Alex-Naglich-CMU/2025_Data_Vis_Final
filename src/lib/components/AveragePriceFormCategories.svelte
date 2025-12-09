@@ -170,39 +170,44 @@
 	$effect(() => {
 		if (xAxisRef && categoryBars.length > 0) {
 			d3.select(xAxisRef).call(d3.axisBottom(xScale));
-			
+
 			// Wrap long labels to multiple lines
 			d3.select(xAxisRef)
 				.selectAll('.tick text')
-				.each(function() {
+				.each(function () {
 					const text = d3.select(this);
 					const words = (text.text() as string).split(/\s+/); // Split on spaces
 					const lineHeight = 1.1; // ems
 					const y = text.attr('y');
 					const dy = parseFloat(text.attr('dy') || '0');
 					const maxWidth = xScale.bandwidth(); // Use bandwidth as max width
-					
+
 					text.text(null);
-					
+
 					let line: string[] = [];
 					let lineNumber = 0;
-					let tspan = text.append('tspan').attr('x', 0).attr('y', y).attr('dy', dy + 'em');
-					
+					let tspan = text
+						.append('tspan')
+						.attr('x', 0)
+						.attr('y', y)
+						.attr('dy', dy + 'em');
+
 					for (const word of words) {
 						line.push(word);
 						tspan.text(line.join(' '));
-						
+
 						const node = tspan.node();
 						if (node) {
 							const textLength = node.getComputedTextLength();
-							
+
 							// If text is too wide, break to next line
 							if (textLength > maxWidth && line.length > 1) {
 								line.pop(); // Remove the word that made it too long
 								tspan.text(line.join(' '));
 								line = [word]; // Start new line with current word
 								lineNumber++;
-								tspan = text.append('tspan')
+								tspan = text
+									.append('tspan')
 									.attr('x', 0)
 									.attr('y', y)
 									.attr('dy', lineNumber * lineHeight + dy + 'em')
@@ -227,7 +232,7 @@
 		<p>Error loading data: {error}</p>
 	</div>
 {:else}
-	<div class="chart-container">		
+	<div class="chart-container">
 		<div class="width-tracker" bind:clientWidth={containerWidth}>
 			<svg width={chartWidth} height={chartHeight} role="img">
 				<g>
@@ -243,14 +248,9 @@
 							width={barWidth}
 							height={barHeight}
 							fill="#355B75"
-							opacity="0.9"
+							opacity={bar === categoryBars[0] ? 1 : 0.8}
 						/>
-						<text
-							x={x + barWidth / 2}
-							y={y - 5}
-							text-anchor="middle"
-							class="bar-label"
-						>
+						<text x={x + barWidth / 2} y={y - 5} text-anchor="middle" class="bar-label">
 							${bar.value.toFixed(2)}
 						</text>
 					{/each}
@@ -305,7 +305,7 @@
 		margin-bottom: 2rem;
 		text-align: center;
 	}
-/* 
+	/* 
 	.width-tracker {
 		border: 1px solid #ccc;
 		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -322,12 +322,12 @@
 		font-family: fustat;
 		font-size: 0.85em;
 		font-weight: 600;
-		fill: #355B75;
+		fill: #355b75;
 	}
 
 	.axis-label {
 		font-family: fustat;
-		font-size: .9em;
+		font-size: 0.9em;
 		font-weight: 400;
 	}
 
