@@ -9,7 +9,7 @@ by calculating price per MG and displaying as sorted bar charts
 
 	// props and state stuff
 	const brandDrugs = [
-		{ name: 'GLUCOPHAGE', manufacturer: 'glucophage' },
+		{ name: 'GLUCOPHAGE', manufacturer: 'glucophage', },
 		{ name: 'LANTUS', manufacturer: 'lantus' },
 		{ name: 'LEXAPRO', manufacturer: 'lexapro' },
 		{ name: 'LIPITOR', manufacturer: 'lipitor' },
@@ -329,16 +329,16 @@ by calculating price per MG and displaying as sorted bar charts
                             {y}
                             width={barWidth}
                             height={barHeight}
-                            fill={isCheapest ? '#355B75' : '#9a2f1f'}
-                            opacity={isCheapest ? 1 : 0.8}
+							fill= '#9a2f1f'      
+							opacity=0.8
                         />
                         <text
                             x={x + barWidth / 2}
                             y={y - 5}
                             text-anchor="middle"
                             class="bar-label"
-                            fill={isCheapest ? '#355B75' : '#333'}
-                            font-weight={isCheapest ? 'bold' : 'normal'}
+                            fill= '#333'
+                            font-weight='bold'
                         >
                             ${bar.value.toFixed(2)}
                         </text>

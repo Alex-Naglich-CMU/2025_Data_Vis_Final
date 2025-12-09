@@ -10,16 +10,16 @@ x-axis: year, y-axis: price
 
 	// the 10 drugs with correct brand/generic pairs
 	const drugs = [
-		{ name: 'LIPITOR', brandRxcui: '617320', genericRxcui: '617311' },
 		{ name: 'GLUCOPHAGE', brandRxcui: '861008', genericRxcui: '861007' },
-		{ name: 'VYVANSE', brandRxcui: '854832', genericRxcui: '854830' },
-		{ name: 'PROZAC', brandRxcui: '104849', genericRxcui: '310385' },
-		{ name: 'NORVASC', brandRxcui: '212549', genericRxcui: '197361' },
-		{ name: 'ZOLOFT', brandRxcui: '208161', genericRxcui: '312941' },
-		{ name: 'LEXAPRO', brandRxcui: '352272', genericRxcui: '349332' },
-		{ name: 'LYRICA', brandRxcui: '607020', genericRxcui: '483440' },
 		{ name: 'LANTUS', brandRxcui: '285018', genericRxcui: '311041' },
-		{ name: 'PROVIGIL', brandRxcui: '213471', genericRxcui: '205324' }
+		{ name: 'LEXAPRO', brandRxcui: '352272', genericRxcui: '349332' },
+		{ name: 'LIPITOR', brandRxcui: '617320', genericRxcui: '617311' },
+		{ name: 'LYRICA', brandRxcui: '607020', genericRxcui: '483440' },
+		{ name: 'NORVASC', brandRxcui: '212549', genericRxcui: '197361' },
+		{ name: 'PROVIGIL', brandRxcui: '213471', genericRxcui: '205324' },
+		{ name: 'PROZAC', brandRxcui: '104849', genericRxcui: '310385' },
+		{ name: 'VYVANSE', brandRxcui: '854832', genericRxcui: '854830' },
+		{ name: 'ZOLOFT', brandRxcui: '208161', genericRxcui: '312941' }
 	];
 
 	interface PricePoint {
@@ -47,8 +47,8 @@ x-axis: year, y-axis: price
 	// layout constants
 	let containerWidth = $state(0);
 	const width = $derived(containerWidth || 900);
-	const height = $derived(width * 0.6);
-	const margin = { top: 40, right: 20, bottom: 60, left: 55 };
+	const height = $derived(width * 0.65);
+	const margin = { top: 50, right: 20, bottom: 60, left: 55 };
 
 	// load data on mount and when drug selection changes
 	$effect(() => {
@@ -234,12 +234,12 @@ x-axis: year, y-axis: price
 	<div class="chart-container">
 		<!-- drug selector -->
 		<div class="controls">
-			<label for="drug-select">Select Drug:</label>
+			<!-- <label for="drug-select">Select Drug:</label>
 			<select id="drug-select" bind:value={selectedDrugIndex} class="drug-dropdown">
 				{#each drugs as drug, i}
 					<option value={i}>{drug.name}</option>
 				{/each}
-			</select>
+			</select> -->
 			
 			{#if percentDifference !== 0}
 				<div class="difference-display">
@@ -379,7 +379,7 @@ x-axis: year, y-axis: price
 					</text>
 
 					<!-- legend -->
-						<g transform="translate({width - margin.right - 100}, {margin.top - 20})">
+						<g transform="translate({width - margin.right - 115}, {margin.top - 40})">
 						<!-- brand -->
 						<line x1="0" y1="0" x2="30" y2="0" stroke="#9a2f1f" stroke-width="2" />
 						<text x="35" y="5" class="legend-text">Brand</text>
@@ -434,7 +434,7 @@ x-axis: year, y-axis: price
 	}
 
 	.chart-container {
-		margin: 0 0px;
+		margin: 0px;
 	}
 
 	.controls {
@@ -443,8 +443,6 @@ x-axis: year, y-axis: price
 		gap: 1rem;
 		margin-bottom: 2rem;
 		padding: 1rem;
-		border: 1px solid #ccc;
-		border-radius: 4px;
 	}
 
 	.controls label {

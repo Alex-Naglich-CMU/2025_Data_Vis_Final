@@ -25,7 +25,7 @@
 	let selectedDrugIndex = $state(8);
 	
 	const brandDrugs = [
-		{ name: 'GLUCOPHAGE' },
+		{ name: 'GLUCOPHAGE', image: '/images/pills/pill01.png' },
 		{ name: 'LANTUS' },
 		{ name: 'LEXAPRO' },
 		{ name: 'LIPITOR' },
@@ -643,7 +643,7 @@
 	}
 
 	.inflation-section {
-		min-height: 100vw;
+		min-height: 100vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

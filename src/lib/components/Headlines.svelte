@@ -4,7 +4,7 @@
 	const colors = {
 		red: '#9A2F1F',
 		blue: '#54707C',
-		green: '#3F5339',
+		green: '#357573',
 		orange: '#DF7C39',
 		tan: '#BFA97F',
 		cream: '#F6F5EC'

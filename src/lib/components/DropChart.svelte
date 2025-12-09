@@ -137,7 +137,6 @@
                         // only highlight if there's a significant drop (> 10%)
                         if (dropPercent < -50) {
                             isHighlighted = true;
-                            console.log(`Found highlighted drug with drop: ${drugData.name} (${dropPercent.toFixed(1)}% drop)`);
                         }
                     }
                 }
@@ -164,7 +163,6 @@
     function sampleDrugs() {
         // first, get all highlighted drugs
         const highlighted = allDrugs.filter(d => d.isHighlighted);
-        console.log(`Found ${highlighted.length} highlighted drugs in total dataset`);
         
         if (allDrugs.length <= sampleSize) {
             displayedDrugs = allDrugs;
@@ -344,7 +342,6 @@
         const lines = svg.selectAll('.drug-line');
 
         const highlightedCount = displayedDrugs.filter(d => d.isHighlighted).length;
-        console.log(`Highlighting ${highlightedCount} drugs out of ${displayedDrugs.length}`);
 
         lines.transition()
             .duration(1000)

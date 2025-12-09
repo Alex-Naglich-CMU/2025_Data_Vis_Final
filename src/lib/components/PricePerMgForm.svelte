@@ -309,7 +309,7 @@ by calculating price per MG and displaying as sorted bar charts
 	<div>		
 		<!-- form comparison chart -->
 		<div class="chart-wrapper">
-			<h6 class="chart-title">Price Per MG by Form</h6>
+			<h6 class="chart-title">Average Price Per MG by Form</h6>
 			<svg width={chartWidth} height={chartHeight} role="img">
 				<g>
 					{#each formBars as bar}
@@ -324,18 +324,18 @@ by calculating price per MG and displaying as sorted bar charts
 							{y}
 							width={barWidth}
 							height={barHeight}
-							fill={isCheapest ? '#355B75' : '#9a2f1f'}
-							opacity={isCheapest ? 1 : 0.8}
+							fill= '#9a2f1f'      
+							opacity=0.8
 						/>
 						<text
 							x={x + barWidth / 2}
 							y={y - 5}
 							text-anchor="middle"
 							class="bar-label"
-							fill={isCheapest ? '#355B75' : '#333'}
-							font-weight={isCheapest ? 'bold' : 'normal'}
+							fill='#333'
+							font-weight= 'bold'
 						>
-							${bar.value.toFixed(2)}
+							${bar.value.toFixed(2)} 
 						</text>
 					{/each}
 				</g>
