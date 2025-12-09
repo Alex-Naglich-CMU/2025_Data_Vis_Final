@@ -321,58 +321,10 @@
 				<h3>Do these numbers </h3>
 			</div>
 
-			<div class="insulin-graphic-intro">
-				<h3>How high are they really?</h3>
-				<br />
-				<p>
-					What's causing drug prices to be so high? Does this public perception reflect the actual price
-					trends?
-				</p>
-				<br />
-				<p>
-					Part of the problem is that information about how drugs are priced or even what they cost is
-					largely hidden to the public. Also, since the US allows pharmaceutical companies to patent
-					medications when they first go to market, patients have no choice but to pay their high fees.
-				</p>
-				<br />
-				<p>
-					Then the administrators of prescription drugs have little role in determining the costs their
-					patients pay. The <a
-						href="https://www.ama-assn.org/about/leadership/unchecked-power-pbm-industry-puts-patients-risk-harm"
-						target="_blank"
-						rel="noopener noreferrer">American Medical Association</a
-					> noted that many patients complain about how they can't afford their medications. When the patents
-					expire and generic drugs join the market, those options are usually much more affordable, and are
-					often even cheaper than they are in other countries.
-				</p>
-				<br />
-				<p>
-					For example, look at insulin: when the brand Lantus had no generic drug competitor in 2018 when
-					there was no generic drug available, and 2025 after it took the place of the generic option. Of
-					course, the cost of insulin is still very high, but it decreased significantly.
-				</p>
-			</div>
-
 			<h4 class="section-title">Look at Insulin Lantus ↓</h4>
 			<InsulinComparison />
 
-			<div class="chart-intro">
-				<p>
-					In the United States, brand-name drug prices have continued to rise, while generic drug prices
-					have steadily declined. This interactive dashboard visualizes these trends over time. According
-					to <a
-						href="https://www.rand.org/news/press/2021/01/28.html"
-						target="_blank"
-						rel="noopener noreferrer">RAND</a
-					>, an independent public policy research organization, generics are the only category where U.S.
-					prices are consistently lower than those in other countries, costing about 84% of the
-					international average. Understanding this contrast makes it easier to see how pricing patterns
-					affect affordability and policy decisions. Use the dashboard to select different drugs and
-					compare how their prices change across brands, generics, and time.
-				</p>
-				<br />
-				<h3>How much cheaper are generics?</h3>
-			</div>
+			
 			
 		</div>
 	</div>
@@ -449,6 +401,7 @@
 
 	p a {
 		font-family: fustat;
+		font-size: inherit;
 		font-weight: normal;
 		color: inherit;
 		text-decoration: underline;
@@ -456,7 +409,7 @@
 
 	p b {
 		font-family: fustat;
-		font-size: 1.1em;
+		font-size: inherit;
 		font-weight: bold;
 	}
 
