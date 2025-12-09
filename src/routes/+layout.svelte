@@ -9,9 +9,9 @@
 <svelte:head>
 	<link rel="icon" href={RXIcon} />
 </svelte:head>
-<div class="fixed top-0 right-0 z-50">
+<!-- <div class="fixed top-0 right-0 z-50">
 	<Nav />
-</div>
+</div> -->
 <div class="container">
 	<div class="content">
 		{@render children?.()}
@@ -19,8 +19,14 @@
 </div>
 
 <style>
-	/* 
-	.content {
+	
+	/* .content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	} */
+
+	/* .container {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

@@ -19,6 +19,8 @@
 	import DropChart from '$lib/components/DropChart.svelte';
 	import IntroChart from '$lib/components/IntroChart.svelte';
 	import IntroChart2 from '$lib/components/IntroChart2.svelte';
+	import PeopleImpact from '$lib/components/PeopleImpact.svelte';
+
 
 
 
@@ -219,11 +221,11 @@
 					<IntroChart />
 				</div>
 			</div>
+			
 			<div class='slide-section'>
 				<div class="price-increase-section">
 					<p>
-						For now, lets ignore the drugs whose prices stay the same. If we look the actual price amount each drug increased or decreased by, the data looks very different. 
-					</p>
+						For now, lets ignore the drugs whose prices stay the same. If we look the actual price amount each drug increased or decreased by, the data looks very different.
 					<IntroChart2 />
 					<p>
 						When we only look at the number of drugs whose prices have increased or decreased, we're missing critical context.
@@ -233,6 +235,8 @@
 				</div>
 			</div>
 
+
+
 			<div class='slide-section'>
 				<div class="inflation-section">
 					<h3>Is the drug you selected outpacing inflation?</h3>
@@ -240,6 +244,20 @@
 					<InflationComparison {selectedDrugIndex}/>
 				</div>
 			</div>
+			
+			<div class='slide-section'>
+				<div class='impact'>
+					<h3>What impact does this have?</h3>
+					<br />
+					<p>People end up splitting pills or skipping doses to try and make a drug last longer, threatening their health. Out of pocket costs are greater for those with less coverage, so some of the people likely to receive the highest drug costs are those with the fewest resources to pay for them.</p>
+					<br />
+					<div class="graphic">
+						<PeopleImpact />
+					</div>
+					<br />
+				</div>
+			</div>
+			
 
 
 			<div class="slide-section">
@@ -299,8 +317,6 @@
 				<h3>Do these numbers </h3>
 			</div>
 
-
-
 			<div class="insulin-graphic-intro">
 				<h3>How high are they really?</h3>
 				<br />
@@ -353,7 +369,9 @@
 				<br />
 				<h3>How much cheaper are generics?</h3>
 			</div>
+			
 		</div>
+	</div>
 		
 
 		<!-- I know this syntax is a bit wonky -->
@@ -378,7 +396,6 @@
 		<h3> What is the cheapest option for a specific drug? </h3>
 	</div>
 		
-	</div>
 	<br />
 	<AnimatedIntroChart />
 	<br />
@@ -437,8 +454,15 @@
 		font-weight: bold;
 	}
 
+	li {
+		padding-bottom: 2em;
+	}
+
 	.slideshow-wrapper {
 		scroll-behavior: smooth;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.slide-section {
@@ -449,7 +473,7 @@
 	}
 
 	.page-container {
-		max-width: 1400px;
+		width: 100%;
 		margin: 0 auto;
 		padding: 0;
 	}
@@ -647,6 +671,24 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+	}
+
+	.impact {
+		min-height: 100vh;
+		max-width: 850px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.source {
+		font-family: fustat;
+		font-size: .5em;
+		color: #818181;
+	}
+
+	.graphic {
+		margin: 3em auto;
 	}
 
 </style>
