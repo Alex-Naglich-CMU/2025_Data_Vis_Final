@@ -2,8 +2,14 @@
 	import '../app.css';
 	import RXIcon from '$lib/assets/RXIcon.jpg';
 	import Nav from '$lib/components/Nav.svelte';
+	import { isDarkMode } from '$lib/stores/theme';
+	import { onMount } from 'svelte';
 
 	let { children } = $props();
+
+	onMount(() => {
+		isDarkMode.init();
+	});
 </script>
 
 <svelte:head>
