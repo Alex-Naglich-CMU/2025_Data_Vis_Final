@@ -14,7 +14,7 @@
 
 	// PROPS & STATE
 	const brandDrugs = [
-		{ name: 'GLUCOPHAGE', manufacturer: 'glucophage' },
+		// { name: 'GLUCOPHAGE', manufacturer: 'glucophage' },
 		{ name: 'LANTUS', manufacturer: 'lantus' },
 		{ name: 'LEXAPRO', manufacturer: 'lexapro' },
 		{ name: 'LIPITOR', manufacturer: 'lipitor' },

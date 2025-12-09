@@ -9,7 +9,7 @@
 	// PROPS & STATE
 	const drugSearchTerms: Record<string, string> = {
 		'617320': 'lipitor', // brand - LIPITOR 40 MG TABLET        		// '617311': 'atorvastatin', // generic - ATORVASTATIN 40 MG TABLET
-		'861008': 'glucophage', // brand - GLUCOPHAGE 500 MG TABLET   		// '861007': 'metformin', // generic - METFORMIN HCL 500 MG TABLET
+		// '861008': 'glucophage', // brand - GLUCOPHAGE 500 MG TABLET   	// '861007': 'metformin', // generic - METFORMIN HCL 500 MG TABLET
 		'854832': 'vyvanse', // brand - VYVANSE 20 MG CAPSULE				// '854830': 'lisdexamfetamine', // generic - LISDEXAMFETAMINE 20 MG CAPSULE
 		'104849': 'prozac', // brand - PROZAC 20 MG PULVULE					// '310385': 'fluoxetine', // generic - FLUOXETINE HCL 20 MG CAPSULE
 		'212549': 'norvasc', // brand - NORVASC 5 MG TABLET					// '197361': 'amlodipine', // generic - AMLODIPINE BESYLATE 5 MG TAB

@@ -19,20 +19,23 @@
 	import DropChart from '$lib/components/DropChart.svelte';
 	import IntroChart from '$lib/components/IntroChart.svelte';
 	import IntroChart2 from '$lib/components/IntroChart2.svelte';
-
+	import DrugSelector from '$lib/components/DrugSelector.svelte';
 
 
 	let selectedDrugIndex = $state(8);
 	
 	const brandDrugs = [
-		{ name: 'GLUCOPHAGE', image: '/images/pills/pill01.png' },
+		// { name: 'GLUCOPHAGE', image: '/images/pills/pill01.png' },
+		{ name: 'LAMICTAL' },
 		{ name: 'LANTUS' },
 		{ name: 'LEXAPRO' },
 		{ name: 'LIPITOR' },
 		{ name: 'LYRICA' },
+		{ name: 'NEURONTIN' },
 		{ name: 'NORVASC' },
 		{ name: 'PROVIGIL' },
 		{ name: 'PROZAC' },
+		{ name: 'SYNTHROID' },
 		{ name: 'VYVANSE' },
 		{ name: 'ZOLOFT' }
 	];
@@ -261,7 +264,7 @@
 				<h3>Does dosage affect cost?</h3>
 				<br /> 
 				<p>
-					Even though the amount patients pay per MG may decrease as dosage increases, the price of each pill emains relatively constant independent of dosage. When a certain dosage is unusually high, it is usually due to market exclusivity rather than the drug's formulation. 
+					Even though the amount patients pay per MG may decrease as dosage increases, the price of each pill remains relatively constant independent of dosage. When a certain dosage is unusually high, it is usually due to market exclusivity rather than the drug's formulation. 
 				</p>
 				<div class="width-tracker mid-chart">
 					<div class="charts-container">
@@ -357,12 +360,13 @@
 		
 
 		<!-- I know this syntax is a bit wonky -->
-		<TimeSeriesComparison /> 
+		<DrugSelector bind:selectedDrugIndex label="Select drug:" />
+		<TimeSeriesComparison {selectedDrugIndex} /> 
 		<br />
 		<div class="headers">
 			<h3> How did drug prices change over time? </h3>
 		</div>
-		<AnimatedSeries />
+		<AnimatedSeries  />
 
 		<br />
 

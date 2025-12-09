@@ -10,14 +10,17 @@ x-axis: year, y-axis: price
 
 	// the 10 drugs with correct brand/generic pairs
 	const drugs = [
-		{ name: 'GLUCOPHAGE', brandRxcui: '861008', genericRxcui: '861007' },
+		// { name: 'GLUCOPHAGE', brandRxcui: '861008', genericRxcui: '861007' },
+		{ name: 'LAMICTAL', brandRxcui: '105018', genericRxcui: '198427' },
 		{ name: 'LANTUS', brandRxcui: '285018', genericRxcui: '311041' },
 		{ name: 'LEXAPRO', brandRxcui: '352272', genericRxcui: '349332' },
 		{ name: 'LIPITOR', brandRxcui: '617320', genericRxcui: '617311' },
 		{ name: 'LYRICA', brandRxcui: '607020', genericRxcui: '483440' },
+		{ name: 'NEURONTIN', brandRxcui: '105029', genericRxcui: '310431' },
 		{ name: 'NORVASC', brandRxcui: '212549', genericRxcui: '197361' },
 		{ name: 'PROVIGIL', brandRxcui: '213471', genericRxcui: '205324' },
 		{ name: 'PROZAC', brandRxcui: '104849', genericRxcui: '310385' },
+		{ name: 'SYNTHROID', brandRxcui: '966220', genericRxcui: '966219' },
 		{ name: 'VYVANSE', brandRxcui: '854832', genericRxcui: '854830' },
 		{ name: 'ZOLOFT', brandRxcui: '208161', genericRxcui: '312941' }
 	];

@@ -8,45 +8,65 @@
 
 	// PROPS & STATE
 	const drugSearchTerms: Record<string, string> = {
-		'617320': 'lipitor', // brand - LIPITOR 40 MG TABLET
-		'617311': 'atorvastatin', // generic - ATORVASTATIN 40 MG TABLET
+		// index 0 
+		'105018': 'lamictal', // brand - LAMICTAL 100 MG ORAL TABLET
+		'198427': 'lamotrigine', // generic - LAMOTRIGINE 100 MG ORAL TABLET
 
-		'861008': 'glucophage', // brand - GLUCOPHAGE 500 MG TABLET
-		'861007': 'metformin', // generic - METFORMIN HCL 500 MG TABLET
-
-		'854832': 'vyvanse', // brand - VYVANSE 20 MG CAPSULE
-		'854830': 'lisdexamfetamine', // generic - LISDEXAMFETAMINE 20 MG CAPSULE
-
-		'104849': 'prozac', // brand - PROZAC 20 MG PULVULE
-		'310385': 'fluoxetine', // generic - FLUOXETINE HCL 20 MG CAPSULE
-
-		'212549': 'norvasc', // brand - NORVASC 5 MG TABLET
-		'197361': 'amlodipine', // generic - AMLODIPINE BESYLATE 5 MG TAB
-
-		'208161': 'zoloft', // brand - ZOLOFT 50 MG TABLET
-		'312941': 'sertraline', // generic - SERTRALINE HCL 50 MG TABLET
-
-		'352272': 'lexapro', // brand - LEXAPRO 10 MG TABLET
-		'349332': 'escitalopram', // generic - ESCITALOPRAM 10 MG TABLET
-
-		'607020': 'lyrica', // brand - LYRICA 150 MG CAPSULE
-		'483440': 'pregabalin', // generic - PREGABALIN 150 MG CAPSULE
-
+		// index 1 
 		'285018': 'lantus', // brand - LANTUS 100 UNIT/ML VIAL
 		'311041': 'insulin glargine', // generic - INSULIN GLARGINE 100 UNIT/ML VIAL
 
+		// index 2
+		'352272': 'lexapro', // brand - LEXAPRO 10 MG TABLET
+		'349332': 'escitalopram', // generic - ESCITALOPRAM 10 MG TABLET
+
+		// index 3 
+		'617320': 'lipitor', // brand - LIPITOR 40 MG TABLET
+		'617311': 'atorvastatin', // generic - ATORVASTATIN 40 MG TABLET
+
+		// index 4 
+		'607020': 'lyrica', // brand - LYRICA 150 MG CAPSULE
+		'483440': 'pregabalin', // generic - PREGABALIN 150 MG CAPSULE
+
+		// index 5 
+		'105029': 'neurontin', // brand - NEURONTIN 300 MG ORAL CAPSULE
+		'310431': 'gabapentin', // generic - GABAPENTIN 300 MG ORAL CAPSULE
+
+		// index 6 
+		'212549': 'norvasc', // brand - NORVASC 5 MG TABLET
+		'197361': 'amlodipine', // generic - AMLODIPINE BESYLATE 5 MG TAB
+
+		// index 7 
 		'213471': 'provigil', // brand - PROVIGIL 200 MG TABLET
 		'205324': 'modafinil', // generic - MODAFINIL 200 MG TABLET
 
-		'966158': "synthroid", // brand - SYNTHROID 25 MG TABLET
-		'966220': "levothyroxine sodium" //LEVOTHYROXINE SODIUM - MODAFINIL 25 MG TABLET
+		// index 8 
+		'104849': 'prozac', // brand - PROZAC 20 MG PULVULE
+		'310385': 'fluoxetine', // generic - FLUOXETINE HCL 20 MG CAPSULE
+
+		// index 9 
+		'966158': 'synthroid', // brand - SYNTHROID 25 MG TABLET
+		'966220': 'levothyroxine sodium', // generic - LEVOTHYROXINE SODIUM 25 MG TABLET
+
+		// index 10 
+		'854832': 'vyvanse', // brand - VYVANSE 20 MG CAPSULE
+		'854830': 'lisdexamfetamine', // generic - LISDEXAMFETAMINE 20 MG CAPSULE
+
+		// index 11 
+		'208161': 'zoloft', // brand - ZOLOFT 50 MG TABLET
+		'312941': 'sertraline' // generic - SERTRALINE HCL 50 MG TABLET
 	};
 
 	let drugsData = $state<DrugAllData[]>([]);
+	let allLoadedDrugs = $state<DrugAllData[]>([]); // keep all drugs for brand/generic lookups
 	let loading = $state<boolean>(true);
 	let error = $state<string | null>(null);
 
-	let selectedDrugIndex = $state<number>(0);
+	interface Props {
+		selectedDrugIndex?: number;
+	}
+
+	let { selectedDrugIndex = $bindable(8) }: Props = $props();
 
 	let tooltipData = $state<{ date: Date; brandPrice?: number; genericPrice?: number } | null>(null);
 	let cursorX = $state(0);
@@ -56,24 +76,48 @@
 	// LAYOUT CONSTANTS
 	const colors = { red: '#C9381A', blue: '#3A7CA5', green: '#2D6A4F' };
 	let containerWidth = $state(0);
-	const availableWidth = $derived(containerWidth - 40); // Account for content-wrapper padding
+	const availableWidth = $derived(containerWidth - 40); 
 	const width = $derived(availableWidth * 0.62 || 900);
 	const height = $derived(width * 0.62);
 	const margin = { top: 10, right: 5, bottom: 40, left: 40 };
-	const smallWidth = $derived(availableWidth * 0.35); // Slightly less to account for sidebar padding
+	const smallWidth = $derived(availableWidth * 0.35); 
 	const smallHeight = $derived(smallWidth * 0.6);
 	const smallMargin = { top: 10, right: 20, bottom: 40, left: 0 };
 
 	// DATA LOADING
 	onMount(async () => {
 		try {
-			drugsData = await loadDrugData(drugSearchTerms);
+			const loadedData = await loadDrugData(drugSearchTerms);
+			
+			// keep all the loaded drugs for brand/generic lookups
+			allLoadedDrugs = loadedData;
+			
+			// there needs to be a specific order - brand RxCUIs in the correct order
+			// this has to match the order in parent page's radio buttons/dropdown
+			const brandRxcuisInOrder = [
+				'105018',  // 0: LAMICTAL
+				'285018',  // 1: LANTUS
+				'352272',  // 2: LEXAPRO
+				'617320',  // 3: LIPITOR
+				'607020',  // 4: LYRICA
+				'105029',  // 5: NEURONTIN
+				'212549',  // 6: NORVASC
+				'213471',  // 7: PROVIGIL
+				'104849',  // 8: PROZAC
+				'966158',  // 9: SYNTHROID
+				'854832',  // 10: VYVANSE
+				'208161'   // 11: ZOLOFT
+			];
+			
+			drugsData = brandRxcuisInOrder
+				.map(rxcui => loadedData.find(drug => drug.rxcui === rxcui))
+				.filter(drug => drug !== undefined) as DrugAllData[];
 
-			// Set initial selected drug to vyvanse if available
-			const vyvanseIndex = drugsData.findIndex((d) =>
-				d.friendlyName.toLowerCase().includes('vyvanse')
-			);
-			selectedDrugIndex = vyvanseIndex !== -1 ? vyvanseIndex : 0;
+			console.log('Brand drugs in order:');
+			drugsData.forEach((drug, i) => console.log(`  ${i}: ${drug.friendlyName}`));
+
+			// set initial to Prozac (index 8)
+			selectedDrugIndex = 8;
 
 			loading = false;
 		} catch (err) {
@@ -86,10 +130,10 @@
 	// DATA PROCESSING
 	const selectedDrug = $derived(drugsData[selectedDrugIndex]);
 	const brandDrug = $derived(
-		selectedDrug ? drugsData.find((d) => d.rxcui === selectedDrug.brandRxcui) || null : null
+		selectedDrug ? allLoadedDrugs.find((d) => d.rxcui === selectedDrug.brandRxcui) || null : null
 	);
 	const genericDrug = $derived(
-		selectedDrug ? drugsData.find((d) => d.rxcui === selectedDrug.genericRxcui) || null : null
+		selectedDrug ? allLoadedDrugs.find((d) => d.rxcui === selectedDrug.genericRxcui) || null : null
 	);
 
 	const brandChartData = $derived(getChartPoints(brandDrug));
@@ -97,7 +141,7 @@
 	const allDataPoints = $derived([...brandChartData, ...genericChartData]);
 
 	// CHART SCALES & PATHS
-	// Main chart
+	// main chart
 	const mainScales = $derived(createScales(allDataPoints, width, height, margin));
 	const baseXScale = $derived(mainScales.xScale);
 	const baseYScale = $derived(mainScales.yScale);
@@ -106,7 +150,7 @@
 	const brandLinePath = $derived(createLinePath(brandChartData, xScale, yScale));
 	const genericLinePath = $derived(createLinePath(genericChartData, xScale, yScale));
 
-	// Generic chart
+	// generic chart
 	const genericScales = $derived(createScales(genericChartData, smallWidth, smallHeight, margin));
 	const baseGenericXScale = $derived(genericScales.xScale);
 	const baseGenericYScale = $derived(genericScales.yScale);
@@ -254,7 +298,7 @@
 						<label for="drug-select">Select Drug:</label>
 						<span class="text-sm text-gray-500"> * For a 30 day supply</span>
 					</div>
-					<ul class="drug-list" role="listbox">
+					<!-- <ul class="drug-list" role="listbox">
 						{#each drugsData
 							.map((drug, i) => ({ drug, i }))
 							.filter(({ drug }) => drug.isBrand)
@@ -273,7 +317,7 @@
 								{drug.friendlyName.toUpperCase()}
 							</li>
 						{/each}
-					</ul>
+					</ul> -->
 				</div>
 
 				<!--- GENERIC CHART --->
