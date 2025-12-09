@@ -30,43 +30,47 @@
     let containerRef: HTMLDivElement;
     let hasAnimated = $state(false);
 
-    onMount(async () => {
-        try {
-            const searchIndexModule = await import('$lib/data/search_index_all.json');
-            searchIndex = searchIndexModule.default;
-            console.log('loading data for', Object.keys(searchIndex).length, 'drugs...');
+      onMount(() => {
+        let observer: IntersectionObserver;
+        (async () => {
+            try {
+                const searchIndexModule = await import('$lib/data/search_index_all.json');
+                searchIndex = searchIndexModule.default;
+                console.log('loading data for', Object.keys(searchIndex).length, 'drugs...');
 
-            await loadAllDrugData();
-            
-            // Set up Intersection Observer to trigger animation when visible
-            const observer = new IntersectionObserver(
-                (entries) => {
-                    entries.forEach((entry) => {
-                        if (entry.isIntersecting && !hasAnimated && !isAnimating) {
-                            console.log('Chart is visible, starting animation...');
-                            hasAnimated = true;
-                            startAnimation();
-                        }
-                    });
-                },
-                { threshold: 0.3 }
-            );
+                await loadAllDrugData();
+                
+                // Set up Intersection Observer to trigger animation when visible
+                observer = new IntersectionObserver(
+                    (entries) => {
+                        entries.forEach((entry) => {
+                            if (entry.isIntersecting && !hasAnimated && !isAnimating) {
+                                console.log('Chart is visible, starting animation...');
+                                hasAnimated = true;
+                                startAnimation();
+                            }
+                        });
+                    },
+                    { threshold: 0.3 }
+                );
 
-            if (containerRef) {
-                observer.observe(containerRef);
+                if (containerRef) {
+                    observer.observe(containerRef);
+                }
+                
+                loading = false;
+            } catch (err) {
+                error = err instanceof Error ? err.message : 'Unknown error';
+                loading = false;
+                console.error('error loading data:', err);
             }
-            
-            loading = false;
-            
-            return () => {
-                observer.disconnect();
-                if (animationFrame) cancelAnimationFrame(animationFrame);
-            };
-        } catch (err) {
-            error = err instanceof Error ? err.message : 'Unknown error';
-            loading = false;
-            console.error('error loading data:', err);
-        }
+        })();
+
+        // Return cleanup function synchronously (not inside async)
+        return () => {
+            if (observer) observer.disconnect();
+            if (animationFrame) cancelAnimationFrame(animationFrame);
+        };
     });
 
     async function loadAllDrugData() {
@@ -223,21 +227,40 @@
             .domain([minDate, maxDate])
             .range([0, chartWidth]);
 
-        const startMinY = Math.max(0.01, minPrice * 0.5);
-        const startMaxY = Math.min(1, minPrice * 10);
+        // const startMinY = Math.max(0.01, minPrice * 0.5);
+        // const startMaxY = Math.min(1, minPrice * 10);
+        // let currentMinY = startMinY;
+        // let currentMaxY = startMaxY;
+
+        // const yScale = d3.scaleLog()
+        //     .domain([currentMinY, currentMaxY])
+        //     .range([chartHeight, 0])
+        //     .clamp(true);
+
+        // const yAxis = d3.axisLeft(yScale)
+        // .ticks(10, (d) => {
+        //     if (d >= 1) return `${d.toFixed(0)}`;
+        //     return `${d.toFixed(2)}`;
+        // });
+        
+        const xAxis = d3.axisBottom(xScale).ticks(8);
+
+        const startMinY = 0;
+        const startMaxY = minPrice * 2;
         let currentMinY = startMinY;
         let currentMaxY = startMaxY;
 
-        const yScale = d3.scaleLog()
+        const yScale = d3.scaleLinear()
             .domain([currentMinY, currentMaxY])
             .range([chartHeight, 0])
             .clamp(true);
 
-        const xAxis = d3.axisBottom(xScale).ticks(8);
         const yAxis = d3.axisLeft(yScale)
-            .ticks(10, (d) => {
-                if (d >= 1) return `${d.toFixed(0)}`;
-                return `${d.toFixed(2)}`;
+            .ticks(10)
+            .tickFormat((d) => {
+                const num = Number(d);
+                if (num >= 1) return `$${num.toFixed(0)}`;
+                return `$${num.toFixed(2)}`;
             });
 
         const xAxisG = g.append('g').attr('class', 'x-axis').attr('transform', `translate(0,${chartHeight})`).call(xAxis);

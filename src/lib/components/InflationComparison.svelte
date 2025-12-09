@@ -28,7 +28,12 @@ x-axis: year, y-axis: price
 		year: number;
 	}
 
-	let selectedDrugIndex = $state(2); // default to vyvanse
+	interface Props {
+        selectedDrugIndex?: number;
+    }   
+
+	let { selectedDrugIndex = 2 }: Props = $props();
+
 	let loading = $state(false);
 	let error = $state<string | null>(null);
 	
@@ -43,7 +48,7 @@ x-axis: year, y-axis: price
 	let containerWidth = $state(0);
 	const width = $derived(containerWidth || 900);
 	const height = $derived(width * 0.6);
-	const margin = { top: 40, right: 160, bottom: 60, left: 80 };
+	const margin = { top: 40, right: 20, bottom: 60, left: 55 };
 
 	// load data on mount and when drug selection changes
 	$effect(() => {
@@ -283,7 +288,7 @@ x-axis: year, y-axis: price
 							d={brandPath}
 							fill="none"
 							stroke="#9a2f1f"
-							stroke-width="3"
+							stroke-width="1.5"
 						/>
 					{/if}
 
@@ -293,7 +298,7 @@ x-axis: year, y-axis: price
 							d={inflationPath}
 							fill="none"
 							stroke="#666"
-							stroke-width="3"
+							stroke-width="1.5"
 						/>
 					{/if}
 
@@ -304,10 +309,18 @@ x-axis: year, y-axis: price
 						<circle
 							cx={xScale(point.date)}
 							cy={yScale(point.price)}
-							r="4"
+							r="3"
 							fill="#9a2f1f"
 							stroke="white"
-							stroke-width="2"
+							stroke-width="1"
+						></circle>
+						<circle
+							cx={xScale(point.date)}
+							cy={yScale(point.price)}
+							r="4"
+							fill="transparent"
+							stroke="transparent"
+							stroke-width="none"
 							style="cursor: pointer;"
 							onmouseenter={(e) => {
 								const rect = chartContainerRef?.getBoundingClientRect();
@@ -366,13 +379,13 @@ x-axis: year, y-axis: price
 					</text>
 
 					<!-- legend -->
-					<g transform="translate({width - margin.right + 10}, {margin.top})">
+						<g transform="translate({width - margin.right - 100}, {margin.top - 20})">
 						<!-- brand -->
-						<line x1="0" y1="0" x2="30" y2="0" stroke="#9a2f1f" stroke-width="3" />
+						<line x1="0" y1="0" x2="30" y2="0" stroke="#9a2f1f" stroke-width="2" />
 						<text x="35" y="5" class="legend-text">Brand</text>
 
 						<!-- inflation -->
-						<line x1="0" y1="25" x2="30" y2="25" stroke="#666" stroke-width="3" />
+						<line x1="0" y1="25" x2="30" y2="25" stroke="#666" stroke-width="2" />
 						<text x="35" y="30" class="legend-text">Inflation (3%)</text>
 					</g>
 				</svg>
@@ -421,7 +434,7 @@ x-axis: year, y-axis: price
 	}
 
 	.chart-container {
-		margin: 20px 40px;
+		margin: 0 0px;
 	}
 
 	.controls {
@@ -471,14 +484,6 @@ x-axis: year, y-axis: price
 
 	.difference-display .below {
 		color: #2D6A4F;
-	}
-
-	.width-tracker {
-		border: 1px solid #ccc;
-		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-		padding: 2rem;
-		user-select: none;
-		-webkit-user-select: none;
 	}
 
 	.chart-area {
@@ -541,8 +546,8 @@ x-axis: year, y-axis: price
 
 	.axis-label {
 		font-family: fustat;
-		font-size: 1em;
-		font-weight: 600;
+		font-size: .9em;
+		font-weight: 500;
 	}
 
 	.legend-text {

@@ -29,7 +29,7 @@
 	let totalDollars = $state(0);
 
 	// variable for view mode control
-	let viewMode = $state<'count' | 'dollars'>('count');
+	let viewMode = $state<'dollars' | 'count'>('dollars');
 
 	// layout
 	const width = 400;
@@ -182,7 +182,7 @@
 	}
 
 	function toggleViewMode() {
-		viewMode = viewMode === 'count' ? 'dollars' : 'count';
+		viewMode = viewMode === 'dollars' ? 'count' : 'dollars';
 		updatePriceChanges();
 	}
 
@@ -317,20 +317,6 @@
 					
 			</div>
 		</div>
-		<!-- <div class="toggle-container">
-			<button 
-				class="toggle-button left-button {viewMode === 'count' ? 'active' : ''}" 
-				onclick={() => { viewMode = 'count'; updatePriceChanges(); }}
-			>
-				Did Prices Increase?
-			</button>
-			<button 
-				class="toggle-button right-button {viewMode === 'dollars' ? 'active' : ''}" 
-				onclick={() => { viewMode = 'dollars'; updatePriceChanges(); }}
-			>
-				By What Amount?
-			</button>
-		</div> -->
 	</div>
 {/if}
 
