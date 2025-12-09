@@ -109,11 +109,11 @@
 
                 let color: string;
                 if (percentChange > 1) {
-                    color = '#4A90E2';
+                    color = '#355b75';
                 } else if (percentChange < -1) {
                     color = '#E74C3C';
                 } else {
-                    color = '#95A5A6';
+                    color = '#9a2f1f';
                 }
 
                 // Check if this drug is in the highlighted list AND has a drop in 2023-2024
@@ -502,7 +502,7 @@
 
         <div class="legend">
             <div class="legend-item">
-                <div class="legend-color" style="background-color: #4A90E2"></div>
+                <div class="legend-color" style="background-color: #355b75"></div>
                 <span>Increased (>1%)</span>
             </div>
             <div class="legend-item">
@@ -510,7 +510,7 @@
                 <span>Stayed Same (±1%)</span>
             </div>
             <div class="legend-item">
-                <div class="legend-color" style="background-color: #E74C3C"></div>
+                <div class="legend-color" style="background-color: #9a2f1f"></div>
                 <span>Decreased (&lt;-1%)</span>
             </div>
         </div>
