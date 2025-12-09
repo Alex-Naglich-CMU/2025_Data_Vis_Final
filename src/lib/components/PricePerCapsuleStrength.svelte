@@ -9,14 +9,17 @@ by displaying absolute price per capsule (not divided by strength)
 
 	// props and state stuff
 	const brandDrugs = [
-		{ name: 'GLUCOPHAGE', manufacturer: 'glucophage' },
+		// { name: 'GLUCOPHAGE', manufacturer: 'glucophage' },
+		{ name: 'LAMICTAL', manufacturer: 'lamictal' },
 		{ name: 'LANTUS', manufacturer: 'lantus' },
 		{ name: 'LEXAPRO', manufacturer: 'lexapro' },
 		{ name: 'LIPITOR', manufacturer: 'lipitor' },
 		{ name: 'LYRICA', manufacturer: 'lyrica' },
+		{ name: 'NEURONTIN', manufacturer: 'neurontin' },
 		{ name: 'NORVASC', manufacturer: 'norvasc' },
 		{ name: 'PROVIGIL', manufacturer: 'provigil' },
 		{ name: 'PROZAC', manufacturer: 'prozac' },
+		{ name: 'SYNTHROID', manufacturer: 'synthroid' },
 		{ name: 'VYVANSE', manufacturer: 'vyvanse' },
 		{ name: 'ZOLOFT', manufacturer: 'zoloft' }
 	];
@@ -30,10 +33,10 @@ by displaying absolute price per capsule (not divided by strength)
 	}
 
 	interface Props {
-        selectedDrugIndex?: number;
-    }   
+		selectedDrugIndex?: number;
+	}
 
-    let { selectedDrugIndex = 8 }: Props = $props(); 
+	let { selectedDrugIndex = 8 }: Props = $props();
 
 	let loading = $state(true);
 	let error = $state<string | null>(null);
@@ -42,12 +45,11 @@ by displaying absolute price per capsule (not divided by strength)
 
 	// layout constants for the charts
 	let containerWidth = $state(0);
-	const chartWidth = $derived((containerWidth * 0.48) || 410);
+	const chartWidth = $derived(containerWidth * 0.48 || 410);
 	const chartHeight = $derived(chartWidth * 0.8);
 	const margin = { top: 10, right: 8, bottom: 30, left: 40 };
 
 	const colors = { red: '#C9381A', blue: '#3A7CA5', green: '#2D6A4F' };
-
 
 	// data loading on mount
 	onMount(async () => {
@@ -84,15 +86,15 @@ by displaying absolute price per capsule (not divided by strength)
 					drugData.is_brand === true
 				) {
 					console.log('found variation:', rxcui, drugData.name);
-					
+
 					try {
 						const priceResponse = await import(`$lib/data/prices/${rxcui}.json`);
 						const priceData = priceResponse.default;
-						
+
 						console.log('price data structure:', Object.keys(priceData));
 						console.log('Strength field:', priceData.Strength);
 						console.log('Form field:', priceData.Form);
-						
+
 						// get strength and form directly from JSON
 						const strengthLabel = priceData.Strength || '';
 						const form = priceData.Form || '';
@@ -108,8 +110,10 @@ by displaying absolute price per capsule (not divided by strength)
 									form,
 									mostRecentPrice
 								});
-								
-								console.log(`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} per capsule`);
+
+								console.log(
+									`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} per capsule`
+								);
 							}
 						}
 					} catch (e) {
@@ -139,7 +143,7 @@ by displaying absolute price per capsule (not divided by strength)
 				const date = parseDate(dateStr);
 				if (date && (mostRecentDate === null || date > mostRecentDate)) {
 					mostRecentDate = date;
-					mostRecentPrice = (price as number) / 30;;
+					mostRecentPrice = (price as number) / 30;
 				}
 			}
 		}
@@ -314,23 +318,21 @@ by displaying absolute price per capsule (not divided by strength)
 						{@const y = strengthScales.yScale(bar.value)}
 						{@const barWidth = strengthScales.xScale.bandwidth()}
 						{@const barHeight = chartHeight - margin.bottom - y}
-						{@const isCheapest = cheapestStrength && bar.label === cheapestStrength.label}
+						{@const roundedValue = Math.round(bar.value * 100) / 100}
+						{@const cheapestRounded = cheapestStrength
+							? Math.round(cheapestStrength.value * 100) / 100
+							: null}
+						{@const isCheapest = cheapestRounded !== null && roundedValue === cheapestRounded}
+						{@const barOpacity = isCheapest ? 1.0 : 0.8}
 
-						<rect
-							{x}
-							{y}
-							width={barWidth}
-							height={barHeight}
-							fill= '#9a2f1f'
-							opacity=0.8
-						/>
+						<rect {x} {y} width={barWidth} height={barHeight} fill="#9a2f1f" opacity={barOpacity} />
 						<text
 							x={x + barWidth / 2}
 							y={y - 5}
 							text-anchor="middle"
 							class="bar-label"
-                            fill= '#333'
-                            font-weight='bold'
+							fill="#333"
+							font-weight="bold"
 						>
 							${bar.value.toFixed(2)}
 						</text>
@@ -342,8 +344,7 @@ by displaying absolute price per capsule (not divided by strength)
 					transform="translate(0,{chartHeight - margin.bottom})"
 					bind:this={strengthXAxisRef}
 				></g>
-				<g class="y-axis" transform="translate({margin.left},0)" bind:this={strengthYAxisRef}
-				></g>
+				<g class="y-axis" transform="translate({margin.left},0)" bind:this={strengthYAxisRef}></g>
 
 				<!-- Y-axis label -->
 				<!-- <text
@@ -432,7 +433,6 @@ by displaying absolute price per capsule (not divided by strength)
 		outline: 2px solid #54707c;
 	}
 
-
 	.chart-wrapper {
 		flex: 1;
 		display: flex;
@@ -456,7 +456,7 @@ by displaying absolute price per capsule (not divided by strength)
 
 	.axis-label {
 		font-family: fustat;
-		font-size: .9em;
+		font-size: 0.9em;
 		font-weight: 500;
 	}
 
@@ -468,7 +468,7 @@ by displaying absolute price per capsule (not divided by strength)
 	}
 
 	.best-value strong {
-		color: #355B75;
+		color: #355b75;
 	}
 
 	/* y-axis font */

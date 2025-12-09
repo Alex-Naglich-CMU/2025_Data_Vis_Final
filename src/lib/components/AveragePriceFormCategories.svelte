@@ -22,7 +22,7 @@
 	let containerWidth = $state(0);
 	const chartWidth = $derived(containerWidth || 900);
 	const chartHeight = $derived(chartWidth * 0.65);
-	const margin = { top: 8, right: 10, bottom: 60, left: 60 };
+	const margin = { top: 8, right: 10, bottom: 80, left: 60 }; // Increased bottom margin for wrapped labels
 
 	onMount(async () => {
 		try {
@@ -169,13 +169,48 @@
 	// render axes
 	$effect(() => {
 		if (xAxisRef && categoryBars.length > 0) {
-			d3.select(xAxisRef).call(
-				d3.axisBottom(xScale).tickFormat((d) => {
-					// wrap long labels
-					const text = d as string;
-					return text.length > 15 ? text.substring(0, 15) + '...' : text;
-				})
-			);
+			d3.select(xAxisRef).call(d3.axisBottom(xScale));
+			
+			// Wrap long labels to multiple lines
+			d3.select(xAxisRef)
+				.selectAll('.tick text')
+				.each(function() {
+					const text = d3.select(this);
+					const words = (text.text() as string).split(/\s+/); // Split on spaces
+					const lineHeight = 1.1; // ems
+					const y = text.attr('y');
+					const dy = parseFloat(text.attr('dy') || '0');
+					const maxWidth = xScale.bandwidth(); // Use bandwidth as max width
+					
+					text.text(null);
+					
+					let line: string[] = [];
+					let lineNumber = 0;
+					let tspan = text.append('tspan').attr('x', 0).attr('y', y).attr('dy', dy + 'em');
+					
+					for (const word of words) {
+						line.push(word);
+						tspan.text(line.join(' '));
+						
+						const node = tspan.node();
+						if (node) {
+							const textLength = node.getComputedTextLength();
+							
+							// If text is too wide, break to next line
+							if (textLength > maxWidth && line.length > 1) {
+								line.pop(); // Remove the word that made it too long
+								tspan.text(line.join(' '));
+								line = [word]; // Start new line with current word
+								lineNumber++;
+								tspan = text.append('tspan')
+									.attr('x', 0)
+									.attr('y', y)
+									.attr('dy', lineNumber * lineHeight + dy + 'em')
+									.text(word);
+							}
+						}
+					}
+				});
 		}
 		if (yAxisRef && categoryBars.length > 0) {
 			d3.select(yAxisRef).call(d3.axisLeft(yScale).tickFormat((d) => `$${d}`));

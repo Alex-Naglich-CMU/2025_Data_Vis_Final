@@ -9,14 +9,17 @@ by calculating price per MG and displaying as sorted bar charts
 
 	// props and state stuff
 	const brandDrugs = [
-		{ name: 'GLUCOPHAGE', manufacturer: 'glucophage' },
+		// { name: 'GLUCOPHAGE', manufacturer: 'glucophage' },
+		{ name: 'LAMICTAL', manufacturer: 'lamictal' },
 		{ name: 'LANTUS', manufacturer: 'lantus' },
 		{ name: 'LEXAPRO', manufacturer: 'lexapro' },
 		{ name: 'LIPITOR', manufacturer: 'lipitor' },
 		{ name: 'LYRICA', manufacturer: 'lyrica' },
+		{ name: 'NEURONTIN', manufacturer: 'neurontin' },
 		{ name: 'NORVASC', manufacturer: 'norvasc' },
 		{ name: 'PROVIGIL', manufacturer: 'provigil' },
 		{ name: 'PROZAC', manufacturer: 'prozac' },
+		{ name: 'SYNTHROID', manufacturer: 'synthroid' },
 		{ name: 'VYVANSE', manufacturer: 'vyvanse' },
 		{ name: 'ZOLOFT', manufacturer: 'zoloft' }
 	];
@@ -35,7 +38,7 @@ by calculating price per MG and displaying as sorted bar charts
 		selectedDrugIndex: number;
 	}
 
-    let { selectedDrugIndex = 8 }: Props = $props(); 
+	let { selectedDrugIndex = 8 }: Props = $props();
 
 	let loading = $state(true);
 	let error = $state<string | null>(null);
@@ -44,7 +47,7 @@ by calculating price per MG and displaying as sorted bar charts
 
 	// layout constants for the charts
 	let containerWidth = $state(0);
-	const chartWidth = $derived((containerWidth * 0.48) || 410);
+	const chartWidth = $derived(containerWidth * 0.48 || 410);
 	const chartHeight = $derived(chartWidth * 0.8);
 	const margin = { top: 10, right: 8, bottom: 30, left: 40 };
 
@@ -107,8 +110,10 @@ by calculating price per MG and displaying as sorted bar charts
 									mostRecentPrice,
 									pricePerUnit
 								});
-								
-								console.log(`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} = $${pricePerUnit.toFixed(2)}/MG`);
+
+								console.log(
+									`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} = $${pricePerUnit.toFixed(2)}/MG`
+								);
 							}
 						}
 					} catch (e) {
@@ -212,7 +217,7 @@ by calculating price per MG and displaying as sorted bar charts
 			value: data.total / data.count
 		}));
 
-		/// sort alphabetically for easier side-by-side comparison 
+		/// sort alphabetically for easier side-by-side comparison
 		return bars.sort((a, b) => a.label.localeCompare(b.label));
 	});
 
@@ -306,7 +311,7 @@ by calculating price per MG and displaying as sorted bar charts
 		<p>Error loading data: {error}</p>
 	</div>
 {:else}
-	<div>		
+	<div>
 		<!-- form comparison chart -->
 		<div class="chart-wrapper">
 			<h6 class="chart-title">Average Price Per MG by Form</h6>
@@ -317,25 +322,23 @@ by calculating price per MG and displaying as sorted bar charts
 						{@const y = formScales.yScale(bar.value)}
 						{@const barWidth = formScales.xScale.bandwidth()}
 						{@const barHeight = chartHeight - margin.bottom - y}
-						{@const isCheapest = cheapestForm && bar.label === cheapestForm.label}
+						{@const roundedValue = Math.round(bar.value * 100) / 100}
+						{@const cheapestRounded = cheapestForm
+							? Math.round(cheapestForm.value * 100) / 100
+							: null}
+						{@const isCheapest = cheapestRounded !== null && roundedValue === cheapestRounded}
+						{@const barOpacity = isCheapest ? 1.0 : 0.8}
 
-						<rect
-							{x}
-							{y}
-							width={barWidth}
-							height={barHeight}
-							fill= '#9a2f1f'      
-							opacity=0.8
-						/>
+						<rect {x} {y} width={barWidth} height={barHeight} fill="#9a2f1f" opacity={barOpacity} />
 						<text
 							x={x + barWidth / 2}
 							y={y - 5}
 							text-anchor="middle"
 							class="bar-label"
-							fill='#333'
-							font-weight= 'bold'
+							fill="#333"
+							font-weight="bold"
 						>
-							${bar.value.toFixed(2)} 
+							${bar.value.toFixed(2)}
 						</text>
 					{/each}
 				</g>
@@ -405,7 +408,6 @@ by calculating price per MG and displaying as sorted bar charts
 		text-transform: uppercase;
 	}
 
-
 	.drug-selector {
 		display: flex;
 		align-items: center;
@@ -473,7 +475,7 @@ by calculating price per MG and displaying as sorted bar charts
 
 	.axis-label {
 		font-family: fustat;
-		font-size: .9em;
+		font-size: 0.9em;
 		font-weight: 500;
 	}
 
@@ -485,12 +487,11 @@ by calculating price per MG and displaying as sorted bar charts
 	}
 
 	.best-value strong {
-		color: #355B75;
+		color: #355b75;
 	}
 
 	/* y-axis font */
 	:global(.y-axis text) {
 		font-family: Antonio;
 	}
-
 </style>

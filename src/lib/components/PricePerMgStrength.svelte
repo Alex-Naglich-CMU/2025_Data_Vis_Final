@@ -9,7 +9,7 @@ by calculating price per MG and displaying as sorted bar charts
 
 	// props and state stuff
 	const brandDrugs = [
-		{ name: 'GLUCOPHAGE', manufacturer: 'glucophage', },
+		// { name: 'GLUCOPHAGE', manufacturer: 'glucophage' },
 		{ name: 'LANTUS', manufacturer: 'lantus' },
 		{ name: 'LEXAPRO', manufacturer: 'lexapro' },
 		{ name: 'LIPITOR', manufacturer: 'lipitor' },
@@ -32,14 +32,13 @@ by calculating price per MG and displaying as sorted bar charts
 	}
 
 	// new interface for props
-    interface Props {
-        selectedDrugIndex?: number;
-    }   
+	interface Props {
+		selectedDrugIndex?: number;
+	}
 
 	// where you make value bindable, set default to 8, then pass the props
 	//let { selectedDrugIndex = $bindable(8) }: Props = $props();
 	let { selectedDrugIndex = 8 }: Props = $props();
-
 
 	let loading = $state(true);
 	let error = $state<string | null>(null);
@@ -48,7 +47,7 @@ by calculating price per MG and displaying as sorted bar charts
 
 	// layout constants for the charts
 	let containerWidth = $state(0);
-	const chartWidth = $derived((containerWidth * 0.48) || 410);
+	const chartWidth = $derived(containerWidth * 0.48 || 410);
 	const chartHeight = $derived(chartWidth * 0.8);
 	const margin = { top: 10, right: 8, bottom: 30, left: 40 };
 
@@ -111,8 +110,10 @@ by calculating price per MG and displaying as sorted bar charts
 									mostRecentPrice,
 									pricePerUnit
 								});
-								
-								console.log(`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} = $${pricePerUnit.toFixed(2)}/MG`);
+
+								console.log(
+									`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} = $${pricePerUnit.toFixed(2)}/MG`
+								);
 							}
 						}
 					} catch (e) {
@@ -292,13 +293,12 @@ by calculating price per MG and displaying as sorted bar charts
 
 	// watch for drug selection changes
 	$effect(() => {
-        const currentIndex = selectedDrugIndex;
-        
-        if (currentIndex !== undefined && Object.keys(searchIndex).length > 0) {
+		const currentIndex = selectedDrugIndex;
+
+		if (currentIndex !== undefined && Object.keys(searchIndex).length > 0) {
 			loadDrugData();
 		}
 	});
-
 </script>
 
 <!--- content area --->
@@ -312,49 +312,46 @@ by calculating price per MG and displaying as sorted bar charts
 	</div>
 {:else}
 	<div>
-        <!-- strength comparison chart -->
-        <div class="chart-wrapper">
-            <h6 class="chart-title">Price Per MG</h6>
-            <svg width={chartWidth} height={chartHeight} role="img">
-                <g>
-                    {#each strengthBars as bar}
-                        {@const x = strengthScales.xScale(bar.label) ?? 0}
-                        {@const y = strengthScales.yScale(bar.value)}
-                        {@const barWidth = strengthScales.xScale.bandwidth()}
-                        {@const barHeight = chartHeight - margin.bottom - y}
-                        {@const isCheapest = cheapestStrength && bar.label === cheapestStrength.label}
+		<!-- strength comparison chart -->
+		<div class="chart-wrapper">
+			<h6 class="chart-title">Price Per MG</h6>
+			<svg width={chartWidth} height={chartHeight} role="img">
+				<g>
+					{#each strengthBars as bar}
+						{@const x = strengthScales.xScale(bar.label) ?? 0}
+						{@const y = strengthScales.yScale(bar.value)}
+						{@const barWidth = strengthScales.xScale.bandwidth()}
+						{@const barHeight = chartHeight - margin.bottom - y}
+						{@const roundedValue = Math.round(bar.value * 100) / 100}
+						{@const cheapestRounded = cheapestStrength
+							? Math.round(cheapestStrength.value * 100) / 100
+							: null}
+						{@const isCheapest = cheapestRounded !== null && roundedValue === cheapestRounded}
+						{@const barOpacity = isCheapest ? 1.0 : 0.8}
 
-                        <rect
-                            {x}
-                            {y}
-                            width={barWidth}
-                            height={barHeight}
-							fill= '#9a2f1f'      
-							opacity=0.8
-                        />
-                        <text
-                            x={x + barWidth / 2}
-                            y={y - 5}
-                            text-anchor="middle"
-                            class="bar-label"
-                            fill= '#333'
-                            font-weight='bold'
-                        >
-                            ${bar.value.toFixed(2)}
-                        </text>
-                    {/each}
-                </g>
+						<rect {x} {y} width={barWidth} height={barHeight} fill="#9a2f1f" opacity={barOpacity} />
+						<text
+							x={x + barWidth / 2}
+							y={y - 5}
+							text-anchor="middle"
+							class="bar-label"
+							fill="#333"
+							font-weight="bold"
+						>
+							${bar.value.toFixed(2)}
+						</text>
+					{/each}
+				</g>
 
-                <g
-                    class="x-axis"
-                    transform="translate(0,{chartHeight - margin.bottom})"
-                    bind:this={strengthXAxisRef}
-                ></g>
-                <g class="y-axis" transform="translate({margin.left},0)" bind:this={strengthYAxisRef}
-                ></g>
+				<g
+					class="x-axis"
+					transform="translate(0,{chartHeight - margin.bottom})"
+					bind:this={strengthXAxisRef}
+				></g>
+				<g class="y-axis" transform="translate({margin.left},0)" bind:this={strengthYAxisRef}></g>
 
-                <!-- Y-axis label -->
-                <!-- <text
+				<!-- Y-axis label -->
+				<!-- <text
                     transform="rotate(-90)"
                     x={-(chartHeight / 2)}
                     y={15}
@@ -363,17 +360,16 @@ by calculating price per MG and displaying as sorted bar charts
                 >
                     Price per MG
                 </text> -->
-            </svg>
+			</svg>
 
-            <!-- {#if cheapestStrength}
+			<!-- {#if cheapestStrength}
                 <div class="best-value">
                     Best Value: <strong>{cheapestStrength.label}</strong> at
                     <strong>${cheapestStrength.value.toFixed(3)}/MG</strong>
                 </div>
             {/if} -->
-        </div>
-    </div>
-
+		</div>
+	</div>
 {/if}
 
 <style>
@@ -405,7 +401,7 @@ by calculating price per MG and displaying as sorted bar charts
 		text-transform: uppercase;
 	}
 
-    h6 {
+	h6 {
 		font-family: fustat;
 		font-size: 1em;
 		font-weight: 600;
@@ -479,7 +475,7 @@ by calculating price per MG and displaying as sorted bar charts
 
 	.axis-label {
 		font-family: fustat;
-		font-size: .9em;
+		font-size: 0.9em;
 		font-weight: 500;
 	}
 
@@ -491,12 +487,11 @@ by calculating price per MG and displaying as sorted bar charts
 	}
 
 	.best-value strong {
-		color: #355B75;
+		color: #355b75;
 	}
 
 	/* y-axis font */
 	:global(.y-axis text) {
 		font-family: Antonio;
 	}
-
 </style>

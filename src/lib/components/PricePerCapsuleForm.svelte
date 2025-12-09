@@ -9,14 +9,17 @@ by displaying absolute price per capsule (not divided by strength)
 
 	// props and state stuff
 	const brandDrugs = [
-		{ name: 'GLUCOPHAGE', manufacturer: 'glucophage' },
+		// { name: 'GLUCOPHAGE', manufacturer: 'glucophage' },
+		{name: 'LAMICTAL', manufacturer: 'lamictal' },
 		{ name: 'LANTUS', manufacturer: 'lantus' },
 		{ name: 'LEXAPRO', manufacturer: 'lexapro' },
 		{ name: 'LIPITOR', manufacturer: 'lipitor' },
 		{ name: 'LYRICA', manufacturer: 'lyrica' },
+		{ name: 'NEURONTIN', manufacturer: 'neurontin' },
 		{ name: 'NORVASC', manufacturer: 'norvasc' },
 		{ name: 'PROVIGIL', manufacturer: 'provigil' },
 		{ name: 'PROZAC', manufacturer: 'prozac' },
+		{ name: 'SYNTHROID', manufacturer: 'synthroid' },
 		{ name: 'VYVANSE', manufacturer: 'vyvanse' },
 		{ name: 'ZOLOFT', manufacturer: 'zoloft' }
 	];
@@ -29,12 +32,12 @@ by displaying absolute price per capsule (not divided by strength)
 		mostRecentPrice: number;
 	}
 
-    interface Props {
-        selectedDrugIndex?: number;
-    }   
+	interface Props {
+		selectedDrugIndex?: number;
+	}
 
-	// take bindable line from other file, put this line in other file 
-    let { selectedDrugIndex = 8 }: Props = $props(); 
+	// take bindable line from other file, put this line in other file
+	let { selectedDrugIndex = 8 }: Props = $props();
 
 	let loading = $state(true);
 	let error = $state<string | null>(null);
@@ -43,7 +46,7 @@ by displaying absolute price per capsule (not divided by strength)
 
 	// layout constants for the charts
 	let containerWidth = $state(0);
-	const chartWidth = $derived((containerWidth * 0.48) || 410);
+	const chartWidth = $derived(containerWidth * 0.48 || 410);
 	const chartHeight = $derived(chartWidth * 0.8);
 	const margin = { top: 10, right: 8, bottom: 30, left: 40 };
 	// data loading on mount
@@ -81,15 +84,15 @@ by displaying absolute price per capsule (not divided by strength)
 					drugData.is_brand === true
 				) {
 					console.log('found variation:', rxcui, drugData.name);
-					
+
 					try {
 						const priceResponse = await import(`$lib/data/prices/${rxcui}.json`);
 						const priceData = priceResponse.default;
-						
+
 						console.log('price data structure:', Object.keys(priceData));
 						console.log('Strength field:', priceData.Strength);
 						console.log('Form field:', priceData.Form);
-						
+
 						// get strength and form directly from JSON
 						const strengthLabel = priceData.Strength || '';
 						const form = priceData.Form || '';
@@ -105,8 +108,10 @@ by displaying absolute price per capsule (not divided by strength)
 									form,
 									mostRecentPrice
 								});
-								
-								console.log(`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} per capsule`);
+
+								console.log(
+									`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} per capsule`
+								);
 							}
 						}
 					} catch (e) {
@@ -202,7 +207,7 @@ by displaying absolute price per capsule (not divided by strength)
 			value: data.total / data.count
 		}));
 
-		// sort alphabetically for easier side-by-side comparison 
+		// sort alphabetically for easier side-by-side comparison
 		return bars.sort((a, b) => a.label.localeCompare(b.label));
 	});
 
@@ -297,48 +302,45 @@ by displaying absolute price per capsule (not divided by strength)
 	</div>
 {:else}
 	<div>
-        <div class="chart-wrapper">
-            <h6 class="chart-title">Average Price Per Pill by Form</h6>
-            <svg width={chartWidth} height={chartHeight} role="img">
-                <g>
-                    {#each formBars as bar}
-                        {@const x = formScales.xScale(bar.label) ?? 0}
-                        {@const y = formScales.yScale(bar.value)}
-                        {@const barWidth = formScales.xScale.bandwidth()}
-                        {@const barHeight = chartHeight - margin.bottom - y}
-                        {@const isCheapest = cheapestForm && bar.label === cheapestForm.label}
+		<div class="chart-wrapper">
+			<h6 class="chart-title">Average Price Per Pill by Form</h6>
+			<svg width={chartWidth} height={chartHeight} role="img">
+				<g>
+					{#each formBars as bar}
+						{@const x = formScales.xScale(bar.label) ?? 0}
+						{@const y = formScales.yScale(bar.value)}
+						{@const barWidth = formScales.xScale.bandwidth()}
+						{@const barHeight = chartHeight - margin.bottom - y}
+						{@const roundedValue = Math.round(bar.value * 100) / 100}
+						{@const cheapestRounded = cheapestForm
+							? Math.round(cheapestForm.value * 100) / 100
+							: null}
+						{@const isCheapest = cheapestRounded !== null && roundedValue === cheapestRounded}
+						{@const barOpacity = isCheapest ? 1.0 : 0.8}
 
-                        <rect
-                            {x}
-                            {y}
-                            width={barWidth}
-                            height={barHeight}
-							fill= '#9a2f1f'      
-							opacity=0.8
-                      
-                        />
-                        <text
-                            x={x + barWidth / 2}
-                            y={y - 5}
-                            text-anchor="middle"
-                            class="bar-label"
-                            fill= '#333'
-                            font-weight='bold'
-                        >
-                            ${bar.value.toFixed(2)}
-                        </text>
-                    {/each}
-                </g>
+						<rect {x} {y} width={barWidth} height={barHeight} fill="#9a2f1f" opacity={barOpacity} />
+						<text
+							x={x + barWidth / 2}
+							y={y - 5}
+							text-anchor="middle"
+							class="bar-label"
+							fill="#333"
+							font-weight="bold"
+						>
+							${bar.value.toFixed(2)}
+						</text>
+					{/each}
+				</g>
 
-                <g
-                    class="x-axis"
-                    transform="translate(0,{chartHeight - margin.bottom})"
-                    bind:this={formXAxisRef}
-                ></g>
-                <g class="y-axis" transform="translate({margin.left},0)" bind:this={formYAxisRef}></g>
+				<g
+					class="x-axis"
+					transform="translate(0,{chartHeight - margin.bottom})"
+					bind:this={formXAxisRef}
+				></g>
+				<g class="y-axis" transform="translate({margin.left},0)" bind:this={formYAxisRef}></g>
 
-                <!-- Y-axis label -->
-                <!-- <text
+				<!-- Y-axis label -->
+				<!-- <text
                     transform="rotate(-90)"
                     x={-(chartHeight / 2)}
                     y={15}
@@ -347,16 +349,16 @@ by displaying absolute price per capsule (not divided by strength)
                 >
                     Price per Capsule
                 </text> -->
-            </svg>
+			</svg>
 
-            <!-- {#if cheapestForm}
+			<!-- {#if cheapestForm}
                 <div class="best-value">
                     Best Value: <strong>{cheapestForm.label}</strong> at
                     <strong>${cheapestForm.value.toFixed(2)}</strong>
                 </div>
             {/if} -->
-        </div>
-    </div>
+		</div>
+	</div>
 {/if}
 
 <style>
@@ -424,7 +426,6 @@ by displaying absolute price per capsule (not divided by strength)
 		outline: 2px solid #54707c;
 	}
 
-
 	.chart-wrapper {
 		flex: 1;
 		display: flex;
@@ -448,7 +449,7 @@ by displaying absolute price per capsule (not divided by strength)
 
 	.axis-label {
 		font-family: fustat;
-		font-size: .9em;
+		font-size: 0.9em;
 		font-weight: 500;
 	}
 
@@ -460,7 +461,7 @@ by displaying absolute price per capsule (not divided by strength)
 	}
 
 	.best-value strong {
-		color: #355B75;
+		color: #355b75;
 	}
 
 	/* y-axis font */
