@@ -260,6 +260,47 @@
 				</div>
 			</div>
 
+			<div class='slide-section'>
+				<div class="cause-section-container">
+					<h3>Does dosage affect cost?</h3>
+					<br /> 
+					<p>
+						Even though the amount patients pay per MG may decrease as dosage increases, the price of each pill emains relatively constant independent of dosage. When a certain dosage is unusually high, it is usually due to market exclusivity rather than the drug's formulation. 
+					</p>
+					<div class="width-tracker mid-chart">
+						<div class="charts-container">
+							<PricePerMgStrength {selectedDrugIndex} />
+							<PricePerCapsuleStrength {selectedDrugIndex}/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class='slide-section'>
+				<div class="cause-section-container">
+					<h3>What about the delivery form?</h3>
+					<br /> 
+					<p>
+						For oral medications, the differences between price in delivery method are also relatively minor for different versions of the same drug. Forms that do affect cost generally have specialized or patented technologies.
+					</p>
+					<!-- add a couple sentences if the person's selected drug doesn't have a second form and have it default to a different drug -->
+					<div class="width-tracker mid-chart">
+						<div class="charts-container">
+							<PricePerMgForm {selectedDrugIndex} />
+							<PricePerCapsuleForm {selectedDrugIndex} />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<p>
+					Forms between different medications play a much larger role in predicting the cost. By far the most expensive form of drug delivery is injections, such as for insulin or epinepherine. Injections are followed by inhalation, such as for asthma medication, and then delayed or extended release capsules. Again, exclusive or proprietary technology plays a role. 
+				</p>
+				<div class="mid-chart">
+					<AveragePriceFormCategories />
+				</div>
+			</div>
 
 			<div class='slide-section'>
 				<div class='impact'>
@@ -301,8 +342,6 @@
 				</div>
 			</div>
 
-
-
 			<div class='slide-section'>
 				<div class="intro-holder">
 					<h2>So what can we do, and how do we fix this? </h2>
@@ -332,61 +371,6 @@
 					<p>→ <a href="https://nashp.org/state-tracker/2025-state-legislation-to-lower-prescription-drug-costs/" target="_blank" rel="noopener noreferrer">2025 State Tracker</a></p>
 				</div>
 			</div>
-
-
-			<div class="cause-section-container slide-section">
-				<h3>Does dosage affect cost?</h3>
-				<br /> 
-				<p>
-					Even though the amount patients pay per MG may decrease as dosage increases, the price of each pill emains relatively constant independent of dosage. When a certain dosage is unusually high, it is usually due to market exclusivity rather than the drug's formulation. 
-				</p>
-				<div class="width-tracker mid-chart">
-					<div class="charts-container">
-						<PricePerMgStrength {selectedDrugIndex} />
-						<PricePerCapsuleStrength {selectedDrugIndex}/>
-					</div>
-				</div>
-			</div>
-			
-			<br />
-			<div class="cause-section-container slide-section">
-				<h3>What about the delivery form?</h3>
-				<br /> 
-				<p>
-					For oral medications, the differences between price in delivery method are also relatively minor for different versions of the same drug. Forms that do affect cost generally have specialized or patented technologies.
-				</p>
-				<!-- add a couple sentences if the person's selected drug doesn't have a second form and have it default to a different drug -->
-				<div class="width-tracker mid-chart">
-					<div class="charts-container">
-						<PricePerMgForm {selectedDrugIndex} />
-						<PricePerCapsuleForm {selectedDrugIndex} />
-					</div>
-				</div>
-				<br /> 
-				<p>
-					Forms between different medications play a much larger role in predicting the cost. By far the most expensive form of drug delivery is injections, such as for insulin or epinepherine. Injections are followed by inhalation, such as for asthma medication, and then delayed or extended release capsules. Again, exclusive or proprietary technology plays a role. 
-				</p>
-				<div class="mid-chart">
-					<AveragePriceFormCategories />
-				</div>
-			</div>
-			
-			<div class="cause-section-container slide-section">
-				<h3>Do these numbers </h3>
-			</div>
-
-			ANISSA LOOK HERE!!!!
-			ANISSA LOOK HERE!!!!
-			ANISSA LOOK HERE!!!!
-			ANISSA LOOK HERE!!!!
-			
-			<h4>→</h4>
-
-
-
-			
-			<InsulinComparison />
-
 		</div> 
 		
 		<!-- I know this syntax is a bit wonky -->
