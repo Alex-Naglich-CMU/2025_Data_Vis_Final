@@ -47,8 +47,8 @@ MODIFIED: Shows average price per year instead of all data points
 	// layout constants
 	const drugColors = d3.schemeCategory10 as string[];
 	let containerWidth = $state(0);
-	const width = $derived(containerWidth * 0.75 || 900);
-	const height = $derived(width * 0.6);
+	const width = $derived(containerWidth * 0.65 || 900);
+	const height = $derived(width * 0.7);
 	const margin = { top: 40, right: 40, bottom: 60, left: 80 };
 
 	// data loading
@@ -68,8 +68,19 @@ MODIFIED: Shows average price per year instead of all data points
 					const fullName = drugData.name || '';
 					const manufacturerName = drugData.manufacturer_name || '';
 
-					// extract dosage and form from full name
-					const dosageMatch = fullName.replace(new RegExp(manufacturerName, 'i'), '').trim();
+					// Remove both manufacturerName and ' [manufacturerName]' from fullName
+					let dosageMatch = fullName;
+					if (manufacturerName) {
+						// Remove ' [manufacturerName]' if present
+						const bracketed = ` [${manufacturerName}]`;
+						if (dosageMatch.endsWith(bracketed)) {
+							dosageMatch = dosageMatch.slice(0, -bracketed.length).trim();
+						}
+						// Remove manufacturerName if present at the end
+						if (dosageMatch.endsWith(manufacturerName)) {
+							dosageMatch = dosageMatch.slice(0, -manufacturerName.length).trim();
+						}
+					}
 
 					const displayName =
 						manufacturerName && dosageMatch
@@ -197,12 +208,31 @@ MODIFIED: Shows average price per year instead of all data points
 		}
 	}
 
-	// search filtered drugs from allBrandDrugs (not loaded data)
+	// 7 main categories for sidebar filter chips
+	const SIDEBAR_FORM_CATEGORIES = [
+		'Delayed/Extended Release Oral Capsules',
+		'Delayed/Extended Release Oral Tablets',
+		'Oral Capsule',
+		'Oral Tablet',
+		'Injection',
+		'Inhalation',
+		'Topical'
+	];
+	let sidebarFormCategory = $state<string>('');
+
+	// search and sidebar-chip filtered drugs from allBrandDrugs (not loaded data)
 	const searchFilteredDrugs = $derived(
 		allBrandDrugs.filter((drug) => {
-			if (!searchQuery.trim()) return true;
+			// Filter by search string
+			const matchesSearch =
+				!searchQuery.trim() || drug.name.toLowerCase().includes(searchQuery.toLowerCase());
+			if (!matchesSearch) return false;
 
-			return drug.name.toLowerCase().includes(searchQuery.toLowerCase());
+			// Filter by sidebar chip (if any)
+			if (!sidebarFormCategory) return true;
+
+			const formCategory = searchIndex[drug.rxcui]?.formCategory || '';
+			return formCategory === sidebarFormCategory;
 		})
 	);
 
@@ -236,10 +266,8 @@ MODIFIED: Shows average price per year instead of all data points
 			})
 	);
 
-	// drug list for sidebar - shows search results, using most_recent_price from search index
 	const drugListItems = $derived(
 		searchFilteredDrugs.map((drug) => {
-			// Use most_recent_price from searchIndex if available
 			const price = searchIndex[drug.rxcui]?.most_recent_price ?? null;
 			return {
 				rxcui: drug.rxcui,
@@ -546,68 +574,93 @@ MODIFIED: Shows average price per year instead of all data points
 					</div>
 
 					<!-- drug selection section -->
-					<div class="drug-selection-section">
-						<ul class="drug-list" role="listbox">
-							{#each drugListItems as item, index}
-								{@const color = item.isSelected
-									? drugColors[selectedRxcuis.indexOf(item.rxcui) % drugColors.length]
-									: '#888'}
-								<li
-									class="drug-list-item"
-									class:selected={item.isSelected}
-									class:loading={item.isLoading}
-									onclick={() => toggleDrugSelection(item.rxcui, item.name)}
-									onkeydown={(e) => {
-										if (e.key === 'Enter' || e.key === ' ')
-											toggleDrugSelection(item.rxcui, item.name);
-									}}
-									role="option"
-									aria-selected={item.isSelected}
-									tabindex="0"
-									style="border-left: 4px solid {color}; {item.isSelected
-										? `background-color: ${color}70;`
-										: ''}"
-								>
-									<span class="checkmark">
-										{#if item.isLoading}
-											<span class="spinner">⏳</span>
-										{:else if item.isSelected}
-											✓
-										{/if}
-									</span>
-									<span class="drug-name">{item.name.toUpperCase()}</span>
-									{#if item.price !== null}
-										<span class="drug-price">${item.price.toFixed(2)}</span>
-									{/if}
-								</li>
-							{/each}
-						</ul>
-						<hr />
-						<div class="border-top mt-2 mb-2 flex items-center justify-between">
-							<label for="drug-list" class="text-lg">Selected:</label>
+					<div class="flex flex-row">
+						<div class="drug-selection-section flex-col">
+							<div class="flex flex-row">
+								<ul class="drug-list w-2/3" role="listbox">
+									{#each drugListItems as item, index}
+										{@const color = item.isSelected
+											? drugColors[selectedRxcuis.indexOf(item.rxcui) % drugColors.length]
+											: '#888'}
+										<li
+											class="drug-list-item"
+											class:selected={item.isSelected}
+											class:loading={item.isLoading}
+											onclick={() => toggleDrugSelection(item.rxcui, item.name)}
+											onkeydown={(e) => {
+												if (e.key === 'Enter' || e.key === ' ')
+													toggleDrugSelection(item.rxcui, item.name);
+											}}
+											role="option"
+											aria-selected={item.isSelected}
+											tabindex="0"
+											style="border-left: 4px solid {color}; {item.isSelected
+												? `background-color: ${color}70;`
+												: ''}"
+										>
+											<span class="checkmark">
+												{#if item.isLoading}
+													<span class="spinner">⏳</span>
+												{:else if item.isSelected}
+													✓
+												{/if}
+											</span>
+											<span class="drug-name">{item.name.toUpperCase()}</span>
+											{#if item.price !== null}
+												<span class="drug-price">${item.price.toFixed(2)}</span>
+											{/if}
+										</li>
+									{/each}
+								</ul>
+								<div class="filter-list w-1/3 pl-4">
+									<div
+										class="form-filter-chips flex w-full flex-col"
+										style="margin-bottom: 0.5rem;"
+									>
+										{#each SIDEBAR_FORM_CATEGORIES as category}
+											{@const isSelected = sidebarFormCategory === category}
+											<button
+												class="form-chip"
+												style="white-space: normal; word-break: break-word;"
+												class:selected={isSelected}
+												onclick={() => (sidebarFormCategory = isSelected ? '' : category)}
+											>
+												{category}
+											</button>
+										{/each}
+									</div>
+								</div>
+							</div>
+							<hr />
+							<div>
+								<div class="border-top mt-2 mb-2 flex items-center justify-between">
+									<label for="drug-list" class="text-lg">Selected:</label>
+								</div>
+								<ul class="selected-list" role="listbox">
+									{#each selectedDrugsWithData as item, index}
+										{@const color =
+											drugColors[selectedRxcuis.indexOf(item.rxcui) % drugColors.length]}
+										{@const price = getMostRecentPrice(item)}
+										<li
+											class="selected-list-item"
+											onclick={() => toggleDrugSelection(item.rxcui, item.friendlyName)}
+											onkeydown={(e) => {
+												if (e.key === 'Enter' || e.key === ' ')
+													toggleDrugSelection(item.rxcui, item.friendlyName);
+											}}
+											role="option"
+											aria-selected={true}
+											tabindex="0"
+											style="border-left: 4px solid {color}; background-color: {color}70;"
+										>
+											<span class="checkmark">✕</span>
+											<span class="drug-name">{item.friendlyName.toUpperCase()}</span>
+											<span class="drug-price">${price.toFixed(2)}</span>
+										</li>
+									{/each}
+								</ul>
+							</div>
 						</div>
-						<ul class="selected-list" role="listbox">
-							{#each selectedDrugsWithData as item, index}
-								{@const color = drugColors[selectedRxcuis.indexOf(item.rxcui) % drugColors.length]}
-								{@const price = getMostRecentPrice(item)}
-								<li
-									class="selected-list-item"
-									onclick={() => toggleDrugSelection(item.rxcui, item.friendlyName)}
-									onkeydown={(e) => {
-										if (e.key === 'Enter' || e.key === ' ')
-											toggleDrugSelection(item.rxcui, item.friendlyName);
-									}}
-									role="option"
-									aria-selected={true}
-									tabindex="0"
-									style="border-left: 4px solid {color}; background-color: {color}70;"
-								>
-									<span class="checkmark">✕</span>
-									<span class="drug-name">{item.friendlyName.toUpperCase()}</span>
-									<span class="drug-price">${price.toFixed(2)}</span>
-								</li>
-							{/each}
-						</ul>
 					</div>
 				</div>
 			</div>
@@ -635,9 +688,9 @@ MODIFIED: Shows average price per year instead of all data points
 		display: flex;
 		flex-wrap: nowrap;
 		gap: 0.5rem;
-		padding: 0.75rem 1rem;
 		border-bottom: 1px solid #ccc;
 		margin-bottom: 1rem;
+		margin-top: 1rem;
 		width: 100%;
 		box-sizing: border-box;
 		overflow-x: auto;
@@ -875,7 +928,7 @@ MODIFIED: Shows average price per year instead of all data points
 
 	.side-bar {
 		padding: 10px 10px 10px 20px;
-		width: 25%;
+		width: 35%;
 		display: flex;
 		flex-direction: column;
 		border-left: 1px solid #ccc;

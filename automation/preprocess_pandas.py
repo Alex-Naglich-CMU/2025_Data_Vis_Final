@@ -1,3 +1,23 @@
+def categorize_dosage_form(form):
+    if not form:
+        return "Other"
+    f = form.lower()
+    if "delayed" in f or "extended" in f:
+        if "capsule" in f:
+            return "Delayed/Extended Release Oral Capsules"
+        if "tablet" in f:
+            return "Delayed/Extended Release Oral Tablets"
+    if "capsule" in f:
+        return "Oral Capsule"
+    if "tablet" in f:
+        return "Oral Tablet"
+    if "injection" in f or "injectable" in f:
+        return "Injection"
+    if "inhalation" in f:
+        return "Inhalation"
+    if "topical" in f or "cream" in f or "ointment" in f or "gel" in f:
+        return "Topical"
+    return "Other"
 import pandas as pd
 import json
 import os
@@ -527,6 +547,8 @@ if created_files:
                     "ingredient_name": ingredient_name, 
                     "manufacturer_name": manufacturer_name, 
                     "most_recent_price": most_recent_price
+                    ,"form": data.get("Form", "")
+                    ,"formCategory": categorize_dosage_form(data.get("Form", ""))
                 }
 
                 search_index_all[rxcui] = entry
