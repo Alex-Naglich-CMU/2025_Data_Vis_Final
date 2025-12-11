@@ -105,6 +105,10 @@ MODIFIED: Shows average price per year instead of all data points
 			loading = false;
 			console.error('error loading search index:', err);
 		}
+
+		// Load Abilify on mount to have one drug loaded by default
+		const rxcui = '1602604';
+		toggleDrugSelection(rxcui, "Abilify");
 	});
 
 	// convert prices object to chart points - averaged by year
@@ -169,6 +173,15 @@ MODIFIED: Shows average price per year instead of all data points
 			return existing;
 		}
 
+		// If friendlyName not provided, look it up
+		let name = friendlyName;
+		if (!name) {
+			const found = allBrandDrugs.find((d) => d.rxcui === rxcui);
+			if (found) name = found.name;
+			else if (searchIndex[rxcui]) name = searchIndex[rxcui].name || '';
+			else name = '';
+		}
+
 		// mark as loading
 		loadingRxcuis = [...loadingRxcuis, rxcui];
 
@@ -188,7 +201,7 @@ MODIFIED: Shows average price per year instead of all data points
 
 			const drugData: DrugData = {
 				rxcui,
-				friendlyName,
+				friendlyName: name,
 				form,
 				formCategory,
 				prices: priceData.prices
@@ -196,7 +209,7 @@ MODIFIED: Shows average price per year instead of all data points
 
 			// store in array
 			loadedDrugs = [...loadedDrugs, drugData];
-			console.log(`Loaded: ${friendlyName}`);
+			console.log(`Loaded: ${name}`);
 
 			// remove from loading
 			loadingRxcuis = loadingRxcuis.filter((r) => r !== rxcui);
@@ -406,7 +419,7 @@ MODIFIED: Shows average price per year instead of all data points
 		d3.select(ref).call(yAxis);
 	}
 
-	async function toggleDrugSelection(rxcui: string, friendlyName: string) {
+	async function toggleDrugSelection(rxcui: string, friendlyName?: string) {
 		if (selectedRxcuis.includes(rxcui)) {
 			// deselect
 			selectedRxcuis = selectedRxcuis.filter((r) => r !== rxcui);
@@ -416,7 +429,7 @@ MODIFIED: Shows average price per year instead of all data points
 
 			// load data if not already loaded
 			if (!loadedDrugs.find((d) => d.rxcui === rxcui)) {
-				await loadDrugData(rxcui, friendlyName);
+				await loadDrugData(rxcui, friendlyName ?? '');
 			}
 		}
 	}
@@ -446,7 +459,7 @@ MODIFIED: Shows average price per year instead of all data points
 			<div class="chart-wrapper" bind:this={chartContainerRef}>
 				<!-- form filter chips above chart -->
 				{#if availableFormCategories.length > 0}
-					<div class="form-filter-chips ml-1 mb-4 pb-4">
+					<div class="form-filter-chips mb-4 ml-1 pb-4">
 						{#each availableFormCategories as category}
 							{@const isSelected = selectedFormCategories.includes(category)}
 							<button
@@ -606,9 +619,9 @@ MODIFIED: Shows average price per year instead of all data points
 												{/if}
 											</span>
 											<span class="drug-name">{item.name.toUpperCase()}</span>
-											{#if item.price !== null}
+											<!-- {#if item.price !== null}
 												<span class="drug-price">${item.price.toFixed(2)}</span>
-											{/if}
+											{/if} -->
 										</li>
 									{/each}
 								</ul>
@@ -655,7 +668,7 @@ MODIFIED: Shows average price per year instead of all data points
 										>
 											<span class="checkmark">✕</span>
 											<span class="drug-name">{item.friendlyName.toUpperCase()}</span>
-											<span class="drug-price">${price.toFixed(2)}</span>
+											<!-- <span class="drug-price">${price.toFixed(2)}</span> -->
 										</li>
 									{/each}
 								</ul>
@@ -903,7 +916,7 @@ MODIFIED: Shows average price per year instead of all data points
 	}
 
 	.width-tracker {
-		margin: 20px 40px;
+		margin: 20px 0px;
 	}
 
 	.content-wrapper {
