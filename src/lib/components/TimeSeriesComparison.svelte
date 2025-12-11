@@ -81,7 +81,7 @@
 	const height = $derived(width * 0.62);
 	const margin = { top: 10, right: 5, bottom: 40, left: 40 };
 	const smallWidth = $derived(availableWidth * 0.35); 
-	const smallHeight = $derived(smallWidth * 0.6);
+	const smallHeight = $derived(smallWidth * 0.7);
 	const smallMargin = { top: 10, right: 20, bottom: 40, left: 0 };
 
 	// DATA LOADING
@@ -574,7 +574,7 @@
 	}
 
 	.width-tracker {
-		margin: 20px 40px;
+		margin: 20px 0px;
 	}
 
 	.content-wrapper {

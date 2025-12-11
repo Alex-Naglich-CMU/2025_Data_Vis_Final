@@ -11,7 +11,7 @@
 	import PricePerCapsuleForm from '$lib/components/PricePerCapsuleForm.svelte';
 	import PricePerCapsuleStrength from '$lib/components/PricePerCapsuleStrength.svelte';
 	import AnimatedSeriesPaginated from '$lib/components/AnimatedSeriesPaginated.svelte';
- 	import AnimatedSeriesPaginated2 from '$lib/components/AnimatedSeriesPaginated2.svelte';
+	import AnimatedSeriesPaginated2 from '$lib/components/AnimatedSeriesPaginated2.svelte';
 	import InflationComparison from '$lib/components/InflationComparison.svelte';
 	import AveragePriceFormCategories from '$lib/components/AveragePriceFormCategories.svelte';
 	import DropChart from '$lib/components/DropChart.svelte';
@@ -21,7 +21,7 @@
 	import DrugSelector from '$lib/components/DrugSelector.svelte';
 
 	let selectedDrugIndex = $state(8);
-	
+
 	const brandDrugs = [
 		{ name: 'LAMICTAL', image: 'Lamictal.png' },
 		{ name: 'LANTUS', image: 'Lantus.png' },
@@ -37,21 +37,19 @@
 		{ name: 'ZOLOFT', image: 'Zoloft.png' }
 	];
 
-
 	//default values for scrolling effect
 	let currentSection = $state(0);
 	let isTransitioning = $state(false);
 	let totalSections = $state(0);
 
 	onMount(() => {
-
-		//find & count each 'anchor' section 
+		//find & count each 'anchor' section
 		const sections = document.querySelectorAll('.slide-section');
 		totalSections = sections.length;
 
 		let scrollMovementSum = 0;
 		const threshold = 15;
-		
+
 		const handleWheel = (e: WheelEvent) => {
 			//prevent users from srolling during transition
 			if (isTransitioning) {
@@ -61,28 +59,32 @@
 
 			//don't zoom in on charts
 			const target = e.target as HTMLElement;
-			if (target.closest('.inflation-section') || target.closest('svg') || target.closest('.chart-area')) {
-				return; 
+			if (
+				target.closest('.inflation-section') ||
+				target.closest('svg') ||
+				target.closest('.chart-area')
+			) {
+				return;
 			}
-			
+
 			// add user scroll to total scroll movemetn
 			scrollMovementSum += e.deltaY;
-			
+
 			// Scrolling down to next section
 			if (scrollMovementSum > threshold && currentSection < totalSections - 1) {
 				const currentSectionElement = sections[currentSection];
 				const currentRect = currentSectionElement.getBoundingClientRect();
-				
+
 				if (currentRect.top >= -20 && currentRect.top <= 15) {
 					isTransitioning = true;
 					currentSection += 1;
 					scrollMovementSum = 0;
-					
+
 					document.body.style.overflow = 'hidden';
-					
+
 					const nextSection = sections[currentSection];
 					nextSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-					setTimeout(() => { 
+					setTimeout(() => {
 						isTransitioning = false;
 						// reset overflow to allow scrolling again
 						document.body.style.overflow = '';
@@ -91,29 +93,28 @@
 					//reset to prevent false triggers
 					scrollMovementSum = 0;
 				}
-			} 
+			}
 			// Scrolling up to previous section
 			else if (scrollMovementSum < -threshold && currentSection > 0) {
 				const currentRect = sections[currentSection].getBoundingClientRect();
-				
+
 				if (currentRect.top >= -30) {
 					isTransitioning = true;
 					currentSection -= 1;
 					scrollMovementSum = 0;
-					
+
 					document.body.style.overflow = 'hidden';
 
 					const prevSection = sections[currentSection];
 					prevSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-					setTimeout(() => { 
+					setTimeout(() => {
 						isTransitioning = false;
 						// reset overflow to allow scrolling again
 						document.body.style.overflow = '';
-
 					}, 1200);
 				}
 			}
-			
+
 			if (Math.abs(scrollMovementSum) > threshold * 20) {
 				scrollMovementSum = 0;
 			}
@@ -121,43 +122,54 @@
 
 		//listen for mouse wheel movement
 		window.addEventListener('wheel', handleWheel, { passive: false });
-		
+
 		return () => {
 			window.removeEventListener('wheel', handleWheel);
 		};
 	});
-
 </script>
 
-<div class='slideshow-wrapper'>
-	<div class='page-container'> 
-		<div class='intro-container'> 
+<div class="slideshow-wrapper">
+	<div class="page-container">
+		<div class="intro-container">
 			<!--Intro Screen -->
 			<div class="title-holder slide-section">
 				<div class="title">
 					<h1 class="headerTitle">Do You Know the <u>Actual Cost</u> of Your Medications?</h1>
 				</div>
 				<div class="pillsImages">
-					<img class="pillpics" src={asset('/images/pills/pill01.png')} alt="red pill illustration" />
-					<img class="pillpics" src={asset('/images/pills/pill02.png')} alt="blue pill illustration" />
-					<img class="pillpics" src={asset('/images/pills/pill03.png')} alt="tan pill illustration" />
+					<img
+						class="pillpics"
+						src={asset('/images/pills/pill01.png')}
+						alt="red pill illustration"
+					/>
+					<img
+						class="pillpics"
+						src={asset('/images/pills/pill02.png')}
+						alt="blue pill illustration"
+					/>
+					<img
+						class="pillpics"
+						src={asset('/images/pills/pill03.png')}
+						alt="tan pill illustration"
+					/>
 				</div>
 			</div>
 
 			<!--drug selector -->
-			<div class='drug-select-container slide-section'>
+			<div class="drug-select-container slide-section">
 				<p>
-					According
-					to
+					According to
 					<a
 						href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10656114/"
 						target="_blank"
 						rel="noopener noreferrer">a 2023 study</a
-					>, a person born today could expect to take prescription medications for roughly half of their life. 
-					These are some of the most common prescriptions in the US. Pick one to learn more about its price. 
+					>, a person born today could expect to take prescription medications for roughly half of
+					their life. These are some of the most common prescriptions in the US. Pick one to learn
+					more about its price.
 				</p>
 				<br />
-				<h4>Pick one to learn more about its price. </h4>
+				<h4>Pick one to learn more about its price.</h4>
 				<br />
 				<div class="drug-selector">
 					<div class="drug-radios">
@@ -182,21 +194,17 @@
 				<div class="intro-holder">
 					<h2>The state of drug pricing in America</h2>
 					<br />
-					<h3>
-						The use of prescription drugs is increasing
-					</h3>
-					<br>
+					<h3>The use of prescription drugs is increasing</h3>
+					<br />
 					<p>
-						Prescription drug use is at an all-time high in the United States, in part due to increases in
-						medicalization, population aging, and growing rates of diagnoses of chronic diseases. At
-						the same time, everyone in the US seems to agree that 
+						Prescription drug use is at an all-time high in the United States, in part due to
+						increases in medicalization, population aging, and growing rates of diagnoses of chronic
+						diseases. At the same time, everyone in the US seems to agree that
 						<b>the current cost of prescription medications is too high.</b>
 						Just look at the sample of news articles from this year alone ↓
 					</p>
 					<br />
-					<p>
-						
-					</p>
+					<p></p>
 					<br />
 					<h4 class="section-title">Explore recent headlines:</h4>
 					<div class="news-holder">
@@ -205,78 +213,89 @@
 				</div>
 			</div>
 
-			<div class='slide-section'>
+			<div class="slide-section">
 				<div class="price-increase-section">
 					<h3>Are prices increasing, or does it just feel that way?</h3>
 					<br />
 					<p>
-						It turns out that between 2017 and 2025, <b>more drug prices decreased</b> instead of increased. But are these figures telling us the whole story? 
+						It turns out that between 2017 and 2025, <b>more drug prices decreased</b> instead of increased.
+						But are these figures telling us the whole story?
 					</p>
 					<IntroChart />
 				</div>
 			</div>
-			
-			<div class='slide-section'>
+
+			<div class="slide-section">
 				<div class="price-increase-section">
 					<p>
-						For now, let's ignore the drugs whose prices stay the same. If we look at the actual price amount each drug increased or decreased by, the data looks very different. 
-						Although slightly more drugs decreased in price than increased, the total dollar increase is much larger than the total dollar decrease.
+						For now, let's ignore the drugs whose prices stay the same. If we look at the actual
+						price amount each drug increased or decreased by, the data looks very different.
+						Although slightly more drugs decreased in price than increased, the total dollar
+						increase is much larger than the total dollar decrease.
 					</p>
 					<IntroChart2 />
 					<p>
-						When we only look at the number of drugs whose prices have increased or decreased, we're missing critical context. Let's be clear, 
+						When we only look at the number of drugs whose prices have increased or decreased, we're
+						missing critical context. Let's be clear,
 						<b>drug prices are getting worse.</b>
 					</p>
 				</div>
 			</div>
 
-			<div class='slide-section'>
+			<div class="slide-section">
 				<div class="inflation-section">
 					<h3>Is the drug you selected outpacing inflation?</h3>
 					<br />
-					<InflationComparison {selectedDrugIndex}/>
+					<InflationComparison {selectedDrugIndex} />
 				</div>
 			</div>
-			
+
 			<div class="slide-section">
-				<div class='causes-intro'>
-					<h2>What are the causes? </h2>
+				<div class="causes-intro">
+					<h2>What are the causes?</h2>
 					<br />
 					<p>
-						Looking for trends in what contributes to higher drug prices is complicated. 
-						Prescription drugs cover a wide spectrum so they are not always easy to compare. 
-						Some medications only require a short course and some require lifelong use. Some need to be taken every day and others monthly or only as-needed. 
-						Prescriptions also span types ranging anywhere from oral tablets to topical foams. 
+						Looking for trends in what contributes to higher drug prices is complicated.
+						Prescription drugs cover a wide spectrum so they are not always easy to compare. Some
+						medications only require a short course and some require lifelong use. Some need to be
+						taken every day and others monthly or only as-needed. Prescriptions also span types
+						ranging anywhere from oral tablets to topical foams.
 					</p>
 					<br />
 					<p>
-						If we look at this in the simplest way, causes can be broken down into two categories: development costs, and systemic factors. 
+						If we look at this in the simplest way, causes can be broken down into two categories:
+						development costs, and systemic factors.
 					</p>
 				</div>
 			</div>
 
-			<div class='slide-section'>
+			<div class="slide-section">
 				<div class="cause-section-container">
 					<h3>Does dosage affect cost?</h3>
-					<br /> 
+					<br />
 					<p>
-						Even though the amount patients pay per MG may decrease as dosage increases, the price of each pill emains relatively constant independent of dosage. When a certain dosage is unusually high, it is usually due to market exclusivity rather than the drug's formulation. 
+						Even though the amount patients pay per MG may decrease as dosage increases, the price
+						of each pill emains relatively constant independent of dosage. When a certain dosage is
+						unusually high, it is usually due to market exclusivity rather than the drug's
+						formulation.
 					</p>
 					<div class="width-tracker mid-chart">
 						<div class="charts-container">
 							<PricePerMgStrength {selectedDrugIndex} />
-							<PricePerCapsuleStrength {selectedDrugIndex}/>
+							<PricePerCapsuleStrength {selectedDrugIndex} />
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class='slide-section'>
+			<div class="slide-section">
 				<div class="cause-section-container">
 					<h3>What about the delivery form?</h3>
-					<br /> 
+					<br />
 					<p>
-						For oral medications, the differences between price in delivery method are also relatively minor for different versions of the same drug. Forms that do affect cost generally have specialized or patented technologies.
+						For oral medications, the differences between price in delivery method are also
+						relatively minor for different versions of the same drug. Forms that do affect cost
+						generally have specialized or patented technologies.
 					</p>
 					<!-- add a couple sentences if the person's selected drug doesn't have a second form and have it default to a different drug -->
 					<div class="width-tracker mid-chart">
@@ -288,20 +307,31 @@
 				</div>
 			</div>
 
-			<div>
-				<p>
-					Forms between different medications play a much larger role in predicting the cost. By far the most expensive form of drug delivery is injections, such as for insulin or epinepherine. Injections are followed by inhalation, such as for asthma medication, and then delayed or extended release capsules. Again, exclusive or proprietary technology plays a role. 
-				</p>
-				<div class="mid-chart">
-					<AveragePriceFormCategories />
+			<div class="slide-section">
+				<div class="intro-holder">
+					<p>
+						Forms between different medications play a much larger role in predicting the cost. By
+						far the most expensive form of drug delivery is injections, such as for insulin or
+						epinepherine. Injections are followed by inhalation, such as for asthma medication, and
+						then delayed or extended release capsules. Again, exclusive or proprietary technology
+						plays a role.
+					</p>
+					<div class="mid-chart">
+						<AveragePriceFormCategories />
+					</div>
 				</div>
 			</div>
 
-			<div class='slide-section'>
-				<div class='impact'>
+			<div class="slide-section">
+				<div class="impact">
 					<h3>What impact does this have?</h3>
 					<br />
-					<p>People end up splitting pills or skipping doses to try and make a drug last longer, threatening their health. Out of pocket costs are greater for those with less coverage, so some of the people likely to receive the highest drug costs are those with the fewest resources to pay for them.</p>
+					<p>
+						People end up splitting pills or skipping doses to try and make a drug last longer,
+						threatening their health. Out of pocket costs are greater for those with less coverage,
+						so some of the people likely to receive the highest drug costs are those with the fewest
+						resources to pay for them.
+					</p>
 					<br />
 					<div class="graphic">
 						<PeopleImpact />
@@ -309,73 +339,153 @@
 					<br />
 				</div>
 			</div>
-			
-			<div class='slide-section'>
+
+			<div class="slide-section">
 				<div class="intro-holder">
 					<h2>Development Costs</h2>
 					<br />
 					<h3>Price remains relatively stable across different dosages of the same drug</h3>
-					<p> Even though the amount patients pay per MG may decrease as dosage increases, the price of each pill remains relatively constant independent of dosage. When a certain dosage is unusually high, it is usually due to market exclusivity rather than the drug's formulation.</p>
+					<p>
+						Even though the amount patients pay per MG may decrease as dosage increases, the price
+						of each pill remains relatively constant independent of dosage. When a certain dosage is
+						unusually high, it is usually due to market exclusivity rather than the drug's
+						formulation.
+					</p>
 					<br />
-					<h3>Form, such as capsule or tablet, also doesn't significantly affect the prices of the same drug form</h3>
-					<p> For oral medications, the differences between price based on delivery methods are also relatively minor for different versions of the same drug. Forms that do affect cost generally have specialized or patented technologies.</p>
+					<h3>
+						Form, such as capsule or tablet, also doesn't significantly affect the prices of the
+						same drug form
+					</h3>
+					<p>
+						For oral medications, the differences between price based on delivery methods are also
+						relatively minor for different versions of the same drug. Forms that do affect cost
+						generally have specialized or patented technologies.
+					</p>
 					<br />
-					<p> Forms between different medications play a much larger role in predicting the cost. By far the most expensive form of drug delivery is injection, such as for insulin or epinephrine. Injection is followed by inhalation, such as for asthma medication, and then delayed or extended release capsules. Again, exclusive or proprietary technology is the driving factor. (source needed)</p>
+					<p>
+						Forms between different medications play a much larger role in predicting the cost. By
+						far the most expensive form of drug delivery is injection, such as for insulin or
+						epinephrine. Injection is followed by inhalation, such as for asthma medication, and
+						then delayed or extended release capsules. Again, exclusive or proprietary technology is
+						the driving factor. (source needed)
+					</p>
 				</div>
 			</div>
 
-			<div class='slide-section'>
+			<div class="slide-section">
 				<div class="intro-holder">
 					<h2>Systemic Factors</h2>
 					<br />
-					<h3>Drugs are developed, priced, and distributed by profit-driven companies. </h3>
-					<p> Three main groups control what Americans pay for prescription drugs: pharmaceutical companies set initial prices and use patents to block competition, pharmacy benefit managers (PBM) negotiate as middlemen while keeping deals secret, and health insurers decide coverage and copays. Together, these players create a complex system where each group profits while patients face rising costs with little transparency about how prices are actually determined. </p>
+					<h3>Drugs are developed, priced, and distributed by profit-driven companies.</h3>
+					<p>
+						Three main groups control what Americans pay for prescription drugs: pharmaceutical
+						companies set initial prices and use patents to block competition, pharmacy benefit
+						managers (PBM) negotiate as middlemen while keeping deals secret, and health insurers
+						decide coverage and copays. Together, these players create a complex system where each
+						group profits while patients face rising costs with little transparency about how prices
+						are actually determined.
+					</p>
 					<br />
-					<h3> What impact does this have?</h3>
-					<p> People end up splitting pills or skipping doses to try and make a drug last longer, threatening their health. Out of pocket costs are greater for those with less coverage, so some of the people likely to receive the highest drug costs are those with the fewest resources to pay for them.</p>
+					<h3>What impact does this have?</h3>
+					<p>
+						People end up splitting pills or skipping doses to try and make a drug last longer,
+						threatening their health. Out of pocket costs are greater for those with less coverage,
+						so some of the people likely to receive the highest drug costs are those with the fewest
+						resources to pay for them.
+					</p>
 					<br />
 				</div>
 			</div>
 
-			<div class='slide-section'>
+			<div class="slide-section">
 				<div class="intro-holder">
-					<h2>So what can we do, and how do we fix this? </h2>
+					<h2>So what can we do, and how do we fix this?</h2>
 					<br />
-					<h3>For your own personal prescriptions, choose generic when it's available. </h3>
-					<p> Your physician and PBM are likely already encouraging generic use for your prescription medications over their brand-name counterparts. Generic prescriptions are actually cheaper in the US than in other countries. When generic drugs are available, they can ease the price of medications significantly.  </p>
-					<br />
-					<p> However, generic options aren't always available, especially for new drugs. So what can we do to reduce the cost of those medications for those who need them? </p>
-					<br />
-
-					<!-- I know this syntax is a bit wonky -->
-					<DrugSelector bind:selectedDrugIndex label="Select drug:" />
-					<TimeSeriesComparison {selectedDrugIndex} /> 
-
-					<h3> How Policy is Affecting Drug Prices </h3>
-					<p> One recent change comes from the American Rescue Plan Act, passed in 2021 under President Biden. While it was mainly a COVID-era stimulus bill, it also included a provision that affects Medicaid. </p>
-					<br />
-					<p> Before this law, drugmakers had to pay penalties if they raised prices faster than inflation, but those penalties were capped. The American Rescue Plan removed the cap in 2024. With the cap lifted, raising prices too quickly could cost manufacturers more than the value of the drugs themselves.</p>
+					<h3>For your own personal prescriptions, choose generic when it's available.</h3>
+					<p>
+						Your physician and PBM are likely already encouraging generic use for your prescription
+						medications over their brand-name counterparts. Generic prescriptions are actually
+						cheaper in the US than in other countries. When generic drugs are available, they can
+						ease the price of medications significantly.
+					</p>
 					<br />
 					<p>
-						This change works through the Medicaid Drug Rebate Program, which requires drugmakers to pay rebates to Medicaid when prices rise faster than inflation. By increasing the financial consequences for large price hikes, the law creates a stronger incentive for manufacturers to keep prices in check. As a result, we see the prices of some drugs, <a href="https://www.kff.org/medicaid/what-are-the-implications-of-the-recent-elimination-of-the-medicaid-prescription-drug-rebate-cap/#:~:text=As%20of%20January%201%2C%202024,a%20frequently%20used%20asthma%20inhaler." target="_blank" rel="noopener noreferrer">especially Insulin products and Inhalers</a> drop between 2023 and 2025.
-					</p>					
-					
-					<DropChart />
-
-
-					<h3> How You Can Get Involved </h3>
-					<p> There are ways to help make prescription drugs more affordable. You can support advocacy groups like the AMA's Truth in RX, which works to increase transparency in drug pricing. You can also participate in state and federal elections and support legislation aimed at lowering prescription drug costs. For example, the 2025 State Tracker from the National Academy for State Health Policy highlights current bills in each state focused on making medications more affordable. Every action helps move the system toward fairer pricing. </p>
+						However, generic options aren't always available, especially for new drugs. So what can
+						we do to reduce the cost of those medications for those who need them?
+					</p>
 					<br />
-					<p>→ <a href="https://truthinrx.org/" target="_blank" rel="noopener noreferrer">Truth in RX</a></p>
-					<p>→ <a href="https://nashp.org/state-tracker/2025-state-legislation-to-lower-prescription-drug-costs/" target="_blank" rel="noopener noreferrer">2025 State Tracker</a></p>
+					<!-- I know this syntax is a bit wonky -->
+					<DrugSelector bind:selectedDrugIndex label="Select drug:" />
+					<TimeSeriesComparison {selectedDrugIndex} />
 				</div>
 			</div>
-		</div> 
-		
+
+			<div class="slide-section">
+				<div class="intro-holder">
+					<h3>How Policy is Affecting Drug Prices</h3>
+					<p>
+						One recent change comes from the American Rescue Plan Act, passed in 2021 under
+						President Biden. While it was mainly a COVID-era stimulus bill, it also included a
+						provision that affects Medicaid.
+					</p>
+					<br />
+					<p>
+						Before this law, drugmakers had to pay penalties if they raised prices faster than
+						inflation, but those penalties were capped. The American Rescue Plan removed the cap in
+						2024. With the cap lifted, raising prices too quickly could cost manufacturers more than
+						the value of the drugs themselves.
+					</p>
+					<br />
+					<p>
+						This change works through the Medicaid Drug Rebate Program, which requires drugmakers to
+						pay rebates to Medicaid when prices rise faster than inflation. By increasing the
+						financial consequences for large price hikes, the law creates a stronger incentive for
+						manufacturers to keep prices in check. As a result, we see the prices of some drugs, <a
+							href="https://www.kff.org/medicaid/what-are-the-implications-of-the-recent-elimination-of-the-medicaid-prescription-drug-rebate-cap/#:~:text=As%20of%20January%201%2C%202024,a%20frequently%20used%20asthma%20inhaler."
+							target="_blank"
+							rel="noopener noreferrer">especially Insulin products and Inhalers</a
+						> drop between 2023 and 2025.
+					</p>
+					<br />
+					<div class="chart-wrapper">
+						<DropChart />
+					</div>
+				</div>
+			</div>
+
+			<div class="slide-section">
+				<div class="intro-holder">
+					<h3>How You Can Get Involved</h3>
+					<p>
+						There are ways to help make prescription drugs more affordable. You can support advocacy
+						groups like the AMA's Truth in RX, which works to increase transparency in drug pricing.
+						You can also participate in state and federal elections and support legislation aimed at
+						lowering prescription drug costs. For example, the 2025 State Tracker from the National
+						Academy for State Health Policy highlights current bills in each state focused on making
+						medications more affordable. Every action helps move the system toward fairer pricing.
+					</p>
+					<br />
+					<p>
+						→ <a href="https://truthinrx.org/" target="_blank" rel="noopener noreferrer"
+							>Truth in RX</a
+						>
+					</p>
+					<p>
+						→ <a
+							href="https://nashp.org/state-tracker/2025-state-legislation-to-lower-prescription-drug-costs/"
+							target="_blank"
+							rel="noopener noreferrer">2025 State Tracker</a
+						>
+					</p>
+				</div>
+			</div>
+
+		</div>
+
 		<br />
 		<br />
 		<div class="headers">
-			<h3> Explore other drugs! </h3>
+			<h3>Explore other drugs!</h3>
 		</div>
 
 		<AnimatedSeriesPaginated />
@@ -383,9 +493,11 @@
 		<br />
 
 		<br />
-
-	</div> 
+	</div>
+	<!-- closes page-container -->
 </div>
+
+<!-- closes slideshow-wrapper -->
 
 <style>
 	* {
@@ -412,7 +524,7 @@
 		font-size: 1.3em;
 		font-weight: 700;
 	}
-	
+
 	h5 {
 		font-family: fustat;
 		font-size: 1em;
@@ -464,7 +576,7 @@
 		padding: 0;
 	}
 
-	.intro-container{
+	.intro-container {
 		max-width: 850px;
 		margin: 0 auto;
 	}
@@ -578,13 +690,12 @@
 		max-width: 850px;
 		margin: 0 auto;
 		padding: 3.5em 0;
-		
 	}
 
 	.radio-label {
 		display: flex;
 		align-items: center;
-		padding: 0.1em .1em;
+		padding: 0.1em 0.1em;
 		cursor: pointer;
 		transition: all 0.2s ease;
 	}
@@ -616,9 +727,8 @@
 	}
 
 	.radio-input:checked {
-		border-color: #C9381A;
+		border-color: #c9381a;
 		outline: none;
-
 	}
 	.radio-input:checked::before {
 		content: '';
@@ -626,7 +736,7 @@
 		width: 10px;
 		height: 10px;
 		border-radius: 50%;
-		background-color: #C9381A;
+		background-color: #c9381a;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
@@ -669,12 +779,11 @@
 
 	.source {
 		font-family: fustat;
-		font-size: .5em;
+		font-size: 0.5em;
 		color: #818181;
 	}
 
 	.graphic {
 		margin: 3em auto;
 	}
-
 </style>
