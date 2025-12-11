@@ -23,18 +23,18 @@
 	let selectedDrugIndex = $state(8);
 	
 	const brandDrugs = [
-		{ name: 'LAMICTAL', image: 'Lamictal.png' },
-		{ name: 'LANTUS', image: 'Lantus.png' },
-		{ name: 'LEXAPRO', image: 'Lexapro.png' },
-		{ name: 'LIPITOR', image: 'Lipitor.png' },
-		{ name: 'LYRICA', image: 'Lyrica.png' },
-		{ name: 'NEURONTIN', image: 'Neurotin.png' },
-		{ name: 'NORVASC', image: 'Norvasc.png' },
-		{ name: 'PROVIGIL', image: 'Provigil.png' },
-		{ name: 'PROZAC', image: 'Prozac.png' },
-		{ name: 'SYNTHROID', image: 'Synthroid.png' },
-		{ name: 'VYVANSE', image: 'Vyvance.png' },
-		{ name: 'ZOLOFT', image: 'Zoloft.png' }
+		{ name: 'LAMICTAL', image: 'Lamictal.png', type: 'Anticonvulsant' },
+		{ name: 'LANTUS', image: 'Lantus.png', type: 'Insulin'},
+		{ name: 'LEXAPRO', image: 'Lexapro.png', type: 'SSRI'},
+		{ name: 'LIPITOR', image: 'Lipitor.png', type: 'Statin'},
+		{ name: 'LYRICA', image: 'Lyrica.png', type: 'Anticonvulsant' },
+		{ name: 'NEURONTIN', image: 'Neurotin.png', type: 'Anticonvulsant' },
+		{ name: 'NORVASC', image: 'Norvasc.png', type: 'Calcium Channel Blocker' },
+		{ name: 'PROVIGIL', image: 'Provigil.png', type: 'CNS Stimulant' },
+		{ name: 'PROZAC', image: 'Prozac.png', type: 'SSRI'},
+		{ name: 'SYNTHROID', image: 'Synthroid.png', type: 'Thyroid Hormone' },
+		{ name: 'VYVANSE', image: 'Vyvance.png', type: 'CNS Stimulant' },
+		{ name: 'ZOLOFT', image: 'Zoloft.png', type: 'SSRI' }
 	];
 
 
