@@ -236,11 +236,11 @@ MODIFIED: Shows average price per year instead of all data points
 			})
 	);
 
-	// drug list for sidebar - shows search results
+	// drug list for sidebar - shows search results, using most_recent_price from search index
 	const drugListItems = $derived(
 		searchFilteredDrugs.map((drug) => {
-			const loadedData = loadedDrugs.find((d) => d.rxcui === drug.rxcui);
-			const price = loadedData ? getMostRecentPrice(loadedData) : null;
+			// Use most_recent_price from searchIndex if available
+			const price = searchIndex[drug.rxcui]?.most_recent_price ?? null;
 			return {
 				rxcui: drug.rxcui,
 				name: drug.name,
