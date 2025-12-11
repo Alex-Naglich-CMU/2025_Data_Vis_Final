@@ -49,13 +49,6 @@
 	let totalSections = $state(0);
 
 	onMount(() => {
-		isDarkMode.init();
-
-		// Set initial theme on body
-		if (typeof window !== 'undefined') {
-			const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-			document.body.setAttribute('data-theme', isDark ? 'dark' : 'light');
-		}
 
 		//find & count each 'anchor' section 
 		const sections = document.querySelectorAll('.slide-section');
@@ -165,8 +158,8 @@
 						href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10656114/"
 						target="_blank"
 						rel="noopener noreferrer">a 2023 study</a
-					>, a person born today could expect to take prescription medications for roughly half of their
-					life. These are some of the most common prescriptions in the US. 
+					>, a person born today could expect to take prescription medications for roughly half of their life. 
+					These are some of the most common prescriptions in the US. Pick one to learn more about its price. 
 				</p>
 				<br />
 				<h4>Pick one to learn more about its price. </h4>
@@ -194,7 +187,9 @@
 				<div class="intro-holder">
 					<h2>The state of drug pricing in America</h2>
 					<br />
-					<h3>Prescription drug use is increasing</h3>
+					<h3>
+						The use of prescription drugs is increasing
+					</h3>
 					<br>
 					<p>
 						Prescription drug use is at an all-time high in the United States, in part due to increases in
@@ -217,7 +212,7 @@
 
 			<div class='slide-section'>
 				<div class="price-increase-section">
-					<h3>Are prices actually increasing?</h3>
+					<h3>Are prices increasing, or does it just feel that way?</h3>
 					<br />
 					<p>
 						It turns out that between 2017 and 2025, <b>more drug prices decreased</b> instead of increased. But are these figures telling us the whole story? 
@@ -229,18 +224,16 @@
 			<div class='slide-section'>
 				<div class="price-increase-section">
 					<p>
-						For now, lets ignore the drugs whose prices stay the same. If we look at the actual price amount each drug increased or decreased by, the data looks very different. Although slightly 
-						more drugs decreased in price than increased, the total dollar increase is much larger than the total dollar decrease.
-						<IntroChart2 />
+						For now, let's ignore the drugs whose prices stay the same. If we look at the actual price amount each drug increased or decreased by, the data looks very different. 
+						Although slightly more drugs decreased in price than increased, the total dollar increase is much larger than the total dollar decrease.
+					</p>
+					<IntroChart2 />
 					<p>
-						When we only look at the number of drugs whose prices have increased or decreased, we're missing critical context.
-						Let's be clear, 
+						When we only look at the number of drugs whose prices have increased or decreased, we're missing critical context. Let's be clear, 
 						<b>drug prices are getting worse.</b>
 					</p>
 				</div>
 			</div>
-
-
 
 			<div class='slide-section'>
 				<div class="inflation-section">
@@ -250,6 +243,24 @@
 				</div>
 			</div>
 			
+			<div class="slide-section">
+				<div class='causes-intro'>
+					<h2>What are the causes? </h2>
+					<br />
+					<p>
+						Looking for trends in what contributes to higher drug prices is complicated. 
+						Prescription drugs cover a wide spectrum so they are not always easy to compare. 
+						Some medications only require a short course and some require lifelong use. Some need to be taken every day and others monthly or only as-needed. 
+						Prescriptions also span types ranging anywhere from oral tablets to topical foams. 
+					</p>
+					<br />
+					<p>
+						If we look at this in the simplest way, causes can be broken down into two categories: development costs, and systemic factors. 
+					</p>
+				</div>
+			</div>
+
+
 			<div class='slide-section'>
 				<div class='impact'>
 					<h3>What impact does this have?</h3>
@@ -263,24 +274,67 @@
 				</div>
 			</div>
 			
-
-
-			<div class="slide-section">
-				<div class='causes-intro'>
-					<h2>What is driving drug prices?</h2>
+			<div class='slide-section'>
+				<div class="intro-holder">
+					<h2>Development Costs</h2>
 					<br />
-					<p>
-						Looking for trends in what contributes to higher drug prices is complicated. Prescription drugs cover a wide spectrum so they are not always easy to compare. Some medications only require a short course and some require lifelong use. Some need to be taken every day and others monthly or only as-needed. Prescriptions also span types ranging anywhere from oral tablets to topical foams. 
-					</p>
+					<h3>Price remains relatively stable across different dosages of the same drug</h3>
+					<p> Even though the amount patients pay per MG may decrease as dosage increases, the price of each pill remains relatively constant independent of dosage. When a certain dosage is unusually high, it is usually due to market exclusivity rather than the drug's formulation.</p>
 					<br />
-					<p>
-						These are some of the most common drugs used by patients in the US. 
-					</p>
+					<h3>Form, such as capsule or tablet, also doesn't significantly affect the prices of the same drug form</h3>
+					<p> For oral medications, the differences between price based on delivery methods are also relatively minor for different versions of the same drug. Forms that do affect cost generally have specialized or patented technologies.</p>
+					<br />
+					<p> Forms between different medications play a much larger role in predicting the cost. By far the most expensive form of drug delivery is injection, such as for insulin or epinephrine. Injection is followed by inhalation, such as for asthma medication, and then delayed or extended release capsules. Again, exclusive or proprietary technology is the driving factor. (source needed)</p>
 				</div>
 			</div>
-			
-			
-			<div class="cause-section-container">
+
+			<div class='slide-section'>
+				<div class="intro-holder">
+					<h2>Systemic Factors</h2>
+					<br />
+					<h3>Drugs are developed, priced, and distributed by profit-driven companies. </h3>
+					<p> Three main groups control what Americans pay for prescription drugs: pharmaceutical companies set initial prices and use patents to block competition, pharmacy benefit managers (PBM) negotiate as middlemen while keeping deals secret, and health insurers decide coverage and copays. Together, these players create a complex system where each group profits while patients face rising costs with little transparency about how prices are actually determined. </p>
+					<br />
+					<h3> What impact does this have?</h3>
+					<p> People end up splitting pills or skipping doses to try and make a drug last longer, threatening their health. Out of pocket costs are greater for those with less coverage, so some of the people likely to receive the highest drug costs are those with the fewest resources to pay for them.</p>
+					<br />
+				</div>
+			</div>
+
+
+
+			<div class='slide-section'>
+				<div class="intro-holder">
+					<h2>So what can we do, and how do we fix this? </h2>
+					<br />
+					<h3>For your own personal prescriptions, choose generic when it's available. </h3>
+					<p> Your physician and PBM are likely already encouraging generic use for your prescription medications over their brand-name counterparts. Generic prescriptions are actually cheaper in the US than in other countries. When generic drugs are available, they can ease the price of medications significantly.  </p>
+					<br />
+					<p> However, generic options aren't always available, especially for new drugs. So what can we do to reduce the cost of those medications for those who need them? </p>
+					<br />
+
+					<h3> How Policy is Affecting Drug Prices </h3>
+					<p> One recent change comes from the American Rescue Plan Act, passed in 2021 under President Biden. While it was mainly a COVID-era stimulus bill, it also included a provision that affects Medicaid. </p>
+					<br />
+					<p> Before this law, drugmakers had to pay penalties if they raised prices faster than inflation, but those penalties were capped. The American Rescue Plan removed the cap in 2024. With the cap lifted, raising prices too quickly could cost manufacturers more than the value of the drugs themselves.</p>
+					<br />
+					<p>
+						This change works through the Medicaid Drug Rebate Program, which requires drugmakers to pay rebates to Medicaid when prices rise faster than inflation. By increasing the financial consequences for large price hikes, the law creates a stronger incentive for manufacturers to keep prices in check. As a result, we see the prices of some drugs, <a href="https://www.kff.org/medicaid/what-are-the-implications-of-the-recent-elimination-of-the-medicaid-prescription-drug-rebate-cap/#:~:text=As%20of%20January%201%2C%202024,a%20frequently%20used%20asthma%20inhaler." target="_blank" rel="noopener noreferrer">especially Insulin products and Inhalers</a> drop between 2023 and 2025.
+					</p>					
+					
+					<DropChart />
+
+
+					<h3> How You Can Get Involved </h3>
+					<p> There are ways to help make prescription drugs more affordable. You can support advocacy groups like the AMA's Truth in RX, which works to increase transparency in drug pricing. You can also participate in state and federal elections and support legislation aimed at lowering prescription drug costs. For example, the 2025 State Tracker from the National Academy for State Health Policy highlights current bills in each state focused on making medications more affordable. Every action helps move the system toward fairer pricing. </p>
+				
+					<p>→ <a href="https://truthinrx.org/" target="_blank" rel="noopener noreferrer">Truth in RX</a></p>
+					<p>→ <a href="https://nashp.org/state-tracker/2025-state-legislation-to-lower-prescription-drug-costs/" target="_blank" rel="noopener noreferrer">2025 State Tracker</a></p>
+				</div>
+			</div>
+
+
+			<div class="cause-section-container slide-section">
 				<h3>Does dosage affect cost?</h3>
 				<br /> 
 				<p>
@@ -296,7 +350,7 @@
 			
 
 			<br />
-			<div class="cause-section-container">
+			<div class="cause-section-container slide-section">
 				<h3>What about the delivery form?</h3>
 				<br /> 
 				<p>
@@ -318,23 +372,19 @@
 				</div>
 			</div>
 			
-			<div class="cause-section-container">
+			<div class="cause-section-container slide-section">
 				<h3>Do these numbers </h3>
 			</div>
 
 			<h4 class="section-title">Look at Insulin Lantus ↓</h4>
 			<InsulinComparison />
 
-			
-			
-		</div>
-	</div>
+		</div> 
 		
-
 		<!-- I know this syntax is a bit wonky -->
-		 <DrugSelector bind:selectedDrugIndex label="Select drug:" />
-        <TimeSeriesComparison {selectedDrugIndex} /> 
-        <br />
+		<DrugSelector bind:selectedDrugIndex label="Select drug:" />
+		<TimeSeriesComparison {selectedDrugIndex} /> 
+		<br />
 		<br />
 		<div class="headers">
 			<h3> How did drug prices change over time? </h3>
@@ -351,15 +401,10 @@
 
 		<br />
 
-	<div class="headers">
-		<h3> What is the cheapest option for a specific drug? </h3>
-	</div>
-		
-	<br />
-	<AnimatedIntroChart />
-	<br />
-	<DropChart />
-</div> 
+		<br />
+
+	</div> 
+</div>
 
 <style>
 	* {
