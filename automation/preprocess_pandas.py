@@ -483,43 +483,59 @@ if created_files:
             try:
                 with open(os.path.join(PRICES_DIR, filename), 'r') as f:
                     data = json.load(f)
-                    
+
                 drug_name_raw = data.get('Name', '')
                 rxcui = data.get('RxCUI')
-                
-                if drug_name_raw and rxcui:
-                    brand_mate = data.get('Brand_RxCUI', '')
-                    generic_mate = data.get('Generic_RxCUI', '')
-                    is_brand = data.get('IsBrand', False)
 
-                    has_valid_pair = (brand_mate and generic_mate and brand_mate != generic_mate)
+                # Get most recent price
+                prices_dict = data.get('prices', {})
+                most_recent_price = None
+                if prices_dict:
+                    # Flatten all dates and prices, get max date
+                    all_dates = []
+                    for ndc_prices in prices_dict.values():
+                        all_dates.extend(ndc_prices.keys())
+                    if all_dates:
+                        latest_date = max(all_dates)
+                        # Find price for latest date
+                        for ndc_prices in prices_dict.values():
+                            if latest_date in ndc_prices:
+                                most_recent_price = ndc_prices[latest_date]
+                                break
 
-                    if is_brand:
-                        mate_rxcui = generic_mate
-                    else:
-                        mate_rxcui = brand_mate
-                    
-                    mate_name = name_lookup.get(mate_rxcui, "") if mate_rxcui else ""
-                    ingredient_name = data.get('Ingredient_Name', "") 
-                    manufacturer_name = data.get('Manufacturer_Name', "") 
-                    
-                    entry = {
-                        "rxcui": rxcui,
-                        "name": drug_name_raw,
-                        "is_brand": is_brand,
-                        "mate_rxcui": mate_rxcui,
-                        "mate_name": mate_name,
-                        "ingredient_name": ingredient_name, 
-                        "manufacturer_name": manufacturer_name, 
-                    }
-                    
-                    search_index_all[rxcui] = entry
-                    
-                    if has_valid_pair:
-                        tag = 'BRAND' if is_brand else 'GENERIC'
-                        unique_search_key = f"{drug_name_raw.lower()} [{tag}]"
-                        search_index_has_pair[unique_search_key] = entry
-                        
+                brand_mate = data.get('Brand_RxCUI', '')
+                generic_mate = data.get('Generic_RxCUI', '')
+                is_brand = data.get('IsBrand', False)
+
+                has_valid_pair = (brand_mate and generic_mate and brand_mate != generic_mate)
+
+                if is_brand:
+                    mate_rxcui = generic_mate
+                else:
+                    mate_rxcui = brand_mate
+
+                mate_name = name_lookup.get(mate_rxcui, "") if mate_rxcui else ""
+                ingredient_name = data.get('Ingredient_Name', "") 
+                manufacturer_name = data.get('Manufacturer_Name', "") 
+
+                entry = {
+                    "rxcui": rxcui,
+                    "name": drug_name_raw,
+                    "is_brand": is_brand,
+                    "mate_rxcui": mate_rxcui,
+                    "mate_name": mate_name,
+                    "ingredient_name": ingredient_name, 
+                    "manufacturer_name": manufacturer_name, 
+                    "most_recent_price": most_recent_price
+                }
+
+                search_index_all[rxcui] = entry
+
+                if has_valid_pair:
+                    tag = 'BRAND' if is_brand else 'GENERIC'
+                    unique_search_key = f"{drug_name_raw.lower()} [{tag}]"
+                    search_index_has_pair[unique_search_key] = entry
+
             except:
                 continue
     
