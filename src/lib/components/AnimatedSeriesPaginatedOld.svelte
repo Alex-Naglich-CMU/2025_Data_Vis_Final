@@ -1,5 +1,7 @@
-<!-- scrollable version of automated series chart
-loads drug data on-demand when selected from search_index_all.json
+<!-- paginated version of automated series chart
+shows groups of 250 brand drugs at a time with prev/next buttons
+loads all brand drugs from search_index_all.json
+TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 MODIFIED: Shows average price per year instead of all data points
 -->
 
@@ -10,14 +12,18 @@ MODIFIED: Shows average price per year instead of all data points
 	import { onMount } from 'svelte';
 	import { categorizeDosageForm } from '$lib/scripts/formCategorizer';
 
-	// state for all available drugs (just names, no price data loaded yet)
+	// pagination settings
+	const DRUGS_PER_PAGE = 250;
+
+	// state for all available drugs
 	let allBrandDrugs = $state<{ rxcui: string; name: string }[]>([]);
 	let searchIndex = $state<any>({});
+	let currentPage = $state(0);
 	let loading = $state(true);
+	let loadingPage = $state(false);
 	let error = $state<string | null>(null);
-	let searchQuery = $state('');
 
-	// loaded drug data
+	// current page drugs data
 	interface DrugData {
 		rxcui: string;
 		friendlyName: string;
@@ -25,21 +31,13 @@ MODIFIED: Shows average price per year instead of all data points
 		formCategory: string; // broad category bucket
 		prices: Record<string, Record<string, number>>;
 	}
+	
+	let drugsData = $state<DrugData[]>([]);
+	let selectedDrugIndices = $state<Set<number>>(new Set());
+	let selectedFormCategories = $state<Set<string>>(new Set());
+	let availableFormCategories = $state<string[]>([]);
 
-	// Array of loaded drug data
-	let loadedDrugs = $state<DrugData[]>([]);
-	// Array of selected rxcuis
-	let selectedRxcuis = $state<string[]>([]);
-	// Array of currently loading rxcuis
-	let loadingRxcuis = $state<string[]>([]);
-	// Selected form categories for filtering
-	let selectedFormCategories = $state<string[]>([]);
-	// Available form categories (derived from loaded drugs)
-	const availableFormCategories = $derived(
-		[...new Set(loadedDrugs.map((d) => d.formCategory).filter((c) => c && c !== 'Other'))].sort()
-	);
-
-	let tooltipData = $state<{ date: Date; prices: { label: string; price: number }[] } | null>(null);
+	let tooltipData = $state<{ date: Date; prices: Map<string, number> } | null>(null);
 	let cursorX = $state(0);
 	let cursorY = $state(0);
 	let chartContainerRef = $state<HTMLDivElement>();
@@ -50,6 +48,12 @@ MODIFIED: Shows average price per year instead of all data points
 	const width = $derived(containerWidth * 0.75 || 900);
 	const height = $derived(width * 0.6);
 	const margin = { top: 40, right: 40, bottom: 60, left: 80 };
+
+	// pagination calculations
+	const totalPages = $derived(Math.ceil(allBrandDrugs.length / DRUGS_PER_PAGE));
+	const startIndex = $derived(currentPage * DRUGS_PER_PAGE);
+	const endIndex = $derived(Math.min(startIndex + DRUGS_PER_PAGE, allBrandDrugs.length));
+	const currentPageDrugs = $derived(allBrandDrugs.slice(startIndex, endIndex));
 
 	// data loading
 	onMount(async () => {
@@ -67,15 +71,14 @@ MODIFIED: Shows average price per year instead of all data points
 					// parse name to get dosage info
 					const fullName = drugData.name || '';
 					const manufacturerName = drugData.manufacturer_name || '';
-
+					
 					// extract dosage and form from full name
 					const dosageMatch = fullName.replace(new RegExp(manufacturerName, 'i'), '').trim();
-
-					const displayName =
-						manufacturerName && dosageMatch
-							? `${manufacturerName} - ${dosageMatch}`
-							: fullName || manufacturerName || 'Unknown';
-
+					
+					const displayName = manufacturerName && dosageMatch 
+						? `${manufacturerName} - ${dosageMatch}`
+						: fullName || manufacturerName || 'Unknown';
+					
 					brands.push({
 						rxcui,
 						name: displayName
@@ -88,6 +91,8 @@ MODIFIED: Shows average price per year instead of all data points
 			allBrandDrugs = brands;
 			console.log('total brand drugs found:', brands.length);
 
+			// load first page
+			await loadPageData();
 			loading = false;
 		} catch (err) {
 			error = err instanceof Error ? err.message : 'Unknown error';
@@ -98,8 +103,8 @@ MODIFIED: Shows average price per year instead of all data points
 
 	// convert prices object to chart points - averaged by year
 	function getChartPoints(drug: DrugData): ChartPoint[] {
-		const yearPrices: Record<number, number[]> = {};
-
+		const yearPrices = new Map<number, number[]>();
+		
 		// iterate through all NDCs and their dates, grouping by year
 		for (const ndc in drug.prices) {
 			for (const [dateStr, price] of Object.entries(drug.prices[ndc])) {
@@ -107,30 +112,29 @@ MODIFIED: Shows average price per year instead of all data points
 				if (date) {
 					const year = date.getFullYear();
 					const singleDosePrice = price / 30;
-
-					if (!yearPrices[year]) {
-						yearPrices[year] = [];
+					
+					if (!yearPrices.has(year)) {
+						yearPrices.set(year, []);
 					}
-					yearPrices[year].push(singleDosePrice);
+					yearPrices.get(year)!.push(singleDosePrice);
 				}
 			}
 		}
-
+		
 		// calculate average price for each year
 		const points: ChartPoint[] = [];
-		for (const [yearStr, prices] of Object.entries(yearPrices)) {
-			const year = parseInt(yearStr);
+		for (const [year, prices] of yearPrices.entries()) {
 			const avgPrice = prices.reduce((sum, p) => sum + p, 0) / prices.length;
 			// use January 1st of each year as the date
-			points.push({
-				date: new Date(year, 0, 1),
-				price: avgPrice
+			points.push({ 
+				date: new Date(year, 0, 1), 
+				price: avgPrice 
 			});
 		}
-
+		
 		// sort by date
 		points.sort((a, b) => a.date.getTime() - b.date.getTime());
-
+		
 		return points;
 	}
 
@@ -150,119 +154,149 @@ MODIFIED: Shows average price per year instead of all data points
 		return null;
 	}
 
-	// load data for a single drug on-demand
-	async function loadDrugData(rxcui: string, friendlyName: string): Promise<DrugData | null> {
-		// already loaded?
-		const existing = loadedDrugs.find((d) => d.rxcui === rxcui);
-		if (existing) {
-			return existing;
-		}
-
-		// mark as loading
-		loadingRxcuis = [...loadingRxcuis, rxcui];
-
+	// load data for current page of drugs
+	async function loadPageData() {
+		loadingPage = true;
 		try {
-			const priceModule = await import(`$lib/data/prices/${rxcui}.json`);
-			const priceData = priceModule.default;
+			console.log('loading page', currentPage + 1, 'with', currentPageDrugs.length, 'drugs');
 
-			// make sure prices exist
-			if (!priceData.prices || Object.keys(priceData.prices).length === 0) {
-				loadingRxcuis = loadingRxcuis.filter((r) => r !== rxcui);
-				return null;
+			// load drug data for current page
+			const loadedDrugs: DrugData[] = [];
+			const categoriesSet = new Set<string>();
+			
+			for (const drug of currentPageDrugs) {
+				try {
+					// load price data
+					const priceModule = await import(`$lib/data/prices/${drug.rxcui}.json`);
+					const priceData = priceModule.default;
+
+					// make sure prices exist
+					if (!priceData.prices || Object.keys(priceData.prices).length === 0) {
+						continue;
+					}
+
+					// get form from JSON and categorize it
+					const form = priceData.Form || 'Unknown';
+					const formCategory = categorizeDosageForm(form);
+					
+					if (formCategory && formCategory !== 'Other') {
+						categoriesSet.add(formCategory);
+					}
+
+					loadedDrugs.push({
+						rxcui: drug.rxcui,
+						friendlyName: drug.name,
+						form: form,
+						formCategory: formCategory,
+						prices: priceData.prices
+					});
+					
+					// log first few for debugging
+					if (loadedDrugs.length <= 5) {
+						console.log(`${drug.name}: "${form}" → "${formCategory}"`);
+					}
+				} catch (e) {
+					// skip drugs without price data
+				}
 			}
 
-			// get form from JSON and categorize it
-			const form = priceData.Form || 'Unknown';
-			const formCategory = categorizeDosageForm(form);
+			drugsData = loadedDrugs;
+			
+			// update available categories (sorted alphabetically)
+			availableFormCategories = Array.from(categoriesSet).sort();
+			console.log('loaded', loadedDrugs.length, 'drugs with', availableFormCategories.length, 'unique form categories');
+			console.log('categories:', availableFormCategories);
 
-			const drugData: DrugData = {
-				rxcui,
-				friendlyName,
-				form,
-				formCategory,
-				prices: priceData.prices
-			};
-
-			// store in array
-			loadedDrugs = [...loadedDrugs, drugData];
-			console.log(`Loaded: ${friendlyName}`);
-
-			// remove from loading
-			loadingRxcuis = loadingRxcuis.filter((r) => r !== rxcui);
-			return drugData;
-		} catch (e) {
-			console.warn(`Failed to load drug ${rxcui}:`, e);
-			loadingRxcuis = loadingRxcuis.filter((r) => r !== rxcui);
-			return null;
+			// select all drugs on current page by default
+			const initialSelection = new Set<number>();
+			for (let i = 0; i < drugsData.length; i++) {
+				initialSelection.add(i);
+			}
+			selectedDrugIndices = initialSelection;
+			selectedFormCategories = new Set<string>();
+			
+			loadingPage = false;
+		} catch (err) {
+			console.error('error loading page data:', err);
+			loadingPage = false;
 		}
 	}
 
-	// search filtered drugs from allBrandDrugs (not loaded data)
-	const searchFilteredDrugs = $derived(
-		allBrandDrugs.filter((drug) => {
-			if (!searchQuery.trim()) return true;
+	// pagination controls
+	async function goToNextPage() {
+		if (currentPage < totalPages - 1) {
+			currentPage++;
+			await loadPageData();
+		}
+	}
 
-			return drug.name.toLowerCase().includes(searchQuery.toLowerCase());
-		})
-	);
+	async function goToPreviousPage() {
+		if (currentPage > 0) {
+			currentPage--;
+			await loadPageData();
+		}
+	}
 
 	// helper to get most recent price for a drug
-	function getMostRecentPrice(drugData: DrugData): number {
+	function getMostRecentPrice(drug: DrugData): number {
 		let mostRecentDate: Date | null = null;
 		let mostRecentPrice: number = 0;
 
-		for (const ndc in drugData.prices) {
-			for (const [dateStr, price] of Object.entries(drugData.prices[ndc])) {
+		for (const ndc in drug.prices) {
+			for (const [dateStr, price] of Object.entries(drug.prices[ndc])) {
 				const date = parseDate(dateStr);
 				if (date && (mostRecentDate === null || date > mostRecentDate)) {
 					mostRecentDate = date;
-					mostRecentPrice = price / 30;
+					mostRecentPrice = price/30;		
 				}
 			}
 		}
 		return mostRecentPrice;
 	}
 
-	// get selected drugs with their loaded data, filtered by form category
-	const selectedDrugsWithData = $derived(
-		selectedRxcuis
-			.map((rxcui) => loadedDrugs.find((d) => d.rxcui === rxcui))
-			.filter((d): d is DrugData => d !== undefined)
-			.filter((d) => {
-				// if no form categories selected, show all
-				if (selectedFormCategories.length === 0) return true;
-				// otherwise filter by selected categories
-				return selectedFormCategories.includes(d.formCategory);
-			})
+	// filter drugs by selected categories
+	const filteredDrugs = $derived(
+		drugsData.filter((drug, i) => {
+			// if no categories selected, show all drugs
+			if (selectedFormCategories.size === 0) return true;
+			// otherwise, only show drugs matching selected categories
+			return selectedFormCategories.has(drug.formCategory);
+		})
 	);
 
-	// drug list for sidebar - shows search results
-	const drugListItems = $derived(
-		searchFilteredDrugs.map((drug) => {
-			const loadedData = loadedDrugs.find((d) => d.rxcui === drug.rxcui);
-			const price = loadedData ? getMostRecentPrice(loadedData) : null;
-			return {
-				rxcui: drug.rxcui,
-				name: drug.name,
-				price,
-				isSelected: selectedRxcuis.includes(drug.rxcui),
-				isLoading: loadingRxcuis.includes(drug.rxcui)
-			};
-		})
+	// data processing - sort by price (highest to lowest) - ONLY FILTERED DRUGS
+	const brandDrugs = $derived(
+		filteredDrugs
+			.map((drug, i) => {
+				// need to find original index in drugsData for selection tracking
+				const originalIndex = drugsData.indexOf(drug);
+				return { 
+					drug, 
+					i: originalIndex,
+					price: getMostRecentPrice(drug)
+				};
+			})
+			.sort((a, b) => b.price - a.price)
 	);
 
 	interface LineData {
 		data: ChartPoint[];
 		color: string;
 		label: string;
-		rxcui: string;
+		drugIndex: number;
 	}
 
 	const selectedLines = $derived.by(() => {
 		const lines: LineData[] = [];
 
-		selectedDrugsWithData.forEach((drug, index) => {
-			const color = drugColors[index % drugColors.length];
+		filteredDrugs.forEach((drug) => {
+			const originalIndex = drugsData.indexOf(drug);
+			
+			// only show if drug is selected
+			if (!selectedDrugIndices.has(originalIndex)) return;
+			
+			const brandDrugPosition = brandDrugs.findIndex(({ i }) => i === originalIndex);
+			const color = drugColors[brandDrugPosition % drugColors.length];
 
 			const chartData = getChartPoints(drug);
 			if (chartData.length > 0) {
@@ -270,7 +304,7 @@ MODIFIED: Shows average price per year instead of all data points
 					data: chartData,
 					color,
 					label: drug.friendlyName,
-					rxcui: drug.rxcui
+					drugIndex: originalIndex
 				});
 			}
 		});
@@ -378,27 +412,24 @@ MODIFIED: Shows average price per year instead of all data points
 		d3.select(ref).call(yAxis);
 	}
 
-	async function toggleDrugSelection(rxcui: string, friendlyName: string) {
-		if (selectedRxcuis.includes(rxcui)) {
-			// deselect
-			selectedRxcuis = selectedRxcuis.filter((r) => r !== rxcui);
+	function toggleDrugSelection(index: number) {
+		const newSet = new Set(selectedDrugIndices);
+		if (newSet.has(index)) {
+			newSet.delete(index);
 		} else {
-			// select and load data if needed
-			selectedRxcuis = [...selectedRxcuis, rxcui];
-
-			// load data if not already loaded
-			if (!loadedDrugs.find((d) => d.rxcui === rxcui)) {
-				await loadDrugData(rxcui, friendlyName);
-			}
+			newSet.add(index);
 		}
+		selectedDrugIndices = newSet;
 	}
 
 	function toggleFormCategorySelection(category: string) {
-		if (selectedFormCategories.includes(category)) {
-			selectedFormCategories = selectedFormCategories.filter((c) => c !== category);
+		const newSet = new Set(selectedFormCategories);
+		if (newSet.has(category)) {
+			newSet.delete(category);
 		} else {
-			selectedFormCategories = [...selectedFormCategories, category];
+			newSet.add(category);
 		}
+		selectedFormCategories = newSet;
 	}
 </script>
 
@@ -416,22 +447,26 @@ MODIFIED: Shows average price per year instead of all data points
 		<div class="content-wrapper">
 			<!---main chart --->
 			<div class="chart-wrapper" bind:this={chartContainerRef}>
-				<!-- form filter chips above chart -->
-				{#if availableFormCategories.length > 0}
-					<div class="form-filter-chips">
-						{#each availableFormCategories as category}
-							{@const isSelected = selectedFormCategories.includes(category)}
-							<button
-								class="form-chip"
-								class:selected={isSelected}
-								onclick={() => toggleFormCategorySelection(category)}
-							>
-								{category}
-							</button>
-						{/each}
+				{#if loadingPage}
+					<div class="loading-overlay">
+						<p>Loading page data...</p>
 					</div>
 				{/if}
 
+				<!-- form filter chips above chart -->
+				<div class="form-filter-chips">
+					{#each availableFormCategories as category}
+						{@const isSelected = selectedFormCategories.has(category)}
+						<button
+							class="form-chip"
+							class:selected={isSelected}
+							onclick={() => toggleFormCategorySelection(category)}
+						>
+							{category}
+						</button>
+					{/each}
+				</div>
+				
 				<svg {width} {height} role="img" bind:this={mainSvgRef}>
 					<defs>
 						<clipPath id="animated-series-clip">
@@ -458,20 +493,14 @@ MODIFIED: Shows average price per year instead of all data points
 								<circle
 									cx={xScale(point.date)}
 									cy={yScale(point.price)}
-									role="button"
-									aria-label="{line.label} on {point.date.toDateString()}: ${point.price.toFixed(
-										2
-									)}"
-									tabindex="0"
 									r="4"
 									fill={line.color}
 									stroke={$isDarkMode ? '#ddd' : '#222'}
 									style="cursor: pointer; pointer-events: all;"
 									onmouseenter={(e) => {
-										tooltipData = {
-											date: point.date,
-											prices: [{ label: line.label, price: point.price }]
-										};
+										const prices = new Map<string, number>();
+										prices.set(line.label, point.price);
+										tooltipData = { date: point.date, prices };
 										cursorX = e.clientX;
 										cursorY = e.clientY;
 									}}
@@ -504,7 +533,7 @@ MODIFIED: Shows average price per year instead of all data points
 					<div class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
 						<div class="tooltip-date"><strong>{dateStr} Average</strong></div>
 
-						{#each tooltipData.prices as { label, price }}
+						{#each Array.from(tooltipData.prices.entries()) as [label, price]}
 							{@const lineData = linePaths.find((l) => l.label === label)}
 							<div class="tooltip-row">
 								<span class="label" style="color: {lineData?.color || '#000'}">
@@ -520,90 +549,59 @@ MODIFIED: Shows average price per year instead of all data points
 			<!--- side bar --->
 			<div class="side-bar">
 				<div class="controls">
-					<!-- search bar -->
-
-					<div class="w-full text-right">
-						<span class="text-sm text-gray-500">* For a single dose</span>
-					</div>
-
-					<div class="search-bar">
-						<input
-							type="text"
-							class="search-input"
-							placeholder="Search drugs..."
-							bind:value={searchQuery}
-						/>
-						{#if searchQuery}
-							<button class="clear-search" onclick={() => (searchQuery = '')}> ✕ </button>
-						{/if}
-					</div>
-
-					<div class="drug-count">
-						Showing {searchFilteredDrugs.length} of {allBrandDrugs.length} drugs
-						{#if selectedRxcuis.length > 0}
-							<span class="selected-count">({selectedRxcuis.length} selected)</span>
-						{/if}
+					<!-- pagination controls -->
+					<div class="pagination-controls">
+						<div class="pagination-info">
+							<strong>Page {currentPage + 1} of {totalPages}</strong>
+							<div class="text-sm">
+								Showing {startIndex + 1}-{endIndex} of {allBrandDrugs.length} drugs
+							</div>
+						</div>
+						<div class="pagination-buttons">
+							<button
+								class="pagination-btn"
+								onclick={goToPreviousPage}
+								disabled={currentPage === 0 || loadingPage}
+							>
+								← Previous
+							</button>
+							<button
+								class="pagination-btn"
+								onclick={goToNextPage}
+								disabled={currentPage >= totalPages - 1 || loadingPage}
+							>
+								Next →
+							</button>
+						</div>
 					</div>
 
 					<!-- drug selection section -->
 					<div class="drug-selection-section">
+						<div class="mb-2 flex items-center justify-between">
+							<label for="drug-list">Select Drugs:</label>
+							<span class="text-sm text-gray-500">* For a single dose</span>
+						</div>
 						<ul class="drug-list" role="listbox">
-							{#each drugListItems as item, index}
-								{@const color = item.isSelected
-									? drugColors[selectedRxcuis.indexOf(item.rxcui) % drugColors.length]
-									: '#888'}
+							{#each brandDrugs as { drug, i, price }}
+								{@const brandDrugPosition = brandDrugs.findIndex(({ i: idx }) => idx === i)}
+								{@const color = drugColors[brandDrugPosition % drugColors.length]}
+								{@const isSelected = selectedDrugIndices.has(i)}
 								<li
 									class="drug-list-item"
-									class:selected={item.isSelected}
-									class:loading={item.isLoading}
-									onclick={() => toggleDrugSelection(item.rxcui, item.name)}
+									class:selected={isSelected}
+									onclick={() => toggleDrugSelection(i)}
 									onkeydown={(e) => {
-										if (e.key === 'Enter' || e.key === ' ')
-											toggleDrugSelection(item.rxcui, item.name);
+										if (e.key === 'Enter' || e.key === ' ') toggleDrugSelection(i);
 									}}
 									role="option"
-									aria-selected={item.isSelected}
+									aria-selected={isSelected}
 									tabindex="0"
-									style="border-left: 4px solid {color}; {item.isSelected
-										? `background-color: ${color}70;`
+									style="border-left: 4px solid {color}; {isSelected
+										? `background-color: ${color}70; color: ${color};`
 										: ''}"
 								>
-									<span class="checkmark">
-										{#if item.isLoading}
-											<span class="spinner">⏳</span>
-										{:else if item.isSelected}
-											✓
-										{/if}
-									</span>
-									<span class="drug-name">{item.name.toUpperCase()}</span>
-									{#if item.price !== null}
-										<span class="drug-price">${item.price.toFixed(2)}</span>
-									{/if}
-								</li>
-							{/each}
-						</ul>
-						<hr />
-						<div class="border-top mt-2 mb-2 flex items-center justify-between">
-							<label for="drug-list" class="text-lg">Selected:</label>
-						</div>
-						<ul class="selected-list" role="listbox">
-							{#each selectedDrugsWithData as item, index}
-								{@const color = drugColors[selectedRxcuis.indexOf(item.rxcui) % drugColors.length]}
-								{@const price = getMostRecentPrice(item)}
-								<li
-									class="selected-list-item"
-									onclick={() => toggleDrugSelection(item.rxcui, item.friendlyName)}
-									onkeydown={(e) => {
-										if (e.key === 'Enter' || e.key === ' ')
-											toggleDrugSelection(item.rxcui, item.friendlyName);
-									}}
-									role="option"
-									aria-selected={true}
-									tabindex="0"
-									style="border-left: 4px solid {color}; background-color: {color}70;"
-								>
-									<span class="checkmark">✕</span>
-									<span class="drug-name">{item.friendlyName.toUpperCase()}</span>
+									<span class="checkmark">{isSelected ? '✓' : ''}</span>
+									<span class="drug-name">{drug.friendlyName.toUpperCase()}</span>
 									<span class="drug-price">${price.toFixed(2)}</span>
 								</li>
 							{/each}
@@ -631,6 +629,19 @@ MODIFIED: Shows average price per year instead of all data points
 		color: red;
 	}
 
+	.loading-overlay {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: rgba(255, 255, 255, 0.9);
+		padding: 2rem;
+		border-radius: 8px;
+		border: 1px solid #ccc;
+		z-index: 100;
+		font-family: fustat;
+	}
+
 	.form-filter-chips {
 		display: flex;
 		flex-wrap: nowrap;
@@ -640,7 +651,7 @@ MODIFIED: Shows average price per year instead of all data points
 		margin-bottom: 1rem;
 		width: 100%;
 		box-sizing: border-box;
-		overflow-x: auto;
+		overflow-x: hidden;
 	}
 
 	.form-chip {
@@ -650,11 +661,11 @@ MODIFIED: Shows average price per year instead of all data points
 		background-color: rgba(75, 75, 75, 0.1);
 		cursor: pointer;
 		border-radius: 20px;
-		font-size: 0.8em;
+		font-size: 0.80em;
 		transition: all 0.2s;
 		white-space: nowrap;
 		text-align: center;
-		flex-shrink: 0;
+		flex-shrink: 1;
 	}
 
 	.form-chip:hover {
@@ -663,105 +674,71 @@ MODIFIED: Shows average price per year instead of all data points
 	}
 
 	.form-chip.selected {
-		background-color: #2d6a4f;
+		background-color: #2D6A4F;
 		color: white;
-		border-color: #2d6a4f;
+		border-color: #2D6A4F;
 		font-weight: 600;
 	}
 
-	.selected-count {
-		color: #2d6a4f;
-		font-weight: 600;
+	.pagination-controls {
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid #ccc;
 	}
 
-	.drug-list-item.loading {
-		opacity: 0.7;
-	}
-
-	.spinner {
-		display: inline-block;
-		animation: spin 1s linear infinite;
-	}
-
-	@keyframes spin {
-		from {
-			transform: rotate(0deg);
-		}
-		to {
-			transform: rotate(360deg);
-		}
-	}
-
-	.search-bar {
-		position: relative;
-		margin-bottom: 0.5rem;
-	}
-
-	.search-input {
-		width: 100%;
-		padding: 0.6rem 2rem 0.6rem 0.75rem;
-		border: 1px solid #ccc;
-		border-radius: 6px;
+	.pagination-info {
+		text-align: center;
+		margin-bottom: 0.75rem;
 		font-family: fustat;
-		font-size: 0.95em;
-		background-color: rgba(75, 75, 75, 0.05);
-		box-sizing: border-box;
 	}
 
-	.search-input:focus {
-		outline: none;
-		border-color: #2d6a4f;
-		box-shadow: 0 0 0 2px rgba(45, 106, 79, 0.2);
-	}
-
-	.search-input::placeholder {
-		color: #999;
-	}
-
-	.clear-search {
-		position: absolute;
-		right: 0.5rem;
-		top: 50%;
-		transform: translateY(-50%);
-		background: none;
-		border: none;
-		cursor: pointer;
-		font-size: 1rem;
-		color: #666;
-		padding: 0.25rem;
-		line-height: 1;
-	}
-
-	.clear-search:hover {
-		color: #333;
-	}
-
-	.drug-count {
-		font-family: fustat;
+	.pagination-info .text-sm {
 		font-size: 0.85em;
 		color: #666;
-		text-align: center;
+		margin-top: 0.25rem;
+	}
+
+	.pagination-buttons {
+		display: flex;
+		gap: 0.5rem;
+		justify-content: center;
+	}
+
+	.pagination-btn {
+		font-family: fustat;
+		padding: 0.5rem 1rem;
+		border: 1px solid #ccc;
+		background-color: rgba(75, 75, 75, 0.1);
+		cursor: pointer;
+		border-radius: 4px;
+		font-size: 0.9em;
+		transition: background-color 0.2s;
+	}
+
+	.pagination-btn:hover:not(:disabled) {
+		background-color: rgba(75, 75, 75, 0.2);
+	}
+
+	.pagination-btn:disabled {
+		opacity: 0.4;
+		cursor: not-allowed;
 	}
 
 	.drug-selection-section {
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-		min-height: 0px;
-		max-height: 800px;
-		overflow: hidden;
 	}
 
 	.drug-list {
 		list-style: none;
 		padding: 0;
 		margin: 10px 0;
+		max-height: 300px;
+		overflow-y: auto;
 		border: 1px solid rgba(128, 128, 128, 0.5);
 		border-radius: 4px;
 		flex: 1;
-		overflow-y: auto;
-		min-height: 0px;
-		max-height: 400px;
 	}
 
 	.drug-list-item {
@@ -775,6 +752,10 @@ MODIFIED: Shows average price per year instead of all data points
 		gap: 0.5rem;
 		background-color: rgba(75, 75, 75, 0.2);
 		border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+	}
+
+	.drug-list-item:last-child {
+		border-bottom: none;
 	}
 
 	.drug-list-item .checkmark {
@@ -805,50 +786,6 @@ MODIFIED: Shows average price per year instead of all data points
 		outline-offset: -2px;
 	}
 
-	.selected-list {
-		list-style: none;
-		padding: 0;
-		margin: 10px 0;
-		border: 1px solid rgba(128, 128, 128, 0.5);
-		border-radius: 4px;
-		flex: 1;
-		overflow-y: auto;
-		min-height: 0px;
-		max-height: 150px;
-	}
-
-	.selected-list-item {
-		padding: 0.5rem 1rem;
-		cursor: pointer;
-		transition: background-color 0.2s;
-		font-family: fustat;
-		font-size: 14px;
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		background-color: rgba(75, 75, 75, 0.2);
-		border-bottom: 1px solid rgba(128, 128, 128, 0.5);
-	}
-
-	.selected-list-item .drug-name {
-		flex: 1;
-	}
-
-	.selected-list-item .drug-price {
-		margin-left: auto;
-		font-weight: 600;
-		font-size: 0.9em;
-	}
-
-	.selected-list-item:hover {
-		background-color: rgba(128, 128, 128, 0.15);
-	}
-
-	.selected-list-item:focus {
-		outline: 1px solid #54707c;
-		outline-offset: -2px;
-	}
-
 	.width-tracker {
 		margin: 20px 40px;
 	}
@@ -874,22 +811,17 @@ MODIFIED: Shows average price per year instead of all data points
 	}
 
 	.side-bar {
-		padding: 10px 10px 10px 20px;
+		padding: 10px 10px 0 20px;
 		width: 25%;
 		display: flex;
 		flex-direction: column;
 		border-left: 1px solid #ccc;
-		min-height: 0;
-		max-height: 100%;
-		overflow: hidden;
 	}
 
 	.controls {
 		display: flex;
 		flex-direction: column;
 		height: 100%;
-		min-height: 0;
-		overflow: hidden;
 	}
 
 	svg {
