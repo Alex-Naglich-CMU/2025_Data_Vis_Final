@@ -5,7 +5,6 @@
 	import { isDarkMode } from '$lib/stores/theme';
 	import TimeSeriesComparison from '$lib/components/TimeSeriesComparison.svelte';
 	import Headlines from '$lib/components/Headlines.svelte';
-	import InsulinComparison from '$lib/components/Insulin.svelte';
 	import AnimatedSeries from '$lib/components/AnimatedSeries.svelte';
 	import PricePerMgForm from '$lib/components/PricePerMgForm.svelte';
 	import PricePerMgStrength from '$lib/components/PricePerMgStrength.svelte';
@@ -15,14 +14,11 @@
  	import AnimatedSeriesPaginated2 from '$lib/components/AnimatedSeriesPaginated2.svelte';
 	import InflationComparison from '$lib/components/InflationComparison.svelte';
 	import AveragePriceFormCategories from '$lib/components/AveragePriceFormCategories.svelte';
-	import AnimatedIntroChart from '$lib/components/AnimatedIntroChart.svelte';
 	import DropChart from '$lib/components/DropChart.svelte';
 	import IntroChart from '$lib/components/IntroChart.svelte';
 	import IntroChart2 from '$lib/components/IntroChart2.svelte';
 	import PeopleImpact from '$lib/components/PeopleImpact.svelte';
 	import DrugSelector from '$lib/components/DrugSelector.svelte';
-
-
 
 	let selectedDrugIndex = $state(8);
 	
@@ -352,6 +348,10 @@
 					<p> However, generic options aren't always available, especially for new drugs. So what can we do to reduce the cost of those medications for those who need them? </p>
 					<br />
 
+					<!-- I know this syntax is a bit wonky -->
+					<DrugSelector bind:selectedDrugIndex label="Select drug:" />
+					<TimeSeriesComparison {selectedDrugIndex} /> 
+
 					<h3> How Policy is Affecting Drug Prices </h3>
 					<p> One recent change comes from the American Rescue Plan Act, passed in 2021 under President Biden. While it was mainly a COVID-era stimulus bill, it also included a provision that affects Medicaid. </p>
 					<br />
@@ -366,30 +366,20 @@
 
 					<h3> How You Can Get Involved </h3>
 					<p> There are ways to help make prescription drugs more affordable. You can support advocacy groups like the AMA's Truth in RX, which works to increase transparency in drug pricing. You can also participate in state and federal elections and support legislation aimed at lowering prescription drug costs. For example, the 2025 State Tracker from the National Academy for State Health Policy highlights current bills in each state focused on making medications more affordable. Every action helps move the system toward fairer pricing. </p>
-				
+					<br />
 					<p>→ <a href="https://truthinrx.org/" target="_blank" rel="noopener noreferrer">Truth in RX</a></p>
 					<p>→ <a href="https://nashp.org/state-tracker/2025-state-legislation-to-lower-prescription-drug-costs/" target="_blank" rel="noopener noreferrer">2025 State Tracker</a></p>
 				</div>
 			</div>
 		</div> 
 		
-		<!-- I know this syntax is a bit wonky -->
-		<DrugSelector bind:selectedDrugIndex label="Select drug:" />
-		<TimeSeriesComparison {selectedDrugIndex} /> 
 		<br />
 		<br />
 		<div class="headers">
-			<h3> How did drug prices change over time? </h3>
+			<h3> Explore other drugs! </h3>
 		</div>
-		<AnimatedSeries />
-
-		<br />
 
 		<AnimatedSeriesPaginated />
-
-		<br />
-
-		<AnimatedSeriesPaginated2 />
 
 		<br />
 
