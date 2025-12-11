@@ -375,7 +375,16 @@
 				<h3>Do these numbers </h3>
 			</div>
 
-			<h4 class="section-title">Look at Insulin Lantus ↓</h4>
+			ANISSA LOOK HERE!!!!
+			ANISSA LOOK HERE!!!!
+			ANISSA LOOK HERE!!!!
+			ANISSA LOOK HERE!!!!
+			
+			<h4>→</h4>
+
+
+
+			
 			<InsulinComparison />
 
 		</div> 
