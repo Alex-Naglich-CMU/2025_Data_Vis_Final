@@ -348,7 +348,6 @@
 				</div>
 			</div>
 			
-
 			<br />
 			<div class="cause-section-container slide-section">
 				<h3>What about the delivery form?</h3>
