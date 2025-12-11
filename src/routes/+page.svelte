@@ -22,21 +22,20 @@
 
 	let selectedDrugIndex = $state(8);
 	
-    const brandDrugs = [
-        // { name: 'GLUCOPHAGE', image: '/images/pills/pill01.png' },
-        { name: 'LAMICTAL' },
-        { name: 'LANTUS' },
-        { name: 'LEXAPRO' },
-        { name: 'LIPITOR' },
-        { name: 'LYRICA' },
-        { name: 'NEURONTIN' },
-        { name: 'NORVASC' },
-        { name: 'PROVIGIL' },
-        { name: 'PROZAC' },
-        { name: 'SYNTHROID' },
-        { name: 'VYVANSE' },
-        { name: 'ZOLOFT' }
-    ];
+	const brandDrugs = [
+		{ name: 'LAMICTAL', image: 'Lamictal.png' },
+		{ name: 'LANTUS', image: 'Lantus.png' },
+		{ name: 'LEXAPRO', image: 'Lexapro.png' },
+		{ name: 'LIPITOR', image: 'Lipitor.png' },
+		{ name: 'LYRICA', image: 'Lyrica.png' },
+		{ name: 'NEURONTIN', image: 'Neurotin.png' },
+		{ name: 'NORVASC', image: 'Norvasc.png' },
+		{ name: 'PROVIGIL', image: 'Provigil.png' },
+		{ name: 'PROZAC', image: 'Prozac.png' },
+		{ name: 'SYNTHROID', image: 'Synthroid.png' },
+		{ name: 'VYVANSE', image: 'Vyvance.png' },
+		{ name: 'ZOLOFT', image: 'Zoloft.png' }
+	];
 
 
 	//default values for scrolling effect
