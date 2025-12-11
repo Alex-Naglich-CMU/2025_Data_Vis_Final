@@ -1,0 +1,19 @@
+{
+  "RxCUI": "2696079",
+  "Name": "hydroxyurea 100 MG/ML Oral Solution [Xromi]",
+  "IsBrand": true,
+  "Brand_RxCUI": "2696079",
+  "Generic_RxCUI": "2682741",
+  "Ingredient_Name": "Hydroxyurea Mgml",
+  "Manufacturer_Name": "Xromi",
+  "Strength": "100 MG/ML",
+  "Form": "Oral Solution",
+  "prices": {
+    "62484001504": {
+      "11/19/2025": 4.92777
+    },
+    "62484001505": {
+      "11/19/2025": 4.92777
+    }
+  }
+}

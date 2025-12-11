@@ -1,0 +1,16 @@
+{
+  "RxCUI": "2714657",
+  "Name": "LUIZZA 1 MG-20 MCG TABLET",
+  "IsBrand": false,
+  "Brand_RxCUI": "1358776",
+  "Generic_RxCUI": "2714657",
+  "Ingredient_Name": "Luizza -",
+  "Manufacturer_Name": "",
+  "Strength": "1 MG",
+  "Form": "TABLET",
+  "prices": {
+    "70700031379": {
+      "11/19/2025": 0.1665
+    }
+  }
+}

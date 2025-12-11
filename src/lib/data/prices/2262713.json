@@ -1,0 +1,16 @@
+{
+  "RxCUI": "2262713",
+  "Name": "Micronized isotretinoin 16 MG Oral Capsule [Absorica]",
+  "IsBrand": true,
+  "Brand_RxCUI": "2262713",
+  "Generic_RxCUI": "2262711",
+  "Ingredient_Name": "Micronized Isotretinoin",
+  "Manufacturer_Name": "Absorica",
+  "Strength": "16 MG",
+  "Form": "Oral Capsule",
+  "prices": {
+    "10631000331": {
+      "11/19/2025": 38.4106
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "RxCUI": "1356570",
+  "Name": "perampanel 4 MG Oral Tablet",
+  "IsBrand": false,
+  "Brand_RxCUI": "1356572",
+  "Generic_RxCUI": "1356570",
+  "Ingredient_Name": "Perampanel",
+  "Manufacturer_Name": "",
+  "Strength": "4 MG",
+  "Form": "Oral Tablet",
+  "prices": {
+    "00480706356": {
+      "11/19/2025": 31.45517
+    }
+  }
+}
