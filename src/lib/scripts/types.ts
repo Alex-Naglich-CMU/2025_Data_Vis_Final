@@ -1,4 +1,11 @@
-// Type definitions
+// DrugData, smaller interface
+export interface DrugData {
+	rxcui: string;
+	name: string;
+	color: string;
+	prices: { date: Date; price: number }[];
+	isHighlighted: boolean;
+}
 
 // Price data organized by NDC and date
 export interface DrugPricesOnly {
@@ -19,7 +26,6 @@ export interface DrugAllData {
 	strength: string | null;
 	form: string | null;
 	prices: SinglePriceDataPoint[];
-
 }
 
 // Individual price point with metadata
