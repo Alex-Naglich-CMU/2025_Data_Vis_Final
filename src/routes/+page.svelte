@@ -59,13 +59,11 @@
 
 			//don't zoom in on charts
 			const target = e.target as HTMLElement;
-			// if (
-			// 	target.closest('.inflation-section') ||
-			// 	target.closest('svg') ||
-			// 	target.closest('.chart-area')
-			// ) {
-			// 	return;
-			// }
+			if (
+				target.closest('.news-holder')	
+			) {
+				return;
+			}
 
 			// add user scroll to total scroll movemetn
 			scrollMovementSum += e.deltaY;
@@ -299,6 +297,9 @@
 						unusually high, it is usually due to market exclusivity rather than the drug's
 						formulation.
 					</p>
+					<br /> 
+					<DrugSelector bind:selectedDrugIndex />
+
 					<div class="width-tracker mid-chart">
 						<div class="charts-container">
 							<PricePerMgForm {selectedDrugIndex} />
@@ -320,6 +321,8 @@
 						relatively minor for different versions of the same drug. Forms that do affect cost
 						generally have specialized or patented technologies.
 					</p>
+					<br />
+					<DrugSelector bind:selectedDrugIndex />
 					<div class="width-tracker mid-chart">
 						<div class="charts-container">
 							<PricePerMgStrength {selectedDrugIndex} />
@@ -340,6 +343,7 @@
 						then delayed or extended release capsules. Again, exclusive or proprietary technology is
 						the driving factor.
 					</p>
+					<br />
 					<div class="mid-chart">
 						<AveragePriceFormCategories />
 					</div>
@@ -688,10 +692,6 @@
 
 	.generic-v-brand {
 		margin-top: 2em;
-	}
-
-	.exploreOtherDrugs {
-		padding-left: 2.8em;
 	}
 
 	.drugs-grid {
