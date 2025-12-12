@@ -47,9 +47,9 @@
 </script>
 
 <div class="drug-selector-wrapper" class:compact>
-	{#if showLabel}
+	<!-- {#if showLabel}
 		<label for="drug-select" class="drug-label">{label}</label>
-	{/if}
+	{/if} -->
 	<select 
 		id="drug-select"
 		class="drug-dropdown"
@@ -68,12 +68,6 @@
 	.drug-selector-wrapper {
 		display: flex;
 		align-items: center;
-		gap: 1rem;
-		margin: 1.5rem 0;
-	}
-
-	.drug-selector-wrapper.compact {
-		margin: 1rem 0;
 	}
 
 	.drug-label {
@@ -86,12 +80,12 @@
 	.drug-dropdown {
 		font-family: fustat;
 		font-size: 1em;
-		padding: 0.5rem 1rem;
 		border: 1px solid #ccc;
 		border-radius: 4px;
 		background-color: rgba(75, 75, 75, 0.1);
 		cursor: pointer;
-		min-width: 280px;
+		min-width: 240px;
+		padding: 4px 10px ;
 	}
 
 	.drug-dropdown:focus {

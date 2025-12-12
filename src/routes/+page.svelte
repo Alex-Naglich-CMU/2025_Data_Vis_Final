@@ -24,14 +24,14 @@
 
 	const brandDrugs = [
 		{ name: 'LAMICTAL', image: 'Lamictal.png', type: 'Anticonvulsant' },
-		{ name: 'LANTUS', image: 'Lantus.png', type: 'Insulin'},
-		{ name: 'LEXAPRO', image: 'Lexapro.png', type: 'SSRI'},
-		{ name: 'LIPITOR', image: 'Lipitor.png', type: 'Statin'},
+		{ name: 'LANTUS', image: 'Lantus.png', type: 'Insulin' },
+		{ name: 'LEXAPRO', image: 'Lexapro.png', type: 'SSRI' },
+		{ name: 'LIPITOR', image: 'Lipitor.png', type: 'Statin' },
 		{ name: 'LYRICA', image: 'Lyrica.png', type: 'Anticonvulsant' },
 		{ name: 'NEURONTIN', image: 'Neurotin.png', type: 'Anticonvulsant' },
 		{ name: 'NORVASC', image: 'Norvasc.png', type: 'Calcium Channel Blocker' },
 		{ name: 'PROVIGIL', image: 'Provigil.png', type: 'CNS Stimulant' },
-		{ name: 'PROZAC', image: 'Prozac.png', type: 'SSRI'},
+		{ name: 'PROZAC', image: 'Prozac.png', type: 'SSRI' },
 		{ name: 'SYNTHROID', image: 'Synthroid.png', type: 'Thyroid Hormone' },
 		{ name: 'VYVANSE', image: 'Vyvance.png', type: 'CNS Stimulant' },
 		{ name: 'ZOLOFT', image: 'Zoloft.png', type: 'SSRI' }
@@ -59,13 +59,13 @@
 
 			//don't zoom in on charts
 			const target = e.target as HTMLElement;
-			if (
-				target.closest('.inflation-section') ||
-				target.closest('svg') ||
-				target.closest('.chart-area')
-			) {
-				return;
-			}
+			// if (
+			// 	target.closest('.inflation-section') ||
+			// 	target.closest('svg') ||
+			// 	target.closest('.chart-area')
+			// ) {
+			// 	return;
+			// }
 
 			// add user scroll to total scroll movemetn
 			scrollMovementSum += e.deltaY;
@@ -133,65 +133,72 @@
 	<div class="page-container">
 		<div class="intro-container">
 			<!--Intro Screen -->
-			<div class="title-holder slide-section">
-				<div class="title">
-					<h1 class="headerTitle">Do You Know the <u>Actual Cost</u> of Your Medications?</h1>
-				</div>
-				<div class="pillsImages">
-					<img
-						class="pillpics"
-						src={asset('/images/pills/pill01.png')}
-						alt="red pill illustration"
-					/>
-					<img
-						class="pillpics"
-						src={asset('/images/pills/pill02.png')}
-						alt="blue pill illustration"
-					/>
-					<img
-						class="pillpics"
-						src={asset('/images/pills/pill03.png')}
-						alt="tan pill illustration"
-					/>
+			<div class="slide-section">
+				<div class="title-holder">
+					<div class="title">
+						<h1 class="headerTitle">Do You Know the <u>Actual Cost</u> of Your Medications?</h1>
+					</div>
+					<div class="pillsImages">
+						<img
+							class="pillpics"
+							src={asset('/images/pills/pill01.png')}
+							alt="red pill illustration"
+						/>
+						<img
+							class="pillpics"
+							src={asset('/images/pills/pill02.png')}
+							alt="blue pill illustration"
+						/>
+						<img
+							class="pillpics"
+							src={asset('/images/pills/pill03.png')}
+							alt="tan pill illustration"
+						/>
+					</div>
 				</div>
 			</div>
 
 			<!--drug selector -->
-			<div class="drug-select-container slide-section">
-				<p>
-					According to
-					<a
-						href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10656114/"
-						target="_blank"
-						rel="noopener noreferrer">a 2023 study</a
-					>, a person born today could expect to take prescription medications for roughly half of
-					their life. These are some of the most common prescriptions in the US. Pick one to learn
-					more about its price.
-				</p>
-				<br />
-				<h4>Pick one to learn more about its price.</h4>
-				<br />
-				<div class="drug-selector">
-					<div class="drug-radios">
-						{#each brandDrugs as drug, i}
-							<label class="radio-label">
-								<input
-									type="radio"
-									name="drug-selection"
-									value={i}
-									bind:group={selectedDrugIndex}
-									class="radio-input"
+			<div class="slide-section">
+				<div class="slide-section-content">
+					<h4>Pick a medication to learn more about its price.</h4>
+					<br />
+					<p>
+						According to
+						<a
+							href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10656114/"
+							target="_blank"
+							rel="noopener noreferrer">a 2023 study</a
+						>, a person born today could expect to take prescription medications for roughly half of
+						their life. These are some of the most common prescriptions in the US. Pick one to learn
+						more about its price.
+					</p>
+					<br />
+					<div class="drugs-grid">
+						{#each brandDrugs as drug, index}
+							<button class="drug-card" onclick={() => (selectedDrugIndex = index)}>
+								<img
+									src={asset(`/images/drug-selections/${drug.image}`)}
+									alt={drug.name}
+									class="drug-image"
 								/>
-								<span class="radio-text">{drug.name}</span>
-							</label>
+								<div class="text-button" class:selected={selectedDrugIndex === index}>
+									<h5 class="pill-button-font">{drug.name}</h5>
+									<h6 class="pill-button-sub">{drug.type}</h6>
+								</div>
+							</button>
 						{/each}
+					</div>
+					<div class="selection-indicator">
+						<p>You selected <b>{brandDrugs[selectedDrugIndex].name}</b></p>
+						<span class="arrow">↓</span>
 					</div>
 				</div>
 			</div>
 
 			<!--Current State-->
 			<div class="slide-section">
-				<div class="intro-holder">
+				<div class="slide-section-content">
 					<h2>The state of drug pricing in America</h2>
 					<br />
 					<h3>The use of prescription drugs is increasing</h3>
@@ -204,8 +211,6 @@
 						Just look at the sample of news articles from this year alone ↓
 					</p>
 					<br />
-					<p></p>
-					<br />
 					<h4 class="section-title">Explore recent headlines:</h4>
 					<div class="news-holder">
 						<Headlines />
@@ -214,8 +219,8 @@
 			</div>
 
 			<div class="slide-section">
-				<div class="price-increase-section">
-					<h3>Are prices increasing, or does it just feel that way?</h3>
+				<div class="slide-section-content">
+					<h4>Are prices increasing too, or does it just feel that way?</h4>
 					<br />
 					<p>
 						It turns out that between 2017 and 2025, <b>more drug prices decreased</b> instead of increased.
@@ -226,7 +231,7 @@
 			</div>
 
 			<div class="slide-section">
-				<div class="price-increase-section">
+				<div class="slide-section-content">
 					<p>
 						For now, let's ignore the drugs whose prices stay the same. If we look at the actual
 						price amount each drug increased or decreased by, the data looks very different.
@@ -243,15 +248,18 @@
 			</div>
 
 			<div class="slide-section">
-				<div class="inflation-section">
-					<h3>Is the drug you selected outpacing inflation?</h3>
+				<div class="slide-section-content">
+					<div class="title-inflation">
+						<h3>Is the drug you selected outpacing inflation?</h3>
+						<DrugSelector bind:selectedDrugIndex />
+					</div>
 					<br />
 					<InflationComparison {selectedDrugIndex} />
 				</div>
 			</div>
 
 			<div class="slide-section">
-				<div class="causes-intro">
+				<div class="slide-section-content">
 					<h2>What are the causes?</h2>
 					<br />
 					<p>
@@ -266,18 +274,51 @@
 						If we look at this in the simplest way, causes can be broken down into two categories:
 						development costs, and systemic factors.
 					</p>
+					<br />
+					<div class='bottle-illustration'>
+						<img
+							class="pillBottle"
+							src={asset('/images/drug-selections/RX-Bottle.png')}
+							alt="pill-bottle-illustration"
+						/>
+						<h1 class="question">??</h1>
+					</div>
+					
 				</div>
 			</div>
 
 			<div class="slide-section">
-				<div class="cause-section-container">
-					<h3>Does dosage affect cost?</h3>
+				<div class="slide-section-content">
+					<h2>Development Costs</h2>
+					<br />
+					<h4>Price remains relatively stable across different dosages of the same drug</h4>
 					<br />
 					<p>
 						Even though the amount patients pay per MG may decrease as dosage increases, the price
-						of each pill emains relatively constant independent of dosage. When a certain dosage is
+						of each pill remains relatively constant independent of dosage. When a certain dosage is
 						unusually high, it is usually due to market exclusivity rather than the drug's
 						formulation.
+					</p>
+					<div class="width-tracker mid-chart">
+						<div class="charts-container">
+							<PricePerMgForm {selectedDrugIndex} />
+							<PricePerCapsuleForm {selectedDrugIndex} />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slide-section">
+				<div class="slide-section-content">
+					<h4>
+						The form, like capsule or tablet, has little effect across versions of the same
+						medication
+					</h4>
+					<br />
+					<p>
+						For oral medications, the differences between price based on delivery methods are also
+						relatively minor for different versions of the same drug. Forms that do affect cost
+						generally have specialized or patented technologies.
 					</p>
 					<div class="width-tracker mid-chart">
 						<div class="charts-container">
@@ -289,32 +330,15 @@
 			</div>
 
 			<div class="slide-section">
-				<div class="cause-section-container">
-					<h3>What about the delivery form?</h3>
+				<div class="slide-section-content">
+					<h4>Across different drug classes, forms play a bigger role</h4>
 					<br />
 					<p>
-						For oral medications, the differences between price in delivery method are also
-						relatively minor for different versions of the same drug. Forms that do affect cost
-						generally have specialized or patented technologies.
-					</p>
-					<!-- add a couple sentences if the person's selected drug doesn't have a second form and have it default to a different drug -->
-					<div class="width-tracker mid-chart">
-						<div class="charts-container">
-							<PricePerMgForm {selectedDrugIndex} />
-							<PricePerCapsuleForm {selectedDrugIndex} />
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="slide-section">
-				<div class="intro-holder">
-					<p>
 						Forms between different medications play a much larger role in predicting the cost. By
-						far the most expensive form of drug delivery is injections, such as for insulin or
-						epinepherine. Injections are followed by inhalation, such as for asthma medication, and
-						then delayed or extended release capsules. Again, exclusive or proprietary technology
-						plays a role.
+						far the most expensive form of drug delivery is injection, such as for insulin or
+						epinephrine. Injection is followed by inhalation, such as for asthma medication, and
+						then delayed or extended release capsules. Again, exclusive or proprietary technology is
+						the driving factor.
 					</p>
 					<div class="mid-chart">
 						<AveragePriceFormCategories />
@@ -323,7 +347,43 @@
 			</div>
 
 			<div class="slide-section">
-				<div class="impact">
+				<div class="slide-section-content">
+					<h2>Systemic Factors</h2>
+					<br />
+					<h4>Drugs are developed, priced, and distributed by profit-driven companies.</h4>
+					<br />
+					<p>
+						Three main groups control what Americans pay for prescription drugs: pharmaceutical
+						companies set initial prices and use patents to block competition, pharmacy benefit
+						managers (PBM) negotiate as middlemen while keeping deals secret, and health insurers
+						decide coverage and copays. Together, these players create a complex system where each
+						group profits while patients face rising costs with little transparency about how prices
+						are actually determined.
+					</p>
+					<br />
+					<div class='card-holder'>
+						<div class='company-cards'>
+							<h4 class="card-label">Pharmaceutical Companies</h4>
+							<img class="card-image" src={asset('/images/drug-selections/Pill-white.png')} alt="pharma company icon" />
+							<p class="card-label">Set the Prices & Leverage Patents</p>
+						</div>
+						<div class='company-cards'>
+							<h4 class="card-label">Pharmacy Benefit Managers</h4>
+            				<img class="card-image" src={asset('/images/drug-selections/Person-Icon-white.png')} alt="PBM icon" />
+							<p class="card-label">Serve as Middlemen Between Parties</p>
+						</div>
+						<div class='company-cards'>
+							<h4 class="card-label">Health Insurance Companies</h4>
+							<img class="card-image" src={asset('/images/drug-selections/shield-white.png')} alt="health insurance icon" />
+							<p class="card-label">Decide Coverage & Copay Rates</p>
+						</div>
+					</div>
+						
+				</div>
+			</div>
+
+			<div class="slide-section">
+				<div class="slide-section-content">
 					<h3>What impact does this have?</h3>
 					<br />
 					<p>
@@ -337,71 +397,15 @@
 						<PeopleImpact />
 					</div>
 					<br />
+					<h4>So what can we do, and how do we fix this?</h4>
 				</div>
 			</div>
 
 			<div class="slide-section">
-				<div class="intro-holder">
-					<h2>Development Costs</h2>
+				<div class="slide-section-content">
 					<br />
-					<h3>Price remains relatively stable across different dosages of the same drug</h3>
-					<p>
-						Even though the amount patients pay per MG may decrease as dosage increases, the price
-						of each pill remains relatively constant independent of dosage. When a certain dosage is
-						unusually high, it is usually due to market exclusivity rather than the drug's
-						formulation.
-					</p>
+					<h4>For your own personal prescriptions, choose generic when it's available.</h4>
 					<br />
-					<h3>
-						Form, such as capsule or tablet, also doesn't significantly affect the prices of the
-						same drug form
-					</h3>
-					<p>
-						For oral medications, the differences between price based on delivery methods are also
-						relatively minor for different versions of the same drug. Forms that do affect cost
-						generally have specialized or patented technologies.
-					</p>
-					<br />
-					<p>
-						Forms between different medications play a much larger role in predicting the cost. By
-						far the most expensive form of drug delivery is injection, such as for insulin or
-						epinephrine. Injection is followed by inhalation, such as for asthma medication, and
-						then delayed or extended release capsules. Again, exclusive or proprietary technology is
-						the driving factor. (source needed)
-					</p>
-				</div>
-			</div>
-
-			<div class="slide-section">
-				<div class="intro-holder">
-					<h2>Systemic Factors</h2>
-					<br />
-					<h3>Drugs are developed, priced, and distributed by profit-driven companies.</h3>
-					<p>
-						Three main groups control what Americans pay for prescription drugs: pharmaceutical
-						companies set initial prices and use patents to block competition, pharmacy benefit
-						managers (PBM) negotiate as middlemen while keeping deals secret, and health insurers
-						decide coverage and copays. Together, these players create a complex system where each
-						group profits while patients face rising costs with little transparency about how prices
-						are actually determined.
-					</p>
-					<br />
-					<h3>What impact does this have?</h3>
-					<p>
-						People end up splitting pills or skipping doses to try and make a drug last longer,
-						threatening their health. Out of pocket costs are greater for those with less coverage,
-						so some of the people likely to receive the highest drug costs are those with the fewest
-						resources to pay for them.
-					</p>
-					<br />
-				</div>
-			</div>
-
-			<div class="slide-section">
-				<div class="intro-holder">
-					<h2>So what can we do, and how do we fix this?</h2>
-					<br />
-					<h3>For your own personal prescriptions, choose generic when it's available.</h3>
 					<p>
 						Your physician and PBM are likely already encouraging generic use for your prescription
 						medications over their brand-name counterparts. Generic prescriptions are actually
@@ -409,36 +413,26 @@
 						ease the price of medications significantly.
 					</p>
 					<br />
+					<div class="generic-v-brand">
+						<DrugSelector bind:selectedDrugIndex />
+						<TimeSeriesComparison {selectedDrugIndex} />
+					</div>
+					<br />
 					<p>
 						However, generic options aren't always available, especially for new drugs. So what can
 						we do to reduce the cost of those medications for those who need them?
 					</p>
-					<br />
-					<!-- I know this syntax is a bit wonky -->
-					<DrugSelector bind:selectedDrugIndex label="Select drug:" />
-					<TimeSeriesComparison {selectedDrugIndex} />
 				</div>
 			</div>
 
 			<div class="slide-section">
-				<div class="intro-holder">
-					<h3>How Policy is Affecting Drug Prices</h3>
-					<p>
-						One recent change comes from the American Rescue Plan Act, passed in 2021 under
-						President Biden. While it was mainly a COVID-era stimulus bill, it also included a
-						provision that affects Medicaid.
-					</p>
+				<div class="slide-section-content">
+					<h4>To make systemic changes, we need policy solutions</h4>
 					<br />
 					<p>
-						Before this law, drugmakers had to pay penalties if they raised prices faster than
-						inflation, but those penalties were capped. The American Rescue Plan removed the cap in
-						2024. With the cap lifted, raising prices too quickly could cost manufacturers more than
-						the value of the drugs themselves.
-					</p>
-					<br />
-					<p>
-						This change works through the Medicaid Drug Rebate Program, which requires drugmakers to
-						pay rebates to Medicaid when prices rise faster than inflation. By increasing the
+						Drug price decreases either caused by patents expiring, or policy intervention. The
+						American Rescue Plan Act, passed in 2021 under President Biden, removed the caps on
+						penalties to drugmakers when they raise prices faster than inflation. By increasing the
 						financial consequences for large price hikes, the law creates a stronger incentive for
 						manufacturers to keep prices in check. As a result, we see the prices of some drugs, <a
 							href="https://www.kff.org/medicaid/what-are-the-implications-of-the-recent-elimination-of-the-medicaid-prescription-drug-rebate-cap/#:~:text=As%20of%20January%201%2C%202024,a%20frequently%20used%20asthma%20inhaler."
@@ -454,8 +448,9 @@
 			</div>
 
 			<div class="slide-section">
-				<div class="intro-holder">
-					<h3>How You Can Get Involved</h3>
+				<div class="slide-section-content">
+					<h4>How You Can Get Involved</h4>
+					<br />
 					<p>
 						There are ways to help make prescription drugs more affordable. You can support advocacy
 						groups like the AMA's Truth in RX, which works to increase transparency in drug pricing.
@@ -470,6 +465,7 @@
 							>Truth in RX</a
 						>
 					</p>
+					<br />
 					<p>
 						→ <a
 							href="https://nashp.org/state-tracker/2025-state-legislation-to-lower-prescription-drug-costs/"
@@ -479,13 +475,16 @@
 					</p>
 				</div>
 			</div>
-
 		</div>
 
-		<br />
-		<br />
-		<div class="headers">
+		<div class="exploreOtherDrugs">
 			<h3>Explore other drugs!</h3>
+			<p>
+				Try out one of the tools we used to do our data research to see what you can learn about
+				drug prices on your own!
+			</p>
+
+			<h6>Click on any drug price in the right menu to add it to the graph</h6>
 		</div>
 
 		<AnimatedSeriesPaginated />
@@ -495,6 +494,21 @@
 		<br />
 	</div>
 	<!-- closes page-container -->
+	 <!-- Footer -->
+	<footer class="footer">
+		<div class="footer-content">
+			<div class="footer-left">
+				<p class="team">Team: Anissa Patel, Kimberly Credit, Alex Naglich</p>
+				<p class="acknowledgements">
+					<a href={asset('/acknowledgements.pdf')} target="_blank">Acknowledgements</a> | 
+					<a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">Watch Video ↗</a>
+				</p>
+			</div>
+			<div class="footer-right">
+				<p class="course-info">Data Visualization • CMU • Fall 2025</p>
+			</div>
+		</div>
+	</footer>
 </div>
 
 <!-- closes slideshow-wrapper -->
@@ -556,6 +570,22 @@
 		padding-bottom: 2em;
 	}
 
+	.pill-button-font {
+		font-family: fustat;
+		font-size: 0.85em;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.02em;
+	}
+
+	.pill-button-sub {
+		font-family: fustat;
+		font-size: 0.7em;
+		font-weight: 500;
+		margin: 0;
+		color: #666;
+	}
+
 	.slideshow-wrapper {
 		scroll-behavior: smooth;
 		display: flex;
@@ -568,6 +598,13 @@
 		display: flex;
 		justify-content: center;
 		scroll-snap-align: start;
+	}
+
+	.slide-section-content {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.page-container {
@@ -612,61 +649,12 @@
 		margin-bottom: 20px;
 	}
 
-	.intro-holder {
-		max-width: 850px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
 	.news-holder {
 		margin-bottom: 40px;
 		max-width: 850px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	}
-
-	.insulin-graphic-intro {
-		margin-bottom: 40px;
-		max-width: 850px;
-	}
-
-	.chart-intro {
-		max-width: 850px;
-	}
-
-	.drug-select-container {
-		display: flex;
-		flex-direction: column;
-		margin: 5em 0;
-	}
-
-	.drug-selector {
-		display: flex;
-		align-items: center;
-		margin: 0 0 2em 0;
-	}
-
-	.drug-selector label {
-		font-family: Antonio;
-		font-size: 1em;
-		font-weight: 600;
-	}
-
-	.drug-dropdown {
-		font-family: fustat;
-		font-size: 1em;
-		padding: 0.2em 1em;
-		border: 1px solid #ccc;
-		border-radius: 4px;
-		background-color: rgba(75, 75, 75, 0.1);
-		cursor: pointer;
-		min-width: 200px;
-	}
-
-	.drug-dropdown:focus {
-		outline: 2px solid #54707c;
 	}
 
 	.charts-container {
@@ -678,112 +666,210 @@
 		-webkit-user-select: none;
 	}
 
-	.drug-selector {
-		margin-bottom: 2em;
-		border: 1px solid #ccc;
-	}
-
-	.drug-radios {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 1.8em 8em;
-		max-width: 850px;
-		margin: 0 auto;
-		padding: 3.5em 0;
-	}
-
-	.radio-label {
-		display: flex;
-		align-items: center;
-		padding: 0.1em 0.1em;
-		cursor: pointer;
-		transition: all 0.2s ease;
-	}
-
-	.radio-label:hover .radio-text {
-		font-weight: 800;
-	}
-
-	.radio-label:has(.radio-input:checked) .radio-text {
-		font-weight: 800;
-	}
-
-	.radio-input {
-		margin-right: 0.6em;
-		appearance: none;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		border: 2px solid #ccc;
-		border-radius: 50%;
-		position: relative;
-		outline: none;
-		background-color: white;
-		box-shadow: none;
-	}
-
-	.radio-input:focus-visible {
-		outline: none;
-		box-shadow: none;
-	}
-
-	.radio-input:checked {
-		border-color: #c9381a;
-		outline: none;
-	}
-	.radio-input:checked::before {
-		content: '';
-		position: absolute;
-		width: 10px;
-		height: 10px;
-		border-radius: 50%;
-		background-color: #c9381a;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-
-	.radio-text {
-		font-family: fustat;
-		font-size: 1em;
-	}
-
-	.cause-section-container {
-		margin-bottom: 10em;
-	}
-
 	.mid-chart {
-		margin-bottom: 6em;
-		margin-top: 6em;
-	}
-
-	.price-increase-section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.inflation-section {
-		min-height: 100vh;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.impact {
-		min-height: 100vh;
-		max-width: 850px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.source {
-		font-family: fustat;
-		font-size: 0.5em;
-		color: #818181;
+		margin-top: 2em;
 	}
 
 	.graphic {
 		margin: 3em auto;
 	}
+
+	.title-inflation {
+		display: flex;
+		justify-content: space-between;
+		align-items: end;
+		margin-bottom: 2em;
+	}
+
+	.generic-v-brand {
+		margin-top: 2em;
+	}
+
+	.exploreOtherDrugs {
+		padding-left: 2.8em;
+	}
+
+	.drugs-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1.8em;
+		max-width: 1200px;
+		min-width: 850px;
+		margin: 0 auto;
+		padding: 2em 0;
+	}
+
+	.drug-card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0.5em;
+		background: transparent;
+		border: none;
+		cursor: pointer;
+		transition: transform 0.2s ease;
+	}
+
+	.drug-card:hover {
+		transform: translateY(-2px);
+	}
+
+	.drug-image {
+		width: 75px;
+		height: 75px;
+		object-fit: contain;
+		margin-bottom: 0.5em;
+	}
+
+	.text-button {
+		padding: 0.1em 0.8em;
+		background: #edeae2;
+		border-radius: 6px;
+		transition: background-color 0.2s ease;
+		width: 100%;
+	}
+
+	.drug-card:hover .text-button {
+		background-color: #d1d4d9;
+	}
+
+	.text-button.selected {
+		background-color: #d1d4d9;
+	}
+
+	.drug-card h5 {
+		margin: 0.2em 0 0.1em 0;
+		text-align: center;
+	}
+
+	.drug-card h6 {
+		margin: 0;
+		text-align: center;
+	}
+
+	.pillBottle {
+		width: 150px;
+		height: auto;
+	}
+
+	.question {
+		font-size: 8em;
+		color: #8d8d8d;
+	}
+
+	.bottle-illustration {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 4em;
+		margin-top: 2em;
+	}
+
+	.card-holder {
+		max-width: 850px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 2em;
+	}
+
+	.company-cards {
+		width: 30%;
+		height: 18em;
+		background-color: #355b75;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1em;
+		border-radius: 6px;
+		color: white;
+	}
+
+	.card-label {
+		text-align: center;
+	}
+
+	.card-image {
+		width: 100px;
+		height: 100px;
+	}
+
+	/* Footer Styles */
+	.footer {
+		margin-top: 4em;
+		padding: 2em 0 1.5em 0;
+		border-top: 1px solid #ddd;
+	}
+
+	:global(.dark) .footer {
+		border-top: 1px solid #333;
+	}
+
+	.footer-content {
+		max-width: 850px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap: 2em;
+	}
+
+	.footer-left {
+		flex: 1;
+		text-align: left;
+	}
+
+	.footer-right {
+		text-align: right;
+		white-space: nowrap;
+	}
+
+	.footer p {
+		font-family: fustat;
+		font-size: 0.85em;
+		color: #818181;
+		margin: 0.3em 0;
+	}
+
+	.footer a {
+		color: #818181;
+		text-decoration: underline;
+		transition: color 0.2s ease;
+	}
+
+	.footer a:hover {
+		color: #c9381a;
+	}
+
+	.team {
+		font-weight: 600;
+	}
+
+	.acknowledgements {
+		font-size: 0.8em;
+	}
+
+	.course-info {
+		font-size: 0.85em;
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+	}
+
+	@media (max-width: 768px) {
+		.footer-content {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			gap: 1em;
+		}
+
+		.footer-left,
+		.footer-right {
+			text-align: center;
+		}
+	}
+
+
 </style>

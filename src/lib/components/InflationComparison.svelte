@@ -50,8 +50,8 @@ x-axis: year, y-axis: price
 	// layout constants
 	let containerWidth = $state(0);
 	const width = $derived(containerWidth || 900);
-	const height = $derived(width * 0.65);
-	const margin = { top: 50, right: 20, bottom: 60, left: 55 };
+	const height = $derived(width * 0.64);
+	const margin = { top: 50, right: 20, bottom: 60, left: 40 };
 
 	// load data on mount and when drug selection changes
 	$effect(() => {
@@ -207,6 +207,8 @@ x-axis: year, y-axis: price
 
 	const brandPath = $derived(createLinePath(brandPrices, xScale, yScale));
 	const inflationPath = $derived(createLinePath(inflationLine, xScale, yScale));
+	const startDate = $derived(brandPrices.length > 0 ? brandPrices[0].date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }) : 'Jan 2017');
+	const endDate = $derived(brandPrices.length > 0 ? brandPrices[brandPrices.length - 1].date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }) : 'Now');
 
 	// svg refs
 	let xAxisRef = $state<SVGGElement>();
@@ -243,22 +245,31 @@ x-axis: year, y-axis: price
 					<option value={i}>{drug.name}</option>
 				{/each}
 			</select> -->
-			
+<!-- 			
 			{#if percentDifference !== 0}
 				<div class="difference-display">
-					Brand price is 
 					<strong class:above={percentDifference > 0} class:below={percentDifference < 0}>
 						{Math.abs(percentDifference).toFixed(1)}%
 						{percentDifference > 0 ? 'above' : 'below'}
 					</strong>
-					inflation expectation
 				</div>
-			{/if}
+			{/if} -->
 		</div>
 
 		<div class="width-tracker" bind:clientWidth={containerWidth}>
 			<div class="chart-area" bind:this={chartContainerRef}>
 				<svg {width} {height} role="img">
+
+						<!-- Title -->
+					<text
+						x={width / 2}
+						y={margin.top / 2}
+						text-anchor="middle"
+						class="chart-title"
+					>
+						Changes in Drug Price vs Rate of Inflation from {startDate} to {endDate} (30 Day Supply)
+					</text>
+
 					<!-- shaded area between brand and inflation lines -->
 					{#if brandPrices.length > 0 && inflationLine.length > 0}
 						{@const areaPath = (() => {
@@ -361,7 +372,7 @@ x-axis: year, y-axis: price
 					<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
 
 					<!-- y-axis label -->
-					<text
+					<!-- <text
 						transform="rotate(-90)"
 						x={-(height / 2)}
 						y={15}
@@ -371,7 +382,7 @@ x-axis: year, y-axis: price
 						Price (30-day supply)
 					</text>
 
-					<!-- x-axis label -->
+					 x-axis label
 					<text
 						x={width / 2}
 						y={height - 10}
@@ -379,10 +390,10 @@ x-axis: year, y-axis: price
 						class="axis-label"
 					>
 						Year
-					</text>
+					</text> -->
 
 					<!-- legend -->
-						<g transform="translate({width - margin.right - 115}, {margin.top - 40})">
+						<g transform="translate({width - margin.right - 115}, {margin.top + 5})">
 						<!-- brand -->
 						<line x1="0" y1="0" x2="30" y2="0" stroke="#9a2f1f" stroke-width="2" />
 						<text x="35" y="5" class="legend-text">Brand</text>
@@ -442,10 +453,7 @@ x-axis: year, y-axis: price
 
 	.controls {
 		display: flex;
-		align-items: center;
-		gap: 1rem;
-		margin-bottom: 2rem;
-		padding: 1rem;
+		flex-direction: column;
 	}
 
 	.controls label {
@@ -467,12 +475,6 @@ x-axis: year, y-axis: price
 
 	.drug-dropdown:focus {
 		outline: 2px solid #54707c;
-	}
-
-	.difference-display {
-		font-family: fustat;
-		font-size: 1.1em;
-		margin-left: auto;
 	}
 
 	.difference-display strong {
@@ -555,6 +557,12 @@ x-axis: year, y-axis: price
 		font-family: fustat;
 		font-size: 0.9em;
 		fill: #333;
+	}
+
+	.chart-title{
+		font-family: fustat;
+		font-size: 1.1em;
+		font-weight: 500;
 	}
 
 	:global(.x-axis text),

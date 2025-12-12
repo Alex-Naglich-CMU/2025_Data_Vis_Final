@@ -51,7 +51,7 @@
 	let containerWidth = $state(0);
 	const chartWidth = $derived((containerWidth * 0.48) || 500);
 	const chartHeight = $derived(chartWidth * 0.7);
-	const margin = { top: 40, right: 40, bottom: 60, left: 80 };
+	const margin = { top: 5, right: 40, bottom: 60, left: 80 };
 
 	// DATA LOADING
 onMount(async () => {
