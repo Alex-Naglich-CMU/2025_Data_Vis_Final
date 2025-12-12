@@ -32,19 +32,26 @@ x-axis: year, y-axis: price
 	}
 
 	interface Props {
-        selectedDrugIndex?: number;
-    }   
+		selectedDrugIndex?: number;
+	}
 
 	let { selectedDrugIndex = 2 }: Props = $props();
 
 	let loading = $state(false);
 	let error = $state<string | null>(null);
-	
+
 	let brandPrices = $state<PricePoint[]>([]);
 	let inflationLine = $state<PricePoint[]>([]);
-	
+
 	let percentDifference = $state(0);
-	let tooltipData = $state<{ x: number; y: number; date: Date; price: number; inflationPrice: number; diff: number } | null>(null);
+	let tooltipData = $state<{
+		x: number;
+		y: number;
+		date: Date;
+		price: number;
+		inflationPrice: number;
+		diff: number;
+	} | null>(null);
 	let chartContainerRef = $state<HTMLDivElement>();
 
 	// layout constants
@@ -61,11 +68,11 @@ x-axis: year, y-axis: price
 	async function loadDrugData() {
 		loading = true;
 		error = null;
-		
+
 		try {
 			const drug = drugs[selectedDrugIndex];
-			console.log('loading data for:', drug.name);
-			
+			// console.log('loading data for:', drug.name);
+
 			// load brand prices
 			const brandModule = await import(`$lib/data/prices/${drug.brandRxcui}.json`);
 			const brandData = brandModule.default;
@@ -91,16 +98,16 @@ x-axis: year, y-axis: price
 			// calculate inflation line (use brand as baseline)
 			if (brandPrices.length > 0) {
 				inflationLine = calculateInflationLine(brandPrices);
-				
+
 				// calculate percent difference between final brand price and inflation expectation
 				const finalBrand = brandPrices[brandPrices.length - 1].price;
 				const finalInflation = inflationLine[inflationLine.length - 1].price;
 				percentDifference = ((finalBrand - finalInflation) / finalInflation) * 100;
 			}
 
-			console.log('brand points:', brandPrices.length);
-			console.log('inflation expectation:', inflationLine.length);
-			console.log('percent above inflation:', percentDifference.toFixed(1) + '%');
+			// console.log('brand points:', brandPrices.length);
+			// console.log('inflation expectation:', inflationLine.length);
+			// console.log('percent above inflation:', percentDifference.toFixed(1) + '%');
 
 			loading = false;
 		} catch (err) {
@@ -128,44 +135,44 @@ x-axis: year, y-axis: price
 	function deduplicateByDate(points: PricePoint[]): PricePoint[] {
 		// sort by date
 		points.sort((a, b) => a.date.getTime() - b.date.getTime());
-		
+
 		// keep last price for each date
 		const dateMap = new Map<string, PricePoint>();
 		for (const point of points) {
 			const dateKey = point.date.toISOString().split('T')[0];
 			dateMap.set(dateKey, point);
 		}
-		
+
 		return Array.from(dateMap.values()).sort((a, b) => a.date.getTime() - b.date.getTime());
 	}
 
 	function calculateInflationLine(prices: PricePoint[]): PricePoint[] {
 		if (prices.length === 0) return [];
-		
+
 		const inflationRate = 0.03; // 3% annual inflation
 		const startPrice = prices[0].price;
 		const startDate = prices[0].date;
-		
+
 		// create inflation points for each year from start to end
 		const inflationPoints: PricePoint[] = [];
-		
+
 		for (const point of prices) {
 			const years = (point.date.getTime() - startDate.getTime()) / (365.25 * 24 * 60 * 60 * 1000);
 			const inflatedPrice = startPrice * Math.pow(1 + inflationRate, years);
-			
+
 			inflationPoints.push({
 				date: point.date,
 				price: inflatedPrice,
 				year: point.date.getFullYear()
 			});
 		}
-		
+
 		return inflationPoints;
 	}
 
 	// chart scales
 	const allPoints = $derived([...brandPrices, ...inflationLine]);
-	
+
 	function createScales(data: PricePoint[], widthVal: number, heightVal: number) {
 		const hasData = data.length > 0;
 
@@ -173,7 +180,7 @@ x-axis: year, y-axis: price
 			.scaleTime()
 			.range([margin.left, widthVal - margin.right])
 			.domain(
-				hasData 
+				hasData
 					? (d3.extent(data, (d) => d.date) as [Date, Date])
 					: [new Date(2018, 0, 1), new Date(2025, 0, 1)]
 			);
@@ -207,8 +214,19 @@ x-axis: year, y-axis: price
 
 	const brandPath = $derived(createLinePath(brandPrices, xScale, yScale));
 	const inflationPath = $derived(createLinePath(inflationLine, xScale, yScale));
-	const startDate = $derived(brandPrices.length > 0 ? brandPrices[0].date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }) : 'Jan 2017');
-	const endDate = $derived(brandPrices.length > 0 ? brandPrices[brandPrices.length - 1].date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }) : 'Now');
+	const startDate = $derived(
+		brandPrices.length > 0
+			? brandPrices[0].date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' })
+			: 'Jan 2017'
+	);
+	const endDate = $derived(
+		brandPrices.length > 0
+			? brandPrices[brandPrices.length - 1].date.toLocaleDateString('en-US', {
+					month: 'short',
+					year: 'numeric'
+				})
+			: 'Now'
+	);
 
 	// svg refs
 	let xAxisRef = $state<SVGGElement>();
@@ -245,7 +263,7 @@ x-axis: year, y-axis: price
 					<option value={i}>{drug.name}</option>
 				{/each}
 			</select> -->
-<!-- 			
+			<!-- 			
 			{#if percentDifference !== 0}
 				<div class="difference-display">
 					<strong class:above={percentDifference > 0} class:below={percentDifference < 0}>
@@ -259,14 +277,8 @@ x-axis: year, y-axis: price
 		<div class="width-tracker" bind:clientWidth={containerWidth}>
 			<div class="chart-area" bind:this={chartContainerRef}>
 				<svg {width} {height} role="img">
-
-						<!-- Title -->
-					<text
-						x={width / 2}
-						y={margin.top / 2}
-						text-anchor="middle"
-						class="chart-title"
-					>
+					<!-- Title -->
+					<text x={width / 2} y={margin.top / 2} text-anchor="middle" class="chart-title">
 						Changes in Drug Price vs Rate of Inflation from {startDate} to {endDate} (30 Day Supply)
 					</text>
 
@@ -275,51 +287,39 @@ x-axis: year, y-axis: price
 						{@const areaPath = (() => {
 							// create area path
 							let path = `M ${xScale(brandPrices[0].date)} ${yScale(brandPrices[0].price)}`;
-							
+
 							// top line (brand prices)
 							for (let i = 1; i < brandPrices.length; i++) {
 								path += ` L ${xScale(brandPrices[i].date)} ${yScale(brandPrices[i].price)}`;
 							}
-							
+
 							// bottom line (inflation, reversed)
 							for (let i = inflationLine.length - 1; i >= 0; i--) {
 								path += ` L ${xScale(inflationLine[i].date)} ${yScale(inflationLine[i].price)}`;
 							}
-							
+
 							path += ' Z'; // close path
 							return path;
 						})()}
-						<path
-							d={areaPath}
-							fill="#9a2f1f"
-							opacity="0.2"
-						/>
+						<path d={areaPath} fill="#9a2f1f" opacity="0.2" />
 					{/if}
 
 					<!-- brand price line -->
 					{#if brandPath}
-						<path
-							d={brandPath}
-							fill="none"
-							stroke="#9a2f1f"
-							stroke-width="1.5"
-						/>
+						<path d={brandPath} fill="none" stroke="#9a2f1f" stroke-width="1.5" />
 					{/if}
 
 					<!-- inflation expectation line (solid gray) -->
 					{#if inflationPath}
-						<path
-							d={inflationPath}
-							fill="none"
-							stroke="#666"
-							stroke-width="1.5"
-						/>
+						<path d={inflationPath} fill="none" stroke="#666" stroke-width="1.5" />
 					{/if}
 
 					<!-- data points on brand line -->
 					{#each brandPrices as point, i}
 						{@const inflationPoint = inflationLine[i]}
-						{@const diff = inflationPoint ? ((point.price - inflationPoint.price) / inflationPoint.price) * 100 : 0}
+						{@const diff = inflationPoint
+							? ((point.price - inflationPoint.price) / inflationPoint.price) * 100
+							: 0}
 						<circle
 							cx={xScale(point.date)}
 							cy={yScale(point.price)}
@@ -364,10 +364,7 @@ x-axis: year, y-axis: price
 					{/each}
 
 					<!-- axes -->
-					<g
-						class="x-axis"
-						transform="translate(0,{height - margin.bottom})"
-						bind:this={xAxisRef}
+					<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}
 					></g>
 					<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
 
@@ -393,7 +390,7 @@ x-axis: year, y-axis: price
 					</text> -->
 
 					<!-- legend -->
-						<g transform="translate({width - margin.right - 115}, {margin.top + 5})">
+					<g transform="translate({width - margin.right - 115}, {margin.top + 5})">
 						<!-- brand -->
 						<line x1="0" y1="0" x2="30" y2="0" stroke="#9a2f1f" stroke-width="2" />
 						<text x="35" y="5" class="legend-text">Brand</text>
@@ -408,7 +405,12 @@ x-axis: year, y-axis: price
 				{#if tooltipData}
 					<div class="tooltip" style="left: {tooltipData.x + 15}px; top: {tooltipData.y}px;">
 						<div class="tooltip-date">
-							<strong>{tooltipData.date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}</strong>
+							<strong
+								>{tooltipData.date.toLocaleDateString('en-US', {
+									month: 'short',
+									year: 'numeric'
+								})}</strong
+							>
 						</div>
 						<div class="tooltip-row">
 							<span class="label">Brand:</span>
@@ -420,7 +422,11 @@ x-axis: year, y-axis: price
 						</div>
 						<div class="tooltip-row">
 							<span class="label">Difference:</span>
-							<span class="value" class:above={tooltipData.diff > 0} class:below={tooltipData.diff < 0}>
+							<span
+								class="value"
+								class:above={tooltipData.diff > 0}
+								class:below={tooltipData.diff < 0}
+							>
 								{tooltipData.diff > 0 ? '+' : ''}{tooltipData.diff.toFixed(1)}%
 							</span>
 						</div>
@@ -486,7 +492,7 @@ x-axis: year, y-axis: price
 	}
 
 	.difference-display .below {
-		color: #2D6A4F;
+		color: #2d6a4f;
 	}
 
 	.chart-area {
@@ -544,12 +550,12 @@ x-axis: year, y-axis: price
 	}
 
 	.tooltip-row .value.below {
-		color: #2D6A4F;
+		color: #2d6a4f;
 	}
 
 	.axis-label {
 		font-family: fustat;
-		font-size: .9em;
+		font-size: 0.9em;
 		font-weight: 500;
 	}
 
@@ -559,7 +565,7 @@ x-axis: year, y-axis: price
 		fill: #333;
 	}
 
-	.chart-title{
+	.chart-title {
 		font-family: fustat;
 		font-size: 1.1em;
 		font-weight: 500;

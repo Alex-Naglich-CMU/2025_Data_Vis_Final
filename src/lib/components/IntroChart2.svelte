@@ -2,251 +2,76 @@
 
 <script lang="ts">
 	import * as d3 from 'd3';
-	import { onMount } from 'svelte';
+	import type { PriceChange } from '$lib/scripts/types';
+	import introChartData from '$lib/scripts/introChartData';
 
-	interface PriceChange {
-		category: string;
-		count: number;
-		percentage: number;
-		color: string;
-	}
-
-	let loading = $state(true);
-	let error = $state<string | null>(null);
-	let searchIndex = $state<any>({});
-	let priceChanges = $state<PriceChange[]>([]);
-
-	//variables for increase/decrease percentages
-	let increased = $state(0);
-	let decreased = $state(0);
-	let stayedSame = $state(0);
-	let total = $state(0);
-
-	//variables for dollar amount increases/decreases
-	let increasedDollars = $state(0);
-	let decreasedDollars = $state(0);
-	let stayedSameDollars = $state(0);
-	let totalDollars = $state(0);
-
-	// variable for view mode control
-	let viewMode = $state<'dollars' | 'count'>('dollars');
-
-	// layout
 	const width = 400;
 	const height = 400;
 	const radius = Math.min(width, height) / 2 - 40;
+	const loading = false;
+	const error: string | null = null;
 
-	onMount(async () => {
-		try {
-			const searchIndexModule = await import('$lib/data/search_index_all.json');
-			searchIndex = searchIndexModule.default;
+	let viewMode: 'count' | 'dollars' = 'dollars';
 
-			await analyzeAllDrugs();
-			loading = false;
-		} catch (err) {
-			error = err instanceof Error ? err.message : 'Unknown error';
-			loading = false;
-		}
-	});
-
-	async function analyzeAllDrugs() {
-		loading = true;
-		//increase count values 
-		let increasedCount = 0;
-		let decreasedCount = 0;
-		let stayedSameCount = 0;
-		let totalCount = 0;
-		let skippedCount = 0;
-		// Dollar sum values
-		let increasedDollarSum = 0;
-		let decreasedDollarSum = 0;
-		let stayedSameDollarSum = 0;
-		let totalDollarSum = 0;
-
-		try {
-			let processed = 0;
-			const totalEntries = Object.keys(searchIndex).length;
-
-			for (const [rxcui, data] of Object.entries(searchIndex)) {
-				processed++;
-				if (processed % 500 === 0) {
-				}
-
-				const drugData = data as any;
-
-				try {
-					const priceModule = await import(`$lib/data/prices/${rxcui}.json`);
-					const priceData = priceModule.default;
-
-					if (!priceData.prices || Object.keys(priceData.prices).length === 0) {
-						skippedCount++;
-						continue;
-					}
-
-					// get first and last prices
-					const { firstPrice, lastPrice, firstDate, lastDate } = getFirstAndLastPrices(priceData.prices);
-
-					if (firstPrice === null || lastPrice === null || firstPrice <= 0) {
-						skippedCount++;
-						continue;
-					}
-
-					totalCount++;
-
-					// check if it's a single entry drug
-					const isSingleEntry = firstDate && lastDate && firstDate.getTime() === lastDate.getTime();
-					
-					const percentChange = ((lastPrice - firstPrice) / firstPrice) * 100;
-
-					const dollarChange = Math.abs(lastPrice - firstPrice);
-					totalDollarSum += dollarChange;
-
-					if (percentChange > 1) {
-						increasedCount++;
-						increasedDollarSum += dollarChange;
-					} else if (percentChange < -1) {
-						decreasedCount++;
-						decreasedDollarSum += dollarChange;
-					} else {
-						stayedSameCount++;
-						stayedSameDollarSum += dollarChange;
-						if (isSingleEntry) {
-						} else {
-						}
-					}
-				} catch (e) {
-					skippedCount++;
-					// skip drugs without price data
-				}
-			}
-
-			//increase/decrease count
-			increased = increasedCount;
-			decreased = decreasedCount;
-			stayedSame = stayedSameCount;
-			total = totalCount;
-
-			//dollar change
-			increasedDollars = increasedDollarSum;
-			decreasedDollars = decreasedDollarSum;
-			stayedSameDollars = stayedSameDollarSum;
-			totalDollars = totalDollarSum;
-
-			updatePriceChanges();
-			loading = false;
-
-		} catch (err) {
-			console.error('error analyzing drug data:', err);
-			loading = false;
-		}
-	}
-
-	function updatePriceChanges() {
-		if (viewMode === 'count') {
-			priceChanges = [
+	function getPriceChanges(mode: 'count' | 'dollars'): PriceChange[] {
+		if (mode === 'count') {
+			return [
 				{
 					category: 'Increased',
-					count: increased,
-					percentage: (increased / total) * 100,
+					count: introChartData.increased,
+					percentage: Number(introChartData.increasedPct),
 					color: '#9a2f1f'
 				},
 				{
 					category: 'Decreased',
-					count: decreased,
-					percentage: (decreased / total) * 100,
+					count: introChartData.decreased,
+					percentage: Number(introChartData.decreasedPct),
 					color: '#355B75'
 				},
 				{
 					category: 'Stayed the Same',
-					count: stayedSame,
-					percentage: (stayedSame / total) * 100,
+					count: introChartData.stayedSame,
+					percentage: Number(introChartData.stayedSamePct),
 					color: '#616161'
 				}
 			];
 		} else {
-			priceChanges = [
+			return [
 				{
 					category: 'Increased',
-					count: increasedDollars,
-					percentage: (increasedDollars / totalDollars) * 100,
+					count: introChartData.increasedDollars,
+					percentage: Number(introChartData.increasedDollarsPct),
 					color: '#9a2f1f'
 				},
 				{
 					category: 'Decreased',
-					count: decreasedDollars,
-					percentage: (decreasedDollars / totalDollars) * 100,
+					count: introChartData.decreasedDollars,
+					percentage: Number(introChartData.decreasedDollarsPct),
 					color: '#355B75'
+				},
+				{
+					category: 'Stayed the Same',
+					count: introChartData.stayedSameDollars,
+					percentage: Number(introChartData.stayedSameDollarsPct),
+					color: '#616161'
 				}
 			];
 		}
 	}
 
+	$: priceChanges = getPriceChanges(viewMode);
+	$: arcs = pie(priceChanges);
+
 	function toggleViewMode() {
-		viewMode = viewMode === 'dollars' ? 'count' : 'dollars';
-		updatePriceChanges();
+		viewMode = viewMode === 'count' ? 'dollars' : 'count';
 	}
 
-	function getFirstAndLastPrices(pricesObj: any): { 
-		firstPrice: number | null; 
-		lastPrice: number | null;
-		firstDate: Date | null;
-		lastDate: Date | null;
-	} {
-		let earliestDate: Date | null = null;
-		let latestDate: Date | null = null;
-		let firstPrice: number | null = null;
-		let lastPrice: number | null = null;
-
-		// find earliest and latest dates across all NDCs
-		for (const ndc in pricesObj) {
-			for (const [dateStr, price] of Object.entries(pricesObj[ndc])) {
-				const date = parseDate(dateStr);
-				if (!date) continue;
-
-				if (earliestDate === null || date < earliestDate) {
-					earliestDate = date;
-					firstPrice = price as number;
-				}
-
-				if (latestDate === null || date > latestDate) {
-					latestDate = date;
-					lastPrice = price as number;
-				}
-			}
-		}
-
-		return { firstPrice, lastPrice, firstDate: earliestDate, lastDate: latestDate };
-	}
-
-	function parseDate(dateStr: string): Date | null {
-		try {
-			const parts = dateStr.split('/');
-			if (parts.length === 3) {
-				const month = parseInt(parts[0]) - 1;
-				const day = parseInt(parts[1]);
-				const year = parseInt(parts[2]);
-				return new Date(year, month, day);
-			}
-		} catch (e) {
-			console.warn('failed to parse date:', dateStr);
-		}
-		return null;
-	}
-
-	// create pie chart
 	const pie = d3.pie<PriceChange>().value((d) => d.count);
-
-	const arc = d3
-		.arc<d3.PieArcDatum<PriceChange>>()
-		.innerRadius(0)
-		.outerRadius(radius);
-
+	const arc = d3.arc<d3.PieArcDatum<PriceChange>>().innerRadius(0).outerRadius(radius);
 	const labelArc = d3
 		.arc<d3.PieArcDatum<PriceChange>>()
 		.innerRadius(radius * 0.6)
 		.outerRadius(radius * 0.6);
-
-	const arcs = $derived(pie(priceChanges));
 </script>
 
 {#if loading}
@@ -293,13 +118,13 @@
 							<!-- <div class="legend-color" style="background-color: {change.color}"></div> -->
 							<div class="legend-text">
 								<h4 style="color: {change.color}">{change.percentage.toFixed(1)}%</h4>
-								<h6 class="category"> of drug prices <b>{change.category}</b></h6>
+								<h6 class="category">of drug prices <b>{change.category}</b></h6>
 							</div>
 						</div>
 					{/each}
-					<h6 class='hook'>But is that the whole story?</h6>
+					<h6 class="hook">But is that the whole story?</h6>
 				{:else}
-					<div class='price-hook'>
+					<div class="price-hook">
 						<!-- <h4>The amount the price changed by:</h4> -->
 					</div>
 					{#each priceChanges as change}
@@ -311,10 +136,11 @@
 							</div>
 						</div>
 					{/each}
-					<h6 class='price-hook hook'>The total cost of drugs whose prices went up increased by <b>10x</b> more than the cost of the drugs whose prices went down decreased.</h6>
-
+					<h6 class="price-hook hook">
+						The total cost of drugs whose prices went up increased by <b>10x</b> more than the cost of
+						the drugs whose prices went down decreased.
+					</h6>
 				{/if}
-					
 			</div>
 		</div>
 	</div>
@@ -324,7 +150,7 @@
 	* {
 		font-family: Antonio;
 	}
-	
+
 	h1 {
 		font-size: 5em;
 		font-weight: bold;
@@ -345,7 +171,7 @@
 		font-size: 1.3em;
 		font-weight: 700;
 	}
-	
+
 	h5 {
 		font-family: fustat;
 		font-size: 1em;
@@ -360,7 +186,7 @@
 		text-transform: uppercase;
 	}
 
-	h6 b{
+	h6 b {
 		font-family: fustat;
 		font-size: 1em;
 		font-weight: 800;
@@ -428,7 +254,7 @@
 
 	.slice-label {
 		font-family: fustat;
-		font-size: .9em;
+		font-size: 0.9em;
 		pointer-events: none;
 		padding: 0;
 		margin: 0;
@@ -492,16 +318,16 @@
 
 	.toggle-button {
 		padding: 0.4em 1em;
-		font-size: .9em;
+		font-size: 0.9em;
 		font-family: Fustat;
-		background-color: #F6F5EC;
+		background-color: #f6f5ec;
 		color: #000000;
 		border: 1px solid #ccc;
 		cursor: pointer;
 		transition: all 0.2s;
 	}
 
-	.left-button  {
+	.left-button {
 		min-width: 160px;
 		border-radius: 20px 0 0 20px;
 		border-right: 1px solid #ccc;
@@ -520,7 +346,6 @@
 	.toggle-button.active {
 		background-color: #656565;
 		color: white;
-		border-color: #3F5339;
+		border-color: #3f5339;
 	}
-
 </style>

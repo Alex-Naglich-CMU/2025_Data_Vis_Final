@@ -113,8 +113,8 @@
 				.map(rxcui => loadedData.find(drug => drug.rxcui === rxcui))
 				.filter(drug => drug !== undefined) as DrugAllData[];
 
-			console.log('Brand drugs in order:');
-			drugsData.forEach((drug, i) => console.log(`  ${i}: ${drug.friendlyName}`));
+			// console.log('Brand drugs in order:');
+			// drugsData.forEach((drug, i) => // console.log(`  ${i}: ${drug.friendlyName}`));
 
 			// set initial to Prozac (index 8)
 			selectedDrugIndex = 8;
@@ -258,13 +258,13 @@
 			<!--- MAIN CHART --->
 			<div class="chart-wrapper relative">
 				<div class="chart-header">
-					<h5 class='generic-label'>Brand Version:</h5>
+					<h5 class="generic-label">Brand Version:</h5>
 				</div>
 				<div>
-					<h4 class='drug-label-brand'>
+					<h4 class="drug-label-brand">
 						{brandDrug ? brandDrug.friendlyName.toUpperCase() : 'Brand'}
 					</h4>
-					<svg class='chart' {width} {height} role="img" bind:this={mainSvgRef}>
+					<svg class="chart" {width} {height} role="img" bind:this={mainSvgRef}>
 						<defs>
 							<clipPath id="timeseries-plot-clip">
 								<rect
@@ -283,12 +283,12 @@
 							{@render dataPoints(genericChartData, xScale, yScale, colors.blue, false)}
 						</g>
 
-						<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}></g>
+						<g class="x-axis" transform="translate(0,{height - margin.bottom})" bind:this={xAxisRef}
+						></g>
 						<g class="y-axis" transform="translate({margin.left},0)" bind:this={yAxisRef}></g>
 						{@render axisLabels(width, height)}
 					</svg>
 				</div>
-				
 			</div>
 
 			<!--- SIDE BAR --->
@@ -322,13 +322,13 @@
 
 				<!--- GENERIC CHART --->
 				<div class="individual-charts-container">
-					<div class='relative'>
+					<div class="relative">
 						<div class="chart-header">
-							<h5 class='generic-label'>Generic Version:</h5>
+							<h5 class="generic-label">Generic Version:</h5>
 						</div>
 						<div>
-							<div class='drug-title'>
-								<h4 class='drug-label'>{genericDrug ? genericDrug.friendlyName : ''}</h4>
+							<div class="drug-title">
+								<h4 class="drug-label">{genericDrug ? genericDrug.friendlyName : ''}</h4>
 							</div>
 							<svg width={smallWidth} height={smallHeight} role="img" bind:this={genericSvgRef}>
 								<!-- Clipping Path Definition -->
@@ -346,7 +346,13 @@
 								<!-- Data Drawing Elements with clipping -->
 								<g clip-path="url(#generic-plot-clip)">
 									{@render chartLine(smallGenericLinePath, colors.blue, false)}
-									{@render dataPoints(genericChartData, genericXScale, genericYScale, colors.blue, false)}
+									{@render dataPoints(
+										genericChartData,
+										genericXScale,
+										genericYScale,
+										colors.blue,
+										false
+									)}
 								</g>
 
 								<!-- Axes -->
@@ -355,12 +361,12 @@
 									transform="translate(0,{smallHeight - margin.bottom})"
 									bind:this={genericXAxisRef}
 								></g>
-								<g class="y-axis" transform="translate({margin.left},0)" bind:this={genericYAxisRef}></g>
+								<g class="y-axis" transform="translate({margin.left},0)" bind:this={genericYAxisRef}
+								></g>
 
 								{@render axisLabels(smallWidth, smallHeight)}
 							</svg>
 						</div>
-						
 					</div>
 				</div>
 			</div>
@@ -404,7 +410,8 @@
 					{#if savings !== undefined && savingsPercent !== undefined}
 						<div class="tooltip-row savings">
 							<span class="label" style="color: {colors.green}">Savings:</span>
-							<span class="value" style="color: {colors.green}">${savings.toFixed(2)} ({savingsPercent.toFixed(2)}%)</span
+							<span class="value" style="color: {colors.green}"
+								>${savings.toFixed(2)} ({savingsPercent.toFixed(2)}%)</span
 							>
 						</div>
 					{/if}
@@ -415,13 +422,11 @@
 {/if}
 
 <!--- SNIPPETS --->
-{#snippet axisLabels(width: number, height: number)}
-
-{/snippet}
+{#snippet axisLabels(width: number, height: number)}{/snippet}
 
 {#snippet chartLine(linePath: string, color: string, generic: boolean)}
 	{#if linePath}
-		<path d={linePath} fill="none" style="stroke: {color}" stroke-width=2 />
+		<path d={linePath} fill="none" style="stroke: {color}" stroke-width="2" />
 	{/if}
 {/snippet}
 
@@ -499,8 +504,8 @@
 		font-weight: 700;
 		text-transform: uppercase;
 	}
-	
-	h5  {
+
+	h5 {
 		font-family: fustat;
 		font-size: 1em;
 		font-weight: normal;
@@ -710,11 +715,11 @@
 
 	.drug-label {
 		font-size: 1.1em;
-		color: #3A7CA5;
+		color: #3a7ca5;
 	}
 
 	.drug-label-brand {
 		font-size: 1.1em;
-		color: #C9381A;
+		color: #c9381a;
 	}
 </style>

@@ -9,8 +9,7 @@
 	import * as d3 from 'd3';
 	import { onMount } from 'svelte';
 	import { isDarkMode } from '$lib/stores/theme';
-    import searchIndexData from '$lib/data/search_index_all.json';
-
+	import searchIndexData from '$lib/data/search_index_all.json';
 
 	// PROPS & STATE
 	const brandDrugs = [
@@ -39,7 +38,7 @@
 	let error = $state<string | null>(null);
 	let searchIndex = $state<any>({});
 	let drugVariations = $state<DrugVariation[]>([]);
-	
+
 	let tooltipData = $state<{ date: Date; prices: Map<string, number> } | null>(null);
 	let cursorX = $state(0);
 	let cursorY = $state(0);
@@ -49,25 +48,25 @@
 	// LAYOUT CONSTANTS
 	const colors = d3.schemeCategory10 as string[];
 	let containerWidth = $state(0);
-	const chartWidth = $derived((containerWidth * 0.48) || 500);
+	const chartWidth = $derived(containerWidth * 0.48 || 500);
 	const chartHeight = $derived(chartWidth * 0.7);
 	const margin = { top: 5, right: 40, bottom: 60, left: 80 };
 
 	// DATA LOADING
-onMount(async () => {
-	try {
-		// Import search index directly
-		const searchIndexModule = await import('$lib/data/search_index_all.json');
-		searchIndex = searchIndexModule.default;
-		console.log('✅ Search index loaded:', Object.keys(searchIndex).length, 'entries');
-		loading = false;
-		await loadDrugData();
-	} catch (err) {
-		error = err instanceof Error ? err.message : 'Unknown error';
-		loading = false;
-		console.error('❌ Error loading search index:', err);
-	}
-});
+	onMount(async () => {
+		try {
+			// Import search index directly
+			const searchIndexModule = await import('$lib/data/search_index_all.json');
+			searchIndex = searchIndexModule.default;
+			// console.log('✅ Search index loaded:', Object.keys(searchIndex).length, 'entries');
+			loading = false;
+			await loadDrugData();
+		} catch (err) {
+			error = err instanceof Error ? err.message : 'Unknown error';
+			loading = false;
+			console.error('❌ Error loading search index:', err);
+		}
+	});
 
 	// Load data for selected drug
 	async function loadDrugData() {
@@ -77,7 +76,7 @@ onMount(async () => {
 
 		try {
 			const selectedDrug = brandDrugs[selectedDrugIndex];
-			console.log('🔍 Loading data for:', selectedDrug.name);
+			// console.log('🔍 Loading data for:', selectedDrug.name);
 			const variations: DrugVariation[] = [];
 
 			// Find all RxCUIs for this drug
@@ -88,21 +87,21 @@ onMount(async () => {
 					drugData.manufacturer_name.toLowerCase().includes(selectedDrug.manufacturer) &&
 					drugData.is_brand === true
 				) {
-					console.log('  ✓ Found variation:', rxcui, drugData.name);
-					
+					// console.log('  ✓ Found variation:', rxcui, drugData.name);
+
 					// load price data to get strength and form from JSON
 					try {
 						const priceResponse = await import(`$lib/data/prices/${rxcui}.json`);
 						const priceData = priceResponse.default;
-						
+
 						// get strength and form directly from JSON
 						const strength = priceData.Strength || '';
 						const form = priceData.Form || '';
-						console.log('    → Strength from JSON:', strength, '| Form from JSON:', form);
-						
+						// console.log('    → Strength from JSON:', strength, '| Form from JSON:', form);
+
 						if (strength && form) {
 							const prices = parsePrices(priceData.prices);
-							console.log('    → Loaded', prices.length, 'price points');
+							// console.log('    → Loaded', prices.length, 'price points');
 
 							variations.push({
 								rxcui,
@@ -119,8 +118,8 @@ onMount(async () => {
 			}
 
 			drugVariations = variations;
-			console.log('📊 Total variations loaded:', variations.length);
-			console.log('📦 Variations:', variations);
+			// console.log('📊 Total variations loaded:', variations.length);
+			// console.log('📦 Variations:', variations);
 			loading = false;
 		} catch (err) {
 			error = err instanceof Error ? err.message : 'Error loading drug data';
@@ -204,7 +203,7 @@ onMount(async () => {
 		for (const [strength, variations] of strengthGroups.entries()) {
 			// Average prices across all forms for this strength
 			const priceMap = new Map<number, number[]>();
-			
+
 			for (const variation of variations) {
 				for (const point of variation.prices) {
 					const timestamp = point.date.getTime();
@@ -242,7 +241,7 @@ onMount(async () => {
 		for (const [form, variations] of formGroups.entries()) {
 			// Average prices across all strengths for this form
 			const priceMap = new Map<number, number[]>();
-			
+
 			for (const variation of variations) {
 				for (const point of variation.prices) {
 					const timestamp = point.date.getTime();
@@ -278,10 +277,10 @@ onMount(async () => {
 
 	// Debug effect to log groups and lines
 	$effect(() => {
-		console.log('💪 Strength groups:', strengthGroups);
-		console.log('📝 Form groups:', formGroups);
-		console.log('📈 Strength lines:', strengthLines);
-		console.log('📉 Form lines:', formLines);
+		// console.log('💪 Strength groups:', strengthGroups);
+		// console.log('📝 Form groups:', formGroups);
+		// console.log('📈 Strength lines:', strengthLines);
+		// console.log('📉 Form lines:', formLines);
 	});
 
 	// CHART SCALES
@@ -291,7 +290,9 @@ onMount(async () => {
 		const xScale = d3
 			.scaleTime()
 			.range([margin.left, width - margin.right])
-			.domain(hasData ? (d3.extent(data, (d) => d.date) as [Date, Date]) : [new Date(), new Date()]);
+			.domain(
+				hasData ? (d3.extent(data, (d) => d.date) as [Date, Date]) : [new Date(), new Date()]
+			);
 
 		const yScale = d3
 			.scaleLinear()
@@ -374,15 +375,10 @@ onMount(async () => {
 	</div>
 {:else}
 	<div class="mt-20">
-		
 		<!-- Drug Selector -->
 		<div class="drug-selector">
 			<label for="drug-select">Select Drug:</label>
-			<select 
-				id="drug-select" 
-				bind:value={selectedDrugIndex}
-				class="drug-dropdown"
-			>
+			<select id="drug-select" bind:value={selectedDrugIndex} class="drug-dropdown">
 				{#each brandDrugs as drug, i}
 					<option value={i}>{drug.name}</option>
 				{/each}
@@ -408,15 +404,24 @@ onMount(async () => {
 
 						<g clip-path="url(#strength-clip)">
 							{#each strengthLines as line}
-								{@const path = createLinePath(line.data, strengthScales.xScale, strengthScales.yScale)}
+								{@const path = createLinePath(
+									line.data,
+									strengthScales.xScale,
+									strengthScales.yScale
+								)}
 								{#if path}
 									<path d={path} fill="none" style="stroke: {line.color}" stroke-width="2" />
 								{/if}
 							{/each}
 						</g>
 
-						<g class="x-axis" transform="translate(0,{chartHeight - margin.bottom})" bind:this={strengthXAxisRef}></g>
-						<g class="y-axis" transform="translate({margin.left},0)" bind:this={strengthYAxisRef}></g>
+						<g
+							class="x-axis"
+							transform="translate(0,{chartHeight - margin.bottom})"
+							bind:this={strengthXAxisRef}
+						></g>
+						<g class="y-axis" transform="translate({margin.left},0)" bind:this={strengthYAxisRef}
+						></g>
 					</svg>
 
 					<!-- Legend -->
@@ -454,7 +459,11 @@ onMount(async () => {
 							{/each}
 						</g>
 
-						<g class="x-axis" transform="translate(0,{chartHeight - margin.bottom})" bind:this={formXAxisRef}></g>
+						<g
+							class="x-axis"
+							transform="translate(0,{chartHeight - margin.bottom})"
+							bind:this={formXAxisRef}
+						></g>
 						<g class="y-axis" transform="translate({margin.left},0)" bind:this={formYAxisRef}></g>
 					</svg>
 
@@ -507,7 +516,7 @@ onMount(async () => {
 		font-family: Antonio;
 		font-size: 1.1em;
 		font-weight: 600;
-        padding-left: 40px;
+		padding-left: 40px;
 	}
 
 	.drug-dropdown {

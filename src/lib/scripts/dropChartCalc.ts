@@ -96,7 +96,7 @@ export async function loadAllDrugData(
 	for (const [rxcui, data] of Object.entries(searchIndex)) {
 		processed++;
 		if (processed % 500 === 0) {
-			console.log(`loading ${processed}/${totalEntries} drugs...`);
+			// console.log(`loading ${processed}/${totalEntries} drugs...`);
 		}
 
 		const drugData = data as any;
@@ -177,6 +177,6 @@ export async function loadAllDrugData(
 		}
 	}
 
-	console.log(`loaded ${drugs.length} drugs with price data`);
+	// console.log(`loaded ${drugs.length} drugs with price data`);
 	return drugs;
 }

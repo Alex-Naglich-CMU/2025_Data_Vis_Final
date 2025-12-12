@@ -30,7 +30,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		formCategory: string; // broad category bucket
 		prices: Record<string, Record<string, number>>;
 	}
-	
+
 	let drugsData = $state<DrugData[]>([]);
 	let selectedDrugIndices = $state<Set<number>>(new Set());
 	let selectedFormCategories = $state<Set<string>>(new Set());
@@ -60,7 +60,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 			// load search index
 			const searchIndexModule = await import('$lib/data/search_index_all.json');
 			searchIndex = searchIndexModule.default;
-			console.log('search index loaded:', Object.keys(searchIndex).length, 'entries');
+			// console.log('search index loaded:', Object.keys(searchIndex).length, 'entries');
 
 			// extract all brand drugs
 			const brands: { rxcui: string; name: string }[] = [];
@@ -70,14 +70,15 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 					// parse name to get dosage info
 					const fullName = drugData.name || '';
 					const manufacturerName = drugData.manufacturer_name || '';
-					
+
 					// extract dosage and form from full name
 					const dosageMatch = fullName.replace(new RegExp(manufacturerName, 'i'), '').trim();
-					
-					const displayName = manufacturerName && dosageMatch 
-						? `${manufacturerName} - ${dosageMatch}`
-						: fullName || manufacturerName || 'Unknown';
-					
+
+					const displayName =
+						manufacturerName && dosageMatch
+							? `${manufacturerName} - ${dosageMatch}`
+							: fullName || manufacturerName || 'Unknown';
+
 					brands.push({
 						rxcui,
 						name: displayName
@@ -88,7 +89,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 			// sort alphabetically
 			brands.sort((a, b) => a.name.localeCompare(b.name));
 			allBrandDrugs = brands;
-			console.log('total brand drugs found:', brands.length);
+			// console.log('total brand drugs found:', brands.length);
 
 			// load first page
 			await loadPageData();
@@ -103,7 +104,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 	// convert prices object to chart points
 	function getChartPoints(drug: DrugData): ChartPoint[] {
 		const points: ChartPoint[] = [];
-		
+
 		// iterate through all NDCs and their dates
 		for (const ndc in drug.prices) {
 			for (const [dateStr, price] of Object.entries(drug.prices[ndc])) {
@@ -111,28 +112,28 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 				if (date) {
 					// Adjust price based on form type
 					let singleDosePrice = price;
-					// if (drug.form !== "Oral Capsule" && 
-					// 	drug.form !== "Oral Tablet" && 
-					// 	drug.form !== "Delayed/Extended Release Oral Tablet" && 
+					// if (drug.form !== "Oral Capsule" &&
+					// 	drug.form !== "Oral Tablet" &&
+					// 	drug.form !== "Delayed/Extended Release Oral Tablet" &&
 					// 	drug.form !== "Delayed/Extended Release Oral Capsule") {
-						singleDosePrice = price / 30;
+					singleDosePrice = price / 30;
 					// }
-				
+
 					points.push({ date, price: singleDosePrice });
 				}
 			}
 		}
-		
+
 		// sort by date
 		points.sort((a, b) => a.date.getTime() - b.date.getTime());
-		
+
 		// remove duplicates (keep last price for each date)
 		const dateMap = new Map<string, ChartPoint>();
 		for (const point of points) {
 			const dateKey = point.date.toISOString().split('T')[0];
 			dateMap.set(dateKey, point);
 		}
-		
+
 		return Array.from(dateMap.values()).sort((a, b) => a.date.getTime() - b.date.getTime());
 	}
 
@@ -156,12 +157,12 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 	async function loadPageData() {
 		loadingPage = true;
 		try {
-			console.log('loading page', currentPage + 1, 'with', currentPageDrugs.length, 'drugs');
+			// console.log('loading page', currentPage + 1, 'with', currentPageDrugs.length, 'drugs');
 
 			// load drug data for current page
 			const loadedDrugs: DrugData[] = [];
 			const categoriesSet = new Set<string>();
-			
+
 			for (const drug of currentPageDrugs) {
 				try {
 					// load price data
@@ -176,7 +177,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 					// get form from JSON and categorize it
 					const form = priceData.Form || 'Unknown';
 					const formCategory = categorizeDosageForm(form);
-					
+
 					if (formCategory && formCategory !== 'Other') {
 						categoriesSet.add(formCategory);
 					}
@@ -188,10 +189,10 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 						formCategory: formCategory,
 						prices: priceData.prices
 					});
-					
+
 					// log first few for debugging
 					if (loadedDrugs.length <= 5) {
-						console.log(`${drug.name}: "${form}" → "${formCategory}"`);
+						// console.log(`${drug.name}: "${form}" → "${formCategory}"`);
 					}
 				} catch (e) {
 					// skip drugs without price data
@@ -199,11 +200,11 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 			}
 
 			drugsData = loadedDrugs;
-			
+
 			// update available categories (sorted alphabetically)
 			availableFormCategories = Array.from(categoriesSet).sort();
-			console.log('loaded', loadedDrugs.length, 'drugs with', availableFormCategories.length, 'unique form categories');
-			console.log('categories:', availableFormCategories);
+			// console.log('loaded', loadedDrugs.length, 'drugs with', availableFormCategories.length, 'unique form categories');
+			// console.log('categories:', availableFormCategories);
 
 			// select all drugs on current page by default
 			const initialSelection = new Set<number>();
@@ -212,7 +213,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 			}
 			selectedDrugIndices = initialSelection;
 			selectedFormCategories = new Set<string>();
-			
+
 			loadingPage = false;
 		} catch (err) {
 			console.error('error loading page data:', err);
@@ -248,8 +249,8 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 					// if (drug.form !== "Oral Capsule" && drug.form !== "Oral Tablet" && drug.form !== "Delayed/Extended Release Oral Tablet" && drug.form !== "Delayed/Extended Release Oral Capsule") {
 					// 	mostRecentPrice = price/30;
 					// } else {
-					mostRecentPrice = price/30;		
-					// }	
+					mostRecentPrice = price / 30;
+					// }
 				}
 			}
 		}
@@ -272,8 +273,8 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 			.map((drug, i) => {
 				// need to find original index in drugsData for selection tracking
 				const originalIndex = drugsData.indexOf(drug);
-				return { 
-					drug, 
+				return {
+					drug,
 					i: originalIndex,
 					price: getMostRecentPrice(drug)
 				};
@@ -293,10 +294,10 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 
 		filteredDrugs.forEach((drug) => {
 			const originalIndex = drugsData.indexOf(drug);
-			
+
 			// only show if drug is selected
 			if (!selectedDrugIndices.has(originalIndex)) return;
-			
+
 			const brandDrugPosition = brandDrugs.findIndex(({ i }) => i === originalIndex);
 			const color = drugColors[brandDrugPosition % drugColors.length];
 
@@ -468,7 +469,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 						</button>
 					{/each}
 				</div>
-				
+
 				<svg {width} {height} role="img" bind:this={mainSvgRef}>
 					<defs>
 						<clipPath id="animated-series-clip">
@@ -664,7 +665,7 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 		background-color: rgba(75, 75, 75, 0.1);
 		cursor: pointer;
 		border-radius: 20px;
-		font-size: 0.80em;
+		font-size: 0.8em;
 		transition: all 0.2s;
 		white-space: nowrap;
 		text-align: center;
@@ -677,9 +678,9 @@ TWO-LEVEL FILTERING: filter by dosage form, then select individual drugs
 	}
 
 	.form-chip.selected {
-		background-color: #2D6A4F;
+		background-color: #2d6a4f;
 		color: white;
-		border-color: #2D6A4F;
+		border-color: #2d6a4f;
 		font-weight: 600;
 	}
 

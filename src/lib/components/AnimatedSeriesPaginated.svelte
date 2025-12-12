@@ -57,7 +57,7 @@ MODIFIED: Shows average price per year instead of all data points
 			// load search index
 			const searchIndexModule = await import('$lib/data/search_index_all.json');
 			searchIndex = searchIndexModule.default;
-			console.log('search index loaded:', Object.keys(searchIndex).length, 'entries');
+			// console.log('search index loaded:', Object.keys(searchIndex).length, 'entries');
 
 			// extract all brand drugs
 			const brands: { rxcui: string; name: string }[] = [];
@@ -97,7 +97,7 @@ MODIFIED: Shows average price per year instead of all data points
 			// sort alphabetically
 			brands.sort((a, b) => a.name.localeCompare(b.name));
 			allBrandDrugs = brands;
-			console.log('total brand drugs found:', brands.length);
+			// console.log('total brand drugs found:', brands.length);
 
 			loading = false;
 		} catch (err) {
@@ -108,7 +108,7 @@ MODIFIED: Shows average price per year instead of all data points
 
 		// Load Abilify on mount to have one drug loaded by default
 		const rxcui = '1602604';
-		toggleDrugSelection(rxcui, "Abilify");
+		toggleDrugSelection(rxcui, 'Abilify');
 	});
 
 	// convert prices object to chart points - averaged by year
@@ -209,7 +209,7 @@ MODIFIED: Shows average price per year instead of all data points
 
 			// store in array
 			loadedDrugs = [...loadedDrugs, drugData];
-			console.log(`Loaded: ${name}`);
+			// console.log(`Loaded: ${name}`);
 
 			// remove from loading
 			loadingRxcuis = loadingRxcuis.filter((r) => r !== rxcui);
@@ -459,7 +459,7 @@ MODIFIED: Shows average price per year instead of all data points
 			<div class="chart-wrapper" bind:this={chartContainerRef}>
 				<!-- form filter chips above chart -->
 				{#if availableFormCategories.length > 0}
-					<div class="form-filter-chips mb-4 pl-1 pb-4">
+					<div class="form-filter-chips mb-4 pb-4 pl-1">
 						{#each availableFormCategories as category}
 							{@const isSelected = selectedFormCategories.includes(category)}
 							<button

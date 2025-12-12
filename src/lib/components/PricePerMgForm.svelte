@@ -56,7 +56,7 @@ by calculating price per MG and displaying as sorted bar charts
 		try {
 			const searchIndexModule = await import('$lib/data/search_index_all.json');
 			searchIndex = searchIndexModule.default;
-			console.log('search index loaded:', Object.keys(searchIndex).length, 'entries');
+			// console.log('search index loaded:', Object.keys(searchIndex).length, 'entries');
 			loading = false;
 			await loadDrugData();
 		} catch (err) {
@@ -74,7 +74,7 @@ by calculating price per MG and displaying as sorted bar charts
 
 		try {
 			const selectedDrug = brandDrugs[selectedDrugIndex];
-			console.log('loading data for:', selectedDrug.name);
+			// console.log('loading data for:', selectedDrug.name);
 			const variations: DrugVariation[] = [];
 
 			// find all RxCUIs for this drug
@@ -111,9 +111,9 @@ by calculating price per MG and displaying as sorted bar charts
 									pricePerUnit
 								});
 
-								console.log(
-									`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} = $${pricePerUnit.toFixed(2)}/MG`
-								);
+								// console.log(
+								// 	`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} = $${pricePerUnit.toFixed(2)}/MG`
+								// );
 							}
 						}
 					} catch (e) {
@@ -123,7 +123,7 @@ by calculating price per MG and displaying as sorted bar charts
 			}
 
 			drugVariations = variations;
-			console.log('total variations loaded:', variations.length);
+			// console.log('total variations loaded:', variations.length);
 			loading = false;
 		} catch (err) {
 			error = err instanceof Error ? err.message : 'Error loading drug data';

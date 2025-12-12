@@ -31,7 +31,7 @@ MODIFIED: Shows average price per year instead of all data points
 		formCategory: string; // broad category bucket
 		prices: Record<string, Record<string, number>>;
 	}
-	
+
 	let drugsData = $state<DrugData[]>([]);
 	let selectedDrugIndices = $state<Set<number>>(new Set());
 	let selectedFormCategories = $state<Set<string>>(new Set());
@@ -61,7 +61,7 @@ MODIFIED: Shows average price per year instead of all data points
 			// load search index
 			const searchIndexModule = await import('$lib/data/search_index_all.json');
 			searchIndex = searchIndexModule.default;
-			console.log('search index loaded:', Object.keys(searchIndex).length, 'entries');
+			// console.log('search index loaded:', Object.keys(searchIndex).length, 'entries');
 
 			// extract all brand drugs
 			const brands: { rxcui: string; name: string }[] = [];
@@ -71,14 +71,15 @@ MODIFIED: Shows average price per year instead of all data points
 					// parse name to get dosage info
 					const fullName = drugData.name || '';
 					const manufacturerName = drugData.manufacturer_name || '';
-					
+
 					// extract dosage and form from full name
 					const dosageMatch = fullName.replace(new RegExp(manufacturerName, 'i'), '').trim();
-					
-					const displayName = manufacturerName && dosageMatch 
-						? `${manufacturerName} - ${dosageMatch}`
-						: fullName || manufacturerName || 'Unknown';
-					
+
+					const displayName =
+						manufacturerName && dosageMatch
+							? `${manufacturerName} - ${dosageMatch}`
+							: fullName || manufacturerName || 'Unknown';
+
 					brands.push({
 						rxcui,
 						name: displayName
@@ -89,7 +90,7 @@ MODIFIED: Shows average price per year instead of all data points
 			// sort alphabetically
 			brands.sort((a, b) => a.name.localeCompare(b.name));
 			allBrandDrugs = brands;
-			console.log('total brand drugs found:', brands.length);
+			// console.log('total brand drugs found:', brands.length);
 
 			// load first page
 			await loadPageData();
@@ -104,7 +105,7 @@ MODIFIED: Shows average price per year instead of all data points
 	// convert prices object to chart points - averaged by year
 	function getChartPoints(drug: DrugData): ChartPoint[] {
 		const yearPrices = new Map<number, number[]>();
-		
+
 		// iterate through all NDCs and their dates, grouping by year
 		for (const ndc in drug.prices) {
 			for (const [dateStr, price] of Object.entries(drug.prices[ndc])) {
@@ -112,7 +113,7 @@ MODIFIED: Shows average price per year instead of all data points
 				if (date) {
 					const year = date.getFullYear();
 					const singleDosePrice = price / 30;
-					
+
 					if (!yearPrices.has(year)) {
 						yearPrices.set(year, []);
 					}
@@ -120,21 +121,21 @@ MODIFIED: Shows average price per year instead of all data points
 				}
 			}
 		}
-		
+
 		// calculate average price for each year
 		const points: ChartPoint[] = [];
 		for (const [year, prices] of yearPrices.entries()) {
 			const avgPrice = prices.reduce((sum, p) => sum + p, 0) / prices.length;
 			// use January 1st of each year as the date
-			points.push({ 
-				date: new Date(year, 0, 1), 
-				price: avgPrice 
+			points.push({
+				date: new Date(year, 0, 1),
+				price: avgPrice
 			});
 		}
-		
+
 		// sort by date
 		points.sort((a, b) => a.date.getTime() - b.date.getTime());
-		
+
 		return points;
 	}
 
@@ -158,12 +159,12 @@ MODIFIED: Shows average price per year instead of all data points
 	async function loadPageData() {
 		loadingPage = true;
 		try {
-			console.log('loading page', currentPage + 1, 'with', currentPageDrugs.length, 'drugs');
+			// console.log('loading page', currentPage + 1, 'with', currentPageDrugs.length, 'drugs');
 
 			// load drug data for current page
 			const loadedDrugs: DrugData[] = [];
 			const categoriesSet = new Set<string>();
-			
+
 			for (const drug of currentPageDrugs) {
 				try {
 					// load price data
@@ -178,7 +179,7 @@ MODIFIED: Shows average price per year instead of all data points
 					// get form from JSON and categorize it
 					const form = priceData.Form || 'Unknown';
 					const formCategory = categorizeDosageForm(form);
-					
+
 					if (formCategory && formCategory !== 'Other') {
 						categoriesSet.add(formCategory);
 					}
@@ -190,10 +191,10 @@ MODIFIED: Shows average price per year instead of all data points
 						formCategory: formCategory,
 						prices: priceData.prices
 					});
-					
+
 					// log first few for debugging
 					if (loadedDrugs.length <= 5) {
-						console.log(`${drug.name}: "${form}" → "${formCategory}"`);
+						// console.log(`${drug.name}: "${form}" → "${formCategory}"`);
 					}
 				} catch (e) {
 					// skip drugs without price data
@@ -201,11 +202,11 @@ MODIFIED: Shows average price per year instead of all data points
 			}
 
 			drugsData = loadedDrugs;
-			
+
 			// update available categories (sorted alphabetically)
 			availableFormCategories = Array.from(categoriesSet).sort();
-			console.log('loaded', loadedDrugs.length, 'drugs with', availableFormCategories.length, 'unique form categories');
-			console.log('categories:', availableFormCategories);
+			// console.log('loaded', loadedDrugs.length, 'drugs with', availableFormCategories.length, 'unique form categories');
+			// console.log('categories:', availableFormCategories);
 
 			// select all drugs on current page by default
 			const initialSelection = new Set<number>();
@@ -214,7 +215,7 @@ MODIFIED: Shows average price per year instead of all data points
 			}
 			selectedDrugIndices = initialSelection;
 			selectedFormCategories = new Set<string>();
-			
+
 			loadingPage = false;
 		} catch (err) {
 			console.error('error loading page data:', err);
@@ -247,7 +248,7 @@ MODIFIED: Shows average price per year instead of all data points
 				const date = parseDate(dateStr);
 				if (date && (mostRecentDate === null || date > mostRecentDate)) {
 					mostRecentDate = date;
-					mostRecentPrice = price/30;		
+					mostRecentPrice = price / 30;
 				}
 			}
 		}
@@ -270,8 +271,8 @@ MODIFIED: Shows average price per year instead of all data points
 			.map((drug, i) => {
 				// need to find original index in drugsData for selection tracking
 				const originalIndex = drugsData.indexOf(drug);
-				return { 
-					drug, 
+				return {
+					drug,
 					i: originalIndex,
 					price: getMostRecentPrice(drug)
 				};
@@ -291,10 +292,10 @@ MODIFIED: Shows average price per year instead of all data points
 
 		filteredDrugs.forEach((drug) => {
 			const originalIndex = drugsData.indexOf(drug);
-			
+
 			// only show if drug is selected
 			if (!selectedDrugIndices.has(originalIndex)) return;
-			
+
 			const brandDrugPosition = brandDrugs.findIndex(({ i }) => i === originalIndex);
 			const color = drugColors[brandDrugPosition % drugColors.length];
 
@@ -466,7 +467,7 @@ MODIFIED: Shows average price per year instead of all data points
 						</button>
 					{/each}
 				</div>
-				
+
 				<svg {width} {height} role="img" bind:this={mainSvgRef}>
 					<defs>
 						<clipPath id="animated-series-clip">
@@ -661,7 +662,7 @@ MODIFIED: Shows average price per year instead of all data points
 		background-color: rgba(75, 75, 75, 0.1);
 		cursor: pointer;
 		border-radius: 20px;
-		font-size: 0.80em;
+		font-size: 0.8em;
 		transition: all 0.2s;
 		white-space: nowrap;
 		text-align: center;
@@ -674,9 +675,9 @@ MODIFIED: Shows average price per year instead of all data points
 	}
 
 	.form-chip.selected {
-		background-color: #2D6A4F;
+		background-color: #2d6a4f;
 		color: white;
-		border-color: #2D6A4F;
+		border-color: #2d6a4f;
 		font-weight: 600;
 	}
 

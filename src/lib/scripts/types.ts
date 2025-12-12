@@ -1,3 +1,10 @@
+// Shared type for IntroChart and IntroChart2
+export interface PriceChange {
+	category: string;
+	count: number;
+	percentage: number;
+	color: string;
+}
 // DrugData, smaller interface
 export interface DrugData {
 	rxcui: string;

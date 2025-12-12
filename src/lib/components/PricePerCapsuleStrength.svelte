@@ -56,7 +56,7 @@ by displaying absolute price per capsule (not divided by strength)
 		try {
 			const searchIndexModule = await import('$lib/data/search_index_all.json');
 			searchIndex = searchIndexModule.default;
-			console.log('search index loaded:', Object.keys(searchIndex).length, 'entries');
+			// console.log('search index loaded:', Object.keys(searchIndex).length, 'entries');
 			loading = false;
 			await loadDrugData();
 		} catch (err) {
@@ -74,7 +74,7 @@ by displaying absolute price per capsule (not divided by strength)
 
 		try {
 			const selectedDrug = brandDrugs[selectedDrugIndex];
-			console.log('loading data for:', selectedDrug.name);
+			// console.log('loading data for:', selectedDrug.name);
 			const variations: DrugVariation[] = [];
 
 			// find all RxCUIs for this drug
@@ -85,15 +85,15 @@ by displaying absolute price per capsule (not divided by strength)
 					drugData.manufacturer_name.toLowerCase().includes(selectedDrug.manufacturer) &&
 					drugData.is_brand === true
 				) {
-					console.log('found variation:', rxcui, drugData.name);
+					// console.log('found variation:', rxcui, drugData.name);
 
 					try {
 						const priceResponse = await import(`$lib/data/prices/${rxcui}.json`);
 						const priceData = priceResponse.default;
 
-						console.log('price data structure:', Object.keys(priceData));
-						console.log('Strength field:', priceData.Strength);
-						console.log('Form field:', priceData.Form);
+						// console.log('price data structure:', Object.keys(priceData));
+						// console.log('Strength field:', priceData.Strength);
+						// console.log('Form field:', priceData.Form);
 
 						// get strength and form directly from JSON
 						const strengthLabel = priceData.Strength || '';
@@ -111,9 +111,9 @@ by displaying absolute price per capsule (not divided by strength)
 									mostRecentPrice
 								});
 
-								console.log(
-									`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} per capsule`
-								);
+								// console.log(
+								// 	`found ${strengthLabel} ${form}: $${mostRecentPrice.toFixed(2)} per capsule`
+								// );
 							}
 						}
 					} catch (e) {
@@ -123,7 +123,7 @@ by displaying absolute price per capsule (not divided by strength)
 			}
 
 			drugVariations = variations;
-			console.log('total variations loaded:', variations.length);
+			// console.log('total variations loaded:', variations.length);
 			loading = false;
 		} catch (err) {
 			error = err instanceof Error ? err.message : 'Error loading drug data';
