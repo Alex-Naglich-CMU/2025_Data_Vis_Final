@@ -270,7 +270,7 @@
 					<br />
 					<p>
 						If we look at this in the simplest way, causes can be broken down into two categories:
-						development costs, and systemic factors.
+						<b>development costs, and systemic factors.</b>
 					</p>
 					<br />
 					<div class='bottle-illustration'>
@@ -287,7 +287,7 @@
 
 			<div class="slide-section">
 				<div class="slide-section-content">
-					<h2>Development Costs</h2>
+					<h3>Development Costs</h3>
 					<br />
 					<h4>Price remains relatively stable across different dosages of the same drug</h4>
 					<br />
@@ -299,13 +299,13 @@
 					</p>
 					<br /> 
 					<DrugSelector bind:selectedDrugIndex />
-
 					<div class="width-tracker mid-chart">
 						<div class="charts-container">
-							<PricePerMgForm {selectedDrugIndex} />
-							<PricePerCapsuleForm {selectedDrugIndex} />
+							<PricePerMgStrength {selectedDrugIndex} />
+							<PricePerCapsuleStrength {selectedDrugIndex} />
 						</div>
 					</div>
+					
 				</div>
 			</div>
 
@@ -325,10 +325,11 @@
 					<DrugSelector bind:selectedDrugIndex />
 					<div class="width-tracker mid-chart">
 						<div class="charts-container">
-							<PricePerMgStrength {selectedDrugIndex} />
-							<PricePerCapsuleStrength {selectedDrugIndex} />
+							<PricePerMgForm {selectedDrugIndex} />
+							<PricePerCapsuleForm {selectedDrugIndex} />
 						</div>
 					</div>
+					
 				</div>
 			</div>
 
@@ -352,7 +353,7 @@
 
 			<div class="slide-section">
 				<div class="slide-section-content">
-					<h2>Systemic Factors</h2>
+					<h3>Systemic Factors</h3>
 					<br />
 					<h4>Drugs are developed, priced, and distributed by profit-driven companies.</h4>
 					<br />
@@ -407,6 +408,7 @@
 
 			<div class="slide-section">
 				<div class="slide-section-content">
+					<h2>How You Can Act</h2>
 					<br />
 					<h4>For your own personal prescriptions, choose generic when it's available.</h4>
 					<br />

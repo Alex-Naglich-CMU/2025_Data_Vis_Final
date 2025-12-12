@@ -295,7 +295,7 @@
 			<div class="side-bar">
 				<div class="controls">
 					<div class="flex items-center justify-between">
-						<label for="drug-select">Select Drug:</label>
+						<!-- <label for="drug-select">Select Drug:</label> -->
 						<span class="text-sm text-gray-500"> * For a 30 day supply</span>
 					</div>
 					<!-- <ul class="drug-list" role="listbox">
