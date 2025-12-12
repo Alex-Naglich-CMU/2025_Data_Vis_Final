@@ -441,6 +441,11 @@
 						> drop between 2023 and 2025.
 					</p>
 					<br />
+				</div>
+			</div>
+
+			<div class="slide-section">
+				<div class="slide-section-content">
 					<div class="chart-wrapper">
 						<DropChart />
 					</div>
@@ -597,14 +602,14 @@
 		min-height: 100vh;
 		display: flex;
 		justify-content: center;
+		align-items: center;
 		scroll-snap-align: start;
+		padding: 2em 0;
 	}
 
 	.slide-section-content {
-		min-height: 100vh;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
+		max-width: 850px;
+		width: 100%;
 	}
 
 	.page-container {
