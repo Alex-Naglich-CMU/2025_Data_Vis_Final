@@ -459,7 +459,7 @@ MODIFIED: Shows average price per year instead of all data points
 			<div class="chart-wrapper" bind:this={chartContainerRef}>
 				<!-- form filter chips above chart -->
 				{#if availableFormCategories.length > 0}
-					<div class="form-filter-chips mb-4 ml-1 pb-4">
+					<div class="form-filter-chips mb-4 pl-1 pb-4">
 						{#each availableFormCategories as category}
 							{@const isSelected = selectedFormCategories.includes(category)}
 							<button
