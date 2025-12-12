@@ -27,12 +27,6 @@
 					count: introChartData.decreased,
 					percentage: Number(introChartData.decreasedPct),
 					color: '#355B75'
-				},
-				{
-					category: 'Stayed the Same',
-					count: introChartData.stayedSame,
-					percentage: Number(introChartData.stayedSamePct),
-					color: '#616161'
 				}
 			];
 		} else {
@@ -48,12 +42,6 @@
 					count: introChartData.decreasedDollars,
 					percentage: Number(introChartData.decreasedDollarsPct),
 					color: '#355B75'
-				},
-				{
-					category: 'Stayed the Same',
-					count: introChartData.stayedSameDollars,
-					percentage: Number(introChartData.stayedSameDollarsPct),
-					color: '#616161'
 				}
 			];
 		}
@@ -115,7 +103,6 @@
 					<h4>Between 2017 and 2025 ...</h4>
 					{#each priceChanges as change}
 						<div class="legend-item">
-							<!-- <div class="legend-color" style="background-color: {change.color}"></div> -->
 							<div class="legend-text">
 								<h4 style="color: {change.color}">{change.percentage.toFixed(1)}%</h4>
 								<h6 class="category">of drug prices <b>{change.category}</b></h6>
@@ -124,12 +111,9 @@
 					{/each}
 					<h6 class="hook">But is that the whole story?</h6>
 				{:else}
-					<div class="price-hook">
-						<!-- <h4>The amount the price changed by:</h4> -->
-					</div>
+					<div class="price-hook"></div>
 					{#each priceChanges as change}
 						<div class="legend-item">
-							<!-- <div class="legend-color" style="background-color: {change.color}"></div> -->
 							<div class="legend-text">
 								<h6>Combined Cost <b>{change.category}</b> by</h6>
 								<h4 class="category" style="color: {change.color}">${change.count.toFixed(2)}</h4>
@@ -271,13 +255,6 @@
 		align-items: center;
 		gap: 1em;
 	}
-
-	/* .legend-color {
-		width: 25px;
-		height: 25px;
-		border-radius: 4px;
-		flex-shrink: 0;
-	} */
 
 	.legend-text {
 		font-family: fustat;
