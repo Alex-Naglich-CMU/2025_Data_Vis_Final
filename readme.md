@@ -2,8 +2,6 @@
 
 This project was completed as part of Carnegie Mellon University’s 05-619: Data Visualization course. 
 
-Deployed Page 
-
 ## Installation and Usage
 Follow these steps to set up the project locally:
 
