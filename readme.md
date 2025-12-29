@@ -1,6 +1,6 @@
 # Do You Know the Actual Cost of Your Medications?
 
-This project was completed as part of Carnegie Mellon University’s 05-619: Data Visualization course. Its goal was to ...
+This project was completed as part of Carnegie Mellon University’s 05-619: Data Visualization course. 
 
 Deployed Page 
 
